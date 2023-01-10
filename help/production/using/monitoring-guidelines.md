@@ -107,7 +107,7 @@ Se pueden realizar acciones específicas al encontrar problemas con las entregas
 
 <img src="assets/do-not-localize/icon_database.svg" width="60px">
 
-**Flujo de trabajo para limpieza de bases de datos**
+**Flujo de trabajo de limpieza de la base de datos**
 
 El flujo de trabajo Database cleanup permite eliminar datos obsoletos de la base de datos. Se recomienda evitar el crecimiento exponencial de la base de datos. [Haga clic aquí](../../production/using/database-cleanup-workflow.md) para obtener más información.
 
