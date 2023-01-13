@@ -3,9 +3,9 @@ product: campaign
 title: Migrar al conector de Adobe Analytics
 description: 'Campaign: Preguntas más frecuentes sobre el conector de Analytics'
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: c072cb5b2d33f93ff395e4670507744b0d20c9bc
+source-git-commit: 62ccc9e52de1bc416284e5b1bf48d69dc603923a
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '858'
 ht-degree: 6%
 
 ---
@@ -16,13 +16,15 @@ ht-degree: 6%
 
 A partir de la versión 7.21.1.3 de Campaign Classic, el conector de datos de Adobe Analytics queda obsoleto. [Más información](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html)
 
-El 1 de agosto de 2021, Adobe Campaign Classic se eliminó de la IU de Data Connectors heredada. Sin embargo, las integraciones de Campaign existentes seguirán recopilando y pasando datos a Adobe Analytics hasta el 17 de agosto de 2022. Después de esta fecha, la integración dejará de recopilar y pasar datos a Adobe Analytics.
+El 1 de agosto de 2021, Adobe Campaign Classic se eliminó de la IU heredada de Data Connectors. Sin embargo, las integraciones de Campaign existentes seguirán recopilando y pasando datos a Adobe Analytics hasta el 17 de agosto de 2022. Después de esta fecha, la integración dejará de recopilar y pasar datos a Adobe Analytics.
 
-You **debe implementarse** la nueva integración de Adobe Analytics Connector en Adobe Exchange que sustituye a la integración de Data Connectors heredada. Para obtener más información sobre Adobe Analytics Connector, consulte [esta página](../../platform/using/adobe-analytics-connector.md).
+You **debe implementarse** la nueva integración de Adobe Analytics Connector en Adobe Exchange que sustituye a la integración heredada de Data Connectors. Para obtener más información sobre Adobe Analytics Connector, consulte [esta página](../../platform/using/adobe-analytics-connector.md).
+
+Para cualquier pregunta sobre estos cambios, lea la [Preguntas frecuentes](#faq-aa). Para obtener más información, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 >[!NOTE]
 >
->Para cualquier pregunta sobre estos cambios, lea la [Preguntas frecuentes](#faq-aa). Para obtener más información, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Si está migrando desde un conector de datos de Adobe Analytics existente (anteriormente conocido como integración de Genesis) y utiliza la nueva arquitectura de clasificación en Adobe Analytics, necesita versiones de compilación que empiecen por 7.3.1 u 8.4.1 para poder migrar al nuevo conector de Adobe Analytics.
 
 ## ¿Qué ha cambiado?
 
@@ -34,7 +36,7 @@ Ya está disponible una nueva integración entre Campaign Classic v7 y Adobe Ana
 
 * Los flujos de trabajo técnicos integrados y su comportamiento siguen siendo el mismo. Solo se han cambiado las API back-end utilizadas por los flujos de trabajo para insertar o extraer datos de Adobe Analytics.
 
-* Tenga en cuenta que `nlserver` debe configurarse con el usuario de cuenta técnica de IMS para que funcione el nuevo conector. Este cambio debe hacerse por Adobe. Para que esto se implemente, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+* Tenga en cuenta que `nlserver` debe configurarse con el usuario de cuenta técnica de IMS para que funcione el nuevo conector. Este cambio debe hacerse por Adobe. Para que esto se implemente, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * Si era API de Adobe Genesis en flujos de trabajo personalizados para extraer y extraer los datos de Adobe Analytics, ahora debe utilizar las nuevas API de Adobe Analytics 1.4/2.0. [Más información](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360047148832-Replacements-for-Data-Connector-API-calls)
 
@@ -68,7 +70,7 @@ Como usuario local, puede implementar el modo detallado de la siguiente manera:
 
 **¿Qué significa el error &quot;Propietario de la integración no administrador&quot;?**
 
-Obtenga más información sobre los Data Connectors `Integration Owner Not Admin` Error en [esta página](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error).
+Obtenga más información sobre Data Connectors `Integration Owner Not Admin` Error en [esta página](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error).
 
 **Una vez completada la migración al nuevo conector, ¿qué ocurre con los datos antiguos y los grupos de informes?**
 
@@ -80,7 +82,7 @@ La integración depende de los datos del token de cuenta técnica para el funcio
 
 Si leemos los detalles de un componente de Analytics (como métricas, dimensiones, segmentos o grupos de informes), la API no devolverá estos componentes en el resultado (que pueden parecer que algo se ha eliminado en Analytics o no está presente). La API de Analytics rechazará esas solicitudes y se eliminarán los errores.
 
-La solución es actualizar el **Perfil del producto** en el contexto de usuario de Analytics del token de usuario técnico con los componentes recién creados/faltantes al añadir estos componentes en [Adobe Admin Console](https://adminconsole.adobe.com/). Para obtener más información, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+La solución es actualizar el **Perfil del producto** en el contexto de usuario de Analytics del token de usuario técnico con los componentes recién creados/faltantes al añadir estos componentes en [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}. Para obtener más información, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## Vínculos útiles
 
