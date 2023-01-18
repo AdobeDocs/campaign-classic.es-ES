@@ -1,9 +1,9 @@
 ---
 product: campaign
-title: Edición de formularios
-description: Edición de formularios
+title: Editar formularios
+description: Editar formularios
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 4af44f38d495d31dec4b9b7a142dbed0c2450d56
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 2%
@@ -11,7 +11,7 @@ ht-degree: 2%
 ---
 
 
-# Edición de formularios{#editing-forms}
+# Editar formularios{#editing-forms}
 
 ![](../../assets/common.svg)
 
@@ -66,7 +66,7 @@ Puede crear diferentes tipos de formularios de entrada. El tipo de formulario de
 
    ![](assets/iconbox_form_preview.png)
 
-* Portátil
+* Notebook
 
    Este formulario consta de varias páginas. Para desplazarse por el formulario, los usuarios seleccionan fichas en la parte superior del formulario.
 
@@ -239,8 +239,8 @@ Para crear un formulario, siga estos pasos:
 
    | Editor de campos | Atributo de formulario |
    | --- | --- |
-   | Botón de radio | `type="radiobutton"` |
-   | Casilla de verificación | `type="checkbox"` |
+   | Botón de opción | `type="radiobutton"` |
+   | Casilla | `type="checkbox"` |
    | Editar árbol | `type="tree"` |
 
    Más información sobre [controles de lista de memoria](form-structure.md#memory-list-controls).
@@ -249,7 +249,7 @@ Para crear un formulario, siga estos pasos:
 
    | Elemento | Atributo | Descripción |
    | --- | --- | --- |
-   | `<input>` | `read-only:"true"` | Proporciona acceso de solo lectura a un campo |
+   | `<input>` | `read-only="true"` | Proporciona acceso de solo lectura a un campo |
    | `<container>` | `type="visibleGroup" visibleIf="`*edit-expr*`"` | Muestra condicionalmente un grupo de campos |
    | `<container>` | `type="enabledGroup" enabledIf="`*edit-expr*`"` | Habilita condicionalmente un grupo de campos |
 
