@@ -6,10 +6,10 @@ feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
-source-git-commit: 62ccc9e52de1bc416284e5b1bf48d69dc603923a
+source-git-commit: 1dd0fe6734785b593302ed90db1d150cf6aee00c
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 92%
+source-wordcount: '1509'
+ht-degree: 91%
 
 ---
 
@@ -207,7 +207,7 @@ Para obtener más información, consulte la página [Perfiles de producto para A
 1. La pestaña **[!UICONTROL Advanced]** permite configurar o modificar más ajustes técnicos.
 
    * **[!UICONTROL Lifespan]**: permite especificar el retraso (en días) después del cual los eventos web se recuperan en Adobe Campaign mediante flujos de trabajo técnicos. Predeterminado: 180 días.
-   * **[!UICONTROL Persistence]**: permite especificar el periodo durante el cual se pueden atribuir todos los eventos web (una compra, por ejemplo) a una nueva campaña de marketing. Predeterminado: 7 días.
+   * **[!UICONTROL Persistence]**: permite definir el periodo durante el cual se pueden atribuir todos los eventos web (una compra, por ejemplo) a una nueva campaña de marketing. Predeterminado: 7 días.
 
 >[!NOTE]
 >
