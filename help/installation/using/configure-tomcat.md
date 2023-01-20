@@ -6,7 +6,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf
-source-git-commit: 26ae7ff1f0837a9a50057d97b00422a288b9dc7a
+source-git-commit: f05cea5c9a7b9088d0b86986373b6a0188315aae
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 1%
@@ -60,4 +60,5 @@ Por motivos de seguridad, le recomendamos encarecidamente que oculte el informe 
    ```
    <Valve className="org.apache.catalina.valves.ErrorReportValve" showReport="false" showServerInfo="false"/>
    ```
+
 1. Reinicie los servidores web nlserver y Apache.
