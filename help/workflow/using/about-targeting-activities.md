@@ -5,9 +5,9 @@ description: Acerca de las actividades de segmentación
 feature: Workflows, Audiences, Targeting Activity
 exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
 source-git-commit: 743baa49e5d62ed1c2f7f635f6bf120a67646e63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Estas actividades permiten crear uno o más objetivos definiendo conjuntos y div
 * **Read List**: permite utilizar datos contenidos en una lista. Consulte la sección [Uso de datos de una lista: Leer lista](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list).
 * **Union**: permite agrupar el resultado de varias actividades en un solo destino. Consulte la sección [Unión](union.md).
 * **Intersection**: permite extraer solo la población con los mismos resultados de la actividad entrante. Consulte la sección [Intersección](intersection.md).
-* **Exclusion**: permite crear un objetivo basado en un objetivo principal del que se extraen uno o más objetivos. Consulte la [Exclusión](exclusion.md) para obtener más información.
+* **Exclusion**: permite crear un objetivo basado en un objetivo principal del que se extraen uno o más objetivos. Consulte la sección [Exclusión](exclusion.md).
 * **Split**: permite dividir un objeto en varios subconjuntos. Consulte la sección [División](split.md).
 * **Cells**: proporciona una vista de los distintos subconjuntos en forma de columnas de datos y facilita la manipulación de estos subconjuntos cuando existen muchos de ellos. Para obtener más información, consulte la sección [Celdas](cells.md).
 * **Offers by cell**: permite enlazar distintas ofertas a cada subconjunto de una población. Consulte la sección [Ofertas por celda](offers-by-cell.md).
@@ -37,4 +37,4 @@ Estas actividades permiten crear uno o más objetivos definiendo conjuntos y div
 * **List update**: registra el resultado de las actividades entrantes en una lista. Consulte la sección [Actualización de lista](../../workflow/using/list-update.md).
 * **Update data**: permite actualizar los datos en la base de datos. Consulte la sección [Actualizar datos](../../workflow/using/update-data.md).
 * **CRM connector**: permite configurar la sincronización entre Adobe Campaign y un CRM. Consulte la sección [Conector CRM](../../workflow/using/crm-connector.md).
-* **[!UICONTROL Change data source]**: permite cambiar la fuente de datos de un flujo de trabajo **[!UICONTROL Working table]**. Esto proporciona más flexibilidad para administrar los datos en diferentes fuentes de datos, como FDA, FFDA y bases de datos locales. Consulte la sección [Conector CRM](../../workflow/using/change-data-source.md).
+* **[!UICONTROL Change data source]**: permite cambiar la fuente de datos de un flujo de trabajo **[!UICONTROL Working table]**. Esto proporciona más flexibilidad para administrar los datos en diferentes fuentes de datos, como FDA, FDAC y bases de datos locales. Consulte la sección [Conector CRM](../../workflow/using/change-data-source.md).
