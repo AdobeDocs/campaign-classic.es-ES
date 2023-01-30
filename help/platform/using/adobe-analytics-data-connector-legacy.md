@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Conectores de datos de Adobe Analytics
-description: Conectores de datos de Adobe Analytics
+title: Conector de datos de Adobe Analytics
+description: Conector de datos de Adobe Analytics
 feature: Overview
 role: User, Admin
 level: Beginner
@@ -9,9 +9,9 @@ exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: true
 hide: true
 source-git-commit: 1dd0fe6734785b593302ed90db1d150cf6aee00c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1659'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ La integración de Adobe Campaign en las plataformas de Analytics se lleva a cab
 1. La pestaña **[!UICONTROL Advanced]** permite configurar o modificar más ajustes técnicos.
 
    * **[!UICONTROL Lifespan]**: permite especificar el retraso (en días) después del cual los eventos web se recuperan en Adobe Campaign mediante flujos de trabajo técnicos. Predeterminado: 180 días.
-   * **[!UICONTROL Persistence]**: permite definir el periodo durante el cual se pueden atribuir todos los eventos web (una compra, por ejemplo) a una nueva campaña de marketing. Predeterminado: 7 días.
+   * **[!UICONTROL Persistence]**: permite especificar el periodo durante el cual se pueden atribuir todos los eventos web (una compra, por ejemplo) a una nueva campaña de marketing. Predeterminado: 7 días.
 
 >[!NOTE]
 >
