@@ -7,9 +7,9 @@ role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
 source-git-commit: 1dd0fe6734785b593302ed90db1d150cf6aee00c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1509'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 ## Acerca de la integración del conector de Adobe Analytics {#about-analytics-connector-integration}
 
-El Conector de Adobe Analytics permite que Adobe Campaign y Adobe Analytics interactúen mediante el paquete **[!UICONTROL Web Analytics connectors]**. Envía datos a Adobe Campaign en forma de segmentos en relación con el comportamiento del usuario tras una campaña. Por el contrario, envía indicadores y atributos de las campañas que Adobe Campaign envía a Adobe Analytics.
+El Conector de Adobe Analytics permite que Adobe Campaign y Adobe Analytics interactúen mediante el paquete **[!UICONTROL Web Analytics connectors]**. Envía datos a Adobe Campaign en forma de segmentos con respecto al comportamiento del usuario tras una campaña. A la inversa, envía indicadores y atributos de las campañas que envía Adobe Campaign a Adobe Analytics.
 
 >[!CAUTION]
 >
@@ -34,8 +34,8 @@ Los campos de acción de cada herramienta son los siguientes:
 
 * Función de Web Analytics:
 
-   1. marca las campañas de iniciadas con Adobe Campaign,
-   1. guarda el comportamiento del destinatario en el sitio que exploraron después de hacer clic en la campaña, en forma de segmentos. Los segmentos se refieren a productos abandonados (vistos, pero no añadidos al carro ni comprados), compras o abandonos del carro de la compra.
+   1. marca las campañas iniciadas con Adobe Campaign,
+   1. guarda el comportamiento del destinatario en el sitio visitado después de hacer clic en la campaña, en forma de segmentos. Los segmentos se refieren a productos abandonados (vistos, pero no añadidos al carro ni comprados), compras o abandonos del carro de la compra.
 
 * Función de Adobe Campaign:
 
@@ -98,7 +98,7 @@ Debe configurar sus **[!UICONTROL Conversion variables]** y **[!UICONTROL Succes
 
    ![](assets/analytics_connnector_5.png)
 
-1. Haga clic en **[!UICONTROL Add new]** para crear los identificadores necesarios para medir el impacto de la campaña, es decir, el nombre de campaña interno (cid) y el ID de tabla de iNmsBroadlog (bid).
+1. Haga clic en **[!UICONTROL Add new]** para crear los identificadores necesarios para medir el impacto de la campaña, es decir, el nombre interno de la campaña (cid) y el ID de tabla de iNmsBroadlog (oferta).
 
    Para aprender a editar **[!UICONTROL Conversion variables]**, consulte esta [sección](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=es#admin-tools).
 
@@ -202,12 +202,12 @@ Para obtener más información, consulte la página [Perfiles de producto para A
 
    >[!IMPORTANT]
    >
-   >Este modo de configuración está reservado para usuarios expertos: cualquier error en esta fórmula puede resultar en envíos detenidos.
+   >Este modo de configuración está reservado para usuarios expertos: cualquier error en esta fórmula puede provocar que se detengan los envíos.
 
 1. La pestaña **[!UICONTROL Advanced]** permite configurar o modificar más ajustes técnicos.
 
    * **[!UICONTROL Lifespan]**: permite especificar el retraso (en días) después del cual los eventos web se recuperan en Adobe Campaign mediante flujos de trabajo técnicos. Predeterminado: 180 días.
-   * **[!UICONTROL Persistence]**: permite definir el periodo durante el cual se pueden atribuir todos los eventos web (una compra, por ejemplo) a una nueva campaña de marketing. Predeterminado: 7 días.
+   * **[!UICONTROL Persistence]**: permite especificar el periodo durante el cual se pueden atribuir todos los eventos web (una compra, por ejemplo) a una nueva campaña de marketing. Predeterminado: 7 días.
 
 >[!NOTE]
 >
@@ -224,7 +224,7 @@ Están disponibles en el árbol de Adobe Campaign, en la carpeta **[!UICONTROL A
 * **[!UICONTROL Recovering of web events]**: una vez cada hora, este flujo de trabajo descarga segmentos sobre el comportamiento de los usuarios en un sitio determinado, los incluye en la base de datos de Adobe Campaign e inicia el flujo de trabajo de remarketing.
 * **[!UICONTROL Event purge]**: este flujo de trabajo permite eliminar todos los eventos de la base de datos en función del periodo configurado en el campo **[!UICONTROL Lifespan]**. Para obtener más información, consulte [Configuración de la cuenta externa en Adobe Campaign Classic](#external-account-classic).
 * **[!UICONTROL Identification of converted contacts]**: directorio de los visitantes que realizaron una compra después de una campaña de remarketing. Los datos que recopila este flujo de trabajo se pueden consultar en el informe **[!UICONTROL Re-marketing efficiency]**, consulte esta [página](#creating-a-re-marketing-campaign).
-* **[!UICONTROL Sending of indicators and campaign attributes]**: permite enviar indicadores de campaña a través de Adobe Campaign a Adobe Experience Cloud mediante Adobe Analytics Connector. Este flujo de trabajo se activa a las 4 de la mañana cada día y los datos pueden tardar hasta 24 horas en enviarse a Analytics.
+* **[!UICONTROL Sending of indicators and campaign attributes]**: permite enviar indicadores de campaña a través de Adobe Campaign a Adobe Experience Cloud mediante el Conector de Adobe Analytics. Este flujo de trabajo se activa a las 4 de la mañana cada día y los datos pueden tardar hasta 24 horas en enviarse a Analytics.
 
    Tenga en cuenta que este flujo de trabajo no debe reiniciarse o volverá a enviar todos los datos anteriores, lo que puede distorsionar los resultados de Analytics.
 
