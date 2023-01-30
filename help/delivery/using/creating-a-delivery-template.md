@@ -5,9 +5,9 @@ description: Creación de una plantilla de entrega
 feature: Delivery Templates
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
 source-git-commit: 65e80f16a6beaee89b51636017c42766589e179e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Para obtener más información sobre el modo de configuración, consulte [Vincul
 
 >[!NOTE]
 >
->Para evitar errores de configuración, Adobe recomienda duplicar una plantilla nativa y personalizar su configuración en lugar de crear una nueva plantilla.
+>Para evitar errores de configuración, Adobe recomienda duplicar una plantilla nativa y modificar sus propiedades en lugar de crear una nueva plantilla.
 
 Para configurar una plantilla de envío, siga los siguientes pasos:
 
@@ -44,7 +44,7 @@ Para configurar una plantilla de envío, siga los siguientes pasos:
 
    ![](assets/delivery_template_1.png)
 
-1. Haga clic en **Nuevo** en la barra de herramientas para crear una nueva plantilla de envío, o **Duplicar** una plantilla existente.
+1. Haga clic en **Nuevo** en la barra de herramientas para crear una nueva plantilla de envíos, o **Duplicar** una plantilla existente.
 
    ![](assets/delivery_template_2.png)
 
