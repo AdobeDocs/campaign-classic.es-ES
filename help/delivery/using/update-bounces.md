@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo actualizar la calificación de dev
 feature: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: 13f730d428861124060146efa26238ceca38bed6
+source-git-commit: f320c905f50c69a40678729b009a4c238a462e3c
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '520'
 ht-degree: 36%
 
 ---
@@ -34,7 +34,7 @@ Tenga en cuenta que si el aplazamiento devuelve un error con el mensaje &quot;45
 >
 >Puede comprobar el panel de estado del espacio de trabajo de Google en [esta página](https://www.google.com/appsstatus#hl=en&amp;v=status){_blank}.
 
-## Síntomas{#update-bounce-symptoms}
+## Impacto{#update-bounce-impact}
 
 En caso de interrupción de un ISP, los correos electrónicos enviados a través de Campaign no se pueden enviar correctamente a su destinatario: estos correos electrónicos se marcarán erróneamente como devoluciones.
 
@@ -57,7 +57,10 @@ En función del intervalo de tiempo del incidente y del ISP, a continuación se 
 
 * Para instancias de Campaign Classic v7 con información de respuesta de rechazo SMTP en la variable **[!UICONTROL Error text]** campo de la lista de cuarentena:
 
-   * **Texto de error (texto de cuarentena)** contiene &quot;550-5.1.1&quot; Y **Texto de error (texto de cuarentena)** contiene &quot;support.ISP.com&quot; &quot;support.ISP.com&quot; puede ser: &quot;support.apple.com&quot; o &quot;support.google.com&quot;, por ejemplo
+   * **Texto de error (texto de cuarentena)** contiene &quot;550-5.1.1&quot; Y **Texto de error (texto de cuarentena)** contiene &quot;support.ISP.com&quot;
+
+      donde &quot;support.ISP.com&quot; puede ser: &quot;support.apple.com&quot; o &quot;support.google.com&quot;, por ejemplo
+
    * **Actualizar estado (@lastModified)** en o después de MM/DD/AAAA HH:MM:SS AM
    * **Actualizar estado (@lastModified)** en MM/DD/AAAA HH:MM:SS PM
 
