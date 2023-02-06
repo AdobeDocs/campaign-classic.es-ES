@@ -5,10 +5,10 @@ description: Aprenda a actualizar la calificación de devolución después de la
 feature: Deliverability
 hide: true
 hidefromtow: true
-source-git-commit: 3cf6ffb2b69d44b56615492dd9db8965ae3cf4e1
+source-git-commit: 0e6a46e4a0575fa5a300a952a6bb134f3426172e
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 26%
+source-wordcount: '291'
+ht-degree: 18%
 
 ---
 
@@ -29,11 +29,11 @@ Más información en la comunicación oficial [here](https://tecnologia.libero.i
 
 ## Impacto{#outage-impact}
 
-En caso de interrupción de un ISP, los correos electrónicos enviados a través de Campaign no se pueden enviar correctamente a su destinatario: estos correos electrónicos se marcarán erróneamente como devoluciones. Esto no solo afecta al Adobe, sino a todos los que tratan de recibir correos electrónicos en Italia Online.
+Como en la mayoría de los casos en los que se produce una interrupción en un ISP, algunos correos electrónicos enviados a través de Campaign se marcaron erróneamente como rechazos. Esto no solo impactó en el Adobe, sino que todos los que intentaban recibir correo electrónico fueron enviados a Italia Online durante la interrupción del servicio.
 
-Los síntomas son:
+Los síntomas fueron:
 
-* **Rechazos de aplazamiento** con el mensaje `452 requested action aborted: try again later` se están observando: se vuelven a intentar automáticamente y no es necesario realizar ninguna acción. Deben mejorar a medida que el ISP recupera la capacidad completa.
+* **Rechazos de aplazamiento** con el mensaje `452 requested action aborted: try again later` : se reintentaron automáticamente y no se necesitan acciones.
 
 * **Rechazos graves** con el mensaje `550 <email address> recipient rejected` han sido devueltos por el ISP el 26 de enero, entre las 8:00 y las 2:00 h, hora local, para evitar que los remitentes sigan sobrecargando sus servidores. Como confirmó Italia Online Postmaster, no se trata de devoluciones realmente duras, por lo que recomendamos anular la cuarentena de todas las direcciones de correo electrónico que se excluyeron el 26 de enero de 2023 debido a ese mensaje.
 

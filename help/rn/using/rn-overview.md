@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 9cdd4da153e5e5d1c7203d193067843fe832f38e
+source-git-commit: 1cc1568fe77cc5bbde88092b0e9108792e10fd71
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 90%
+source-wordcount: '934'
+ht-degree: 85%
 
 ---
 
@@ -67,7 +67,7 @@ Como usuario alojado, se beneficia automáticamente de la actualización con la 
 
 ### ¿Por qué necesita mi organización esta actualización?
 
-Como cliente alojado, si se ha detectado que su cuenta debe actualizar una o más de las tecnologías relacionadas con Campaign Classic, así como actualizar la versión o la compilación actual, Adobe le notificará directamente.
+Como cliente alojado, si se ha identificado su cuenta como que necesita actualizar una o más de las tecnologías relacionadas con Campaign Classic y actualizar su infraestructura a la versión actual (por ejemplo, de v7.2.1 a v7.3.3) o a la versión (de v7 a v8), Adobe le notifica directamente.
 
 Como cliente On-Premise o híbrido que se ejecuta en una versión anterior, Adobe le anima a pasar a la última versión estable (GA).
 
