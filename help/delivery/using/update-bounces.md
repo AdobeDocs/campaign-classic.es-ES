@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo actualizar la calificación de dev
 feature: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: f320c905f50c69a40678729b009a4c238a462e3c
+source-git-commit: 9cdd4da153e5e5d1c7203d193067843fe832f38e
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '513'
 ht-degree: 36%
 
 ---
@@ -48,14 +48,14 @@ Debe ejecutar una consulta en la tabla de cuarentena para filtrar todos los dest
 
 En función del intervalo de tiempo del incidente y del ISP, a continuación se indican las directrices recomendadas para esta consulta.
 
-* Para los entornos de Campaign v8 y Campaign Classic v7 con información de regla de correo electrónico entrante en la sección **[!UICONTROL Error text]** campo de la lista de cuarentena:
+* Para entornos de campaña con información de regla de correo electrónico entrante en la sección **[!UICONTROL Error text]** campo de la lista de cuarentena:
 
    * **El texto del error (texto de cuarentena)** contiene “Momen_Code10_InvalidRecipient”
    * **Dominio de correo electrónico (@domain)** igual a domain1.com OR **Dominio de correo electrónico (@domain)** igual a domain2.com OR **Dominio de correo electrónico (@domain)** igual a domain3.com
    * **Actualizar estado (@lastModified)** en o después de MM/DD/AAAA HH:MM:SS AM
    * **Actualizar estado (@lastModified)** en MM/DD/AAAA HH:MM:SS PM
 
-* Para instancias de Campaign Classic v7 con información de respuesta de rechazo SMTP en la variable **[!UICONTROL Error text]** campo de la lista de cuarentena:
+* Para entornos de Campaign con información de respuesta de rechazo SMTP en la variable **[!UICONTROL Error text]** campo de la lista de cuarentena:
 
    * **Texto de error (texto de cuarentena)** contiene &quot;550-5.1.1&quot; Y **Texto de error (texto de cuarentena)** contiene &quot;support.ISP.com&quot;
 

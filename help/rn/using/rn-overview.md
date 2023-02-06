@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: d59e9f55275bac303a5ed1450bb28ef7fa0f84cd
-workflow-type: ht
+source-git-commit: 9cdd4da153e5e5d1c7203d193067843fe832f38e
+workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](../../assets/v7-only.svg)
 
-Adobe Campaign Classic publica periódicamente actualizaciones de productos que aportan nuevas funciones y corrección de errores, además mejoran el rendimiento, la seguridad y la facilidad de uso. Estas actualizaciones se publican como versiones del producto. Encontrará información detallada sobre cada nueva versión en las [Notas de la versión](latest-release.md).
+Adobe Campaign Classic publica periódicamente actualizaciones de productos que aportan nuevas funciones y corrección de errores, además mejoran el rendimiento, la seguridad y la facilidad de uso. Estas actualizaciones se publican como **compilaciones de productos**. Encontrará información detallada sobre cada nueva versión en las [Notas de la versión](latest-release.md).
 
 ## Estados de las versiones{#rn-statuses}
 
@@ -27,7 +27,7 @@ Cada nueva versión viene con un estado que se identifica con un color en las [N
 
 ![](assets/do-not-localize/limited3.png) **Disponibilidad limitada** (LA): solo implementación a petición.
 
-![](assets/do-not-localize/blue3.png) **Versión Candidate** (RC): la última versión con nuevas funcionalidades.
+![](assets/do-not-localize/blue3.png) **Liberar candidato** (RC) : Última compilación con nuevas funciones.
 
 ![](assets/do-not-localize/orange3.png) **Ya no está disponible**: sin implementación. No se ha corregido ningún error. Se recomienda actualizar a una versión más reciente.
 
@@ -37,9 +37,9 @@ Cada nueva versión viene con un estado que se identifica con un color en las [N
 
 Adobe Campaign se actualiza periódicamente. Esta frecuencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y mejorar su experiencia con nuestro producto.
 
-Esta es la razón por la que es esencial que **ejecute la versión estable más reciente** de Adobe Campaign. También le asegura una mejor experiencia de asistencia, ya que la identificación, reproducción y corrección de un problema en una compilación reciente suele ser mucho más rápida. Además, muchos problemas que puede encontrar ya se han corregido en las compilaciones más recientes.
+Esta es la razón por la que es crítico que **ejecute la versión estable más reciente** de Adobe Campaign. También le asegura una mejor experiencia de asistencia, ya que la identificación, reproducción y corrección de un problema en una compilación reciente suele ser mucho más rápida. Además, muchos problemas que puede encontrar ya se han corregido en las compilaciones más recientes.
 
-Como usuario alojado, se beneficia automáticamente de la actualización con la última versión estable sin tener que realizar ninguna acción. Conozca más en la [parte actualización anual](#yearly-upgrade). Si migra desde una versión antigua, Adobe le recomienda que la actualice primero a esta versión.
+Como cliente alojado, se beneficia automáticamente de la actualización con la última versión estable sin ninguna acción. Conozca más en la [parte actualización anual](#yearly-upgrade). Si migra desde una versión antigua, Adobe recomienda que actualice primero a esta compilación.
 
 ## Recomendaciones{#recommendations}
 
@@ -69,7 +69,7 @@ Como usuario alojado, se beneficia automáticamente de la actualización con la 
 
 Como cliente alojado, si se ha detectado que su cuenta debe actualizar una o más de las tecnologías relacionadas con Campaign Classic, así como actualizar la versión o la compilación actual, Adobe le notificará directamente.
 
-Si es un cliente On-Premise o híbrido que ejecuta en una versión anterior, Adobe le recomienda pasarse a la compilación estable más reciente (GA).
+Como cliente On-Premise o híbrido que se ejecuta en una versión anterior, Adobe le anima a pasar a la última versión estable (GA).
 
 Esto garantiza que su cuenta está segura frente a vulnerabilidades y que usa la tecnología de rendimiento actualizada. Esta actualización también posiciona su cuenta para recibir actualizaciones más sencillas y regulares que requieren menos trabajo manual y menos intervención.
 

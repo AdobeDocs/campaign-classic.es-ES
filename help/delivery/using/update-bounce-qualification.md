@@ -1,13 +1,13 @@
 ---
 product: campaign
-title: Actualizar la calificación de devoluciones después de la interrupción de Gmail
-description: Obtenga información sobre cómo actualizar la calificación de devoluciones después de una interrupción del ISP
+title: Actualizar la calificación de devoluciones después de la interrupción de Apple 2021
+description: Obtenga información sobre cómo actualizar la calificación de devoluciones después de una interrupción en Apple 2021
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-source-git-commit: 13f730d428861124060146efa26238ceca38bed6
+source-git-commit: c84f48ebdd66524e8dd6c39c88ae29565d11c9b2
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 98%
+source-wordcount: '425'
+ht-degree: 96%
 
 ---
 
