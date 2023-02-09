@@ -9,7 +9,7 @@ exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
 source-git-commit: 5d9e2f7d7cea9e6d1243b0e3a790f3990772e603
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 ## Secuencia de comandos
 
-Para obtener más información, consulte [Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html).
+Para obtener más información, consulte [Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es).
 
 Si crea secuencias de comandos con flujos de trabajo, aplicaciones web, jssp, siga estas prácticas recomendadas:
 
@@ -56,7 +56,7 @@ Para evitar inyecciones SQL, las funciones SQL deben agregarse a la lista de per
 >
 >Si utiliza una compilación anterior a 8140, la variable **XtkPassUnknownSQLFunctionsToRDBMS** se puede establecer en &quot;1&quot;. Si desea proteger la base de datos, elimine esta opción (o establézcala en &#39;0&#39;).
 
-Si utiliza la entrada del usuario para crear filtros en consultas o instrucciones SQL, siempre tiene que escaparlas (consulte [Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html) - Protección de datos: funciones de escape). Estas funciones son:
+Si utiliza la entrada del usuario para crear filtros en consultas o instrucciones SQL, siempre tiene que escaparlas (consulte [Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es) - Protección de datos: funciones de escape). Estas funciones son:
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)

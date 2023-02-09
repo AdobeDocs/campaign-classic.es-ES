@@ -5,7 +5,7 @@ description: Coordinación de actualizaciones de datos
 feature: Workflows, Data Management
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%
 

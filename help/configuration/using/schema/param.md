@@ -6,7 +6,7 @@ exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ param:==help
 
 `<parameters>`
 
-## Niños {#children-12}
+## Tareas secundarias {#children-12}
 
 `<help>`
 
@@ -53,7 +53,7 @@ Este elemento permite definir un parámetro para llamar a un método SOAP.
 
    Lista de tipos disponibles:
 
-   * CUALQUIER
+   * CUALQUIERA
    * bin
    * blob
    * booleano
@@ -77,7 +77,7 @@ Este elemento permite definir un parámetro para llamar a un método SOAP.
    * percent
    * primarykey
    * short
-   * string
+   * cadena
    * tiempo
    * timespan
    * uuid

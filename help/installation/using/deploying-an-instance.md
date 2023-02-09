@@ -9,7 +9,7 @@ exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 source-git-commit: 11e175c737d9c6cbb9432ec7835f35ee0e00a5c0
 workflow-type: tm+mt
 source-wordcount: '3140'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -86,7 +86,7 @@ Indique los siguientes parámetros:
 
 Además de esto, puede especificar la variable **máscaras** autorizado para la dirección del remitente y la dirección de error. Si es necesario, estas máscaras se pueden separar mediante comas. Esta configuración es opcional. Cuando se introducen campos, Adobe Campaign comprueba en el momento de la entrega (durante el análisis, si la dirección no incluye ninguna variable) que las direcciones son válidas. Este modo operativo garantiza que no se utilicen direcciones que puedan dar déclencheur a problemas de entrega. Las direcciones de envío deben configurarse en el servidor de envío.
 
-### Caracteres autorizados en las direcciones {#characters-authorized-in-addresses}
+### Caracteres autorizados en direcciones {#characters-authorized-in-addresses}
 
 <!--This window enables you to define, for all email campaigns, the delivery and address-quality management options.-->
 
@@ -121,7 +121,7 @@ La información sobre las recuperaciones se proporciona en la **Periodos de recu
 
 >[!NOTE]
 >
->Para instalaciones alojadas o híbridas, si ha actualizado a la variable [MTA mejorado](../../delivery/using/sending-with-enhanced-mta.md), ya no se utilizan los parámetros de reintento de Campaign. Los reintentos de devoluciones en blanco y el periodo entre ellos están determinados por el MTA mejorado en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
+>Para instalaciones alojadas o híbridas, si ha actualizado a la variable [MTA mejorado](../../delivery/using/sending-with-enhanced-mta.md), ya no se utilizan los parámetros de reintento de Campaign. Los reintentos de rebote suave y el periodo entre ellos están determinados por el servidor de correo mejorado en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
 
 ### Parámetros de cuarentena {#quarantine-parameters}
 
@@ -386,7 +386,7 @@ La sección inferior del asistente le permite seleccionar las opciones de public
 
 Están disponibles los siguientes modos de publicación:
 
-* Servidores de seguimiento
+* Servidor(es) de seguimiento
 
    Los recursos se copiarán automáticamente en los distintos servidores de seguimiento. Se configuran en el paso [Configuración de seguimiento](#tracking-configuration).
 

@@ -6,7 +6,7 @@ exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -49,7 +49,7 @@ La variable **Última entrega** permite vincular el registro de seguimiento actu
 
 Este modo crea un registro de seguimiento para las personas con una cookie de sesión. Son personas que hicieron clic en una dirección URL en un correo electrónico enviado por Adobe Campaign, lo que nos permite rastrear la siguiente información:
 
-* ID de entrega
+* ID de envío
 * ID de contacto
 * registro de entregas
 * cookie permanente (uuid230)

@@ -6,7 +6,7 @@ exl-id: 3d0ef574-27a3-40f2-91a0-70e9583d9980
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,7 @@ key:==keyfield
 
 `<element>`
 
-## Niños {#children-8}
+## Tareas secundarias {#children-8}
 
 `<keyfield>`
 
@@ -43,7 +43,7 @@ Una tabla debe tener al menos una clave.
 
 ## Uso y contexto de uso {#use-and-context-of-use-6}
 
-Como regla, las claves se declaran después del elemento principal del esquema y los índices.
+Como regla, las claves se declaran después del elemento principal del esquema y de los índices.
 
 Una clave se conoce como compuesta si incluye varios campos (es decir, varios `<keyfield>` niños). No utilice una clave compuesta para definir una clave principal.
 

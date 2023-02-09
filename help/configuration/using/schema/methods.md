@@ -6,7 +6,7 @@ exl-id: f45e32ce-6534-4df2-ac7c-ba1134f0ffc8
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
 source-wordcount: '42'
-ht-degree: 9%
+ht-degree: 14%
 
 ---
 
@@ -26,7 +26,7 @@ Ninguno
 
 `<srcschema>`
 
-## Niños {#children-11}
+## Tareas secundarias {#children-11}
 
 Método 
 

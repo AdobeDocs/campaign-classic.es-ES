@@ -6,7 +6,7 @@ exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 39%
+ht-degree: 46%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para p
 **Consulte también**
 
 * [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md)
-* [Notas de la versión](../../rn/using/latest-release.md)
+* [Notas de la versión ](../../rn/using/latest-release.md)
 * [actualizaciones de Campaign Classic](../../rn/using/rn-overview.md)
 * [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md)
 * [Versiones de [!DNL Gold Standard]](../../rn/using/gold-standard.md)

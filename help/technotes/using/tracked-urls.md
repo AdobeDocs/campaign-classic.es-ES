@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 'Problema de firma de URL rastreadas '
-description: 'Problema de firma de URL rastreadas '
+title: Problema de firma de URL rastreadas
+description: Problema de firma de URL rastreadas
 hide: true
 hidefromtoc: true
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074

@@ -5,7 +5,7 @@ description: Interfaz del editor de contenido
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 100%
 

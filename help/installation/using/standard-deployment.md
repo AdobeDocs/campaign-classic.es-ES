@@ -65,7 +65,7 @@ Dado que el equipo no es un servidor de seguimiento, no tenga en cuenta la integ
 En los ejemplos siguientes, los parámetros de la instancia son:
 
 * Nombre de la instancia: **demostración**
-* Máscara DNS: **console.campaign.net*** (solo para conexiones de consola del cliente y para informes)
+* Máscara DNS: **console.campaign.net&#42;** (solo para conexiones de consola del cliente y para informes)
 * Idioma: Inglés
 * Base de datos: **campaña:demo@dbsrv**
 

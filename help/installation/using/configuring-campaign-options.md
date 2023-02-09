@@ -9,7 +9,7 @@ exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 source-git-commit: 8610d29a3df1080f1622a2cb3685c0961fb40092
 workflow-type: tm+mt
 source-wordcount: '3991'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -27,12 +27,12 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
 >* La modificación o actualización de las opciones de Adobe Campaign solo pueden realizarla usuarios expertos.
 
 
-## Entrega {#delivery}
+## Envío {#delivery}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Nombre de la opción </th> 
+   <th> Nombre de opción </th> 
    <th> Descripción </th> 
   </tr> 
  </thead> 
@@ -126,7 +126,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_PublishingScript</span> <br /> </td> 
-   <td> Secuencia de comandos de publicación.<br /> </td> 
+   <td> Script de publicación.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_NoCountBroadLogMsgPush</span> <br /> </td> 
@@ -282,7 +282,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
 <table> 
  <thead> 
   <tr> 
-   <th> Nombre de la opción </th> 
+   <th> Nombre de opción </th> 
    <th> Descripción </th> 
   </tr> 
  </thead> 
@@ -297,15 +297,15 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_DefaultIgnoredImage</span> <br /> </td> 
-   <td> Lista de máscaras URL para las imágenes omitidas durante la carga.<br /> </td> 
+   <td> Lista de máscaras de URL para las imágenes omitidas durante la carga.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImagePublishing</span> </td> 
-   <td> Configuración de la carga de imágenes. Los valores pueden ser ninguno / tracking / script / list (puede anularse por la configuración opcional del operador). </td> 
+   <td> Configuración de la carga de imagen. Los valores pueden ser ninguno / tracking / script / list (puede anularse por la configuración opcional del operador). </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImageSubDirectory</span> <br /> </td> 
-   <td> Carpeta en la que se deben almacenar las imágenes del servidor.<br /> </td> 
+   <td> Carpeta en la que se almacenarán las imágenes del servidor.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_LogoPath</span> <br /> </td> 
@@ -337,7 +337,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkFileRes_Public_URL</span> <br /> </td> 
-   <td> Nueva URL para archivos de recursos públicos.<br /> </td> 
+   <td> Nuevo URL para archivos de recurso público.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -347,7 +347,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
 <table> 
  <thead> 
   <tr> 
-   <th> Nombre de la opción </th> 
+   <th> Nombre de opción </th> 
    <th> Descripción </th> 
   </tr> 
  </thead> 
@@ -400,7 +400,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
 <table> 
  <thead> 
   <tr> 
-   <th> Nombre de la opción </th> 
+   <th> Nombre de opción </th> 
    <th> Descripción </th> 
   </tr> 
  </thead> 
@@ -453,7 +453,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
 <table> 
  <thead> 
   <tr> 
-   <th> Nombre de la opción </th> 
+   <th> Nombre de opción </th> 
    <th> Descripción </th> 
   </tr> 
  </thead> 
@@ -488,15 +488,15 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgProcessTimeAlert</span> <br /> </td> 
-   <td> Umbral de alerta para el tiempo de procesamiento promedio de los eventos en tiempo real.<br /> </td> 
+   <td> Umbral de alerta para el tiempo medio de procesamiento de eventos en tiempo real.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgProcessTimeWarning</span> <br /> </td> 
-   <td> Umbral de advertencia para el tiempo de procesamiento promedio de los eventos en tiempo real.<br /> </td> 
+   <td> Umbral de advertencia para el tiempo medio de procesamiento de eventos en tiempo real.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgQueueAlert</span> <br /> </td> 
-   <td> Umbral de alerta para el número promedio de eventos en tiempo real en cola.<br /> </td> 
+   <td> Umbral de alerta para el promedio de eventos en tiempo real en cola.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgQueueTimeAlert</span> <br /> </td> 
@@ -508,7 +508,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventAvgQueueWarning</span> <br /> </td> 
-   <td> Umbral de advertencia para el número promedio de eventos en tiempo real en cola.<br /> </td> 
+   <td> Umbral de advertencia para el promedio de eventos en tiempo real en cola.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventErrorAlert</span> <br /> </td> 
@@ -536,11 +536,11 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventQueueAlert</span> <br /> </td> 
-   <td> Umbral antes de la condición crítica para la cola de eventos en tiempo real pendientes.<br /> </td> 
+   <td> Umbral antes de condición crítica para la cola de eventos pendientes en tiempo real.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventQueueWarning</span> <br /> </td> 
-   <td> Umbral antes de la advertencia para la cola de eventos en tiempo real pendientes.<br /> </td> 
+   <td> Umbral antes de la advertencia para la cola de eventos pendientes en tiempo real.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventThroughputAlert</span> <br /> </td> 
@@ -570,7 +570,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
 <table> 
  <thead> 
   <tr> 
-   <th> Nombre de la opción </th> 
+   <th> Nombre de opción </th> 
    <th> Descripción </th> 
   </tr> 
  </thead> 
@@ -677,7 +677,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkInstancePrefix</span> <br /> </td> 
-   <td> Prefijo añadido a los nombres internos generado automáticamente.<br /> </td> 
+   <td> Prefijo añadido a nombres internos generado automáticamente.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkQuery_Schema_LineCount</span> <br /> </td> 
@@ -719,7 +719,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
 <table> 
  <thead> 
   <tr> 
-   <th> Nombre de la opción </th> 
+   <th> Nombre de opción </th> 
    <th> Descripción </th> 
   </tr> 
  </thead> 
@@ -772,7 +772,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
 <table> 
  <thead> 
   <tr> 
-   <th> Nombre de la opción </th> 
+   <th> Nombre de opción </th> 
    <th> Descripción </th> 
   </tr> 
  </thead> 
@@ -809,7 +809,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
 <table> 
  <thead> 
   <tr> 
-   <th> Nombre de la opción </th> 
+   <th> Nombre de opción </th> 
    <th> Descripción </th> 
   </tr> 
  </thead> 
@@ -846,7 +846,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
 <table> 
  <thead> 
   <tr> 
-   <th> Nombre de la opción </th> 
+   <th> Nombre de opción </th> 
    <th> Descripción </th> 
   </tr> 
  </thead> 
@@ -857,7 +857,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_ClickFormula</span> <br /> </td> 
-   <td> Secuencia de comandos de cálculo de URL rastreada.<br /> </td> 
+   <td> Script de cálculo de URL rastreada.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_ExtAccount</span> <br /> </td> 
@@ -873,7 +873,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_OpenFormula</span> <br /> </td> 
-   <td> Abra el script de cálculo de URL.<br /> </td> 
+   <td> Abierto script de cálculo de URL.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_Password</span> <br /> </td> 
@@ -919,7 +919,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
 <table> 
  <thead> 
   <tr> 
-   <th> Nombre de la opción </th> 
+   <th> Nombre de opción </th> 
    <th> Descripción </th> 
   </tr> 
  </thead> 
@@ -948,7 +948,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
 <table> 
  <thead> 
   <tr> 
-   <th> Nombre de la opción </th> 
+   <th> Nombre de opción </th> 
    <th> Descripción </th> 
   </tr> 
  </thead> 
@@ -1029,7 +1029,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
 <table> 
  <thead> 
   <tr> 
-   <th> Nombre de la opción </th> 
+   <th> Nombre de opción </th> 
    <th> Descripción </th> 
   </tr> 
  </thead> 
@@ -1048,7 +1048,7 @@ La variable **[!UICONTROL Administration / Platform / Options]** permite configu
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_ServersMode</span> <br /> </td> 
-   <td> Opción que permite especificar el modo de invalidación de los formularios web: local de forma predeterminada, utiliza servidores de seguimiento si la opción es "seguimiento" y utiliza una lista personalizada con la opción "otros servidores".<br /> </td> 
+   <td> Opción que permite especificar el modo de invalidación de los formularios web: local de forma predeterminada, utiliza servidores de seguimiento si la opción es “seguimiento” y utiliza una lista personalizada con la opción “otros servidores”.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_ServersURLs</span> <br /> </td> 

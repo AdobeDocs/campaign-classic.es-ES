@@ -44,7 +44,7 @@ Para obtener una vista previa de un formulario, haga clic en el botón **[!UICON
 
 Puede crear diferentes tipos de formularios de entrada. El tipo de formulario determina cómo navegan los usuarios en el formulario:
 
-* Pantalla de la consola
+* Pantalla de consola
 
    Este es el tipo de formulario predeterminado. El formulario consta de una sola página.
 

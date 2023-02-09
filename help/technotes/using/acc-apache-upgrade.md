@@ -7,7 +7,7 @@ hidefromtoc: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
 source-git-commit: a3eae4e253f66f5a651ffe0458f60b1f8bdf2258
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '539'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Adobe Campaign funciona con herramientas de terceros, y la compatibilidad se actualiza de forma regular para implementar únicamente versiones compatibles y beneficiarse de las últimas correcciones y mejoras.
 
-Adobe Campaign incluye Apache Tomcat que actúa como punto de entrada en el servidor de aplicaciones a través de HTTP y está integrado con el servidor web Apache. La Apache Software Foundation ha lanzado Apache HTTP Server 2.4.53. Esta versión aborda vulnerabilidades que pueden permitir que un atacante remoto tome el control de un sistema afectado. Obtenga más información en [Anuncio de Apache 2.4.53](https://downloads.apache.org/httpd/Announcement2.4.html){target=&quot;_blank&quot;}.
+Adobe Campaign incluye Apache Tomcat que actúa como punto de entrada en el servidor de aplicaciones a través de HTTP y está integrado con el servidor web Apache. La Apache Software Foundation ha lanzado Apache HTTP Server 2.4.53. Esta versión aborda vulnerabilidades que pueden permitir que un atacante remoto tome el control de un sistema afectado. Obtenga más información en [Anuncio de Apache 2.4.53](https://downloads.apache.org/httpd/Announcement2.4.html){target="_blank"}.
 
 El equipo de Adobe Campaign dirigirá la actividad de actualización de seguridad de la versión de Apache de **15 de junio de 2022** para mitigar esta vulnerabilidad de Apache y hacer que su entorno de instancia sea más seguro. Esta actualización se aplica a todos los clientes de Managed Services de Campaign Classic v7, Campaign v8 y Campaign Standards que ejecutan una versión vulnerable de Apache HTTP Server. Si se ve afectado, Adobe ya se ha puesto en contacto con usted para informarle sobre esta actualización.
 

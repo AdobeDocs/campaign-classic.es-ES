@@ -5,7 +5,7 @@ description: Descubra más información acerca de la actividad del flujo de trab
 feature: Workflows
 exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
 source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 100%
 

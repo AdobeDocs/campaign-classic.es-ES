@@ -7,7 +7,7 @@ exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
 source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 8%
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ Para comprender mejor las tablas integradas de Campaign y su interacción, consu
 
 La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada **esquema**.
 
-Un esquema es un documento XML asociado a una tabla de base de datos. Define la estructura de datos y describe la definición SQL de la tabla:
+Un esquema es un documento XML asociado a una tabla de una base de datos. Define la estructura de datos y describe la definición SQL de la tabla:
 
 * Nombre de la tabla
 * Campos

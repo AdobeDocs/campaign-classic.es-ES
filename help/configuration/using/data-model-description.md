@@ -7,7 +7,7 @@ exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
 source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
 workflow-type: tm+mt
 source-wordcount: '2374'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -180,9 +180,9 @@ Los siguientes indicadores se actualizan automáticamente durante la ejecución 
 * Tasa de respuesta del grupo de control: **dProofReactedRate**. Tasa de respuesta del grupo de control de hipótesis.
 * Ingresos totales de la población contactada: **dContactReactedTotalAmount**. Ingresos totales de los contactos objetivo en la hipótesis.
 * Ingresos medios del grupo de control: **dContactReactedAvgAmount**. Ingresos promedio de los contactos del grupo de control de destino en la hipótesis.
-* Ingresos totales del grupo de control: **dProofReactedTotalAmount**. Ingresos totales del grupo de control de hipótesis.
+* Ingresos totales del grupo de control: **dProofReactedTotalAmount**. Ingresos totales del grupo de control de la hipótesis.
 * Ingresos medios del grupo de control: **dProofReactedAvgAmount**. Ingresos promedio del grupo de control de hipótesis.
-* Margen total por contacto: **dContactReactedTotalMargin**. Margen total por contacto objetivo en la hipótesis.
+* Margen total por contacto: **dContactReactedTotalMargin**. Margen total por contacto previsto en la hipótesis.
 * Media de margen por contacto: **dContactReactedAvgMargin**. Media de margen por contacto segmentado en la hipótesis.
 * Margen total del grupo de control: **dProofReactedTotalMargin**. Margen total del grupo de control objetivo en la hipótesis.
 * Media de margen del grupo de control: **dProofReactedAvgMargin**. Average margin of the control group targeted in the hypothesis.

@@ -239,7 +239,7 @@ Estas reglas se aplican en secuencia: se aplica la primera regla cuya máscara M
 
 Los siguientes parámetros disponibles para cada regla son:
 
-* **[!UICONTROL MX mask]**: dominio en el que se aplica la regla. Cada regla define una máscara de dirección para el MX. Cualquier MX cuyo nombre coincida con esta máscara es elegible. La máscara puede contener &quot;*&quot; y &quot;?&quot; caracteres genéricos.
+* **[!UICONTROL MX mask]**: dominio en el que se aplica la regla. Cada regla define una máscara de dirección para el MX. Cualquier MX cuyo nombre coincida con esta máscara es elegible. La máscara puede contener &quot;&#42;&quot; y &quot;?&quot; caracteres genéricos.
 
    Por ejemplo, las siguientes direcciones:
 
@@ -249,7 +249,7 @@ Los siguientes parámetros disponibles para cada regla son:
 
    son compatibles con las siguientes máscaras:
 
-   * *.yahoo.com
+   * &#42;.yahoo.com
    * ?.mx.yahoo.com
 
    Por ejemplo, para la dirección de correo electrónico foobar@gmail.com, el dominio es gmail.com y el registro MX es:
@@ -393,18 +393,18 @@ Los parámetros son los siguientes:
 
 En el ejemplo anterior, con condiciones normales, las direcciones se distribuyen de la siguiente manera:
 
-    * &quot;1&quot;: 5 / (5+5+1) = 45 %
-    * &quot;2&quot;: 5 / (5+5+1) = 45 %
-    * &quot;3&quot;: 1 / (5+5+1) = 10 %
+    * &quot;1&quot;: 5 / (5+5+1) = 45%
+    * &quot;2&quot;: 5 / (5+5+1) = 45%
+    * &quot;3&quot;: 1 / (5+5+1) = 10%
 
 Si, por ejemplo, la primera dirección no se puede utilizar para un MX determinado, los mensajes se envían de la siguiente manera:
 
-    * &quot;2&quot;: 5 / (5+1) = 83 %
-    * &quot;3&quot;: 1 / (5+1) = 17 %
+    * &quot;2&quot;: 5 / (5+1) = 83%
+    * &quot;3&quot;: 1 / (5+1) = 17%
 
-* **includeDomains**: permite reservar esta dirección IP para correos electrónicos pertenecientes a un dominio específico. Esta es una lista de máscaras que pueden contener uno o más comodines (&#39;*&#39;). Si no se especifica el atributo, todos los dominios pueden utilizar esta dirección IP.
+* **includeDomains**: permite reservar esta dirección IP para correos electrónicos pertenecientes a un dominio específico. Esta es una lista de máscaras que pueden contener uno o más comodines (&#39;&#42;&quot;). Si no se especifica el atributo, todos los dominios pueden utilizar esta dirección IP.
 
-   Ejemplo: **includeDomains=&quot;wanadoo.com,orange.com,yahoo*&quot;**
+   Ejemplo: **includeDomains=&quot;wanadoo.com,orange.com,yahoo.&#42;&quot;**
 
 * **excludeDomains**: excluye una lista de dominios para esta dirección IP. Este filtro se aplica después de la variable **includeDomains** filtro.
 

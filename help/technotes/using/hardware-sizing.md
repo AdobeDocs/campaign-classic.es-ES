@@ -87,7 +87,7 @@ Volumen estimado:
 | Destinatarios activos | 5 millones |
 | Correo electrónico | 4,2 millones/mes |
 | Correo directo | 1 millón/mes |
-| SMS de Mobile | 100.000/mes |
+| SMS móvil | 100.000/mes |
 | Volumen máximo diario de correo electrónico | 500 |
 
 Para estos volúmenes, un par de sistemas de servidor de aplicaciones de Adobe Campaign proporciona toda la funcionalidad para los usuarios de Adobe Campaign Client y la ejecución del flujo de trabajo. Para 5 millones de destinatarios activos y este volumen de correo electrónico, las cargas de trabajo de los servidores de aplicaciones no son intensivas en CPU o E/S; la mayor parte del estrés está en la base de datos.
@@ -136,8 +136,8 @@ Volumen estimado:
 | Destinatarios activos | 20 millones |
 | Correo electrónico | 42 millones/mes |
 | Correo directo | 10 millones al mes |
-| SMS de Mobile | 1 000 000 al mes |
-| Volumen máximo diario de correo electrónico | 5 000 000 |
+| SMS móvil | 1 000 000 al mes |
+| Volumen máximo diario de correo electrónico | 5,000,000 |
 
 ### Servidores Web y de aplicaciones
 
@@ -151,7 +151,7 @@ Los servidores web alojan aplicaciones web de Campaign que admiten los 10 millon
 
 Consulte [Escenario 1: Implementación de tamaño moderado](#scenario-1) para obtener más comentarios sobre proxies, centros de preferencias/administración de suscripciones y uso del espacio en disco.
 
-### Base de datos
+### Database
 
 Las recomendaciones de hardware para el servidor de la base de datos son las siguientes:
 
@@ -172,7 +172,7 @@ Volumen estimado:
 | Destinatarios activos | 50 millones |
 | Correo electrónico | 108 millones/mes |
 | Correo directo | 25 millones/mes |
-| SMS de Mobile | 2,5 millones/mes |
+| SMS móvil | 2,5 millones/mes |
 | Mensajes transaccionales | 2,5 millones/mes |
 | Volumen máximo diario de correo electrónico | 2,5 millones |
 
@@ -199,7 +199,7 @@ Los servidores web alojan aplicaciones web de Campaign que admiten los 10 millon
 
 Consulte [Escenario 1: Implementación de tamaño moderado](#scenario-1) para obtener más comentarios sobre proxies, centros de preferencias/administración de suscripciones y uso del espacio en disco.
 
-### Base de datos
+### Database
 
 Las recomendaciones de hardware para el servidor de la base de datos son las siguientes:
 

@@ -121,7 +121,7 @@ La migración a la nube pública incluirá nuevas direcciones IP para los servid
 
 Veamos los dos casos:
 
-* Tráfico entrante: Toda la actividad de red que se inicia desde sus sistemas o desde cualquier otro tercero en los servidores de Adobe Campaign. La configuración será gestionada por Adobe y, a continuación, se copiará de la nube heredada a la nube pública durante la migración. A continuación, la conectividad para el tráfico entrante se mantendrá tal cual después de la migración y no se espera ninguna acción por parte del cliente
+* Tráfico entrante: Toda la actividad de red que se inicia desde sus sistemas o desde cualquier otro tercero en los servidores de Adobe Campaign. La configuración será gestionada por Adobe y, a continuación, se copiará de la nube heredada a la nube pública durante la migración. A continuación, la conectividad para el tráfico entrante se conservará tal cual después de la migración y no se espera ninguna acción por parte del cliente
 
 * Tráfico saliente: Toda la actividad de red que inician los servidores de Adobe Campaign en su sistema de información o en cualquier otro tercero (por ejemplo: proveedor de SMS). En función de las políticas de seguridad implementadas en su organización, el cambio de IP puede requerir la operación de lista de permitidos de su sistema de información o de cualquier otro tercero
 

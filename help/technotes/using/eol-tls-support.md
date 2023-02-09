@@ -5,10 +5,11 @@ description: Finalización del servicio de soporte para TLS 1.0 y 1.1
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
-source-git-commit: 70240d5f62fd3d7b755389b5ad8c4b499c94657d
+exl-id: e18d43b6-2a77-4881-85e7-ca36248d4634
+source-git-commit: ee7c85f94fc03f6cfca8da11ddea5ebd32d0b2b4
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 

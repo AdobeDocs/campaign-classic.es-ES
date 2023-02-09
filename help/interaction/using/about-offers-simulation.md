@@ -4,7 +4,7 @@ title: Acerca de la simulación de ofertas
 description: Acerca de la simulación de ofertas
 exl-id: facaa88e-1fa2-4189-9d8f-348aaef3e235
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 100%
 

@@ -323,8 +323,8 @@ _22 de diciembre de 2020_
 >[!CAUTION]
 >
 > * Esta versión incorpora un nuevo protocolo de conexión: si se conecta a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**.  [Más información](../../technotes/using/ims-updates.md)
-> * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
-> * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación de oAuth heredado con Campaign [se ha eliminado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411) en **septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta el **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) a Adobe.
+> * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
+> * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación de oAuth heredado con Campaign [se ha eliminado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) en **septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta el **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) a Adobe.
 
 
 **Mejoras**
@@ -414,7 +414,7 @@ _22 de julio de 2020_
 * Después del cambio al nuevo mecanismo de ID de secuencia, todas las aplicaciones web que actualizan la tabla de destinatario se vuelven a publicar después de la actualización.
 * Se ha corregido una potencial vulnerabilidad XSS en el contenido de envío. (NEO-17987, NEO-26073)
 
-![](assets/do-not-localize/cp-icon.png) **Nuevo lanzamiento del Panel de control de Campaign en junio** con monitorización de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nuevo lanzamiento del Panel de control de Campaign en junio** con monitorización de perfiles activos, auditoría de entregas de subdominios y administración de claves GPG. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es).
 
 ### ![](assets/do-not-localize/red_2.png) Versión 20.2.1, compilación 9178 {#release-20-2-1-build-9178}
 
@@ -497,7 +497,7 @@ Obtenga más información en la [Matriz de compatibilidad de Campaign](https://h
 
 * La mensajería transaccional se ha mejorado para mejorar la experiencia del usuario. Ahora puede cancelar la publicación de una plantilla de mensaje transaccional, que la elimina de las instancias de ejecución. [Más información](../../message-center/using/publishing-message-templates.md#template-unpublication).
 
-* Hay nuevas opciones disponibles para establecer limitaciones al enviar correos electrónicos que incluyen imágenes o archivos adjuntos. Estas protecciones pueden evitar problemas de rendimiento, lo que resulta especialmente útil con la mensajería transaccional. [Más información](../../installation/using/configuring-campaign-options.md#delivery)
+* Hay nuevas opciones disponibles para establecer limitaciones al enviar correos electrónicos que incluyen imágenes o archivos adjuntos. Estos mecanismos de protección pueden evitar problemas de rendimiento, lo que resulta especialmente útil con la mensajería transaccional. [Más información](../../installation/using/configuring-campaign-options.md#delivery)
 
 * La nueva opción **Preparar las piezas de envío en la base de datos** permite realizar la preparación de envíos directamente en la base de datos, lo que puede acelerar el análisis en gran medida. Esta opción solo está disponible para configuraciones específicas. [Más información](../../delivery/using/steps-validating-the-delivery.md#improving-delivery-analysis). (NEO-23886)
 
@@ -639,7 +639,7 @@ _15 de abril de 2021_
 
 >[!NOTE]
 >
-> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
+> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
 
 _22 de marzo de 2021_
 
@@ -657,7 +657,7 @@ _23 de diciembre de 2020_
 >
 > * Esta versión incorpora un nuevo protocolo de conexión: si se conecta a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/using/ims-updates.md)
 >
-> * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
+> * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 
 
 * El protocolo de conexión se ha actualizado para seguir el nuevo mecanismo de autenticación IMS.

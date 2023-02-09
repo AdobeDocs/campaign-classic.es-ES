@@ -9,7 +9,7 @@ exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
 source-git-commit: 30f2451849dec0f640915e81c36d0a9c5f466d6c
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -53,7 +53,7 @@ Los módulos disponibles se detallan en la siguiente tabla:
 | combinar | Combinación de formularios |
 | midSourcing | Recuperación de la información de entrega en modo intermediario |
 | monitor | XML Visualización del estado de los procesos del servidor y las tareas programadas, por ejemplo. |
-| mta | Mensaje de transferencia del agente principal |
+| mta. | Mensaje de transferencia del agente principal |
 | paquete | Importación o exportación de archivos de paquetes de entidades |
 | pdump | Visualización de los estados de proceso del servidor |
 | prepareda | Preparación de una acción de entrega |

@@ -5,7 +5,7 @@ description: Obtenga más información sobre los casos de uso que puede realizar
 feature: Workflows, Data Management
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 * [Prueba A/B](../../delivery/using/a-b-testing-use-case.md)
 * [Envío de correo electrónico de cumpleaños](sending-a-birthday-email.md)
 * [Carga de contenido de entrega](loading-delivery-content.md)
-* [Flujo de trabajo de entrega en canales múltiples](cross-channel-delivery-workflow.md)
+* [Flujo de trabajo de envíos en canales múltiples](cross-channel-delivery-workflow.md)
 * [Enriquecimiento de correo electrónico con campos de datos personalizados](email-enrichment-with-custom-date-fields.md)
 * [Automatización de la creación, edición y publicación de contenido](../../delivery/using/automating-via-workflows.md#examples)
 

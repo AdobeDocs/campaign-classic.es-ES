@@ -8,7 +8,7 @@ exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
 workflow-type: tm+mt
 source-wordcount: '5972'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Más información sobre los [Perfiles activos](../../platform/using/about-profil
 
 La actividad Aprobación local es una actividad de flujo de trabajo que se utiliza para configurar un proceso de aprobación de envíos antes de que se envíen los mensajes.
 
-Obtenga más información sobre [Actividad de aprobación local](../../workflow/using/local-approval.md).
+Más información sobre la [Actividad de aprobación local](../../workflow/using/local-approval.md).
 +++
 
 +++**Audiencia**
@@ -141,14 +141,14 @@ Más información sobre la [Aprobación de contenido](../../campaign/using/marke
 
 Utilice los grupos de control para medir el impacto de sus campañas al excluir una parte de su audiencia. Los operadores pueden comparar el comportamiento de la población objetivo que recibió el mensaje con el comportamiento de los contactos no destinatarios. En función de los registros de envío, los operadores también pueden marcar como objetivo un grupo de control en campañas futuras.
 
-Más información sobre [Grupos de control](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+Más información sobre los [Grupos de control](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 +++
 
 +++**Panel de control de Campaign**
 
-El Panel de control de Campaign ayuda a los administradores de productos de Adobe Campaign a aumentar la eficacia de su trabajo, ya que les permite administrar la configuración y rastrear los usos de cada una de sus instancias. Su intuitiva interfaz les permite supervisar fácilmente el uso de los activos clave, así como realizar tareas administrativas como adición de direcciones IP a la lista de permitidos, supervisión de almacenamiento SFTP, administración de claves, etc.
+El Panel de control de Campaign ayuda a los administradores de productos de Adobe Campaign a aumentar la eficacia de su trabajo, ya que les permite administrar la configuración y rastrear los usos de cada una de sus instancias. Su interfaz intuitiva les permite monitorizar fácilmente el uso de los recursos clave, así como realizar tareas administrativas como añadir listas de permitidos para las direcciones IP, monitorizar el almacenamiento SFTP, administrar claves y mucho más.
 
-Más información sobre [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es).
+Más información sobre el [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es).
 +++
 
 +++**Cubos**
@@ -171,7 +171,7 @@ Más información sobre los [Recursos personalizados](../../configuration/using/
 
 El modelo de datos de Campaign es un conjunto de esquemas que definen los tipos de datos y sus relaciones (vínculos). El modelo de datos es una definición abstracta que se implementa físicamente con una base de datos que contiene los datos reales.
 
-Más información sobre [Modelo de datos](../../configuration/using/about-data-model.md).
+Más información sobre el [modelo de datos](../../configuration/using/about-data-model.md).
 +++
 
 +++**Flujo de trabajo de limpieza de la base de datos**
@@ -246,9 +246,9 @@ Más información sobre el [Correo directo](../../delivery/using/about-direct-ma
 
 +++**Asistente de implementación**
 
-El asistente de implementación define los parámetros de la instancia de Campaign, como el área de nombres predeterminada, la programación de limpieza de la base de datos, los períodos de retención de datos y otros ajustes técnicos.
+El asistente de implementación define los parámetros de la instancia de Campaign, como el área de nombres predeterminada, la programación de limpieza de la base de datos, los períodos de retención de datos y otra configuración técnica.
 
-Más información sobre [Asistente de implementación](../../installation/using/deploying-an-instance.md#deployment-wizard).
+Más información sobre el [Asistente de implementación](../../installation/using/deploying-an-instance.md#deployment-wizard).
 +++
 
 +++**Análisis descriptivo**
@@ -262,16 +262,16 @@ Más información sobre el [Análisis descriptivo](../../reporting/using/about-d
 
 *Contexto: Marketing distribuido*
 
-El complemento Marketing distribuido ofrece a los operadores de campaña un espacio de trabajo colaborativo para implementar campañas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **lista de paquetes de Campaign**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
+El complemento de marketing distribuido ofrece a los operadores de Campaign un espacio de trabajo colaborativo para implementar campañas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **lista de paquetes de Campaign**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
 
-Más información sobre [Distributed Marketing](../../distributed/using/about-distributed-marketing.md)
+Más información sobre el [Marketing distribuido](../../distributed/using/about-distributed-marketing.md)
 +++
 
 +++**Distribución de valores**
 
 La distribución de valores es una herramienta que muestra la distribución de los valores para un atributo de esquema que existen actualmente en la base de datos. Esto le ayuda a determinar qué valores están disponibles, sus recuentos y porcentajes, y a evitar problemas con las mayúsculas y minúsculas, y la ortografía de los valores al crear una consulta o expresión.
 
-Más información sobre [Distribución de valores](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract)
+Más información sobre la [Distribución de valores](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract)
 +++
 
 +++**Delegación de dominios**
@@ -288,7 +288,7 @@ Más información sobre la [Delegación de dominios](https://experienceleague.ad
 ----DEPRECATED------>
 +++**E4X**
 
-E4X es la versión de Javascript que se utiliza en Adobe Campaign Classic. A veces se denomina ECMAScript, es una extensión de Javascript que permite mezclar JavaScript y XML primitivos en el mismo código. Tenga en cuenta que E4X está clasificado como idioma obsoleto.
+E4X es la versión de Javascript que se utiliza en Adobe Campaign Classic. A veces denominada ECMAScript, es una extensión de JavaScript que permite combinar datos primitivos de JavaScript y XML en el mismo código. Tenga en cuenta que E4X tiene la clasificación de idioma obsoleto.
 +++
 
 
@@ -483,9 +483,9 @@ Más información sobre la [Renderización de la bandeja de entrada](../../deliv
 
 +++**Configuraciones de instancia**
 
-Las configuraciones de instancia son detalles de configuración de una instancia de Adobe Campaign. Estos ajustes se definen en el asistente de implementación (Herramientas>Avanzado>Asistente de implementación) o en los archivos de configuración del servidor o de la instancia.
+Las configuraciones de instancia son detalles de configuración de una instancia de Adobe Campaign. Estas configuraciones se definen en el Asistente de implementación (Herramientas>Avanzadas>Asistente de implementación) o en los archivos de configuración del servidor o de la instancia.
 
-Más información sobre [Configuración de instancia](../../installation/using/about-initial-configuration.md).
+Más información sobre la [Configuración de instancia](../../installation/using/about-initial-configuration.md).
 
 +++
 
@@ -493,7 +493,7 @@ Más información sobre [Configuración de instancia](../../installation/using/a
 
 Los trabajos se administran mediante un sistema de asistente que simplifica la importación y exportación de datos dentro y fuera del producto. Los trabajos utilizan el sistema de creación de plantillas para la simplicidad y la coherencia, y se pueden definir para que se ejecuten en una programación.
 
-Más información sobre [importar y exportar trabajos](../../platform/using/get-started-data-import-export.md).
+Más información sobre los [trabajos de importación y exportación](../../platform/using/get-started-data-import-export.md).
 +++
 
 +++**Listas**
@@ -575,7 +575,7 @@ Más información sobre los [Objetivos](../../mrm/using/creating-and-managing-ta
 
 Un catálogo de ofertas es un conjunto de ofertas definidas en Adobe Campaign que puede seleccionarse durante una interacción. El catálogo se organiza de forma jerárquica con cada nodo correspondiente a una categoría.
 
-Más información sobre [Catálogo de ofertas](../../interaction/using/offer-catalog-overview.md).
+Más información sobre el [catálogo de ofertas](../../interaction/using/offer-catalog-overview.md).
 +++
 
 +++**Contacto de oferta**
@@ -596,7 +596,7 @@ Más información sobre la [Interacción](../../interaction/using/interaction-an
 
 El **Entorno de diseño** de la oferta es el entorno en el que los operadores crean ofertas, definen reglas de tipología y seleccionan el esquema que desean que sea objetivo de las ofertas. El entorno también define la tabla para almacenar las propuestas de ofertas generadas. De forma predeterminada, el complemento de interacción incluye un entorno de **diseño** y un entorno **en directo** relacionado con él. Ambos entornos están preconfigurados para seleccionar la tabla de destinatarios predeterminada.
 
-Más información sobre [Entornos de diseño de ofertas](../../interaction/using/fundamental-principles.md).
+Más información sobre los [Entornos de diseño de oferta](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**Arbitraje del motor de oferta**
@@ -623,7 +623,7 @@ Más información sobre la [Interacción](../../interaction/using/interaction-an
 
 El entorno de oferta es la carpeta raíz que define un catálogo de ofertas, sus espacios disponibles y los filtros predefinidos del entorno. Los operadores deben crear un entorno para cada dimensión de segmentación. Existen dos tipos de entornos de oferta: Diseño y En directo.
 
-Más información sobre [Entornos de oferta](../../interaction/using/fundamental-principles.md).
+Más información sobre los [Entornos de oferta](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**Entorno de oferta en directo**
@@ -632,7 +632,7 @@ Más información sobre [Entornos de oferta](../../interaction/using/fundamental
 
 El entorno de oferta en directo está vinculado a un **Entorno de diseño** de Campaign. Contiene ofertas de solo lectura cuyo contenido e idoneidad se han aprobado a través del **Entorno de diseño**. Se pueden seleccionar para la presentación en un sitio web o para insertarse en un mensaje de salida.
 
-Más información sobre [Entornos en directo de ofertas](../../interaction/using/fundamental-principles.md).
+Más información sobre los [Entornos de oferta en directo](../../interaction/using/fundamental-principles.md).
 +++
 
 +++**Reglas de presentación de ofertas**
@@ -666,7 +666,7 @@ Más información sobre las [Propuestas de oferta](../../interaction/using/creat
 
 *Contexto: Interacción de campaña*
 
-Una representación de oferta es información que el canal utiliza para mostrar la oferta. La representación de la oferta puede crearse a partir de la función de procesamiento del espacio en el que la oferta se representa o se introduce directamente en la interfaz (por ejemplo, en el bloque HTML). Una oferta puede representarse por un espacio.
+Una representación de la oferta es información utilizada por el canal para mostrar la oferta. La representación de la oferta puede crearse a partir de la función de procesamiento del espacio en el que la oferta se representa o se introduce directamente en la interfaz (por ejemplo, en el bloque HTML). Una oferta puede representarse mediante un espacio.
 
 Más información sobre la [Interacción](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -686,7 +686,7 @@ Más información sobre las [Simulaciones de ofertas](../../interaction/using/ab
 
 Un espacio de ofertas es una carpeta que determina la ubicación donde se expone la oferta. La definición de un espacio permite especificar el canal utilizado, generar el contenido de la oferta y especificar las ofertas presentadas. Un espacio de ofertas es una interfaz entre el canal y el motor de oferta.
 
-Más información sobre [Espacio de oferta](../../interaction/using/creating-offer-spaces.md).
+Más información sobre el [Espacio de ofertas](../../interaction/using/creating-offer-spaces.md).
 +++
 
 +++**Temas de oferta**
@@ -755,7 +755,7 @@ Más información sobre la [Paleta](../../workflow/using/building-a-workflow.md#
 
 La información de monitorización del rendimiento se muestra en la pestaña de monitorización. Muestra métricas para el sistema subyacente, como el uso de memoria y CPU, estadísticas del servidor SMTP, procesos del servidor y otra información relevante.
 
-Más información sobre [Monitorización del rendimiento](../../production/using/monitoring-processes.md).
+Más información sobre la [Monitorización del rendimiento](../../production/using/monitoring-processes.md).
 +++
 
 +++**Bloques de personalización**
@@ -877,7 +877,7 @@ Más información sobre los [Esquemas](../../configuration/using/about-schema-re
 
 La extensión de los esquemas permite personalizar los esquemas predeterminados para adaptarlos mejor a sus casos de uso empresariales. Por ejemplo, puede agregar el campo &quot;Fidelidad&quot; a la tabla Destinatario.
 
-Más información sobre [Extensión de esquema](../../configuration/using/extending-a-schema.md).
+Más información sobre la [Extensión de los esquemas](../../configuration/using/extending-a-schema.md).
 +++
 
 +++**Direcciones semilla**
@@ -931,14 +931,14 @@ Más información sobre la [Aprobación del destino](../../workflow/using/local-
 
 Los datos de destino son los datos almacenados en la tabla de trabajo (transición) de un flujo de trabajo. Estos datos están disponibles dentro del envío para personalizar el contenido del envío o para definir la lógica de los elementos dinámicos del envío.
 
-Más información sobre [Datos de destino](../../workflow/using/data-life-cycle.md#target-data).
+Más información sobre los [Datos de destino](../../workflow/using/data-life-cycle.md#target-data).
 +++
 
 +++**Asignación de destino**
 
 La asignación de destino es la asignación de canales de envío a un tipo de datos específico. Las asignaciones de destino definen cómo los distintos canales de envío vinculan los campos de datos de un esquema. Define cómo Campaign envía a ese tipo de datos utilizando un campo o expresión específicos.
 
-Más información sobre [Asignación de destino](../../delivery/using/selecting-a-target-mapping.md).
+Más información sobre la [Asignación de destino](../../delivery/using/selecting-a-target-mapping.md).
 +++
 
 +++**Actividades de segmentación**
@@ -1018,7 +1018,7 @@ Más información sobre la [Mensajería transaccional](../../message-center/usin
 
 Las campañas activadas son campañas que se ejecutan cuando se recibe una solicitud de API en un flujo de trabajo. Las llamadas a la API se consumen mediante una actividad de señal en el flujo de trabajo que inicia la ejecución del flujo de trabajo.
 
-Más información sobre [Campañas activadas](../../workflow/using/external-signal.md).
+Más información sobre las [Campañas activadas](../../workflow/using/external-signal.md).
 +++
 
 <!--
@@ -1046,7 +1046,7 @@ Más información sobre las [Tipologías](../../campaign-opt/using/about-campaig
 
 Las reglas de tipología son reglas empresariales que se implementan como parte de la fase de análisis del envío. Las reglas de tipología son comprobaciones del contenido del envío (reglas de control), del destinatario del envío (reglas de filtrado) u otra lógica (reglas de presión) que aplican requisitos empresariales. Las reglas son elementos granulares que se pueden incluir en una o más tipologías.
 
-Más información sobre [Reglas de tipología](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
+Más información sobre las [Reglas de tipología](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
 +++
 
 ## U - Z {#sec-6}

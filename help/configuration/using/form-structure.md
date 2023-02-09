@@ -491,7 +491,7 @@ Ejemplo en el campo &quot;Gender&quot;:
 <input xpath="@gender" readOnly="true"/>
 ```
 
-## Botón de radio {#radio-button}
+## Botón de opción {#radio-button}
 
 Un botón de opción permite elegir entre varias opciones. La variable **`<input>`** se usan para listar las opciones posibles y la variable **selectedValue** especifica el valor asociado a la opción.
 
@@ -505,7 +505,7 @@ Ejemplo en el campo &quot;Gender&quot;:
 
 ![](assets/d_ncs_integration_form_exemple17.png)
 
-## Casilla de verificación {#checkbox}
+## Casilla {#checkbox}
 
 Una casilla de verificación refleja un estado booleano (seleccionado o no). De forma predeterminada, los campos &quot;Boolean&quot; (true/false) utilizan este control. Con este botón se puede asociar una variable que tome un valor predeterminado de 0 o 1. Este valor se puede sobrecargar mediante la variable **checkValue** atributos.
 

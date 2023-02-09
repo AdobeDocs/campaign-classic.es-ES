@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Puntos finales de red de Campaign
-description: Puntos finales de red de Campaign
+title: Extremos de red de Campaign
+description: Extremos de red de Campaign
 exl-id: 027ed2b6-365f-434f-9a18-2140512168e9
 source-git-commit: 378788764e244dcad12018d6d703048707d4c3e6
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 22%
 
 ---
 
-# Puntos finales de red de Campaign {#campaign-standard-network-endpoints}
+# Extremos de red de Campaign {#campaign-standard-network-endpoints}
 
 ![](../../assets/v7-only.svg)
 

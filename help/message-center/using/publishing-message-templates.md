@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 'Publicación de plantillas de mensaje '
+title: Publicación de plantillas de mensaje
 description: Obtenga información sobre la publicación y cancelación de publicación de plantillas de mensaje transaccional en Adobe Campaign Classic.
 audience: message-center
 content-type: reference

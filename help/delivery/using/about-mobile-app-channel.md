@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: 'Introducción al canal de aplicaciones móviles '
+title: Introducción al canal de aplicaciones móviles
 description: Introducción al canal de aplicaciones móviles en Adobe Campaign Classic
 feature: Push
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 100%
 

@@ -29,7 +29,7 @@ created (datetime), createdBy-id (long), desc (string), entitySchema (string), E
 
 Ninguno
 
-## Niños {#children-14}
+## Tareas secundarias {#children-14}
 
 * `<attribute>`
 * `<createdby>`

@@ -6,7 +6,7 @@ exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -31,7 +31,7 @@ enumeration:==(help| value)
 
 `<srcschema>`
 
-## Niños {#children-5}
+## Tareas secundarias {#children-5}
 
 * `<help>`
 * `<value>`
@@ -50,7 +50,7 @@ Las enumeraciones se definen al principio de un esquema (antes de que se defina 
 
    Lista de tipos disponibles:
 
-   * CUALQUIER
+   * CUALQUIERA
    * bin
    * blob
    * booleano
@@ -74,7 +74,7 @@ Las enumeraciones se definen al principio de un esquema (antes de que se defina 
    * percent
    * primarykey
    * short
-   * string
+   * cadena
    * tiempo
    * timespan
    * uuid

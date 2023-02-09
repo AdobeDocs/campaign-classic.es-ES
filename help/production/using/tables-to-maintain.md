@@ -9,7 +9,7 @@ exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1123'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ La siguiente lista contiene solo las tablas más sujetas a fragmentación. Los i
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Nombre de tabla </strong><br /> </th> 
+   <th> <strong>Nombre de la tabla </strong><br /> </th> 
    <th> <strong>Tamaño</strong><br /> </th> 
    <th> <strong>Tipo principal de actividad</strong><br /> </th> 
    <th> <strong>Comentarios</strong><br /> </th> 
@@ -44,7 +44,7 @@ La siguiente lista contiene solo las tablas más sujetas a fragmentación. Los i
   </tr> 
   <tr> 
    <td> NmsDeliveryPart<br /> </td> 
-   <td> Medio<br /> </td> 
+   <td> Media<br /> </td> 
    <td> Inserciones, actualizaciones, eliminaciones<br /> </td> 
    <td> Tabla de trabajo en la que se insertan registros durante la preparación de la entrega. A continuación, se actualizan durante la entrega y se eliminan una vez finalizada la entrega.<br /> Esta tabla tiende a fragmentarse rápidamente aunque su tamaño promedio sea bastante limitado.<br /> </td> 
   </tr> 
@@ -56,13 +56,13 @@ La siguiente lista contiene solo las tablas más sujetas a fragmentación. Los i
   </tr> 
   <tr> 
    <td> NmsDeliveryStat<br /> </td> 
-   <td> Medio<br /> </td> 
+   <td> Media<br /> </td> 
    <td> Inserciones, actualizaciones, eliminaciones<br /> </td> 
    <td> Esta tabla contiene estadísticas sobre el proceso de envío. Sus registros se actualizan periódicamente. <br /> </td> 
   </tr> 
   <tr> 
    <td> NmsAddress<br /> </td> 
-   <td> Medio<br /> </td> 
+   <td> Media<br /> </td> 
    <td> Actualizaciones, inserciones<br /> </td> 
    <td> Esta tabla contiene información sobre las direcciones de correo electrónico. Se actualiza con frecuencia como parte del proceso de cuarentena (los registros se crean en el primer error de entrega, se actualizan cuando los contadores cambian y se eliminan una vez que la entrega se realiza correctamente). <br /> </td> 
   </tr> 
@@ -110,7 +110,7 @@ La siguiente lista contiene solo las tablas más sujetas a fragmentación. Los i
   </tr> 
   <tr> 
    <td> NmsEmailErrorStat<br /> </td> 
-   <td> Medio<br /> </td> 
+   <td> Media<br /> </td> 
    <td> Inserciones, actualizaciones, eliminaciones<br /> </td> 
    <td> Esta tabla contiene los agregados por errores SMTP ordenados por dominio. Inicialmente contiene información detallada que la tarea de limpieza agrega cuando está obsoleta. <br /> </td> 
   </tr> 

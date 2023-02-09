@@ -13,7 +13,7 @@ ht-degree: 5%
 
 ---
 
-# Configuración de la entrega {#delivery-settings}
+# Configuración del envío {#delivery-settings}
 
 ![](../../assets/v7-only.svg)
 

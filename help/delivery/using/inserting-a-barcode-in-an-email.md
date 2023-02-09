@@ -4,7 +4,7 @@ title: Inserción de un código de barras en un correo electrónico
 description: Inserción de un código de barras en un correo electrónico
 feature: Email Design
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 100%
 

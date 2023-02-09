@@ -82,7 +82,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. Por favor [actualizar a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. Por favor [actualizar a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Mejoras**
 
@@ -104,7 +104,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. Por favor [actualizar a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. Por favor [actualizar a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Novedades**
 
@@ -249,7 +249,7 @@ Estos cambios de índice pueden producir un aumento del tiempo necesario para re
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. Por favor [actualizar a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. Por favor [actualizar a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Novedades**
 
@@ -305,7 +305,7 @@ Para obtener más información sobre la banda de consultas, vea esta sección.
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. [Actualice a la última versión](../../production/using/build-upgrade.md) o contacte con el [soporte técnico](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. [Actualice a la última versión](../../production/using/build-upgrade.md) o contacte con el [soporte técnico](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Novedades**
 
@@ -323,7 +323,7 @@ Para obtener más información sobre la banda de consultas, vea esta sección.
   </tr> 
   <tr> 
    <td> Compatibilidad con Windows Server 2016<br /> </td> 
-   <td> Adobe Campaign ahora es compatible con Windows Server 2016. Consulte la <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Matriz de compatibilidades de Campaign Classic</a>.<br /> </td> 
+   <td> Adobe Campaign ahora es compatible con Windows Server 2016. Consulte la <a href="https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html">Matriz de compatibilidades de Campaign Classic</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -340,7 +340,7 @@ Para los clientes existentes, el comportamiento de esta función no cambia pero 
 
 decryptPassword
 
-Se ha añadido la función **decryptPassword.** Permite descifrar una contraseña almacenada en una cuenta externa. Consulte la documentación de [JSAPI](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) para obtener más información.
+Se ha añadido la función **decryptPassword.** Permite descifrar una contraseña almacenada en una cuenta externa. Consulte la documentación de [JSAPI](https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html) para obtener más información.
 
 API de archivo
 

@@ -5,7 +5,7 @@ description: Obtenga más información acerca de la administración de la capaci
 feature: Deliverability
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo realizar pruebas A/B mediante un c
 feature: A/B Testing
 exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
 source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
 

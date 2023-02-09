@@ -57,7 +57,7 @@ Los archivos de registro de instancia única se enumeran en la siguiente tabla:
 
 Para optimizar el rendimiento y el almacenamiento, el archivo logins.log se divide en varios archivos, uno cada día (logins.yy-mm-dd.log) con un máximo de 365 archivos retenidos. El número de días se puede cambiar en serverConf.xml, en syslogd (**maxNumberOfLoginsFiles** ). Consulte la documentación de [archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md#syslogd).
 
-De forma predeterminada, los registros están limitados a dos archivos de 10 MB por módulo y por instancia. El segundo archivo se llama: **`<modulename>`_2.log**. Por lo tanto, el tamaño de los registros está limitado a 2*10 MB por módulo y por instancia.
+De forma predeterminada, los registros están limitados a dos archivos de 10 MB por módulo y por instancia. El segundo archivo se llama: **`<modulename>`_2.log**. Por lo tanto, el tamaño de los registros está limitado a 2&#42;10 MB por módulo y por instancia.
 
 Sin embargo, puede mantener archivos más grandes. Para habilitar esto, cambie el valor de la variable **maxFileSizeMb=&quot;10&quot;** en la **syslogd** nodo de la variable **conf/serverConf.xml** archivo. Este valor representa el tamaño máximo en MB de un archivo de registro.
 

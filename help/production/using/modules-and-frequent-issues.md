@@ -9,7 +9,7 @@ exl-id: dbd50178-0a16-46ed-bfad-47beb3c2a420
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -44,7 +44,7 @@ Esta es una lista de módulos afectados por problemas frecuentes:
    <td> Compruebe este módulo si los correos rechazados ya no se reenvían.<br /> </td> 
   </tr> 
   <tr> 
-   <td> mta </td> 
+   <td> mta. </td> 
    <td> Entrega correos electrónicos<br /> </td> 
    <td> Compruebe este módulo si ya no se están enviando correos electrónicos.<br /> </td> 
   </tr> 

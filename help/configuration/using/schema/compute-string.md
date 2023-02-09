@@ -6,7 +6,7 @@ exl-id: 8a079bb8-3f53-4144-a065-5bd402649cc7
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -26,7 +26,7 @@ compute-string:==EMPTY
 
 `<element>`
 
-## Niños {#children-1}
+## Tareas secundarias {#children-1}
 
 Ninguno
 

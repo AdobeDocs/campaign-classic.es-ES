@@ -5,7 +5,7 @@ description: Monitorice los flujos de trabajo con el mapa de calor del flujo de 
 feature: Workflows, Heatmap
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 100%
 

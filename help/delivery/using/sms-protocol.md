@@ -857,7 +857,7 @@ Verifique que `BIND_* PDUs` se envíen correctamente. Lo más importante que hay
 
 Compruebe que no hay demasiadas `BIND_* PDU`. Si hay demasiados, podría indicar que la conexión es inestable. Consulte la sección [Problemas con conexiones inestables](sms-protocol.md#issues-unstable-connection) para obtener más información.
 
-#### INQUIRE_LINK {#enquire-link-pdus}
+#### ENQUIRE_LINK {#enquire-link-pdus}
 
 Compruebe que las `ENQUIRE_LINK PDU` se intercambian regularmente cuando la conexión está inactiva.
 

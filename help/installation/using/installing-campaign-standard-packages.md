@@ -124,7 +124,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
    <td> Todo<br /> </td> 
   </tr> 
    <tr> 
-   <td> Canal de teléfono<br /> </td> 
+   <td> Canal del teléfono<br /> </td> 
    <td> Envía envíos utilizando el canal telefónico con Adobe Campaign. Se utiliza para el centro de llamadas. Opcional. <a href="../../delivery/using/communication-channels.md">Más información</a> <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 

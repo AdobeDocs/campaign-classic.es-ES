@@ -5,8 +5,8 @@ description: Estos ejemplos muestran cómo se puede utilizar código JavaScript 
 feature: Workflows
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
-source-wordcount: '1768'
+workflow-type: tm+mt
+source-wordcount: '1764'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ Para escribir en la base de datos, puede utilizar el método estático `Write` e
    1. Llame al método `Write` en el esquema `xtk:session`.
 
       >[!IMPORTANT]
-      > Si utiliza Adobe Campaign v8, le recomendamos que utilice el mecanismo de ensayo con las API de **Ingesta** y **Actualización/eliminación de datos** para el método `Write` en una tabla de Snowflake. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=es){target=&quot;_blank&quot;}.
+      > Si utiliza Adobe Campaign v8, le recomendamos que utilice el mecanismo de ensayo con las API de **Ingesta** y **Actualización/eliminación de datos** para el método `Write` en una tabla de Snowflake. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=es){target="_blank"}.
 
    1. Pase el código XML como argumento para la solicitud de escritura.
 
@@ -562,7 +562,7 @@ Puede insertar, actualizar y eliminar registros. Puede usar el método `Write` e
 * La operación `delete`
 
 >[!IMPORTANT]
-> Si utiliza Adobe Campaign v8, le recomendamos que utilice el mecanismo de ensayo con las API de **Ingesta** y **Actualización/eliminación de datos** para el método `Write` en una tabla de Snowflake. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=es){target=&quot;_blank&quot;}.
+> Si utiliza Adobe Campaign v8, le recomendamos que utilice el mecanismo de ensayo con las API de **Ingesta** y **Actualización/eliminación de datos** para el método `Write` en una tabla de Snowflake. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=es){target="_blank"}.
 
 #### Ejemplo 1: insertar o actualizar un registro
 

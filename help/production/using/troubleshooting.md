@@ -26,7 +26,7 @@ Esta sección contiene procedimientos de solución de problemas relacionados con
 * Esta [página](../../production/using/lost-password.md) detalla cómo cambiar o recuperar una contraseña perdida.
 * Esta [página](../../production/using/console-update.md) detalla cómo reactivar la solicitud de actualización de la consola si ha desactivado la opción correspondiente.
 
-## Solución de problemas de entrega {#delivery-troubleshooting}
+## Solución de problemas de envío {#delivery-troubleshooting}
 
 Se pueden realizar acciones específicas al tener problemas con las entregas:
 * [Problemas de entregas](../../production/using/performance-and-throughput-issues.md#deliverability_issues)

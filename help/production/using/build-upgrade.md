@@ -242,11 +242,11 @@ Cuando la mensajería transaccional (centro de mensajes) está habilitada en la 
 1. Ejecute pruebas para asegurarse de que los correos electrónicos se reciben correctamente a través de la instancia de producción del Centro de mensajes.
 1. Ejecute pruebas de flujo de trabajo en producción para garantizar que se reciban los envíos.
 
-#### Mid-sourcing
+#### Intermediario
 
 En el contexto de un entorno de mid-sourcing, debe realizar estos pasos adicionales para actualizar:
 
-1. Contacto [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para coordinar la actualización del servidor intermediario.
+1. Contacto [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para coordinar la actualización del servidor intermediario.
 1. Valide que la versión se haya actualizado ejecutando un vínculo de prueba. Por ejemplo:
 
    ```
@@ -363,8 +363,8 @@ Existen diferentes tipos de combinaciones:
 #### ¿Dónde encontrar el código?
 
 1. El código integrado se almacena en archivos XML en la carpeta datakit. Busque el archivo XML que coincida con el objeto conflictivo. Ejemplo: installationDirectory\datakit\nms\fra\form\recipient.xml
-1. Recupere la versión original: a través de la variable [Centro de descargas](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) u otra instalación no actualizada del producto.
-1. Recupere la nueva versión: a través de la variable [Centro de descargas](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) o los archivos instalados del cliente.
+1. Recupere la versión original: a través de la variable [Centro de descargas](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) u otra instalación no actualizada del producto.
+1. Recupere la nueva versión: a través de la variable [Centro de descargas](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) o los archivos instalados del cliente.
 1. Recupere la versión personalizada: recupere el código fuente del objeto desde el cliente de Campaign.
 
 ### ¿Cómo hacer una diferencia?

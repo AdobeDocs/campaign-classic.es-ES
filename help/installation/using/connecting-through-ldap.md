@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Conexión mediante LDAP
-description: 'Aprenda a utilizar LDAP para iniciar sesión en Campaign '
+description: Aprenda a utilizar LDAP para iniciar sesión en Campaign
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -9,7 +9,7 @@ exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
 source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -189,4 +189,4 @@ Esta sección proporciona algunos casos de uso sencillos para ayudarle a lograr 
 
    Los grupos nunca se crean sobre la marcha, ya sea por Adobe Campaign o por LDAP. Deben crearse individualmente, tanto en Adobe Campaign como en el directorio LDAP.
 
-   Los nombres de los grupos en el directorio LDAP deben coincidir con los nombres de los grupos de Adobe Campaign. Su máscara de asociación se define en el último paso de configuración del asistente de implementación: Adobe Campaign_(.*), por ejemplo.
+   Los nombres de los grupos en el directorio LDAP deben coincidir con los nombres de los grupos de Adobe Campaign. Su máscara de asociación se define en el último paso de configuración del asistente de implementación: Adobe Campaign_(.&#42;), por ejemplo.

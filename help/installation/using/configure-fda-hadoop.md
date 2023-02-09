@@ -74,7 +74,7 @@ El conector admite las siguientes opciones de ODBC:
 
 El conector también admite las siguientes opciones de Hive:
 
-| Nombre | Valor | Descripción |
+| Name | Valor | Descripción |
 |---|---|---|
 | bulkKey | Clave de acceso de Azure blob o DataLake | Para cargadores masivos wasb:// o wasbs:// (es decir, si la herramienta de carga masiva inicio con wasb:// o wasbs://). <br>Es la clave de acceso para blob o el bloque DataLake para la carga masiva. |
 | hdfsPort | número de puerto <br>establecido de forma predeterminada en 8020. | Para la carga masiva de HDFS (es decir, si la herramienta de carga masiva inicia con webhdfs:// o webhdfss://). |

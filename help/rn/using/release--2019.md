@@ -216,7 +216,7 @@ _15 de abril de 2021_
 
 >[!NOTE]
 >
-> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
+> Conéctese a [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) para descargar la nueva versión. Aprenda a proponer la actualización de la consola a todos los usuarios finales [en esta página](../../installation/using/client-console-availability-for-windows.md).
 
 _22 de marzo de 2021_
 
@@ -233,7 +233,7 @@ _16 de diciembre de 2020_
 >[!CAUTION]
 >
 > * Esta versión incorpora un nuevo protocolo de conexión: si se conecta a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/using/ims-updates.md)
-> * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
+> * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 > * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación de oAuth heredado con Campaign [se ha eliminado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) en **septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta el **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) a Adobe.
 
 
@@ -411,7 +411,7 @@ _30 de mayo de 2019_
   </tr> 
   <tr> 
    <td> Actualización de la matriz de compatibilidades<br /> </td> 
-   <td> Con esta nueva versión, Adobe Campaign admite los siguientes sistemas de bases de datos. Consulte la <a href="https://helpx.adobe.com/campaign/kb/compatibility-matrix.html">Matriz de compatibilidades</a>.<br /> 
+   <td> Con esta nueva versión, Adobe Campaign admite los siguientes sistemas de bases de datos. Consulte la <a href="https://helpx.adobe.com/es/campaign/kb/compatibility-matrix.html">Matriz de compatibilidades</a>.<br /> 
     <ul> 
      <li> <p>Oracle 18c</p> </li> 
      <li> <p>MySQL 5.7 (FDA)</p> </li> 
@@ -449,7 +449,7 @@ _30 de mayo de 2019_
 * Tamaño de base de datos: XtkJobLog (se ha añadido un mecanismo de depuración a esta tabla). Esto tiene un impacto positivo en el tamaño de la base de datos.
 * Archivado BCC: los parámetros predeterminados para el archivado BCC se han cambiado para aumentar la velocidad de almacenamiento. [Más información](../../installation/using/email-archiving.md#parameters)
 * Actualización de la estructura de la base de datos: las solicitudes de SQL generadas por el Asistente de actualización de la estructura de base de datos se han mejorado para que la ejecución sea más rápida.
-* Seguridad para las acciones de operadores: se han implementado varias medidas de seguridad para evitar que los operadores realicen acciones que puedan afectar a la integridad de la plataforma. Los esquemas integrados ya no se pueden eliminar a través de la interfaz. Asimismo, los usuarios no administradores ya no pueden editar el XML de origen del flujo de trabajo.
+* Seguridad para las acciones de operadores: se han implementado varios mecanismos de protección para evitar que los operadores realicen acciones que puedan afectar a la integridad de la plataforma. Los esquemas integrados ya no se pueden eliminar a través de la interfaz. Asimismo, los usuarios no administradores ya no pueden editar el XML de origen del flujo de trabajo.
 * Existen dos nuevas opciones disponibles: **XtkSecurity_Restrict_EditXML** (permite desactivar la edición del código XML de las entregas) y **NmsOperation_OperationMgtDebug** (permite monitorizar la ejecución del flujo de trabajo técnico de operationMgt). [Más información](../../installation/using/configuring-campaign-options.md)
 
 **Otros cambios**

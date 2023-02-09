@@ -28,7 +28,7 @@ _operation (cadena), avanzado (booleano), acumulado (cadena), aplicableIf (caden
 
 `<element>`
 
-## Niños {#children-4}
+## Tareas secundarias {#children-4}
 
 * `<attribute>`
 * `<compute-string>`
@@ -174,7 +174,7 @@ Existen cuatro tipos de `<element>`  elementos en Adobe Campaign:
 
    Lista de tipos disponibles:
 
-   * CUALQUIER
+   * CUALQUIERA
    * bin
    * blob
    * booleano
@@ -196,7 +196,7 @@ Existen cuatro tipos de `<element>`  elementos en Adobe Campaign:
    * percent
    * primarykey
    * short
-   * string
+   * cadena
    * tiempo
    * timespan
    * uuid

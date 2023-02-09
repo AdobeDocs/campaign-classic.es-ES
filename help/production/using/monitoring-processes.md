@@ -257,7 +257,6 @@ Se agrupan en **Monitorización** > &#39;Supervisión SMTP&#39;.
 >
 >* La información relacionada con la supervisión SMTP solo está disponible si se ha activado el canal de correo electrónico.
 >* La variable **[!UICONTROL SMTP sending statistics]** solo se ofrecen si el servidor de estadísticas se inicia en la instancia.
-
 >
 
 
@@ -363,7 +362,7 @@ Las siguientes métricas están disponibles para realizar un seguimiento de los 
 
 Adobe Campaign ofrece varios métodos de monitorización automática, que se presentan a continuación.
 
-### Línea de comandos {#command-line}
+### Línea de comando {#command-line}
 
 Comando
 
@@ -465,7 +464,7 @@ Adobe Campaign habilita varias configuraciones de implementación (para obtener 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> Mid-sourcing </td> 
+   <td> Intermediario </td> 
    <td> 
     <ul> 
      <li><p> <span class="uicontrol">/nl/jsp/monitor.jsp</span> en el servidor de aplicaciones</p> </li> 

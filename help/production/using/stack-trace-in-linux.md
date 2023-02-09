@@ -23,7 +23,6 @@ A **seguimiento de pila** representa un seguimiento contenido en un **core** esc
 >
 >* A **core** nombre del archivo **principal.`<num>`**.
 >* **gdb: el depurador GNU** debe estar instalado en el equipo.
-
 >
 
 

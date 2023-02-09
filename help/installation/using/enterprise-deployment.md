@@ -76,7 +76,7 @@ Mayor costo de hardware y administración.
 En los ejemplos siguientes, los parámetros de la instancia son:
 
 * Nombre de la instancia: demostración
-* Máscara DNS: tracking.campaign.net*, console.campaign.net* (el servidor de aplicaciones gestiona las direcciones URL de las conexiones e informes de la consola del cliente, así como de las páginas espejo y las páginas de baja)
+* Máscara DNS: tracking.campaign.net&#42;, console.campaign.net&#42; (el servidor de aplicaciones gestiona las direcciones URL para las conexiones e informes de la consola del cliente, así como para las páginas espejo y las páginas de baja)
 * Idioma: Inglés
 * Base de datos: campaña:demo@dbsrv
 

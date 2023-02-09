@@ -5,7 +5,7 @@ description: Obtenga más información sobre las directrices generales para el s
 feature: Monitoring, Email
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 source-git-commit: 29fae1305a6d2b8debbc2aa705c047eaf3730457
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: Aprenda a crear un filtro al realizar consultas
 feature: Query Editor, Workflows
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
 source-git-commit: 6232e0df09165bc07c8e521df271874abd5698a9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 

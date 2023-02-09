@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo generar documentos PDF personaliza
 feature: Personalization
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
 source-git-commit: 1e11b7419388698f5de366cbeddf2be88ef12873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
 

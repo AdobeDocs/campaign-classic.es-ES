@@ -5,7 +5,7 @@ description: 'Caso de uso: creación de una entrega por correo electrónico'
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
 source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 100%
 

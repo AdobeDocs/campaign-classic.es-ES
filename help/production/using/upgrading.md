@@ -24,7 +24,6 @@ Antes de iniciar el proceso de actualización, determine y confirme a qué versi
 >* Adobe recomienda encarecidamente realizar una copia de seguridad de la base de datos en cada instancia antes de la actualización. Para obtener más información, consulte [esta sección](../../production/using/backup.md).
 >* Para realizar una actualización, asegúrese de que tiene la capacidad y los permisos para acceder a instancias y registros.
 >* Leer [esta sección](../../installation/using/general-architecture.md) y [actualización de versión](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) antes de comenzar.
-
 >
 
 
@@ -124,7 +123,7 @@ En un entorno Linux, siga los pasos a continuación para actualizar Adobe Campai
 
 ### Obtener paquetes actualizados {#obtain-updated-packages}
 
-Comience recuperando ambos paquetes actualizados de Adobe Campaign: conectarse a la [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) usando sus credenciales de usuario. Obtenga más información sobre la distribución de software en [esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=en).
+Comience recuperando ambos paquetes actualizados de Adobe Campaign: conectarse a la [Portal de distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) usando sus credenciales de usuario. Obtenga más información sobre la distribución de software en [esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es?lang=en).
 
 El archivo es **nlserver6-v7-XXX.rpm**
 

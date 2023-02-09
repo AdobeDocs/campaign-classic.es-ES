@@ -75,7 +75,7 @@ A medida que aumenta el volumen, una variante de esta arquitectura mueve el serv
 En los ejemplos siguientes, los parámetros de la instancia son:
 
 * Nombre de la instancia: **demostración**
-* Máscara DNS: **console.campaign.net*** (solo para conexiones de consola del cliente y para informes)
+* Máscara DNS: **console.campaign.net&#42;** (solo para conexiones de consola del cliente y para informes)
 * Base de datos: **campaña:demo@dbsrv**
 
 ### Instalación y configuración (un solo equipo) {#installing-and-configuring--single-machine-}

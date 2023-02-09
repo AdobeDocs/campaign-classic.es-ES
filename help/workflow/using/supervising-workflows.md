@@ -5,7 +5,7 @@ description: Descubra cómo supervisar flujos de trabajo de campañas
 feature: Workflows
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
 source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 100%
 

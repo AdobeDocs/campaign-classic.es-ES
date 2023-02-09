@@ -53,7 +53,7 @@ Antes de iniciar la implementación, compruebe la configuración de la instancia
 1. Compruebe que la variable `DmRendering_cuid` se rellena.
 
    * Si se completa la opción, puede iniciar la implementación.
-   * Si no se rellena ningún valor, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} para obtener su CUID.
+   * Si no se rellena ningún valor, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} para obtener su CUID.
 
    Esta opción debe rellenarse en todas las instancias de Campaign (MKT, MID, RT, EXEC) con el valor correcto. Como cliente híbrido, póngase en contacto con el Adobe para que la opción se establezca en las instancias MID, RT y EXEC.
 
@@ -61,7 +61,7 @@ Como cliente local, también debe comprobar que una campaña **[!UICONTROL Produ
 
 1. Como administrador, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}.
 1. Acceda a la **Producto y servicios** sección y marque **Adobe Campaign** aparece en la lista.
-Si no puede ver **Adobe Campaign** póngase en contacto [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} para agregarlo.
+Si no puede ver **Adobe Campaign** póngase en contacto [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} para agregarlo.
 1. Haga clic en **Adobe Campaign** y seleccione su organización.
    **Precaución**: Si tiene más de una organización, asegúrese de seleccionar la correcta. Más información sobre las organizaciones [en esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
 
@@ -137,7 +137,7 @@ Para ello:
    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
 
-1. Debe detener y luego reiniciar el servidor para que se tenga en cuenta la modificación. También puede ejecutar un `config -reload` comando.
+1. Debe detener y, a continuación, reiniciar el servidor para que se tenga en cuenta la modificación. También puede ejecutar un `config -reload` comando.
 
 ### Paso 3: Habilitar el nuevo servidor de entrega
 
