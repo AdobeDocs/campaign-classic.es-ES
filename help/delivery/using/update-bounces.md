@@ -7,13 +7,13 @@ hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
 source-git-commit: 165797105affc9b5d4e4332f7f158031579bf91c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '513'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
-# Actualizar devoluciones duras incorrectas después de una interrupción del ISP {#update-bounces}
+# Actualización de estado de devoluciones graves incorrectas después de una interrupción ISP {#update-bounces}
 
 ![](../../assets/common.svg)
 
@@ -21,19 +21,19 @@ ht-degree: 36%
 
 En caso de interrupción de un ISP, los correos electrónicos enviados a través de Campaign no se pueden enviar correctamente a su destinatario: estos correos electrónicos se marcarán erróneamente como rechazos.
 
-Los problemas globales en Apple o Gmail, por ejemplo, pueden causar que algunos mensajes de correo electrónico enviados a direcciones de correo electrónico válidas de Apple o Gmail se devuelvan incorrectamente como direcciones de correo electrónico no válidas por parte de los servidores ISP con el rechazo de las siguientes respuestas:
+Los problemas globales en Apple o Gmail, por ejemplo, pueden causar que algunos mensajes de correo electrónico enviados a direcciones de correo electrónico válidas de Apple o Gmail se devuelvan incorrectamente como direcciones de correo electrónico no válidas por parte de los servidores ISP con las siguientes respuestas de rechazo:
 
-* &quot;550 5.1.1 &#39;dirección de correo electrónico&#39;: la búsqueda del usuario se ha realizado correctamente, pero no se ha encontrado ningún registro de usuario&quot;.
+* “550 5.1.1 &#39;dirección de correo electrónico&#39;: la búsqueda del usuario se ha realizado correctamente, pero no se ha encontrado ningún registro de usuario”.
 
-* &quot;Se ha rechazado el destinatario 550 &quot;dirección de correo electrónico&quot;
+* “Se ha rechazado el destinatario 550 &#39;dirección de correo electrónico&#39;”
 
-Tenga en cuenta que si el aplazamiento devuelve un error con el mensaje &quot;452 acción solicitada anulada: inténtelo de nuevo más tarde&quot; se están observando, se vuelven a intentar automáticamente y no se necesitan acciones. Deben mejorar a medida que el ISP recupera la capacidad completa.
+Tenga en cuenta que si el aplazamiento devuelve un error con el mensaje “452 acción solicitada anulada: inténtelo de nuevo más tarde” se están observando, se vuelven a intentar automáticamente y no se necesitan acciones. Deben mejorar a medida que el ISP recupera la capacidad completa.
 
 >[!NOTE]
 >
->Puede comprobar el panel de estado del sistema de Apple en [esta página](https://www.apple.com/es/support/systemstatus/){_blank}.
+>Puede consultar el panel del estado de Apple System en [esta página](https://www.apple.com/es/support/systemstatus/){_blank}.
 >
->Puede comprobar el panel de estado del espacio de trabajo de Google en [esta página](https://www.google.com/appsstatus#hl=en&amp;v=status){_blank}.
+>Puede consultar el Tablero de estado de Google Workspace en [esta página](https://www.google.com/appsstatus#hl=en&amp;v=status){_blank}.
 
 ## Impacto{#update-bounce-impact}
 
@@ -45,25 +45,25 @@ Para encontrar los destinatarios afectados por este problema, consulte las instr
 
 ## Proceso de actualización{#update-bounce-update}
 
-Debe ejecutar una consulta en la tabla de cuarentena para filtrar todos los destinatarios afectados (por ejemplo, para Apple, las direcciones que incluyen @icloud.com, @me.com, @mac.com) que se hayan visto potencialmente afectados por la interrupción para que se puedan eliminar de la lista de cuarentena y se incluyan en futuros envíos de correo electrónico de Campaign.
+Deberá ejecutar una consulta en la tabla de cuarentena para filtrar todos los destinatarios afectados, de Apple por ejemplo, que incluyen las direcciones @icloud.com, @me.com y @mac.com, que se hayan visto potencialmente afectados por la interrupción para que se puedan eliminar de la lista de cuarentena y se puedan incluir en futuros envíos de correo electrónico de Campaign.
 
-En función del intervalo de tiempo del incidente y del ISP, a continuación se indican las directrices recomendadas para esta consulta.
+En función del periodo de tiempo del problema y la ISP, se indican a continuación las directrices recomendadas para esta consulta.
 
-* Para entornos de campaña con información de regla de correo electrónico entrante en la sección **[!UICONTROL Error text]** campo de la lista de cuarentena:
+* Para entornos de Campaign con información de regla de correo electrónico entrante en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
    * **El texto del error (texto de cuarentena)** contiene “Momen_Code10_InvalidRecipient”
-   * **Dominio de correo electrónico (@domain)** igual a domain1.com OR **Dominio de correo electrónico (@domain)** igual a domain2.com OR **Dominio de correo electrónico (@domain)** igual a domain3.com
-   * **Actualizar estado (@lastModified)** en o después de MM/DD/AAAA HH:MM:SS AM
-   * **Actualizar estado (@lastModified)** en MM/DD/AAAA HH:MM:SS PM
+   * **Dominio de correo electrónico (@domain)** igual a domain1.com O **Dominio de correo electrónico (@domain)** igual a domain2.com O **Dominio de correo electrónico (@domain)** igual a domain3.com
+   * **Actualizar estado (@lastModified)** en o después de DD/MM/AAAA HH:MM:SS AM
+   * **Actualizar estado (@lastModified)** en DD/MM/AAAA HH:MM:SS PM
 
-* Para entornos de Campaign con información de respuesta de rechazo SMTP en la variable **[!UICONTROL Error text]** campo de la lista de cuarentena:
+* Para entornos de Campaign con información de respuesta de rechazo SMTP en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
-   * **Texto de error (texto de cuarentena)** contiene &quot;550-5.1.1&quot; Y **Texto de error (texto de cuarentena)** contiene &quot;support.ISP.com&quot;
+   * **Texto de error (texto de cuarentena)** contiene “550-5.1.1” Y **Texto de error (texto de cuarentena)** contiene “support.ISP.com”
 
-      donde &quot;support.ISP.com&quot; puede ser: &quot;support.apple.com&quot; o &quot;support.google.com&quot;, por ejemplo
+      donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
 
-   * **Actualizar estado (@lastModified)** en o después de MM/DD/AAAA HH:MM:SS AM
-   * **Actualizar estado (@lastModified)** en MM/DD/AAAA HH:MM:SS PM
+   * **Actualizar estado (@lastModified)** en o después de DD/MM/AAAA HH:MM:SS AM
+   * **Actualizar estado (@lastModified)** en DD/MM/AAAA HH:MM:SS PM
 
 
 Una vez que tenga la lista de destinatarios afectados, puede aplicarles un estado **[!UICONTROL Valid]** para que el flujo de trabajo **[!UICONTROL Database cleanup]** los elimine de la lista de cuarentena, o simplemente elimínelos de la tabla.
