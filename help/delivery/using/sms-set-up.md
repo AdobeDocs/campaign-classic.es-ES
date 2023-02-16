@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo configurar el canal SMS en Campaig
 feature: SMS
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: 0ae52b00f69298e001596583fe166771faddead2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1722'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
