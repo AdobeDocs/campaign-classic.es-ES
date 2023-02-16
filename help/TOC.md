@@ -7,9 +7,9 @@ user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enr
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 985c0f170b8a56d7cdf76779ed9581832da301b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2532'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -831,7 +831,7 @@ ht-degree: 99%
    + Correos electrónicos y notificaciones push{#technotes-email}
       + [Protección de privacidad de correo electrónico en Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
       + [Actualización de rechazos graves incorrectos](delivery/using/update-bounce-qualification.md)
-      + [Actualizar devoluciones duras incorrectas después de una interrupción del ISP](delivery/using/update-bounces.md)
+      + [Actualización de estado de devoluciones graves incorrectas después de una interrupción ISP](delivery/using/update-bounces.md)
       + [Actualización de certificado de iOS](technotes/using/ios-certificate-update.md)
       + [Actualización de direcciones URL rastreadas](technotes/using/tracked-urls.md)
    + Migración a Adobe Managed Services{#dc-migration}
