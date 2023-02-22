@@ -134,7 +134,7 @@ Se ha eliminado el tipo de gráfico **Medición**.
 
 Las capturas de pantalla y los parámetros de las aplicaciones web e informes se han actualizado tras la eliminación del Flash de Adobe.
 
-La descripción del [flujo de trabajo técnico de facturación](../../production/using/monitoring-processes.md#billing-report) se ha actualizado con una nueva protección.
+La descripción del [flujo de trabajo técnico de facturación](../../production/using/monitoring-processes.md#billing-report) se ha actualizado con un nuevo mecanismo de protección.
 
 ### Agosto de 2021{#aug-2021}
 

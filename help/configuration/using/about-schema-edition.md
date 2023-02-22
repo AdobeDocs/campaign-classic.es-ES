@@ -60,7 +60,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 Para obtener más información sobre las enumeraciones, consulte la [Enumeraciones](../../configuration/using/schema-structure.md#enumerations) y [`<enumeration>` element](../../configuration/using/schema/enumeration.md) secciones.
 
-## Índice {#index}
+## Index {#index}
 
 Los índices son los primeros elementos declarados en el elemento principal del esquema.
 

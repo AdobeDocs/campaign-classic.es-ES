@@ -48,7 +48,7 @@ _7 de septiembre de 2021_
 
 **Otros cambios**
 
-* Se ha corregido una regresión introducida en la versión 21.1.3 con la nueva protección del flujo de trabajo de facturación. El flujo de trabajo de facturación se ejecutaba en instancias incorrectas y se bloqueaba al intentar enviar el informe de facturación, que no se generaba. Debe reiniciar manualmente el flujo de trabajo para que se aplique la corrección.
+* Se ha corregido una regresión introducida en la versión 21.1.3 con el nuevo mecanismo de protección del flujo de trabajo de facturación. El flujo de trabajo de facturación se ejecutaba en instancias incorrectas y se bloqueaba al intentar enviar el informe de facturación, que no se generaba. Debe reiniciar manualmente el flujo de trabajo para que se aplique la corrección.
 * Los conectores de Microsoft CRM anteriormente obsoletos (implementaciones Office 365 y On-premise) se han eliminado de la interfaz. [Más información](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
 * Después de la migración a Tomcat 8, el script de configuración de IIS se ha actualizado para solucionar los problemas de integración de IIS. (NEO-31019)
 * La identificación de la fuente de datos se ha mejorado en las pestañas de datos y esquema de la ventana **Ver población** de las transiciones de flujo de trabajo.
@@ -192,7 +192,7 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](../..
 
 **Otros cambios**
 
-* Se ha añadido una protección para permitir que el [flujo de trabajo técnico de facturación](../../production/using/monitoring-processes.md#billing-report) se ejecute en la instancia de marketing.
+* Se ha añadido un mecanismo de protección para permitir que el [flujo de trabajo técnico de facturación](../../production/using/monitoring-processes.md#billing-report) se ejecute en la instancia de marketing.
 * El tercero de openssl para Windows se ha actualizado a la versión 1.1.1h.
 * En la descripción del paquete Debian, nlserver se ha cambiado a servidor de Adobe Campaign Classic.
 

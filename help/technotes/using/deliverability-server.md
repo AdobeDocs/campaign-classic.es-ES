@@ -137,7 +137,7 @@ Para ello:
    nlserver config -instance:<instance name> -setimsjwtauth:Organization_Id/Client_Id/Technical_Account_ID/<Client_Secret>/<Base64_encoded_Private_Key>
    ```
 
-1. Debe detener y, a continuación, reiniciar el servidor para que se tenga en cuenta la modificación. También puede ejecutar un `config -reload` comando.
+1. Debe detener y luego reiniciar el servidor para que se tenga en cuenta la modificación. También puede ejecutar un `config -reload` comando.
 
 ### Paso 3: Habilitar el nuevo servidor de entrega
 

@@ -143,7 +143,7 @@ _2 de diciembre de 2019_
 * Para optimizar el rendimiento y el almacenamiento, se ha mejorado la administración del archivo **logins.log**. El archivo ahora se divide en varios archivos, uno cada día con un máximo de 365 archivos retenidos. [Más información](../../production/using/log-files.md)
 * La cuenta externa de Microsoft Dynamics CRM ahora se puede configurar con credenciales de contraseña (contraseña + nombre de usuario) o certificado (clave privada). [Más información](../../installation/using/external-accounts.md#microsoft-dynamics-crm-external-account)
 * Se han añadido algunas mejoras al conector Hadoop FDA para mejorar la fiabilidad
-* Se ha agregado una protección específica para comprobar el espacio en disco antes de permitir cargar recursos públicos en el servidor.
+* Se ha añadido un mecanismo de protección específico para comprobar el espacio en disco antes de permitir cargar recursos públicos en el servidor.
 * Se han añadido nuevas [Opciones de campaña](../../installation/using/configuring-campaign-options.md):
    * La opción de configuración **WdbcKillSessionPolicy** permite afectar al comportamiento **Unconditional Stop** en todos los flujos de trabajo y consultas de base de datos PostgreSQL.
    * La opción **NmsOperation_DeliveryPreparationWindow** permite definir el número de días por encima de los cuales los envíos con estado incoherente se excluirán del recuento de entregas en ejecución.
@@ -153,7 +153,7 @@ _2 de diciembre de 2019_
 * Una nueva opción **Maximum personalization run time** en las propiedades de entrega permite definir un periodo de espera para el tiempo de ejecución de la personalización, para evitar que la fase de personalización se ejecute durante mucho tiempo. [Más información](../../delivery/using/personalization-fields.md#timing-out-personalization)
 * Se ha agregado la opción **ftp protocol** para permitirle utilizar una configuración proxy para las conexiones SFTP. [Más información](../../installation/using/file-res-management.md)
 * Nueva compatibilidad de acceso proxy a un servidor externo SFTP para entornos locales.
-* Se ha agregado una protección específica para evitar la instalación de paquetes que no son compatibles con la instancia de Campaign. [Más información](../../installation/using/installing-campaign-standard-packages.md)
+* Se ha añadido un mecanismo de protección específico para evitar la instalación de paquetes que no son compatibles con la instancia de Campaign. [Más información](../../installation/using/installing-campaign-standard-packages.md)
 
 _Deprecated systems_
 
@@ -406,8 +406,8 @@ _30 de mayo de 2019_
    <td> <p>Como administrador, aumente la productividad controlando y gestionando los cambios realizados en la instancia de Adobe Campaign Classic. La pista de auditoría registrará las acciones realizadas en los esquemas de fuentes, flujos de trabajo y opciones. Puede ver rápidamente si un elemento se ha creado, modificado o eliminado.</p><p>Para obtener más información, consulte la <a href="../../production/using/audit-trail.md">documentación detallada</a> y el <a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/monitoring/audit-trail.html">videotutorial</a>.</p></td> 
   </tr> 
   <tr> 
-   <td> Seguridad, solidez y escalabilidad<br /> </td> 
-   <td> Se ha añadido una serie de mejoras a Campaign Classic. A continuación se enumeran las mejoras de seguridad, solidez y escalabilidad.<br /> </td> 
+   <td> Mecanismo de protección, solidez y escalabilidad<br /> </td> 
+   <td> Se ha añadido una serie de mejoras a Campaign Classic. A continuación, se enumeran las mejoras de los mecanismos de protección, solidez y escalabilidad.<br /> </td> 
   </tr> 
   <tr> 
    <td> Actualización de la matriz de compatibilidades<br /> </td> 
@@ -439,7 +439,7 @@ _30 de mayo de 2019_
 * Se ha añadido una nueva opción XtkSecurity_Disable_GetSetEnv para bloquear el uso de las funciones setEnv y getEnv.
 * La información confidencial ahora está oculta en el seguimiento de pila de la aplicación.
 
-**Mejoras de seguridad, solidez y escalabilidad**
+**Mejoras en los mecanismos de protección, solidez y escalabilidad**
 
 * Duración: Optimización de uso de secuencia XtkNewId (las tablas más utilizadas se han movido de la secuencia de xtkNewId a secuencias dedicadas).
 * FDA sobre HTTP v2: el protocolo FDA sobre HTTP se utiliza ampliamente en implementaciones híbridas, especialmente para la recuperación del registro general y la preparación de entregas. Se ha mejorado la solidez para evitar problemas de red y posibles errores al recuperar o extraer datos. Esto requiere que las compilaciones en ambos extremos de la conexión estén actualizadas; de lo contrario, se utilizará el protocolo antiguo.
