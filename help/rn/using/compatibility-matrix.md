@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 31aa32e4fb7171a49bbea6907f50608eddb2802e
+source-git-commit: 76218abd198f677541338c7f854d047d2c644013
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 98%
+source-wordcount: '775'
+ht-degree: 94%
 
 ---
 
@@ -40,9 +40,9 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <tr> 
 <td>CentOs</td>
 <td>
-<p>8.x (64 bits) </br><strong>Importante:</strong> CentOS Linux 8 llegará al fin de su vida útil (EOL) el 31 de diciembre de 2021. Para obtener más información, consulte la página <a href="../../rn/using/deprecated-features.md">Funciones obsoletas</a>.</p>
-<p>7.x (64 bits)</p>
+<p>7.x</p>
 <p><strong>Importante:</strong> Si está utilizando RHEL, debe estar dispuesto a deshabilitar SELinux o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no está causando problemas con las operaciones de Campaign.</p>
+<p>8.x</br><strong>Importante:</strong> CentOS Linux 8 llegará al fin de su vida útil (EOL) el 31 de diciembre de 2021. Para obtener más información, consulte la página <a href="../../rn/using/deprecated-features.md">Funciones obsoletas</a>.</p>
 </td>
 </tr>
 <tr>
@@ -88,7 +88,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <tr>
 <td>Apache</td>
 <td>
-<p>2.4 para RHEL7: CentOS 7, Debian 8/9, Windows (64 bits)</p>
+<p>2.4 para RHEL7: CentOS 7, Debian 8/9, Windows</p>
 </td>
 </tr>
 </tbody>
@@ -104,7 +104,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <p>11</p>
 <p>9</p>
 <p>8</p>
-<p>La aplicación ha sido aprobada para el Kit de Desarrollo de Java (JDK) desarrollado por Oracle y para OpenJDK.</p>
+<p>Campaign admite el Kit de desarrollo de Java (JDK) desarrollado por Oracle y OpenJDK.</p>
 </td>
 </tr>
 <tr>
@@ -202,7 +202,7 @@ Los entornos **Managed Services** (alojados), **Híbrido** y **On-Premise** pued
 <tr>
 <td>Amazon Redshift</td>
 <td><p> </p>
-<td>v7.0 19.1.4 mínimo</td>
+<td>V7.0 19.1.4 mínimo</td>
 </td>
 </tr>
 <tr>
