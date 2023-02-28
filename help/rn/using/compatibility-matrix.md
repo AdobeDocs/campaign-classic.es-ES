@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 1cf94ee5edac7087d7d21709243e9f56c2b3d6f5
+source-git-commit: 31aa32e4fb7171a49bbea6907f50608eddb2802e
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 100%
+source-wordcount: '785'
+ht-degree: 98%
 
 ---
 
@@ -48,23 +48,23 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <tr>
 <td>Debian</td>
 <td>
-<p>11 (64 bits)</p>
-<p>10 (64 bits)</p>
-<p>9 (64 bits)</p>
+<p>11 (a partir de la versión 7.3 de Campaign)</p>
+<p>10</p>
+<p>9</p>
 </td>
 </tr>
 <tr>
 <td>RHEL</td>
 <td>
-<p>8.x (64 bits)</p>
-<p>7.x (64 bits)</p>
+<p>8.x</p>
+<p>7.x</p>
 <p><strong>Importante:</strong> Si está utilizando RHEL, debe estar dispuesto a deshabilitar SELinux o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no está causando problemas con las operaciones de Campaign.</p>
 </td>
 </tr>
 <tr>
 <td>Windows Server</td>
 <td>
-<p>2019 (a partir de la versión 7.2.1)</p>
+<p>2019 (a partir de la versión 7.2 de Campaign)</p>
 <p>2016</p>
 <p>2012R2</p>
 <p>2012</p>
@@ -138,7 +138,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>14.x</p>
+<p>14.x (a partir de Campaign v7.3.2)</p>
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
@@ -154,7 +154,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <p>2016</p>
 <p>2014</p>
 <p>2012: SP1 y SP2</p>
-<p><strong>Importante:</strong> Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaign se ejecuta en Linux. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html?lang=es#database-access-layers">Más información</a>.</p>
+<p><strong>Importante:</strong> Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaign se ejecuta en Linux. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html#database-access-layers">Más información</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -208,7 +208,7 @@ Los entornos **Managed Services** (alojados), **Híbrido** y **On-Premise** pued
 <tr>
 <td>Google BigQuery</td>
 <td> </td>
-<td>7.2.1 mínimo</td>
+<td>7.2 mínimo</td>
 </tr>
 <tr>
 <td>PostgreSQL</td>
@@ -224,7 +224,7 @@ Los entornos **Managed Services** (alojados), **Híbrido** y **On-Premise** pued
 <tr>
 <td>Snowflake</td>
 <td> </td>
-<td>7.2.1 mínimo</td>
+<td>7.2 mínimo</td>
 </tr>
 <tr>
 <td>Vertica Analytics</td>
@@ -248,7 +248,7 @@ Los entornos **Híbrido** y **On-Premise** pueden conectar a Campaign con los si
 </tr>
 <tr><td>MySQL</td>
 <td>
-<p>8</p>
+<p>8 (a partir de la versión 7.3 de Campaign)</p>
 <p>5.7</p>
 </td>
 <td>
@@ -336,7 +336,7 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 <tr>
 <td>Microsoft Windows</td>
 <td>
-<p>11 (a partir de la versión 7.3)</p>
+<p>11 (a partir de la versión 7.3 de Campaign)</p>
 <p>10 (recomendado para instancias en japonés)</p>
 <p>8</p>
 </td>
@@ -344,7 +344,7 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 <tr>
 <td>Microsoft Windows Server</td>
 <td>
-<p>2019 (a partir de la versión 7.2.1)</p>
+<p>2019 (a partir de la versión 7.2.1 de Campaign)</p>
 <p>2016</p>
 <p>2012</p>
 </td>
