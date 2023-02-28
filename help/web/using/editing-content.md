@@ -4,7 +4,7 @@ title: Edición de contenido
 description: Edición de contenido
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 7f5770c5181b4f2e966d8ecfe6b1d4b9c764e5fa
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 100%
@@ -221,9 +221,9 @@ Seleccione un archivo de imagen guardado localmente.
 
 ![](assets/dce_popup_imgupload.png)
 
-El icono **Eliminar** elimina la etiqueta ![]() que contiene la imagen.
+El icono **Eliminar** elimina la etiqueta  que contiene la imagen.
 
-El icono **Duplicar** duplica la etiqueta ![]() y su contenido.
+El icono **Duplicar** duplica la etiqueta  y su contenido.
 
 >[!CAUTION]
 >
