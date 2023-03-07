@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 2654157b02b549d4184ed6a5a93acad47e452713
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2772'
 ht-degree: 100%
 
@@ -60,9 +60,9 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](depre
 
 * Se ha corregido un problema que impedía usar la opción de flujo de trabajo **Combinar líneas seleccionadas**. (NEO-48488)
 * Se ha corregido un problema que impedía que el indicador de entrega **Correcto** se actualizara correctamente al usar el MTA mejorado de Adobe Campaign. (NEO-50462)
-* Se ha corregido un problema al restablecer la aprobación de contenido en una entrega de correo electrónico, que impedía la nueva aprobación. (NEO-44259)
-* Se ha corregido un problema que podía impedir que se mostrara el botón **Aprobación de entrega**. (NEO-47547)
-* Se ha corregido un problema de rendimiento en la pestaña HTML de una entrega que se podía producir en código HTML extenso. (NEO-47440)
+* Se ha corregido un problema al restablecer la aprobación de contenido en un ENVÚI de correo electrónico, que impedía la nueva aprobación. (NEO-44259)
+* Se ha corregido un problema que podía impedir que se mostrara el botón **Aprobación de envío**. (NEO-47547)
+* Se ha corregido un problema de rendimiento en la pestaña HTML de un envío que se podía producir en código HTML extenso. (NEO-47440)
 * Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de entregas en la instancia MID, cuando la opción `FeatureFlag_GZIP_Compression` estaba activada. (NEO-49183)
 * Se ha corregido un problema que impedía enviar notificaciones de aplicaciones móviles de iOS desde una instancia de ejecución al usar la autenticación basada en token. (NEO-45961)
 * Se ha corregido un problema con el flujo de trabajo **Actualizar la entrega** (deliverabilityUpdate) que se bloqueaba cuando tenía que sincronizar demasiados broadlogs. (NEO-48287)
@@ -121,20 +121,20 @@ Consulte la [Matriz de compatibilidades de Campaign](../../rn/using/compatibilit
 * Se han corregido varios problemas al utilizar una actividad de flujo de trabajo de enriquecimiento con datos externos. (NEO-38069)
 * El conector FDA de SAP Hana se ha actualizado para funcionar con la última versión de la base de datos SAP Hana (2.x).
 * El conector FDA del Teradata se ha actualizado para funcionar con la última versión del Teradata (17).
-* En la versión 20.2, la compatibilidad de la autenticación basada en tokens para las entregas de iOS se introdujo para las nuevas entregas y las plantillas de entrega. En la versión 7.2, se añadió un parche a la categoría para aplicar el soporte de autenticación basado en tokens a un máximo de 10 000 entregas y plantillas de entregas creadas anteriormente. En la versión 7.3, se ha mejorado el parche y se ha eliminado el límite.
+* En la versión 20.2, la compatibilidad de la autenticación basada en tokens para las entregas de iOS se introdujo para los nuevos envíos y las plantillas de entrega. En la versión 7.2, se añadió un parche a la categoría para aplicar el soporte de autenticación basado en tokens a un máximo de 10 000 envíos y plantillas de entregas creadas anteriormente. En la versión 7.3, se ha mejorado el parche y se ha eliminado el límite.
 
 **Parches**
 
 * Se ha corregido un error de la versión anterior que impedía a los usuarios cambiar el tamaño de la página de inicio de sesión de IMS. (NEO-30085)
 * Se ha corregido un error que se producía al instalar el paquete del gestor de contenido en una instancia existente. (NEO-32349)
 * Se ha corregido un problema en el menú **Campañas** en el que se mostraba continuamente un mensaje “operación en curso”. (NEO-44904)
-* Con Adobe Analytics habilitado, se ha corregido un problema que eliminaba BID (ID de Broadlog) y CID (ID de campaña) de la URL al enviar un correo electrónico con una URL sin guardar la entrega. (NEO-38678)
+* Con Adobe Analytics habilitado, se ha corregido un problema que eliminaba BID (ID de Broadlog) y CID (ID de campaña) de la URL al enviar un correo electrónico con una URL sin guardar el envío. (NEO-38678)
 * Se ha corregido un problema que se producía al cargar una imagen en la carpeta de recursos públicos de una instancia con una configuración específica del Centro de mensajes. Aparecerá el siguiente mensaje de error: “No se pueden cargar las imágenes en los servidores de seguimiento”. (NEO-38546, NEO-45572)
 * Se ha corregido un problema que hacía que el sistema se bloqueara al regenerar la configuración en caso de archivos de configuración incorrectos. (NEO-38752)
 * Se ha corregido un problema que podría provocar que los indicadores de entrega no se actualicen correctamente. (NEO-44827)
 * Se ha corregido un problema que podría provocar un error posterior a la actualización al utilizar consultas complejas. (NEO-43648)
 * Se ha corregido un problema que podía impedir que funcionara la previsualización de webApps. (NEO-43242)
-* Se ha corregido un problema que podría provocar que la preparación de la entrega falle al utilizar un archivo de asignación de destinatario externo en un flujo de trabajo con una actividad de carga de datos (archivo). (NEO-43691)
+* Se ha corregido un problema que podría provocar que la preparación del envío falle al utilizar un archivo de asignación de destinatario externo en un flujo de trabajo con una actividad de carga de datos (archivo). (NEO-43691)
 * Se ha corregido un problema que podía provocar bloqueos y requerir un reinicio completo de la instancia. (NEO-44645)
 * Se ha corregido un problema que podía impedir que el mapa de calor del flujo de trabajo cargara ningún resultado. (NEO-43360)
 * Se ha corregido un problema que podría provocar problemas de conexión al utilizar el conector externo de FDA. (NEO-42722)
@@ -144,12 +144,12 @@ Consulte la [Matriz de compatibilidades de Campaign](../../rn/using/compatibilit
 * Se ha corregido un problema que podría provocar problemas de conexión al crear una cuenta externa para Snowflake como base de datos externa. (NEO-45744)
 * Se ha corregido un problema que podría provocar la visualización de información de tabla protegida por un atributo visibleIf. (NEO-37865)
 * Se ha corregido un problema que podía mostrar el mensaje de error &quot;$ is not defined&quot; durante la fase de análisis de entrega. (NEO-32940)
-* Se ha corregido un problema que provocaba que las entregas se asociaran con un eventType incorrecto. (NEO-45743)
+* Se ha corregido un problema que provocaba que los envíos se asociaran con un eventType incorrecto. (NEO-45743)
 * Se ha corregido un problema que podría provocar bloqueos debido a volcados de núcleo intermitentes (NEO-30549)
-* Se ha corregido un problema que podía provocar bloqueos al utilizar código de HTML erróneo en una entrega. (NEO-40385)
-* Se ha corregido un problema que podía impedir que los usuarios no administradores accedieran a la pestaña **Análisis** en las propiedades de entrega. (NEO-34025)
+* Se ha corregido un problema que podía provocar bloqueos al utilizar código de HTML erróneo en un envío. (NEO-40385)
+* Se ha corregido un problema que podía impedir que los usuarios no administradores accedieran a la pestaña **Análisis** en las propiedades de envío. (NEO-34025)
 * Se ha corregido un problema que podía impedir que una imagen se cargara en modo de fragmento desde un servidor externo durante la preparación del mensaje. (NEO-40307)
-* Se ha corregido un problema que podría provocar que la entrega se envíe a un número de destinatarios mayor que el esperado. (NEO-45108)
+* Se ha corregido un problema que podría provocar que el envío se envíe a un número de destinatarios mayor que el esperado. (NEO-45108)
 
 ## ![](assets/do-not-localize/green_2.png) Versión 7.2.2, compilación 9349 {#release-7-2-2}
 
@@ -163,7 +163,7 @@ _1 de marzo de 2022_
 
 * Se ha corregido un problema que se producía al configurar la cuenta externa de **Web Analytics**, lo que provocaba que el estado de la integración siempre mostrase “Integración correcta” incluso cuando se producían errores. (NEO-36672)
 * Se han corregido varios errores posteriores a la actualización relacionados con el mecanismo de ID de secuencia al tener ID negativos. (NEO-43205, NEO-42846, NEO-42845)
-* Se ha corregido un problema que se producía al usar la cuenta externa de **Web Analytics** con entregas recurrentes y continuas, lo que provocaba que se perdieran parcialmente los datos de la cuenta externa. (NEO-38548)
+* Se ha corregido un problema que se producía al usar la cuenta externa de **Web Analytics** con envíos recurrentes y continuos, lo que provocaba que se perdieran parcialmente los datos de la cuenta externa. (NEO-38548)
 * Se ha corregido un problema que ralentizaba la actualización posterior a la actualización de la tabla NmsActiveContact. (NEO-43206)
 * Se ha corregido un problema de error posterior a la actualización que se producía si las carpetas integradas se habían movido del nodo **Administración** a cualquier otra ubicación. (NEO-42875)
 * Se ha corregido un problema que se producía al usar una actividad de flujo de trabajo de **Actualización de datos** que podría evitar que el esquema del destinatario se actualice con los datos del destinatario de una base de datos externa de Google Cloud. (NEO-42343)
@@ -216,13 +216,13 @@ Adobe Campaign ahora es compatible con Windows Server 2019. Consulte la [Matriz 
 
 **Parches**
 
-* Se ha corregido un problema al crear una entrega que provocaba un error en la pestaña **Imágenes** de la ventana **Seguimiento e imágenes**. Esto ocurría al usar una configuración de proxy automática. (NEO-33260)
+* Se ha corregido un problema al crear un envío que provocaba un error en la pestaña **Imágenes** de la ventana **Seguimiento e imágenes**. Esto ocurría al usar una configuración de proxy automática. (NEO-33260)
 * Se ha corregido un problema que podía impedir que se cargara un archivo en un servidor Debian 10 (HTTPS) en modo sincrónico.
 * Se ha corregido un problema que podía impedir los registros de la tabla de estadísticas de envíos (`nmsDeliveryLogStats`) para que no se purgue de la instancia de intermediario durante la limpieza de la base de datos después de que se hayan eliminado los envíos relacionados. (NEO-31034)
 * Se ha corregido un problema que impedía enviar notificaciones de aplicaciones móviles en iOS al usar autenticación basada en token (NEO-38640).
 * Se ha corregido un problema que podía mostrar mensajes de error de scripts al intentar crear y configurar informes (NEO-38393).
 * Se ha corregido un problema que podría provocar que el flujo de trabajo de seguimiento falle en Oracle debido a que los altos volúmenes de indicadores de entrega se actualizan simultáneamente (NEO-39653).
-* Se ha corregido un problema que podía impedir que se enviara una entrega debido a un error que se producía al ejecutar una tipología de control (NEO-39833).
+* Se ha corregido un problema que podía impedir que se enviara un envío debido a un error que se producía al ejecutar una tipología de control (NEO-39833).
 * Se ha corregido un problema en las páginas de aterrizaje que podía impedir que los caracteres especiales se mostraran correctamente en las páginas HTML de las respuestas de encuestas en línea (NEO-39438).
 * Se ha corregido un problema que podía impedir que la consola de Campaign Classic funcionara al hacer clic con el botón derecho en cualquiera de las carpetas desde la pestaña Explorer (NEO-38884).
 * Se ha corregido un error al usar una plantilla de envíos creada anteriormente y vinculada a una cuenta de Web Analytics en una nueva entrega en la que faltaba la configuración de Web Analytics. (NEO-28666)
@@ -235,9 +235,9 @@ Adobe Campaign ahora es compatible con Windows Server 2019. Consulte la [Matriz 
 * Se ha corregido un problema que provocaba un error de solicitud incorrecto al usar campos de datos xml con la cuenta de Microsoft Dynamics CRM si el xml al que se hace referencia contenía comillas dobles.
 * Se ha corregido un problema que provocaba que los problemas de tiempo de espera de red se registraran incorrectamente como problemas de interrupción de scripts en lugar de errores de red. Este problema ocurría en el caso de solicitudes HTTP incluidas en actividades JavaScript. (NEO-38079)
 * Se ha corregido un problema que devolvía resultados incorrectos al ejecutar las funciones Amazon Redshift HoursDiff y MinutesDiff al intentar extraer el componente de tiempo.(NEO-31673)
-* Se ha corregido un problema que impedía que el informe de **Clics activos** cargara para entregas desde la versión 9182. (NEO-28900)
+* Se ha corregido un problema que impedía que el informe de **Clics activos** cargara para envíos desde la versión 9182. (NEO-28900)
 * Se ha corregido un error que reemplazaba el símbolo &amp; en una dirección URL con la referencia de entidad de carácter (`&amp;`) que impedía a los usuarios acceder a la URL vinculada a un código QR. (NEO-28621)
-* Se ha corregido un problema que creaba una nueva cuenta externa cada vez que un usuario creaba un nuevo flujo de trabajo de campaña y una actividad de entrega vinculada a una cuenta de Web Analytics. Esto se debía a la falta de un ID en el objeto de entrega webAnalyticsAccount. (NEO-39691)
+* Se ha corregido un problema que creaba una nueva cuenta externa cada vez que un usuario creaba un nuevo flujo de trabajo de campaña y una actividad de envío vinculada a una cuenta de Web Analytics. Esto se debía a la falta de un ID en el objeto de envío webAnalyticsAccount. (NEO-39691)
 * Se ha corregido un problema que podía impedir que la actividad de flujo de trabajo **Leer lista** funcionara cuando la lista se identificaba en la base de datos con un ID negativo. (NEO-39607)
 * Se ha corregido un problema que podría provocar que el flujo de trabajo **Intermediario (registros de envío)** falle. (NEO-39662)
 * Se ha corregido un problema que podía impedir que previsualizara los envíos de correo electrónico adjuntos a un flujo de trabajo. (NEO-37840)
