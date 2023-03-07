@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: f797aafac99d6b9c2bdb409a1d0883c889fd3b0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '935'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ Para mantener la implementación actualizada, asegúrese de leer las páginas [F
 
 ## Proceso de actualización{#process-upgrade}
 
-Como cliente alojado, Managed Services o híbrido, póngase en contacto con el Servicio de atención al cliente de Adobe para que se actualice su entorno.
+Como cliente alojado de Managed Services o híbrido, póngase en contacto con el equipo del Servicio de atención al cliente para que se actualice su entorno.
 
-Como cliente On-Premise, puede realizar la actualización. Para ello, [descargue la última versión estable (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) y actualice todos sus entornos.
+Como cliente On-premise, puede realizar la actualización. Para ello, [descargue la última versión estable (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) y actualice todos sus entornos.
 
 Obtenga más información sobre el [proceso de actualización](../../production/using/build-upgrade.md) y consulte las [preguntas frecuentes sobre la actualización de la versión](../../platform/using/faq-build-upgrade.md).
 
@@ -67,7 +67,7 @@ Como usuario alojado, se beneficia automáticamente de la actualización con la 
 
 ### ¿Por qué necesita mi organización esta actualización?
 
-Como cliente alojado, si se ha detectado que su cuenta debe actualizar una o más de las tecnologías relacionadas con Campaign Classic y actualizar su infraestructura a la versión actual (por ejemplo, de la versión 7.2.1 a la 7.3.3) o (por ejemplo, de la versión 7 a la 8), Adobe le notificará directamente.
+Como cliente alojado, si se ha identificado su cuenta como que necesita actualizar una o más de las tecnologías relacionadas con Campaign Classic y actualizar su infraestructura a la versión actual (por ejemplo, de v7.2.1 a v7.3.3) y/o a la versión (por ejemplo, de v7 a v8), Adobe le notifica directamente.
 
 Si es un cliente On-Premise o híbrido que ejecuta en una versión anterior, Adobe le recomienda pasarse a la compilación estable más reciente (GA).
 
