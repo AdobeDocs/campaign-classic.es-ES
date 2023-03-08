@@ -9,7 +9,7 @@ exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: c7c6c6a2fe6beb17bfb203e8895661c2f3084cc2
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 90%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <td>
 <p>7.x</p>
 <p><strong>Importante:</strong> Si está utilizando RHEL, debe estar dispuesto a deshabilitar SELinux o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no está causando problemas con las operaciones de Campaign.</p>
-<p>8.x</br><strong>Importante:</strong> CentOS Linux 8 llegará al fin de su vida útil el 31 de diciembre de 2021. Para obtener más información, consulte la página <a href="../../rn/using/deprecated-features.md">Funciones obsoletas</a>.</p>
+<p>8.x</br><strong>Importante:</strong> CentOS Linux 8 llegará al fin de su vida útil (EOL) el 31 de diciembre de 2021. Para obtener más información, consulte la página <a href="../../rn/using/deprecated-features.md">Funciones obsoletas</a>.</p>
 </td>
 </tr>
 <tr>
@@ -138,7 +138,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <tr>
 <td>PostgreSQL</td>
 <td>
-<p>14.x (a partir de la versión 7.3.2 de Campaign)</p>
+<p>14.x (a partir de Campaign v7.3.2)</p>
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
@@ -154,7 +154,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <p>2016</p>
 <p>2014</p>
 <p>2012: SP1 y SP2</p>
-<p><strong>Importante:</strong> Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaign se ejecuta en Linux. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html#database-access-layers">Más información</a>.</p>
+<p><strong>Importante:</strong> Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaign se ejecuta en Linux. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html?lang=es#database-access-layers">Más información</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -366,9 +366,9 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 
 ### Tiempo de ejecución de Microsoft WebView2
 
-Tiempo de ejecución de Microsoft Edge WebView2 La versión más reciente es obligatoria para la consola del cliente de Campaign.
+Tiempo de ejecución de Microsoft Edge WebView2 La última versión es obligatoria para la consola del cliente de Campaign.
 
-Descargar Microsoft Edge WebView2 desde [Sitio para desarrolladores de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es).
+Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es).
 
 
 ## SDK móvil{#MobileSDK}
@@ -396,7 +396,7 @@ Puede utilizar Campaign para [enviar notificaciones push](../../delivery/using/a
 
 ## Exploradores{#Browsers}
 
-Los siguientes exploradores, en su versión más reciente, son compatibles con Campaign para [Acceso web](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
+Los siguientes exploradores, en su última versión, son compatibles con Campaign para [Acceso web](../../campaign/using/accessing-marketing-campaigns.md#using-the-web-interface-).
 
 * Google Chrome
 * Microsoft Edge
