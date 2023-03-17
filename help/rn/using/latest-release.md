@@ -9,7 +9,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 02ab5f4520179fcce8eedbe3dcc7b08cb9cfe0d2
 workflow-type: tm+mt
 source-wordcount: '2989'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,7 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 
 >[!CAUTION]
 >
-> Esta versión solo está disponible para usuarios de Cloud Services administrados por ahora y pronto estará disponible para implementaciones locales e híbridas.
+> Esta versión solo está disponible para los usuarios de Cloud Services administrados por ahora y estará disponible próximamente para implementaciones locales e híbridas.
 >
 >La actualización de la consola de cliente es obligatoria. Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../../installation/using/installing-the-client-console.md).
 
@@ -35,21 +35,21 @@ _9 de marzo de 2023_
 
 **Mejora de la seguridad**
 
-* Para optimizar la seguridad, Tomcat se ha actualizado de la versión 8.5.81 a la 8.5.85. (NEO-56936)
+* Para optimizar la seguridad, Tomcat se ha actualizado de la versión 8.5.81 a 8.5.85. (NEO-56936)
 
 **Mejoras**
 
 * El flujo de trabajo Facturación se ha mejorado para optimizar el rendimiento. (NEO-47658)
-* El flujo de trabajo de seguimiento se ha mejorado para optimizar el rendimiento en caso de que el tamaño de la entrega sea alto. (NEO-45064)
-* Se ha mejorado la administración de seguimiento para corregir posibles problemas con parámetros dinámicos en direcciones URL. La administración de seguimiento v3 ahora administra las direcciones URL de tipo ajax (con parámetros después de &quot;#&quot;) y evita que las herramientas de terceros modifiquen las direcciones URL de seguimiento. Para aplicar este cambio, debe ponerse en contacto con el Adobe. (NEO-46535)
+* El flujo de trabajo de seguimiento se ha mejorado para optimizar el rendimiento en caso de que el tamaño de la entrega sea elevado. (NEO-45064)
+* Se ha mejorado la administración del seguimiento para corregir posibles problemas con los parámetros dinámicos en las direcciones URL. La administración de seguimiento v3 ahora gestiona las URL de tipo ajax (con parámetros después de &#39;#&#39;) e impide que las herramientas de terceros modifiquen las URL de seguimiento. Para aplicar este cambio, debe ponerse en contacto con el Adobe. (NEO-46535)
 
 <!--To apply this change, the marketing, tracking and mid servers need to be updated to 7.3.3. To enable the new tracking management mode, set the `emailLinksVersion` parameter to '3' in the configuration file of the marketing server. (NEO-46535)-->
 
 **Parches**
 
-* Se ha corregido un problema que podía impedir que se enviaran notificaciones push de prueba de iOS desde la instancia de control (contexto de mensajería transaccional). (NEO-54713)
-* Se ha corregido un problema que podía impedir que se desplazara en el **Editar** del Editor de contenido digital (DCE). (NEO-54474)
-* Se ha corregido un problema que se producía cuando dos actividades de enriquecimiento usaban el mismo identificador de nombre en su vinculación, lo que provocaba que la segunda actividad de enriquecimiento usara los vínculos de la primera. (NEO-48851)
+* Se ha corregido un problema que podía impedir que las notificaciones push de prueba de iOS se enviaran desde la instancia de control (contexto de mensajería transaccional). (NEO-54713)
+* Se ha corregido un problema que podía impedir que se desplazara en la pestaña **Editar** del Editor de contenido digital (DCE). (NEO-54474)
+* Se ha corregido un problema que se producía cuando dos actividades de enriquecimiento utilizaban el mismo identificador de nombre en sus vínculos, lo que hacía que la segunda actividad de enriquecimiento utilizara los vínculos de la primera. (NEO-48851)
 
 ## ![](assets/do-not-localize/green.png) Versión 7.3.2, compilación 9356 {#release-7-3-2}
 

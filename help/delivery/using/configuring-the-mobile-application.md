@@ -4,9 +4,9 @@ title: Configuración de la aplicación móvil de iOS en Adobe Campaign
 description: Descubra cómo configurar su aplicación móvil para iOS
 feature: Push
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: fd19a2f11773e9e4c841f685a3491a763493e572
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ Ya está configurado el conector de iOS. Puede crear su servicio.
 
 >[!CAUTION]
 >
->La aplicación debe estar configurada para acciones push ANTES de cualquier integración con el SDK de Adobe Campaign.
+>La aplicación debe estar configurada para acciones push ANTES de cualquier integración con el SDK de Adobe 
 >
 >Si no es así, consulte [esta página](https://developer.apple.com/documentation/usernotifications).
 
@@ -94,7 +94,7 @@ En el siguiente ejemplo, se añaden **mediaURl** y **mediaExt** para crear notif
 
    >[!NOTE]
    >
-   >Asegúrese de no utilizar el mismo certificado para la versión de desarrollo (entorno limitado) y la versión de producción de la aplicación.
+   >Asegúrese de no utilizar el mismo certificado para la versión de desarrollo (zona protegida) y la versión de producción de la aplicación.
 
 1. La pestaña **[!UICONTROL Sounds]** permite especificar un sonido para reproducir. Haga clic en **[!UICONTROL Add]** y rellene el campo **[!UICONTROL Internal name]** que debe contener el nombre del archivo incrustado en la aplicación o el nombre del sonido del sistema.
 
