@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 02ab5f4520179fcce8eedbe3dcc7b08cb9cfe0d2
+source-git-commit: 143fe21447f91120e63df4409597472849bb6d47
 workflow-type: tm+mt
-source-wordcount: '2989'
-ht-degree: 94%
+source-wordcount: '2947'
+ht-degree: 95%
 
 ---
 
@@ -23,15 +23,9 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 
 >[!CAUTION]
 >
-> Esta versión solo está disponible para los usuarios de Cloud Services administrados por ahora y estará disponible próximamente para implementaciones locales e híbridas.
->
 >La actualización de la consola de cliente es obligatoria. Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../../installation/using/installing-the-client-console.md).
 
->[!NOTE]
->
->Esta versión es GA solo para usuarios de Cloud Services administrados.
-
-_9 de marzo de 2023_
+_20 de marzo de 2023_
 
 **Mejora de la seguridad**
 
@@ -51,17 +45,13 @@ _9 de marzo de 2023_
 * Se ha corregido un problema que podía impedir que se desplazara en la pestaña **Editar** del Editor de contenido digital (DCE). (NEO-54474)
 * Se ha corregido un problema que se producía cuando dos actividades de enriquecimiento utilizaban el mismo identificador de nombre en sus vínculos, lo que hacía que la segunda actividad de enriquecimiento utilizara los vínculos de la primera. (NEO-48851)
 
-## ![](assets/do-not-localize/green.png) Versión 7.3.2, compilación 9356 {#release-7-3-2}
+## ![](assets/do-not-localize/orange_2.png) Versión 7.3.2, compilación 9356 {#release-7-3-2}
 
 _21 de noviembre de 2022_
 
 >[!CAUTION]
 >
 >La actualización de la consola de cliente es obligatoria. Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../../installation/using/installing-the-client-console.md).
-
->[!NOTE]
->
->Esta versión es GA solo para implementaciones locales e híbridas.
 
 **Actualizaciones de compatibilidad**
 
