@@ -9,7 +9,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 143fe21447f91120e63df4409597472849bb6d47
 workflow-type: tm+mt
 source-wordcount: '2947'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ _20 de marzo de 2023_
 
 **Mejora de la seguridad**
 
-* Para optimizar la seguridad, Tomcat se ha actualizado de la versión 8.5.81 a 8.5.85. (NEO-56936)
+* Para mejorar la seguridad, Tomcat se ha actualizado de la versión 8.5.81 a la 8.5.85. (NEO-56936)
 
 **Mejoras**
 
 * El flujo de trabajo Facturación se ha mejorado para optimizar el rendimiento. (NEO-47658)
-* El flujo de trabajo de seguimiento se ha mejorado para optimizar el rendimiento en caso de que el tamaño de la entrega sea elevado. (NEO-45064)
-* Se ha mejorado la administración del seguimiento para corregir posibles problemas con los parámetros dinámicos en las direcciones URL. La administración de seguimiento v3 ahora gestiona las URL de tipo ajax (con parámetros después de &#39;#&#39;) e impide que las herramientas de terceros modifiquen las URL de seguimiento. Para aplicar este cambio, debe ponerse en contacto con el Adobe. (NEO-46535)
+* El flujo de trabajo de seguimiento se ha mejorado para optimizar el rendimiento en caso de que el tamaño del envío sea elevado. (NEO-45064)
+* Se ha mejorado la administración del seguimiento para corregir posibles problemas con los parámetros dinámicos en las direcciones URL. La administración de seguimiento v3 ahora gestiona las URL de tipo ajax (con parámetros después de &#39;#&#39;) e impide que las herramientas de terceros modifiquen las URL de seguimiento. Para aplicar este cambio, debe ponerse en contacto con Adobe. (NEO-46535)
 
 <!--To apply this change, the marketing, tracking and mid servers need to be updated to 7.3.3. To enable the new tracking management mode, set the `emailLinksVersion` parameter to '3' in the configuration file of the marketing server. (NEO-46535)-->
 
@@ -86,7 +86,7 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](depre
 
 * Se ha corregido un problema que impedía usar la opción de flujo de trabajo **Combinar líneas seleccionadas**. (NEO-48488)
 * Se ha corregido un problema que impedía que el indicador de entrega **Correcto** se actualizara correctamente al usar el MTA mejorado de Adobe Campaign. (NEO-50462)
-* Se ha corregido un problema al restablecer la aprobación de contenido en un ENVÚI de correo electrónico, que impedía la nueva aprobación. (NEO-44259)
+* Se ha corregido un problema al restablecer la aprobación de contenido en un ENVÍO de correo electrónico, que impedía la nueva aprobación. (NEO-44259)
 * Se ha corregido un problema que podía impedir que se mostrara el botón **Aprobación de envío**. (NEO-47547)
 * Se ha corregido un problema de rendimiento en la pestaña HTML de un envío que se podía producir en código HTML extenso. (NEO-47440)
 * Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de entregas en la instancia MID, cuando la opción `FeatureFlag_GZIP_Compression` estaba activada. (NEO-49183)
@@ -169,7 +169,7 @@ Consulte la [Matriz de compatibilidades de Campaign](../../rn/using/compatibilit
 * Se ha corregido un problema que podía bloquear la consola del cliente debido a un carácter no válido en un bloque personalizado. (NEO-45761)
 * Se ha corregido un problema que podría provocar problemas de conexión al crear una cuenta externa para Snowflake como base de datos externa. (NEO-45744)
 * Se ha corregido un problema que podría provocar la visualización de información de tabla protegida por un atributo visibleIf. (NEO-37865)
-* Se ha corregido un problema que podía mostrar el mensaje de error &quot;$ is not defined&quot; durante la fase de análisis de entrega. (NEO-32940)
+* Se ha corregido un problema que podía mostrar el mensaje de error &quot;$ is not defined&quot; durante la fase de análisis de envío. (NEO-32940)
 * Se ha corregido un problema que provocaba que los envíos se asociaran con un eventType incorrecto. (NEO-45743)
 * Se ha corregido un problema que podría provocar bloqueos debido a volcados de núcleo intermitentes (NEO-30549)
 * Se ha corregido un problema que podía provocar bloqueos al utilizar código de HTML erróneo en un envío. (NEO-40385)
