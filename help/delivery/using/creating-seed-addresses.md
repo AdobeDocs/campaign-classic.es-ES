@@ -4,10 +4,10 @@ title: Creación de direcciones semilla
 description: Aprenda a crear y utilizar direcciones semilla
 feature: Seed Address
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 0065a25250d73c71e7569768a38b5836cccab992
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,11 +32,11 @@ Para crear direcciones semilla, avance con los siguientes pasos:
    >
    >La etiqueta de la dirección se rellena automáticamente con el apellido y el nombre definidos.
    >
-   >Al crear direcciones semilla, no es necesario introducir todos los campos de cada pestaña. Los elementos de personalización que faltan se introducen de forma aleatoria durante la entrega.
+   >No es necesario introducir todos los campos de cada pestaña al crear una dirección semilla. Los elementos de personalización que faltan se introducen aleatoriamente durante el análisis de envío.
 
    ![](assets/s_ncs_user_seedlist_new_address.png)
 
-1. En la pestaña **[!UICONTROL Seed fields]**, introduzca los valores que se deben insertar en los registros de envío durante la fase de análisis (en la tabla **[!UICONTROL nms:broadLog]**).
+1. En la pestaña **[!UICONTROL Address fields]**, introduzca los valores que se deben insertar en los registros de envío durante la fase de análisis (en la tabla **[!UICONTROL nms:broadLog]**).
 
 1. En la pestaña **[!UICONTROL Additional data]**, introduzca los datos de personalización utilizados para las entregas creadas en los flujos de trabajo de gestión de datos y a los que desea asignar un valor específico.
 
