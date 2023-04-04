@@ -5,7 +5,7 @@ description: Descubra cómo configurar su aplicación móvil para iOS
 feature: Push
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: fd19a2f11773e9e4c841f685a3491a763493e572
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ Ya está configurado el conector de iOS. Puede crear su servicio.
 
    >[!NOTE]
    >
-   >La asignación de destino predeterminada **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** está relacionada con la tabla de destinatarios. Si desea utilizar una asignación de destino diferente, debe crear una nueva asignación de destino e introducirla en el campo **[!UICONTROL Target mapping]** del servicio. Para obtener más información sobre la creación de asignación de destino, consulte la [guía de configuración](../../configuration/using/about-custom-recipient-table.md).
+   >La asignación de destino predeterminada **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** está relacionada con la tabla de destinatarios. Si desea utilizar una asignación de destinatario diferente, debe crear una nueva asignación de destino e introducirla en el campo **[!UICONTROL Target mapping]** del servicio. Para obtener más información sobre la creación de asignación de destinatario, consulte la [guía de configuración](../../configuration/using/about-custom-recipient-table.md).
 
    ![](assets/nmac_ios.png)
 
@@ -114,7 +114,7 @@ En el siguiente ejemplo, se añaden **mediaURl** y **mediaExt** para crear notif
 
    >[!NOTE]
    >
-   > Adobe recomienda usar la **[!UICONTROL Token-based authentication]** para la configuración de iOS, ya que este modo de autenticación es más seguro y no está enlazado al vencimiento del certificado.
+   > Adobe recomienda usar la **[!UICONTROL Token-based authentication]** para la configuración de iOS, ya que este modo de autenticación es más seguro y no está enlazado a la caducidad del certificado.
 
    ![](assets/nmac_ios_4.png)
 
