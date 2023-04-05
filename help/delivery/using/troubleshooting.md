@@ -4,7 +4,7 @@ title: Resolución de problemas push
 description: Resolución de problemas push
 feature: Push
 exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
-source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
+source-git-commit: 8d635722b8961b3edac9cc98f00f17b86f4ee523
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Resolución de problemas{#troubleshooting}
 
-![](../../assets/common.svg)
+![](../../assets/v7-only.svg)
 
 Si su dispositivo móvil está conectado a una red wifi y no recibe las notificaciones, compruebe que el firewall no haya bloqueado los puertos FCM/APN.
 
