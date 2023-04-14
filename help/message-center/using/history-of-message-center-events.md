@@ -6,14 +6,14 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: 04d4791b-a1dd-4361-a469-6f5aff0f41b8
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 1348c1d88d0732b0dda4ed488b4a258ac7e15c42
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 100%
+source-wordcount: '139'
+ht-degree: 97%
 
 ---
 
-# Historial de eventos del Centro de mensajería {#history-of-message-center-events}
+# Historial de eventos del centro de mensajes{#history-of-message-center-events}
 
 ![](../../assets/v7-only.svg)
 
