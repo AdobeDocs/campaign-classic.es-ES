@@ -8,10 +8,10 @@ index: y
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
-source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
+source-git-commit: 98a67e5b6e3f8cf8ba596db1fadd61fff821be30
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 100%
+source-wordcount: '717'
+ht-degree: 96%
 
 ---
 
@@ -68,6 +68,9 @@ Antes de iniciar esta implementación, compruebe lo siguiente:
 1. Si el ID del cliente está vacío, seleccione **[!UICONTROL Generate a key pair]** para crear un par de claves pública y privada.
 
    Las claves se descargan automáticamente con una fecha de caducidad predeterminada de 365 días. Una vez caducado, deberá crear un nuevo par de claves y actualizar la integración en el archivo de configuración. Con la Opción 2, puede elegir crear y cargar manualmente su **[!UICONTROL Public key]** con una fecha de caducidad más larga.
+
+   Para obtener una guía paso a paso sobre cómo reemplazar pares de claves de certificado que caducan, consulte [esta página](https://developer.adobe.com/developer-console/docs/guides/email-alerts/cert-expiry/#a-step-by-step-guide-to-replacing-expiring-certificate-key-pairs).
+
 
    >[!CAUTION]
    >
