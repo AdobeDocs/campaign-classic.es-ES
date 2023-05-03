@@ -48,13 +48,13 @@ Hay varios métodos automáticos disponibles. para ayudarle a supervisar su inst
 
 La pista de auditoría permite visualizar el historial completo de cambios relacionados con las opciones, flujos de trabajo y esquemas dentro de la instancia. [Haga clic aquí](../../production/using/audit-trail.md) para obtener más información.
 
-**Panel de control de Campaign**
+**Panel de control**
 
 El Panel de control de Campaign le permite administrar varias configuraciones de su instancia: administre permisos de URL, compruebe los detalles de su instancia como las versiones de compilación de sus servidores, etc. También le permite supervisar el espacio disponible en los servidores SFTP conectados a su instancia. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es) para obtener más información.
 
 >[!NOTE]
 >
->Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
+>Todos los usuarios administradores pueden acceder al Panel de control. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
 >Tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la [última versión de GA](../../rn/using/rn-overview.md). Aprenda a comprobar su versión en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es).
 
