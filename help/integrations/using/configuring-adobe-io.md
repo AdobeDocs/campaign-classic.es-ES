@@ -9,9 +9,9 @@ internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 source-git-commit: 98a67e5b6e3f8cf8ba596db1fadd61fff821be30
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '717'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
