@@ -84,6 +84,7 @@ En las instancias de control:
       grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
       grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
       ```
+      
    >[!NOTE]
    >
    >La dirección IP de la instancia de control debe estar autorizada en las instancias de ejecución.
