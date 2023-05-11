@@ -5,8 +5,10 @@ description: Aprenda a adaptar la configuración antes y después de una migraci
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
+hide: true
+hidefromtoc: true
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
-source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
+source-git-commit: 80cf56e330731237d5e7b394381b737f30f8b350
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 3%
