@@ -2,11 +2,13 @@
 product: campaign
 title: Recomendaciones de la base de datos del Campaign Classic
 description: Recomendaciones de base de datos
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 8a0426c1-9e8d-4053-bc2b-6a550e2eed2f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 2%
@@ -15,7 +17,7 @@ ht-degree: 2%
 
 # Database{#database}
 
-![](../../assets/v7-only.svg)
+
 
 El servidor de la base de datos puede ejecutarse en cualquier sistema operativo determinado independientemente del sistema operativo que utilicen el servidor de aplicaciones o los servidores, siempre que haya conectividad de red entre ellos.
 

@@ -2,11 +2,13 @@
 product: campaign
 title: Actualización a una nueva compilación
 description: Conozca los pasos técnicos para actualizar a una nueva versión
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 4%
@@ -15,7 +17,7 @@ ht-degree: 4%
 
 # Actualización a una nueva compilación (local){#upgrading}
 
-![](../../assets/v7-only.svg)
+
 
 Antes de iniciar el proceso de actualización, determine y confirme a qué versión de Adobe Campaign se va a actualizar y consulte la [Notas de la versión](../../rn/using/latest-release.md) .
 

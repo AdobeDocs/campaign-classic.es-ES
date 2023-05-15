@@ -2,11 +2,13 @@
 product: campaign
 title: Conexión mediante LDAP
 description: Aprenda a utilizar LDAP para iniciar sesión en Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: e011333411af79b985166a4e73592a1860749cf1
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 2%
@@ -14,8 +16,6 @@ ht-degree: 2%
 ---
 
 # Conexión mediante LDAP{#connecting-through-ldap}
-
-![](../../assets/v7-only.svg)
 
 ## Configuración de Campaign y LDAP {#configuring-campaign-and-ldap}
 

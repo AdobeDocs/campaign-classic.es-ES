@@ -1,12 +1,14 @@
 ---
 product: campaign
 title: Localización de la versión de Tomcat en Adobe Campaign
-description: Aprenda a averiguar la versión actual del servlet web integrado Tomcat utilizado en una instancia de Adobe Campaign.
+description: Descubra cómo se utiliza la versión actual del servlet web integrado Tomcat en una instancia de Adobe Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -15,7 +17,7 @@ ht-degree: 0%
 
 # Localizar la versión de Tomcat{#locate-tomcat-version}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign utiliza un **servlet web incrustado llamado Apache Tomcat** para procesar solicitudes HTTP/HTTPS entre la aplicación y cualquier interfaz externa (incluida la consola de cliente, los vínculos de URL rastreados, las llamadas SOAP y otros). A menudo hay un servidor web externo (normalmente IIS o Apache) delante de esto para cualquier instancia de Adobe Campaign externa.
 

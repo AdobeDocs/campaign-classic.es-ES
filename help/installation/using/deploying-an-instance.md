@@ -2,11 +2,13 @@
 product: campaign
 title: Implementación de una instancia
 description: Más información sobre el asistente de implementación de Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 11e175c737d9c6cbb9432ec7835f35ee0e00a5c0
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '3140'
 ht-degree: 6%
@@ -15,7 +17,7 @@ ht-degree: 6%
 
 # Implementación de una instancia{#deploying-an-instance}
 
-![](../../assets/v7-only.svg)
+
 
 >[!NOTE]
 >
@@ -72,7 +74,7 @@ El siguiente paso permite definir la información que se debe mostrar en los enc
 
 Estos parámetros se pueden sobrecargar en plantillas de envío e individualmente para cada envío (si los usuarios tienen los derechos requeridos).
 
-### Parámetros para correos electrónicos enviados {#parameters-for-delivered-emails}
+### Parámetros para correos electrónicos entregados {#parameters-for-delivered-emails}
 
 ![](assets/s_ncs_install_deployment_wiz_04.png)
 

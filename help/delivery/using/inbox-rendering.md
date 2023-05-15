@@ -2,18 +2,20 @@
 product: campaign
 title: Procesamiento de la bandeja de entrada  en Campaign
 description: Obtenga información sobre cómo capturar las renderizaciones de correo electrónico y ponerlas a disposición en un informe dedicado
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Inbox Rendering, Monitoring, Email Rendering
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 048189f49623cf00f4c3f1f34ff4b795d80391ef
+source-git-commit: e011333411af79b985166a4e73592a1860749cf1
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 100%
+source-wordcount: '839'
+ht-degree: 98%
 
 ---
 
 # Procesamiento de la bandeja de entrada{#inbox-rendering}
 
-![](../../assets/common.svg)
+
 
 ## Acerca del procesamiento de la bandeja de entrada {#about-inbox-rendering}
 
@@ -33,6 +35,8 @@ Los clientes móviles, de mensajería y de correo web disponibles para **Renderi
 >No es necesario renderizar la bandeja de entrada para probar la personalización en los envíos. La personalización puede comprobarse con las herramientas de Adobe Campaign como **[!UICONTROL Preview]** y [Pruebas](steps-validating-the-delivery.md#sending-a-proof).
 
 ## Activación del procesamiento de la bandeja de entrada {#activating-inbox-rendering}
+
+[!BADGE On-Premise e híbrido]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones locales e híbridas"}
 
 Para los clientes alojados e híbridos, el servicio de asistencia técnica y consultores de Adobe configuran la renderización de la Bandeja de entrada en la instancia. Para obtener más información, póngase en contacto con su administrador de cuentas de Adobe.
 

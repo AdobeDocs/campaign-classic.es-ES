@@ -2,11 +2,13 @@
 product: campaign
 title: Instalación de un servidor intermediario en Campaign
 description: Esta sección detalla la instalación y configuración de un servidor de mid-sourcing en Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -15,7 +17,7 @@ ht-degree: 1%
 
 # Servidor intermediario{#mid-sourcing-server}
 
-![](../../assets/v7-only.svg)
+
 
 Esta sección detalla la instalación y configuración de un servidor intermediario, así como la implementación de una instancia que permite a terceros enviar mensajes en **intermediario** en el menú contextual.
 
@@ -141,7 +143,7 @@ El atributo &#39;@name&#39; debe respetar las siguientes reglas:
 
 &#39;affinity_group&#39; hace referencia a la subafinidad declarada en la asignación de destino utilizada en cada una de las entregas. La última parte que incluye el se ignora si no hay subafinidad. Los caracteres autorizados son `[a-z]``[A-Z]``[0-9]`.
 
-Debe detener y, a continuación, reiniciar el servidor para que se tenga en cuenta la modificación.
+Debe detener y luego reiniciar el servidor para que se tenga en cuenta la modificación.
 
 ## Configuración del seguimiento en un servidor intermediario {#configuring-tracking-on-a-mid-sourcing-server}
 
