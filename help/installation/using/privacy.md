@@ -2,9 +2,10 @@
 product: campaign
 title: Personalización y privacidad
 description: Conozca las prácticas recomendadas de seguridad para la privacidad y la personalización
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: URL Personalization, Privacy
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: f97199e634205742b74a08932a40db2fca138cc3
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 13%
@@ -13,7 +14,7 @@ ht-degree: 13%
 
 # Personalización y privacidad {#privacy}
 
-![](../../assets/v7-only.svg)
+
 
 
 ## Personalización de la URL {#url-personalization}

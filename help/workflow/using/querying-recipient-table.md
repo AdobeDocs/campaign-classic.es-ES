@@ -2,9 +2,10 @@
 product: campaign
 title: Consulta de la tabla de destinatarios
 description: Obtenga información sobre cómo consultar la tabla de destinatarios.
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Query Editor
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Consulta de la tabla de destinatarios {#querying-recipient-table}
 
-![](../../assets/v7-only.svg)
+
 
 En este ejemplo, se desea recuperar los nombres y correos electrónicos de los destinatarios cuyo dominio de correo electrónico es “orange.co.uk” y que no viven en Londres.
 

@@ -2,18 +2,19 @@
 product: campaign
 title: Cálculo de indicador
 description: Cálculo de indicador
+badge: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 feature: Reporting
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '2972'
-ht-degree: 100%
+source-wordcount: '2983'
+ht-degree: 99%
 
 ---
 
 # Cálculo de indicador {#indicator-calculation}
 
-![](../../assets/common.svg)
+
 
 ## Actividades del usuario {#user-activities-1}
 

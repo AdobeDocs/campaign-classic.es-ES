@@ -2,9 +2,11 @@
 product: campaign
 title: Envío de correos electrónicos en móviles japoneses con Adobe Campaign Classic
 description: Aprenda a configurar, diseñar y enviar correos electrónicos que se leerán en un móvil japonés
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email, Email Design
 exl-id: 44634227-2340-49c4-b330-740c739ea551
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Envío de correos electrónicos en móviles japoneses {#sending-emails-on-japanese-mobiles}
 
-![](../../assets/common.svg)
+
 
 ## Formatos de correo electrónico para móviles japoneses {#email-formats-for-japanese-mobiles}
 

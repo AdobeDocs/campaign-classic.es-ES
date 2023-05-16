@@ -2,26 +2,27 @@
 product: campaign
 title: Introducción
 description: Introducción
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 3e39a0d2-ff7e-4233-82bb-2b360f696a33
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '193'
 ht-degree: 1%
 
 ---
 
 # Introducción{#introduction}
 
-![](../../assets/v7-only.svg)
+
 
 En esta sección se presenta el procedimiento que se debe aplicar para actualizar Adobe Campaign, del lado del cliente y del servidor, y se describe el cambio a Unicode de una instancia existente.
 
 >[!NOTE]
 >
->En el caso de instancias alojadas, debe coordinarse con el administrador de Adobe.\
+>En el caso de instancias de servicios alojados o administrados, debe coordinarse con el administrador de Adobe.\
 >Para las instancias locales, puede obtener asistencia de los consultores de Adobe.
 
 La actualización debe aplicarse a todos los servidores donde está instalado Adobe Campaign.

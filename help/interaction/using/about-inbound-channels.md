@@ -2,8 +2,9 @@
 product: campaign
 title: Acerca de los canales entrantes
 description: Acerca de los canales entrantes
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # Acerca de los canales entrantes{#about-inbound-channels}
 
-![](../../assets/v7-only.svg)
+
 
 Las ofertas se pueden presentar en varios espacios de ofertas utilizando un canal entrante o saliente. En este capítulo se detallan algunas funciones específicas de los canales entrantes.
 

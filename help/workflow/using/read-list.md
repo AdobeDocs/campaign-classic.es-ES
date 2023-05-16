@@ -2,9 +2,10 @@
 product: campaign
 title: Lista de lectura
 description: Descubra más información sobre la actividad del flujo de trabajo Lista de lectura
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Lista de lectura{#read-list}
 
-![](../../assets/v7-only.svg)
+
 
 Los datos procesados en un flujo de trabajo pueden proceder de listas en las que se han preparado o estructurado los datos (después de una segmentación previa o carga de archivo).
 

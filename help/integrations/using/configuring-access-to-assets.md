@@ -2,11 +2,13 @@
 product: campaign
 title: Configuración del acceso a Assets
 description: Configuración del acceso a Assets
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Configuración del acceso a Assets{#configuring-access-to-assets}
 
-![](../../assets/common.svg)
+
 
 Esta sección detalla los pasos de configuración necesarios en Adobe Campaign para utilizar las funcionalidades de integración con el servicio principal de Assets o la biblioteca de activos de Adobe Experience Manager (AEM Assets).
 

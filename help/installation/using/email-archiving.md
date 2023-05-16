@@ -2,20 +2,21 @@
 product: campaign
 title: Almacenamiento de correos electrónicos
 description: Almacenamiento de correos electrónicos
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 3%
+source-wordcount: '1359'
+ht-degree: 5%
 
 ---
 
 # Configuración del CCO del correo electrónico {#email-archiving}
 
-![](../../assets/v7-only.svg)
+
 
 Puede configurar Adobe Campaign para que mantenga una copia de los correos electrónicos enviados desde la plataforma.
 
@@ -34,6 +35,9 @@ Para ello, los archivos .eml correspondientes a los correos electrónicos enviad
 * El sistema de archivado de correo electrónico cambió con Adobe Campaign 17.2 (versión 8795). Si ya estaba utilizando el archivado de correo electrónico, debe actualizar manualmente al nuevo sistema CCO de correo electrónico. Para obtener más información, consulte [Migración al nuevo Email BCC](#updated-email-archiving-system--bcc-) para obtener más información.
 
 ## Activación de correo electrónico CCO (local) {#activating-email-archiving--on-premise-}
+
+[!BADGE On-Premise e híbrido]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones locales e híbridas"}
+
 
 Para activar el archivado de correo electrónico CCO cuando Adobe Campaign está instalado in situ, siga los pasos a continuación.
 
@@ -102,6 +106,9 @@ Asegúrese de ajustar estos parámetros según el rendimiento de envío de corre
 
 ## Configuración de la dirección de correo electrónico BCC (local) {#configuring-the-bcc-email-address--on-premise-}
 
+[!BADGE On-Premise e híbrido]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones locales e híbridas"}
+
+
 >[!IMPORTANT]
 >
 >Por motivos de privacidad, los correos electrónicos CCO deben ser procesados por un sistema de archiving capaz de almacenar información personal segura (PII).
@@ -124,6 +131,10 @@ En el **config-`<instance name>.xml`** , utilice los siguientes parámetros para
 >Además, el relé asigna una **[!UICONTROL Sent]** a todos los correos electrónicos, incluidos los que no se envían. Por lo tanto, todos los mensajes se archivan.
 
 ## Migración al nuevo Email BCC {#updated-email-archiving-system--bcc-}
+
+[!BADGE On-Premise e híbrido]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones locales e híbridas"}
+
+
 
 >[!IMPORTANT]
 >

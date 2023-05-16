@@ -1,12 +1,14 @@
 ---
 product: campaign
 title: Acerca de las integraciones de Campaign
-description: Utilice otras soluciones de Adobe y combine sus diferentes capacidades con Campaign.
+description: Utilice otras soluciones de Adobe y combine sus diferentes capacidades con Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Introducción a las integraciones de Adobe Campaign {#about-campaign-integrations}
 
-![](../../assets/common.svg)
+
 
 Adobe Experience Cloud es un conjunto completo de las mejores soluciones integradas en una plataforma de datos común con un conjunto de servicios principales potentes.
 

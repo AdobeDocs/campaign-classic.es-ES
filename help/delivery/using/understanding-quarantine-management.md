@@ -2,9 +2,11 @@
 product: campaign
 title: Comprensión de la administración de cuarentenas
 description: Comprensión de la administración de cuarentenas
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: c84f48ebdd66524e8dd6c39c88ae29565d11c9b2
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Comprensión de la administración de cuarentenas{#understanding-quarantine-management}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign administra una lista de direcciones en cuarentena. Los destinatarios cuya dirección se haya puesto en cuarentena se excluyen de forma predeterminada durante el análisis de la entrega y no se tendrán en cuenta para la segmentación. Una dirección de correo electrónico se puede poner en cuarentena, por ejemplo, cuando el buzón está lleno o si la dirección no existe. En cualquier caso, el procedimiento de cuarentena cumple las reglas específicas que se describen a continuación.
 

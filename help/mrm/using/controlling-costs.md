@@ -2,11 +2,12 @@
 product: campaign
 title: Control de los costes
 description: Aprenda a gestionar los costes de control
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-source-git-commit: f000cb8bae164c22d1ede15db4e763cf50530674
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2468'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Costes de control{#controlling-costs}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign permite controlar los costes de marketing programados, comprometidos y facturados y descomponerlos por categoría mediante el módulo Gestor de recursos de marketing.
 

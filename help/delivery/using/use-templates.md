@@ -2,9 +2,11 @@
 product: campaign
 title: Uso de plantillas de envíos
 description: Uso de plantillas de envío
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Delivery Templates
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Uso de plantillas {#use-templates}
 
-![](../../assets/common.svg)
+
 
 Las plantillas de envíos ofrecen una mayor eficiencia al proporcionar escenarios listos para usar para los tipos de actividades más comunes. Con las plantillas, los especialistas en marketing pueden implementar nuevas campañas con una personalización mínima en un período de tiempo más corto.
 

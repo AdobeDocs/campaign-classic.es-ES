@@ -2,11 +2,12 @@
 product: campaign
 title: Introducción al conector ACS
 description: Principios y ciclo de datos del conector ACS
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: ACS Connector
 hide: true
 hidefromtoc: true
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2038'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Introducción al conector ACS{#acs-connector-gs}
 
-![](../../assets/v7-only.svg)
+
 
 El conector ACS vincula Adobe Campaign v7 y Adobe Campaign Standard. Se trata de una función integrada en Campaign v7 que duplica automáticamente los datos en Campaign Standard, lo que une lo mejor de ambas aplicaciones. Campaign v7 cuenta con herramientas avanzadas para administrar la base de datos principal de marketing. La duplicación de datos de Campign v7 permite a Campaign Standard aprovechar los datos enriquecidos en un entorno fácil de usar.
 

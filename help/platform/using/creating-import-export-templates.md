@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: Creación de plantillas de importación y exportación
-description: Obtenga información sobre cómo crear plantillas de importación y exportación en Campaign Classic.
+description: Obtenga información sobre cómo crear plantillas de importación y exportación en Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1180e664-5ead-4d5d-b1c3-6fe397c1f3a2
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '127'
 ht-degree: 100%
 
 ---
 
 # Creación de plantillas de importación y exportación {#creating-import-export-templates}
 
-![](../../assets/common.svg)
+
 
 Las plantillas de importación y exportación se almacenan en el directorio **[!UICONTROL Resources > Templates > Job templates]** del árbol de Adobe Campaign.
 

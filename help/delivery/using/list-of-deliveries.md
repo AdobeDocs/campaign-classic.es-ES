@@ -2,9 +2,11 @@
 product: campaign
 title: Acceso a la lista de entregas
 description: Obtenga información sobre cómo acceder a la lista de entregas creadas
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 exl-id: 6c0fd76f-3d79-4b69-b911-f8d99dd18c4b
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Acceso a la lista de entregas {#list-of-deliveries}
 
-![](../../assets/common.svg)
+
 
 Puede acceder a las entregas desde la lista de entregas a través del nodo **[!UICONTROL Campaign Management > Deliveries]** del árbol.
 

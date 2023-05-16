@@ -1,13 +1,14 @@
 ---
 product: campaign
 title: Historial de eventos del Centro de mensajería
-description: Obtenga más información sobre el informe Historial de eventos del Centro de mensajería.
+description: Obtenga más información sobre el informe Historial de eventos del Centro de mensajería
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: 04d4791b-a1dd-4361-a469-6f5aff0f41b8
-source-git-commit: 1348c1d88d0732b0dda4ed488b4a258ac7e15c42
-workflow-type: ht
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
 
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Historial de eventos del centro de mensajes{#history-of-message-center-events}
 
-![](../../assets/v7-only.svg)
+
 
 El informe **[!UICONTROL History of Message Center events]** proporciona una descripción general de la actividad del Centro de mensajería, es decir, el número de eventos procesados y enviados como mensajes transaccionales.
 

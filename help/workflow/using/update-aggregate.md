@@ -2,9 +2,10 @@
 product: campaign
 title: Actualización del agregado
 description: Descubra más información acerca de la actividad del flujo de trabajo Actualización de agregado
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: d2b26af0-30a1-4852-acd5-996795f198a1
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Actualización de agregado{#update-aggregate}
 
-![](../../assets/v7-only.svg)
+
 
 Los agregados se especifican en el nivel de cubo para fines de creación de informes. Una pestaña **[!UICONTROL Workflow]** está disponible al configurar un acumulado.
 

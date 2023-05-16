@@ -1,10 +1,12 @@
 ---
 product: campaign
-title: Prácticas recomendadas sobre el rendimiento de las entregas
-description: Obtenga más información sobre el rendimiento de las entregas y las prácticas recomendadas.
+title: Prácticas recomendadas sobre el rendimiento de los envíos
+description: Obtenga más información sobre el rendimiento de las entregas y las prácticas recomendadas
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Prácticas recomendadas sobre el rendimiento de las entregas {#delivery-performances}
 
-![](../../assets/common.svg)
+
 
 Recomendamos seguir las directrices que se indican a continuación para garantizar que sus entregas, así como las comprobaciones que se realizan en caso de que surjan problemas con estas, se llevan a cabo correctamente.
 

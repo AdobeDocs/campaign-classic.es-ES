@@ -2,18 +2,19 @@
 product: campaign
 title: Recopilación de datos para analizar
 description: Recopilación de datos para analizar
+badge: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 feature: Reporting
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 97%
 
 ---
 
 # Recopilación de datos para analizar{#collecting-data-to-analyze}
 
-![](../../assets/common.svg)
+
 
 Los datos que se utilizan para crear el informe pueden seleccionarse directamente en la página del informe (para más información, consulte [) o recopilarse mediante una o más consultas.](../../reporting/using/using-the-context.md)
 

@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: Procesamiento de eventos
-description: Descubra cómo se procesan los eventos de mensajería transaccional en Adobe Campaign Classic.
+description: Descubra cómo se procesan los eventos de mensajería transaccional en Adobe Campaign Classic
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Procesamiento de eventos {#about-event-processing}
 
-![](../../assets/v7-only.svg)
+
 
 En el contexto de los mensajes transaccionales, un sistema de información genera un evento y este se envía a Adobe Campaign mediante los métodos **[!UICONTROL PushEvent]** y **[!UICONTROL PushEvents]** (consulte [Descripción del evento](../../message-center/using/event-description.md)).
 

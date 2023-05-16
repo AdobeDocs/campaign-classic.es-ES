@@ -2,9 +2,10 @@
 product: campaign
 title: Configuración y administración del proceso de aprobación
 description: Descubra cómo administrar las aprobaciones de campañas de marketing
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Approvals, Campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2438'
 ht-degree: 100%
@@ -13,7 +14,6 @@ ht-degree: 100%
 
 # Configuración y administración del proceso de aprobación {#approving-marketing-campaigns}
 
-![](../../assets/v7-only.svg)
 
 Cada paso de un envío puede estar sujeto a aprobación para garantizar una monitorización y un control completos de los distintos procesos de la campaña: direccionamiento, contenido, presupuesto, extracción y envío de una prueba.
 

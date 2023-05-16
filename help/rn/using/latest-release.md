@@ -2,11 +2,12 @@
 product: campaign
 title: Último lanzamiento
 description: Notas de la versión más reciente de Campaign Classic v7
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 143fe21447f91120e63df4409597472849bb6d47
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '2947'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Último lanzamiento{#latest-release}
 
-![](../../assets/v7-only.svg)
+
 
 Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con la **última versión de Campaign Classic v7**. Cada nueva compilación viene con un estado que se materializa con un color. Obtenga más información sobre los estados de compilación de Campaign Classic v7 en [esta página](rn-overview.md).
 

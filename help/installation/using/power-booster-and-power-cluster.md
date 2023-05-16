@@ -2,11 +2,12 @@
 product: campaign
 title: Power Booster y Power Cluster
 description: Power Booster y Power Cluster
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 7%
@@ -15,7 +16,7 @@ ht-degree: 7%
 
 # Power Booster y Power Cluster{#power-booster-and-power-cluster}
 
-![](../../assets/v7-only.svg)
+
 
 ## Información general {#overview}
 
@@ -36,7 +37,7 @@ Adobe Campaign le ofrece dos conjuntos de opciones de arquitectura preempaquetad
 Las opciones Power Booster y Power Cluster pueden ser utilizadas por las siguientes aplicaciones:
 
 * Campaña
-* Entrega
+* Envío
 * Centro de mensajes
 
 ## Matriz de recomendaciones arquitectónicas {#matrix-of-architectural-recommendations}

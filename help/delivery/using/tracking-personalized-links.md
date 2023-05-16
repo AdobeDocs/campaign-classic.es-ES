@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: Introducción al seguimiento de vínculos personalizados
-description: Obtenga información sobre cómo escribir vínculos en correos electrónicos que se pueden personalizar y admiten el seguimiento en Campaign Classic.
+description: Obtenga información sobre cómo escribir vínculos en correos electrónicos que se pueden personalizar y admiten el seguimiento en Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '218'
 ht-degree: 100%
 
 ---
 
 # Introducción al seguimiento de vínculos personalizados {#tracking-personalized-links}
 
-![](../../assets/common.svg)
+
 
 Los vínculos del contenido del correo electrónico que contienen personalización necesitan rastrearse con una sintaxis específica.
 

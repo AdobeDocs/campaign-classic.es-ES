@@ -2,9 +2,11 @@
 product: campaign
 title: Publicación, seguimiento y utilización de datos recopilados
 description: Descubra cómo publicar, rastrear y utilizar datos recopilados en una encuesta
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
-source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Publicación, seguimiento y utilización de datos recopilados{#publish-track-and-use-collected-data}
 
-![](../../assets/common.svg)
+
 
 Cuando se haya creado, configurado y publicado el formulario, puede publicarlo en línea, compartir el vínculo con los perfiles de la base de datos y realizar un seguimiento de las respuestas.
 

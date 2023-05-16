@@ -2,9 +2,10 @@
 product: campaign
 title: Interacción y gestión de ofertas
 description: Aprenda a enviar las mejores ofertas a sus contactos en función de las reglas de elegibilidad
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Interacción y gestión de ofertas{#interaction-and-offer-management}
 
-![](../../assets/v7-only.svg)
+
 
 La interacción permite responder en tiempo real durante una interacción con un contacto determinado (un cliente o destinatario) mediante la realización de una o varias ofertas adaptadas. Por ejemplo, estas pueden ser mensajes de comunicación sencillos, ofertas especiales sobre uno o varios productos o un servicio.
 

@@ -2,8 +2,9 @@
 product: campaign
 title: Esquema de una tabla existente
 description: Esquema de una tabla existente
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 12%
@@ -11,8 +12,6 @@ ht-degree: 12%
 ---
 
 # Esquema de una tabla existente{#schema-of-an-existing-table}
-
-![](../../assets/v7-only.svg)
 
 ## Información general {#overview}
 

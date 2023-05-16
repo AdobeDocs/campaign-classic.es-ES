@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: Configuración de los trabajos de exportación
-description: Obtenga información sobre cómo configurar y ejecutar trabajos de exportación en Campaign Classic.
+description: Obtenga información sobre cómo configurar y ejecutar trabajos de exportación en Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '925'
 ht-degree: 100%
 
 ---
 
 # Configuración de trabajos de exportación {#executing-export-jobs}
 
-![](../../assets/common.svg)
+
 
 Los trabajos de exportación permiten acceder a la base de datos y extraer datos de ella: contactos, clientes, listas, segmentos, etc.
 

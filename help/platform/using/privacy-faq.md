@@ -2,11 +2,13 @@
 product: campaign
 title: Preguntas frecuentes sobre privacidad y consentimiento
 description: Preguntas frecuentes sobre privacidad y consentimiento
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
-source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 98%
@@ -15,7 +17,7 @@ ht-degree: 98%
 
 # Preguntas frecuentes sobre privacidad {#privacy-faq}
 
-![](../../assets/common.svg)
+
 
 Estas son algunas de las preguntas frecuentes acerca de la privacidad y el consentimiento al usar Adobe Campaign.
 

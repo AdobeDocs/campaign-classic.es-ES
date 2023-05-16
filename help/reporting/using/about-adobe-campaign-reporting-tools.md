@@ -1,10 +1,12 @@
 ---
 product: campaign
 title: Acerca de las herramientas del sistema de informes de Adobe Campaign
-description: Analice el éxito de sus campañas en informes integrados o personalizados.
+description: Analice el éxito de sus campañas en informes integrados o personalizados
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Introducción a la creación de informes {#about-adobe-campaign-reporting-tools}
 
-![](../../assets/common.svg)
+
 
 Además de los [informes integrados](../../reporting/using/about-campaign-built-in-reports.md), Adobe Campaign permite generar informes en distintos contextos y satisfacer diferentes necesidades. En este documento se describen los principios de uso y los modos de implementación.
 

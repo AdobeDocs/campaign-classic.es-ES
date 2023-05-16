@@ -2,9 +2,10 @@
 product: campaign
 title: Ejemplos de marketing distribuido
 description: Ejemplos de marketing distribuido
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Ejemplos de marketing distribuido{#distributed-marketing-samples}
 
-![](../../assets/v7-only.svg)
+
 
 ## Creación de una campaña local (por formulario) {#creating-a-local-campaign--by-form-}
 

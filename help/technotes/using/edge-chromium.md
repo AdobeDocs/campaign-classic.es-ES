@@ -1,9 +1,10 @@
 ---
 product: campaign
 title: 'Nota técnica: Habilitación de Microsoft Edge Chromium en el entorno de Campaign'
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 description: Campaign - Cromium perimetral
 exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
-source-git-commit: 095919608e08a0bf8ad1487fa5ec0a1ddb443c7b
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 13%
@@ -12,7 +13,7 @@ ht-degree: 13%
 
 # Cómo habilitar Microsoft Edge Chromium en su entorno {#edge-conf}
 
-![](../../assets/v7-only.svg)
+
 
 
 ## ¿Qué ha cambiado?

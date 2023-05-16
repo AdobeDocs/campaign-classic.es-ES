@@ -2,9 +2,10 @@
 product: campaign
 title: Ofertas por celda
 description: Ofertas por celda
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity, Interaction
 exl-id: 72b17b48-093a-4eb9-a848-3c1570e49b61
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Ofertas por celda{#offers-by-cell}
 
-![](../../assets/v7-only.svg)
+
 
 La actividad **[!UICONTROL Offers by cell]** permite distribuir la población entrante (desde una consulta por ejemplo) en varios segmentos y especificar una oferta para presentar a cada uno de estos segmentos.
 

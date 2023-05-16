@@ -2,9 +2,11 @@
 product: campaign
 title: Uso de una lista de destinatarios externa
 description: Uso de una lista de destinatarios externa
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Audiences
 exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Uso de una lista de destinatarios externa{#using-an-external-recipient-table}
 
-![](../../assets/common.svg)
+
 
 Si la lista de distribución es una tabla externa, debe realizar ajustes adicionales. Se debe ampliar el esquema **[!UICONTROL nms:seedmember]**. Se añade una pestaña a las direcciones sembradas para definir los campos adecuados, como se muestra a continuación:
 

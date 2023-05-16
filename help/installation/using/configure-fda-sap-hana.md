@@ -2,11 +2,12 @@
 product: campaign
 title: Configuración de acceso a SAP HANA
 description: Obtenga información sobre cómo configurar el acceso al SAP HANA en FDA
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 39bfe775-e182-4a0b-ad3c-b7a901297c90
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 71%
@@ -15,7 +16,7 @@ ht-degree: 71%
 
 # Configuración de acceso a SAP HANA {#configure-access-to-sap-hana}
 
-![](../../assets/v7-only.svg)
+
 
 Uso de Campaign [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso al SAP HANA.
 

@@ -2,9 +2,10 @@
 product: campaign
 title: Plantillas de campañas de marketing
 description: Plantillas de campañas de marketing
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Campaigns, Templates
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 100%
@@ -12,8 +13,6 @@ ht-degree: 100%
 ---
 
 # Creación y configuración de plantillas de campaña {#campaign-templates}
-
-![](../../assets/v7-only.svg)
 
 Todas las campañas de marketing se basan en una plantilla que almacena las características y capacidades principales. Las plantillas de campaña están centralizadas en el nodo **[!UICONTROL Resources > Templates > Campaign templates]**. Se proporciona una plantilla predeterminada como estándar. Permite crear una nueva campaña utilizando todos los módulos disponibles (documentos, tareas, direcciones semilla, etc.); sin embargo, los módulos ofrecidos dependen de los derechos y de la configuración de la plataforma de Adobe Campaign.
 

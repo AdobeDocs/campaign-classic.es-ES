@@ -2,8 +2,9 @@
 product: campaign
 title: Parámetros de seguimiento web adicionales
 description: Obtenga más información sobre los parámetros del seguimiento web
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -11,8 +12,6 @@ ht-degree: 0%
 ---
 
 # Parámetros de seguimiento web adicionales{#additional-parameters}
-
-![](../../assets/v7-only.svg)
 
 ## Definición de parámetros {#definition-of-parameters}
 

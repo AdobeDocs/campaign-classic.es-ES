@@ -2,9 +2,11 @@
 product: campaign
 title: Definición del contenido del correo directo
 description: Aprenda a definir el contenido de correo directo
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Direct Mail
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Definición del contenido de correo postal{#defining-the-direct-mail-content}
 
-![](../../assets/common.svg)
+
 
 ## Archivo de extracción {#extraction-file}
 

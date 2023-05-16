@@ -2,9 +2,10 @@
 product: campaign
 title: Datos de objetivos
 description: Descubra más información sobre los datos de objetivos en un flujo de trabajo
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Query Editor, Data Management
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1924'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Datos de destino{#targeting-data}
 
-![](../../assets/v7-only.svg)
+
 
 ## Creación de consultas {#creating-queries}
 

@@ -2,11 +2,12 @@
 product: campaign
 title: Creación y administración de tareas
 description: Creación y administración de tareas
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '3729'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Creación y administración de tareas{#creating-and-managing-tasks}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign le permite crear tareas y gestionar su ciclo de vida completo directamente desde la aplicación. La implementación de programas y campañas se puede dividir en tareas asignadas a operadores de Adobe Campaign o a proveedores de servicios externos. Este modo de operación le permite crear un entorno de colaboración abierto que incluye todos los participantes del programa y participantes externos.
 

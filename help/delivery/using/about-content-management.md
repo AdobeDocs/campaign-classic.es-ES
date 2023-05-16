@@ -2,9 +2,11 @@
 product: campaign
 title: Acerca de la administración de contenido
 description: Introducción al módulo Administrador de contenido de Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Landing Pages, Email Design
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Acerca de la administración de contenido{#about-content-management}
 
-![](../../assets/common.svg)
+
 
 El módulo Adobe Campaign Content Manager es un [paquete integrado](../../installation/using/installing-campaign-standard-packages.md) específico de Campaign Classic que puede instalar para crear boletines informativos o sitios web recurrentes. Puede ayudar a crear, validar y publicar los mensajes.
 

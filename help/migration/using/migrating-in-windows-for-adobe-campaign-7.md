@@ -2,13 +2,14 @@
 product: campaign
 title: Migración de una plataforma Microsoft Windows a Adobe Campaign v7
 description: Obtenga información sobre cómo migrar una plataforma Microsoft Windows a Adobe Campaign v7
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 hide: true
 hidefromtoc: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
-source-git-commit: 80cf56e330731237d5e7b394381b737f30f8b350
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Migración de una plataforma Microsoft Windows a Campaign v7{#migrating-in-windows-for-adobe-campaign}
 
-![](../../assets/v7-only.svg)
+
 
 Para un entorno de Microsoft Windows, los pasos de migración son los siguientes:
 

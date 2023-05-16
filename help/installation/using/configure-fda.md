@@ -2,11 +2,12 @@
 product: campaign
 title: Configuración de conectores FDA
 description: Descubra los pasos de configuración para FDA
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: f580b9b2508c279e03bd2698854aaf3de501200b
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 41%
@@ -15,7 +16,7 @@ ht-degree: 41%
 
 # Configuración de los conectores FDA {#specific-configurations-by-database-type}
 
-![](../../assets/v7-only.svg)
+
 
 En función de las bases de datos externas a las que desee tener acceso desde Adobe Campaign, debe realizar determinadas configuraciones específicas. Estas configuraciones implican esencialmente la instalación de controladores y la declaración de variables de entorno que pertenecen a cada RDBMS en el servidor de Adobe Campaign.
 

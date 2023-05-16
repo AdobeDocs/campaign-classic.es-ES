@@ -2,11 +2,12 @@
 product: campaign
 title: Falta de imágenes
 description: Falta de imágenes
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 6ccda57d-f7a3-4501-b2f4-59fcb05f9013
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 5%
@@ -15,7 +16,7 @@ ht-degree: 5%
 
 # Falta de imágenes{#images-missing}
 
-![](../../assets/v7-only.svg)
+
 
 En la versión 17.9, se han movido varios archivos (iconos en particular).
 

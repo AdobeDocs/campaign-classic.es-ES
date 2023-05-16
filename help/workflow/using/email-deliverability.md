@@ -2,8 +2,9 @@
 product: campaign
 title: Capacidad de entrega de correos electrónicos
 description: Descubra más información sobre el paquete Capacidad de entrega por correo electrónico
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Deliverability
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Monitorización de la capacidad de entrega (capacidad de entrega por correo electrónico){#email-deliverability}
 
-![](../../assets/v7-only.svg)
+
 
 El flujo de trabajo detallado a continuación se instala de manera predeterminada en todas las instancias y le permite inicializar la lista de reglas de cualificación de correos rechazados, la lista de dominios y la lista de MX. Una vez que se haya instalado el paquete **Deliverability monitoring (Email Deliverability)**, este flujo de trabajo se ejecuta todas las noches. Para obtener más información sobre la monitorización de capacidad de envío, consulte esta [sección](../../delivery/using/about-deliverability.md).
 

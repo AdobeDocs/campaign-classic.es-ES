@@ -2,11 +2,12 @@
 product: campaign
 title: Funciones obsoletas y eliminadas de Campaign Classic
 description: Esta página lista las funciones obsoletas y eliminadas de Adobe Campaign Classic
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 0ecf9c69cc4b444feda1e42701a3a27f2b2e7eeb
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Funciones obsoletas y eliminadas {#deprecated-and-removed-features}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe evalúa constantemente las funciones de sus productos para identificar aquellas que sean antiguas y que deban reemplazarse con alternativas más modernas para mejorar la experiencia de los clientes, intentando garantizar en todo momento la compatibilidad con versiones anteriores. Como Adobe Campaign Classic funciona con herramientas de terceros, la compatibilidad se actualiza de forma regular para implementar únicamente versiones compatibles. Las versiones que ya no son compatibles con Adobe Campaign Classic se enumeran a continuación y en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 

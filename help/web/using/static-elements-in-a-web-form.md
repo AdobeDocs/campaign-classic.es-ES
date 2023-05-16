@@ -2,9 +2,11 @@
 product: campaign
 title: Elementos estáticos de un formulario web
 description: Elementos estáticos de un formulario web
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Elementos estáticos de un formulario web{#static-elements-in-a-web-form}
 
-![](../../assets/common.svg)
+
 
 Puede incluir elementos con los que el usuario no interactúa en las páginas del formulario; son elementos estáticos como imágenes, contenido HTML, barras horizontales o un vínculo de hipertexto. Estos elementos se crean mediante el primer botón de la barra de herramientas, seleccionando **[!UICONTROL Static elements]**.
 

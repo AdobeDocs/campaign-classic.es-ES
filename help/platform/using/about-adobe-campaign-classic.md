@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: Acerca de Adobe Campaign Classic
-description: Descubra las funcionalidades clave, la interfaz de usuario y las directrices globales.
+description: Descubra las funcionalidades clave, la interfaz de usuario y las directrices globales
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
-source-git-commit: 91dec9adb177aedc4a82879011371b54886166be
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Introducción a Campaign Classic{#about-adobe-campaign-classic}
 
-![](../../assets/v7-only.svg)
+
 
 Para conseguir un alto nivel de interés del cliente y experiencias relevantes, las marcas deben crear recorridos de cliente consistentes en todos los puntos de contacto. Los especialistas en marketing pueden diseñar, planificar, ejecutar, gestionar y optimizar de forma eficaz campañas de marketing a través de diversos canales, que ofrecen una alta rentabilidad en la inversión en marketing e impulsan la lealtad.
 

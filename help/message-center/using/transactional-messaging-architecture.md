@@ -2,8 +2,9 @@
 product: campaign
 title: Arquitectura de la mensajería transaccional
 description: En esta sección se describe la arquitectura de mensajería transaccional de Adobe Campaign Classic y los canales disponibles para enviar mensajes transaccionales
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 100%
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # Arquitectura de la mensajería transaccional {#transactional-messaging-architecture}
 
-![](../../assets/v7-only.svg)
+
 
 La mensajería transaccional se basa en una arquitectura específica, que consta de varias instancias:
 

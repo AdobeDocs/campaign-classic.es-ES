@@ -2,9 +2,10 @@
 product: campaign
 title: Envío de alertas personalizadas a operadores
 description: Descubra más información sobre cómo enviar alertas personalizadas a operadores
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Envío de alertas personalizadas a operadores{#sending-personalized-alerts-to-operators}
 
-![](../../assets/v7-only.svg)
+
 
 En este ejemplo, deseamos enviar una alerta a un operador con el nombre de los perfiles que abrieron una newsletter, pero que no hicieron clic en el vínculo que contenía.
 

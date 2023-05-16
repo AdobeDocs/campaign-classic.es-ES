@@ -2,9 +2,11 @@
 product: campaign
 title: Respuestas de formularios web
 description: Respuestas de formularios web
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 100%
@@ -13,7 +15,6 @@ ht-degree: 100%
 
 # Respuestas de formularios web{#web-forms-answers}
 
-![](../../assets/common.svg)
 
 ## Campos de almacenamiento de respuestas {#response-storage-fields}
 

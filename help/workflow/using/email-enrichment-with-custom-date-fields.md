@@ -2,9 +2,10 @@
 product: campaign
 title: Enriquecimiento de correo electrónico con campos de datos personalizados
 description: Descubra cómo enriquecer correos electrónicos con campos de datos personalizados
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Enriquecimiento de correo electrónico con campos de datos personalizados{#email-enrichment-with-custom-date-fields}
 
-![](../../assets/v7-only.svg)
+
 
 En este ejemplo, deseamos enviar un correo electrónico con campos de datos personalizados a los destinatarios que celebran su cumpleaños este mes. El correo electrónico incluirá un cupón válido una semana antes y después de su cumpleaños.
 

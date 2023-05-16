@@ -2,11 +2,12 @@
 product: campaign
 title: Datos adicionales
 description: Datos adicionales
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 01adb584-5308-4d41-a6f1-223a97efa10f
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Datos adicionales{#additional-data}
 
-![](../../assets/v7-only.svg)
+
 
 Durante una llamada al motor de interacción, se puede transferir información adicional contextual. Estos datos pueden proceder de los datos de destino almacenados en la tabla de trabajo de un flujo de trabajo (canal saliente) o de los datos de llamada enviados mediante el sitio web durante la llamada (canal entrante). Se puede utilizar estos datos adicionales en las reglas de idoneidad, en la personalización de ofertas, y también almacenarlos en una tabla de propuestas.
 

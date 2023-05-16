@@ -2,9 +2,10 @@
 product: campaign
 title: Inicio de un flujo de trabajo
 description: Obtenga información sobre cómo iniciar un flujo de trabajo y descubra acciones de flujos de trabajo en la barra de herramientas y el menú que aparece al hacer clic con el botón derecho
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Inicio de un flujo de trabajo {#starting-a-workflow}
 
-![](../../assets/v7-only.svg)
+
 
 Un flujo de trabajo siempre se inicia manualmente. Cuando se inicia, no obstante, puede permanecer inactivo según la información especificada mediante un planificador (consulte [Scheduler](scheduler.md)) o una planificación de actividad.
 

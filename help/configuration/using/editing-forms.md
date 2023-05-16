@@ -2,8 +2,10 @@
 product: campaign
 title: Editar formularios
 description: Editar formularios
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 4af44f38d495d31dec4b9b7a142dbed0c2450d56
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 2%
@@ -13,7 +15,7 @@ ht-degree: 2%
 
 # Editar formularios{#editing-forms}
 
-![](../../assets/common.svg)
+
 
 ## Información general
 

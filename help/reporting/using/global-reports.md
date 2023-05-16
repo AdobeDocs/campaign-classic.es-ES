@@ -2,18 +2,19 @@
 product: campaign
 title: Informes globales
 description: Informes globales
+badge: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: 1635366b9e1302acd3d8997312bf07d5c1a68982
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '2295'
-ht-degree: 100%
+source-wordcount: '2306'
+ht-degree: 99%
 
 ---
 
 # Informes globales {#global-reports}
 
-![](../../assets/common.svg)
+
 
 Estos informes hacen referencia a la actividad de los datos de toda la base de datos. Para ver el tablero de informes, vaya a la pestaña **[!UICONTROL Reports]**.
 
@@ -53,7 +54,7 @@ Se pueden configurar los valores que se muestran cambiando la escala temporal: v
 >
 >Si la instancia está alojada en AWS, también puede monitorizar el número de entregas enviadas por hora mediante el [Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=es) de Campaign Classic. Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es).
 >
->Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
+>Todos los usuarios administradores pueden acceder al Panel de control. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
 >Tenga en cuenta que la instancia debe actualizarse con la última compilación de [Gold Standard](../../rn/using/gold-standard.md) o [de GA (21.1.3)](../../rn/using/latest-release.md). Aprenda a comprobar su versión en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 

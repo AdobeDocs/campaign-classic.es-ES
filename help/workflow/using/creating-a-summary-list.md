@@ -2,9 +2,10 @@
 product: campaign
 title: Creación de una lista de resumen
 description: Creación de una lista de resumen
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Creación de una lista de resumen{#creating-a-summary-list}
 
-![](../../assets/v7-only.svg)
+
 
 Este caso de uso detalla la creación de un flujo de trabajo que, después de recopilar archivos y luego de varios enriquecimientos, permite crear una lista de resumen. El ejemplo se basa en una lista de contactos que realizaron compras en una tienda.
 

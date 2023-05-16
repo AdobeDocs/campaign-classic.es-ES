@@ -2,18 +2,19 @@
 product: campaign
 title: Introducción a los permisos
 description: Obtenga información sobre cómo conceder acceso a las funciones de Campaign
+badge: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 100%
+source-wordcount: '264'
+ht-degree: 95%
 
 ---
 
 # Introducción a los permisos{#access-management}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign le permite definir y administrar los derechos asignados a los distintos operadores. Se trata de un conjunto de derechos y restricciones que autorizan o niegan:
 

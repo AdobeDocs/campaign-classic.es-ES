@@ -2,11 +2,12 @@
 product: campaign
 title: Permisos para acceder a una base de datos externa
 description: Permisos de acceso a bases de datos externas
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 98%
@@ -15,7 +16,7 @@ ht-degree: 98%
 
 # Derechos de acceso a bases de datos remotas {#remote-database-access-rights}
 
-![](../../assets/v7-only.svg)
+
 
 En primer lugar, para que el usuario pueda llevar a cabo operaciones en una base de datos externa a través de FDA, el último debe tener un derecho específico en Adobe Campaign.
 

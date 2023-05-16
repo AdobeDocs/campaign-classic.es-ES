@@ -2,9 +2,10 @@
 product: campaign
 title: Documentos de campañas de marketing y descripciones del envío
 description: Obtenga más información sobre los documentos de campañas de marketing y las descripciones del envío
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 100%
@@ -12,8 +13,6 @@ ht-degree: 100%
 ---
 
 # Administración de documentos asociados {#managing-associated-documents}
-
-![](../../assets/v7-only.svg)
 
 Puede asociar varios documentos a una campaña: informes, fotos, páginas web, diagramas, etc. Estos documentos pueden tener cualquier formato (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc.).
 

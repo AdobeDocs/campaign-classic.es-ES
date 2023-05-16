@@ -2,9 +2,11 @@
 product: campaign
 title: Diseño de elementos
 description: Diseño de elementos
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
-source-git-commit: 36e546a34d8c2345fefed5d459095a76c6224a38
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Diseño de elementos{#element-layout}
 
-![](../../assets/common.svg)
+
 
 Además de los diversos gráficos detallados [aquí](../../reporting/using/creating-a-chart.md#chart-types-and-variants), puede adaptar la visualización y añadir elementos a las páginas de informes.
 

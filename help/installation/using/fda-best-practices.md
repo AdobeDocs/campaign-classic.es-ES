@@ -2,11 +2,12 @@
 product: campaign
 title: Prácticas recomendadas y limitaciones de FDA de Campaign
 description: Conozca las prácticas recomendadas y las limitaciones al trabajar con una base de datos externa (FDA)
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
-source-git-commit: b458ac67733a2f0e508df729add37d9a78dbcbd8
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 40%
@@ -15,7 +16,7 @@ ht-degree: 40%
 
 # Prácticas recomendadas y limitaciones
 
-![](../../assets/v7-only.svg)
+
 
 ## Optimización de la personalización de correo electrónico con datos externos {#optimizing-email-personalization-with-external-data}
 

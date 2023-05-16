@@ -2,9 +2,10 @@
 product: campaign
 title: Seguimiento de una campaña
 description: Obtenga información sobre cómo rastrear una campaña con el marketing distribuido de Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Distributed Marketing
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Seguimiento de una campaña{#tracking-a-campaign}
 
-![](../../assets/v7-only.svg)
+
 
 Los operadores de entidad central pueden rastrear las solicitudes de campaña en la lista de paquetes de campañas.
 

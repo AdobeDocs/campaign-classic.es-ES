@@ -2,8 +2,9 @@
 product: campaign
 title: Acerca del seguimiento web
 description: Acerca del seguimiento web
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 4%
@@ -11,8 +12,6 @@ ht-degree: 4%
 ---
 
 # Acerca del seguimiento web{#about-web-tracking}
-
-![](../../assets/v7-only.svg)
 
 Además del seguimiento estándar que muestra el comportamiento de un usuario de Internet al hacer clic en un vínculo de un mensaje de correo electrónico, la plataforma de Adobe Campaign permite recopilar información sobre cómo los usuarios de Internet exploran el sitio web. Esta recopilación de datos se realiza mediante el módulo de seguimiento web.
 

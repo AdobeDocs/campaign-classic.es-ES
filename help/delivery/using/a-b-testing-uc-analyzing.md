@@ -2,9 +2,11 @@
 product: campaign
 title: Análisis del resultado
 description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Análisis del resultado {#step-8--analyzing-the-result}
 
-![](../../assets/common.svg)
+
 
 Una vez remitidos los envíos de prueba, se puede comprobar los destinatarios a los que se han enviado y si se han abierto o no.
 

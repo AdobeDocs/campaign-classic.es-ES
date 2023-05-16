@@ -2,11 +2,13 @@
 product: campaign
 title: Actualización de la calificación de devoluciones después de una interrupción del ISP
 description: Obtenga información sobre cómo actualizar la calificación de devoluciones después de una interrupción del ISP
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
-source-git-commit: 165797105affc9b5d4e4332f7f158031579bf91c
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Actualización de estado de devoluciones graves incorrectas después de una interrupción ISP {#update-bounces}
 
-![](../../assets/common.svg)
+
 
 ## Contexto{#update-bounce-context}
 

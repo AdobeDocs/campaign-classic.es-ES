@@ -1,21 +1,23 @@
 ---
 product: campaign
 title: Introducción a la importación y exportación de datos
-description: Obtenga más información sobre la importación y exportación de datos en Campaign Classic.
+description: Obtenga más información sobre la importación y exportación de datos en Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d6055d97-75fc-4ed7-89bd-8336157454eb
-source-git-commit: bd9f035db1cbad883e1f27fe901e34dfbc9c1229
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '325'
 ht-degree: 100%
 
 ---
 
 # Introducción a la importación y exportación de datos {#get-started-data-import-export}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign Classic ofrece funciones de administración de datos que le permiten importar y exportar datos. Estas operaciones se pueden realizar utilizando flujos de trabajo o importaciones y exportaciones genéricas.
 

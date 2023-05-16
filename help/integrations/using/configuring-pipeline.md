@@ -2,10 +2,12 @@
 product: campaign
 title: Configuración de la canalización
 description: Descubra más información sobre cómo configurar la canalización
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 02eebe83de49ee97e573b0c47ca1fddb2195b991
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 100%
@@ -14,7 +16,7 @@ ht-degree: 100%
 
 # Configuración de canalización {#configuring-pipeline}
 
-![](../../assets/common.svg)
+
 
 Los parámetros de autenticación como el ID de cliente, la clave privada y el extremo de autenticación se configuran en los archivos de configuración de instancia.
 La lista de activadores que se van a procesar se configura en una opción en formato JSON.

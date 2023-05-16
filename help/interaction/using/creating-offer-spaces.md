@@ -2,11 +2,12 @@
 product: campaign
 title: Creación de espacios de oferta
 description: Creación de espacios de oferta
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Creación de espacios de oferta{#creating-offer-spaces}
 
-![](../../assets/v7-only.svg)
+
 
 La creación del espacio de ofertas sólo se puede realizar mediante un **technical administrator** con acceso a la subcarpeta del espacio de oferta. Los espacios de ofertas solo se pueden crear en el entorno de diseño y se duplican automáticamente en el entorno interactivo durante la aprobación de la oferta.
 

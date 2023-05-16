@@ -1,31 +1,33 @@
 ---
 product: campaign
 title: Descompresión o descifrado de un archivo
-description: Obtenga información sobre cómo descomprimir o descifrar un archivo en Campaign Classic antes de procesarlo.
+description: Obtenga información sobre cómo descomprimir o descifrar un archivo en Campaign antes de procesarlo
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '715'
 ht-degree: 100%
 
 ---
 
 # Descompresión o descifrado de un archivo {#unzipping-or-decrypting-a-file-before-processing}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign permite importar archivos comprimidos o encriptados. Antes de que se puedan leer en una actividad [Data loading (file)](../../workflow/using/data-loading--file-.md), puede definir un procesamiento previo para descomprimir o desencriptar el archivo.
 
 Para poder hacerlo:
 
-1. Utilice el [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es#decrypting-data) para generar un par de claves pública y privada.
+1. Utilice el [Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es#decrypting-data) para generar un par de claves pública y privada.
 
    >[!NOTE]
    >
-   >Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
+   >Todos los usuarios administradores pueden acceder al Panel de control. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
    >
    >Tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la [última versión de GA](../../rn/using/rn-overview.md). Aprenda a comprobar su versión en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es).
 
@@ -48,29 +50,29 @@ A continuación se muestra un ejemplo en el caso de uso.
 * [Actividad de carga de datos (archivos)](../../workflow/using/data-loading--file-.md).
 * [Compresión o cifrado de un archivo](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
 
-## Caso de uso: importación de datos cifrados con una clave generada por el Panel de control de Campaign {#use-case-gpg-decrypt}
+## Caso de uso: importación de datos cifrados con una clave generada por el Panel de control {#use-case-gpg-decrypt}
 
-En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados en un sistema externo utilizando una clave generada en el Panel de control de Campaign.
+En este caso de uso, crearemos un flujo de trabajo para importar datos cifrados en un sistema externo utilizando una clave generada en el Panel de control.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
 Los pasos para realizar este caso de uso son los siguientes:
 
-1. Utilice el Panel de control de Campaign para generar un par de claves (pública/privada). Encontrará los pasos detallados en la documentación [del](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es#decrypting-data) Panel de control de Campaign.
+1. Utilice el Panel de control para generar un par de claves (pública/privada). Encontrará los pasos detallados en la documentación [del](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es#decrypting-data) Panel de control.
 
    * La clave pública se comparte con el sistema externo, que la utiliza para cifrar los datos que se enviarán a Campaign.
    * Campaign Classic utiliza la clave privada para descifrar los datos cifrados entrantes.
 
    ![](assets/gpg_generate.png)
 
-1. En el sistema externo, utilice la clave pública descargada del Panel de control de Campaign para cifrar los datos que se van a importar a Campaign Classic.
+1. En el sistema externo, utilice la clave pública descargada del Panel de control para cifrar los datos que se van a importar a Campaign Classic.
 
-1. En Campaign Classic, cree un flujo de trabajo para importar los datos cifrados y desencriptarlos con la clave privada que se ha instalado mediante el Panel de control de Campaign. Para ello, crearemos un flujo de trabajo de la siguiente manera:
+1. En Campaign Classic, cree un flujo de trabajo para importar los datos cifrados y desencriptarlos con la clave privada que se ha instalado mediante el Panel de control. Para ello, crearemos un flujo de trabajo de la siguiente manera:
 
    ![](assets/gpg_import_workflow.png)
 
    * **[!UICONTROL File transfer]** actividad: transfiere el archivo de un origen externo a Campaign Classic. En este ejemplo, queremos transferir el archivo desde un servidor SFTP.
-   * **[!UICONTROL Data loading (file)]** actividad: carga los datos del archivo en la base de datos y los descifra utilizando la clave privada generada en el Panel de control de Campaign.
+   * **[!UICONTROL Data loading (file)]** actividad: carga los datos del archivo en la base de datos y los descifra utilizando la clave privada generada en el Panel de control.
 
 1. Abra la actividad **[!UICONTROL File transfer]** y especifique la cuenta externa desde la que desea importar el archivo .gpg cifrado.
 
@@ -88,7 +90,7 @@ Los pasos para realizar este caso de uso son los siguientes:
 
    >[!CAUTION]
    >
-   >En este ejemplo, utilizamos la frase de contraseña utilizada de forma predeterminada por Panel de control de Campaign, que es &quot;frase de contraseña&quot;.
+   >En este ejemplo, utilizamos la frase de contraseña utilizada de forma predeterminada por Panel de control, que es &quot;frase de contraseña&quot;.
    >
    >Si ya ha instalado las claves GPG en su instancia a través de una solicitud a Atención al cliente en el pasado, la frase de contraseña puede haber cambiado y ser diferente de la predeterminada.
 

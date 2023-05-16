@@ -1,12 +1,14 @@
 ---
 product: campaign
 title: Prácticas recomendadas de importación y exportación
-description: Obtenga más información acerca las prácticas recomendadas que seguir al importar o exportar datos.
+description: Obtenga más información acerca las prácticas recomendadas que seguir al importar o exportar datos
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Prácticas recomendadas de importación y exportación {#import-export-best-practices}
 
-![](../../assets/common.svg)
+
 
 Tenga cuidado y siga las sencillas reglas detalladas debajo, ya que le pueden ayudar a garantizar la coherencia de los datos en la base de datos y a evitar errores comunes durante la actualización o las exportaciones de datos.
 

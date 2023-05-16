@@ -2,9 +2,11 @@
 product: campaign
 title: Creación de un flujo de trabajo de segmentación
 description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Creación de un flujo de trabajo de direccionamiento {#step-1--creating-a-targeting-workflow}
 
-![](../../assets/common.svg)
+
 
 Se debe crear el flujo de trabajo en la pestaña **[!UICONTROL Targeting and Workflows]** de una campaña. Se compone de una actividad **[!UICONTROL Query]**, una actividad **[!UICONTROL Split]** vinculada a dos actividades **[!UICONTROL Email delivery]**, una actividad **[!UICONTROL Wait]**, una actividad **[!UICONTROL JavaScript code]** y una actividad **[!UICONTROL Delivery]**.
 

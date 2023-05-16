@@ -2,9 +2,11 @@
 product: campaign
 title: Creación de entregas de LINE
 description: Aprenda a crear mensajes de LINE
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Line App
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Creación de entregas de LINE{#line-channel}
 
-![](../../assets/common.svg)
+
 
 [!DNL LINE] es una aplicación gratuita de mensajería instantánea, llamadas de voz y vídeo disponible en todos los sistemas operativos móviles y en PC.
 

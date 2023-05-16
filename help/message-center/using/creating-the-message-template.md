@@ -1,10 +1,11 @@
 ---
 product: campaign
 title: Diseño de plantillas de mensajes transaccionales
-description: Aprenda a crear y diseñar una plantilla de mensaje transaccional en Adobe Campaign Classic.
+description: Aprenda a crear y diseñar una plantilla de mensaje transaccional en Adobe Campaign Classic
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Transactional Messaging
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Diseño de plantillas de mensajes transaccionales {#creating-the-message-template}
 
-![](../../assets/v7-only.svg)
+
 
 Para asegurarse de que cada evento se pueda cambiar a un mensaje personalizado, debe crear una plantilla de mensaje para que coincida con cada tipo de evento.
 

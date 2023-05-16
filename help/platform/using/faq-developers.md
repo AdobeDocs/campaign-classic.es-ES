@@ -2,11 +2,12 @@
 product: campaign
 title: Preguntas frecuentes para desarrolladores
 description: Preguntas frecuentes para desarrolladores
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: f4513834cf721f6d962c7c02c6c64b2171059352
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Preguntas frecuentes para desarrolladores {#dev-faq}
 
-![](../../assets/v7-only.svg)
+
 
 Como solución abierta, Adobe Campaign está listo para la personalización y el desarrollo de aplicaciones avanzadas.
 

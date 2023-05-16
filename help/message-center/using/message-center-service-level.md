@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: Nivel de servicio del Centro de mensajería
-description: Obtenga más información sobre el informe de nivel de servicio del Centro de mensajería.
+description: Obtenga más información sobre el informe de nivel de servicio del Centro de mensajería
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: b8dc9891-84c8-445d-ad6a-d06048c8faaf
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Nivel de servicio del Centro de mensajería {#message-center-service-level}
 
-![](../../assets/v7-only.svg)
+
 
 Este informe muestra las entrega de envío relacionadas con los mensajes transaccionales y el desglose de errores. Puede hacer clic en un tipo de error para mostrar sus detalles.
 

@@ -2,9 +2,11 @@
 product: campaign
 title: Configuración de entregas
 description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Configuración de las entregas en el flujo de trabajo {#step-4--configuring-the-deliveries-in-the-workflow}
 
-![](../../assets/common.svg)
+
 
 Una vez que [se hayan creado las poblaciones](a-b-testing-uc-population-samples.md), puede configurar las entregas. En este caso de uso, las dos primeras entregas permiten enviar contenido diferente a las poblaciones A y B. La tercera es la opción alternativa: se envía a los destinatarios que no pertenecen a A ni B. Su contenido se calcula mediante una secuencia de comandos y es idéntico a A o B, dependiendo de cuál obtuvo la tasa de apertura más alta. Es necesario configurar un periodo de espera para la tercera entrega, para averiguar el resultado de los envíos A y B. Esta es la razón por la que la tercera entrega incluye una actividad **[!UICONTROL Wait]**.
 

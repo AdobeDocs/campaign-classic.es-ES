@@ -2,9 +2,10 @@
 product: campaign
 title: Introducción al marketing distribuido
 description: Introducción al marketing distribuido
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Distributed Marketing
 exl-id: c166409b-e040-491e-840a-a41310935d75
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Introducción al marketing distribuido{#about-distributed-marketing}
 
-![](../../assets/v7-only.svg)
+
 
 Adobe Campaign ofrece una aplicación de **marketing distribuido** para implementar campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **[!UICONTROL list of campaign packages]**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
 

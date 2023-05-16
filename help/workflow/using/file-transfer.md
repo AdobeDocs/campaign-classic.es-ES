@@ -2,9 +2,10 @@
 product: campaign
 title: Transferencia de archivos
 description: Descubra más información sobre la actividad del flujo de trabajo Transferencia de archivos
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Transferencia de archivos{#file-transfer}
 
-![](../../assets/v7-only.svg)
+
 
 La actividad de **Transferencia de archivos** permite recibir o enviar archivos, probar la presencia de archivos o mostrar archivos en un servidor. El protocolo utilizado es Azure Blob Storage, Amazon Simple Storage Service (S3), FTP o SFTP.
 Con la conexión S3, Azure Blob Storage o SFTP, también puede importar datos de segmentos a Adobe Campaign con la plataforma de datos del cliente en tiempo real de Adobe. Para obtener más información, consulte esta [Documentación](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=es#catalog).

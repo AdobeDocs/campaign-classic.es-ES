@@ -2,11 +2,12 @@
 product: campaign
 title: Sincronización de perfiles
 description: Obtenga información sobre cómo sincronizar perfiles con el conector ACS
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: ACS Connector
 hide: true
 hidefromtoc: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
-source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Sincronización de perfiles{#synchronizing-profiles}
 
-![](../../assets/v7-only.svg)
+
 
 El conector ACS duplica los datos de Campaign v7 a Campaign Standard. Los datos recibidos de Campaign v7 se pueden utilizar en Campaign Standard para crear envíos. Puede ver cómo se sincronizan los perfiles realizando las operaciones enumeradas a continuación.
 

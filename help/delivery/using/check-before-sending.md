@@ -2,9 +2,11 @@
 product: campaign
 title: Comprobación antes de enviar
 description: Una vez que el mensaje esté listo, realice todas las comprobaciones necesarias antes de enviar
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
-source-git-commit: 808f459a0b77b1787fc017c031247ab268b5aafa
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Realice todas las comprobaciones necesarias antes de enviar {#perform-all-checks}
 
-![](../../assets/common.svg)
+
 
 Cuando el mensaje esté listo, asegúrese de que su contenido se muestra correctamente en todos los dispositivos y no contiene ningún error, como por ejemplo de personalización incorrecta o enlaces rotos.
 

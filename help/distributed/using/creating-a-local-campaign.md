@@ -2,9 +2,10 @@
 product: campaign
 title: Creación de una campaña local
 description: Creación de una campaña local
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Distributed Marketing
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Creación de una campaña local{#creating-a-local-campaign}
 
-![](../../assets/v7-only.svg)
+
 
 Una campaña local es una instancia creada a partir de una plantilla a la que se hace referencia en la lista de **[!UICONTROL campaign packages]** con una **programación de ejecución determinada**. Su objetivo es utilizar una comunicación local mediante una plantilla de campaña configurada por la entidad central. Las principales fases para implementar una operación local son las siguientes:
 

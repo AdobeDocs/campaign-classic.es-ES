@@ -2,9 +2,10 @@
 product: campaign
 title: Envío de correos electrónicos transaccionales con archivos adjuntos
 description: Aprenda a enviar correos electrónicos transaccionales con archivos adjuntos individuales o personalizados mediante Adobe Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Transactional Messaging
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Caso de uso: envío de correos electrónicos transaccionales con archivos adjuntos {#transactional-email-with-attachments}
 
-![](../../assets/v7-only.svg)
+
 
 El propósito de este caso de uso es añadir archivos adjuntos de los correos electrónicos sobre la marcha a las entregas salientes.
 

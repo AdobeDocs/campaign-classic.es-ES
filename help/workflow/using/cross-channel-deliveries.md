@@ -2,9 +2,10 @@
 product: campaign
 title: Entregas multicanal
 description: Descubra más información sobre las entregas multicanal
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: 31a475c98b09bbeca6a16c6fd98698af10016033
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Entregas multicanal{#cross-channel-deliveries}
 
-![](../../assets/v7-only.svg)
+
 
 Las entregas multicanal están disponibles en la pestaña **[!UICONTROL Deliveries]** de las actividades de flujo de trabajo de la campaña.
 

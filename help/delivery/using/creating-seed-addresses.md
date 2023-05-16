@@ -2,10 +2,12 @@
 product: campaign
 title: Creación de direcciones semilla
 description: Aprenda a crear y utilizar direcciones semilla
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
-source-git-commit: 0065a25250d73c71e7569768a38b5836cccab992
-workflow-type: ht
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Creación de direcciones semilla{#creating-seed-addresses}
 
-![](../../assets/common.svg)
+
 
 Las direcciones semilla no se administran a través de perfiles y destinatarios estándar, sino en un nodo dedicado de la jerarquía de Adobe Campaign **[!UICONTROL Resources > Campaign management > Seed addresses]**.
 

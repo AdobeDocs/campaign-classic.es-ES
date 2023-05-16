@@ -2,9 +2,11 @@
 product: campaign
 title: Interfaz del editor de contenido
 description: Interfaz del editor de contenido
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Interfaz del editor de contenido{#content-editor-interface}
 
-![](../../assets/common.svg)
+
 
 ## Ventana de edición {#editing-window}
 

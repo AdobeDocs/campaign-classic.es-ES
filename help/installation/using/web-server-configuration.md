@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: Configuración del servidor web
-description: Obtenga más información sobre las prácticas recomendadas principales de configuración del servidor web.
+description: Obtenga más información sobre las prácticas recomendadas principales de configuración del servidor web
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
-source-git-commit: 3709aaf0543a50ff6c2e65a75e7189ab805cd742
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%
@@ -15,7 +16,7 @@ ht-degree: 1%
 
 # Configuración del servidor web {#web-server-configuration}
 
-![](../../assets/v7-only.svg)
+
 
 A continuación encontrará algunas de las principales prácticas recomendadas relacionadas con la configuración del servidor web (Apache/IIS).
 

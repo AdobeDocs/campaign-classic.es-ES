@@ -2,11 +2,12 @@
 product: campaign
 title: Perfiles de operador
 description: Perfiles de operador
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Perfiles de operador{#operator-profiles}
 
-![](../../assets/v7-only.svg)
+
 
 Existen dos tipos de operadores que utilizan interacción: gestores de oferta y gestores de envío. Cada una tiene derechos específicos que solo les proporcionan acceso a algunas partes del árbol y a la plataforma.
 

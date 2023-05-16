@@ -2,9 +2,11 @@
 product: campaign
 title: Comprensión de los errores de entrega
 description: Aprenda a comprender los errores de entrega
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '2614'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Comprensión de los errores de entrega{#understanding-delivery-failures}
 
-![](../../assets/common.svg)
+
 
 ## Acerca de los errores de entrega {#about-delivery-failures}
 

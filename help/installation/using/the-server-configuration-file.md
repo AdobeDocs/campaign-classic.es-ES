@@ -2,20 +2,21 @@
 product: campaign
 title: El archivo de configuración del servidor
 description: El archivo de configuración del servidor
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 2594e4943ba24ae65d1fc005da589dc674aa2b0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '7979'
-ht-degree: 41%
+ht-degree: 42%
 
 ---
 
 # El archivo de configuración del servidor{#the-server-configuration-file}
 
-![](../../assets/v7-only.svg)
+
 
 La configuración general de Adobe Campaign se define en la variable **serverConf.xml** archivo, ubicado en la variable **conf** del directorio de instalación. Esta sección enumera todos los nodos y parámetros de la variable **serverConf.xml** archivo.
 
@@ -79,7 +80,7 @@ Estos son los diferentes parámetros de la variable **autenticación** nodo:
    <td> checkIPConsistent<br /> </td> 
    <td> Habilitar comprobación de direcciones IP.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> defaultMode<br /> </td> 
@@ -209,7 +210,7 @@ Estos son los diferentes parámetros de la variable **dataStore** nodo . Aquí e
    <td> useVault<br /> </td> 
    <td> Almacene secretos en Vault: use Hashicorp Vault.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> vaultSecretPath<br /> </td> 
@@ -622,7 +623,7 @@ Estos son los diferentes parámetros de la variable **htmlToPdf** nodo . Esta es
    <td> verbose<br /> </td> 
    <td> Modo versboso: inicie en modo detallado para diagnosticar posibles errores.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> waitTime<br /> </td> 
@@ -883,7 +884,7 @@ Para obtener más información, consulte [Configuración de conexión proxy](fil
    <td> enabled<br /> </td> 
    <td> Usar un servidor proxy.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> override<br /> </td> 
@@ -895,7 +896,7 @@ Para obtener más información, consulte [Configuración de conexión proxy](fil
    <td> useSingleProxy<br /> </td> 
    <td> Servidor proxy único: utilice la misma configuración para todos los tipos de proxy.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -991,7 +992,7 @@ Para obtener más información, consulte [Protección de conexión saliente](../
    <td> debugTrace<br /> </td> 
    <td> Seguimiento de depuración del mecanismo de selección de URL: emite mensajes adicionales durante el proceso de verificación de la URL.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1112,7 +1113,7 @@ Para obtener más información, consulte [Activación del archivado de correo el
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> compressBatchSize<br /> </td> 
@@ -1184,7 +1185,7 @@ Para obtener más información, consulte [Activación del archivado de correo el
    <td> smtpEnableTLS<br /> </td> 
    <td> Activar compatibilidad con SMTPS: activa el envío de correos electrónicos en modo seguro (STARTTLS/SMTPS) cuando el servidor remoto lo admite.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> smtpNbConnection<br /> </td> 
@@ -1231,19 +1232,19 @@ Estos son los diferentes parámetros de la variable **inMail** nodo . Esta es la
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> checkInstanceName<br /> </td> 
    <td> Verificar nombre de instancia: si es true, el nombre de la instancia de Adobe Campaign contenida en los encabezados Message-ID debe ser el mismo que la instancia actual. <br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> true<br /> </td> 
+   <td> verdadero<br /> </td> 
   </tr> 
   <tr> 
    <td> defaultForwardAddress<br /> </td> 
    <td> Dirección de reenvío: dirección de transferencia de correo electrónico predeterminada no procesada por una regla. <br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> errorForwardAddress<br /> </td> 
@@ -1255,7 +1256,7 @@ Estos son los diferentes parámetros de la variable **inMail** nodo . Esta es la
    <td> ignoreSize<br /> </td> 
    <td> Ignorar tamaño del mensaje: se utiliza para ignorar el tamaño de un mensaje devuelto por los servidores POP3. En este caso, el módulo espera un '.' al final de los mensajes. <br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> inMailPeriodSec<br /> </td> 
@@ -1356,7 +1357,7 @@ En el **inMail > msgDump** configure los siguientes parámetros. Esta es la conf
    <td> volcado<br /> </td> 
    <td> Guardar todos los mensajes entrantes en formato de texto. <br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> msgPath<br /> </td> 
@@ -1393,7 +1394,7 @@ Para obtener más información, consulte [Interacción: búfer de datos](../../i
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> callDataSize<br /> </td> 
@@ -1482,7 +1483,7 @@ Estos son los diferentes parámetros de la variable **mta** nodo . Esta es la co
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> dataLogPath<br /> </td> 
@@ -1518,7 +1519,7 @@ Estos son los diferentes parámetros de la variable **mta** nodo . Esta es la co
    <td> logEmailErrors<br /> </td> 
    <td> Generar estadísticas de errores y almacenarlas en la base de datos.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> true<br /> </td> 
+   <td> verdadero<br /> </td> 
   </tr> 
   <tr> 
    <td> logLevel<br /> </td> 
@@ -1584,7 +1585,7 @@ Estos son los diferentes parámetros de la variable **mta** nodo . Esta es la co
    <td> retryLostMessages<br /> </td> 
    <td> Reintentar mensajes perdidos: si el proceso secundario está muerto, se volverán a intentar partes de los envíos.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> true<br /> </td> 
+   <td> verdadero<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
@@ -1596,7 +1597,7 @@ Estos son los diferentes parámetros de la variable **mta** nodo . Esta es la co
    <td> signEmailLinks<br /> </td> 
    <td> Habilite el mecanismo de firma. Esto mejora la seguridad en el seguimiento de vínculos en el correo electrónico.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> true<br /> </td> 
+   <td> verdadero<br /> </td> 
   </tr>
   <tr> 
    <td> statServerAddress<br /> </td> 
@@ -1615,7 +1616,7 @@ Estos son los diferentes parámetros de la variable **mta** nodo . Esta es la co
    <td> statServerTLSSupport<br /> </td> 
    <td> Habilitar TLS por dominio: habilita el TLS configurable por MX (requiere un servidor de estadísticas actualizado).<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> true <br /> </td> 
+   <td> verdadero <br /> </td> 
   </tr> 
   <tr> 
    <td> statServerVersion<br /> </td> 
@@ -1633,7 +1634,7 @@ Estos son los diferentes parámetros de la variable **mta** nodo . Esta es la co
    <td> verifyMode<br /> </td> 
    <td> Modo de verificación: activa el modo de verificación (sin transmisión física de mensajes; utilizado para simulación y pruebas).<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> workingPath<br /> </td> 
@@ -1841,7 +1842,7 @@ Para obtener más información, consulte [Optimización del envío de correo ele
    <td> startWithFirstMX<br /> </td> 
    <td> Iniciar siempre con la prioridad MX más alta.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> timeToLive<br /> </td> 
@@ -1868,7 +1869,7 @@ En el **mta > child > smtp** configure los siguientes parámetros. Esta es la co
    <td> enableTLS<br /> </td> 
    <td> Activa el envío de mensajes de correo electrónico en modo seguro (STARTTLS/SMTPS) cuando el servidor remoto lo admite.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> idleSessionTimeoutSec<br /> </td> 
@@ -1981,7 +1982,7 @@ Estos son los diferentes parámetros de la variable **nmac** nodo . Esta es la c
    <td> useHTTPProxy<br /> </td> 
    <td> Usar proxy HTTP definido en shared/proxyHTTP. <br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2063,7 +2064,7 @@ Estos son los diferentes parámetros de la variable **canalización** nodo . Est
    <td> autoStart<br /> </td> 
    <td> Inicio automático <br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> disableAuth<br /> </td> 
@@ -2207,31 +2208,31 @@ Para obtener más información, consulte [Definir zonas de seguridad](../../inst
    <td> allowDebug<br /> </td> 
    <td> Autorizar modo de depurar para aplicaciones de Web.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> allowEmptyPassword<br /> </td> 
    <td> Autoriza al usuario a utilizar la aplicación sin contraseña.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> allowHTTP<br /> </td> 
    <td> Autorizar el uso de HTTP para el inicio de sesión del operador.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> allowSQLInjection<br /> </td> 
    <td> Autorizar el uso de SQLDATA en expresiones.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> allowUserPassword<br /> </td> 
    <td> Autorizar tokens de sesión de usuario o contraseña.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> label<br /> </td> 
@@ -2249,13 +2250,13 @@ Para obtener más información, consulte [Definir zonas de seguridad](../../inst
    <td> sessionTokenOnly<br /> </td> 
    <td> No utilice el token de seguridad.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> showErrors<br /> </td> 
    <td> Mostrar detalles del error<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2352,7 +2353,7 @@ Estos son los diferentes parámetros de la variable **sms** nodo . Esta es la co
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> dataRetentionDays<br /> </td> 
@@ -2476,7 +2477,7 @@ Estos son los diferentes parámetros de la variable **stat** nodo . Esta es la c
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -2541,7 +2542,7 @@ Estos son los diferentes parámetros de la variable **syslogd** nodo . Esta es l
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -2612,13 +2613,13 @@ Estos son los diferentes parámetros de la variable **seguimiento** nodo . Esta 
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> blockRedirectForUnsignedTrackingLink<br /> </td> 
    <td> Deshabilite las direcciones URL con formato incorrecto generadas a partir de compilaciones anteriores.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> consolidaciónPeriodSec<br /> </td> 
@@ -2743,7 +2744,7 @@ Estos son los diferentes parámetros de la variable **trackinglogd** nodo . Esta
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -2852,7 +2853,7 @@ Para obtener más información, consulte esta [sección](configuring-campaign-se
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> controlPort<br /> </td> 
@@ -2912,7 +2913,7 @@ Para obtener más información, consulte esta [sección](configuring-campaign-se
    <td> startSoapRouterInModule<br /> </td> 
    <td> Inicie el enrutador SOAP en modo de módulo.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3014,7 +3015,7 @@ Estos son los diferentes parámetros de la variable **web > jssp** nodo . Esta e
    <td> collectGarbageAfterRequest<br /> </td> 
    <td> Activa el recolector de elementos no utilizados del contexto JavaScript después de cada consulta.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> true<br /> </td> 
+   <td> verdadero<br /> </td> 
   </tr> 
   <tr> 
    <td> timeToLive<br /> </td> 
@@ -3047,7 +3048,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
    <td> debugRelay<br /> </td> 
    <td> Iniciar el módulo de retransmisión HTTP en el servidor web en modo de depuración.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> banCharsInAuthority<br /> </td> 
@@ -3071,13 +3072,13 @@ Para obtener más información, consulte esta [sección](../../installation/usin
    <td> startRelay<br /> </td> 
    <td> Iniciar el módulo de retransmisión HTTP.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> startRelayInModule<br /> </td> 
    <td> Inicie el módulo de retransmisión HTTP en el servidor web. <br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> true<br /> </td> 
+   <td> verdadero<br /> </td> 
   </tr> 
   <tr> 
    <td> tiempo de espera<br /> </td> 
@@ -3324,25 +3325,25 @@ Para obtener más información, consulte esta [sección](../../installation/usin
    <td> showSourceIP<br /> </td> 
    <td> Cuando se establece en false, el valor de sourceIP en la respuesta devuelta por r/test es una cadena vacía. <br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> true<br /> </td> 
+   <td> verdadero<br /> </td> 
   </tr> 
   <tr> 
    <td> startRedirect<br /> </td> 
    <td> Iniciar el servicio de redirección.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> true<br /> </td> 
+   <td> verdadero<br /> </td> 
   </tr> 
   <tr> 
    <td> startRedirectInModule<br /> </td> 
    <td> Inicie el servicio de redirección en el modo de módulo.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> true<br /> </td> 
+   <td> verdadero<br /> </td> 
   </tr> 
   <tr> 
    <td> trackWebVisitors<br /> </td> 
    <td> Seguimiento web: creación de registros para las páginas visitadas por usuarios desconocidos. <br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> trackingPassword<br /> </td> 
@@ -3443,7 +3444,7 @@ Para obtener más información, consulte [Flujos de trabajo y afinidades de alta
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> false<br /> </td> 
+   <td> falso<br /> </td> 
   </tr> 
   <tr> 
    <td> dataBasePoolPeriodSec<br /> </td> 

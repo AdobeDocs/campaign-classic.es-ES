@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: Configuración de instancias
-description: Obtenga información sobre cómo configurar el control de mensajería transaccional y las instancias de ejecución en Adobe Campaign Classic.
+description: Obtenga información sobre cómo configurar el control de mensajería transaccional y las instancias de ejecución en Adobe Campaign Classic
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1222'
 ht-degree: 100%
@@ -16,7 +17,7 @@ ht-degree: 100%
 
 # Configuración de instancias {#creating-a-shared-connection}
 
-![](../../assets/v7-only.svg)
+
 
 Para utilizar las funcionalidades de mensajería transaccional, debe configurar las instancias de control y ejecución. Puede usar cualquiera de estas opciones:
 * [Una instancia de control](#control-instance) asociada a una o varias instancias de ejecución

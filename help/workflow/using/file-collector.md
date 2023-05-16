@@ -2,9 +2,10 @@
 product: campaign
 title: Agrupamiento de archivos
 description: Descubra más información sobre la actividad del flujo de trabajo Recolector de ficheros
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Recolector de ficheros{#file-collector}
 
-![](../../assets/v7-only.svg)
+
 
 El **Recolector de ficheros** supervisa la llegada de uno o más archivos de un directorio y activa su transición para cada archivo recibido. Para cada evento, una variable **[!UICONTROL filename]** contiene el nombre completo del archivo recibido. Los archivos recopilados se mueven a otro directorio para fines de archivo y para asegurarse de que se cuentan solo una vez.
 

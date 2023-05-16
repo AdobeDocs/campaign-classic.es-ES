@@ -2,9 +2,10 @@
 product: campaign
 title: Versiones de Campaign Classic 2019
 description: Más información sobre las actualizaciones de Campaign Classic 2019
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hidefromtoc: true
 exl-id: 8a36a542-e095-4208-b624-e59845592863
-source-git-commit: c929557ee9f5467f9c3b8eb1ed25fae5399820ba
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '4825'
 ht-degree: 98%
@@ -13,7 +14,7 @@ ht-degree: 98%
 
 # Versiones de 2019{#release-2019}
 
-![](../../assets/v7-only.svg)
+
 
 ## Versión 19.2{#release-19-2}
 
@@ -210,7 +211,7 @@ Ya está disponible la compilación 1.0.26 del SDK para iOS. En esta nueva compi
 _15 de abril de 2021_
 
 * Se ha corregido una regresión de la consola del cliente que provocaba mensajes de error persistentes en la pantalla de conexión IMS. (NEO-34821)
-* Se ha corregido una regresión que podía bloquear la exportación de datos de flujo de trabajo a una base de datos de FDA (Teradata, Snowflake).
+* Se ha corregido una regresión que podía bloquear la exportación de datos de flujo de trabajo a una base de datos FDA (Teradata, Snowflake).
 
 **Solo es obligatorio actualizar la consola. No se requiere ninguna actualización del servidor.**
 
@@ -234,7 +235,7 @@ _16 de diciembre de 2020_
 >
 > * Esta versión incorpora un nuevo protocolo de conexión: si se conecta a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/using/ims-updates.md)
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
-> * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación de oAuth heredado con Campaign [se ha eliminado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) en **septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta el **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el Servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) a Adobe.
+> * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación de oAuth heredado con Campaign [se ha eliminado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) en **septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta el **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md?lang=en#step-optional) a Adobe.
 
 
 
@@ -363,7 +364,7 @@ _13 de agosto de 2019_
 
 >[!NOTE]
 >
->19.1.4 [!DNL Gold Standard] las versiones se enumeran en esta sección [página](../../rn/using/gold-standard.md).
+>19.1.4 [!DNL Gold Standard] las versiones se enumeran en esta [página](../../rn/using/gold-standard.md).
 
 
 ### ![](assets/do-not-localize/red_2.png) Versión 19.1.2, compilación 9029{#release-19-1-2-build-9029}

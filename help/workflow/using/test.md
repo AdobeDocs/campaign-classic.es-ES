@@ -2,9 +2,10 @@
 product: campaign
 title: Prueba
 description: Descubra más información sobre la actividad del flujo de trabajo Prueba
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows
 exl-id: 6f246d56-01c8-43f5-b12b-c40d258b93c8
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Prueba{#test}
 
-![](../../assets/v7-only.svg)
+
 
 Una actividad de tipo **Prueba** activa la primera transición que cumple la condición asociada a esta. Si no se cumple ninguna condición y si la opción **[!UICONTROL Use the default fork]** está activada, se activa la transición predeterminada.
 

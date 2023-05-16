@@ -2,11 +2,12 @@
 product: campaign
 title: Implementación intermediaria
 description: Implementación intermediaria
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 # Implementación intermediaria{#mid-sourcing-deployment}
 
-![](../../assets/v7-only.svg)
+
 
 Esta configuración es una solución intermedia óptima entre una configuración alojada (ASP) y la internalización. Los componentes de ejecución orientados al exterior se llevan a cabo en un servidor &quot;intermediario&quot; alojado en Adobe Campaign.
 

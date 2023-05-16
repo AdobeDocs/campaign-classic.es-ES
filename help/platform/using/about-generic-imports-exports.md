@@ -1,12 +1,14 @@
 ---
 product: campaign
 title: Acerca de importación y exportación genéricas
-description: Obtenga más información sobre las importaciones y exportaciones genéricas.
+description: Obtenga más información sobre las importaciones y exportaciones genéricas
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 9ac13db3-552f-43cc-ab67-3aea82e0519e
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Introducción a los trabajos de importación y exportación {#about-generic-imports-exports}
 
-![](../../assets/common.svg)
+
 
 Adobe Campaign Classic proporciona importaciones y exportaciones genéricas. Permiten, por ejemplo, extraer una lista de clientes o clientes potenciales que luego formarán parte de una población de destinatarios, o bien suministrar datos de archivos externos a la base de datos.
 

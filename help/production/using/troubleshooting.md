@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: Solución de problemas de producción
-description: Descubra los procedimientos de solución de problemas de producción relacionados con la configuración de Adobe Campaign, la supervisión, el proceso de actualización, el procesamiento de datos y el procedimiento de mantenimiento de la base de datos.
+description: Descubra los procedimientos de solución de problemas de producción relacionados con la configuración, supervisión, actualización de procesos, procesamiento de datos y procedimiento de mantenimiento de bases de datos de Adobe Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 20%
@@ -15,7 +16,7 @@ ht-degree: 20%
 
 # Solución de problemas de producción{#troubleshooting}
 
-![](../../assets/v7-only.svg)
+
 
 Esta sección contiene procedimientos de solución de problemas relacionados con problemas generales de producción de Adobe Campaign, como ejecución de envío y flujo de trabajo, monitorización, mantenimiento de bases de datos, conexión, etc.
 

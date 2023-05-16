@@ -2,9 +2,11 @@
 product: campaign
 title: Definición de la secuenciación de la página de formularios web
 description: Definición de la secuenciación de la página de formularios web
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
-source-git-commit: b6f1556cf49492cefaf61c29a058584b0ccee16a
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Definición de la secuenciación de la página de formularios web{#defining-web-forms-page-sequencing}
 
-![](../../assets/common.svg)
+
 
 El formulario puede contener una o más páginas. Se crea mediante un diagrama que permite secuenciar las páginas y las pruebas, la ejecución de scripts, los saltos de página y los pasos de registro. El modo del diseño del diagrama global es el mismo que para un flujo de trabajo de la campaña.
 

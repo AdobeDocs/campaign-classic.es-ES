@@ -2,9 +2,10 @@
 product: campaign
 title: Celdas
 description: Celdas
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: 7b562dba-7e4b-40a7-91db-7b9379de44ca
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Celdas{#cells}
 
-![](../../assets/v7-only.svg)
+
 
 La actividad **[!UICONTROL Cells]** proporciona una vista de los distintos subconjuntos en forma de columnas de datos. Facilita la manipulación de subconjuntos y está diseñado para fomentar las posibilidades de personalización.
 

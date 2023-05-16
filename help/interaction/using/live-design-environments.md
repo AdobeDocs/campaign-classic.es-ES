@@ -2,11 +2,12 @@
 product: campaign
 title: Entornos en directo/de diseño
 description: Entornos en directo/de diseño
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
-source-git-commit: fb4b4c42b907e86813ea570f912312fccf893bfe
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Entornos en directo/de diseño{#live-design-environments}
 
-![](../../assets/v7-only.svg)
+
 
 ## Principio de funcionamiento {#operating-principle}
 

@@ -2,9 +2,11 @@
 product: campaign
 title: Configuración de las opciones de seguimiento de URL
 description: Obtenga información sobre cómo configurar las opciones de seguimiento de URL
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Email Design
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Configuración de las opciones de seguimiento de URL{#personalizing-url-tracking}
 
-![](../../assets/common.svg)
+
 
 Es posible acceder a los ajustes avanzados de seguimiento de mensajes mediante el icono **[!UICONTROL Tracking & Images]** de la barra de herramientas del asistente de envío.
 

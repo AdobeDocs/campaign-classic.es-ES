@@ -1,10 +1,11 @@
 ---
 product: campaign
 title: Acerca de los casos de uso de flujos de trabajo
-description: Obtenga más información sobre los casos de uso que puede realizar con los flujos de trabajo de Campaign Classic.
+description: Obtenga más información sobre los casos de uso que puede realizar con los flujos de trabajo de Campaign Classic
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Casos de uso del flujo de trabajo {#about-workflow-use-cases}
 
-![](../../assets/v7-only.svg)
+
 
 En esta sección, encontrará varios casos de uso que aprovechan las capacidades de los Flujos de trabajo de Campaign.
 
@@ -48,8 +49,8 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 * [Creación de la lista de resumen](creating-a-summary-list.md)
 * [Enriquecimiento de datos](enriching-data.md)
 * [Uso de agregados](using-aggregates.md)
-* [Importación de datos cifrados con una clave generada por el Panel de control de Campaign](../../platform/using/unzip-decrypt.md)
-* [Cifrado y exportación de datos con una clave instalada en el Panel de control de Campaign](how-to-use-workflow-data.md#use-case-gpg-encrypt)
+* [Importación de datos cifrados con una clave generada por el Panel de control](../../platform/using/unzip-decrypt.md)
+* [Cifrado y exportación de datos con una clave instalada en el Panel de control](how-to-use-workflow-data.md#use-case-gpg-encrypt)
 * [Actualización de lista trimestral con una consulta incremental](quarterly-list-update.md)
 * [Uso de la funcionalidad de combinación de la actividad de anulación de duplicación](deduplication-merge.md)
 * [Configuración de un flujo de trabajo de importación recurrente](recurring-import-workflow.md)

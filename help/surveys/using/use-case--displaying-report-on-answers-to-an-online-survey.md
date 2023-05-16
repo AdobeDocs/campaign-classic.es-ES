@@ -2,9 +2,11 @@
 product: campaign
 title: "Ejemplo de uso: Visualización del informe de las respuestas a una encuesta online"
 description: "Ejemplo de uso: Visualización del informe de las respuestas a una encuesta online"
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: 1f80c9967f4859f26dd2890d657f95ada6cf2087
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Caso de uso: visualización del informe con las respuestas a una encuesta en línea{#use-case-displaying-report-on-answers-to-an-online-survey}
 
-![](../../assets/common.svg)
+
 
 Las respuestas a las encuestas de Adobe Campaign se pueden recopilar y analizar mediante informes dedicados.
 

@@ -2,11 +2,13 @@
 product: campaign
 title: Configuración de la integración de audiencias compartidas en Adobe Campaign
 description: Obtenga información sobre cómo configurar la integración de audiencias compartidas
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
-source-git-commit: 830c4146d72cd5a744d026a499cfe8613a255da7
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Configuración de la integración de audiencias compartidas en Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
 
-![](../../assets/common.svg)
+
 
 Una vez enviada esta solicitud, Adobe procede a suministrarle la integración y a ponerse en contacto con usted para proporcionarle los detalles y la información necesarios para finalizar la configuración:
 

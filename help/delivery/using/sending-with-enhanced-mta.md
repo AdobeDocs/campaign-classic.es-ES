@@ -2,9 +2,11 @@
 product: campaign
 title: Envío con el servidor de envío mejorado en Adobe Campaign Classic
 description: Obtenga información acerca del ámbito y las características específicas del envío de correos electrónicos con el MTA mejorado de Adobe Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 2d5166c355ee090639dcc52866252bae6beb81f6
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1999'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Envío con el MTA mejorado {#sending-with-enhanced-mta}
 
-![](../../assets/common.svg)
+
 
 El **servidor de correo mejorado de Adobe Campaign** (MTA) proporciona una infraestructura de envío mejorada que ofrece mayor capacidad de entrega, reputación, rendimiento, sistema de informes, gestión de devoluciones, ampliación de IP y administración de la configuración de conexión.
 

@@ -2,8 +2,9 @@
 product: campaign
 title: Asignación de base de datos
 description: Asignación de base de datos
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
-source-git-commit: 3997412f14666fa61bf71d0f0a0653f5cc042e19
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 1%
@@ -11,8 +12,6 @@ ht-degree: 1%
 ---
 
 # Asignación de base de datos{#database-mapping}
-
-![](../../assets/v7-only.svg)
 
 La asignación SQL de nuestro esquema de ejemplo proporciona el siguiente documento XML:
 

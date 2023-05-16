@@ -2,9 +2,11 @@
 product: campaign
 title: Definición de la entrega final
 description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: bc23a444-a872-48fb-8bba-64b301541089
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Definición de la entrega final {#step-6--defining-the-final-delivery}
 
-![](../../assets/common.svg)
+
 
 Una vez que la secuencia de comandos se ha creado para seleccionar el ganador de la prueba A/B, se puede definir los parámetros de la entrega final.
 

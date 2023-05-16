@@ -2,8 +2,9 @@
 product: campaign
 title: Referencia de esquema
 description: Lista de referencia del esquema
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
-source-git-commit: 56459b188ee966cdb578c415fcdfa485dcbed355
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 21%
@@ -11,8 +12,6 @@ ht-degree: 21%
 ---
 
 # Referencia de esquema {#schema-reference}
-
-![](../../assets/v7-only.svg)
 
 Al editar un esquema, hay disponible un sistema de aprobación basado en el esquema de origen (xtk:srcSchema). También se pueden detectar algunos errores al actualizar la base de datos utilizando la &quot;Actualización de estructura de la base de datos...&quot; asistente.
 

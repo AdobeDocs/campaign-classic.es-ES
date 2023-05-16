@@ -2,11 +2,12 @@
 product: campaign
 title: Sincronización de aplicaciones web
 description: Obtenga información sobre cómo sincronizar aplicaciones web con el conector ACS
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: ACS Connector
 hide: true
 hidefromtoc: true
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
-source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Sincronización de aplicaciones web{#synchronizing-web-applications}
 
-![](../../assets/v7-only.svg)
+
 
 En este ejemplo de uso, se envía una comunicación mediante Campaign Standard en la que se incluye un vínculo a una aplicación web de Campaign v7. Cuando el destinatario hace clic en el vínculo del correo electrónico, la aplicación web muestra un formulario con varios campos precargados con los datos del destinatario, como así también un vínculo de suscripción a un boletín informativo. El destinatario puede actualizar sus datos y suscribirse al servicio. Su perfil se actualiza en Campaign v7 y la información se duplica en Campaign Standard.
 

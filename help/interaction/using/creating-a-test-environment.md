@@ -2,11 +2,12 @@
 product: campaign
 title: Creación de un entorno de prueba
 description: Creación de un entorno de prueba
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: 49ac279b-bc67-4311-b0a4-0e23f2a99c52
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%
@@ -15,9 +16,9 @@ ht-degree: 100%
 
 # Creación de un entorno de prueba{#creating-a-test-environment}
 
-![](../../assets/v7-only.svg)
 
-Para crear un entorno de prueba (modo de entorno limitado), siga los siguientes pasos:
+
+Para crear un entorno de prueba (modo de zona protegida), siga estos pasos:
 
 >[!IMPORTANT]
 >

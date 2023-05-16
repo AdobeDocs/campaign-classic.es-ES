@@ -2,9 +2,10 @@
 product: campaign
 title: Descripción de la entrega
 description: Descubra más información sobre la actividad del flujo de trabajo Descripción de la entrega
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Descripción del envío{#delivery-outline}
 
-![](../../assets/v7-only.svg)
+
 
 La **descripción de la entrega** permite utilizar una descripción en un flujo de trabajo de la campaña. El esquema debe haberse creado con anterioridad en la campaña.
 

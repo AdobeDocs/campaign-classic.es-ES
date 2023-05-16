@@ -2,9 +2,11 @@
 product: campaign
 title: Opción de canalización NmsPipeline_Config
 description: Opción de canalización NmsPipeline_Config
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
-source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
@@ -14,7 +16,7 @@ ht-degree: 100%
 
 # Opción de canalización NmsPipeline_Config {#nmspipeline_config}
 
-![](../../assets/common.svg)
+
 
 Una vez que la autenticación funcione, [!DNL pipelined] puede recuperar los eventos y procesarlos. Solo procesa activadores configurados en Adobe Campaign e ignora al resto. El activador debe haberse generado desde Analytics y haber sido transferido a la canalización de antemano.
 La opción también se puede configurar con un comodín para capturar todos los activadores independientemente del nombre.

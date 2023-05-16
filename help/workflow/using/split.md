@@ -2,9 +2,10 @@
 product: campaign
 title: División
 description: Descubra más información sobre la actividad del flujo de trabajo División
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1935'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # División{#split}
 
-![](../../assets/v7-only.svg)
+
 
 La actividad del tipo **Split** permite dividir un segmento en varios subconjuntos. El segmento se construye con todos los resultados recibidos: todas las actividades anteriores deben terminar para que se ejecute esta actividad.
 

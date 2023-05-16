@@ -1,10 +1,11 @@
 ---
 product: campaign
 title: Acerca de los flujos de trabajo
-description: Automatice los procesos con flujos de trabajo, administre datos y audiencias, envíe mensajes, y mucho más.
+description: Automatice los procesos con flujos de trabajo, administre datos y audiencias, envíe mensajes, y mucho más
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management
 exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Introducción a los flujos de trabajo{#gs-workflows}
 
-![](../../assets/v7-only.svg)
+
 
 ## Acerca de los flujos de trabajo{#about-workflows}
 

@@ -2,9 +2,11 @@
 product: campaign
 title: Creación de una lista de perfiles a partir de un flujo de trabajo
 description: Obtenga información sobre cómo crear una lista de perfiles en un flujo de trabajo
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Workflows
 exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 14%
@@ -13,7 +15,7 @@ ht-degree: 14%
 
 # Creación de una lista de perfiles a partir de un flujo de trabajo{#creating-a-profile-list-with-a-workflow}
 
-![](../../assets/common.svg)
+
 
 Para crear un **[!UICONTROL List]** en función de la nueva tabla de destinatarios, debe crear un flujo de trabajo de objetivos que genere la lista.
 

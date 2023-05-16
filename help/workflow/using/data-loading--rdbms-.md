@@ -2,9 +2,10 @@
 product: campaign
 title: Carga de datos (RDBMS)
 description: Descubra más información sobre la actividad del flujo de trabajo Carga de datos (RDBMS)
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Workflows, Data Management Activity
 exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
-source-git-commit: 381538fac319dfa075cac3db2252a9cc80b31e0f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 
 # Carga de datos (RDBMS){#data-loading-rdbms}
 
-![](../../assets/v7-only.svg)
+
 
 La actividad **[!UICONTROL Data loading (RDBMS)]** permite acceder a esta base de datos externa directamente y recopilar solamente los datos necesarios para el objetivo.
 

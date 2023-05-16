@@ -2,11 +2,12 @@
 product: campaign
 title: Configuración de la integración con Adobe Target
 description: Obtenga información sobre cómo configurar la integración con Adobe Target
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: ae8c680f-52a6-4d00-91cd-44d1c3807546
-source-git-commit: 36b10a49fe92853f98beeb9e7d2fea3f59b10b6f
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 95%
@@ -15,7 +16,7 @@ ht-degree: 95%
 
 # Configuración de la integración con Adobe Target{#configuring-the-integration-with-adobe-target}
 
-![](../../assets/v7-only.svg)
+
 
 
 >[!CAUTION]

@@ -2,9 +2,10 @@
 product: campaign
 title: Acerca de la referencia de esquema en Adobe Campaign Classic
 description: Obtenga información sobre cómo configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign Classic
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Schema Extension
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 8fa50d17a9ff36ccc310860ac93771590cfd76fd
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 14%
@@ -12,8 +13,6 @@ ht-degree: 14%
 ---
 
 # Acerca de la referencia de esquema{#about-schema-reference}
-
-![](../../assets/v7-only.svg)
 
 En este capítulo se describe cómo configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign.
 

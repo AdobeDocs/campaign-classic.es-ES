@@ -2,20 +2,21 @@
 product: campaign
 title: Uso de derechos asignados para configurar permisos
 description: Obtenga información sobre cómo utilizar derechos asignados para configurar permisos
+badge: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 97%
 
 ---
 
 # Uso de derechos asignados para configurar permisos{#named-rights}
 
-![](../../assets/common.svg)
+
 
 De forma predeterminada, Adobe Campaign propone un conjunto de derechos asignados que permiten definir las autorizaciones asignadas a operadores y grupos de operadores. Estos derechos se pueden editar desde el nodo **[!UICONTROL Administration > Access management > Named rights]** del árbol.
 

@@ -1,19 +1,21 @@
 ---
 product: campaign
 title: Introducción al canal de aplicaciones móviles
-description: Introducción al canal de aplicaciones móviles en Adobe Campaign Classic
+description: Introducción al canal de aplicaciones móviles en Adobe Campaign
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Push
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: f05eefc9945c4ead89eb448b6e28c3523559e055
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '665'
 ht-degree: 100%
 
 ---
 
 # Introducción al canal de aplicaciones móviles{#about-mobile-app-channel}
 
-![](../../assets/common.svg)
+
 
 El **canal de aplicaciones móviles** permite utilizar la plataforma de Adobe Campaign para enviar notificaciones personalizadas a los terminales iOS y Android a través de aplicaciones.
 

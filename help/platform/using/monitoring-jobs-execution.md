@@ -1,12 +1,14 @@
 ---
 product: campaign
 title: Supervisión de la ejecución de trabajos
-description: Obtenga información sobre cómo supervisar la ejecución de trabajos de importación y exportación.
+description: Obtenga información sobre cómo supervisar la ejecución de trabajos de importación y exportación
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
-source-git-commit: 20509f44c5b8e0827a09f44dffdf2ec9d11652a1
+source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Monitorización de la ejecución de trabajos {#monitoring-job-execution}
 
-![](../../assets/common.svg)
+
 
 Puede realizar un seguimiento de la ejecución de los trabajos de importación y exportación directamente desde la lista de los trabajos de importación y exportación.
 

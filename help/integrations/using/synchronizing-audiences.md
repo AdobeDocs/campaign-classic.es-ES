@@ -2,11 +2,12 @@
 product: campaign
 title: Sincronización de audiencias
 description: Obtenga información sobre cómo sincronizar audiencias con el conector ACS
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: ACS Connector
 hide: true
 hidefromtoc: true
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Sincronización de audiencias{#synchronizing-audiences}
 
-![](../../assets/v7-only.svg)
+
 
 Puede crear una lista refinada mediante las funciones avanzadas de Campaign v7 y compartir esta lista directamente como una audiencia, en tiempo real y sin fisuras con Campaign Standard (incluidos los datos adicionales). El usuario de Campaign Standard puede consumir la audiencia en Adobe Campaign Standard.
 

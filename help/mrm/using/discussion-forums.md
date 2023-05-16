@@ -2,11 +2,12 @@
 product: campaign
 title: Foros de debate
 description: Aprenda a utilizar los foros de debate de Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
-source-git-commit: 98380c18b915cfebc980e68f9840f9d8919eaca4
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Foros de debate{#discussion-forums}
 
-![](../../assets/v7-only.svg)
+
 
 Los operadores de Adobe Campaign pueden utilizar foros de debate para compartir información. Cada uno de los elementos siguientes tiene su propio foro: planes, programas, campañas, recursos, simulaciones y existencias. Cada operador también tiene un foro personal. Todos los debates son públicos, incluso en foros personales.
 

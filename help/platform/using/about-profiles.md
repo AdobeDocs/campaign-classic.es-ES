@@ -2,11 +2,12 @@
 product: campaign
 title: Introducción a los perfiles
 description: Trabajar con perfiles en Adobe Campaign
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: d42389add06db74c54cb3a21813e9a832a2a288a
+source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 # Introducción a los perfiles{#about-profiles}
 
-![](../../assets/v7-only.svg)
+
 
 Los perfiles están centralizados en la base de datos de Adobe Campaign. Existen muchos mecanismos para adquirir perfiles y crear esta base de datos: recopilación en línea mediante formularios web, importación manual o automática de archivos de texto, replicación con bases de datos de fabricantes, u otros sistemas de información. Con Adobe Campaign, puede incorporar el historial de marketing, la información de compra, las preferencias, los datos CRM y cualquier dato PI relevante en una vista consolidada para analizar y actuar en consecuencia.
 
@@ -103,7 +104,7 @@ Tenga en cuenta que el recuento de perfiles principales solo está disponible pa
 
 >[!NOTE]
 >
->También puede monitorizar el número de perfiles activos en su instancia directamente desde el Panel de control de Campaign. Para obtener más información, consulte la [Documentación del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es).
+>También puede monitorizar el número de perfiles activos en su instancia directamente desde el Panel de control de Campaign. Para obtener más información, consulte la [Documentación del Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es).
 
 ## Tutorial en vídeo {#create-profiles-video}
 
