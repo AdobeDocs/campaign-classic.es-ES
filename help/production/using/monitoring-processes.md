@@ -8,7 +8,7 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
 source-wordcount: '3610'
 ht-degree: 1%
@@ -575,7 +575,7 @@ Este elemento se utiliza para rellenar la configuración de los correos electró
 Este elemento permite agrupar varios equipos (hosts) en la misma instancia. Los nombres de instancia aparecen en la primera parte del correo electrónico de monitorización. Puede hacer clic en el nombre de una instancia para acceder a los detalles relativos a cada equipo.
 
 ```
-instance name="instanceName" recipientList="mail@mail.com,mail2@mail.com">
+instance name="instance-name" recipientList="mail@mail.com,mail2@mail.com">
                 <host name="devcamp.domain.com" ...>
                        ...
                 </host>

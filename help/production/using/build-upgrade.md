@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
-source-wordcount: '2356'
+source-wordcount: '2355'
 ht-degree: 4%
 
 ---
@@ -93,9 +93,9 @@ También necesita conocer todas las [líneas de comandos útiles](../../installa
 * **nlserver pdump**: listas ejecutar procesos
 * **nlserver pdump -who**: enumera las sesiones de cliente activas
 * **nlserver monitor -missing**: listas de propiedades que faltan
-* **inicio de nlserver process@instanceName**: inicia un proceso
-* **nlserver stop process@instanceName**: detiene un proceso
-* **nlserver restart process@instanceName**: reinicia un proceso
+* **inicio de nlserver process@instance-name**: inicia un proceso
+* **nlserver stop process@instance-name**: detiene un proceso
+* **nlserver restart process@instance-name**: reinicia un proceso
 * **nlserver shutdown**: detiene todos los procesos de Campaign
 * **nlserver watchdog -svc**: inicia el watchdog (solo UNIX)
 
@@ -278,7 +278,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 Si la advertencia se refiere a un conflicto de recursos, es necesario que el usuario preste atención para resolverlo.
 
-La variable **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** contiene el resultado de la sincronización. Está disponible de forma predeterminada en el siguiente directorio: **installationDirectory/var/instanceName/postupgrade**. Los errores y las advertencias se indican mediante los atributos de error y advertencia.
+La variable **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** contiene el resultado de la sincronización. Está disponible de forma predeterminada en el siguiente directorio: **installationDirectory/var/`<instance-name>`/postupgrade**. Los errores y las advertencias se indican mediante los atributos de error y advertencia.
 
 ### Analizar conflictos
 

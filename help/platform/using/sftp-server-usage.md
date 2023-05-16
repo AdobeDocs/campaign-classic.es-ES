@@ -1,12 +1,14 @@
 ---
 product: campaign
 title: Uso del servidor SFTP
-description: Obtenga más información sobre las prácticas recomendadas y la solución de problemas del servidor SFTP.
+description: Obtenga más información sobre las prácticas recomendadas y la solución de problemas del servidor SFTP
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: 1d32161d60f6b382188012b104c642f504e28645
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 100%
@@ -15,7 +17,7 @@ ht-degree: 100%
 
 # Prácticas recomendadas y solución de problemas del servidor SFTP {#sftp-server-usage}
 
-![](../../assets/common.svg)
+
 
 ## Recomendaciones globales del servidor SFTP {#global-recommendations}
 
@@ -45,7 +47,7 @@ Para evitar estos problemas, Adobe recomienda seguir las prácticas recomendadas
 >
 >Si la instancia está alojada en AWS, puede monitorizar el almacenamiento del servidor SFTP con el [Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=es) de Campaign Classic. Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es).
 >
->Todos los usuarios administradores pueden acceder al Panel de control de Campaign. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
+>Todos los usuarios administradores pueden acceder al Panel de control. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
 >Tenga en cuenta que la instancia debe actualizarse con la [última versión de GA](../../rn/using/rn-overview.md). Aprenda a comprobar su versión en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
@@ -79,8 +81,8 @@ En la sección siguiente, se muestra la información que se debe verificar y pro
    Si la instancia se está ejecutando, debe obtener este tipo de respuesta:
 
    ```
-   <redir status='OK' date='YYYY-MM-DD HH:MM:SS' build='XXXX' instance='instanceName'
-   sourceIP='AAA.BB.CCC.DD' host='instanceUrl' localHost='instanceName'/>
+   <redir status='OK' date='YYYY-MM-DD HH:MM:SS' build='XXXX' instance='instance-name'
+   sourceIP='AAA.BB.CCC.DD' host='instanceUrl' localHost='instance-name'/>
    ```
 
    En cualquier caso, indique la respuesta del comando en el ticket de asistencia.

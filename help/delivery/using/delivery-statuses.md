@@ -2,9 +2,11 @@
 product: campaign
 title: Estados de la entrega
 description: Obtenga más información acerca de los estados disponibles en su tablero de entregas
+badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
-source-git-commit: 9839dbacda475c2a586811e3c4f686b1b1baab05
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
@@ -13,7 +15,7 @@ ht-degree: 100%
 
 # Estados de la entrega {#delivery-statuses}
 
-![](../../assets/common.svg)
+
 
 <!--ajouter intro 
 
@@ -109,19 +111,19 @@ Si la entrega no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, p
       nlserver pdump
       HH:MM:SS > Application server for Adobe Campaign Classic (X.Y.Z YY.R build nnnn@SHA1) of DD/MM/YYYY
       [...]
-      mta@<INSTANCENAME> (9268) - 23.0 Mb
+      mta@<instance-name> (9268) - 23.0 Mb
       [...]
       ```
 
    1. Si el MTA no aparece en la lista, inícielo con el siguiente comando:
 
       ```
-      nlserver start mta@<INSTANCENAME>
+      nlserver start mta@<instance-name>
       ```
 
       >[!NOTE]
       >
-      >Sustituya `<INSTANCENAME>` con el nombre de su instancia (producción, desarrollo, etc.). El nombre de instancia se identifica mediante los archivos de configuración: `[path of application]nl6/conf/config-<INSTANCENAME>.xml`
+      >Sustituya `<instance-name>` con el nombre de su instancia (producción, desarrollo, etc.). El nombre de instancia se identifica mediante los archivos de configuración: `[path of application]nl6/conf/config-<instance-name>.xml`
 
 * La entrega puede estar utilizando una afinidad no configurada en el servidor remitente.
 

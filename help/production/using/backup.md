@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: e5ef6aba-dc22-4c8d-9fbb-13d507181b65
-source-git-commit: dcc441272b29f682165a26006800e914e7c38252
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '198'
 ht-degree: 2%
 
 ---
@@ -30,21 +30,21 @@ La mayoría de los datos están en la base de datos. Representa el 99 % de la in
 
 Los archivos se dividen en varias categorías:
 
-* Archivos de configuración, almacenados en `nl6/conf`, le permiten reconfigurar Adobe Campaign muy rápidamente.
+* Archivos de configuración, almacenados en **nl6/conf**, le permiten reconfigurar Adobe Campaign muy rápidamente.
 
-* Archivos de redirección, almacenados en  `nl6/var/`<instancename>`/redir`, están en los servidores de seguimiento (generalmente denominados &quot;frontales&quot;) e incluyen todas las redirecciones de campañas anteriores. Las campañas anteriores siguen usándolas.
+* Archivos de redirección, almacenados en  **nl6/var/`<instance-name>`/redir**, están en los servidores de seguimiento (generalmente denominados &quot;frontales&quot;) e incluyen todas las redirecciones de campañas anteriores. Las campañas anteriores siguen usándolas.
 
-* Archivos de registro, almacenados en `nl6/var/`<instancename>`/log`, se puede utilizar para rastrear problemas.
+* Archivos de registro, almacenados en **nl6/var/`<instance-name>`/log**, se puede utilizar para rastrear problemas.
 
 Por lo tanto, los directorios a los que se va a realizar una copia de seguridad son:
 
-* `nl6/conf`
+* nl6/conf
 
-* `nl6/var/`<instanceName>`/redir` (para cada instancia)
+* nl6/var/`<instance-name>`/redir (para cada instancia)
 
-* `nl6/var/`<instanceName>`/log` (opcional)
+* nl6/var/`<instance-name>`/log (opcional)
 
-* `nl6/var/`<instanceName>`/relay` (opcional)
+* nl6/var/`<instance-name>`/relay (opcional)
 
 
 ## Database {#database}

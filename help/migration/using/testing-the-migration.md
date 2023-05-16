@@ -2,13 +2,14 @@
 product: campaign
 title: Prueba de la migración
 description: Prueba de la migración
+badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
 hide: true
 hidefromtoc: true
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-source-git-commit: 80cf56e330731237d5e7b394381b737f30f8b350
+source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 4%
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 # Pruebas de migración{#testing-the-migration}
 
-![](../../assets/v7-only.svg)
+
 
 ## Procedimiento general {#general-procedure}
 
@@ -55,13 +56,13 @@ Varias opciones permiten medir el impacto de una migración e identificar los po
 * en el **config** comando:
 
    ```
-   nlserver.exe config <option> -instance:<instanceName>
+   nlserver.exe config <option> -instance:<instance-name>
    ```
 
 * o después de la actualización:
 
    ```
-   nlserver.exe config -postupgrade <option> -instance:<instanceName>
+   nlserver.exe config -postupgrade <option> -instance:<instance-name>
    ```
 
 >[!NOTE]
@@ -75,7 +76,7 @@ Varias opciones permiten medir el impacto de una migración e identificar los po
 * La variable **-showCustomEntities** muestra la lista de todos los objetos no estándar:
 
    ```
-   nlserver.exe config -showCustomEntities -instance:<instanceName>
+   nlserver.exe config -showCustomEntities -instance:<instance-name>
    ```
 
    Ejemplo de mensaje enviado:
@@ -87,7 +88,7 @@ Varias opciones permiten medir el impacto de una migración e identificar los po
 * La variable **-showDeletedEntities** muestra la lista de todos los objetos estándar que faltan en la base de datos o en el sistema de archivos. Para cada objeto que falta, se especifica la ruta.
 
    ```
-   nlserver.exe config -showDeletedEntities -instance:<instanceName>
+   nlserver.exe config -showDeletedEntities -instance:<instance-name>
    ```
 
    Ejemplo de mensaje enviado:
@@ -103,7 +104,7 @@ Este proceso, integrado como estándar en el comando posactualización, permite 
 Puede iniciar el proceso de verificación por su cuenta (sin migración) mediante el comando :
 
 ```
-nlserver.exe config -postupgrade -check -instance:<instanceName>
+nlserver.exe config -postupgrade -check -instance:<instance-name>
 ```
 
 >[!NOTE]
@@ -176,7 +177,7 @@ También se realiza una comprobación de la coherencia de la base de datos y el 
 Esta opción permite restaurar objetos predeterminados si se han modificado. Para cada objeto restaurado, se almacena una copia de seguridad de los cambios en la carpeta seleccionada:
 
 ```
-nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<instanceName>
+nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<instance-name>
 ```
 
 >[!NOTE]
