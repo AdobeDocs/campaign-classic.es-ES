@@ -8,16 +8,14 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: e5ef6aba-dc22-4c8d-9fbb-13d507181b65
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: dcc441272b29f682165a26006800e914e7c38252
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '179'
 ht-degree: 2%
 
 ---
 
 # Copia de seguridad{#backup}
-
-
 
 La copia de seguridad es esencial para evitar la pérdida de datos en caso de problemas (físicos o relacionados con el sistema) en una máquina.
 
@@ -32,33 +30,29 @@ La mayoría de los datos están en la base de datos. Representa el 99 % de la in
 
 Los archivos se dividen en varias categorías:
 
-* Archivos de configuración ubicados en **nl6/conf**
+* Archivos de configuración, almacenados en `nl6/conf`, le permiten reconfigurar Adobe Campaign muy rápidamente.
 
-   Esto le permite reconfigurar Adobe Campaign muy rápidamente.
+* Archivos de redirección, almacenados en  `nl6/var/`<instancename>`/redir`, están en los servidores de seguimiento (generalmente denominados &quot;frontales&quot;) e incluyen todas las redirecciones de campañas anteriores. Las campañas anteriores siguen usándolas.
 
-* Archivos de redirección ** nl6/var/`<instancename>`/redir**
-
-   Están en los servidores de seguimiento (a menudo denominados &quot;frontales&quot;) e incluyen todas las redirecciones de campañas anteriores. Las campañas anteriores siguen usándolas.
-
-* Archivos de registro: **nl6/var/`<instancename>`/log**
-
-   Pueden utilizarse para rastrear problemas.
+* Archivos de registro, almacenados en `nl6/var/`<instancename>`/log`, se puede utilizar para rastrear problemas.
 
 Por lo tanto, los directorios a los que se va a realizar una copia de seguridad son:
 
-* nl6/conf
+* `nl6/conf`
 
-* nl6/var/`<instanceName>`/redir (para cada instancia)
+* `nl6/var/`<instanceName>`/redir` (para cada instancia)
 
-* nl6/var/`<instanceName>`/log (opcional)
+* `nl6/var/`<instanceName>`/log` (opcional)
 
-* nl6/var/`<instanceName>`/relay (opcional)
+* `nl6/var/`<instanceName>`/relay` (opcional)
+
+
+## Database {#database}
 
 >[!IMPORTANT]
 >
->Es esencial realizar una copia de seguridad de la base de datos.
+>Es imperativo realizar una copia de seguridad de la base de datos.
 
-## Database {#database}
 
 La base de datos contiene toda la información mostrada en la consola de cliente enriquecida de Adobe Campaign, así como todos los datos de la línea de negocios.
 
