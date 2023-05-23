@@ -7,10 +7,10 @@ feature: Overview
 role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '1509'
-ht-degree: 100%
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+workflow-type: tm+mt
+source-wordcount: '1503'
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ To set up the Adobe Analytics/Adobe Campaign Classic integration, you must conne
 
 1. From the **[!UICONTROL Report suite manager]** page, click **[!UICONTROL Create new]** then **[!UICONTROL Report suite]**.
 
-   For the detailed procedure on **[!UICONTROL Report suite]** creation, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=en#prerequisites).
+   For the detailed procedure on **[!UICONTROL Report suite]** creation, refer to this [section](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites).
 
    ![](assets/analytics_connnector_3.png)
 
@@ -101,7 +101,7 @@ Debe configurar sus **[!UICONTROL Conversion variables]** y **[!UICONTROL Succes
 
 1. Haga clic en **[!UICONTROL Add new]** para crear los identificadores necesarios para medir el impacto de la campaña, es decir, el nombre interno de la campaña (cid) y el ID de tabla de iNmsBroadlog (oferta).
 
-   Para aprender a editar **[!UICONTROL Conversion variables]**, consulte esta [sección](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=es#admin-tools).
+   Para aprender a editar **[!UICONTROL Conversion variables]**, consulte esta [sección](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html#admin-tools).
 
    ![](assets/analytics_connnector_6.png)
 
@@ -124,7 +124,7 @@ Debe configurar sus **[!UICONTROL Conversion variables]** y **[!UICONTROL Succes
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   Para aprender a configurar **[!UICONTROL Success events]**, consulte esta [sección](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html?lang=es#admin-tools).
+   Para aprender a configurar **[!UICONTROL Success events]**, consulte esta [sección](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/t-success-events.html#admin-tools).
 
    >[!NOTE]
    >
@@ -150,7 +150,7 @@ Ahora debe configurar la cuenta externa de **[!UICONTROL Web Analytics]** en Ado
 
 Tenga en cuenta que si uno de los **[!UICONTROL Report suite]**, **[!UICONTROL Conversion variables]** o **[!UICONTROL Success events]** no está visible al configurar la cuenta externa, significa que le falta un permiso para este componente recién creado en el **[!UICONTROL Product profile]** asociado al usuario.
 
-Para obtener más información, consulte la página [Perfiles de producto para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=es#product-profile-admins).
+Para obtener más información, consulte la página [Perfiles de producto para Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html#product-profile-admins).
 
 1. Vaya a la carpeta **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** en el árbol de Adobe Campaign y haga clic en **[!UICONTROL New]**.
 

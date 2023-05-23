@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: Instalación de un servidor intermediario en Campaign
-description: Esta sección detalla la instalación y configuración de un servidor de mid-sourcing en Campaign
+description: Esta sección detalla la instalación y configuración de un servidor intermediario en Campaign
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -19,15 +19,15 @@ ht-degree: 1%
 
 
 
-Esta sección detalla la instalación y configuración de un servidor intermediario, así como la implementación de una instancia que permite a terceros enviar mensajes en **intermediario** en el menú contextual.
+Esta sección detalla la instalación y configuración de un servidor intermediario, así como la implementación de una instancia que permite a terceros enviar mensajes en **intermediario** modo.
 
 La arquitectura &quot;intermediaria&quot; se presenta en [Implementación intermediaria](../../installation/using/mid-sourcing-deployment.md).
 
-La instalación de un servidor intermediario sigue el mismo proceso que la instalación de un servidor de forma normal (consulte la configuración estándar). Es una instancia independiente con su propia base de datos que puede utilizarse para ejecutar envíos. En pocas palabras, contiene una configuración adicional para permitir que las instancias remotas ejecuten las entregas a través de ella en modo de intermediario.
+La instalación de un servidor intermediario sigue el mismo proceso que la instalación de un servidor de la manera normal (consulte la configuración estándar). Es una instancia independiente con su propia base de datos que se puede utilizar para ejecutar envíos. En pocas palabras, contiene una configuración adicional para permitir que las instancias remotas ejecuten envíos a través de él en modo intermediario.
 
 >[!CAUTION]
 >
->Una vez configurado el servidor de mid-sourcing y [flujos de trabajo de sincronización](../../workflow/using/about-technical-workflows.md) se han ejecutado por primera vez, asegúrese de no actualizar el nombre interno de las cuentas externas de mid-sourcing.
+>Una vez configurado el servidor intermediario y la variable [sincronizar flujos de trabajo](../../workflow/using/about-technical-workflows.md) Si se han ejecutado por primera vez, asegúrese de no actualizar el nombre interno de las cuentas externas intermediarias.
 
 ## Pasos para instalar y configurar una instancia {#steps-for-installing-and-configuring-an-instance}
 
@@ -35,9 +35,9 @@ La instalación de un servidor intermediario sigue el mismo proceso que la insta
 
 * JDK en el servidor de aplicaciones.
 * Acceso a un servidor de base de datos en el servidor de aplicaciones.
-* Cortafuegos configurado para abrir puertos HTTP (80) o HTTPS (443) en el servidor intermediario.
+* Firewall configurado para abrir puertos HTTP (80) o HTTPS (443) en el servidor intermediario.
 
-El siguiente procedimiento detalla una configuración utilizando un solo servidor intermediario. También es posible utilizar varios servidores. Del mismo modo, también es posible enviar ciertos mensajes (como notificaciones de flujo de trabajo, por ejemplo) desde una configuración interna.
+El siguiente procedimiento detalla una configuración mediante un único servidor intermediario. También es posible utilizar varios servidores. Del mismo modo, también es posible enviar ciertos mensajes (como notificaciones de flujo de trabajo, por ejemplo) desde una configuración interna.
 
 ### Instalación y configuración del servidor de aplicaciones para la implementación intermediaria {#installing-and-configuring-the-application-server-for-mid-sourcing-deployment}
 
@@ -45,7 +45,7 @@ El procedimiento de instalación es idéntico al de la instancia independiente. 
 
 Sin embargo, debe aplicar lo siguiente:
 
-* En el paso **5**, Debe desactivar el **mta** (entrega) y **inMail** módulos (correos electrónicos rechazados). La variable **wfserver** (flujo de trabajo), sin embargo, debe permanecer activado.
+* En el paso **5**, Debe deshabilitar la variable **mta** (envío) y **inMail** módulos (correos electrónicos rechazados). El **wfserver** Sin embargo, el módulo (flujo de trabajo) debe permanecer activado.
 
    ```
    <?xml version='1.0'?>
@@ -66,21 +66,21 @@ Sin embargo, debe aplicar lo siguiente:
    Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 * Pasos **6**, **9** y **10** no son necesarios.
-* Durante los pasos **12** y **13**, debe indicar el puerto 8080 en la dirección URL de conexión (ya que la consola se comunica con Tomcat directamente, no a través del servidor web). La dirección URL se convierte en `http://console.campaign.net:8080`. Durante el paso **13**, seleccione **[!UICONTROL Issue towards Mid-sourcing]** , así como los que se van a instalar.
+* Durante los pasos **12** y **13**, debe indicar el puerto 8080 en la dirección URL de conexión (ya que la consola se comunica con Tomcat directamente, no a través del servidor web). La URL se convierte en `http://console.campaign.net:8080`. Durante el paso **13**, seleccione la **[!UICONTROL Issue towards Mid-sourcing]** así como los que se van a instalar.
 
    ![](assets/s_ncs_install_midsourcing02.png)
 
    >[!CAUTION]
    >
-   >El enrutamiento predeterminado de los envíos técnicos se reemplaza automáticamente con el enrutamiento de correo electrónico a través de intermediarios.
+   >El enrutamiento predeterminado de los envíos técnicos se reemplaza automáticamente por el enrutamiento de correo electrónico a través de intermediario.
 
 ### Instalación y configuración del servidor intermediario {#installing-and-configuring-the-mid-sourcing-server}
 
-Desde la consola del cliente, busque el **Enrutamiento de correo electrónico mediante intermediario** cuenta intermediaria (en la **/Administration/External accounts/** carpeta). Rellene el **URL del servidor**, **account**, **password** y **URL de página espejo** con la información proporcionada por el proveedor de servidor que aloja el servidor intermediario. Compruebe la conexión.
+En la consola del cliente, busque **Enrutamiento de correo electrónico mediante intermediario** cuenta intermediaria (en el **/Administration/External accounts/** carpeta). Rellene el **URL del servidor**, **account**, **contraseña** y **URL de página espejo** con la información proporcionada por el proveedor del servidor que aloja el servidor intermediario. Compruebe la conexión.
 
 >[!NOTE]
 >
->La variable **mid-sourcingEmitter** la opción crea dos **Mid-sourcing** flujos de trabajo. Se trata de un proceso que se ejecuta de forma predeterminada cada 1 hora y 20 minutos y que recopila información de entrega en el servidor intermediario.
+>El **mid-sourcingEmitter** opción crea dos **Mid-sourcing** flujos de trabajo. Es un proceso que se ejecuta de forma predeterminada cada 1 hora y 20 minutos y recopila información de envío en el servidor intermediario.
 
 ## Implementación de un servidor intermediario {#deploying-a-mid-sourcing-server}
 
@@ -88,17 +88,17 @@ Desde la consola del cliente, busque el **Enrutamiento de correo electrónico me
 
    >[!CAUTION]
    >
-   >Si instala el servidor de mid-sourcing y desea instalar módulos adicionales de Adobe Campaign, recomendamos utilizar el módulo Delivery y no el módulo Campaign.
+   >Si instala el servidor intermediario y desea instalar módulos Adobe Campaign adicionales, se recomienda utilizar el módulo Envío y no el módulo Campaign.
 
-   Siga el mismo procedimiento que para la implementación estándar, seleccionando solo la variable **[!UICONTROL Mid-sourcing platform]** .
+   Siga el mismo procedimiento que para el despliegue estándar, seleccionando sólo el **[!UICONTROL Mid-sourcing platform]** opción.
 
    ![](assets/s_ncs_install_midsourcing01.png)
 
 1. Configuración para recibir en modo intermediario
 
-   Establezca la contraseña de la cuenta de envío: En el **/Mid-sourcing/Access Management/Operators/** carpeta, **mid** La instancia remota utiliza el operador para los envíos en modo intermediario. Debe establecer una contraseña para este operador y proporcionarla al administrador de la instancia de envío.
+   Establezca la contraseña de la cuenta de envío: En la variable **/Mid-sourcing/Access Management/Operators/** carpeta, la **mid** la instancia remota utiliza el operador para los envíos en modo intermediario. Debe establecer una contraseña para este operador y proporcionársela al administrador de la instancia de envío.
 
-   La variable **Mid-sourcing platform** crea las carpetas predeterminadas para almacenar los envíos enviados y el operador predeterminado que realiza los envíos.
+   El **Mid-sourcing platform** crea las carpetas predeterminadas para almacenar los envíos enviados y el operador predeterminado que realiza los envíos.
 
 ## Multiplexación del servidor intermediario {#multiplexing-the-mid-sourcing-server}
 
@@ -106,44 +106,44 @@ Desde la consola del cliente, busque el **Enrutamiento de correo electrónico me
 >
 >La multiplexación solo es compatible con entornos locales.
 
-Es posible que varias instancias de envío compartan una instancia de mid-sourcing. Cada una de estas instancias debe estar asociada a un operador en la base de datos intermediaria. Para crear una segunda cuenta en el servidor de mid-sourcing:
+Es posible que varias instancias de envío compartan una instancia de intermediario. Cada una de estas instancias debe asociarse con un operador en la base de datos intermediaria. Para crear una segunda cuenta en el servidor intermediario:
 
-1. Cree una carpeta en la **[!UICONTROL Mid-sourcing > Deliveries]** nodo que se asociará con la cuenta de mid-sourcing predeterminada (por ejemplo: prod).
-1. Cree una carpeta en la **[!UICONTROL Mid-sourcing > Deliveries]** nodo con el mismo nombre que la cuenta (por ejemplo: accept_test).
+1. Cree una carpeta en la **[!UICONTROL Mid-sourcing > Deliveries]** nodo que se asociará con la cuenta intermediaria predeterminada (por ejemplo: prod).
+1. Cree una carpeta en la **[!UICONTROL Mid-sourcing > Deliveries]** nodo con el mismo nombre que la cuenta (por ejemplo: acceptance_test).
 
    ![](assets/mid_recette_account.png)
 
-1. En **[!UICONTROL Mid-sourcing > Access Management > Operators]**, cree una nueva cuenta.
+1. Entrada **[!UICONTROL Mid-sourcing > Access Management > Operators]**, cree una nueva cuenta.
 
    ![](assets/mid_recette_user_create.png)
 
-1. En el **[!UICONTROL Access rights]** , asigne a este operador los derechos de **Suministros intermedios** grupo. Este derecho de acceso está disponible en **[!UICONTROL Mid-sourcing > Access Management > Operator groups]**.
+1. En el **[!UICONTROL Access rights]** , otorgue a este operador los derechos del **Envíos intermediarios** grupo. Este derecho de acceso está disponible en **[!UICONTROL Mid-sourcing > Access Management > Operator groups]**.
 
    ![](assets/mid_recette_user_rights.png)
 
-1. Seleccione el **[!UICONTROL Restrict to data in the sub-folders of]** y seleccione la carpeta deliveries para restringir este operador a la carpeta mid-sourcing deliveries .
+1. Seleccione el **[!UICONTROL Restrict to data in the sub-folders of]** y seleccione la carpeta entregas para restringir este operador a la carpeta entregas intermediarias.
 
    ![](assets/mid_recette_user_restrictions.png)
 
 1. Reinicie el módulo web con el siguiente comando: **nlserver restart web**.
 
-Debe cambiar la configuración del servidor intermediario en el archivo serverConf.xml. La línea siguiente debe agregarse a la sección &quot;Administración de afinidades con direcciones IP&quot;, en la línea existente:
+Debe cambiar la configuración del servidor intermediario en el archivo serverConf.xml. La línea siguiente se debe agregar a la sección &quot;Management of affinities with IP addresses&quot;, en la línea existente:
 
 ```
 <IPAffinity IPMask="" localDomain="" name=""/>
 ```
 
-El atributo &#39;@name&#39; debe respetar las siguientes reglas:
+El atributo &quot;@name&quot; debe respetar las siguientes reglas:
 
-**&#39;marketing_account_operator_name&#39;.&#39;afinity_name&#39;.&#39;affinity_group&#39;**
+**&#39;marketing_account_operator_name&#39;.&#39;affinity_name&#39;.&#39;affinity_group&#39;**
 
-&#39;marketing_account_operator_name&#39; se refiere al nombre interno de la cuenta de mid-sourcing declarada en la instancia de mid-sourcing.
+&quot;marketing_account_operator_name&quot; hace referencia al nombre interno de la cuenta intermediaria declarada en la instancia intermediaria.
 
-&#39;affinity_name&#39; se refiere al nombre arbitrario que se le dio a la afinidad. Este nombre debe ser único. Los caracteres autorizados son `[a-z]``[A-Z]``[0-9]`. El objetivo es declarar un grupo de direcciones IP públicas.
+&#39;affinity_name&#39; se relaciona con el nombre arbitrario dado a la afinidad. Este nombre debe ser único. Los caracteres autorizados son `[a-z]``[A-Z]``[0-9]`. El objetivo es declarar un grupo de direcciones IP públicas.
 
-&#39;affinity_group&#39; hace referencia a la subafinidad declarada en la asignación de destino utilizada en cada una de las entregas. La última parte que incluye el se ignora si no hay subafinidad. Los caracteres autorizados son `[a-z]``[A-Z]``[0-9]`.
+&#39;affinity_group&#39; relaciona la subafinidad declarada en la asignación de destino utilizada en cada uno de los envíos. La última parte, incluido el &#39;.&#39; se ignora si no hay subafinidad. Los caracteres autorizados son `[a-z]``[A-Z]``[0-9]`.
 
-Debe detener y luego reiniciar el servidor para que se tenga en cuenta la modificación.
+Debe detener y reiniciar el servidor para que se tenga en cuenta la modificación.
 
 ## Configuración del seguimiento en un servidor intermediario {#configuring-tracking-on-a-mid-sourcing-server}
 
@@ -157,16 +157,16 @@ Debe detener y luego reiniciar el servidor para que se tenga en cuenta la modifi
    ![](assets/s_ncs_install_midsourcing_tracking02.png)
 
 1. Cuando haya introducido los parámetros de conexión, haga clic en **[!UICONTROL Confirm the configuration]**.
-1. Si es necesario, especifique la ubicación en la que se deben almacenar las imágenes incluidas en los envíos. Para ello, seleccione uno de los modos de publicación de la lista desplegable.
+1. Si es necesario, especifique la ubicación donde se almacenarán las imágenes contenidas en los envíos. Para ello, seleccione uno de los modos de publicación en la lista desplegable.
 
    ![](assets/s_ncs_install_midsourcing_tracking03.png)
 
-   Si elige la opción **[!UICONTROL Tracking server(s)]** , las imágenes se copiarán en el servidor intermediario.
+   Si elige la **[!UICONTROL Tracking server(s)]** , las imágenes se copiarán en el servidor intermediario.
 
 **Configuración de la plataforma del cliente**
 
-1. Vaya a la cuenta de enrutamiento intermediario externa.
-1. En el **[!UICONTROL Mid-Sourcing]** , especifique los parámetros de conexión del servidor intermediario.
+1. Vaya a la cuenta de enrutamiento intermediaria externa.
+1. En el **[!UICONTROL Mid-Sourcing]** pestaña, especifique los parámetros de conexión del servidor intermediario.
 
    ![](assets/s_ncs_install_midsourcing_tracking06.png)
 
@@ -179,6 +179,6 @@ Debe detener y luego reiniciar el servidor para que se tenga en cuenta la modifi
 
    ![](assets/s_ncs_install_midsourcing_tracking05.png)
 
-Si varios servidores intermediarios van a administrar la entrega de mensajes, seleccione la opción **[!UICONTROL Routing with alternating mid-sourcing accounts]** y especifique los diferentes servidores.
+Si el envío de mensajes debe administrarse mediante varios servidores intermediarios, seleccione la opción **[!UICONTROL Routing with alternating mid-sourcing accounts]** y especifique los distintos servidores.
 
 ![](assets/s_ncs_install_midsourcing_tracking04.png)

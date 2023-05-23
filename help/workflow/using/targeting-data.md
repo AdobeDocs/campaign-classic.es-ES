@@ -5,9 +5,9 @@ description: Descubra más información sobre los datos de objetivos en un flujo
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Query Editor, Data Management
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: ht
-source-wordcount: '1924'
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+workflow-type: tm+mt
+source-wordcount: '1922'
 ht-degree: 100%
 
 ---
@@ -180,7 +180,7 @@ Para configurarlo, primero debe seleccionar unos criterios:
 
    ![](assets/do-not-localize/v7.jpeg)[  Documentación de Campaign v7](../../installation/using/about-fda.md)
 
-   ![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=es)
+   ![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
 
 A continuación, es preciso añadir nuevos subconjuntos:
 

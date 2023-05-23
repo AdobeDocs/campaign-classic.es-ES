@@ -3,12 +3,12 @@ product: campaign
 title: Configuración de red
 description: Conozca las directrices de comunicación del sistema
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 5%
@@ -21,13 +21,13 @@ ht-degree: 5%
 
 ## Comunicación entre procesos {#communication-between-processes}
 
-Ciertos procesos de la aplicación necesitan comunicarse con otros o acceder a la LAN e Internet. Esto significa que algunos puertos TCP deben estar abiertos para estos procesos.
+Algunos procesos de la aplicación necesitan comunicarse con otros o acceder a la LAN y a Internet. Esto significa que algunos puertos TCP deben estar abiertos para estos procesos.
 
-Utilice el puerto Apache Tomcat incrustado como prioridad (8080 de forma predeterminada) para las comunicaciones internas entre los distintos servidores de aplicaciones de una plataforma de Adobe Campaign.
+Utilice el puerto integrado de Apache Tomcat como prioridad (8080 de forma predeterminada) para las comunicaciones internas entre los distintos servidores de aplicaciones de una plataforma Adobe Campaign.
 
-### Servidor de entrega {#delivery-server}
+### Servidor de envío {#delivery-server}
 
-Para el servidor de entrega (**mta nlserver**), los puertos siguientes deben estar abiertos:
+Para el servidor de entrega (**mta de nlserver**), los puertos siguientes deben estar abiertos:
 
 <table> 
  <tbody> 
@@ -39,7 +39,7 @@ Para el servidor de entrega (**mta nlserver**), los puertos siguientes deben est
   <tr> 
    <td> 25/tcp (smtp)<br /> </td> 
    <td> Anywhere<br /> </td> 
-   <td> Tráfico SMTP para la difusión por correo electrónico.<br /> </td> 
+   <td> Tráfico SMTP para difusión por correo electrónico.<br /> </td> 
   </tr> 
   <tr> 
    <td> 53/udp (dominio)<br /> </td> 
@@ -48,7 +48,7 @@ Para el servidor de entrega (**mta nlserver**), los puertos siguientes deben est
   </tr> 
   <tr> 
    <td> 38000/tcp (puerto predeterminado)<br /> </td> 
-   <td> Puerta de enlace SMS<br /> </td> 
+   <td> Pasarela SMS<br /> </td> 
    <td> Se utiliza para enviar tráfico SMS al enrutador SMS NetSize [opción].<br /> </td> 
   </tr> 
   <tr> 
@@ -73,12 +73,12 @@ Para el proceso de recuperación de correo entrante (**nlserver inMail**), los p
   <tr> 
    <td> 110/tcp (pop3)<br /> </td> 
    <td> Servidor de correo interno<br /> </td> 
-   <td> Tráfico POP3 para recoger mensajes rechazados.<br /> </td> 
+   <td> Tráfico POP3 para recoger mensajes de rechazo.<br /> </td> 
   </tr> 
   <tr> 
    <td> 25/tcp (smtp)<br /> </td> 
    <td> Servidor de correo interno<br /> </td> 
-   <td> Tráfico SMTP para enviar los mensajes de rechazo restantes que no se procesan automáticamente mediante las reglas predefinidas.<br /> </td> 
+   <td> Tráfico SMTP para enviar los mensajes de rebote restantes que no procesan automáticamente las reglas predefinidas.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,12 +97,12 @@ Para el servidor de aplicaciones (**nlserver web**), los puertos siguientes debe
   <tr> 
    <td> 80/tcp (http)<br /> 443/tcp (https)<br /> </td> 
    <td> Anywhere<br /> </td> 
-   <td> Tráfico HTTP o HTTPS (incluido para la oferta de capacidad de envío).<br /> </td> 
+   <td> Tráfico HTTP o HTTPS (incluido para la oferta de envío).<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Cuando varios servidores de aplicaciones de una plataforma de Adobe Campaign necesiten comunicarse entre sí, recomendamos utilizar el puerto del servidor Apache Tomcat (de forma predeterminada: 8080) en lugar del puerto HTTP del servidor web con el que se realizó la integración del módulo de redirección. Esto significa que el puerto debe estar abierto entre estos servidores.
+Cuando varios servidores de aplicaciones de una plataforma de Adobe Campaign necesitan comunicarse entre sí, se recomienda utilizar el puerto del servidor Apache Tomcat (predeterminado: 8080) en lugar del puerto HTTP del servidor web con el que se llevó a cabo la integración del módulo de redirección. Esto significa que el puerto debe abrirse entre estos servidores.
 
 ### Estado de envío de SMS {#sms-delivery-status}
 
@@ -117,8 +117,8 @@ Para rastrear envíos de SMS (**nlserver sms**), el siguiente puerto debe estar 
   </tr> 
   <tr> 
    <td> 38000/tcp (puerto predeterminado)<br /> </td> 
-   <td> Puerta de enlace SMS<br /> </td> 
-   <td> Consulta el estado de la cola de entrega gestionada por la puerta de enlace SMS NetSize [opción].<br /> </td> 
+   <td> Pasarela SMS<br /> </td> 
+   <td> Consulta el estado de la cola de envíos administrada por la puerta de enlace de SMS NetSize [opción].<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,14 +137,14 @@ Para el cliente enriquecido de Adobe Campaign (**nlclient**), los puertos siguie
   <tr> 
    <td><p> 80/tcp (http)</p><p>443/tcp (https)</p><br /> </td> 
    <td> Servidor de aplicaciones<br /> </td> 
-   <td> Tráfico SOAP (HTTP).<br /> </td> 
+   <td> Tráfico de SOAP (HTTP).<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Acceso a la base de datos {#database-access}
+## Acceso a base de datos {#database-access}
 
-Todos los componentes que utilicen la base de datos deben poder conectarse a ella. Este es el caso de la mayoría de los componentes, excepto el servidor de redirección, que puede funcionar solo, y el cliente Win32 delgado, que utiliza HTTP (o HTTPS) solo para comunicarse con el servidor de aplicaciones.
+Todos los componentes que utilicen la base de datos deben poder conectarse a ella. Este es el caso de la mayoría de los componentes, con la excepción del servidor de redirección, que puede funcionar solo, y del cliente ligero Win32, que utiliza HTTP (o HTTPS) únicamente para comunicarse con el servidor de aplicaciones.
 
 Los puertos predeterminados son los siguientes:
 
@@ -177,7 +177,7 @@ Los puertos predeterminados son los siguientes:
 
 ## Acceso externo {#external-access}
 
-Además, se debe acceder a ciertos componentes desde la Internet pública para que se puedan ver las campañas de correo electrónico ejecutadas directamente desde Adobe Campaign. Esto significa que algunos puertos deben estar abiertos para los componentes.
+Además, ciertos componentes deben ser accesibles desde la Internet pública para que se puedan ver las campañas de correo electrónico ejecutadas directamente desde Adobe Campaign. Esto significa que algunos puertos deben estar abiertos para los componentes.
 
 ### Servidor de redirección {#redirection-server}
 
@@ -189,7 +189,7 @@ Además, se debe acceder a ciertos componentes desde la Internet pública para q
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 
-   <td> En cualquier parte. Cada clic en un vínculo rastreado genera una solicitud HTTP en el servidor.<br /> </td> 
+   <td> En cualquier sitio. Cada clic en un vínculo rastreado genera una solicitud HTTP en el servidor.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -206,7 +206,7 @@ Este servidor aloja formularios web, páginas espejo, etc. Los puertos siguiente
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p> 443/tcp (https)</p><br /> </td> 
-   <td> En cualquier parte. Necesario cuando los formularios web se administran directamente desde la plataforma de Adobe Campaign o cuando se utilizan páginas espejo.<br /> </td> 
+   <td> En cualquier sitio. Necesario cuando los formularios web se administran directamente desde la plataforma de Adobe Campaign o cuando se utilizan páginas espejo.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -228,7 +228,7 @@ Este servidor aloja formularios web, páginas espejo, etc. Los puertos siguiente
 
 ## Integración con Adobe Experience Manager {#integration-with-adobe-experience-manager}
 
-La integración entre Adobe Campaign y Adobe Experience Manager requiere la apertura de varios puertos si la instalación está &quot;in situ&quot;. Para obtener más información sobre la configuración de esta integración, consulte la [documentación detallada](../../integrations/using/about-adobe-experience-manager.md).
+La integración entre Adobe Campaign y Adobe Experience Manager requiere la apertura de varios puertos si la instalación es &quot;on-premise&quot;. Para obtener más información sobre la configuración de esta integración, consulte [documentación detallada](../../integrations/using/about-adobe-experience-manager.md).
 
 <table> 
  <tbody> 
@@ -238,18 +238,18 @@ La integración entre Adobe Campaign y Adobe Experience Manager requiere la aper
   </tr> 
   <tr> 
    <td> 80<br /> </td> 
-   <td> AEM conexión a Adobe Campaign<br /> </td> 
+   <td> AEM Conexión de la a Adobe Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 4502</p><p> 4503</p><br /> </td> 
-   <td> Conexión de Adobe Campaign a AEM instancias de "creación" y "publicación". Los puertos que se van a abrir pueden ser diferentes de los puertos predeterminados, según la configuración AEM.<br /> </td> 
+   <td> Conexión de Adobe Campaign AEM a instancias de "creación" y "publicación" de. AEM Los puertos que se van a abrir pueden diferir de los puertos predeterminados, según la configuración de la aplicación de la que se haya hecho la configuración de la.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ancho de banda {#bandwidth}
 
-Otro parámetro clave de la configuración de red a tener en cuenta. Es casi siempre saliente y está muy demandado durante las transmisiones de correo electrónico. A continuación se muestran algunos ejemplos de configuraciones basadas en nuestra experiencia:
+Otro parámetro clave de la configuración de red a tener en cuenta. Casi siempre es saliente y tiene mucha demanda durante las difusiones por correo electrónico. Estos son algunos ejemplos de configuraciones basadas en nuestra experiencia:
 
 * 1 Mb/s para 10.000 correos electrónicos por hora (tamaño medio de 30 Kb)
 * 8 a 10 Mb/s para 100.000 correos electrónicos por hora (tamaño medio de 30 Kb)

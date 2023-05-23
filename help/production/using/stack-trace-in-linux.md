@@ -3,12 +3,12 @@ product: campaign
 title: Seguimiento de pila en Linux
 description: Seguimiento de pila en Linux
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 11%
@@ -19,16 +19,16 @@ ht-degree: 11%
 
 
 
-A **seguimiento de pila** representa un seguimiento contenido en un **core** escriba . Este archivo se genera en caso de error del equipo. Puede identificar el origen del error.
+A **seguimiento de pila** representa un seguimiento contenido en un **núcleo** escriba el archivo. Este archivo se genera en caso de error del equipo. Puede identificar el origen del error.
 
 >[!NOTE]
 >
->* A **core** nombre del archivo **principal.`<num>`**.
->* **gdb: el depurador GNU** debe estar instalado en el equipo.
+>* A **núcleo** el nombre del archivo es **Núcleo.`<num>`**.
+>* **gdb - El depurador GNU** debe estar instalado en el equipo.
 >
 
 
-El servicio de asistencia técnica de Adobe Campaign puede solicitarle esta **seguimiento de pila**. Para obtenerlo, introduzca los siguientes comandos en Linux:
+El servicio de asistencia técnica de Adobe Campaign puede solicitarle esto **seguimiento de pila**. Para obtenerlo, introduzca los siguientes comandos en Linux:
 
 ```
 su - neolane
@@ -55,7 +55,7 @@ gdb nlserver <coreFile>
 #16 0x5565918a in clone () from /lib/tls/libc.so.6
 ```
 
-El servicio de asistencia técnica de Adobe Campaign puede solicitarle que ejecute este comando utilizando un ejecutable específico (que nosotros proporcionaremos).
+El soporte técnico de Adobe Campaign podría pedirle que ejecute este comando con un ejecutable específico (que proporcionaremos nosotros).
 
 En este caso, simplemente ejecute el siguiente comando reemplazando **nlserver** con el ejecutable proporcionado por Adobe Campaign:
 

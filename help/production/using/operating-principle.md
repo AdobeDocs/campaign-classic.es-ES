@@ -3,12 +3,12 @@ product: campaign
 title: Principio de funcionamiento
 description: Principio de funcionamiento
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 2%
@@ -21,69 +21,69 @@ ht-degree: 2%
 
 Técnicamente, la plataforma Adobe Campaign se basa en varios módulos.
 
-Hay muchos módulos de Adobe Campaign. Algunos funcionan de forma continua, mientras que otros se inician ocasionalmente para realizar tareas administrativas (por ejemplo, configurar la conexión de base de datos) o para ejecutar una tarea recurrente (por ejemplo, consolidar la información de seguimiento).
+Hay muchos módulos de Adobe Campaign. Algunos funcionan de forma continua, mientras que otros se inician ocasionalmente para realizar tareas administrativas (por ejemplo, configurar la conexión a la base de datos) o para ejecutar una tarea recurrente (por ejemplo, consolidar la información de seguimiento).
 
 Existen tres tipos de módulos de Adobe Campaign:
 
-* Módulos de varias instancias: se ejecuta un solo proceso para todas las instancias. Esto se aplica a los siguientes módulos: **web**, **syslogd**, **trackinglogd** y **watchdog** (actividades del **config-default.xml** ).
-* Módulos de instancia única: se ejecuta un proceso por instancia. Esto se aplica a los siguientes módulos: **mta**, **wfserver**, **inMail**, **sms** y **stat** (actividades del **config-`<instance>`.xml** ).
-* Módulos de utilidad: son módulos que se ejecutan ocasionalmente para realizar operaciones ocasionales o recurrentes (**cleanup**, **config**, descarga de registros de seguimiento, etc.).
+* Módulos de varias instancias: se ejecuta un solo proceso para todas las instancias. Esto se aplica a los siguientes módulos: **web**, **syslogd**, **trackinglogd** y **perro guardián** (actividades de la **config-default.xml** file).
+* Módulos de instancia mono: se ejecuta un proceso por instancia. Esto se aplica a los siguientes módulos: **mta**, **wfserver**, **inMail**, **sms** y **estadísticas** (actividades de la **config-`<instance>`.xml** file).
+* Módulos de utilidad: son módulos que se ejecutan ocasionalmente para realizar operaciones ocasionales o recurrentes (**cleanup**, **config**, descargar registros de seguimiento, etc.).
 
-La administración del módulo se realiza mediante la herramienta de línea de comandos **nlserver** instalado en el **bin** de la carpeta de instalación.
+La administración de módulos se realiza mediante la herramienta de línea de comandos **nlserver** instalado en el **cubo** de la carpeta de instalación.
 
-La sintaxis general de la variable **nlserver** es la siguiente:
+La sintaxis general del **nlserver** La herramienta es la siguiente:
 
 **nlserver `<command>``<command arguments>`**
 
-Para obtener la lista de módulos disponibles, utilice la variable **nlserver** comando.
+Para ver la lista de módulos disponibles, utilice el **nlserver** comando.
 
-Los módulos disponibles se detallan en la siguiente tabla:
+Los módulos disponibles se detallan en la tabla siguiente:
 
 | Comando | Descripción |
 |---|---|
-| aliasCleansing | Estandarización de los valores de enumeración |
+| aliasCleansing | Estandarización de valores de enumeración |
 | facturación | Envío del informe de actividad del sistema a billing@neolane.net |
 | cleanup | Limpieza de la base de datos: elimina los datos obsoletos de la base de datos y ejecuta una actualización de las estadísticas utilizadas por el optimizador del motor de base de datos. |
 | config | Modificación de la configuración del servidor |
-| exportar | Exportación a la línea de comandos: permite enviar a la línea de comandos un modelo de exportación creado en la consola del cliente de Adobe Campaign |
+| exportar | Exportar a la línea de comandos: permite enviar a la línea de comandos un modelo de exportación creado en la consola del cliente de Adobe Campaign |
 | fileconvert | Conversión de un archivo de tamaño definido |
-| importar | Importación a la línea de comandos: permite enviar a la línea de comandos un modelo de importación creado en la consola del cliente de Adobe Campaign. |
+| importar | Importing to command line: permite enviar a la línea de comandos un modelo de importación creado en la consola del cliente de Adobe Campaign. |
 | inMail | Analizador de correo entrante |
 | installsetup | Disponibilidad del archivo de instalación del cliente |
-| javascript | Ejecución de secuencias de comandos de JavaScript con acceso a las API de SOAP. |
-| trabajo | Procesamiento de la línea de comandos |
-| combinar | Combinación de formularios |
-| midSourcing | Recuperación de la información de entrega en modo intermediario |
-| monitor | XML Visualización del estado de los procesos del servidor y las tareas programadas, por ejemplo. |
+| javascript | Ejecución de scripts JavaScript con acceso a las API de SOAP. |
+| trabajo | Procesamiento de línea de comandos |
+| fusionar | Combinación de formularios |
+| midSourcing | Recuperación de información de envío en modo intermediario |
+| monitor | XML Visualización del estado de los procesos del servidor y las tareas programadas, por instancia. |
 | mta. | Mensaje de transferencia del agente principal |
-| paquete | Importación o exportación de archivos de paquetes de entidades |
-| pdump | Visualización de los estados de proceso del servidor |
-| prepareda | Preparación de una acción de entrega |
-| restart | Reinicio parcial del servidor |
+| paquete | Importación o exportación de archivos del paquete de entidades |
+| volcado | Visualización de estados de procesos del servidor |
+| preparado | Preparación de una acción de envío |
+| reiniciar | Reinicio parcial del servidor |
 | runwf | Ejecución de una instancia de flujo de trabajo |
-| shutdown | Cierre completo del sistema |
+| parada | Apagado completo del sistema |
 | sms | Procesamiento de notificaciones SMS |
-| sql | Ejecución de secuencia de comandos SQL |
-| start | Comienzos adicionales |
-| stat | Mantiene las estadísticas de conexión de MTA |
-| stop | Apagado parcial del sistema |
-| submitda | Envío de una acción de entrega |
+| sql | Ejecución de script SQL |
+| start | Inicios adicionales |
+| estadísticas | Mantiene estadísticas de conexión MTA |
+| parada | Apagado parcial del sistema |
+| submitda | Envío de una acción de envío |
 | syslogd | Servidor de escritura de registro y seguimiento |
 | seguimiento | Consolidación y recuperación de registros de seguimiento |
-| trackinglogd | Seguimiento de la escritura y depuración de registros en el servidor |
-| watchdog | Instancia de inicio y monitorización |
+| trackinglogd | Seguimiento de la escritura y depuración del registro del servidor |
+| perro guardián | Instancia de inicio y monitorización |
 | web | Servidor de aplicaciones (HTTP y SOAP) |
 | wfserver | Servidor de flujo de trabajo |
 
 >[!IMPORTANT]
 >
->Hay un último módulo: el módulo de seguimiento y retransmisión vinculado al servidor de aplicaciones que, por motivos de rendimiento, se integra mediante mecanismos nativos en un servidor web Apache o IIS a través de una biblioteca dinámica. No hay ningún comando de Adobe Campaign que le permita iniciar o administrar este módulo. Por lo tanto, debe utilizar los comandos del propio servidor web.
+>Hay un último módulo: el módulo de seguimiento y retransmisión vinculado al servidor de aplicaciones que, en aras del rendimiento, se integra a través de mecanismos nativos en un servidor web Apache o IIS a través de una biblioteca dinámica. No hay ningún comando de Adobe Campaign que le permita iniciar o administrar este módulo. Por lo tanto, debe utilizar los comandos del propio servidor Web.
 
 El uso del módulo y la sintaxis de sus parámetros se muestran mediante el siguiente comando: **nlserver `[module]` -?**
 
 Ejemplo:
 
-**nlserver config -?**
+**Configuración de nlserver -?**
 
 ```
 Usage: nlserver [-verbose:<verbose mode>] [-?|h|H] [-version] [-noconsole]

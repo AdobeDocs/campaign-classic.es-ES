@@ -2,15 +2,15 @@
 product: campaign
 title: Uso de derechos asignados para configurar permisos
 description: Obtenga información sobre cómo utilizar derechos asignados para configurar permisos
-badge: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge: label="v7" type="Informativo" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 97%
+source-wordcount: '512'
+ht-degree: 96%
 
 ---
 
@@ -74,4 +74,4 @@ Los grupos predeterminados y los derechos asignados permiten a los operadores ac
 
 La matriz de derechos de acceso a Adobe Campaign está disponible [aquí](/help/platform/using/assets/access-rights-matrix.pdf).
 
-[![imagen](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf?lang=en)
+[![imagen](assets/do-not-localize/user_management.png)](https://experienceleague.adobe.com/docs/campaign-classic/assets/access-rights-matrix.pdf)

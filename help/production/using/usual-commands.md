@@ -3,12 +3,12 @@ product: campaign
 title: Comandos habituales
 description: Comandos habituales
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 4%
@@ -21,26 +21,26 @@ ht-degree: 4%
 
 Esta sección enumera los comandos habituales en Adobe Campaign.
 
-El comando **nlserver** es el comando de entrada para toda la aplicación Adobe Campaign.
+El comando **nlserver** es el comando de entrada para toda la aplicación de Adobe Campaign.
 
-Este comando tiene la siguiente sintaxis: **nlserver **`<command>`****`<arguments>`****
+Este comando tiene la sintaxis siguiente: **nlserver **`<command>`****`<arguments>`****
 
-El parámetro **`<command>`** corresponde al módulo .
+El parámetro **`<command>`** corresponde al módulo.
 
 >[!NOTE]
 >
->* En cualquier caso, puede añadir la variable **-noconsole** para eliminar los comentarios mostrados una vez que se hayan iniciado los módulos.
->* Por el contrario, puede agregar el argumento **-verbose** para mostrar más información.
+>* En cualquier caso, puede agregar la variable **-noconsole** argumento para eliminar los comentarios mostrados una vez iniciados los módulos.
+>* Por el contrario, puede agregar el argumento **-verboso** para mostrar más información.
 >
 
 
-## Monitorización, comandos {#monitoring-commands-}
+## Supervisión de comandos {#monitoring-commands-}
 
 >[!NOTE]
 >
 >Para enumerar todos los módulos, debe utilizar la variable **nlserver pdump** comando.
 
-Puede añadir el parámetro **-who** para listar las conexiones en curso (base de datos y aplicación).
+Puede añadir el parámetro **-who** para enumerar las conexiones en curso (base de datos y aplicación).
 
 ```
 nlserver pdump -who
@@ -62,9 +62,9 @@ Datasource Server Provider Login
 default xxxxx myserver myprovider test400
 ```
 
-Otro comando útil es **nlserver monitor**. Enumera el archivo XML de monitorización (obtenido en el cliente de Adobe Campaign o a través del **monitor.jsp** página web).
+Otro comando útil es **monitor nlserver**. Muestra el archivo XML de monitorización (obtenido en el cliente de Adobe Campaign o a través de la variable **monitor.jsp** página web).
 
-Puede añadir el parámetro **-missing** para enumerar los módulos ausentes (error en módulos, módulos apagados, etc.)
+Puede añadir el parámetro **-falta** para enumerar los módulos ausentes (error en módulos, módulos cerrados, etc.)
 
 ```
 nlserver monitor -missing
@@ -76,9 +76,9 @@ wfserver@test
 
 Esto corresponde a los módulos con inicio automático pero que no se han iniciado.
 
-## Comandos de inicio del módulo {#module-launch-commands}
+## Comandos de lanzamiento del módulo {#module-launch-commands}
 
-La sintaxis para iniciar los módulos sigue teniendo el siguiente formato:
+La sintaxis para iniciar los módulos seguirá teniendo el siguiente formato:
 
 ```
 nlserver start <module>@<INSTANCE>
@@ -90,13 +90,13 @@ nlserver stop <module>@<INSTANCE>
 
 >[!NOTE]
 >
->**`<instance>`** corresponde al nombre de la instancia tal como se introdujo en los archivos de configuración, o **default** para módulos de instancia única.
+>**`<instance>`** corresponde al nombre de la instancia tal como se ha introducido en los archivos de configuración, o **predeterminado** para módulos de instancia mono.
 
-## Apagar servicios {#shut-down-services}
+## Cerrar servicios {#shut-down-services}
 
 Para detener los servicios de Adobe Campaign, utilice uno de los siguientes comandos:
 
-* Si tiene acceso raíz o administrador:
+* Si tiene acceso de administrador o raíz:
 
    * En Linux:
 
@@ -106,7 +106,7 @@ Para detener los servicios de Adobe Campaign, utilice uno de los siguientes coma
 
       >[!NOTE]
       >
-      >A partir de 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): **systemctl stop nlserver**
+      >A partir de la versión 20.1, se recomienda utilizar el siguiente comando (para Linux): **systemctl stop nlserver**
 
    * En Windows:
 
@@ -124,13 +124,13 @@ Para detener los servicios de Adobe Campaign, utilice uno de los siguientes coma
 
 Del mismo modo, para reiniciar Adobe Campaign puede utilizar uno de los siguientes comandos:
 
-* Si tiene acceso raíz o administrador:
+* Si tiene acceso de administrador o raíz:
 
    * En Linux: /etc/init.d/nlserver6 start
 
       >[!NOTE]
       >
-      >A partir de 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): **systemctl start nlserver**
+      >A partir de la versión 20.1, se recomienda utilizar el siguiente comando (para Linux): **systemctl start nlserver**
 
    * En Windows: net start nlserver6
 
@@ -138,9 +138,9 @@ Del mismo modo, para reiniciar Adobe Campaign puede utilizar uno de los siguient
 
 ## El comando config {#the-config-command}
 
-La variable **config** permite administrar la configuración del servidor, incluida la reconfiguración de la conexión de base de datos.
+El **config** El comando permite administrar la configuración del servidor, incluida la reconfiguración de la conexión de base de datos.
 
-Utilice la variable **config** del **nlserver** archivo ejecutable con **-setdblogin** parámetro.
+Utilice el **config** al mando del **nlserver** archivo ejecutable con **-setdblogin** parámetro.
 
 ```
 nlserver config -setdblogin:<[dbms:]account[:database][/password]@server>
@@ -152,16 +152,16 @@ nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 
 Introduzca la contraseña.
 
-Para cambiar el **internal** contraseña: **nlserver config -internalpassword**
+Para cambiar el **interno** contraseña: **nlserver config -internalpassword**
 
 >[!IMPORTANT]
 >
->Para iniciar sesión con el **Internas** , debe haber definido previamente una contraseña. Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
+>Para iniciar sesión con **Interno** identificador, debe haber definido una contraseña previamente. Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 >[!NOTE]
 >
->* En general, en lugar de modificar los archivos de configuración a mano, puede utilizar la variable **config** command
->* Para obtener la lista de parámetros, utilice la variable **-?** parámetro: **nlserver config -?**
+>* En general, en lugar de modificar los archivos de configuración manualmente, puede utilizar el **config** mando
+>* Para obtener la lista de parámetros, utilice el **-?** parámetro: **Configuración de nlserver -?**
 >* En el caso de una base de datos de Oracle, no debe especificar la cuenta. La sintaxis es la siguiente:
 >
 >  nlserver config -setdblogin:Oracle:test6@dbserver

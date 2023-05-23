@@ -3,12 +3,12 @@ product: campaign
 title: Disponibilidad de la consola de cliente para Windows
 description: Disponibilidad de la consola de cliente para Windows
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 4%
@@ -19,11 +19,11 @@ ht-degree: 4%
 
 
 
-Para que los usuarios de Adobe Campaign puedan iniciar sesión en la instancia que ha creado y configurado, deben utilizar la consola del cliente.
+Para que los usuarios de Adobe Campaign puedan iniciar sesión en la instancia que ha creado y configurado, deben utilizar la consola de cliente.
 
-## Disponibilidad de la consola del cliente
+## Hacer que la consola de cliente esté disponible
 
-Cuando el equipo solía iniciar un servidor de aplicaciones de Adobe Campaign (**nlserver web**) recibe conexiones de usuario desde la consola del cliente, puede configurarla para que el programa de configuración del cliente enriquecido de Adobe Campaign esté disponible a través de una interfaz de HTML. Siempre que hay disponible una nueva versión de la consola del cliente, se invita a los usuarios a descargarla al iniciar la consola del cliente.
+Cuando el equipo utilizado para iniciar un servidor de aplicaciones de Adobe Campaign (**nlserver web**) recibe conexiones de usuario desde la consola del cliente, puede configurarlas para que el programa de instalación del cliente enriquecido de Adobe Campaign esté disponible a través de una interfaz de HTML. Siempre que haya una nueva versión de la consola del cliente disponible, se invita a los usuarios a descargarla al iniciar la consola del cliente.
 
 Para ello, debe:
 
@@ -46,14 +46,14 @@ Obtenga información sobre cómo instalar la consola [en esta sección](../../in
 
 ## Proponer a los usuarios finales que actualicen su consola de cliente
 
-Una vez que la consola está disponible en la carpeta del servidor de Campaign, se invita a los usuarios a descargar la última versión de la consola del cliente en una ventana de solicitud dedicada. Adobe recomienda dejar la opción **[!UICONTROL No longer ask this question]** no está seleccionado para asegurarse de que todos los usuarios reciben una alerta cuando hay una nueva versión de la consola disponible.
+Una vez que la consola esté disponible en la carpeta del servidor de Campaign, se invita a los usuarios a descargar la última versión de la consola del cliente en una ventana de solicitud dedicada. El Adobe recomienda dejar la opción **[!UICONTROL No longer ask this question]** deseleccionada para asegurarse de que todos los usuarios reciben una alerta cuando hay una nueva versión de la consola disponible.
 
-Si selecciona esta opción y decide no descargar la última versión, ningún otro usuario estará informado de las nuevas versiones disponibles.
+Si selecciona esta opción y decide no descargar la versión más reciente, no se informará a ningún otro usuario de las nuevas versiones disponibles.
 
-Si se seleccionó la opción , puede restablecer esta solicitud. Solo los administradores del sistema que estén cómodos con la edición de Windows Registry deben realizar estos cambios:
+Si la opción se seleccionó, puede restablecer este mensaje. Solo los administradores de sistema que se sientan cómodos con la edición del Registro de Windows deben realizar estos cambios:
 
-1. Abra el Editor del Registro utilizando **regedit** desde el **[!UICONTROL Start > Run]** para abrir el Navegador.
-1. Busque el nodo y expórtelo.
+1. Abra el Editor del Registro con la variable **regedit** desde el **[!UICONTROL Start > Run]** menú.
+1. Busque el nodo y expándalo.
 
    ```
    \HKEY_CURRENT_USER\Software\Neolane\NL_6\nlclient

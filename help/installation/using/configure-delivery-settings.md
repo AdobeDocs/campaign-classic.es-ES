@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: Configuración de envío de campaña
-description: Obtenga información sobre cómo configurar la configuración de Entrega de campañas
+description: Obtenga información sobre cómo configurar las opciones de entrega de Campaign
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 5%
@@ -21,25 +21,25 @@ ht-degree: 5%
 
 Los parámetros de envío deben configurarse en la variable **serverConf.xml** carpeta.
 
-* **Configuración de DNS**: especifique el dominio de entrega y las direcciones IP (o host) de los servidores DNS utilizados para responder a consultas DNS de tipo MX realizadas por el módulo MTA desde el **`<dnsconfig>`** en adelante.
+* **Configuración de DNS**: especifique el dominio de envío y las direcciones IP (o host) de los servidores DNS utilizados para responder a consultas DNS de tipo MX realizadas por el módulo MTA desde **`<dnsconfig>`** en adelante.
 
    >[!NOTE]
    >
-   >La variable **nameServers** es esencial para una instalación en Windows. Para una instalación en Linux, debe dejarse vacía.
+   >El **nameServers** es esencial para una instalación en Windows. Para una instalación en Linux, debe dejarse vacío.
 
    ```
    <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
    ```
 
-También puede realizar las siguientes configuraciones según sus necesidades y configuraciones: configurar un [Retransmisión SMTP](#smtp-relay), adaptar el número de [Procesos secundarios de MTA](#mta-child-processes), [Administrar tráfico SMTP saliente](#managing-outbound-smtp-traffic-with-affinities).
+También puede realizar las siguientes configuraciones según sus necesidades y configuraciones: configure un [retransmisión SMTP](#smtp-relay), adapte el número de [Procesos secundarios de MTA](#mta-child-processes), [Administrar tráfico SMTP saliente](#managing-outbound-smtp-traffic-with-affinities).
 
-## Retransmisión SMTP {#smtp-relay}
+## retransmisión SMTP {#smtp-relay}
 
 El módulo MTA actúa como agente de transferencia de correo nativo para la difusión SMTP (puerto 25).
 
-Sin embargo, es posible reemplazarlo por un servidor de transmisión si la política de seguridad lo requiere. En ese caso, el rendimiento global será el de transmisión (siempre que el rendimiento del servidor de transmisión sea inferior al de Adobe Campaign).
+Sin embargo, es posible reemplazarlo por un servidor de transmisión si la directiva de seguridad lo requiere. En ese caso, el rendimiento global será el de retransmisión (siempre que el rendimiento del servidor de retransmisión sea inferior al de Adobe Campaign).
 
-En este caso, estos parámetros se establecen configurando el servidor SMTP en la variable **`<relay>`** para obtener más información. Debe especificar la dirección IP (o el host) del servidor SMTP utilizado para transferir el correo y su puerto asociado (25 de forma predeterminada).
+En este caso, estos parámetros se establecen configurando el servidor SMTP en la **`<relay>`** sección. Debe especificar la dirección IP (o host) del servidor SMTP utilizado para transferir correo y su puerto asociado (25 de forma predeterminada).
 
 ```
 <relay address="192.0.0.3" port="25"/>
@@ -47,11 +47,11 @@ En este caso, estos parámetros se establecen configurando el servidor SMTP en l
 
 >[!IMPORTANT]
 >
->Este modo operativo implica serias limitaciones en los envíos, ya que puede reducir en gran medida el rendimiento debido al rendimiento intrínseco del servidor de transmisión (latencia, ancho de banda...). Además, la capacidad para clasificar los errores de envío sincrónico (detectados mediante el análisis del tráfico SMTP) será limitada y el envío no será posible si el servidor de transmisión no está disponible.
+>Este modo operativo implica serias limitaciones en las entregas, ya que puede reducir en gran medida el rendimiento debido al rendimiento intrínseco del servidor de transmisión (latencia, ancho de banda...). Además, la capacidad para clasificar los errores de envío sincrónico (detectados mediante el análisis del tráfico SMTP) estará limitada y el envío no será posible si el servidor de retransmisión no está disponible.
 
 ## Procesos secundarios de MTA {#mta-child-processes}
 
-Es posible controlar el número de procesos secundarios (maxSpareServers de forma predeterminada 2) para optimizar el rendimiento de difusión según la potencia de CPU de los servidores y los recursos de red disponibles. Esta configuración se debe realizar en la variable **`<master>`** de la configuración de MTA en cada equipo individual.
+Es posible controlar el número de procesos secundarios (maxSpareServers de forma predeterminada 2) para optimizar el rendimiento de difusión según la potencia de CPU de los servidores y los recursos de red disponibles. Esta configuración se debe realizar en el **`<master>`** de la configuración de MTA en cada equipo individual.
 
 ```
 <master dataBasePoolPeriodSec="30" dataBaseRetryDelaySec="60" maxSpareServers="2" minSpareServers="0" startSpareServers="0">
@@ -59,11 +59,11 @@ Es posible controlar el número de procesos secundarios (maxSpareServers de form
 
 Consulte también [Optimización del envío de correo electrónico](../../installation/using/email-deliverability.md#email-sending-optimization).
 
-## Administrar tráfico SMTP saliente con afinidades {#managing-outbound-smtp-traffic-with-affinities}
+## Administrar el tráfico SMTP saliente con afinidades {#managing-outbound-smtp-traffic-with-affinities}
 
 >[!IMPORTANT]
 >
->La configuración de afinidad debe ser coherente de un servidor a otro. Le recomendamos que se ponga en contacto con Adobe para la configuración de afinidad, ya que los cambios de configuración deben replicarse en todos los servidores de aplicaciones que ejecuten el MTA.
+>La configuración de afinidad debe ser coherente de un servidor a otro. Le recomendamos que se ponga en contacto con el Adobe de para obtener información sobre la configuración de afinidad, ya que los cambios de configuración deben replicarse en todos los servidores de aplicaciones que ejecuten el MTA.
 
 Puede mejorar el tráfico SMTP saliente mediante afinidades con direcciones IP.
 
@@ -82,7 +82,7 @@ Para ello, siga los siguientes pasos:
 
    Para ver los parámetros relevantes, consulte la **serverConf.xml** archivo.
 
-1. Para habilitar la selección de afinidad en las listas desplegables, debe agregar los nombres de afinidad en la **IPAffinity** lista desglosada.
+1. Para habilitar la selección de afinidad en las listas desplegables, debe añadir los nombres de afinidad en la **IPAffinity** enumeración.
 
    ![](assets/ipaffinity_enum.png)
 
@@ -96,7 +96,7 @@ Para ello, siga los siguientes pasos:
 
    >[!NOTE]
    >
-   >También puede consultar [Configuración del servidor de entrega](../../installation/using/email-deliverability.md#delivery-server-configuration).
+   >También puede consultar [Configuración del servidor de envío](../../installation/using/email-deliverability.md#delivery-server-configuration).
 
 **Temas relacionados**
 * [Configuraciones técnicas de correo electrónico](email-deliverability.md)

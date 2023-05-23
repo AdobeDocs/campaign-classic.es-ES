@@ -3,12 +3,12 @@ product: campaign
 title: Servidor de aplicaciones
 description: Servidor de aplicaciones
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=en" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: a5762cd21a1a6d5a5f3a10f53a5d1f43542d99d4
+source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 1%
@@ -19,35 +19,35 @@ ht-degree: 1%
 
 
 
-Las capas de acceso a la base de datos necesarias deben estar instaladas en el servidor y ser accesibles desde la cuenta de Adobe Campaign.
+Las capas de acceso a la base de datos requeridas deben estar instaladas en el servidor y ser accesibles desde la cuenta de Adobe Campaign.
 
 ## Kit de desarrollo de Java: JDK {#java-development-kit---jdk}
 
-El generador de páginas web dinámicas utiliza la tecnología JSP 1.2. Para esto, se incluye un motor Tomcat (de Apache) en la aplicación. Requiere un Kit de desarrollo de Java (JDK), instalado en todos los servidores en los que está instalada la aplicación de Adobe Campaign.
+El generador de páginas web dinámicas utiliza la tecnología JSP 1.2. Para ello, se incluye un motor Tomcat (de Apache) en la aplicación. Requiere un kit de desarrollo de Java (JDK) instalado en todos los servidores en los que está instalada la aplicación de Adobe Campaign.
 
-Primero debe instalar un JDK en los equipos en los que desea ejecutar el servidor de aplicaciones de Adobe Campaign (**nlserver web** ) porque incorpora un contenedor de servlet, Apache Tomcat, que se utiliza para generar páginas web dinámicas (informes, formularios web, etc.).
+Primero debe instalar un JDK en los equipos en los que desea ejecutar el servidor de aplicaciones de Adobe Campaign (**nlserver web** ) porque incorpora un contenedor de servlet, Apache Tomcat, utilizado para generar páginas web dinámicas (informes, formularios web, etc.).
 
-La solicitud ha sido aprobada para el Kit de desarrollo de Java (JDK) desarrollado por el Oracle, así como para **OpenJDK**.
+La aplicación ha sido aprobada para el Kit de Desarrollo de Java (JDK) desarrollado por el Oracle, así como para **OpenJDK**.
 
 Las versiones compatibles se detallan en Campaign [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 
 >[!NOTE]
 >
->Se puede instalar utilizando la versión JDK adecuada que ya utilizan otras aplicaciones del equipo.
+>Se puede instalar con la versión JDK adecuada que ya usan otras aplicaciones del equipo.
 >  
->Al instalar, no es necesario que realice la integración con los exploradores web.
+>Al instalar, no es necesario realizar la integración con los exploradores web.
 >
->En un equipo que solo ejecuta agentes de envío (**mta nlserver** proceso) o el servidor de flujo de trabajo (**nlserver wfserver** ), no es necesario instalar un JDK.
+>En un equipo que solo ejecuta agentes de envío (**mta de nlserver** ) o el servidor de flujo de trabajo (**nlserver wfserver** ), no es necesario instalar un JDK.
 
-Para descargar Java JDK, conéctese a: [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
+Para descargar el JDK de Java, conecte a: [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
 **Advertencia: debe descargar un JDK, no un JRE.**
 
 >[!CAUTION]
 >
->Para conservar el rendimiento de las operaciones de la plataforma y garantizar la compatibilidad con la versión instalada, debe deshabilitar las funciones de actualización automática de JDK en Windows y Linux.
+>Para conservar el rendimiento de las operaciones de la plataforma y garantizar la compatibilidad con la versión instalada, debe desactivar las funciones de actualización automática del JDK en Windows y Linux.
 
-Para instalar JDSL en un entorno Linux, es preferible utilizar un gestor de paquetes.
+Para instalar JDSL en un entorno Linux, es preferible utilizar un administrador de paquetes.
 
 En Debian 8 y 9, utilice el siguiente comando:
 
@@ -63,24 +63,24 @@ yum install java-1.8.0-openjdk
 
 ## OpenSSL {#openssl}
 
-En Linux, OpenSSL debe estar instalado. Adobe Campaign es compatible con OpenSSL versión 1.0.2 o superior.
+En Linux, OpenSSL debe estar instalado. Adobe Campaign admite la versión 1.0.2 o superior de OpenSSL.
 
 ## Exportación de informes {#exporting-reports}
 
-Adobe Campaign permite exportar informes de plataforma en formato Microsoft Excel y Adobe PDF. Para el formato de Excel de Microsoft, Adobe Campaign utiliza **LibreOffice**. Para el formato Adobe PDF, Adobe Campaign utiliza la variable **PhantomJS** convertidor. PhantomJs está incluido en el paquete de fábrica y LibreOffice debe estar instalado en los equipos en los que se ejecuta el servidor de aplicaciones de Adobe Campaign (**nlserver web** proceso).
+Adobe Campaign permite exportar informes de plataforma en formato Microsoft Excel y Adobe PDF. Para el formato de Microsoft Excel, Adobe Campaign utiliza **LibreOffice**. Para el formato Adobe PDF, Adobe Campaign utiliza el **PhantomJS** convertidor. PhantomJs está incluido en el paquete de fábrica y LibreOffice debe instalarse en los equipos en los que se ejecuta el servidor de aplicaciones de Adobe Campaign (**nlserver web** proceso).
 
 >[!NOTE]
 >
->Para Linux, necesitará añadir fuentes. Para obtener más información, consulte [Fuentes para las estadísticas de MTA](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-mta-statistics).
+>En Linux, tendrá que añadir fuentes. Para obtener más información, consulte [Fuentes para estadísticas de MTA](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#fonts-for-mta-statistics).
 
 ## SpamAssassin {#spamassassin}
 
-SpamAssassin permite asignar una puntuación a los correos electrónicos para determinar si un mensaje corre el riesgo de ser considerado como no deseado por las herramientas antispam utilizadas en la recepción. La instalación es opcional.
+SpamAssassin le permite asignar una puntuación a los correos electrónicos para determinar si un mensaje corre el riesgo de ser considerado como no deseado por las herramientas de filtrado de correo no deseado utilizadas durante la recepción. La instalación es opcional.
 
-La calificación de correos electrónicos como no deseados por SpamAssassin se basa completamente en reglas de filtrado y puntuación. Por lo tanto, estas reglas deben actualizarse al menos una vez al día para que la instalación de SpamAssassin y su integración en Adobe Campaign sean completamente funcionales y para garantizar la relevancia de las puntuaciones asignadas a los envíos antes de enviarlos. Esta actualización es responsabilidad del administrador del servidor que aloja SpamAssassin.
+La calificación de correos electrónicos como no deseados por SpamAssassin se basa completamente en reglas de filtrado y puntuación. Por lo tanto, estas reglas deben actualizarse al menos una vez al día para que la instalación de SpamAssassin y su integración en Adobe Campaign sean completamente funcionales y garanticen la relevancia de las puntuaciones asignadas a los envíos antes de enviarlos. Esta actualización es responsabilidad del administrador del servidor que aloja SpamAssassin.
 
 La versión mínima admitida es: **3,4**
 
-SpamAssassin requiere un acceso HTTP a Internet (tcp/80).
+SpamAssassin requiere un acceso a Internet HTTP (tcp/80).
 
-Las etapas de instalación y configuración de SpamAssassin se presentan en [Configuración de SpamAssassin](../../installation/using/configuring-spamassassin.md).
+Las fases de instalación y configuración de SpamAssassin se presentan en [Configuración de SpamAssassin](../../installation/using/configuring-spamassassin.md).
