@@ -59,7 +59,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. Por favor [actualizar a la última versión](../../production/using/build-upgrade.md)  o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. Por favor [actualice a la última versión](../../production/using/build-upgrade.md)  o contacto [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Mejoras**
 
@@ -83,7 +83,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. Por favor [actualizar a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. Por favor [actualice a la última versión](../../production/using/build-upgrade.md) o contacto [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Mejoras**
 
@@ -105,7 +105,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. Por favor [actualizar a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. Por favor [actualice a la última versión](../../production/using/build-upgrade.md) o contacto [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Novedades**
 
@@ -141,7 +141,7 @@ ht-degree: 97%
 
 * Se ha corregido un problema de seguridad que podría provocar vulnerabilidades en los ataques de Forgery de solicitudes de servidor (SSRF) y ataques de denegación de servicio (DoS). (NEO-11453)
 * Ahora, Campaign ofrecerá el contenido (seguimiento de redirecciones, páginas espejo, encuestas, etc.) con el encabezado X-Robots-Tag: nocache. Esto evita la indexación de este contenido por motores de búsqueda de Internet. (NEO-11101)
-* Se ha corregido un problema de inyección de XTK en la API de suscripción (nms):subscription:Cancelación de suscripción y nms:subscription:Suscribirse).
+* Se ha corregido un problema de inyección de XTK en API de suscripción (nms):subscription:Cancelar suscripción y nms:subscription:Suscribirse).
 * Se ha corregido un problema de inyección de XTK en la aplicación web para cancelar la suscripción.
 * Se han eliminado contraseñas que se mostraban en algunos registros SMS.
 
@@ -250,7 +250,7 @@ Estos cambios de índice pueden producir un aumento del tiempo necesario para re
 
 >[!CAUTION]
 >
->Se ha retirado esta compilación. Por favor [actualizar a la última versión](../../production/using/build-upgrade.md) o póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Se ha retirado esta compilación. Por favor [actualice a la última versión](../../production/using/build-upgrade.md) o contacto [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 **Novedades**
 
@@ -278,7 +278,7 @@ Estos cambios de índice pueden producir un aumento del tiempo necesario para re
 * Se ha corregido un problema que se producía al utilizar campos calculados en una actividad de flujo de trabajo **[!UICONTROL Survey answers]**. (NEO-11382)
 * Se ha actualizado Tomcat para evitar la explotación de vulnerabilidades. (NEO-11503)
 * Se ha corregido un error con la codificación LATIN1 al utilizar una conexión de FDA con una base de datos PostgreSQL. (NEO-11299)
-* Se ha corregido un problema que se producía al usar la variable **[!UICONTROL Prepare the personalization data with a workflow]** opción de envío. (NEO-11047)
+* Se ha corregido un problema que se producía al usar el **[!UICONTROL Prepare the personalization data with a workflow]** opción de envío. (NEO-11047)
 * Se ha corregido un problema posterior a la actualización que impedía la entrega de SMS al utilizar un conector extendido.
 * Se mejoró la importación/exportación de paquetes (se han añadido registros y regiones en la interfaz).
 * Se ha corregido un problema que mostraba errores no viables en el registro posterior de actualización cuando una actividad de flujo de trabajo **[!UICONTROL Survey answers]** no estaba completamente configurada.
@@ -392,7 +392,7 @@ Para los clientes existentes, las API de archivo ya no pueden acceder a la carpe
 * Se han mejorado los registros de archivos de correo electrónico, lo que facilita la comprobación de los mensajes de correo electrónico que se han entregado o no se han enviado correctamente a través del archivo BCC. (NEO-10675)
 * Se ha corregido un problema que provocaba la visualización de las direcciones IP del equilibrador de carga en lugar de las direcciones IP del cliente en los registros de seguimiento. (NEO-11295)
 * Se ha corregido un error con la codificación LATIN1 al utilizar una conexión de FDA con una base de datos PostgreSQL. (NEO-11299)
-* Se ha corregido un problema que se producía al usar la variable **[!UICONTROL Prepare the personalization data with a workflow]** opción de envío. (NEO-11047, NEO-11301)
+* Se ha corregido un problema que se producía al usar el **[!UICONTROL Prepare the personalization data with a workflow]** opción de envío. (NEO-11047, NEO-11301)
 * Se ha corregido un problema aleatorio que ocasionaba que las propiedades de una entrega se sobrescriban erróneamente. (NEO-11015)
 * Se ha corregido un problema que se producía al utilizar campos calculados en una actividad de flujo de trabajo **[!UICONTROL Survey answers]**. (NEO-11382)
 * Se ha corregido un problema que se producía al utilizar datos almacenados en XML en una actividad de flujo de trabajo **[!UICONTROL Survey answers]**. (NEO-10816)
@@ -443,7 +443,7 @@ Para los clientes existentes, las API de archivo ya no pueden acceder a la carpe
    <td> Reglamento General de Protección de Datos.<br /> </td> 
    <td> <p>El Reglamento General de Protección de Datos (RGPD) es la nueva normativa sobre privacidad de la Unión Europea que unifica y moderniza los requisitos de protección de datos y entrará en vigencia el 25 de mayo de 2018. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE.</p> <p>Además de las funcionalidades de privacidad disponibles en Adobe Campaign (incluida la administración de consentimiento, configuración de retención de datos y funciones de usuario), estamos tomando esta oportunidad en nuestro rol como procesador de datos para incluir funcionalidades adicionales, para ayudar a facilitar su preparación como controlador de datos para ciertas solicitudes de RGPD:</p> 
     <ul> 
-     <li> <p>Derecho de acceso: permite que el sujeto de datos reciba una copia de sus datos personales recopilados por los controladores de datos, lo que incluye datos almacenados en Adobe Campaign.</p> </li> 
+     <li> <p>Derecho de acceso: permite que el sujeto de datos reciba una copia de sus datos personales capturados por los controladores de datos, incluso los datos almacenados en Adobe Campaign.</p> </li> 
      <li> <p>Derecho a eliminación: autoriza al sujeto de datos a que sus datos personales recopilados por los controladores de datos se borren, lo que incluye datos almacenados en Adobe Campaign.</p> </li> 
     </ul> Para obtener más información, consulte la <a href="https://helpx.adobe.com/es/campaign/kb/acc-privacy.html">documentación detallada</a>.<br /> </td> 
   </tr> 

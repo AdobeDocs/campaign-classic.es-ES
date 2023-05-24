@@ -18,44 +18,44 @@ ht-degree: 5%
 
 
 
-Para esta configuración se requieren tres equipos:
+Para esta configuración, se requieren tres equipos:
 
-* Un servidor de aplicaciones dentro de la LAN para los usuarios finales (preparación de campañas, informes, etc.),
+* Un servidor de aplicaciones dentro de la LAN para los usuarios finales (preparación de campañas, creación de informes, etc.),
 * Dos servidores frontales en la DMZ detrás de un equilibrador de carga.
 
-Los dos servidores de la DMZ administran el seguimiento, las páginas espejo y el envío, y son redundantes para alta disponibilidad.
+Los dos servidores de la DMZ gestionan el seguimiento, las páginas espejo y el envío, y son redundantes para una alta disponibilidad.
 
-El servidor de aplicaciones de la LAN sirve a los usuarios finales y realiza todos los procesos recurrentes (motor de flujo de trabajo). Por lo tanto, cuando se alcanzan las cargas máximas en los servidores frontales, los usuarios de la aplicación no se ven afectados.
+El servidor de aplicaciones de la LAN sirve a los usuarios finales y realiza todos los procesos recurrentes (motor de flujo de trabajo). Por lo tanto, cuando se alcanzan cargas máximas en los servidores frontales, los usuarios de la aplicación no se ven afectados.
 
-El servidor de la base de datos puede alojarse en un equipo independiente de estos tres. De lo contrario, corresponde al servidor de aplicaciones y al servidor de bases de datos compartir el mismo equipo dentro de la LAN siempre que el sistema operativo sea compatible con Adobe Campaign (Linux o Windows).
+El servidor de bases de datos puede alojarse en un equipo independiente de estos tres. De lo contrario, el servidor de aplicaciones y el servidor de base de datos comparten el mismo equipo dentro de la LAN siempre que el sistema operativo sea compatible con Adobe Campaign (Linux o Windows).
 
-La comunicación general entre servidores y procesos se realiza según el esquema siguiente:
+La comunicación general entre servidores y procesos se realiza según el siguiente esquema:
 
 ![](assets/s_001_ncs_install_standardconfig.png)
 
-Este tipo de configuración puede gestionar un gran número de destinatarios (de 500.000 a 1.000.000), ya que el servidor de la base de datos (y el ancho de banda disponible) es el principal factor limitante.
+Este tipo de configuración puede gestionar un gran número de destinatarios (de 500 000 a 1 000 000), ya que el servidor de bases de datos (y el ancho de banda disponible) es el principal factor limitante.
 
 ## Funciones {#features}
 
 ### Ventajas {#advantages}
 
-* Funcionalidad de conmutación por error: la capacidad de cambiar los procesos a un equipo en caso de un problema de hardware en el otro.
-* Mejor rendimiento general, ya que las funciones de MTA y redirección se pueden implementar en ambos equipos detrás de un equilibrador de carga. Con dos MTA activos y suficiente ancho de banda, es posible lograr tasas de difusión en la región de 100.000 correos por hora.
+* Funcionalidad de conmutación por error: la capacidad de cambiar procesos a un equipo en caso de problemas de hardware en el otro.
+* Mejor rendimiento general, ya que las funciones de MTA y redirección se pueden implementar en ambos equipos detrás de un equilibrador de carga. Con dos MTA activos y suficiente ancho de banda, es posible alcanzar tasas de emisión en la región de 100 000 correos por hora.
 
 ## Pasos de instalación y configuración {#installation-and-configuration-steps}
 
 ### Requisitos previos {#prerequisites}
 
 * JDK en los tres equipos,
-* Servidor web (IIS, Apache) en ambos frontales,
-* Acceso a un servidor de bases de datos en los tres equipos,
-* Buzón de rebote accesible mediante POP3,
+* Servidor web (IIS, Apache) en ambos frentes,
+* Acceso a un servidor de base de datos en los tres equipos,
+* Buzón de rechazos accesible a través de POP3,
 * Creación de dos alias DNS:
 
-   * el primero expuesto al público para rastrear y señalar al equilibrador de carga en una dirección IP virtual (VIP) y que luego se distribuye a los dos servidores frontales,
-   * el segundo se expone a los usuarios internos para acceder a través de la consola y señala al mismo servidor de aplicaciones.
+   * VIP la primera expuesta al público para el seguimiento y señalamiento del equilibrador de carga en una dirección IP virtual () y que luego se distribuye a los dos servidores frontales,
+   * el segundo se expone a los usuarios internos para que accedan a él a través de la consola y que señala al mismo servidor de aplicaciones.
 
-* Cortafuegos configurado para abrir STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 para Oracle, 5432 para PostgreSQL, etc.) puertos. Para obtener más información, consulte la sección [Acceso a la base de datos](../../installation/using/network-configuration.md#database-access).
+* Firewall configurado para abrir STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 para Oracle, 5432 para PostgreSQL, etc.) puertos. Para obtener más información, consulte esta sección [Acceso a base de datos](../../installation/using/network-configuration.md#database-access).
 
 ### Instalación del servidor de aplicaciones {#installing-the-application-server}
 
@@ -66,9 +66,9 @@ Dado que el equipo no es un servidor de seguimiento, no tenga en cuenta la integ
 En los ejemplos siguientes, los parámetros de la instancia son:
 
 * Nombre de la instancia: **demostración**
-* Máscara DNS: **console.campaign.net&#42;** (solo para conexiones de consola del cliente y para informes)
-* Idioma: Inglés
-* Base de datos: **campaña:demo@dbsrv**
+* Máscara DNS: **console.campaign.net&#42;** (solo para conexiones de consola de cliente y para informes)
+* Idioma: inglés
+* Base de datos: **campaign:demo@dbsrv**
 
 ### Instalación de los dos servidores frontales {#installing-the-two-frontal-servers}
 
@@ -85,7 +85,7 @@ Los pasos son los siguientes:
    * Para Linux: [Integración en un servidor web para Linux](../../installation/using/integration-into-a-web-server-for-linux.md)
    * Para Windows: [Integración en un servidor web para Windows](../../installation/using/integration-into-a-web-server-for-windows.md)
 
-1. Cree la variable **demostración** instancia. Hay dos formas de hacerlo:
+1. Cree el **demostración** ejemplo. Hay dos formas de hacerlo:
 
    * Cree la instancia a través de la consola:
 
@@ -104,9 +104,9 @@ Los pasos son los siguientes:
       Para obtener más información, consulte [Creación de una instancia](../../installation/using/command-lines.md#creating-an-instance).
    El nombre de la instancia es el mismo que el del servidor de aplicaciones.
 
-   La conexión al servidor con la variable **nlserver web** (páginas espejo, baja) se realizará a partir de la dirección URL del equilibrador de carga (tracking.campaign.net).
+   La conexión al servidor con el **nlserver web** (páginas espejo, baja) se realizará desde la URL del equilibrador de carga (tracking.campaign.net).
 
-1. Cambie el **internal** al mismo que el servidor de aplicaciones.
+1. Cambie el **interno** al mismo que el servidor de aplicaciones.
 
    Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
@@ -116,11 +116,11 @@ Los pasos son los siguientes:
    nlserver config -setdblogin:PostgreSQL:campaign:demo@dbsrv -instance:demo
    ```
 
-1. En el **config-default.xml** y **config-demo.xml** archivos, habilite **web**, **trackinglogd** y **mta** módulos.
+1. En el **config-default.xml** y **config-demo.xml** , habilite la opción **web**, **trackinglogd** y **mta** módulos.
 
    Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
-1. Edite el **serverConf.xml** y rellene:
+1. Edite el **serverConf.xml** archivo y rellenar:
 
    * la configuración DNS del módulo MTA:
 
@@ -130,9 +130,9 @@ Los pasos son los siguientes:
 
       >[!NOTE]
       >
-      >La variable **nameServers** solo se usa en Windows.
+      >El **nameServers** El parámetro solo se utiliza en Windows.
 
-      Para obtener más información, consulte [Configuración de entrega](configure-delivery-settings.md).
+      Para obtener más información, consulte [Configuración de envío](configure-delivery-settings.md).
 
    * los servidores de seguimiento redundantes en los parámetros de redirección:
 
@@ -145,7 +145,7 @@ Los pasos son los siguientes:
 
 1. Inicie el sitio web y pruebe la redirección desde la dirección URL: [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
 
-   El explorador debe mostrar los siguientes mensajes (en función de la URL redireccionada por el equilibrador de carga):
+   El explorador debe mostrar los siguientes mensajes (según la URL redirigida por el equilibrador de carga):
 
    ```
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv1"/>
@@ -163,7 +163,7 @@ Los pasos son los siguientes:
    * Para Windows: [Inicio del servidor web y prueba de la configuración](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
 1. Inicie el servidor de Adobe Campaign.
-1. En la consola de Adobe Campaign, conéctese utilizando la **admin** inicie sesión sin contraseña e inicie el asistente de implementación.
+1. En la consola de Adobe Campaign, conéctese con el **administrador** inicie sesión sin contraseña e inicie el asistente de implementación.
 
    Para obtener más información, consulte [Implementación de una instancia](../../installation/using/deploying-an-instance.md).
 
@@ -177,4 +177,4 @@ Los pasos son los siguientes:
 
    >[!NOTE]
    >
-   >Utilizamos la instancia existente de los dos servidores de seguimiento creados anteriormente y usamos la variable **internal** inicio de sesión.
+   >Utilizamos la instancia existente de los dos servidores de seguimiento creados anteriormente y utilizamos el **interno** iniciar sesión.

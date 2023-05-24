@@ -19,11 +19,11 @@ ht-degree: 4%
 
 ## Modelo de contenido {#content-model-16}
 
-value:==help
+valor:==ayuda
 
 ## Atributos {#attributes-16}
 
-* @applyIf (cadena)
+* @applicableIf (cadena)
 * @desc (cadena)
 * @enabledIf (cadena)
 * @img (cadena)
@@ -31,7 +31,7 @@ value:==help
 * @name (cadena)
 * @value (cadena)
 
-## Principales {#parents-16}
+## Padres {#parents-16}
 
 `<enumeration>`
 
@@ -43,15 +43,15 @@ value:==help
 
 Este elemento permite definir los valores almacenados en una enumeración.
 
-## Descripción del atributo {#attribute-description-16}
+## Descripción de atributo {#attribute-description-16}
 
-* **applyIf (cadena)**: este atributo permite hacer que un valor de enumeración sea opcional. Recibe una expresión XTK.
+* **applyIf (cadena)**: este atributo permite hacer opcional un valor de enumeración. Recibe una expresión XTK.
 * **desc (cadena)**: descripción del valor de enumeración.
 * **enabledIf (cadena)**: condición para activar el valor de enumeración.
 * **img (cadena)**: imagen vinculada a la enumeración en el formulario &quot;namespace:image_name&quot;. La imagen debe importarse en el servidor de aplicaciones.
 * **label (cadena)**: etiqueta del valor de enumeración.
-* **name (cadena)**: nombre interno del valor de enumeración.
-* **value (string)**: del valor de enumeración. El tipo de valor se define en función del tipo de enumeración. Si la enumeración es de tipo cadena de caracteres, solo puede contener valores de tipo cadena de caracteres.
+* **nombre (cadena)**: nombre interno del valor de enumeración.
+* **value (string)**: valor del valor de enumeración. El tipo de valor se define en función del tipo de enumeración. Si la enumeración es del tipo cadena de caracteres, sólo puede contener valores de tipo cadena de caracteres.
 
 ## Ejemplos {#examples-13}
 

@@ -20,11 +20,11 @@ ht-degree: 17%
 
 Se puede configurar una zona de búfer de datos para aumentar el rendimiento de interacción entrante desincronizando los cálculos de propuesta de oferta. Esta configuración se debe llevar a cabo en el archivo de configuración propio de la instancia (config-Instance.xml).
 
-En Adobe Campaign, una **zona de búfer de datos** se ha introducido en el módulo Interacción. Esto le permite **aumentar el rendimiento** de interacción entrante desincronizando los cálculos de stock y oferta.
+En Adobe Campaign, una **zona de búfer de datos** se ha introducido en el módulo de interacción. Esto le permite **aumentar rendimiento** de interacción entrante desincronizando los cálculos de stock y oferta.
 
-Solo se refiere a la interacción entrante, ya sea por una llamada (con o sin datos de llamada) o por una actualización de estado (updateStatus).
+Solo afecta a la interacción entrante, ya sea mediante una llamada (con o sin datos de llamada) o mediante una actualización de estado (updateStatus).
 
-Para evitar una cola al escribir propuestas relacionadas con un destinatario, un nuevo proceso genera un **zona de búfer de datos** que permite que las propuestas sean **escrito asincrónicamente**. Esta zona de búfer de datos se lee y vacía periódicamente. El periodo predeterminado es de aproximadamente un segundo. Por lo tanto, la escritura de propuestas se agrupa.
+Para evitar una cola al escribir propuestas relacionadas con un destinatario, un nuevo proceso w genera un **zona de búfer de datos** que permite que las propuestas se **escrito asincrónicamente**. Esta zona de búfer de datos se lee y se vacía periódicamente. El periodo predeterminado es de aproximadamente un segundo. Por lo tanto, la escritura de propuestas se agrupa.
 
 >[!NOTE]
 >
@@ -34,15 +34,15 @@ Zona de búfer de datos **configuración** se puede realizar en el archivo de co
 
 >[!CAUTION]
 >
->Algunas configuraciones solo se pueden realizar mediante Adobe para implementaciones alojadas en Adobe. Por ejemplo, para acceder a los archivos de configuración del servidor y de la instancia. Para obtener más información sobre las diferentes implementaciones, consulte la [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
+>Algunas configuraciones solo se pueden realizar mediante el Adobe para implementaciones alojadas por el Adobe. Por ejemplo, para acceder a los archivos de configuración del servidor y de la instancia. Para obtener más información sobre las distintas implementaciones, consulte la [Modelos de alojamiento](../../installation/using/hosting-models.md) o a [esta página](../../installation/using/capability-matrix.md).
 >
->Cualquier cambio realizado en la configuración requiere un reinicio del servidor web (Apache:IIS) y de los procesos de Adobe Campaign.\
->Después de configurar la zona de búfer de datos, asegúrese de que hay disponible una configuración de hardware adaptada. (cantidad de memoria presente).
+>Cualquier cambio realizado en la configuración requiere el reinicio del servidor web (Apache:IIS) y de los procesos de Adobe Campaign.\
+>Después de configurar la zona de búfer de datos, asegúrese de que haya disponible una configuración de hardware adaptada. (cantidad de memoria presente).
 
 
-Después de configurar la zona de búfer de datos, asegúrese de que hay disponible una configuración de hardware adaptada. (cantidad de memoria presente).
+Después de configurar la zona de búfer de datos, asegúrese de que haya disponible una configuración de hardware adaptada. (cantidad de memoria presente).
 
-La definición de un demonio de escritura (proceso denominado: interacción) es la siguiente:
+La definición de un daemon de escritura (proceso denominado: interaction) es la siguiente:
 
 ```
 <interactiond args="" autoStart="false" callDataSize="0" initScript="" maxProcessMemoryAlertMb="1800"
@@ -50,7 +50,7 @@ maxProcessMemoryWarningMb="1600" maxSharedEntries="25000" nextOffersSize="0"
 processRestartTime="06:00:00" runLevel="10" targetKeySize="16"/>
 ```
 
-Si utiliza la interacción entrante, el atributo @autostart debe ser &quot;true&quot; para iniciar automáticamente el proceso cuando se inicie el servidor de Adobe Campaign.
+Si utiliza interacción entrante, el atributo @autostart debe ser &quot;true&quot; para iniciar automáticamente el proceso cuando se inicie el servidor de Adobe Campaign.
 
 Detalles del argumento:
 

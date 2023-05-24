@@ -21,29 +21,29 @@ ht-degree: 6%
 Esta es la configuración más completa. Se basa en la configuración estándar para la buena seguridad y disponibilidad:
 
 * servidores de redirección dedicados detrás de un equilibrador de carga HTTP o TCP, para escalabilidad y disponibilidad,
-* dos servidores de aplicaciones para mejorar el rendimiento y la capacidad de failover (tolerancia a fallas) y que están aislados en la LAN.
+* dos servidores de aplicaciones para mejorar el rendimiento y la capacidad de recuperación ante fallos (tolerancia ante fallos) y que están aislados en la LAN.
 
-La comunicación general entre servidores y procesos se realiza según el esquema siguiente:
+La comunicación general entre servidores y procesos se realiza según el siguiente esquema:
 
 ![](assets/s_901_ncs_install_enterpriseconfig.png)
 
-Con este tipo de configuración, el rendimiento esperado puede superar los 100.000 correos por hora con un ancho de banda y un ajuste adecuados.
+Con este tipo de configuración, el rendimiento esperado puede superar los 100 000 correos por hora con el ancho de banda y el ajuste adecuados.
 
 ## Funciones {#features}
 
 ### Ventajas {#advantages}
 
-* Seguridad optimizada: Sólo los servidores que necesitan estar expuestos al exterior están instalados en el equipo de la DMZ.
-* Alta disponibilidad, más fácil de asegurar: Sólo el equipo visible desde el exterior debe administrarse teniendo en cuenta la alta disponibilidad.
+* Seguridad optimizada: solo los servidores que necesitan estar expuestos al exterior se instalan en el equipo en la DMZ.
+* Alta disponibilidad más fácil de garantizar: solo el ordenador visible desde el exterior debe gestionarse teniendo en cuenta la alta disponibilidad.
 
 ### Desventajas {#disadvantages}
 
-Mayor costo de hardware y administración.
+Mayores costes de hardware y administración.
 
 ### Equipo recomendado {#recommended-equipment}
 
-* Servidores de aplicaciones: CPU de núcleo cuádruple de 2 Ghz, 4 GB de RAM, disco duro SATA RAID de software de 1 80 GB.
-* Servidores de redirección: CPU de núcleo cuádruple de 2 Ghz, 4 GB de RAM, disco duro SATA RAID de software de 1 80 GB.
+* Servidores de aplicaciones: CPU de núcleo cuádruple a 2 GHz, 4 GB de RAM, RAID de software, disco duro SATA de 80 GB.
+* Servidores de redirección: CPU de núcleo cuádruple a 2 GHz, 4 GB de RAM, disco duro SATA de 80 GB RAID por software.
 
 >[!NOTE]
 >
@@ -54,21 +54,21 @@ Mayor costo de hardware y administración.
 ### Requisitos previos {#prerequisites}
 
 * JDK en ambos servidores de aplicaciones,
-* Servidor web (IIS, Apache) en ambos frontales,
-* Acceso a un servidor de bases de datos en ambos servidores de aplicaciones.
-* Buzón de rebote accesible mediante POP3,
+* Servidor web (IIS, Apache) en ambos frentes,
+* Acceso a un servidor de base de datos en ambos servidores de aplicaciones,
+* Buzón de rechazos accesible a través de POP3,
 * Creación de dos alias DNS en el equilibrador de carga:
 
-   * el primero expuesto al público para rastrear y señalar al equilibrador de carga en una dirección IP virtual (VIP) y que luego se distribuye a los dos servidores frontales,
-   * el segundo se expone a los usuarios internos para acceder a través de la consola y señala a un equilibrador de carga en una dirección IP virtual (VIP) y que luego se distribuye a los dos servidores de aplicaciones.
+   * VIP la primera expuesta al público para el seguimiento y señalamiento del equilibrador de carga en una dirección IP virtual () y que luego se distribuye a los dos servidores frontales,
+   * VIP el segundo expuesto a los usuarios internos para el acceso a través de la consola y que apunta a un equilibrador de carga en una dirección IP virtual () y que luego se distribuye a los dos servidores de aplicaciones.
 
-* Cortafuegos configurado para abrir STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 para Oracle, 5432 para PostgreSQL, etc.) puertos. Para obtener más información, consulte la sección [Acceso a la base de datos](../../installation/using/network-configuration.md#database-access).
+* Firewall configurado para abrir STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 para Oracle, 5432 para PostgreSQL, etc.) puertos. Para obtener más información, consulte esta sección [Acceso a base de datos](../../installation/using/network-configuration.md#database-access).
 
 >[!CAUTION]
 >
->Si los servidores de aplicaciones apuntan a una instancia de base de datos única, después de importar un paquete estándar en una instancia, el esquema contenido en el paquete no se carga en la otra instancia.
+>Si los servidores de aplicaciones apuntan a una sola instancia de base de datos, después de importar un paquete estándar en una instancia, el esquema contenido en el paquete no se carga en la otra instancia.
 >  
->Si los servidores de aplicaciones señalan a una instancia de base de datos única, después de cambiar el esquema en una instancia, el esquema no se carga en la otra instancia.
+>Si los servidores de aplicaciones apuntan a una sola instancia de base de datos, después de cambiar el esquema en una instancia, el esquema no se carga en la otra instancia.
 >
 >Para recuperar estos problemas, debe reiniciar el proceso &quot;web@default&quot; en la segunda instancia en la que se produjo el error.
 
@@ -76,18 +76,18 @@ Mayor costo de hardware y administración.
 
 En los ejemplos siguientes, los parámetros de la instancia son:
 
-* Nombre de la instancia: demostración
-* Máscara DNS: tracking.campaign.net&#42;, console.campaign.net&#42; (el servidor de aplicaciones gestiona las direcciones URL para las conexiones e informes de la consola del cliente, así como para las páginas espejo y las páginas de baja)
-* Idioma: Inglés
-* Base de datos: campaña:demo@dbsrv
+* Nombre de la instancia: demo
+* Máscara DNS: tracking.campaign.net&#42;, console.campaign.net&#42; (el servidor de aplicaciones administra las direcciones URL de las conexiones e informes de la consola del cliente y de las páginas espejo y las páginas de baja)
+* Idioma: inglés
+* Base de datos: campaign:demo@dbsrv
 
-Los pasos para instalar el primer servidor son:
+Los pasos para instalar el primer servidor son los siguientes:
 
-1. Siga el procedimiento de instalación del servidor Adobe Campaign: **nlserver** paquete en Linux o **setup.exe** en Windows.
+1. Siga el procedimiento de instalación del servidor de Adobe Campaign: **nlserver** paquete en Linux o **setup.exe** en Windows.
 
    Para obtener más información, consulte [Requisitos previos para la instalación de Campaign en Linux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md) (Linux) y [Requisitos previos para la instalación de Campaign en Windows](../../installation/using/prerequisites-of-campaign-installation-in-windows.md) (Windows).
 
-1. Una vez instalado el servidor de Adobe Campaign, inicie el servidor de aplicaciones (web) con el comando **nlserver web -tomcat** (el módulo web le permite iniciar Tomcat en modo de servidor web independiente escuchando en el puerto 8080) y asegurarse de que Tomcat se inicia correctamente:
+1. Una vez instalado el servidor de Adobe Campaign, inicie el servidor de aplicaciones (web) con el comando **nlserver web -tomcat** (el módulo Web le permite iniciar Tomcat en modo de servidor web independiente escuchando en el puerto 8080) y asegurarse de que Tomcat se inicia correctamente:
 
    ```
    12:08:18 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -99,16 +99,16 @@ Los pasos para instalar el primer servidor son:
 
    >[!NOTE]
    >
-   >La primera vez que se ejecuta el módulo web, se crea la variable **config-default.xml** y **serverConf.xml** los archivos de **conf** en la carpeta de instalación. Todos los parámetros disponibles en la **serverConf.xml** aparecen en esta lista [sección](../../installation/using/the-server-configuration-file.md).
+   >La primera vez que se ejecuta el módulo web, crea el **config-default.xml** y **serverConf.xml** archivos en la **conf** en la carpeta de instalación. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
 
-   Press **Ctrl + C** para detener el servidor.
+   Prensa **Ctrl + C** para detener el servidor.
 
    Para obtener más información, consulte las siguientes secciones:
 
    * Para Linux: [Primer inicio del servidor](../../installation/using/installing-packages-with-linux.md#first-start-up-of-the-server)
    * Para Windows: [Primer inicio del servidor](../../installation/using/installing-the-server.md#first-start-up-of-the-server)
 
-1. Cambie el **internal** contraseña mediante el comando :
+1. Cambie el **interno** contraseña con el comando:
 
    ```
    nlserver config -internalpassword
@@ -116,7 +116,7 @@ Los pasos para instalar el primer servidor son:
 
    Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
-1. Cree la variable **demostración** instancia con las máscaras DNS para el seguimiento (en este caso, **tracking.campaign.net**) y acceso a las consolas de cliente (en este caso, **console.campaign.net**). Hay dos formas de hacerlo:
+1. Cree el **demostración** instancia con las máscaras DNS para el seguimiento (en este caso, **tracking.campaign.net**) y acceso a las consolas de cliente (en este caso, **console.campaign.net**). Hay dos formas de hacerlo:
 
    * Cree la instancia a través de la consola:
 
@@ -134,7 +134,7 @@ Los pasos para instalar el primer servidor son:
 
       Para obtener más información, consulte [Creación de una instancia](../../installation/using/command-lines.md#creating-an-instance).
 
-1. Edite el **config-demo.xml** (creado mediante el comando anterior y ubicado junto al **config-default.xml** ), compruebe que la variable **mta** (entrega), **wfserver** (flujo de trabajo), **inMail** (correos devueltos) y **stat** (estadísticas) los procesos están habilitados y, a continuación, configure la dirección del **aplicación** servidor de estadísticas:
+1. Edite el **config-demo.xml** (creado mediante el comando anterior y ubicado junto al archivo **config-default.xml** ), compruebe que la variable **mta** (envío), **wfserver** (flujo de trabajo), **inMail** (correos electrónicos de rebote) y **estadísticas** (estadísticas) los procesos están activados y, a continuación, configure la dirección del **aplicación** servidor de estadísticas:
 
    ```
    <?xml version='1.0'?>
@@ -162,17 +162,17 @@ Los pasos para instalar el primer servidor son:
 
    >[!NOTE]
    >
-   >La variable **nameServers** solo se usa en Windows.
+   >El **nameServers** solo se usa en Windows.
 
    Para obtener más información, consulte [Configuración del servidor de Campaign](../../installation/using/configuring-campaign-server.md).
 
-1. Copie el programa de configuración de la consola del cliente (**setup-client-7.XX**, **YYYY.exe** para v7 o **setup-client-6.XX**, **YYYY.exe** para la versión 6.1) de **/datakit/nl/eng/jsp** carpeta. [Más información](../../installation/using/client-console-availability-for-windows.md).
+1. Copie el programa de configuración de la consola del cliente (**setup-client-7.XX**, **YYYY.exe** para v7 o **setup-client-6.XX**, **YYYY.exe** para v6.1) a **/datakit/nl/eng/jsp** carpeta. [Más información](../../installation/using/client-console-availability-for-windows.md).
 
-1. Inicie el servidor de Adobe Campaign (**net start nlserver6** en Windows, **/etc/init.d/nlserver6 start** en Linux) y ejecute el comando **nlserver pdump** una vez más para comprobar la presencia de todos los módulos habilitados.
+1. Inicie el servidor de Adobe Campaign (**net start nlserver6** en Windows, **Inicio de /etc/init.d/nlserver6** en Linux) y ejecute el comando **nlserver pdump** una vez más para comprobar la presencia de todos los módulos habilitados.
 
    >[!NOTE]
    >
-   >A partir de 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): **systemctl start nlserver**
+   >A partir de la versión 20.1, se recomienda utilizar el siguiente comando (para Linux): **systemctl start nlserver**
 
 
    ```
@@ -188,11 +188,11 @@ Los pasos para instalar el primer servidor son:
 
    Este comando también le permite conocer la versión y el número de compilación del servidor de Adobe Campaign instalado en el equipo.
 
-1. Pruebe la **nlserver web** usando la dirección URL: [https://console.campaign.net/nl/jsp/logon.jsp](https://tracking.campaign.net/r/test).
+1. Pruebe el **nlserver web** mediante la dirección URL: [https://console.campaign.net/nl/jsp/logon.jsp](https://tracking.campaign.net/r/test).
 
-   Esta URL le permite acceder a la página de descarga del programa de configuración del cliente. [Más información](../../installation/using/client-console-availability-for-windows.md).
+   Esta URL le permite acceder a la página de descarga del programa de instalación del cliente. [Más información](../../installation/using/client-console-availability-for-windows.md).
 
-   Introduzca la variable **internal** inicio de sesión y contraseña asociada cuando llegue a la página de control de acceso.
+   Introduzca el **interno** inicio de sesión y contraseña asociada al llegar a la página de control de acceso.
 
    ![](assets/s_ncs_install_access_client.png)
 
@@ -201,18 +201,18 @@ Los pasos para instalar el primer servidor son:
 Siga estos pasos:
 
 1. Instale el servidor de Adobe Campaign.
-1. Copie los archivos de la instancia creada en el servidor de aplicaciones 1.
+1. Copie los archivos de la instancia que ha creado en el servidor de aplicaciones 1.
 
-   Se mantiene el mismo nombre de instancia que el servidor de aplicaciones 1.
+   Mantenemos el mismo nombre de instancia que el servidor de aplicaciones 1.
 
-1. Cambie el **internal** al mismo que el servidor de aplicaciones 1.
+1. Cambie el **interno** al igual que el servidor de aplicaciones 1.
 1. Vincule la base de datos a la instancia:
 
    ```
    nlserver config -setdblogin:PostgreSQL:campaign:demo@dbsrv -instance:demo
    ```
 
-1. Edite el **config-demo.xml** (creado mediante el comando anterior y ubicado junto al **config-default.xml** ), compruebe que la variable **mta** (entrega), **wfserver** (flujo de trabajo), **inMail** (correos devueltos) y **stat** (estadísticas) los procesos están habilitados y, a continuación, configure la dirección del **aplicación** servidor de estadísticas:
+1. Edite el **config-demo.xml** (creado mediante el comando anterior y ubicado junto al archivo **config-default.xml** ), compruebe que la variable **mta** (envío), **wfserver** (flujo de trabajo), **inMail** (correos electrónicos de rebote) y **estadísticas** (estadísticas) los procesos están activados y, a continuación, configure la dirección del **aplicación** servidor de estadísticas:
 
    ```
    <?xml version='1.0'?>
@@ -232,7 +232,7 @@ Siga estos pasos:
 
    Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
-1. Edite el **serverConf.xml** y rellene la configuración DNS del módulo MTA:
+1. Edite el **serverConf.xml** y rellenar la configuración DNS del módulo MTA:
 
    ```
    <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
@@ -240,7 +240,7 @@ Siga estos pasos:
 
    >[!NOTE]
    >
-   >La variable **nameServers** solo se usa en Windows.
+   >El **nameServers** El parámetro solo se utiliza en Windows.
 
    Para obtener más información, consulte [Configuración del servidor de Campaign](../../installation/using/configuring-campaign-server.md).
 
@@ -263,7 +263,7 @@ Los pasos son los siguientes:
    * Para Linux: [Integración en un servidor web para Linux](../../installation/using/integration-into-a-web-server-for-linux.md),
    * Para Windows: [Integración en un servidor web para Windows](../../installation/using/integration-into-a-web-server-for-windows.md).
 
-1. Copie el **config-demo.xml** y **serverConf.xml** archivos creados durante la instalación. En el **config-demo.xml** active el **trackinglogd** procesar y desactivar **mta**, **inmail**, **wfserver** y **stat** procesos.
+1. Copie el **config-demo.xml** y **serverConf.xml** archivos creados durante la instalación. En el **config-demo.xml** , active el archivo **trackinglogd** procesar y desactivar el **mta**, **en el correo**, **wfserver** y **estadísticas** procesos.
 1. Edite el **serverConf.xml** y rellene los servidores de seguimiento redundantes en los parámetros de la redirección:
 
    ```
@@ -273,7 +273,7 @@ Los pasos son los siguientes:
 
 1. Inicie el sitio web y pruebe la redirección desde la dirección URL: [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test)
 
-   El explorador debe mostrar los siguientes mensajes (en función de la URL redireccionada por el equilibrador de carga):
+   El explorador debe mostrar los siguientes mensajes (según la URL redirigida por el equilibrador de carga):
 
    ```
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv1"/>

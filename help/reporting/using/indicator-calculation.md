@@ -2,7 +2,7 @@
 product: campaign
 title: Cálculo de indicador
 description: Cálculo de indicador
-badge: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge: label="v7" type="Informativo" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Reporting
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b

@@ -2,7 +2,7 @@
 product: campaign
 title: Recopilación de datos para analizar
 description: Recopilación de datos para analizar
-badge: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge: label="v7" type="Informativo" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Reporting
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b

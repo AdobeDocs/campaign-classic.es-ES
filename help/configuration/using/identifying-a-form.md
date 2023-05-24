@@ -20,4 +20,4 @@ Un formulario de entrada permite editar una instancia asociada a un esquema de d
 
 El formulario se identifica con su nombre y área de nombres.
 
-La clave de identificación de un formulario es una cadena formada por el área de nombres y el nombre separados por dos puntos (&#39;:&#39;) (por ejemplo: &quot;cus:contact&quot;).
+La clave de identificación de un formulario es una cadena formada por el área de nombres y el nombre separados por dos puntos (:) (por ejemplo: &quot;cus:contact&quot;).

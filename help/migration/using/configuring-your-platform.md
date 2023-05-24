@@ -22,18 +22,18 @@ ht-degree: 3%
 
 Algunos cambios importantes en Adobe Campaign v7 requieren una configuración específica. Estas configuraciones pueden ser necesarias antes o después de la migración.
 
-Durante la migración, la variable **NmsRecipient** se regenera a partir de la definición de esquemas. Se perderá cualquier cambio realizado en la estructura SQL de esta tabla fuera de Adobe Campaign.
+Durante la migración, la variable **NmsRecipient** se vuelve a crear a partir de la definición de esquemas. Se perderá cualquier cambio realizado en la estructura SQL de esta tabla fuera de Adobe Campaign.
 
-Ejemplo de elementos para comprobar:
+Ejemplo de elementos que se van a comprobar:
 
-* Si ha añadido una columna (o un índice) al **NmsRecipient** pero no la ha detallado en el esquema, esto no se guardará.
-* La variable **tablespace** recupera sus valores de forma predeterminada, es decir, los definidos en el asistente de implementación.
+* Si ha añadido una columna (o un índice) a la variable **NmsRecipient** pero no lo ha detallado en el esquema, no se guardará.
+* El **tablespace** toma sus valores de forma predeterminada, es decir, los definidos en el asistente de implementación.
 * Si ha añadido una vista de referencia a la variable **NmsRecipient** , debe eliminarla antes de migrar.
 
 
 ## Antes de la migración {#before-the-migration}
 
-Al migrar a Adobe Campaign v7, deben configurarse los siguientes elementos. Estos elementos deben abordarse antes de iniciar el **postupgrade**.
+Al migrar a Adobe Campaign v7, deben configurarse los siguientes elementos. Estos elementos deben abordarse antes de iniciar el **posterior a la actualización**.
 
 <!--
 
@@ -59,7 +59,7 @@ Al migrar a Adobe Campaign v7, deben configurarse los siguientes elementos. Esto
 
 * Contraseñas
 
-   Debe configurar la variable **Administrador** y **Internas** contraseñas. [Más información](../../migration/using/before-starting-migration.md#user-passwords)
+   Debe configurar la variable **Administrador** y **Interno** contraseñas. [Más información](../../migration/using/before-starting-migration.md#user-passwords)
 
 <!--
 * Tree structure
@@ -78,35 +78,35 @@ Al migrar a Adobe Campaign v7, deben configurarse los siguientes elementos. Esto
 
 ## Después de la migración {#after-the-migration}
 
-Después de ejecutar **postupgrade**, compruebe y configure los siguientes elementos:
+Después de ejecutar **posterior a la actualización**, compruebe y configure los siguientes elementos:
 
 * Páginas espejo
 
-   El bloque de personalización de páginas espejo ha cambiado con la versión 6.x. Esta nueva versión mejora la seguridad al acceder a estas páginas.
+   El bloque personalizado de la página espejo ha cambiado con la versión 6.x. Esta nueva versión mejora la seguridad al acceder a estas páginas.
 
-   Si ha utilizado el bloque personalizado v5 en los mensajes, la visualización de la página espejo fallará. Adobe recomienda encarecidamente utilizar el nuevo bloque personalizado al insertar una página espejo en los mensajes.
+   Si ha utilizado el bloque personalizado v5 en sus mensajes, la visualización de la página espejo fallará. Adobe recomienda encarecidamente utilizar el nuevo bloque personalizado al insertar una página espejo en los mensajes.
 
-   Sin embargo, como solución temporal (y como las páginas espejo aún están activas), puede volver al antiguo bloque personalizado para evitar este problema cambiando la opción **[!UICONTROL XtkAcceptOldPasswords]** y configúrelo en **[!UICONTROL 1]**. Esto no afecta al uso del nuevo bloque personalizado v6.x.
+   Sin embargo, como solución temporal (y porque las páginas espejo siguen activas), puede volver al bloque personalizado antiguo para evitar este problema cambiando la opción **[!UICONTROL XtkAcceptOldPasswords]** y configúrelo en **[!UICONTROL 1]**. Esto no afectará al uso del nuevo bloque personalizado v6.x.
 
 * Sintaxis
 
-   Si se producen errores relacionados con la sintaxis, durante la actualización posterior debe activar temporalmente la variable **allowSQLInjection** en la **serverConf.xml** , ya que esto le da tiempo de reescribir el código. Una vez adaptado el código, asegúrese de reactivar la seguridad.
+   Si encuentra algún error relacionado con la sintaxis, durante la posactualización debe activar temporalmente el **allowSQLInjection** en la opción **serverConf.xml** , ya que esto le da tiempo de reescribir el código. Una vez adaptado el código, asegúrese de reactivar la seguridad.
 
 * Conflictos
 
-   La migración se realiza a través de una actualización posterior y es posible que los conflictos aparezcan en informes, formularios o aplicaciones web. Estos conflictos se pueden resolver desde la consola.
+   La migración se realiza mediante una actualización posterior y los conflictos pueden aparecer en informes, formularios o aplicaciones web. Estos conflictos se pueden resolver desde la consola de.
 
 * Tomcat
 
-   Si ha personalizado la carpeta de instalación, asegúrese de que está correctamente actualizada después de la migración.
+   Si ha personalizado la carpeta de instalación, asegúrese de que se actualiza correctamente después de la migración.
 
 * Informes
 
-   Todos los informes listos para usar actualmente utilizan el motor de renderización v6.x. Si ha añadido código JavaScript a los informes, es posible que algunos elementos se vean afectados.
+   Actualmente, todos los informes listos para usar utilizan el motor de renderización v6.x. Si hubiera agregado código JavaScript a los informes, algunos elementos podrían verse afectados.
 
 * Aplicaciones web
 
-   Después de la actualización, si tiene algún problema para conectarse a las aplicaciones web identificadas, debe activar la variable **allowUserPassword** y **sessionTokenOnly** en el **serverConf.xml** archivo. Para evitar cualquier problema de seguridad, estas dos opciones deben reactivarse una vez resuelto el problema.
+   Después de la actualización, si tiene problemas para conectarse a las aplicaciones web identificadas, debe activar el **allowUserPassword** y **sessionTokenOnly** opciones en la **serverConf.xml** archivo. Para evitar cualquier problema de seguridad, estas dos opciones deben reactivarse una vez resuelto el problema.
 
    Según el tipo de aplicaciones web y su configuración, debe realizar manipulaciones adicionales para asegurarse de que funcionan correctamente.
 
@@ -137,7 +137,7 @@ Después de ejecutar **postupgrade**, compruebe y configure los siguientes eleme
 
 * Interacción
 
-   Si usa **Interacción**, debe ajustar los parámetros después de la migración.
+   Si utiliza **Interacción**, debe ajustar los parámetros después de la migración.
 
 <!--
 

@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Lista de comprobación de seguridad y privacidad
-description: Obtenga más información sobre los elementos clave para comprobar la seguridad y la privacidad
+description: Obtenga más información acerca de los elementos clave para comprobar la seguridad y la privacidad
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
@@ -18,13 +18,13 @@ ht-degree: 16%
 
 
 
-Esta sección le muestra los elementos clave que debe comprobar en relación con la seguridad y la privacidad. Algunas configuraciones solo pueden realizarlas los clientes locales.
+Esta sección presenta los elementos clave para comprobar la seguridad y la privacidad. Algunas configuraciones solo las pueden realizar los clientes locales.
 
 ## Privacidad
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-La configuración y el endurecimiento de la privacidad son elementos clave de la optimización de la seguridad. Estas son algunas prácticas recomendadas a seguir con respecto a la privacidad:
+La configuración y protección de la privacidad es un elemento clave de la optimización de la seguridad. Estas son algunas prácticas recomendadas seguir con respecto a la privacidad:
 
 * Proteja su PII de cliente usando HTTPS en lugar de HTTP
 * Utilice la restricción de la vista PII para proteger la privacidad y evitar que se utilicen los datos de forma indebida.
@@ -37,11 +37,11 @@ La configuración y el endurecimiento de la privacidad son elementos clave de la
 
 <img src="assets/do-not-localize/icon_access.svg" width="60px">
 
-La gestión del acceso es una parte importante del refuerzo de la seguridad. Estas son algunas de las prácticas recomendadas principales:
+La administración del acceso es una parte importante del refuerzo de la seguridad. Estas son algunas de las prácticas recomendadas principales:
 
 * Crear suficientes grupos de seguridad
-* Compruebe que cada operador tenga los derechos de acceso adecuados
-* Evite utilizar el operador de administrador y evite tener demasiados operadores en el grupo de administración
+* Compruebe que cada operador tiene los derechos de acceso adecuados
+* Evite utilizar el operador admin y evite tener demasiados operadores en el grupo admin
 
 [Más información](../../installation/using/access-management.md)
 
@@ -49,13 +49,13 @@ La gestión del acceso es una parte importante del refuerzo de la seguridad. Est
 
 <img src="assets/do-not-localize/icon_scripting.svg" width="60px">
 
-Cuando desarrolle en Adobe Campaign (flujos de trabajo, JavaScript, JSSP, etc.), siga siempre estas directrices:
+Al desarrollar en Adobe Campaign (flujos de trabajo, Javascript, JSSP, etc.), siga siempre estas directrices:
 
-* **Secuencia de comandos**: intente evitar las instrucciones SQL, utilice funciones parametrizadas en lugar de concatenación de cadenas, evite la inyección de SQL añadiendo las funciones SQL que desea utilizar a la lista de permitidos.
+* **Scripts**: intente evitar las sentencias SQL, utilice funciones parametrizadas en lugar de concatenaciones de cadenas, evite la inyección de SQL al añadir funciones SQL para utilizar en la lista de permitidos.
 
-* **Asegurar el modelo de datos**: usar derechos asignados para limitar las acciones de operadores, agregar filtros de sistema (sysFilter)
+* **Proteger el modelo de datos**: utilice derechos asignados para limitar las acciones de los operadores y añada filtros del sistema (sysFilter)
 
-* **Añadir captchas en aplicaciones web**: obtenga información sobre cómo añadir captchas en las páginas de aterrizaje y de suscripción públicas.
+* **Añadir captchas en aplicaciones web**: aprenda a añadir captchas en las páginas de aterrizaje públicas y de suscripción.
 
 [Más información](../../installation/using/scripting-coding-guidelines.md)
 
@@ -63,15 +63,15 @@ Cuando desarrolle en Adobe Campaign (flujos de trabajo, JavaScript, JSSP, etc.),
 
 <img src="assets/do-not-localize/icon_network.svg" width="60px">
 
-Una cosa muy importante que debe comprobar al implementar un tipo de arquitectura local es la configuración de red.
+Una cosa muy importante que hay que comprobar al implementar un tipo de arquitectura On-Premise es la configuración de red.
 
-También es imprescindible que siga la seguridad del motor de la base de datos.
+También es imperativo que siga la seguridad del motor de la base de datos.
 
 [Más información](../../installation/using/network-database.md)
 
 >[!CAUTION]
 >
->A partir del 14 de julio de 2021, cualquier sistema cliente que no admita el protocolo TLS 1.2 perderá acceso a todos los productos y servicios de Adobe. Asegúrese de que todos los sistemas de usuario y cliente sean compatibles con TLS 1.2 antes de esta fecha. [Más información](https://helpx.adobe.com/x-productkb/multi/eol-tls-support.html)
+>A partir del 14 de julio de 2021, los sistemas cliente que no admitan el protocolo TLS 1.2 perderán acceso a todos los productos y servicios de Adobe. Asegúrese de que todos los sistemas de usuario y cliente son compatibles con TLS 1.2 antes de esta fecha. [Más información](https://helpx.adobe.com/x-productkb/multi/eol-tls-support.html)
 
 ## Configuración del servidor
 
@@ -79,15 +79,15 @@ También es imprescindible que siga la seguridad del motor de la base de datos.
 
 La configuración debe realizarse en todos los servidores. Los archivos de configuración son del tipo **serverConf.xml** y **`config-<instance>.xml`**. Estos son los elementos clave que deben verificarse:
 
-* **Zonas de seguridad**: Configure las zonas de seguridad para que tengan en cuenta directamente las direcciones IP de los clientes de un proxy.
+* **Zonas de seguridad**: configure zonas de seguridad para que tengan directamente en cuenta las direcciones IP de los clientes de un proxy.
 
-* **Protección de carga de archivos**: limitar los tipos de archivos que se pueden cargar en el servidor de Adobe Campaign mediante un nuevo atributo uploadAllowList . Se puede utilizar en el archivo de configuración del servidor.
+* **Protección de carga de archivos**: limite los tipos de archivos que se pueden cargar en el servidor de Adobe Campaign mediante un nuevo atributo uploadAllowList. Se puede utilizar en el archivo de configuración del servidor.
 
-* **Transmisión**: ajuste la configuración de relé desactivando las reglas de transmisión para los módulos o aplicaciones no utilizados.
+* **Relé**: ajuste la configuración de retransmisión desactivando las reglas de retransmisión para módulos/aplicaciones no utilizados.
 
 * **Protección de conexión saliente** y **Restricción de comando** (lado del servidor)
 
-* También puede agregar encabezados HTTP adicionales, activar checkIPConsistent, enableTLS, sessionTimeOutSec, etc. Consulte la [Documentación de configuración del servidor de Campaign](../../installation/using/configuring-campaign-server.md) y [Descripción del archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md) para obtener más información.
+* También puede añadir encabezados HTTP adicionales, activar checkIPConsistent, enableTLS, sessionTimeOutSec, etc. Consulte la [Documentación de configuración del servidor Campaign](../../installation/using/configuring-campaign-server.md) y el [Descripción del archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md) para obtener más información.
 
 [Más información](../../installation/using/server-configuration.md)
 
@@ -97,9 +97,9 @@ La configuración debe realizarse en todos los servidores. Los archivos de confi
 
 Se deben seguir varias prácticas recomendadas al configurar el servidor web (Apache/IIS):
 
-* Desactive las versiones y cifrados de SSL anteriores
-* Eliminación del método del TRACE
-* Quitar el banner
+* Deshabilitar la versión y las cifras SSL antiguas
+* Quitar el método TRACE
+* Quitar el titular
 * Limitar el tamaño de la consulta para evitar que se carguen archivos importantes
 
 [Más información](../../installation/using/web-server-configuration.md)

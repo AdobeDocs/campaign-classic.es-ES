@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Migración de una plataforma Linux a Adobe Campaign v7
-description: Aprenda a migrar una plataforma Linux a Adobe Campaign v7
+description: Descubra cómo migrar una plataforma Linux a Adobe Campaign v7
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: migration
 content-type: reference
@@ -22,25 +22,25 @@ ht-degree: 0%
 
 Los pasos de migración en Linux son los siguientes:
 
-1. Detener todos los servicios - [Más información](#service-stop).
-1. Guardar la base de datos: [Más información](#back-up-the-database).
-1. Desinstalación de paquetes de versiones anteriores de Adobe Campaign: [Más información](#uninstalling-adobe-campaign-previous-version-packages).
+1. Detener todos los servicios: [Más información](#service-stop).
+1. Guardar la base de datos - [Más información](#back-up-the-database).
+1. Desinstalar paquetes de versiones anteriores de Adobe Campaign: [Más información](#uninstalling-adobe-campaign-previous-version-packages).
 1. Migración de la plataforma: [Más información](#deploying-adobe-campaign-v7).
-1. Reiniciar servicio - [Más información](#re-starting-services).
+1. Volver a iniciar el servicio - [Más información](#re-starting-services).
 
-## Interrupción del servicio {#service-stop}
+## Detención de servicio {#service-stop}
 
 En primer lugar, detenga todos los procesos con acceso a la base de datos en todos los equipos correspondientes.
 
-1. Iniciar sesión como **root**.
-1. Todos los servidores que utilizan el módulo de redirección (**webmdl** ). Para Apache, ejecute el siguiente comando:
+1. Iniciar sesión como **raíz**.
+1. Todos los servidores que utilizan el módulo de redirección (**webmdl** service) se deben detener. Para Apache, ejecute el siguiente comando:
 
    ```
    /etc/init.d/apache2 stop
    ```
 
-1. Inicie sesión de nuevo como **root**.
-1. Detenga los servicios de la versión anterior de Adobe Campaign en todos los servidores.
+1. Inicie sesión de nuevo como **raíz**.
+1. Detenga los servicios de versiones anteriores de Adobe Campaign en todos los servidores.
 
    ```
    /etc/init.d/nlserver6 stop
@@ -55,21 +55,21 @@ En primer lugar, detenga todos los procesos con acceso a la base de datos en tod
 
 -->
 
-1. Asegúrese de que los servicios de Adobe Campaign se detengan en cada servidor.
+1. Asegúrese de que los servicios de Adobe Campaign estén detenidos en cada servidor.
 
    ```
    ps waux | grep nlserver
    ```
 
-   La lista de procesos activos se muestra junto con su ID (PID).
+   La lista de los procesos activos se muestra junto con su ID (PID).
 
-1. Si uno o más procesos de Adobe Campaign siguen activos o bloqueados después de unos minutos, mátelos.
+1. Si uno o más procesos de Adobe Campaign siguen activos o bloqueados después de unos minutos, elimínelos.
 
    ```
    killall nlserver
    ```
 
-1. Si algunos procesos siguen activos después de unos minutos, puede forzarlos a cerrar con el comando :
+1. Si algunos procesos siguen activos después de unos minutos, puede forzarlos a cerrarse con el comando:
 
    ```
    killall -9 nlserver
@@ -155,8 +155,8 @@ En primer lugar, detenga todos los procesos con acceso a la base de datos en tod
 
 -->
 
-1. Haga una copia de seguridad de la base de datos de Adobe Campaign.
-1. Iniciar sesión como **neolano** y haga una copia de seguridad de **nl6** utilizando el siguiente comando:
+1. Realice una copia de seguridad de la base de datos de Adobe Campaign.
+1. Iniciar sesión como **neolano** y realice una copia de seguridad del **nl6** mediante el siguiente comando:
 
    ```
    su - neolane
@@ -165,9 +165,9 @@ En primer lugar, detenga todos los procesos con acceso a la base de datos en tod
 
    >[!IMPORTANT]
    >
-   >Como precaución, le recomendamos que comprima el **nl6.back** y guárdelo en una ubicación segura distinta del servidor.
+   >Como medida de precaución, le recomendamos que comprima el **nl6.back** y guárdelo en una ubicación segura que no sea el servidor.
 
-## Desinstalación de paquetes de versiones anteriores de Adobe Campaign {#uninstalling-adobe-campaign-previous-version-packages}
+## Desinstalar paquetes de versiones anteriores de Adobe Campaign {#uninstalling-adobe-campaign-previous-version-packages}
 
 <!--
 
@@ -213,10 +213,10 @@ En primer lugar, detenga todos los procesos con acceso a la base de datos en tod
 
 Esta sección muestra cómo desinstalar paquetes de Adobe Campaign v6.1.
 
-1. Iniciar sesión como **root**.
-1. Identifique los paquetes de Adobe Campaign instalados mediante el siguiente comando.
+1. Iniciar sesión como **raíz**.
+1. Identifique los paquetes de Adobe Campaign instalados con el siguiente comando.
 
-   * En **Debian**:
+   * Entrada **Debian**:
 
       ```
       dpkg -l | grep nl
@@ -229,7 +229,7 @@ Esta sección muestra cómo desinstalar paquetes de Adobe Campaign v6.1.
       ii  nlthirdparty6                   XXXX                     nlthirdparty6-XXXX
       ```
 
-   * En **Red Hat**:
+   * Entrada **Red Hat**:
 
       ```
       rpm -qa | grep nl
@@ -237,13 +237,13 @@ Esta sección muestra cómo desinstalar paquetes de Adobe Campaign v6.1.
 
 1. Desinstale los paquetes de Adobe Campaign v6.
 
-   * En **Debian**:
+   * Entrada **Debian**:
 
       ```
       dpkg --purge nlserver6 nlthirdparty6
       ```
 
-   * En **Red Hat**:
+   * Entrada **Red Hat**:
 
       ```
       rprm -ev nlserver6 nlthirdparty6
@@ -464,33 +464,33 @@ To deploy Adobe Campaign, apply the following steps:
 
 -->
 
-La implementación de Adobe Campaign consta de dos etapas:
+La implementación de Adobe Campaign consta de dos fases:
 
 * Instalación de paquetes de Adobe Campaign v7: esta operación debe realizarse en cada servidor.
-* La actualización posterior: este comando debe iniciarse en cada instancia.
+* Después de la actualización: este comando debe iniciarse en cada instancia.
 
 Para implementar Adobe Campaign, siga los siguientes pasos:
 
-1. Instale los paquetes de Adobe Campaign v7 más recientes mediante el siguiente comando:
+1. Instale los paquetes más recientes de Adobe Campaign v7 con el siguiente comando:
 
-   * En **Debian**:
+   * Entrada **Debian**:
 
       ```
       dpkg -i nlserver6-XXXX-amd64_debX.deb
       ```
 
-   * En **Red Hat**:
+   * Entrada **Red Hat**:
 
       ```
       rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
       ```
    >[!IMPORTANT]
    >
-   >Debe instalar los paquetes correctamente antes de continuar con el siguiente paso.
+   >Debe instalar correctamente los paquetes antes de pasar al siguiente paso.
 
    >[!NOTE]
    >
-   >Adobe Campaign v7 está instalado en el **/usr/local/neolane/nl6/** de forma predeterminada.
+   >Adobe Campaign v7 está instalado en **/usr/local/neolane/nl6/** de forma predeterminada.
 
 1. Para que el programa de instalación de la consola del cliente esté disponible, cópielo en el directorio de instalación de Adobe Campaign:
 
@@ -502,7 +502,7 @@ Para implementar Adobe Campaign, siga los siguientes pasos:
    >
    >Para obtener más información sobre cómo instalar Adobe Campaign en Linux, consulte [esta sección](../../installation/using/installing-campaign-standard-packages.md).
 
-1. Vaya a la **nl6.back** carpeta de copia de seguridad y copie (sobrescriba) los archivos de configuración y las subcarpetas de cada instancia. Iniciar sesión como **neolano** y ejecute el siguiente comando:
+1. Vaya a la **nl6.back** haga una copia de seguridad de la carpeta y copie (sobrescriba) los archivos de configuración y las subcarpetas de cada instancia. Iniciar sesión como **neolano** y ejecute el siguiente comando:
 
    ```
    su - neolane
@@ -519,7 +519,7 @@ Para implementar Adobe Campaign, siga los siguientes pasos:
    nlserver config -reload
    ```
 
-1. Inicie el proceso posterior a la actualización mediante el siguiente comando (siga siendo **neolano**):
+1. Inicie el proceso posterior a la actualización mediante el siguiente comando (sin modificar como **neolano**):
 
    ```
    su - neolane
@@ -596,7 +596,7 @@ If you are migrating from v6.02 or earlier, you must configure your security zon
 
 -->
 
-## Reiniciar servicios {#re-starting-services}
+## Volver a iniciar servicios {#re-starting-services}
 
 Este es el procedimiento para reiniciar los servicios.
 
@@ -672,7 +672,7 @@ Inicie los servicios de Apache y Adobe Campaign en cada uno de los siguientes se
 1. Servidor intermediario.
 1. Servidor de marketing.
 
-Pruebe completamente la nueva instalación, compruebe que no se repone y asegúrese de que todo funciona correctamente.
+Pruebe completamente la nueva instalación, compruebe que no vuelve a funcionar y asegúrese de que todo funciona correctamente.
 
 <!--
 

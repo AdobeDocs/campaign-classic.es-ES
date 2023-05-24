@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Directrices de script y código
-description: Obtenga más información sobre las directrices que se deben seguir al desarrollar en Adobe Campaign (flujos de trabajo, Javascript, JSSP, etc.)
+description: Obtenga más información acerca de las directrices que se deben seguir al desarrollar en Adobe Campaign (flujos de trabajo, JavaScript, JSSP, etc.)
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
@@ -18,15 +18,15 @@ ht-degree: 6%
 
 
 
-## Secuencia de comandos
+## Scripts
 
 Para obtener más información, consulte [Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es).
 
-Si crea secuencias de comandos con flujos de trabajo, aplicaciones web, jssp, siga estas prácticas recomendadas:
+Si ejecuta un script mediante un flujo de trabajo, aplicaciones web o jsp, siga estas prácticas recomendadas:
 
-* Intente evitar usar instrucciones SQL tanto como pueda.
+* Intente evitar el uso de instrucciones SQL tanto como pueda.
 
-* Si lo necesita, utilice funciones parametrizadas (instrucción de preparación) en lugar de concatenaciones de cadenas.
+* Si es necesario, utilice funciones parametrizadas (instrucción prepare) en lugar de concatenaciones de cadenas.
 
    Práctica incorrecta:
 
@@ -34,7 +34,7 @@ Si crea secuencias de comandos con flujos de trabajo, aplicaciones web, jssp, si
    sqlGetInt( "select iRecipientId from NmsRecipient where sEmail ='" + request.getParameter('email') +  "'  limit 1" )
    ```
 
-   Práctica recomendada:
+   Buenas prácticas:
 
    ```
    sqlGetInt( "select iRecipientId from NmsRecipient where sEmail = $(sz) limit 1", request.getParameter('email'));
@@ -42,7 +42,7 @@ Si crea secuencias de comandos con flujos de trabajo, aplicaciones web, jssp, si
 
    >[!IMPORTANT]
    >
-   >sqlSelect no admite esta función, por lo que debe utilizar la función de consulta de la clase DBEngine:
+   >sqlSelect no admite esta característica, por lo que debe utilizar la función de consulta de la clase DBEngine:
 
    ```
    var cnx = application.getConnection()
@@ -51,13 +51,13 @@ Si crea secuencias de comandos con flujos de trabajo, aplicaciones web, jssp, si
    cnx.dispose()
    ```
 
-Para evitar inyecciones SQL, las funciones SQL deben agregarse a la lista de permitidos que se utilizará en Adobe Campaign. Una vez añadidas a la lista de permitidos, pasan a ser visibles para los operadores del editor de expresiones. Consulte [esta página](../../configuration/using/adding-additional-sql-functions.md).
+Para evitar inyecciones SQL, las funciones SQL deben agregarse a la lista de permitidos para utilizarse en Adobe Campaign. Una vez añadidos a la lista de permitidos, los operadores del editor de expresiones los verán. Consulte [esta página](../../configuration/using/adding-additional-sql-functions.md).
 
 >[!IMPORTANT]
 >
->Si utiliza una compilación anterior a 8140, la variable **XtkPassUnknownSQLFunctionsToRDBMS** se puede establecer en &quot;1&quot;. Si desea proteger la base de datos, elimine esta opción (o establézcala en &#39;0&#39;).
+>Si utiliza una compilación anterior a 8140, la variable **XtkPassUnknownSQLFunctionsToRDBMS** La opción se puede establecer en &quot;1&quot;. Si desea proteger la base de datos, elimine esta opción (o establézcala en &quot;0&quot;).
 
-Si utiliza la entrada del usuario para crear filtros en consultas o instrucciones SQL, siempre tiene que escaparlas (consulte [Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es) - Protección de datos: funciones de escape). Estas funciones son:
+Si utiliza los datos introducidos por el usuario para crear filtros en consultas o instrucciones SQL, siempre tiene que omitirlos (consulte [Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es) - Protección de datos: funciones de escape). Estas funciones son:
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)
@@ -75,9 +75,9 @@ Consulte estas páginas:
 
 ### Derechos asignados
 
-Además del modelo de seguridad basado en carpetas, puede utilizar derechos asignados para limitar las acciones del operador:
+Además del modelo de seguridad basado en carpetas, puede utilizar derechos asignados para limitar las acciones de los operadores:
 
-* Puede agregar algunos filtros del sistema (sysFilter) para evitar que se lean o escriban en los datos (consulte [esta página](../../configuration/using/filtering-schemas.md)).
+* Puede agregar algunos filtros del sistema (sysFilter) para evitar que se lea o escriba en los datos (consulte [esta página](../../configuration/using/filtering-schemas.md)).
 
    ```
    <sysFilter name="writeAccess">    
@@ -85,7 +85,7 @@ Además del modelo de seguridad basado en carpetas, puede utilizar derechos asig
    </sysFilter>
    ```
 
-* También puede proteger algunas acciones (método SOAP) definidas en esquemas. Establezca el atributo de acceso con el derecho asignado correspondiente como valor.
+* También puede proteger algunas acciones (método SOAP) definidas en esquemas. Solo tiene que establecer el atributo de acceso con el correspondiente derecho de nombre como valor.
 
    ```
    <method name="grantVIPAccess" access="myNewRole">
@@ -99,25 +99,25 @@ Además del modelo de seguridad basado en carpetas, puede utilizar derechos asig
 
 >[!IMPORTANT]
 >
->Puede utilizar derechos asignados en el nodo de comando de un árbol de navegación. Proporciona una mejor experiencia de usuario, pero no proporciona ninguna protección (utilice solo el lado del cliente para ocultarlos o deshabilitarlos). Debe utilizar el atributo access .
+>Puede utilizar derechos asignados en el nodo de comandos de un árbol navtree. Proporciona una mejor experiencia de usuario, pero no proporciona ninguna protección (utilice solo el lado del cliente para ocultarlos/deshabilitarlos). Debe utilizar el atributo access.
 
 ### Tabla de desbordamiento
 
-Si necesita proteger datos confidenciales (parte de un esquema) en función del nivel de acceso del operador, no los oculte en la definición del formulario (condiciones enabledIf/visibleIf).
+Si necesita proteger datos confidenciales (parte de un esquema) según el nivel de acceso del operador, no los oculte en la definición del formulario (condiciones enabledIf/visibleIf).
 
 La pantalla carga la entidad completa y también puede mostrarla en la definición de la columna. Para ello, debe crear una tabla de desbordamiento. Consulte [esta página](../../configuration/using/examples-of-schemas-edition.md#overflow-table).
 
 ## Adición de captchas en aplicaciones web
 
-Se recomienda añadir un captcha en páginas de aterrizaje o de suscripción públicas. Desafortunadamente, añadir un captcha en las páginas del DCE (editor de contenido digital) no es fácil. Le mostraremos cómo añadir un captcha v5 o un reCAPTCHA de Google.
+Se recomienda añadir un captcha en las páginas de aterrizaje o páginas de suscripción públicas. Desafortunadamente, añadir un captcha en las páginas del DCE (editor de contenido digital) no es fácil. Le mostraremos cómo añadir un captcha v5 o un reCAPTCHA de Google.
 
-La forma general de añadir un captcha en el DCE es crear un bloque personalizado para incluirlo fácilmente dentro del contenido de la página. Tendrá que agregar una **Secuencia de comandos** actividad y **Prueba**.
+La forma general de añadir un captcha en el DCE es crear un bloque de personalización para incluirlo fácilmente en el contenido de la página. Tendrá que añadir una **Script** actividad y una **Prueba**.
 
 ### Bloque de personalización
 
-1. Vaya a **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Personalization blocks]** y cree uno nuevo.
+1. Ir a **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Personalization blocks]** y cree uno nuevo.
 
-1. Utilice la variable **[!UICONTROL Web application]** tipo de contenido y comprobar **[!UICONTROL Visible in the customization menus]**.
+1. Utilice el **[!UICONTROL Web application]** tipo de contenido y comprobar **[!UICONTROL Visible in the customization menus]**.
 
    Para obtener más información, consulte [esta página](../../delivery/using/personalization-blocks.md).
 
@@ -142,12 +142,12 @@ La forma general de añadir un captcha en el DCE es crear un bloque personalizad
    ```
 
    * Las líneas 1 a 6 generan todas las entradas necesarias.
-   * Las líneas 7 al final gestionan los errores.
+   * Las líneas 7 hasta el final manejan errores.
    * La línea 4 permite cambiar el tamaño del cuadro gris captcha (ancho/alto) y la longitud de la palabra generada (minWordSize/maxWordSize).
    * Antes de usar Google reCAPTCHA, debe registrarse en Google y crear un nuevo sitio reCAPTCHA.
 
       `<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>`
-   Debe poder desactivar el botón de validación, pero como no tenemos ningún botón o vínculo estándar, es mejor hacerlo en el propio HTML. Para aprender a hacerlo, consulte [esta página](https://developers.google.com/recaptcha/).
+   Debería poder deshabilitar el botón de validación, pero como no tenemos ningún botón o vínculo estándar, es mejor hacerlo en el propio HTML. Para aprender a hacerlo, consulte [esta página](https://developers.google.com/recaptcha/).
 
 ### Actualización de la aplicación web
 
@@ -155,17 +155,17 @@ La forma general de añadir un captcha en el DCE es crear un bloque personalizad
 
    ![](assets/scripting-captcha.png)
 
-1. Entre la última página y la **[!UICONTROL Storage]** actividad, añada un **[!UICONTROL Script]** y **[!UICONTROL Test]**.
+1. Entre la última página y la **[!UICONTROL Storage]** actividad, añadir un **[!UICONTROL Script]** y una **[!UICONTROL Test]**.
 
-   Conectar la rama **[!UICONTROL True]** a **[!UICONTROL Storage]** y el otro a la página que tendrá el captcha.
+   Enchufe la rama **[!UICONTROL True]** a la **[!UICONTROL Storage]** y el otro a la página que tendrá el captcha.
 
    ![](assets/scripting-captcha2.png)
 
-1. Editar la condición de la rama True con `"[vars/captchaValid]"` es igual a True.
+1. Edite la condición de la rama True con `"[vars/captchaValid]"` es igual a True.
 
    ![](assets/scripting-captcha3.png)
 
-1. Edite la actividad **[!UICONTROL Script]**. El contenido dependerá del motor captcha seleccionado.
+1. Edite la actividad **[!UICONTROL Script]**. El contenido dependerá del motor captcha elegido.
 
 1. Finalmente, puede añadir el bloque personalizado en la página: consulte [esta página](../../web/using/editing-content.md).
 
@@ -175,7 +175,7 @@ La forma general de añadir un captcha en el DCE es crear un bloque personalizad
 
 >[!IMPORTANT]
 >
->Para la integración de reCAPTCHA, debe agregar JavaScript del lado del cliente en el HTML (en `<head>...</head>`):
+>Para integrar reCAPTCHA, debe añadir JavaScript del lado del cliente en el HTML (en `<head>...</head>`):
 >
 >`<script src="https://www.google.com/recaptcha/api.js" async defer></script>`
 
@@ -225,10 +225,10 @@ if( ctx.vars.captchaValid == false ) {
 }
 ```
 
-Para utilizar JSON.parse, debe incluir &quot;shared/json2.js&quot; en su aplicación web:
+Para utilizar JSON.parse, debe incluir &quot;shared/json2.js&quot; en la aplicación web:
 
 ![](assets/scripting-captcha6.png)
 
-Desde la versión 8797, para utilizar la URL de la API de verificación, debe añadirla a la lista de permitidos en el archivo serverConf añadiendo el nodo urlPermission :
+A partir de la versión 8797, para utilizar la URL de la API de verificación, debe añadirla a la lista de permitidos en el archivo serverConf añadiendo el nodo urlPermission:
 
 `<url dnsSuffix="www.google.com" urlRegEx="https://www.google.com/recaptcha/api/siteverify"/>`

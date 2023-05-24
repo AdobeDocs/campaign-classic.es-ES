@@ -18,28 +18,28 @@ ht-degree: 1%
 
 
 
-En esta sección se presenta el procedimiento que se debe aplicar para actualizar Adobe Campaign, del lado del cliente y del servidor, y se describe el cambio a Unicode de una instancia existente.
+En esta sección se presenta el procedimiento que se debe aplicar para actualizar Adobe Campaign, del lado del cliente y del lado del servidor, y se describe el cambio a Unicode de una instancia existente.
 
 >[!NOTE]
 >
->En el caso de instancias de servicios alojados o administrados, debe coordinarse con el administrador de Adobe.\
->Para las instancias locales, puede obtener asistencia de los consultores de Adobe.
+>Para las instancias de servicios alojados/administrados, debe coordinarse con el administrador de Adobe.\
+>En el caso de instancias locales, puede obtener asistencia de los consultores de Adobe.
 
-La actualización debe aplicarse a todos los servidores donde está instalado Adobe Campaign.
+La actualización debe aplicarse a todos los servidores donde esté instalado Adobe Campaign.
 
 1. Migre los servidores de redirección y seguimiento (Apache/IIS).
 1. Migre los servidores Power Booster/Cluster.
-1. Migrar el servidor de marketing.
+1. Migre el servidor de marketing.
 
 Adobe Campaign se basa en varios procesos ejecutados en el servidor que deberá manipular durante las actualizaciones, en particular:
 
-* Servidor de aplicaciones (nlserver web)
+* Servidor de aplicaciones (web nlserver)
 * Servidor de entrega (nlserver mta)
 * Servidor de redirección (webmdl)
 
 >[!CAUTION]
 >
->La consola del cliente debe estar en la misma compilación que la instancia del servidor.
+>La consola de cliente debe tener la misma versión que la instancia de servidor.
 
 >[!NOTE]
 >
@@ -48,6 +48,6 @@ Adobe Campaign se basa en varios procesos ejecutados en el servidor que deberá 
 
 Si la nueva versión implica una modificación de la estructura de la base de datos, se recomienda reiniciar los servidores en el siguiente orden:
 
-1. Servidor de aplicaciones (nlserver web),
+1. Servidor de aplicaciones (web nlserver),
 1. Servidor de redirección (webmdl),
-1. Servidor de entrega (nlserver mta).
+1. Servidor de envío (mta de nlserver).

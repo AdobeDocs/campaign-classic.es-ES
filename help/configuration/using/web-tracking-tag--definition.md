@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Definir la etiqueta de seguimiento web
-description: Definir la etiqueta de seguimiento web
+title: Definir etiqueta de seguimiento web
+description: Definir etiqueta de seguimiento web
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
@@ -15,15 +15,15 @@ ht-degree: 2%
 
 
 
-Una etiqueta de seguimiento web es simplemente una URL construida con los parámetros apropiados, enviada al servidor de redirección a través de una consulta HTTP.
+Una etiqueta de seguimiento web no es más que una URL construida con los parámetros adecuados y enviada al servidor de redirección a través de una consulta HTTP.
 
-## Formato de los datos a enviar {#format-of-the-data-to-be-sent}
+## Formato de los datos que se van a enviar {#format-of-the-data-to-be-sent}
 
 El formato de una URL de seguimiento web es el siguiente: **https://`<name_of_redirection_server>`:`<port>`/r/`<random_number>`?`<parameters>`**
 
 >[!NOTE]
 >
->El número aleatorio añadido a la dirección URL evita problemas causados por el almacenamiento en caché de las páginas web de los exploradores.
+>El número aleatorio añadido a la URL evita los problemas causados por los navegadores que almacenan las páginas web en caché.
 
 La siguiente tabla proporciona una lista de parámetros especiales admitidos por el servidor de redirección.
 
@@ -44,7 +44,7 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                               <p>Cookie de sesión</p> 
                            </td>
                            <td>
-                              <p>Identificador de entrega e identificador de destinatario.</p> 
+                              <p>Identificador de envío e identificador de destinatario.</p> 
                            </td> 
                         </tr>
                         <tr>
@@ -55,7 +55,7 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                               <p>Cookie permanente</p> 
                            </td>
                            <td>
-                              <p>Identificador de destinatario (útil si no hay cookie de sesión).</p> 
+                              <p>Identificador de destinatario (útil si falta la cookie de sesión).</p> 
                            </td> 
                         </tr>
                         <tr>
@@ -63,7 +63,7 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                               <p>tagid</p> 
                            </td>
                            <td>
-                              <p>Parámetro de URL</p> 
+                              <p>URL Parameter</p> 
                            </td>
                            <td>
                               <p>Identificador de la página web rastreada: este es el único parámetro obligatorio.</p> 
@@ -71,13 +71,13 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                         </tr>
                         <tr>
                            <td>
-                              <p>jobid</p> 
+                              <p>trabajadora</p> 
                            </td>
                            <td>
-                              <p>Parámetro de URL</p> 
+                              <p>URL Parameter</p> 
                            </td>
                            <td>
-                              <p>Identificador de envío que se utilizará si no hay ninguna cookie de sesión. Este valor se expresa en hexadecimal.
+                              <p>Identificador de envío que se utilizará si no hay ninguna cookie de sesión. Este valor se debe expresar en hexadecimal.
                               </p> 
                            </td> 
                         </tr>
@@ -86,37 +86,37 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                               <p>rcpid</p> 
                            </td>
                            <td>
-                              <p>Parámetro de URL</p> 
+                              <p>URL Parameter</p> 
                            </td>
                            <td>
-                              <p>Parámetro utilizado para identificar al usuario de Internet. El formato de este parámetro es "name=value", donde el nombre es un campo del esquema de destinatarios. Este parámetro tiene prioridad sobre el identificador contenido en la cookie de sesión.
+                              <p>Parámetro utilizado para identificar al usuario de Internet. El formato de este parámetro es "name=value", donde name es un campo del esquema de destinatarios. Este parámetro tiene prioridad sobre el identificador contenido en la cookie de sesión.
                               </p> 
                            </td> 
                         </tr> 
                      </tbody>  
                   </table>
 
-**Algunas URL de seguimiento web**
+**Algunas direcciones URL de seguimiento web**
 
 * Visita a una página de identificador &quot;principal&quot;
 
    **https://myserver.adobe.com/r/9862?tagid=home**
 
-* Recopilación de datos del volumen del negocio
+* Recopilación de datos de volumen empresarial
 
    **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
 
-* Especificación de un campo para encontrar el destinatario
+* Especificación de un campo para buscar el destinatario
 
    **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
 
-   Se envía a la página principal un destinatario cuyo número de cuenta sea 10.
+   Se envía a la página de inicio un destinatario cuyo número de cuenta sea 10.
 
-* Uso de una entrega predeterminado
+* Uso de una entrega predeterminada
 
    **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
 
-   Se envía un destinatario a la página principal. Esta información se almacena en el envío con el identificador 230 (e6 en la base de datos 16) a menos que se envíe una cookie de sesión que contenga un identificador de envío con esta consulta.
+   Se envía un destinatario a la página principal. Esta información se almacena en la entrega con el identificador 230 (e6 en la base de datos 16) a menos que se envíe con esta consulta una cookie de sesión que contenga un identificador de entrega.
 
 >[!NOTE]
 >
@@ -126,5 +126,5 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
 
 Los siguientes métodos son posibles:
 
-* Inserción de la dirección URL en la variable **&quot;src&quot;** atributo de un HTML **`<img>`** incorporada a la página web que desea rastrear.
+* Inserción de la dirección URL en **&quot;src&quot;** atributo de un HTML **`<img>`** incorporada en la página web que desea rastrear.
 * Llamada directa al servidor de redirección cuando se genera la página web que desea rastrear.

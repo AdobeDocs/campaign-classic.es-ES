@@ -2,7 +2,7 @@
 product: campaign
 title: Introducción a los operadores de Campaign
 description: Obtenga información sobre cómo crear y administrar usuarios de campañas
-badge: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge: label="v7" type="Informativo" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Access Management, Permissions
 role: User, Admin
 level: Beginner

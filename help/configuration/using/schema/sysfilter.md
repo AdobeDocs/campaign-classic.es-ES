@@ -19,13 +19,13 @@ ht-degree: 17%
 
 ## Modelo de contenido {#content-model-15}
 
-sysFilter:==condition
+sysFilter:==condición
 
 ## Atributos {#attributes-15}
 
 Ninguno
 
-## Principales {#parents-15}
+## Padres {#parents-15}
 
 `<element>`
 
@@ -37,7 +37,7 @@ Ninguno
 
 Este elemento permite definir un filtro.
 
-## Descripción del atributo {#attribute-description-15}
+## Descripción de atributo {#attribute-description-15}
 
 Este elemento no tiene atributos.
 

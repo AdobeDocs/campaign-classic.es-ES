@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Puntos clave a la hora de administrar la entrega en Adobe Campaign Classic
-description: Descubra los puntos clave que debe comprobar al administrar la capacidad de entrega en Adobe Campaign
+description: Conozca los puntos clave que debe comprobar al administrar la capacidad de entrega en Adobe Campaign
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability

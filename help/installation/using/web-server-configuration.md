@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Configuración del servidor web
-description: Obtenga más información sobre las prácticas recomendadas principales de configuración del servidor web
+description: Obtenga más información sobre las prácticas recomendadas principales de configuración de servidores web
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
@@ -18,56 +18,56 @@ ht-degree: 1%
 
 
 
-A continuación encontrará algunas de las principales prácticas recomendadas relacionadas con la configuración del servidor web (Apache/IIS).
+A continuación, encontrará algunas de las prácticas recomendadas principales relacionadas con la configuración de servidores web (Apache/IIS).
 
 * Cambiar las páginas de error predeterminadas.
 
-* Deshabilite la versión SSL y las cifras anteriores:
+* Deshabilite la versión y las cifras SSL antiguas:
 
    **En Apache**, edite /etc/apache2/mods-available/ssl.conf. Este es un ejemplo.
 
-   * SSLProcol todo -SSLv2 -SSLv3 -TLSv1
+   * SSLProtocol all -SSLv2 -SSLv3 -TLSv1
    * SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1
 
-   **En IIS** (consulte la [documentación](https://support.microsoft.com/en-us/kb/245030)), realice la configuración siguiente:
+   **En IIS** (consulte la [documentación](https://support.microsoft.com/en-us/kb/245030)), realice la siguiente configuración:
 
-   * Añadir subclave del Registro en HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL
-   * Para permitir que el sistema utilice los protocolos que no se negocian de forma predeterminada (como TLS 1.2), cambie los datos del valor DWORD del valor DisabledByDefault a 0x0 en las siguientes claves de registro en la sección **Protocolos** clave:
+   * Agregar una subclave del Registro en HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL
+   * Para permitir que el sistema utilice los protocolos que no se negociarán de forma predeterminada (como TLS 1.2), cambie los datos del valor DWORD del valor DisabledByDefault a 0x0 en las siguientes claves del Registro en el **Protocolos** clave:
 
-      CANAL\Protocolos\TLS 1.2\Cliente
+      SCHANNEL\Protocols\TLS 1.2\Client
 
-      CANAL\Protocolos\TLS 1.2\Servidor
+      SCHANNEL\Protocols\TLS 1.2\Server
    **Deshabilitar SSL x.0**
 
-   SCHANNEL\Protocolos\SSL 3.0\Cliente: DisabledByDefault: Valor DWORD (32 bits) a 1
+   SCHANNEL\Protocols\SSL 3.0\Client: DisabledByDefault: DWORD (32 bits) Valor a 1
 
-   SCHANNEL\Protocolos\SSL 3.0\Servidor: Habilitado: Valor DWORD (32 bits) a 0
+   SCHANNEL\Protocols\SSL 3.0\Server: Enabled: DWORD (32 bits) Value to 0
 
-* Elimine el **TRACE** método:
+* Retire el **TRACE** método:
 
-   **En Apache**, edite en /etc/apache2/conf.d/security: TraceEnable **Off**
+   **En Apache**, edite en /etc/apache2/conf.d/security: TraceEnable **Desactivado**
 
-   **En IIS** (consulte la [documentación](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)), realice la configuración siguiente:
+   **En IIS** (consulte la [documentación](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)), realice la siguiente configuración:
 
-   * Asegúrese de que **Filtrado de solicitudes** está instalado el servicio de rol o la función .
+   * Asegúrese de que **Filtrado de solicitudes** servicio de rol o función está instalada.
    * En el **Filtrado de solicitudes** , haga clic en la ficha Verbos HTTP y, a continuación, haga clic en Denegar verbo. En el panel Acciones, introduzca TRACE en el cuadro de diálogo abierto.
 
-* Elimine el banner:
+* Quitar el titular:
 
-   **En Apache**, edite /etc/apache2/conf.d/security:
+   **En Apache**, editar /etc/apache2/conf.d/security:
 
-   * ServerSignature **Off**
+   * ServerSignature **Desactivado**
    * ServerTokens **Prod**
 
-   **En IIS**, realice la configuración siguiente:
+   **En IIS**, realice la siguiente configuración:
 
    * Instalar **URLScan**.
-   * Edite el **Urlscan.ini** archivo que se va a tener **RemoveServerHeader=1**
+   * Edite el **Urlscan.ini** archivo para tener **RemoveServerHeader=1**
 
 
 * Limite el tamaño de la consulta para evitar que se carguen archivos importantes:
 
-   **En Apache**, añada la variable **LimitRequestBody** directiva (tamaño en bytes) en el directorio /.
+   **En Apache**, añada el **LimitRequestBody** directiva (tamaño en bytes) en el directorio /.
 
    ```
    <Directory />
@@ -77,9 +77,9 @@ A continuación encontrará algunas de las principales prácticas recomendadas r
    </Directory>
    ```
 
-   **En IIS** (consulte la [documentación](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)), establezca la variable **maxAllowedContentLength** (longitud máxima del contenido permitida) en las opciones de filtrado de contenido.
+   **En IIS** (consulte la [documentación](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)), establezca el **maxAllowedContentLength** (longitud de contenido máxima permitida) en las opciones de filtrado de contenido.
 
 Temas relacionados:
 
-* [Información general sobre el cumplimiento de Adobe Marketing Cloud](https://experienceleague.adobe.com/docs/core-services/assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf) (PDF)
-* [Información general sobre la seguridad de Adobe Campaign](https://www.adobe.com/content/dam/cc/en/security/pdfs/ADB-CampaignSecurity-WP.pdf) (PDF)
+* [Resumen del cumplimiento de Adobe Marketing Cloud](https://experienceleague.adobe.com/docs/core-services/assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf) (PDF)
+* [Información general sobre seguridad de Adobe Campaign](https://www.adobe.com/content/dam/cc/en/security/pdfs/ADB-CampaignSecurity-WP.pdf) (PDF)

@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Configuración del acceso a los Verticas analytics
+title: Configuración del acceso a Vertica analytics
 description: Obtenga información sobre cómo configurar el acceso a los Verticas analytics en FDA
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
@@ -14,22 +14,22 @@ ht-degree: 25%
 
 ---
 
-# Configuración del acceso a los Verticas analytics {#configure-fda-vertica}
+# Configuración del acceso a Vertica analytics {#configure-fda-vertica}
 
 
 
-Uso de Campaign **Acceso de datos federado** (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a [!DNL Vertica Analytics].
+Uso de Campaign **Acceso de datos federado** (FDA) para procesar la información almacenada en una base de datos externa. Siga estos pasos para configurar el acceso a [!DNL Vertica Analytics].
 
-1. Configurar [!DNL Vertica Analytics] en [CentOS](#vertica-centos), [Windows](#vertica-windows) o [Debian](#vertica-debian)
+1. Configurar [!DNL Vertica Analytics] el [CentOS](#vertica-centos), [Windows](#vertica-windows) o [Debian](#vertica-debian)
 1. Configure las variables [!DNL Vertica Analytics] [cuenta externa](#vertica-external) en Campaign
 
 ![](assets/snowflake_3.png)
 
-## verticas analytics en CentOS {#vertica-centos}
+## Verticas analytics en CentOS {#vertica-centos}
 
-Para configurar [!DNL Vertica Analytics] en CentOS, siga los pasos a continuación:
+Para configurar [!DNL Vertica Analytics] En CentOS, siga los pasos a continuación:
 
-1. Descargue los controladores ODBC para [!DNL Vertica Analytics]. [Haga clic aquí](https://www.vertica.com/download/vertica/client-drivers/) y descargue las últimas RPM de Linux.
+1. Descargue los controladores ODBC para [!DNL Vertica Analytics]. [Haga clic aquí](https://www.vertica.com/download/vertica/client-drivers/) y descargue el último Linux RPM.
 
 1. A continuación, debe instalar unixODBC con el siguiente comando:
 
@@ -38,7 +38,7 @@ Para configurar [!DNL Vertica Analytics] en CentOS, siga los pasos a continuaci�
    yum install unixODBC.x86_64
    ```
 
-1. Si ha instalado anteriormente la variable [!DNL Vertica Analytics] Servidor, ya se instalará un controlador ODBC. En este caso, actualice la unidad de la siguiente manera:
+1. Si ya ha instalado el [!DNL Vertica Analytics] Servidor, ya se instalará un controlador ODBC. En este caso, actualice la unidad como se indica a continuación:
 
    ```
    #Switch to root
@@ -77,17 +77,17 @@ Para configurar [!DNL Vertica Analytics] en CentOS, siga los pasos a continuaci�
    rm vertica-client-x.x.x-x.x86_64.rpm
    ```
 
-1. En Adobe Campaign, puede configurar la [!DNL Vertica Analytics] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#vertica-external).
+1. En Adobe Campaign, puede configurar los [!DNL Vertica Analytics] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#vertica-external).
 
-## verticas analytics en Windows {#vertica-windows}
+## Verticas analytics en Windows {#vertica-windows}
 
 1. Descargue [el controlador ODBC para Windows](https://www.vertica.com/download/vertica/client-drivers/). Para instalar el controlador para Windows, deberá habilitar .NET Framework 3.5 o el asistente de instalación intentará habilitarlo y descargarlo automáticamente.
 
 1. Configure el controlador ODBC en Windows. Para obtener más información, consulte [esta página](https://www.vertica.com/docs/9.2.x/HTML/Content/Authoring/ConnectingToVertica/ClientODBC/SettingUpADSN.htm)
 
-1. En Adobe Campaign, puede configurar la [!DNL Vertica Analytics] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#vertical-external).
+1. En Adobe Campaign, puede configurar los [!DNL Vertica Analytics] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#vertical-external).
 
-## verticas analytics en Debian {#vertica-debian}
+## Verticas analytics en Debian {#vertica-debian}
 
 1. Descargue los controladores ODBC para [!DNL Vertica Analytics]. [Haga clic aquí](https://sfc-repo.snowflakecomputing.com/odbc/linux/latest/index.html) para iniciar la descarga.
 
@@ -97,7 +97,7 @@ Para configurar [!DNL Vertica Analytics] en CentOS, siga los pasos a continuaci�
    apt-get install unixODBC
    ```
 
-1. Si ha instalado anteriormente la variable [!DNL Vertica Analytics] Servidor, ya se instalará un controlador ODBC. En este caso, actualice la unidad de la siguiente manera:
+1. Si ya ha instalado el [!DNL Vertica Analytics] Servidor, ya se instalará un controlador ODBC. En este caso, actualice la unidad como se indica a continuación:
 
    ```
    #Switch to root
@@ -139,13 +139,13 @@ Para configurar [!DNL Vertica Analytics] en CentOS, siga los pasos a continuaci�
    Port = 5433
    ```
 
-1. En Adobe Campaign, puede configurar la [!DNL Vertica Analytics] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#vertica-external).
+1. En Adobe Campaign, puede configurar los [!DNL Vertica Analytics] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#vertica-external).
 
-## Cuenta externa de verticas analytics {#vertica-external}
+## Cuenta externa de Vertica analytics {#vertica-external}
 
-Debe crear un [!DNL Vertica Analytics] cuenta externa para conectar la instancia de Campaign con el [!DNL Vertica Analytics] base de datos externa.
+Debe crear un [!DNL Vertica Analytics] cuenta externa para conectar la instancia de Campaign a [!DNL Vertica Analytics] base de datos externa.
 
-1. Desde campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. Desde Campaign **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
 1. Haga clic en **[!UICONTROL New]**.
 

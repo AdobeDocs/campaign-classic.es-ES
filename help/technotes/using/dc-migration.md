@@ -20,20 +20,20 @@ ht-degree: 66%
 
 ## Contexto
 
-Como valioso cliente de Adobe Campaign Classic, estamos comprometidos a proporcionarle la mejor experiencia y el mejor valor. A lo largo de los años, nos hemos dado cuenta del valor y la fiabilidad de alojar a nuestros clientes en la nube.  Como parte de nuestra [Iniciativa de actualización anual](../../rn/using/rn-overview.md#yearly-upgrade), trasladamos a todos nuestros clientes a Adobe Managed Services (Nube pública en AWS) para ofrecer servicios mejores y más fiables.
+Como valioso cliente de Adobe Campaign Classic, estamos comprometidos a proporcionarle la mejor experiencia y el mayor valor posibles. A lo largo de los años, nos hemos dado cuenta del valor y la fiabilidad de alojar a nuestros clientes en la nube.  Como parte de nuestro [Iniciativa de actualización anual](../../rn/using/rn-overview.md#yearly-upgrade)Por lo tanto, estamos trasladando a todos nuestros clientes a Adobe Managed Services (Nube pública en AWS) para proporcionar servicios mejores y más fiables.
 
 Este programa tiene tres objetivos principales:
 
 * Hacer frente a las vulnerabilidades de seguridad identificadas trasladando la infraestructura a un entorno seguro y moderno (AWS).
-* Elimine los procesos de escalado potencialmente engorrosos, proporcione acceso a nuestra [MTA mejorados](../../delivery/using//sending-with-enhanced-mta.md) y mejorar todos los niveles de servicio de mantenimiento.
+* Elimine los procesos de ampliación potencialmente engorrosos y proporcione acceso a nuestros [MTA mejorados](../../delivery/using//sending-with-enhanced-mta.md) y mejorar todos los niveles de servicio de mantenimiento.
 * Prepare su instancia para el futuro de Adobe Campaign Classic, incluidas actualizaciones más automatizadas y regulares que no requieran tantos recursos ni tanto tiempo.
 
 ### Glosario
 
-* **Generar actualización** - Cuando el software de Adobe Campaign Classic se actualiza al último número de compilación segura, pero se mantiene en el mismo nivel de compilación principal/menor. Por ejemplo: Campaign v7 20.2.3 compilación 9182 a Campaign v7 21.2.5 compilación 9188. [Más información](../../platform/using/faq-build-upgrade.md).
-* **MID/RT** - Servidores de ejecución de mensajes alojados en Adobe Cloud (MID para campañas por lotes y RT para mensajes unitarios en tiempo real)
-* **Programa de actualización anual** - este programa proporciona una mayor seguridad, un mejor apoyo, un mayor mantenimiento y estabilidad. También facilita las futuras actualizaciones y proporciona acceso a nuevas funciones en Campaign.  [Más información](../../rn/using/rn-overview.md#yearly-upgrade).
-* **AWS** - Amazon Web Service (Amazon Public Cloud)
+* **Actualización de compilación** : Cuando el software de Adobe Campaign Classic se actualiza al último número de compilación segura, pero permanece en el mismo nivel de compilación principal/menor. Por ejemplo: Campaign 7 versión 20.2.3 compilación 9182 a Campaign 7 versión 21.2.5 compilación 9188. [Más información](../../platform/using/faq-build-upgrade.md).
+* **MID/RT** : Servidores de ejecución de mensajes alojados en Adobe Cloud (MID para campañas por lotes y RT para mensajes unitarios en tiempo real)
+* **Programa de actualización anual** - este programa proporciona una mayor seguridad, soporte, mantenimiento y estabilidad. También facilita las futuras actualizaciones y proporciona acceso a nuevas funciones en Campaign.  [Más información](../../rn/using/rn-overview.md#yearly-upgrade).
+* **AWS** - Amazon Web Service (nube pública de Amazon)
 * **SFTP** - Protocolo seguro de transferencia de archivos. [Más información](../../platform/using/sftp-server-usage.md).
 
 
@@ -71,21 +71,21 @@ Este programa tiene tres objetivos principales:
 **Las actualizaciones anuales facilitan las futuras actualizaciones**
 
 1. Cuanto más tiempo pasa su organización esperando que se produzca la actualización, más compleja se vuelve la misma y aumenta el potencial de sufrir vulnerabilidades (especialmente al pasar de una versión anterior).
-1. Con la actualización anual de Campaign (fue la iniciativa Gold Standard), su instancia se modernizará y estará lista para recibir actualizaciones más automatizadas y regulares con menos intervención manual y menos recursos.
+1. Con la actualización anual de Campaign (iniciativa Gold Standard), su instancia se modernizará y estará lista para recibir actualizaciones más automatizadas y regulares con menos intervención manual y menos recursos.
 
 ![](assets/GSMigrations.png)
 
 ## Acerca de la migración
 
-La migración a Adobe Managed Services (nube pública) se producirá en 2020/2021 para las cuentas afectadas. Adobe acompañará y guiará a su organización en este viaje.
+La migración a Adobe Managed Services (Nube pública) se producirá en 2020/2021 para las cuentas afectadas. Adobe acompañará y guiará a su organización en este viaje.
 
 Para comenzar como es debido, las cuentas que requieran esta migración recibirán un mensaje de Adobe por correo electrónico con una cronología y acceso a la documentación. Esta notificación le indica que se ha programado la migración de su cuenta.
 
-Una migración se puede iniciar mediante [apertura de un nuevo ticket de asistencia al Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support). Utilice la línea de asunto “Migrar a AWS”.
+Se puede iniciar una migración mediante [abrir un nuevo ticket de asistencia al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support). Utilice la línea de asunto “Migrar a AWS”.
 
 ### ¿Es obligatoria esta migración?
 
-Esta migración a la nube es **primer paso para [programa anual de actualización](../../rn/using/rn-overview.md#yearly-upgrade)** de sus instancias de Adobe Campaign. Esta migración es obligatoria si está alojado en un centro de datos que no es de la nube pública (AWS).
+Esta migración a la nube es **primer paso para la [programa de actualización anual](../../rn/using/rn-overview.md#yearly-upgrade)** de las instancias de Adobe Campaign. Esta migración es obligatoria si está alojado en un centro de datos que no es de la nube pública (AWS).
 
 La nube de Adobe Managed Services está alojada en Amazon Web Service (AWS), un entorno moderno, seguro y optimizado. [Más información sobre AWS](https://aws.amazon.com/application-hosting/benefits/).
 
@@ -98,7 +98,7 @@ Además, esta migración es ahora un **requisito previo para cualquier actualiza
 Adobe se ha comprometido a proteger sus datos y prepararle para el futuro de Adobe Campaign. Necesitamos su colaboración para lograr el éxito juntos.
 
 
-**Hemos organizado un equipo** de representantes del Servicio de atención al cliente, responsables de éxito de clientes, gerentes de productos, ingenieros, especialistas en TechOps y consultores de productos dedicados para ayudar y garantizar que la experiencia sea fluida y fluida. Nos comprometemos a garantizar que dispone de la información de contacto y del proyecto pertinente.
+**Hemos organizado un equipo** de representantes del Servicio de atención al cliente, responsables de éxito de clientes, gerentes de productos, ingenieros, especialistas en TechOps y consultores de productos dedicados para ayudar y garantizar que la experiencia sea fluida y se desarrolle sin problemas. Nos comprometemos a garantizar que dispone de la información de contacto y del proyecto pertinente.
 
 Hemos invertido un gran esfuerzo en desarrollar tecnologías que nos ayudarán a llevar a cabo esta migración de forma rápida, fluida y segura.
 
@@ -108,7 +108,7 @@ Hemos invertido un gran esfuerzo en desarrollar tecnologías que nos ayudarán a
 * Cambio de IP para integraciones de datos.
 * Aumento de la capacidad de entrega de nuevas IP de envío. Sin embargo, el plan es hacer que esta operación sea transparente para el negocio, a diferencia de la mejora inicial que se realiza durante el lanzamiento.
 
-Obtenga más información sobre la migración de Campaign a [Preguntas frecuentes sobre la nube pública](dc-migration-faq.md).
+Obtenga más información en Migración de Campaign a [Preguntas frecuentes sobre Public Cloud](dc-migration-faq.md).
 
 
 ## Ruta de migración a la nube pública
@@ -131,7 +131,7 @@ Cuando se complete la migración, la instancia de Campaign tendrá direcciones I
 
 **IP de integración de datos**
 
-La integración de datos del lado del cliente puede verse afectada por el cambio de IP para la integración de datos. El cambio puede afectar a ambas direcciones, dependiendo de si Campaign actúa como servidor o como cliente.
+La integración de datos en el lado del cliente puede verse afectada por el cambio de direcciones IP para la integración de datos. El cambio puede afectar a ambas direcciones, dependiendo de si Campaign actúa como servidor o como cliente.
 Casos habituales:
 
 * SFTP, posiblemente ambas direcciones
@@ -140,13 +140,13 @@ Casos habituales:
 
 En general, esto significa que el cliente debe comprobar las posibles restricciones IP establecidas en sus servidores de seguridad y adaptarlas en consecuencia.*
 
-**Servidores de campaña**
+**Servidores de Campaign**
 
-Los servidores de Campaign existentes (contenedores en realidad) se moverán a la nube pública (AWS) con un enfoque de &quot;alza y cambio&quot;. Es decir, no se necesitará una nueva instalación del servidor, pero todo el servidor se transferirá al nuevo centro de datos. Es decir, no se necesitará una nueva instalación del servidor, pero todo el servidor se transferirá al nuevo centro de datos.
+Los servidores de Campaign existentes (contenedores) se moverán a la nube pública (AWS) con un enfoque &quot;lift-and-shift&quot;. Es decir, no se necesitará una nueva instalación del servidor, pero todo el servidor se transferirá al nuevo centro de datos. Es decir, no se necesitará una nueva instalación del servidor, pero todo el servidor se transferirá al nuevo centro de datos.
 
 **Nombres de servidor**
 
-En los subdominios utilizados para la comunicación de marketing: seguirá siendo el mismo. Sin embargo, según la implementación, es posible que haya que hacer alguna cosa en el lado del cliente:
+En los subdominios utilizados para la comunicación de marketing: seguirán siendo los mismos. Sin embargo, según la implementación, es posible que haya que hacer alguna cosa en el lado del cliente:
 
 * Si se produce una delegación de subdominios (el caso habitual), Adobe se encargará de todos los cambios y garantizará una transición sin problemas
 * En caso de configuración de CNAME (excepción), se solicitará al cliente que implemente los cambios. Será necesaria la coordinación con Adobe.
@@ -183,11 +183,11 @@ Sugerencias:
 
 **Pausar ejecuciones**
 
-Recomendamos reducir la velocidad y pausar todas las ejecuciones justo antes de cerrar la aplicación en el centro de datos heredado: envíos y flujos de trabajo. Esto facilitará el reinicio en la nube pública (AWS), ya que se habrá dado tiempo a los procesos para pausar “correctamente” y guardar cualquier estado de ejecución en curso. 
+Recomendamos reducir la velocidad y pausar todas las ejecuciones justo antes de cerrar la aplicación en el centro de datos heredado: entregas y flujos de trabajo. Esto facilitará el reinicio en la nube pública (AWS), ya que se habrá dado tiempo a los procesos para pausar “correctamente” y guardar cualquier estado de ejecución en curso. 
 
 **Durante la migración**
 
-Mientras se produce la migración, solo un servicio seguirá funcionando: redirección de vínculos de correo electrónico. Es decir, todos los destinatarios podrán llegar a la página de destino cuando hagan clic en un mensaje de correo electrónico. Sin embargo, no se rastrearán estos clics, por lo que las tasas de clics de las entregas que se iniciaron poco antes de que la migración serán inferiores a las habituales.
+Mientras se produce la migración, solo seguirá funcionando un servicio: Redirección de vínculos de correo electrónico. Es decir, todos los destinatarios podrán llegar a la página de destino cuando hagan clic en un mensaje de correo electrónico. Sin embargo, no se rastrearán estos clics, por lo que las tasas de clics de las entregas que se iniciaron poco antes de que la migración serán inferiores a las habituales.
 
 **Restart**
 
@@ -200,7 +200,7 @@ Una vez migrada al nuevo entorno, la aplicación se reiniciará de forma progres
 
 **Eliminación de instancias en el centro de datos heredado**
 
-Una vez completada la migración de la aplicación, no hay ningún plan para volver a ejecutar ningún proceso en el centro de datos heredado. Esperamos que toda la información del centro de datos heredado se pueda borrar, excepto con fines de copia de seguridad temporal, hasta que los procesos de copia de seguridad programados se hayan ejecutado en la nube pública (AWS).
+Una vez completada la migración de la aplicación, no hay ningún plan para volver a ejecutar procesos en el centro de datos heredado. Esperamos que toda la información del centro de datos heredado se pueda borrar, excepto con fines de copia de seguridad temporal, hasta que los procesos de copia de seguridad programados se hayan ejecutado en la nube pública (AWS).
 
 **Delegación de DNS**
 

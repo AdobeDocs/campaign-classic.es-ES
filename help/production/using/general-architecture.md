@@ -29,20 +29,20 @@ En una configuración mínima, Adobe Campaign funciona con:
 
 Este diagrama muestra que el único tráfico involucrado en el contexto de una arquitectura mínima es:
 
-1. Tráfico de protocolo HTTP al servidor de Adobe Campaign a través de Internet,
+1. Tráfico del protocolo HTTP al servidor de Adobe Campaign a través de Internet,
 1. Tráfico de protocolo SMTP desde y hacia el servidor de Adobe Campaign a través de Internet.
 
 ## Arquitectura distribuida {#distributed-architecture}
 
-Adobe Campaign se compone de varios módulos que se pueden desglosar en varios equipos. Este modo operativo tiene varias ventajas:
+Adobe Campaign está formado por varios módulos que se pueden desglosar en varios equipos. Este modo de funcionamiento tiene varias ventajas:
 
 * equilibrio de carga,
 * configuración de la redundancia de módulos,
-* construcción de una arquitectura desglosada por varios proveedores de servicios (segmentación de los servicios prestados).
+* creación de una arquitectura desglosada en varios proveedores de servicios (segmentación de los servicios prestados).
 
 ![](assets/architecturerepartie.png)
 
-La distribución de módulos en varias máquinas proporciona buena flexibilidad de uso y una mayor adaptabilidad.
+La distribución de módulos en varias máquinas ofrece una buena flexibilidad de uso y una adaptabilidad mejorada.
 
 >[!NOTE]
 >
@@ -52,8 +52,8 @@ La distribución de módulos en varias máquinas proporciona buena flexibilidad 
 
 | Número de puerto | Módulo o aplicación de Adobe Campaign correspondiente | Configurable |
 |---|---|---|
-| 443/tcp o 80/tcp | Servidores web (Apache/IIS) | SÍ |
+| 443/tcp u 80/tcp | Servidores web (Apache/IIS) | SÍ |
 | 6666/udp (local) | Adobe Campaign: Syslogd | SÍ |
 | 8005/tcp (local) | Adobe Campaign: módulo web | SÍ |
 | 8080/tcp | Adobe Campaign: módulo web (tomcat) | SÍ |
-| 7777 | Servidor de estadísticas (servidor de estadísticas) | SÍ |
+| 7777 | Servidor de estadísticas (servidor stat) | SÍ |

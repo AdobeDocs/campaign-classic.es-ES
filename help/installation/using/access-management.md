@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Gestión de acceso
-description: Obtenga más información sobre las prácticas recomendadas de administración de acceso
+description: Obtenga más información acerca de las prácticas recomendadas de administración de acceso
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Access Management, Permissions
 exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
@@ -16,36 +16,36 @@ ht-degree: 8%
 
 
 
-## Operador de aplicación web
+## Operador Webapp
 
-De serie, el operador webApp es un administrador. Para mejorar la seguridad, siga estas directrices:
+De forma predeterminada, el operador webApp es un administrador. Para mejorar la seguridad, siga estas directrices:
 
-* Sustituya el derecho asignado de administrador de este operador por uno nuevo (puede llamarse &quot;webapp&quot;). Para obtener más información, consulte [esta página](../../platform/using/access-management.md).
+* Reemplace el administrador asignado directamente desde este operador por uno nuevo (puede llamarse &quot;webapp&quot;). Para obtener más información, consulte [esta página](../../platform/using/access-management.md).
 
-* Agregue el operador webApp en carpetas (principalmente carpetas de destinatarios) para conceder acceso de lectura y escritura a los destinatarios. Para obtener más información, consulte [esta página](../../platform/using/access-management.md).
+* Añada el operador webApp en carpetas (principalmente carpetas de destinatarios) para conceder acceso de lectura y escritura a los destinatarios. Para obtener más información, consulte [esta página](../../platform/using/access-management.md).
 
-* Si utiliza una instancia de varias marcas (o de varias geografías), puede que desee dividir el acceso de la aplicación web en distintas carpetas de destinatarios. Para ello:
+* Si utiliza una instancia de varias marcas (o de varias regiones), es posible que desee dividir el acceso de la aplicación web en distintas carpetas de destinatario. Para ello:
 
-   1. Duplique el operador webApp
+   1. Duplicación del operador webApp
 
-   1. Escriba un nombre para cada duplicado. Por ejemplo: webapp_brand, webapp_brand2, etc.
+   1. Introduzca un nombre para cada duplicado. Por ejemplo: webapp_brand, webapp_brand2, etc.
 
    1. Duplique una plantilla de aplicación web para tener una plantilla por marca y edite las propiedades para cambiar el operador seleccionando Use a specific account.  Obtenga más información en [esta página](../../web/using/defining-web-forms-properties.md).
 
-## Grupos de seguridad y operadores administrativos
+## Grupos de seguridad y operadores de administración
 
-Cree suficientes grupos de seguridad para dar derechos suficientes a los operadores para permitirles hacer lo que necesitan y no más.
+Cree suficientes grupos de seguridad para dar derechos suficientes a los operadores y permitirles hacer lo que necesiten, y no más.
 
-No utilice el operador de administrador (o no lo comparta). Cree un operador por usuario físico (para tener una auditoría/registro precisos). Agregue los administradores recién nombrados al grupo de administradores. Si no utiliza el operador de administrador, no lo elimine y no lo deshabilite: este operador se utiliza internamente para ejecutar el procesamiento. Pero puede prohibir su [acceso a la consola del cliente](../../platform/using/access-management.md) y restringir su zona de seguridad (a localhost).
+No utilice el operador admin (o no lo comparta). Cree un operador por usuario físico (para tener una auditoría/registro precisos). Añada los administradores con nuevos nombres al grupo de administradores. Si no utiliza el operador admin, no lo elimine y no lo deshabilite: este operador se utiliza internamente para ejecutar el procesamiento. Pero puedes prohibir esto [acceso a la consola de cliente](../../platform/using/access-management.md) y restringir su zona de seguridad (a localhost).
 
-Evite agregar demasiados operadores en el grupo de administración (o con derechos asignados por el administrador). Son operadores muy poderosos (pueden realizar todas las instrucciones SQL, ejecutar comandos en el servidor, etc.).
+Evite añadir demasiados operadores en el grupo de administradores (o con derechos asignados de administrador). Son operadores muy potentes (pueden realizar todas las sentencias SQL, ejecutar comandos en el servidor, etc.).
 
 Adobe Campaign proporciona tres privilegios de alto nivel mediante [derechos asignados](../../platform/using/access-management.md#named-rights):
 
-* **ADMINISTRACIÓN** (administrador): proporciona acceso a todo y permite hacer todo, evitando todas las comprobaciones de derechos con nombre, por lo que incluye los derechos asignados de EJECUCIÓN DE PROGRAMAS (createProcess) y SQL
+* **ADMINISTRACIÓN** (admin): da acceso a todo y permite hacer todo, omitiendo todas las comprobaciones de derechos asignados, por lo que incluye los derechos asignados PROGRAM EXECUTION (createProcess) y SQL
 
 * **EJECUCIÓN DEL PROGRAMA** (createProcess): permite ejecutar programas externos (en el servidor)
 
-* **SQL**: permite ejecutar secuencias de comandos SQL en la base de datos (para que pueda omitir el modelo de seguridad). Nota: si necesita realizar cálculos complejos (filtrado, por ejemplo), puede pedir al administrador de la base de datos que cree una función SQL y que los añada a la lista de permitidos . Obtenga más información en [esta página](../../installation/using/scripting-coding-guidelines.md).
+* **SQL**: permite ejecutar scripts SQL en la base de datos (para que pueda omitir el modelo de seguridad). Nota: Si necesita realizar cálculos complejos (filtrado, por ejemplo), puede pedir al administrador de la base de datos que cree una función SQL y que los añada a la lista de permitidos. Obtenga más información en [esta página](../../installation/using/scripting-coding-guidelines.md).
 
-* **Otorgarlas a muy pocos operadores (y de confianza)**
+* **Concederlos a muy pocos operadores (y de confianza)**

@@ -2,7 +2,7 @@
 product: campaign
 title: Administración de enumeraciones
 description: Administración de enumeraciones
-badge: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge: label="v7" type="Informativo" tooltip="Se aplica solo a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: administration-basics

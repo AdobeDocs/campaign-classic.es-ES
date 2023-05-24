@@ -19,13 +19,13 @@ ht-degree: 11%
 
 
 
-De forma predeterminada, los nuevos flujos de trabajo se basan en una plantilla de flujo de trabajo preconfigurada y basada en una tabla de destinatarios (nms:destinatario). Para que se basen automáticamente en la tabla personalizada de destinatarios a los que se hace referencia en la variable **Nms_DefaultRcpSchema** (consulte [Configuración de la interfaz](../../configuration/using/configuring-the-interface.md) ), debe crear una nueva plantilla de flujo de trabajo.
+De forma predeterminada, los nuevos flujos de trabajo se basan en una plantilla de flujo de trabajo preconfigurada y basada en una tabla de destinatarios (nms:recipient). Para que se basen automáticamente en la tabla personalizada de destinatarios a los que se hace referencia en la **Nms_DefaultRcpSchema** opción (consulte [Configuración de la interfaz](../../configuration/using/configuring-the-interface.md) ), debe crear una nueva plantilla de flujo de trabajo.
 
-Cree una nueva plantilla a través de la **[!UICONTROL Resources > Templates > Workflow templates]** nodo . En las propiedades de la plantilla, las dimensiones proporcionadas coinciden con la tabla de destinatarios externos.
+Cree una nueva plantilla a través de **[!UICONTROL Resources > Templates > Workflow templates]** nodo. En las propiedades de la plantilla, las dimensiones proporcionadas coinciden con la tabla de destinatarios externos.
 
-Al basar los nuevos flujos de trabajo en una plantilla creada recientemente, la tabla personalizada se selecciona de forma predeterminada para las dimensiones globales de filtrado y segmentación del flujo de trabajo.
+Al basar los nuevos flujos de trabajo en una plantilla creada recientemente, la tabla personalizada se selecciona de forma predeterminada para las dimensiones globales de segmentación y filtrado del flujo de trabajo.
 
-Todas las actividades utilizadas en el flujo de trabajo utilizan la tabla personalizada sin necesidad de ninguna configuración manual adicional.
+Por lo tanto, todas las actividades utilizadas en el flujo de trabajo utilizan la tabla personalizada sin necesidad de ninguna configuración manual adicional.
 
 Para obtener más información sobre los flujos de trabajo, consulte [esta sección](../../workflow/using/about-workflows.md).
 

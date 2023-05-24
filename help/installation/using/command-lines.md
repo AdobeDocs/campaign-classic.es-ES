@@ -18,36 +18,36 @@ ht-degree: 4%
 
 
 
-Las siguientes líneas de comandos requieren la capacidad de acceder al servidor de aplicaciones. En implementaciones alojadas en Adobe, estos comandos solo se pueden ejecutar mediante Adobe.
+Las siguientes líneas de comandos requieren la capacidad de acceder al servidor de aplicaciones. Para implementaciones alojadas por el Adobe, estos comandos solo se pueden ejecutar por el Adobe.
 
-## Crear una instancia {#creating-an-instance}
+## Creación de una instancia {#creating-an-instance}
 
-La creación de instancias se puede ejecutar utilizando líneas de comandos, con la sintaxis:
+La creación de instancias se puede ejecutar mediante líneas de comandos con la sintaxis:
 
 ```
 nlserver config -addinstance:instance/masques DNS[/lang]
 ```
 
-(donde **eng** y **fra** son valores posibles para la variable `[lang]` parameter)
+(donde **eng** y **fra** son valores posibles para `[lang]` parameter)
 
-El comando **nlserver config -addinstance:instance1/demo&#42;/eng** permite crear una instancia denominada **instance1** en inglés con la demostración de máscara DNS&#42;.
+El comando **nlserver config -addinstance:instance1/demo&#42;/eng** permite crear una instancia de llamada **instance1** en inglés con la demostración de máscara DNS&#42;.
 
 ## Declarar una base de datos {#declaring-a-database}
 
-Puede asociar una base de datos existente con una instancia desde la línea de comandos utilizando la siguiente sintaxis:
+Puede asociar una base de datos existente con una instancia desde la línea de comandos mediante la siguiente sintaxis:
 
 ```
 nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 ```
 
-Los siguientes valores son posibles para la variable **`[rdbms]`** parámetro:
+Los siguientes valores son posibles para **`[rdbms]`** parámetro:
 
 * **postgresql**: para PostgreSQL,
 * **oracle**: para el Oracle,
 * **mssql**: para Microsoft SQL Server,
 * **DB2**: para el motor DB2.
 
-El siguiente comando configura la variable **demostración** instancia con el servidor de tipo SQL conocido como **base6**, vinculado al **campaign** cuenta y **password** en el **dbsrv** servidor:
+El siguiente comando configura el **demostración** con el servidor de tipo SQL conocido como **base6**, vinculado a **campaña** cuenta y su **contraseña** en el **dbsrv** servidor:
 
 ```
  nlserver config -setdblogin:db:campaign:myBase/password@dbServer -instance:demo

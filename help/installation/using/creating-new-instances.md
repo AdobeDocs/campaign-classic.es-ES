@@ -18,13 +18,13 @@ ht-degree: 10%
 
 
 
-Una vez instalado Adobe Campaign y creada la instancia, puede añadir una nueva instancia desde la consola. Este modo de creación permite crear instancias de seguimiento sin acceder a la consola.
+Una vez instalado Adobe Campaign y creada la instancia, se puede añadir una nueva desde la consola. Este modo de creación permite crear instancias de seguimiento sin acceder a la consola.
 
-Para ello, inicie sesión en una base de datos existente y aplique los pasos siguientes:
+Para ello, inicie sesión en una base de datos existente y siga los siguientes pasos:
 
 1. Declarar una nueva instancia
 
-   Vaya a **[!UICONTROL Tools > Advanced > Declare a new instance...]** para iniciar el asistente.
+   Ir a **[!UICONTROL Tools > Advanced > Declare a new instance...]** para iniciar el asistente.
 
    ![](assets/s_ncs_install_declare_instance_menu.png)
 

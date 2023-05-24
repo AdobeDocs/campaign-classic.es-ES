@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Permisos para acceder a una base de datos externa
-description: Permisos de acceso a bases de datos externas
+description: Permisos de acceso a base de datos externa
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
 content-type: reference

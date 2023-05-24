@@ -16,13 +16,13 @@ ht-degree: 12%
 
 ## Modelo de contenido {#content-model-6}
 
-ayuda:==EMPTY
+ayuda:==VACÍO
 
 ## Atributos {#attributes-6}
 
 Ninguno
 
-## Principales {#parents-6}
+## Padres {#parents-6}
 
 `<srcschema>`  ,  `<element>`   ,   `<attribute>`    ,    `<enumeration>`     ,     `<value>`      ,     `<param />`,      `<method />`
 
@@ -32,9 +32,9 @@ Ninguno
 
 ## Descripción {#description-6}
 
-Este elemento permite describir una `<element>`  o  `<attribute>`   elemento. Solo puede contener texto y se almacena en XML en la base de datos.
+Este elemento permite describir una `<element>`  o  `<attribute>`   Elemento. Solo puede contener texto y se almacena en XML en la base de datos.
 
-## Descripción del atributo {#attribute-description-6}
+## Descripción de atributo {#attribute-description-6}
 
 Este elemento no tiene atributos.
 

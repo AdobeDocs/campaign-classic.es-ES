@@ -20,9 +20,9 @@ ht-degree: 13%
 
 Puede haber varias razones para que los registros de seguimiento no se reenvíen. Le recomendamos que compruebe la siguiente información:
 
-* **¿El** Seguimiento **el flujo de trabajo tiene errores?**
+* **¿El** Seguimiento **¿el flujo de trabajo tiene errores?**
 
-   Consulte [Monitorización de flujos de trabajo técnicos](../../workflow/using/monitoring-technical-workflows.md).
+   Consulte [Supervisión de flujos de trabajo técnicos](../../workflow/using/monitoring-technical-workflows.md).
 
    ![](assets/tracking_scheduled_task.png)
 
@@ -32,4 +32,4 @@ Puede haber varias razones para que los registros de seguimiento no se reenvíen
 
 * **¿Se han realizado cambios?**
 
-   Pueden causar la pérdida de conexión con los servidores mediante el alias de seguimiento.
+   Pueden almacenar en déclencheur una pérdida de conexión con los servidores mediante el alias de seguimiento.

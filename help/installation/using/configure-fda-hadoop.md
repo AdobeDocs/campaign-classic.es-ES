@@ -18,9 +18,9 @@ ht-degree: 79%
 
 
 
-Uso de Campaign **Acceso de datos federado** (FDA) para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a Hadoop.
+Uso de Campaign **Acceso de datos federado** (FDA) para procesar información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso al Hadoop.
 
-1. Configurar [base de datos de hadoop](#configuring-hadoop)
+1. Configurar [base de datos hadoop](#configuring-hadoop)
 1. Configuración del Hadoop [cuenta externa](#hadoop-external) en Campaign
 
 ## Configuración de Hadoop 3.0 {#configuring-hadoop}
@@ -85,12 +85,12 @@ El conector también admite las siguientes opciones de Hive:
 
 ## Configuración de Hadoop 2.1 {#configure-access-hadoop-2}
 
-Si necesita conectarse a Hadoop 2.1, siga los pasos descritos a continuación para [Windows](#for-windows) o [Linux](#for-linux).
+Si necesita conectarse al Hadoop 2.1, siga los pasos que se describen a continuación para [Windows](#for-windows) o [Linux](#for-linux).
 
 ### Hadoop 2.1 para Windows {#for-windows}
 
 1. Instale controladores de [perspectiva de ODBC y Azure HD](https://www.microsoft.com/en-us/download/details.aspx?id=40886) para Windows.
-1. Cree el DSN (Nombre de fuente de datos) ejecutando la herramienta ODBC DataSource Administrator. Se proporciona una muestra de DSN del sistema para Hive para que usted la modifique.
+1. Cree el DSN (Nombre de Fuente de Datos) ejecutando la herramienta ODBC DataSource Administrator. Se proporciona una muestra de DSN del sistema para Hive para que usted la modifique.
 
    ```
    Description: vorac (or any name you like)
@@ -101,7 +101,7 @@ Si necesita conectarse a Hadoop 2.1, siga los pasos descritos a continuación pa
    User/Password: admin/<your password here>
    ```
 
-1. Cree la cuenta externa de Hadoop, tal como se detalla en [esta sección](#hadoop-external).
+1. Cree la cuenta externa de Hadoop como se detalla en [esta sección](#hadoop-external).
 
 ### Hadoop 2.1 para Linux {#for-linux}
 
@@ -111,7 +111,7 @@ Si necesita conectarse a Hadoop 2.1, siga los pasos descritos a continuación pa
    apt-get install unixodbc
    ```
 
-1. Descargue e instale controladores ODBC para Apache Hive desde HortonWorks: [https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html).
+1. Descargue e instale controladores ODBC para Apache Hive de HortonWorks: [https://www.cloudera.com/downloads.html](https://www.cloudera.com/downloads.html).
 
    ```
    dpkg -i hive-odbc-native_2.1.10.1014-2_amd64.deb
@@ -188,4 +188,4 @@ Si necesita conectarse a Hadoop 2.1, siga los pasos descritos a continuación pa
    isql vorac -v
    ```
 
-1. Cree la cuenta externa de Hadoop, tal como se detalla en [esta sección](#hadoop-external).
+1. Cree la cuenta externa de Hadoop como se detalla en [esta sección](#hadoop-external).

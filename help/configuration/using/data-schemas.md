@@ -16,11 +16,11 @@ ht-degree: 2%
 
 ## Principios {#principles}
 
-Para editar, crear y configurar los esquemas, haga clic en el botón **[!UICONTROL Administration > Configuration > Data schemas]** de la consola del cliente de Adobe Campaign.
+Para editar, crear y configurar los esquemas, haga clic en **[!UICONTROL Administration > Configuration > Data schemas]** de la consola del cliente de Adobe Campaign.
 
 >[!NOTE]
 >
->Los esquemas de datos integrados solo se pueden eliminar mediante un administrador de la consola de Adobe Campaign Classic.
+>Solo un administrador de la consola de Adobe Campaign Classic puede eliminar esquemas de datos integrados.
 
 ![](assets/d_ncs_integration_schema_navtree.png)
 
@@ -32,7 +32,7 @@ El campo de edición muestra el contenido XML del esquema de origen:
 >
 >El control de edición &quot;Name&quot; permite introducir la clave de esquema formada por el nombre y el área de nombres. Los atributos &quot;name&quot; y &quot;namespace&quot; del elemento raíz del esquema se actualizan automáticamente en la zona de edición XML del esquema.
 
-La vista previa genera automáticamente el esquema extendido:
+La previsualización genera automáticamente el esquema ampliado:
 
 ![](assets/d_ncs_integration_schema_edition2.png)
 
@@ -40,11 +40,11 @@ La vista previa genera automáticamente el esquema extendido:
 >
 >Cuando se guarda el esquema de origen, se inicia automáticamente la generación del esquema ampliado.
 
-Si necesita comprobar la estructura completa de un esquema, puede utilizar la pestaña preview . Si el esquema se ha ampliado, podrá visualizar todas sus extensiones. Como complemento, la pestaña Documentation muestra todos los atributos y elementos del esquema, así como sus propiedades (campo SQL, tipo/longitud, etiqueta, descripción). La pestaña Documentation solo se aplica a esquemas generados. Para obtener más información, consulte [Regeneración de esquemas](../../configuration/using/regenerating-schemas.md) para obtener más información.
+Si necesita comprobar la estructura completa de un esquema, puede utilizar la pestaña preview. Si el esquema se ha ampliado, podrá visualizar todas sus extensiones. Como complemento, la pestaña Documentación muestra todos los atributos y elementos de esquema y sus propiedades (Campo SQL, tipo/longitud, etiqueta, descripción). La pestaña Documentación solo se aplica a los esquemas generados. Para obtener más información, consulte [Regeneración de esquemas](../../configuration/using/regenerating-schemas.md) sección.
 
-## Ejemplo: creación de una tabla de contrato {#example--creating-a-contract-table}
+## Ejemplo: Creación de una tabla de contrato {#example--creating-a-contract-table}
 
-En el siguiente ejemplo, queremos crear una nueva tabla para **contratos** en el modelo de base de datos de la base de datos de Adobe Campaign. Esta tabla permite almacenar los nombres y apellidos y las direcciones de correo electrónico de los titulares y cotitulares de cada contrato.
+En el siguiente ejemplo, deseamos crear una nueva tabla para **contratos** en el modelo de base de datos de la base de datos Adobe Campaign. Esta tabla permite almacenar el nombre y los apellidos y las direcciones de correo electrónico de los titulares y cotitulares de cada contrato.
 
 Para ello, debe crear el esquema de la tabla y actualizar la estructura de la base de datos para generar la tabla correspondiente. Siga estos pasos:
 
@@ -59,9 +59,9 @@ Para ello, debe crear el esquema de la tabla y actualizar la estructura de la ba
 
    >[!NOTE]
    >
-   >De forma predeterminada, los esquemas creados por los usuarios se almacenan en el espacio de nombres &quot;cus&quot;. Para obtener más información, consulte [Identificación de un esquema](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
+   >De forma predeterminada, los esquemas creados por los usuarios se almacenan en el área de nombres &quot;cus&quot;. Para obtener más información, consulte [Identificación de un esquema](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 
-1. Cree el contenido de la tabla. Se recomienda utilizar el asistente de entrada para asegurarse de que no falte ninguna configuración. Para ello, haga clic en el botón **[!UICONTROL Insert]** y elija el tipo de configuración que desea añadir.
+1. Cree el contenido de la tabla. Se recomienda utilizar el asistente de entrada para asegurarse de que no falta ninguna configuración. Para ello, haga clic en el **[!UICONTROL Insert]** y elija el tipo de configuración que desea añadir.
 
    ![](assets/s_ncs_configuration_create_new_content.png)
 
@@ -117,4 +117,4 @@ Para ello, debe crear el esquema de la tabla y actualizar la estructura de la ba
 
    ![](assets/s_ncs_configuration_structure.png)
 
-1. Actualice la estructura de la base de datos para crear la tabla a la que se vinculará el esquema. Para obtener más información, consulte [Actualización de la estructura de la base de datos](../../configuration/using/updating-the-database-structure.md).
+1. Actualice la estructura de la base de datos para crear la tabla a la que se vinculará el esquema. Para obtener más información, consulte [Actualización de la estructura de base de datos](../../configuration/using/updating-the-database-structure.md).

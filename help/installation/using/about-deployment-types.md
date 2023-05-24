@@ -18,12 +18,12 @@ ht-degree: 6%
 
 
 
-El diseño modular de Adobe Campaign permite una amplia gama de configuraciones de implementación, desde configuraciones independientes (todos los componentes de un equipo) hasta implementaciones empresariales con arquitectura completamente redundante y distribuida mediante varios servidores. Todo depende del nivel necesario de rendimiento y seguridad.
+El diseño modular de Adobe Campaign permite una amplia gama de configuraciones de implementación, desde configuraciones independientes (todos los componentes en un equipo) hasta implementaciones empresariales con arquitectura distribuida y totalmente redundante que utiliza varios servidores. Todo depende del nivel requerido de rendimiento y seguridad.
 
-En el caso de una configuración en varios equipos, no tiene que utilizar el mismo sistema operativo en todo: por ejemplo, puede utilizar un servidor de redirección en Linux + Apache con servidores de envío en Windows.
+En caso de una configuración en varios equipos, no tiene que utilizar el mismo sistema operativo en: por ejemplo, puede utilizar un servidor de redirección en Linux + Apache con servidores de entrega en Windows.
 
 >[!NOTE]
 >
->Los pasos de configuración de la instalación principal solo se pueden realizar mediante Adobe para implementaciones alojadas en Adobe, para configurar los archivos de configuración del servidor y de las instancias, por ejemplo.
+>Los pasos de configuración de la instalación principal solo se pueden realizar mediante el Adobe para implementaciones alojadas por el Adobe, por ejemplo, para configurar los archivos de configuración del servidor y de la instancia.
 >
->Para obtener más información sobre las principales diferencias entre implementaciones, consulte la [Modelos de alojamiento](../../installation/using/hosting-models.md) o a la sección [Diferencias de características para implementaciones alojadas y locales](../../installation/using/capability-matrix.md).
+>Para obtener más información sobre las principales diferencias entre implementaciones, consulte la [Modelos de alojamiento](../../installation/using/hosting-models.md) o a la sección [Diferencias de funciones para implementaciones alojadas y locales](../../installation/using/capability-matrix.md).

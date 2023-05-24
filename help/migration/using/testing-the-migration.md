@@ -24,13 +24,13 @@ ht-degree: 4%
 
 Según la configuración, hay varias formas de realizar pruebas de migración.
 
-Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. Los entornos de Adobe Campaign están sujetos a una licencia: compruebe su contrato de licencia o póngase en contacto con su representante de Adobe.
+Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. Los entornos de Adobe Campaign están sujetos a licencia: compruebe el contrato de licencia o póngase en contacto con el representante del Adobe.
 
-1. Detenga todos los avances en curso y transfiérselos al entorno de producción.
-1. Haga una copia de seguridad de la base de datos del entorno de desarrollo.
+1. Detenga todos los desarrollos en curso y transfiéralos al entorno de producción.
+1. Realice una copia de seguridad de la base de datos del entorno de desarrollo.
 1. Detenga todos los procesos de Adobe Campaign en la instancia de desarrollo.
-1. Haga una copia de seguridad de la base de datos del entorno de producción y restablézcala como un entorno de desarrollo.
-1. Antes de iniciar los servicios de Adobe Campaign, ejecute el **frozenInstance.js** secuencia de comandos de cauterización que permite borrar la base de datos de cualquier objeto que se estuviera ejecutando cuando se inició la copia de seguridad.
+1. Realice una copia de seguridad de la base de datos del entorno de producción y restáurela como un entorno de desarrollo.
+1. Antes de iniciar los servicios de Adobe Campaign, ejecute el **congelaciónInstance.js** script de cauterización que permite borrar la base de datos de cualquier objeto que se estaba ejecutando cuando se inició la copia de seguridad.
 
    ```
    nlserver javascript nms:freezeInstance.js -instance:<instance> -arg:<run|dry>
@@ -38,20 +38,20 @@ Debe tener un entorno de prueba/desarrollo para realizar pruebas de migración. 
 
    >[!NOTE]
    >
-   >El comando se inicia de forma predeterminada en **seca** y enumera todas las solicitudes ejecutadas por ese comando, sin iniciarlas. Para ejecutar solicitudes de cauterización, utilice **run** en el comando .
+   >El comando se inicia de forma predeterminada en **seco** y enumera todas las solicitudes ejecutadas por ese comando sin iniciarlas. Para ejecutar solicitudes de cauterización, utilice **correr** en el comando.
 
-1. Asegúrese de que las copias de seguridad sean correctas al intentar restaurarlas. Asegúrese de tener acceso a la base de datos, las tablas, los datos, etc.
+1. Asegúrese de que las copias de seguridad sean correctas al intentar restaurarlas. Asegúrese de que puede acceder a la base de datos, a las tablas, a los datos, etc.
 1. Pruebe el procedimiento de migración en el entorno de desarrollo.
 1. Si la migración del entorno de desarrollo se realiza correctamente, puede migrar el entorno de producción.
 
 >[!CAUTION]
 >
->Debido a los cambios realizados en la estructura de datos, no es posible importar y exportar paquetes de datos entre una plataforma v5 y una plataforma v7.
+>Debido a los cambios realizados en la estructura de datos, no es posible importar y exportar paquetes de datos entre las plataformas v5 y v7.
 
 
 ## Herramientas de migración {#migration-tools}
 
-Varias opciones permiten medir el impacto de una migración e identificar los posibles problemas. Estas opciones se deben ejecutar:
+Varias opciones permiten medir el impacto de una migración e identificar los posibles problemas. Estas opciones se van a ejecutar:
 
 * en el **config** comando:
 
@@ -59,7 +59,7 @@ Varias opciones permiten medir el impacto de una migración e identificar los po
    nlserver.exe config <option> -instance:<instance-name>
    ```
 
-* o después de la actualización:
+* o en la posactualización:
 
    ```
    nlserver.exe config -postupgrade <option> -instance:<instance-name>
@@ -67,13 +67,13 @@ Varias opciones permiten medir el impacto de una migración e identificar los po
 
 >[!NOTE]
 >
->* Debe usar la variable **-instancia:`<instanceame>`** . No se recomienda usar la variable **-allinstances** .
->* El comando Adobe Campaign update (**postupgrade**) le permite sincronizar recursos y actualizar esquemas y la base de datos. Esta operación solo se puede realizar una vez y solo en el servidor de aplicaciones. Después de sincronizar los recursos, la variable **postupgrade** permite detectar si la sincronización genera errores o advertencias.
+>* Debe utilizar el **-instancia:`<instanceame>`** opción. No se recomienda el uso de **-todas las instancias** opción.
+>* El comando Adobe Campaign update (**posterior a la actualización**) permite sincronizar recursos y actualizar esquemas y la base de datos. Esta operación solo se puede realizar una vez y solo en el servidor de aplicaciones. Después de sincronizar los recursos, la variable **posterior a la actualización** El comando permite detectar si la sincronización genera errores o advertencias.
 
 
-### Objetos no estándar o que faltan
+### Objetos no estándar o faltantes
 
-* La variable **-showCustomEntities** muestra la lista de todos los objetos no estándar:
+* El **-showCustomEntities** Esta opción muestra la lista de todos los objetos no estándar:
 
    ```
    nlserver.exe config -showCustomEntities -instance:<instance-name>
@@ -85,7 +85,7 @@ Varias opciones permiten medir el impacto de una migración e identificar los po
    xtk_migration:opsecurity2 xtk:entity
    ```
 
-* La variable **-showDeletedEntities** muestra la lista de todos los objetos estándar que faltan en la base de datos o en el sistema de archivos. Para cada objeto que falta, se especifica la ruta.
+* El **-showDeletedEntities** Esta opción muestra la lista de todos los objetos estándar que faltan en la base de datos o en el sistema de archivos. Para cada objeto que falta, se especifica la ruta.
 
    ```
    nlserver.exe config -showDeletedEntities -instance:<instance-name>
@@ -99,9 +99,9 @@ Varias opciones permiten medir el impacto de una migración e identificar los po
 
 ### Proceso de verificación {#verification-process}
 
-Este proceso, integrado como estándar en el comando posactualización, permite mostrar advertencias y errores que podrían provocar errores en la migración. **Si se muestran errores, la migración no se ha ejecutado.** Si esto sucede, corrija todos los errores y vuelva a iniciar la posactualización.
+Integrado como estándar en el comando postupgrade, este proceso permite mostrar advertencias y errores que podrían provocar errores en la migración. **Si se muestran errores, no se ha ejecutado la migración.** Si esto sucede, corrija todos los errores y vuelva a iniciar la posactualización.
 
-Puede iniciar el proceso de verificación por su cuenta (sin migración) mediante el comando :
+Puede iniciar el proceso de verificación por su cuenta (sin migración) mediante el comando:
 
 ```
 nlserver.exe config -postupgrade -check -instance:<instance-name>
@@ -111,7 +111,7 @@ nlserver.exe config -postupgrade -check -instance:<instance-name>
 >
 >Puede ignorar todas las advertencias y errores con el código JST-310040.
 
-Se buscan las expresiones siguientes (con distinción de mayúsculas y minúsculas):
+Se buscan las siguientes expresiones (con distinción de mayúsculas y minúsculas):
 
 <table> 
  <thead> 
@@ -139,13 +139,13 @@ Se buscan las expresiones siguientes (con distinción de mayúsculas y minúscul
    <td> logon(<br /> </td> 
    <td> PU-0003<br /> </td> 
    <td> Advertencia<br /> </td> 
-   <td> Este método de conexión ya no debe utilizarse.<br /> </td> 
+   <td> Este método de conexión ya no debe usarse.<br /> </td> 
   </tr> 
   <tr> 
-   <td> new SoapMethodCall(<br /> </td> 
+   <td> new SoapMethodCall()<br /> </td> 
    <td> PU-0004<br /> </td> 
    <td> Advertencia<br /> </td> 
-   <td> Esta función solo se admite cuando se utiliza en código JavaScript ejecutado desde una zona de seguridad incluida en <strong>sessionTokenOnly</strong> en el menú contextual.<br /> </td> 
+   <td> Esta función solo se admite cuando se utiliza en código JavaScript ejecutado desde una zona de seguridad en <strong>sessionTokenOnly</strong> modo.<br /> </td> 
   </tr> 
   <tr> 
    <td> sql=<br /> </td> 
@@ -157,24 +157,24 @@ Se buscan las expresiones siguientes (con distinción de mayúsculas y minúscul
    <td> crmDeploymentType="onpremise"<br /> </td> 
    <td> PU-0007<br /> </td> 
    <td> Error<br /> </td> 
-   <td> Este tipo de implementación ya no es compatible. El tipo de implementación del conector Microsoft CRM local y de Office 365 ya no se utiliza. 
-   </br>Si está utilizando uno de estos tipos de implementación obsoletos en una cuenta externa, esta cuenta externa debe eliminarse y luego debe ejecutar el <b>postupgrade</b> comando. 
+   <td> Ya no se admite este tipo de implementación. El tipo de implementación de Office 365 y el conector CRM On-premise de Microsoft ya no se utiliza. 
+   </br>Si utiliza uno de estos tipos de implementación obsoletos en una cuenta externa, esta cuenta externa debe eliminarse y luego debe ejecutar el <b>posterior a la actualización</b> comando. 
    </br>Para cambiar a la implementación de API web, consulte <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Aplicaciones web</a>.<br /> </td>
   </tr> 
   <tr> 
    <td> CRM v1(mscrmWorkflow/sfdcWorkflow)<br /> </td> 
    <td> PU-0008<br /> </td> 
    <td> Error<br /> </td> 
-   <td> Las actividades de acción Microsoft CRM, Salesforce y Oracle CRM bajo demanda ya no están disponibles. Para configurar la sincronización de datos entre Adobe Campaign y un sistema CRM, debe utilizar la variable <a href="../../workflow/using/crm-connector.md" target="_blank">Conector CRM</a> actividad de segmentación.<br /> </td>
+   <td> Las actividades de acción Microsoft CRM, Salesforce y Oracle CRM bajo demanda ya no están disponibles. Para configurar la sincronización de datos entre Adobe Campaign y un sistema CRM, debe utilizar el <a href="../../workflow/using/crm-connector.md" target="_blank">Conector CRM</a> actividad de segmentación.<br /> </td>
   </tr> 
  </tbody> 
 </table>
 
-También se realiza una comprobación de la coherencia de la base de datos y el esquema.
+También se realiza una comprobación de coherencia de la base de datos y el esquema.
 
-### Opción Restauración {#restoration-option}
+### Opción de restauración {#restoration-option}
 
-Esta opción permite restaurar objetos predeterminados si se han modificado. Para cada objeto restaurado, se almacena una copia de seguridad de los cambios en la carpeta seleccionada:
+Esta opción permite restaurar objetos listos para usar si se han modificado. Para cada objeto restaurado, se almacena una copia de seguridad de los cambios en la carpeta seleccionada:
 
 ```
 nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<instance-name>
@@ -184,6 +184,6 @@ nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<insta
 >
 >Se recomienda encarecidamente utilizar rutas de carpeta absolutas y mantener la estructura del árbol de carpetas. Por ejemplo: backupFolder\nms\srcSchema\billing.xml.
 
-### Reanudar la migración {#resuming-migration}
+### Reanudación de la migración {#resuming-migration}
 
-Si reinicia la actualización después de un error de migración, se reanuda desde el mismo lugar en que se detuvo.
+Si reinicia la posactualización después de un error de migración, se reanudará desde el mismo lugar en el que se detuvo.

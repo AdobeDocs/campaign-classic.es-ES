@@ -16,18 +16,18 @@ ht-degree: 8%
 
 ## Modelo de contenido {#content-model-8}
 
-key:==keyfield
+clave:==campoClave
 
 ## Atributos {#attributes-8}
 
 * @allowEmptyPart (booleano)
-* @applyIf (cadena)
+* @applicableIf (cadena)
 * @internal (booleano)
 * @label (cadena)
-* @name (MNTOKEN)
+* @name (TOKEN MENÚ)
 * @noDbIndex (booleano)
 
-## Principales {#parents-8}
+## Padres {#parents-8}
 
 `<element>`
 
@@ -45,24 +45,24 @@ Una tabla debe tener al menos una clave.
 
 Como regla, las claves se declaran después del elemento principal del esquema y de los índices.
 
-Una clave se conoce como compuesta si incluye varios campos (es decir, varios `<keyfield>` niños). No utilice una clave compuesta para definir una clave principal.
+Una clave se conoce como compuesta si incluye varios campos (es decir, varios `<keyfield>` children). No utilice una clave compuesta para definir una clave principal.
 
-Si el elemento principal del esquema contiene el atributo &quot;@autopk=true&quot;, la clave principal es única. Solo se puede tener una clave principal por esquema.
+Si el elemento principal del esquema contiene el atributo &quot;@autopk=true&quot;, la clave principal es única. Solo podemos tener una clave principal por esquema.
 
-Los primeros 1000 identificadores están reservados, por lo que si es necesario definir un intervalo de valores para las claves, comience por 1000.
+Los primeros 1000 identificadores están reservados, por lo que si es necesario definir un rango de valores para claves, comience en 1000.
 
-## Descripción del atributo {#attribute-description-8}
+## Descripción de atributo {#attribute-description-8}
 
-* **allowEmptyPart (booleano)**: en el caso de una clave compuesta, si este atributo está activado, la clave se considera válida si al menos una de sus claves no está vacía. Si este es el caso, el valor de noción vacío es &quot;0&quot; (booleano o para todos los tipos de datos numéricos). De forma predeterminada, es necesario introducir todas las claves que componen una clave compuesta.
+* **allowEmptyPart (booleano)**: en el caso de una clave compuesta, si este atributo está activado, la clave se considera válida si al menos una de sus claves no está vacía. En este caso, el valor de noción vacío es &quot;0&quot; (booleano o para todos los tipos de datos numéricos). De forma predeterminada, es necesario introducir todas las claves que componen una clave compuesta.
 * **applyIf (cadena)**: este atributo permite hacer que la clave sea opcional. Define la condición según la cual se aplicará la definición de clave. Este atributo recibe una expresión XTK.
-* **internal (booleano)**: si está activado, este atributo informa a Adobe Campaign de que la clave es principal.
+* **interno (booleano)**: si está activada, este atributo permite a Adobe Campaign saber que la clave es principal.
 * **label (cadena)**: etiqueta de la clave.
-* **name (MNTOKEN)**: nombre interno de la clave.
-* **noDbIndex (booleano)**: si está activado (noDbIndex=&quot;true&quot;), el campo que coincide con la clave no se indexará.
+* **nombre (MNTOKEN)**: nombre interno de la clave.
+* **noDbIndex (booleano)**: si está activado (noDbIndex=&quot;true&quot;), el campo que coincida con la clave no se indexará.
 
 ## Ejemplos {#examples-------}
 
-Declaración de una clave compuesta que autoriza el campo &quot;@expr&quot; o &quot;alias&quot; a estar vacío:
+Declaración de una clave compuesta que autoriza que el campo &quot;@expr&quot; o &quot;alias&quot; esté vacío:
 
 ```
 <key name="node" allowEmptyPart="true">
@@ -71,7 +71,7 @@ Declaración de una clave compuesta que autoriza el campo &quot;@expr&quot; o &q
  </key>
 ```
 
-Declaración de una clave principal en el campo &quot;Nombre&quot; del tipo STRING en una `<srcschema>`  y la consulta SQL correspondiente:
+Declaración de una clave principal en el campo &quot;Nombre&quot; del tipo CADENA en un `<srcschema>`  y la consulta SQL coincidente:
 
 ```
  

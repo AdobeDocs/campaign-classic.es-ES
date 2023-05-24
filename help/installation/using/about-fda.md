@@ -24,10 +24,10 @@ La opción FDA le permite ampliar el modelo de datos en una base de datos de ter
 
 Para utilizar esta capacidad, los requisitos previos se enumeran a continuación:
 
-* **Configuración**: la lista de la base de datos externa compatible depende de su [modelo hosting](../../installation/using/hosting-models.md).
-* **Versión de base de datos externa**: debe tener una base de datos externa compatible con el módulo FDA de Adobe Campaign.
+* **Configuración**: la lista de bases de datos externas compatibles depende de su [modelo de alojamiento](../../installation/using/hosting-models.md).
+* **Versión de base de datos externa**: necesita tener una base de datos externa compatible con el módulo FDA de Adobe Campaign.
 
-   La lista de sistemas de bases de datos y versiones compatibles por modelo de alojamiento se detalla en Campaign [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
+   La lista de sistemas de base de datos y versiones compatibles por modelo de alojamiento se detalla en Campaign [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md#FederatedDataAccessFDA).
 
-* **Permisos**: los usuarios también deben tener la variable [permisos necesarios](../../installation/using/remote-database-access-rights.md) en Adobe Campaign y en la base de datos externa.
+* **Permisos**: los usuarios también deben tener el [permisos necesarios](../../installation/using/remote-database-access-rights.md) en Adobe Campaign y en la base de datos externa.
 

@@ -2,7 +2,7 @@
 product: campaign
 title: Administración del acceso a las carpetas de Campaign
 description: Obtenga información sobre cómo conceder acceso a carpetas de Campaign y crear vistas
-badge: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge: label="v7" type="Informativo" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Application Settings, Permissions
 role: User, Admin
 level: Beginner

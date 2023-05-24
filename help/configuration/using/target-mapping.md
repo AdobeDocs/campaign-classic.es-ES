@@ -16,12 +16,12 @@ ht-degree: 2%
 
 
 
-La creación de la asignación de destino es necesaria en dos casos:
+La creación de asignaciones de destino es necesaria en dos casos:
 
 * si utiliza una tabla de destinatarios distinta de la proporcionada por Adobe Campaign,
-* si configura una dimensión de filtrado diferente de la dimensión de segmentación estándar en la pantalla de asignación de destino.
+* si configura una dimensión de filtrado diferente de la dimensión de segmentación estándar en la pantalla asignación de destino.
 
-El asistente de creación de asignación de destino le ayudará a crear todos los esquemas necesarios para utilizar la tabla personalizada.
+El asistente de creación de asignaciones de destino le ayudará a crear todos los esquemas necesarios para utilizar la tabla personalizada.
 
 ## Creación y configuración de esquemas vinculados a la tabla personalizada {#creating-and-configuring-schemas-linked-to-the-custom-table}
 
@@ -35,7 +35,7 @@ Para ello, siga los siguientes pasos:
 
    En nuestro ejemplo, crearemos un esquema de cliente, una tabla muy sencilla que contiene los siguientes campos: ID, nombre, apellidos, dirección de correo electrónico, número de teléfono móvil. El objetivo es poder enviar alertas por correo electrónico o SMS a las personas almacenadas en esta tabla.
 
-   Ejemplo de esquema (cus:individual)
+   Esquema de ejemplo (cus:individual)
 
    ```
    <srcSchema name="individual" namespace="cus" label="Individuals">
@@ -52,7 +52,7 @@ Para ello, siga los siguientes pasos:
    </srcSchema>
    ```
 
-1. Declare el esquema como una vista externa utilizando el atributo =&quot;true&quot;. Consulte [El atributo view](../../configuration/using/schema-characteristics.md#the-view-attribute).
+1. Declare el esquema como una vista externa utilizando el atributo =&quot;true&quot;. Consulte [Atributo de vista](../../configuration/using/schema-characteristics.md#the-view-attribute).
 
    ```
     <srcSchema desc="External recipient table" namespace="cus" view="true"....>
@@ -82,44 +82,44 @@ Para ello, siga los siguientes pasos:
    ```
 
 1. Haga clic en el nodo **[!UICONTROL Administration > Campaign management > Target mappings]**.
-1. Haga clic en el **Nuevo** para abrir el asistente de creación de asignación de destino.
-1. Introduzca la variable **Etiqueta** y seleccione el esquema que acaba de crear en la variable **Dimensión de segmentación** campo .
+1. Haga clic en **Nuevo** para abrir el asistente de creación de asignaciones de destino.
+1. Introduzca el **Etiqueta** y seleccione el esquema que acaba de crear en el campo **Dimensión de segmentación** field.
 
    ![](assets/mapping_diffusion_wizard_1.png)
 
-1. En el **Editar formularios de dirección** , seleccione los campos del esquema que coinciden con las distintas direcciones de entrega. Aquí, podemos asignar la variable **@email** y **@mobile** campos.
+1. En el **Editar formularios de direcciones** , seleccione los campos del esquema que coinciden con las distintas direcciones de envío. Aquí, podemos asignar el **@email** y **@mobile** campos.
 
    ![](assets/mapping_diffusion_wizard_2.png)
 
-1. En el siguiente **Almacenamiento** , introduzca la variable **Sufijo de los esquemas de extensión** para diferenciar los nuevos esquemas de los esquemas predeterminados proporcionados por Adobe Campaign.
+1. En lo siguiente **Almacenamiento** , introduzca la **Sufijo de los esquemas de extensión** para diferenciar los nuevos esquemas de los esquemas predeterminados que proporciona Adobe Campaign.
 
-   Haga clic en **[!UICONTROL Define new additional fields]** para seleccionar la dimensión a la que desea dirigirse en la entrega.
+   Clic **[!UICONTROL Define new additional fields]** para seleccionar la dimensión de destino en la entrega.
 
-   De forma predeterminada, la gestión de exclusión se almacena en la misma tabla que los mensajes.
+   De forma predeterminada, la administración de exclusiones se almacena en la misma tabla que los mensajes.
 
-   Marque la **Generar un esquema de almacenamiento para seguimiento** si desea configurar el almacenamiento para el seguimiento vinculado a la asignación de destino.
+   Compruebe la **Generar un esquema de almacenamiento para el seguimiento** si desea configurar el almacenamiento para el seguimiento vinculado a la asignación de destino.
 
    ![](assets/mapping_diffusion_wizard_3.png)
 
    >[!IMPORTANT]
    >
-   >Adobe Campaign no admite varios esquemas de destinatarios, conocidos como esquemas de segmentación, vinculados a los mismos esquemas de broadlog o trackinglog. De lo contrario, esto puede provocar anomalías en la reconciliación de datos posteriormente. Para obtener más información, consulte [Recomendación y limitaciones](../../configuration/using/about-custom-recipient-table.md) página.
+   >Adobe Campaign no admite varios esquemas de destinatarios, conocidos como esquemas de segmentación, vinculados a los mismos esquemas de &quot;broadlog&quot; o de &quot;log&quot; de seguimiento. De lo contrario, esto puede provocar anomalías en la reconciliación de datos posteriormente. Para obtener más información, consulte la [Recomendaciones y limitaciones](../../configuration/using/about-custom-recipient-table.md) página.
 
 1. En el **Extensiones** , seleccione los esquemas opcionales que desea generar (la lista de esquemas disponibles depende de los módulos instalados en la plataforma de Adobe Campaign).
 
    ![](assets/mapping_diffusion_wizard_4.png)
 
-1. Haga clic en el **Guardar** para cerrar el asistente.
+1. Haga clic en **Guardar** para cerrar el asistente.
 
-   El asistente utiliza el esquema de inicio para crear todos los demás esquemas necesarios para hacer que funcione la nueva asignación de destino.
+   El asistente utiliza el esquema de inicio para crear todos los demás esquemas necesarios para que funcione la nueva asignación de destino.
 
    ![](assets/mapping_schema_list.png)
 
 ## Uso de la asignación de destino {#using-target-mapping}
 
-Existen dos formas de utilizar el nuevo esquema como destinatario de una entrega:
+Existen dos formas de utilizar el nuevo esquema como destinatario de un envío:
 
-* Creación de una o más plantillas de envío basadas en la asignación
-* Seleccione la asignación directamente durante la selección de destino al crear una entrega, como se muestra a continuación:
+* Cree una o más plantillas de envío basadas en la asignación
+* Seleccione la asignación directamente durante la selección del destino al crear una entrega, como se muestra a continuación:
 
 ![](assets/mapping_selection_ciblage.png)

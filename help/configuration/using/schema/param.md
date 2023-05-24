@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 'Elementos y atributos de esquema: elemento de parámetro'
+title: 'Elementos y atributos de esquema: elemento param'
 description: elemento param
 exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 ## Modelo de contenido {#content-model-12}
 
-param:==help
+parámetro:==help
 
 ## Atributos {#attributes-12}
 
@@ -26,11 +26,11 @@ param:==help
 * @inout (cadena)
 * @label (cadena)
 * @localizable (cadena)
-* @name (MNTOKEN)
-* @namespace (MNTOKEN)
+* @name (TOKEN MENÚ)
+* @namespace (TOKEN MENÚ)
 * @type (cadena)
 
-## Principales {#parents-12}
+## Padres {#parents-12}
 
 `<parameters>`
 
@@ -42,20 +42,20 @@ param:==help
 
 Este elemento permite definir un parámetro para llamar a un método SOAP.
 
-## Descripción del atributo {#attribute-description-12}
+## Descripción de atributo {#attribute-description-12}
 
-* **desc (cadena)**: descripción relativa a la `<param>` elemento.
-* **inout (cadena)**: este atributo define si el parámetro se encuentra o no en la entrada (in) o salida (out) de la llamada SOAP. Si no se especifica este atributo, el parámetro predeterminado es input (&quot;@inout=in&quot;).
-* **label (cadena)**: `<param>` label
-* **localizable (cadena)**: si está activado, este atributo indica a la herramienta de recopilación que recupere el valor del atributo &quot;@label&quot; para la traducción (uso interno).
-* **name (MNTOKEN)**: nombre interno del `<param>`
-* **type (string)**: este atributo define el tipo de `<param>` element
+* **desc (cadena)**: descripción que hace referencia a `<param>` Elemento.
+* **inout (cadena)**: este atributo define si el parámetro se encuentra en la entrada (entrada) o salida (salida) de la llamada SOAP. Si no se especifica este atributo, se introduce el parámetro predeterminado (&quot;@inout=in&quot;).
+* **label (cadena)**: `<param>` etiqueta
+* **localizable (cadena)**: si está activado, este atributo indica a la herramienta de recopilación que recupere el valor del atributo &quot;@label&quot; para su traducción (uso interno).
+* **nombre (MNTOKEN)**: nombre interno del `<param>`
+* **type (cadena)**: este atributo define el tipo de `<param>` elemento
 
    Lista de tipos disponibles:
 
    * CUALQUIERA
-   * bin
-   * blob
+   * cubo
+   * mancha
    * booleano
    * byte
    * CDATA
@@ -63,23 +63,23 @@ Este elemento permite definir un parámetro para llamar a un método SOAP.
    * datetimetz
    * datetimenotz
    * date
-   * DOMDocument
+   * DOMocument
    * DOMElement
-   * double
+   * doble
    * enum
    * float
    * html
    * int64
-   * vínculo
-   * long
-   * memo
+   * vincular
+   * largo
+   * nota
    * MNTOKEN
    * percent
-   * primarykey
-   * short
+   * clave principal
+   * corto
    * cadena
    * tiempo
-   * timespan
+   * intervalo de tiempo
    * uuid
 
 ## Ejemplos {#examples-9}

@@ -21,12 +21,12 @@ dbindex:==keyfield
 ## Atributos {#attributes-3}
 
 * @_operation (cadena)
-* @applyIf (cadena)
+* @applicableIf (cadena)
 * @label (cadena)
-* @name (MNTOKEN)
+* @name (TOKEN MENÚ)
 * @unique (booleano)
 
-## Principales {#parents-3}
+## Padres {#parents-3}
 
 `<element>`
 
@@ -42,32 +42,32 @@ Este elemento permite definir un índice vinculado a una tabla.
 
 Es posible definir varios índices. Un índice puede hacer referencia a uno o varios campos de la tabla. La declaración de índice suele seguir la definición del elemento de esquema principal.
 
-El orden de las variables `<keyfield>` elementos definidos en un `<dbindex>` es muy importante. La primera `<keyfield>` debe ser el criterio de indexación en el que se basan principalmente las consultas.
+El orden de los `<keyfield>` elementos definidos en una `<dbindex>` es muy importante. El primero `<keyfield>` debe ser el criterio de indexación en el que se basan principalmente las consultas.
 
-El nombre del índice en la base de datos se calcula concatenando el nombre de la tabla y el nombre del índice. Por ejemplo: Nombre de tabla &quot;Ejemplo&quot;, Área de nombres &quot;Cus&quot;, nombre de índice &quot;MyIndex&quot;-> nombre del campo de índice durante la consulta de creación de índice: &quot;CusSample_myIndex&quot;.
+El nombre del índice en la base de datos se calcula concatenando el nombre de la tabla y el nombre del índice. Por ejemplo: Nombre de tabla &quot;Sample&quot;, Espacio de nombres &quot;Cus&quot;, nombre de índice &quot;MyIndex&quot;-> nombre del campo de índice durante la creación del índice que realiza la consulta: &quot;CusSample_myIndex&quot;.
 
-## Descripción del atributo {#attribute-description-3}
+## Descripción de atributo {#attribute-description-3}
 
 * **_operation (cadena)**: define el tipo de escritura en la base de datos.
 
-   Este atributo se utiliza principalmente al ampliar los esquemas predeterminados.
+   Este atributo se utiliza principalmente para ampliar esquemas predeterminados.
 
    Los valores accesibles son:
 
-   * &quot;ninguno&quot;: solo reconciliación. Esto significa que Adobe Campaign recuperará el elemento sin actualizarlo o generando un error si no existe.
+   * &quot;ninguno&quot;: reconciliación sola. Esto significa que Adobe Campaign recuperará el elemento sin actualizarlo ni generar un error si no existe.
    * &quot;insertOrUpdate&quot;: actualizar con inserción. Esto significa que Adobe Campaign actualizará el elemento o lo creará si no existe.
-   * &quot;insertar&quot;: inserción. Esto significa que Adobe Campaign insertará el elemento sin comprobar si existe.
-   * &quot;actualización&quot;: actualización. Esto significa que Adobe Campaign actualizará el elemento o generará un error si no existe.
-   * &quot;eliminar&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará los elementos.
+   * &quot;insert&quot;: inserción. Esto significa que Adobe Campaign insertará el elemento sin comprobar si existe.
+   * &quot;update&quot;: update. Esto significa que Adobe Campaign actualizará el elemento o generará un error si no existe.
+   * &quot;eliminar&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará elementos.
 
-* **applyIf (cadena)**: condición para tener en cuenta el índice: recibe una expresión XTK.
+* **applyIf (cadena)**: condición para tener en cuenta el índice que recibe una expresión XTK.
 * **label (cadena)**: etiqueta de índice.
-* **name (MNTOKEN)**: nombre de índice único.
+* **nombre (MNTOKEN)**: nombre de índice único.
 * **único (booleano)**: si esta opción está activada (@unique=&quot;true&quot;), el atributo garantiza la exclusividad del índice en todos sus campos.
 
 ## Ejemplos {#examples-3}
 
-Creación de un índice en el campo &quot;id&quot;. (el atributo &quot;@unique&quot; de la variable `<dbindex>` déclencheur de elemento añadir la palabra clave SQL &quot;ÚNICA&quot; cuando el índice se crea en la base de datos (consulta).
+Creación de un índice en el campo ID. (el atributo &quot;@unique&quot; de la variable `<dbindex>` déclencheur de elementos agregar la palabra clave SQL &quot;UNIQUE&quot; cuando se crea el índice en la base de datos (consulta).
 
 ```
 <element label="Sample" name="Sample">
@@ -86,7 +86,7 @@ ALTER TABLE CusSample ALTER COLUMN iSampleId SET NOT NULL;
 CREATE UNIQUE INDEX CusSample_myIndex ON CusSample(iSampleId);
 ```
 
-Creación de un índice compuesto en los campos &quot;@mail&quot; y &quot;@phoneNumber&quot;:
+Creación de un índice compuesto en los campos @mail y @phoneNumber:
 
 ```
 <element label="NewSchemaUser" name="NewSchemaUser">

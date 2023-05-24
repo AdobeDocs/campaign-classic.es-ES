@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Creación del esquema de datos para FDA
-description: Obtenga información sobre cómo crear el esquema de datos para FDA
+description: Aprenda a crear el esquema de datos para FDA
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
@@ -21,13 +21,13 @@ Para crear un esquema en una base de datos externa:
 
    ![](assets/wf_new_schema_fda.png)
 
-1. Escriba un **[!UICONTROL Namespace]** y  **[!UICONTROL Name]** para el esquema y seleccione el **[!UICONTROL External account]** que habilitará la conexión a la base de datos. Esto permite acceder a la lista de tablas disponibles en la base externa.
+1. Introduzca una **[!UICONTROL Namespace]** y  **[!UICONTROL Name]** para el esquema y seleccione la **[!UICONTROL External account]** que habilitará la conexión con la base de datos. Esto permite acceder a la lista de tablas disponibles en la base externa.
 
    ![](assets/wf_new_schema_select_table_fda.png)
 
-1. En el **[!UICONTROL Table name]** , seleccione la tabla que contiene los datos que se van a recopilar.
+1. Desde el **[!UICONTROL Table name]** , seleccione la tabla que contiene los datos que se van a recopilar.
 
-   Con Snowflake, puede seleccionar aquí sus vistas si al usuario de la base de datos se le han otorgado los privilegios correctos. Tenga en cuenta que al utilizar las vistas, Adobe Campaign no podrá generar automáticamente el esquema XML, por lo que deberá crearlo usted mismo. Para obtener más información sobre las vistas, consulte [documentación del Snowflake](https://docs.snowflake.com/en/user-guide/views-introduction.html).
+   Con Snowflake, puede seleccionar aquí sus vistas si se han concedido los privilegios correctos al usuario de la base de datos. Tenga en cuenta que cuando utilice vistas, Adobe Campaign no podrá generar automáticamente el esquema XML, tendrá que crearlo usted mismo. Para obtener más información, consulte [Documentación del Snowflake](https://docs.snowflake.com/en/user-guide/views-introduction.html).
 
    ![](assets/wf_new_schema_select_table_fda.png)
 

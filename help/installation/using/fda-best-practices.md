@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Prácticas recomendadas y limitaciones de FDA de Campaign
+title: Prácticas recomendadas y limitaciones de FDA Campaign
 description: Conozca las prácticas recomendadas y las limitaciones al trabajar con una base de datos externa (FDA)
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: platform
@@ -20,9 +20,9 @@ ht-degree: 40%
 
 ## Optimización de la personalización de correo electrónico con datos externos {#optimizing-email-personalization-with-external-data}
 
-Puede preprocesar la personalización de mensajes en un flujo de trabajo dedicado. Para ello, utilice el **[!UICONTROL Prepare the personalization data with a workflow]** , disponible en la **[!UICONTROL Analysis]** de las propiedades de entrega.
+Puede preprocesar la personalización de mensajes en un flujo de trabajo dedicado. Para ello, utilice el **[!UICONTROL Prepare the personalization data with a workflow]** opción, disponible en el **[!UICONTROL Analysis]** de las propiedades de entrega.
 
-Durante el análisis de envío, esta opción crea y ejecuta automáticamente un flujo de trabajo que almacena todos los datos vinculados al objetivo en una tabla temporal, incluidos los datos de tablas vinculadas en una base de datos externa.
+Durante el análisis de envío, esta opción crea y ejecuta automáticamente un flujo de trabajo que almacena todos los datos vinculados con el objetivo en una tabla temporal, incluidos los datos de tablas vinculadas en una base de datos externa.
 
 Esta opción mejora significativamente el rendimiento al ejecutar el paso de personalización.
 
@@ -30,13 +30,13 @@ Esta opción mejora significativamente el rendimiento al ejecutar el paso de per
 
 En varias actividades de flujo de trabajo de Adobe Campaign, puede utilizar los datos almacenados en una base de datos externa.
 
-* **Filtro en datos externos** - El [Consulta](../../workflow/using/targeting-data.md#selecting-data) actividad le permite agregar datos externos y utilizarlos en las configuraciones de filtro definidas. Para obtener más información, consulte [esta página](../../workflow/using/targeting-data.md#selecting-data).
+* **Filtro en datos externos** - El [Consulta](../../workflow/using/targeting-data.md#selecting-data) La actividad de le permite añadir datos externos y utilizarlos en las configuraciones de filtro definidas. Para obtener más información, consulte [esta página](../../workflow/using/targeting-data.md#selecting-data).
 
-* **Crear subconjuntos** - El [Split](../../workflow/using/split.md) actividad le permite crear subconjuntos. Puede utilizar datos externos para definir los criterios de filtrado que deben utilizarse. Para obtener más información, consulte [esta página](../../workflow/using/split.md).
+* **Creación de subconjuntos** - El [Split](../../workflow/using/split.md) La actividad de le permite crear subconjuntos. Puede utilizar datos externos para definir los criterios de filtrado que deben utilizarse. Para obtener más información, consulte [esta página](../../workflow/using/split.md).
 
-* **Cargar base de datos externa** - Puede utilizar los datos externos en la variable [Carga de datos](../../workflow/using/data-loading--rdbms-.md) (RDBMS). Obtenga más información en [esta página](../../workflow/using/data-loading--rdbms-.md).
+* **Cargar base de datos externa** - Puede utilizar los datos externos en la [Carga de datos](../../workflow/using/data-loading--rdbms-.md) Actividad (RDBMS). Obtenga más información en [esta página](../../workflow/using/data-loading--rdbms-.md).
 
-* **Adición de información y vínculos** - El [Enriquecimiento](../../workflow/using/enrichment.md) activity permite añadir datos adicionales a la tabla de trabajo del flujo de trabajo y enlaces a una tabla externa. En este contexto, puede utilizar datos de una base de datos externa. Obtenga más información en [esta página](../../workflow/using/enrichment.md).
+* **Adición de información y vínculos** - El [Enriquecimiento](../../workflow/using/enrichment.md) La actividad permite agregar datos adicionales a la tabla de trabajo del flujo de trabajo y vínculos a una tabla externa. En este contexto, puede utilizar datos de una base de datos externa. Obtenga más información en [esta página](../../workflow/using/enrichment.md).
 
 ## Limitaciones de FDA {#limitations}
 
@@ -50,4 +50,4 @@ Evite en la medida de lo posible las operaciones que requieran utilizar tanto Ad
 
 Si desea personalizar las entregas utilizando datos de la base de datos externa, recopile los datos para utilizarlos en un flujo de trabajo para que estén disponibles en una tabla temporal. A continuación, utilice los datos de la tabla temporal para personalizar su envío.
 
-La opción FDA está sujeta a las limitaciones del sistema de base de datos externo que utilice.
+La opción FDA está sujeta a las limitaciones del sistema de base de datos externo que utiliza.

@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Acerca de la guía de configuración
-description: Acerca de la guía de configuración
+title: Acerca de la Guía de configuración
+description: Acerca de la Guía de configuración
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: configuration
 content-type: reference
@@ -14,7 +14,7 @@ ht-degree: 10%
 ---
 
 
-# Acerca de la guía de configuración{#about}
+# Acerca de la Guía de configuración{#about}
 
 
 

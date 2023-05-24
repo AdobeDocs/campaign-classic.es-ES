@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Editar árbol de navegación del explorador de Campaign{#edition}
 
-Se puede acceder a la pantalla para crear y configurar los documentos de configuración de la jerarquía de navegación a través del **[!UICONTROL Administration > Configuration > Navigation hierarchies]** nodo:
+La pantalla para crear y configurar los documentos de configuración de la jerarquía de navegación es accesible a través de la **[!UICONTROL Administration > Configuration > Navigation hierarchies]** nodo:
 
 ![](assets/d_ncs_integration_navigation_arbo.png)
 
-La configuración de la jerarquía de navegación se divide en varios documentos XML. Funciona con un principio similar a la extensión de esquema: todos los documentos se combinan para generar un solo documento que contenga toda la configuración. Este documento no se puede editar y se muestra a través de la pestaña &quot;Preview&quot;.
+La configuración de la jerarquía de navegación se divide en varios documentos XML. Funciona sobre un principio similar a la extensión de esquema: todos los documentos se combinan para generar un solo documento que contenga toda la configuración. Este documento no se puede editar y se muestra en la pestaña &quot;Preview&quot;.
 
 El campo de edición proporciona el contenido del documento XML:
 
@@ -26,7 +26,7 @@ El campo de edición proporciona el contenido del documento XML:
 
 >[!NOTE]
 >
->El control de edición &quot;Nombre&quot; permite introducir la clave del documento que consta del nombre y el área de nombres. Los atributos &quot;name&quot; y &quot;namespace&quot; de la variable **`<navtree>`** se actualizan automáticamente en el campo de edición XML del esquema.
+>El control de edición &quot;Nombre&quot; permite introducir la clave del documento, que consta del nombre y el área de nombres. Los atributos &quot;name&quot; y &quot;namespace&quot; de la variable **`<navtree>`** se actualizan automáticamente en el campo de edición XML del esquema.
 
 La vista previa genera automáticamente el documento combinado que contiene la configuración completa:
 

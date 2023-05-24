@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: 'Elementos y atributos de esquema: elemento de métodos'
+title: 'Elementos y atributos de esquema: elemento métodos'
 description: elemento de método
 exl-id: f45e32ce-6534-4df2-ac7c-ba1134f0ffc8
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
@@ -10,19 +10,19 @@ ht-degree: 14%
 
 ---
 
-# elemento métodos {#methods--element}
+# elemento methods {#methods--element}
 
 ![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model-11}
 
-métodos:==method
+métodos:==método
 
 ## Atributos {#attributes-11}
 
 Ninguno
 
-## Principales {#parents-11}
+## Padres {#parents-11}
 
 `<srcschema>`
 
@@ -32,9 +32,9 @@ Método
 
 ## Descripción {#description-11}
 
-Este elemento permite definir una `<method>`  elemento. Es obligatorio para declarar un método.
+Este elemento permite definir un `<method>`  Elemento. Es obligatorio para declarar un método.
 
-## Descripción del atributo {#attribute-description-11}
+## Descripción de atributo {#attribute-description-11}
 
 Este elemento no tiene atributos.
 

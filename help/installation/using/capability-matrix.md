@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Matriz de capacidades locales, híbridas y alojadas de Campaign
-description: Conozca las principales diferencias entre implementaciones alojadas y locales
+title: Matriz de capacidades on-premise, híbrida y alojada de Campaign
+description: Conozca las principales diferencias entre las implementaciones alojadas y locales
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
@@ -15,11 +15,11 @@ ht-degree: 46%
 
 
 
-Adobe Campaign Classic incluye un conjunto de módulos y opciones. La disponibilidad de estos módulos y su uso pueden depender del tipo de implementación de la instalación. Este artículo comparte algunos detalles sobre las principales diferencias para ciertas funciones entre implementaciones totalmente alojadas (Managed Services) y locales.
+Adobe Campaign Classic incluye un conjunto de módulos y opciones. La disponibilidad de estos módulos y su uso pueden depender del tipo de implementación de la instalación. Este artículo comparte algunos detalles sobre las principales diferencias entre determinadas funciones entre implementaciones totalmente alojadas (Managed Services) y locales.
 
-Esta página muestra las principales diferencias entre las implementaciones alojadas (Managed Services) y locales. Las características específicas de las implementaciones híbridas dependen de los elementos alojados por Adobe y alojados en sus instalaciones.
+Esta página muestra las principales diferencias entre implementaciones alojadas (Managed Services) y locales. Las especificidades de las implementaciones híbridas dependen de los elementos alojados por el Adobe y alojados en sus instalaciones.
 
-Se introducen los distintos modelos de alojamiento [en esta sección](../../installation/using/hosting-models.md).
+Se presentan los diferentes modelos de alojamiento [en esta sección](../../installation/using/hosting-models.md).
 
 ## Disponibilidad por modelo de implementación {#capability-matrix}
 
@@ -27,15 +27,15 @@ Se introducen los distintos modelos de alojamiento [en esta sección](../../inst
 |-----------------------------------------------|------------------|-----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configuración del servidor de Campaign | Bajo demanda | Disponible | Disponible | [Más información](../../installation/using/the-server-configuration-file.md) |
 | CCO del correo electrónico | Bajo demanda | Bajo demanda | Disponible | [Más información](../../installation/using/email-archiving.md) |
-| Administrar instancia de ejecución del centro de mensajes | Bajo demanda | Bajo demanda | Disponible | [Más información](../../message-center/using/about-transactional-messaging.md) |
+| Administrar instancia de ejecución del Centro de mensajes | Bajo demanda | Bajo demanda | Disponible | [Más información](../../message-center/using/about-transactional-messaging.md) |
 | Administración de la plataforma intermediaria | Bajo demanda | Bajo demanda | Disponible | [Más información](../../installation/using/mid-sourcing-server.md) |
 | Renderización de la bandeja de entrada mediante Litmus | Bajo demanda | Bajo demanda | Disponible | [Más información](../../delivery/using/inbox-rendering.md) |
 | Integración con IMS (Adobe ID) | Bajo demanda | Bajo demanda | Bajo demanda | [Más información](../../integrations/using/about-adobe-id.md) |
-| Cifrar/descifrar datos para transferencias de archivos | Bajo demanda | Disponible | Disponible | [Más información](../../platform/using/unzip-decrypt.md) |
+| Cifrado y descifrado de datos para transferencias de archivos | Bajo demanda | Disponible | Disponible | [Más información](../../platform/using/unzip-decrypt.md) |
 | Comprimir/descomprimir archivos | Bajo demanda | Disponible | Disponible | [Más información](../../platform/using/unzip-decrypt.md) |
 | Delegación de nombres de dominio | Bajo demanda | Bajo demanda | No disponible | [Más información](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es) |
 | Instalación de SpamAssassin | Bajo demanda | Disponible | Disponible | [Más información](../../delivery/using/spamassassin.md) |
-| Acceso a los informes de capacidad de envío | Disponible | Bajo demanda | Disponible | [Más información](../../delivery/using/monitoring-deliverability.md) |
+| Acceso a informes de entrega | Disponible | Bajo demanda | Disponible | [Más información](../../delivery/using/monitoring-deliverability.md) |
 | Configuración de la autenticación LDAP | No disponible | Disponible | Disponible | [Más información](../../installation/using/connecting-through-ldap.md) |
 
 
@@ -45,12 +45,12 @@ Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para p
 
 >[!CAUTION]
 >
->Los sistemas de bases de datos externas compatibles dependen del modelo de alojamiento. Obtenga más información en [Matriz de compatibilidad de Campaign](../../rn/using/compatibility-matrix.md).
+>Los sistemas de base de datos externos compatibles dependen del modelo de alojamiento. Obtenga más información en [Matriz de compatibilidad de Campaign](../../rn/using/compatibility-matrix.md).
 
 **Consulte también**
 
 * [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md)
 * [Notas de la versión ](../../rn/using/latest-release.md)
-* [actualizaciones de Campaign Classic](../../rn/using/rn-overview.md)
+* [Actualizaciones de Campaign Classic](../../rn/using/rn-overview.md)
 * [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md)
 * [Versiones de [!DNL Gold Standard]](../../rn/using/gold-standard.md)

@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Solución de problemas de producción
-description: Descubra los procedimientos de solución de problemas de producción relacionados con la configuración, supervisión, actualización de procesos, procesamiento de datos y procedimiento de mantenimiento de bases de datos de Adobe Campaign
+description: Descubra los procedimientos de solución de problemas de producción relacionados con la configuración de Adobe Campaign, la monitorización, el proceso de actualización, el procesamiento de datos y el procedimiento de mantenimiento de la base de datos
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: production
 content-type: reference
@@ -18,7 +18,7 @@ ht-degree: 20%
 
 
 
-Esta sección contiene procedimientos de solución de problemas relacionados con problemas generales de producción de Adobe Campaign, como ejecución de envío y flujo de trabajo, monitorización, mantenimiento de bases de datos, conexión, etc.
+Esta sección contiene procedimientos de resolución de problemas relacionados con problemas generales de producción de Adobe Campaign, como la ejecución del flujo de trabajo y la entrega, la monitorización, el mantenimiento de la base de datos, la conexión, etc.
 
 ## Problemas comunes y generales {#common-and-general-issues}
 
@@ -29,11 +29,11 @@ Esta sección contiene procedimientos de solución de problemas relacionados con
 
 ## Solución de problemas de envío {#delivery-troubleshooting}
 
-Se pueden realizar acciones específicas al tener problemas con las entregas:
+Se pueden realizar acciones específicas cuando se tienen problemas con los envíos:
 * [Problemas de entregas](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problemas de visualización de imágenes](../../production/using/image-display-issues.md)
 * [Falta la imagen](../../production/using/images-missing.md)
-* [Problemas con archivos temporales](../../production/using/temporary-files.md) (*solo modelos de alojamiento locales*)
+* [Problemas de archivos temporales](../../production/using/temporary-files.md) (*solo modelos de alojamiento on-premise*)
 
 **Temas relacionados**:
 
@@ -41,29 +41,29 @@ Se pueden realizar acciones específicas al tener problemas con las entregas:
 
 ## Uso de registros {#working-with-logs}
 
-A continuación se ofrecen algunos consejos para mejorar su experiencia con los registros:
+A continuación se ofrecen algunas sugerencias para mejorar su experiencia con los registros:
 
 * [Precisión de registro](../../production/using/log-precision.md)
-* [Problemas de registro de seguimiento](../../production/using/tracking-logs-issues.md)
+* [Seguimiento de problemas de registro](../../production/using/tracking-logs-issues.md)
 
 ## Problemas con la base de datos {#database-issues}
 
-Descubra cómo puede resolver los problemas de rendimiento leyendo las siguientes secciones:
+Descubra cómo puede resolver problemas de rendimiento leyendo las siguientes secciones:
 
 * [Rendimiento de la base de datos](../../production/using/database-performances.md)
 * [Codificación de la base de datos Oracle](../../production/using/encoding-of-the-oracle-database.md)
 
 ## Mejoras de conexión {#connection-improvements}
 
-En caso de que surjan problemas de conexión, aquí se ofrecen varias formas de solucionarlos:
+En caso de que encuentre problemas de conexión, puede solucionarlos de las siguientes maneras:
 
 * [Error de conexión](../../production/using/failure-to-connect.md)
 * [Umbrales de conexión](../../production/using/connection-thresholds.md)
 
 ## Solución de problemas técnicos {#technical-troubleshooting}
 
-Vaya a las secciones siguientes para leer sobre temas más específicos:
+Vaya a las secciones siguientes para leer acerca de problemas más específicos:
 
 * [Seguimiento de pila en Linux](../../production/using/stack-trace-in-linux.md)
 * [Comportamiento de JSP](../../production/using/jsp-behavior.md)
-* [Localizar la versión de Tomcat](../../production/using/locate-tomcat-version.md)
+* [Localice la versión de Tomcat](../../production/using/locate-tomcat-version.md)

@@ -15,10 +15,10 @@ ht-degree: 22%
 
 
 
-Estos son los diferentes extremos utilizados en el Campaign Classic.
+Estos son los diferentes extremos utilizados en Campaign Classic.
 
 | Contexto | Dirección URL |
 |--- |--- |
-| Puntos finales del explorador | `https://*.experiencecloud.adobe.com` (proveedor SSO)<br>`https://*.campaign.adobe.com` (Instancia de Campaign)<br>`https://adobeid-na1.services.adobe.com` (inicio de sesión en el Adobe) |
+| Extremos del explorador | `https://*.experiencecloud.adobe.com` (proveedor de SSO)<br>`https://*.campaign.adobe.com` (Instancia de campaña)<br>`https://adobeid-na1.services.adobe.com` (inicio de sesión con Adobe) |
 | Renderización de la bandeja de entrada (Litmus) | `https://deliverability-app.neolane.net/deliverability` |
-| URL de personalización, páginas espejo, seguimiento, archivo (asistente de implementación) | Compruebe las direcciones URL configuradas por usted. |
+| URL de promoción de la marca, páginas espejo, seguimiento, referencia de archivo (asistente de implementación) | Compruebe las direcciones URL que se han configurado para usted. |

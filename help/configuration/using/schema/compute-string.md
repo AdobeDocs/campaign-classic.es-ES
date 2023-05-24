@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: 'Elementos y atributos: elemento de cadena de cálculo'
-description: elemento compute-string
+description: elemento de cadena de cálculo
 exl-id: 8a079bb8-3f53-4144-a065-5bd402649cc7
 source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 5%
 
 ---
 
-# elemento compute-string {#compute-string--element}
+# elemento de cadena de cálculo {#compute-string--element}
 
 ![](../../../assets/v7-only.svg)
 
@@ -22,7 +22,7 @@ compute-string:==EMPTY
 
 @expr
 
-## Principales {#parents-1}
+## Padres {#parents-1}
 
 `<element>`
 
@@ -32,15 +32,15 @@ Ninguno
 
 ## Descripción {#description-1}
 
-La variable `<compute-string>` element permite generar una cadena basada en una expresión XTK para mostrar una etiqueta &quot;creada&quot; en la interfaz basada en varios valores.
+El `<compute-string>` Este elemento permite generar una cadena basada en una expresión XTK para mostrar una etiqueta &quot;creada&quot; en la interfaz basada en varios valores.
 
 ## Uso y contexto de uso {#use-and-context-of-use-1}
 
-Cuando no `<compute-string>` se define, `<compute-string>` se introduce de forma predeterminada con los valores de la clave principal en el esquema .
+Cuando no `<compute-string>` se define, a `<compute-string>` element se introduce de forma predeterminada con los valores de la clave principal en el esquema.
 
-## Descripción del atributo {#attribute-description-1}
+## Descripción de atributo {#attribute-description-1}
 
-* **expr (cadena)**: XTK o expresión Xpath
+* **expr (cadena)**: expresión XTK o Xpath
 
 ## Ejemplos {#examples-1}
 

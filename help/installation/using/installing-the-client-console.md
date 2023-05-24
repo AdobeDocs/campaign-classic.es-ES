@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Instalación de la consola del cliente
-description: Obtenga información sobre cómo instalar la consola del cliente
+description: Obtenga información sobre cómo instalar la consola de cliente
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
@@ -20,45 +20,45 @@ ht-degree: 6%
 
 La consola del cliente de Campaign es un cliente enriquecido que le permite conectarse a sus servidores de aplicaciones de Campaign.
 
-Antes de comenzar a instalar la consola de cliente, debe:
+Antes de empezar a instalar la consola de cliente, debe hacer lo siguiente:
 
 * Compruebe la compatibilidad del sistema y las herramientas con Adobe Campaign en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems)
 * Obtener la URL del servidor de Campaign
-* Obtención de credenciales de usuario
-* Tener instalado el tiempo de ejecución de Microsoft Edge Webview2 en el sistema (desde la versión de compilación de Campaign Classic 7.3). [Más información](#webview)
+* Obtener sus credenciales de usuario
+* Instale el tiempo de ejecución de Microsoft Edge Webview2 en el sistema (desde la versión de compilación de Campaign Classic 7.3). [Más información](#webview)
 
-El proceso para instalar o actualizar la consola del cliente varía según la implementación de Adobe Campaign Classic.
-Consulte los detalles a continuación para comprender qué es lo que se requiere para la implementación.
+El proceso de instalación o actualización de la consola del cliente difiere según la implementación de Adobe Campaign Classic.
+Consulte los detalles siguientes para comprender qué se necesita para la implementación.
 
 ![](assets/do-not-localize/how-to-video.png) Descubra cómo instalar y configurar el cliente de Adobe Campaign en [video](#video)
 
 >[!CAUTION]
 >
->La consola del cliente de Campaign y el servidor de aplicaciones de Campaign deben ejecutarse **en la misma versión del producto**. El Adobe también recomienda encarecidamente utilizar la variable **misma compilación de producto**. Obtenga información sobre cómo comprobar las versiones de cliente y servidor de Campaign en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+>La consola del cliente de Campaign y el servidor de aplicaciones de Campaign deben ejecutarse **en la misma versión del producto**. El Adobe también recomienda encarecidamente utilizar el **misma compilación de producto**. Obtenga información sobre cómo comprobar las versiones de cliente y servidor de Campaign en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 ## Instalación del tiempo de ejecución de Microsoft Edge Webview2 {#webview}
 
-A partir de la versión de compilación de Campaign Classic 7.3, se requiere la instalación del tiempo de ejecución de Microsoft Edge Webview 2 para cualquier instalación de consola.
+A partir de la versión de compilación del Campaign Classic 7.3, se requiere la instalación del tiempo de ejecución de Microsoft Edge Webview 2 para cualquier instalación de la consola.
 
-La vista web se instala de forma predeterminada como parte del sistema operativo Windows 11. Si aún no está presente en su sistema, el instalador de la consola de Campaign Classic le pedirá que lo descargue desde [Sitio web del desarrollador de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es). Tenga en cuenta que el vínculo de descarga no funciona en el explorador Internet Explorer 11, ya que Microsoft ha dejado de ofrecer soporte técnico. Asegúrese de utilizar un explorador diferente para acceder al vínculo.
+Web View se instala de forma predeterminada como parte del sistema operativo Windows 11. Si aún no está presente en el sistema, el Instalador de la consola de Campaign Classic le pedirá que lo descargue de [Sitio web para desarrolladores de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es). Tenga en cuenta que el vínculo de descarga no funciona en el explorador Internet Explorer 11, ya que Microsoft ha dejado de admitir. Asegúrese de utilizar un explorador diferente para acceder al vínculo.
 
 ## Adobe Implementaciones alojadas {#hosted-customers}
 
-Como cliente alojado, tiene dos opciones para instalar o actualizar sus consolas de cliente:
+Como cliente alojado, tiene dos opciones para instalar o actualizar la consola o las consolas de cliente:
 
-1. Adobe puede implementarse directamente. Una vez actualizada la consola, se pedirá a los usuarios que descarguen la última versión de la consola del cliente en una ventana emergente.
+1. El Adobe puede implementarse directamente. Una vez actualizada la consola, se solicitará a los usuarios que descarguen la versión más reciente de la consola del cliente en una ventana emergente.
 
 1. Puede descargar en las consolas de cliente desde [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
 
-   **Los usuarios necesitarán acceso de administrador para completar la actualización. Si los usuarios no tienen derechos de administrador, un administrador del sistema deberá implementar en todas las consolas de cliente**
+   **Los usuarios necesitarán acceso de administrador para completar la actualización. Si los usuarios no tienen derechos de administrador, un administrador del sistema deberá implementarlos en todas las consolas de cliente**
 
 ## Implementaciones híbridas y locales {#hybrid-onprem-customers}
 
-Para que los usuarios de Adobe Campaign puedan iniciar sesión en la instancia que ha creado y configurado, deben utilizar la consola del cliente.
+Para que los usuarios de Adobe Campaign puedan iniciar sesión en la instancia que ha creado y configurado, deben utilizar la consola de cliente.
 
 ### Disponibilidad de la consola para los usuarios {#make-console-available}
 
-Cuando el equipo utilizado para iniciar un servidor de aplicaciones de Adobe Campaign (nlserver web) recibe conexiones de usuario desde la consola del cliente, puede configurarlo para que el programa de configuración del cliente enriquecido de Adobe Campaign esté disponible mediante una interfaz de HTML. Siempre que hay disponible una nueva versión de la consola del cliente, se invita a los usuarios a descargarla al iniciar la consola del cliente.
+Cuando el equipo utilizado para iniciar un servidor de aplicaciones de Adobe Campaign (nlserver web) recibe conexiones de usuario desde la consola del cliente, puede configurarlo para que el programa de instalación del cliente enriquecido de Adobe Campaign esté disponible a través de una interfaz de HTML. Siempre que haya una nueva versión de la consola del cliente disponible, se invita a los usuarios a descargarla al iniciar la consola del cliente.
 
 Para ello, debe:
 
@@ -73,13 +73,13 @@ Para ello, debe:
 
 ### Ya no se puede hacer esta pregunta
 
-Adobe recomienda dejar la opción **[!UICONTROL No longer ask this question]** no está seleccionado para asegurarse de que todos los usuarios reciben una alerta cuando hay una nueva versión de la consola disponible.  Si se selecciona esta opción, no se informará al usuario de las nuevas versiones disponibles.
+El Adobe recomienda dejar la opción **[!UICONTROL No longer ask this question]** deseleccionada para asegurarse de que todos los usuarios reciben una alerta cuando hay una nueva versión de la consola disponible.  Si se selecciona esta opción, no se informará al usuario de las nuevas versiones disponibles.
 
-If **[!UICONTROL No longer ask this question]**  se ha seleccionado, puede restablecer esta solicitud. Solo los administradores del sistema que estén cómodos con la edición de Windows Registry deben realizar estos cambios:
+If **[!UICONTROL No longer ask this question]**  se ha seleccionado, puede restablecer este mensaje. Solo los administradores de sistema que se sientan cómodos con la edición del Registro de Windows deben realizar estos cambios:
 
-1. Abra el Editor del Registro utilizando **regedit** desde el **[!UICONTROL Start > Run]** para abrir el Navegador.
+1. Abra el Editor del Registro con la variable **regedit** desde el **[!UICONTROL Start > Run]** menú.
 
-1. Busque el nodo y expórtelo.
+1. Busque el nodo y expándalo.
 
    ```
    \HKEY_CURRENT_USER\Software\Neolane\NL_6\nlclient
@@ -89,18 +89,18 @@ If **[!UICONTROL No longer ask this question]**  se ha seleccionado, puede resta
 
 >[!NOTE]
 >
->Si está aplicando una consola actualizada a una implementación existente, los usuarios recibirán automáticamente una solicitud para actualizar su consola de cliente. Si va a implementar Campaign por primera vez, los usuarios deberán descargar la consola. Consulte a continuación los detalles sobre ambas opciones
+>Si está aplicando una consola actualizada a una implementación existente, los usuarios recibirán automáticamente una solicitud para actualizar su consola de cliente. Si va a implementar Campaign por primera vez, los usuarios deberán descargar la consola. Consulte a continuación para obtener más información sobre ambas opciones
 
-### Actualizar la consola para una implementación existente{#update-the-client-console}
+### Actualizar la consola para la implementación existente{#update-the-client-console}
 
-Una vez que la consola esté disponible en la carpeta del servidor de Campaign, se pedirá a los usuarios que descarguen la última versión de la consola del cliente en una ventana emergente.
+Una vez que la consola esté disponible en la carpeta del servidor de Campaign, se solicitará a los usuarios que descarguen la versión más reciente de la consola del cliente en una ventana emergente.
 
-**Los usuarios necesitarán acceso de administrador para completar la actualización. Si los usuarios no tienen derechos de administrador, un administrador del sistema deberá implementar en todas las consolas de cliente**
+**Los usuarios necesitarán acceso de administrador para completar la actualización. Si los usuarios no tienen derechos de administrador, un administrador del sistema deberá implementarlos en todas las consolas de cliente**
 
 
-### Descargar la consola para una nueva implementación{#download-the-client-console}
+### Descargar la consola para la nueva implementación{#download-the-client-console}
 
-Los usuarios deben descargar e instalar la consola siguiendo los pasos a continuación:
+Los usuarios ahora deben descargar e instalar la consola siguiendo los pasos a continuación:
 
 1. Abra un explorador web y descargue la consola desde la siguiente dirección:
 
@@ -112,33 +112,33 @@ Los usuarios deben descargar e instalar la consola siguiendo los pasos a continu
 
    Si es necesario, utilice las credenciales de la cuenta interna definida durante la creación de la instancia.
 
-1. Haga clic en el **[!UICONTROL Download]** en la página de instalación.
-1. Descargue y guarde el archivo de configuración del cliente.
-1. Ejecute el archivo descargado en un equipo en Windows: Se inicia la instalación. La ruta de instalación predeterminada de la consola del cliente es **$PROGRAMFILES$/Adobe/Cliente Adobe Campaign Classic vX**, donde &quot;X&quot; es &quot;6&quot; o &quot;7&quot;, según su versión de Adobe Campaign.
+1. Haga clic en **[!UICONTROL Download]** en la página de instalación.
+1. Descargue y guarde el archivo de configuración de cliente.
+1. Ejecutar el archivo descargado en un equipo en Windows: Se inicia la instalación. La ruta de instalación predeterminada de la consola de cliente es **Cliente de $PROGRAMFILES$/Adobe/Adobe Campaign Classic vX**, donde &quot;X&quot; es &quot;6&quot; o &quot;7&quot;, según la versión de Adobe Campaign.
 
-### Crear la conexión: solo usuarios nuevos{#create-the-connection}
+### Creación de la conexión: solo usuarios nuevos{#create-the-connection}
 
 Una vez instalada la consola del cliente, siga los pasos a continuación para crear la conexión con el servidor de aplicaciones:
 
-1. Iniciar la consola desde Windows **[!UICONTROL Start]** en el **Adobe Campaign** grupo de programas.
+1. Inicie la consola desde Windows **[!UICONTROL Start]** menú, en el **Adobe Campaign** grupo de programas.
 
-1. Haga clic en el vínculo en la esquina superior derecha de los campos de credenciales para acceder a la ventana de configuración de conexión.
+1. Haga clic en el vínculo en la esquina superior derecha de los campos de credenciales para acceder a la ventana de configuración de la conexión.
 
    ![](assets/s_ncs_install_define_connection_01.png)
 
-1. Haga clic en **[!UICONTROL Add > Connection]** e introduzca la etiqueta y la URL del servidor de aplicaciones de Adobe Campaign.
+1. Clic **[!UICONTROL Add > Connection]** e introduzca la etiqueta y la dirección URL del servidor de aplicaciones de Adobe Campaign.
 
    ![](assets/s_ncs_install_define_connection_02.png)
 
-1. Especifique una conexión con el servidor de aplicaciones de Adobe Campaign a través de una URL. Utilice un DNS o un alias del equipo o su dirección IP.
+1. Especifique una conexión con el servidor de aplicaciones de Adobe Campaign mediante una dirección URL. Utilice un DNS o un alias del equipo, o su dirección IP.
 
-   Por ejemplo, puede usar la variable [`https://<machine>.<domain>.com`](https://myserver.adobe.com) escriba URL.
+   Por ejemplo, puede utilizar la variable [`https://<machine>.<domain>.com`](https://myserver.adobe.com) escriba la dirección URL.
 
 1. Si Adobe IMS está configurado para su organización, marque la opción **[!UICONTROL Connect with an Adobe ID]**
 
-1. Haga clic en **[!UICONTROL Ok]** para guardar la configuración.
+1. Clic **[!UICONTROL Ok]** para guardar la configuración.
 
-Puede agregar tantas conexiones como sea necesario para conectarse a los entornos de prueba, fase y producción, por ejemplo.
+Puede añadir tantas conexiones como sea necesario para conectarse a los entornos de prueba, fase y producción, por ejemplo.
 
 >[!NOTE]
 >
@@ -148,15 +148,15 @@ Puede agregar tantas conexiones como sea necesario para conectarse a los entorno
 
 Para iniciar sesión en una instancia existente, siga los pasos a continuación:
 
-1. Iniciar la consola desde Windows **[!UICONTROL Start]** en el **Adobe Campaign** grupo de programas.
+1. Inicie la consola desde Windows **[!UICONTROL Start]** menú, en el **Adobe Campaign** grupo de programas.
 
-1. Haga clic en el vínculo en la esquina superior derecha de los campos de credenciales para acceder a la ventana de configuración de conexión.
+1. Haga clic en el vínculo en la esquina superior derecha de los campos de credenciales para acceder a la ventana de configuración de la conexión.
 
-1. Seleccione la instancia de Campaign a la que debe iniciar sesión.
+1. Seleccione la instancia de Campaign en la que debe iniciar sesión.
 
 1. Haga clic en **[!UICONTROL Ok]**
 
-1. Introduzca sus credenciales de inicio de sesión de usuario y haga clic en **[!UICONTROL Log in]**
+1. Introduzca las credenciales de inicio de sesión del usuario y haga clic en **[!UICONTROL Log in]**
 
 >[!NOTE]
 >

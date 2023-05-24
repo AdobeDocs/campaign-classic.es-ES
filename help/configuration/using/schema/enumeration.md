@@ -16,7 +16,7 @@ ht-degree: 6%
 
 ## Modelo de contenido {#content-model-5}
 
-enumeration:==(help| value)
+enumeración:==(ayuda| valor)
 
 ## Atributos {#attributes-5}
 
@@ -27,7 +27,7 @@ enumeration:==(help| value)
 * @name (cadena)
 * @template (cadena)
 
-## Principales {#parents-5}
+## Padres {#parents-5}
 
 `<srcschema>`
 
@@ -38,21 +38,21 @@ enumeration:==(help| value)
 
 ## Descripción {#description-5}
 
-Este elemento permite definir una enumeración de valores. Una enumeración pertenece al esquema en el que está definida, pero se puede acceder a ella a través de otro esquema.
+Este elemento permite definir una enumeración de valores. Una enumeración pertenece al esquema en el que se define, pero es accesible a través de otro esquema.
 
 ## Uso y contexto de uso {#use-and-context-of-use-4}
 
-Las enumeraciones se definen al principio de un esquema (antes de que se defina el elemento principal).
+Las enumeraciones se definen al principio de un esquema (antes de definir el elemento principal).
 
-## Descripción del atributo {#attribute-description-5}
+## Descripción de atributo {#attribute-description-5}
 
-* **basetype (cadena)**: tipo de los valores almacenados en la enumeración .
+* **basetype (string)**: tipo de los valores almacenados en la enumeración.
 
    Lista de tipos disponibles:
 
    * CUALQUIERA
-   * bin
-   * blob
+   * cubo
+   * mancha
    * booleano
    * byte
    * CDATA
@@ -60,30 +60,30 @@ Las enumeraciones se definen al principio de un esquema (antes de que se defina 
    * datetimetz
    * datetimenotz
    * date
-   * DOMDocument
+   * DOMocument
    * DOMElement
-   * double
+   * doble
    * enum
    * float
    * html
    * int64
-   * vínculo
-   * long
-   * memo
+   * vincular
+   * largo
+   * nota
    * MNTOKEN
    * percent
-   * primarykey
-   * short
+   * clave principal
+   * corto
    * cadena
    * tiempo
-   * timespan
+   * intervalo de tiempo
    * uuid
 
 * **default (cadena)**: Valor predeterminado. El valor predeterminado también puede ser uno de los valores definidos en la enumeración.
 * **desc (cadena)**: descripción de la enumeración.
 * **label (cadena)**: etiqueta de enumeración.
-* **name (cadena)**: nombre interno de la enumeración.
-* **plantilla (cadena)**: este atributo define una referencia a un `<enumeration>` elemento compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
+* **nombre (cadena)**: nombre interno de la enumeración.
+* **template (cadena)**: este atributo define una referencia a un `<enumeration>` compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
 
 ## Ejemplos {#examples-4}
 

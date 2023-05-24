@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
 workflow-type: tm+mt
-source-wordcount: '5972'
-ht-degree: 100%
+source-wordcount: '5974'
+ht-degree: 99%
 
 ---
 
@@ -144,11 +144,11 @@ Utilice los grupos de control para medir el impacto de sus campañas al excluir 
 Más información sobre los [Grupos de control](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 +++
 
-+++**Panel de control de Campaign**
++++**Panel de control**
 
-El Panel de control de Campaign ayuda a los administradores de productos de Adobe Campaign a aumentar la eficacia de su trabajo, ya que les permite administrar la configuración y rastrear los usos de cada una de sus instancias. Su interfaz intuitiva les permite monitorizar fácilmente el uso de los recursos clave, así como realizar tareas administrativas como añadir listas de permitidos para las direcciones IP, monitorizar el almacenamiento SFTP, administrar claves y mucho más.
+El Panel de control ayuda a los administradores de productos de Adobe Campaign a aumentar la eficacia de su trabajo, ya que les permite administrar la configuración y rastrear los usos de cada una de sus instancias. Su interfaz intuitiva les permite monitorizar fácilmente el uso de los recursos clave, así como realizar tareas administrativas como añadir listas de permitidos para las direcciones IP, monitorizar el almacenamiento SFTP, administrar claves y mucho más.
 
-Más información sobre el [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es).
+Más información sobre el [Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es).
 +++
 
 +++**Cubos**
@@ -906,7 +906,7 @@ Más información sobre los [Servicios](../../delivery/using/about-services-and-
 
 +++**Administración SFTP**
 
-En el Panel de control de Campaign, puede interactuar con todos los servidores SFTP conectados a instancias de Campaign a las que tiene acceso. El Panel de control de Campaign permite realizar acciones en los servidores SFTP, como monitorizar la capacidad de almacenamiento, administrar las listas de direcciones IP permitidas y administrar las claves SSH públicas.
+En el Panel de control, puede interactuar con todos los servidores SFTP conectados a instancias de Campaign a las que tiene acceso. El Panel de control permite realizar acciones en los servidores SFTP, como monitorizar la capacidad de almacenamiento, administrar las listas de direcciones IP permitidas y administrar las claves SSH públicas.
 
 Más información sobre la [Administración SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=es).
 +++
@@ -1013,7 +1013,7 @@ La mensajería transaccional es un módulo de Campaign diseñado para administra
 Más información sobre la [Mensajería transaccional](../../message-center/using/about-transactional-messaging.md).
 +++
 
-<!------- USEFUL HERE??----->
+&lt;!------- ÚTIL AQUÍ??----->
 +++**Campañas activadas**
 
 Las campañas activadas son campañas que se ejecutan cuando se recibe una solicitud de API en un flujo de trabajo. Las llamadas a la API se consumen mediante una actividad de señal en el flujo de trabajo que inicia la ejecución del flujo de trabajo.

@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## Modelo de contenido {#content-model-10}
 
-método:==( help | parámetros)
+método:==( ayuda | parámetros)
 
 ## Atributos {#attributes-10}
 
@@ -26,11 +26,11 @@ método:==( help | parámetros)
 * @hidden (booleano)
 * @label (cadena)
 * @library (cadena)
-* @name (MNTOKEN)
+* @name (TOKEN MENÚ)
 * @pkonly (booleano)
 * @static (booleano)
 
-## Principales {#parents-10}
+## Padres {#parents-10}
 
 `<methods>`  ,  `<interface />`
 
@@ -45,22 +45,22 @@ Este elemento permite definir un método SOAP.
 
 ## Uso y contexto de uso {#use-and-context-of-use-7}
 
-Los métodos SOAP permiten procesos de aplicación.
+Los métodos SOAP habilitan procesos de aplicación.
 
-La &quot;@library&quot; es necesaria para declarar un nuevo método (no nativo): el espacio de nombres y el nombre utilizado para la biblioteca son independientes del espacio de nombres y el nombre del esquema donde está la declaración.
+La &quot;@library&quot; es necesaria para declarar un nuevo método (no nativo): el área de nombres y el nombre utilizados para la biblioteca son independientes del área de nombres y el nombre del esquema donde se encuentra la declaración.
 
-## Descripción del atributo {#attribute-description-10}
+## Descripción de atributo {#attribute-description-10}
 
-* **access (cadena)**: este atributo define el control de acceso para el uso del método . Si falta este atributo, la identificación es obligatoria. Los valores disponibles son: &#39;anonymous&#39;, &#39;admin&#39; y &#39;sql&#39;.
+* **acceso (cadena)**: este atributo define el control de acceso para el uso del método. Si falta este atributo, la identificación es obligatoria. Los valores disponibles son: &quot;anonymous&quot;, &quot;admin&quot; y &quot;sql&quot;.
 * **const (booleano)**: si está activado, este atributo significa que el método declarado alterará la entidad
-* **label (cadena)**: etiqueta del método .
+* **label (cadena)**: etiqueta del método.
 * **library (string)**: este método no es nativo de la aplicación. Este atributo toma el valor de la biblioteca de métodos donde se encuentra la definición del método (nms:mylibrary.js).
-* **name (MNTOKEN)**: nombre de método único.
-* **static (booleano)**: si este atributo está activado, el método se considera autónomo, se deben especificar todos los parámetros del método cuando se llame a él.
+* **nombre (MNTOKEN)**: nombre de método único.
+* **static (booleano)**: si este atributo está activado, el método se considera autónomo; todos los parámetros deben especificarse en el método cuando se solicite.
 
 ## Ejemplos {#examples-7}
 
-Definición del método &quot;Suscribirse&quot; fuera de la caja:
+Definición del método predeterminado &quot;Subscribe&quot;:
 
 ```
  

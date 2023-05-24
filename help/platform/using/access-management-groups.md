@@ -2,7 +2,7 @@
 product: campaign
 title: Creación y administración de grupos de operadores
 description: Aprenda a conceder acceso a grupos de operadores
-badge: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge: label="v7" type="Informativo" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Access Management, Permissions
 role: User, Admin
 level: Beginner

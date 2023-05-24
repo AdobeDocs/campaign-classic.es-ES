@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Instalación de fuentes
-description: Aprenda a instalar fuentes
+description: Obtenga información sobre cómo instalar fuentes
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: installation
 content-type: reference
@@ -18,6 +18,6 @@ ht-degree: 0%
 
 
 
-Así puede instalar nuevas fuentes en el servidor de aplicaciones de Campaign.
+Así se pueden instalar nuevas fuentes en el servidor de aplicaciones de Campaign.
 
-Las nuevas fuentes se pueden colocar en la variable `/usr/local/share/` en todos los contenedores donde se ejecuta el proceso MTA.
+Las nuevas fuentes se pueden colocar en la `/usr/local/share/` en todos los contenedores en los que se ejecuta el proceso de MTA.
