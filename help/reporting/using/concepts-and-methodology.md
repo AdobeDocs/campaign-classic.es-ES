@@ -2,7 +2,7 @@
 product: campaign
 title: Prácticas recomendadas para cubos
 description: Prácticas recomendadas para cubos
-badge: label="v7" type="Informativo" tooltip="Se aplica solo a Campaign Classic v7"
+badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Reporting
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1504'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

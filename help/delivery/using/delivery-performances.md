@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Prácticas recomendadas sobre el rendimiento de los envíos
-description: Obtenga más información sobre el rendimiento de las entregas y las prácticas recomendadas
+description: Obtenga más información sobre el rendimiento de los envíos y las prácticas recomendadas
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Prácticas recomendadas sobre el rendimiento de las entregas {#delivery-performances}
+# Prácticas recomendadas sobre el rendimiento de los envíos {#delivery-performances}
 
 
 

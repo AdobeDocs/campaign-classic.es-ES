@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Supervisión de la ejecución de trabajos
-description: Obtenga información sobre cómo supervisar la ejecución de trabajos de importación y exportación
+title: Monitorización de la ejecución de trabajos
+description: Obtenga información sobre cómo monitorizar la ejecución de trabajos de importación y exportación
 badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform

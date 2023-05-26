@@ -87,7 +87,7 @@ En la instancia de ejecución, se puede acceder a los flujos de trabajo técnico
 
    * **[!UICONTROL Pending]**: el evento está en cola. Aún no se le ha asignado ninguna plantilla de mensaje.
    * **[!UICONTROL Pending delivery]**: el evento está en cola, se le ha asignado una plantilla de mensaje y la entrega lo está procesando.
-   * **[!UICONTROL Sent]** : este estado se copia desde los registros de envío. Significa que la entrega se realizó.
+   * **[!UICONTROL Sent]** : este estado se copia desde los registros de envío. Significa que el envío se realizó.
    * **[!UICONTROL Ignored by the delivery]** : este estado se copia desde los registros de envío. Significa que la entrega se ha omitido.
    * **[!UICONTROL Delivery failed]** : este estado se copia desde los registros de envío. Significa que la entrega ha fallado.
    * **[!UICONTROL Event not taken into account]**: el evento no se ha podido relacionar con una plantilla de mensaje. El evento no se va a procesar.

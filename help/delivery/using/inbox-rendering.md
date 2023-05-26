@@ -9,7 +9,7 @@ exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 source-git-commit: e011333411af79b985166a4e73592a1860749cf1
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Los clientes móviles, de mensajería y de correo web disponibles para **Renderi
 
 ## Activación del procesamiento de la bandeja de entrada {#activating-inbox-rendering}
 
-[!BADGE On-Premise e híbrido]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Solo se aplica a implementaciones locales e híbridas"}
+[!BADGE On-Premise e híbrido]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"}
 
 Para los clientes alojados e híbridos, el servicio de asistencia técnica y consultores de Adobe configuran la renderización de la Bandeja de entrada en la instancia. Para obtener más información, póngase en contacto con su administrador de cuentas de Adobe.
 

@@ -33,7 +33,7 @@ Para procesar los eventos de mensajería transaccional, se aplican los siguiente
 1. [Recopilación de eventos](#event-collection)
 1. [Transferencia de eventos a una plantilla de mensajes](#routing-towards-a-template)
 1. Enriquecimiento de eventos con datos de personalización
-1. [Ejecución de entrega](../../message-center/using/delivery-execution.md)
+1. [Ejecución de envíos](../../message-center/using/delivery-execution.md)
 1. [Reciclaje de eventos](#event-recycling) cuya entrega vinculada ha dado error (a través de un flujo de trabajo de Adobe Campaign)
 
 Una vez que todos los pasos anteriores se llevan a cabo mediante la instancia de ejecución, cada destinatario objetivo recibe un mensaje personalizado.

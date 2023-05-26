@@ -2,7 +2,7 @@
 product: campaign
 title: Uso de derechos asignados para configurar permisos
 description: Obtenga información sobre cómo utilizar derechos asignados para configurar permisos
-badge: label="v7" type="Informativo" tooltip="Se aplica solo a Campaign Classic v7"
+badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
@@ -10,7 +10,7 @@ exl-id: 07470a91-d8d2-4c41-9555-05522c8068f0
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 

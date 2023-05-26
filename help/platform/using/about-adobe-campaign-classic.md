@@ -71,7 +71,7 @@ Puede combinar las funcionalidades de entrega y las funcionalidades avanzadas de
 
 ## Funcionalidades básicas y complementos {#core-capabilities-and-add-ons}
 
-Adobe Campaign ofrece un conjunto de funcionalidades que le ayudarán a implementar y optimizar las capacidades de marketing conversacional según sus necesidades y su arquitectura. Algunas de ellas son funcionalidades básicas y algunas dependen de la instalación de un paquete y de la configuración. Aquí encontrará una descripción detallada del producto: [Descripción del producto de Adobe Campaign Classic](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html?lang=es).
+Adobe Campaign ofrece un conjunto de funcionalidades que le ayudarán a implementar y optimizar las capacidades de marketing conversacional según sus necesidades y su arquitectura. Algunas de ellas son funcionalidades básicas y algunas dependen de la instalación de un paquete y de la configuración. Aquí encontrará una descripción detallada del producto: [Descripción del producto de Adobe Campaign Classic](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-classic---product-description.html).
 
 Estas son las funcionalidades disponibles. Según el acuerdo de licencia, algunas de estas funcionalidades pueden estar disponibles o no.
 

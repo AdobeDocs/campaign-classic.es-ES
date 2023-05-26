@@ -2,13 +2,13 @@
 product: campaign
 title: Cálculo de indicador
 description: Cálculo de indicador
-badge: label="v7" type="Informativo" tooltip="Se aplica solo a Campaign Classic v7"
+badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Reporting
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '2983'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -204,7 +204,7 @@ Este informe se basa en la tabla **[!UICONTROL Internet Browser Statistics]** (n
  </tbody> 
 </table>
 
-## Uso compartido en redes sociales {#sharing-to-social-networks-1}
+## Difusión en redes sociales {#sharing-to-social-networks-1}
 
 Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[!UICONTROL Consolidated tracking]** (nms:trackingStats) y **[!UICONTROL Web tracking]** (nms:webTrackingLog).
 
@@ -341,7 +341,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[
  </tbody> 
 </table>
 
-## Estadísticas de actividades de uso compartido {#statistics-on-sharing-activities-1}
+## Estadísticas de actividades de difusión {#statistics-on-sharing-activities-1}
 
 Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[!UICONTROL Consolidated tracking]** (nms:trackingStats) y **[!UICONTROL Web tracking]** (nms:webTrackingLog).
 

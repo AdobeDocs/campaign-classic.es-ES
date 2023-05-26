@@ -8,29 +8,29 @@ exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
 source-wordcount: '1199'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Acceso a campañas de marketing{#accessing-marketing-campaigns}
 
-Adobe Campaign permite crear, configurar, ejecutar y analizar campañas de marketing. Todas las campañas de marketing se pueden administrar desde un centro de control unificado.
+Adobe Campaign le permite crear, configurar, ejecutar y analizar campañas de marketing. Todas las campañas de marketing se pueden administrar desde un centro de control unificado.
 
 ## Conceptos básicos de Workspace {#workspace-basics}
 
 ### Página de inicio {#home-page}
 
-Una vez conectado a Adobe Campaign, examine las distintas funciones mediante los vínculos de la barra de navegación.
+Una vez que esté conectado a Adobe Campaign, examine las distintas funciones mediante vínculos en la barra de navegación.
 
 
 ![](assets/campaign_global_view.png)
 
 
-Los elementos de campaña se encuentran en la variable **[!UICONTROL Campaigns]** pestaña: aquí puede ver una descripción general de los programas de marketing, las campañas y sus subconjuntos. Un programa de marketing consta de campañas, que están formadas por envíos, tareas, recursos vinculados, etc. En el contexto de la administración de campañas de marketing mediante Campaign, la información sobre las entregas, los presupuestos, los revisores y los documentos vinculados se encuentran en las campañas.
+Los elementos de Campaign se encuentran en la pestaña **[!UICONTROL Campaigns]**: aquí puede ver una descripción general de los programas, campañas de marketing, así como sus subconjuntos. Un programa de marketing consta de campañas, que están formadas de envíos, tareas, recursos vinculados, etc. En el contexto de la administración de campañas de marketing mediante Campaign, la información sobre los envíos, los presupuestos, los revisores y los documentos vinculados se encuentran en las campañas.
 
 El bloque **[!UICONTROL Browsing]** de la pestaña **[!UICONTROL Campaigns]** ofrece varias entradas, según los módulos instalados en la instancia. Por ejemplo, puede acceder a:
 
-* **Calendario de Campaign**: calendario de planes, programas de marketing, envíos y campañas. Consulte [Calendario de campañas](#campaign-calendar).
+* **Calendario de campañas**: calendario de planes, programas de marketing, envíos y campañas. Consulte [Calendario de campañas](#campaign-calendar).
 * **Campaigns** (campañas): acceso a las campañas contenidas en todos los programas de marketing.
 * **Deliveries** (envíos): acceso a los envíos vinculados a las campañas.
 * **Aplicaciones web**: acceso a aplicaciones web (formularios, páginas de destino, etc.)
@@ -43,7 +43,7 @@ El bloque **[!UICONTROL Browsing]** de la pestaña **[!UICONTROL Campaigns]** of
 
 ### Calendario de Campaign {#campaign-calendar}
 
-Cada campaña pertenece a un programa que, a su vez, pertenece a un plan. Se accede a los planes, programas y campañas a través del **[!UICONTROL Campaign calendar]** en el menú **Campañas** pestaña.
+Cada campaña pertenece a un programa que, a su vez, pertenece a un plan. Se accede a los planes, programas y campañas a través del menú **[!UICONTROL Campaign calendar]** de la pestaña **Campañas**.
 
 Para editar un plan, programa, campaña o entrega, haga clic en su nombre en el calendario y luego haga clic en **[!UICONTROL Open...]** A continuación se muestra en una nueva pestaña, como se muestra a continuación:
 
@@ -55,7 +55,7 @@ Puede filtrar la información que se muestra en el calendario de campañas: haga
 
 >[!NOTE]
 >
->Cuando filtra una fecha, se muestran todas las campañas con una fecha de inicio posterior a la fecha especificada o con una fecha de finalización anterior a la fecha especificada. Seleccione fechas utilizando los calendarios a la derecha de cada campo.
+>Cuando filtra una fecha, se muestran todas las campañas con una fecha de inicio posterior a la fecha especificada o con una fecha de finalización anterior a la fecha especificada. Seleccione las fechas utilizando los calendarios a la derecha de cada campo.
 
 También puede utilizar el campo **[!UICONTROL Search]** para filtrar los elementos mostrados.
 
@@ -69,7 +69,7 @@ Campaign le permite administrar un conjunto de programas creados a partir de dif
 
 Al editar un programa, utilice las pestañas que se describen a continuación para explorarlo y configurarlo.
 
-* El **Programación** La pestaña muestra el calendario de programas de un mes, una semana o un día según la pestaña en la que haga clic en el encabezado del calendario.
+* La pestaña **Programación** muestra el calendario de programas de un mes, una semana o un día según la pestaña en la que haga clic en el encabezado del calendario.
 
    Si es necesario, puede crear una campaña, un programa o una tarea a través de esta página.
 
@@ -116,7 +116,7 @@ Con Adobe Campaign, se pueden configurar procesos de colaboración para la creac
 
 #### Programación {#schedule}
 
-Una campaña unifica un conjunto de envíos. Para cada campaña, la programación ofrece una vista global de todos los componentes: puede mostrar las tareas y los envíos y acceder a ellos fácilmente.
+Una campaña unifica un conjunto de envíos. Para cada campaña, la programación ofrece una vista global de todos los componentes: esto permite mostrar las tareas y los envíos y acceder a ellos fácilmente.
 
 ![](assets/campaign_planning_tab.png)
 
@@ -124,7 +124,7 @@ Una campaña unifica un conjunto de envíos. Para cada campaña, la programació
 
 Para cada campaña, los operadores pueden intercambiar mensajes a través de un foro dedicado.
 
-Obtenga más información en [Foros de debate](../../mrm/using/discussion-forums.md).
+Obtenga más información en los [Foros de debate](../../mrm/using/discussion-forums.md).
 
 #### Informes {#reports}
 
@@ -140,10 +140,10 @@ El vínculo **[!UICONTROL Reports]** permite acceder a los informes de campaña.
 
 Las campañas se crean mediante plantillas de campaña. Puede configurar plantillas reutilizables para las que algunas opciones están seleccionadas y otras configuraciones ya están guardadas. Para cada campaña, se ofrece la siguiente funcionalidad:
 
-* Referencia a [documentos y recursos](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents): puede asociar documentos a la campaña (resumen, informe, imágenes, etc.). Se admiten todos los formatos de documento.
-* Definición de costes: para cada campaña, Adobe Campaign permite definir lo siguiente [entradas de costes y estructuras de cálculo de costes](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories) que se puede utilizar al crear la campaña de marketing. Por ejemplo: costes de impresión, uso de una agencia externa, alquiler de salas.
+* Referencia a [documentos y recursos](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents): puede asociar documentos con la campaña (resumen, informes, imágenes, etc.). Se admiten todos los formatos de documento.
+* Definición de costes: para cada campaña, Adobe Campaign permite definir las [entradas de coste y las estructuras de cálculo de costes](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories) que se pueden utilizar al crear la campaña de marketing. Por ejemplo: costes de impresión, uso de una agencia externa, alquiler de salas.
 * Definición de objetivos: puede definir objetivos cuantificables para una campaña, por ejemplo: número de suscriptores, volumen comercial, etc. Esta información se utiliza más tarde en los informes de campaña.
-* Administración [direcciones semilla](../../delivery/using/about-seed-addresses.md) y [grupos de control](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+* Administración de [direcciones semilla](../../delivery/using/about-seed-addresses.md) y [grupos de control](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 * Administrar aprobaciones: puede seleccionar los tratamientos que desea aprobar y, si es necesario, seleccionar los operadores o grupos de operadores revisores. [Más información](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)
 
 >[!NOTE]

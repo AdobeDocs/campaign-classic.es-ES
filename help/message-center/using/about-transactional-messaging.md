@@ -84,7 +84,7 @@ Una vez que haya diseñado y publicado la plantilla de mensaje transaccional, si
 
 1. Cuando el sistema de información externa genera el evento, los datos relevantes se envían a Campaign mediante los métodos **PushEvent** y **PushEvents**. Consulte [Recopilación de eventos](../../message-center/using/about-event-processing.md#event-collection).
 1. El evento está vinculado a la plantilla de mensaje adecuada. Consulte [Enrutamiento hacia una plantilla](../../message-center/using/about-event-processing.md#routing-towards-a-template).
-1. Una vez finalizada la fase de enriquecimiento, se realiza la entrega. Consulte [Ejecución de entrega](../../message-center/using/delivery-execution.md). Cada destinatario objetivo recibe un mensaje personalizado.
+1. Una vez finalizada la fase de enriquecimiento, se realiza la entrega. Consulte [Ejecución de envíos](../../message-center/using/delivery-execution.md). Cada destinatario objetivo recibe un mensaje personalizado.
 
 ## Temas relacionados {#related-topics}
 

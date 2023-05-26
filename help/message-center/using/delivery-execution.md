@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Ejecución de envíos
-description: Obtenga más información acerca de la ejecución y supervisión de la entrega de mensajes transaccionales
+description: Obtenga más información acerca de la ejecución y supervisión del envío de mensajes transaccionales
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 audience: message-center
 content-type: reference
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Ejecución de entrega {#delivery-execution}
+# Ejecución de envíos {#delivery-execution}
 
 
 

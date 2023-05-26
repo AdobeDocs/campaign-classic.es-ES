@@ -2,13 +2,13 @@
 product: campaign
 title: Lista de informes
 description: Lista de informes
-badge: label="v7" type="Informativo" tooltip="Se aplica solo a Campaign Classic v7"
+badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Reporting
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

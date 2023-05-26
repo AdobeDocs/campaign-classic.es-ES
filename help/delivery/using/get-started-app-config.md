@@ -8,7 +8,7 @@ exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Para enviar notificaciones push en Adobe Campaign, debe:
 
 ## Instalación del paquete {#installing-package-ios}
 
-[!BADGE On-Premise e híbrido]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Solo se aplica a implementaciones locales e híbridas"}
+[!BADGE On-Premise e híbrido]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"}
 
 ![](assets/do-not-localize/how-to-video.png) [Obtenga información sobre cómo instalar el paquete de la aplicación móvil con este vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/installing-the-mobile-app-channel.html#sending-messages)
 

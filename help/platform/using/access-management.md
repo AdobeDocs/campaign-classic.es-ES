@@ -2,13 +2,13 @@
 product: campaign
 title: Introducción a los permisos
 description: Obtenga información sobre cómo conceder acceso a las funciones de Campaign
-badge: label="v7" type="Informativo" tooltip="Se aplica solo a Campaign Classic v7"
+badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
