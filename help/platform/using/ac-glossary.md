@@ -5,7 +5,7 @@ description: Glosario de Adobe Campaign
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 978da934b483a54509ad806f375d9b2bb0577dac
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
 source-wordcount: '5974'
 ht-degree: 99%
@@ -1059,16 +1059,6 @@ En el modo unitario, el motor de oferta procesa un único contacto durante la ej
 
 Más información sobre el [Modo unitario](../../interaction/using/about-inbound-channels.md).
 +++
-
-<!--
------NO OCCURRENCE IN ACC, OLD v6 CONCEPT?
-+++**Universes**
-
-Application pages hosted by the Campaign instance. Used for approval forms, landing pages, opt-out forms, preference pages or to implement other business requirements.  
-
-Learn more about [Universes](../../workflow/using/about-workflows.md).
-+++
------->
 
 +++**Aplicaciones web**
 

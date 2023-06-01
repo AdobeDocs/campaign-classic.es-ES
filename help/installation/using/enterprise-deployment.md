@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1213'
 ht-degree: 6%
 
 ---
@@ -166,7 +166,7 @@ Los pasos para instalar el primer servidor son los siguientes:
 
    Para obtener más información, consulte [Configuración del servidor de Campaign](../../installation/using/configuring-campaign-server.md).
 
-1. Copie el programa de configuración de la consola del cliente (**setup-client-7.XX**, **YYYY.exe** para v7 o **setup-client-6.XX**, **YYYY.exe** para v6.1) a **/datakit/nl/eng/jsp** carpeta. [Más información](../../installation/using/client-console-availability-for-windows.md).
+1. Copiar el programa de configuración de la consola del cliente **setup-client-7.XX**, **YYYY.exe** a la **/datakit/nl/eng/jsp** carpeta. [Más información](../../installation/using/client-console-availability-for-windows.md).
 
 1. Inicie el servidor de Adobe Campaign (**net start nlserver6** en Windows, **Inicio de /etc/init.d/nlserver6** en Linux) y ejecute el comando **nlserver pdump** una vez más para comprobar la presencia de todos los módulos habilitados.
 

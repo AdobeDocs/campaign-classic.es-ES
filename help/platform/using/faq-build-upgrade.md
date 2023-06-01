@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 100%
+source-wordcount: '1995'
+ht-degree: 98%
 
 ---
 
@@ -54,15 +54,16 @@ Por otra parte, las actualizaciones de versiones suelen incluir importantes camb
 
 Por ejemplo, con la información del servidor de la captura de pantalla de la sección anterior:
 
-* Una actualización de la compilación implicaría pasar de la compilación 6880 a cualquier compilación superior a 6880. Por ejemplo, de la versión 6.1.1 compilación 8222 a la versión 6.1.1 compilación 8666
+* Una actualización de la compilación implicaría pasar de la compilación 9342 a cualquier compilación superior a 9342. Por ejemplo, de la versión 7.1 compilación 9342 a la versión 7.1 compilación 9342
 
-* Una actualización de la versión implicaría pasar de la versión 6.0.2 a cualquier versión superior a 6.0.2. Por ejemplo: versión 6.0.1 compilación 2222 a versión 6.1.1 compilación 8666
+* Una actualización de la versión implicaría pasar de la versión 6 a cualquier versión más reciente.  Por ejemplo: versión 6.1.1 compilación 8666 a versión 7.1 compilación 9342.
 
 ## ¿Debo hacer una copia de seguridad de mis datos antes de estas actualizaciones?
 
 Adobe realizará una copia de seguridad del sistema antes de realizar cualquier cambio. Sin embargo, si hay un trabajo de personalización crítico en el sistema que no es de producción (servidores de ensayo o desarrollo), se RECOMIENDA que exporte ese trabajo como paquete antes de cualquier actualización.
 
-![](assets/do-not-localize/how-to-video.png) Para obtener más información, [vea este vídeo](https://helpx.adobe.com/es/campaign/classic/how-to/generate-packages-in-acv6.html).
+<!--
+![](assets/do-not-localize/how-to-video.png) For more information, [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).-->
 
 ## ¿Cuándo se realizarán las actualizaciones?
 
@@ -97,7 +98,9 @@ El proceso de actualización de la compilación requiere los siguientes recursos
 
 ## ¿Cómo puedo prepararme para la actualización de la compilación?
 
-En sus sistemas de desarrollo y ensayo, exporte cualquier trabajo que sea crítico y que deba preservarse. Para obtener más información, [vea este vídeo](https://helpx.adobe.com/es/campaign/classic/how-to/generate-packages-in-acv6.html).
+En sus sistemas de desarrollo y ensayo, exporte cualquier trabajo que sea crítico y que deba preservarse.
+
+<!--For more information please [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).-->
 
 Actualice su conocimiento en cuanto a los flujos de trabajo y las entregas de ruta críticos desarrollados en los libros de ejecución (o por su equipo de consultoría o socio) mediante la revisión de la documentación proporcionada a su equipo al final de la implementación.
 
@@ -105,7 +108,7 @@ Identifique los tiempos de bajo volumen o bajo tráfico que sean ideales para la
 
 Revise nuestra [lista de comprobación de actualización de compilaciones ](#check-list) a continuación, así como sus planes de prueba, y asegúrese de que los recursos que pueden realizar estas pruebas estén disponibles entre 24 y 48 horas tras la finalización de una actualización.
 
-Para obtener más información, [consulte este documento](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html).
+Para obtener más información, [consulte esta sección](../../production/using/build-upgrade.md).
 
 ## ¿Se pueden realizar actualizaciones de la compilación por la noche o durante las horas fuera de servicio?
 

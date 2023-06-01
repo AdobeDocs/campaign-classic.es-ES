@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
-source-wordcount: '7979'
+source-wordcount: '7955'
 ht-degree: 42%
 
 ---
@@ -1618,12 +1618,12 @@ Estos son los diferentes parámetros del **mta** nodo. Esta es la configuración
    <td> Booleano<br /> </td> 
    <td> verdadero <br /> </td> 
   </tr> 
-  <tr> 
+  <!--tr> 
    <td> statServerVersion<br /> </td> 
-   <td> Versión de protocolo utilizada: versión de protocolo de comunicación (1 para un servidor v5.11 y 6.0.2, 2 para un servidor v6.1).<br /> </td> 
-   <td> Cadena<br /> </td> 
-   <td> Si no se define, se utiliza la versión más reciente. <br /> </td> 
-  </tr> 
+   <td> Protocol version used: communication protocol version (1 for a v5.11 and 6.0.2 server, 2 for a v6.1 server).<br /> </td> 
+   <td> String<br /> </td> 
+   <td> If undefined, the latest version is used. <br /> </td> 
+  </tr--> 
   <tr> 
    <td> useMomentum<br /> </td> 
    <td> Si se establece en "true", la instancia utiliza el <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">MTA mejorado</a>.<br /> </td> 
@@ -1804,7 +1804,7 @@ Para obtener más información, consulte [Optimización del envío de correo ele
   </tr> 
   <tr> 
    <td> maxAgeSec<br /> </td> 
-   <td> Tiempo máximo de retención de mensajes. Si enviar mensaje preparado no se ha podido enviar debido al estrangulamiento o no se ha podido conectar con el MTA de destinatario, el mensaje se abandona y se procesará en el siguiente reintentar.<br /> </td> 
+   <td> Tiempo máximo de retención de mensajes. Si el mensaje preparado no se ha podido enviar debido al estrangulamiento o no se ha podido conectar con el MTA del público destinatario, el mensaje se abandona y se procesará en el siguiente reintento.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 

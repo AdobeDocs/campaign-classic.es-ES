@@ -4,7 +4,7 @@ title: Adición de funciones SQL adicionales
 description: Obtenga información sobre cómo definir funciones SQL adicionales
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Las funciones que se van a agregar se pueden encontrar en la **archivo &quot;pac
   namespace   = "nms"
   name        = "package-additional-funclist"
   label       = "Additional functions"
-  buildVersion= "6.1"
+  buildVersion= "7.1"
   buildNumber = "10000">
 
   <entities schema="xtk:funcList">
