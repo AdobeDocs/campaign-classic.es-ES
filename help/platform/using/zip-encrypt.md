@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign permite exportar archivos comprimidos o cifrados. Al definir una 
 
 Para poder hacerlo:
 
-1. Instale un par de claves GPG para su instancia mediante el [Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+1. Instale un par de claves GPG para su instancia mediante el [Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es#encrypting-data).
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ En este caso de uso, crearemos un flujo de trabajo para codificar y exportar los
 
 Los pasos para realizar este caso de uso son los siguientes:
 
-1. genere un par de claves GPG (públicas/privadas) utilizando una utilidad GPG, luego instale la clave pública en Panel de control. Encontrará los pasos detallados en la documentación [del](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data) Panel de control.
+1. genere un par de claves GPG (públicas/privadas) utilizando una utilidad GPG, luego instale la clave pública en Panel de control. Encontrará los pasos detallados en la documentación [del](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es#encrypting-data) Panel de control.
 
 1. En Campaign Classic, genere un flujo de trabajo para exportar los datos y cifrarlos con la clave privada que se ha instalado mediante el Panel de control. Para ello, crearemos un flujo de trabajo de la siguiente manera:
 
