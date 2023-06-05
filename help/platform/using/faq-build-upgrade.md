@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1995'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Por ejemplo, con la información del servidor de la captura de pantalla de la se
 
 * Una actualización de la compilación implicaría pasar de la compilación 9342 a cualquier compilación superior a 9342. Por ejemplo, de la versión 7.1 compilación 9342 a la versión 7.1 compilación 9342
 
-* Una actualización de la versión implicaría pasar de la versión 6 a cualquier versión más reciente.  Por ejemplo: versión 6.1.1 compilación 8666 a versión 7.1 compilación 9342.
+* Una actualización de la versión implicaría pasar de la versión 6 a cualquier versión más reciente.  Por ejemplo, de la versión 6.1.1 compilación 8666 a la versión 7.1 compilación 9342.
 
 ## ¿Debo hacer una copia de seguridad de mis datos antes de estas actualizaciones?
 
