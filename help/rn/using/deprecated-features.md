@@ -7,10 +7,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 100%
+source-wordcount: '1508'
+ht-degree: 96%
 
 ---
 
@@ -211,24 +211,24 @@ A partir de la versión 20.2, Adobe Campaign deja de ser compatible con el sigui
 
 A partir de la versión de primavera (19.1), Adobe Campaign deja de ser compatible con los siguientes servidores FDA:
 
-* PostgreSQL 9.3. [Más información](https://www.postgresql.org/support/versioning)
-* MySQL 5.5. [Más información](https://www.fromdual.com/support-for-mysql-from-oracle)
-* DB2 9.5. [Más información](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
-* Teradata 14 versión 14.1. [Más información](https://community.teradata.com/t5/Database/Teradata-Database-Product-Life-Cycle/td-p/35068)
+* PostgreSQL 9.3.
+* MySQL 5.5.
+* DB2 9.5.
+* Teradata 14 – 14.1.
 
-Campaign Classic no es compatible con los siguientes servidores de acceso de datos federado (FDA).
+Campaign Classic no es compatible con los siguientes servidores de acceso de datos federado (FDA). Utilice versiones o sistemas más recientes.
 
-* DB2 UDB 9.5, 9.7. La versión más reciente de DB2 es compatible mediante el acceso de datos federado (FDA). [Más información](https://www-01.ibm.com/support/docview.wss?uid=swg21168270)
-* Oracle 9i, 10G R2. Las versiones más recientes de Oracle son compatibles mediante el acceso de datos federado (FDA). [Más información](https://www.oracle.com/us/support/library/lifetime-support-technology-069183.pdf)
-* Las versiones de PostgreSQL hasta 9.6 llegaron al final de su vida útil. Las versiones más recientes de PostgreSQL son compatibles mediante el acceso de datos federado (FDA). [Más información](https://www.postgresql.org/support/versioning)
-* MSSQL 2000, 2005, 2008 R2. Las versiones más recientes de SQL Server son compatibles mediante el acceso de datos federado (FDA). [Más información](https://support.microsoft.com/es-es/lifecycle/search/1044)
-* MySQL 5.1. Las versiones más recientes de MySQL son compatibles mediante acceso de datos federado (FDA). [Más información](https://es.wikipedia.org/wiki/InfiniDB)
-* InfiniDB llegó al fin de su vida útil. [Más información](https://www.mysql.com/support)
-* Teradata 13, 13.1. Las versiones más recientes de Teradata son compatibles mediante el acceso de datos federado (FDA). [Más información](https://www.info.teradata.com/download.cfm?ItemID=1007255)
-* Netezza 6.02, 7.0. Netezza llegó al final de su vida. [Más información](https://en.wikipedia.org/wiki/Netezza)
-* AsterData 5.0. AsterData llegó al final de su vida. [Más información](https://en.wikipedia.org/wiki/Aster_Data_Systems)
-* Sybase IQ 15.2, 15.4, 15.5 y Sybase ASE 15.0. Las versiones más recientes de Sybase son compatibles con Acceso de datos federado (FDA). [Más información](https://sites.google.com/site/dbatipsandtricks/time-tracker)
-* Hadoop a través de HiveSQL: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic seguirá siendo compatible con las versiones de Hadoop incluidas en la lista mediante HiveSQL a través del acceso de datos federado (FDA), pero estas versiones se combinan con: HortonWorks (HDP 2.4.X, 2.5.x, 2.6.x) y HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)
+* DB2 UDB 9.5, 9.7.
+* Oracle 9i, 10G R2.
+* Las versiones de PostgreSQL hasta 9.6 llegaron al final de su vida útil.
+* MSSQL 2000, 2005, 2008 R2.
+* MySQL 5.1.
+* InfiniDB llegó al fin de su vida útil.
+* Teradata 13, 13.1.
+* Netezza 6.02, 7.0. Netezza llegó al final de su vida.
+* AsterData 5.0. AsterData llegó al final de su vida.
+* Sybase IQ 15.2, 15.4, 15.5 y Sybase ASE 15.0.
+* Hadoop mediante HiveSQL: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic sigue siendo compatible con las versiones de Hadoop enumeradas a través de HiveSQL mediante el acceso de datos federado (FDA), pero estas versiones se combinan con: HortonWorks (HDP 2.4.X, 2.5.x, 2.6.x) y HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)
 
 **SERVIDOR RDBMS**
 
