@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 131f1c658f76bd9e4e62fe95cf1cec8e9cc25122
+source-git-commit: 84dc10d9f1979b7b9277fbc6837bc5ee9ab0e9dd
 workflow-type: tm+mt
-source-wordcount: '3343'
+source-wordcount: '3341'
 ht-degree: 5%
 
 ---
@@ -82,9 +82,9 @@ Indique los siguientes parámetros:
 * **[!UICONTROL Sender address]** : introduzca la dirección de correo electrónico del remitente. Al enviar correos electrónicos desde Adobe Campaign, la variable **Dirección del remitente** el buzón no está supervisado y los usuarios de marketing no pueden acceder a este buzón. Adobe Campaign tampoco ofrece la capacidad de responder automáticamente o reenviar automáticamente los correos electrónicos recibidos en este buzón. Obtenga más información acerca de las prácticas recomendadas de entrega [en esta documentación](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html){_blank}.
 
 * **[!UICONTROL Reply address text]** : introduzca el nombre utilizado cuando el destinatario hace clic en el **[!UICONTROL Reply]** botón.
-* **[!UICONTROL Reply address]** : introduzca la dirección de correo electrónico que se utilizará cuando el destinatario haga clic en **[!UICONTROL Reply]** en el software de cliente de correo electrónico. El propósito de la **Dirección de respuesta** es cuando desea que el destinatario responda a una dirección diferente a la del campo **Dirección del remitente**.  Esta dirección debe ser una dirección de correo electrónico válida, vinculada a un buzón supervisado y alojada por el cliente.  Podría ser un buzón de asistencia, por ejemplo, customer-care@customer.com, donde se leen y responden los correos electrónicos.
+* **[!UICONTROL Reply address]** : introduzca la dirección de correo electrónico que se utilizará cuando el destinatario haga clic en **[!UICONTROL Reply]** en el software de cliente de correo electrónico. El propósito de la **Dirección de respuesta** es cuando desea que el destinatario responda a una dirección diferente a la del campo **Dirección del remitente**.  Esta dirección debe ser una dirección de correo electrónico válida, vinculada a un buzón supervisado y alojada por el cliente.  Podría ser un buzón de asistencia, por ejemplo, `customer-care@customer.com`, donde se leen y responden los correos electrónicos.
 
-* **[!UICONTROL Error address]** : introduzca la dirección de correo electrónico de los mensajes con errores. Esta es la dirección técnica utilizada para gestionar el correo rechazado, incluidos los correos electrónicos recibidos por el servidor de Adobe Campaign debido a direcciones de destino inexistentes. Esta dirección debe ser una dirección de correo electrónico válida, vinculada a un buzón supervisado y alojada por el cliente. Podría ser un buzón de rechazos, por ejemplo, errors@customer.com.
+* **[!UICONTROL Error address]** : introduzca la dirección de correo electrónico de los mensajes con errores. Esta es la dirección técnica utilizada para gestionar el correo rechazado, incluidos los correos electrónicos recibidos por el servidor de Adobe Campaign debido a direcciones de destino inexistentes. Esta dirección debe ser una dirección de correo electrónico válida, vinculada a un buzón supervisado y alojada por el cliente. Podría ser un buzón de rechazos, por ejemplo, `errors@customer.com`.
 
 
 Además de esto, puede especificar la variable **máscaras** autorizado para la dirección del remitente y la dirección de error. Si es necesario, estas máscaras se pueden separar con comas. Esta configuración es opcional. Cuando se introducen campos, Adobe Campaign comprueba en el momento de la entrega (durante el análisis, si la dirección no incluye ninguna variable) que las direcciones son válidas. Este modo operativo garantiza que no se utilicen direcciones que puedan almacenar en déclencheur los problemas de envío. Las direcciones de envío deben configurarse en el servidor de envío.
