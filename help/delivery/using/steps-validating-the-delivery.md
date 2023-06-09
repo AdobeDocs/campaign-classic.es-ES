@@ -6,7 +6,7 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability, Email Rendering, Proofs
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 100%
@@ -106,6 +106,7 @@ Para acelerar la preparación del envío, puede marcar la opción **[!UICONTROL 
 Cuando esta opción está habilitada, la preparación de envíos se realiza directamente en la base de datos, lo que puede acelerar considerablemente el análisis.
 
 Actualmente, esta opción solo está disponible cuando se cumplen las siguientes condiciones:
+
 * El envío debe ser un correo electrónico. Los otros canales no son compatibles por ahora.
 * Evite utilizar enrutamiento intermediario o externo, solo el tipo de enrutamiento de envío masivo. Puede comprobar el enrutamiento que se utiliza en la pestaña **[!UICONTROL General]** de la **[!UICONTROL Delivery properties]**.
 * No se puede direccionar hacia una población procedente de un archivo externo. Para un solo envío, haga clic en el enlace **[!UICONTROL To]** desde el **[!UICONTROL Email parameters]** y compruebe que la **[!UICONTROL Defined in the database]** opción está seleccionada. Para un envío utilizado en un flujo de trabajo, compruebe que los destinatarios están **[!UICONTROL Specified by the inbound event(s)]** en la pestaña **[!UICONTROL Delivery]**.
@@ -136,7 +137,6 @@ Para detectar posibles errores en la configuración del mensaje, Adobe recomiend
 >* Los modos de validación disponibles se detallan en [Cambio del modo de aprobación](steps-validating-the-delivery.md#changing-the-approval-mode).
 >* La configuración del objetivo de prueba se explica en [Definición de un objetivo de prueba específico](steps-defining-the-target-population.md#defining-a-specific-proof-target).
 >
-
 
 Para enviar una prueba, siga los pasos a continuación:
 

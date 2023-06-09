@@ -7,16 +7,14 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
 workflow-type: tm+mt
-source-wordcount: '3991'
+source-wordcount: '3993'
 ht-degree: 9%
 
 ---
 
 # Lista de opciones de Campaign Classic{#configuring-campaign-options}
-
-
 
 El **[!UICONTROL Administration / Platform / Options]** permite configurar las opciones de Adobe Campaign. Algunos de ellos están integrados al instalar Campaign y otros se pueden añadir manualmente cuando sea necesario. Las opciones disponibles varían según los paquetes instalados con la instancia.
 
@@ -26,7 +24,6 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
 >* Las opciones que no aparecen en esta página son internas únicamente y **no se debe modificar**.
 >
 >* La modificación o actualización de las opciones de Adobe Campaign solo pueden realizarlas usuarios expertos.
-
 
 ## Envío {#delivery}
 
@@ -147,11 +144,11 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_DefaultReplyToAddress</span> <br /> </td> 
-   <td> Dirección de correo electrónico predeterminada "responder" en el nivel de instancia utilizado para el envío de correo electrónico si el usuario la deja vacía.<br /> </td> 
+   <td> Dirección de correo electrónico predeterminada de "respuesta" en el nivel de instancia utilizado para el envío de correo electrónico si el usuario la deja vacía.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ExpOrganization</span> <br /> </td> 
-   <td> Nombre común del cliente. Se utiliza en algunos mensajes de advertencia mostrados a los destinatarios.<br /> "Recibe este mensaje porque ha estado en contacto con ***** o una empresa afiliada. Para dejar de recibir mensajes de *****".<br /> </td> 
+   <td> Nombre común del cliente. Se utiliza en algunos mensajes de advertencia mostrados a los destinatarios.<br /> "Recibe este mensaje porque ha estado en contacto con `Organization` o una empresa afiliada. Para dejar de recibir mensajes de la "Organización"<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
@@ -159,7 +156,7 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ReplyToName</span> <br /> </td> 
-   <td> Etiqueta de correo electrónico predeterminada "responder" en el nivel de la instancia utilizada para la entrega de correo electrónico si el usuario la deja vacía.<br /> </td> 
+   <td> Etiqueta de correo electrónico predeterminada de "respuesta" en el nivel de instancia utilizado para la entrega de correo electrónico si el usuario la deja vacía.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_RetryCount</span> <br /> </td> 
