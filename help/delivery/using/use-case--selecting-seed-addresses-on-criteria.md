@@ -6,15 +6,14 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: ad6a39f69c07662f43c39d4c96d53acccbe4a60c
+workflow-type: ht
 source-wordcount: '837'
 ht-degree: 100%
 
 ---
 
 # Caso de uso: selección de direcciones semilla según ciertos criterios{#use-case-selecting-seed-addresses-on-criteria}
-
 
 
 En el marco de trabajo de una entrega o de una campaña, el vínculo **[!UICONTROL Edit the dynamic condition...]** permite elegir las direcciones semilla basándose en criterios de selección específicos.
