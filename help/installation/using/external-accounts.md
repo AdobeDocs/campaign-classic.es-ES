@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+source-git-commit: 43158445f688f4c2612d4dad76f2243b2e358b35
 workflow-type: tm+mt
 source-wordcount: '1830'
 ht-degree: 61%
@@ -126,9 +126,9 @@ Se pueden configurar los siguientes canales:
 
 La cuenta externa de enrutamiento de correo electrónico se proporciona de forma predeterminada y se adapta a la configuración.
 
-Como cliente On-Premise, puede crear nuevas cuentas externas de enrutamiento o actualizar parámetros, tal como se describe a continuación. Esta configuración está reservada para usuarios expertos y puede afectar a la capacidad de envío. Para cualquier pregunta, póngase en contacto con el Servicio de atención al cliente de Adobe o con su representante del Adobe.
+Como cliente on-premise/híbrido, puede crear nuevas cuentas externas de enrutamiento o actualizar parámetros, tal como se describe a continuación. Esta configuración está reservada para usuarios expertos y puede afectar a la capacidad de envío. Para cualquier pregunta, póngase en contacto con el Servicio de atención al cliente de Adobe o con su representante del Adobe.
 
-* Debe utilizar un **Mid-sourcing**, **Externo** enrutamiento, o **Masivo** tipo de enrutamiento de envío.
+* Puede usar un **Mid-sourcing**, **Externo** enrutamiento, o **Masivo** tipo de enrutamiento de envío.
 
 * Para **Masivo** y **Mid-sourcing** modos de envío, puede especificar los parámetros de marca en la variable **Marca** pestaña. Estos parámetros se utilizan para anular la variable [parámetros predeterminados](../../installation/using/deploying-an-instance.md#email-channel-parameters) para **URL de página espejo** y **Dirección de error** con configuraciones específicas de su marca.
 

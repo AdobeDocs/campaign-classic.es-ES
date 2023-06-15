@@ -6,10 +6,10 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 43158445f688f4c2612d4dad76f2243b2e358b35
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -61,19 +61,19 @@ Seleccione el formato del correo electrónico en la sección inferior de la vent
 
 * **[!UICONTROL Use recipient preferences]** (modo predeterminado)
 
-   El formato de mensaje se define según los datos almacenados en el perfil de destinatario y se almacena de forma predeterminada en el campo **[!UICONTROL email format]** (@emailFormat). Si un destinatario desea recibir mensajes en un formato determinado, este es el formato enviado. Si el campo no está rellenado, se envía un mensaje multipart-alternative (consulte a continuación).
+  El formato de mensaje se define según los datos almacenados en el perfil de destinatario y se almacena de forma predeterminada en el campo **[!UICONTROL email format]** (@emailFormat). Si un destinatario desea recibir mensajes en un formato determinado, este es el formato enviado. Si el campo no está rellenado, se envía un mensaje multipart-alternative (consulte a continuación).
 
 * **[!UICONTROL Let recipient mail client choose the most appropriate format]**
 
-   El mensaje contiene ambos formatos: texto y HTML. El formato que se muestra al recibirlo depende de la configuración del software de correo del destinatario (multipart-alternative).
+  El mensaje contiene ambos formatos: texto y HTML. El formato que se muestra al recibirlo depende de la configuración del software de correo del destinatario (multipart-alternative).
 
-   >[!IMPORTANT]
-   >
-   >Esta opción incluye ambas versiones del documento. Por lo tanto, esto afecta a la tasa de entrega ya que el tamaño del mensaje es mayor.
+  >[!IMPORTANT]
+  >
+  >Esta opción incluye ambas versiones del documento. Por lo tanto, esto afecta a la tasa de entrega ya que el tamaño del mensaje es mayor.
 
 * **[!UICONTROL Send all messages in text format]**
 
-   El mensaje se envía en formato de texto. El formato HTML no se envía, pero se utiliza solo para la página espejo cuando el destinatario hace clic en el mensaje.
+  El mensaje se envía en formato de texto. El formato HTML no se envía, pero se utiliza solo para la página espejo cuando el destinatario hace clic en el mensaje.
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ Además del modo predeterminado, también están disponibles las siguientes opci
 * **[!UICONTROL Do not generate the mirror page]**: No se genera ninguna página espejo, aunque el vínculo esté presente en el envío.
 * **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: Esta opción permite acceder al contenido de la página espejo, con información de personalización, en la ventana de registro de envío. Para ello, tras finalizar la entrega, haga clic en la pestaña **[!UICONTROL Delivery]** y seleccione la línea del destinatario cuya página duplicada desee ver. Haga clic en el vínculo **[!UICONTROL Display the mirror page for this message...]**.
 
-   ![](assets/s_ncs_user_wizard_miror_page_link.png)
+  ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
 ## Codificación de caracteres {#character-encoding}
 
@@ -117,7 +117,7 @@ Para ello, seleccione la opción **[!UICONTROL Force the encoding used for messa
 
 La pestaña **[!UICONTROL SMTP]** de los parámetros de envío permite configurar la gestión de los correos electrónicos rechazados.
 
-De forma predeterminada, los correos electrónicos rechazados se reciben en el cuadro de error predeterminado de la plataforma, pero se puede definir una dirección de error específica para una entrega.
+De forma predeterminada, los correos electrónicos rechazados se reciben en la [cuadro de error predeterminado de la plataforma](../../installation/using/deploying-an-instance.md#parameters-for-delivered-emails-parameters-for-delivered-emails), pero se puede definir una dirección de error específica para una entrega.
 
 Desde esta pantalla, también puede definir una dirección específica para investigar los motivos de rechazo de los correos electrónicos cuando la aplicación no pueda calificarlos automáticamente. Para cada uno de estos campos, el icono **Añadir campos personalizados** le permite añadir parámetros de personalización.
 

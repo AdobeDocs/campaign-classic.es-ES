@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 84dc10d9f1979b7b9277fbc6837bc5ee9ab0e9dd
+source-git-commit: 43158445f688f4c2612d4dad76f2243b2e358b35
 workflow-type: tm+mt
-source-wordcount: '3341'
-ht-degree: 5%
+source-wordcount: '3366'
+ht-degree: 6%
 
 ---
 
@@ -84,7 +84,7 @@ Indique los siguientes parámetros:
 * **[!UICONTROL Reply address text]** : introduzca el nombre utilizado cuando el destinatario hace clic en el **[!UICONTROL Reply]** botón.
 * **[!UICONTROL Reply address]** : introduzca la dirección de correo electrónico que se utilizará cuando el destinatario haga clic en **[!UICONTROL Reply]** en el software de cliente de correo electrónico. El propósito de la **Dirección de respuesta** es cuando desea que el destinatario responda a una dirección diferente a la del campo **Dirección del remitente**.  Esta dirección debe ser una dirección de correo electrónico válida, vinculada a un buzón supervisado y alojada por el cliente.  Podría ser un buzón de asistencia, por ejemplo, `customer-care@customer.com`, donde se leen y responden los correos electrónicos.
 
-* **[!UICONTROL Error address]** : introduzca la dirección de correo electrónico de los mensajes con errores. Esta es la dirección técnica utilizada para gestionar el correo rechazado, incluidos los correos electrónicos recibidos por el servidor de Adobe Campaign debido a direcciones de destino inexistentes. Esta dirección debe ser una dirección de correo electrónico válida, vinculada a un buzón supervisado y alojada por el cliente. Podría ser un buzón de rechazos, por ejemplo, `errors@customer.com`.
+* **[!UICONTROL Error address]** : introduzca la dirección de correo electrónico de los mensajes con errores. Esta es la dirección técnica utilizada para gestionar el correo rechazado, incluidos los correos electrónicos recibidos por el servidor de Adobe Campaign debido a direcciones de destino inexistentes. Esta dirección debe ser una dirección de correo electrónico válida, vinculada a un buzón supervisado y alojada por el cliente. Podría ser un buzón de rechazos, por ejemplo, `errors@customer.com`. Esta dirección se puede cambiar para una entrega o en las plantillas de entrega, desde **SMTP** de las propiedades de envío/plantilla de envío. [Más información](../../delivery/using/email-parameters.md#managing-bounce-emails-managing-bounce-emails).
 
 
 Además de esto, puede especificar la variable **máscaras** autorizado para la dirección del remitente y la dirección de error. Si es necesario, estas máscaras se pueden separar con comas. Esta configuración es opcional. Cuando se introducen campos, Adobe Campaign comprueba en el momento de la entrega (durante el análisis, si la dirección no incluye ninguna variable) que las direcciones son válidas. Este modo operativo garantiza que no se utilicen direcciones que puedan almacenar en déclencheur los problemas de envío. Las direcciones de envío deben configurarse en el servidor de envío.
