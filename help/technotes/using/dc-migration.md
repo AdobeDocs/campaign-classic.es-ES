@@ -7,9 +7,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: a119378e4285d3258a9b4f1f68c0b625264e5d37
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1533'
 ht-degree: 66%
 
 ---
@@ -76,8 +76,6 @@ Este programa tiene tres objetivos principales:
 ![](assets/GSMigrations.png)
 
 ## Acerca de la migración
-
-La migración a Adobe Managed Services (Nube pública) se producirá en 2020/2021 para las cuentas afectadas. Adobe acompañará y guiará a su organización en este viaje.
 
 Para comenzar como es debido, las cuentas que requieran esta migración recibirán un mensaje de Adobe por correo electrónico con una cronología y acceso a la documentación. Esta notificación le indica que se ha programado la migración de su cuenta.
 

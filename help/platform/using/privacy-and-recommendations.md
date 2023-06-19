@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
-source-wordcount: '2030'
-ht-degree: 100%
+source-git-commit: a119378e4285d3258a9b4f1f68c0b625264e5d37
+workflow-type: tm+mt
+source-wordcount: '2025'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ Para gestionar correctamente la privacidad y administrar los datos personales, s
 * [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business) (ley estadounidense que establece las reglas y requisitos de los correos electrónicos comerciales)
 * [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (Ley de Privacidad del Consumidor de California)
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (Ley de Protección de Datos Personales de Tailandia)
-* [LGPD](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf) (Ley General de Protección de Datos de Brasil): entrará en vigencia a partir del 16 de agosto de 2020
+* [LGPD](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf) (Ley General de Protección de Datos de Brasil)
 
 >[!NOTE]
 >
@@ -50,11 +50,11 @@ Adobe Campaign forma parte de las soluciones de Adobe Experience Cloud. La forma
 
 * **Información que se recopila al utilizar Adobe Experience Cloud**
 
-   Como compañía que utiliza las soluciones de Adobe Experience Cloud, puede elegir qué información desea recopilar y enviar a su cuenta de Adobe Experience Cloud. Algunos ejemplos de los tipos de información que se pueden recopilar son la actividad de navegación web, las direcciones IP, la información de ubicación de dispositivos móviles, las tasas de éxito de una campaña, los artículos comprados o colocados en el carro de compras, etc.
+  Como compañía que utiliza las soluciones de Adobe Experience Cloud, puede elegir qué información desea recopilar y enviar a su cuenta de Adobe Experience Cloud. Algunos ejemplos de los tipos de información que se pueden recopilar son la actividad de navegación web, las direcciones IP, la información de ubicación de dispositivos móviles, las tasas de éxito de una campaña, los artículos comprados o colocados en el carro de compras, etc.
 
-   >[!NOTE]
-   >
-   >Al igual que con todos los productos de Adobe, Campaign recopila información sobre los usuarios de la aplicación y del sitio web. Para obtener más información sobre esto, consulte la Política de privacidad de [Adobe](https://www.adobe.com/es/privacy/policy.html).
+  >[!NOTE]
+  >
+  >Al igual que con todos los productos de Adobe, Campaign recopila información sobre los usuarios de la aplicación y del sitio web. Para obtener más información sobre esto, consulte la Política de privacidad de [Adobe](https://www.adobe.com/es/privacy/policy.html).
 
 * **Uso de Adobe Experience Cloud para recopilar información**
 
@@ -63,14 +63,14 @@ Adobe Campaign forma parte de las soluciones de Adobe Experience Cloud. La forma
 
 * **Opciones de privacidad de los usuarios sobre el uso de Adobe Experience Cloud**
 
-   Adobe le pide que proporcione políticas de privacidad a sus clientes que describan lo siguiente:
+  Adobe le pide que proporcione políticas de privacidad a sus clientes que describan lo siguiente:
 
    * Sus prácticas en cuanto a privacidad en relación con Adobe Experience Cloud
    * Cómo pueden los usuarios definir sus preferencias para la recopilación o el uso de su información en conexión con Adobe Experience Cloud
 
-   >[!NOTE]
-   >
-   >Al igual que con todos los productos de Adobe, los usuarios de Campaign pueden optar por compartir información recopilada sobre ellos a través de aplicaciones y sitios web. Para obtener más información sobre esto, consulte las [Preguntas frecuentes sobre la información de uso de Adobe Experience Cloud](https://www.adobe.com/es/privacy/experience-cloud-usage-info-faq.html).
+  >[!NOTE]
+  >
+  >Al igual que con todos los productos de Adobe, los usuarios de Campaign pueden optar por compartir información recopilada sobre ellos a través de aplicaciones y sitios web. Para obtener más información sobre esto, consulte las [Preguntas frecuentes sobre la información de uso de Adobe Experience Cloud](https://www.adobe.com/es/privacy/experience-cloud-usage-info-faq.html).
 
 Para obtener más información sobre la privacidad de Adobe Experience Cloud, consulte [esta página](https://www.adobe.com/es/privacy/marketing-cloud.html).
 

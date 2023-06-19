@@ -5,9 +5,9 @@ description: Más información sobre las actualizaciones de Campaign Classic 201
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hidefromtoc: true
 exl-id: f70fceba-4bbf-4f33-8746-e4405a1cdae6
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: a119378e4285d3258a9b4f1f68c0b625264e5d37
 workflow-type: tm+mt
-source-wordcount: '5385'
+source-wordcount: '5379'
 ht-degree: 97%
 
 ---
@@ -441,7 +441,7 @@ Para los clientes existentes, las API de archivo ya no pueden acceder a la carpe
  <tbody> 
   <tr> 
    <td> Reglamento General de Protección de Datos.<br /> </td> 
-   <td> <p>El Reglamento General de Protección de Datos (RGPD) es la nueva normativa sobre privacidad de la Unión Europea que unifica y moderniza los requisitos de protección de datos y entrará en vigencia el 25 de mayo de 2018. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE.</p> <p>Además de las funcionalidades de privacidad disponibles en Adobe Campaign (incluida la administración de consentimiento, configuración de retención de datos y funciones de usuario), estamos tomando esta oportunidad en nuestro rol como procesador de datos para incluir funcionalidades adicionales, para ayudar a facilitar su preparación como controlador de datos para ciertas solicitudes de RGPD:</p> 
+   <td> <p>El RGPD es la ley de privacidad de la Unión Europea (UE) que armoniza y moderniza los requisitos de protección de datos. El RGPD se aplica a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en la UE.</p> <p>Además de las funcionalidades de privacidad disponibles en Adobe Campaign (incluida la administración de consentimiento, configuración de retención de datos y funciones de usuario), estamos tomando esta oportunidad en nuestro rol como procesador de datos para incluir funcionalidades adicionales, para ayudar a facilitar su preparación como controlador de datos para ciertas solicitudes de RGPD:</p> 
     <ul> 
      <li> <p>Derecho de acceso: permite que el sujeto de datos reciba una copia de sus datos personales capturados por los controladores de datos, incluso los datos almacenados en Adobe Campaign.</p> </li> 
      <li> <p>Derecho a eliminación: autoriza al sujeto de datos a que sus datos personales recopilados por los controladores de datos se borren, lo que incluye datos almacenados en Adobe Campaign.</p> </li> 

@@ -4,10 +4,10 @@ title: Opciones de ayuda y asistencia de Campaign Classic
 description: ¿Necesita asistencia con el Campaign Classic? ¡Está en el lugar correcto!
 hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: a119378e4285d3258a9b4f1f68c0b625264e5d37
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 78%
+source-wordcount: '755'
+ht-degree: 76%
 
 ---
 
@@ -140,8 +140,7 @@ El nuevo sistema de tickets se ha lanzado a través de [Adobe Admin Console](htt
 
 ### Acceso al Centro de descargas de Campaign
 
-A partir de junio de 2020, la solución Software Distribution de Experience Cloud reemplazará al antiguo Centro de descargas de Neolane, y proporcionará una experiencia más eficiente para encontrar y descargar software, paquetes y herramientas. [Haga clic aquí](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) para acceder a la distribución de software de Experience Cloud.
-Más información sobre el nuevo Centro de descargas [en esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es){_blank}.
+Como administrador de Campaign, vaya a [esta página](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) para acceder a Distribución de software de Experience Cloud.
 
 ### Creación de un ticket o inicio de una conversación
 
