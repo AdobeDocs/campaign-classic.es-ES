@@ -6,16 +6,14 @@ badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 100%
+source-wordcount: '966'
+ht-degree: 92%
 
 ---
 
 # Adjuntar archivos a un correo electrónico{#attaching-files}
-
-
 
 ## Acerca de los archivos adjuntos de correo electrónico {#about-email-attachments}
 
@@ -33,6 +31,14 @@ Hay dos casos posibles:
 >[!NOTE]
 >
 >Este tipo de configuración se suele aplicar a las plantillas de envío. Para más información, consulte [Sobre plantillas](about-templates.md).
+
+## Mecanismos de protección {#attachments-guardrails}
+
+Para evitar problemas de rendimiento, las imágenes incluidas en los correos electrónicos no pueden superar los 100 MB. Este límite, establecido de forma predeterminada, se puede cambiar desde el `NmsDelivery_MaxDownloadedImageSize` opción. Sin embargo, Adobe recomienda encarecidamente evitar imágenes grandes en los envíos de correo electrónico.
+
+El Adobe también recomienda limitar el tamaño y el número de archivos adjuntos. De forma predeterminada, solo puede agregar un archivo como archivo adjunto a un correo electrónico. Este umbral se puede configurar desde el `NmsDelivery_MaxRecommendedAttachments` opción.
+
+Obtenga más información en [la lista de opciones del Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
 ## Adjuntar un archivo local {#attaching-a-local-file}
 
@@ -113,9 +119,7 @@ Para este tipo de archivos adjuntos, aplique los siguientes pasos de configuraci
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
->[!NOTE]
->
->Para evitar problemas de rendimiento, si incluye imágenes descargadas sobre la marcha desde una URL personalizada como datos adjuntos, cada tamaño de imagen no debe superar los 100.000 bytes de forma predeterminada. Este umbral recomendado se puede configurar desde [la lista de opciones de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
+
 
 ### Adjuntar un archivo calculado {#attach-a-calculated-file}
 
@@ -182,6 +186,6 @@ La pestaña **[!UICONTROL Advanced]** permite definir las opciones avanzadas de 
 * Puede definir opciones de filtro para evitar enviar el archivo adjunto a todos los destinatarios. La opción **[!UICONTROL Enable filtering of recipients who will receive the attachment]** activa un campo de entrada utilizado para definir una secuencia de comandos de selección de destinatarios que debe introducirse en JavaScript.
 * Puede crear una secuencia de comandos del nombre del archivo para personalizarlo.
 
-   Introduzca el texto en la ventana y utilice los campos personalizados disponibles en la lista desplegable. En el ejemplo siguiente, el nombre de archivo está personalizado para contener la fecha del día y el nombre del destinatario.
+  Introduzca el texto en la ventana y utilice los campos personalizados disponibles en la lista desplegable. En el ejemplo siguiente, el nombre de archivo está personalizado para contener la fecha del día y el nombre del destinatario.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)
+  ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)

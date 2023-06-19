@@ -5,10 +5,10 @@ description: Aprenda a enviar correos electrónicos transaccionales con archivos
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Transactional Messaging
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 100%
+source-wordcount: '663'
+ht-degree: 87%
 
 ---
 
@@ -38,11 +38,13 @@ En este caso, los archivos adjuntos no se generan previamente sino que se añade
 * Si el archivo adjunto está asociado con una transacción (como en el ejemplo descrito anteriormente), puede contener datos dinámicos que se generan durante el proceso del cliente.
 * Al adjuntar archivos PDF, se optimiza la seguridad, ya que se puede codificar y enviarlos a través de HTTPS.
 
->[!NOTE]
->
->Para evitar problemas de rendimiento, si incluye imágenes descargadas sobre la marcha desde una URL personalizada como datos adjuntos, cada tamaño de imagen no debe superar los 100.000 bytes de forma predeterminada. Este umbral recomendado se puede configurar desde [la lista de opciones de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
+## Recommendations y protecciones {#important-notes}
 
-## Recomendaciones {#important-notes}
+Para evitar problemas de rendimiento, las imágenes incluidas en los correos electrónicos no pueden superar los 100 MB. Este límite, establecido de forma predeterminada, se puede cambiar desde el `NmsDelivery_MaxDownloadedImageSize` opción. Sin embargo, Adobe recomienda encarecidamente evitar imágenes grandes en los envíos de correo electrónico.
+
+El Adobe también recomienda limitar el tamaño y el número de archivos adjuntos. De forma predeterminada, solo puede agregar un archivo como archivo adjunto a un correo electrónico. Este umbral se puede configurar desde el `NmsDelivery_MaxRecommendedAttachments` opción.
+
+Obtenga más información en [la lista de opciones del Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
 Antes de implementar este escenario, lea atentamente las directrices siguientes:
 
