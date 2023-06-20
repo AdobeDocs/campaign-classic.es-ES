@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1508'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -171,7 +171,7 @@ La consola del cliente de Adobe Campaign Classic ya no se puede ejecutar en los 
 
 * A partir de la versión 22.1, Adobe Campaign deja de ser compatible con CentOs 8 (64 bits). CentOS Linux 8 llegó al fin de su vida útil el 31 de diciembre de 2021. [Más información](https://www.centos.org/centos-linux-eol/).
 
-   Si utilizaba este sistema operativo, adapte la implementación en consecuencia. CentOS 7 (64 bits) y RHEL 8 y 7 (64 bits) siguen siendo compatibles.
+  Si utilizaba este sistema operativo, adapte la implementación en consecuencia. CentOS 7 (64 bits) y RHEL 8 y 7 (64 bits) siguen siendo compatibles.
 
 * A partir de la versión 21.1.3, Adobe Campaign deja de ser compatible con Debian 8.
 
@@ -228,7 +228,7 @@ Campaign Classic no es compatible con los siguientes servidores de acceso de dat
 * Netezza 6.02, 7.0. Netezza llegó al final de su vida.
 * AsterData 5.0. AsterData llegó al final de su vida.
 * Sybase IQ 15.2, 15.4, 15.5 y Sybase ASE 15.0.
-* Hadoop mediante HiveSQL: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic sigue siendo compatible con las versiones de Hadoop enumeradas a través de HiveSQL mediante el acceso de datos federado (FDA), pero estas versiones se combinan con: HortonWorks (HDP 2.4.X, 2.5.x, 2.6.x) y HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)
+* Hadoop a través de HiveSQL: Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic sigue siendo compatible con las versiones de Hadoop incluidas en la lista a través de HiveSQL a través del Acceso de datos federado (FDA), pero estas versiones se combinan con: HortonWorks (HDP 2.4.X, 2.5.x, 2.6.x) y HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)
 
 **SERVIDOR RDBMS**
 
