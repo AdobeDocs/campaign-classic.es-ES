@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -166,7 +166,6 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 >* El controlador RDBMS debe coincidir con la versión del servidor RDBMS.
 >
 >* PostgreSQL es el RDBMS para entornos alojados.
-
 
 ## Conectores CRM{#CRMconnectors}
 
@@ -369,7 +368,7 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 
 Tiempo de ejecución de Microsoft Edge WebView2 La última versión es obligatoria para la consola del cliente de Campaign.
 
-Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](https://www.adobe.com/go/acc-ms-webview2-runtime-download).
+Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download).
 
 
 ## SDK móvil{#MobileSDK}
