@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2614'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -294,7 +294,7 @@ Las reglas predeterminadas son las siguientes.
 
 Para instalaciones on-premise e instalaciones hospedadas/híbridas que utilizan el servidor de correo de Campaign heredado, estas reglas contienen la lista de cadenas de caracteres que pueden ser devueltas por servidores remotos y que permiten calificar el error (**duro**, **suave** o **desconocido**).
 
-Cuando un correo electrónico falla, el servidor remoto devuelve un mensaje de rechazo a la dirección especificada en la [parámetros de plataforma](../../installation/using/deploying-an-instance.md). Adobe Campaign compara el contenido de cada mensaje de rechazo con las cadenas de la lista de reglas y, a continuación, lo asigna a uno de los tres [tipos de error](#delivery-failure-types-and-reasons).
+Cuando un mensaje de correo electrónico falla, el servidor remoto devuelve un mensaje de rechazo a la dirección especificada en los [parámetros de la plataforma](../../installation/using/deploying-an-instance.md). Adobe Campaign compara el contenido de cada mensaje de rechazo con las cadenas de la lista de reglas y, a continuación, lo asigna a uno de los tres [tipos de error](#delivery-failure-types-and-reasons).
 
 >[!NOTE]
 >
