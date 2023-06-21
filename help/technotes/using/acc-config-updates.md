@@ -6,10 +6,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 19%
+source-wordcount: '1097'
+ht-degree: 17%
 
 ---
 
@@ -28,6 +28,7 @@ Por motivos de seguridad, ahora debe actualizar a una de las versiones enumerada
 >[!NOTE]
 >
 >En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>
 
 ## Actualizaciones de seguridad {#acc-security-updates}
 
@@ -39,10 +40,10 @@ Si su entorno está en una versión inferior a las enumeradas a continuación, s
 
 * Gold Standard 11. [Más información](../../rn/using/gold-standard.md)
 * Versión 21.1.1 de Campaign. [Más información](../../rn/using/latest-release.md)
-* Versión 20.2.5 de Campaign. [Más información](../../rn/using/release--2020.md#release-20-2-5-build-9188)
-* Versión 20.1.4 de Campaign. [Más información](../../rn/using/release--2020.md#release-20-1-4-build-9126)
-* Versión 19.2.4 de Campaign. [Más información](../../rn/using/release--2019.md#release-19-2-4-build-9082)
-* Versión 19.1.8 de Campaign. [Más información](../../rn/using/release--2019.md#release-19-1-8-build-9039)
+* Versión 20.2.5 de Campaign.
+* Versión 20.1.4 de Campaign.
+* Versión 19.2.4 de Campaign.
+* Versión 19.1.8 de Campaign.
 
 Obtenga información sobre cómo comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
@@ -52,22 +53,23 @@ Debe actualizar a una de las compilaciones más nuevas enumeradas anteriormente.
 
 * Como cliente híbrido, Adobe le informará de las fechas de actualización programadas para las instancias de intermediario. Adobe recomienda encarecidamente que actualice también la instancia de marketing.
 
-   La nueva versión es compatible con la versión anterior de Campaign Classic 17.9, pero Adobe recomienda encarecidamente una actualización en todas las instancias para abordar las vulnerabilidades de seguridad
+  La nueva versión es compatible con la versión anterior de Campaign Classic 17.9, pero Adobe recomienda encarecidamente una actualización en todas las instancias para abordar las vulnerabilidades de seguridad
 
 * Como cliente On-Premise, se le solicita que actualice las instancias de marketing e intermediarias a la última versión.
 
 >[!CAUTION]
 >
 >Si no puede actualizar dentro del periodo de tiempo recomendado, **debe ponerse en contacto con el equipo de Atención al cliente de Adobe para aplicar una corrección de seguridad manual a corto plazo en las instancias**.
+>
 
 ## Actualización de la consola del cliente de Campaign Classic  {#acc-cc-updates}
 
 El **ya disponible** Las versiones de la consola siguientes deben instalarse para resolver una regresión identificada recientemente. Esta regresión impedía el uso de algunos componentes de la consola del cliente, como el selector de fechas y la administración de imágenes en las entregas. **Actualización de consola** es obligatorio.
 
 * Última versión de Gold Standard 11 9032@10c2709. [Más información](../../rn/using/gold-standard.md)
-* Versión 20.1.4 de Campaign. [Más información](../../rn/using/release--2020.md#release-20-1-4-build-9126)
-* Versión 19.2.4 de Campaign. [Más información](../../rn/using/release--2019.md#release-19-2-4-build-9082)
-* Versión 19.1.8 de Campaign. [Más información](../../rn/using/release--2019.md#release-19-1-8-build-9039)
+* Versión 20.1.4 de Campaign.
+* Versión 19.2.4 de Campaign.
+* Versión 19.1.8 de Campaign.
 
 ## Actualización del sistema Identity Management de Adobe (IMS)
 
@@ -81,10 +83,10 @@ Si se está conectando a Campaign [a través de una Adobe ID](../../integrations
 
 * Gold Standard 11. [Más información](../../rn/using/gold-standard.md)
 * Versión 21.1.1 de Campaign. [Más información](../../rn/using/latest-release.md)
-* Versión 20.2.5 de Campaign. [Más información](../../rn/using/release--2020.md#release-20-2-5-build-9188)
-* Versión 20.1.4 de Campaign. [Más información](../../rn/using/release--2020.md#release-20-1-4-build-9126)
-* Versión 19.2.4 de Campaign. [Más información](../../rn/using/release--2019.md#release-19-2-4-build-9082)
-* Versión 19.1.8 de Campaign. [Más información](../../rn/using/release--2019.md#release-19-1-8-build-9039)
+* Versión 20.2.5 de Campaign.
+* Versión 20.1.4 de Campaign.
+* Versión 19.2.4 de Campaign.
+* Versión 19.1.8 de Campaign.
 
 Estas versiones incluyen un nuevo protocolo de conexión: la actualización es obligatoria, tanto para el servidor de Campaign como para la consola del cliente, para poder conectarse a Campaign después de **30 de junio de 2021**.
 
@@ -114,8 +116,8 @@ Es obligatorio actualizar a una de las nuevas versiones que se enumeran a contin
 
 * Gold Standard 11. [Más información](../../rn/using/gold-standard.md)
 * Versión 21.1.1 de Campaign. [Más información](../../rn/using/latest-release.md)
-* Versión 20.2.5 de Campaign. [Más información](../../rn/using/release--2020.md#release-20-2-5-build-9188)
-* Versión 19.1.8 de Campaign. [Más información](../../rn/using/release--2019.md#release-19-1-8-build-9039)
+* Versión 20.2.5 de Campaign.
+* Versión 19.1.8 de Campaign.
 
 Obtenga información sobre cómo comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 

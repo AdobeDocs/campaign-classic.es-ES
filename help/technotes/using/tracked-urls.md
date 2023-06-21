@@ -6,10 +6,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classi
 hide: true
 hidefromtoc: true
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 37%
+source-wordcount: '351'
+ht-degree: 36%
 
 ---
 
@@ -31,11 +31,11 @@ Si su entorno se está ejecutando en una de las versiones enumeradas a continuac
 
 * Gold Standard 8 a 11. [Más información](../../rn/using/gold-standard.md#gs-8)
 * Versiones de Campaign 21.1.1 (compilación 9277) a 21.1.2 (compilación 9282). [Más información](../../rn/using/latest-release.md)
-* Versiones de Campaign 20.3.1 (compilación 9228) a 20.3.3 (compilación 9234). [Más información](../../rn/using/release--2020.md#release-20-3)
-* Versiones de Campaign 20.2.1 (compilación 9178) a 20.2.4 (compilación 9187). [Más información](../../rn/using/release--2020.md#release-20-2)
-* Versiones de Campaign 20.1.1 (compilación 9122) a 21.1.3 (compilación 9124). [Más información](../../rn/using/release--2020.md#release-20-1)
-* Versiones de Campaign 19.2.2 (compilación 9080) a 19.2.3 (compilación 9081). [Más información](../../rn/using/release--2019.md#release-19-2)
-* Versiones de Campaign 19.1.5 (compilación 9033) a 19.1.7 (compilación 9036). [Más información](../../rn/using/release--2019.md#release-19-1)
+* Versiones de Campaign 20.3.1 (compilación 9228) a 20.3.3 (compilación 9234).
+* Versiones de Campaign 20.2.1 (compilación 9178) a 20.2.4 (compilación 9187).
+* Versiones de Campaign 20.1.1 (compilación 9122) a 21.1.3 (compilación 9124).
+* Versiones de Campaign 19.2.2 (compilación 9080) a 19.2.3 (compilación 9081).
+* Versiones de Campaign 19.1.5 (compilación 9033) a 19.1.7 (compilación 9036).
 
 
 Obtenga información sobre cómo comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
@@ -59,6 +59,7 @@ Siga este paso:
 >[!NOTE]
 >
 >El **config-`<instance>`.xml** el archivo anula el **serverConf.xml** configuración. Si la variable **signEmailLinks** está presente en el  **config-`<instance>`.xml** (donde **instancia** es el nombre de su instancia), también debe convertirse a **false**.
+>
 
 **¿Cuáles son las consecuencias?**
 
@@ -69,3 +70,4 @@ Una vez completada la actualización, todos los vínculos funcionarán según lo
 >[!NOTE]
 >
 >En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>
