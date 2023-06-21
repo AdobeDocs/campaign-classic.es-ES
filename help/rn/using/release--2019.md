@@ -4,8 +4,9 @@ title: Versiones de Campaign Classic 2019
 description: Más información sobre las actualizaciones de Campaign Classic 2019
 badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 hidefromtoc: true
+hide: true
 exl-id: 8a36a542-e095-4208-b624-e59845592863
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 378ac691c15f8200f8a14d573d4b15521f6cb531
 workflow-type: tm+mt
 source-wordcount: '4825'
 ht-degree: 98%
@@ -47,7 +48,6 @@ _23 de diciembre de 2020_
 > * Esta versión incorpora un nuevo protocolo de conexión: si se conecta a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/using/ims-updates.md)
 >
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
-
 
 
 * El protocolo de conexión se ha actualizado para seguir el nuevo mecanismo de autenticación IMS.
@@ -236,7 +236,6 @@ _16 de diciembre de 2020_
 > * Esta versión incorpora un nuevo protocolo de conexión: si se conecta a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/using/ims-updates.md)
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 > * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación de oAuth heredado con Campaign [se ha eliminado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) en **septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta el **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el Servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md#step-optional) a Adobe.
-
 
 
 **Mejoras**

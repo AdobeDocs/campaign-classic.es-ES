@@ -7,8 +7,9 @@ feature: Overview
 role: User
 level: Beginner
 hidefromtoc: true
+hide: true
 exl-id: e2eb7e04-faaa-4df0-913d-471c291eeb03
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 378ac691c15f8200f8a14d573d4b15521f6cb531
 workflow-type: tm+mt
 source-wordcount: '6601'
 ht-degree: 94%
@@ -41,7 +42,6 @@ _27 de octubre de 2020_
 > * Esta versión incorpora un nuevo protocolo de conexión: si se conecta a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/using/ims-updates.md)
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 > * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación de oAuth heredado con Campaign [se ha eliminado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) en **septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta el **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el Servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md#step-optional) a Adobe.
-
 
 **Novedades**
 
@@ -328,7 +328,6 @@ _22 de diciembre de 2020_
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
 > * Si está utilizando la integración de Experience Cloud Triggers mediante autenticación oAuth, debe ir a Adobe I/O como se detalla [en esta página](../../integrations/using/configuring-adobe-io.md). El modo de autenticación de oAuth heredado con Campaign [se ha eliminado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) en **septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta el **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el Servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md#step-optional) a Adobe.
 
-
 **Mejoras**
 
 * El protocolo de conexión se ha actualizado para seguir el nuevo mecanismo de autenticación IMS.
@@ -507,9 +506,9 @@ Obtenga más información en la [Matriz de compatibilidad de Campaign](https://h
 
 * Se ha aumentado la versión de memoria compartida.
 
-   >[!WARNING]
-   >
-   >Esta mejora requiere un paso adicional después de realizar la actualización. Consulte la sección de **Evoluciones técnicas** que aparece a continuación.
+  >[!WARNING]
+  >
+  >Esta mejora requiere un paso adicional después de realizar la actualización. Consulte la sección de **Evoluciones técnicas** que aparece a continuación.
 
 * Se ha mejorado el flujo de trabajo de limpieza. Las tablas de trabajo huérfanas de todos los flujos de trabajo eliminados ahora también se eliminan automáticamente mediante el flujo de trabajo de limpieza. [Más información](../../production/using/database-cleanup-workflow.md#cleanup-of-workflow-instances).
 
@@ -660,7 +659,6 @@ _23 de diciembre de 2020_
 > * Esta versión incorpora un nuevo protocolo de conexión: si se conecta a Campaign a través del Servicio de identidad de Adobe (IMS), la actualización es obligatoria tanto para el servidor de Campaign como para la consola cliente para poder conectarse a Campaign después del **30 de junio de 2021**. [Más información](../../technotes/using/ims-updates.md)
 >
 > * Esta versión incluye una [corrección de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb21-04.html): la actualización es obligatoria para reforzar la seguridad de su entorno.
-
 
 * El protocolo de conexión se ha actualizado para seguir el nuevo mecanismo de autenticación IMS.
 * Se ha corregido un problema de seguridad para reforzar la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). (NEO-27777)
