@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
-source-git-commit: 0bea34e2db2b54bdd2a6fed80b47d473c89f631e
+source-git-commit: 45bf9d76dc41fd8cecfaab3f258856861201db3f
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 6%
@@ -32,9 +32,9 @@ Consulte los detalles siguientes para comprender qué se necesita para la implem
 
 >[!CAUTION]
 >
->La consola del cliente de Campaign y el servidor de aplicaciones de Campaign deben ejecutarse **en la misma versión del producto**. El Adobe también recomienda encarecidamente utilizar el **misma compilación de producto**. Obtenga información sobre cómo comprobar las versiones de cliente y servidor de Campaign en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+>* La consola del cliente de Campaign y el servidor de aplicaciones de Campaign deben ejecutarse **en la misma versión del producto**. El Adobe también recomienda encarecidamente utilizar el **misma compilación de producto**. Obtenga información sobre cómo comprobar las versiones de cliente y servidor de Campaign en [esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 >
->El acceso a la carpeta de instalación en la que está instalada la consola debe limitarse únicamente al usuario deseado, lo que garantiza que los permisos de escritura estén restringidos en consecuencia.
+>* El acceso a la carpeta de instalación en la que está instalada la consola debe limitarse únicamente al usuario deseado, lo que garantiza que los permisos de escritura estén restringidos en consecuencia.
 
 
 
