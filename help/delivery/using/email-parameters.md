@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 source-git-commit: 43158445f688f4c2612d4dad76f2243b2e358b35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '900'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ Para ello, seleccione la opción **[!UICONTROL Force the encoding used for messa
 
 La pestaña **[!UICONTROL SMTP]** de los parámetros de envío permite configurar la gestión de los correos electrónicos rechazados.
 
-De forma predeterminada, los correos electrónicos rechazados se reciben en la [cuadro de error predeterminado de la plataforma](../../installation/using/deploying-an-instance.md#parameters-for-delivered-emails-parameters-for-delivered-emails), pero se puede definir una dirección de error específica para una entrega.
+De forma predeterminada, los correos electrónicos rechazados se reciben en el [cuadro de error predeterminado de la plataforma](../../installation/using/deploying-an-instance.md#parameters-for-delivered-emails-parameters-for-delivered-emails), pero se puede definir una dirección de error específica para un envío.
 
 Desde esta pantalla, también puede definir una dirección específica para investigar los motivos de rechazo de los correos electrónicos cuando la aplicación no pueda calificarlos automáticamente. Para cada uno de estos campos, el icono **Añadir campos personalizados** le permite añadir parámetros de personalización.
 
