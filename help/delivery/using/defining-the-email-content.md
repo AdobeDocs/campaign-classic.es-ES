@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
 source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1943'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ Para saber cómo insertar y utilizar campos personalizados, consulte la sección
 
 >[!NOTE]
 >
->* La dirección del remitente se utiliza para las respuestas de forma predeterminada.
+>* La dirección del remitente se utiliza en las respuestas de forma predeterminada.
 >* Los parámetros de encabezado no deben estar vacíos. De forma predeterminada, contienen los valores introducidos al configurar el asistente de implementación. Obtenga más información en [esta sección](../../installation/using/deploying-an-instance.md).
 >* La dirección del remitente es obligatoria para permitir que se envíe un mensaje de correo electrónico (estándar RFC).
 >* Adobe Campaign comprueba la sintaxis de las direcciones de correo electrónico introducidas.
 
 >[!CAUTION]
 >
->Para evitar problemas de envío, las cuentas de correo electrónico que corresponden a las direcciones especificadas para envíos y respuestas deben existir y monitorizarse. Consulte con el administrador del sistema.
+>Para evitar problemas de entregabilidad, las cuentas de correo electrónico que corresponden con las direcciones especificadas para envíos y respuestas deben existir y monitorizarse. Consulte con el administrador del sistema de mensajería.
 
 ## Asunto del mensaje {#message-subject}
 
@@ -129,7 +129,7 @@ Una pestaña adicional permite introducir contenido que se integra y formatea au
 >
 >Para obtener más información sobre la administración de contenido en Adobe Campaign, consulte [esta sección](about-content-management.md).
 
-## Insertar emoticonos {#inserting-emoticons}
+## Inserción de emoticonos {#inserting-emoticons}
 
 Puede insertar emoticonos en el contenido del correo electrónico.
 
@@ -149,9 +149,9 @@ Las entregas de correo electrónico de formato HTML pueden contener imágenes. D
 
 ### Mecanismos de protección {#img-guardrails}
 
-Para evitar problemas de rendimiento, las imágenes incluidas en los correos electrónicos no pueden superar los 100 MB. Este límite, establecido de forma predeterminada, se puede cambiar desde el `NmsDelivery_MaxDownloadedImageSize` opción. Sin embargo, Adobe recomienda encarecidamente evitar imágenes grandes en los envíos de correo electrónico.
+Para evitar problemas de rendimiento, las imágenes incluidas en los correos electrónicos no pueden superar los 100 MB. Este límite, establecido de forma predeterminada, se puede cambiar desde la opción `NmsDelivery_MaxDownloadedImageSize`. Sin embargo, Adobe recomienda encarecidamente evitar imágenes grandes en los envíos de correo electrónico.
 
-Obtenga más información en [la lista de opciones del Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
+Obtenga más información en [la lista de opciones de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 
 ### Tipos de imágenes {#img-types}
 
@@ -166,7 +166,7 @@ Las imágenes pueden ser:
 
 ### Inserción y administración de imágenes {#manage-images}
 
-El asistente de entrega permite añadir imágenes locales o imágenes almacenadas en la biblioteca al contenido de los mensajes. Para ello, haga clic en el botón **[!UICONTROL Image]** en la barra de herramientas HTML.
+El asistente de envío permite añadir imágenes locales o imágenes almacenadas en la biblioteca al contenido de los mensajes. Para ello, haga clic en el botón **[!UICONTROL Image]** en la barra de herramientas HTML.
 
 ![](assets/s_ncs_user_image_from_library.png)
 
@@ -192,10 +192,10 @@ Cuando se abre contenido HTML con imágenes incluidas en el asistente de entrega
 
 >[!IMPORTANT]
 >
-> Las direcciones URL de imagen se modifican durante la carga manual o al enviar mensajes.
+> Las URL de imagen se modifican durante la carga manual o al enviar mensajes.
 > 
 
-### Caso de uso: Envío de un mensaje con imágenes {#uc-images}
+### Caso de uso: envío de un mensaje con imágenes {#uc-images}
 
 A continuación se muestra un ejemplo de envío con cuatro imágenes:
 
