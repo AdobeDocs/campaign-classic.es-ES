@@ -7,20 +7,20 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 88ee8d1575f6397a35fb6f7412cd08119a75c131
-workflow-type: ht
-source-wordcount: '962'
-ht-degree: 100%
+source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
+workflow-type: tm+mt
+source-wordcount: '986'
+ht-degree: 99%
 
 ---
 
 # Último lanzamiento{#latest-release}
 
-
-
 Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con la **última versión de Campaign Classic v7**. Cada nueva compilación viene con un estado que se materializa con un color. Obtenga más información sobre los estados de compilación de Campaign Classic v7 en [esta página](rn-overview.md).
 
-## ![](assets/do-not-localize/green_2.png) Versión 7.3.3, compilación 9359 {#release-7-3-3}
+## Versión 7.3.3, compilación 9359 {#release-7-3-3}
+
+[!BADGE Disponibilidad general]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad general"}
 
 >[!CAUTION]
 >
@@ -46,7 +46,9 @@ _20 de marzo de 2023_
 * Se ha corregido un problema que podía impedir que se desplazara en la pestaña **Editar** del Editor de contenido digital (DCE). (NEO-54474)
 * Se ha corregido un problema que se producía cuando dos actividades de enriquecimiento utilizaban el mismo identificador de nombre en sus vínculos, lo que hacía que la segunda actividad de enriquecimiento utilizara los vínculos de la primera. (NEO-48851)
 
-## ![](assets/do-not-localize/orange_2.png) Versión 7.3.2, compilación 9356 {#release-7-3-2}
+## Versión 7.3.2, compilación 9356 {#release-7-3-2}
+
+[!BADGE Disponibilidad limitada]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
 
 _21 de noviembre de 2022_
 

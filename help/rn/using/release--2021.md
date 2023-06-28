@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: a06623611ff3f8d9dfb5d498e01686e12a924923
+source-git-commit: f2dc0947a3b1ed17cbc3d88176e7921e80ca1bb5
 workflow-type: tm+mt
-source-wordcount: '2545'
+source-wordcount: '2595'
 ht-degree: 100%
 
 ---
@@ -19,8 +19,11 @@ ht-degree: 100%
 
 >[!CAUTION]
 >Utilice el menú **[!UICONTROL Help > About...]** para comprobar su versión de Adobe Campaign [ y número de compilación](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Sin embargo, tenga en cuenta que para todas las compilaciones entre 9277 y 9343 enumeradas en esta página, el número de versión muestra 7.0 en lugar de 7.1.
+> 
 
-### ![](assets/do-not-localize/limited_2.png) Versión 21.1.4, compilación 9343 {#release-21-1-4-build-9343}
+### Versión 21.1.4, compilación 9343 {#release-21-1-4-build-9343}
+
+[!BADGE Obsoleto]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Obsoleto"}
 
 _8 de octubre de 2021_
 
@@ -32,7 +35,9 @@ _8 de octubre de 2021_
 
 * Se ha corregido un error “La ipaffinity xxx no se encuentra en el servidor mid xxx” que podría producirse al realizar envíos si se usaba más de una afinidad IP en una instancia de intermediario múltiple. (NEO-37514)
 
-### ![](assets/do-not-localize/limited_2.png) Versión 21.1.4, compilación 9342 {#release-21-1-4-build-9342}
+### Versión 21.1.4, compilación 9342 {#release-21-1-4-build-9342}
+
+[!BADGE Obsoleto]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Obsoleto"}
 
 _7 de septiembre de 2021_
 
@@ -66,7 +71,9 @@ _7 de septiembre de 2021_
 * Se ha corregido un problema que impedía usar variables en una actividad de flujo de trabajo **Enriquecimiento** cuando la transición entrante era de una fuente de datos FDA.
 * Se ha corregido un problema que podría provocar URL rotas en los mensajes de correo electrónico.
 
-### ![](assets/do-not-localize/limited_2.png) Versión 21.1.3, compilación 9330 {#release-21-1-3-build-9330}
+### Versión 21.1.3, compilación 9330 {#release-21-1-3-build-9330}
+
+[!BADGE Obsoleto]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Obsoleto"}
 
 _5 de junio de 2021_
 
@@ -222,14 +229,18 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](../..
 * Se ha corregido un problema que impedía realizar un envío con un grupo de pruebas debido a un mecanismo de unión específico que no permitía la personalización de los envíos. (NEO-14391)
 * Se ha corregido un problema que hacía que no se enviara una alerta con la actividad de alerta si una consulta y una actividad de enriquecimiento se dirigían a la tabla de entrega. (NEO-25157)
 
-### ![](assets/do-not-localize/red_2.png) Versión 21.1.2, compilación 9282 {#release-21-1-2-build-9282}
+### Versión 21.1.2, compilación 9282 {#release-21-1-2-build-9282}
+
+[!BADGE Obsoleto]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Obsoleto"}
 
 _15 de abril de 2021_
 
 * Se ha mejorado la administración de contraseñas para optimizar la seguridad.
 * Se ha corregido un problema que podría provocar bloqueos de MTA.
 
-### ![](assets/do-not-localize/red_2.png) Versión 21.1.1, compilación 9277 {#release-21-1-1-build-9277}
+### Versión 21.1.1, compilación 9277 {#release-21-1-1-build-9277}
+
+[!BADGE Obsoleto]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Obsoleto"}
 
 _22 de febrero de 2021_
 
