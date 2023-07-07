@@ -8,9 +8,9 @@ audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 source-git-commit: 2f6a5884e47ce10ce3c281a4377ee37522c52131
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 91%
 Permite integraciones más ágiles, ya que la configuración es mínima y no participa un tercero.
 También admite grandes volúmenes de tráfico sin afectar el rendimiento de las actividades de marketing. Como ejemplo, la integración puede procesar un millón de activadores por hora.
 
-![](assets/do-not-localize/book.png) Descubra cómo [crear un déclencheur de Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html) e identificar, definir y supervisar los comportamientos críticos del consumidor.
+![](assets/do-not-localize/book.png) Descubra cómo [crear un activador de Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=es) e identificar, definir y monitorizar los comportamientos críticos del consumidor.
 
 ## Arquitectura de los [!DNL Triggers] {#triggers-architecture}
 
