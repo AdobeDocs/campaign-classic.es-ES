@@ -2,13 +2,13 @@
 product: campaign
 title: Carga de contenido de entrega
 description: Carga de contenido de entrega
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 feature: Workflows
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 81d12ac055536fbe097466ad737bf7fee1b593ad
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 100%
+source-wordcount: '324'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Para ello:
 1. En la pestaña **[!UICONTROL Script]** de la actividad **[!UICONTROL Delivery]**, añada el siguiente comando para cargar el contenido del archivo importado en la entrega:
 
    ```
-   delivery.content.md.source=loadFile(vars.filename)
+   delivery.content.html.source=loadFile(vars.filename)
    ```
 
    ![](assets/delivery_loadcontent_script.png)
