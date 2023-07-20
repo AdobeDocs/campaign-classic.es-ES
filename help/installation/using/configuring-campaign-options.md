@@ -2,14 +2,14 @@
 product: campaign
 title: Configuración de las opciones de Campaign
 description: Obtenga información sobre cómo configurar las opciones de Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
+source-git-commit: 942d44104ae56e9334f42f10751979ce4f4a714d
 workflow-type: tm+mt
-source-wordcount: '3993'
+source-wordcount: '4011'
 ht-degree: 9%
 
 ---
@@ -72,11 +72,11 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_LogsPerTransaction</span> <br /> </td> 
-   <td> Número de BroadLogs creados para un envío a la vez.<br /> </td> 
+   <td> Tamaño mínimo del lote (número de filas) para la inserción de broadLogs durante una preparación de envío.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MaxDelayPerTransaction</span> <br /> </td> 
-   <td> Inserción (en tabla) de registros (broadLogs) por transacciones: número de filas a procesar por lote.<br /> </td> 
+   <td> Umbral de duración del lote (número de milisegundos) por debajo del cual se duplica el tamaño del lote para la inserción de broadLogs durante una preparación de envío.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBroadcast_MidAnalyzeBatchSize</span> <br /> </td> 
@@ -152,7 +152,7 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
-   <td> Etiqueta de correo electrónico "de" predeterminada en el nivel de la instancia utilizado para el envío de correo electrónico si el usuario la deja vacía.<br /> </td> 
+   <td> Etiqueta de correo electrónico predeterminada "desde" en el nivel de la instancia utilizado para el envío de correo electrónico si el usuario la deja vacía.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ReplyToName</span> <br /> </td> 
@@ -740,11 +740,11 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_EdgeServer</span> <br /> </td> 
-   <td> Servidor de Adobe Target utilizado para la integración. Esta opción está seleccionada de forma predeterminada. Este valor corresponde al Domain Server de Adobe Target, seguido del valor /m2. Por ejemplo: tt.omtrdc.net/m2.<br /><a href="../../integrations/using/configuring-the-integration-with-adobe-target.md"> Consulte esta sección</a>.<br /> </td> 
+   <td> Servidor de Adobe Target utilizado para la integración. Esta opción está seleccionada de forma predeterminada. Este valor corresponde al Domain Server de Adobe Target, seguido del valor /m2. Por ejemplo: tt.omtrdc.net/m2.<br /> Consulte <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">esta sección</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_TenantName</span> <br /> </td> 
-   <td> Nombre de la organización de Adobe Target. Este valor corresponde al nombre de Client de Adobe Target.<br /><a href="../../integrations/using/configuring-the-integration-with-adobe-target.md"> Consulte esta sección</a>.<br /> </td> 
+   <td> Nombre de la organización de Adobe Target. Este valor corresponde al nombre de Client de Adobe Target.<br /> Consulte <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">esta sección</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM ID_Fuente_datosDeDatos</span> <br /> </td> 
