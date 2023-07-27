@@ -2,13 +2,13 @@
 product: campaign
 title: Reglas de presión
 description: Reglas de presión
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 feature: Fatigue Management, Typology Rules
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: be57635a6165790b8c8964d106ed0a3cb76c63af
 workflow-type: tm+mt
-source-wordcount: '3285'
-ht-degree: 100%
+source-wordcount: '3266'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,6 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, si
    >
    >Las entregas programadas solo se tienen en cuenta si la opción **[!UICONTROL Take the deliveries into account in the provisional calendar]** está seleccionada. Para obtener más información, consulte [Configuración del período](#setting-the-period).
    >
-   >Esta opción no está disponible para Campaign v8.
 
 1. Defina el método para calcular el número más alto de mensajes.
 
@@ -87,7 +86,8 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, si
    * La sección superior de esta pestaña le permite restringir los destinatarios que le interesen.
    * La sección inferior de esta pestaña le permite filtrar los mensajes que se van a contar.
 
-      En el siguiente ejemplo, solo se tienen en cuenta los destinatarios guardados en la carpeta **NewContacts** y las entregas que comienzan con **Newsletter**.
+     En el siguiente ejemplo, solo se tienen en cuenta los destinatarios guardados en la carpeta **NewContacts** y las entregas que comienzan con **Newsletter**.
+
    ![](assets/campaign_opt_create_a_rule_05.png)
 
 1. La pestaña **[!UICONTROL Typologies]** permite ver las tipologías de campaña que aplican esta regla o relaciona la regla con una o más tipologías existentes. Para obtener más información, consulte [Aplicación de tipologías](about-campaign-typologies.md#applying-typologies).
@@ -157,9 +157,6 @@ Para restringir las entregas que se tienen en cuenta a un periodo de dos semanas
 o
 
 1. Escriba **7d** en el campo **[!UICONTROL Period considered]** Y marque **[!UICONTROL Take the deliveries into account in the provisional calendar]** en el cálculo se tienen en cuenta las entregas realizadas hasta siete días antes de la fecha de entrega y programadas hasta siete días después de la fecha de entrega en los que se aplica la regla.
-
-   >[!AVAILABILITY]
-   >Este método no está disponible para Campaign v8.
 
 La fecha de inicio depende de cómo se haya configurado la base de datos.
 
@@ -276,15 +273,15 @@ Durante el análisis de la entrega, los destinatarios de la entrega se excluyen 
 
 * Consultar el resultado del análisis:
 
-   ![](assets/campaign_opt_pressure_sample_1_8.png)
+  ![](assets/campaign_opt_pressure_sample_1_8.png)
 
 * Edite la entrega y haga clic en la pestaña **[!UICONTROL Delivery]** y en la subpestaña **[!UICONTROL Exclusions]**:
 
-   ![](assets/campaign_opt_pressure_sample_1_9.png)
+  ![](assets/campaign_opt_pressure_sample_1_9.png)
 
 * Haga clic en la pestaña **[!UICONTROL Audit]** y luego en la subpestaña **[!UICONTROL Causes of exclusions]** para mostrar el número de exclusiones y las reglas de tipología aplicadas:
 
-   ![](assets/campaign_opt_pressure_sample_1_10.png)
+  ![](assets/campaign_opt_pressure_sample_1_10.png)
 
 ### Cálculo del peso de la entrega según el comportamiento {#calculating-the-delivery-weight-based-on-behavior}
 
@@ -333,9 +330,6 @@ Primero, configure la regla de presión.
    ![](assets/campaign_opt_pressure_example_1.png)
 
    En el cálculo se tienen en cuenta las entregas realizadas hasta siete días antes de la fecha de envío y programadas hasta siete días después de la fecha de envío. Para obtener más información, consulte [Configuración del período](#setting-the-period).
-
-   >[!AVAILABILITY]
-   >Los envíos programados no se pueden tener en cuenta en Campaign v8.
 
 1. En la pestaña **[!UICONTROL Typologies]**, relacione la regla con una tipología de campaña.
 1. Guarde los cambios.
