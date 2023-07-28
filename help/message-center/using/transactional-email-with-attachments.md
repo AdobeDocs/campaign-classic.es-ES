@@ -2,13 +2,13 @@
 product: campaign
 title: Envío de correos electrónicos transaccionales con archivos adjuntos
 description: Aprenda a enviar correos electrónicos transaccionales con archivos adjuntos individuales o personalizados mediante Adobe Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 feature: Transactional Messaging
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
-workflow-type: ht
-source-wordcount: '663'
-ht-degree: 100%
+source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
+workflow-type: tm+mt
+source-wordcount: '670'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ En este caso, los archivos adjuntos no se generan previamente sino que se añade
 
 ## Recommendations y protecciones {#important-notes}
 
-Para evitar problemas de rendimiento, las imágenes incluidas en los correos electrónicos no pueden superar los 100 MB. Este límite, establecido de forma predeterminada, se puede cambiar desde la opción `NmsDelivery_MaxDownloadedImageSize`. Sin embargo, Adobe recomienda encarecidamente evitar imágenes grandes en los envíos de correo electrónico.
+Para evitar problemas de rendimiento, las imágenes incluidas en los correos electrónicos no pueden superar los 100 KB. Este límite, establecido de forma predeterminada, se puede cambiar desde la opción `NmsDelivery_MaxDownloadedImageSize`. Sin embargo, Adobe recomienda encarecidamente evitar imágenes grandes en los envíos de correo electrónico.
 
 Adobe también recomienda limitar el tamaño y el número de archivos adjuntos. De forma predeterminada, solo puede agregar un archivo como archivo adjunto a un correo electrónico. Este umbral se puede configurar desde la opción `NmsDelivery_MaxRecommendedAttachments`.
 

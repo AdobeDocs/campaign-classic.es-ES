@@ -2,14 +2,14 @@
 product: campaign
 title: Definición del contenido del correo electrónico en Adobe Campaign Classic
 description: Obtenga información acerca de cómo definir el contenido del correo electrónico al utilizar Adobe Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email Design
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 64a94982ea1eebc30c652e0025eb0aaa0eab1ce9
-workflow-type: ht
-source-wordcount: '1943'
-ht-degree: 100%
+source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
+workflow-type: tm+mt
+source-wordcount: '1955'
+ht-degree: 98%
 
 ---
 
@@ -149,7 +149,7 @@ Las entregas de correo electrónico de formato HTML pueden contener imágenes. D
 
 ### Mecanismos de protección {#img-guardrails}
 
-Para evitar problemas de rendimiento, las imágenes incluidas en los correos electrónicos no pueden superar los 100 MB. Este límite, establecido de forma predeterminada, se puede cambiar desde la opción `NmsDelivery_MaxDownloadedImageSize`. Sin embargo, Adobe recomienda encarecidamente evitar imágenes grandes en los envíos de correo electrónico.
+Para evitar problemas de rendimiento, las imágenes incluidas en los correos electrónicos no pueden superar los 100 KB. Este límite, establecido de forma predeterminada, se puede cambiar desde la opción `NmsDelivery_MaxDownloadedImageSize`. Sin embargo, Adobe recomienda encarecidamente evitar imágenes grandes en los envíos de correo electrónico.
 
 Obtenga más información en [la lista de opciones de Campaign Classic](../../installation/using/configuring-campaign-options.md#delivery).
 

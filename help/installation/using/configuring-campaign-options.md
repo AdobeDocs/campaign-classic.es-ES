@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: 942d44104ae56e9334f42f10751979ce4f4a714d
+source-git-commit: 728fc285fbd562003199c53339899bbc4441bfc6
 workflow-type: tm+mt
-source-wordcount: '4011'
+source-wordcount: '4012'
 ht-degree: 9%
 
 ---
@@ -112,7 +112,7 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
   </tr> 
  <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxDownloadedImageSize</span> <br /> </td> 
-   <td> Permite definir el tamaño máximo (en bytes) permitido para una imagen descargada de una dirección URL personalizada y adjunta a un correo electrónico. El valor predeterminado es 100.000 bytes. Al enviar una prueba y descargar las imágenes para procesar el correo electrónico, si el tamaño de una imagen supera este valor o si hay un problema de descarga, se muestra un error en los registros de entregas y se produce un error en la entrega de la prueba.<br /> </td> 
+   <td> Permite definir el tamaño máximo (en bytes) permitido para una imagen descargada de una dirección URL personalizada y adjunta a un correo electrónico. El valor predeterminado es 100.000 bytes (100 KB). Al enviar una prueba y descargar las imágenes para procesar el correo electrónico, si el tamaño de una imagen supera este valor o si hay un problema de descarga, se muestra un error en los registros de entregas y se produce un error en la entrega de la prueba.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MaxRecommendationsAttachments</span> <br /> </td> 
@@ -152,7 +152,7 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
-   <td> Etiqueta de correo electrónico predeterminada "desde" en el nivel de la instancia utilizado para el envío de correo electrónico si el usuario la deja vacía.<br /> </td> 
+   <td> Etiqueta de correo electrónico "de" predeterminada en el nivel de la instancia utilizado para el envío de correo electrónico si el usuario la deja vacía.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ReplyToName</span> <br /> </td> 
