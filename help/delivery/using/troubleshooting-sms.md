@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: SMS, Troubleshooting
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2756'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
