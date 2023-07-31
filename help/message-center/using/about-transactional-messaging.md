@@ -3,12 +3,12 @@ product: campaign
 title: Introducción a la mensajería transaccional
 description: Obtenga más información sobre el principio operativo y los pasos clave de la mensajería transaccional de Adobe Campaign Classic
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
