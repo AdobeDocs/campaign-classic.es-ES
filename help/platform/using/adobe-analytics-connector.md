@@ -2,15 +2,15 @@
 product: campaign
 title: Conector de Adobe Analytics
 description: Más información acerca del conector Adobe Analytics
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 0dc6ce98-dc3e-4242-953e-e7cec55289ff
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1510'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
