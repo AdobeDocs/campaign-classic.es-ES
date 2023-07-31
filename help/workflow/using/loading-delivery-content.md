@@ -2,13 +2,13 @@
 product: campaign
 title: Carga de contenido de entrega
 description: Carga de contenido de entrega
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
 source-git-commit: 81d12ac055536fbe097466ad737bf7fee1b593ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Para ello:
    * Delivery: Según las necesidades, puede ser una entrega específica que ya se ha creado en el sistema o uno nuevo en función de una plantilla existente.
    * Recipients: En este ejemplo, se considera que el objetivo está especificado en el propio envío.
    * Content: Incluso si el contenido se importa en la actividad anterior, seleccione **[!UICONTROL Specified in the delivery]**. Ya que el contenido se importa directamente desde un archivo ubicado en un servidor remoto, no tiene identificador cuando el flujo de trabajo lo procesa y no se puede identificar como procedente del evento entrante.
-   * Action to perform: Seleccione **[!UICONTROL Save]** para guardar la entrega y poder acceder a ella desde **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** cuando se ejecute el flujo de trabajo.
+   * Acción a realizar: seleccione **[!UICONTROL Save]** para guardar la entrega y poder acceder a ella desde **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** cuando se ejecute el flujo de trabajo.
 
    ![](assets/delivery_loadcontent_activityexample.png)
 
