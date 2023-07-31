@@ -3,12 +3,12 @@ product: campaign
 title: Prácticas recomendadas para la creación de informes
 description: Prácticas recomendadas para la creación de informes de Campaign
 feature: Reporting, Monitoring
-badge: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '848'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
