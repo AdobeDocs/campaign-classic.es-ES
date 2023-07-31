@@ -3,15 +3,15 @@ product: campaign
 title: Tiempo de procesamiento del Centro de mensajería
 description: Obtenga más información sobre el informe de tiempo de procesamiento del centro de mensajes
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
