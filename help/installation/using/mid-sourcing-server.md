@@ -2,16 +2,17 @@
 product: campaign
 title: Instalación de un servidor intermediario en Campaign
 description: Esta sección detalla la instalación y configuración de un servidor intermediario en Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 1%
+source-wordcount: '1020'
+ht-degree: 2%
 
 ---
 
@@ -47,32 +48,32 @@ Sin embargo, debe aplicar lo siguiente:
 
 * En el paso **5**, Debe deshabilitar la variable **mta** (envío) y **inMail** módulos (correos electrónicos rechazados). El **wfserver** Sin embargo, el módulo (flujo de trabajo) debe permanecer activado.
 
-   ```
-   <?xml version='1.0'?>
-   <serverconf>  
-     <shared>    
-       <!-- add lang="eng" to dataStore to force English for the instance -->    
-       <dataStore hosts="console.campaign.net*">      
-         <mapping logical="*" physical="default"/>    
-       </dataStore>  </shared>  
-       <mta autoStart="false"/>  
-       <wfserver autoStart="true"/>  
-       <inMail autoStart="false"/>  
-       <sms autoStart="false"/>  
-       <listProtect autoStart="false"/>
-   </serverconf>
-   ```
+  ```
+  <?xml version='1.0'?>
+  <serverconf>  
+    <shared>    
+      <!-- add lang="eng" to dataStore to force English for the instance -->    
+      <dataStore hosts="console.campaign.net*">      
+        <mapping logical="*" physical="default"/>    
+      </dataStore>  </shared>  
+      <mta autoStart="false"/>  
+      <wfserver autoStart="true"/>  
+      <inMail autoStart="false"/>  
+      <sms autoStart="false"/>  
+      <listProtect autoStart="false"/>
+  </serverconf>
+  ```
 
-   Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#enabling-processes).
+  Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 * Pasos **6**, **9** y **10** no son necesarios.
 * Durante los pasos **12** y **13**, debe indicar el puerto 8080 en la dirección URL de conexión (ya que la consola se comunica con Tomcat directamente, no a través del servidor web). La URL se convierte en `http://console.campaign.net:8080`. Durante el paso **13**, seleccione la **[!UICONTROL Issue towards Mid-sourcing]** así como los que se van a instalar.
 
-   ![](assets/s_ncs_install_midsourcing02.png)
+  ![](assets/s_ncs_install_midsourcing02.png)
 
-   >[!CAUTION]
-   >
-   >El enrutamiento predeterminado de los envíos técnicos se reemplaza automáticamente por el enrutamiento de correo electrónico a través de intermediario.
+  >[!CAUTION]
+  >
+  >El enrutamiento predeterminado de los envíos técnicos se reemplaza automáticamente por el enrutamiento de correo electrónico a través de intermediario.
 
 ### Instalación y configuración del servidor intermediario {#installing-and-configuring-the-mid-sourcing-server}
 

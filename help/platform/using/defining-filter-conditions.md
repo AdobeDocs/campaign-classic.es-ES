@@ -2,16 +2,17 @@
 product: campaign
 title: Definición de condiciones de filtro
 description: Definición de condiciones de filtro
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Query Editor
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3229'
-ht-degree: 100%
+source-wordcount: '3241'
+ht-degree: 99%
 
 ---
 
@@ -134,15 +135,15 @@ Haga clic en **[!UICONTROL And]** (de forma predeterminada) y seleccione en la l
 * **[!UICONTROL And]**: añade una condición y activa el sobrefiltrado.
 * **[!UICONTROL Or]**: añade una condición y activa el sobrefiltrado.
 
-   El siguiente ejemplo permite encontrar destinatarios cuyo dominio de correo electrónico contiene “orange.co.uk” o cuyo código de envío comienza por “NW”.
+  El siguiente ejemplo permite encontrar destinatarios cuyo dominio de correo electrónico contiene “orange.co.uk” o cuyo código de envío comienza por “NW”.
 
-   ![](assets/query_condition_modif_02.png)
+  ![](assets/query_condition_modif_02.png)
 
 * **[!UICONTROL Except]**: si tiene dos filtros y el primero no devuelve un valor, este tipo de vínculo crea una excepción.
 
-   En el siguiente ejemplo, deseamos devolver los destinatarios cuyo dominio de correo electrónico contiene “orange.co.uk” excepto si el apellido del destinatario es “Smith”.
+  En el siguiente ejemplo, deseamos devolver los destinatarios cuyo dominio de correo electrónico contiene “orange.co.uk” excepto si el apellido del destinatario es “Smith”.
 
-   ![](assets/query_condition_modif_03.png)
+  ![](assets/query_condition_modif_03.png)
 
 Este ejemplo muestra un filtro que le permite mostrar: los destinatarios que hablen español, O que son mujeres con teléfono móvil, O los destinatarios sin número de cuenta y cuyo nombre de empresa comienza con la letra “n”.
 
@@ -155,7 +156,7 @@ Esta sección explica cómo priorizar las condiciones gracias a las flechas azul
 * La flecha que señala a la derecha permite añadir un nivel de paréntesis al filtro.
 * La flecha que señala a la izquierda permite eliminar un nivel de paréntesis seleccionado del filtro.
 
-   ![](assets/query_condition_modif_04.png)
+  ![](assets/query_condition_modif_04.png)
 
 * Las flechas verticales permiten mover una condición, cambiando así su secuencia de ejecución.
 
@@ -266,7 +267,6 @@ Enlace a una tabla y elemento de colección:
 >* Cambie el orden de las columnas de salida mediante las flechas.
 >* La **[!UICONTROL Distribution of values]** sirve para ver la distribución de los valores del campo seleccionado (por ejemplo, las distribuciones vinculadas a las ciudades de los destinatarios, los lenguajes de los destinatarios, etc.).
 
-
 ## Creación de campos calculados {#creating-calculated-fields}
 
 Si es necesario, agregue una columna durante el formato de datos. Un campo calculado añade una columna a la sección de previsualización de datos. Haga clic **[!UICONTROL Add a calculated field]**.
@@ -277,25 +277,25 @@ Existen cuatro tipos de campos calculados:
 
 * **[!UICONTROL Fixed string]**: permite añadir una cadena de caracteres.
 
-   ![](assets/query_editor_nveau_60.png)
+  ![](assets/query_editor_nveau_60.png)
 
 * **[!UICONTROL String with JavaScript tags]**: el valor del campo calculado combina una cadena de caracteres y directivas de JavaScript.
 
-   ![](assets/query_editor_nveau_61.png)
+  ![](assets/query_editor_nveau_61.png)
 
 * **[!UICONTROL JavaScript expression]**: el valor del campo calculado es el resultado de una evaluación de función de JavaScript. Se puede escribir el valor devuelto (número, fecha, etc.).
 
-   ![](assets/query_editor_nveau_62.png)
+  ![](assets/query_editor_nveau_62.png)
 
 * **[!UICONTROL Enumerations]**: este tipo de campo permite utilizar o modificar el contenido de una de las columnas de salida en una nueva columna.
 
-   Es posible utilizar el valor de origen de una columna y asignarle un valor de destino. Este valor de destino se muestra en la nueva columna de salida.
+  Es posible utilizar el valor de origen de una columna y asignarle un valor de destino. Este valor de destino se muestra en la nueva columna de salida.
 
-   Puede encontrar un ejemplo de adición del tipo de campo calculado **[!UICONTROL Enumerations]** si consulta [esta sección](../../workflow/using/adding-enumeration-type-calculated-field.md).
+  Puede encontrar un ejemplo de adición del tipo de campo calculado **[!UICONTROL Enumerations]** si consulta [esta sección](../../workflow/using/adding-enumeration-type-calculated-field.md).
 
-   ![](assets/query_editor_nveau_63.png)
+  ![](assets/query_editor_nveau_63.png)
 
-   El campo calculado de tipo **[!UICONTROL Enumerations]** puede incluir 4 condiciones:
+  El campo calculado de tipo **[!UICONTROL Enumerations]** puede incluir 4 condiciones:
 
    * **[!UICONTROL Keep the source value]** restaura el valor de origen en el destino sin cambiarlo.
    * **[!UICONTROL Use the following value]** permite introducir un valor de destino predeterminado para valores de origen no definidos.
@@ -341,7 +341,7 @@ A continuación, se muestra una vista detallada de las opciones disponibles en l
    * **[!UICONTROL Minimum value]** permite revisar los clientes y encontrar los que se han suscrito a una oferta más recientemente.
    * **[!UICONTROL Average]**. Esta función permite calcular la edad promedio de los destinatarios.
 
-      La casilla **[!UICONTROL Distinct]** permite recuperar valores únicos y distintos de cero de una columna. Por ejemplo, puede recuperar todos los registros de seguimiento de un destinatario y estos registros de seguimiento se cambian al valor 1, ya que todos afectan al mismo destinatario.
+     La casilla **[!UICONTROL Distinct]** permite recuperar valores únicos y distintos de cero de una columna. Por ejemplo, puede recuperar todos los registros de seguimiento de un destinatario y estos registros de seguimiento se cambian al valor 1, ya que todos afectan al mismo destinatario.
 
 1. **[!UICONTROL Expression]** abre la ventana **[!UICONTROL Edit the expression]**. Esto permite detectar números de teléfono con demasiadas cifras, probablemente como errores de entrada.
 

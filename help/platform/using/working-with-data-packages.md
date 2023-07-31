@@ -2,16 +2,17 @@
 product: campaign
 title: Trabajo con paquetes de datos
 description: Trabajo con paquetes de datos
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Data Management, Package Export/Import
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
-workflow-type: ht
-source-wordcount: '2442'
-ht-degree: 100%
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: tm+mt
+source-wordcount: '2454'
+ht-degree: 99%
 
 ---
 
@@ -34,11 +35,11 @@ Existen tres tipos de paquetes exportables: paquetes de usuario, paquetes de pla
 * **Paquete de usuario**: permite seleccionar la lista de entidades que se va a exportar. Este tipo de paquete administra dependencias y verifica errores.
 * **Paquete de plataforma**: incluye todos los recursos técnicos añadidos (no estándar): esquemas, código JavaScript, etc.
 
-   ![](assets/ncs_datapackage_package_platform.png)
+  ![](assets/ncs_datapackage_package_platform.png)
 
 * **Paquete de administrador**: incluye todas las plantillas y objetos empresariales añadidos (no estándar): plantillas, bibliotecas, etc.
 
-   ![](assets/ncs_datapackage_package_admin.png)
+  ![](assets/ncs_datapackage_package_admin.png)
 
 >[!CAUTION]
 >
@@ -281,15 +282,15 @@ La generación de paquetes se puede configurar desde la pestaña de **[!UICONTRO
 * **[!UICONTROL Include an installation script]**: permite añadir una secuencia de comandos de javascript para ejecutarla en la importación del paquete. Al seleccionarlo, se añade una pestaña **[!UICONTROL Script]** en la pantalla de definición del paquete.
 * **[!UICONTROL Include default values]**: añade al paquete los valores de todos los atributos de las entidades.
 
-   Esta opción no está seleccionada de forma predeterminada para evitar exportaciones largas. Esto significa que los atributos de las entidades con valores predeterminados (“cadena vacía”, “0” y “falso” si no se definen en el esquema) no se añaden al paquete y, por lo tanto, no se exportan.
+  Esta opción no está seleccionada de forma predeterminada para evitar exportaciones largas. Esto significa que los atributos de las entidades con valores predeterminados (“cadena vacía”, “0” y “falso” si no se definen en el esquema) no se añaden al paquete y, por lo tanto, no se exportan.
 
-   >[!CAUTION]
-   >
-   >Desmarcar esta opción puede dar como resultado una combinación de versiones locales e importadas.
-   >
-   >Si la instancia en la que se importa el paquete contiene entidades idénticas a las del paquete (por ejemplo, con la misma ID externa), sus atributos no se actualizan. Esto puede ocurrir si los atributos de la instancia anterior tienen valores predeterminados, ya que no se incluyen en el paquete.
-   >
-   >En ese caso, la selección de la opción **[!UICONTROL Include default values]** impide que las versiones se fusionen, ya que todos los atributos de la instancia anterior se exportan con el paquete.
+  >[!CAUTION]
+  >
+  >Desmarcar esta opción puede dar como resultado una combinación de versiones locales e importadas.
+  >
+  >Si la instancia en la que se importa el paquete contiene entidades idénticas a las del paquete (por ejemplo, con la misma ID externa), sus atributos no se actualizan. Esto puede ocurrir si los atributos de la instancia anterior tienen valores predeterminados, ya que no se incluyen en el paquete.
+  >
+  >En ese caso, la selección de la opción **[!UICONTROL Include default values]** impide que las versiones se fusionen, ya que todos los atributos de la instancia anterior se exportan con el paquete.
 
 ### Exportación de paquetes desde una definición de paquete {#exporting-packages-from-a-package-definition}
 
@@ -442,7 +443,7 @@ El paquete de actualización solo debe contener una entidad específica para que
    * Se crea una cuenta externa.
    * El nuevo paquete es: 5101 - 2 - Cuenta externa de la aplicación de social (socialApplication_extAccount).
    * Al mismo tiempo, el paquete 101 se actualiza para añadirse a la cuenta externa, pero no se implementa.
-      ![](assets/ncs_datapackage_best-practices-1.png)
+     ![](assets/ncs_datapackage_best-practices-1.png)
 
 #### Documentación del paquete {#package-documentation}
 

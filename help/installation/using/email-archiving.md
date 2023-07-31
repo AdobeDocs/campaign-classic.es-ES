@@ -2,15 +2,16 @@
 product: campaign
 title: Almacenamiento de correos electrónicos
 description: Almacenamiento de correos electrónicos
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings, Email
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1359'
-ht-degree: 5%
+source-wordcount: '1366'
+ht-degree: 7%
 
 ---
 
@@ -36,7 +37,7 @@ Para ello, los archivos .eml correspondientes a los correos electrónicos enviad
 
 ## Activación del CCO del correo electrónico (local) {#activating-email-archiving--on-premise-}
 
-[!BADGE On-Premise e híbrido]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Solo se aplica a implementaciones locales e híbridas"}
+[!BADGE On-Premise e híbrido]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"}
 
 
 Para activar el archivado de correo electrónico CCO cuando Adobe Campaign está instalado in situ, siga los pasos a continuación.
@@ -85,16 +86,16 @@ Una vez definida la ruta de la carpeta local, añada y edite los siguientes elem
 
 * **compressionFormat**: formato utilizado al comprimir los archivos .eml. Los valores posibles son estos:
 
-   **0**: sin compresión (valor predeterminado)
+  **0**: sin compresión (valor predeterminado)
 
-   **1**: compresión (formato .zip)
+  **1**: compresión (formato .zip)
 
 * **compressBatchSize**: número de archivos .eml añadidos a un archivo (archivo .zip).
 * **archivingType**: estrategia de archivado que se va a utilizar. Los valores posibles son estos:
 
-   **0**: las copias sin procesar de los correos electrónicos enviados se guardan en formato .eml en el **dataLogPath** carpeta (valor predeterminado). Una copia de archivado de **`<deliveryid>-<broadlogid>-sent.eml`** El archivo se guardará en **dataLogPath/archived** carpeta. La ruta del archivo de correo electrónico enviado pasa a ser **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.
+  **0**: las copias sin procesar de los correos electrónicos enviados se guardan en formato .eml en el **dataLogPath** carpeta (valor predeterminado). Una copia de archivado de **`<deliveryid>-<broadlogid>-sent.eml`** El archivo se guardará en **dataLogPath/archived** carpeta. La ruta del archivo de correo electrónico enviado pasa a ser **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.
 
-   **1**: las copias sin procesar de los correos electrónicos enviados se guardan en formato .eml en el **dataLogPath** y se envían a la dirección de correo electrónico del CCO a través de SMTP. Una vez enviadas las copias por correo electrónico a la dirección de CCO, el nombre del archivo pasa a ser **`<deliveryid>-<broadlogid>-sent-archived.eml`** y el archivo se mueve a la **dataLogPath/archived** carpeta. La ruta del archivo de correo electrónico archivado enviado y CCO es **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
+  **1**: las copias sin procesar de los correos electrónicos enviados se guardan en formato .eml en el **dataLogPath** y se envían a la dirección de correo electrónico del CCO a través de SMTP. Una vez enviadas las copias por correo electrónico a la dirección de CCO, el nombre del archivo pasa a ser **`<deliveryid>-<broadlogid>-sent-archived.eml`** y el archivo se mueve a la **dataLogPath/archived** carpeta. La ruta del archivo de correo electrónico archivado enviado y CCO es **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
 
 * **expirationDelay**: número de días que se conservan los archivos .eml para el archivado. Después de este retraso, se mueven automáticamente al **dataLogPath/archived** carpeta para compresión. De forma predeterminada, los archivos .eml caducan al cabo de dos días.
 * **purgeArchivesDelay**: número de días durante los cuales se guardan los archivos en el **dataLogPath/`<archives>`** carpeta. Después de ese período, se eliminan de forma permanente. La depuración comienza cuando se inicia el MTA. De forma predeterminada, se realiza cada siete días.
@@ -106,7 +107,7 @@ Asegúrese de ajustar estos parámetros según el rendimiento de envío de corre
 
 ## Configuración de la dirección de correo electrónico CCO (local) {#configuring-the-bcc-email-address--on-premise-}
 
-[!BADGE On-Premise e híbrido]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Solo se aplica a implementaciones locales e híbridas"}
+[!BADGE On-Premise e híbrido]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"}
 
 
 >[!IMPORTANT]
@@ -132,7 +133,7 @@ En el **config-`<instance name>.xml`** utilice los siguientes parámetros para d
 
 ## Cambio al nuevo CCO de correo electrónico {#updated-email-archiving-system--bcc-}
 
-[!BADGE On-Premise e híbrido]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Solo se aplica a implementaciones locales e híbridas"}
+[!BADGE On-Premise e híbrido]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"}
 
 
 

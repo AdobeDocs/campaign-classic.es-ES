@@ -2,14 +2,15 @@
 product: campaign
 title: Permisos para acceder a una base de datos externa
 description: Permisos de acceso a base de datos externa
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '987'
 ht-degree: 98%
 
 ---
@@ -28,9 +29,9 @@ En primer lugar, para que el usuario pueda llevar a cabo operaciones en una base
    * **base** corresponde al nombre de la base de datos externa.
    * **server** corresponde al nombre del servidor de base de datos externo.
 
-      >[!NOTE]
-      >
-      >La parte **:base** es opcional en Oracle.
+     >[!NOTE]
+     >
+     >La parte **:base** es opcional en Oracle.
 
 1. Guarde el derecho asignado y luego vincúlelo al usuario elegido desde el nodo **[!UICONTROL Administration > Access Management > Operators]** del explorador de Adobe Campaign.
 

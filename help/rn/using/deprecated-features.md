@@ -2,15 +2,15 @@
 product: campaign
 title: Funciones obsoletas y eliminadas de Campaign Classic
 description: Esta página lista las funciones obsoletas y eliminadas de Adobe Campaign Classic
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Overview
+feature: Release Notes
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
-workflow-type: ht
-source-wordcount: '1508'
-ht-degree: 100%
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: tm+mt
+source-wordcount: '1515'
+ht-degree: 99%
 
 ---
 
@@ -119,7 +119,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es">nueva versión en línea</a>.</td>
   </tr> 
   <tr> 
-   <td>Organización de campañas  - Marketing predictivo</td>
+   <td>Orquestación de campañas  - Marketing predictivo</td>
    <td>A partir de la versión 18.10 de Campaign, las funcionalidades de marketing predictivas ya no están disponibles.</td>
   </tr> 
   <tr> 

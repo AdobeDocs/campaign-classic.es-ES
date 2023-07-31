@@ -2,14 +2,14 @@
 product: campaign
 title: Edición de contenido
 description: Edición de contenido
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Web Apps, Web Forms, Landing Pages
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 100%
+source-wordcount: '1226'
+ht-degree: 99%
 
 ---
 
@@ -75,11 +75,11 @@ Para ello:
 
 * Haga clic en el icono **[!UICONTROL Edit]**.
 
-   ![](assets/dce_sidebar_options.png)
+  ![](assets/dce_sidebar_options.png)
 
 * Introduzca el valor de lista desglosada (definido por el campo seleccionado) en el campo **[!UICONTROL Value]**.
 
-   ![](assets/dce_sidebar_completeoptionradio.png)
+  ![](assets/dce_sidebar_completeoptionradio.png)
 
 ### Modificación de campos del formulario {#modifying-form-fields}
 
@@ -91,7 +91,7 @@ Esto significa que se puede:
 * Duplique el campo seleccionado creando un nuevo bloque con el icono **[!UICONTROL Duplicate]**.
 * Edite la ventana **[!UICONTROL Form data]** para relacionar un campo de base de datos con la zona de formulario mediante el icono **[!UICONTROL Edit]**.
 
-   ![](assets/dce_toolbar_formblock_edition.png)
+  ![](assets/dce_toolbar_formblock_edition.png)
 
 ## Adición de una acción a un botón {#adding-an-action-to-a-button}
 
@@ -138,7 +138,6 @@ Los bloques y campos de personalización solo se pueden insertar en bloques de t
 >* Ventana actual (_self)
 >* Comportamiento predeterminado del navegador
 >
-
 
 ### Vínculo a una URL {#link-to-a-url}
 
@@ -204,7 +203,6 @@ Las opciones disponibles son las siguientes:
 >
 >* Icono **Duplicar**: duplica el bloque y todos los estilos relacionados con el bloque.
 
-
 ## Administración de imágenes y animaciones {#managing-images-and-animations}
 
 El editor de contenido digital permite trabajar con **cualquier tipo de imagen** compatible con los navegadores.
@@ -238,7 +236,7 @@ Cuando se selecciona un bloque que contiene una imagen, puede acceder a las sigu
 * **Pie de ilustración**: permite definir el pie de ilustración vinculado a la imagen (corresponde al atributo HTML **alt**).
 * **Dimensiones**: permite especificar el tamaño de la imagen en píxeles.
 
-   ![](assets/dce_popup_imgsize.png)
+  ![](assets/dce_popup_imgsize.png)
 
 ## Adición de contenido personalizado {#adding-personalization-content}
 

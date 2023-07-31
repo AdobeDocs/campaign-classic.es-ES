@@ -2,13 +2,13 @@
 product: campaign
 title: Datos de objetivos
 description: Descubra más información sobre los datos de objetivos en un flujo de trabajo
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Query Editor, Data Management
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+feature: Query Editor, Data Management, Workflows
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
-source-wordcount: '1922'
-ht-degree: 100%
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+workflow-type: tm+mt
+source-wordcount: '1929'
+ht-degree: 99%
 
 ---
 
@@ -90,33 +90,33 @@ Estas son las opciones de reconciliación de datos disponibles:
 
 * **[!UICONTROL Keys only]**
 
-   Puede usar esta opción si las poblaciones de entrada son homogéneas.
+  Puede usar esta opción si las poblaciones de entrada son homogéneas.
 
 * **[!UICONTROL All columns in common]**
 
-   Esta opción le permite reconciliar los datos en función de todas las columnas que sean comunes a las distintas poblaciones de destino.
+  Esta opción le permite reconciliar los datos en función de todas las columnas que sean comunes a las distintas poblaciones de destino.
 
-   Adobe Campaign identifica las columnas según su nombre. Se acepta un umbral de tolerancia: por ejemplo, se puede reconocer una columna “correo electrónico” como idéntica a una columna “@email”.
+  Adobe Campaign identifica las columnas según su nombre. Se acepta un umbral de tolerancia: por ejemplo, se puede reconocer una columna “correo electrónico” como idéntica a una columna “@email”.
 
 * **[!UICONTROL A selection of columns]**
 
-   Seleccione esta opción para definir la lista de columnas a las que desea aplicar la reconciliación de datos.
+  Seleccione esta opción para definir la lista de columnas a las que desea aplicar la reconciliación de datos.
 
-   Para empezar, seleccione el conjunto principal (el que contiene los datos de origen) y las columnas que desea utilizar para el enlace.
+  Para empezar, seleccione el conjunto principal (el que contiene los datos de origen) y las columnas que desea utilizar para el enlace.
 
-   ![](assets/join_reconciliation_options_01.png)
+  ![](assets/join_reconciliation_options_01.png)
 
-   >[!CAUTION]
-   >
-   >Durante la reconciliación de datos, las poblaciones no se deduplican.
+  >[!CAUTION]
+  >
+  >Durante la reconciliación de datos, las poblaciones no se deduplican.
 
-   Se puede restringir el tamaño de la población a un número determinado de registros. Para ello, haga clic en la opción correspondiente y especifique el número de registros que desee conservar.
+  Se puede restringir el tamaño de la población a un número determinado de registros. Para ello, haga clic en la opción correspondiente y especifique el número de registros que desee conservar.
 
-   Especifique también la prioridad de las poblaciones entrantes: la sección inferior de la ventana muestra las transiciones entrantes de la actividad de unión y le permite ordenarlas utilizando las flechas azules a la derecha de la ventana.
+  Especifique también la prioridad de las poblaciones entrantes: la sección inferior de la ventana muestra las transiciones entrantes de la actividad de unión y le permite ordenarlas utilizando las flechas azules a la derecha de la ventana.
 
-   Los registros se toman primero de la población de la primera transición entrante en la lista, y después, si no se ha alcanzado el máximo, se toman de la población de la segunda transición entrante, etc.
+  Los registros se toman primero de la población de la primera transición entrante en la lista, y después, si no se ha alcanzado el máximo, se toman de la población de la segunda transición entrante, etc.
 
-   ![](assets/join_limit_nb_priority.png)
+  ![](assets/join_limit_nb_priority.png)
 
 ### Extracción de datos conjuntos (intersección) {#extracting-joint-data--intersection-}
 
@@ -178,9 +178,9 @@ Para configurarlo, primero debe seleccionar unos criterios:
 
    Para obtener más información, consulte estas secciones en función de la versión de Campaign:
 
-   ![](assets/do-not-localize/v7.jpeg)[  Documentación de Campaign v7](../../installation/using/about-fda.md)
+   ![](assets/do-not-localize/v7.jpeg)[Documentación de Campaign v7](../../installation/using/about-fda.md)
 
-   ![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=es)
+   ![](assets/do-not-localize/v8.png)[Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=es)
 
 A continuación, es preciso añadir nuevos subconjuntos:
 
@@ -220,15 +220,15 @@ Una vez identificados y preparados los datos, se pueden utilizar en los siguient
 
 * Se pueden actualizar los datos en la base de datos después de la manipulación de los mismos en las distintas fases del flujo de trabajo.
 
-   Para obtener más información sobre esto, [Actualice los datos](update-data.md).
+  Para obtener más información sobre esto, [Actualice los datos](update-data.md).
 
 * También puede actualizar el contenido de listas existentes.
 
-   Para obtener más información, consulte [Actualizar lista](list-update.md).
+  Para obtener más información, consulte [Actualizar lista](list-update.md).
 
 * Se pueden preparar o iniciar entregas directamente en el flujo de trabajo.
 
-   Para obtener más información sobre esto, consulte [Entrega](delivery.md), [Control de entrega](delivery-control.md) y [Entrega continua](continuous-delivery.md).
+  Para obtener más información sobre esto, consulte [Entrega](delivery.md), [Control de entrega](delivery-control.md) y [Entrega continua](continuous-delivery.md).
 
 ## Administración de datos {#data-management}
 

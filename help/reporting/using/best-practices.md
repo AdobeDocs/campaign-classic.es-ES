@@ -2,13 +2,13 @@
 product: campaign
 title: Prácticas recomendadas para la creación de informes
 description: Prácticas recomendadas para la creación de informes de Campaign
-badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
-feature: Reporting
+feature: Reporting, Monitoring
+badge: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 100%
+source-wordcount: '848'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ Es decir:
 
 * El tiempo de cálculo de un informe nunca debe exceder los 5 minutos.
 
-   Del mismo modo, durante la fase de diseño, si el cálculo del informe supera los 60 segundos con un volumen pequeño de datos, se deben modificar los métodos de cálculo.
+  Del mismo modo, durante la fase de diseño, si el cálculo del informe supera los 60 segundos con un volumen pequeño de datos, se deben modificar los métodos de cálculo.
 
 * Al utilizar el módulo Marketing Analytics, los datos del sistema de informes no deben superar los 10 millones de líneas.
 
@@ -99,17 +99,17 @@ Además, Adobe Campaign recomienda las siguientes mejoras:
 
 * Trabaje en el modelo de datos: los campos indexados se deben utilizar principalmente para mejorar las fórmulas de cálculo.
 
-   Para buscar un campo indexado rápidamente, observe el nombre de la columna en la interfaz de Adobe Campaign: la flecha de clasificación aparece subrayada en rojo si el campo está indexado.
+  Para buscar un campo indexado rápidamente, observe el nombre de la columna en la interfaz de Adobe Campaign: la flecha de clasificación aparece subrayada en rojo si el campo está indexado.
 
-   Para obtener más información sobre índices, consulte [esta sección](../../configuration/using/data-model-best-practices.md#indexes).
+  Para obtener más información sobre índices, consulte [esta sección](../../configuration/using/data-model-best-practices.md#indexes).
 
 * Asegúrese de que el informe sea escalable: el volumen de datos puede aumentar significativamente con el tiempo.
 
-   Del mismo modo, el volumen de datos manipulado durante las fases de prueba puede diferir del volumen de datos real de la producción. Por este motivo las fases de prueba son importantes.
+  Del mismo modo, el volumen de datos manipulado durante las fases de prueba puede diferir del volumen de datos real de la producción. Por este motivo las fases de prueba son importantes.
 
-   Por último, es necesario conocer y adaptar la depuración de los datos cuando sea necesario para una manipulación de datos más sencilla.
+  Por último, es necesario conocer y adaptar la depuración de los datos cuando sea necesario para una manipulación de datos más sencilla.
 
-   Para obtener más información sobre limpieza y retención de datos, consulte [esta sección](../../configuration/using/data-model-best-practices.md#data-retention).
+  Para obtener más información sobre limpieza y retención de datos, consulte [esta sección](../../configuration/using/data-model-best-practices.md#data-retention).
 
 ### Exportación de informes {#exporting-reports}
 

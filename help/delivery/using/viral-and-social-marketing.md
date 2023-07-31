@@ -2,13 +2,14 @@
 product: campaign
 title: Marketing viral y social
 description: Marketing viral y social
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Social Marketing
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 100%
+source-wordcount: '573'
+ht-degree: 98%
 
 ---
 
@@ -93,8 +94,8 @@ Se hace un seguimiento del uso compartido y acceso a la información compartida.
 
 * en la pestaña de la entrega **[!UICONTROL Tracking]** (o individualmente para cada destinatario):
 
-   ![](assets/s_ncs_user_network_del_tracking_tab.png)
+  ![](assets/s_ncs_user_network_del_tracking_tab.png)
 
 * en un informe específico **[!UICONTROL Sharing to social networks]**:
 
-   ![](assets/s_ncs_user_viral_report.png)
+  ![](assets/s_ncs_user_viral_report.png)

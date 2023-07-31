@@ -2,13 +2,13 @@
 product: campaign
 title: Resolución de problemas push
 description: Resolución de problemas push
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Push
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+feature: Push, Troubleshooting
 exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 100%
+source-wordcount: '107'
+ht-degree: 94%
 
 ---
 

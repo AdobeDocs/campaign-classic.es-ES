@@ -2,16 +2,17 @@
 product: campaign
 title: Adaptar la configuración
 description: Aprenda a adaptar la configuración antes y después de una migración a Campaign v7
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
 hide: true
 hidefromtoc: true
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '478'
 ht-degree: 3%
 
 ---
@@ -59,7 +60,7 @@ Al migrar a Adobe Campaign v7, deben configurarse los siguientes elementos. Esto
 
 * Contraseñas
 
-   Debe configurar la variable **Administrador** y **Interno** contraseñas. [Más información](../../migration/using/before-starting-migration.md#user-passwords)
+  Debe configurar la variable **Administrador** y **Interno** contraseñas. [Más información](../../migration/using/before-starting-migration.md#user-passwords)
 
 <!--
 * Tree structure
@@ -82,33 +83,33 @@ Después de ejecutar **posterior a la actualización**, compruebe y configure lo
 
 * Páginas espejo
 
-   El bloque personalizado de la página espejo ha cambiado con la versión 6.x. Esta nueva versión mejora la seguridad al acceder a estas páginas.
+  El bloque personalizado de la página espejo ha cambiado con la versión 6.x. Esta nueva versión mejora la seguridad al acceder a estas páginas.
 
-   Si ha utilizado el bloque personalizado v5 en sus mensajes, la visualización de la página espejo fallará. Adobe recomienda encarecidamente utilizar el nuevo bloque personalizado al insertar una página espejo en los mensajes.
+  Si ha utilizado el bloque personalizado v5 en sus mensajes, la visualización de la página espejo fallará. Adobe recomienda encarecidamente utilizar el nuevo bloque personalizado al insertar una página espejo en los mensajes.
 
-   Sin embargo, como solución temporal (y porque las páginas espejo siguen activas), puede volver al bloque personalizado antiguo para evitar este problema cambiando la opción **[!UICONTROL XtkAcceptOldPasswords]** y configúrelo en **[!UICONTROL 1]**. Esto no afectará al uso del nuevo bloque personalizado v6.x.
+  Sin embargo, como solución temporal (y porque las páginas espejo siguen activas), puede volver al bloque personalizado antiguo para evitar este problema cambiando la opción **[!UICONTROL XtkAcceptOldPasswords]** y configúrelo en **[!UICONTROL 1]**. Esto no afectará al uso del nuevo bloque personalizado v6.x.
 
 * Sintaxis
 
-   Si encuentra algún error relacionado con la sintaxis, durante la posactualización debe activar temporalmente el **allowSQLInjection** en la opción **serverConf.xml** , ya que esto le da tiempo de reescribir el código. Una vez adaptado el código, asegúrese de reactivar la seguridad.
+  Si encuentra algún error relacionado con la sintaxis, durante la posactualización debe activar temporalmente el **allowSQLInjection** en la opción **serverConf.xml** , ya que esto le da tiempo de reescribir el código. Una vez adaptado el código, asegúrese de reactivar la seguridad.
 
 * Conflictos
 
-   La migración se realiza mediante una actualización posterior y los conflictos pueden aparecer en informes, formularios o aplicaciones web. Estos conflictos se pueden resolver desde la consola de.
+  La migración se realiza mediante una actualización posterior y los conflictos pueden aparecer en informes, formularios o aplicaciones web. Estos conflictos se pueden resolver desde la consola de.
 
 * Tomcat
 
-   Si ha personalizado la carpeta de instalación, asegúrese de que se actualiza correctamente después de la migración.
+  Si ha personalizado la carpeta de instalación, asegúrese de que se actualiza correctamente después de la migración.
 
 * Informes
 
-   Actualmente, todos los informes listos para usar utilizan el motor de renderización v6.x. Si hubiera agregado código JavaScript a los informes, algunos elementos podrían verse afectados.
+  Actualmente, todos los informes listos para usar utilizan el motor de renderización v6.x. Si hubiera agregado código JavaScript a los informes, algunos elementos podrían verse afectados.
 
 * Aplicaciones web
 
-   Después de la actualización, si tiene problemas para conectarse a las aplicaciones web identificadas, debe activar el **allowUserPassword** y **sessionTokenOnly** opciones en la **serverConf.xml** archivo. Para evitar cualquier problema de seguridad, estas dos opciones deben reactivarse una vez resuelto el problema.
+  Después de la actualización, si tiene problemas para conectarse a las aplicaciones web identificadas, debe activar el **allowUserPassword** y **sessionTokenOnly** opciones en la **serverConf.xml** archivo. Para evitar cualquier problema de seguridad, estas dos opciones deben reactivarse una vez resuelto el problema.
 
-   Según el tipo de aplicaciones web y su configuración, debe realizar manipulaciones adicionales para asegurarse de que funcionan correctamente.
+  Según el tipo de aplicaciones web y su configuración, debe realizar manipulaciones adicionales para asegurarse de que funcionan correctamente.
 
 <!--
   If migrating from a v5.11 platform, additional configurations must be carried out. [Learn more](../../migration/using/general-configurations.md#specific-configurations-in-v5-11.md)
@@ -137,7 +138,7 @@ Después de ejecutar **posterior a la actualización**, compruebe y configure lo
 
 * Interacción
 
-   Si utiliza **Interacción**, debe ajustar los parámetros después de la migración.
+  Si utiliza **Interacción**, debe ajustar los parámetros después de la migración.
 
 <!--
 

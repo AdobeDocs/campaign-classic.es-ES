@@ -2,13 +2,13 @@
 product: campaign
 title: Reglas de filtrado
 description: Aprenda a utilizar las reglas de filtrado
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Typology Rules
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+feature: Typology Rules, Campaigns
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 98%
 
 ---
 
@@ -79,6 +79,7 @@ También puede vincular reglas de filtrado directamente mediante esta pestaña, 
 >En la ventana de selección solo están disponibles las reglas de filtrado y de tipologías.
 >
 >Estas configuraciones se pueden definir en la plantilla de envío para que se apliquen automáticamente a todas las entregas nuevas creadas con la plantilla.
+>
 
 ## Reglas de exclusión de envío predeterminadas {#default-deliverability-exclusion-rules}
 

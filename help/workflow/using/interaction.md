@@ -2,12 +2,12 @@
 product: campaign
 title: Interacción
 description: Interacción
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Workflows, Interaction
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+feature: Workflows, Interaction, Offers
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '178'
+ht-degree: 96%
 
 ---
 
@@ -20,9 +20,9 @@ Los flujos de trabajo detallados a continuación se instalan con el complemento 
 
 Para obtener más información, consulte estas secciones en función de la versión de Campaign:
 
-![](assets/do-not-localize/v7.jpeg)[  Documentación de Campaign v7](../../interaction/using/interaction-and-offer-management.md)
+![](assets/do-not-localize/v7.jpeg)[Documentación de Campaign v7](../../interaction/using/interaction-and-offer-management.md)
 
-![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html?lang=es)
+![](assets/do-not-localize/v8.png)[Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html?lang=es)
 
 
 <table> 

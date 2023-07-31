@@ -2,12 +2,13 @@
 product: campaign
 title: Arquitectura de la mensajería transaccional
 description: En esta sección se describe la arquitectura de mensajería transaccional de Adobe Campaign Classic y los canales disponibles para enviar mensajes transaccionales
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Transactional Messaging, Message Center, Architecture
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 100%
+source-wordcount: '1099'
+ht-degree: 99%
 
 ---
 
@@ -199,14 +200,13 @@ A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** >
    * **[!UICONTROL Server]** : introduzca la URL del servidor de la base de datos.
    * **[!UICONTROL Account]** : introduzca su cuenta de la base de datos.
 
-      >[!NOTE]
-      >
-      >El usuario de la base de datos necesita tener derechos de lectura en las siguientes tablas para la conexión FDA: XtkOption, NmsVisitor, NmsVisitorSub, NmsService, NmsBroadLogRtEvent, NmsBroadLogBatchEvent, NmsTrackingLogRtEvent, NmsTrackingLogBatchEvent, NmsRtEvent, NmsBatchEvent, NmsBroadLogMsg NmsTrackingUrl, NmsDelivery, NmsWebTrackingLogXtkFolder.
+     >[!NOTE]
+     >
+     >El usuario de la base de datos necesita tener derechos de lectura en las siguientes tablas para la conexión FDA: XtkOption, NmsVisitor, NmsVisitorSub, NmsService, NmsBroadLogRtEvent, NmsBroadLogBatchEvent, NmsTrackingLogRtEvent, NmsTrackingLogBatchEvent, NmsRtEvent, NmsBatchEvent, NmsBroadLogMsg NmsTrackingUrl, NmsDelivery, NmsWebTrackingLogXtkFolder.
 
    * **[!UICONTROL Password]** : introduzca la contraseña de la cuenta de la base de datos.
    * **[!UICONTROL Database]** : introduzca el nombre de la base de datos de la instancia de ejecución.
    * La casilla **[!UICONTROL Target of an HTTP relay to remote database's account]** debe estar activada.
-
 
 1. Cree una cuenta **[!UICONTROL External Database]** en la instancia de **marketing** con la configuración siguiente:
 
@@ -223,7 +223,6 @@ A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** >
    * **[!UICONTROL Account]** : introduzca la cuenta utilizada para acceder a la instancia de ejecución.
    * **[!UICONTROL Password]** : introduzca la contraseña de la cuenta utilizada para acceder a la instancia de ejecución.
    * **[!UICONTROL Data Source]**: Introduzca la sintaxis siguiente **[!UICONTROL nms:extAccount:ID of your external database account in the execution instance]**.
-
 
 1. Cree una cuenta externa **[!UICONTROL Execution instance]** en la instancia de **marketing** mediante la configuración siguiente para crear el flujo de trabajo de la sincronización de datos:
 
@@ -245,7 +244,5 @@ A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** >
    * **[!UICONTROL FDA account]** : seleccione su cuenta de FDA de la lista desplegable.
    * Haga clic en el botón **[!UICONTROL Create the archiving workflow]**.
    * Haga clic en el botón **[!UICONTROL Create data synchronization workflow]** para crear el flujo de trabajo de la sincronización de datos LINE.
-
-
 
 1. Ahora puede empezar a [crear mensajes transaccionales](../../message-center/using/creating-the-message-template.md).

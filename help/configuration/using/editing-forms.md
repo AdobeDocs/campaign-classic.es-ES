@@ -2,13 +2,14 @@
 product: campaign
 title: Editar formularios
 description: Editar formularios
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Configuration
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 2%
+source-wordcount: '1710'
+ht-degree: 3%
 
 ---
 
@@ -48,39 +49,39 @@ Puede crear diferentes tipos de formularios de entrada. El tipo de formulario de
 
 * Pantalla de consola
 
-   Este es el tipo de formulario predeterminado. El formulario consta de una sola página.
+  Este es el tipo de formulario predeterminado. El formulario consta de una sola página.
 
-   ![](assets/console_screen_form.png)
+  ![](assets/console_screen_form.png)
 
 * Administración de contenido
 
-   Utilice este tipo de formulario para la administración de contenido. Ver esto [caso de uso](../../delivery/using/use-case--creating-content-management.md).
+  Utilice este tipo de formulario para la administración de contenido. Ver esto [caso de uso](../../delivery/using/use-case--creating-content-management.md).
 
-   ![](../../delivery/using/assets/d_ncs_content_form13.png)
+  ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
 * Asistente
 
-   Este formulario consta de varias pantallas flotantes ordenadas en una secuencia específica. Los usuarios navegan de una pantalla a otra. [Más información](form-structure.md#wizards).
+  Este formulario consta de varias pantallas flotantes ordenadas en una secuencia específica. Los usuarios navegan de una pantalla a otra. [Más información](form-structure.md#wizards).
 
 * Iconbox
 
-   Este formulario consta de varias páginas. Para desplazarse por el formulario, los usuarios seleccionan iconos en la parte izquierda del formulario.
+  Este formulario consta de varias páginas. Para desplazarse por el formulario, los usuarios seleccionan iconos en la parte izquierda del formulario.
 
-   ![](assets/iconbox_form_preview.png)
+  ![](assets/iconbox_form_preview.png)
 
 * Notebook
 
-   Este formulario consta de varias páginas. Para desplazarse por el formulario, los usuarios seleccionan pestañas en la parte superior del formulario.
+  Este formulario consta de varias páginas. Para desplazarse por el formulario, los usuarios seleccionan pestañas en la parte superior del formulario.
 
-   ![](assets/notebook_form_preview.png)
+  ![](assets/notebook_form_preview.png)
 
 * Panel vertical
 
-   Este formulario muestra un árbol de navegación.
+  Este formulario muestra un árbol de navegación.
 
 * Panel horizontal
 
-   Este formulario muestra una lista de elementos.
+  Este formulario muestra una lista de elementos.
 
 ## Contenedores
 
@@ -185,28 +186,28 @@ Para crear un formulario, siga estos pasos:
 
    * Especifique el nombre del formulario y el área de nombres.
 
-      El nombre del formulario y el área de nombres pueden coincidir con el esquema de datos relacionado.  Este ejemplo muestra un formulario para la `cus:order` esquema de datos:
+     El nombre del formulario y el área de nombres pueden coincidir con el esquema de datos relacionado.  Este ejemplo muestra un formulario para la `cus:order` esquema de datos:
 
-      ```xml
-      <form entitySchema="xtk:form" img="xtk:form.png" label="Order" name="order" namespace="cus" type="iconbox" xtkschema="xtk:form">
-        […]
-      </form>
-      ```
+     ```xml
+     <form entitySchema="xtk:form" img="xtk:form.png" label="Order" name="order" namespace="cus" type="iconbox" xtkschema="xtk:form">
+       […]
+     </form>
+     ```
 
-      También puede especificar explícitamente el esquema de datos en la variable `entity-schema` atributo.
+     También puede especificar explícitamente el esquema de datos en la variable `entity-schema` atributo.
 
-      ```xml
-      <form entity-schema="cus:stockLine" entitySchema="xtk:form" img="xtk:form.png" label="Stock order" name="stockOrder" namespace="cus" xtkschema="xtk:form">
-        […]
-      </form>
-      ```
+     ```xml
+     <form entity-schema="cus:stockLine" entitySchema="xtk:form" img="xtk:form.png" label="Stock order" name="stockOrder" namespace="cus" xtkschema="xtk:form">
+       […]
+     </form>
+     ```
 
    * Especifique la etiqueta que se mostrará en el formulario.
    * De forma opcional, especifique el tipo de formulario. Si no especifica un tipo de formulario, se utiliza el tipo de pantalla de la consola de forma predeterminada.
 
-      ![](assets/input-form-create-2.png)
+     ![](assets/input-form-create-2.png)
 
-      Si está diseñando un formulario de varias páginas, puede omitir el tipo de formulario en la `<form>` y especifique el tipo en un contenedor.
+     Si está diseñando un formulario de varias páginas, puede omitir el tipo de formulario en la `<form>` y especifique el tipo en un contenedor.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
@@ -320,6 +321,7 @@ Para cambiar el tipo de un formulario existente a `iconbox`, siga estos pasos:
           </container>
       </form>
       ```
+
    Como alternativa, quite el `type="frame"` atributo del existente `<container>` elementos.
 
 ### Crear un formulario de bloc de notas
@@ -374,7 +376,7 @@ Este ejemplo muestra un formulario complejo:
 
 * El formulario de nivel superior es un formulario de cuadro de iconos. Este formulario consta de dos contenedores etiquetados **General** y **Detalles**.
 
-   Como resultado, la forma externa muestra el **General** y **Detalles** páginas en el nivel superior. Para acceder a estas páginas, los usuarios hacen clic en los iconos de la izquierda del formulario.
+  Como resultado, la forma externa muestra el **General** y **Detalles** páginas en el nivel superior. Para acceder a estas páginas, los usuarios hacen clic en los iconos de la izquierda del formulario.
 
 * El subformulario es un formulario de bloc de notas que está anidado en el **General** contenedor. El subformulario consta de dos contenedores etiquetados **Nombre** y **Contacto**.
 
@@ -411,7 +413,7 @@ Este ejemplo muestra un formulario complejo:
 
 * El formulario de nivel superior es un formulario de cuadro de iconos. Este formulario consta de dos contenedores etiquetados **General** y **Detalles**.
 
-   Como resultado, la forma externa muestra el **General** y **Detalles** páginas en el nivel superior. Para acceder a estas páginas, los usuarios hacen clic en los iconos de la izquierda del formulario.
+  Como resultado, la forma externa muestra el **General** y **Detalles** páginas en el nivel superior. Para acceder a estas páginas, los usuarios hacen clic en los iconos de la izquierda del formulario.
 
 * El subformulario es un formulario de bloc de notas que está anidado en el **General** contenedor. El subformulario consta de dos contenedores etiquetados **Nombre** y **Contacto**.
 

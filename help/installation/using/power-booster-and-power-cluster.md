@@ -2,14 +2,15 @@
 product: campaign
 title: Power Booster y Power Cluster
 description: Power Booster y Power Cluster
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '403'
 ht-degree: 7%
 
 ---
@@ -24,11 +25,11 @@ Adobe Campaign proporciona dos conjuntos de opciones de arquitectura empaquetada
 
 * **Power Booster**
 
-   Esta opción proporciona compatibilidad con una única instancia de ejecución adicional disociada de la instancia de aplicación principal de Adobe Campaign. Las instancias de ejecución dedicadas se pueden alojar de forma remota o por un tercero. Cuando se implementa, la ejecución por correo electrónico, el seguimiento, las páginas espejo y los mensajes de devolución se gestionan de forma independiente de las funciones de la aplicación central.
+  Esta opción proporciona compatibilidad con una única instancia de ejecución adicional disociada de la instancia de aplicación principal de Adobe Campaign. Las instancias de ejecución dedicadas se pueden alojar de forma remota o por un tercero. Cuando se implementa, la ejecución por correo electrónico, el seguimiento, las páginas espejo y los mensajes de devolución se gestionan de forma independiente de las funciones de la aplicación central.
 
 * **Power Cluster**
 
-   Esta opción es compatible con instancias de ejecución en clúster de 2 a N disociadas de la instancia de aplicación de Adobe Campaign principal en relación con una aplicación determinada. Los clústeres se pueden alojar de forma remota, en implementaciones distribuidas y por terceros. Además de las ventajas del aislamiento de procesos, la opción Adobe Campaign Power Cluster permite la redundancia y las estrategias de ampliación mediante el uso de hardware básico para simplificar la evolución del SLA o el rendimiento.
+  Esta opción es compatible con instancias de ejecución en clúster de 2 a N disociadas de la instancia de aplicación de Adobe Campaign principal en relación con una aplicación determinada. Los clústeres se pueden alojar de forma remota, en implementaciones distribuidas y por terceros. Además de las ventajas del aislamiento de procesos, la opción Adobe Campaign Power Cluster permite la redundancia y las estrategias de ampliación mediante el uso de hardware básico para simplificar la evolución del SLA o el rendimiento.
 
 ![](assets/architectural_options_diagram.png)
 

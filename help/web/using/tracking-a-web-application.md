@@ -2,14 +2,14 @@
 product: campaign
 title: Seguimiento de las visitas en una aplicación web
 description: Seguimiento de las visitas en una aplicación web
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Web Apps
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+feature: Web Apps, Reporting, Monitoring
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 100%
+source-wordcount: '413'
+ht-degree: 97%
 
 ---
 
@@ -26,19 +26,19 @@ Las principales mejoras incluidas en esta versión son las siguientes:
 * Posibilidad de insertar varias etiquetas de seguimiento en una misma página para facilitar la definición de las rutas de navegación (por ejemplo: compras, suscripciones, devoluciones, etc.).
 * Visualización de rutas de navegación y las etiquetas de seguimiento de las diferentes páginas en el panel de control de la aplicación web.
 
-   ![](assets/trackers_1.png)
+  ![](assets/trackers_1.png)
 
 * Generación de un informe de seguimiento completo.
 
-   ![](assets/trackers_5.png)
+  ![](assets/trackers_5.png)
 
-   Los indicadores principales son los siguientes:
+  Los indicadores principales son los siguientes:
 
    * **Tasa de conversión**: número de personas que han realizado todos los pasos de una ruta de navegación.
    * **Tasa de rechazo**: número de personas que solo han realizado el primer paso.
    * **Canal de conversión**: tasa de pérdida entre cada paso.
 
-   Además, un gráfico de tipo **sectorial** muestra la población según su fuente.
+  Además, un gráfico de tipo **sectorial** muestra la población según su fuente.
 
 ## Identificación de la fuente de tráfico {#identifying-the-traffic-source}
 

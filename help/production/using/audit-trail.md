@@ -2,12 +2,12 @@
 product: campaign
 title: Pista de auditoría
 description: Obtenga información sobre cómo monitorizar la instancia con la pista de auditoría de Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Audit Trail, Monitoring
+feature: Audit Trail, Monitoring, Workflows
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '468'
 ht-degree: 11%
 
 ---
@@ -29,7 +29,7 @@ La pista de auditoría consta de tres componentes:
 
 * **Pista de auditoría de esquema**: Compruebe las actividades y las últimas modificaciones realizadas en los esquemas.
 
-   Para obtener más información sobre esquemas, consulte [página](../../configuration/using/data-schemas.md).
+  Para obtener más información sobre esquemas, consulte [página](../../configuration/using/data-schemas.md).
 
 * **Pista de auditoría de flujo de trabajo**: Compruebe las actividades y las últimas modificaciones realizadas en los flujos de trabajo y, además, el estado de los mismos, como:
 
@@ -42,13 +42,13 @@ La pista de auditoría consta de tres componentes:
    * Activación igual a la acción Ejecutar tareas pendientes ahora
    * Interrupción incondicional
 
-   Para obtener más información sobre los flujos de trabajo, consulte [página](../../workflow/using/about-workflows.md).
+  Para obtener más información sobre los flujos de trabajo, consulte [página](../../workflow/using/about-workflows.md).
 
-   Para obtener más información sobre la monitorización de flujos de trabajo, consulte la [sección dedicada](../../workflow/using/monitoring-workflow-execution.md).
+  Para obtener más información sobre la monitorización de flujos de trabajo, consulte la [sección dedicada](../../workflow/using/monitoring-workflow-execution.md).
 
 * **Pista de auditoría de opción**: Compruebe las actividades y las últimas modificaciones realizadas en las opciones.
 
-   Para obtener más información, consulte [página](../../installation/using/configuring-campaign-options.md).
+  Para obtener más información, consulte [página](../../installation/using/configuring-campaign-options.md).
 
 ## Acceso a Pista de auditoría {#accessing-audit-trail}
 

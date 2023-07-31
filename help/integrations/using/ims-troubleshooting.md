@@ -2,16 +2,17 @@
 product: campaign
 title: Solución de problemas de IMS
 description: Solución de problemas de IMS
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Configuration
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 97%
 
 ---
 
@@ -75,12 +76,12 @@ Reinicie el servidor si se realizan cambios en la configuración anterior en la 
 
 * Se redirige al usuario a la página de adobe.com:
 
-   Hay algún problema con **[!UICONTROL Callback URL]**. Consulte los pasos anteriores para comprobar la configuración de **[!UICONTROL Callback URL]**.
+  Hay algún problema con **[!UICONTROL Callback URL]**. Consulte los pasos anteriores para comprobar la configuración de **[!UICONTROL Callback URL]**.
 
 * Mensaje “Ningún derecho del inicio de sesión se corresponde con la expresión”:
 
-   Consulte los pasos anteriores para comprobar las configuraciones de **[!UICONTROL Association Mask]** y de los grupos de operadores.
+  Consulte los pasos anteriores para comprobar las configuraciones de **[!UICONTROL Association Mask]** y de los grupos de operadores.
 
 * El usuario no puede acceder a la página de inicio de sesión de Adobe ID:
 
-   Consulte los pasos anteriores para comprobar la configuración del ámbito.
+  Consulte los pasos anteriores para comprobar la configuración del ámbito.

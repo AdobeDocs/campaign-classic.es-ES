@@ -2,14 +2,14 @@
 product: campaign
 title: Casos de uso
 description: Casos de uso de creación de informes
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+feature: Reporting, Monitoring
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 100%
+source-wordcount: '1329'
+ht-degree: 99%
 
 ---
 
@@ -194,15 +194,15 @@ El análisis de una población en un flujo de trabajo requiere que la población
 
 * Desvincular la transición de su actividad de destino e iniciar el flujo de trabajo para activarla. Una vez que la transición comience a parpadear, inicie el asistente de la forma habitual.
 
-   ![](assets/s_ncs_user_report_wizard_018.png)
+  ![](assets/s_ncs_user_report_wizard_018.png)
 
 * Modifique las propiedades del flujo de trabajo seleccionando la opción **[!UICONTROL Keep the result of interim populations between two executions]**. Esto permite iniciar un análisis de la transición que elija, incluso si el flujo de trabajo ha finalizado.
 
-   ![](assets/s_ncs_user_report_wizard_020.png)
+  ![](assets/s_ncs_user_report_wizard_020.png)
 
-   Si la población se ha purgado de la transición, un mensaje de error le pide que seleccione la opción correspondiente antes de iniciar el asistente de análisis descriptivo.
+  Si la población se ha purgado de la transición, un mensaje de error le pide que seleccione la opción correspondiente antes de iniciar el asistente de análisis descriptivo.
 
-   ![](assets/s_ncs_user_report_wizard_019.png)
+  ![](assets/s_ncs_user_report_wizard_019.png)
 
 >[!CAUTION]
 >

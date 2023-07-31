@@ -2,16 +2,17 @@
 product: campaign
 title: Migración de una plataforma Microsoft Windows a Adobe Campaign v7
 description: Obtenga información sobre cómo migrar una plataforma de Microsoft Windows a Adobe Campaign v7
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: migration
 content-type: reference
 topic-tags: migrating-to-adobe-campaign-7
 hide: true
 hidefromtoc: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
@@ -288,17 +289,17 @@ En este momento, se debe detener el servidor IIS. Consulte [Detención de servic
    * Para cada tipo de puerto de escucha (**[!UICONTROL http]** y/o **[!UICONTROL https]**), seleccione la línea adecuada y haga clic en **[!UICONTROL Edit]**.
    * Introduzca un puerto diferente. De forma predeterminada, el puerto de escucha es 80 para http y 443 para https. Compruebe que el nuevo puerto esté disponible.
 
-      ![](assets/_migration_iis_3_611.png)
+     ![](assets/_migration_iis_3_611.png)
 
-      >[!NOTE]
-      >
-      >Si el servidor IIS incluye varios sitios web para Adobe Campaign con una configuración avanzada (puerto compartido y diferentes direcciones IP), póngase en contacto con el administrador.
+     >[!NOTE]
+     >
+     >Si el servidor IIS incluye varios sitios web para Adobe Campaign con una configuración avanzada (puerto compartido y diferentes direcciones IP), póngase en contacto con el administrador.
 
 1. Cree un nuevo sitio web para Adobe Campaign v7:
 
    * Haga clic con el botón derecho en **[!UICONTROL Sites]** carpeta y seleccione **[!UICONTROL Add Web Site...]**.
 
-      ![](assets/_migration_iis_4.png)
+     ![](assets/_migration_iis_4.png)
 
    * Introduzca el nombre del sitio, **Adobe Campaign v7** por ejemplo.
    * La ruta de acceso al directorio básico del sitio web no se utiliza, pero la variable **[!UICONTROL Physical access path]** se debe introducir el campo. Escriba la ruta de acceso predeterminada de IIS: **C:\inetpub\wwwroot**.
@@ -306,38 +307,38 @@ En este momento, se debe detener el servidor IIS. Consulte [Detención de servic
    * Puede dejar los valores predeterminados en **[!UICONTROL IP address]** y **[!UICONTROL Port]** campos. Si desea utilizar otros valores, asegúrese de que la dirección IP y/o el puerto estén disponibles.
    * Marque la casilla **[!UICONTROL Start Web site immediately]**.
 
-      ![](assets/_migration_iis_5_7.png)
+     ![](assets/_migration_iis_5_7.png)
 
 1. Ejecute el **iis_neolane_setup.vbs** para configurar automáticamente los recursos utilizados por el servidor de Adobe Campaign en el directorio virtual creado anteriormente.
 
    * Este archivo se encuentra en **`[Adobe Campaign v7]`\conf** directorio, donde **`[Adobe Campaign v7]`** es la ruta de acceso al directorio de instalación de Adobe Campaign. El comando para ejecutar la secuencia de comandos es el siguiente (para administradores):
 
-      ```
-      cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\conf
-      cscript iis_neolane_setup.vbs
-      ```
+     ```
+     cd C:\Program Files (x86)\Adobe Campaign\Adobe Campaign v7\conf
+     cscript iis_neolane_setup.vbs
+     ```
 
    * Clic **[!UICONTROL OK]** para confirmar la ejecución del script.
 
-      ![](assets/s_ncs_install_iis7_parameters_step2_7.png)
+     ![](assets/s_ncs_install_iis7_parameters_step2_7.png)
 
    * Introduzca el número del sitio web creado anteriormente para Adobe Campaign v7 y haga clic en **[!UICONTROL OK]**.
 
-      ![](assets/s_ncs_install_iis7_parameters_step3_7.png)
+     ![](assets/s_ncs_install_iis7_parameters_step3_7.png)
 
    * Debe aparecer un mensaje de confirmación:
 
-      ![](assets/s_ncs_install_iis7_parameters_step7_7.png)
+     ![](assets/s_ncs_install_iis7_parameters_step7_7.png)
 
    * En el **[!UICONTROL Content view]** , asegúrese de que la configuración del sitio web se configura correctamente con los recursos de Adobe Campaign:
 
-      ![](assets/s_ncs_install_iis7_parameters_step6_7.png)
+     ![](assets/s_ncs_install_iis7_parameters_step6_7.png)
 
-      >[!NOTE]
-      >
-      >Si no se muestra la estructura de árbol, reinicie IIS.
-      >
-      >Los siguientes pasos de configuración de IIS se detallan en [esta sección](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server).
+     >[!NOTE]
+     >
+     >Si no se muestra la estructura de árbol, reinicie IIS.
+     >
+     >Los siguientes pasos de configuración de IIS se detallan en [esta sección](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server).
 
 <!--
 ## Security zones {#security-zones}

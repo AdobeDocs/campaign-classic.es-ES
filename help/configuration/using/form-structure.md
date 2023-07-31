@@ -2,12 +2,13 @@
 product: campaign
 title: Estructura del formulario
 description: Estructura del formulario
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Application Settings
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2385'
+source-wordcount: '2397'
 ht-degree: 4%
 
 ---
@@ -239,7 +240,7 @@ Ejemplos de sintaxis de condición:
 
 #### Habilitando contenedor {#enabling-container}
 
-Este contenedor permite habilitar o deshabilitar un conjunto de datos de una condición dinámica. Al deshabilitar un control se impide su edición. El siguiente ejemplo ilustra la activación de controles desde el valor del campo &quot;Gender&quot;:
+Este contenedor permite habilitar o deshabilitar un conjunto de datos de una condición dinámica. Al deshabilitar un control se impide su edición. El ejemplo siguiente ilustra la activación de controles a partir del valor del campo &quot;Gender&quot;:
 
 ```xml
 <container type="enabledGroup" enabledIf="@gender=1">

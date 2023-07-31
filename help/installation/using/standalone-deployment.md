@@ -2,14 +2,15 @@
 product: campaign
 title: Implementación independiente
 description: Implementación independiente
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Architecture, Deployment
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1084'
 ht-degree: 5%
 
 ---
@@ -38,7 +39,7 @@ Este tipo de configuración se puede ejecutar al administrar listas de menos de 
 * PostgreSQL,
 * Qmail.
 
-A medida que el volumen crece, una variante de esta arquitectura mueve el servidor de bases de datos a otro equipo para obtener un mejor rendimiento.
+A medida que el volumen crece, una variante de esta arquitectura mueve el servidor de base de datos a otro equipo para obtener un mejor rendimiento.
 
 >[!NOTE]
 >
@@ -119,19 +120,19 @@ Siga estos pasos:
 
    * Cree la instancia a través de la consola:
 
-      ![](assets/install_create_new_connexion.png)
+     ![](assets/install_create_new_connexion.png)
 
-      Para obtener más información, consulte [Crear una instancia e iniciar sesión](../../installation/using/creating-an-instance-and-logging-on.md).
+     Para obtener más información, consulte [Crear una instancia e iniciar sesión](../../installation/using/creating-an-instance-and-logging-on.md).
 
-      o
+     o
 
    * Cree la instancia utilizando las líneas de comandos:
 
-      ```
-      nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
-      ```
+     ```
+     nlserver config -addinstance:demo/tracking.campaign.net*,console.campaign.net*
+     ```
 
-      Para obtener más información, consulte [Creación de una instancia](../../installation/using/command-lines.md#creating-an-instance).
+     Para obtener más información, consulte [Creación de una instancia](../../installation/using/command-lines.md#creating-an-instance).
 
 1. Edite el **config-demo.xml** (creado en el paso anterior junto a **config-default.xml**) y asegúrese de que la **mta** (envío), **wfserver** (flujo de trabajo), **inMail** (correos electrónicos rechazados) y **estadísticas** (estadísticas) los procesos están activados. A continuación, configure la dirección del servidor de estadísticas:
 
@@ -235,13 +236,13 @@ Siga estos pasos:
    * Entrega de correo electrónico: direcciones de remitente y respuesta y el buzón de error para el correo rechazado.
    * Seguimiento: Rellene la URL externa utilizada para la redirección y la URL interna, haga clic en **Registro en los servidores de seguimiento** y, a continuación, valide en la **demostración** instancia del servidor de seguimiento.
 
-      Para obtener más información, consulte [Configuración de seguimiento](../../installation/using/deploying-an-instance.md#tracking-configuration).
+     Para obtener más información, consulte [Configuración de seguimiento](../../installation/using/deploying-an-instance.md#tracking-configuration).
 
-      ![](assets/s_ncs_install_deployment_wiz_09.png)
+     ![](assets/s_ncs_install_deployment_wiz_09.png)
 
-      Como el servidor de Adobe Campaign se utiliza como servidor de aplicaciones y de redirección, la URL interna utilizada para recopilar registros de seguimiento y transferir URL es una conexión interna directa a Tomcat (https://localhost:8080).
+     Como el servidor de Adobe Campaign se utiliza como servidor de aplicaciones y de redirección, la URL interna utilizada para recopilar registros de seguimiento y transferir URL es una conexión interna directa a Tomcat (https://localhost:8080).
 
    * Administración de rechazos: introduzca los parámetros para gestionar el correo rechazado (no tome las **Correos rechazados sin procesar** sección en cuenta).
    * Acceso desde: proporcione las dos direcciones URL para los informes, los formularios web y las páginas espejo.
 
-      ![](assets/d_ncs_install_web_url.png)
+     ![](assets/d_ncs_install_web_url.png)

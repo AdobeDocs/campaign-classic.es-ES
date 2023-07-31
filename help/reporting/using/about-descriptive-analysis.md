@@ -2,14 +2,14 @@
 product: campaign
 title: Introducción al análisis descriptivo
 description: Introducción al análisis descriptivo
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+feature: Reporting, Monitoring
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 100%
+source-wordcount: '213'
+ht-degree: 95%
 
 ---
 
@@ -25,15 +25,15 @@ Puede generar informes de análisis cuantitativos o cualitativos. Los análisis 
 
 * Tabla e histograma:
 
-   ![](assets/reporting_descriptive_sample_1.png)
+  ![](assets/reporting_descriptive_sample_1.png)
 
 * Valores acumulados, sin la tabla:
 
-   ![](assets/reporting_descriptive_sample_3.png)
+  ![](assets/reporting_descriptive_sample_3.png)
 
 * Desglose por línea de negocios
 
-   ![](assets/reporting_descriptive_sample_2.png)
+  ![](assets/reporting_descriptive_sample_2.png)
 
 Los análisis cuantitativos proporcionan estadísticas generales sobre los datos numéricos de la selección, como se muestra a continuación:
 

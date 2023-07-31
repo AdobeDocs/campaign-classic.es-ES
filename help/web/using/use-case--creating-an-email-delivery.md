@@ -2,14 +2,14 @@
 product: campaign
 title: 'Caso de uso: creación de una entrega por correo electrónico'
 description: 'Caso de uso: creación de una entrega por correo electrónico'
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Web Apps, Web Forms, Landing Pages
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 100%
+source-wordcount: '746'
+ht-degree: 98%
 
 ---
 
@@ -66,55 +66,55 @@ Se puede guardar este contenido como una plantilla para su uso futuro. Una vez c
 
 * Mostrar el nombre completo de los destinatarios
 
-   Para insertar el primer y el segundo nombre de los destinatarios en un campo de texto de su envío, haga clic en el campo de texto seleccionado y, a continuación, coloque el cursor donde desee mostrarlos. Haga clic en el primer icono de la barra de herramientas emergente y, a continuación, haga clic en **[!UICONTROL Personalization block]**. Seleccione **[!UICONTROL Greetings]** y haga clic en **[!UICONTROL OK]**.
+  Para insertar el primer y el segundo nombre de los destinatarios en un campo de texto de su envío, haga clic en el campo de texto seleccionado y, a continuación, coloque el cursor donde desee mostrarlos. Haga clic en el primer icono de la barra de herramientas emergente y, a continuación, haga clic en **[!UICONTROL Personalization block]**. Seleccione **[!UICONTROL Greetings]** y haga clic en **[!UICONTROL OK]**.
 
-   ![](assets/dce_personalizationblock_greetings.png)
+  ![](assets/dce_personalizationblock_greetings.png)
 
 * Inserción de un vínculo en una imagen
 
-   Para transferir los destinatarios de envíos a una dirección externa a través de una imagen, haga clic en la imagen correspondiente para mostrar la barra de herramientas emergente, coloque el cursor en el primer icono y haga clic en **[!UICONTROL Link to an external URL]**. Para obtener más información, consulte [Adición de un vínculo](editing-content.md#adding-a-link).
+  Para transferir los destinatarios de envíos a una dirección externa a través de una imagen, haga clic en la imagen correspondiente para mostrar la barra de herramientas emergente, coloque el cursor en el primer icono y haga clic en **[!UICONTROL Link to an external URL]**. Para obtener más información, consulte [Adición de un vínculo](editing-content.md#adding-a-link).
 
-   ![](assets/dce_externalpage.png)
+  ![](assets/dce_externalpage.png)
 
-   Introduzca la dirección URL del vínculo en el campo **URL** con el formato **https://www.myURL.com** y, a continuación, confirme la acción.
+  Introduzca la dirección URL del vínculo en el campo **URL** con el formato **https://www.myURL.com** y, a continuación, confirme la acción.
 
-   El vínculo se puede cambiar en cualquier momento con la sección a la derecha de la ventana.
+  El vínculo se puede cambiar en cualquier momento con la sección a la derecha de la ventana.
 
 * Inserción de un vínculo en el texto
 
-   Para integrar un vínculo externo en el texto de la entrega, seleccione un texto o un bloque de texto y, a continuación, haga clic en el primer icono de la barra de herramientas emergente. Haga clic en **[!UICONTROL Link to an external URL]** e introduzca la dirección del vínculo en el campo **[!UICONTROL URL]**. Para obtener más información, consulte [Adición de un vínculo](editing-content.md#adding-a-link).
+  Para integrar un vínculo externo en el texto de la entrega, seleccione un texto o un bloque de texto y, a continuación, haga clic en el primer icono de la barra de herramientas emergente. Haga clic en **[!UICONTROL Link to an external URL]** e introduzca la dirección del vínculo en el campo **[!UICONTROL URL]**. Para obtener más información, consulte [Adición de un vínculo](editing-content.md#adding-a-link).
 
-   El vínculo se puede cambiar en cualquier momento con la sección a la derecha de la ventana.
+  El vínculo se puede cambiar en cualquier momento con la sección a la derecha de la ventana.
 
-   >[!CAUTION]
-   >
-   >El texto introducido en el campo **[!UICONTROL Label]** reemplaza al texto original.
+  >[!CAUTION]
+  >
+  >El texto introducido en el campo **[!UICONTROL Label]** reemplaza al texto original.
 
 * Adición de una página espejo
 
-   Para permitir a los destinatarios ver el contenido de la entrega en un navegador web, se puede integrar un vínculo a una página espejo en la entrega.
+  Para permitir a los destinatarios ver el contenido de la entrega en un navegador web, se puede integrar un vínculo a una página espejo en la entrega.
 
-   Haga clic en el campo de texto en el que desea ver el vínculo publicado. Haga clic en el primer icono de la barra de herramientas emergente, seleccione **[!UICONTROL Personalization block]** y luego **[!UICONTROL Link to Mirror Page (MirrorPage)]**. Haga clic en **[!UICONTROL Save]** para confirmar.
+  Haga clic en el campo de texto en el que desea ver el vínculo publicado. Haga clic en el primer icono de la barra de herramientas emergente, seleccione **[!UICONTROL Personalization block]** y luego **[!UICONTROL Link to Mirror Page (MirrorPage)]**. Haga clic en **[!UICONTROL Save]** para confirmar.
 
-   ![](assets/dce_mirrorpage.png)
+  ![](assets/dce_mirrorpage.png)
 
-   >[!CAUTION]
-   >
-   >La etiqueta de bloque de personalización sustituye automáticamente el texto original de la entrega.
+  >[!CAUTION]
+  >
+  >La etiqueta de bloque de personalización sustituye automáticamente el texto original de la entrega.
 
 * Integración de un vínculo a una aplicación web
 
-   El editor de contenido permite integrar vínculos a aplicaciones web desde la consola de Adobe Campaign, como una página de destino o una página de formulario. Para obtener más información, consulte [Vínculo a una aplicación web](editing-content.md#link-to-a-web-application).
+  El editor de contenido permite integrar vínculos a aplicaciones web desde la consola de Adobe Campaign, como una página de destino o una página de formulario. Para obtener más información, consulte [Vínculo a una aplicación web](editing-content.md#link-to-a-web-application).
 
-   Seleccione un campo de texto para enlazar a una aplicación web y, a continuación, haga clic en el primer icono. Seleccione **[!UICONTROL Link to a Web application]** y luego seleccione la aplicación deseada haciendo clic en el icono situado al final del campo **Web Application**.
+  Seleccione un campo de texto para enlazar a una aplicación web y, a continuación, haga clic en el primer icono. Seleccione **[!UICONTROL Link to a Web application]** y luego seleccione la aplicación deseada haciendo clic en el icono situado al final del campo **Web Application**.
 
-   ![](assets/dce_webapp.png)
+  ![](assets/dce_webapp.png)
 
-   Haga clic en **Guardar** para confirmar.
+  Haga clic en **Guardar** para confirmar.
 
-   >[!NOTE]
-   >
-   >Este paso requiere haber guardado al menos una aplicación web previamente. Se pueden encontrar en la pestaña **[!UICONTROL Campaigns > Web applications]** de la consola.
+  >[!NOTE]
+  >
+  >Este paso requiere haber guardado al menos una aplicación web previamente. Se pueden encontrar en la pestaña **[!UICONTROL Campaigns > Web applications]** de la consola.
 
 ## Paso 5: Guardado de una entrega {#step-5---saving-the-delivery}
 

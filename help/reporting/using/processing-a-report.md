@@ -2,14 +2,14 @@
 product: campaign
 title: Uso de un informe de análisis
 description: Uso de un informe de análisis
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+feature: Reporting, Monitoring
 exl-id: d133efec-33e1-4711-a90f-e40385059386
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 100%
+source-wordcount: '828'
+ht-degree: 98%
 
 ---
 
@@ -94,7 +94,7 @@ Puede personalizar el diseño de datos directamente en las tablas de análisis d
 * **[!UICONTROL Sort from A to Z]** para ordenar los valores de las variables de menor a mayor.
 * **[!UICONTROL Sort from Z to A]** para ordenar los valores de las variables de mayor a menor.
 
-   ![](assets/s_ncs_advuser_report_wizard_016.png)
+  ![](assets/s_ncs_advuser_report_wizard_016.png)
 
 Para volver a la visualización inicial, actualice la vista.
 
@@ -111,11 +111,11 @@ Estas son las opciones disponibles:
 * La opción **[!UICONTROL Accumulate values]** permite añadir valores de una serie a otra.
 * Puede decidir si desea mostrar o no el pie del gráfico: para ocultarlo, desmarque la opción correspondiente. El pie de ilustración se muestra de forma predeterminada fuera del gráfico, en la esquina superior derecha.
 
-   El pie de ilustración también se puede mostrar sobre el gráfico para ahorrar espacio de visualización. Para ello, seleccione la opción **[!UICONTROL Include in the chart]**
+  El pie de ilustración también se puede mostrar sobre el gráfico para ahorrar espacio de visualización. Para ello, seleccione la opción **[!UICONTROL Include in the chart]**
 
-   Seleccione la alineación vertical u horizontal en la lista desplegable **[!UICONTROL Caption position]**.
+  Seleccione la alineación vertical u horizontal en la lista desplegable **[!UICONTROL Caption position]**.
 
-   ![](assets/s_ncs_advuser_report_wizard_3d.png)
+  ![](assets/s_ncs_advuser_report_wizard_3d.png)
 
 ## Exportación de un informe de análisis {#exporting-an-analysis-report}
 

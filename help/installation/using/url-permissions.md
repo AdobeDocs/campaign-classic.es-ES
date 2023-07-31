@@ -2,16 +2,17 @@
 product: campaign
 title: Configuración de permisos de URL
 description: Obtenga información sobre cómo configurar permisos de URL
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings, Permissions
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 6fe8da3b-57b9-4a69-8602-a03993630b27
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 34%
+source-wordcount: '362'
+ht-degree: 37%
 
 ---
 
@@ -30,6 +31,7 @@ De forma predeterminada, las instancias no pueden conectarse a direcciones URL e
 >As a **alojado** cliente, si puede acceder a [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es), puede utilizar la interfaz de autoservicio de permisos de URL. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=es)
 >
 >Otros **híbrido/alojado** Los clientes de deberán ponerse en contacto con el equipo de asistencia del Adobe de para añadir la IP a la lista de permitidos.
+>
 
 Para **Híbrido** y **On-Premise** implementaciones, el administrador debe hacer referencia a un nuevo **urlPermission** en el **serverConf.xml** archivo.
 

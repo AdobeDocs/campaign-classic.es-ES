@@ -2,15 +2,16 @@
 product: campaign
 title: Integración de una oferta mediante un flujo de trabajo
 description: Integración de una oferta mediante un flujo de trabajo
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Interaction, Offers, Workflows
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 100%
+source-wordcount: '1050'
+ht-degree: 99%
 
 ---
 
@@ -39,9 +40,10 @@ La actividad de descripción de entrega, disponible en los flujos de trabajo de 
 
    * Si desea acceder al motor de oferta, marque la casilla **[!UICONTROL Restrict the number of propositions selected]**. Especifique el espacio de oferta y el número de propuestas que se presentarán en la entrega.
 
-      El motor de oferta tendrá en cuenta las normas de idoneidad y las consideraciones de oferta.
+     El motor de oferta tendrá en cuenta las normas de idoneidad y las consideraciones de oferta.
 
    * Si no selecciona la casilla, todas las ofertas del esquema de entrega se presentarán sin recurrir al motor de oferta.
+
    >[!NOTE]
    >
    >La vista previa tiene en cuenta el número de ofertas especificadas en la entrega. Cuando se ejecuta un flujo de trabajo, se tiene en cuenta el número especificado en el esquema de entrega.
@@ -80,11 +82,11 @@ Después de configurar la consulta (consulte la [guía sobre flujos de trabajo](
 
    * **[!UICONTROL Search for the best offer in a category]**: marque esta opción y especifique los parámetros de recurso del motor de oferta (espacio de oferta, categoría o temas, fecha de contacto, cantidad de ofertas que desea mantener). Según estos parámetros, el motor calculará automáticamente las ofertas a agregar. Se recomienda completar el campo **[!UICONTROL Category]** o el campo **[!UICONTROL Theme]** en vez de ambos al mismo tiempo.
 
-      ![](assets/int_enrichment_offer3.png)
+     ![](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL A predefined offer]** : marque esta opción y especifique un espacio de oferta, una oferta específica y una fecha de contacto para configurar directamente la oferta que desee añadir, sin recurrir al motor de oferta.
 
-      ![](assets/int_enrichment_offer4.png)
+     ![](assets/int_enrichment_offer4.png)
 
 1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
 
@@ -94,7 +96,7 @@ Después de configurar la consulta (consulte la [guía sobre flujos de trabajo](
 
 ### Referencia al vínculo de una oferta {#referencing-a-link-to-an-offer}
 
-También puede hacer referencia a un vínculo de oferta en una actividad de ampliación.
+También puede hacer referencia a un vínculo de oferta en una actividad de enriquecimiento.
 
 Para ello, utilice el proceso siguiente:
 
@@ -104,7 +106,7 @@ Para ello, utilice el proceso siguiente:
 
    ![](assets/int_enrichment_link1.png)
 
-1. Especifique el vínculo entre los datos de la lista entrante en la actividad de ampliación (lista de destinatarios) y la lista de oferta. Por ejemplo, se puede vincular un código de oferta a un destinatario.
+1. Especifique el vínculo entre los datos de la lista entrante en la actividad de enriquecimiento (lista de destinatarios) y la lista de oferta. Por ejemplo, se puede vincular un código de oferta a un destinatario.
 
    ![](assets/int_enrichment_link2.png)
 
@@ -124,7 +126,7 @@ De forma predeterminada, cuando se utiliza una actividad de **enriquecimiento** 
 
 Sin embargo, se puede almacenar esta información de la siguiente manera:
 
-1. Cree un recurso al motor de oferta en una actividad ampliada colocada después de una consulta y antes de una actividad de entrega. Consulte la sección [Especificación de una oferta o acceso al motor de ofertas](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine). 
+1. Cree un recurso al motor de oferta en una actividad de enriquecimiento colocada después de una consulta y antes de una actividad de entrega. Consulte la sección [Especificación de una oferta o acceso al motor de ofertas](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine). 
 1. En la ventana principal de la actividad, seleccione **[!UICONTROL Edit additional data...]**
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -171,6 +173,6 @@ Para ello, utilice el proceso siguiente:
    * Especifique la población del subconjunto utilizando las reglas de filtrado y limitación disponibles.
    * A continuación, seleccione la oferta que desea presentar al subconjunto. Las ofertas disponibles son las admitidas en el entorno de oferta seleccionado en el paso anterior.
 
-      ![](assets/int_offer_per_cell1.png)
+     ![](assets/int_offer_per_cell1.png)
 
 1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).

@@ -2,13 +2,13 @@
 product: campaign
 title: Consulta de la tabla de destinatarios
 description: Obtenga información sobre cómo consultar la tabla de destinatarios.
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Query Editor
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+feature: Query Editor, Workflows
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '399'
+ht-degree: 98%
 
 ---
 
@@ -20,19 +20,19 @@ En este ejemplo, se desea recuperar los nombres y correos electrónicos de los d
 
 * ¿Qué tabla se debe seleccionar?
 
-   La tabla de destinatario (nms:recipient).
+  La tabla de destinatario (nms:recipient).
 
 * Campos que se desea seleccionar como columnas de salida
 
-   Correo electrónico, nombre, ciudad y número de cuenta
+  Correo electrónico, nombre, ciudad y número de cuenta
 
 * ¿Cuáles son las condiciones de filtrado de los destinatarios?
 
-   ciudad y dominio de correo electrónico
+  ciudad y dominio de correo electrónico
 
 * ¿Se ha configurado una clasificación?
 
-   Sí, en función de **[!UICONTROL Account number]** y **[!UICONTROL Last name]**.
+  Sí, en función de **[!UICONTROL Account number]** y **[!UICONTROL Last name]**.
 
 Para crear este ejemplo, aplique los pasos siguientes:
 

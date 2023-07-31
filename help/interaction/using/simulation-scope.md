@@ -2,16 +2,17 @@
 product: campaign
 title: Ámbito de la simulación
 description: Ámbito de la simulación
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Interaction, Offers
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '248'
+ht-degree: 95%
 
 ---
 
@@ -30,13 +31,13 @@ Los siguientes campos son obligatorios:
 * Fecha de contacto. No se tienen en cuenta las ofertas no válidas en la fecha de contacto.
 * Público destinatario.
 
-   Si no se configura un filtro de destino, se tiene en cuenta toda la lista de destinatarios.
+  Si no se configura un filtro de destino, se tiene en cuenta toda la lista de destinatarios.
 
 * Número de propuestas a simular por cada destino.
 
-   El destinatario recibe todas estas propuestas. Por ejemplo, si introduce 5, cada destinatario recibe un máximo de 5 propuestas de oferta.
+  El destinatario recibe todas estas propuestas. Por ejemplo, si introduce 5, cada destinatario recibe un máximo de 5 propuestas de oferta.
 
-   ![](assets/offer_simulation_009.png)
+  ![](assets/offer_simulation_009.png)
 
 Para perfeccionar las ofertas que se tienen en cuenta en la simulación, se pueden añadir uno o varios temas (especificados previamente en las categorías).
 

@@ -2,11 +2,12 @@
 product: campaign
 title: Definir etiqueta de seguimiento web
 description: Definir etiqueta de seguimiento web
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Application Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '360'
 ht-degree: 2%
 
 ---
@@ -100,23 +101,23 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
 
 * Visita a una página de identificador &quot;principal&quot;
 
-   **https://myserver.adobe.com/r/9862?tagid=home**
+  **https://myserver.adobe.com/r/9862?tagid=home**
 
 * Recopilación de datos de volumen empresarial
 
-   **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
+  **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
 
 * Especificación de un campo para buscar el destinatario
 
-   **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
+  **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
 
-   Se envía a la página de inicio un destinatario cuyo número de cuenta sea 10.
+  Se envía a la página de inicio un destinatario cuyo número de cuenta sea 10.
 
 * Uso de una entrega predeterminada
 
-   **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
+  **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
 
-   Se envía un destinatario a la página principal. Esta información se almacena en la entrega con el identificador 230 (e6 en la base de datos 16) a menos que se envíe con esta consulta una cookie de sesión que contenga un identificador de entrega.
+  Se envía un destinatario a la página principal. Esta información se almacena en la entrega con el identificador 230 (e6 en la base de datos 16) a menos que se envíe con esta consulta una cookie de sesión que contenga un identificador de entrega.
 
 >[!NOTE]
 >

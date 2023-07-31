@@ -2,14 +2,15 @@
 product: campaign
 title: Exportación de datos de Campaign a Adobe Experience Platform
 description: Obtenga información sobre cómo exportar datos de Campaign Classic a Adobe Experience Platform
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Platform Integration
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: integrations
 content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 100%
+source-wordcount: '504'
+ht-degree: 98%
 
 ---
 
@@ -33,11 +34,11 @@ Para ello, añada y configure lo siguiente:
 
 * Una actividad **[!UICONTROL Data extraction (file)]** para extraer los datos de destino en un archivo CSV. Para obtener más información sobre cómo configurar esta actividad, consulte[esta sección](../../workflow/using/extraction--file-.md).
 
-   ![](assets/rtcdp-extract-file.png)
+  ![](assets/rtcdp-extract-file.png)
 
 * Una actividad **[!UICONTROL File transfer]** para transferir el archivo CSV a su ubicación de almacenamiento. Para obtener más información sobre cómo configurar esta actividad, consulte [esta sección](../../workflow/using/file-transfer.md).
 
-   ![](assets/rtcdp-file-transfer.png)
+  ![](assets/rtcdp-file-transfer.png)
 
 Por ejemplo, el flujo de trabajo siguiente extrae registros de forma regular en un archivo CSV y, a continuación, transfiere el archivo a una ubicación de almacenamiento.
 

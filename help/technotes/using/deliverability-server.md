@@ -2,8 +2,9 @@
 product: campaign
 title: Actualización del nuevo servidor de envío
 description: Obtenga información sobre cómo actualizar al nuevo servidor de envío de Campaign
+feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 50ef144950ca9e79b1b3acdf587ffc13e0beeec4
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 20%
@@ -19,6 +20,7 @@ Como cliente Campaign Classic, debe implementar el nuevo servidor de capacidad d
 >[!NOTE]
 >
 >Para obtener más información sobre estos cambios, consulte la [FAQ](#faq), o contacto [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}.
+>
 
 ## ¿Qué ha cambiado?{#acc-deliverability-changes}
 
@@ -43,6 +45,7 @@ Como parte de la nueva integración del servidor de entrega, Campaign debe comun
 >[!WARNING]
 >
 >Estos pasos solo deben llevarse a cabo para implementaciones híbridas y locales.
+>
 
 ### Requisitos previos{#prerequisites}
 

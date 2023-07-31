@@ -2,15 +2,16 @@
 product: campaign
 title: Perfiles de operador
 description: Perfiles de operador
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Interaction, Offers
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 100%
+source-wordcount: '391'
+ht-degree: 98%
 
 ---
 
@@ -42,9 +43,9 @@ Los derechos asignados al gestor de ofertas permiten realizar las siguientes tar
 * Configurar la idoneidad de la oferta.
 * Aprobar ofertas.
 
-   >[!NOTE]
-   >
-   >El gestor de ofertas solo puede aprobar una oferta en dos casos determinados. El primero es si se especifica a alguien en particular como revisor y el segundo si el operador a cargo de la creación de plantillas (con derecho a asignar revisores) los especificó como revisor en la plantilla de oferta en la que se basa la oferta.
+  >[!NOTE]
+  >
+  >El gestor de ofertas solo puede aprobar una oferta en dos casos determinados. El primero es si se especifica a alguien en particular como revisor y el segundo si el operador a cargo de la creación de plantillas (con derecho a asignar revisores) los especificó como revisor en la plantilla de oferta en la que se basa la oferta.
 
 ## Gestor de envíos {#delivery-manager}
 
@@ -59,9 +60,9 @@ Los derechos asignados al administrador de entregas permiten realizar las siguie
 * Mostrar y modificar las categorías de oferta.
 * Aprobación de ofertas si este administrador de la entrega se especifica como uno de sus revisores.
 
-   >[!NOTE]
-   >
-   >El administrador de envíos solo puede aprobar una oferta si se ha definido como revisor durante la configuración de la oferta.
+  >[!NOTE]
+  >
+  >El administrador de envíos solo puede aprobar una oferta si se ha definido como revisor durante la configuración de la oferta.
 
 ## Resumen de derechos según el operador {#recap-of-rights-according-to-operator}
 

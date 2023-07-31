@@ -2,15 +2,16 @@
 product: campaign
 title: Uso del explorador de Adobe Campaign
 description: Aprenda a utilizar el explorador de Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Overview
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '449'
+ht-degree: 98%
 
 ---
 
@@ -50,24 +51,24 @@ Aprenda a configurar permisos en carpetas [en esta sección](access-management-f
 
 * **Uso de carpetas integradas**
 
-   El uso de las carpetas integradas facilita a las personas que no participan en el proyecto el uso, el mantenimiento y la resolución de problemas de la aplicación. No debe crear estructuras de carpetas personalizadas para destinatarios, listas, envíos, etc., sino utilizar las carpetas estándar como Administración, Perfiles y Objetivos, y Administración de campaña.
+  El uso de las carpetas integradas facilita a las personas que no participan en el proyecto el uso, el mantenimiento y la resolución de problemas de la aplicación. No debe crear estructuras de carpetas personalizadas para destinatarios, listas, envíos, etc., sino utilizar las carpetas estándar como Administración, Perfiles y Objetivos, y Administración de campaña.
 
 * **Creación de subcarpetas**
 
-   Coloque los flujos de trabajo técnicos en la carpeta estándar: Administración/Producción/Flujos de trabajo técnicos y cree subdirectorios por tipo de flujo de trabajo.
+  Coloque los flujos de trabajo técnicos en la carpeta estándar: Administración/Producción/Flujos de trabajo técnicos y cree subdirectorios por tipo de flujo de trabajo.
 
 * **Definición de una convención de nombres**
 
-   Por ejemplo, puede asignar un nombre a los flujos de trabajo en orden alfabético, de modo que aparezcan ordenados en orden de ejecución.
+  Por ejemplo, puede asignar un nombre a los flujos de trabajo en orden alfabético, de modo que aparezcan ordenados en orden de ejecución.
 
-   Por ejemplo:
+  Por ejemplo:
 
    * A1 – importar destinatarios, comienza a las 10:00;
    * A2 – importar tickets, empieza a las 11:00.
 
 * **Creación de plantillas para que los usuarios empiecen con ellas**
 
-   Cree plantillas de envío, plantillas de flujo de trabajo y plantillas de campaña específicas para los usuarios. Esta estructura puede ahorrar tiempo y garantizar que se utilicen la asignación de envíos y las tipologías adecuadas para cada usuario.
+  Cree plantillas de envío, plantillas de flujo de trabajo y plantillas de campaña específicas para los usuarios. Esta estructura puede ahorrar tiempo y garantizar que se utilicen la asignación de envíos y las tipologías adecuadas para cada usuario.
 
 ## Resolución de la pantalla {#screen-resolution}
 

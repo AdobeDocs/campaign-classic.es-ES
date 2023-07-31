@@ -2,13 +2,13 @@
 product: campaign
 title: Consultas mediante la administración de agrupación
 description: Obtenga información sobre cómo realizar consultas mediante la administración de agrupación
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Query Editor
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+feature: Query Editor, Workflows
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 100%
+source-wordcount: '258'
+ht-degree: 97%
 
 ---
 
@@ -20,15 +20,15 @@ En este ejemplo, se desea ejecutar una consulta para buscar todos los dominios d
 
 * ¿Qué tabla se debe seleccionar?
 
-   La tabla de destinatario (nms:recipient).
+  La tabla de destinatario (nms:recipient).
 
 * ¿Campos que se van a seleccionar en las columnas de salida?
 
-   Dominio de correo electrónico y clave principal (con recuento).
+  Dominio de correo electrónico y clave principal (con recuento).
 
 * ¿Agrupación de datos?
 
-   En función del dominio de correo electrónico con un recuento de claves principales por encima de 30. Esta operación se lleva a cabo con la opción **[!UICONTROL Group by + Having]**. **[!UICONTROL Group by + Having]** permite agrupar los datos (“Group by”) y realizar una selección de lo que se ha agrupado (“Having”).
+  En función del dominio de correo electrónico con un recuento de claves principales por encima de 30. Esta operación se lleva a cabo con la opción **[!UICONTROL Group by + Having]**. **[!UICONTROL Group by + Having]** permite agrupar los datos (“Group by”) y realizar una selección de lo que se ha agrupado (“Having”).
 
 Para crear este ejemplo, aplique los pasos siguientes:
 

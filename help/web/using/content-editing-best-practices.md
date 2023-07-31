@@ -2,14 +2,14 @@
 product: campaign
 title: Recomendaciones para la edición de contenido
 description: Recomendaciones para la edición de contenido
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Web Apps, Web Forms, Landing Pages
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 100%
+source-wordcount: '560'
+ht-degree: 98%
 
 ---
 
@@ -23,21 +23,21 @@ Para garantizar la operación óptima del editor, se recomienda seguir las sigui
 * Si la página HTML contiene **secuencias de comandos JavaScript**, deben ejecutarse **sin errores** fuera del editor.
 * Al crear una plantilla, se recomienda añadir un atributo **“type”** a las etiquetas `<input>` El editor procesa esta información, que ayuda al usuario a vincular un campo de la base de datos al campo del formulario al configurar la aplicación web.
 
-   Ejemplo de código HTML en la plantilla:
+  Ejemplo de código HTML en la plantilla:
 
-   ```
-   <input id="email" type="email" name="email"/>
-   ```
+  ```
+  <input id="email" type="email" name="email"/>
+  ```
 
-   El atributo **“type”** es visible en la interfaz en el siguiente formulario:
+  El atributo **“type”** es visible en la interfaz en el siguiente formulario:
 
-   ![](assets/dce_sidebar_inputtypechanges.png)
+  ![](assets/dce_sidebar_inputtypechanges.png)
 
-   La lista oficial de atributos &quot;type&quot; está disponible [en este sitio web](https://www.w3schools.com/tags/att_input_type.asp).
+  La lista oficial de atributos &quot;type&quot; está disponible [en este sitio web](https://www.w3schools.com/tags/att_input_type.asp).
 
 * Pasos para simular una página final con el DCE:
 
-   ![](assets/dce_enchainement.png)
+  ![](assets/dce_enchainement.png)
 
 * Compruebe que solo haya uno en la página.`<body> </body>`
 * Cuando se carga un archivo CSS o JS, no se cargan las imágenes incluidas en el archivo .zip. Por lo tanto, las referencias a estas imágenes presentes en CSS no se actualizan.

@@ -2,13 +2,13 @@
 product: campaign
 title: Conector de datos de Adobe Analytics
 description: Conector de datos de Adobe Analytics
-feature: Overview
+feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 5bd12f65-f468-41ab-bbae-e59a6592a803
 hidefromtoc: true
 hide: true
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1659'
 ht-degree: 100%
@@ -201,9 +201,9 @@ Están disponibles en el árbol de Adobe Campaign, en la carpeta **[!UICONTROL A
 * **[!UICONTROL Identification of converted contacts]**: directorio de los visitantes que realizaron una compra después de una campaña de remarketing. Los datos que recopila este flujo de trabajo se pueden consultar en el informe **[!UICONTROL Re-marketing efficiency]**, consulte esta [página](#creating-a-re-marketing-campaign).
 * **[!UICONTROL Sending of indicators and campaign attributes]**: permite enviar indicadores de campaña de correo electrónico a través de Adobe Campaign a Adobe Experience Cloud mediante el Conector de datos de Adobe Analytics. Este flujo de trabajo se activa a las 4 de la mañana cada día y los datos pueden tardar hasta 24 horas en enviarse a Analytics.
 
-   Tenga en cuenta que este flujo de trabajo no debe reiniciarse o volverá a enviar todos los datos anteriores, lo que puede distorsionar los resultados de Analytics.
+  Tenga en cuenta que este flujo de trabajo no debe reiniciarse o volverá a enviar todos los datos anteriores, lo que puede distorsionar los resultados de Analytics.
 
-   Los indicadores implicados son:
+  Los indicadores implicados son:
 
    * **[!UICONTROL Messages to deliver]** (@toDeliver)
    * **[!UICONTROL Processed]** (@processed)
@@ -216,11 +216,11 @@ Están disponibles en el árbol de Adobe Campaign, en la carpeta **[!UICONTROL A
    * **[!UICONTROL Opt-Out]** (@optOut)
    * **[!UICONTROL Errors]** (@error)
 
-   >[!NOTE]
-   >
-   >Los datos enviados son la información delta basada en el último resumen que puede generar un valor negativo en los datos de la métrica.
+  >[!NOTE]
+  >
+  >Los datos enviados son la información delta basada en el último resumen que puede generar un valor negativo en los datos de la métrica.
 
-   Los atributos enviados son los siguientes:
+  Los atributos enviados son los siguientes:
 
    * **[!UICONTROL Internal name]** (@internalName)
    * **[!UICONTROL Label]** (@label)
@@ -230,7 +230,6 @@ Están disponibles en el árbol de Adobe Campaign, en la carpeta **[!UICONTROL A
    * **[!UICONTROL Tag 2]** (webAnalytics/@tag2)
    * **[!UICONTROL Tag 3]** (webAnalytics/@tag3)
    * **[!UICONTROL Contact date]** (scheduling/@contactDate)
-
 
 ## Seguimiento de entregas en Adobe Campaign {#tracking-deliveries-in-adobe-campaign}
 

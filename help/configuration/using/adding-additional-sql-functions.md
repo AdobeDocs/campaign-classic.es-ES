@@ -2,12 +2,13 @@
 product: campaign
 title: Adición de funciones SQL adicionales
 description: Obtenga información sobre cómo definir funciones SQL adicionales
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Configuration, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 0%
+source-wordcount: '1030'
+ht-degree: 1%
 
 ---
 
@@ -66,20 +67,20 @@ Las funciones que se van a agregar se pueden encontrar en la **archivo &quot;pac
 * El **buildVersion** y **buildNumber** Los campos de son obligatorios. Deben corresponder al número de servidor al que está conectada la consola. Esta información se encuentra en el cuadro Ayuda/Acerca de.
 * Los siguientes bloques, **entidades** y **funclista** son obligatorios. En funcList, los campos &quot;name&quot; y &quot;namespace&quot; son obligatorios, pero su nombre lo decide el usuario y designan la lista de funciones de forma exclusiva.
 
-   Esto significa que si se importa otra lista de funciones con el mismo par de área de nombres/nombre (aquí &quot;cus::myList&quot;), se eliminarán las funciones importadas anteriormente. Por el contrario, si cambia este par espacio de nombres/nombre, la nueva serie de funciones importadas se agregará a la anterior.
+  Esto significa que si se importa otra lista de funciones con el mismo par de área de nombres/nombre (aquí &quot;cus::myList&quot;), se eliminarán las funciones importadas anteriormente. Por el contrario, si cambia este par espacio de nombres/nombre, la nueva serie de funciones importadas se agregará a la anterior.
 
 * El **grupo** permite especificar el grupo de funciones en el que aparecerán las funciones importadas en el editor de funciones. El atributo @name puede ser un nombre que ya existe (en cuyo caso las funciones se agregarán al grupo considerado) o un nombre nuevo (en cuyo caso aparecerá en un grupo nuevo).
 * Recordatorio: posibles valores del atributo @name en la variable `<group>` Los elementos son:
 
-   ```
-     name="aggregate"      ( label="Aggregates"         )
-     name="string"             ( label="String"           )
-     name="date"               ( label="Date"             )
-     name="numeric"          ( label="Numeric"        )
-     name="geomarketing" ( label="Geomarketing"     )
-     name="other"              ( label="Others"           )
-     name="window"          ( label="Windowing functions" )
-   ```
+  ```
+    name="aggregate"      ( label="Aggregates"         )
+    name="string"             ( label="String"           )
+    name="date"               ( label="Date"             )
+    name="numeric"          ( label="Numeric"        )
+    name="geomarketing" ( label="Geomarketing"     )
+    name="other"              ( label="Others"           )
+    name="window"          ( label="Windowing functions" )
+  ```
 
 >[!IMPORTANT]
 >
@@ -108,13 +109,13 @@ El **@name** field hace referencia al nombre de la función y &quot;args&quot; e
 * **ayuda** es el campo que se muestra en la parte inferior de la ventana del editor de expresiones.
 * **@display** es un mensaje informativo.
 
-   >[!NOTE]
-   >
-   >En los atributos @help y @display, la cadena &quot;$1&quot; representa el nombre que se dio en el primer parámetro de función (aquí, &quot;Age&quot;). $2, $3... representarían los siguientes parámetros. En el atributo @body detallado a continuación, $1 designa el valor del argumento pasado a la función durante la llamada.
+  >[!NOTE]
+  >
+  >En los atributos @help y @display, la cadena &quot;$1&quot; representa el nombre que se dio en el primer parámetro de función (aquí, &quot;Age&quot;). $2, $3... representarían los siguientes parámetros. En el atributo @body detallado a continuación, $1 designa el valor del argumento pasado a la función durante la llamada.
 
-   >[!NOTE]
-   >
-   >La descripción debe ser una cadena de caracteres XML válidos: tenga en cuenta el uso de &#39;&lt;&#39; y &#39;>&#39; en lugar de &lt; y >.
+  >[!NOTE]
+  >
+  >La descripción debe ser una cadena de caracteres XML válidos: tenga en cuenta el uso de &#39;&lt;&#39; y &#39;>&#39; en lugar de &lt; y >.
 
 * **@type** es el tipo de valor devuelto por la función y es un valor estándar (long, string, byte, datetime...). Si se omite, el servidor determina el mejor tipo entre los tipos disponibles dentro de la expresión que implementa la función.
 * **@minArgs** y **maxArgs** designa el número de parámetros (mínimo y máximo) de un parámetro. Por ejemplo, para una función con 2 parámetros, minArgs y maxArgs serán 2 y 2. Para 3 parámetros, más 1 opcional, serán 3 y 4 respectivamente.
@@ -123,9 +124,9 @@ El **@name** field hace referencia al nombre de la función y &quot;args&quot; e
    * El **proveedor** es obligatorio, especifica los sistemas de base de datos para los que se proporciona la implementación. Como se muestra en el ejemplo, cuando la sintaxis de las expresiones o las funciones subyacentes son diferentes, se pueden proporcionar implementaciones alternativas según la base de datos.
    * El **@body** contiene la implementación de la función. Tenga en cuenta: esta implementación debe ser una expresión, en lenguaje de base de datos (no un bloque de código). Según las bases de datos, las expresiones pueden ser subconsultas (&quot;(seleccione la columna de la tabla donde...)&quot;) que devuelvan un solo valor. Por ejemplo, este es el caso en Oracle (la consulta debe escribirse entre corchetes).
 
-   >[!NOTE]
-   >
-   >Si la función definida solo puede consultar una o dos bases de datos, siempre podemos proporcionar solo las definiciones correspondientes a estas bases de datos.
+  >[!NOTE]
+  >
+  >Si la función definida solo puede consultar una o dos bases de datos, siempre podemos proporcionar solo las definiciones correspondientes a estas bases de datos.
 
 ## Descriptor de la función &#39;Pasar&#39; {#pass-through--function-descriptor}
 

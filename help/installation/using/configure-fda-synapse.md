@@ -2,15 +2,16 @@
 product: campaign
 title: Configuración del acceso a Synapse
 description: Obtenga información sobre cómo configurar el acceso a Synapse en FDA
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 73%
+source-wordcount: '779'
+ht-degree: 72%
 
 ---
 
@@ -30,7 +31,6 @@ Uso de Campaign [Acceso de datos federado](../../installation/using/about-fda.md
 >* Necesitará privilegios de raíz para instalar un controlador ODBC.
 >* Los controladores ODBC de Red Hat Enterprise que proporciona Microsoft también se pueden utilizar con CentOS para conectarse a SQL Server.
 >* La versión 13.0 funciona con Red Hat 6 y 7.
-
 
 Para configurar el Azure synapse en CentOS, siga los pasos a continuación:
 
@@ -136,9 +136,9 @@ Para configurar Azure Synapse en Windows:
 * Necesita privilegios de raíz para instalar un controlador ODBC.
 * Curl es necesario para instalar el paquete msodbcsql. Si no lo tiene instalado, ejecute el siguiente comando:
 
-   ```
-   sudo apt-get install curl
-   ```
+  ```
+  sudo apt-get install curl
+  ```
 
 Para configurar Azure Synapse en Debian:
 
@@ -222,7 +222,7 @@ Para crear su [!DNL Azure Synapse] cuenta externa siga los pasos a continuación
 
       * **[!UICONTROL Database]**: Nombre de la base de datos
 
-      ![](assets/azure_3.png)
+     ![](assets/azure_3.png)
 
    * Para la autenticación de identidad administrada asignada al sistema, debe especificar:
 
@@ -232,9 +232,7 @@ Para crear su [!DNL Azure Synapse] cuenta externa siga los pasos a continuación
 
       * **[!UICONTROL Options]**: Añada la siguiente sintaxis `Authentication=ActiveDirectoryMsi`
 
-      ![](assets/azure_4.png)
-
-
+     ![](assets/azure_4.png)
 
 1. Haga clic en **[!UICONTROL Save]**.
 

@@ -2,15 +2,16 @@
 product: campaign
 title: Enlaces
 description: Enlaces
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Interaction, Offers
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: interaction
 content-type: reference
 topic-tags: advanced-parameters
 exl-id: e1d7d7c2-61e7-40d6-a8ce-69bc976f8c73
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 100%
+source-wordcount: '520'
+ht-degree: 98%
 
 ---
 
@@ -73,17 +74,17 @@ El procesamiento posterior se ejecuta después de la aplicación de reglas tipol
 
 * aProposition: tabla de propuestas elegibles. Aquí se muestra un ejemplo de la estructura de un elemento de esta tabla.
 
-   ```
-   { offer_id:1234,
-     weight:2}
-   ```
+  ```
+  { offer_id:1234,
+    weight:2}
+  ```
 
 * dicOffer (tipo xml): diccionario de todos los atributos de ofertas aptas (código de oferta, identificación de categoría, nombre completo de categoría, fecha de inicio, fecha de finalización, etiqueta, nombre interno, ID de oferta, campos de oferta adicional). Por ejemplo:
 
-   ```
-   { "1242": <offer category-id="61242" categoryFullName="/FULL/PATH/TO/CATEGORY/" code="CODE" endDate="" id="62473" label="LABEL" name="OFR38_OE4" product-id="43" startDate=""/>,
-     "1243": ...}
-   ```
+  ```
+  { "1242": <offer category-id="61242" categoryFullName="/FULL/PATH/TO/CATEGORY/" code="CODE" endDate="" id="62473" label="LABEL" name="OFR38_OE4" product-id="43" startDate=""/>,
+    "1243": ...}
+  ```
 
 * xmlTarget (tipo xml): nodo de datos de perfil
 * xmlInteraction (tipo xml): nodo de datos de llamada

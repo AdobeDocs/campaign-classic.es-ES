@@ -2,10 +2,11 @@
 product: campaign
 title: Nota técnica - Adobe Campaign - Actualización de seguridad de la versión de Apache
 description: 'Adobe Campaign: Actualización de seguridad de la versión de Apache'
+feature: Technote, Upgrade
 hide: true
 hidefromtoc: true
 exl-id: 3d2f5d1d-4b31-4cc6-b6fb-13589856e00c
-source-git-commit: a3eae4e253f66f5a651ffe0458f60b1f8bdf2258
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 2%
@@ -30,37 +31,38 @@ Las instancias que no son de producción se actualizarán primero mediante Adobe
 
 >[!NOTE]
 >Esta actualización requiere reiniciar el servidor web Apache. El tiempo de inactividad no excederá los 10 minutos dentro del lapso de tiempo mencionado a continuación.
+> 
 
 ## Preguntas frecuentes {#apache-faq}
 
 * **¿Por qué es una actualización obligatoria?**
 
-   La versión actual de Apache es vulnerable y tiene una amenaza de seguridad potencial. Es importante que las instancias de Campaign se actualicen a la última versión de Apache aplicable para hacer frente al riesgo de seguridad.
+  La versión actual de Apache es vulnerable y tiene una amenaza de seguridad potencial. Es importante que las instancias de Campaign se actualicen a la última versión de Apache aplicable para hacer frente al riesgo de seguridad.
 
 * **¿Qué clientes son el objetivo de las actualizaciones de seguridad?**
 
-   Todos los clientes que utilizan entornos de Campaign implementados en versiones de Apache anteriores se actualizan a la última versión de Apache aplicable.
+  Todos los clientes que utilizan entornos de Campaign implementados en versiones de Apache anteriores se actualizan a la última versión de Apache aplicable.
 
 * **¿Cuál es el tiempo de inactividad esperado?**
 
-   El tiempo de inactividad esperado es inferior a 10 minutos.
+  El tiempo de inactividad esperado es inferior a 10 minutos.
 
 * **¿El cliente necesita llevar a cabo alguna acción para esta actualización de seguridad?**
 
-   No se requiere ninguna acción, ya que la actualización de seguridad se ejecutará automáticamente.
+  No se requiere ninguna acción, ya que la actualización de seguridad se ejecutará automáticamente.
 
 * **¿Cuál es el impacto en la ejecución de campañas/flujos de trabajo durante la ventana de mantenimiento?**
 
-   Durante la ventana de mantenimiento, el flujo de trabajo y los servicios de correo se detendrán y las actividades programadas no se ejecutarán. Cualquier actividad en curso o proceso en ejecución se detendrá durante el tiempo de inactividad hasta que se reinicie el servidor. Una vez completada la actividad y reiniciado el servidor, se reanudarán todos los servicios.
+  Durante la ventana de mantenimiento, el flujo de trabajo y los servicios de correo se detendrán y las actividades programadas no se ejecutarán. Cualquier actividad en curso o proceso en ejecución se detendrá durante el tiempo de inactividad hasta que se reinicie el servidor. Una vez completada la actividad y reiniciado el servidor, se reanudarán todos los servicios.
 
 * **¿Qué validaciones deben ejecutar los clientes?**
 
-   No se necesitan pruebas específicas para esta actualización de seguridad. Si se observa algún problema, póngase en contacto con [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support).
+  No se necesitan pruebas específicas para esta actualización de seguridad. Si se observa algún problema, póngase en contacto con [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support).
 
 
 * **¿Puedo solicitar un cambio de fecha y hora en el intervalo de actualización de seguridad programado?**
 
-   Como se trata de una corrección de seguridad, le recomendamos encarecidamente que se adapte a la programación existente.
+  Como se trata de una corrección de seguridad, le recomendamos encarecidamente que se adapte a la programación existente.
 
 
 Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).

@@ -2,15 +2,16 @@
 product: campaign
 title: Creación de solicitudes de privacidad
 description: Obtenga información sobre cómo crear y administrar solicitudes de privacidad
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Privacy, Privacy Tools
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 99%
 
 ---
 
@@ -68,7 +69,6 @@ Si ha creado tablas personalizadas que tienen un vínculo a la tabla de destinat
 >* La eliminación de perfiles mediante flujos de trabajo no procesa las tablas secundarias.
 >* Debe gestionar la eliminación de todas las tablas secundarias.
 >* Adobe recomienda crear un flujo de trabajo de ETL que agregue las líneas que se eliminarán en la tabla Acceso a privacidad y que permita que el flujo de trabajo **[!UICONTROL Delete privacy requests data]** realice la eliminación. Sugerimos limitar a 200 perfiles por día para eliminarlos por motivos de rendimiento.
-
 
 ## Estados de solicitud de privacidad {#privacy-request-statuses}
 

@@ -2,15 +2,16 @@
 product: campaign
 title: Administración de enumeraciones
 description: Administración de enumeraciones
-badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
+feature: Data Management
+badge: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 100%
+source-wordcount: '882'
+ht-degree: 99%
 
 ---
 
@@ -33,15 +34,15 @@ Los valores de este tipo de campo se definen y la administración general de est
 * La sección superior ofrece una lista de campos para los que se ha definido una lista detallada.
 * En la sección inferior se enumeran los valores propuestos. Estos valores se repiten en los editores que utilicen este campo.
 
-   ![](assets/s_ncs_user_itemized_list_values.png)
+  ![](assets/s_ncs_user_itemized_list_values.png)
 
-   Para crear un nuevo valor de enumeración, haga clic en **[!UICONTROL Add]**.
+  Para crear un nuevo valor de enumeración, haga clic en **[!UICONTROL Add]**.
 
-   ![](assets/s_ncs_user_itemized_list.png)
+  ![](assets/s_ncs_user_itemized_list.png)
 
-   Si se selecciona la opción **[!UICONTROL Open]** el usuario puede añadir un nuevo valor de lista desglosada directamente en el campo correspondiente. Un mensaje de confirmación le permite crear este valor.
+  Si se selecciona la opción **[!UICONTROL Open]** el usuario puede añadir un nuevo valor de lista desglosada directamente en el campo correspondiente. Un mensaje de confirmación le permite crear este valor.
 
-   ![](assets/s_ncs_user_itemized_list_new_value.png)
+  ![](assets/s_ncs_user_itemized_list_new_value.png)
 
 * Si se selecciona la opción **[!UICONTROL Closed]**, los usuarios no pueden crear nuevos valores, sino que solo pueden elegir entre los valores disponibles.
 
@@ -61,9 +62,9 @@ Por tanto, el valor introducido:
 * o sustituido automáticamente por su correspondiente: En este caso, este caso debe definirse en la ficha **[!UICONTROL Alias]** Alias de la lista de elementos.
 * o se debe almacenar en la lista de alias: se le asigna un alias más adelante.
 
-   >[!NOTE]
-   >
-   >Si necesita utilizar las funciones de limpieza de datos, seleccione la opción **[!UICONTROL Alias cleansing]** en la lista desglosada.
+  >[!NOTE]
+  >
+  >Si necesita utilizar las funciones de limpieza de datos, seleccione la opción **[!UICONTROL Alias cleansing]** en la lista desglosada.
 
 ### Uso de alias {#using-aliases}
 

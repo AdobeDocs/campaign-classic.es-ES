@@ -2,12 +2,12 @@
 product: campaign
 title: Introducción al modelo de datos de Campaign Classic
 description: Aprenda a ampliar el modelo de datos de Campaign, editar esquemas, utilizar API y mucho más
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Data Model
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+feature: Data Model, Configuration
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '987'
 ht-degree: 6%
 
 ---
@@ -112,7 +112,7 @@ Obtenga más información acerca del modelo de datos de Campaign en estas seccio
 
 * **Descripción completa de cada tabla** - Para acceder a la descripción completa de cada tabla, vaya a **[!UICONTROL Admin > Configuration > Data schemas]**, seleccione un recurso de la lista y haga clic en **[!UICONTROL Documentation]** pestaña.
 
-   ![](assets/data-model_documentation-tab.png)
+  ![](assets/data-model_documentation-tab.png)
 
 
 * **Esquemas de campaña** : La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada esquema. Para obtener más información sobre los esquemas de Adobe Campaign, lea [esta sección](../../configuration/using/about-schema-reference.md).

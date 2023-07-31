@@ -2,16 +2,17 @@
 product: campaign
 title: Seguimiento de hipótesis
 description: Aprenda a seguir hipótesis en el Gestor de respuestas de Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Campaigns, Monitoring, Reporting
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 97%
 
 ---
 
@@ -73,8 +74,8 @@ El informe **[!UICONTROL Hypothesis report]** permite ver los resultados de las 
 
 * **At campaign level**: haga clic en el vínculo **[!UICONTROL Reports]** de la campaña correspondiente y seleccione el **[!UICONTROL Hypothesis report]**. Este informe contiene la lista de envíos de campañas y la hipótesis calculada para cada envío.
 
-   ![](assets/response_hypothesis_campaign_report_001.png)
+  ![](assets/response_hypothesis_campaign_report_001.png)
 
 * **At delivery level**: para acceder al informe, abra la entrega correspondiente, haga clic en **[!UICONTROL Reports]** en la pestaña **[!UICONTROL Summary]** y seleccione **[!UICONTROL Hypothesis report]**. Si se han calculado hipótesis para el mismo envío, el informe contendrá todas ellas.
 
-   ![](assets/response_hypothesis_delivery_report_001.png)
+  ![](assets/response_hypothesis_delivery_report_001.png)

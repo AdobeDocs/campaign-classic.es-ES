@@ -2,16 +2,17 @@
 product: campaign
 title: Duplicación de entornos
 description: Duplicación de entornos
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 2%
+source-wordcount: '1314'
+ht-degree: 3%
 
 ---
 
@@ -73,7 +74,6 @@ Los siguientes pasos deben realizarse con bueno cuidado: es posible que algunos 
 >* Los comandos siguientes se aplican en el contexto de una **picar** instancia y una **dev** en PostgreSQL.
 >
 
-
 ### Paso 1: Realizar una copia de seguridad de los datos del entorno de origen (prod) {#step-1---make-a-backup-of-the-source-environment--prod--data}
 
 Copiar las bases de datos
@@ -121,15 +121,15 @@ Para detener todos los procesos, utilice los siguientes comandos:
 
 * En Windows:
 
-   ```
-   net stop nlserver6
-   ```
+  ```
+  net stop nlserver6
+  ```
 
 * En Linux:
 
-   ```
-   /etc/init.d/nlserver6 stop
-   ```
+  ```
+  /etc/init.d/nlserver6 stop
+  ```
 
 Utilice el siguiente comando para comprobar que se han detenido todos los procesos:
 
@@ -236,15 +236,15 @@ Para iniciar los procesos de Adobe Campaign, utilice los siguientes comandos:
 
 * En Windows:
 
-   ```
-   net start nlserver6
-   ```
+  ```
+  net start nlserver6
+  ```
 
 * En Linux:
 
-   ```
-   /etc/init.d/nlserver6 start
-   ```
+  ```
+  /etc/init.d/nlserver6 start
+  ```
 
 Utilice el siguiente comando para comprobar que se han iniciado los procesos:
 

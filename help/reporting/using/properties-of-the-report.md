@@ -2,14 +2,14 @@
 product: campaign
 title: Propiedades del informe
 description: Más información sobre la configuración de las propiedades del informe
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+feature: Reporting, Monitoring
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '441'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ En la pestaña **[!UICONTROL General]** de las propiedades del informe, puede ed
 
 * Se selecciona **Almacenamiento** al crear el informe. Para cambiar la tabla de datos del informe, haga clic en el icono **[!UICONTROL Select link]** a la derecha del campo **[!UICONTROL Document type]**.
 
-   ![](assets/s_ncs_advuser_report_properties_02.png)
+  ![](assets/s_ncs_advuser_report_properties_02.png)
 
 * Los ajustes de los parámetros de **Control de acceso** se describen a continuación.
 
@@ -47,7 +47,7 @@ Las opciones posibles son:
 
 * **[!UICONTROL Anonymous access]**: esta opción habilita el acceso al informe sin restricciones. Sin embargo, no es posible realizar ninguna manipulación.
 
-   Los derechos del operador técnico “webapp” se utilizan para mostrar los elementos del informe. Obtenga más información [en esta sección](../../platform/using/access-management-operators.md).
+  Los derechos del operador técnico “webapp” se utilizan para mostrar los elementos del informe. Obtenga más información [en esta sección](../../platform/using/access-management-operators.md).
 
 * **[!UICONTROL Access control]**: esta opción permite a los operadores de Adobe Campaign acceder una vez que han iniciado sesión.
 * **[!UICONTROL Specific account]**: esta opción permite ejecutar el informe con los derechos del operador seleccionado en el campo **[!UICONTROL Operator]**.

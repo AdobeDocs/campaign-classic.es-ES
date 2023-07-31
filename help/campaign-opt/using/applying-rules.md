@@ -2,13 +2,13 @@
 product: campaign
 title: Aplicación de reglas de tipología
 description: Aprenda a aplicar reglas de tipología
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-feature: Typology Rules
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+feature: Typology Rules, Campaigns
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 100%
+source-wordcount: '990'
+ht-degree: 99%
 
 ---
 
@@ -104,21 +104,21 @@ Los valores posibles son:
 
 * **[!UICONTROL At the start of targeting]**
 
-   Para evitar que el paso de personalización se ejecute en caso de errores, puede aplicar la regla de control aquí.
+  Para evitar que el paso de personalización se ejecute en caso de errores, puede aplicar la regla de control aquí.
 
 * **[!UICONTROL After targeting]**
 
-   Si necesita conocer el volumen del destino para aplicar la regla de control, seleccione esta fase.
+  Si necesita conocer el volumen del destino para aplicar la regla de control, seleccione esta fase.
 
-   Por ejemplo, la regla de control **[!UICONTROL Check proof size]** se aplica después de cada fase de objetivos: esta regla evita la personalización de los mensajes si hay demasiados destinatarios de prueba.
+  Por ejemplo, la regla de control **[!UICONTROL Check proof size]** se aplica después de cada fase de objetivos: esta regla evita la personalización de los mensajes si hay demasiados destinatarios de prueba.
 
 * **[!UICONTROL At the start of personalization]**
 
-   Esta fase debe estar seleccionada si el control afecta a la aprobación de la personalización de mensajes. La personalización del mensaje se lleva a cabo durante la fase de análisis.
+  Esta fase debe estar seleccionada si el control afecta a la aprobación de la personalización de mensajes. La personalización del mensaje se lleva a cabo durante la fase de análisis.
 
 * **[!UICONTROL At the end of the analysis]**
 
-   Cuando una comprobación requiera que se complete la personalización de mensajes, seleccione esta fase.
+  Cuando una comprobación requiera que se complete la personalización de mensajes, seleccione esta fase.
 
 ## Configuraciones adicionales {#additional-configurations}
 

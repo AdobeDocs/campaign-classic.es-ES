@@ -2,16 +2,17 @@
 product: campaign
 title: Actualización a una nueva compilación
 description: Conozca los pasos técnicos para actualizar a una nueva compilación
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring, Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 4%
+source-wordcount: '1170'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +28,6 @@ Antes de iniciar el proceso de actualización, determine y confirme a qué versi
 >* Para realizar una actualización, asegúrese de que tiene la capacidad y los permisos para acceder a instancias y registros.
 >* Leer más [esta sección](../../installation/using/general-architecture.md) y el [actualización de compilación](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) capítulo antes de comenzar.
 >
-
 
 ## Windows {#in-windows}
 
@@ -48,9 +48,10 @@ Para reemplazar todos los archivos con la nueva versión, debe cerrar todas las 
 
    * Servicios Web (IIS):
 
-      **iisreset /stop**
+     **iisreset /stop**
 
    * Servicio de Adobe Campaign: **net stop nlserver6**
+
    >[!IMPORTANT]
    >
    >También debe asegurarse de que el servidor de redirección (webmdl) esté detenido, de modo que la variable **nlsrvmod.dll** El archivo utilizado por IIS se puede reemplazar por la nueva versión.
@@ -105,7 +106,7 @@ Los servicios que se van a reiniciar son:
 
 * Servicios Web (IIS):
 
-   **iisreset /start**
+  **iisreset /start**
 
 * Servicio de Adobe Campaign: **net start nlserver6**
 
@@ -133,27 +134,27 @@ El archivo es **nlserver6-v7-XXX.rpm**
 
 * Distribución basada en RPM (RedHat, SuSe)
 
-   Para instalarlos, ejecute como raíz:
+  Para instalarlos, ejecute como raíz:
 
-   ```
-   $rpm -Uvh nlserver6-v7-XXXX.rpm
-   ```
+  ```
+  $rpm -Uvh nlserver6-v7-XXXX.rpm
+  ```
 
-   Donde XXX es la versión del archivo.
+  Donde XXX es la versión del archivo.
 
-   El archivo rpm depende de paquetes que se pueden encontrar en las distribuciones de CentOS/Red Hat. Si no desea utilizar algunas de estas dependencias, es posible que tenga que utilizar la opción &quot;nodeps&quot; de rpm:
+  El archivo rpm depende de paquetes que se pueden encontrar en las distribuciones de CentOS/Red Hat. Si no desea utilizar algunas de estas dependencias, es posible que tenga que utilizar la opción &quot;nodeps&quot; de rpm:
 
-   ```
-   rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
-   ```
+  ```
+  rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
+  ```
 
 * Distribución basada en DEB (Debian)
 
-   Para instalarlos, ejecute como raíz:
+  Para instalarlos, ejecute como raíz:
 
-   ```
-   dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
-   ```
+  ```
+  dpkg -i nlserver6-v7-XXXX-amd64_debX.deb
+  ```
 
 >[!NOTE]
 >
@@ -173,10 +174,8 @@ Para ello, ejecute el siguiente comando:
 >
 >* Es posible que se llame a su script **httpd** en lugar de **apache**.
 >* DEBE ejecutar este comando hasta que obtenga la siguiente respuesta:
-
-   >
-   >   Esta operación es necesaria para que Apache aplique la nueva biblioteca.
-
+>
+>   Esta operación es necesaria para que Apache aplique la nueva biblioteca.
 
 A continuación, reinicie Apache:
 
@@ -194,16 +193,16 @@ Existen dos formas de ver el resultado de la sincronización:
 
 * En la interfaz de la línea de comandos, los errores se materializan mediante un corchete triple **>>>** y la sincronización se detiene automáticamente. Las advertencias se materializan mediante comillas dobles **>>** y deben resolverse una vez finalizada la sincronización. Al final de la posactualización, se muestra un resumen en el símbolo del sistema. Puede tener este aspecto:
 
-   ```
-   2013-04-09 07:48:39.749Z 00002E7A 1 info log =========Summary of the update==========
-   2013-04-09 07:48:39.749Z 00002E7A 1 info log <instance name> instance, 6 warning(s) and 0 error(s) during the update.
-   2013-04-09 07:48:39.749Z 00002E7A 1 warning log The document with identifier 'mobileAppDeliveryFeedback' and type 'xtk:report' is in conflict with the new version.
-   2013-04-09 07:48:39.749Z 00002E7A 1 warning log The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
-   2013-04-09 07:48:39.750Z 00002E7A 1 warning log The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
-   2013-04-09 07:48:39.750Z 00002E7A 1 warning log Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
-   ```
+  ```
+  2013-04-09 07:48:39.749Z 00002E7A 1 info log =========Summary of the update==========
+  2013-04-09 07:48:39.749Z 00002E7A 1 info log <instance name> instance, 6 warning(s) and 0 error(s) during the update.
+  2013-04-09 07:48:39.749Z 00002E7A 1 warning log The document with identifier 'mobileAppDeliveryFeedback' and type 'xtk:report' is in conflict with the new version.
+  2013-04-09 07:48:39.749Z 00002E7A 1 warning log The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
+  2013-04-09 07:48:39.750Z 00002E7A 1 warning log The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
+  2013-04-09 07:48:39.750Z 00002E7A 1 warning log Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
+  ```
 
-   Si la advertencia se refiere a un conflicto de recursos, se requiere la atención del usuario para resolverlo.
+  Si la advertencia se refiere a un conflicto de recursos, se requiere la atención del usuario para resolverlo.
 
 * El **postupgrade_`<server version number>_<time of postupgrade>`.log** El archivo de registro contiene el resultado de la sincronización. Está disponible de forma predeterminada en el siguiente directorio: **`<installation directory>/var/<instance/postupgrade`**. Los errores y las advertencias se indican mediante los atributos de error y advertencia.
 
@@ -220,9 +219,9 @@ Existen tres formas de resolver un conflicto:
 * **[!UICONTROL Accept the new version]** : recomendado si el usuario no ha cambiado los recursos proporcionados con Adobe Campaign.
 * **[!UICONTROL Keep the current version]** : significa que la actualización se rechaza.
 
-   >[!IMPORTANT]
-   >
-   >Si selecciona este modo de resolución, es posible que no se beneficie de las correcciones en la nueva versión.
+  >[!IMPORTANT]
+  >
+  >Si selecciona este modo de resolución, es posible que no se beneficie de las correcciones en la nueva versión.
 
 Si decide resolver el conflicto manualmente, siga este procedimiento:
 

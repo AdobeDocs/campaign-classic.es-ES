@@ -2,16 +2,17 @@
 product: campaign
 title: Principio de configuración
 description: Principio de configuración
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring, Configuration
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 03d7e579-8678-44b8-bbe7-cf4204bffb25
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 4%
+source-wordcount: '306'
+ht-degree: 10%
 
 ---
 
@@ -25,9 +26,9 @@ Para un servidor determinado, hay dos elementos que son comunes a todas las inst
 
 * El **interno** contraseña: es la contraseña de administrador general. Es común a todas las instancias de un servidor de aplicaciones en particular.
 
-   >[!IMPORTANT]
-   >
-   >Para iniciar sesión con **Interno** identificador, debe haber definido una contraseña previamente. Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
+  >[!IMPORTANT]
+  >
+  >Para iniciar sesión con **Interno** identificador, debe haber definido una contraseña previamente. Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 * Varias configuraciones técnicas del servidor: todas estas configuraciones se pueden sobrecargar en la configuración específica de una instancia.
 
@@ -42,6 +43,6 @@ Una configuración de instancia se carga de la siguiente manera:
 * El módulo carga la variable **serverConf.xml** para obtener los parámetros compartidos por todas las instancias.
 * A continuación, carga la variable **config-**`<instance>`**.xml** archivo. Los valores encontrados en este archivo tienen prioridad sobre los valores contenidos en **serverConf.xml**.
 
-   Estos dos archivos tienen el mismo formato. Cualquier valor de **serverConf.xml** se puede sobrecargar para una instancia determinada en el **config-`<instance>`.xml** archivo.
+  Estos dos archivos tienen el mismo formato. Cualquier valor de **serverConf.xml** se puede sobrecargar para una instancia determinada en el **config-`<instance>`.xml** archivo.
 
 Este modo de funcionamiento proporciona una buena flexibilidad para las configuraciones.

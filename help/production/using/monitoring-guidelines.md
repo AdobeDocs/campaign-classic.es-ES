@@ -2,12 +2,12 @@
 product: campaign
 title: Directrices de monitorización
 description: Descubra las directrices y las prácticas recomendadas para supervisar los procesos e instancias de Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '767'
 ht-degree: 26%
 
 ---

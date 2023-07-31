@@ -2,15 +2,16 @@
 product: campaign
 title: Configuración del acceso a Teradata
 description: Obtenga información sobre cómo configurar el acceso al Teradata en FDA
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
-source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 75%
+source-wordcount: '1767'
+ht-degree: 74%
 
 ---
 
@@ -40,26 +41,26 @@ Debe instalar controladores para que el Teradata tenga implementada la conexión
 
    * **/etc/odbc.ini**
 
-      ```
-      [ODBC]
-      InstallDir=/etc/
-      ```
+     ```
+     [ODBC]
+     InstallDir=/etc/
+     ```
 
-      &quot;InstallDir&quot; corresponde a la ubicación del archivo **odbcinst.ini**.
+     &quot;InstallDir&quot; corresponde a la ubicación del archivo **odbcinst.ini**.
 
    * **/etc/odbcinst.ini**
 
-      ```
-      [ODBC DRIVERS]
-      teradata=Installed
-      
-      [teradata]
-      Driver=/opt/teradata/client/17.10/lib64/tdataodbc_sb64.so
-      APILevel=CORE
-      ConnectFunctions=YYY
-      DriverODBCVer=3.51
-      SQLLevel=1
-      ```
+     ```
+     [ODBC DRIVERS]
+     teradata=Installed
+     
+     [teradata]
+     Driver=/opt/teradata/client/17.10/lib64/tdataodbc_sb64.so
+     APILevel=CORE
+     ConnectFunctions=YYY
+     DriverODBCVer=3.51
+     SQLLevel=1
+     ```
 
 1. Especifique las variables de entorno del servidor de Adobe Campaign:
 
@@ -70,6 +71,7 @@ Debe instalar controladores para que el Teradata tenga implementada la conexión
 >[!NOTE]
 >
 >La conexión a una base de datos externa de Teradata en FDA requiere pasos de configuración adicionales en el servidor de Adobe Campaign. [Más información](#teradata-additional-configurations).
+>
 
 ## Cuenta externa Teradata{#teradata-external}
 

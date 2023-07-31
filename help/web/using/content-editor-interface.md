@@ -2,14 +2,14 @@
 product: campaign
 title: Interfaz del editor de contenido
 description: Interfaz del editor de contenido
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Web Apps, Web Forms, Landing Pages
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 100%
+source-wordcount: '545'
+ht-degree: 98%
 
 ---
 
@@ -41,29 +41,29 @@ Tiene cuatro iconos:
 
 * El icono **Seleccionar otro contenido** permite al usuario cargar contenido nuevo desde una plantilla (plantilla existente o plantilla predeterminada).
 
-   ![](assets/dce_popup_templatechoice.png)
+  ![](assets/dce_popup_templatechoice.png)
 
-   >[!CAUTION]
-   >
-   >El contenido seleccionado reemplaza al contenido actual.
+  >[!CAUTION]
+  >
+  >El contenido seleccionado reemplaza al contenido actual.
 
 * El icono **Guardar como plantilla** permite guardar el contenido actual como una plantilla. Debe indicar la etiqueta y el nombre interno de la plantilla. Las plantillas se almacenan en el nodo **[!UICONTROL Resources > Templates > Content templates]**.
 
-   ![](assets/dce_popup_savetemplate.png)
+  ![](assets/dce_popup_savetemplate.png)
 
-   Una vez guardada, la plantilla está disponible y se puede seleccionar al crear contenido nuevo.
+  Una vez guardada, la plantilla está disponible y se puede seleccionar al crear contenido nuevo.
 
-   ![](assets/dce_create_fromtemplate.png)
+  ![](assets/dce_create_fromtemplate.png)
 
 * El icono de **Propiedades de página** permite seleccionar información de contenido en la parte superior de la página HTML.
 
-   ![](assets/dce_popup_headerhtml.png)
+  ![](assets/dce_popup_headerhtml.png)
 
-   >[!NOTE]
-   >
-   >Esta información corresponde a las etiquetas HTML **`<title>`** y **`<meta>`** de la página.
-   >
-   >Las palabras clave deben estar separadas por comas.
+  >[!NOTE]
+  >
+  >Esta información corresponde a las etiquetas HTML **`<title>`** y **`<meta>`** de la página.
+  >
+  >Las palabras clave deben estar separadas por comas.
 
 ## Opciones de bloque {#block-options}
 

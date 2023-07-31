@@ -2,11 +2,12 @@
 product: campaign
 title: 'Nota técnica: Actualice su entorno para conectarse a Adobe Campaign con IMS'
 description: 'Campaign: actualizaciones de IMS'
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Technote, Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: 403d0b7df74b2c958bea9a2d718a15f597ca0d9c
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '586'
 ht-degree: 11%
 
 ---

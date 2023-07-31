@@ -2,15 +2,16 @@
 product: campaign
 title: Creación de categorías de oferta
 description: Creación de categorías de oferta
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Interaction, Offers
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: ed97a1b5-c870-4b67-98b6-16adc316fd46
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '273'
+ht-degree: 97%
 
 ---
 
@@ -44,19 +45,19 @@ Para crear una categoría adicional, siga los siguientes pasos:
 
    * asignar las fechas de idoneidad en la pestaña **[!UICONTROL Eligibility]**.
 
-      ![](assets/offer_cat_create_004.png)
+     ![](assets/offer_cat_create_004.png)
 
    * Escribir las palabras clave que se pueden utilizar para seleccionar ofertas dentro de esta categoría, utilizando el campo **[!UICONTROL Themes]**.
 
-      ![](assets/offer_cat_create_005.png)
+     ![](assets/offer_cat_create_005.png)
 
-      >[!NOTE]
-      >
-      >Al llamar al motor de oferta, solo se selecciona la parte del catálogo en la que coinciden los temas o categorías con los parámetros.
+     >[!NOTE]
+     >
+     >Al llamar al motor de oferta, solo se selecciona la parte del catálogo en la que coinciden los temas o categorías con los parámetros.
 
    * Se puede “incrementar” temporalmente la ponderación de la oferta de una categoría durante un periodo determinado mediante el campo **[!UICONTROL Multiplier weight]**.
 
-      ![](assets/offer_cat_create_006.png)
+     ![](assets/offer_cat_create_006.png)
 
 Un resumen de las reglas de idoneidad está disponible en el panel de las ofertas incluidas en la categoría. Para visualizarlos, haga clic en el vínculo **[!UICONTROL Schedule and eligibility rules of the offer]**.
 

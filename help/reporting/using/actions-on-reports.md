@@ -2,14 +2,14 @@
 product: campaign
 title: Acciones sobre los informes
 description: Acciones sobre los informes
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+feature: Reporting, Monitoring
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 100%
+source-wordcount: '555'
+ht-degree: 98%
 
 ---
 
@@ -47,11 +47,11 @@ Para informes de tipo **[!UICONTROL List with group]** que se van a exportar a E
 
 * Estos informes no deben contener ninguna línea vacía.
 
-   ![](assets/export_limitations_remove_empty_line.png)
+  ![](assets/export_limitations_remove_empty_line.png)
 
 * El pie de la lista debe estar oculto.
 
-   ![](assets/export_limitations_hide_label.png)
+  ![](assets/export_limitations_hide_label.png)
 
 * Los informes no deben utilizar un formato específico definido al nivel de celda. Es preferible utilizar **[!UICONTROL Form rendering]** para definir el formato de las celdas de la tabla. Se puede acceder a **[!UICONTROL Form rendering]** a través de **[!UICONTROL Administration > Configuration > Form rendering]**.
 * No se recomienda insertar contenido HTML.

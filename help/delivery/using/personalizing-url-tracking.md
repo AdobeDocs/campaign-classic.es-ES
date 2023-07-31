@@ -2,14 +2,14 @@
 product: campaign
 title: Configuración de las opciones de seguimiento de URL
 description: Obtenga información sobre cómo configurar las opciones de seguimiento de URL
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Monitoring, Email Design
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+feature: Monitoring, Email Design, Personalization
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 94%
 
 ---
 
@@ -29,9 +29,9 @@ Puede configurar las opciones de seguimiento:
 
 * Activación/Desactivación del seguimiento de URL para todos los mensajes.
 
-   >[!CAUTION]
-   >
-   >Cuando el seguimiento no está activado en una entrega (es decir, la opción **[!UICONTROL Activate tracking]** no está seleccionada), los informes y los datos relacionados con el seguimiento no están disponibles: se abre, los informes de clics activos y URL seguidos no mostrarán ningún dato, y **[!UICONTROL Tracking logs]** no se mostrarán para esta entrega.
+  >[!CAUTION]
+  >
+  >Cuando el seguimiento no está activado en una entrega (es decir, la opción **[!UICONTROL Activate tracking]** no está seleccionada), los informes y los datos relacionados con el seguimiento no están disponibles: se abre, los informes de clics activos y URL seguidos no mostrarán ningún dato, y **[!UICONTROL Tracking logs]** no se mostrarán para esta entrega.
 
 * Activación/Desactivación del seguimiento de las aperturas de mensaje.
 

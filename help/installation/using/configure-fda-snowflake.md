@@ -2,14 +2,15 @@
 product: campaign
 title: Configuración del acceso a Snowflake
 description: Obtenga información sobre cómo configurar el acceso al Snowflake en FDA
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Federated Data Access
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '519'
 ht-degree: 38%
 
 ---
@@ -37,19 +38,19 @@ Para configurar [!DNL Snowflake] En Linux, siga los pasos a continuación:
 
    * Para Red Hat/CentOS:
 
-      ```
-      yum update
-      yum upgrade
-      yum install -y grep sed tar wget perl curl
-      ```
+     ```
+     yum update
+     yum upgrade
+     yum install -y grep sed tar wget perl curl
+     ```
 
    * Para Debian:
 
-      ```
-      apt-get update
-      apt-get upgrade
-      apt-get install -y grep sed tar wget perl curl
-      ```
+     ```
+     apt-get update
+     apt-get upgrade
+     apt-get install -y grep sed tar wget perl curl
+     ```
 
 1. Antes de ejecutar la secuencia de comandos, puede tener acceso a más información con el `--help` opción:
 
@@ -98,12 +99,11 @@ Debe crear un [!DNL Snowflake] cuenta externa para conectar la instancia de Camp
 
       * **[!UICONTROL Password]**: Contraseña de la cuenta de usuario.
 
-      ![](assets/snowflake.png)
+     ![](assets/snowflake.png)
 
    * Para la autenticación de par de claves, haga clic en **[!UICONTROL Keypair Auth]** para utilizar su **[!UICONTROL Private key]** para autenticar y copiar y pegar su **[!UICONTROL Private key]**.
 
-      ![](assets/snowflake_4.png)
-
+     ![](assets/snowflake_4.png)
 
 1. Haga clic en la pestaña **[!UICONTROL Parameters]** y luego en el botón **[!UICONTROL Deploy functions]** para crear funciones.
 

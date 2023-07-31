@@ -2,15 +2,16 @@
 product: campaign
 title: Introducción a la gestión de recursos de marketing
 description: Acerca de la gestión de recursos de marketing
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Resource Management
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '382'
+ht-degree: 98%
 
 ---
 
@@ -34,15 +35,15 @@ En el contexto de la gestión de recursos de marketing de Adobe Campaign, los si
 
 * **Tarea**
 
-   Una tarea corresponde a una acción que se va a llevar a cabo en el contexto de una campaña. Una tarea se asigna a un grupo o a una persona. Una tarea secundaria puede depender de una tarea principal, lo que significa que la tarea principal no se realiza hasta que se hayan completado todas las tareas secundarias. Algunos ejemplos de tareas incluyen: referencia a un sitio Web, revisión de presupuesto, informe, etc.
+  Una tarea corresponde a una acción que se va a llevar a cabo en el contexto de una campaña. Una tarea se asigna a un grupo o a una persona. Una tarea secundaria puede depender de una tarea principal, lo que significa que la tarea principal no se realiza hasta que se hayan completado todas las tareas secundarias. Algunos ejemplos de tareas incluyen: referencia a un sitio Web, revisión de presupuesto, informe, etc.
 
-   Para obtener más información sobre esto, consulte [Creación y administración de tareas](../../mrm/using/creating-and-managing-tasks.md).
+  Para obtener más información sobre esto, consulte [Creación y administración de tareas](../../mrm/using/creating-and-managing-tasks.md).
 
 * **Recursos de marketing**
 
-   Adobe Campaign permite realizar un seguimiento del progreso de los proyectos de marketing de colaboración como, por ejemplo, medios de comunicación, planes de acciones, boletines informativos, etc. El ciclo de creación y aprobación de estos recursos de marketing se puede rastrear desde el panel de recursos hasta su publicación.
+  Adobe Campaign permite realizar un seguimiento del progreso de los proyectos de marketing de colaboración como, por ejemplo, medios de comunicación, planes de acciones, boletines informativos, etc. El ciclo de creación y aprobación de estos recursos de marketing se puede rastrear desde el panel de recursos hasta su publicación.
 
-   Para obtener más información, consulte [Administración de recursos de marketing](../../mrm/using/managing-marketing-resources.md).
+  Para obtener más información, consulte [Administración de recursos de marketing](../../mrm/using/managing-marketing-resources.md).
 
 >[!NOTE]
 >

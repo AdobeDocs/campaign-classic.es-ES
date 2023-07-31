@@ -2,15 +2,15 @@
 product: campaign
 title: Prácticas recomendadas para cubos
 description: Prácticas recomendadas para cubos
-badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
-feature: Reporting
+feature: Reporting, Monitoring
+badge: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 hide: true
 hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 100%
+source-wordcount: '1500'
+ht-degree: 99%
 
 ---
 
@@ -89,11 +89,11 @@ Puede:
 
 * Recuperar los valores utilizados más frecuentemente
 
-   En el ejemplo siguiente, se muestran los 4 valores utilizados con mayor frecuencia, mientras que los demás se cuentan y se agrupan en la categoría “Otros”.
+  En el ejemplo siguiente, se muestran los 4 valores utilizados con mayor frecuencia, mientras que los demás se cuentan y se agrupan en la categoría “Otros”.
 
 * Generación de grupos en forma de ranuras
 
-   En el ejemplo siguiente, Adobe Campaign crea automáticamente 4 ranuras de valor con el mismo tamaño para mostrar los valores en la base de datos.
+  En el ejemplo siguiente, Adobe Campaign crea automáticamente 4 ranuras de valor con el mismo tamaño para mostrar los valores en la base de datos.
 
 En este caso, el filtro seleccionado en el esquema de hechos se omite.
 
@@ -153,9 +153,9 @@ Para crear un nuevo acumulado, siga los siguientes pasos:
    * La actividad **[!UICONTROL Scheduler]** permite definir la frecuencia de las actualizaciones del cálculo. El planificador se detalla en [esta sección](../../workflow/using/scheduler.md).
    * La actividad **[!UICONTROL Aggregate update]** permite seleccionar el modo de actualización que desea aplicar: completo o parcial.
 
-      De forma predeterminada, se lleva a cabo una actualización completa durante cada cálculo. Para activar una actualización parcial, seleccione la opción correspondiente y defina las condiciones de actualización.
+     De forma predeterminada, se lleva a cabo una actualización completa durante cada cálculo. Para activar una actualización parcial, seleccione la opción correspondiente y defina las condiciones de actualización.
 
-      ![](assets/s_advuser_cube_agregate_05.png)
+     ![](assets/s_advuser_cube_agregate_05.png)
 
 ## Definición de medidas {#defining-measures}
 
@@ -203,7 +203,7 @@ La configuración de las medidas, líneas y columnas se puede realizar individua
 
 * Haga clic en el icono **[!UICONTROL Edit the configuration of the pivot table]** para acceder a la ventana de configuración.
 
-   Puede elegir si desea mostrar o no las etiquetas de las medidas, así como configurar su diseño (líneas o columnas).
+  Puede elegir si desea mostrar o no las etiquetas de las medidas, así como configurar su diseño (líneas o columnas).
 
 ![](assets/s_advuser_cube_in_report_config_05.png)
 

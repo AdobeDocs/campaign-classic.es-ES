@@ -2,16 +2,17 @@
 product: campaign
 title: Configuración del servidor de Campaign
 description: Configuración del servidor de Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 3%
+source-wordcount: '1603'
+ht-degree: 4%
 
 ---
 
@@ -95,35 +96,35 @@ Existen dos tipos de procesos: instancia múltiple y instancia única.
 
 * **de varias instancias**: se inicia un solo proceso para todas las instancias. Este es el caso de **web**, **syslogd** y **trackinglogd** procesos.
 
-   La activación se puede configurar desde el **config-default.xml** archivo.
+  La activación se puede configurar desde el **config-default.xml** archivo.
 
-   Declarar un servidor de Adobe Campaign para acceder a las consolas de cliente y para redireccionarlas (seguimiento):
+  Declarar un servidor de Adobe Campaign para acceder a las consolas de cliente y para redireccionarlas (seguimiento):
 
-   ```
-   vi nl6/conf/config-default.xml
-   <web args="-tomcat" autoStart="true"/>  
-   <!-- to start if the machine is also a redirection server -->  
-   <trackinglogd autoStart="true"/>
-   ```
+  ```
+  vi nl6/conf/config-default.xml
+  <web args="-tomcat" autoStart="true"/>  
+  <!-- to start if the machine is also a redirection server -->  
+  <trackinglogd autoStart="true"/>
+  ```
 
-   En este ejemplo, el archivo se edita mediante una **vi** en Linux. Se puede editar utilizando cualquier **.txt** o **.xml** editor.
+  En este ejemplo, el archivo se edita mediante una **vi** en Linux. Se puede editar utilizando cualquier **.txt** o **.xml** editor.
 
 * **monoinstancia**: se inicia un proceso para cada instancia (módulos: **mta**, **wfserver**, **inMail**, **sms** y **estadísticas**).
 
-   La habilitación se puede configurar mediante el archivo de configuración de la instancia:
+  La habilitación se puede configurar mediante el archivo de configuración de la instancia:
 
-   ```
-   config-<instance>.xml
-   ```
+  ```
+  config-<instance>.xml
+  ```
 
-   Declaración de un servidor para la entrega, ejecución de instancias de flujo de trabajo y recuperación del correo rechazado:
+  Declaración de un servidor para la entrega, ejecución de instancias de flujo de trabajo y recuperación del correo rechazado:
 
-   ```
-   <mta autoStart="true" statServerAddress="localhost"/>
-   <wfserver autoStart="true"/>  
-   <inMail autoStart="true"/>
-   <stat autoStart="true"/>
-   ```
+  ```
+  <mta autoStart="true" statServerAddress="localhost"/>
+  <wfserver autoStart="true"/>  
+  <inMail autoStart="true"/>
+  <stat autoStart="true"/>
+  ```
 
 **Almacenamiento de datos de Campaign**
 
@@ -131,13 +132,13 @@ Puede configurar el directorio de almacenamiento (**var** directorio) de datos d
 
 * En Windows, indique el siguiente valor en **XTK_VAR_DIR** variable del sistema
 
-   ```
-   D:\log\AdobeCampaign
-   ```
+  ```
+  D:\log\AdobeCampaign
+  ```
 
 * En Linux, vaya a **customer.sh** archivo e indicar: **export XTK_VAR_DIR=/app/log/AdobeCampaign**.
 
-   Para obtener más información, consulte [Personalizar parámetros](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
+  Para obtener más información, consulte [Personalizar parámetros](../../installation/using/installing-packages-with-linux.md#personalizing-parameters).
 
 
 ## Seguridad y transmisiones dinámicas de páginas {#dynamic-page-security-and-relays}

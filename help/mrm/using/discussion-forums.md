@@ -2,15 +2,16 @@
 product: campaign
 title: Foros de debate
 description: Aprenda a utilizar los foros de debate de Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Resource Management
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 99%
 
 ---
 
@@ -84,23 +85,23 @@ La suscripción a un foro le permite seguir las conversaciones. Recibe una notif
 
 * Para suscribirse a un foro, haga clic en el botón **[!UICONTROL Follow discussions]** situado en la sección superior derecha de la lista de mensajes.
 
-   ![](assets/mrm_forum_subscribe.png)
+  ![](assets/mrm_forum_subscribe.png)
 
-   La sección se vuelve azul y muestra que está suscrito al foro.
+  La sección se vuelve azul y muestra que está suscrito al foro.
 
 * Para cancelar la suscripción a un foro, haga clic en el botón **[!UICONTROL Unsubscribe]**.
 
-   ![](assets/mrm_forum_unsubscribe.png)
+  ![](assets/mrm_forum_unsubscribe.png)
 
 * Su panel personal enumera los foros a los que está suscrito. Haga clic en el vínculo **[!UICONTROL Subscription to discussion forums]** para mostrar la lista y luego haga clic en el elemento que le interese para acceder al foro correspondiente.
 
-   ![](assets/platform_dashboard_operator_subscr_forums.png)
+  ![](assets/platform_dashboard_operator_subscr_forums.png)
 
-   Para obtener más información acerca de los paneles personales, consulte [esta sección](../../platform/using/access-management-operators.md).
+  Para obtener más información acerca de los paneles personales, consulte [esta sección](../../platform/using/access-management-operators.md).
 
 * Para ver quién está suscrito a un foro, haga clic en el vínculo **[!UICONTROL List of subscribers to this discussion forum]** situado encima de la lista de mensajes.
 
-   ![](assets/mrm_forum_subscribers.png)
+  ![](assets/mrm_forum_subscribers.png)
 
 ## Comprobación de la notificación de la entrega {#checking-notification-delivery}
 
@@ -112,4 +113,5 @@ Si los operadores suscritos a un foro no reciben notificaciones como se espera:
 
    * En la página de inicio de Adobe Campaign, vaya a **[!UICONTROL Campaigns > Navigation > Deliveries]** y, a continuación, abra la entrega **[!UICONTROL Discussion forum notification]**.
    * En el explorador, vaya a **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**, luego haga clic en **[!UICONTROL Discussion forum notifications]**.
-   En el cuadro **[!UICONTROL Discussion forum notifications]**, los registros de envío se encuentran en la pestaña **[!UICONTROL Edit > Delivery]**. También puede ver las pestañas **[!UICONTROL Tracking > Log]** y **[!UICONTROL Exclusion causes]**.
+
+  En el cuadro **[!UICONTROL Discussion forum notifications]**, los registros de envío se encuentran en la pestaña **[!UICONTROL Edit > Delivery]**. También puede ver las pestañas **[!UICONTROL Tracking > Log]** y **[!UICONTROL Exclusion causes]**.

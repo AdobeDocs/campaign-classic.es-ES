@@ -2,16 +2,17 @@
 product: campaign
 title: Configuración de zonas de seguridad
 description: Obtenga información sobre cómo configurar zonas de seguridad
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 2%
+source-wordcount: '1489'
+ht-degree: 3%
 
 ---
 
@@ -30,6 +31,7 @@ Los operadores están vinculados a una zona de seguridad desde su perfil en la c
 >As a **alojado** cliente, si puede acceder a [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es), puede utilizar la interfaz de autoservicio Zona de seguridad. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es)
 >
 >Otros **híbrido/alojado** Los clientes de deberán ponerse en contacto con el equipo de asistencia del Adobe de para añadir la IP a la lista de permitidos.
+>
 
 ## Creación de zonas de seguridad {#creating-security-zones}
 
@@ -150,15 +152,15 @@ Pueden producirse varios casos:
 
 * Se hace referencia directamente a una subred en la zona de seguridad y no se configura ningún proxy: los usuarios de la subred pueden conectarse directamente al servidor de Adobe Campaign.
 
-   ![](assets/8101_proxy1.png)
+  ![](assets/8101_proxy1.png)
 
 * Se especifica un proxy para una subred en la zona de seguridad: los usuarios de esta subred pueden acceder al servidor de Adobe Campaign a través de este proxy.
 
-   ![](assets/8101_proxy2.png)
+  ![](assets/8101_proxy2.png)
 
 * Un proxy se incluye en una subred de zonas de seguridad: los usuarios que tienen acceso a través de este proxy, independientemente de su origen, pueden acceder al servidor de Adobe Campaign.
 
-   ![](assets/8101_proxy3.png)
+  ![](assets/8101_proxy3.png)
 
 Las direcciones IP de los proxies que tienen probabilidades de acceder al servidor de Adobe Campaign deben introducirse en **`<subnetwork>`** y la subred de primer nivel **`<subnetwork name="all"/>`**. Por ejemplo, aquí para un proxy cuya dirección IP es 10.131.146.102:
 
@@ -240,15 +242,15 @@ Una vez definidas las zonas y la variable **[!UICONTROL Security zone]** Cuando 
 
    * Cuando allowDebug se establece en false, el resultado es:
 
-      ```
-      <redir status='OK' date='...' sourceIP='...'/>
-      ```
+     ```
+     <redir status='OK' date='...' sourceIP='...'/>
+     ```
 
    * Cuando allowDebug se establece en true, el resultado es:
 
-      ```
-      <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
-      ```
+     ```
+     <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
+     ```
 
 * Nunca establezca allowEmptyPassword, allowUserPassword, allowSQLInjection en true. Estos atributos solo están aquí para permitir una migración sin problemas desde las versiones 5 y 6.0:
 

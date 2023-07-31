@@ -2,9 +2,9 @@
 product: campaign
 title: Creación de un informe nuevo
 description: Obtenga información sobre los pasos clave para crear un nuevo informe
-feature: Reporting
+feature: Reporting, Monitoring
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 100%
@@ -145,15 +145,15 @@ También puede incorporar uno o más controles de selección en los informes. Es
 
 * mediante botones de opción o casillas de verificación:
 
-   ![](assets/reporting_radio_buttons.png)
+  ![](assets/reporting_radio_buttons.png)
 
 * mediante una lista desplegable:
 
-   ![](assets/reporting_control_list.png)
+  ![](assets/reporting_control_list.png)
 
 * mediante un calendario:
 
-   ![](assets/reporting_control_date.png)
+  ![](assets/reporting_control_date.png)
 
 Por último, puede incorporar uno o más controles avanzados en los informes. Este tipo de control le permite insertar un vínculo o una constante o seleccionar una carpeta.
 

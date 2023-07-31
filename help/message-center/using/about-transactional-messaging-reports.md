@@ -2,15 +2,16 @@
 product: campaign
 title: Acceso a los informes de mensajería transaccional
 description: Obtenga información sobre cómo acceder a los informes de mensajería transaccional de Adobe Campaign Classic
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Transactional Messaging, Message Center, Reporting
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: 42d43d67-7660-4d81-9280-10f030aa8f0e
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 100%
+source-wordcount: '58'
+ht-degree: 89%
 
 ---
 

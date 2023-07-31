@@ -2,16 +2,17 @@
 product: campaign
 title: Localice la versión de Tomcat en Adobe Campaign.
 description: Aprenda a averiguar la versión actual del servlet web integrado de Tomcat utilizado en una instancia de Adobe Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 0%
+source-wordcount: '524'
+ht-degree: 3%
 
 ---
 
@@ -62,4 +63,5 @@ Una vez que pueda establecer la versión exacta de Tomcat utilizada en una insta
 >[!NOTE]
 >
 >La versión principal del Tomcat integrado solo se actualiza cuando cambia la versión principal de Adobe Campaign (aunque las versiones anteriores ya no son compatibles oficialmente, la información puede ser útil, ya que algunos clientes pueden seguir ejecutando estas versiones).
+>
 

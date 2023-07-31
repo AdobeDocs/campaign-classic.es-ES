@@ -2,11 +2,11 @@
 product: campaign
 title: Creación de indicadores
 description: Creación de indicadores
-feature: Reporting
+feature: Reporting, Monitoring
 hide: true
 hidefromtoc: true
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 100%
@@ -58,39 +58,39 @@ Haga clic en el botón **[!UICONTROL Add]** para crear una nueva dimensión y lu
 
 * Comience por seleccionar la **Edad** del destinatario. Para este campo, se puede definir el agrupamiento para reunir las edades y facilitar la lectura de la información. Se recomienda utilizar un agrupamiento cuando exista la probabilidad de que haya varios valores separados.
 
-   Para ello, marque la opción **[!UICONTROL Enable binning]**. Los modos de vínculo se detallan en [Enable binning](../../reporting/using/concepts-and-methodology.md#data-binning).
+  Para ello, marque la opción **[!UICONTROL Enable binning]**. Los modos de vínculo se detallan en [Enable binning](../../reporting/using/concepts-and-methodology.md#data-binning).
 
-   ![](assets/s_advuser_cube_wz_05.png)
+  ![](assets/s_advuser_cube_wz_05.png)
 
 * Añada una dimensión de tipo **Fecha.** Aquí nos interesa mostrar las fechas de creación del perfil de destinatario.
 
-   Para ello, haga clic en **[!UICONTROL Add]** y seleccione el campo **[!UICONTROL Creation date]** en la tabla de destinatarios.
+  Para ello, haga clic en **[!UICONTROL Add]** y seleccione el campo **[!UICONTROL Creation date]** en la tabla de destinatarios.
 
-   ![](assets/s_advuser_cube_wz_06.png)
+  ![](assets/s_advuser_cube_wz_06.png)
 
-   Es posible seleccionar el modo de visualización de la fecha. Para ello, seleccione la jerarquía que se va a utilizar y los niveles que se van a generar:
+  Es posible seleccionar el modo de visualización de la fecha. Para ello, seleccione la jerarquía que se va a utilizar y los niveles que se van a generar:
 
-   ![](assets/s_advuser_cube_wz_07.png)
+  ![](assets/s_advuser_cube_wz_07.png)
 
-   En este ejemplo, solo se busca mostrar los años, meses y días, ya que no es posible trabajar con semanas y semestres y meses al mismo tiempo: estos niveles no son compatibles.
+  En este ejemplo, solo se busca mostrar los años, meses y días, ya que no es posible trabajar con semanas y semestres y meses al mismo tiempo: estos niveles no son compatibles.
 
 * Cree otra dimensión para analizar los datos relacionados con la ciudad del destinatario.
 
-   Para ello, añada una nueva dimensión y seleccione la ciudad en el nodo **[!UICONTROL Location]** del esquema de destinatarios.
+  Para ello, añada una nueva dimensión y seleccione la ciudad en el nodo **[!UICONTROL Location]** del esquema de destinatarios.
 
-   ![](assets/s_advuser_cube_wz_08.png)
+  ![](assets/s_advuser_cube_wz_08.png)
 
-   Puede activar el agrupamiento para facilitar la lectura de la información y vincular los valores a una enumeración.
+  Puede activar el agrupamiento para facilitar la lectura de la información y vincular los valores a una enumeración.
 
-   ![](assets/s_advuser_cube_wz_09.png)
+  ![](assets/s_advuser_cube_wz_09.png)
 
-   Seleccione la enumeración en la lista desplegable.
+  Seleccione la enumeración en la lista desplegable.
 
-   ![](assets/s_advuser_cube_wz_10.png)
+  ![](assets/s_advuser_cube_wz_10.png)
 
-   Solo se muestran los valores de la enumeración. Los demás se agrupan con la etiqueta definida en el campo **[!UICONTROL Label of the other values]**.
+  Solo se muestran los valores de la enumeración. Los demás se agrupan con la etiqueta definida en el campo **[!UICONTROL Label of the other values]**.
 
-   Para obtener más información, consulte [Administración dinámica de grupos](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
+  Para obtener más información, consulte [Administración dinámica de grupos](../../reporting/using/concepts-and-methodology.md#dynamically-managing-bins).
 
 ## Genere los indicadores {#building-indicators}
 

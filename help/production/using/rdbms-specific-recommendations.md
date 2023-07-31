@@ -2,16 +2,17 @@
 product: campaign
 title: Recomendaciones específicas de RDBMS
 description: Recomendaciones específicas de RDBMS
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 4%
+source-wordcount: '1201'
+ht-degree: 5%
 
 ---
 
@@ -143,7 +144,6 @@ VACUUM (FULL, ANALYZE, VERBOSE) nmsmirrorpageinfo;
 >* Para tablas muy grandes (normalmente superiores a 5 Gb), la instrucción VACUUM FULL puede volverse bastante ineficiente y tardar mucho tiempo. El Adobe no recomienda utilizarlo para **YyyNmsBroadLogXxx** tabla.
 >* Esta operación de mantenimiento se puede implementar mediante un flujo de trabajo de Adobe Campaign, utilizando un **[!UICONTROL SQL]** actividad. Para obtener más información, consulte [esta sección](../../workflow/using/architecture.md). Asegúrese de programar el mantenimiento para un tiempo de actividad bajo que no entre en conflicto con la ventana de copia de seguridad.
 >
-
 
 ### Reconstrucción de una base de datos {#rebuilding-a-database}
 
@@ -411,7 +411,7 @@ Póngase en contacto con el administrador de la base de datos para conocer los p
 >
 >Para Microsoft SQL Server, puede utilizar el plan de mantenimiento detallado en [esta página](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
 
-El ejemplo siguiente se refiere a Microsoft SQL Server 2005. Si utiliza otra versión, póngase en contacto con el administrador de la base de datos para obtener más información sobre los procedimientos de mantenimiento.
+El ejemplo siguiente se refiere a Microsoft SQL Server 2005. Si utiliza otra versión, póngase en contacto con el administrador de la base de datos para conocer los procedimientos de mantenimiento.
 
 1. En primer lugar, conéctese a Microsoft SQL Server Management Studio con un inicio de sesión con derechos de administrador.
 1. Vaya a la **[!UICONTROL Management > Maintenance Plans]** carpeta, haga clic con el botón derecho en ella y elija **[!UICONTROL Maintenance Plan Wizard]**.
@@ -436,19 +436,19 @@ El ejemplo siguiente se refiere a Microsoft SQL Server 2005. Si utiliza otra ver
 
    * Si la tasa de fragmentación del índice está entre el 10 % y el 40 %, se recomienda una reorganización.
 
-      Elija las bases de datos y los objetos (tablas o vistas) que desea reorganizar y haga clic en **[!UICONTROL Next]**.
+     Elija las bases de datos y los objetos (tablas o vistas) que desea reorganizar y haga clic en **[!UICONTROL Next]**.
 
-      >[!NOTE]
-      >
-      >Según la configuración, puede elegir las tablas seleccionadas anteriormente o todas las tablas de la base de datos.
+     >[!NOTE]
+     >
+     >Según la configuración, puede elegir las tablas seleccionadas anteriormente o todas las tablas de la base de datos.
 
    * Si la tasa de fragmentación del índice es superior al 40 %, se recomienda volver a generar.
 
-      Seleccione las opciones que desee aplicar a la tarea de regeneración de índices y haga clic en **[!UICONTROL Next]**.
+     Seleccione las opciones que desee aplicar a la tarea de regeneración de índices y haga clic en **[!UICONTROL Next]**.
 
-      >[!NOTE]
-      >
-      >El proceso de regeneración de índices es más restrictivo en términos de uso del procesador y bloquea los recursos de la base de datos. Seleccione el **[!UICONTROL Keep index online while reindexing]** si desea que el índice esté disponible durante la regeneración.
+     >[!NOTE]
+     >
+     >El proceso de regeneración de índices es más restrictivo en términos de uso del procesador y bloquea los recursos de la base de datos. Seleccione el **[!UICONTROL Keep index online while reindexing]** si desea que el índice esté disponible durante la regeneración.
 
 1. Seleccione las opciones que desee mostrar en el informe de actividad y haga clic en **[!UICONTROL Next]**.
 1. Compruebe la lista de tareas configuradas para el plan de mantenimiento y haga clic en **[!UICONTROL Finish]**.

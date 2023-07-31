@@ -2,11 +2,12 @@
 product: campaign
 title: Inserción de un activo compartido
 description: Inserción de un activo compartido
+feature: Asset Sharing
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
-source-git-commit: d399c4800fe6c5b128a6ccb5fec15262cbef5ee8
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
@@ -27,15 +28,15 @@ Los activos compartidos desde Adobe Experience Cloud se pueden utilizar en los m
 
    * Si está utilizando el [modo de edición estándar](../../delivery/using/defining-the-email-content.md#adding-images), seleccione **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**.
 
-      ![](assets/dam_insert_image_standard.png)
+     ![](assets/dam_insert_image_standard.png)
 
    * Si está utilizando el [modo de edición avanzado](../../web/using/about-campaign-html-editor.md) (DCE), vaya a un bloque de imagen y, a través del menú contextual, seleccione **[!UICONTROL Select a shared asset]**.
 
-      ![](assets/dam_insert_image_dce.png)
+     ![](assets/dam_insert_image_dce.png)
 
-      >[!NOTE]
-      >
-      >No se pueden insertar imágenes compartidas desde Adobe Campaign en el [acceso web](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) al utilizar el DCE.
+     >[!NOTE]
+     >
+     >No se pueden insertar imágenes compartidas desde Adobe Campaign en el [acceso web](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) al utilizar el DCE.
 
 1. En la ventana de selección que se abre, seleccione una imagen y, a continuación, confirme la selección.
 

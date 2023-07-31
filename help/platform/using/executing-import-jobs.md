@@ -2,16 +2,17 @@
 product: campaign
 title: Configuración de trabajos de importación
 description: Obtenga información sobre cómo configurar y ejecutar trabajos de importación en Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Overview
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2954'
-ht-degree: 100%
+source-wordcount: '2966'
+ht-degree: 99%
 
 ---
 
@@ -75,27 +76,27 @@ El enlace **[!UICONTROL Advanced parameters]** permite acceder a las siguientes 
 
    * **[!UICONTROL Stop execution if there are too many rejects]**
 
-      Esta opción está seleccionada de forma predeterminada. Puede desmarcarlo si desea continuar ejecutando la importación independientemente del número de rechazos. De forma predeterminada, la ejecución se detiene si se rechazan las primeras 100 líneas.
+     Esta opción está seleccionada de forma predeterminada. Puede desmarcarlo si desea continuar ejecutando la importación independientemente del número de rechazos. De forma predeterminada, la ejecución se detiene si se rechazan las primeras 100 líneas.
 
    * **[!UICONTROL Trace mode]**
 
-      Seleccione esta opción para supervisar la ejecución de la importación para cada línea.
+     Seleccione esta opción para supervisar la ejecución de la importación para cada línea.
 
    * **[!UICONTROL Start the job in a detached process]**
 
-      Esta opción está seleccionada de forma predeterminada. Permite separar la ejecución de la importación para que no afecte a otros trabajos en curso en la base de datos.
+     Esta opción está seleccionada de forma predeterminada. Permite separar la ejecución de la importación para que no afecte a otros trabajos en curso en la base de datos.
 
    * **[!UICONTROL Do not update enumerations]**
 
-      Seleccione esta opción para evitar enriquecer la lista de valores numéricos en la base de datos. Consulte [Administración de enumeraciones](../../platform/using/managing-enumerations.md).
+     Seleccione esta opción para evitar enriquecer la lista de valores numéricos en la base de datos. Consulte [Administración de enumeraciones](../../platform/using/managing-enumerations.md).
 
 * **[!UICONTROL Variables]** Ficha
 
-   Puede definir variables asociadas con el trabajo a las que pueden acceder los editores de consultas y los campos calculados. Para crear una variable, haga clic en **[!UICONTROL Add]** y utilice el editor de variables.
+  Puede definir variables asociadas con el trabajo a las que pueden acceder los editores de consultas y los campos calculados. Para crear una variable, haga clic en **[!UICONTROL Add]** y utilice el editor de variables.
 
-   >[!IMPORTANT]
-   >
-   >La pestaña **[!UICONTROL Variables]** solo se utiliza para la programación relacionada con los flujos de trabajo, y por tanto solo deben configurarla usuarios expertos.
+  >[!IMPORTANT]
+  >
+  >La pestaña **[!UICONTROL Variables]** solo se utiliza para la programación relacionada con los flujos de trabajo, y por tanto solo deben configurarla usuarios expertos.
 
 ## Paso 2: Selección de archivos de origen {#step-2---source-file-selection}
 
@@ -138,21 +139,21 @@ Después, debe seleccionar el esquema de destino y asignar los datos de cada col
 * El campo **[!UICONTROL Destination schema]** permite seleccionar el esquema en el que se deben importar los datos. Esta información es obligatoria. Haga clic en el icono **[!UICONTROL Select link]** para seleccionar uno de los esquemas existentes. Haga clic en **[!UICONTROL Edit link]** para mostrar el contenido de la tabla seleccionada.
 * La tabla central muestra todos los campos definidos en el archivo de origen. Seleccione los campos que desea importar para asociar a ellos un archivo de destino. Estos campos se pueden asignar manualmente o automáticamente.
 
-   Para asignar un campo manualmente, haga clic en la casilla de verificación para seleccionar el campo de origen y haga clic en la segunda columna para activar la celda correspondiente al campo seleccionado. A continuación, haga clic en el icono **[!UICONTROL Edit expression]** para mostrar todos los campos de la tabla actual. Seleccione el campo de destino y haga clic en **[!UICONTROL OK]** para validar la asignación.
+  Para asignar un campo manualmente, haga clic en la casilla de verificación para seleccionar el campo de origen y haga clic en la segunda columna para activar la celda correspondiente al campo seleccionado. A continuación, haga clic en el icono **[!UICONTROL Edit expression]** para mostrar todos los campos de la tabla actual. Seleccione el campo de destino y haga clic en **[!UICONTROL OK]** para validar la asignación.
 
-   Para asociar automáticamente los campos de origen y los campos de destino, haga clic en el icono **[!UICONTROL Guess the destination fields]** a la derecha de la lista de campos. Los campos propuestos pueden modificarse si es necesario.
+  Para asociar automáticamente los campos de origen y los campos de destino, haga clic en el icono **[!UICONTROL Guess the destination fields]** a la derecha de la lista de campos. Los campos propuestos pueden modificarse si es necesario.
 
-   >[!IMPORTANT]
-   >
-   >El resultado de esta operación siempre debe validarse antes de continuar con el paso siguiente.
+  >[!IMPORTANT]
+  >
+  >El resultado de esta operación siempre debe validarse antes de continuar con el paso siguiente.
 
 * Puede aplicar una transformación a los campos importados. Para ello, haga clic en la celda de la columna **[!UICONTROL Transformation]** relacionada con el campo y seleccione la transformación que desee aplicar.
 
-   ![](assets/s_ncs_user_import_wizard03_2.png)
+  ![](assets/s_ncs_user_import_wizard03_2.png)
 
-   >[!IMPORTANT]
-   >
-   >La transformación se aplica al momento de la importación. Sin embargo, si se han definido restricciones en el campo de destino (en el ejemplo anterior, en el campo @nombre), estas restricciones tienen prioridad.
+  >[!IMPORTANT]
+  >
+  >La transformación se aplica al momento de la importación. Sin embargo, si se han definido restricciones en el campo de destino (en el ejemplo anterior, en el campo @nombre), estas restricciones tienen prioridad.
 
 * Puede añadir campos calculados mediante el icono adecuado, situado a la derecha de la tabla central. Los campos calculados permiten realizar transformaciones complejas, agregar columnas virtuales o combinar los datos de varias columnas. Consulte las siguientes secciones para obtener más detalles sobre las distintas posibilidades.
 
@@ -167,11 +168,11 @@ Existen cuatro tipos de campos calculados:
 * **[!UICONTROL JavaScript expression]**: el valor del campo calculado es el resultado de la evaluación de una función de JavaScript. El valor devuelto puede ser un número, una fecha, etc.
 * **[!UICONTROL Enumeration]**: el valor del campo se atribuye de acuerdo con un valor contenido en el archivo de origen. El editor permite especificar la columna de origen e introducir la lista de valores numéricos, como en el siguiente ejemplo:
 
-   ![](assets/s_ncs_user_import_wizard03_3.png)
+  ![](assets/s_ncs_user_import_wizard03_3.png)
 
-   La pestaña **[!UICONTROL Preview]** permite ver el resultado de la configuración definida. En este caso, se ha añadido la columna **[!UICONTROL Subscription]**. El valor se calcula desde el campo **Estado**.
+  La pestaña **[!UICONTROL Preview]** permite ver el resultado de la configuración definida. En este caso, se ha añadido la columna **[!UICONTROL Subscription]**. El valor se calcula desde el campo **Estado**.
 
-   ![](assets/s_ncs_user_import_wizard03_4.png)
+  ![](assets/s_ncs_user_import_wizard03_4.png)
 
 ## Paso 4: Composición {#step-4---reconciliation}
 
@@ -267,7 +268,7 @@ En la página de reconciliación de datos, puede definir el tipo de gestión de 
 * **[!UICONTROL Reject parent element]**: se rechaza toda la línea del registro, no solo el campo que provocó un error.
 * **[!UICONTROL Reject all elements]**: la importación se detiene y todos los elementos del registro se rechazan.
 
-   ![](assets/s_ncs_user_import_wizard04_4.png)
+  ![](assets/s_ncs_user_import_wizard04_4.png)
 
 El árbol de la pantalla de rechazo de una instancia de importación indica qué campos se rechazaron y dónde se produjeron los errores.
 

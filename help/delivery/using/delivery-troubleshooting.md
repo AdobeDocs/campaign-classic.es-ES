@@ -2,14 +2,14 @@
 product: campaign
 title: Solución de problemas de envíos de entregas
 description: Obtenga más información sobre el rendimiento de las entregas y cómo solucionar problemas relacionados con la monitorización de entregas
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Monitoring, Deliverability
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+feature: Monitoring, Deliverability, Troubleshooting
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 100%
+source-wordcount: '803'
+ht-degree: 98%
 
 ---
 
@@ -57,42 +57,42 @@ Los registros de entregas son esenciales para saber por qué ha fallado una entr
 
 * Si los mensajes al destinatario fallan e indican el error “inaccesible”:
 
-   ```
-   Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
-   ```
+  ```
+  Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
+  ```
 
-   La causa de este problema es casi siempre una personalización dentro del HTML que intenta llamar a una tabla o campo que no se ha definido o asignado en el objetivo ascendente o en la asignación de destino de la entrega.
+  La causa de este problema es casi siempre una personalización dentro del HTML que intenta llamar a una tabla o campo que no se ha definido o asignado en el objetivo ascendente o en la asignación de destino de la entrega.
 
-   Para corregir esto, es necesario revisar el flujo de trabajo y el contenido de la entrega para determinar específicamente qué personalización está intentando llamar a la tabla en cuestión y si se puede asignar o no la tabla. Desde este punto, la forma de resolver el problema sería eliminar la llamada a esta tabla en el HTML o corregir la asignación a la entrega.
+  Para corregir esto, es necesario revisar el flujo de trabajo y el contenido de la entrega para determinar específicamente qué personalización está intentando llamar a la tabla en cuestión y si se puede asignar o no la tabla. Desde este punto, la forma de resolver el problema sería eliminar la llamada a esta tabla en el HTML o corregir la asignación a la entrega.
 
 * En el modelo de implementación de mid-sourcing, el siguiente mensaje puede aparecer en los “logs” de envío:
 
-   ```
-   Error during the call of method 'AppendDeliveryPart' on the mid sourcing server: 'Communication error with the server: please check this one is correctly configured. Code HTTP 408 'Service temporarily unavailable'.
-   ```
+  ```
+  Error during the call of method 'AppendDeliveryPart' on the mid sourcing server: 'Communication error with the server: please check this one is correctly configured. Code HTTP 408 'Service temporarily unavailable'.
+  ```
 
-   La causa está relacionada con problemas de rendimiento. Significa que la instancia de marketing invierte demasiado tiempo creando datos antes de enviarlos al servidor de intermediario.
+  La causa está relacionada con problemas de rendimiento. Significa que la instancia de marketing invierte demasiado tiempo creando datos antes de enviarlos al servidor de intermediario.
 
-   Para resolver esto, recomendamos realizar una limpieza y reindexar la base de datos. Para obtener más información sobre el mantenimiento de la base de datos, consulte [esta sección](../../production/using/recommendations.md).
+  Para resolver esto, recomendamos realizar una limpieza y reindexar la base de datos. Para obtener más información sobre el mantenimiento de la base de datos, consulte [esta sección](../../production/using/recommendations.md).
 
-   También debe reiniciar todos los flujos de trabajo con una actividad programada y todos los flujos de trabajo en estado fallido. Consulte [esta sección](../../workflow/using/scheduler.md).
+  También debe reiniciar todos los flujos de trabajo con una actividad programada y todos los flujos de trabajo en estado fallido. Consulte [esta sección](../../workflow/using/scheduler.md).
 
 * Cuando una entrega falla, el siguiente error puede aparecer en los “logs” de envío:
 
-   ```
-   DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
-   ```
+  ```
+  DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
+  ```
 
-   Normalmente, este error significa que existe un campo o un bloque personalizado dentro del correo electrónico que tiene más de un valor para el destinatario. Se está utilizando un bloque personalizado que está recuperando más de un registro para un destinatario determinado.
+  Normalmente, este error significa que existe un campo o un bloque personalizado dentro del correo electrónico que tiene más de un valor para el destinatario. Se está utilizando un bloque personalizado que está recuperando más de un registro para un destinatario determinado.
 
-   Para resolver esto, compruebe los datos personalizados utilizados y, a continuación, compruebe el objetivo de los destinatarios que tengan más de una entrada para cualquiera de esos campos. También puede utilizar una actividad **[!UICONTROL Deduplication]** en el flujo de trabajo de objetivos antes de la actividad de entrega para comprobar que solo hay un campo de personalización a la vez. Para obtener más información sobre la deduplicación, consulte [esta sección](../../workflow/using/deduplication.md).
+  Para resolver esto, compruebe los datos personalizados utilizados y, a continuación, compruebe el objetivo de los destinatarios que tengan más de una entrada para cualquiera de esos campos. También puede utilizar una actividad **[!UICONTROL Deduplication]** en el flujo de trabajo de objetivos antes de la actividad de entrega para comprobar que solo hay un campo de personalización a la vez. Para obtener más información sobre la deduplicación, consulte [esta sección](../../workflow/using/deduplication.md).
 
 * Algunos envíos pueden fallar con un error que indica “inaccesible”:
 
-   ```
-   Inbound email bounce (rule 'Auto_replies' has matched this bounce).
-   ```
+  ```
+  Inbound email bounce (rule 'Auto_replies' has matched this bounce).
+  ```
 
-   Esto significa que la entrega se realizó correctamente, pero Adobe Campaign recibió un mensaje de respuesta automática del destinatario (por ejemplo, “fuera de la oficina”) que coincidió con las reglas de correo electrónico entrante de “respuesta automática”.
+  Esto significa que la entrega se realizó correctamente, pero Adobe Campaign recibió un mensaje de respuesta automática del destinatario (por ejemplo, “fuera de la oficina”) que coincidió con las reglas de correo electrónico entrante de “respuesta automática”.
 
-   Adobe Campaign ignora el correo electrónico de respuesta automática y la dirección del destinatario no se pone en cuarentena.
+  Adobe Campaign ignora el correo electrónico de respuesta automática y la dirección del destinatario no se pone en cuarentena.

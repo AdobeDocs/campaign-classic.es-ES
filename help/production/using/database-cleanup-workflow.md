@@ -2,14 +2,15 @@
 product: campaign
 title: Flujo de trabajo para limpieza de bases de datos
 description: Descubra cómo se limpian automáticamente los datos obsoletos
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Monitoring, Workflows
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2823'
+source-wordcount: '2830'
 ht-degree: 1%
 
 ---
@@ -63,16 +64,16 @@ Los campos del **[!UICONTROL Purge of data]** coincide con las siguientes opcion
 * Perfiles de visitantes: **NmsCleanup_VisitorPurgeDelay** (consulte [Limpieza de visitantes](#cleanup-of-visitors))
 * Propuestas de oferta: **NmsCleanup_PropositionPurgeDelay** (consulte [Limpieza de propuestas](#cleanup-of-propositions))
 
-   >[!NOTE]
-   >
-   >El **[!UICONTROL Offer propositions]** El campo solo está disponible cuando la variable **Interacción** El módulo de está instalado.
+  >[!NOTE]
+  >
+  >El **[!UICONTROL Offer propositions]** El campo solo está disponible cuando la variable **Interacción** El módulo de está instalado.
 
 * Eventos: **NmsCleanup_EventPurgeDelay** (consulte [Limpieza de eventos caducados](#cleansing-expired-events))
 * Eventos archivados: **NmsCleanup_EventHistoPurgeDelay** (consulte [Limpieza de eventos caducados](#cleansing-expired-events))
 
-   >[!NOTE]
-   >
-   >El **[!UICONTROL Events]** y **[!UICONTROL Archived events]** Los campos de solo están disponibles si **Centro de mensajes** El módulo de está instalado.
+  >[!NOTE]
+  >
+  >El **[!UICONTROL Events]** y **[!UICONTROL Archived events]** Los campos de solo están disponibles si **Centro de mensajes** El módulo de está instalado.
 
 * Pista de auditoría: **XtkCleanup_AuditTrailPurgeDelay** (consulte [Limpieza de la pista de auditoría](#cleanup-of-audit-trail))
 
@@ -132,19 +133,19 @@ Esta tarea purga todas las entregas para eliminarlos o reciclarlos.
 
    * En la tabla de exclusión de envíos (**NmsDlvExclusion**), se utiliza la siguiente consulta:
 
-      ```sql
-      DELETE FROM NmsDlvExclusion WHERE iDeliveryId=$(l)
-      ```
+     ```sql
+     DELETE FROM NmsDlvExclusion WHERE iDeliveryId=$(l)
+     ```
 
-      donde **$(l)** es el identificador de la entrega.
+     donde **$(l)** es el identificador de la entrega.
 
    * En la tabla de cupones (**NmsCouponValue**), se utiliza la siguiente consulta (con eliminaciones masivas):
 
-      ```sql
-      DELETE FROM NmsCouponValue WHERE iMessageId IN (SELECT iMessageId FROM NmsCouponValue WHERE EXISTS (SELECT B.iBroadLogId FROM $(BroadLogTableName) B WHERE B.iDeliveryId = $(l) AND B.iBroadLogId = iMessageId ) LIMIT 5000)
-      ```
+     ```sql
+     DELETE FROM NmsCouponValue WHERE iMessageId IN (SELECT iMessageId FROM NmsCouponValue WHERE EXISTS (SELECT B.iBroadLogId FROM $(BroadLogTableName) B WHERE B.iDeliveryId = $(l) AND B.iBroadLogId = iMessageId ) LIMIT 5000)
+     ```
 
-      donde `$(l)` es el identificador de la entrega.
+     donde `$(l)` es el identificador de la entrega.
 
    * En las tablas del registro de envío (**NmsBroadlogXxx**), las eliminaciones masivas se ejecutan en lotes de 20 000 registros.
    * En las tablas de propuesta de ofertas (**NmsPropositionXxx**), las eliminaciones masivas se ejecutan en lotes de 20 000 registros.
@@ -155,13 +156,13 @@ Esta tarea purga todas las entregas para eliminarlos o reciclarlos.
    * En la tabla de registro de procesos por lotes (**XtkJobLog**), las eliminaciones masivas se ejecutan en lotes de 20 000 registros. Esta tabla contiene el registro de envíos que se van a eliminar.
    * En la tabla de seguimiento de URL de entrega (**NmsTrackingUrl**), se utiliza la siguiente consulta:
 
-      ```sql
-      DELETE FROM NmsTrackingUrl WHERE iDeliveryId=$(l)
-      ```
+     ```sql
+     DELETE FROM NmsTrackingUrl WHERE iDeliveryId=$(l)
+     ```
 
-      donde `$(l)` es el identificador de la entrega.
+     donde `$(l)` es el identificador de la entrega.
 
-      Esta tabla contiene las direcciones URL encontradas en los envíos que se van a eliminar para habilitar su seguimiento.
+     Esta tabla contiene las direcciones URL encontradas en los envíos que se van a eliminar para habilitar su seguimiento.
 
 1. La entrega se elimina de la tabla de entregas (**NmsDelivery**):
 
@@ -175,7 +176,7 @@ Esta tarea purga todas las entregas para eliminarlos o reciclarlos.
 
 El **[!UICONTROL Database cleanup]** El flujo de trabajo de también elimina los envíos en los servidores de mid-sourcing.
 
-1. Para ello, el flujo de trabajo comprueba que cada envío está inactivo (según su estado). Si una entrega está activo, se detendrá antes de eliminarse. La comprobación se realiza ejecutando la siguiente consulta:
+1. Para ello, el flujo de trabajo comprueba que cada entrega está inactivo (según su estado). Si una entrega está activo, se detendrá antes de eliminarse. La comprobación se realiza ejecutando la siguiente consulta:
 
    ```sql
    SELECT iState FROM NmsDelivery WHERE iDeliveryId = $(l) AND iState <> 100;

@@ -1,9 +1,10 @@
 ---
 product: campaign
 title: Protección de privacidad de correo en la aplicación Mail de Apple
+feature: Technote, Privacy, Privacy Tools
 description: Descubra cómo sus campañas podrían verse afectadas por la función Protección de privacidad de correo de Apple
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
-source-git-commit: 83fe7eb4f857306ac1c8bb3a93a9393b76ae1e3c
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '2056'
 ht-degree: 1%
@@ -61,21 +62,21 @@ Para recopilar datos de Adobe Campaign, puede utilizar informes predeterminados 
 
 * **[!UICONTROL Operating Systems]** informe
 
-   Para identificar la proporción de visitantes por sistema operativo y por versión, utilice este informe. [Más información](../../reporting/using/global-reports.md#operating-systems).
+  Para identificar la proporción de visitantes por sistema operativo y por versión, utilice este informe. [Más información](../../reporting/using/global-reports.md#operating-systems).
 
-   Puede ver el desglose de visitantes por sistema operativo en relación con la cantidad total de visitantes.
+  Puede ver el desglose de visitantes por sistema operativo en relación con la cantidad total de visitantes.
 
-   ![](../../reporting/using/assets/s_ncs_user_os_report.png)
+  ![](../../reporting/using/assets/s_ncs_user_os_report.png)
 
-   Para cada sistema operativo, puede ver el desglose de visitantes por versión del sistema operativo.
+  Para cada sistema operativo, puede ver el desglose de visitantes por versión del sistema operativo.
 
-   ![](../../reporting/using/assets/s_ncs_user_os_report2.png)
+  ![](../../reporting/using/assets/s_ncs_user_os_report2.png)
 
 * **[!UICONTROL Breakdown of opens]** informe
 
-   Para identificar la proporción de correos electrónicos abiertos por sistema operativo, utilice este informe. [Más información](../../reporting/using/global-reports.md#breakdown-of-opens).
+  Para identificar la proporción de correos electrónicos abiertos por sistema operativo, utilice este informe. [Más información](../../reporting/using/global-reports.md#breakdown-of-opens).
 
-   ![](../../reporting/using/assets/dlv_useragent_report.png)
+  ![](../../reporting/using/assets/dlv_useragent_report.png)
 
 ### Determinar cómo se utiliza el seguimiento de aperturas de correo electrónico {#find-email-open-tracking}
 
@@ -89,21 +90,21 @@ En este ejemplo, un experto en marketing desea enviar una oferta de recompensa a
 
 * Puede utilizar las aperturas de correo electrónico como criterio de objetivo en una consulta.
 
-   Como condición de filtrado, puede especificar que el tipo de URL de los registros de seguimiento de una entrega específica se establezca en **[!UICONTROL Open]**.
+  Como condición de filtrado, puede especificar que el tipo de URL de los registros de seguimiento de una entrega específica se establezca en **[!UICONTROL Open]**.
 
-   ![](assets/identify-email-open-tracking-2.png)
+  ![](assets/identify-email-open-tracking-2.png)
 
 * Puede utilizar un filtro predefinido. [Más información](../../workflow/using/creating-a-filter.md).
 
-   ![](assets/identify-email-open-tracking-3.png)
+  ![](assets/identify-email-open-tracking-3.png)
 
-   Puede utilizar este filtro predefinido en las actividades de consulta de los flujos de trabajo.
+  Puede utilizar este filtro predefinido en las actividades de consulta de los flujos de trabajo.
 
-   ![](assets/identify-email-open-tracking-4.png)
+  ![](assets/identify-email-open-tracking-4.png)
 
-   >[!NOTE]
-   >
-   >Desde un flujo de trabajo, no se pueden ver los criterios de objetivo de un filtro predefinido.
+  >[!NOTE]
+  >
+  >Desde un flujo de trabajo, no se pueden ver los criterios de objetivo de un filtro predefinido.
 
 Para recuperar la lista de flujos de trabajo en los que las aperturas de correo electrónico se utilizan como criterio de objetivo, debe consultar la `xtk:workflow` esquema. El contenido del flujo de trabajo se almacena en la variable **[!UICONTROL XML memo (data)]** en formato XML.
 
@@ -326,7 +327,7 @@ Le recomendamos encarecidamente que conserve estos datos por varios motivos:
 
 * Adobe Campaign conserva estos datos durante un período limitado. El periodo de retención varía en función de la configuración de la instancia.
 
-   Compruebe la configuración de la instancia. [Más información](../../platform/using/privacy-management.md#data-retention).
+  Compruebe la configuración de la instancia. [Más información](../../platform/using/privacy-management.md#data-retention).
 
 * Además de los cambios recientes de Apple, puede utilizar los datos de seguimiento para añadir un valor inmenso y así aumentar la participación de su audiencia.
 * Apple puede introducir más cambios en su aplicación de correo nativa y en su función de protección de privacidad de correo.
@@ -433,9 +434,9 @@ Estos ejemplos muestran cómo se pueden utilizar flujos de trabajo para desglosa
 
    1. Un **[!UICONTROL End]** la actividad sigue a cada **[!UICONTROL Deduplication]** actividad.
 
-   Este tipo de flujo de trabajo resulta útil si almacena los destinatarios únicamente en la tabla de destinatarios predeterminada para la segmentación.
+  Este tipo de flujo de trabajo resulta útil si almacena los destinatarios únicamente en la tabla de destinatarios predeterminada para la segmentación.
 
-   ![](assets/export-tracking-data-wkf-1.png)
+  ![](assets/export-tracking-data-wkf-1.png)
 
 * El segundo flujo de trabajo de ejemplo incluye estas actividades:
 
@@ -445,8 +446,9 @@ Estos ejemplos muestran cómo se pueden utilizar flujos de trabajo para desglosa
 
       * En una transición, la variable **[!UICONTROL Change dimension]** se utiliza para encontrar los destinatarios a los que hace referencia el registro de seguimiento.
       * En la otra transición, la variable **[!UICONTROL Split]** La actividad se utiliza para dividir la selección por aplicación de correo electrónico, explorador, sistema operativo y dispositivo.
+
    1. Un **[!UICONTROL End]** La actividad sigue cada transición después de la **[!UICONTROL Split]** actividad.
 
-   Este tipo de flujo de trabajo resulta útil si almacena los destinatarios en una tabla distinta a la tabla de destinatarios predeterminada.
+  Este tipo de flujo de trabajo resulta útil si almacena los destinatarios en una tabla distinta a la tabla de destinatarios predeterminada.
 
-   ![](assets/export-tracking-data-wkf-2.png)
+  ![](assets/export-tracking-data-wkf-2.png)

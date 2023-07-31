@@ -2,16 +2,17 @@
 product: campaign
 title: Configuraciones generales
 description: Configuraciones generales
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: migration
 content-type: reference
 topic-tags: configuration
 hide: true
 hidefromtoc: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2632'
 ht-degree: 1%
 
 ---
@@ -113,7 +114,7 @@ nlserver config -internalpassword
 
 * Los usuarios sin permisos de ya no pueden conectarse a Adobe Campaign. Sus permisos deben añadirse manualmente, por ejemplo, creando un permiso llamado **conectar**.
 
-   Los usuarios afectados por esta modificación se identifican y enumeran durante la posactualización.
+  Los usuarios afectados por esta modificación se identifican y enumeran durante la posactualización.
 
 * El seguimiento ya no funciona si la contraseña está vacía. Si este es el caso, un mensaje de error le hará saber y le pedirá que vuelva a configurarlo.
 * Las contraseñas de usuario ya no se almacenan en **xtk:sessionInfo** esquema.
@@ -205,47 +206,47 @@ Para todos los demás tipos de objetos, la sintaxis es ahora **[!UICONTROL myObj
 
 * Sintaxis anterior:
 
-   ```
-   employee.@sn
-   ```
+  ```
+  employee.@sn
+  ```
 
 * Nueva sintaxis:
 
-   ```
-   employee["sn"]
-   ```
+  ```
+  employee["sn"]
+  ```
 
 Para cambiar un valor en un objeto XML, ahora debe empezar actualizando el valor antes de agregar el nodo XML:
 
 * Código JavaScript antiguo:
 
-   ```
-   var cellStyle = node.style.copy();
-   this.styles.appendChild(cellStyle);
-   cellStyle.@width = column.@width;
-   ```
+  ```
+  var cellStyle = node.style.copy();
+  this.styles.appendChild(cellStyle);
+  cellStyle.@width = column.@width;
+  ```
 
 * Nuevo código JavaScript:
 
-   ```
-   var cellStyle = node.style.copy();
-   cellStyle.@width = column.@width;
-   this.styles.appendChild(cellStyle);
-   ```
+  ```
+  var cellStyle = node.style.copy();
+  cellStyle.@width = column.@width;
+  this.styles.appendChild(cellStyle);
+  ```
 
 Ya no se puede utilizar un atributo XML como clave de tabla.
 
 * Sintaxis anterior:
 
-   ```
-   if(serverForm.activities[ctx.activityHistory.activity[0].@name].type !="end")
-   ```
+  ```
+  if(serverForm.activities[ctx.activityHistory.activity[0].@name].type !="end")
+  ```
 
 * Nueva sintaxis:
 
-   ```
-   if(serverForm.activities[String(ctx.activityHistory.activity[0].@name)].type !="end"
-   ```
+  ```
+  if(serverForm.activities[String(ctx.activityHistory.activity[0].@name)].type !="end"
+  ```
 
 ### SQLData {#sqldata}
 
@@ -289,53 +290,53 @@ A continuación encontrará ejemplos comparativos entre la sintaxis antigua y la
 
 * Sintaxis anterior:
 
-   ```
-   <condition expr="@id NOT IN ([SQLDATA[SELECT iOperatorId FROM XtkOperatorGroup WHERE iGroupId = $(../@owner-id)]])" enabledIf="$(/ignored/@ownerType)=1"/>
-   ```
+  ```
+  <condition expr="@id NOT IN ([SQLDATA[SELECT iOperatorId FROM XtkOperatorGroup WHERE iGroupId = $(../@owner-id)]])" enabledIf="$(/ignored/@ownerType)=1"/>
+  ```
 
 * Nueva sintaxis:
 
-   ```
-   <condition setOperator="NOT IN" expr="@id" enabledIf="$(/ignored/@ownerType)=1">
-     <subQuery schema="xtk:operatorGroup">
-        <select>
-          <node expr="[@operator-id]" />
-        </select>
-        <where>
-          <condition expr="[@group-id]=$long(../@owner-id)"/>
-        </where>
-      </subQuery>
-   </condition>
-   ```
+  ```
+  <condition setOperator="NOT IN" expr="@id" enabledIf="$(/ignored/@ownerType)=1">
+    <subQuery schema="xtk:operatorGroup">
+       <select>
+         <node expr="[@operator-id]" />
+       </select>
+       <where>
+         <condition expr="[@group-id]=$long(../@owner-id)"/>
+       </where>
+     </subQuery>
+  </condition>
+  ```
 
 * Sintaxis anterior:
 
-   ```
-   <queryFilter name="dupEmail" label="Emails duplicated in the folder" schema="nms:recipient">
-       <where>
-         <condition sql="sEmail in (select sEmail from nmsRecipient where iFolderId=$(folderId) group by sEmail having count(sEmail)>1)" internalId="1"/>
-       </where>
-       <folder _operation="none" name="nmsSegment"/>
-     </queryFilter>
-   ```
+  ```
+  <queryFilter name="dupEmail" label="Emails duplicated in the folder" schema="nms:recipient">
+      <where>
+        <condition sql="sEmail in (select sEmail from nmsRecipient where iFolderId=$(folderId) group by sEmail having count(sEmail)>1)" internalId="1"/>
+      </where>
+      <folder _operation="none" name="nmsSegment"/>
+    </queryFilter>
+  ```
 
 * Nueva sintaxis:
 
-   ```
-   <queryFilter name="dupEmail" label=" Emails duplicated in the folder " schema="nms:recipient">
-       <where>
-         <condition expr="@email" setOperator="IN" internalId="1">
-           <subQuery schema="nms:recipient">
-             <select><node expr="@email"/></select>
-             <where><condition expr="[@folder-id]=$(folderId)"/></where>
-             <groupBy><node expr="@email"/></groupBy>
-             <having><condition expr="count(@email)>1"/></having>
-           </subQuery>
-         </condition>
-       </where>
-       <folder _operation="none" name="nmsSegment"/>
-     </queryFilter>
-   ```
+  ```
+  <queryFilter name="dupEmail" label=" Emails duplicated in the folder " schema="nms:recipient">
+      <where>
+        <condition expr="@email" setOperator="IN" internalId="1">
+          <subQuery schema="nms:recipient">
+            <select><node expr="@email"/></select>
+            <where><condition expr="[@folder-id]=$(folderId)"/></where>
+            <groupBy><node expr="@email"/></groupBy>
+            <having><condition expr="count(@email)>1"/></having>
+          </subQuery>
+        </condition>
+      </where>
+      <folder _operation="none" name="nmsSegment"/>
+    </queryFilter>
+  ```
 
 **El agregado**
 
@@ -343,34 +344,34 @@ Función de agregado (colección)
 
 * Sintaxis anterior:
 
-   ```
-   <node sql="(select count(*) from NmsNewsgroup WHERE O0.iOperationId=iOperationId)" alias="@nbMessages"/>
-   ```
+  ```
+  <node sql="(select count(*) from NmsNewsgroup WHERE O0.iOperationId=iOperationId)" alias="@nbMessages"/>
+  ```
 
 * Nueva sintaxis:
 
-   ```
-   <node expr="count([newsgroup/@id])" alias="../@nbMessages"/>
-   ```
+  ```
+  <node expr="count([newsgroup/@id])" alias="../@nbMessages"/>
+  ```
 
-   >[!NOTE]
-   >
-   >Las uniones se llevan a cabo automáticamente para las funciones acumuladas. Ya no es necesario especificar la condición WHERE O0.iOperationId=iOperationId.
-   >
-   >Ya no es posible utilizar la función &quot;count(&#42;)&quot;. Debe utilizar &quot;count()&quot;.
+  >[!NOTE]
+  >
+  >Las uniones se llevan a cabo automáticamente para las funciones acumuladas. Ya no es necesario especificar la condición WHERE O0.iOperationId=iOperationId.
+  >
+  >Ya no es posible utilizar la función &quot;count(&#42;)&quot;. Debe utilizar &quot;count()&quot;.
 
 * Sintaxis anterior:
 
-   ```
-   <node sql="(select Sum(iToDeliver) from NmsDelivery WHERE O0.iOperationId=iOperationId AND iSandboxMode=0 AND iState>=45)" alias="@nbMessages"/>
-   ```
+  ```
+  <node sql="(select Sum(iToDeliver) from NmsDelivery WHERE O0.iOperationId=iOperationId AND iSandboxMode=0 AND iState>=45)" alias="@nbMessages"/>
+  ```
 
 * Nueva sintaxis:
 
-   ```
-   <node expr="Sum([delivery-linkedDelivery/properties/@toDeliver])" alias= "../@sumToDeliver">
-                     <where><condition expr="[validation/@sandboxMode]=0 AND @state>=45" /></where></node>
-   ```
+  ```
+  <node expr="Sum([delivery-linkedDelivery/properties/@toDeliver])" alias= "../@sumToDeliver">
+                    <where><condition expr="[validation/@sandboxMode]=0 AND @state>=45" /></where></node>
+  ```
 
 **Filtros por uniones**
 
@@ -380,16 +381,16 @@ El alias es opcional
 
 * Sintaxis anterior:
 
-   ```
-   <condition expr={"[" + joinPart.destination.nodePath + "] = [SQLDATA[W." + joinPart.source.SQLName + "]]"}
-                                            aliasSqlTable={nodeSchemaRoot.SQLTable + " W"}/>
-   ```
+  ```
+  <condition expr={"[" + joinPart.destination.nodePath + "] = [SQLDATA[W." + joinPart.source.SQLName + "]]"}
+                                           aliasSqlTable={nodeSchemaRoot.SQLTable + " W"}/>
+  ```
 
 * Nueva sintaxis:
 
-   ```
-   <condition expr={"[" + joinPart.destination.nodePath + "] = [" + nodeSchema.id + ":" + joinPart.source.nodePath + "]]"}/>
-   ```
+  ```
+  <condition expr={"[" + joinPart.destination.nodePath + "] = [" + nodeSchema.id + ":" + joinPart.source.nodePath + "]]"}/>
+  ```
 
 **Sugerencias y trucos**
 
@@ -430,16 +431,16 @@ El resultado de la sincronización se puede ver de dos maneras:
 
 * En la interfaz de la línea de comandos, los errores se materializan mediante un corchete triple **>>>** y la sincronización se detiene automáticamente. Las advertencias se materializan mediante comillas dobles **>>** y deben resolverse una vez finalizada la sincronización. Al final de la posactualización, se muestra un resumen en el símbolo del sistema. Por ejemplo:
 
-   ```
-   2013-04-09 07:48:39.749Z        00002E7A          1     info    log     =========Summary of the update==========
-   2013-04-09 07:48:39.749Z        00002E7A          1     info    log     test instance, 6 warning(s) and 0 error(s) during the update.
-   2013-04-09 07:48:39.749Z        00002E7A          1     warning log     The document with identifier 'mobileAppDeliveryFeedback' and type 'xtk:report' is in conflict with the new version.
-   2013-04-09 07:48:39.749Z        00002E7A          1     warning log     The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
-   2013-04-09 07:48:39.750Z        00002E7A          1     warning log     The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
-   2013-04-09 07:48:39.750Z        00002E7A          1     warning log     Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
-   ```
+  ```
+  2013-04-09 07:48:39.749Z        00002E7A          1     info    log     =========Summary of the update==========
+  2013-04-09 07:48:39.749Z        00002E7A          1     info    log     test instance, 6 warning(s) and 0 error(s) during the update.
+  2013-04-09 07:48:39.749Z        00002E7A          1     warning log     The document with identifier 'mobileAppDeliveryFeedback' and type 'xtk:report' is in conflict with the new version.
+  2013-04-09 07:48:39.749Z        00002E7A          1     warning log     The document with identifier 'opensByUserAgent' and type 'xtk:report' is in conflict with the new version.
+  2013-04-09 07:48:39.750Z        00002E7A          1     warning log     The document with identifier 'deliveryValidation' and type 'nms:webApp' is in conflict with the new version.
+  2013-04-09 07:48:39.750Z        00002E7A          1     warning log     Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
+  ```
 
-   Si la advertencia se refiere a un conflicto de recursos, se requiere la atención del operador para resolverlo.
+  Si la advertencia se refiere a un conflicto de recursos, se requiere la atención del operador para resolverlo.
 
 * El **postupgrade_`<server version number>`_hora de postactualización`>`.log** contiene el resultado de la sincronización. Está disponible de forma predeterminada en el siguiente directorio: **directorio de instalación/var/`<instance>`posterior a la actualización**. Los errores y advertencias se indican mediante la variable **error** y **advertencia** atributos.
 
@@ -458,9 +459,9 @@ Existen tres formas posibles de resolver un conflicto:
 * **[!UICONTROL Accept the new version]**: recomendado si el usuario no ha cambiado los recursos proporcionados con Adobe Campaign.
 * **[!UICONTROL Keep the current version]**: significa que la actualización se rechaza.
 
-   >[!IMPORTANT]
-   >
-   >Si selecciona este modo de resolución, se arriesga a perder parches en la nueva versión. Por lo tanto, se recomienda encarecidamente que esta opción no se utilice ni se reserve únicamente para operadores expertos.
+  >[!IMPORTANT]
+  >
+  >Si selecciona este modo de resolución, se arriesga a perder parches en la nueva versión. Por lo tanto, se recomienda encarecidamente que esta opción no se utilice ni se reserve únicamente para operadores expertos.
 
 Si decide resolver manualmente el conflicto, siga este procedimiento:
 

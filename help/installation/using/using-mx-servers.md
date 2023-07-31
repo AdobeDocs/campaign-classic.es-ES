@@ -2,17 +2,18 @@
 product: campaign
 title: Uso de servidores MX con Campaign
 description: Descubra cómo funcionan los servidores MX con Adobe Campaign Classic
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 hidefromtoc: true
 exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 1%
+source-wordcount: '830'
+ht-degree: 3%
 
 ---
 
@@ -34,7 +35,7 @@ Cuando envía un correo electrónico, el servidor de software establece una cone
 
 ### ¿Cómo funciona un servidor MX con Adobe Campaign?
 
-En el protocolo de conexión, deben respetarse las reglas para evitar el spam y la monopolización de los servidores. Los más importantes son los siguientes:
+En el protocolo de conexión, deben respetarse las reglas para evitar el spam y el monopolio de los servidores. Los más importantes son los siguientes:
 
 * **Número máximo de conexiones permitidas**: Cuando se respeta este número, las direcciones IP no están en la lista de bloqueados de la y los correos electrónicos no se rechazan debido a conexiones adicionales.
 * **Número máximo de mensajes**: Durante la conexión, se debe definir el número de mensajes que se pueden enviar. Si no se define este número, el servidor enviará tantos como sea posible. Esto hace que se identifique como correo no deseado y el ISP lo añada a la lista de bloqueados de la.

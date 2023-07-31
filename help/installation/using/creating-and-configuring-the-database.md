@@ -2,16 +2,17 @@
 product: campaign
 title: Creación y configuración de la base de datos
 description: Creación y configuración de la base de datos
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 2%
+source-wordcount: '1321'
+ht-degree: 3%
 
 ---
 
@@ -61,11 +62,11 @@ Según el motor de base de datos seleccionado, la información de identificació
 * Para un **PostgreSQL** o **DB2** , debe especificar el nombre DNS (o la dirección IP) definida en el servidor de aplicaciones para acceder al servidor de base de datos.
 * Para un **Microsoft SQL Server** motor, debe definir: el nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de base de datos: **DNS** o **DNS`\<instance>`** (modo de instancia),
 
-   >[!CAUTION]
-   >
-   > A partir de la versión 20.3, se retira la autenticación de Windows NT. **[!UICONTROL SQL Server authentication]** es ahora el único modo de autenticación disponible para Microsoft SQL Server. [Más información](../../rn/using/deprecated-features.md)
+  >[!CAUTION]
+  >
+  > A partir de la versión 20.3, se retira la autenticación de Windows NT. **[!UICONTROL SQL Server authentication]** es ahora el único modo de autenticación disponible para Microsoft SQL Server. [Más información](../../rn/using/deprecated-features.md)
 
-   ![](assets/s_ncs_install_db_mssql_creation01.png)
+  ![](assets/s_ncs_install_db_mssql_creation01.png)
 
 ### Paso 2: Conexión al servidor {#step-2---connecting-to-the-server}
 
@@ -90,24 +91,24 @@ Debe definir la siguiente configuración:
 
 * Especifique el nombre de la base de datos que se va a crear.
 
-   >[!NOTE]
-   >
-   >Para una base de datos DB2, el nombre de la base de datos no debe exceder los 8 caracteres.
+  >[!NOTE]
+  >
+  >Para una base de datos DB2, el nombre de la base de datos no debe exceder los 8 caracteres.
 
 * Introduzca la contraseña de la cuenta vinculada a esta base de datos.
 * Indique si la base de datos debe estar en Unicode o no.
 
-   El **[!UICONTROL Unicode database]** La opción permite almacenar todos los tipos de caracteres en Unicode independientemente del idioma.
+  El **[!UICONTROL Unicode database]** La opción permite almacenar todos los tipos de caracteres en Unicode independientemente del idioma.
 
-   >[!NOTE]
-   >
-   >Con una base de datos de Oracle, la variable **[!UICONTROL Unicode storage]** La opción permite utilizar **NCLOB** y **NVARCHAR** escriba campos.
-   > 
-   >Si no selecciona esta opción, el conjunto de caracteres (charset) de la base de datos de Oracle debe habilitar el almacenamiento de datos en todos los idiomas (se recomienda AL32UTF8).
+  >[!NOTE]
+  >
+  >Con una base de datos de Oracle, la variable **[!UICONTROL Unicode storage]** La opción permite utilizar **NCLOB** y **NVARCHAR** escriba campos.
+  > 
+  >Si no selecciona esta opción, el conjunto de caracteres (charset) de la base de datos de Oracle debe habilitar el almacenamiento de datos en todos los idiomas (se recomienda AL32UTF8).
 
 * Elija una zona horaria para la base de datos y especifique si desea que esté en UTC (si está disponible).
 
-   Para obtener más información, consulte [Administración de husos horarios](../../installation/using/time-zone-management.md).
+  Para obtener más información, consulte [Administración de husos horarios](../../installation/using/time-zone-management.md).
 
 ### Paso 4: Paquetes para instalar {#step-4---packages-to-install}
 
@@ -125,7 +126,7 @@ El **[!UICONTROL Creation steps]** Esta ventana permite mostrar y editar el arch
 
 * Para un Oracle, Microsoft SQL Server o una base de datos PostgreSQL, el administrador también puede definir la variable **parámetros de almacenamiento** para utilizar al crear objetos de base de datos.
 
-   Estos parámetros reciben los nombres de tablespace exactos (advertencia: distingue mayúsculas de minúsculas). Se almacenan respectivamente en el **[!UICONTROL Administration > Platform > Options]** en las siguientes opciones (consulte [esta sección](../../installation/using/configuring-campaign-options.md#database)):
+  Estos parámetros reciben los nombres de tablespace exactos (advertencia: distingue mayúsculas de minúsculas). Se almacenan respectivamente en el **[!UICONTROL Administration > Platform > Options]** en las siguientes opciones (consulte [esta sección](../../installation/using/configuring-campaign-options.md#database)):
 
    * **WdbcOptions_TableSpaceUser**: tablas de usuario basadas en un esquema
    * **WdbcOptions_TableSpaceIndex**: índice de tablas de usuario basadas en un esquema
@@ -135,7 +136,7 @@ El **[!UICONTROL Creation steps]** Esta ventana permite mostrar y editar el arch
 * Para una base de datos de Oracle, el usuario de Adobe Campaign debe tener acceso a las bibliotecas de Oracle, normalmente como miembro de **oinstall** grupo.
 * El **[!UICONTROL Set or change the administrator password]** La opción permite introducir la contraseña vinculada al operador de Adobe Campaign con derechos de administrador.
 
-   Se recomienda definir una contraseña de administrador de cuenta de Adobe Campaign por motivos de seguridad.
+  Se recomienda definir una contraseña de administrador de cuenta de Adobe Campaign por motivos de seguridad.
 
 ### Paso 6: Creación de la base de datos {#step-6---creating-the-database}
 
@@ -201,10 +202,10 @@ Debe definir la siguiente configuración:
 * Introduzca el nombre de la base de datos que desea utilizar.
 * Introduzca el nombre y la contraseña de la cuenta asociada a esta base de datos.
 
-   >[!NOTE]
-   >
-   >Asegúrese de que coincidan el nombre de esquema y el nombre de usuario. La forma recomendada de crear la base de datos es mediante el cliente de la consola de Campaign.
-   >Para una base de datos de Oracle, no es necesario que escriba el nombre de la cuenta.
+  >[!NOTE]
+  >
+  >Asegúrese de que coincidan el nombre de esquema y el nombre de usuario. La forma recomendada de crear la base de datos es mediante el cliente de la consola de Campaign.
+  >Para una base de datos de Oracle, no es necesario que escriba el nombre de la cuenta.
 
 * Indique si la base de datos debe ser Unicode o no.
 
@@ -226,7 +227,7 @@ El **[!UICONTROL Creation steps]** Esta ventana permite mostrar y editar el arch
 * Para una base de datos de Oracle, el usuario de Adobe Campaign debe tener acceso a las bibliotecas de Oracle, normalmente como miembro de **oinstall** grupo.
 * El **[!UICONTROL Set or change the administrator password]** La opción permite introducir la contraseña vinculada al operador de Adobe Campaign con derechos de administrador.
 
-   Se recomienda definir una contraseña de administrador de cuenta de Adobe Campaign por motivos de seguridad.
+  Se recomienda definir una contraseña de administrador de cuenta de Adobe Campaign por motivos de seguridad.
 
 ### Paso 5: Creación de la base de datos {#step-5---creating-the-database}
 

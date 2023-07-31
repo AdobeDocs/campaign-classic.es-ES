@@ -2,11 +2,12 @@
 product: campaign
 title: Actualización de la estructura de la base de datos
 description: Actualización de la estructura de la base de datos
+feature: Configuration
 audience: configuration
 content-type: reference
 topic-tags: editing-schemas
 exl-id: 6c1e061b-8636-4285-8d83-97474544d252
-source-git-commit: 50a89f993523f3274e87ebac740d1c121082e18c
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 8%

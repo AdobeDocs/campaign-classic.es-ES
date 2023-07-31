@@ -2,13 +2,13 @@
 product: campaign
 title: Interacción y gestión de ofertas
 description: Aprenda a enviar las mejores ofertas a sus contactos en función de las reglas de elegibilidad
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: Interaction, Offers
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 97%
 
 ---
 

@@ -2,14 +2,14 @@
 product: campaign
 title: Puntos clave a la hora de administrar la entregabilidad en Adobe Campaign Classic
 description: Descubra los puntos clave que debe comprobar al administrar la entregabilidad en Adobe Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Deliverability
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+feature: Deliverability, Troubleshooting
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '666'
+ht-degree: 98%
 
 ---
 
@@ -51,13 +51,14 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
    * El estado **[!UICONTROL Denylisted]** es el resultado de un bucle de retroalimentación (cuando una persona informa un mensaje como correo no deseado).
 
    * El estado **[!UICONTROL Quarantined]** es el resultado de un rechazo suave o fuerte.
-   Para obtener más información, consulte [esta sección](understanding-quarantine-management.md#quarantine-vs-denylist).
+
+  Para obtener más información, consulte [esta sección](understanding-quarantine-management.md#quarantine-vs-denylist).
 
 * **¿Qué significan las diferentes razones de error de cuarentena?**
 
-   Estas son 10 razones posibles: no definido, usuario desconocido, dominio inválido, incluida en la lista de bloqueados, rechazado, error omitido, inaccesible, cuenta deshabilitada, buzón lleno, sin conexión.
+  Estas son 10 razones posibles: no definido, usuario desconocido, dominio inválido, incluida en la lista de bloqueados, rechazado, error omitido, inaccesible, cuenta deshabilitada, buzón lleno, sin conexión.
 
-   Para obtener más información, consulte [Comprensión de la administración de cuarentena](understanding-quarantine-management.md).
+  Para obtener más información, consulte [Comprensión de la administración de cuarentena](understanding-quarantine-management.md).
 
 ## Eliminación de la lista de bloqueados {#remove-from-denylist}
 
@@ -69,14 +70,14 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
 * **¿Cómo puedo averiguar si una de mis IP está en la lista de bloqueados? ¿Cómo elimino mis IP de una lista de bloqueados?**
 
-   Para comprobar si su dirección IP está en la lista de bloqueados, puede utilizar varios sitios web para verificarla, como:
+  Para comprobar si su dirección IP está en la lista de bloqueados, puede utilizar varios sitios web para verificarla, como:
    * [MX Toolbox](https://mxtoolbox.com/)
    * [¿Cuál es mi dirección IP?](https://whatismyipaddress.com)
 
-   Generalmente, el resultado de la comprobación de la dirección IP muestra una lista que contiene los detalles de la lista de bloqueados y el nombre del sitio web que bloqueó la dirección IP.
+  Generalmente, el resultado de la comprobación de la dirección IP muestra una lista que contiene los detalles de la lista de bloqueados y el nombre del sitio web que bloqueó la dirección IP.
 
-   Al hacer clic en el enlace correspondiente, puede acceder a los detalles del sitio web. Puede solicitar que su sitio web se elimine de la lista del sitio web que añadió la dirección IP a su lista de bloqueados.
+  Al hacer clic en el enlace correspondiente, puede acceder a los detalles del sitio web. Puede solicitar que su sitio web se elimine de la lista del sitio web que añadió la dirección IP a su lista de bloqueados.
 
-   >[!NOTE]
-   >
-   >El proceso de supresión de nombres de la lista puede variar según el sitio web. Algunos sitios requieren que cree una cuenta, mientras que otros solo necesitan que proporcione la dirección IP.
+  >[!NOTE]
+  >
+  >El proceso de supresión de nombres de la lista puede variar según el sitio web. Algunos sitios requieren que cree una cuenta, mientras que otros solo necesitan que proporcione la dirección IP.

@@ -2,16 +2,17 @@
 product: campaign
 title: Monitorización de la ejecución de trabajos
 description: Obtenga información sobre cómo monitorizar la ejecución de trabajos de importación y exportación
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Monitoring
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 94%
 
 ---
 
@@ -34,36 +35,36 @@ Cada estado aparece representado mediante un icono especial y una etiqueta. Los 
 
 * **Edición en curso**
 
-   Se está creando el trabajo.
+  Se está creando el trabajo.
 
 * **Ejecución en curso**
 
-   Se está ejecutando el trabajo.
+  Se está ejecutando el trabajo.
 
 * **Cancelar**
 
-   Haga clic en el botón **[!UICONTROL Cancel]**: el trabajo en curso se cancela.
+  Haga clic en el botón **[!UICONTROL Cancel]**: el trabajo en curso se cancela.
 
 * **Cancelación en curso**
 
-   El comando de cancelación se ha ejecutado y el trabajo se está cancelando.
+  El comando de cancelación se ha ejecutado y el trabajo se está cancelando.
 
 * **Pausa en curso**
 
-   Haga clic en **[!UICONTROL Pause]**: el trabajo se suspende.
+  Haga clic en **[!UICONTROL Pause]**: el trabajo se suspende.
 
 * **En pausa**
 
-   Haga clic en **[!UICONTROL Pause]**: el trabajo está suspendido. Se puede reiniciar haciendo clic en **[!UICONTROL Start]**.
+  Haga clic en **[!UICONTROL Pause]**: el trabajo está suspendido. Se puede reiniciar haciendo clic en **[!UICONTROL Start]**.
 
 * **Finalizado**
 
-   La ejecución del trabajo ha finalizado.
+  La ejecución del trabajo ha finalizado.
 
 * **Finalizado con error**
 
-   No se ha ejecutado el trabajo debido a un error técnico.
+  No se ha ejecutado el trabajo debido a un error técnico.
 
 * **Apagado del servidor en progreso**
 
-   El trabajo se ha interrumpido porque el servidor de Adobe Campaign se ha cerrado.
+  El trabajo se ha interrumpido porque el servidor de Adobe Campaign se ha cerrado.

@@ -2,16 +2,17 @@
 product: campaign
 title: Tipos de mantenimiento
 description: Tipos de mantenimiento
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: 08e179aa-fd83-4c0a-879e-ab7aec168d92
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 2%
+source-wordcount: '519'
+ht-degree: 5%
 
 ---
 
@@ -80,7 +81,7 @@ Hay varias estrategias disponibles:
   <tr> 
    <td> Duplicar, cambiar nombre y soltar<br /> </td> 
    <td> Esto crea una copia de una tabla y sus índices, luego suelta el existente y cambia el nombre de la copia para que ocupe su lugar.<br /> </td> 
-   <td> Este método es más rápido que el primero, ya que genera menos E/S (sin copia como archivo y lectura desde este archivo).<br /> </td> 
+   <td> Este método es más rápido que el primer enfoque, ya que genera menos E/S (sin copia como archivo y leer de este archivo).<br /> </td> 
    <td> Requiere el doble de espacio.<br /> Se deben detener todos los procesos activos que escriben en la tabla durante el proceso. Sin embargo, los procesos de lectura no se verán afectados, ya que la tabla se intercambia en el último momento una vez reconstruida. <br /> </td> 
   </tr> 
  </tbody> 

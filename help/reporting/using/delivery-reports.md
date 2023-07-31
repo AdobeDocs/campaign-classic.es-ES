@@ -2,18 +2,18 @@
 product: campaign
 title: Informes de entrega
 description: Informes de entrega
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+feature: Reporting, Monitoring
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 100%
+source-wordcount: '1463'
+ht-degree: 99%
 
 ---
 
-# Informes de entrega {#delivery-reports}
+# Informes de envío {#delivery-reports}
 
 
 
@@ -71,9 +71,9 @@ Este informe combina los indicadores clave para realizar un seguimiento del comp
 * **[!UICONTROL Clicks on the mirror page link]** : Número de clics en el vínculo de página espejo. Para que se tenga en cuenta un vínculo, este debe definirse como tal en el asistente de envíos (direcciones URL rastreadas). Consulte [esta página](../../delivery/using/about-delivery-monitoring.md).
 * **[!UICONTROL Estimation of forwards]** : Estimación del número de correos electrónicos reenviados por los destinatarios objetivo. Este valor se calcula restando el número de personas diferentes y el número de destinatarios diferentes que hicieron clic en el correo electrónico.
 
-   >[!NOTE]
-   >
-   >Para obtener más información sobre la diferencia entre personas diferentes y destinatarios objetivo, consulte [Personas / destinatarios objetivo](../../reporting/using/indicator-calculation.md#targeted-persons---recipients).
+  >[!NOTE]
+  >
+  >Para obtener más información sobre la diferencia entre personas diferentes y destinatarios objetivo, consulte [Personas / destinatarios objetivo](../../reporting/using/indicator-calculation.md#targeted-persons---recipients).
 
 **[!UICONTROL 3. Open and click-through rate]**
 
@@ -110,9 +110,9 @@ Esta tabla de valores muestra el desglose de envíos, aperturas, clics y reaccio
 * **[!UICONTROL Average count of articles per transaction]** : Cantidad media de elementos por compra realizada por distintos destinatarios.
 * **[!UICONTROL Average amount per message]** : Cantidad media de compras generadas por mensaje.
 
-   >[!NOTE]
-   >
-   >Para que se tenga en cuenta la transacción, la cantidad, el artículo o la página visitada, debe insertarse una etiqueta de seguimiento web en la página web correspondiente. La configuración de seguimiento web se muestra en [esta sección](../../configuration/using/about-web-tracking.md).
+  >[!NOTE]
+  >
+  >Para que se tenga en cuenta la transacción, la cantidad, el artículo o la página visitada, debe insertarse una etiqueta de seguimiento web en la página web correspondiente. La configuración de seguimiento web se muestra en [esta sección](../../configuration/using/about-web-tracking.md).
 
 **[!UICONTROL 6. Sharing activities to email and social networks]**
 
@@ -130,9 +130,9 @@ Las siguientes tasas se muestran en la sección superior del informe:
 
 * **[!UICONTROL Reactivity]** : la proporción del número de destinatarios objetivo que han hecho clic en una entrega en relación con el número estimado de destinatarios objetivo que han abierto una entrega. No se tienen en cuenta los clics en el vínculo de exclusión ni de la página espejo.
 
-   >[!NOTE]
-   >
-   >Para obtener más información sobre el seguimiento de las aperturas, consulte [Seguimiento de aperturas](../../reporting/using/indicator-calculation.md#tracking-opens-).
+  >[!NOTE]
+  >
+  >Para obtener más información sobre el seguimiento de las aperturas, consulte [Seguimiento de aperturas](../../reporting/using/indicator-calculation.md#tracking-opens-).
 
 * **[!UICONTROL Distinct clicks]** : número de personas diferentes que han hecho clic al menos una vez (excepto en el vínculo de baja de suscripción y de la página espejo) en una entrega. La tasa mostrada se calcula según el número de mensajes enviados correctamente.
 * **[!UICONTROL Cumulated clicks]** : número total de clics por destinatarios objetivo (excepto el vínculo de baja de suscripción y de la página espejo). La tasa mostrada se calcula según el número de mensajes reenviados correctamente.

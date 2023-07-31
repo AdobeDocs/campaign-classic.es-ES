@@ -2,11 +2,12 @@
 product: campaign
 title: Recomendaciones de tamaño de hardware para Campaign Classic v7
 description: Recomendaciones de tamaño de hardware para Campaign Classic v7
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Technote
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2519'
 ht-degree: 1%
 
 ---
@@ -188,10 +189,10 @@ Esta implementación también incluye llamadas del Centro de mensajería, impuls
 En esta situación, Adobe recomienda instalar Adobe Campaign en cuatro equipos, como se indica a continuación:
 
 * Servidores de aplicaciones
-   **Dos sistemas, CPU de núcleo cuádruple a más de 3 Ghz, 8 GB de RAM, RAID 1 o 10, SSD de 80 GB**
+  **Dos sistemas, CPU de núcleo cuádruple a más de 3 Ghz, 8 GB de RAM, RAID 1 o 10, SSD de 80 GB**
 
 * Servidores web
-   **Dos sistemas, CPU de núcleo cuádruple a más de 3 GHz, 16 GB de RAM, RAID 1 o 10, SSD de 80 GB**
+  **Dos sistemas, CPU de núcleo cuádruple a más de 3 Ghz, 16 GB de RAM, RAID 1 o 10, SSD de 80 GB**
 
 
 Los servidores de aplicaciones admiten directamente a los usuarios de la consola de Campaign y la ejecución de flujos de trabajo de campaña. Esta funcionalidad se implementa en dos servidores idénticos para alta disponibilidad, compartiendo un sistema de archivos de almacenamiento con conexión a red (NAS) para habilitar la conmutación por error.
@@ -221,7 +222,7 @@ Los destinatarios activos requieren tanto espacio de almacenamiento como espacio
 La frecuencia de los lanzamientos de campañas afecta a los requisitos de CPU del servidor de bases de datos. Combinadas con el correo directo, las interacciones entrantes y otros flujos de trabajo, las operaciones de segmentación para campañas de correo electrónico suponen una carga significativa en el servidor de la base de datos.
 
 * **Frecuencia de correo directo**
-La frecuencia de los correos directos puede afectar a los requisitos de CPU del servidor de base de datos. Combinadas con lanzamientos de campañas y otros flujos de trabajo, las operaciones de segmentación para correos directos suponen una carga significativa en el servidor de bases de datos.
+La frecuencia de los correos directos puede afectar a los requisitos de CPU del servidor de base de datos. Combinadas con lanzamientos de campañas y otros flujos de trabajo, las operaciones de segmentación para correos directos suponen una carga significativa en el servidor de la base de datos.
 
 * **Volumen del mensaje SMS**
 Al igual que el tamaño de la campaña de correo electrónico, el volumen de mensajes SMS no coloca grandes cargas en servidores de Campaign ubicados en las instalaciones; la carga se realiza principalmente en servidores de mensajería de Adobe Cloud en la nube. La segmentación para campañas SMS, como correo electrónico y correo directo, puede suponer una carga significativa en la base de datos de marketing. Por lo tanto, la frecuencia de los lanzamientos de campañas SMS y la complejidad de la segmentación son más relevantes que el volumen de mensajes SMS.
@@ -229,7 +230,7 @@ Al igual que el tamaño de la campaña de correo electrónico, el volumen de men
 * **Complejidad del esquema de base de datos**
 La cantidad de datos para cada destinatario activo requiere tanto espacio de almacenamiento como espacio de búfer de base de datos, por lo que más destinatarios generalmente requieren más memoria y CPU en el servidor de base de datos. Los esquemas complejos también requieren que se unan más tablas para la segmentación, por lo que las operaciones de segmentación pueden ejecutarse mucho más lentamente y requieren más CPU y memoria de base de datos cuando los datos se distribuyen en varias tablas.
 
-   La memoria del servidor de base de datos se calcula asegurando que el grupo de búferes de base de datos puede ser lo suficientemente grande como para contener todos los datos de destinatario, además de tablas temporales para ejecutar flujos de trabajo, más un margen para otras operaciones de base de datos.
+  La memoria del servidor de base de datos se calcula asegurando que el grupo de búferes de base de datos puede ser lo suficientemente grande como para contener todos los datos de destinatario, además de tablas temporales para ejecutar flujos de trabajo, más un margen para otras operaciones de base de datos.
 
 * **Uso de interacción saliente**
 Las reglas para interacción en modo por lotes se evalúan en flujos de trabajo que transfieren toda la complejidad del cálculo a la base de datos. El principal factor de esfuerzo de la base de datos es la cantidad total de ofertas aptas calculadas durante una visualización del motor (tamaño del objetivo X cantidad promedio de ofertas por destinatario antes de mantener las N mejores ofertas). La velocidad de CPU del servidor de base de datos es el primer factor de rendimiento.
@@ -240,7 +241,7 @@ Las reglas y ofertas de interacción entrantes se evalúan en la base de datos d
 * **Período de retención de datos de seguimiento**
 El aumento de la retención de datos de seguimiento más allá de 90 días requiere más almacenamiento de la base de datos y puede ralentizar el sistema, ya que la inserción de nuevos datos de seguimiento se dirige a tablas grandes. El seguimiento de datos no es útil para la segmentación de campañas después de 90 días, por lo que se recomienda un período de retención más corto.
 
-   Los datos de seguimiento deben moverse a Adobe Analytics u otro sistema de análisis si necesita un análisis a largo plazo de la experiencia de marketing del destinatario.
+  Los datos de seguimiento deben moverse a Adobe Analytics u otro sistema de análisis si necesita un análisis a largo plazo de la experiencia de marketing del destinatario.
 
 ## Virtualización
 

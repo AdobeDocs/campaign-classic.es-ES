@@ -2,15 +2,16 @@
 product: campaign
 title: Etapas de configuración
 description: Etapas de configuración
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Configuration
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: configuration
 content-type: reference
 topic-tags: setting-up-web-tracking
 exl-id: a5ae0b61-3377-46d9-a327-6c897eeda770
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 5%
+source-wordcount: '241'
+ht-degree: 6%
 
 ---
 

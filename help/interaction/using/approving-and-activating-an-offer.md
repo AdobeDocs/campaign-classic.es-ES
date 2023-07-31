@@ -2,16 +2,17 @@
 product: campaign
 title: Aprobación y activación de una oferta
 description: Aprobación y activación de una oferta
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Interaction, Offers
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 100%
+source-wordcount: '634'
+ht-degree: 98%
 
 ---
 
@@ -65,27 +66,27 @@ La aprobación de los requisitos de oferta implica aceptar o rechazar los pesos 
 
 * La lista completa de reglas puede verse haciendo clic en **[!UICONTROL Schedule and eligibility rules]**.
 
-   ![](assets/offer_validate_005.png)
+  ![](assets/offer_validate_005.png)
 
 * Para cambiar las reglas de elegibilidad, haga clic en **[!UICONTROL Reject]** y luego en **[!UICONTROL Eligibility approval]**.
 
-   ![](assets/offer_validate_007.png)
+  ![](assets/offer_validate_007.png)
 
-   Los distintos estados se actualizan en el panel de ofertas.
+  Los distintos estados se actualizan en el panel de ofertas.
 
-   ![](assets/offer_validate_006.png)
+  ![](assets/offer_validate_006.png)
 
 * Para aceptar la idoneidad de la oferta, haga clic en **[!UICONTROL Approve eligibility]**.
 
-   ![](assets/offer_validate_008.png)
+  ![](assets/offer_validate_008.png)
 
-   Apruebe la idoneidad, añada un comentario si es necesario y haga clic en **[!UICONTROL Eligibility approval]**.
+  Apruebe la idoneidad, añada un comentario si es necesario y haga clic en **[!UICONTROL Eligibility approval]**.
 
-   ![](assets/offer_validate_009.png)
+  ![](assets/offer_validate_009.png)
 
-   Los distintos estados se actualizan en el tablero de ofertas.
+  Los distintos estados se actualizan en el tablero de ofertas.
 
-   ![](assets/offer_validate_010.png)
+  ![](assets/offer_validate_010.png)
 
 ## Seguimiento de la aprobación {#approval-tracking}
 

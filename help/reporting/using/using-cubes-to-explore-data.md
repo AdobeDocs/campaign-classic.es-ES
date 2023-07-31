@@ -2,16 +2,16 @@
 product: campaign
 title: Uso de cubos para explorar datos
 description: Uso de cubos para explorar datos
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+feature: Reporting, Monitoring
 hide: true
 hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 100%
+source-wordcount: '968'
+ht-degree: 98%
 
 ---
 
@@ -108,7 +108,7 @@ De forma predeterminada, solo se muestra una medida. Para añadir o configurar m
 
    * Combinación de medidas: este tipo de medida permite crear la nueva medida utilizando las existentes:
 
-      Los operadores disponibles son: suma, diferencia, multiplicación y tasa.
+     Los operadores disponibles son: suma, diferencia, multiplicación y tasa.
 
    * Proporción: este tipo de medida permite calcular el número de registros medidos para una dimensión determinada. Se puede calcular la proporcionalidad en función de una dimensión o subdimensión.
    * Variación: esta medida permite calcular la variación en valores de un nivel.

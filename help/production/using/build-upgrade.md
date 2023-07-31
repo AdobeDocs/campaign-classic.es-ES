@@ -2,16 +2,17 @@
 product: campaign
 title: Introducción a las actualizaciones de versiones
 description: Conozca los pasos clave para actualizar a una nueva compilación
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Monitoring, Upgrade
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2355'
-ht-degree: 4%
+source-wordcount: '2380'
+ht-degree: 5%
 
 ---
 
@@ -125,22 +126,22 @@ Para realizar esto, siga los pasos a continuación:
 
    * Compruebe que la única parte del envío sea la que tenga el ID establecido en. **0**:
 
-      ```
-      SELECT * FROM neolane.nmsdeliverypart;
-      ```
+     ```
+     SELECT * FROM neolane.nmsdeliverypart;
+     ```
 
    * Compruebe que la actualización del estado de entrega sea correcta:
 
-      ```
-      SELECT iSate, count(*) FROM neolane.nmsdeliveryGroup By iProd;
-      ```
+     ```
+     SELECT iSate, count(*) FROM neolane.nmsdeliveryGroup By iProd;
+     ```
 
    * Compruebe que la actualización del estado del flujo de trabajo sea correcta:
 
-      ```
-      SELECT iState, count (*) FROM neolane.xtkworkflowGROUP BY iState;
-      SELECT iStatus, count (*) FROM neolane.xtkworkflowGROUP BY iStatus;
-      ```
+     ```
+     SELECT iState, count (*) FROM neolane.xtkworkflowGROUP BY iState;
+     SELECT iStatus, count (*) FROM neolane.xtkworkflowGROUP BY iStatus;
+     ```
 
 ### Cerrar servicios
 
@@ -154,6 +155,7 @@ Para reemplazar todos los archivos con la nueva versión, es necesario cerrar to
    >[!NOTE]
    >
    >Asegúrese de que el servidor de redirección (webmdl) esté detenido para que el archivo nlsrvmod.dll utilizado por IIS pueda reemplazarse por la nueva versión.
+   >
 
 1. Valide que no haya tareas activas ejecutando la variable **nlserver pdump** comando. Si no hay tareas, el resultado debe ser similar al siguiente:
 
@@ -188,6 +190,7 @@ Para reemplazar todos los archivos con la nueva versión, es necesario cerrar to
    >[!NOTE]
    >
    >Esta operación solo debe realizarse una vez y solo en un servidor de aplicaciones nlserverweb.
+   >
 
    Para sincronizar solo una base de datos, ejecute el siguiente comando:
 
@@ -258,6 +261,7 @@ En el contexto de un entorno de intermediario, debe realizar estos pasos adicion
 >[!NOTE]
 >
 >El servidor intermediario siempre debe ejecutar la misma versión (o más reciente) que para los servidores de marketing.
+>
 
 ## En caso de conflictos
 
@@ -345,6 +349,7 @@ Existen tres opciones para resolver conflictos: **Aceptar la nueva versión**, *
 
 >[!IMPORTANT]
 >Es muy recomendable resolver conflictos.
+>
 
 ### Realización de una combinación{#perform-a-merge}
 
@@ -408,6 +413,7 @@ Estos son los pasos para realizar una combinación compleja:
 
 >[!IMPORTANT]
 >Se requieren habilidades de desarrollo para realizar combinaciones complejas.
+>
 
 **Temas relacionados**
 

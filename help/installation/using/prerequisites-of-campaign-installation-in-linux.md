@@ -2,16 +2,17 @@
 product: campaign
 title: Requisitos previos para la instalación de Campaign en Linux
 description: Requisitos previos para la instalación de Campaign en Linux
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
-badge-v7-prem: label="on-premise & hybrid" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 1%
+source-wordcount: '914'
+ht-degree: 3%
 
 ---
 
@@ -44,33 +45,33 @@ Para instalar Adobe Campaign en Linux, asegúrese de que dispone de las bibliote
 
 * La biblioteca C debe ser compatible con el modo TLS (Thread Local Storage). Este modo está activo en la mayoría de los casos, excepto en algunos núcleos para los que se ha desactivado la compatibilidad con Xen.
 
-   Para comprobar esto, puede utilizar el **uname -a | grep xen** por ejemplo.
+  Para comprobar esto, puede utilizar el **uname -a | grep xen** por ejemplo.
 
-   Si el comando no devuelve nada (línea vacía), significa que la configuración es correcta.
+  Si el comando no devuelve nada (línea vacía), significa que la configuración es correcta.
 
 * Debe tener la versión de OpenSSL **1.0.2** o superior.
 
-   Para las distribuciones RHEL 7/8, se requiere la versión 1.0 de OpenSSL.
+  Para las distribuciones RHEL 7/8, se requiere la versión 1.0 de OpenSSL.
 
 * Para utilizar Adobe Campaign, debe tener el **libicu** biblioteca instalada.
 
-   Las siguientes versiones de **libicu** son compatibles (32 o 64 bits):
+  Las siguientes versiones de **libicu** son compatibles (32 o 64 bits):
 
    * RHEL 7/8, CentOS 7: libicu50
    * Debian 8: libicu52
    * Debian 9: libicu57
 
-   Para utilizar Adobe Campaign, debe tener instalada la biblioteca libc-ares. En RHEL/CentOS, ejecute el siguiente comando:
+  Para utilizar Adobe Campaign, debe tener instalada la biblioteca libc-ares. En RHEL/CentOS, ejecute el siguiente comando:
 
-   ```
-   yum install c-ares
-   ```
+  ```
+  yum install c-ares
+  ```
 
-   En Debian:
+  En Debian:
 
-   ```
-   aptitude install libc-ares2
-   ```
+  ```
+  aptitude install libc-ares2
+  ```
 
 ### SELinux {#selinux}
 
@@ -114,15 +115,15 @@ En Redhat, utilice el siguiente comando:
 
 * Para CentOS/RHEL 7:
 
-   ```
-   yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
-   ```
+  ```
+  yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
+  ```
 
 * Para RHEL 8:
 
-   ```
-   dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
-   ```
+  ```
+  dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
+  ```
 
 ### Fuentes para instancias japonesas {#fonts-for-japanese-instances}
 
@@ -138,15 +139,15 @@ En Red Hat, agregue el comando:
 
 * Para RHEL 7:
 
-   ```
-   yum install ipa-gothic-fonts ipa-mincho-fonts
-   ```
+  ```
+  yum install ipa-gothic-fonts ipa-mincho-fonts
+  ```
 
 * Para RHEL 8:
 
-   ```
-   dnf install vlgothic-fonts
-   ```
+  ```
+  dnf install vlgothic-fonts
+  ```
 
 ### Instalación de LibreOffice para Debian {#installing-libreoffice-for-debian}
 

@@ -2,15 +2,16 @@
 product: campaign
 title: Control de los costes
 description: Aprenda a gestionar los costes de control
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Resource Management
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2468'
-ht-degree: 100%
+source-wordcount: '2475'
+ht-degree: 99%
 
 ---
 
@@ -52,21 +53,21 @@ Los presupuestos se crean en el mapa a través del nodo **[!UICONTROL Campaign m
 
 * Adición de un nuevo presupuesto
 
-   Haga clic en el icono **[!UICONTROL New]**, cambie el nombre del presupuesto y guárdelo.
+  Haga clic en el icono **[!UICONTROL New]**, cambie el nombre del presupuesto y guárdelo.
 
 * Introducción de la cantidad inicial
 
-   Indique la cantidad asignada en el campo correspondiente. Las demás cantidades se introducen automáticamente. Consulte [Calcular importes](#calculating-amounts).
+  Indique la cantidad asignada en el campo correspondiente. Las demás cantidades se introducen automáticamente. Consulte [Calcular importes](#calculating-amounts).
 
 * Definición del periodo de validez
 
-   Especifique las fechas de inicio y finalización. Esta información es meramente ilustrativa.
+  Especifique las fechas de inicio y finalización. Esta información es meramente ilustrativa.
 
 * Gastos
 
-   Cree las categorías de gastos a las que se pueden vincular los costes asignados a este presupuesto para campañas, tareas, etc. Consulte [Categorías de gastos](#expense-categories).
+  Cree las categorías de gastos a las que se pueden vincular los costes asignados a este presupuesto para campañas, tareas, etc. Consulte [Categorías de gastos](#expense-categories).
 
-   ![](assets/s_ncs_user_budget_create_and_save.png)
+  ![](assets/s_ncs_user_budget_create_and_save.png)
 
 >[!NOTE]
 >

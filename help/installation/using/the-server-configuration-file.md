@@ -2,14 +2,15 @@
 product: campaign
 title: El archivo de configuración del servidor
 description: El archivo de configuración del servidor
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Instance Settings
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: acfe0c4139671fc3df69ff434ba307aaaaf70676
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '7955'
+source-wordcount: '7962'
 ht-degree: 42%
 
 ---
@@ -287,7 +288,7 @@ Estos son los diferentes parámetros del **dataStore > dataSource** nodo.
  <tbody> 
   <tr> 
    <td> name<br /> </td> 
-   <td> Nombre de fuente de datos<br /> </td> 
+   <td> Nombre del origen de datos<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> por defecto<br /> </td> 
   </tr> 

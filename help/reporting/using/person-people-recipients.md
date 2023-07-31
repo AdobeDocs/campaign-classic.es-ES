@@ -2,14 +2,14 @@
 product: campaign
 title: Individuo, personas y destinatarios
 description: Individuo, personas y destinatarios
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
-feature: Reporting
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+feature: Reporting, Monitoring
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 100%
+source-wordcount: '715'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ Dado que John no ha abierto ni ha hecho clic en el correo electrónico, no apare
 
 **Cálculo intermedio:**
 
-|  | Destinatarios que hicieron clic | Personas que hicieron clic | Destinatarios que lo abrieron |
+|   | Destinatarios que hicieron clic | Personas que hicieron clic | Destinatarios que lo abrieron |
 |---|---|---|---|
 | John | - | - | - |
 | Total intermedio | 0 | 0 | 0 |
@@ -73,7 +73,7 @@ La apertura se asigna a un destinatario: Marie. Por lo tanto, Adobe Campaign añ
 
 **Cálculo intermedio:**
 
-|  | Destinatarios que hicieron clic | Personas que hicieron clic | Destinatarios que lo abrieron |
+|   | Destinatarios que hicieron clic | Personas que hicieron clic | Destinatarios que lo abrieron |
 |---|---|---|---|
 | John | - | - | - |
 | Marie | - | - | +1 |
@@ -95,7 +95,7 @@ Debido a que el navegador de este destinatario acepta cookies, podemos ver que e
 
 **Cálculo intermedio:**
 
-|  | Destinatarios que hicieron clic | Personas que hicieron clic | Destinatarios que lo abrieron |
+|   | Destinatarios que hicieron clic | Personas que hicieron clic | Destinatarios que lo abrieron |
 |---|---|---|---|
 | John | - | - | - |
 | Marie | - | - | +1 |
@@ -116,7 +116,7 @@ Los siguientes “logs” coinciden con la apertura y los dos clics de la person
 
 **Cálculo intermedio:**
 
-|  | Destinatarios que hicieron clic | Personas que hicieron clic | Destinatarios que lo abrieron |
+|   | Destinatarios que hicieron clic | Personas que hicieron clic | Destinatarios que lo abrieron |
 |---|---|---|---|
 | John | - | - | - |
 | Marie | - | - | +1 |
@@ -140,7 +140,7 @@ Los apertura y los 4 clics realizados por Henry aparecen en los siguientes “lo
 
 **Cálculo intermedio:**
 
-|  | Destinatarios que hicieron clic | Personas que hicieron clic | Destinatarios que lo abrieron |
+|   | Destinatarios que hicieron clic | Personas que hicieron clic | Destinatarios que lo abrieron |
 |---|---|---|---|
 | John | - | - | - |
 | Marie | - | - | +1 |
@@ -173,4 +173,3 @@ Las reacciones sin procesar y la estimación de los reenvíos se calculan de la 
 >* A representa el indicador **[!UICONTROL Clicks]** (destinatarios que hicieron clic).
 >* B representa el indicador **[!UICONTROL Distinct clicks for the population reached]** (personas que hicieron clic).
 >* C representa el indicador **[!UICONTROL Distinct opens for the population reached]** (destinatarios que lo abrieron).
-

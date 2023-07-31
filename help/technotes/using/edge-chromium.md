@@ -1,12 +1,13 @@
 ---
 product: campaign
 title: 'Nota técnica: Habilitar Microsoft Edge Chromium en el entorno de Campaign'
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 description: Campaign - Edge Chromium
+feature: Technote, Upgrade
 exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '253'
 ht-degree: 13%
 
 ---
@@ -24,7 +25,7 @@ Además de la instalación del tiempo de ejecución de Microsoft Edge Webview 2,
 
 ## ¿Se ha visto afectado?
 
-Si su entorno se ha actualizado a la versión 7.3 de Campaign Classic (o posterior), se verá afectado.
+Si su entorno se ha actualizado a Campaign Classic v7.3 (o posterior), se verá afectado.
 
 ## ¿Cómo realizar la actualización?
 
@@ -32,9 +33,9 @@ Si su entorno se ha actualizado a la versión 7.3 de Campaign Classic (o posteri
 
 * Como un **on-premise/híbrido** Cliente, debe habilitar Microsoft Edge Chromium en sus instancias.
 
-   Al actualizar a Campaign Classic v7.3 (y versiones posteriores), un nuevo `webView2Mode` está disponible en el archivo de configuración del servidor de Campaign `serverConf.xml`. Este atributo debe estar habilitado.
+  Al actualizar a Campaign Classic v7.3 (y versiones posteriores), un nuevo `webView2Mode` está disponible en el archivo de configuración del servidor de Campaign `serverConf.xml`. Este atributo debe estar habilitado.
 
-   Para ello, aplique los pasos siguientes en todos sus entornos (MKT, MID, RT):
+  Para ello, aplique los pasos siguientes en todos sus entornos (MKT, MID, RT):
 
    1. Edite el archivo de configuración del servidor de Campaign (`serverConf.xml`)
    1. En el `<web>` módulo, conjunto `webView2Mode = "1"`
@@ -60,6 +61,7 @@ Si su entorno se ha actualizado a la versión 7.3 de Campaign Classic (o posteri
 >[!NOTE]
 >
 >En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>
 
 ## Temas relacionados
 

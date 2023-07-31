@@ -2,16 +2,17 @@
 product: campaign
 title: Plantillas de hipótesis
 description: Aprenda a crear hipótesis en el Gestor de respuestas de Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Campaigns, Templates
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 100%
+source-wordcount: '1388'
+ht-degree: 99%
 
 ---
 
@@ -53,23 +54,23 @@ La pestaña plantilla **[!UICONTROL General]** le permite especificar las opcion
 
 * **[!UICONTROL Hypothesis type]**: le permite determinar si la plantilla debe estar destinada a hipótesis sobre envíos u ofertas.
 
-   También puede optar por crear una hipótesis que se aplicará a los envíos y a las ofertas.
+  También puede optar por crear una hipótesis que se aplicará a los envíos y a las ofertas.
 
-   >[!NOTE]
-   >
-   >Si la plantilla se aplica a las ofertas, la opción **[!UICONTROL Update offer proposition status]** está disponible en la pestaña **[!UICONTROL Transactions]**.
+  >[!NOTE]
+  >
+  >Si la plantilla se aplica a las ofertas, la opción **[!UICONTROL Update offer proposition status]** está disponible en la pestaña **[!UICONTROL Transactions]**.
 
 * **[!UICONTROL Measurement with control group]**: permite establecer el estado de un grupo de control para la entrega o la campaña e incluirla en indicadores de medición. El grupo de control, que no recibe envíos, le permite medir el impacto de la campaña después de la entrega, comparándolo con la población objetivo que recibió la entrega.
 
-   >[!NOTE]
-   >
-   >Si la plantilla está configurada para tener un grupo de control en cuenta pero no se define ningún grupo en la entrega, los resultados se basarán únicamente en los destinatarios seleccionados.
+  >[!NOTE]
+  >
+  >Si la plantilla está configurada para tener un grupo de control en cuenta pero no se define ningún grupo en la entrega, los resultados se basarán únicamente en los destinatarios seleccionados.
 
-   Para obtener más información sobre la definición y configuración de un grupo de control, consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+  Para obtener más información sobre la definición y configuración de un grupo de control, consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
 * **[!UICONTROL Channel]**: puede elegir un canal específico o hacer que la plantilla de hipótesis esté disponible para todos los canales de la consola de Adobe Campaign seleccionando **[!UICONTROL All channels]** en la lista desplegable. Si configura la plantilla para un canal específico, le permite filtrar automáticamente los envíos por canal al crear la hipótesis. [Más información](creating-hypotheses.md)
 
-   ![](assets/response_properties_001.png)
+  ![](assets/response_properties_001.png)
 
 * **[!UICONTROL Execution folder]**: permite especificar la carpeta de ejecución de la hipótesis.
 * **[!UICONTROL Taken into account in campaign ROI calculation]**: utiliza el resultado de la hipótesis en el cálculo de ROI de la campaña relacionada.
@@ -80,17 +81,17 @@ La pestaña **[!UICONTROL General]** de la plantilla también permite especifica
 
 * **[!UICONTROL Schedule execution for a time of low activity]**: permite programar el inicio de la hipótesis para optimizar el rendimiento de Adobe Campaign. Cuando se activa esta opción, el flujo de trabajo de procesamiento de las campañas ejecuta el cálculo de hipótesis durante el tiempo de espera.
 
-   ![](assets/response_exec_settings_002.png)
+  ![](assets/response_exec_settings_002.png)
 
 * **[!UICONTROL Priority]**: nivel aplicado a la hipótesis para agotar las solicitudes de cálculo de hipótesis si hay ejecuciones simultáneas.
 
-   ![](assets/response_exec_settings_003.png)
+  ![](assets/response_exec_settings_003.png)
 
 * **[!UICONTROL Automatic execution]**: si es necesario, permite programar el cálculo de hipótesis (por ejemplo, si desea actualizar los indicadores regularmente hasta el final de la entrega).
 
-   ![](assets/response_exec_settings_001.png)
+  ![](assets/response_exec_settings_001.png)
 
-   Para especificar una programación, aplique el siguiente proceso:
+  Para especificar una programación, aplique el siguiente proceso:
 
    1. Haga clic en el vínculo **[!UICONTROL Frequency of execution...]** y luego en el botón **[!UICONTROL Change...]**.
 
@@ -107,11 +108,11 @@ La pestaña **[!UICONTROL General]** de la plantilla también permite especifica
 * **[!UICONTROL Log SQL queries in journal]**: esta función está reservada para usuarios expertos. Le permite añadir una pestaña a la auditoría de hipótesis de medición para mostrar consultas SQL. Esto permite detectar posibles errores que se pueden dar en una simulación.
 * **[!UICONTROL Keep execution workflow]**: permite mantener el flujo de trabajo generado automáticamente al principio del cálculo de hipótesis. En las hipótesis creadas a partir de una plantilla que tiene esta opción activada, el flujo de trabajo generado permite hacer un seguimiento del proceso.
 
-   >[!CAUTION]
-   >
-   >Esta opción debe activarse solo para fines de depuración, en caso de error al ejecutar la hipótesis.\
-   >Además, los flujos de trabajo generados automáticamente no se deben modificar. No se tendrá en cuenta ninguna modificación para realizar cálculos más adelante.\
-   >Si ha comprobado esta opción, elimine el flujo de trabajo una vez que se haya ejecutado.
+  >[!CAUTION]
+  >
+  >Esta opción debe activarse solo para fines de depuración, en caso de error al ejecutar la hipótesis.\
+  >Además, los flujos de trabajo generados automáticamente no se deben modificar. No se tendrá en cuenta ninguna modificación para realizar cálculos más adelante.\
+  >Si ha comprobado esta opción, elimine el flujo de trabajo una vez que se haya ejecutado.
 
 ### Transacciones {#transactions}
 
@@ -125,21 +126,21 @@ Esta pestaña contiene los distintos campos y tablas que permiten guardar el his
 * **[!UICONTROL Transaction date]**: este campo es opcional pero recomendado, ya que permite definir un periodo para el cálculo de hipótesis.
 * **[!UICONTROL Measurement period]**: le permite configurar las fechas de inicio y finalización durante las cuales se ejecutan las hipótesis y se recuperan las líneas de compra.
 
-   Cuando la hipótesis está vinculada a una entrega, la medición se activa automáticamente unos días después de la fecha de contacto para los envíos de correo directo, o después de la fecha de entrega para envíos de correo electrónico o SMS.
+  Cuando la hipótesis está vinculada a una entrega, la medición se activa automáticamente unos días después de la fecha de contacto para los envíos de correo directo, o después de la fecha de entrega para envíos de correo electrónico o SMS.
 
-   ![](assets/response_measurement_001.png)
+  ![](assets/response_measurement_001.png)
 
-   Si la hipótesis se inicia sobre la marcha, se puede forzar si quisiera activarla inmediatamente. De lo contrario, se activa automáticamente según el final de la fecha de cálculo configurada, que se basa en la fecha de creación de la hipótesis. [Más información](creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)).
+  Si la hipótesis se inicia sobre la marcha, se puede forzar si quisiera activarla inmediatamente. De lo contrario, se activa automáticamente según el final de la fecha de cálculo configurada, que se basa en la fecha de creación de la hipótesis. [Más información](creating-hypotheses.md#creating-a-hypothesis-on-the-fly-on-a-delivery)).
 
 * **[!UICONTROL Transaction/Margin amount]**: estos campos son opcionales y permiten calcular los indicadores de facturación automáticamente. [Más información](hypothesis-tracking.md#indicators)
 * **[!UICONTROL Unit amount]**: permite configurar una cantidad para calcular ingresos. [Más información](hypothesis-tracking.md#indicators)
 
-   ![](assets/response_transactions_001.png)
+  ![](assets/response_transactions_001.png)
 
 * **[!UICONTROL Additional measures and data]**: permite especificar medidas o ejes de informes adicionales de los campos en las distintas tablas.
 * **[!UICONTROL Update offer proposition status]**: permite cambiar el estado de la propuesta de oferta si la hipótesis identifica un destinatario de la oferta.
 
-   ![](assets/response_offer_status_001.png)
+  ![](assets/response_offer_status_001.png)
 
 ### Perímetro de hipótesis {#hypothesis-perimeter}
 
@@ -175,13 +176,13 @@ Una vez que haya definido la tabla de transacciones y los campos a los que se re
 
 * **Script**: puede utilizar una secuencia de comandos de JavaScript para sobrecargar dinámicamente la configuración de hipótesis durante su ejecución.
 
-   Para ello, haga clic en el vínculo **[!UICONTROL Advanced settings]** e introduzca la secuencia de comandos deseada.
+  Para ello, haga clic en el vínculo **[!UICONTROL Advanced settings]** e introduzca la secuencia de comandos deseada.
 
-   >[!NOTE]
-   >
-   >Esta opción es para usuarios expertos.
+  >[!NOTE]
+  >
+  >Esta opción es para usuarios expertos.
 
-   ![](assets/response_hypothesis_model_creation_011.png)
+  ![](assets/response_hypothesis_model_creation_011.png)
 
 ## Ejemplo: Creación de una plantilla de hipótesis para una entrega {#example--creating-a-hypothesis-template-on-a-delivery}
 

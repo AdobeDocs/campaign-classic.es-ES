@@ -2,15 +2,15 @@
 product: campaign
 title: Introducción al conector ACS
 description: Principios y ciclo de datos del conector ACS
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
 feature: ACS Connector
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 hide: true
 hidefromtoc: true
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2038'
-ht-degree: 100%
+source-wordcount: '2045'
+ht-degree: 99%
 
 ---
 
@@ -151,9 +151,9 @@ Los siguientes flujos de trabajo de duplicación están disponibles como plantil
 * **[!UICONTROL `[ACS] Delivery-message replication`]** (newDlvMsgQualification): este flujo de trabajo incremental duplica los mensajes de entrega de Campaign Standard a Campaign v7.
 * **[!UICONTROL `[ACS] Profile delivery log replication`]** (newRcpDeliveryLogReplication): este flujo de trabajo incremental duplica las ID de entrega, los “broadlogs” de correo electrónico y los “logs” de seguimiento de correo electrónico desde Campaign Standard hasta Campaign v7. Solo tiene en cuenta las entregas de cuentas realizados desde Campaign Standard a los perfiles que forman parte de la tabla nms:recipients en Campaign v7.
 
-   >[!NOTE]
-   >
-   > En caso de que se utilicen instancias tanto de Campaign Classic como de Campaign Standard para enviar correos electrónicos con direcciones URL rastreadas, puede ocurrir un problema con los identificadores de etiqueta de URL duplicados durante la sincronización. Para evitar que esto ocurra, actualice la actividad **Actualizar las direcciones URL de seguimiento** (writerTrackingUrls) en el flujo de trabajo y añada el prefijo “ACS” a la expresión de origen @tagId.
+  >[!NOTE]
+  >
+  > En caso de que se utilicen instancias tanto de Campaign Classic como de Campaign Standard para enviar correos electrónicos con direcciones URL rastreadas, puede ocurrir un problema con los identificadores de etiqueta de URL duplicados durante la sincronización. Para evitar que esto ocurra, actualice la actividad **Actualizar las direcciones URL de seguimiento** (writerTrackingUrls) en el flujo de trabajo y añada el prefijo “ACS” a la expresión de origen @tagId.
 
 * **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication): este flujo de trabajo incremental duplica las ID de entrega, los “broadlogs” de correo electrónico y los “logs” de seguimiento de correo electrónico desde Campaign Standard hasta Campaign v7. Solo tiene en cuenta las entregas de cuentas realizados desde Campaign Standard hacia los perfiles que forman parte de una tabla específica (para definir, que no sea nms:recipients) de Campaign v7.
 

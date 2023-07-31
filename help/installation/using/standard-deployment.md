@@ -2,14 +2,15 @@
 product: campaign
 title: Implementación estándar
 description: Implementación estándar
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+feature: Installation, Architecture, Deployment
+badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '839'
 ht-degree: 5%
 
 ---
@@ -89,19 +90,20 @@ Los pasos son los siguientes:
 
    * Cree la instancia a través de la consola:
 
-      ![](assets/install_create_new_connexion.png)
+     ![](assets/install_create_new_connexion.png)
 
-      Para obtener más información, consulte [Creación de una instancia e inicio de sesión](../../installation/using/creating-an-instance-and-logging-on.md).
+     Para obtener más información, consulte [Creación de una instancia e inicio de sesión](../../installation/using/creating-an-instance-and-logging-on.md).
 
-      o
+     o
 
    * Cree la instancia utilizando las líneas de comandos:
 
-      ```
-      nlserver config -addinstance:demo/tracking.campaign.net*
-      ```
+     ```
+     nlserver config -addinstance:demo/tracking.campaign.net*
+     ```
 
-      Para obtener más información, consulte [Creación de una instancia](../../installation/using/command-lines.md#creating-an-instance).
+     Para obtener más información, consulte [Creación de una instancia](../../installation/using/command-lines.md#creating-an-instance).
+
    El nombre de la instancia es el mismo que el del servidor de aplicaciones.
 
    La conexión al servidor con el **nlserver web** (páginas espejo, baja) se realizará desde la URL del equilibrador de carga (tracking.campaign.net).
@@ -124,24 +126,24 @@ Los pasos son los siguientes:
 
    * la configuración DNS del módulo MTA:
 
-      ```
-      <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
-      ```
+     ```
+     <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
+     ```
 
-      >[!NOTE]
-      >
-      >El **nameServers** El parámetro solo se utiliza en Windows.
+     >[!NOTE]
+     >
+     >El **nameServers** El parámetro solo se utiliza en Windows.
 
-      Para obtener más información, consulte [Configuración de envío](configure-delivery-settings.md).
+     Para obtener más información, consulte [Configuración de envío](configure-delivery-settings.md).
 
    * los servidores de seguimiento redundantes en los parámetros de redirección:
 
-      ```
-      <spareServer enabledIf="$(hostname)!='front_srv1'" id="1" url="https://front_srv1:8080"/>
-      <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
-      ```
+     ```
+     <spareServer enabledIf="$(hostname)!='front_srv1'" id="1" url="https://front_srv1:8080"/>
+     <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
+     ```
 
-      Para obtener más información, consulte [Seguimiento redundante](configuring-campaign-server.md#redundant-tracking).
+     Para obtener más información, consulte [Seguimiento redundante](configuring-campaign-server.md#redundant-tracking).
 
 1. Inicie el sitio web y pruebe la redirección desde la dirección URL: [https://tracking.campaign.net/r/test](https://tracking.campaign.net/r/test).
 

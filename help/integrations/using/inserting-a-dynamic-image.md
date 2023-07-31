@@ -2,16 +2,17 @@
 product: campaign
 title: Inserción de una imagen dinámica
 description: Inserción de una imagen dinámica
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+feature: Target Integration
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 100%
+source-wordcount: '837'
+ht-degree: 98%
 
 ---
 
@@ -49,11 +50,11 @@ En Adobe Campaign, hay dos formas de insertar una imagen dinámica desde Target 
 
 * Si utiliza el editor de contenido digital, elija una imagen existente y seleccione **[!UICONTROL Insert]** > **[!UICONTROL Dynamic image served by Adobe Target]** en la barra de herramientas.
 
-   ![](assets/target_5.png)
+  ![](assets/target_5.png)
 
 * Si está utilizando el editor estándar, coloque el cursor donde desee insertar la imagen y, en el menú desplegable de personalización, seleccione **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target...]**.
 
-   ![](assets/target_12.png)
+  ![](assets/target_12.png)
 
 ### Definición de los parámetros de la imagen {#defining-image-parameters}
 
