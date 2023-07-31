@@ -3,14 +3,14 @@ product: campaign
 title: Introducción al conector ACS
 description: Principios y ciclo de datos del conector ACS
 feature: ACS Connector
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 hide: true
 hidefromtoc: true
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2045'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
