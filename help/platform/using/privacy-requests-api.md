@@ -3,15 +3,15 @@ product: campaign
 title: Proceso de solicitud de privacidad automática
 description: Obtenga información sobre cómo configurar un proceso de solicitud de privacidad automática
 feature: Privacy, Privacy Tools
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: a93bac61-f615-4178-bc12-0f056e48687d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
