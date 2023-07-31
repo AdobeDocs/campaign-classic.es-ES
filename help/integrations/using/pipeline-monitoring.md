@@ -9,9 +9,9 @@ audience: integrations
 content-type: reference
 exl-id: 84399496-33fd-4936-85e7-32de8503740f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
