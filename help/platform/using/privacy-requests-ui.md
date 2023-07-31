@@ -3,15 +3,15 @@ product: campaign
 title: Creación de solicitudes de privacidad
 description: Obtenga información sobre cómo crear y administrar solicitudes de privacidad
 feature: Privacy, Privacy Tools
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '778'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
