@@ -2,15 +2,15 @@
 product: campaign
 title: Acerca de Adobe Campaign Classic
 description: Descubra las funcionalidades clave, la interfaz de usuario y las directrices globales
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Overview
 role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 source-git-commit: be57635a6165790b8c8964d106ed0a3cb76c63af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '930'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
