@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3241'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
