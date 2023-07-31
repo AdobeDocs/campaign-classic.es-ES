@@ -3,15 +3,15 @@ product: campaign
 title: Preguntas más frecuentes sobre Test and Send
 description: Preguntas frecuentes sobre Campaign Classic
 feature: Troubleshooting
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '742'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
