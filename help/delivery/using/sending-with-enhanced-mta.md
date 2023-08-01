@@ -2,13 +2,13 @@
 product: campaign
 title: Envío con el servidor de envío mejorado en Adobe Campaign Classic
 description: Obtenga información acerca del ámbito y las características específicas del envío de correos electrónicos con el MTA mejorado de Adobe Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 4c0c3007a03d4274fa1b436259cb2d302fcc8185
 workflow-type: tm+mt
-source-wordcount: '1999'
+source-wordcount: '1736'
 ht-degree: 100%
 
 ---
@@ -90,32 +90,9 @@ No. La actualización no requiere cambiar a direcciones IP nuevas, por lo que pu
 
 **¿Afectará la actualización al servidor de correo mejorado a cualquier campaña o envío que se encuentre en curso?**
 
-Cualquier envío que se haya preparado antes de actualizar la instancia para utilizar el servidor de correo mejorado deberá volver a prepararse para poder usar correctamente el nuevo servidor de correo.
-
 Para los clientes que utilizan la funcionalidad de mensajería transaccional de Adobe Campaign, cualquier llamada de API para activar un mensaje de correo electrónico se pondrá en cola durante el corto tiempo de inactividad de la actualización y se intentará cuando se complete la actualización.
 
 ## Especificaciones del MTA mejorado {#enhanced-mta-impacts}
-
-### Encabezados de servidor de correo mejorado
-
-Las últimas instancias de Campaign Classic incluyen código que agrega los encabezados de servidor de correo mejorado necesarios a cada mensaje. Si utiliza Adobe Campaign 19.1 (compilación 9032) o superior y este no es el caso, debe solicitar al [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) que añada el parámetro useMomentum=true a la configuración de la instancia de ejecución (en el archivo [serverConf.xml](../../installation/using/the-server-configuration-file.md#mta)), que puede ser su instancia de marketing, [instancia de intermediario](../../installation/using/mid-sourcing-server.md) o [instancia de ejecución de mensajería transaccional](../../message-center/using/configuring-instances.md#execution-instance), según la configuración.
-
-Sin embargo, si está utilizando una instancia anterior que no incluye este código, se debe añadir una nueva regla de tipología denominada **[!UICONTROL Typology Rule for Enhanced MTAs]** a todas las tipologías existentes en la instancia de Campaign.
-Esta regla se añade mediante un paquete **[!UICONTROL Typology]** instalado como parte de la actualización al servidor de correo mejorado.
-
->[!IMPORTANT]
->
->Si ve esta regla de tipología en sus tipologías, no la elimine ni la modifique de ninguna manera. De lo contrario, sus envíos de correo electrónico podrían verse afectados negativamente.
-
-Este paquete **[!UICONTROL Typology]** debe instalarse en la instancia de marketing de Adobe Campaign.
-
-Si usted es un cliente híbrido, el equipo de Adobe Campaign le proporcionará instrucciones sobre cómo instalar el paquete **[!UICONTROL Typology]** en su instancia de marketing como parte de la actualización al servidor de correo mejorado. Póngase en contacto con el ejecutivo de cuentas para obtener las instrucciones completas.
-
->[!IMPORTANT]
->
->Las instrucciones proporcionadas por el equipo de Adobe Campaign sobre cómo instalar el paquete **[!UICONTROL Typology]** deben seguirse con atención. De lo contrario, podría encontrar problemas importantes con las direcciones IP utilizadas para enviar correos electrónicos.
-
-Para obtener más información sobre las tipologías, consulte [esta sección](../../campaign-opt/using/about-campaign-typologies.md).
 
 ### Nuevas reglas MX
 
