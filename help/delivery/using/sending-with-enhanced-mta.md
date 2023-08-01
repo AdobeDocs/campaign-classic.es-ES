@@ -6,10 +6,10 @@ badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 4c0c3007a03d4274fa1b436259cb2d302fcc8185
+source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
 workflow-type: tm+mt
-source-wordcount: '1736'
-ht-degree: 100%
+source-wordcount: '1352'
+ht-degree: 97%
 
 ---
 
@@ -116,10 +116,6 @@ El gráfico de rendimiento del envío de Campaign ya no mostrará el rendimiento
 
 Para obtener más información sobre el rendimiento del envío, consulte [esta sección](../../reporting/using/global-reports.md#delivery-throughput).
 
->[!NOTE]
->
->Con la capacidad [Servicio de comentarios de correo electrónico](#email-feedback-service) (EFS) (actualmente disponible como Beta), el gráfico Rendimiento de entrega de Campaign sigue mostrando el rendimiento a sus destinatarios de correo electrónico.
-
 ### Reintentos
 
 Campaign ya no utiliza la configuración de reintentos en la entrega. Los reintentos de rebote suave y el periodo entre ellos están determinados por el servidor de correo mejorado en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
@@ -157,61 +153,13 @@ Cuando se generan informes de los mensajes de rebote suave desde el servidor de 
 
 Por lo tanto, debe esperar hasta el final del período de validez para ver el porcentaje de **[!UICONTROL Success]** final y el número final de mensajes realmente **[!UICONTROL Sent]** y **[!UICONTROL Failed]**.
 
-<!--The fact that the Success percentage will go to 100% very quickly indicates that your instance has been upgraded to the Enhanced MTA.-->
-
-### Servicio de comentarios de correo electrónico (beta) {#email-feedback-service}
-
-Con el servicio de comentarios de correo electrónico (SCCE), se informa del estado de cada correo electrónico con precisión, ya que los comentarios se capturan directamente desde el servidor de correo mejorado.
-
->[!IMPORTANT]
->
->El servicio de comentarios de correo electrónico está disponible actualmente como una funcionalidad beta.
->
->Si está interesado en participar en este programa Beta, rellene [este formulario](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) y le responderemos.
-
-Una vez que se ha iniciado el envío, no se produce ningún cambio en el porcentaje de **[!UICONTROL Success]** cuando el mensaje se transmite correctamente de Campaign al servidor de correo mejorado.
-
-<!--![](assets/efs-sending.png)-->
-
-Los registros de envío muestran el estado **[!UICONTROL Taken into account by the service provider]** de cada dirección de destino.
-
-<!--![](assets/efs-pending.png)-->
-
-Cuando el mensaje se envía realmente a los perfiles objetivo y una vez que se transmite esta información en tiempo real desde el servidor de correo mejorado, los registros de envío muestran el estado **[!UICONTROL Sent]** para cada dirección que recibió el mensaje correctamente. El porcentaje de **[!UICONTROL Success]** se incrementa en consecuencia con cada envío correcto.
-
-Cuando el servidor de correo mejorado devuelve mensajes de rebote duro, su estado de registro cambia de **[!UICONTROL Taken into account by the service provider]** a **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
-
-Cuando los mensajes de rebote suaves vuelven a informarse desde el servidor de correo mejorado, su estado de registro permanece sin cambios (**[!UICONTROL Taken into account by the service provider]**): solo se actualiza[la razón de error](understanding-delivery-failures.md#delivery-failure-types-and-reasons)<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. El porcentaje de **[!UICONTROL Success]** permanece sin cambios. A continuación, se vuelven a intentar los mensajes de devolución suave a lo largo del [período de validez del envío](steps-sending-the-delivery.md#defining-validity-period):
-
-* Si un reintento se realiza correctamente antes del final del período de validez, el estado del mensaje cambia a **[!UICONTROL Sent]** y el porcentaje de **[!UICONTROL Success]** sube en consecuencia.
-
-* De lo contrario, el estado cambia a **[!UICONTROL Failed]**. El porcentaje de **[!UICONTROL Success]** <!--and **[!UICONTROL Bounces + errors]** -->permanece sin cambios.
-
->[!NOTE]
->
->Para obtener más información acerca de las devoluciones suaves y duras, consulte [esta sección](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
->
->Para obtener más información sobre reintentos después de un error temporal de envío, consulte [esta sección](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
-
-
-Las siguientes tablas muestran los cambios en los KPI y los estados de envío de registros introducidos por la capacidad de EFS.
-
-**Con servicio de comentarios de correo electrónico**
-
-| Paso en el proceso de envío | Resumen de KPI | Estado de envío de registros |
-|--- |--- |--- |
-| El mensaje se retransmite correctamente desde Campaign al servidor de correo mejorado | **[!UICONTROL Success]** no se muestra el porcentaje (comienza en 0 %) | El proveedor de servicios lo tiene en cuenta |
-| Los mensajes de devolución dura se informan desde el servidor de correo mejorado | No hay cambios en el porcentaje de **[!UICONTROL Success]** | Error |
-| Los mensajes de devolución suave se informan desde el servidor de correo mejorado | No hay cambios en el porcentaje de **[!UICONTROL Success]** | El proveedor de servicios lo tiene en cuenta |
-| Los reintentos de mensajes de devolución suave se realizan correctamente | El porcentaje de **[!UICONTROL Success]** sube en consecuencia | Enviado |
-| Error en los reintentos de mensajes de devolución suave | No hay cambios en el porcentaje de **[!UICONTROL Success]** | Error |
-
-**Sin servicio de comentarios de correo electrónico**
+La tabla siguiente muestra los diferentes pasos del proceso de envío con los KPI y los estados de registros de envío correspondientes.
 
 | Paso en el proceso de envío | Resumen de KPI | Estado de envío de registros |
 |--- |--- |--- |
 | El mensaje se retransmite correctamente desde Campaign al servidor de correo mejorado | El porcentaje de **[!UICONTROL Success]** comienza en 100 % | Enviado |
-| Los mensajes de devolución dura se informan desde el servidor de correo mejorado | El porcentaje de **[!UICONTROL Success]** baja en consecuencia | Error |
-| Los mensajes de devolución suave se informan desde el servidor de correo mejorado | No hay cambios en el porcentaje de **[!UICONTROL Success]** | Enviado |
-| Los reintentos de mensajes de devolución suave se realizan correctamente | No hay cambios en el porcentaje de **[!UICONTROL Success]** | Enviado | El porcentaje de **[!UICONTROL Success]** sube en consecuencia | Enviado |
-| Error en los reintentos de mensajes de devolución suave | El porcentaje de **[!UICONTROL Success]** baja en consecuencia | Error |
+| Los mensajes de devolución dura se informan desde el servidor de correo mejorado | **[!UICONTROL Success]** El porcentaje de disminuye en consecuencia | Error |
+| Los mensajes de devolución suave se informan desde el servidor de correo mejorado | Sin cambios en **[!UICONTROL Success]** porcentaje | Enviado |
+| Los reintentos de mensajes de devolución suave se realizan correctamente | Sin cambios en **[!UICONTROL Success]** porcentaje | Enviado | **[!UICONTROL Success]** El porcentaje de sube en consecuencia | Enviado |
+| Error en los reintentos de mensajes de devolución suave | **[!UICONTROL Success]** El porcentaje de disminuye en consecuencia | Error |
+

@@ -2,14 +2,14 @@
 product: campaign
 title: Comprensión de los errores de entrega
 description: Aprenda a comprender los errores de entrega
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: 3c1a0f435dce5e1f54f701e742f393db066ad78f
-workflow-type: ht
-source-wordcount: '2614'
-ht-degree: 100%
+source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
+workflow-type: tm+mt
+source-wordcount: '2624'
+ht-degree: 96%
 
 ---
 
@@ -233,7 +233,7 @@ En el caso de instalaciones on-premise e instalaciones alojadas/híbridas que ut
 >
 >* Las devoluciones **asíncronas** siguen siendo calificadas por el proceso inMail a través de las reglas de **[!UICONTROL Inbound email]** . Para obtener más información, consulte [Reglas de gestión de correo electrónico](#email-management-rules).
 >
->* En el caso de instancias que utilicen el servidor de correo mejorado **sin Webhooks/EFS**, las reglas de **[!UICONTROL Inbound email]** también se utilizan para procesar los correos electrónicos rechazados síncronos procedentes del servidor de correo mejorado, utilizando la misma dirección de correo electrónico que para los correos electrónicos rechazados asíncronos.
+>* Para instancias que utilizan el servidor de correo mejorado **sin Webhooks**, el **[!UICONTROL Inbound email]** Las reglas de también se utilizan para procesar los correos electrónicos rechazados sincrónicos procedentes del servidor de correo mejorado, utilizando la misma dirección de correo electrónico que para los correos electrónicos rechazados asincrónicos.
 
 En el caso de instalaciones on-premise e instalaciones alojadas/híbridas que utilizan el servidor de correo de Campaign heredado, cuando se produce un error en el envío de un correo electrónico, el servidor de envío de Adobe Campaign recibe un mensaje de error del servidor de mensajería o del servidor DNS remoto. La lista de errores se compone de cadenas de caracteres incluidas en el mensaje rechazado por el servidor remoto. Los tipos y los motivos del error se asignan a cada mensaje.
 
@@ -290,7 +290,7 @@ Las reglas predeterminadas son las siguientes.
 
 >[!IMPORTANT]
 >
->En el caso de instalaciones alojadas o híbridas, si ha actualizado al [servidor de correo mejorado](sending-with-enhanced-mta.md) y si su instancia tiene la funcionalidad **Webhooks/EFS**, las reglas de **[!UICONTROL Inbound email]** ya no se utilizan para los mensajes de error en el envío síncronos. Para obtener más información, consulte [esta sección](#bounce-mail-qualification).
+>En el caso de instalaciones alojadas o híbridas, si ha actualizado a [MTA mejorado](sending-with-enhanced-mta.md)y si su instancia tiene **Webhooks** funcionalidad, el **[!UICONTROL Inbound email]** Las reglas de ya no se utilizan para los mensajes de error de envío sincrónico. Para obtener más información, consulte [esta sección](#bounce-mail-qualification).
 
 Para instalaciones on-premise e instalaciones hospedadas/híbridas que utilizan el servidor de correo de Campaign heredado, estas reglas contienen la lista de cadenas de caracteres que pueden ser devueltas por servidores remotos y que permiten calificar el error (**duro**, **suave** o **desconocido**).
 

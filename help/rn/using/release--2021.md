@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
-source-wordcount: '2595'
+source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
+workflow-type: tm+mt
+source-wordcount: '2549'
 ht-degree: 100%
 
 ---
@@ -268,9 +268,6 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](../..
 * Ahora se capturan todas las categorías de comentarios para obtener una creación de informes completa y precisa.
 * El cálculo del indicador Entregado ahora se basa en los comentarios en tiempo real del servidor de correo mejorado para mejorar la precisión y la reactividad.
 * EFS soluciona el problema de los retrasos con la creación de informes de devoluciones síncronas suaves.
-
-Para obtener más información, consulte la [documentación detallada](../../delivery/using/sending-with-enhanced-mta.md#efs).
-Si desea participar en esta versión beta privada, rellene este [formulario](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Rol2vQGupxItW9_BerXV6VUQTJPN1Q5WUI4OFNTWkYzQjg3WllUSDAxWi4u) y le responderemos.
 
 **Otros cambios**
 
