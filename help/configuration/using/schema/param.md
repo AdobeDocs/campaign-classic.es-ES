@@ -2,8 +2,9 @@
 product: campaign
 title: 'Elementos y atributos de esquema: elemento param'
 description: elemento param
+feature: Schema Extension
 exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 6%
@@ -51,7 +52,7 @@ Este elemento permite definir un parámetro para llamar a un método SOAP.
 * **nombre (MNTOKEN)**: nombre interno del `<param>`
 * **type (cadena)**: este atributo define el tipo de `<param>` elemento
 
-   Lista de tipos disponibles:
+  Lista de tipos disponibles:
 
    * CUALQUIERA
    * cubo

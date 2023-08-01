@@ -2,11 +2,12 @@
 product: campaign
 title: 'Elementos y atributos: elemento de atributo'
 description: Elementos y atributos
+feature: Schema Extension
 audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
-source-git-commit: 40da5774c8a6a228992c4aa400e2d9924215611e
+source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 1%
@@ -47,9 +48,9 @@ La secuencia en la que `<attribute>` Los elementos de se definen en una `<srcsch
 
 * **_operation (cadena)**: define el tipo de escritura en la base de datos.
 
-   Este atributo se utiliza principalmente para ampliar esquemas predeterminados.
+  Este atributo se utiliza principalmente para ampliar esquemas predeterminados.
 
-   Los valores accesibles son:
+  Los valores accesibles son:
 
    * &quot;ninguno&quot;: reconciliación sola. Esto significa que Adobe Campaign recuperará el elemento sin actualizarlo ni generar un error si no existe.
    * &quot;insertOrUpdate&quot;: actualizar con inserción. Esto significa que Adobe Campaign actualizará el elemento o lo creará si no existe.
@@ -84,14 +85,14 @@ La secuencia en la que `<attribute>` Los elementos de se definen en una `<srcsch
    * &quot;compartido&quot;: el contenido se almacena en una tabla compartida por tipo de datos
    * &quot;dedicado&quot;: el contenido se almacena en una tabla dedicada
 
-   Las tablas de características SQL se crean automáticamente en función del tipo de característica:
+  Las tablas de características SQL se crean automáticamente en función del tipo de característica:
 
    * dedicado: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
    * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
-   Existen dos tipos de campos de características: campos oà¹ simples en los que se autoriza un solo valor en la característica y campos oà¹ de opción múltiple, en los que la característica está vinculada a un elemento de colección que puede contener varios valores.
+  Existen dos tipos de campos de características: campos oà¹ simples en los que se autoriza un solo valor en la característica y campos oà¹ de opción múltiple, en los que la característica está vinculada a un elemento de colección que puede contener varios valores.
 
-   Cuando se define una característica en un esquema, este debe tener una clave principal basada en un único campo (las claves compuestas no están autorizadas).
+  Cuando se define una característica en un esquema, este debe tener una clave principal basada en un único campo (las claves compuestas no están autorizadas).
 
 * **featureDate (booleano)**: atributo vinculado al campo de características @feature. Si su valor es &quot;true&quot;, le permite averiguar cuándo se actualizó el valor por última vez.
 * **img (cadena)**: permite definir una ruta para una imagen vinculada a un campo (área de nombres + nombre de imagen) (ejemplo: img=&quot;cus:mypicture.jpg&quot;). Físicamente, la imagen debe importarse al servidor de aplicaciones.
@@ -100,14 +101,14 @@ La secuencia en la que `<attribute>` Los elementos de se definen en una `<srcsch
 * **localizable (booleano)**: si está activado, este atributo indica a la herramienta de recopilación que recupere el valor del atributo &quot;@label&quot; para su traducción (uso interno).
 * **nombre (MNTOKEN)**: nombre del atributo que coincidirá con el nombre del campo de la tabla. El valor del atributo &quot;@name&quot; debe ser corto, preferiblemente en inglés, y cumplir con las restricciones de nomenclatura XML.
 
-   Cuando se escribe el esquema en la base de datos, Adobe Campaign agrega automáticamente prefijos al nombre del campo:
+  Cuando se escribe el esquema en la base de datos, Adobe Campaign agrega automáticamente prefijos al nombre del campo:
 
    * &quot;i&quot;: prefijo para el tipo &quot;entero&quot;.
    * &quot;d&quot;: prefijo para el tipo &quot;double&quot;.
    * &quot;s&quot;: prefijo del tipo de cadena de caracteres.
    * &quot;ts&quot;: prefijo para el tipo &quot;fecha&quot;.
 
-   Para definir completamente el nombre del campo en la tabla, utilice la opción @sqlname al definir un atributo.
+  Para definir completamente el nombre del campo en la tabla, utilice la opción @sqlname al definir un atributo.
 
 * **notNull (booleano)**: permite redefinir el comportamiento de Adobe Campaign con respecto a la administración de registros NULL en la base de datos. De forma predeterminada, los campos numéricos no son nulos y los campos de cadena y tipo de fecha pueden ser nulos.
 * **pkgStatus (cadena)**: durante las exportaciones de paquetes, los valores se tienen en cuenta según el valor de la &quot;@pkgStatus&quot;:
@@ -126,9 +127,9 @@ La secuencia en la que `<attribute>` Los elementos de se definen en una `<srcsch
 * **translatedExpr (cadena)**: si hay un atributo &quot;@expr&quot; presente, el atributo &quot;@translatedExpr&quot; permite redefinir una expresión para que coincida con la definida en @expr, que recopila la herramienta de traducción (uso interno).
 * **Tipo (MNTOKEN)**: tipo de campo.
 
-   Los tipos de campo son genéricos. Según el tipo de base de datos instalada, Adobe Campaign cambia el tipo definido en un valor específico de la base de datos instalada durante la actualización de la estructura.
+  Los tipos de campo son genéricos. Según el tipo de base de datos instalada, Adobe Campaign cambia el tipo definido en un valor específico de la base de datos instalada durante la actualización de la estructura.
 
-   Lista de tipos disponibles:
+  Lista de tipos disponibles:
 
    * CUALQUIERA
    * cubo
@@ -157,16 +158,16 @@ La secuencia en la que `<attribute>` Los elementos de se definen en una `<srcsch
    * intervalo de tiempo
    * uuid
 
-   Si se deja vacío el atributo &quot;@type&quot;, Adobe Campaign vinculará al campo de forma predeterminada una cadena de caracteres (STRING) con una longitud de 100.
+  Si se deja vacío el atributo &quot;@type&quot;, Adobe Campaign vinculará al campo de forma predeterminada una cadena de caracteres (STRING) con una longitud de 100.
 
-   Si el campo es de tipo CADENA y el nombre del campo no se especifica mediante la presencia del atributo &quot;@sqlname&quot;, el nombre del campo en la base de datos estará precedido automáticamente por una &quot;s&quot;. Este modo operativo es similar a los campos de tipo INTEGER (i), DOUBLE (d) y DATES (ts).
+  Si el campo es de tipo CADENA y el nombre del campo no se especifica mediante la presencia del atributo &quot;@sqlname&quot;, el nombre del campo en la base de datos estará precedido automáticamente por una &quot;s&quot;. Este modo operativo es similar a los campos de tipo INTEGER (i), DOUBLE (d) y DATES (ts).
 
 * **userEnum (cadena)**: recibe el nombre interno de una enumeración &quot;open&quot;. El usuario puede definir los valores de la enumeración en la interfaz.
 * **visibleIf (cadena)**: define una condición en forma de expresión XTK para mostrar u ocultar el atributo.
 
-   >[!IMPORTANT]
-   >
-   >El atributo está oculto, pero se puede acceder a sus datos.
+  >[!IMPORTANT]
+  >
+  >El atributo está oculto, pero se puede acceder a sus datos.
 
 * **xml (booleano)**: si esta opción está activada, los valores del campo no tienen un campo SQL vinculado. Adobe Campaign crea un campo de tipo de texto &quot;mData&quot; para el almacenamiento de registros. Esto significa que no hay filtrado ni ordenación en estos campos.
 
