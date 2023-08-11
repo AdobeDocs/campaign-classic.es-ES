@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ La aprobación de los requisitos de oferta implica aceptar o rechazar los pesos 
 
   ![](assets/offer_validate_009.png)
 
-  Los distintos estados se actualizan en el tablero de ofertas.
+  Los distintos estados se actualizan en el panel de ofertas.
 
   ![](assets/offer_validate_010.png)
 
