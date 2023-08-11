@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2624'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -188,7 +188,7 @@ Si un mensaje falla debido a un error **leve** o **ignorado** temporal, los rein
 
 >[!IMPORTANT]
 >
->En el caso de instalaciones hospedadas o híbridas, si ha actualizado al [servidor de correo mejorado](sending-with-enhanced-mta.md), la configuración de reintentos del envío ya no se utiliza en Campaign. Los reintentos de rebote suave y el periodo entre ellos están determinados por el servidor de correo mejorado en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
+>En el caso de instalaciones hospedadas o híbridas, si ha actualizado al [servidor de correo mejorado](sending-with-enhanced-mta.md), la configuración de reintentos del envío ya no se utiliza en Campaign. Los reintentos de rechazo temporal y el periodo de tiempo entre ellos están determinados por el servidor de correo mejorado en función del tipo y la gravedad de las respuestas de rechazo procedentes del dominio de correo electrónico del mensaje.
 
 En las instalaciones on-premise y las instalaciones hospedadas/híbridas que utilizan el servidor de correo de Campaign heredado, para modificar la duración de un envío, vaya a los parámetros avanzados del envío o la plantilla de envío y especifique la duración deseada en el campo correspondiente. Consulte [Definición del periodo de validez](steps-sending-the-delivery.md#defining-validity-period).
 
@@ -233,7 +233,7 @@ En el caso de instalaciones on-premise e instalaciones alojadas/híbridas que ut
 >
 >* Las devoluciones **asíncronas** siguen siendo calificadas por el proceso inMail a través de las reglas de **[!UICONTROL Inbound email]** . Para obtener más información, consulte [Reglas de gestión de correo electrónico](#email-management-rules).
 >
->* Para instancias que utilizan el servidor de correo mejorado **sin Webhooks**, el **[!UICONTROL Inbound email]** Las reglas de también se utilizan para procesar los correos electrónicos rechazados sincrónicos procedentes del servidor de correo mejorado, utilizando la misma dirección de correo electrónico que para los correos electrónicos rechazados asincrónicos.
+>* En el caso de instancias que utilicen el servidor de correo mejorado **sin Webhooks/**, las reglas de **[!UICONTROL Inbound email]** también se utilizan para procesar los correos electrónicos rechazados síncronos procedentes del servidor de correo mejorado, utilizando la misma dirección de correo electrónico que para los correos electrónicos rechazados asíncronos.
 
 En el caso de instalaciones on-premise e instalaciones alojadas/híbridas que utilizan el servidor de correo de Campaign heredado, cuando se produce un error en el envío de un correo electrónico, el servidor de envío de Adobe Campaign recibe un mensaje de error del servidor de mensajería o del servidor DNS remoto. La lista de errores se compone de cadenas de caracteres incluidas en el mensaje rechazado por el servidor remoto. Los tipos y los motivos del error se asignan a cada mensaje.
 
@@ -290,7 +290,7 @@ Las reglas predeterminadas son las siguientes.
 
 >[!IMPORTANT]
 >
->En el caso de instalaciones alojadas o híbridas, si ha actualizado a [MTA mejorado](sending-with-enhanced-mta.md)y si su instancia tiene **Webhooks** funcionalidad, el **[!UICONTROL Inbound email]** Las reglas de ya no se utilizan para los mensajes de error de envío sincrónico. Para obtener más información, consulte [esta sección](#bounce-mail-qualification).
+>En el caso de instalaciones alojadas o híbridas, si ha actualizado al [servidor de correo mejorado](sending-with-enhanced-mta.md) y si su instancia tiene la funcionalidad **Webhooks**, las reglas de **[!UICONTROL Inbound email]** ya no se utilizan para los mensajes de error de envío síncronos. Para obtener más información, consulte [esta sección](#bounce-mail-qualification).
 
 Para instalaciones on-premise e instalaciones hospedadas/híbridas que utilizan el servidor de correo de Campaign heredado, estas reglas contienen la lista de cadenas de caracteres que pueden ser devueltas por servidores remotos y que permiten calificar el error (**duro**, **suave** o **desconocido**).
 
@@ -321,7 +321,7 @@ Si los mensajes se muestran en Outlook con **[!UICONTROL on behalf of]** en la d
 
 >[!IMPORTANT]
 >
->En el caso de instalaciones alojadas o híbridas, si se ha actualizado al [servidor de correo mejorado](sending-with-enhanced-mta.md), ya no se utilizan las reglas de rendimiento de envíos **[!UICONTROL MX management]**. El servidor de correo mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
+>En el caso de instalaciones alojadas o híbridas, si se ha actualizado al [servidor de correo mejorado](sending-with-enhanced-mta.md), ya no se utilizan las reglas de rendimiento de envíos **[!UICONTROL MX management]**. El servidor de correo mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica del correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
 
 Para instalaciones on-premise e instalaciones alojadas/híbridas que utilicen el servidor de correo de Campaign heredado:
 
