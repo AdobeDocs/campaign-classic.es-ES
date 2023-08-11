@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Ofertas en un canal saliente
-description: Ofertas en un canal saliente
+title: Ofertas en un canal de salida
+description: Ofertas en un canal de salida
 feature: Interaction, Offers
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: case-study
 exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
