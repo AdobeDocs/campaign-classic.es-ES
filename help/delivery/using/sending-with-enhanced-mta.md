@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Envío con el servidor de envío mejorado en Adobe Campaign Classic
-description: Obtenga información acerca del ámbito y las características específicas del envío de correos electrónicos con el MTA mejorado de Adobe Campaign
+description: Obtenga información acerca del ámbito y las características específicas del envío de correos electrónicos con el servidor de correo mejorado de Adobe Campaign
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1352'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -153,13 +153,13 @@ Cuando se generan informes de los mensajes de rebote suave desde el servidor de 
 
 Por lo tanto, debe esperar hasta el final del período de validez para ver el porcentaje de **[!UICONTROL Success]** final y el número final de mensajes realmente **[!UICONTROL Sent]** y **[!UICONTROL Failed]**.
 
-La tabla siguiente muestra los diferentes pasos del proceso de envío con los KPI y los estados de registros de envío correspondientes.
+En la tabla siguiente se muestran los diferentes pasos del proceso de envío con los indicadores clave de rendimiento (KPI) y los estados de registros de envío correspondientes.
 
 | Paso en el proceso de envío | Resumen de KPI | Estado de envío de registros |
 |--- |--- |--- |
 | El mensaje se retransmite correctamente desde Campaign al servidor de correo mejorado | El porcentaje de **[!UICONTROL Success]** comienza en 100 % | Enviado |
-| Los mensajes de devolución dura se informan desde el servidor de correo mejorado | **[!UICONTROL Success]** El porcentaje de disminuye en consecuencia | Error |
-| Los mensajes de devolución suave se informan desde el servidor de correo mejorado | Sin cambios en **[!UICONTROL Success]** porcentaje | Enviado |
-| Los reintentos de mensajes de devolución suave se realizan correctamente | Sin cambios en **[!UICONTROL Success]** porcentaje | Enviado | **[!UICONTROL Success]** El porcentaje de sube en consecuencia | Enviado |
-| Error en los reintentos de mensajes de devolución suave | **[!UICONTROL Success]** El porcentaje de disminuye en consecuencia | Error |
+| Los mensajes de devolución dura se informan desde el servidor de correo mejorado | El porcentaje de **[!UICONTROL Success]** baja en consecuencia | Error |
+| Los mensajes de devolución suave se informan desde el servidor de correo mejorado | No hay cambios en el porcentaje de **[!UICONTROL Success]** | Enviado |
+| Los reintentos de mensajes de devolución suave se realizan correctamente | No hay cambios en el porcentaje de **[!UICONTROL Success]** | Enviado | El porcentaje de **[!UICONTROL Success]** sube en consecuencia | Enviado |
+| Error en los reintentos de mensajes de devolución suave | El porcentaje de **[!UICONTROL Success]** baja en consecuencia | Error |
 
