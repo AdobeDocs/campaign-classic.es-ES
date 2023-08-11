@@ -3,19 +3,19 @@ product: campaign
 title: Ejecutar Adobe Campaign
 description: Ejecutar Adobe Campaign
 feature: Access Management, Permissions
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Ejecución de Adobe Campaign{#launching-adobe-campaign}
+# Lanzamiento de Adobe Campaign{#launching-adobe-campaign}
 
 
 
