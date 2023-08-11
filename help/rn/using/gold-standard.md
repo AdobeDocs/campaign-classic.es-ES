@@ -3,14 +3,14 @@ product: campaign
 title: “Versiones de [!DNL Gold Standard]”
 description: Notas de la versión y matriz de compatibilidad para Campaign Classic [!DNL Gold Standard]
 feature: Release Notes
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1787'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
