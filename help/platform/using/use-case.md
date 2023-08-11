@@ -10,13 +10,13 @@ content-type: reference
 topic-tags: filtering-data
 exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Caso de uso{#use-case}
+# Ejemplo de uso{#use-case}
 
 
 
