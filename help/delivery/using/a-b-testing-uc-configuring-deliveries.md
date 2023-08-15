@@ -2,13 +2,13 @@
 product: campaign
 title: Configuración de entregas
 description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: A/B Testing
 exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '247'
 ht-degree: 100%
 
 ---

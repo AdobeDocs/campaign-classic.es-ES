@@ -3,7 +3,7 @@ product: campaign
 title: Configuración de las opciones de Campaign
 description: Obtenga información sobre cómo configurar las opciones de Campaign
 feature: Installation, Application Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: appendices

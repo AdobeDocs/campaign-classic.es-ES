@@ -2,12 +2,12 @@
 product: campaign
 title: Descripción del modelo de datos de Adobe Campaign Classic
 description: Este documento describe el modelo de datos de Adobe Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Data Model
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '2374'
+source-wordcount: '2381'
 ht-degree: 2%
 
 ---
@@ -260,7 +260,7 @@ Este conjunto de tablas está vinculado al **Canal de aplicaciones móviles**, q
 
 ## Módulo de marketing social {#social-marketing-module}
 
-Este conjunto de tablas está vinculado al **Administración de redes sociales** , que permite interactuar con clientes y clientes potenciales a través de Facebook y Twitter. Para obtener más información, consulte [Acerca del marketing social](../../social/using/about-social-marketing.md).
+Este conjunto de tablas está vinculado al **Administración de redes sociales** , que permite interactuar con los clientes y clientes potenciales a través de Facebook y Twitter. Para obtener más información, consulte [Acerca del marketing social](../../social/using/about-social-marketing.md).
 
 ![](assets/data-model_social.png)
 

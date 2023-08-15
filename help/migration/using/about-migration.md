@@ -3,7 +3,7 @@ product: campaign
 title: Migración al Campaign Classic
 description: Obtenga información sobre cómo migrar al Campaign Classic desde una versión anterior de Campaign
 feature: Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: migration
 content-type: reference
 topic-tags: migration-overview
@@ -13,7 +13,7 @@ exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 

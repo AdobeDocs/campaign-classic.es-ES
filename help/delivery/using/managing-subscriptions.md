@@ -2,13 +2,13 @@
 product: campaign
 title: Administración de suscripciones
 description: Administración de suscripciones
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Subscriptions
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1110'
 ht-degree: 100%
 
 ---
@@ -54,9 +54,9 @@ Para editar un servicio existente, haga clic en su nombre. Para crear un servici
 
 * Introduzca el nombre del servicio en el campo **[!UICONTROL Label]** y seleccione el canal de entrega: correo electrónico, móvil, Facebook, Twitter o aplicaciones móviles.
 
-   >[!NOTE]
-   >
-   >En [esta sección](../../social/using/about-social-marketing.md) se detallan las suscripciones a Facebook y Twitter. Las suscripciones a aplicaciones móviles se detallan en [Acerca del canal de aplicaciones móviles](about-mobile-app-channel.md).
+  >[!NOTE]
+  >
+  >En [esta sección](../../social/using/about-social-marketing.md) se detallan las suscripciones a Facebook y Twitter. Las suscripciones a aplicaciones móviles se detallan en [Acerca del canal de aplicaciones móviles](about-mobile-app-channel.md).
 
 * Para el servicio de correo electrónico, seleccione el **Delivery mode**. Los modos posibles son: **[!UICONTROL Newsletter]** o **[!UICONTROL Viral]**.
 * Puede enviar **mensajes de confirmación** para una suscripción o darse de baja. Para ello, seleccione las plantillas de entrega que quiera utilizar para crear los envíos correspondientes de los campos **[!UICONTROL Subscription]** y **[!UICONTROL Unsubscription]**. Estas plantillas deben configurarse con una asignación de destino de tipo **[!UICONTROL Subscription]**, sin un destino definido. Consulte la sección [Acerca del canal de correo electrónico](about-email-channel.md).
@@ -125,22 +125,22 @@ Para registrar a los destinatarios en un servicio informativo, puede:
 
 * Añadirlos manualmente al servicio: para ello, desde la pestaña **[!UICONTROL Subscriptions]** de su perfil, haga clic en **[!UICONTROL Add]** y seleccione el servicio informativo que corresponda.
 
-   Para obtener más información, consulte la sección de edición de perfiles en [esta sección](../../platform/using/editing-a-profile.md).
+  Para obtener más información, consulte la sección de edición de perfiles en [esta sección](../../platform/using/editing-a-profile.md).
 
 * Suscribir automáticamente a un conjunto de destinatarios a este servicio. Puede obtener una lista de destinatarios a través de una operación de filtrado, un grupo, una carpeta, una importación o una selección directa usando el ratón. Para suscribir a estos destinatarios, haga clic con el botón derecho del ratón. Seleccione **[!UICONTROL Actions > Subscribe selection to a service...]**, el servicio correspondiente y ejecute la operación.
 * Importación de destinatarios y subscripción automática a un servicio informativo. Para ello, seleccione el servicio correspondiente en el último paso del asistente para importar.
 
-   Para obtener más información, consulte [esta sección](../../platform/using/executing-import-jobs.md).
+  Para obtener más información, consulte [esta sección](../../platform/using/executing-import-jobs.md).
 
 * Uso de un formulario web para que los destinatarios puedan suscribirse a un servicio.
 
-   Para obtener más información, consulte [esta sección](../../web/using/about-web-applications.md).
+  Para obtener más información, consulte [esta sección](../../web/using/about-web-applications.md).
 
 * Creación de un flujo de trabajo de objetivos y uso de una casilla **[!UICONTROL Subscription service]**.
 
-   ![](assets/s_ncs_user_subscribe_from_wf.png)
+  ![](assets/s_ncs_user_subscribe_from_wf.png)
 
-   En [esta sección](../../workflow/using/about-workflows.md) se describen los flujos de trabajo y cómo utilizarlos.
+  En [esta sección](../../workflow/using/about-workflows.md) se describen los flujos de trabajo y cómo utilizarlos.
 
 ### Dar de baja a un destinatario de un servicio {#unsubscribing-a-recipient-from-a-service}
 

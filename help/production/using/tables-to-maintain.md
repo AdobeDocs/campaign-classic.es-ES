@@ -3,7 +3,7 @@ product: campaign
 title: Tablas que mantener
 description: Tablas que mantener
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
@@ -12,7 +12,7 @@ exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 

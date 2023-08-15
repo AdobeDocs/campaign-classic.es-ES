@@ -3,7 +3,7 @@ product: campaign
 title: Implementación de una instancia
 description: Más información sobre el Asistente de implementación de Campaign
 feature: Installation, Instance Settings, Deployment
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
@@ -133,7 +133,7 @@ La información sobre las recuperaciones se proporciona en la **Períodos de rec
 
 >[!NOTE]
 >
->En el caso de instalaciones alojadas o híbridas, si ha actualizado a [MTA mejorado](../../delivery/using/sending-with-enhanced-mta.md)Sin embargo, los parámetros de reintento de Campaign ya no se utilizan. Los reintentos de rebote suave y el periodo entre ellos están determinados por el servidor de correo mejorado en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
+>En el caso de instalaciones alojadas o híbridas, si ha actualizado a [MTA mejorado](../../delivery/using/sending-with-enhanced-mta.md)Sin embargo, los parámetros de reintento de Campaign ya no se utilizan. Los reintentos de rechazo temporal y el periodo de tiempo entre ellos están determinados por el servidor de correo mejorado en función del tipo y la gravedad de las respuestas de rechazo procedentes del dominio de correo electrónico del mensaje.
 
 ### Parámetros de cuarentena {#quarantine-parameters}
 
@@ -320,7 +320,7 @@ Esta fase permite incluir las preferencias de política de datos.
 
 ![](assets/s_ncs_install_deployment_wiz_14.png)
 
-* **[!UICONTROL Consider all phone numbers as international ones]** : cuando se selecciona esta opción, la aplicación aplica el formato internacional a los números de teléfono (el prefijo del país es obligatorio porque el número de dígitos no se comprueba antes de aplicar el formato). Si esta opción no está seleccionada, debe codificar el número de teléfono internacional con &quot;+&quot; o &quot;00&quot;.
+* **[!UICONTROL Consider all phone numbers as international ones]** : Cuando se selecciona esta opción, la aplicación aplica el formato internacional a los números de teléfono (el prefijo del país es obligatorio porque el número de dígitos no se comprueba antes de aplicar el formato). Si esta opción no está seleccionada, debe codificar el número de teléfono internacional con &quot;+&quot; o &quot;00&quot;.
 * **[!UICONTROL Store all phone numbers using the international format]** : Esta opción solo abarca **doméstico** números de teléfono importados o editados. Defina si desea utilizar un formato nacional (como 425 555 0150) o internacional (por ejemplo, +1 425 555 0150)
 
 ## Acceso desde Internet {#access-from-the-internet}
@@ -405,7 +405,7 @@ La sección inferior del asistente le permite seleccionar las opciones de public
 
 Están disponibles los siguientes modos de publicación:
 
-* Servidor(es) de seguimiento
+* Servidores de seguimiento
 
   Los recursos se copiarán automáticamente en los diferentes servidores de seguimiento. Se configuran en el paso [Configuración de seguimiento](#tracking-configuration).
 

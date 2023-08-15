@@ -3,7 +3,7 @@ product: campaign
 title: Configuración del acceso a Google BigQuery
 description: Obtenga información sobre cómo configurar el acceso a Google BigQuery en FDA
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: connectors

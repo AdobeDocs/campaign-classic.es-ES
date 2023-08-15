@@ -2,13 +2,13 @@
 product: campaign
 title: Definición de la secuenciación de la página de formularios web
 description: Definición de la secuenciación de la página de formularios web
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '714'
 ht-degree: 100%
 
 ---
@@ -35,19 +35,19 @@ El destino puede ser:
 
 * otra página del formulario. Para ello, seleccione **[!UICONTROL Internal activity]** y luego especifique la página deseada, como se muestra a continuación:
 
-   ![](assets/s_ncs_admin_jump_param1.png)
+  ![](assets/s_ncs_admin_jump_param1.png)
 
 * otro formulario. Para esto, haga clic en la opción **[!UICONTROL Explicit]** y especifique el formulario de destino.
 
-   ![](assets/s_ncs_admin_jump_param2.png)
+  ![](assets/s_ncs_admin_jump_param2.png)
 
 * El destino se puede almacenar en una variable. En este caso, selecciónelo en la lista desplegable, como se muestra a continuación:
 
-   ![](assets/s_ncs_admin_jump_param3.png)
+  ![](assets/s_ncs_admin_jump_param3.png)
 
 * La pestaña **[!UICONTROL Comment]** permite introducir información que puede ver el operador cuando haga clic en el objeto del diagrama.
 
-   ![](assets/s_ncs_admin_survey_jump_comment.png)
+  ![](assets/s_ncs_admin_survey_jump_comment.png)
 
 ## Ejemplo: acceso a otro formulario de acuerdo con un parámetro de la URL {#example--accessing-another-form-according-to-a-parameter-of-the-url}
 

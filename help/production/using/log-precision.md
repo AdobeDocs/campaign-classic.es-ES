@@ -3,7 +3,7 @@ product: campaign
 title: Precisión de registro
 description: Precisión de registro
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
@@ -12,7 +12,7 @@ exl-id: c2470098-62f3-4fee-b1c5-800ed0e91f75
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign puede funcionar con dos niveles de registro:
    nlserver restart <MODULE_NAME> -noconsole
    ```
 
-1. El **TraceFilter** , que permite guardar el número más bueno de registros. Se activa mediante el siguiente comando:
+1. El **TraceFilter** , que permite guardar el mayor número de registros. Se activa mediante el siguiente comando:
 
    ```
    nlserver stop <MODULE_NAME>; nlserver <MODULE_NAME> -verbose -tracefilter:*

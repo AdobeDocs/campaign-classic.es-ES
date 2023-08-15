@@ -2,13 +2,13 @@
 product: campaign
 title: Optimización del envío de mensajes
 description: Aprenda a optimizar la entrega de mensajes
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '748'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Varios factores pueden afectar directamente al rendimiento del servidor y ralent
 
 * Carga del servidor: Cuando el servidor de marketing gestiona muchas tareas diferentes al mismo tiempo, puede ralentizar el rendimiento. El servidor de marketing debe coordinar todos los datos entrantes y salientes de todos los envíos para garantizar que los datos sean correctos y oportunos.
 
-   **SUGERENCIA:** Para evitar esto, coordine la programación de las envíos con los demás miembros de su equipo para garantizar el mejor rendimiento.
+  **SUGERENCIA:** Para evitar esto, coordine la programación de las envíos con los demás miembros de su equipo para garantizar el mejor rendimiento.
 
 * Ejecución del flujo de trabajo: La monitorización de sus flujos de trabajo es esencial para evitar problemas de rendimiento de la plataforma. Siga las directrices enumeradas [en este documento](../../workflow/using/workflow-best-practices.md#execution-and-performance).
 

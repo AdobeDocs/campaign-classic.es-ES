@@ -2,13 +2,13 @@
 product: campaign
 title: Creación de una entrega de correo directo
 description: Aprenda a crear una entrega de correo directo
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Direct Mail
 exl-id: 964cc600-19b8-449e-bac6-dc9da2b5ea12
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '99'
 ht-degree: 100%
 
 ---

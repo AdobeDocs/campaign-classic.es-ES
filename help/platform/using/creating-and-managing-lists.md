@@ -2,14 +2,14 @@
 product: campaign
 title: Creación y administración de listas
 description: Obtenga información sobre cómo crear y administrar listas
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Profiles
 role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '811'
 ht-degree: 100%
 
 ---
@@ -30,11 +30,11 @@ En Adobe Campaign, hay disponibles dos tipos de listas:
 
 * **[!UICONTROL Group]** Tipo: Las listas de tipo **[!UICONTROL Group]** pertenecen a una lista **estática** de personas seleccionadas según criterios específicos. La lista es como una instantánea de un conjunto de perfiles. Tenga en cuenta que no se actualiza automáticamente en caso de que los perfiles se añadan a la base de datos.
 
-   Para obtener más información sobre cómo crear una lista de tipo **[!UICONTROL Group]**, consulte esta [página](#creating-a-profile-list-from-a-group).
+  Para obtener más información sobre cómo crear una lista de tipo **[!UICONTROL Group]**, consulte esta [página](#creating-a-profile-list-from-a-group).
 
 * **[!UICONTROL List]** Tipo: Las listas de tipo **[!UICONTROL List]** permiten utilizar flujos de trabajo para crear y administrar listas. Estas serán listas específicas que resultan de las importaciones de datos, las cuales pueden actualizarse a través de la actividad de flujo de trabajo de **[!UICONTROL List update]** dedicada.
 
-   A diferencia de la lista de tipo **[!UICONTROL Group]**, esta lista de tipos se puede actualizar automáticamente con una actividad de **[!UICONTROL Scheduler]** Tenga en cuenta que para ver un ejemplo sobre cómo crear listas de tipo **[!UICONTROL List]**, consulte [esta página](../../workflow/using/list-update.md).
+  A diferencia de la lista de tipo **[!UICONTROL Group]**, esta lista de tipos se puede actualizar automáticamente con una actividad de **[!UICONTROL Scheduler]** Tenga en cuenta que para ver un ejemplo sobre cómo crear listas de tipo **[!UICONTROL List]**, consulte [esta página](../../workflow/using/list-update.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#create-list-video)
 
@@ -58,7 +58,7 @@ Para crear una nueva lista de tipo **[!UICONTROL Group]**, siga los siguientes p
    * Añada una descripción para esta lista.
    * Puede especificar una fecha de caducidad: cuando se llegue a esta fecha, la lista se depura y se elimina automáticamente.
 
-      ![](assets/list_expiration_date.png)
+     ![](assets/list_expiration_date.png)
 
 1. En la ficha **[!UICONTROL Content]**, haga clic en **[!UICONTROL Add]** para seleccionar los perfiles pertenecientes a la lista.
 
@@ -113,11 +113,11 @@ Para quitar un perfil de una lista, puede:
 
 * Editar la lista, seleccionar el perfil en la ficha **[!UICONTROL Content]** y, a continuación, hacer clic en el icono **[!UICONTROL Delete]**.
 
-   ![](assets/list_remove_a_recipient.png)
+  ![](assets/list_remove_a_recipient.png)
 
 * Editar el perfil, hacer clic en la ficha **[!UICONTROL List]** y, a continuación, hacer clic en el icono **[!UICONTROL Delete]**.
 
-   ![](assets/recipient_remove_a_list.png)
+  ![](assets/recipient_remove_a_list.png)
 
 ## Eliminación de una lista de perfiles {#deleting-a-list-of-profiles}
 

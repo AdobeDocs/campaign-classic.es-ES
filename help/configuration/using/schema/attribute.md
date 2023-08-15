@@ -193,7 +193,7 @@ Declaración de un campo XML con &quot;@datapolicy&quot;:
      length="32" name="mobilePhone" sqlname="sMobilePhone" type="string"/>
 ```
 
-Ejemplo con un &quot;@applicableIf&quot;: el atributo &quot;contiene&quot; solo se crea si el número de países es bueno que 20.
+Ejemplo con un &quot;@applicableIf&quot;: el atributo &quot;contiene&quot; solo se crea si el número de países es mayor de 20.
 
 ```
 <attribute length="100" name="Continent" type="string" applicableIf="@country > 20"/>

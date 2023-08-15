@@ -2,12 +2,12 @@
 product: campaign
 title: Proveedores, stock y presupuestos
 description: Proveedores, stock y presupuestos
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Budget Management, Campaigns
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1909'
 ht-degree: 100%
 
 ---
@@ -77,10 +77,10 @@ Para crear una plantilla de servicio y definir su contenido, aplique los siguien
    * Haga clic en el botón **[!UICONTROL Add]** para definir los tipos de coste asociados a esta categoría.
    * Si es necesario, asocie una línea de stock con cada tipo de coste para que las cantidades utilizadas se relacionen automáticamente con el stock disponible.
 
-      >[!NOTE]
-      >
-      >Las líneas de stock se definen en el nodo **[!UICONTROL Stock management]**.\
-      >Para obtener más información, consulte [Gestión de stock y solicitudes](#stock-and-order-management).
+     >[!NOTE]
+     >
+     >Las líneas de stock se definen en el nodo **[!UICONTROL Stock management]**.\
+     >Para obtener más información, consulte [Gestión de stock y solicitudes](#stock-and-order-management).
 
 1. Puede preseleccionar un valor para esta categoría de coste, que se ofrece de forma predeterminada en las categorías de coste del proveedor de servicios (en lugar de en un espacio en blanco). Para ello, seleccione la opción de la columna **[!UICONTROL Selected]** para el tipo de categoría correspondiente:
 
@@ -100,15 +100,15 @@ Haga clic en la pestaña **[!UICONTROL Cost structure]** para configurar el cál
 
 * Para crear la estructura de coste, seleccione el tipo de mensaje y la categoría de coste que le interesen en las listas desplegables, así como el tipo de coste que se aplica a la regla de cálculo. El contenido de estas listas desplegables proviene de la información introducida a través de la pestaña **[!UICONTROL Cost categories]**.
 
-   Debe asignar una etiqueta a la estructura de coste. De forma predeterminada, tiene el siguiente esquema de entrega: **Cost category, Type of cost**.
+  Debe asignar una etiqueta a la estructura de coste. De forma predeterminada, tiene el siguiente esquema de entrega: **Cost category, Type of cost**.
 
-   Sin embargo, puede cambiarle el nombre: introduzca el valor deseado directamente en el campo **[!UICONTROL Label]**.
+  Sin embargo, puede cambiarle el nombre: introduzca el valor deseado directamente en el campo **[!UICONTROL Label]**.
 
 * La fórmula de cálculo de coste se define en la sección inferior de la ventana.
 
-   Esta fórmula puede ser fija (para cualquier número de mensajes) o calculada según el número de mensajes.
+  Esta fórmula puede ser fija (para cualquier número de mensajes) o calculada según el número de mensajes.
 
-   Cuando depende del número de mensajes, la estructura de cálculo de costes puede ser **[!UICONTROL Linear]**, **[!UICONTROL Linear by threshold]** o **[!UICONTROL Constant by threshold]**.
+  Cuando depende del número de mensajes, la estructura de cálculo de costes puede ser **[!UICONTROL Linear]**, **[!UICONTROL Linear by threshold]** o **[!UICONTROL Constant by threshold]**.
 
 #### Estructura lineal {#linear-structure}
 
@@ -146,11 +146,11 @@ Para ello, haga clic en la pestaña **[!UICONTROL Processes]** para configurar l
 
 * La sección **[!UICONTROL File extraction]** indica la plantilla de exportación utilizada para la entrega cuando se selecciona este servicio. Puede indicar el nombre del archivo de salida en el campo **[!UICONTROL Extraction file]**. El botón situado a la derecha del campo le permite insertar variables.
 
-   ![](assets/s_ncs_user_supplier_node_02a.png)
+  ![](assets/s_ncs_user_supplier_node_02a.png)
 
 * La sección **[!UICONTROL Notification email]** permite especificar la plantilla para enviar una notificación a los proveedores de servicios después de enviar los archivos. Seleccione la plantilla utilizada para crear el mensaje de alerta y el grupo de destinatarios.
 
-   De forma predeterminada, las plantillas de entrega de los mensajes de notificación se guardan en el nodo **[!UICONTROL Administration > Campaign management > Technical delivery templates]**, al que se puede acceder desde la vista general.
+  De forma predeterminada, las plantillas de entrega de los mensajes de notificación se guardan en el nodo **[!UICONTROL Administration > Campaign management > Technical delivery templates]**, al que se puede acceder desde la vista general.
 
 * La sección **[!UICONTROL Post-processing]** permite seleccionar el flujo de trabajo que se inicia después de aprobar la entrega. Si se introduce una plantilla de flujo de trabajo, se crea automáticamente una instancia de flujo de trabajo y, a continuación, se inicia en cuanto surta efecto la aprobación. Este flujo de trabajo puede enviar el archivo de extracción a un proveedor de servicios externos para su procesamiento, por ejemplo.
 
@@ -166,12 +166,12 @@ Cuando se selecciona un servicio, las categorías de coste correspondientes al t
 
 * Para una entrega por correo directo, se puede seleccionar el servicio en la ventana de configuración.
 
-   ![](assets/s_ncs_user_supplier_mail_delivery_select.png)
+  ![](assets/s_ncs_user_supplier_mail_delivery_select.png)
 
 * Para el envío mediante canales móviles o por teléfono, se aplica el mismo modo de selección.
 * Para una entrega por correo electrónico, el servicio se selecciona en la pestaña **[!UICONTROL Advanced]** de las propiedades de entrega, como en el siguiente ejemplo:
 
-   ![](assets/s_ncs_user_supplier_email_delivery_select.png)
+  ![](assets/s_ncs_user_supplier_email_delivery_select.png)
 
 La columna **[!UICONTROL Amount to surcharge]** permite añadir un coste para esta categoría en el contexto de la entrega o de la tarea correspondiente.
 
@@ -236,7 +236,7 @@ Haga clic en el botón **[!UICONTROL Create]** para definir los parámetros de s
 
 * Indique la cantidad inicialmente disponible en el campo **[!UICONTROL Initial stock]**. Los campos **[!UICONTROL Consumed]** e **[!UICONTROL In stock]** se calculan automáticamente y se actualizan mientras las campañas progresan.
 
-   ![](assets/s_ncs_user_stocks_create_line.png)
+  ![](assets/s_ncs_user_stocks_create_line.png)
 
 * Indique el umbral desde el cual se debe avisar a los operadores para que soliciten la existencia en el campo **[!UICONTROL Alert level]**. Cuando se alcanza el nivel de alerta, aparece un mensaje de advertencia en la ventana de aprobación de entregas con este stock.
 

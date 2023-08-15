@@ -2,12 +2,12 @@
 product: campaign
 title: Acceso a campañas de marketing
 description: Acceso a campañas de marketing
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1206'
 ht-degree: 100%
 
 ---
@@ -71,13 +71,13 @@ Al editar un programa, utilice las pestañas que se describen a continuación pa
 
 * La pestaña **Programación** muestra el calendario de programas de un mes, una semana o un día según la pestaña en la que haga clic en el encabezado del calendario.
 
-   Si es necesario, puede crear una campaña, un programa o una tarea a través de esta página.
+  Si es necesario, puede crear una campaña, un programa o una tarea a través de esta página.
 
-   ![](assets/s_ncs_user_interface_campaign02.png)
+  ![](assets/s_ncs_user_interface_campaign02.png)
 
 * La pestaña **Editar** permite personalizar el programa: nombre, fechas de inicio y finalización, presupuesto, documentos vinculados, etc.
 
-   ![](assets/s_ncs_user_interface_campaign05.png)
+  ![](assets/s_ncs_user_interface_campaign05.png)
 
 #### Exploración de campañas {#browsing-campaigns}
 

@@ -2,12 +2,12 @@
 product: campaign
 title: Correos electrónicos entrantes
 description: Descubra más información sobre la actividad del flujo de trabajo Correos electrónicos entrantes
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Channels Activity
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '344'
 ht-degree: 100%
 
 ---
@@ -26,31 +26,31 @@ La primera pestaña de la actividad **Inbound Emails** permite introducir los pa
 
    * **[!UICONTROL Use an external account]**
 
-      Cuando esta opción está activada, se puede seleccionar una cuenta POP3 externa en lugar de introducir los parámetros de conexión. El campo **[!UICONTROL External account]** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Este campo solo está visible si está activada la opción “Usar una cuenta externa”.
+     Cuando esta opción está activada, se puede seleccionar una cuenta POP3 externa en lugar de introducir los parámetros de conexión. El campo **[!UICONTROL External account]** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Este campo solo está visible si está activada la opción “Usar una cuenta externa”.
 
-      Si no se selecciona esta opción, se deberán especificar los siguientes parámetros:
+     Si no se selecciona esta opción, se deberán especificar los siguientes parámetros:
 
-      ![](assets/email_rec_edit_1b.png)
+     ![](assets/email_rec_edit_1b.png)
 
       * **[!UICONTROL POP3 server]**
 
-         Nombre del servidor POP3.
+        Nombre del servidor POP3.
 
       * **[!UICONTROL POP3 account]**
 
-         Nombre del usuario.
+        Nombre del usuario.
 
       * **[!UICONTROL Password]**
 
-         Contraseña de la cuenta de usuario.
+        Contraseña de la cuenta de usuario.
 
       * **[!UICONTROL Port]**
 
-         Número de puerto de conexión POP3. El puerto predeterminado es 110.
+        Número de puerto de conexión POP3. El puerto predeterminado es 110.
+
    * **[!UICONTROL Stop as soon as email is processed]**
 
-      Esta opción le permite procesar los correos electrónicos uno por uno. La actividad activa su transición una sola vez y luego finaliza el procesamiento, dejando los mensajes sin procesar en el servidor.
-
+     Esta opción le permite procesar los correos electrónicos uno por uno. La actividad activa su transición una sola vez y luego finaliza el procesamiento, dejando los mensajes sin procesar en el servidor.
 
 1. **[!UICONTROL Script]**
 

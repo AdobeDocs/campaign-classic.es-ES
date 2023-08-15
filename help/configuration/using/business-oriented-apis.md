@@ -2,13 +2,13 @@
 product: campaign
 title: API orientadas a empresa
 description: API orientadas a empresa
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: API
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 3%
+source-wordcount: '639'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Las API empresariales son específicas para cada tipo de objeto. Tienen un efect
    * inicio de un flujo de trabajo,
    * verificación de procesos, etc.
 
-      Consulte [Métodos SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
+     Consulte [Métodos SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
 
 * Gestión de contenido
 * Administración de suscripciones, consulte [Suscribirse (nms:subscription)](#subscribe--nms-subscription-) y [Cancelar suscripción (nms:subscription)](#unsubscribe--nms-subscription-).
@@ -84,33 +84,33 @@ Actualización del destinatario y de la suscripción.
 
 * Consulta:
 
-   ```
-   <?xml version='1.0' encoding='ISO-8859-1'?>
-   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
-     <SOAP-ENV:Body>
-       <m:Subscribe xmlns:m='urn:nms:subscription' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
-         <sessiontoken xsi:type='xsd:string'/>
-         <service xsi:type='xsd:string'>SVC1</service>
-         <content xsi:type='' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
-           <recipient _key="@email" email= "john.doe@adobe.com/>
-         </content>
-         <create xsi:type='xsd:boolean'>true</create>
-       </m:Subscribe>
-     </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <?xml version='1.0' encoding='ISO-8859-1'?>
+  <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP-ENV:Body>
+      <m:Subscribe xmlns:m='urn:nms:subscription' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
+        <sessiontoken xsi:type='xsd:string'/>
+        <service xsi:type='xsd:string'>SVC1</service>
+        <content xsi:type='' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
+          <recipient _key="@email" email= "john.doe@adobe.com/>
+        </content>
+        <create xsi:type='xsd:boolean'>true</create>
+      </m:Subscribe>
+    </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 * Respuesta:
 
-   ```
-   <?xml version='1.0' encoding='ISO-8859-1'?>
-   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
-     <SOAP-ENV:Body>
-       <m:SubscribeResponse xmlns:m='urn:nms:subscription' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
-       </m:SubscribeResponse>
-     </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <?xml version='1.0' encoding='ISO-8859-1'?>
+  <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP-ENV:Body>
+      <m:SubscribeResponse xmlns:m='urn:nms:subscription' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
+      </m:SubscribeResponse>
+    </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 ## Cancelar suscripción (nms:subscription) {#unsubscribe--nms-subscription-}
 

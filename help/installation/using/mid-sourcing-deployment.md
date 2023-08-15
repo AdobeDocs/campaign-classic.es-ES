@@ -3,7 +3,7 @@ product: campaign
 title: Implementación intermediaria
 description: Implementación intermediaria
 feature: Installation, Architecture, Deployment
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
@@ -11,7 +11,7 @@ exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 

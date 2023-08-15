@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: 'Nota técnica: Habilitar Microsoft Edge Chromium en el entorno de Campaign'
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 description: Campaign - Edge Chromium
 feature: Technote, Upgrade
 exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 

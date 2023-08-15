@@ -1,9 +1,9 @@
 ---
 product: campaign
 title: Configuración del acceso a Teradata
-description: Obtenga información sobre cómo configurar el acceso al Teradata en FDA
+description: Obtenga información sobre cómo configurar el acceso a la Teradata en FDA
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -11,7 +11,7 @@ exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1767'
-ht-degree: 74%
+ht-degree: 75%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 74%
 
 
 
-Uso de Campaign [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) para procesar información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso al Teradata.
+Uso de Campaign [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) para procesar información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso a la Teradata.
 
-1. Instalación y configuración [conductores de teradata](#teradata-config)
-1. Configuración del Teradata [cuenta externa](#teradata-external) en Campaign
-1. Configuración de [configuración adicional](#teradata-additional-configurations) para Teradata y servidor de Campaign
+1. Instalación y configuración [conductores de teradatas](#teradata-config)
+1. Configuración de la Teradata [cuenta externa](#teradata-external) en Campaign
+1. Configuración de [configuración adicional](#teradata-additional-configurations) para Teradata y el servidor de Campaign
 
-## configuración del teradata {#teradata-config}
+## configuración de teradata {#teradata-config}
 
-Debe instalar controladores para que el Teradata tenga implementada la conexión a Campaign.
+Debe instalar controladores para Teradata para poder implementar la conexión a Campaign.
 
 1. Instale [el controlador ODBC para Teradata](https://downloads.teradata.com/download/connectivity/odbc-driver/linux).
 
@@ -105,7 +105,7 @@ El conector admite las siguientes opciones:
 |---|---|
 | TD_MAX_SESSIONS | Especifica el número máximo de sesiones de inicio de sesión que puede adquirir el Transportador paralelo de Teradata para un trabajo de operador. |
 | TimeZoneName | Nombre de la zona horaria del servidor. |
-| CharacterSet | Se utiliza para configurar el conjunto de caracteres de Teradata. <br>[Para obtener más información, consulte esta página](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001). |
+| CharacterSet | Se utiliza para configurar el conjunto de caracteres de la Teradata. <br>[Para obtener más información, consulte esta página](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001). |
 | IANAppCodePage | Página de códigos de la aplicación ODBC. <br>[Para obtener más información, consulte esta página](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page) |
 
 ### Agregar cuentas externas ODBC adicionales {#add-external}
@@ -148,7 +148,7 @@ Error de ODBC **ODB-240000: [no se encontró el nombre del origen de datos de Mi
 
 * A partir de Campaign 18.10, puede agregar ODBCDriverName=&quot;Teradata Database ODBC Driver 16.10&quot; en las opciones de la cuenta externa. El número de versión puede cambiar, y se puede encontrar el nombre exacto ejecutando odbcad32.exe y accediendo a la pestaña Controladores.
 
-* Si utiliza una versión de Campaign anterior, tendrá que copiar la sección de Teradata de odbcinst.ini creada por la instalación del controlador en una nueva sección denominada Teradata. Regedit se puede utilizar en este caso. Si la base está en latin1, tendrá que agregar **APICharSize=1** en las opciones.
+* Si utiliza una versión de Campaign anterior, tendrá que copiar la sección de Teradata de odbcinst.ini creada por la instalación del controlador en una nueva sección llamada Teradata. Regedit se puede utilizar en este caso. Si la base está en latin1, tendrá que agregar **APICharSize=1** en las opciones.
 
 ## Configuraciones adicionales {#teradata-additional-configurations}
 

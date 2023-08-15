@@ -2,12 +2,12 @@
 product: campaign
 title: Planificador
 description: Descubra más información sobre la actividad del flujo de trabajo Planificador
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: 30a9bd2a-afb1-481c-ab5f-5acebd9cbb5a
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '339'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ La actividad del **[!UICONTROL Scheduler]** debe considerarse como un inicio pro
 
 * El uso de una actividad de planificador puede llevar a que se realicen varias ejecuciones de un flujo de trabajo al mismo tiempo. Por ejemplo, puede hacer que un programador active la ejecución del flujo de trabajo cada hora, pero a veces la ejecución del flujo de trabajo completo tarda más de una hora.
 
-   Puede preferir omitir la ejecución si el flujo de trabajo ya se está ejecutando. Para obtener más información sobre cómo evitar ejecuciones simultáneas de un flujo de trabajo, consulte [esta página](monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions).
+  Puede preferir omitir la ejecución si el flujo de trabajo ya se está ejecutando. Para obtener más información sobre cómo evitar ejecuciones simultáneas de un flujo de trabajo, consulte [esta página](monitoring-workflow-execution.md#preventing-simultaneous-multiple-executions).
 
 * Tenga en cuenta que la transición puede activarse varias horas más tarde si el flujo de trabajo ejecuta una tarea a largo plazo como una importación, o si el módulo wfserver se detuvo durante un tiempo. En este caso, puede ser necesario restringir la ejecución de la tarea activada por el planificador a un determinado intervalo de tiempo.
 

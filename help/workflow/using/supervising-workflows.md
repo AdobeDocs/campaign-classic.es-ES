@@ -2,12 +2,12 @@
 product: campaign
 title: Supervisión de flujos de trabajo
 description: Descubra cómo supervisar flujos de trabajo de campañas
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '653'
 ht-degree: 100%
 
 ---
@@ -137,17 +137,17 @@ Esta plantilla debe incluir:
 * **la dirección de correo electrónico del supervisor**.
 * **Contenido HTML** para insertar texto personalizado.
 
-   ![](assets/uc_monitoring_workflow_variables_diffusion.png)
+  ![](assets/uc_monitoring_workflow_variables_diffusion.png)
 
-   Las tres variables declaradas (WF_Stop, WF_Paused, WF_Error) coinciden con las tres variables de evento de flujo de trabajo.
+  Las tres variables declaradas (WF_Stop, WF_Paused, WF_Error) coinciden con las tres variables de evento de flujo de trabajo.
 
-   Estas variables deben declararse en la pestaña **Variables** de las propiedades de la plantilla de envío.
+  Estas variables deben declararse en la pestaña **Variables** de las propiedades de la plantilla de envío.
 
-   Para recuperar **el contenido de las variables de evento de flujo de trabajo**, se debe declarar las variables específicas para la entrega que se desea inicializar con los valores que devuelve el código JavaScript.
+  Para recuperar **el contenido de las variables de evento de flujo de trabajo**, se debe declarar las variables específicas para la entrega que se desea inicializar con los valores que devuelve el código JavaScript.
 
-   La plantilla de envío tiene el siguiente contenido:
+  La plantilla de envío tiene el siguiente contenido:
 
-   ![](assets/uc_monitoring_workflow_model_diffusion.png)
+  ![](assets/uc_monitoring_workflow_model_diffusion.png)
 
 Una vez creada y aprobada la plantilla, se debe configurar la actividad **Envío** para:
 
@@ -161,21 +161,21 @@ Haga doble clic en la actividad de **Envío** y seleccione las siguientes opcion
 * Acción que quiere ejecutar: seleccione **Preparación e inicio**.
 * Anule la selección de la opción **Procesamiento de errores**.
 
-   ![](assets/uc_monitoring_workflow_optionmodel.png)
+  ![](assets/uc_monitoring_workflow_optionmodel.png)
 
 * Vaya a la pestaña **Script** de la actividad **Envío**, añada tres variables de **cadena de caracteres** a través del menú del campo de personalización.
 
-   ![](assets/uc_monitoring_workflow_selectlinkvariables.png)
+  ![](assets/uc_monitoring_workflow_selectlinkvariables.png)
 
-   ![](assets/uc_monitoring_workflow_linkvariables.png)
+  ![](assets/uc_monitoring_workflow_linkvariables.png)
 
-   Las tres variables declaradas son:
+  Las tres variables declaradas son:
 
-   ```
-   delivery.variables._var[0].stringValue = vars.strWorkflowError;
-   delivery.variables._var[1].stringValue = vars.strWorkflowPaused;
-   delivery.variables._var[2].stringValue = vars.strWorkflowStop; 
-   ```
+  ```
+  delivery.variables._var[0].stringValue = vars.strWorkflowError;
+  delivery.variables._var[1].stringValue = vars.strWorkflowPaused;
+  delivery.variables._var[2].stringValue = vars.strWorkflowStop; 
+  ```
 
 Cuando se inicia este flujo de trabajo de monitorización, envía el siguiente resumen al destinatario:
 

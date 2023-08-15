@@ -7,7 +7,7 @@ badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 100%
 

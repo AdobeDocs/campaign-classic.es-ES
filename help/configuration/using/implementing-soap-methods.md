@@ -3,12 +3,12 @@ product: campaign
 title: Implementación de métodos SOAP
 description: Implementación de métodos SOAP
 feature: Configuration
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 

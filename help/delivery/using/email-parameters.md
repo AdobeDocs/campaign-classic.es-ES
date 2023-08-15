@@ -2,13 +2,13 @@
 product: campaign
 title: Parámetros de correo electrónico
 description: Obtenga información acerca de las opciones y la configuración específicas de la entrega por correo electrónico
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 source-git-commit: 43158445f688f4c2612d4dad76f2243b2e358b35
-workflow-type: ht
-source-wordcount: '900'
+workflow-type: tm+mt
+source-wordcount: '912'
 ht-degree: 100%
 
 ---

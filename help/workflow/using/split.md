@@ -2,12 +2,12 @@
 product: campaign
 title: División
 description: Descubra más información sobre la actividad del flujo de trabajo División
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '1942'
 ht-degree: 100%
 
 ---
@@ -76,7 +76,8 @@ Si no desea utilizar toda la población contenida en un subconjunto, puede limit
    * **[!UICONTROL Keep only the first records after sorting]**: esta opción permite definir una limitación basada en uno o varios órdenes de clasificación. Si selecciona el campo **[!UICONTROL Age]** como criterio de ordenación y 100 como límite, solo se mantendrán los 100 destinatarios más jóvenes.
    * **[!UICONTROL Keep the first ones after sorting (criteria, random)]**: Esta opción combina las dos opciones anteriores. Permite definir una limitación basada en uno o más pedidos de ordenación y, a continuación, aplicar una selección aleatoria en los primeros registros si alguno de los registros tiene los mismos valores que los criterios definidos.
 
-      Por ejemplo, si selecciona el campo **[!UICONTROL Age]** como criterio de clasificación y luego define un límite de 100, pero los 2000 destinatarios más jóvenes en la base de datos tienen todos 18, entonces se seleccionarán 100 destinatarios aleatoriamente de esos 2000.
+     Por ejemplo, si selecciona el campo **[!UICONTROL Age]** como criterio de clasificación y luego define un límite de 100, pero los 2000 destinatarios más jóvenes en la base de datos tienen todos 18, entonces se seleccionarán 100 destinatarios aleatoriamente de esos 2000.
+
    ![](assets/s_user_segmentation_partage_wz1.png)
 
 1. Si desea definir los criterios de ordenación, un paso adicional le permite definir las columnas y el orden de clasificación.
@@ -91,7 +92,7 @@ Si no desea utilizar toda la población contenida en un subconjunto, puede limit
 
    * **[!UICONTROL Size (in %)]**: un porcentaje de registros. Por ejemplo, la configuración a continuación extrae el 10% de la población total.
 
-      El porcentaje se aplica a la población inicial, no al resultado de la actividad.
+     El porcentaje se aplica a la población inicial, no al resultado de la actividad.
 
    * **[!UICONTROL Size (as a % of the segment)]**: un porcentaje de registros relacionados únicamente con los subconjuntos y no con la población inicial.
    * **[!UICONTROL Maximum size]**: un número máximo de registros.
@@ -152,7 +153,7 @@ La plantilla de distribución de datos permite limitar el número de registros u
    * **[!UICONTROL Assignment type]**: seleccione el tipo de asignación de distribución de datos. Puede elegir entre asignación por grupo u operador o asignación por entidad local. La asignación por entidad local se utiliza en **Distributed Marketing**. Para obtener más información, consulte esta [sección](../../distributed/using/about-distributed-marketing.md).
    * **[!UICONTROL Approval storage]**: si utiliza una actividad **[!UICONTROL Local approval]** en el flujo de trabajo de objetivos (consulte [Aprobación local](local-approval.md)), introduzca el esquema en el que se guardarán los resultados de aprobación. Debe especificar un esquema de almacenamiento por esquema de segmentación. Si utiliza el esquema de segmentación **[!UICONTROL Recipients]**, introduzca el esquema de almacenamiento predeterminado **[!UICONTROL Local approval of recipients]**.
 
-      Si se trata de una simple limitación de la agrupación de datos sin aprobación local, no es necesario que introduzca el campo **[!UICONTROL Approvals storage]**.
+     Si se trata de una simple limitación de la agrupación de datos sin aprobación local, no es necesario que introduzca el campo **[!UICONTROL Approvals storage]**.
 
 1. Si está utilizando una actividad **[!UICONTROL Local approval]** (consulte [](local-approval.md)), introduzca el **[!UICONTROL Advanced settings]** para la plantilla de distribución:
 
@@ -162,23 +163,23 @@ La plantilla de distribución de datos permite limitar el número de registros u
 
    * **[!UICONTROL Approve targeted messages]**: compruebe esta opción si desea que todos los destinatarios se preseleccionen de la lista de destinatarios para aprobar. Si no selecciona esta opción, no se preseleccionará ningún destinatario.
 
-      >[!NOTE]
-      >
-      >Esta opción se selecciona de forma predeterminada.
+     >[!NOTE]
+     >
+     >Esta opción se selecciona de forma predeterminada.
 
-      ![](assets/local_validation_notification.png)
+     ![](assets/local_validation_notification.png)
 
    * **[!UICONTROL Delivery label]**: permite definir una expresión para mostrar la etiqueta de entrega en la notificación de retorno. La expresión predeterminada proporciona información sobre la etiqueta estándar de la entrega (cadena calculada). Puede modificar esta expresión.
 
-      ![](assets/local_validation_notification_3.png)
+     ![](assets/local_validation_notification_3.png)
 
    * **[!UICONTROL Grouping field]**: este campo permite definir la agrupación utilizada para mostrar los destinatarios en la aprobación y las notificaciones de devolución.
 
-      ![](assets/local_validation_notification_4.png)
+     ![](assets/local_validation_notification_4.png)
 
    * **[!UICONTROL Web Interface]**: permite enlazar una aplicación web a la lista de destinatarios. En la aprobación y en la notificación de retorno, se puede hacer clic en cada destinatario y enlazarlos a la aplicación web seleccionada. El campo **[!UICONTROL Parameters]** (por ejemplo **[!UICONTROL recipientId]**) permite configurar el parámetro adicional que se utilizará en la URL y en la aplicación web.
 
-      ![](assets/local_validation_notification_5.png)
+     ![](assets/local_validation_notification_5.png)
 
 1. La pestaña **[!UICONTROL Breakdown]** permite definir la lista de valores de distribución.
 
@@ -187,16 +188,16 @@ La plantilla de distribución de datos permite limitar el número de registros u
    * **[!UICONTROL Value]**: introduzca los valores de distribución.
    * **[!UICONTROL Percentage / Set]**: introduzca el límite de registros (fijo o porcentual) vinculado a cada valor.
 
-      Esta columna se define mediante el campo **[!UICONTROL Distribution type]** dentro de la pestaña **[!UICONTROL General]**.
+     Esta columna se define mediante el campo **[!UICONTROL Distribution type]** dentro de la pestaña **[!UICONTROL General]**.
 
    * **[!UICONTROL Label]**: introduzca la etiqueta vinculada a cada valor.
    * **[!UICONTROL Group or operator]**: si utiliza una actividad **[!UICONTROL Local approval]** (consulte [Aprobación local](local-approval.md)), seleccione el operador o el grupo de operadores asignados a cada valor de distribución.
 
-      Si se trata de una simple limitación de la agrupación de datos sin aprobación local, no es necesario que introduzca el campo **[!UICONTROL Group or operator]**.
+     Si se trata de una simple limitación de la agrupación de datos sin aprobación local, no es necesario que introduzca el campo **[!UICONTROL Group or operator]**.
 
-      >[!IMPORTANT]
-      >
-      >Asegúrese de que se hayan asignado los derechos adecuados a los operadores.
+     >[!IMPORTANT]
+     >
+     >Asegúrese de que se hayan asignado los derechos adecuados a los operadores.
 
    * **[!UICONTROL Local entity]**: seleccione la entidad local asignada a cada valor de distribución. Las entidades locales se utilizan en **Distributed Marketing**. Para obtener más información, consulte esta [sección](../../distributed/using/about-distributed-marketing.md).
 

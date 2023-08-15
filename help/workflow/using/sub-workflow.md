@@ -2,12 +2,12 @@
 product: campaign
 title: Subflujo de trabajo
 description: Descubra más información sobre la actividad del subflujo de trabajo
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '424'
 ht-degree: 100%
 
 ---
@@ -54,7 +54,7 @@ Una vez ejecutado, el flujo de trabajo llamado como subflujo de trabajo permanec
 * No se puede mostrar el recuento de poblaciones intermedias.
 * Los registros de subflujo de trabajo se muestran en el flujo de trabajo principal.
 
-   ![](assets/subworkflow_logs.png)
+  ![](assets/subworkflow_logs.png)
 
 >[!NOTE]
 >

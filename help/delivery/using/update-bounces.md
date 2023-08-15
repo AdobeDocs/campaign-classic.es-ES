@@ -2,15 +2,15 @@
 product: campaign
 title: Actualización de la calificación de devoluciones después de una interrupción del ISP
 description: Obtenga información sobre cómo actualizar la calificación de devoluciones después de una interrupción del ISP
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability
 hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '525'
 ht-degree: 100%
 
 ---
@@ -36,6 +36,7 @@ Tenga en cuenta que si el aplazamiento devuelve un error con el mensaje “452 a
 >Puede consultar el panel del estado de Apple System en [esta página](https://www.apple.com/es/support/systemstatus/){_blank}.
 >
 >Puede consultar el Tablero de estado de Google Workspace en [esta página](https://www.google.com/appsstatus#hl=en&amp;v=status){_blank}.
+>
 
 ## Impacto{#update-bounce-impact}
 
@@ -62,7 +63,7 @@ En función del periodo de tiempo del problema y la ISP, se indican a continuaci
 
    * **Texto de error (texto de cuarentena)** contiene “550-5.1.1” Y **Texto de error (texto de cuarentena)** contiene “support.ISP.com”
 
-      donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
+     donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
 
    * **Actualizar estado (@lastModified)** en o después de DD/MM/AAAA HH:MM:SS AM
    * **Actualizar estado (@lastModified)** en DD/MM/AAAA HH:MM:SS PM

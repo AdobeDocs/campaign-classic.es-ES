@@ -2,12 +2,12 @@
 product: campaign
 title: Bifurcación (Fork)
 description: Descubra más información sobre la actividad del flujo de trabajo Bifurcación (fork)
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '420'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ En este ejemplo, se envían distintos correos electrónicos a diferentes grupos 
 * Guardado del resultado de la consulta
 * Segmentación del resultado para enviar varias entregas
 
-   ![La actividad de bifurcación sigue la intersección de dos consultas y precede a una actividad de actualización de lista y una actividad de división.](assets/wkf_fork_example.png)
+  ![La actividad de bifurcación sigue la intersección de dos consultas y precede a una actividad de actualización de lista y una actividad de división.](assets/wkf_fork_example.png)
 
 El flujo de trabajo incluye estas actividades:
 

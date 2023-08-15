@@ -2,12 +2,12 @@
 product: campaign
 title: Diseño y ejecución de campañas de marketing
 description: Defina, optimice, ejecute y analice campañas de marketing
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '450'
 ht-degree: 100%
 
 ---
@@ -32,35 +32,35 @@ Los siguientes conceptos son esenciales para conocer mejor Campaign:
 
 * **Campaign**
 
-   Una campaña unifica todos los elementos relacionados con una campaña de marketing: envíos, reglas de segmentación, costes, archivos de exportación, documentos relacionados, etc. Cada campaña se vincula a un programa.
+  Una campaña unifica todos los elementos relacionados con una campaña de marketing: envíos, reglas de segmentación, costes, archivos de exportación, documentos relacionados, etc. Cada campaña se vincula a un programa.
 
-   Para obtener más información, consulte [Adición de una campaña](../../campaign/using/setting-up-marketing-campaigns.md#adding-a-campaign).
+  Para obtener más información, consulte [Adición de una campaña](../../campaign/using/setting-up-marketing-campaigns.md#adding-a-campaign).
 
 * **Programa**
 
-   Un programa permite definir acciones de marketing para un determinado periodo: lanzamiento, escrutinio, lealtad, etc. Cada programa contiene campañas vinculadas a un calendario, que proporciona una vista general.
+  Un programa permite definir acciones de marketing para un determinado periodo: lanzamiento, escrutinio, lealtad, etc. Cada programa contiene campañas vinculadas a un calendario, que proporciona una vista general.
 
 * **Plan**
 
-   Un plan de marketing puede contener varios programas. Está vinculado a un periodo, tiene un presupuesto asignado y también puede estar vinculado a documentos y objetivos.
+  Un plan de marketing puede contener varios programas. Está vinculado a un periodo, tiene un presupuesto asignado y también puede estar vinculado a documentos y objetivos.
 
-   Para obtener más información, consulte [Calendario de campaña](../../campaign/using/accessing-marketing-campaigns.md#campaign-calendar).
+  Para obtener más información, consulte [Calendario de campaña](../../campaign/using/accessing-marketing-campaigns.md#campaign-calendar).
 
 * **Flujo de trabajo**
 
-   Un flujo de trabajo de una campaña contiene las mismas actividades que para todos los flujos de trabajo pero es específico de la campaña. Permite crear y configurar envíos para todos los canales disponibles.
+  Un flujo de trabajo de una campaña contiene las mismas actividades que para todos los flujos de trabajo pero es específico de la campaña. Permite crear y configurar envíos para todos los canales disponibles.
 
-   Para obtener más información, consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
+  Para obtener más información, consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
 * **Objetivos**
 
-   Dentro de la campaña, programa o plan, puede marcar una lista de objetivos. Estos son valores cuantificados que se deben alcanzar. Al final de la campaña, programa o plan, el módulo MRM le permite comparar los objetivos y resultados en informes dedicados.
+  Dentro de la campaña, programa o plan, puede marcar una lista de objetivos. Estos son valores cuantificados que se deben alcanzar. Al final de la campaña, programa o plan, el módulo MRM le permite comparar los objetivos y resultados en informes dedicados.
 
 * **Descripción de la entrega**
 
-   Un perfil de envío es una descripción estructurada de la entrega. Cada envío puede hacer referencia a un perfil de envío que contiene, por ejemplo, las ofertas relacionadas, documentos que se van a adjuntar o un vínculo que lleve a las tiendas. Se puede hacer referencia a una oferta en la entrega según la descripción del envío seleccionada.
+  Un perfil de envío es una descripción estructurada de la entrega. Cada envío puede hacer referencia a un perfil de envío que contiene, por ejemplo, las ofertas relacionadas, documentos que se van a adjuntar o un vínculo que lleve a las tiendas. Se puede hacer referencia a una oferta en la entrega según la descripción del envío seleccionada.
 
-   Para obtener más información, consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+  Para obtener más información, consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 ## Tutorial {#video}
 

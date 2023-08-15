@@ -3,12 +3,12 @@ product: campaign
 title: Parámetros de seguimiento web adicionales
 description: Más información sobre los parámetros de seguimiento web
 feature: Configuration, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

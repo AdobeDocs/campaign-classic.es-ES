@@ -3,7 +3,7 @@ product: campaign
 title: Principio de configuración
 description: Principio de configuración
 feature: Monitoring, Configuration
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
@@ -12,7 +12,7 @@ exl-id: 03d7e579-8678-44b8-bbe7-cf4204bffb25
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -45,4 +45,4 @@ Una configuración de instancia se carga de la siguiente manera:
 
   Estos dos archivos tienen el mismo formato. Cualquier valor de **serverConf.xml** se puede sobrecargar para una instancia determinada en el **config-`<instance>`.xml** archivo.
 
-Este modo de funcionamiento proporciona una buena flexibilidad para las configuraciones.
+Este modo de funcionamiento proporciona una gran flexibilidad para las configuraciones.

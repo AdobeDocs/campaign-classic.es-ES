@@ -3,7 +3,7 @@ product: campaign
 title: Almacenamiento de correos electrónicos
 description: Almacenamiento de correos electrónicos
 feature: Installation, Instance Settings, Email
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -157,7 +157,7 @@ Una vez configurado el correo electrónico CCO, asegúrese de seleccionar la **[
    * Si comparte un servidor de correo con varios clientes y uno de ellos tiene esta opción activada, este cliente accederá a todos los correos electrónicos de los demás clientes que compartan el mismo servidor de correo. Para evitar una situación de este tipo, utilice un servidor de correo diferente para cada cliente.
    * Si utiliza el mismo MTA en varias instancias (desarrollo, prueba, prod) para un solo cliente, los mensajes enviados desde las tres instancias se duplicarán mediante la opción dataLogPath.
 
-* **Correos electrónicos por conexión**: el archivado de correo electrónico CCO funciona abriendo una conexión e intentando enviar todos los correos electrónicos a través de esa conexión. El Adobe recomienda consultar con su contacto técnico interno la cantidad de correos electrónicos aceptados en una conexión determinada. El aumento de este número puede tener un bueno impacto en el rendimiento de las CCO.
+* **Correos electrónicos por conexión**: el archivado de correo electrónico CCO funciona abriendo una conexión e intentando enviar todos los correos electrónicos a través de esa conexión. El Adobe recomienda consultar con su contacto técnico interno la cantidad de correos electrónicos aceptados en una conexión determinada. El aumento de este número puede tener un gran impacto en el rendimiento de las CCO.
 * **IP de envío de CCO**: actualmente, los correos electrónicos CCO no se envían a través de los proxies de MTA normales. En su lugar, se abre una conexión directa desde el servidor MTA al servidor de correo electrónico de destino. Esto significa que es posible que tenga que agregar direcciones IP adicionales a la lista de permitidos de la red, según la configuración del servidor de correo electrónico.
 
 <!--## Email BCC with Enhanced MTA {#email-bcc-with-enhanced-mta}

@@ -3,7 +3,7 @@ product: campaign
 title: Implementación estándar
 description: Implementación estándar
 feature: Installation, Architecture, Deployment
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: deployment-types-
@@ -11,7 +11,7 @@ exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 

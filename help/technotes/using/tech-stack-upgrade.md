@@ -15,7 +15,7 @@ ht-degree: 9%
 
 La infraestructura de Campaign se basa en sistemas de terceros que deben actualizarse regularmente con las últimas versiones y correcciones. Estas actualizaciones son obligatorias para garantizar la continuidad del servicio y proteger los entornos de Campaign de los riesgos de seguridad. Además, se requiere una actualización de Campaign para garantizar la compatibilidad con los cambios del sistema de terceros.
 
-As a **Cliente de Cloud Services alojados o administrados**, el Adobe le informa sobre estas actualizaciones cuando son necesarias. Se le pedirá que actualice sus entornos de acuerdo con las recomendaciones para garantizar el cumplimiento.
+As a **Cliente de Cloud Service alojados o administrados**, el Adobe le informa sobre estas actualizaciones cuando son necesarias. Se le pedirá que actualice sus entornos de acuerdo con las recomendaciones para garantizar el cumplimiento.
 
 Como un **Cliente on-premise o híbrido**, Adobe recomienda encarecidamente actualizar el sistema y las versiones de Campaign según el mismo .
 
@@ -34,7 +34,7 @@ Si se ve afectado por el [actualización del sistema operativo](#os-upgrade) y/o
 
 **¿Cómo realizar la actualización?**
 
-* Como cliente de Cloud Services alojados o administrados, Adobe se pondrá en contacto con usted y actualizará la versión de Campaign.
+* Como cliente de Cloud Service alojados o administrados, Adobe se pondrá en contacto con usted y actualizará la versión de Campaign.
 * Como cliente híbrido, Adobe le informará de las fechas de actualización de la compilación programadas para su entorno de intermediario. También debe actualizar el entorno de marketing a esa misma versión.
 * Como cliente On-Premise, se le solicita que actualice sus entornos de Campaign a la última versión 7.3.2.
 
@@ -47,7 +47,7 @@ Si está ejecutando Campaign en un sistema operativo Debian, para beneficiarse d
 
 **¿Cómo realizar la actualización?**
 
-* Como cliente de Cloud Services alojados o administrados, Adobe se pondrá en contacto con usted y actualizará su entorno.
+* Como cliente de Cloud Service alojados o administrados, Adobe se pondrá en contacto con usted y actualizará su entorno.
 * Como cliente híbrido, Adobe le informará de las fechas de actualización programadas para su entorno de intermediario. Si su entorno de marketing también se está ejecutando en Debian, debe actualizarlo a Debian 11 también.
 * Como cliente on-premise, se le solicita que actualice sus entornos a Debian 11.
 
@@ -59,7 +59,7 @@ Si el sistema de base de datos de Campaign es PostgreSQL, para beneficiarse de l
 
 **¿Cómo realizar la actualización?**
 
-* Como cliente de Cloud Services alojados o administrados, Adobe se pondrá en contacto con usted y actualizará su sistema de base de datos de PostgreSQL 11 a PostgreSQL 14.
+* Como cliente de Cloud Service alojados o administrados, Adobe se pondrá en contacto con usted y actualizará su sistema de base de datos de PostgreSQL 11 a PostgreSQL 14.
 * Como cliente híbrido, si el sistema de base de datos de marketing es PostgreSQL, debe actualizarlo a PostgreSQL 14.
 * Como cliente On-Premise, se le solicita que actualice su sistema de base de datos a PostgreSQL 14.
 

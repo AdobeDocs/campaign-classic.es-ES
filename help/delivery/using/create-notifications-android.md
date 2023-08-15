@@ -2,12 +2,12 @@
 product: campaign
 title: Creación de una notificación push para dispositivos Android
 description: Aprenda a crear notificaciones push para Android
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Push
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
-source-wordcount: '713'
+workflow-type: tm+mt
+source-wordcount: '720'
 ht-degree: 100%
 
 ---
@@ -25,10 +25,10 @@ Comience creando una nueva entrega.
 Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
 
 * **[!UICONTROL Data message]**, gestionado por la aplicación del cliente.
-   <br>Los mensajes se envían directamente a la aplicación móvil, que generará y mostrará la notificación de Android al dispositivo. Los mensajes de datos solo contienen las variables de aplicación personalizadas.
+  <br>Los mensajes se envían directamente a la aplicación móvil, que generará y mostrará la notificación de Android al dispositivo. Los mensajes de datos solo contienen las variables de aplicación personalizadas.
 
 * **[!UICONTROL Notification message]**, gestionado automáticamente por el SDK de FCM.
-   <br> FCM muestra automáticamente el mensaje en los dispositivos de los usuarios en nombre de la aplicación del cliente. Los mensajes de notificación contienen un conjunto predefinido de parámetros y opciones, pero pueden personalizarse aún más con las variables de aplicación personalizadas.
+  <br> FCM muestra automáticamente el mensaje en los dispositivos de los usuarios en nombre de la aplicación del cliente. Los mensajes de notificación contienen un conjunto predefinido de parámetros y opciones, pero pueden personalizarse aún más con las variables de aplicación personalizadas.
 
 Para obtener más información sobre los tipos de mensajes de Firebase Cloud Messaging, consulte la documentación [de FCM](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages).
 

@@ -9,7 +9,7 @@ exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '2397'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -277,7 +277,7 @@ El **[!UICONTROL Modify the link]** El icono (carpeta) inicia un formulario de s
 
 ![](assets/d_ncs_integration_form_exemple10.png)
 
-El **[!UICONTROL Edit link]** El icono (lupa) inicia el formulario de edición del elemento vinculado. El formulario utilizado se deduce de forma predeterminada en la clave del esquema de destino. El **formulario** el atributo permite forzar el nombre del formulario de edición (por ejemplo, &quot;cus:company2&quot;).
+El **[!UICONTROL Edit link]** El icono (lupa) inicia el formulario de edición del elemento vinculado. El formulario utilizado se deduce de forma predeterminada en la clave del esquema de destino. El **formulario** El atributo permite forzar el nombre del formulario de edición (por ejemplo &quot;cus:company2&quot;).
 
 Puede restringir la selección de elementos de destino añadiendo **`<sysfilter>`** de la definición del vínculo en el formulario de entrada:
 

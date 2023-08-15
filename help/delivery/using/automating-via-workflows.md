@@ -2,13 +2,13 @@
 product: campaign
 title: Automatización mediante flujos de trabajo
 description: Obtenga información sobre cómo automatizar la administración de contenido mediante flujos de trabajo
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Workflows
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1202'
 ht-degree: 100%
 
 ---
@@ -36,41 +36,41 @@ Las propiedades de actividad se dividen en cuatro pasos:
 
 * **Especificado por la transición**
 
-   El contenido que se va a utilizar se había creado anteriormente. Los procesos afectan a la instancia de contenido propagada por el evento entrante. Se accede al identificador de contenido a través de la variable “contentId” del evento.
+  El contenido que se va a utilizar se había creado anteriormente. Los procesos afectan a la instancia de contenido propagada por el evento entrante. Se accede al identificador de contenido a través de la variable “contentId” del evento.
 
 * **Explícito**
 
-   Permite elegir el contenido creado anteriormente.
+  Permite elegir el contenido creado anteriormente.
 
 * **Calculado por una secuencia de comandos**
 
-   Selecciona una instancia de contenido basándose en una plantilla JavaScript. El código que se va a evaluar permite recuperar el identificador de contenido.
+  Selecciona una instancia de contenido basándose en una plantilla JavaScript. El código que se va a evaluar permite recuperar el identificador de contenido.
 
 * **Nuevo, creado mediante una plantilla de publicación**
 
-   Crea un nuevo contenido a través de una plantilla de publicación. La instancia de contenido se guarda en la carpeta rellenada “Cadena”.
+  Crea un nuevo contenido a través de una plantilla de publicación. La instancia de contenido se guarda en la carpeta rellenada “Cadena”.
 
 ### Actualización del contenido {#update-the-content}
 
 * **Asunto**
 
-   Permite modificar el asunto de la acción de entrega al publicar.
+  Permite modificar el asunto de la acción de entrega al publicar.
 
 * **Acceso a los datos desde una fuente XML**
 
-   El contenido se actualiza desde una fuente XML desde un origen externo. Se debe introducir una dirección URL para la descarga de datos.
+  El contenido se actualiza desde una fuente XML desde un origen externo. Se debe introducir una dirección URL para la descarga de datos.
 
-   Se puede utilizar una hoja de estilo XSL para transformar los datos XML entrantes.
+  Se puede utilizar una hoja de estilo XSL para transformar los datos XML entrantes.
 
 ### Acción que quiere ejecutar {#action-to-execute}
 
 * **Guardar**
 
-   Guarda el contenido creado o modificado. El identificador del contenido guardado se propaga en la variable “contentId” del evento saliente.
+  Guarda el contenido creado o modificado. El identificador del contenido guardado se propaga en la variable “contentId” del evento saliente.
 
 * **Generación**
 
-   Genera los archivos de salida para cada una de las plantillas de transformación con una publicación de tipo “Archivo”. La transición saliente se activa para cada archivo generado, con los siguientes parámetros: el identificador del contenido guardado en la variable “contentId” y el nombre de archivo en la variable “filename”.
+  Genera los archivos de salida para cada una de las plantillas de transformación con una publicación de tipo “Archivo”. La transición saliente se activa para cada archivo generado, con los siguientes parámetros: el identificador del contenido guardado en la variable “contentId” y el nombre de archivo en la variable “filename”.
 
 ### Transición {#transition}
 

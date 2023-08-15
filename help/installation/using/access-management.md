@@ -3,12 +3,12 @@ product: campaign
 title: Gestión de acceso
 description: Obtenga más información acerca de las prácticas recomendadas de administración de acceso
 feature: Installation, Access Management, Permissions
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 

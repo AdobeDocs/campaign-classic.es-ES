@@ -2,13 +2,13 @@
 product: campaign
 title: Esquemas de datos
 description: Introducción a los esquemas de datos de Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Schema Extension
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 2%
+source-wordcount: '399'
+ht-degree: 4%
 
 ---
 

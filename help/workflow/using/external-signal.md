@@ -2,12 +2,12 @@
 product: campaign
 title: Señal externa
 description: Descubra más información sobre la actividad del flujo de trabajo Señal externa
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '175'
 ht-degree: 100%
 
 ---

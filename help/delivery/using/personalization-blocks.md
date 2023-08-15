@@ -2,13 +2,13 @@
 product: campaign
 title: Bloques de personalización
 description: Aprenda a utilizar bloques de personalización
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Personalization
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '873'
 ht-degree: 100%
 
 ---
@@ -100,9 +100,9 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
 * **[!UICONTROL Powered by Adobe Campaign]**: inserta el logotipo “Powered by Adobe Campaign”.
 * **[!UICONTROL Mirror page URL]**: inserta la dirección URL de la página espejo, permitiendo que los diseñadores de envío comprueben el vínculo.
 
-   >[!NOTE]
-   >
-   >Para obtener más información sobre la generación de páginas espejo, consulte [Generación de la página espejo](sending-messages.md#generating-the-mirror-page).
+  >[!NOTE]
+  >
+  >Para obtener más información sobre la generación de páginas espejo, consulte [Generación de la página espejo](sending-messages.md#generating-the-mirror-page).
 
 * **[!UICONTROL Link to mirror page]**: inserta un vínculo a la página espejo: “Si no puede ver este mensaje correctamente, haga clic aquí”.
 * **[!UICONTROL Unsubscription link]**: inserta un vínculo que permite cancelar la suscripción a todas las entregas (lista de bloqueados).
@@ -111,9 +111,9 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
 * **[!UICONTROL Registration link]**: inserta un vínculo de suscripción. El vínculo se ha definido al configurar la instancia.
 * **[!UICONTROL Registration link (with referrer)]** : inserta un enlace de suscripción que permite identificar el visitante y el envío. El vínculo se ha definido al configurar la instancia.
 
-   >[!NOTE]
-   >
-   >Este bloque se puede utilizar en envíos dirigidos solamente a visitantes.
+  >[!NOTE]
+  >
+  >Este bloque se puede utilizar en envíos dirigidos solamente a visitantes.
 
 * **[!UICONTROL Registration confirmation]**: inserta un vínculo que permite confirmar la suscripción.
 * **[!UICONTROL Social network sharing links]**: Inserta botones que permiten al destinatario compartir un vínculo al contenido de la página espejo con el cliente de correo electrónico, Facebook, Twitter y LinkedIn (consulte [Marketing viral: enviar a un amigo](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
@@ -136,9 +136,9 @@ Para crear un bloque personalizado, vaya al explorador y aplique los pasos sigui
    * Seleccione **[!UICONTROL Visible in the customization menus]** para que el bloque esté accesible desde el icono de inserción del campo personalizado.
    * Si es necesario, seleccione **[!UICONTROL The content of the personalization block depends upon the format]** para definir dos bloques independientes para los correos electrónicos en formato HTML y aquellos en formato de texto.
 
-      A continuación, se muestran dos pestañas en la sección inferior de este editor (contenido HTML y contenido de texto) para definir los contenidos correspondientes.
+     A continuación, se muestran dos pestañas en la sección inferior de este editor (contenido HTML y contenido de texto) para definir los contenidos correspondientes.
 
-      ![](assets/s_ncs_user_personalized_block_b.png)
+     ![](assets/s_ncs_user_personalized_block_b.png)
 
    * Introduzca el contenido (en HTML, texto, JavaScript, etc.) de los bloques de personalización y haga clic en **[!UICONTROL Save]**.
 

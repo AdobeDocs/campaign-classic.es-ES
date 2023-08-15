@@ -2,12 +2,12 @@
 product: campaign
 title: Entregas de campañas de marketing
 description: Más información sobre las entregas de campañas de marketing
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1494'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Las entregas se pueden crear a través del tablero de la campaña, un flujo de t
 
 Cuando se crean a partir de una campaña, las entregas se vincularán a esta campaña y se consolidarán en el nivel de la campaña.
 
-![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[Descubra esta función en vídeo](#create-email-video)
 
 ## Creación de entregas {#creating-deliveries}
 
@@ -68,32 +68,32 @@ Para obtener más información sobre esto, consulte [Aprobación de un archivo d
 
 * Una vez aprobado el archivo de extracción, puede generar la prueba del correo electrónico de notificación del enrutador. Este mensaje de correo electrónico se crea en función de una plantilla de envíos. Debe ser aprobado.
 
-   >[!NOTE]
-   >
-   >Este paso solo está disponible si la entrega y la aprobación de las pruebas se han activado en la ventana de aprobaciones.
+  >[!NOTE]
+  >
+  >Este paso solo está disponible si la entrega y la aprobación de las pruebas se han activado en la ventana de aprobaciones.
 
 ![](assets/s_ncs_user_file_valid_select_BAT.png)
 
 
 * Haga clic en el botón **[!UICONTROL Send a proof]** para crear las pruebas.
 
-   El objetivo de la prueba debe haberse definido previamente.
+  El objetivo de la prueba debe haberse definido previamente.
 
-   Puede crear tantas pruebas como sea necesario. Se accede a ellas a través del enlace **[!UICONTROL Direct mail...]** en los detalles del envío.
+  Puede crear tantas pruebas como sea necesario. Se accede a ellas a través del enlace **[!UICONTROL Direct mail...]** en los detalles del envío.
 
-   ![](assets/s_ncs_user_file_notif_submit_proof.png)
+  ![](assets/s_ncs_user_file_notif_submit_proof.png)
 
 * El estado de entrega cambia a **[!UICONTROL To submit]**. Haga clic en el botón **[!UICONTROL Submit proofs]** para ejecutar el proceso de aprobación.
 
-   ![](assets/s_ncs_user_file_notif_submit_proof_validation.png)
+  ![](assets/s_ncs_user_file_notif_submit_proof_validation.png)
 
 * El estado de entrega cambia a **[!UICONTROL Proof to validate]** y un botón permite aceptar o rechazar la aprobación.
 
-   ![](assets/s_ncs_user_file_notif_supplier_link.png)
+  ![](assets/s_ncs_user_file_notif_supplier_link.png)
 
-   Puede aceptar o rechazar esta aprobación o volver al paso de extracción.
+  Puede aceptar o rechazar esta aprobación o volver al paso de extracción.
 
-   ![](assets/s_ncs_user_file_notif_supplier_link_confirm.png)
+  ![](assets/s_ncs_user_file_notif_supplier_link_confirm.png)
 
 * El archivo de extracción se envía al enrutador y se finaliza la entrega.
 
@@ -103,11 +103,11 @@ La extracción de archivos inicia dos operaciones: cálculo de presupuesto y cá
 
 * La pestaña **[!UICONTROL Budget]** le permite administrar los presupuestos de la campaña. El total de las entradas de costes se muestra en el campo **[!UICONTROL Calculates cost]** de la pestaña principal de la campaña y del programa al que pertenece. Las cantidades también se reflejan en el presupuesto de la campaña.
 
-   El coste real se calcula a partir de la información proporcionada por el enrutador. Solo se facturan los mensajes que se han enviado realmente.
+  El coste real se calcula a partir de la información proporcionada por el enrutador. Solo se facturan los mensajes que se han enviado realmente.
 
 * Las existencias se definen en el nodo **[!UICONTROL Administration > Campaign management > Stocks]** y las estructuras de coste en el nodo **[!UICONTROL Administration > Campaign management > Service providers]**.
 
-   Las líneas de existencias se pueden ver en la sección existencias. Para definir las existencias iniciales, abra una línea de existencias. Las existencias se reducen cada vez que se produce una entrega. Puede definir un nivel de alerta y notificaciones.
+  Las líneas de existencias se pueden ver en la sección existencias. Para definir las existencias iniciales, abra una línea de existencias. Las existencias se reducen cada vez que se produce una entrega. Puede definir un nivel de alerta y notificaciones.
 
 >[!NOTE]
 >
@@ -190,19 +190,19 @@ Una descripción puede contener elementos y campos de personalización, recursos
 * Los elementos pueden ser documentos físicos, por ejemplo, a los que se hace referencia y que se describen aquí y se adjuntan al envío.
 * Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en entregas para un objetivo específico (oferta de bienvenida, descuento, etc.) Se crean en Adobe Campaign y se importan en el esquema mediante el enlace **[!UICONTROL Import personalization fields...]**.
 
-   ![](assets/s_ncs_user_op_add_composition_field.png)
+  ![](assets/s_ncs_user_op_add_composition_field.png)
 
-   También pueden crearse directamente en la descripción haciendo clic en el icono **[!UICONTROL Add]** a la derecha del área de la lista.
+  También pueden crearse directamente en la descripción haciendo clic en el icono **[!UICONTROL Add]** a la derecha del área de la lista.
 
-   ![](assets/s_ncs_user_op_add_composition_field_button.png)
+  ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
 * Los recursos son recursos de marketing generados en el panel de recursos de marketing, al que se accede mediante el vínculo **[!UICONTROL Resources]** en la pestaña **[!UICONTROL Campaigns]**.
 
-   ![](assets/s_ncs_user_mkg_resource_ovv.png)
+  ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
-   >[!NOTE]
-   >
-   >Para obtener más información sobre los recursos de marketing, consulte [Administración de recursos de marketing](../../mrm/using/managing-marketing-resources.md).
+  >[!NOTE]
+  >
+  >Para obtener más información sobre los recursos de marketing, consulte [Administración de recursos de marketing](../../mrm/using/managing-marketing-resources.md).
 
 #### Selección de una descripción {#selecting-an-outline}
 

@@ -3,7 +3,7 @@ product: campaign
 title: Cuentas externas
 description: Obtenga información sobre cómo crear cuentas externas
 feature: Installation, Application Settings, External Account
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: administration-basics

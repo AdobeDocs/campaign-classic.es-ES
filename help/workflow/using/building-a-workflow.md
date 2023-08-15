@@ -2,12 +2,12 @@
 product: campaign
 title: Creación de un flujo de trabajo
 description: Descubra cómo generar un flujo de trabajo
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1630'
 ht-degree: 100%
 
 ---
@@ -87,28 +87,28 @@ Puede cambiar la visualización y el diseño del gráfico mediante los siguiente
 
 * **Uso de la barra de herramientas**
 
-   La barra de herramientas de edición del diagrama le permite acceder a las funciones de diseño y ejecución del flujo de trabajo.
+  La barra de herramientas de edición del diagrama le permite acceder a las funciones de diseño y ejecución del flujo de trabajo.
 
-   ![](assets/s_user_segmentation_wizard_10.png)
+  ![](assets/s_user_segmentation_wizard_10.png)
 
-   Esto le permite adaptar el diseño de la herramienta de edición: visualización de la paleta y descripción general, tamaño y alineación de los objetos gráficos.
+  Esto le permite adaptar el diseño de la herramienta de edición: visualización de la paleta y descripción general, tamaño y alineación de los objetos gráficos.
 
-   ![](assets/s_user_segmentation_toolbar.png)
+  ![](assets/s_user_segmentation_toolbar.png)
 
-   Los iconos relacionados con el progreso y la visualización de registros se describen en estas secciones:
+  Los iconos relacionados con el progreso y la visualización de registros se describen en estas secciones:
 
    * [Visualización del progreso](../../workflow/using/monitoring-workflow-execution.md#displaying-progress)
    * [Visualización de registros](../../workflow/using/monitoring-workflow-execution.md#displaying-logs)
 
 * **Alineación de objetos**
 
-   Para alinear los iconos, selecciónelos y haga clic en el icono **[!UICONTROL Align vertically]** o **[!UICONTROL Align horizontally]**.
+  Para alinear los iconos, selecciónelos y haga clic en el icono **[!UICONTROL Align vertically]** o **[!UICONTROL Align horizontally]**.
 
-   Utilice la tecla **Ctrl** para seleccionar varias actividades separadas o para anular la selección de una o varias actividades. Haga clic en el fondo del diagrama para anular la selección de todo.
+  Utilice la tecla **Ctrl** para seleccionar varias actividades separadas o para anular la selección de una o varias actividades. Haga clic en el fondo del diagrama para anular la selección de todo.
 
 * **Gestión de imágenes**
 
-   Puede personalizar la imagen de fondo del diagrama, así como las relacionadas con las distintas actividades. Consulte [Cambio de imágenes de actividad](managing-activity-images.md).
+  Puede personalizar la imagen de fondo del diagrama, así como las relacionadas con las distintas actividades. Consulte [Cambio de imágenes de actividad](managing-activity-images.md).
 
 ## Configuración de actividades {#configuring-activities}
 

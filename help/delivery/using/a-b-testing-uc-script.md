@@ -2,13 +2,13 @@
 product: campaign
 title: Creación del script
 description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: A/B Testing
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '342'
 ht-degree: 100%
 
 ---
@@ -93,70 +93,70 @@ En esta sección se detallan las distintas partes de la secuencia de comandos y 
 
 * La primera parte de la secuencia de comandos es una consulta. El comando **queryDef** permite recuperar desde la tabla **NmsDelivery** los envíos creados ejecutando el flujo de trabajo objetivo y ordenarlos en función de su tasa estimada de apertura. A continuación, se recupera la información de la entrega con la mayor tasa de apertura.
 
-   ```
-   // query the database to find the winner (best open rate)
-      var winner = xtk.queryDef.create(
-        <queryDef schema="nms:delivery" operation="get">
-          <select>
-            <node expr="@id"/>
-            <node expr="@label"/>
-            <node expr="[@operation-id]"/>
-          </select>
-          <where>
-            <condition expr={"@FCP=0 and [@workflow-id]= " + instance.id}/>
-          </where>
-          <orderBy>
-            <node expr="[indicators/@estimatedRecipientOpenRatio]" sortDesc="true"/>
-          </orderBy>
-        </queryDef>).ExecuteQuery()
-   ```
+  ```
+  // query the database to find the winner (best open rate)
+     var winner = xtk.queryDef.create(
+       <queryDef schema="nms:delivery" operation="get">
+         <select>
+           <node expr="@id"/>
+           <node expr="@label"/>
+           <node expr="[@operation-id]"/>
+         </select>
+         <where>
+           <condition expr={"@FCP=0 and [@workflow-id]= " + instance.id}/>
+         </where>
+         <orderBy>
+           <node expr="[indicators/@estimatedRecipientOpenRatio]" sortDesc="true"/>
+         </orderBy>
+       </queryDef>).ExecuteQuery()
+  ```
 
 * Se duplica la entrega con la mayor tasa de apertura.
 
-   ```
-    // create a new delivery object and initialize it by doing a copy of
-    // the winner delivery
-   var delivery = nms.delivery.create()
-   delivery.Duplicate("nms:delivery|" + winner.@id)
-   ```
+  ```
+   // create a new delivery object and initialize it by doing a copy of
+   // the winner delivery
+  var delivery = nms.delivery.create()
+  delivery.Duplicate("nms:delivery|" + winner.@id)
+  ```
 
 * La etiqueta de la entrega duplicado se modifica y la palabra **final** se añade a ella.
 
-   ```
-   // append 'final' to the delivery label
-   delivery.label = winner.@label + " final"
-   ```
+  ```
+  // append 'final' to the delivery label
+  delivery.label = winner.@label + " final"
+  ```
 
 * La entrega se copia en el tablero de campañas.
 
-   ```
-   // link the delivery to the operation to make sure it will be displayed in
-   // the campaign dashboard. This attribute needs to be set manually here since 
-   // the Duplicate() method has reset it to its default value => 0
-   delivery.operation_id = winner.@["operation-id"]
-   delivery.workflow_id = winner.@["workflow-id"]
-   ```
+  ```
+  // link the delivery to the operation to make sure it will be displayed in
+  // the campaign dashboard. This attribute needs to be set manually here since 
+  // the Duplicate() method has reset it to its default value => 0
+  delivery.operation_id = winner.@["operation-id"]
+  delivery.workflow_id = winner.@["workflow-id"]
+  ```
 
-   ```
-   // adjust some delivery parameters to make it compatible with the 
-   // "Prepare and start" option selected in the Delivery tab of this activity
-   delivery.scheduling.validationMode = "manual"
-   delivery.scheduling.delayed = 0
-   ```
+  ```
+  // adjust some delivery parameters to make it compatible with the 
+  // "Prepare and start" option selected in the Delivery tab of this activity
+  delivery.scheduling.validationMode = "manual"
+  delivery.scheduling.delayed = 0
+  ```
 
 * La entrega se guarda en la base de datos.
 
-   ```
-   // save the delivery in database
-   delivery.save()
-   ```
+  ```
+  // save the delivery in database
+  delivery.save()
+  ```
 
 * El identificador único de la entrega duplicado se almacena en la variable del flujo de trabajo.
 
-   ```
-   // store the new delivery Id in event variables
-   vars.deliveryId = delivery.id
-   ```
+  ```
+  // store the new delivery Id in event variables
+  vars.deliveryId = delivery.id
+  ```
 
 ## Otros criterios de selección {#other-selection-criteria}
 

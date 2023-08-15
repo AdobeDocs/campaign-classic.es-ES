@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Apps, Reporting, Monitoring
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 

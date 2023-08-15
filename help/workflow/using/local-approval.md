@@ -2,12 +2,12 @@
 product: campaign
 title: Aprobación local
 description: Aprobación local
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: 2d9cbfc8-1f99-4b38-8460-77c7c986e9ca
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
@@ -32,11 +32,11 @@ Comience introduciendo una etiqueta para la actividad y el campo **[!UICONTROL A
 
 * Seleccione la opción **[!UICONTROL Target approval notification]** para enviar un correo electrónico de notificación a los supervisores locales antes de la entrega para pedirles que aprueben los destinatarios asignados a ellos.
 
-   ![](assets/local_validation_intro_2.png)
+  ![](assets/local_validation_intro_2.png)
 
 * **Incremental query**: permite realizar una consulta y planificar su ejecución. Consulte la sección [Consulta incremental](incremental-query.md).
 
-   ![](assets/local_validation_intro_3.png)
+  ![](assets/local_validation_intro_3.png)
 
 ## Notificación de aprobación del objetivo {#target-approval-notification}
 
@@ -50,24 +50,24 @@ Los campos que se deben ingresar en caso de una notificación para la aprobació
 
 * **[!UICONTROL Distribution context]**: seleccione la opción **[!UICONTROL Specified in the transition]** si utiliza una actividad de tipo **[!UICONTROL Split]** para limitar la población objetivo. En este caso, la plantilla de distribución se introduce en la actividad dividida. Si no limita la población objetivo, seleccione la opción **[!UICONTROL Explicit]** aquí e introduzca la plantilla de distribución en el campo **[!UICONTROL Data distribution]**.
 
-   Para obtener más información sobre la creación de una plantilla de distribución de datos, consulte [Limitación del número de registros de subconjuntos por distribución de datos](split.md#limiting-the-number-of-subset-records-per-data-distribution).
+  Para obtener más información sobre la creación de una plantilla de distribución de datos, consulte [Limitación del número de registros de subconjuntos por distribución de datos](split.md#limiting-the-number-of-subset-records-per-data-distribution).
 
 * **[!UICONTROL Approval management]**
 
    * Seleccione la plantilla de envío y el asunto que se utilizará para la notificación por correo electrónico. Hay disponible una plantilla predeterminada: **[!UICONTROL Local approval notification]**. También puede añadir una descripción que aparecerá sobre las listas de destinatarios en las notificaciones de aprobación y comentarios.
    * Especifique el **[!UICONTROL Approval type]** correspondiente a la fecha límite de aprobación (fecha o fecha límite desde el inicio de la aprobación). En esta fecha, el flujo de trabajo se inicia nuevamente y los destinatarios que no se hayan aprobado no se tienen en cuenta para los objetivos. Una vez enviadas las notificaciones, la actividad se pone en cola para que los supervisores locales puedan aprobar sus contactos.
 
-      >[!NOTE]
-      >
-      >De forma predeterminada, cuando se inicia el proceso de aprobación, la actividad queda pendiente durante tres días.
+     >[!NOTE]
+     >
+     >De forma predeterminada, cuando se inicia el proceso de aprobación, la actividad queda pendiente durante tres días.
 
-      También puede añadir uno o más recordatorios para informarles a los supervisores locales que la fecha límite se acerca. Para ello, haga clic en el vínculo **[!UICONTROL Add a reminder]**.
+     También puede añadir uno o más recordatorios para informarles a los supervisores locales que la fecha límite se acerca. Para ello, haga clic en el vínculo **[!UICONTROL Add a reminder]**.
 
 * **[!UICONTROL Complementary set]**: la opción **[!UICONTROL Generate complement]** permite generar un segundo conjunto que incluya todos los objetivos no aprobados.
 
-   >[!NOTE]
-   >
-   >Esta opción está desactivada de forma predeterminada.
+  >[!NOTE]
+  >
+  >Esta opción está desactivada de forma predeterminada.
 
 ## Informe de comentarios de la entrega {#delivery-feedback-report}
 
@@ -90,19 +90,19 @@ Un operador puede aprobar una entrega de una de las dos maneras siguientes: con 
 
 * Aprobación en la web
 
-   El correo electrónico enviado a los operadores del grupo Administrador permite aprobar el objetivo de la entrega. El mensaje utiliza el texto definido y la expresión JavaScript se sustituye por el valor calculado (en este caso, “574”).
+  El correo electrónico enviado a los operadores del grupo Administrador permite aprobar el objetivo de la entrega. El mensaje utiliza el texto definido y la expresión JavaScript se sustituye por el valor calculado (en este caso, “574”).
 
-   Para aprobar la entrega, haga clic en el vínculo correspondiente e inicie sesión en la consola de Adobe Campaign.
+  Para aprobar la entrega, haga clic en el vínculo correspondiente e inicie sesión en la consola de Adobe Campaign.
 
-   ![](assets/new-workflow-valid-webaccess.png)
+  ![](assets/new-workflow-valid-webaccess.png)
 
-   Seleccione y haga clic en el botón **[!UICONTROL Submit]**.
+  Seleccione y haga clic en el botón **[!UICONTROL Submit]**.
 
-   ![](assets/new-workflow-valid-webaccess-confirm.png)
+  ![](assets/new-workflow-valid-webaccess-confirm.png)
 
 * Aprobación mediante la consola
 
-   En la estructura de árbol, el nodo **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** contiene la lista de tareas que debe aprobar el operador conectado actualmente. La lista debe mostrar una línea. Haga doble clic en esta línea para responder. Se muestra la siguiente ventana:
+  En la estructura de árbol, el nodo **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** contiene la lista de tareas que debe aprobar el operador conectado actualmente. La lista debe mostrar una línea. Haga doble clic en esta línea para responder. Se muestra la siguiente ventana:
 
 ![](assets/new-workflow-7.png)
 

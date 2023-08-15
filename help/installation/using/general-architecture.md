@@ -3,7 +3,7 @@ product: campaign
 title: arquitectura del Campaign Classic general
 description: Descubra cómo instalar y configurar Campaign Classic
 feature: Installation, Architecture
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: architecture-and-hosting-models
@@ -11,7 +11,7 @@ exl-id: 04e6dc17-427b-4745-84cc-bf45c03dbf81
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1349'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Campaign se basa en una arquitectura orientada a servicios (SOA) y consta 
 
 Se puede acceder a la aplicación de diferentes formas, según las necesidades de los usuarios: cliente enriquecido, cliente ligero o integración de API.
 
-* **Cliente enriquecido**: la interfaz de usuario principal de la aplicación es un cliente enriquecido; es decir, es una aplicación nativa (Windows) que se comunica con el servidor de aplicaciones de Adobe Campaign únicamente con protocolos de Internet estándar (SOAP, HTTP, etc.). Esta consola proporciona una buena facilidad de uso para la productividad, utiliza muy poco ancho de banda (mediante el uso de una caché local) y está diseñada para facilitar la implementación. Esta consola se puede implementar desde un navegador de Internet, se puede actualizar automáticamente y no requiere ninguna configuración de red específica porque solo genera tráfico HTTP(S).
+* **Cliente enriquecido**: la interfaz de usuario principal de la aplicación es un cliente enriquecido; es decir, es una aplicación nativa (Windows) que se comunica con el servidor de aplicaciones de Adobe Campaign únicamente con protocolos de Internet estándar (SOAP, HTTP, etc.). Esta consola ofrece una gran facilidad de uso para la productividad, utiliza muy poco ancho de banda (mediante el uso de una caché local) y está diseñada para facilitar la implementación. Esta consola se puede implementar desde un navegador de Internet, se puede actualizar automáticamente y no requiere ninguna configuración de red específica porque solo genera tráfico HTTP(S).
 * **Cliente ligero**: se puede acceder a ciertas partes de la aplicación a través de un sencillo explorador web mediante una interfaz de usuario de HTML, que incluye el módulo de informes, las fases de aprobación de la entrega, las funcionalidades del módulo de Distributed Marketing (central/local), la monitorización de instancias, etc. Este modo permite incluir las funcionalidades de Adobe Campaign en una intranet o extranet.
 * **Integración mediante las API**: en determinados casos, se puede llamar al sistema desde una aplicación externa mediante las API de servicios web expuestas mediante el protocolo SOAP.
 

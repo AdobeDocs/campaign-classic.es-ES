@@ -2,13 +2,13 @@
 product: campaign
 title: Traducción de una aplicación web
 description: Traducción de una aplicación web
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Apps
 exl-id: 82c5c610-8161-4686-aa79-1b690e763765
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '375'
 ht-degree: 100%
 
 ---
@@ -45,11 +45,11 @@ Para marcar las cadenas que se deben traducir:
    * Cuando el bloque seleccionado contiene varias cadenas o bloques, se marca como una sola cadena que se debe traducir. Entonces, la cadena contiene el código HTML de los elementos de este bloque.
    * Cuando se desea marcar un bloque que contiene varias cadenas y al menos una de ellas está marcada, se muestra un mensaje de advertencia. A continuación, se puede eliminar la marca de la cadena aislada y añadir el bloque completo.
 
-      ![](assets/dce_translation_4.png)
+     ![](assets/dce_translation_4.png)
 
    * Si desea eliminar la marca de una cadena contenida en un bloque que ya está marcado, no se puede modificar directamente la opción de traducción de la cadena. Sin embargo, puede acceder al bloque que contiene la cadena para cambiarla.
 
-      ![](assets/dce_translation_2.png)
+     ![](assets/dce_translation_2.png)
 
 1. Cuando haya terminado de marcar las cadenas, vuelva a la aplicación web y seleccione la pestaña **[!UICONTROL Translations]**.
 1. Seleccione **[!UICONTROL Collect the strings to translate]**. Las cadenas marcadas en el DCE se añaden a las cadenas de la aplicación web.

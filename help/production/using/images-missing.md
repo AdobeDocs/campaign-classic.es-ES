@@ -3,7 +3,7 @@ product: campaign
 title: Falta de imágenes
 description: Falta de imágenes
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,7 +11,7 @@ exl-id: 6ccda57d-f7a3-4501-b2f4-59fcb05f9013
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 

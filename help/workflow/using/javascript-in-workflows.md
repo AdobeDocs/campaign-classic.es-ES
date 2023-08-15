@@ -2,12 +2,12 @@
 product: campaign
 title: Ejemplos de código JavaScript en flujos de trabajo
 description: Estos ejemplos muestran cómo se puede utilizar código JavaScript en un flujo de trabajo
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1771'
 ht-degree: 100%
 
 ---
@@ -185,47 +185,47 @@ Escriba las cláusulas `select`, `where` y `orderBy` como elementos XML:
 
 * Cláusula `select`
 
-   Especifique las columnas que desea devolver. Por ejemplo, para seleccionar el nombre y el apellido de la persona, escriba este código:
+  Especifique las columnas que desea devolver. Por ejemplo, para seleccionar el nombre y el apellido de la persona, escriba este código:
 
-   ```xml
-   <select>
-       <node expr="@firstName"/>
-       <node expr="@lastName"/>
-   </select>
-   ```
+  ```xml
+  <select>
+      <node expr="@firstName"/>
+      <node expr="@lastName"/>
+  </select>
+  ```
 
-   Con el esquema `nms:recipient`, los elementos se devuelven en este formulario:
+  Con el esquema `nms:recipient`, los elementos se devuelven en este formulario:
 
-   ```xml
-   <recipient firstName="Bo" lastName="Didley"/>
-   ```
+  ```xml
+  <recipient firstName="Bo" lastName="Didley"/>
+  ```
 
 * Cláusula `where`
 
-   Para especificar condiciones, utilice una cláusula `where`. Por ejemplo, para seleccionar los registros ubicados en la carpeta **Aprendizaje**, puede escribir este código:
+  Para especificar condiciones, utilice una cláusula `where`. Por ejemplo, para seleccionar los registros ubicados en la carpeta **Aprendizaje**, puede escribir este código:
 
-   ```xml
-   <where>
-       <condition expr="[folder/@label]='Training'"/>
-   </where>
-   ```
+  ```xml
+  <where>
+      <condition expr="[folder/@label]='Training'"/>
+  </where>
+  ```
 
-   Cuando combine varias expresiones, utilice el operador booleano en la primera expresión. Por ejemplo, para seleccionar todas las personas que se llamen Isabel García, puede escribir este código:
+  Cuando combine varias expresiones, utilice el operador booleano en la primera expresión. Por ejemplo, para seleccionar todas las personas que se llamen Isabel García, puede escribir este código:
 
-   ```xml
-   <condition boolOperator="AND" expr="@firstName='Isabel'"/>
-   <condition expr="@lastName='Garcia'"/>
-   ```
+  ```xml
+  <condition boolOperator="AND" expr="@firstName='Isabel'"/>
+  <condition expr="@lastName='Garcia'"/>
+  ```
 
 * Cláusula `orderBy`
 
-   Para ordenar el conjunto de resultados, especifique la cláusula `orderBy` como elemento XML con el atributo `sortDesc`. Por ejemplo, para ordenar los apellidos en orden de subida, puede escribir este código:
+  Para ordenar el conjunto de resultados, especifique la cláusula `orderBy` como elemento XML con el atributo `sortDesc`. Por ejemplo, para ordenar los apellidos en orden de subida, puede escribir este código:
 
-   ```xml
-   <orderBy>
-       <node expr="@lastName> sortDesc="false"/>
-   </orderBy>
-   ```
+  ```xml
+  <orderBy>
+      <node expr="@lastName> sortDesc="false"/>
+  </orderBy>
+  ```
 
 ### Paso 2: crear un objeto de consulta
 
@@ -371,11 +371,11 @@ Puede activar flujos de trabajo de diferentes maneras:
    * Añada un script a la actividad **[!UICONTROL End]** del flujo de trabajo inicial.
    * Añada la actividad **[!UICONTROL External signal]** al principio del flujo de trabajo de destinatario.
 
-      Al finalizar el flujo de trabajo inicial, se publica un evento. La transición saliente se activa y las variables de evento se rellenan. A continuación, el flujo de trabajo de destinatario recibe el evento.
+     Al finalizar el flujo de trabajo inicial, se publica un evento. La transición saliente se activa y las variables de evento se rellenan. A continuación, el flujo de trabajo de destinatario recibe el evento.
 
-      >[!TIP]
-      >
-      >Como práctica recomendada, cuando añada un script a una actividad, escriba el nombre de la actividad entre guiones dobles, por ejemplo, `-- end --`. [Más información](workflow-best-practices.md) acerca de las prácticas recomendadas del flujo de trabajo.
+     >[!TIP]
+     >
+     >Como práctica recomendada, cuando añada un script a una actividad, escriba el nombre de la actividad entre guiones dobles, por ejemplo, `-- end --`. [Más información](workflow-best-practices.md) acerca de las prácticas recomendadas del flujo de trabajo.
 
 Sintaxis del método `PostEvent`:
 
@@ -558,7 +558,7 @@ Puede insertar, actualizar y eliminar registros. Puede usar el método `Write` e
 * La operación `update`
 * La operación `insertOrUpdate`, con el argumento `_key` para identificar el registro que se va a actualizar
 
-   Si no especifica la carpeta **Destinatarios** y existe una coincidencia, el registro se actualiza en cualquier subcarpeta. De lo contrario, el registro se crea en la carpeta raíz **Destinatarios**.
+  Si no especifica la carpeta **Destinatarios** y existe una coincidencia, el registro se actualiza en cualquier subcarpeta. De lo contrario, el registro se crea en la carpeta raíz **Destinatarios**.
 
 * La operación `delete`
 

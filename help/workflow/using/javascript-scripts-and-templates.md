@@ -2,17 +2,17 @@
 product: campaign
 title: Plantillas y secuencias de comandos de JavaScript
 description: Plantillas y secuencias de comandos de JavaScript
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1249'
 ht-degree: 100%
 
 ---
 
-# Plantillas y secuencias de comandos de JavaScript{#javascript-scripts-and-templates}
+# Plantillas y scripts de JavaScript{#javascript-scripts-and-templates}
 
 
 
@@ -25,7 +25,7 @@ Las secuencias de comandos son ubicuas en los diagramas de flujo de trabajo:
 * La actividad “Test” evalúa las expresiones JavaScript para activar la transición apropiada.
 * La mayoría de los campos de texto son plantillas JavaScript: Las expresiones de JavaScript se pueden incluir entre &lt;%= and %>. Estos campos presentan un botón que abre una lista desplegable para ayudarle a introducir expresiones.
 
-   ![](assets/script-button.png)
+  ![](assets/script-button.png)
 
 ## Objetos expuestos {#objects-exposed}
 

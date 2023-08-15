@@ -2,12 +2,12 @@
 product: campaign
 title: Realización de la computación agregada
 description: Aprenda a realizar computación agregada en consultas.
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
@@ -20,15 +20,15 @@ En este ejemplo, se desea contar el número de destinatarios que residen en Lond
 
 * ¿Qué tabla se debe seleccionar?
 
-   La tabla de destinatario (**nms:recipient**).
+  La tabla de destinatario (**nms:recipient**).
 
 * ¿Qué campos se deben seleccionar en la columna de salida?
 
-   Clave principal (con recuento) y Género.
+  Clave principal (con recuento) y Género.
 
 * ¿En qué condiciones se basa la información?
 
-   Se basa en los destinatarios que residen en Londres.
+  Se basa en los destinatarios que residen en Londres.
 
 Para crear este ejemplo, aplique los pasos siguientes:
 

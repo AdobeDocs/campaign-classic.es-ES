@@ -2,13 +2,13 @@
 product: campaign
 title: Creación e identificación de la entrega
 description: Creación e identificación de la entrega
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Channel Configuration
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '283'
 ht-degree: 100%
 
 ---

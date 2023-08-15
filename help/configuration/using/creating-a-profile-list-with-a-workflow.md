@@ -9,7 +9,7 @@ exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 14%
+ht-degree: 20%
 
 ---
 
@@ -27,7 +27,7 @@ Para crear un flujo de trabajo de objetivos y actualizar los destinatarios en un
 
 1. Vaya a la **[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]** del explorador.
 1. Cree un nuevo flujo de trabajo de objetivos.
-1. Colocar una **Consulta** actividad seguida de un **Actualización de lista** actividad.
+1. Colocar un **Consulta** actividad seguida de un **Actualización de lista** actividad.
 
    ![](assets/mapping_create_list_workflow01.png)
 

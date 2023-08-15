@@ -2,12 +2,12 @@
 product: campaign
 title: Entrega
 description: Descubra más información sobre la actividad del flujo de trabajo de tipo Entrega
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Channels Activity
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '924'
 ht-degree: 100%
 
 ---
@@ -28,33 +28,33 @@ Para configurarlo, edite la actividad e introduzca las opciones de entrega.
 
    * Actuar sobre la entrega especificado en la transición entrante. Para ello, seleccione la primera opción de la sección **[!UICONTROL Delivery]** de la ventana.
 
-      Esta opción se puede utilizar si ya se ha creado o especificado una actividad de flujo de trabajo anterior. Esto se puede hacer, como en el ejemplo a continuación, con una actividad del mismo tipo que generó una transición saliente.
+     Esta opción se puede utilizar si ya se ha creado o especificado una actividad de flujo de trabajo anterior. Esto se puede hacer, como en el ejemplo a continuación, con una actividad del mismo tipo que generó una transición saliente.
 
-      En el ejemplo siguiente, se crea la entrega por primera vez. La población y el contenido se definen más adelante. A continuación, la información de estos tres elementos se reingresa en una nueva actividad de entrega utilizando la transición entrante para que se pueda enviar.
+     En el ejemplo siguiente, se crea la entrega por primera vez. La población y el contenido se definen más adelante. A continuación, la información de estos tres elementos se reingresa en una nueva actividad de entrega utilizando la transición entrante para que se pueda enviar.
 
-      ![](assets/specified_transition_option_exemple.png)
+     ![](assets/specified_transition_option_exemple.png)
 
    * Seleccione directamente la entrega correspondiente. Para ello, seleccione la opción **[!UICONTROL Explicit]** y seleccione la entrega en la lista desplegable del campo **[!UICONTROL Delivery]**.
 
-      La lista muestra los envíos no finalizados contenidos en la carpeta **Envíos** de forma predeterminada. Para acceder a otras campañas, haga clic en el icono **[!UICONTROL Select link]**.
+     La lista muestra los envíos no finalizados contenidos en la carpeta **Envíos** de forma predeterminada. Para acceder a otras campañas, haga clic en el icono **[!UICONTROL Select link]**.
 
-      ![](assets/diffusion_edit_1.png)
+     ![](assets/diffusion_edit_1.png)
 
-      Seleccione la campaña en la lista desplegable del campo **[!UICONTROL Folder]** o haga clic en **[!UICONTROL Display sub-levels]** para mostrar todas las entregas contenidos en las subcarpetas:
+     Seleccione la campaña en la lista desplegable del campo **[!UICONTROL Folder]** o haga clic en **[!UICONTROL Display sub-levels]** para mostrar todas las entregas contenidos en las subcarpetas:
 
-      ![](assets/diffusion_edit_2.png)
+     ![](assets/diffusion_edit_2.png)
 
-      Después de seleccionar la acción de entrega, puede mostrar el contenido haciendo clic en el icono **[!UICONTROL Edit link]**.
+     Después de seleccionar la acción de entrega, puede mostrar el contenido haciendo clic en el icono **[!UICONTROL Edit link]**.
 
    * Cree una secuencia de comandos para calcular la entrega. Para ello, haga clic en la opción **[!UICONTROL Computed by a script]** e introduzca la secuencia de comandos. Puede abrir una ventana de entrada haciendo clic en la opción **[!UICONTROL Edit...]**. El ejemplo siguiente recupera el identificador de la entrega:
 
-      ![](assets/diffusion_edit_3.png)
+     ![](assets/diffusion_edit_3.png)
 
    * Crear una entrega nueva. Para hacerlo, seleccione la opción **[!UICONTROL New, created from a template]** y la plantilla de entrega en la que se debe basar la entrega.
 
-      ![](assets/diffusion_edit_4.png)
+     ![](assets/diffusion_edit_4.png)
 
-      Haga clic en el icono **[!UICONTROL Select link]** para examinar las carpetas y haga clic en el icono **[!UICONTROL Edit link]** si desea ver el contenido de la plantilla seleccionada.
+     Haga clic en el icono **[!UICONTROL Select link]** para examinar las carpetas y haga clic en el icono **[!UICONTROL Edit link]** si desea ver el contenido de la plantilla seleccionada.
 
 1. **Recipients**
 
@@ -88,15 +88,16 @@ Para configurarlo, edite la actividad e introduzca las opciones de entrega.
 
    * **[!UICONTROL Generate an outbound transition]**
 
-      Crea una transición saliente que se activará al final de la ejecución. Puede elegir si desea o no recuperar el objetivo de la entrega saliente.
+     Crea una transición saliente que se activará al final de la ejecución. Puede elegir si desea o no recuperar el objetivo de la entrega saliente.
 
    * **[!UICONTROL Do not recover target]**
 
-      No recupera el objetivo de la acción de entrega saliente.
+     No recupera el objetivo de la acción de entrega saliente.
 
    * **[!UICONTROL Processing errors]**
 
-      Consulte [Control de envíos](delivery-control.md).
+     Consulte [Control de envíos](delivery-control.md).
+
    La pestaña **Script** permite modificar los parámetros de entrega.
 
    ![](assets/edit_diffusion_fil_script.png)
@@ -148,11 +149,11 @@ Cada evento entrante debe especificar un objetivo definido por estos parámetros
 
 * filename
 
-   Nombre completo del archivo generado si se selecciona la opción **[!UICONTROL File(s) specified by inbound event(s)]** en la sección **[!UICONTROL Recipients]**.
+  Nombre completo del archivo generado si se selecciona la opción **[!UICONTROL File(s) specified by inbound event(s)]** en la sección **[!UICONTROL Recipients]**.
 
 * contentId
 
-   Identificador de contenido si la opción **[!UICONTROL Specified by inbound events]** está seleccionada en la sección **[!UICONTROL Content]**.
+  Identificador de contenido si la opción **[!UICONTROL Specified by inbound events]** está seleccionada en la sección **[!UICONTROL Content]**.
 
 ## Parámetros de salida {#output-parameters}
 

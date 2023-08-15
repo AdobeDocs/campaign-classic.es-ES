@@ -2,12 +2,12 @@
 product: campaign
 title: Creación de una lista de resumen
 description: Creación de una lista de resumen
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Data Management
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '981'
 ht-degree: 100%
 
 ---
@@ -78,7 +78,7 @@ Estos datos se incluyen en un archivo de texto “Compras.txt”.
 
 Una vez importados los datos, se lleva a cabo el enriquecimiento creando un vínculo a una tabla de referencia que coincida con el esquema “Stores”.
 
-Agregue la actividad Enrichment y configúrela como se indica a continuación:
+Añada la actividad de enriquecimiento y configúrela como se indica a continuación:
 
 1. Seleccione el conjunto principal compuesto de los datos en la actividad **Data loading(file)**.
 

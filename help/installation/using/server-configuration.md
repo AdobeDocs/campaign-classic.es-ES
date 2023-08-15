@@ -3,7 +3,7 @@ product: campaign
 title: Configuración de seguridad del servidor
 description: Obtenga más información acerca de las prácticas recomendadas de configuración del servidor
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-

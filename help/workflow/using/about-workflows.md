@@ -2,12 +2,12 @@
 product: campaign
 title: Acerca de los flujos de trabajo
 description: Automatice los procesos con flujos de trabajo, administre datos y audiencias, envíe mensajes, y mucho más
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Data Management
 exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '657'
 ht-degree: 100%
 
 ---
@@ -42,29 +42,29 @@ Cada flujo de trabajo contiene:
 
 * **[!UICONTROL Activities]**
 
-   Una actividad describe una plantilla de tarea. Las distintas actividades disponibles se representan en el diagrama mediante iconos. Cada tipo tiene propiedades comunes y propiedades específicas. Por ejemplo, mientras que todas las actividades tienen un nombre y una etiqueta, solo la actividad **[!UICONTROL Approval]** tiene una asignación.
+  Una actividad describe una plantilla de tarea. Las distintas actividades disponibles se representan en el diagrama mediante iconos. Cada tipo tiene propiedades comunes y propiedades específicas. Por ejemplo, mientras que todas las actividades tienen un nombre y una etiqueta, solo la actividad **[!UICONTROL Approval]** tiene una asignación.
 
-   En un diagrama de flujo de trabajo, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o una acción recurrente (periódica).
+  En un diagrama de flujo de trabajo, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o una acción recurrente (periódica).
 
-   Todas las actividades de flujo de trabajo se enumeran en [esta sección](about-activities.md), incluidos los ejemplos de uso y las muestras.
+  Todas las actividades de flujo de trabajo se enumeran en [esta sección](about-activities.md), incluidos los ejemplos de uso y las muestras.
 
 * **[!UICONTROL Transitions]**
 
-   Las transiciones permiten vincular actividades y definir su secuencia. Una transición vincula una actividad de origen a una actividad de destino. Existen varios tipos de transiciones que dependen de la actividad de origen. Algunas transiciones tienen parámetros adicionales, como una duración, una condición o un filtro.
+  Las transiciones permiten vincular actividades y definir su secuencia. Una transición vincula una actividad de origen a una actividad de destino. Existen varios tipos de transiciones que dependen de la actividad de origen. Algunas transiciones tienen parámetros adicionales, como una duración, una condición o un filtro.
 
-   Una transición que no está vinculada a una actividad de destino aparece en color naranja, y la cabeza de la flecha se muestra como un diamante.
+  Una transición que no está vinculada a una actividad de destino aparece en color naranja, y la cabeza de la flecha se muestra como un diamante.
 
-   >[!NOTE]
-   >
-   >Se puede ejecutar igualmente un flujo de trabajo que contenga transiciones no finalizadas: se genera un mensaje de advertencia y el flujo de trabajo se pausa una vez que llega a la transición, pero no genera un error. Por lo tanto, es posible iniciar un flujo de trabajo sin que haya terminado y añadirlo a medida que avanza
+  >[!NOTE]
+  >
+  >Se puede ejecutar igualmente un flujo de trabajo que contenga transiciones no finalizadas: se genera un mensaje de advertencia y el flujo de trabajo se pausa una vez que llega a la transición, pero no genera un error. Por lo tanto, es posible iniciar un flujo de trabajo sin que haya terminado y añadirlo a medida que avanza
 
-   Para obtener más información sobre la creación de flujos de trabajo, consulte [esta sección](building-a-workflow.md).
+  Para obtener más información sobre la creación de flujos de trabajo, consulte [esta sección](building-a-workflow.md).
 
 * **[!UICONTROL Worktables]**
 
-   La tabla de trabajo contiene toda la información que transmite la transición. Cada flujo de trabajo utiliza varias tablas de trabajo. Los datos transmitidos en estas tablas pueden acelerarse y utilizarse en todo el ciclo de vida del flujo de trabajo, siempre y cuando no se depure. De hecho, las tablas innecesarias se depuran cada vez que se desactiva el flujo de trabajo y posiblemente durante la ejecución de los flujos de trabajo más grandes para evitar sobrecargar el servidor.
+  La tabla de trabajo contiene toda la información que transmite la transición. Cada flujo de trabajo utiliza varias tablas de trabajo. Los datos transmitidos en estas tablas pueden acelerarse y utilizarse en todo el ciclo de vida del flujo de trabajo, siempre y cuando no se depure. De hecho, las tablas innecesarias se depuran cada vez que se desactiva el flujo de trabajo y posiblemente durante la ejecución de los flujos de trabajo más grandes para evitar sobrecargar el servidor.
 
-   Para obtener más información sobre los datos y las tablas de flujos de trabajo, consulte [esta sección](how-to-use-workflow-data.md).
+  Para obtener más información sobre los datos y las tablas de flujos de trabajo, consulte [esta sección](how-to-use-workflow-data.md).
 
 ## Principios fundamentales y prácticas recomendadas{#principles-workflows}
 

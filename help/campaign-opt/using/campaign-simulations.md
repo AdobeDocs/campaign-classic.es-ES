@@ -2,12 +2,12 @@
 product: campaign
 title: Simulaciones en Campaign
 description: Introducción a las simulaciones de Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Campaigns
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1252'
 ht-degree: 100%
 
 ---
@@ -113,9 +113,9 @@ Una vez finalizada la ejecución, abra la simulación y haga clic en la pestaña
    * **[!UICONTROL Initial count]** es el destinatario que se calcula durante su estimación en la entrega.
    * **[!UICONTROL Final count]** es el número de destinatarios que se cuentan después de la simulación.
 
-      La diferencia entre los recuentos inicial y final refleja la aplicación de las distintas reglas o filtros configurados antes de la simulación.
+     La diferencia entre los recuentos inicial y final refleja la aplicación de las distintas reglas o filtros configurados antes de la simulación.
 
-      Para obtener más información sobre este cálculo, edite la subpestaña **[!UICONTROL Exclusions]**.
+     Para obtener más información sobre este cálculo, edite la subpestaña **[!UICONTROL Exclusions]**.
 
 1. La subpestaña **[!UICONTROL Exclusions]** le permite ver el desglose de la exclusión.
 
@@ -207,15 +207,15 @@ En el siguiente ejemplo, deseamos crear un eje de informes adicional basado en e
 
    * **[!UICONTROL Generate target overlap statistics]** permite recuperar todas las estadísticas de superposición en el informe de simulación. Las superposiciones son destinatarios a quienes se han dirigido al menos dos envíos dentro de una simulación.
 
-      >[!IMPORTANT]
-      >
-      >Si selecciona esta opción, el tiempo de ejecución de la simulación aumenta considerablemente.
+     >[!IMPORTANT]
+     >
+     >Si selecciona esta opción, el tiempo de ejecución de la simulación aumenta considerablemente.
 
    * **[!UICONTROL Keep the simulation work table]** permite conservar los rastros de la simulación.
 
-      >[!IMPORTANT]
-      >
-      >El guardado automático de estas tablas requiere una capacidad de almacenamiento importante: asegúrese de que la base de datos es lo suficientemente grande.
+     >[!IMPORTANT]
+     >
+     >El guardado automático de estas tablas requiere una capacidad de almacenamiento importante: asegúrese de que la base de datos es lo suficientemente grande.
 
 Cuando se muestran los resultados de la simulación, la información de la expresión seleccionada se muestra en la subpestaña **[!UICONTROL Overlaps]**.
 

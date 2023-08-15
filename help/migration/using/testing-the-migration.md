@@ -3,7 +3,7 @@ product: campaign
 title: Prueba de la migración
 description: Prueba de la migración
 feature: Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: migration
 content-type: reference
 topic-tags: migration-procedure
@@ -13,7 +13,7 @@ exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 

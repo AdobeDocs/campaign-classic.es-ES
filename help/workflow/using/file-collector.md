@@ -2,12 +2,12 @@
 product: campaign
 title: Agrupamiento de archivos
 description: Descubra más información sobre la actividad del flujo de trabajo Recolector de ficheros
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Data Management
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
 source-git-commit: 1f87a5fba1298955fa07b9a045b21718c76a7fce
-workflow-type: ht
-source-wordcount: '524'
+workflow-type: tm+mt
+source-wordcount: '531'
 ht-degree: 100%
 
 ---

@@ -2,12 +2,12 @@
 product: campaign
 title: Deduplicación
 description: Descubra más información sobre la actividad del flujo de trabajo Deduplicación
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Targeting Activity
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1096'
 ht-degree: 100%
 
 ---
@@ -83,15 +83,16 @@ Para configurar una anulación de duplicación, introduzca su etiqueta, el méto
    * **[!UICONTROL Choose for me]**: selecciona de forma aleatoria el registro que se va a excluir de los duplicados.
    * **[!UICONTROL Following a list of values]**: permite definir una prioridad de valor para uno o varios campos. Para definir los valores, seleccione un campo o cree una expresión y, a continuación, añada los valores a la tabla adecuada. Para definir un nuevo campo, haga clic en el botón **[!UICONTROL Add]** situado sobre la lista de valores.
 
-      ![](assets/s_user_segmentation_dedup_param5.png)
+     ![](assets/s_user_segmentation_dedup_param5.png)
 
    * **[!UICONTROL Non-empty value]**: esto permite mantener registros para los que el valor de la expresión seleccionada no está vacío como prioridad.
 
-      ![](assets/s_user_segmentation_dedup_param6.png)
+     ![](assets/s_user_segmentation_dedup_param6.png)
 
    * **[!UICONTROL Using an expression]**: permite mantener los registros con el valor más bajo (o el más alto) de la expresión dada.
 
-      ![](assets/s_user_segmentation_dedup_param7.png)
+     ![](assets/s_user_segmentation_dedup_param7.png)
+
    >[!NOTE]
    >
    >La funcionalidad **[!UICONTROL Merge]**, a la que se puede acceder mediante el vínculo **[!UICONTROL Advanced parameters]**, permite configurar un conjunto de reglas para combinar un campo o grupo de campos en un único registro de datos resultante. Para obtener más información al respecto, consulte [Combinación de campos en un único registro](#merging-fields-into-single-record).

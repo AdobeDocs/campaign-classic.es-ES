@@ -2,12 +2,12 @@
 product: campaign
 title: API orientadas a datos
 description: API orientadas a datos
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: API
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1864'
 ht-degree: 1%
 
 ---
@@ -260,26 +260,26 @@ Estos son dos ejemplos de creación de corchetes en la misma condición.
 
 * La versión simple en una sola expresión:
 
-   ```
-   <where>
-     <condition expr="(@age > 15 or @age <= 45) and  (@city = 'Newton' or @city = 'Culver City') "/>
-   </where>
-   ```
+  ```
+  <where>
+    <condition expr="(@age > 15 or @age <= 45) and  (@city = 'Newton' or @city = 'Culver City') "/>
+  </where>
+  ```
 
 * La versión estructurada con `<condition>` elementos:
 
-   ```
-   <where>
-     <condition bool-operator="AND">
-       <condition expr="@age > 15" bool-operator="OR"/>
-       <condition expr="@age <= 45"/>
-     </condition>
-     <condition>
-       <condition expr="@city = 'Newton'" bool-operator="OR"/>
-       <condition expr="@city = 'Culver City'"/>
-     </condition>
-   </where>
-   ```
+  ```
+  <where>
+    <condition bool-operator="AND">
+      <condition expr="@age > 15" bool-operator="OR"/>
+      <condition expr="@age <= 45"/>
+    </condition>
+    <condition>
+      <condition expr="@city = 'Newton'" bool-operator="OR"/>
+      <condition expr="@city = 'Culver City'"/>
+    </condition>
+  </where>
+  ```
 
 Es posible reemplazar el operador &quot;OR&quot; con la operación &quot;IN&quot; cuando se aplican varias condiciones al mismo campo:
 
@@ -298,72 +298,72 @@ Esta sintaxis simplifica la consulta cuando se utilizan más de dos datos en la 
 
 * Links 1-1 o N1: cuando la tabla tiene la clave externa (el vínculo comienza en la tabla), los campos de la tabla vinculada se pueden filtrar o recuperar directamente.
 
-   Ejemplo de filtro en la etiqueta de carpeta:
+  Ejemplo de filtro en la etiqueta de carpeta:
 
-   ```
-   <where>
-     <condition expr="[folder/@label] like 'Segment%'"/>
-   </where>
-   ```
+  ```
+  <where>
+    <condition expr="[folder/@label] like 'Segment%'"/>
+  </where>
+  ```
 
-   Para recuperar los campos de la carpeta desde el esquema &quot;nms:recipient&quot;:
+  Para recuperar los campos de la carpeta desde el esquema &quot;nms:recipient&quot;:
 
-   ```
-   <select>
-     <!-- label of recipient folder -->
-     <node expr="[folder/@label]"/>
-     <!-- displays the string count of the folder -->
-     <node expr="partition"/>
-   </select>
-   ```
+  ```
+  <select>
+    <!-- label of recipient folder -->
+    <node expr="[folder/@label]"/>
+    <!-- displays the string count of the folder -->
+    <node expr="partition"/>
+  </select>
+  ```
 
 * Enlaces de recopilación (1N): el filtrado en los campos de una tabla de recopilación se debe realizar mediante la variable **EXISTE** o **NO EXISTE** operador.
 
-   Para filtrar los destinatarios que se han suscrito al servicio informativo &quot;Newsletter&quot;:
+  Para filtrar los destinatarios que se han suscrito al servicio informativo &quot;Newsletter&quot;:
 
-   ```
-   <where>
-     <condition expr="subscription" setOperator="EXISTS">
-       <condition expr="@name = 'Newsletter'"/>
-     </condition>
-   </where>
-   ```
+  ```
+  <where>
+    <condition expr="subscription" setOperator="EXISTS">
+      <condition expr="@name = 'Newsletter'"/>
+    </condition>
+  </where>
+  ```
 
-   Recuperación directa de los campos de un vínculo de colección desde el `<select>` No se recomienda esta cláusula porque la consulta devuelve un producto cardinal. Solo se utiliza cuando la tabla vinculada contiene solo un registro (ejemplo `<node expr="">`).
+  Recuperación directa de los campos de un vínculo de colección desde el `<select>` No se recomienda esta cláusula porque la consulta devuelve un producto cardinal. Solo se utiliza cuando la tabla vinculada contiene solo un registro (ejemplo `<node expr="">`).
 
-   Ejemplo en el vínculo de la colección &quot;suscripción&quot;:
+  Ejemplo en el vínculo de la colección &quot;suscripción&quot;:
 
-   ```
-   <select>
-     <node expr="subscription/@label"/>
-   </select>
-   ```
+  ```
+  <select>
+    <node expr="subscription/@label"/>
+  </select>
+  ```
 
-   Es posible recuperar una sublista que contenga los elementos de un vínculo de colección en la variable `<select>` Cláusula. Las XPath de los campos a los que se hace referencia son contextuales desde el elemento de colección.
+  Es posible recuperar una sublista que contenga los elementos de un vínculo de colección en la variable `<select>` Cláusula. Las XPath de los campos a los que se hace referencia son contextuales desde el elemento de colección.
 
-   El filtro ( `<orderby>`  ) y restricción (  `<where>`  ) elementos se pueden añadir al elemento de colección.
+  El filtro ( `<orderby>`  ) y restricción (  `<where>`  ) elementos se pueden añadir al elemento de colección.
 
-   En este ejemplo, para cada destinatario, la consulta devuelve el correo electrónico y la lista de servicios informativos a los que se suscribe el destinatario:
+  En este ejemplo, para cada destinatario, la consulta devuelve el correo electrónico y la lista de servicios informativos a los que se suscribe el destinatario:
 
-   ```
-   <queryDef schema="nms:recipient" operation="select">
-     <select>
-       <node expr="@email"/>
-   
-       <!-- collection table (unbound type) -->
-       <node expr="subscription">  
-         <node expr="[service/@label]"/>    
-         <!-- sub-condition on the collection table -->
-         <where>  
-           <condition expr="@expirationDate >= GetDate()"/>
-         </where>
-         <orderBy>
-           <node expr="@expirationDate"/> 
-         </orderBy>
-       </node>
-     </select> 
-   </queryDef>
-   ```
+  ```
+  <queryDef schema="nms:recipient" operation="select">
+    <select>
+      <node expr="@email"/>
+  
+      <!-- collection table (unbound type) -->
+      <node expr="subscription">  
+        <node expr="[service/@label]"/>    
+        <!-- sub-condition on the collection table -->
+        <where>  
+          <condition expr="@expirationDate >= GetDate()"/>
+        </where>
+        <orderBy>
+          <node expr="@expirationDate"/> 
+        </orderBy>
+      </node>
+    </select> 
+  </queryDef>
+  ```
 
 #### Enlazar los parámetros de las cláusulas &quot;where&quot; y &quot;select&quot; {#binding-the-parameters-of-the--where--and--select--clause}
 
@@ -461,43 +461,43 @@ En lugar de:
 
 * Consulta:
 
-   ```
-   <?xml version='1.0' encoding='ISO-8859-1'?>
-   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
-     <SOAP-ENV:Body>
-       <ExecuteQuery xmlns='urn:xtk:queryDef' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
-         <__sessiontoken xsi:type='xsd:string'/>
-         <entity xsi:type='ns:Element' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
-           <queryDef operation="get" schema="nms:recipient" xtkschema="xtk:queryDef">
-             <select>
-               <node expr="@email"/>
-               <node expr="@lastName"/>
-               <node expr="@firstName"/>
-             </select>
-             <where>
-               <condition expr="@id = 3599"/>
-             </where>
-           </queryDef>
-         </entity>
-       </ExecuteQuery>
-     </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <?xml version='1.0' encoding='ISO-8859-1'?>
+  <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP-ENV:Body>
+      <ExecuteQuery xmlns='urn:xtk:queryDef' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
+        <__sessiontoken xsi:type='xsd:string'/>
+        <entity xsi:type='ns:Element' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
+          <queryDef operation="get" schema="nms:recipient" xtkschema="xtk:queryDef">
+            <select>
+              <node expr="@email"/>
+              <node expr="@lastName"/>
+              <node expr="@firstName"/>
+            </select>
+            <where>
+              <condition expr="@id = 3599"/>
+            </where>
+          </queryDef>
+        </entity>
+      </ExecuteQuery>
+    </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 * Respuesta:
 
-   ```
-   <?xml version='1.0' encoding='ISO-8859-1'?>
-   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
-     <SOAP-ENV:Body>
-       <ExecuteQueryResponse xmlns='urn:xtk:queryDef' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
-         <pdomOutput xsi:type='ns:Element' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
-           <recipient email="john.doe@adobe.com" lastName"Doe" firstName="John"/>
-         </pdomOutput>
-       </ExecuteQueryResponse>
-     </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <?xml version='1.0' encoding='ISO-8859-1'?>
+  <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP-ENV:Body>
+      <ExecuteQueryResponse xmlns='urn:xtk:queryDef' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
+        <pdomOutput xsi:type='ns:Element' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
+          <recipient email="john.doe@adobe.com" lastName"Doe" firstName="John"/>
+        </pdomOutput>
+      </ExecuteQueryResponse>
+    </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 ## Write/WriteCollection (xtk:session) {#write---writecollection--xtk-session-}
 
@@ -630,43 +630,43 @@ De forma predeterminada, todos los elementos de colección deben rellenarse para
 
 * Consulta:
 
-   ```
-   <?xml version='1.0' encoding='ISO-8859-1'?>
-   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
-     <SOAP-ENV:Body>
-       <Write xmlns='urn:xtk:persist' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
-         <__sessiontoken xsi:type='xsd:string'/>
-         <domDoc xsi:type='ns:Element' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
-           <recipient xtkschema="nms:recipient" email="rene.dupont@adobe.com" firstName="René" lastName="Dupont" _key="@email">
-         </domDoc>
-       </Write>
-     </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <?xml version='1.0' encoding='ISO-8859-1'?>
+  <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP-ENV:Body>
+      <Write xmlns='urn:xtk:persist' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
+        <__sessiontoken xsi:type='xsd:string'/>
+        <domDoc xsi:type='ns:Element' SOAP-ENV:encodingStyle='http://xml.apache.org/xml-soap/literalxml'>
+          <recipient xtkschema="nms:recipient" email="rene.dupont@adobe.com" firstName="René" lastName="Dupont" _key="@email">
+        </domDoc>
+      </Write>
+    </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
 * Respuesta:
 
-   ```
-   <?xml version='1.0' encoding='ISO-8859-1'?>
-   <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
-     <SOAP-ENV:Body>
-       <WriteResponse xmlns='urn:' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
-       </WriteResponse>
-     </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <?xml version='1.0' encoding='ISO-8859-1'?>
+  <SOAP-ENV:Envelope xmlns:xsd='http://www.w3.org/2001/XMLSchema' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:ns='http://xml.apache.org/xml-soap' xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP-ENV:Body>
+      <WriteResponse xmlns='urn:' SOAP-ENV:encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'>
+      </WriteResponse>
+    </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```
 
-   Devolver con error:
+  Devolver con error:
 
-   ```
-   <?xml version='1.0'?>
-   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
-     <SOAP-ENV:Body>
-       <SOAP-ENV:Fault>
-         <faultcode>SOAP-ENV:Server</faultcode>
-         <faultstring xsi:type="xsd:string">Error while executing the method 'Write' of service 'xtk:persist'.</faultstring>
-         <detail xsi:type="xsd:string">PostgreSQL error: ERROR:  duplicate key violates unique constraint &quot;nmsrecipient_id&quot;Impossible to save document of type 'Recipients (nms:recipient)'</detail>
-       </SOAP-ENV:Fault>
-     </SOAP-ENV:Body>
-   </SOAP-ENV:Envelope>
-   ```
+  ```
+  <?xml version='1.0'?>
+  <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV='http://schemas.xmlsoap.org/soap/envelope/'>
+    <SOAP-ENV:Body>
+      <SOAP-ENV:Fault>
+        <faultcode>SOAP-ENV:Server</faultcode>
+        <faultstring xsi:type="xsd:string">Error while executing the method 'Write' of service 'xtk:persist'.</faultstring>
+        <detail xsi:type="xsd:string">PostgreSQL error: ERROR:  duplicate key violates unique constraint &quot;nmsrecipient_id&quot;Impossible to save document of type 'Recipients (nms:recipient)'</detail>
+      </SOAP-ENV:Fault>
+    </SOAP-ENV:Body>
+  </SOAP-ENV:Envelope>
+  ```

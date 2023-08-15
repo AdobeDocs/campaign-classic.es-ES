@@ -2,15 +2,15 @@
 product: campaign
 title: Acerca de importación y exportación genéricas
 description: Obtenga más información sobre las importaciones y exportaciones genéricas
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 9ac13db3-552f-43cc-ab67-3aea82e0519e
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '129'
 ht-degree: 100%
 
 ---

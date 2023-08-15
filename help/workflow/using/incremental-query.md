@@ -2,12 +2,12 @@
 product: campaign
 title: Consulta incremental
 description: Descubra más información sobre la actividad del flujo de trabajo Consulta incremental
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Targeting Activity
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '362'
 ht-degree: 100%
 
 ---
@@ -50,15 +50,15 @@ Para ello:
 
    * **[!UICONTROL History in days]**
 
-      Los destinatarios ya seleccionados pueden registrarse un número máximo de días desde el día en que fueron seleccionados. Si este valor es cero, los destinatarios nunca se eliminan del registro.
+     Los destinatarios ya seleccionados pueden registrarse un número máximo de días desde el día en que fueron seleccionados. Si este valor es cero, los destinatarios nunca se eliminan del registro.
 
    * **[!UICONTROL Keep history when starting]**
 
-      Esta opción le permite no purgar el registro cuando la actividad está habilitada.
+     Esta opción le permite no purgar el registro cuando la actividad está habilitada.
 
    * **[!UICONTROL SQL table name]**
 
-      Este parámetro permite sobrecargar la tabla SQL predeterminada que contiene los datos del historial.
+     Este parámetro permite sobrecargar la tabla SQL predeterminada que contiene los datos del historial.
 
 ## Parámetros de salida {#output-parameters}
 

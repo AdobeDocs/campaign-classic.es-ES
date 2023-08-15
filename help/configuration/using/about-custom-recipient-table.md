@@ -9,7 +9,7 @@ exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ En esta sección se detallan los principios para utilizar una tabla de destinata
 
 De forma predeterminada, Adobe Campaign ofrece una tabla de destinatarios integrada a la que están vinculadas las funciones y los procesos predeterminados. La tabla de destinatarios integrada tiene una serie de campos y tablas predefinidos que se pueden ampliar fácilmente con una tabla de extensiones.
 
-Si este método de extensión ofrece buena flexibilidad para ampliar una tabla, no permite reducir el número de campos o vínculos que contiene. El uso de una tabla no estándar o &quot;tabla de destinatarios externa&quot; permite una buena flexibilidad, pero requiere ciertas precauciones al implementarla.
+Si este método de extensión ofrece buena flexibilidad para ampliar una tabla, no permite reducir el número de campos o vínculos que contiene. El uso de una tabla no estándar o &quot;tabla de destinatarios externa&quot; permite una mayor flexibilidad, pero requiere ciertas precauciones al implementarla.
 
 Esta funcionalidad permite a Adobe Campaign procesar datos de una base de datos externa: estos datos se utilizan como un conjunto de perfiles para las entregas. La implementación de este proceso implica varias precisiones que pueden ser relevantes según las necesidades del cliente. Por ejemplo:
 

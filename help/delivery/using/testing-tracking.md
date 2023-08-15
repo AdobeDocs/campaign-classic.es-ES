@@ -2,13 +2,13 @@
 product: campaign
 title: Prueba del seguimiento de mensajes
 description: Obtenga información sobre cómo probar el seguimiento de mensajes
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring
 exl-id: 16ad36b7-c13e-4b77-86ca-41c9ef174172
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '268'
 ht-degree: 100%
 
 ---

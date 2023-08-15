@@ -2,13 +2,13 @@
 product: campaign
 title: Actualizar la calificación de devoluciones después de la interrupción de Apple 2021
 description: Obtenga información sobre cómo actualizar la calificación de devoluciones después la interrupción de Apple 2021
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '437'
 ht-degree: 100%
 
 ---

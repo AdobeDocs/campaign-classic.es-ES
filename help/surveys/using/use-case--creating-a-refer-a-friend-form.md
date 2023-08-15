@@ -2,13 +2,13 @@
 product: campaign
 title: Creación de una encuesta “recomendar a un amigo”
 description: Obtenga información sobre los pasos para crear un formulario “recomendar a un amigo”
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '630'
 ht-degree: 100%
 
 ---
@@ -75,17 +75,18 @@ Para configurar y crear el bloque de recomendación, siga estos pasos:
 
    * Seleccione la tabla de visitantes como asignación de destino.
 
-      ![](assets/s_ncs_admin_survey_viral_sample_7b.png)
+     ![](assets/s_ncs_admin_survey_viral_sample_7b.png)
 
    * La información de contacto del destinatario del reenvío, así como la información sobre el remitente del reenvío, se toma de la tabla del visitante. Se inserta mediante el botón de personalización.
 
-      ![](assets/s_ncs_admin_survey_viral_sample_7a.png)
+     ![](assets/s_ncs_admin_survey_viral_sample_7a.png)
 
    * Esta plantilla contiene un vínculo al formulario de competencia y el vínculo de suscripción para que el destinatario del reenvío se suscriba al boletín informativo.
 
-      El vínculo de suscripción se inserta mediante un bloque de personalización. De forma predeterminada, permite suscribir los perfiles al servicio del **boletín informativo.** Este bloque de personalización se puede cambiar para adaptarse a sus necesidades, por ejemplo para suscribirse a un servicio diferente.
+     El vínculo de suscripción se inserta mediante un bloque de personalización. De forma predeterminada, permite suscribir los perfiles al servicio del **boletín informativo.** Este bloque de personalización se puede cambiar para adaptarse a sus necesidades, por ejemplo para suscribirse a un servicio diferente.
 
    * El nombre interno (remitente del reenvío) se utiliza en la secuencia de comandos de envío de mensajes como se muestra a continuación.
+
    >[!NOTE]
    >
    >Consulte [esta página](../../delivery/using/about-templates.md) para obtener más información sobre las plantillas de envío.

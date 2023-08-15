@@ -2,12 +2,12 @@
 product: campaign
 title: Carga (SOAP)
 description: Carga (SOAP)
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '258'
 ht-degree: 100%
 
 ---
@@ -50,6 +50,6 @@ La operación es la siguiente:
    * **[!UICONTROL Initialization]**: establece una conexión SOAP.
    * **[!UICONTROL Iteration]**: realiza la llamada al servicio SOAP. El retorno de esta función debe ser un objeto XML compatible con la descripción del ejemplo o el WSDL.
 
-      Adobe Campaign llama al código de esta pestaña hasta que devuelva un objeto XML nulo.
+     Adobe Campaign llama al código de esta pestaña hasta que devuelva un objeto XML nulo.
 
    * **[!UICONTROL Finalization]**: cierra la conexión o libera otros recursos creados durante el procesamiento.

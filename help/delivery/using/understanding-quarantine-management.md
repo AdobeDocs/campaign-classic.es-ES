@@ -2,13 +2,13 @@
 product: campaign
 title: Comprensión de la administración de cuarentenas
 description: Comprensión de la administración de cuarentenas
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '2997'
+source-wordcount: '3009'
 ht-degree: 100%
 
 ---
@@ -39,11 +39,11 @@ La cuarentena y la inclusión en la lista de bloqueados no se aplican al mismo o
 
 * La **Cuarentena** solo se aplica a una **dirección** (o número de teléfono, etc.), no al propio perfil. Del mismo modo, un perfil cuya dirección de correo electrónico se haya puesto en cuarentena puede actualizar su perfil e introducir una nueva, y luego puede volver a recibir entregas. Del mismo modo, si dos perfiles tienen el mismo número de teléfono, ambos se verán afectados si el número está en cuarentena.
 
-   Las direcciones en cuarentena o los números de teléfono se muestran en los [registros de exclusión](#identifying-quarantined-addresses-for-a-delivery) (para una entrega) o en la [lista de cuarentena](#identifying-quarantined-addresses-for-the-entire-platform) (para toda la plataforma).
+  Las direcciones en cuarentena o los números de teléfono se muestran en los [registros de exclusión](#identifying-quarantined-addresses-for-a-delivery) (para una entrega) o en la [lista de cuarentena](#identifying-quarantined-addresses-for-the-entire-platform) (para toda la plataforma).
 
 * Al incluirse en la **lista de bloqueados**, no obstante, el **perfil** ya no se tendrá en cuenta en las entregas, por ejemplo, tras una baja (exclusión) de un canal determinado. Por ejemplo, si un perfil incluido en la lista de bloqueados del canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán de la entrega.
 
-   Puede comprobar si un perfil está en la lista de bloqueados de uno o más canales en la sección **[!UICONTROL No longer contact]** de la pestaña **[!UICONTROL General]** del perfil. Consulte [esta sección](../../platform/using/editing-a-profile.md#general-tab).
+  Puede comprobar si un perfil está en la lista de bloqueados de uno o más canales en la sección **[!UICONTROL No longer contact]** de la pestaña **[!UICONTROL General]** del perfil. Consulte [esta sección](../../platform/using/editing-a-profile.md#general-tab).
 
 >[!NOTE]
 >
@@ -173,11 +173,10 @@ A continuación se muestran las directrices recomendadas para esta consulta:
 
    * **Texto de error (texto de cuarentena)** contiene “550-5.1.1” Y **Texto de error (texto de cuarentena)** contiene “support.ISP.com”
 
-   donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
+  donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
 
    * **Actualizar estado (@lastModified)** en o después de DD/MM/AAAA HH:MM:SS AM
    * **Actualizar estado (@lastModified)** en DD/MM/AAAA HH:MM:SS PM
-
 
 Una vez que tenga la lista de destinatarios afectados, añada una **[!UICONTROL Update data]** actividad para establecer su estado de dirección de correo electrónico en **[!UICONTROL Valid]** de modo que sean quitadas de la lista de cuarentena por el **[!UICONTROL Database cleanup]** flujo de trabajo. También puede eliminarlos de la tabla de cuarentena.
 
@@ -591,21 +590,21 @@ SR Generic DELIVRD 000|#MESSAGE#
 * Todos los mensajes de error empiezan por **SR** para distinguir entre los códigos de error de los SMS y códigos de error de los correos electrónicos.
 * La segunda parte (**Generic** en este ejemplo) del mensaje de error hace referencia al nombre de la implementación de SMSC, como se define en el campo **[!UICONTROL SMSC implementation name]** de la cuenta externa de SMS. Consulte [esta página](sms-set-up.md#creating-an-smpp-external-account).
 
-   Dado que el mismo código de error puede tener un significado diferente para cada proveedor, este campo permite saber qué proveedor genera el código de error. Después se puede buscar el error en la documentación del proveedor correspondiente.
+  Dado que el mismo código de error puede tener un significado diferente para cada proveedor, este campo permite saber qué proveedor genera el código de error. Después se puede buscar el error en la documentación del proveedor correspondiente.
 
 * La tercera parte (**DELIVRD** en este ejemplo) del mensaje de error corresponde al código de estado recuperado del SR mediante las regex de extracción de estado definidas en la cuenta externa de SMS.
 
-   Esta regex se especifica en la pestaña **[!UICONTROL SMSC specificities]** de la cuenta externa. Consulte [esta página](sms-set-up.md#creating-an-smpp-external-account).
+  Esta regex se especifica en la pestaña **[!UICONTROL SMSC specificities]** de la cuenta externa. Consulte [esta página](sms-set-up.md#creating-an-smpp-external-account).
 
-   ![](assets/tech_quarant_error_regex.png)
+  ![](assets/tech_quarant_error_regex.png)
 
-   De manera predeterminada, la regex extrae el campo **stat:** como se define en la sección **Apéndice B** de la **especificación de SMPP 3.4**.
+  De manera predeterminada, la regex extrae el campo **stat:** como se define en la sección **Apéndice B** de la **especificación de SMPP 3.4**.
 
 * La cuarta parte (**000** en este ejemplo) del mensaje de error corresponde al código de error extraído del SR mediante la regex de extracción de código de error definida en la cuenta externa de SMS.
 
-   Esta regex se especifica en la pestaña **[!UICONTROL SMSC specificities]** de la cuenta externa. Consulte [esta página](sms-set-up.md#creating-an-smpp-external-account).
+  Esta regex se especifica en la pestaña **[!UICONTROL SMSC specificities]** de la cuenta externa. Consulte [esta página](sms-set-up.md#creating-an-smpp-external-account).
 
-   De manera predeterminada, la regex extrae el campo **err:** tal y como se define en la sección **Apéndice B** de la **especificación de SMPP 3.4**.
+  De manera predeterminada, la regex extrae el campo **err:** tal y como se define en la sección **Apéndice B** de la **especificación de SMPP 3.4**.
 
 * Todo lo que aparece después del símbolo de barra vertical (|) se muestra solo en la columna **[!UICONTROL First text]** de la tabla **[!UICONTROL Delivery log qualification]**. Este contenido siempre se sustituye por **#MESSAGE#** después de normalizar el mensaje. Este proceso evita tener varias entradas para errores similares y funciona igual que para los correos electrónicos. Para obtener más información, consulte [Cualificación de correo rechazado](understanding-delivery-failures.md#bounce-mail-qualification).
 

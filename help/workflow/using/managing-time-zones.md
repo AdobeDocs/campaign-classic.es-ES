@@ -2,12 +2,12 @@
 product: campaign
 title: Administración de zonas horarias
 description: Administración de zonas horarias
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: c2f6033c-30cd-4eb4-adf1-ab2de7510220
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -34,19 +34,19 @@ Los valores posibles son:
 
 * Zona horaria del servidor
 
-   Utiliza la zona horaria del servidor de aplicaciones de Adobe Campaign.
+  Utiliza la zona horaria del servidor de aplicaciones de Adobe Campaign.
 
 * Zona horaria del usuario
 
-   Utiliza la zona horaria del operador de Adobe Campaign que ejecuta el flujo de trabajo.
+  Utiliza la zona horaria del operador de Adobe Campaign que ejecuta el flujo de trabajo.
 
 * Zona horaria de la base de datos
 
-   Utiliza la zona horaria del servidor de la base de datos utilizado.
+  Utiliza la zona horaria del servidor de la base de datos utilizado.
 
 * Zonas horarias específicas
 
-   Utiliza la zona horaria seleccionada.
+  Utiliza la zona horaria seleccionada.
 
 Si se selecciona el valor **[!UICONTROL By default]**, se aplica la zona horaria del flujo de trabajo o, en caso contrario, la del servidor de aplicaciones.
 

@@ -3,7 +3,7 @@ product: campaign
 title: Configuración técnica de correo electrónico
 description: Obtenga información sobre cómo configurar Campaign para controlar la salida de las instancias al enviar correos electrónicos
 feature: Installation, Deliverability
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
@@ -425,7 +425,7 @@ Este parámetro es muy importante y especialmente crítico si los mensajes no se
 
 Una vez que **maxWorkingSetMb** (256) Cuando se alcanza el umbral, el servidor de entrega detiene el envío de mensajes. El rendimiento disminuirá significativamente hasta que **mtachild** se inicia de nuevo. Para evitar este problema, puede aumentar el umbral de la **maxWorkingSetMb** o disminuir el umbral del parámetro **maxWaitingMessages** parámetro.
 
-El **maxWorkingSetMb** Este parámetro se calcula empíricamente multiplicando el número máximo de mensajes por el tamaño medio del mensaje y el resultado por 2,5. Por ejemplo, si un mensaje tiene un tamaño medio de 50 kB y **maxWaitingMessages** parámetro es igual a 1000, la memoria utilizada será de 125 MB como promedio.
+El **maxWorkingSetMb** El parámetro se calcula empíricamente multiplicando el número máximo de mensajes por el tamaño medio del mensaje y el resultado por 2,5. Por ejemplo, si un mensaje tiene un tamaño medio de 50 kB y **maxWaitingMessages** parámetro es igual a 1000, la memoria utilizada será de 125 MB como promedio.
 
 ### Ajustar el número de equipos {#adjust-the-number-of-mtachild}
 

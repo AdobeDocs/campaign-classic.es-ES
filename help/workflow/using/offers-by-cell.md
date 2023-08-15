@@ -2,12 +2,12 @@
 product: campaign
 title: Ofertas por celda
 description: Ofertas por celda
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Targeting Activity, Interaction
 exl-id: 72b17b48-093a-4eb9-a848-3c1570e49b61
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '157'
 ht-degree: 100%
 
 ---
@@ -29,6 +29,6 @@ Para ello:
    * Especifique la población del subconjunto utilizando las reglas de filtrado y limitación disponibles.
    * A continuación, seleccione la oferta que desee presentar al subconjunto. Las ofertas disponibles son aquellas aptas en el espacio de oferta seleccionado en el paso anterior.
 
-      ![](assets/int_offer_per_cell1.png)
+     ![](assets/int_offer_per_cell1.png)
 
 1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Consulte [Envíos multicanal](cross-channel-deliveries.md).

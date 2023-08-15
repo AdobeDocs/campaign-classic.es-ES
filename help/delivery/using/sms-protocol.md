@@ -2,14 +2,14 @@
 product: campaign
 title: Configuración y protocolo del conector SMS
 description: Obtenga más información sobre el conector de SMS y cómo configurarlo
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: SMS
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '8460'
-ht-degree: 100%
+source-wordcount: '8458'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 >[!NOTE]
 >
 >En este documento, todas las referencias a los detalles acerca del protocolo, los nombres de campo y los valores se refieren a la [especificación SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+>
 
 ## Información general {#overview}
 
@@ -833,19 +834,16 @@ Incluso si no puede comprobar los registros usted mismo, será más fácil para 
 ### Prueba de SMS {#test}
 
 * **Envíe SMS con todo tipo de caracteres**
-Si necesita enviar un SMS con caracteres que no sean GSM o ASCII, intente enviar algunos mensajes con tantos caracteres diferentes como sea posible. Si configura una tabla de asignación de caracteres personalizada, envíe al menos un SMS para todos los posibles 
-`data_coding` valores.
+Si necesita enviar un SMS con caracteres que no sean GSM o ASCII, intente enviar algunos mensajes con tantos caracteres diferentes como sea posible. Si configura una tabla de asignación de caracteres personalizada, envíe al menos un SMS para todos los posibles `data_coding` valores.
 
 * **Verifique que SR se procesa correctamente**
 El SMS debe marcarse como recibido en el registro de envíos. El registro de envíos debe tener el siguiente aspecto:
-
-Compruebe que ha cambiado el nombre del proveedor de envío. El registro de envíos nunca debe contener    `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
+  `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Compruebe que ha cambiado el nombre del proveedor de envío. El registro de envíos nunca debe contener **SR genérico** en entornos de producción.
 
 * **Compruebe que se procesan los MO**
 Si necesita procesar los MO (respuestas automáticas, almacenar los MO en la base de datos, etc.) intente realizar algunas pruebas. Envíe algunos SMS para cada una de las palabras clave de respuesta automática y compruebe si la respuesta es lo suficientemente rápida, no más de unos segundos.
-Compruebe en el registro que Adobe Campaign responde correctamente 
-`DELIVER_SM_RESP` (command_status=0).
+Compruebe en el registro que Adobe Campaign responde correctamente `DELIVER_SM_RESP` (command_status=0).
 
 ### Compruebe las PDU {#check-pdus}
 

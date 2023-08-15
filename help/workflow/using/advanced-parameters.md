@@ -2,12 +2,12 @@
 product: campaign
 title: Parámetros avanzados
 description: Parámetros avanzados
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Data Management
 exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '508'
 ht-degree: 100%
 
 ---
@@ -20,11 +20,11 @@ La pantalla de propiedades de una actividad tiene una pestaña **[!UICONTROL Adv
 
 * una versión simplificada (para las actividades **[!UICONTROL Start]** y **[!UICONTROL End]**, por ejemplo)
 
-   ![](assets/wf-advanced-basic.png)
+  ![](assets/wf-advanced-basic.png)
 
 * una versión más detallada (para la actividad **[!UICONTROL Query]**, por ejemplo)
 
-   ![](assets/wf-advanced-full.png)
+  ![](assets/wf-advanced-full.png)
 
 Los campos que se introducen en la pestaña **[!UICONTROL Advanced]** se describen en las siguientes secciones.
 

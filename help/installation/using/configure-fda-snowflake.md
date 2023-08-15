@@ -3,7 +3,7 @@ product: campaign
 title: Configuración del acceso a Snowflake
 description: Obtenga información sobre cómo configurar el acceso al Snowflake en FDA
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -11,7 +11,7 @@ exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 38%
+ht-degree: 39%
 
 ---
 

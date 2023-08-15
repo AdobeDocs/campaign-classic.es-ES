@@ -2,14 +2,14 @@
 product: campaign
 title: Direcciones semilla
 description: Direcciones semilla
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Seed Address
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 9%
+source-wordcount: '334'
+ht-degree: 13%
 
 ---
 
@@ -80,7 +80,8 @@ Siga estos pasos:
    >    * Durante la extensión, se debe especificar un **Nombre SQL (@sqlname)** para el campo &quot;correo electrónico&quot;. El nombre SQL debe ser diferente de &quot;sEmail&quot;, que está reservado para el esquema de destinatarios.
    >    * Debe actualizar la estructura de la base de datos con el esquema creado al ampliar **nms:seedMember**.
    >    * En el **nms:seedMember** extensión, el campo que contiene la dirección de correo electrónico debe tener **name=&quot;email&quot;** como atributo. El nombre SQL debe ser diferente de &quot;sEmail&quot;, que ya se utiliza para el esquema de destinatario. Este atributo debe declararse inmediatamente en la variable **`<element name="custom_cus_person" />`** Elemento.
-
+   >    
+   >
 
 1. Modifique la **[!UICONTROL seedMember]** para definir una nueva pestaña &quot;Destinatario interno&quot; en la **[!UICONTROL Seed addresses]** ventana. Para obtener más información, consulte [esta página](../../configuration/using/form-structure.md).
 

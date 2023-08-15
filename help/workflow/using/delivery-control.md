@@ -2,12 +2,12 @@
 product: campaign
 title: Control de entregas
 description: Descubra más información sobre la actividad del flujo de trabajo Control de entregas
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '171'
 ht-degree: 100%
 
 ---
@@ -28,11 +28,11 @@ Estas son las opciones disponibles:
 
 * **[!UICONTROL Generate an outbound transition]**
 
-   Crea una transición saliente que se activará al final de la ejecución. Puede elegir si desea o no recuperar el objetivo de la entrega saliente.
+  Crea una transición saliente que se activará al final de la ejecución. Puede elegir si desea o no recuperar el objetivo de la entrega saliente.
 
 * **[!UICONTROL Processing errors]**
 
-   Consulte [Errores de procesamiento](monitoring-workflow-execution.md#processing-errors).
+  Consulte [Errores de procesamiento](monitoring-workflow-execution.md#processing-errors).
 
 ## Parámetros de entrada {#input-parameters}
 

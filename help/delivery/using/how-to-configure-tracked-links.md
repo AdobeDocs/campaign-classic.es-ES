@@ -2,13 +2,13 @@
 product: campaign
 title: Configuración de los vínculos rastreados
 description: Configuración de los vínculos rastreados
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '594'
 ht-degree: 100%
 
 ---

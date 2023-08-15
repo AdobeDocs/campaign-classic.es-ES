@@ -2,12 +2,12 @@
 product: campaign
 title: Seguimiento de campañas de marketing
 description: Seguimiento de campañas de marketing
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Campaigns, Monitoring
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '252'
 ht-degree: 100%
 
 ---
@@ -20,19 +20,19 @@ En cada campaña, la pestaña **[!UICONTROL Tracking]** permite ver todos los tr
 
 * El diario de actividad muestra los trabajos realizados en la campaña en general: creación de flujo de trabajo o inicio, aprobación, extracción, etc.
 
-   ![](assets/s_ncs_user_op_edit_exe_tab_a.png)
+  ![](assets/s_ncs_user_op_edit_exe_tab_a.png)
 
 * La subpestaña **[!UICONTROL Deliveries]** contiene todas las entregas de la campaña que pueden editarse desde esta vista. Para ello, seleccione la entrega y haga clic en el icono **[!UICONTROL Detail]**.
 
-   ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
+  ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
 * La subpestaña **[!UICONTROL Tasks]** agrupa todas las tareas vinculadas a la campaña. Esta vista permite editarlas o eliminarlas. Las tareas están disponibles mediante la aplicación MRM. Se detallan en [esta sección](../../mrm/using/creating-and-managing-tasks.md).
 
-   ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
+  ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
 * Los flujos de trabajo creados para generar mensajes para proveedores de servicios se muestran en la subpestaña **[!UICONTROL Jobs on service providers]**. Haga clic en el icono **[!UICONTROL Detail]** para mostrar el flujo de trabajo seleccionado.
 
-   ![](assets/s_ncs_user_op_edit_exe_tab_d.png)
+  ![](assets/s_ncs_user_op_edit_exe_tab_d.png)
 
 ## Seguimiento de una entrega {#delivery-tracking}
 

@@ -2,13 +2,13 @@
 product: campaign
 title: Procesamiento de la bandeja de entrada  en Campaign
 description: Obtenga información sobre cómo capturar las renderizaciones de correo electrónico y ponerlas a disposición en un informe dedicado
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Inbox Rendering, Monitoring, Email Rendering
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 source-git-commit: e011333411af79b985166a4e73592a1860749cf1
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '851'
 ht-degree: 100%
 
 ---
@@ -25,6 +25,7 @@ Para permitir esto, Adobe Campaign aprovecha la solución de prueba de correo el
 
 >[!CAUTION]
 >La renderización de la bandeja de entrada no es compatible con [envíos recurrentes](communication-channels.md#recurring-delivery).
+>
 
 Litmus es una aplicación de validación y previsualización de correo electrónico con numerosas funciones. Permite a los creadores de contenido de correo electrónico obtener una previsualización del contenido de sus mensajes en más de 70 procesadores de correo electrónico, como la bandeja de entrada de Gmail o el cliente de correo de Apple.
 
@@ -90,7 +91,6 @@ Cada vez que se utiliza la función **[!UICONTROL Inbox rendering]** en un enví
 >* Cada vez que se genera el informe de renderización de la Bandeja de entrada, se resta un token por cada cliente de mensajería: uno para la renderización de Outlook 2000, uno para la renderización de Outlook 2010, uno para la renderización de Apple Mail 9, etc.
 >* Para el mismo envío, si vuelve a generar la renderización de la bandeja de entrada, el número de tokens disponibles se reduce de nuevo según la cantidad de renderizaciones generadas.
 >
-
 
 El número de tokens disponibles restantes se muestra en **[!UICONTROL General summary]** de [Inbox rendering report](#inbox-rendering-report).
 

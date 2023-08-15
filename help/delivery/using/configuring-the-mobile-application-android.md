@@ -2,12 +2,12 @@
 product: campaign
 title: Configuración de la aplicación móvil de Android en Adobe Campaign
 description: Descubra cómo configurar su aplicación móvil para Android
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Push
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
-source-wordcount: '959'
+workflow-type: tm+mt
+source-wordcount: '966'
 ht-degree: 100%
 
 ---

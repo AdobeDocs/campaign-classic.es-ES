@@ -2,13 +2,13 @@
 product: campaign
 title: Traducción de un formulario web
 description: Traducción de un formulario web
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
-source-wordcount: '1563'
+workflow-type: tm+mt
+source-wordcount: '1575'
 ht-degree: 100%
 
 ---
@@ -114,16 +114,16 @@ Es posible exportar e importar cadenas de caracteres para traducirlas con una he
    * **[!UICONTROL One file per language]**: la exportación genera un archivo por cada idioma de traducción. Cada archivo es común a todas las aplicaciones web seleccionadas.
    * **[!UICONTROL One file per Web application]**: la exportación genera un archivo por cada aplicación web seleccionada. Cada archivo contiene todos los idiomas de traducción.
 
-      >[!NOTE]
-      >
-      >Este tipo de exportación no está disponible para exportaciones XLIFF.
+     >[!NOTE]
+     >
+     >Este tipo de exportación no está disponible para exportaciones XLIFF.
 
    * **[!UICONTROL One file per language and per Web application]**: la exportación genera varios archivos. Cada archivo contiene un idioma de traducción por cada aplicación web.
    * **[!UICONTROL One file for all]**: la exportación genera un solo archivo multilingüe para todas las aplicaciones web. Contiene todos los idiomas de traducción para todas las aplicaciones web seleccionadas.
 
-      >[!NOTE]
-      >
-      >Este tipo de exportación no está disponible para exportaciones XLIFF.
+     >[!NOTE]
+     >
+     >Este tipo de exportación no está disponible para exportaciones XLIFF.
 
 1. A continuación, elija la **[!UICONTROL Target folder]** donde desea registrar los archivos.
 1. Seleccione el formato de archivo ( **[!UICONTROL CSV]** o **[!UICONTROL XLIFF]** ) y haga clic en **[!UICONTROL Start]**.

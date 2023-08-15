@@ -2,12 +2,12 @@
 product: campaign
 title: Consulta
 description: Descubra más información sobre la actividad del flujo de trabajo Consulta
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Targeting Activity, Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1636'
 ht-degree: 100%
 
 ---
@@ -94,7 +94,7 @@ Para agregar datos de la base de datos de Adobe Campaign:
    * Campo calculado basado en los datos tomados desde la población de destino o un agregado (número de compras pendientes en el último mes, cantidad promedio de un recibo, etc.). Por ejemplo, vaya a [Selección de datos](targeting-data.md#selecting-data).
    * Un campo nuevo, creado con el botón **[!UICONTROL Add]** a la derecha de la lista de columnas de salida.
 
-      También puede añadir una colección de información, por ejemplo, una lista de contratos, las últimas cinco entregas, etc. Las colecciones coinciden con los campos que pueden tener múltiples valores para el mismo perfil (relación 1-N). Para obtener más información, consulte [Edición de datos adicionales](targeting-data.md#editing-additional-data).
+     También puede añadir una colección de información, por ejemplo, una lista de contratos, las últimas cinco entregas, etc. Las colecciones coinciden con los campos que pueden tener múltiples valores para el mismo perfil (relación 1-N). Para obtener más información, consulte [Edición de datos adicionales](targeting-data.md#editing-additional-data).
 
 Para añadir una colección de información enlazada a una población de destino:
 
@@ -107,11 +107,11 @@ Para añadir una colección de información enlazada a una población de destino
 
    * Si un solo elemento de la colección coincide con las condiciones de filtrado para esta colección, seleccione **[!UICONTROL Single row]** en el campo **[!UICONTROL Data collected]**.
 
-      >[!IMPORTANT]
-      >
-      >Este modo optimiza la consulta SQL generada gracias a una coyuntura directa en los elementos de la colección.
-      >
-      >Si no se respeta la condición inicial, el resultado puede ser defectuoso (falta de líneas o líneas superpuestas).
+     >[!IMPORTANT]
+     >
+     >Este modo optimiza la consulta SQL generada gracias a una coyuntura directa en los elementos de la colección.
+     >
+     >Si no se respeta la condición inicial, el resultado puede ser defectuoso (falta de líneas o líneas superpuestas).
 
    * Si elige recuperar varias líneas (**[!UICONTROL Limit the line count]**), puede especificar el número de líneas que desea recopilar.
    * Si las columnas recopiladas contienen agregados, por ejemplo, el número de errores declarados, el gasto promedio en un sitio, etc., puede utilizar el valor **[!UICONTROL Aggregates]**.
@@ -179,24 +179,24 @@ La sección siguiente ofrece prácticas recomendadas para optimizar las consulta
 * Evite realizar uniones externas. Siempre que sea posible, utilice el registro de cero ID para lograr la funcionalidad de unión externa.
 * Utilice el tipo de datos correcto para las uniones.
 
-   Asegúrese de que la cláusula `where` sea del mismo tipo que el campo.
+  Asegúrese de que la cláusula `where` sea del mismo tipo que el campo.
 
-   Un error común es: `iBlacklist='3'` donde `iBlacklist` es un campo numérico y `3` significa un valor de texto.
+  Un error común es: `iBlacklist='3'` donde `iBlacklist` es un campo numérico y `3` significa un valor de texto.
 
-   Asegúrese de saber cuál va a ser el plan de ejecución de la consulta. Evite los análisis de tabla completos, especialmente para consultas en tiempo real o consultas casi en tiempo real que se ejecuten a cada minuto.
+  Asegúrese de saber cuál va a ser el plan de ejecución de la consulta. Evite los análisis de tabla completos, especialmente para consultas en tiempo real o consultas casi en tiempo real que se ejecuten a cada minuto.
 
-   Para obtener más información, consulte estas secciones en función de la versión de Campaign:
+  Para obtener más información, consulte estas secciones en función de la versión de Campaign:
 
-   ![](assets/do-not-localize/v7.jpeg)[  Documentación de Campaign v7](../../configuration/using/database-mapping.md)
+  ![](assets/do-not-localize/v7.jpeg)[Documentación de Campaign v7](../../configuration/using/database-mapping.md)
 
-   ![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=es)
+  ![](assets/do-not-localize/v8.png)[Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=es)
 
 ### Funciones {#functions}
 
 * Tenga cuidado con funciones como `Lower(...)`. Cuando se utiliza la función Lower, no se utiliza Index.
 * Compruebe las consultas utilizando la instrucción “like” o las instrucciones “upper” o “lower” cuidadosamente. Aplique “Upper” en la entrada del usuario, no en el campo de la base de datos.
 
-   Para obtener más información sobre las funciones, consulte [esta sección](../../platform/using/defining-filter-conditions.md#list-of-functions).
+  Para obtener más información sobre las funciones, consulte [esta sección](../../platform/using/defining-filter-conditions.md#list-of-functions).
 
 ### Filtrado de dimensiones {#filtering-dimensions}
 
@@ -229,10 +229,10 @@ Para obtener más información sobre dimensiones de filtrado, consulte [esta sec
    * Aplicación,
    * Volúmenes.
 
-   >[!NOTE]
-   >
-   >Es posible que una función que funciona en un entorno de desarrollo no funcione en un entorno de producción en el que los datos puedan ser diferentes. Intente identificar las principales diferencias para anticipar los riesgos y preparar soluciones.
+  >[!NOTE]
+  >
+  >Es posible que una función que funciona en un entorno de desarrollo no funcione en un entorno de producción en el que los datos puedan ser diferentes. Intente identificar las principales diferencias para anticipar los riesgos y preparar soluciones.
 
 * Realice configuraciones que coincidan con los volúmenes de destinatario. Los volúmenes grandes requieren configuraciones específicas. Una configuración que funcionó para 100.000 destinatarios puede que no funcione para 10.000.000 de destinatarios.
 
-   Considere la escala del sistema cuando se ponga en marcha. Solo porque algo funcione a pequeña escala no significa que sea adecuado con mayores volúmenes. Las pruebas deben realizarse con volúmenes similares al volumen de producción. También debe evaluar el efecto de los cambios en los volúmenes (número de llamadas, tamaño de la base de datos) en las horas pico, los días pico y a lo largo de la duración del proyecto.
+  Considere la escala del sistema cuando se ponga en marcha. Solo porque algo funcione a pequeña escala no significa que sea adecuado con mayores volúmenes. Las pruebas deben realizarse con volúmenes similares al volumen de producción. También debe evaluar el efecto de los cambios en los volúmenes (número de llamadas, tamaño de la base de datos) en las horas pico, los días pico y a lo largo de la duración del proyecto.

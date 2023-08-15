@@ -2,12 +2,12 @@
 product: campaign
 title: Monitorización de la ejecución del flujo de trabajo
 description: Monitorización de la ejecución del flujo de trabajo
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2023'
 ht-degree: 100%
 
 ---
@@ -42,23 +42,23 @@ El “log” contiene el historial o la pista de auditoría del flujo de trabajo
 
 * Seleccione la pestaña **[!UICONTROL Tracking]** en los detalles. Esta lista contiene todos los mensajes del flujo de trabajo.
 
-   ![](assets/new-workflow-display-log-tab.png)
+  ![](assets/new-workflow-display-log-tab.png)
 
 * Filtrado de los mensajes de “log” por actividad. Para ello, haga clic en **[!UICONTROL Display the tasks and the log]** en la barra de herramientas situada encima del diagrama para mostrar las pestañas **[!UICONTROL Log]** y **[!UICONTROL Tasks]** debajo del diagrama. Seleccione una actividad para ver todos los mensajes relacionados. Esta lista contiene todos los mensajes cuando no hay actividad seleccionada.
 
-   ![](assets/new-workflow-display-log-activity.png)
+  ![](assets/new-workflow-display-log-activity.png)
 
-   >[!NOTE]
-   >
-   >Haga clic en el fondo del diagrama para anular la selección de todos los elementos.
+  >[!NOTE]
+  >
+  >Haga clic en el fondo del diagrama para anular la selección de todos los elementos.
 
 * Visualice solo los mensajes vinculados a una tarea determinada. Para ello, seleccione la pestaña **[!UICONTROL Tasks]** y elija una actividad en el diagrama para restringir la lista. Haga doble clic en una tarea para mostrar la información; la última pestaña de la ventana contiene el “log”.
 
-   ![](assets/new-workflow-display-tasks-activity.png)
+  ![](assets/new-workflow-display-tasks-activity.png)
 
-   El botón **[!UICONTROL Details...]** permite mostrar toda la información adicional sobre la ejecución de la actividad. Por ejemplo, se puede ver el operador de validación y, cuando corresponda, el comentario que ha introducido durante la aprobación, como en el ejemplo siguiente:
+  El botón **[!UICONTROL Details...]** permite mostrar toda la información adicional sobre la ejecución de la actividad. Por ejemplo, se puede ver el operador de validación y, cuando corresponda, el comentario que ha introducido durante la aprobación, como en el ejemplo siguiente:
 
-   ![](assets/new-workflow-display-tasks-activity-details.png)
+  ![](assets/new-workflow-display-tasks-activity-details.png)
 
 >[!NOTE]
 >
@@ -68,15 +68,15 @@ El “log” muestra la lista de mensajes de ejecución relacionados con las act
 
 * “Log” de una campaña de objetivos
 
-   Una vez que se ha ejecutado una campaña de objetivos, haga clic en la pestaña **[!UICONTROL Tracking]** para ver el historial de ejecución.
+  Una vez que se ha ejecutado una campaña de objetivos, haga clic en la pestaña **[!UICONTROL Tracking]** para ver el historial de ejecución.
 
-   ![](assets/s_user_segmentation_journal.png)
+  ![](assets/s_user_segmentation_journal.png)
 
-   Se muestran todos los mensajes de campaña: campañas realizadas, así como advertencias o errores.
+  Se muestran todos los mensajes de campaña: campañas realizadas, así como advertencias o errores.
 
 * “Log” de una actividad
 
-   También puede ver el “log” de ejecución y los detalles de cada actividad. Hay dos formas de hacerlo:
+  También puede ver el “log” de ejecución y los detalles de cada actividad. Hay dos formas de hacerlo:
 
    1. Seleccione la actividad de objetivo y haga clic en el icono **[!UICONTROL Display the tasks and the log]**.
 
@@ -225,9 +225,9 @@ Tenga en cuenta que:
 * En JavaScript, un valor indefinido es falso en una prueba, lo que permite probar la variable de instancia incluso antes de haberla inicializado.
 * Se pueden monitorizar las actividades que no se procesan debido a este mecanismo con tan solo añadir una instrucción de registro a la secuencia de comandos de inicialización del final “no”.
 
-   ```
-   logInfo("Workflow already running, parallel execution not allowed.");
-   ```
+  ```
+  logInfo("Workflow already running, parallel execution not allowed.");
+  ```
 
 En esta sección se presenta un caso de uso: [Coordinación de las actualizaciones de datos](coordinating-data-updates.md).
 

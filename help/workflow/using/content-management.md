@@ -2,17 +2,17 @@
 product: campaign
 title: Gestión de contenido
 description: Gestión de contenido
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Data Management
 exl-id: eb92a7c7-edfa-4062-b473-6d8b50d35e5f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '424'
 ht-degree: 100%
 
 ---
 
-# Gestión de contenido{#content-management}
+# Administración de contenido{#content-management}
 
 
 
@@ -28,61 +28,61 @@ Las propiedades de la actividad se dividen en tres pasos:
 * **Content update**: la tarea puede modificar el asunto del contenido o importar todo el contenido XML.
 * **Action**: el contenido resultante se puede guardar o generar.
 
-   ![](assets/content_mgmt_edit.png)
+  ![](assets/content_mgmt_edit.png)
 
-   Para obtener más información sobre la configuración y el uso del Gestor de contenidos en Adobe Campaign, consulte esta [sección](../../delivery/using/about-content-management.md).
+  Para obtener más información sobre la configuración y el uso del Gestor de contenidos en Adobe Campaign, consulte esta [sección](../../delivery/using/about-content-management.md).
 
 1. **Content**
 
    * **[!UICONTROL Specified in the transition]**
 
-      Esta opción permite utilizar el contenido especificado en la transición, es decir, el evento que activa el Gestor de contenido debe contener una variable **[!UICONTROL contentId]**. Esta variable puede haber sido configurada por un gestor de contenido anterior o por cualquier script.
+     Esta opción permite utilizar el contenido especificado en la transición, es decir, el evento que activa el Gestor de contenido debe contener una variable **[!UICONTROL contentId]**. Esta variable puede haber sido configurada por un gestor de contenido anterior o por cualquier script.
 
    * **[!UICONTROL Explicit]**
 
-      Esta opción le permite seleccionar un contenido ya creado, a través del campo **[!UICONTROL Content]**. Este campo solo está visible cuando se selecciona la opción **[!UICONTROL Explicit]**.
+     Esta opción le permite seleccionar un contenido ya creado, a través del campo **[!UICONTROL Content]**. Este campo solo está visible cuando se selecciona la opción **[!UICONTROL Explicit]**.
 
-      ![](assets/content_mgmt_explicit.png)
+     ![](assets/content_mgmt_explicit.png)
 
    * **[!UICONTROL Calculated by a script]**
 
-      El identificador de contenido se calcula mediante una secuencia de comandos. El campo **[!UICONTROL Script]** permite definir una plantilla JavaScript que evalúe el identificador (clave principal) del contenido. Este campo solo está visible cuando se selecciona la opción **[!UICONTROL Calculated by a script]**.
+     El identificador de contenido se calcula mediante una secuencia de comandos. El campo **[!UICONTROL Script]** permite definir una plantilla JavaScript que evalúe el identificador (clave principal) del contenido. Este campo solo está visible cuando se selecciona la opción **[!UICONTROL Calculated by a script]**.
 
-      ![](assets/content_mgmt_script.png)
+     ![](assets/content_mgmt_script.png)
 
    * **[!UICONTROL New, created from a publication template]**
 
-      Crea un nuevo contenido a partir de una plantilla de publicación. Los datos se almacenan en el archivo indicado en el campo **[!UICONTROL String]**. El campo **[!UICONTROL Template]** especifica la plantilla de publicación que se utiliza para crear el contenido.
+     Crea un nuevo contenido a partir de una plantilla de publicación. Los datos se almacenan en el archivo indicado en el campo **[!UICONTROL String]**. El campo **[!UICONTROL Template]** especifica la plantilla de publicación que se utiliza para crear el contenido.
 
-      ![](assets/content_mgmt_new.png)
+     ![](assets/content_mgmt_new.png)
 
 1. **Update content**
 
    * **[!UICONTROL Subject]**
 
-      Este campo permite modificar el asunto del contenido.
+     Este campo permite modificar el asunto del contenido.
 
    * **[!UICONTROL Access to data from an XML feed]**
 
-      Esta opción permite construir el contenido de un documento XML descargado mediante una hoja de estilos XSL. Cuando se selecciona esta opción, el campo **[!UICONTROL URL]** especifica la URL de descarga del contenido XML. La **[!UICONTROL XSL stylesheet]** permite especificar la hoja de estilos que se utilizará para transformar el documento XML descargado. Esta propiedad es opcional.
+     Esta opción permite construir el contenido de un documento XML descargado mediante una hoja de estilos XSL. Cuando se selecciona esta opción, el campo **[!UICONTROL URL]** especifica la URL de descarga del contenido XML. La **[!UICONTROL XSL stylesheet]** permite especificar la hoja de estilos que se utilizará para transformar el documento XML descargado. Esta propiedad es opcional.
 
-      ![](assets/content_mgmt_xmlcontent.png)
+     ![](assets/content_mgmt_xmlcontent.png)
 
 1. **Acción que quiere ejecutar**
 
    * **[!UICONTROL Save]**
 
-      Esta opción guarda el contenido creado o modificado.
+     Esta opción guarda el contenido creado o modificado.
 
-      La transición saliente se activa solo una vez, con el contenido guardado en la variable **[!UICONTROL contentId]** como parámetro.
+     La transición saliente se activa solo una vez, con el contenido guardado en la variable **[!UICONTROL contentId]** como parámetro.
 
    * **[!UICONTROL Generate]**
 
-      Esta opción guarda el contenido y genera los archivos de salida para cada plantilla de transformación con una publicación de tipo “Archivo”.
+     Esta opción guarda el contenido y genera los archivos de salida para cada plantilla de transformación con una publicación de tipo “Archivo”.
 
-      ![](assets/content_mgmt_generate.png)
+     ![](assets/content_mgmt_generate.png)
 
-      La transición saliente se activa para cada archivo generado con el identificador del contenido guardado en la variable **[!UICONTROL contentId]** como parámetro y el nombre del archivo en la variable **[!UICONTROL filename]**.
+     La transición saliente se activa para cada archivo generado con el identificador del contenido guardado en la variable **[!UICONTROL contentId]** como parámetro y el nombre del archivo en la variable **[!UICONTROL filename]**.
 
 ## Parámetros de entrada {#input-parameters}
 
@@ -94,11 +94,11 @@ Identificador del contenido que se va a utilizar si la opción **[!UICONTROL Spe
 
 * contentId
 
-   Identificador de contenido.
+  Identificador de contenido.
 
 * filename
 
-   Nombre completo del archivo generado si la acción seleccionada es **[!UICONTROL Generate]**.
+  Nombre completo del archivo generado si la acción seleccionada es **[!UICONTROL Generate]**.
 
 ## Ejemplos {#examples}
 

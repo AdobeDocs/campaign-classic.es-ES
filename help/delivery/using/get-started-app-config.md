@@ -2,12 +2,12 @@
 product: campaign
 title: Configuración de la aplicación móvil en Adobe Campaign
 description: Obtenga información sobre cómo iniciar la configuración de la aplicación móvil
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Push
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
-source-wordcount: '306'
+workflow-type: tm+mt
+source-wordcount: '313'
 ht-degree: 100%
 
 ---

@@ -2,12 +2,12 @@
 product: campaign
 title: Descarga web
 description: Descubra más información sobre la actividad del flujo de trabajo Descarga web
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '412'
 ht-degree: 100%
 
 ---
@@ -26,17 +26,17 @@ La actividad **Web download** inicia la descarga de un archivo en una dirección
 
    * Para introducir directamente la URL del archivo a descargar, seleccione la opción **[!UICONTROL Explicit URL]** y especifique la URL en el campo correspondiente. Esta URL se puede construir con datos variables.
 
-      ![](assets/download_web_edit.png)
+     ![](assets/download_web_edit.png)
 
    * Para utilizar un **[!UICONTROL External account]**, seleccione la cuenta de la lista desplegable y especifique el archivo a descargar.
 
-      Las cuentas externas se configuran en el nodo **[!UICONTROL Administration > Platform > External accounts]** del árbol de Adobe Campaign. Los parámetros de la cuenta se pueden editar mediante el icono **[!UICONTROL Edit link]**.
+     Las cuentas externas se configuran en el nodo **[!UICONTROL Administration > Platform > External accounts]** del árbol de Adobe Campaign. Los parámetros de la cuenta se pueden editar mediante el icono **[!UICONTROL Edit link]**.
 
-      ![](assets/download_web_edit_external.png)
+     ![](assets/download_web_edit_external.png)
 
    * Para descargar el archivo desde la instancia de Adobe Campaign, seleccione la opción **[!UICONTROL Adobe Campaign Instance]**.
 
-      ![](assets/download_web_edit_instance.png)
+     ![](assets/download_web_edit_instance.png)
 
 1. **File historization**
 

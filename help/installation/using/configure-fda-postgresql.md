@@ -3,12 +3,12 @@ product: campaign
 title: Configuración del acceso a PostgreSQL
 description: Obtenga información sobre cómo configurar el acceso a PostgreSQL
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: 2c678f45-2555-4647-9885-bd002db7df37
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -77,6 +77,6 @@ El conector admite las siguientes opciones:
 | Opción | Descripción |
 |:-:|:-:|
 | PGSQL_CONNECT_TIMEOUT | Espera máxima de conexión, en segundos. <br>Para obtener más información, consulte [Documentación de PostgreSQL](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-CONNECT-CONNECT-TIMEOUT). |
-| PGSQL_KEEPALIVES_IDLE | Número de segundos de inactividad tras los cuales el TCP debe enviar un mensaje keepalive al servidor. <br>Para obtener más información, consulte [Documentación de PostgreSQL](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-IDLE). |
+| PGSQL_KEEPALIVES_IDLE | Número de segundos de inactividad tras los cuales TCP debe enviar un mensaje keepalive al servidor. <br>Para obtener más información, consulte [Documentación de PostgreSQL](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-IDLE). |
 | PGSQL_KEEPALIVES_INTVL | Número de segundos después de los cuales se debe retransmitir el mensaje TCP keepalive no reconocido por el servidor.  <br>Para obtener más información, consulte [Documentación de PostgreSQL](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-INTERVAL). |
 | PGSQL_KEEPALIVES_CNT | Número de keepalives TCP que se pueden perder antes de que la conexión del cliente al servidor se considere muerta. <br>Para obtener más información, consulte [Documentación de PostgreSQL](https://www.postgresql.org/docs/12/libpq-connect.html#LIBPQ-KEEPALIVES-COUNT). |

@@ -2,12 +2,12 @@
 product: campaign
 title: Creación de una notificación push para dispositivos iOS
 description: Aprenda a crear notificaciones push para iOS
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Push
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '972'
 ht-degree: 100%
 
 ---
@@ -75,6 +75,7 @@ Para crear una notificación push para dispositivos iOS, siga los pasos a contin
    * **[!UICONTROL Name]**: seleccione el sonido que el terminal móvil debe reproducir cuando reciba la notificación.
 
    * **[!UICONTROL Volume]**: volumen de su sonido de 0 a 100.
+
    >[!NOTE]
    >
    >Los sonidos deben incluirse en la aplicación y definirse cuando se cree el servicio. Consulte [esta sección](configuring-the-mobile-application.md#configuring-external-account-ios).
@@ -110,6 +111,7 @@ Para crear una notificación push para dispositivos iOS, siga los pasos a contin
       * **[!UICONTROL Time sensitive]**: el sistema presenta la notificación inmediatamente, enciende la pantalla, puede reproducir un sonido y atravesar los modos de Enfoque. Este nivel no requiere un permiso especial de Apple.
 
       * **[!UICONTROL Critical]**: el sistema presenta la notificación inmediatamente, enciende la pantalla y evita el interruptor silencioso o los modos de enfoque. Tenga en cuenta que este nivel requiere un permiso especial de Apple.
+
    * **[!UICONTROL Relevance score]**: establezca una puntuación de relevancia de 0 a 100. El sistema utiliza esto para ordenar las notificaciones en el resumen de notificaciones.
 
    ![](assets/nmac_delivery_ios_8.png)

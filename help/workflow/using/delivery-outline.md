@@ -2,12 +2,12 @@
 product: campaign
 title: Descripción de la entrega
 description: Descubra más información sobre la actividad del flujo de trabajo Descripción de la entrega
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Targeting Activity
 exl-id: b4dee085-ccc4-43fd-850d-1501a99272aa
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '274'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ La actividad **Descripción de entrega**, disponible en los flujos de trabajo de
 
    * Si desea acceder al motor de oferta, marque la casilla **[!UICONTROL Restrict the number of propositions selected]**. Especifique el espacio de oferta y el número de propuestas que se presentarán en la entrega.
 
-      El motor de oferta tendrá en cuenta las normas de idoneidad y las consideraciones de oferta.
+     El motor de oferta tendrá en cuenta las normas de idoneidad y las consideraciones de oferta.
 
    * Si no selecciona la casilla, todas las ofertas del esquema de entrega se presentarán sin recurrir al motor de oferta.
 

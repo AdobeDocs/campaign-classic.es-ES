@@ -2,13 +2,13 @@
 product: campaign
 title: Introducción a las encuestas
 description: Introducción a las encuestas de Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '534'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,6 @@ Aprenda a crear la primera encuesta en [esta página](getting-started-with-surve
 >* Los pasos para la creación de un formulario web estándar se detallan en [este documento](../../web/using/about-web-forms.md).
 >
 >* La administración de la aplicación web se explica en [este documento](../../web/using/about-web-applications.md). Consulte este capítulo para obtener más información.
-
 
 ## Funcionalidad del ámbito {#campaign-surveys-scope}
 

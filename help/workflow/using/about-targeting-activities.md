@@ -2,12 +2,12 @@
 product: campaign
 title: Acerca de las actividades de segmentación
 description: Acerca de las actividades de segmentación
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Audiences, Targeting Activity
 exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '445'
 ht-degree: 100%
 
 ---

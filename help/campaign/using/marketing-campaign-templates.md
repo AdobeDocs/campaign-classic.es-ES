@@ -2,12 +2,12 @@
 product: campaign
 title: Plantillas de campañas de marketing
 description: Plantillas de campañas de marketing
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Campaigns, Templates
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1135'
 ht-degree: 100%
 
 ---
@@ -94,53 +94,53 @@ Se muestran los siguientes vínculos y pestañas:
 
 * **Grupo de control**
 
-   Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o bien por separado para cada campaña. Obtenga más información sobre los grupos de control en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+  Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o bien por separado para cada campaña. Obtenga más información sobre los grupos de control en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
-   ![](assets/s_ncs_user_op_template_activate_1.png)
+  ![](assets/s_ncs_user_op_template_activate_1.png)
 
 * **Direcciones semilla**
 
-   Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o bien por separado para cada campaña. Obtenga más información sobre las direcciones semilla en [esta sección](../../delivery/using/about-seed-addresses.md).
+  Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o bien por separado para cada campaña. Obtenga más información sobre las direcciones semilla en [esta sección](../../delivery/using/about-seed-addresses.md).
 
-   ![](assets/s_ncs_user_op_template_activate_2.png)
+  ![](assets/s_ncs_user_op_template_activate_2.png)
 
 * **Documentos**
 
-   Cuando se selecciona este módulo, se añade una pestaña adicional a la pestaña **[!UICONTROL Edition]** de la plantilla y a las campañas basadas en esta plantilla. Los documentos adjuntos se pueden agregar desde la plantilla o bien por separado para cada campaña. Obtenga más información sobre los documentos en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents).
+  Cuando se selecciona este módulo, se añade una pestaña adicional a la pestaña **[!UICONTROL Edition]** de la plantilla y a las campañas basadas en esta plantilla. Los documentos adjuntos se pueden agregar desde la plantilla o bien por separado para cada campaña. Obtenga más información sobre los documentos en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents).
 
-   ![](assets/s_ncs_user_op_template_activate_3.png)
+  ![](assets/s_ncs_user_op_template_activate_3.png)
 
 * **Descripción**
 
-   Cuando se selecciona este módulo, se añade una subpestaña **[!UICONTROL Delivery outlines]** a la pestaña **[!UICONTROL Documents]** para definir los esquemas de entrega de la campaña. Obtenga más información sobre los esquemas de entrega en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+  Cuando se selecciona este módulo, se añade una subpestaña **[!UICONTROL Delivery outlines]** a la pestaña **[!UICONTROL Documents]** para definir los esquemas de entrega de la campaña. Obtenga más información sobre los esquemas de entrega en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
-   ![](assets/s_ncs_user_op_template_activate_4.png)
+  ![](assets/s_ncs_user_op_template_activate_4.png)
 
 * **Establecimiento de objetivos y flujos de trabajo**
 
-   Al seleccionar el módulo de **[!UICONTROL Targeting and workflows]**, se añade una pestaña para permitirle crear uno o más flujos de trabajo para las campañas basadas en esta plantilla. Los flujos de trabajo también se pueden configurar por separado para cada campaña basada en esta plantilla. Obtenga más información sobre los flujos de trabajo de campañas en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
+  Al seleccionar el módulo de **[!UICONTROL Targeting and workflows]**, se añade una pestaña para permitirle crear uno o más flujos de trabajo para las campañas basadas en esta plantilla. Los flujos de trabajo también se pueden configurar por separado para cada campaña basada en esta plantilla. Obtenga más información sobre los flujos de trabajo de campañas en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
-   ![](assets/s_ncs_user_op_template_activate_5.png)
+  ![](assets/s_ncs_user_op_template_activate_5.png)
 
-   Cuando este módulo está habilitado, se añade una pestaña a la configuración avanzada de la campaña para definir la secuencia de ejecución del proceso.
+  Cuando este módulo está habilitado, se añade una pestaña a la configuración avanzada de la campaña para definir la secuencia de ejecución del proceso.
 
-   ![](assets/s_ncs_user_op_template_activate_5a.png)
+  ![](assets/s_ncs_user_op_template_activate_5a.png)
 
 * **Aprobación**
 
-   Si selecciona **[!UICONTROL Approval]**, puede seleccionar los procesos de aprobación, así como los operadores asignados al proceso de aprobación. Obtenga más información sobre aprobaciones en [esta sección](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
+  Si selecciona **[!UICONTROL Approval]**, puede seleccionar los procesos de aprobación, así como los operadores asignados al proceso de aprobación. Obtenga más información sobre aprobaciones en [esta sección](../../campaign/using/marketing-campaign-approval.md#selecting-reviewers).
 
-   ![](assets/s_ncs_user_op_template_activate_5b.png)
+  ![](assets/s_ncs_user_op_template_activate_5b.png)
 
-   Puede elegir si desea habilitar o no la aprobación del proceso mediante la pestaña **[!UICONTROL Approvals]** de la sección de configuración avanzada de plantillas. Los trabajos para los que se ha seleccionado la aprobación deben estar aprobados para poder autorizar la entrega de los mensajes.
+  Puede elegir si desea habilitar o no la aprobación del proceso mediante la pestaña **[!UICONTROL Approvals]** de la sección de configuración avanzada de plantillas. Los trabajos para los que se ha seleccionado la aprobación deben estar aprobados para poder autorizar la entrega de los mensajes.
 
-   Debe asociar un operador revisor o un grupo de operadores a cada aprobación habilitada.
+  Debe asociar un operador revisor o un grupo de operadores a cada aprobación habilitada.
 
 * **Gastos y objetivos**
 
-   Cuando se selecciona este módulo, se añade una pestaña **[!UICONTROL Budget]** a los detalles de la plantilla y las campañas basadas en esta plantilla, de modo que se pueda seleccionar el presupuesto asociado.
+  Cuando se selecciona este módulo, se añade una pestaña **[!UICONTROL Budget]** a los detalles de la plantilla y las campañas basadas en esta plantilla, de modo que se pueda seleccionar el presupuesto asociado.
 
-   ![](assets/s_ncs_user_op_template_activate_7.png)
+  ![](assets/s_ncs_user_op_template_activate_7.png)
 
 ## Propiedades y ejecución {#general-configuration}
 
@@ -153,14 +153,14 @@ Cuando crea una plantilla de campaña, debe introducir la siguiente información
 * Introduzca la **etiqueta** de la plantilla: esta etiqueta se asigna de forma predeterminada a todas las campañas creadas mediante esta plantilla.
 * Seleccione la **naturaleza** de la campaña en la lista desplegable. Los valores disponibles en esta lista son los guardados en la enumeración **[!UICONTROL natureOp]**.
 
-   >[!NOTE]
-   >
-   >Para obtener más información sobre las enumeraciones, consulte la sección [Introducción](../../platform/using/managing-enumerations.md).
+  >[!NOTE]
+  >
+  >Para obtener más información sobre las enumeraciones, consulte la sección [Introducción](../../platform/using/managing-enumerations.md).
 
 * Seleccione el **tipo de campaña**: única, recurrente o periódica. De manera predeterminada, las plantillas de campaña se aplican a las campañas únicas. Las campañas recurrentes y periódicas se detallan en [esta sección](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
 * Especifique la duración de la campaña, es decir, el número de días durante los que se desarrolla la campaña. Al crear una campaña basada en esta plantilla, las fechas de inicio y finalización de la campaña se rellenan automáticamente.
 
-   Si la campaña es recurrente, debe especificar las fechas de inicio y finalización de la campaña directamente en la plantilla.
+  Si la campaña es recurrente, debe especificar las fechas de inicio y finalización de la campaña directamente en la plantilla.
 
 * Especifique el **programa relacionado** de la plantilla: las campañas basadas en esta plantilla se vinculan al programa seleccionado.
 

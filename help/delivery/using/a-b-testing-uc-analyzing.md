@@ -2,13 +2,13 @@
 product: campaign
 title: Análisis del resultado
 description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: A/B Testing
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
@@ -21,15 +21,15 @@ Una vez remitidos los envíos de prueba, se puede comprobar los destinatarios a 
 
 * Para saber cuáles fueron los destinatarios objetivo, abra una entrega a través del panel de campañas y haga clic en la pestaña **[!UICONTROL Delivery]**.
 
-   ![](assets/use_case_abtesting_analysis_001.png)
+  ![](assets/use_case_abtesting_analysis_001.png)
 
 * Para averiguar si la entrega se ha abierto, vaya a la pestaña **[!UICONTROL Tracking]**.
 
-   ![](assets/use_case_abtesting_analysis_002.png)
+  ![](assets/use_case_abtesting_analysis_002.png)
 
 * Compare con el otro entrega.
 
-   ![](assets/use_case_abtesting_analysis_003.png)
+  ![](assets/use_case_abtesting_analysis_003.png)
 
 En el ejemplo, la entrega B ha obtenido la mayor tasa de apertura. Esto significa que el contenido B se utilizará para la entrega final.
 

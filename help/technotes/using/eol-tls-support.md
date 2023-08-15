@@ -3,7 +3,7 @@ product: campaign
 title: Finalización del servicio de soporte para TLS 1.0 y 1.1
 description: Finalización del servicio de soporte para TLS 1.0 y 1.1
 feature: Technote
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: delivery
 content-type: reference
 topic-tags: tracking-messages
@@ -11,7 +11,7 @@ exl-id: e18d43b6-2a77-4881-85e7-ca36248d4634
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 

@@ -2,13 +2,13 @@
 product: campaign
 title: Introducción a los formularios web
 description: Introducción a los formularios web en Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Landing Pages, Web Forms
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
@@ -55,15 +55,15 @@ Para definir la configuración y el contenido del formulario web, realice los si
 
 * Comience por crear las páginas y los controles necesarios: campos de entrada, listas desplegables, contenido HTML, etc.
 
-   Este paso se detalla a continuación.
+  Este paso se detalla a continuación.
 
 * Defina la secuenciación de la página y la condición de visualización.
 
-   Este paso se detalla en [Definición de la secuencia de páginas de formularios Web](defining-web-forms-page-sequencing.md).
+  Este paso se detalla en [Definición de la secuencia de páginas de formularios Web](defining-web-forms-page-sequencing.md).
 
 * Si es necesario, traduzca el contenido.
 
-   Este paso se detalla en [Traducir un formulario web](translating-a-web-form.md).
+  Este paso se detalla en [Traducir un formulario web](translating-a-web-form.md).
 
 ## Acerca del diseño de los formularios web {#about-web-forms-designing}
 
@@ -81,7 +81,6 @@ En las siguientes secciones se detalla cómo definir el contenido y el diseño d
 >* Durante el diseño de la página, puede ver la renderización final en la pestaña **[!UICONTROL Preview]**. Para ver los cambios, guarde el formulario primero. Todos los errores se muestran en la pestaña **[!UICONTROL Log]**.
 >* Para asegurarse de que la visualización de página y el almacenamiento de la información se produzcan en la secuencia adecuada, active el modo de depuración en el formulario web. Para ello, vaya a la subpestaña **[!UICONTROL Preview]** y marque la casilla **[!UICONTROL Enable debug mode]**: todos los datos recopilados y los posibles errores de ejecución se muestran en la parte inferior de cada página.
 >
-
 
 ### Uso de los iconos de la barra de herramientas {#using-the-icons-in-the-toolbar}
 

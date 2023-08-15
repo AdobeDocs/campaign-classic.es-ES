@@ -2,12 +2,12 @@
 product: campaign
 title: Uso de la actividad de aprobación local
 description: Descubra más información sobre cómo utilizar la actividad de aprobación local
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1279'
 ht-degree: 100%
 
 ---
@@ -82,9 +82,9 @@ Para obtener más información sobre la creación de una plantilla de distribuci
    * **[!UICONTROL Label]**: introduzca la etiqueta del dominio a mostrar en las notificaciones de aprobación y comentarios.
    * **[!UICONTROL Group or operator]**: seleccione el operador o el grupo de operadores asignados al dominio.
 
-      >[!CAUTION]
-      >
-      >Asegúrese de que se hayan asignado los derechos adecuados a los operadores.
+     >[!CAUTION]
+     >
+     >Asegúrese de que se hayan asignado los derechos adecuados a los operadores.
 
 ## Paso 2: Creación de un flujo de trabajo de segmentación {#step-2--creating-the-targeting-workflow}
 

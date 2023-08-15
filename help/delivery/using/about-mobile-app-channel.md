@@ -2,13 +2,13 @@
 product: campaign
 title: Introducción al canal de aplicaciones móviles
 description: Introducción al canal de aplicaciones móviles en Adobe Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Push
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '677'
 ht-degree: 100%
 
 ---
@@ -27,11 +27,11 @@ Hay dos canales de envío disponibles:
 
 * Un canal de iOS que le permite enviar notificaciones a dispositivos móviles de Apple.
 
-   ![](assets/nmac_intro_2.png)
+  ![](assets/nmac_intro_2.png)
 
 * Un canal de Android que le permite enviar mensajes de datos a dispositivos móviles Android.
 
-   ![](assets/nmac_intro_1.png)
+  ![](assets/nmac_intro_1.png)
 
 En relación con esos dos canales hay dos actividades de envío en los flujos de trabajo de campaña:
 
@@ -51,7 +51,6 @@ Puede definir el comportamiento de la aplicación para las situaciones en las qu
 >
 >* Asegúrese de que las notificaciones enviadas a una aplicación móvil cumplan los requisitos previos y las condiciones especificadas por Apple (Servicio de notificaciones push de Apple) y Google (Firebase mensajería en la nube).
 >* Advertencia: en algunos países, la ley requiere informar a los usuarios de las aplicaciones del tipo de datos que se recopilan y del propósito de su procesamiento. Debe comprobar la ley.
-
 
 El flujo de trabajo de **[!UICONTROL NMAC opt-out management]** (mobileAppOptOutMgt) actualiza la notificación de las bajas de suscripción en dispositivos móviles. Para obtener más información sobre este flujo de trabajo, consulte la [lista de flujos de trabajo técnicos](../../workflow/using/about-technical-workflows.md).
 
@@ -92,15 +91,15 @@ Para comprobar si funciona correctamente, utilice los siguientes comandos:
 
 * Para pruebas:
 
-   ```
-   api.development.push.apple.com:443
-   ```
+  ```
+  api.development.push.apple.com:443
+  ```
 
 * En producción:
 
-   ```
-   api.push.apple.com:443
-   ```
+  ```
+  api.push.apple.com:443
+  ```
 
 Si se utiliza un conector HTTP/2 de iOS, el servidor de correo y el servidor web deben poder comunicarse con los APN en el puerto 443.
 

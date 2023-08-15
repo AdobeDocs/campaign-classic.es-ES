@@ -1,9 +1,9 @@
 ---
 product: campaign
 title: Configuración del acceso a Netezza
-description: Obtenga información sobre cómo configurar el acceso al Netezza en FDA
+description: Obtenga información sobre cómo configurar el acceso a la Netezza en FDA
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -11,7 +11,7 @@ exl-id: b148d34b-4060-4c54-9cb2-9e712a7c17d7
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 80%
 
 
 
-Uso de Campaign [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) para procesar información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso al Netezza.
+Uso de Campaign [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) para procesar información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso a la Netezza.
 
 1. Instalación y configuración [controladores de netezza](#netezza-config)
-1. Configuración del Netezza [cuenta externa](#netezza-external) en Campaign
+1. Configuración de la Netezza [cuenta externa](#netezza-external) en Campaign
 
 ## configuración de netezza {#netezza-config}
 

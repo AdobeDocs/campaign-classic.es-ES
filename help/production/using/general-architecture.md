@@ -3,7 +3,7 @@ product: campaign
 title: Arquitectura general
 description: Arquitectura general
 feature: Monitoring, Architecture
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: production
 content-type: reference
 topic-tags: introduction
@@ -11,7 +11,7 @@ exl-id: 3bfb5448-6996-4080-bf9a-434f1207637e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Campaign está formado por varios módulos que se pueden desglosar en vari
 
 ![](assets/architecturerepartie.png)
 
-La distribución de módulos en varias máquinas ofrece una buena flexibilidad de uso y una adaptabilidad mejorada.
+La distribución de módulos en varias máquinas ofrece una gran flexibilidad de uso y una adaptabilidad mejorada.
 
 >[!NOTE]
 >

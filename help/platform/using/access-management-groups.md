@@ -9,7 +9,7 @@ level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '505'
 ht-degree: 100%
 
 ---
@@ -69,6 +69,7 @@ Los grupos de operadores predeterminados son:
 
    * **[!UICONTROL INSERT FOLDERS]**: derecho a insertar carpetas en el árbol de Adobe Campaign (siempre que tenga derechos de edición para las ramas correspondientes).
    * **[!UICONTROL WORKFLOW]**: derecho a utilizar flujos de trabajo.
+
    >[!NOTE]
    >
    >Este grupo no permite a los operadores iniciar entregas.

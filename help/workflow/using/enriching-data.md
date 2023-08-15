@@ -2,12 +2,12 @@
 product: campaign
 title: Enriquecimiento de datos
 description: Descubra más información acerca de la actividad del flujo de trabajo Enriquecimiento
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Enrichment Activity
 exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '754'
 ht-degree: 100%
 
 ---
@@ -71,7 +71,7 @@ En este ejemplo, se desea personalizar las entregas según el campo **[!UICONTRO
 
    ![](assets/uc1_enrich_7.png)
 
-1. Introduzca una ID y una etiqueta y, en el campo **[!UICONTROL Limit the line count]**, seleccione la opción **[!UICONTROL Data collected]**. En el campo **[!UICONTROL Lines to retrieve]**, seleccione “1” como valor. Para cada destinatario, la actividad de enriquecimiento agrega una sola línea desde la tabla **[!UICONTROL Competition results]** a la tabla de trabajo del flujo de trabajo. Haga clic **[!UICONTROL Next]**.
+1. Introduzca una ID y una etiqueta y, en el campo **[!UICONTROL Limit the line count]**, seleccione la opción **[!UICONTROL Data collected]**. En el campo **[!UICONTROL Lines to retrieve]**, seleccione “1” como valor. Para cada destinatario, la actividad de enriquecimiento añade una sola línea desde la tabla **[!UICONTROL Competition results]** a la tabla de trabajo del flujo de trabajo. Haga clic **[!UICONTROL Next]**.
 
    ![](assets/uc1_enrich_8.png)
 
@@ -79,11 +79,11 @@ En este ejemplo, se desea personalizar las entregas según el campo **[!UICONTRO
 
    ![](assets/uc1_enrich_9.png)
 
-1. Vaya a la pantalla **[!UICONTROL Sort]** y haga clic en el botón **[!UICONTROL Add]**, seleccione el campo **[!UICONTROL Score]** y marque la casilla de la columna **[!UICONTROL descending]** para ordenar los elementos de los campos **[!UICONTROL Score]** en orden descendente. Para cada destinatario, la actividad de enriquecimiento agrega una línea que coincide con la puntuación más alta para el último juego. Haga clic **[!UICONTROL Next]**.
+1. Vaya a la pantalla **[!UICONTROL Sort]** y haga clic en el botón **[!UICONTROL Add]**, seleccione el campo **[!UICONTROL Score]** y marque la casilla de la columna **[!UICONTROL descending]** para ordenar los elementos de los campos **[!UICONTROL Score]** en orden descendente. Para cada destinatario, la actividad de enriquecimiento añade una línea que coincide con la puntuación más alta para el último juego. Haga clic **[!UICONTROL Next]**.
 
    ![](assets/uc1_enrich_10.png)
 
-1. En la ventana **[!UICONTROL Data to add]**, haga doble clic en el campo **[!UICONTROL Score]** Para cada destinatario, la actividad de enriquecimiento agrega solamente el campo **[!UICONTROL Score]**. Haga clic **[!UICONTROL Finish]**.
+1. En la ventana **[!UICONTROL Data to add]**, haga doble clic en el campo **[!UICONTROL Score]** Para cada destinatario, la actividad de enriquecimiento añade solamente el campo **[!UICONTROL Score]**. Haga clic **[!UICONTROL Finish]**.
 
    ![](assets/uc1_enrich_11.png)
 

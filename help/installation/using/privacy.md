@@ -3,12 +3,12 @@ product: campaign
 title: Personalización y privacidad
 description: Conozca las prácticas recomendadas de seguridad para la privacidad y personalización
 feature: Installation, Privacy, Privacy Tools, URL Personalization
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '852'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -58,7 +58,7 @@ Además, se puede utilizar una mejora para deshabilitar las direcciones URL gene
 
 Si está ejecutando la versión 19.1.4, puede experimentar problemas con los envíos de notificaciones push mediante vínculos de seguimiento o con los envíos que utilizan etiquetas de anclaje. Si es así, le recomendamos que deshabilite la firma de URL.
 
-Como cliente híbrido, Cloud Services administrados o alojado en Campaign, debe ponerse en contacto con [Atención al cliente](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para que la firma de URL esté deshabilitada.
+Como cliente híbrido, Cloud Service administrados o alojado en Campaign, debe ponerse en contacto con [Atención al cliente](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para que la firma de URL esté deshabilitada.
 
 Si está ejecutando Campaign en una arquitectura híbrida, antes de habilitar la firma URL, asegúrese de que la instancia intermediaria alojada se haya actualizado de la siguiente manera:
 

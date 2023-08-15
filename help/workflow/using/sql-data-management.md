@@ -2,12 +2,12 @@
 product: campaign
 title: Gestión de datos SQL
 description: Descubra más información sobre la actividad del flujo de trabajo Gestión de datos SQL
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '425'
 ht-degree: 100%
 
 ---
@@ -24,11 +24,11 @@ Antes de configurar la actividad, asegúrese de que se cumplan los siguientes re
 
 * La actividad solo está disponible para fuentes de datos remotos. Por lo tanto, el paquete **[!UICONTROL FDA]** (Acceso de datos federado) debe instalarse en su instancia. [Más información](../../installation/using/about-fda.md).
 
-   Para obtener más información, consulte estas secciones en función de la versión de Campaign:
+  Para obtener más información, consulte estas secciones en función de la versión de Campaign:
 
-   ![](assets/do-not-localize/v7.jpeg)[  Documentación de Campaign v7](../../installation/using/about-fda.md)
+  ![](assets/do-not-localize/v7.jpeg)[Documentación de Campaign v7](../../installation/using/about-fda.md)
 
-   ![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
+  ![](assets/do-not-localize/v8.png)[Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
 
 * El esquema de salida debe existir en la base de datos y estar vinculado a una base de datos de FDA.
 * El operador que ejecute el flujo de trabajo debe tener los derechos asignados de la **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]**. [Más información](../../platform/using/access-management-named-rights.md).
@@ -59,9 +59,9 @@ Antes de configurar la actividad, asegúrese de que se cumplan los siguientes re
    * **activity.tableName**: Nombre SQL de la tabla de trabajo saliente.
    * **task.incomingTransitionByName(‘name’).tableName**: Utilice el nombre SQL de la tabla de trabajo realizada por la transición entrante (la transición se identifica con su nombre).
 
-      >[!NOTE]
-      >
-      >El valor (“”) corresponde al campo **[!UICONTROL Name]** Name de las propiedades de transición.
+     >[!NOTE]
+     >
+     >El valor (“”) corresponde al campo **[!UICONTROL Name]** Name de las propiedades de transición.
 
 1. Si la secuencia de comandos SQL ya contiene comandos para crear una tabla de trabajo saliente, anule la selección de la opción **[!UICONTROL Automatically create work table]**. De lo contrario, se crea una tabla de trabajo una vez que se ejecute el flujo de trabajo.
 1. Haga clic en **[!UICONTROL Ok]** para confirmar esta configuración.

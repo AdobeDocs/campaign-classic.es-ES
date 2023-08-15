@@ -2,13 +2,13 @@
 product: campaign
 title: Creación de entregas de LINE
 description: Aprenda a crear mensajes de LINE
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Line App
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1165'
 ht-degree: 100%
 
 ---
@@ -165,19 +165,19 @@ Puede utilizar:
 
 * una **[!UICONTROL Personalized image]**,
 
-   >[!NOTE]
-   >
-   >Puede utilizar la variable **%SIZE%** para optimizar la visualización de la imagen según el tamaño de pantalla del dispositivo móvil del destinatario.
+  >[!NOTE]
+  >
+  >Puede utilizar la variable **%SIZE%** para optimizar la visualización de la imagen según el tamaño de pantalla del dispositivo móvil del destinatario.
 
-   ![](assets/line_message_04.png)
+  ![](assets/line_message_04.png)
 
 * una **[!UICONTROL Image URL]** por tamaño de pantalla del dispositivo,
 
-   ![](assets/line_message_03.png)
+  ![](assets/line_message_03.png)
 
-   La opción **[!UICONTROL Define images per device screen size]** le permite utilizar distintas resoluciones de imagen para optimizar la visibilidad de la entrega en dispositivos móviles. Solo se admiten imágenes con la misma altura y anchura.
+  La opción **[!UICONTROL Define images per device screen size]** le permite utilizar distintas resoluciones de imagen para optimizar la visibilidad de la entrega en dispositivos móviles. Solo se admiten imágenes con la misma altura y anchura.
 
-   Las imágenes se pueden definir en función del tamaño de la pantalla:
+  Las imágenes se pueden definir en función del tamaño de la pantalla:
 
    * 1040px
    * 700px
@@ -185,17 +185,17 @@ Puede utilizar:
    * 300px
    * 240px
 
-   >[!CAUTION]
-   >
-   >El tamaño de 1040 x 1040 píxeles es obligatorio para cada imagen de LINE con vínculo.
+  >[!CAUTION]
+  >
+  >El tamaño de 1040 x 1040 píxeles es obligatorio para cada imagen de LINE con vínculo.
 
-   A continuación, debe añadir el texto alternativo que aparece en el dispositivo móvil del destinatario.
+  A continuación, debe añadir el texto alternativo que aparece en el dispositivo móvil del destinatario.
 
 * y **[!UICONTROL Links]**.
 
-   La sección **[!UICONTROL Links]** le permite elegir entre diferentes diseños que dividen la imagen en varias regiones en las que se puede hacer clic. A continuación, puede asignar a cada una de ellas un **[!UICONTROL Link URL]** dedicado.
+  La sección **[!UICONTROL Links]** le permite elegir entre diferentes diseños que dividen la imagen en varias regiones en las que se puede hacer clic. A continuación, puede asignar a cada una de ellas un **[!UICONTROL Link URL]** dedicado.
 
-   ![](assets/line_message_05.png)
+  ![](assets/line_message_05.png)
 
 ### Configuración de una entrega de mensaje de vídeo {#configuring-a-video-message-delivery}
 

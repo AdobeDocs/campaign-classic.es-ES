@@ -2,17 +2,17 @@
 product: campaign
 title: Dimensión cambiante
 description: Dimensión cambiante
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Targeting Activity
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '377'
 ht-degree: 100%
 
 ---
 
-# Dimensión cambiante{#change-dimension}
+# Cambio de dimensión{#change-dimension}
 
 
 
@@ -52,27 +52,27 @@ Para configurar la actividad de la dimensión de cambio, siga los pasos siguient
 
    * Haga clic en el vínculo **[!UICONTROL Add data...]** y seleccione **[!UICONTROL Data linked to the filtering dimension]**.
 
-      ![](assets/wf_change-dimension_sample_01.png)
+     ![](assets/wf_change-dimension_sample_01.png)
 
-      >[!NOTE]
-      >
-      >Para obtener más información sobre la creación y administración de columnas adicionales, consulte [Adición de datos](query.md#adding-data).
+     >[!NOTE]
+     >
+     >Para obtener más información sobre la creación y administración de columnas adicionales, consulte [Adición de datos](query.md#adding-data).
 
    * Seleccione la dimensión de segmentación anterior (antes del cambio de eje) y, en el subárbol **[!UICONTROL Zip Code]** del destinatario, seleccione **[!UICONTROL Location]** y haga clic en **[!UICONTROL Edit expression]**.
 
-      ![](assets/wf_change-dimension_sample_02.png)
+     ![](assets/wf_change-dimension_sample_02.png)
 
    * Haga clic en **[!UICONTROL Advanced selection]** y elija **[!UICONTROL Edit the formula using an expression]**.
 
-      ![](assets/wf_change-dimension_sample_03.png)
+     ![](assets/wf_change-dimension_sample_03.png)
 
    * Utilice las funciones ofrecidas en la lista y especifique el cálculo que se va a realizar.
 
-      ![](assets/wf_change-dimension_sample_04.png)
+     ![](assets/wf_change-dimension_sample_04.png)
 
    * Finalmente, introduzca la etiqueta de la columna que acaba de crear.
 
-      ![](assets/wf_change-dimension_sample_05.png)
+     ![](assets/wf_change-dimension_sample_05.png)
 
 1. Ejecute el flujo de trabajo para ver el resultado de esta configuración. Compare los datos de las tablas antes y después de la actividad de dimensión cambiante y compare la estructura de las tablas de flujo de trabajo, como se muestra en los ejemplos siguientes:
 

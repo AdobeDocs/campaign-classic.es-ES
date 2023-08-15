@@ -3,7 +3,7 @@ product: campaign
 title: Configuraciones generales
 description: Configuraciones generales
 feature: Upgrade
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: migration
 content-type: reference
 topic-tags: configuration

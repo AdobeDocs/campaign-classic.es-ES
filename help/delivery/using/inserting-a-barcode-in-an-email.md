@@ -2,12 +2,12 @@
 product: campaign
 title: Inserción de un código de barras en un correo electrónico
 description: Inserción de un código de barras en un correo electrónico
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email Design
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '525'
 ht-degree: 100%
 
 ---
@@ -31,23 +31,23 @@ A continuación, configure los siguientes elementos para adaptarlos a sus necesi
 
    * Para el formato 1D, los siguientes tipos están disponibles en Adobe Campaign: Codabar, Code 128, GS1-128 (anteriormente EAN-128), UPC-A, UPC-E, ISBN, EAN-8, Code39, Interleaved 2 de 5, POSTNET y Royal Mail (RM4SCC).
 
-      Ejemplo de código de barras 1D:
+     Ejemplo de código de barras 1D:
 
-      ![](assets/barcode_insert_08.png)
+     ![](assets/barcode_insert_08.png)
 
    * Los tipos DataMatrix y PDF417 están relacionados con el formato 2D.
 
-      Ejemplo de código de barras 2D:
+     Ejemplo de código de barras 2D:
 
-      ![](assets/barcode_insert_09.png)
+     ![](assets/barcode_insert_09.png)
 
    * Para insertar un código QR, seleccione este tipo e introduzca la tasa de corrección de errores que desee aplicar. Esta velocidad define la cantidad de información repetida y la tolerancia ante el deterioro.
 
-      ![](assets/barcode_insert_06.png)
+     ![](assets/barcode_insert_06.png)
 
-      Ejemplo de código QR:
+     Ejemplo de código QR:
 
-      ![](assets/barcode_insert_12.png)
+     ![](assets/barcode_insert_12.png)
 
 1. Introduzca el tamaño del código de barras que desea insertar en el correo electrónico: la configuración de la escala permite aumentar o reducir el tamaño del código de barras, de x1 a x10.
 1. El campo **[!UICONTROL Value]** permite definir el valor del código de barras. Un valor puede coincidir con una oferta especial y puede ser la función de un criterio, puede ser el valor de un campo de base de datos vinculado a los clientes.

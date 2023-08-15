@@ -3,7 +3,7 @@ product: campaign
 title: Flujo de trabajo para limpieza de bases de datos
 description: Descubra cómo se limpian automáticamente los datos obsoletos
 feature: Monitoring, Workflows
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: production
 content-type: reference
 topic-tags: data-processing
@@ -482,7 +482,7 @@ Esta tarea limpia el **NmsEmailErrorStat** tabla. El programa principal (**coale
 * **Fecha de inicio**: fecha del siguiente proceso que coincide con el **NmsLastErrorStatCoalesce** o la fecha más reciente de la tabla.
 * **Fecha de finalización**: fecha actual del servidor.
 
-Si la fecha de inicio es buena o igual a la fecha de finalización, no se producirá ningún proceso. En este caso, la variable **coalesceUpToDate** aparece un mensaje.
+Si la fecha de inicio es posterior o igual a la fecha de finalización, no se producirá ningún proceso. En este caso, la variable **coalesceUpToDate** aparece un mensaje.
 
 Si la fecha de inicio es anterior a la fecha de finalización, la variable **NmsEmailErrorStat** se ha limpiado la tabla.
 
@@ -494,7 +494,7 @@ SELECT COUNT(*) FROM NmsEmailErrorStat WHERE tsDate>= $(start) AND tsDate< $(end
 
 donde `$end` y `$start` son las fechas de inicio y finalización definidas anteriormente.
 
-Si el total es bueno que 0:
+Si el total es mayor que 0:
 
 1. La siguiente consulta se ejecuta para mantener solo los errores que superan un determinado umbral (igual a 20):
 

@@ -2,13 +2,13 @@
 product: campaign
 title: Publicación, seguimiento y utilización de datos recopilados
 description: Descubra cómo publicar, rastrear y utilizar datos recopilados en una encuesta
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '843'
 ht-degree: 100%
 
 ---
@@ -65,17 +65,17 @@ Hay otros dos informes disponibles en la pestaña **[!UICONTROL Reports]** de lo
 
 * General
 
-   Este informe contiene información general sobre la encuesta: cómo cambia el número de respuestas con el tiempo y la distribución por origen e idioma.
+  Este informe contiene información general sobre la encuesta: cómo cambia el número de respuestas con el tiempo y la distribución por origen e idioma.
 
-   Ejemplo de informe general:
+  Ejemplo de informe general:
 
-   ![](assets/s_ncs_admin_survey_report_0.png)
+  ![](assets/s_ncs_admin_survey_report_0.png)
 
 * Desglose de respuestas
 
-   Este informe muestra el desglose de las respuestas por cada pregunta. Este desglose solo está disponible para las respuestas dadas a campos almacenados en contenedores de tipo **[!UICONTROL Question]**. Solo es válido para los controles de selección (sin desglose en campos de texto, por ejemplo).
+  Este informe muestra el desglose de las respuestas por cada pregunta. Este desglose solo está disponible para las respuestas dadas a campos almacenados en contenedores de tipo **[!UICONTROL Question]**. Solo es válido para los controles de selección (sin desglose en campos de texto, por ejemplo).
 
-   ![](assets/s_ncs_admin_survey_report_2.png)
+  ![](assets/s_ncs_admin_survey_report_2.png)
 
 ## Exportación de las respuestas {#exporting-answers}
 
@@ -145,19 +145,19 @@ Edite el cuadro de división para configurarlo:
 
 * Para empezar, seleccione el esquema adecuado en la pestaña **[!UICONTROL General]** y, a continuación, configure el subconjunto:
 
-   ![](assets/s_ncs_admin_survey_responses_wf_box_6b.png)
+  ![](assets/s_ncs_admin_survey_responses_wf_box_6b.png)
 
 * Vaya a la pestaña **[!UICONTROL Sub-sets]** y seleccione la opción **[!UICONTROL Limit the selected records]**, y después haga clic en el vínculo **[!UICONTROL Edit...]**.
 
-   ![](assets/s_ncs_admin_survey_responses_wf_box_7.png)
+  ![](assets/s_ncs_admin_survey_responses_wf_box_7.png)
 
 * Seleccione la opción **[!UICONTROL Keep only the first records after sorting]** y seleccione ordenar columna. Marque la opción **[!UICONTROL Descending sort]**.
 
-   ![](assets/s_ncs_admin_survey_responses_wf_box_8.png)
+  ![](assets/s_ncs_admin_survey_responses_wf_box_8.png)
 
 * Haga clic en el botón **[!UICONTROL Next]** y limite el número de registros a 5.
 
-   ![](assets/s_ncs_admin_survey_responses_wf_box_9.png)
+  ![](assets/s_ncs_admin_survey_responses_wf_box_9.png)
 
 * Haga clic en **[!UICONTROL Finish]** y reinicie el flujo de trabajo para aprobar el destinatario.
 

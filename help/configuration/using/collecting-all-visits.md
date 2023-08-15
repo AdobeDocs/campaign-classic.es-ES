@@ -3,12 +3,12 @@ product: campaign
 title: Recopilación de todas las visitas
 description: Recopilación de todas las visitas
 feature: Configuration, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 

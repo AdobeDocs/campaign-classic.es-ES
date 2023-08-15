@@ -2,13 +2,13 @@
 product: campaign
 title: Publicación de un formulario web
 description: Publicación de un formulario web
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '975'
 ht-degree: 100%
 
 ---
@@ -25,43 +25,43 @@ Puede utilizar los siguientes métodos de identificación:
 
 * **[!UICONTROL Adobe Campaign Encryption]**
 
-   Este método de encriptado utiliza el identificador (ID) cifrado de Adobe Campaign. Este método solamente se aplica a un objeto de Adobe Campaign y la ID encriptada solo se puede generar mediante la plataforma de Adobe Campaign.
+  Este método de encriptado utiliza el identificador (ID) cifrado de Adobe Campaign. Este método solamente se aplica a un objeto de Adobe Campaign y la ID encriptada solo se puede generar mediante la plataforma de Adobe Campaign.
 
-   Al utilizar este método, es necesario adaptar la URL del formulario para enviar a la dirección de correo electrónico añadiendo el parámetro **`<%=escapeUrl(recipient.cryptedId) %>`**. Para obtener más información, consulte [Envío de un formulario por correo electrónico](#delivering-a-form-via-email).
+  Al utilizar este método, es necesario adaptar la URL del formulario para enviar a la dirección de correo electrónico añadiendo el parámetro **`<%=escapeUrl(recipient.cryptedId) %>`**. Para obtener más información, consulte [Envío de un formulario por correo electrónico](#delivering-a-form-via-email).
 
 * **[!UICONTROL DES encryption]**
 
-   ![](assets/s_ncs_admin_survey_preload_methods_001.png)
+  ![](assets/s_ncs_admin_survey_preload_methods_001.png)
 
-   Este método de encriptado utiliza un identificador (ID) proporcionado externamente, vinculado a una clave compartida por Adobe Campaign y el proveedor externo. El campo **[!UICONTROL Des key]** permite introducir esta clave de encriptado.
+  Este método de encriptado utiliza un identificador (ID) proporcionado externamente, vinculado a una clave compartida por Adobe Campaign y el proveedor externo. El campo **[!UICONTROL Des key]** permite introducir esta clave de encriptado.
 
 * **[!UICONTROL List of fields]**
 
-   Esta opción le permite elegir entre los campos del contexto actual del formulario, los que se utilizan para encontrar el perfil correspondiente en la base de datos.
+  Esta opción le permite elegir entre los campos del contexto actual del formulario, los que se utilizan para encontrar el perfil correspondiente en la base de datos.
 
-   ![](assets/s_ncs_admin_survey_preload_methods_002.png)
+  ![](assets/s_ncs_admin_survey_preload_methods_002.png)
 
-   Los campos se pueden añadir a las propiedades del formulario mediante la pestaña **[!UICONTROL Parameters]** (consulte [Adición de parámetros](defining-web-forms-properties.md#adding-parameters)). Se ubican en la dirección URL del formulario o en las zonas de entrada.
+  Los campos se pueden añadir a las propiedades del formulario mediante la pestaña **[!UICONTROL Parameters]** (consulte [Adición de parámetros](defining-web-forms-properties.md#adding-parameters)). Se ubican en la dirección URL del formulario o en las zonas de entrada.
 
-   >[!CAUTION]
-   >
-   >Los datos de los campos seleccionados no están encriptados. No se debe proporcionar en un formulario encriptado, ya que Adobe Campaign no puede descifrarlo si la opción **[!UICONTROL Field list]** está seleccionada.
+  >[!CAUTION]
+  >
+  >Los datos de los campos seleccionados no están encriptados. No se debe proporcionar en un formulario encriptado, ya que Adobe Campaign no puede descifrarlo si la opción **[!UICONTROL Field list]** está seleccionada.
 
-   En el ejemplo siguiente, la precarga del perfil se basa en la dirección de correo electrónico.
+  En el ejemplo siguiente, la precarga del perfil se basa en la dirección de correo electrónico.
 
-   La dirección URL puede incluir la dirección de correo electrónico sin encriptar, en cuyo caso los usuarios tienen acceso directo a las páginas que les afectan.
+  La dirección URL puede incluir la dirección de correo electrónico sin encriptar, en cuyo caso los usuarios tienen acceso directo a las páginas que les afectan.
 
-   ![](assets/s_ncs_admin_survey_preload_methods_003.png)
+  ![](assets/s_ncs_admin_survey_preload_methods_003.png)
 
-   De no ser así, se les pide su contraseña.
+  De no ser así, se les pide su contraseña.
 
-   ![](assets/s_ncs_admin_survey_preload_methods_004.png)
+  ![](assets/s_ncs_admin_survey_preload_methods_004.png)
 
-   >[!CAUTION]
-   >
-   >Si se especifican varios campos en la lista, los datos de **TODOS LOS CAMPOS** deben coincidir con los datos almacenados en la base de datos para que se actualice el perfil. De lo contrario, se crea un perfil nuevo.
-   > 
-   >Esta función es especialmente útil para aplicaciones web, pero no se recomienda para formularios públicos. La opción de control de acceso seleccionada debe ser “Activar control de acceso”.
+  >[!CAUTION]
+  >
+  >Si se especifican varios campos en la lista, los datos de **TODOS LOS CAMPOS** deben coincidir con los datos almacenados en la base de datos para que se actualice el perfil. De lo contrario, se crea un perfil nuevo.
+  > 
+  >Esta función es especialmente útil para aplicaciones web, pero no se recomienda para formularios públicos. La opción de control de acceso seleccionada debe ser “Activar control de acceso”.
 
 La opción **[!UICONTROL Skip preloading if no ID]** debe estar seleccionada si no desea actualizar los perfiles. En este caso, cada perfil introducido se añade a la base de datos después de la aprobación del formulario. Esta opción se utiliza, por ejemplo, cuando se publica el formulario en un sitio web.
 
@@ -121,11 +121,11 @@ Para que los usuarios puedan acceder, el formulario debe estar en producción e 
 
 * Utilice los campos de la sección **[!UICONTROL Project]** para introducir las fechas de inicio y finalización del formulario.
 
-   ![](assets/webapp_availability_date.png)
+  ![](assets/webapp_availability_date.png)
 
 * Haga clic en el vínculo **[!UICONTROL Personalize the message displayed if the form is closed...]** para definir el mensaje de error que se muestra si el usuario intenta acceder al formulario cuando este no es válido.
 
-   Consulte [Accesibilidad del formulario](defining-web-forms-properties.md#accessibility-of-the-form).
+  Consulte [Accesibilidad del formulario](defining-web-forms-properties.md#accessibility-of-the-form).
 
 ### Envío de un formulario por correo electrónico {#delivering-a-form-via-email}
 

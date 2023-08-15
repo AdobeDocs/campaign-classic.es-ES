@@ -2,12 +2,12 @@
 product: campaign
 title: Acerca de la edición de esquema
 description: Introducción a la edición de esquemas
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Schema Extension
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1011'
 ht-degree: 10%
 
 ---
@@ -133,7 +133,7 @@ La lista completa de atributos está disponible en la [`<attribute>` elemento](.
 * **@xml**
 * **@tipo**
 
-   Para ver una tabla que enumera las asignaciones para los tipos de datos generados por Adobe Campaign para los distintos sistemas de administración de bases de datos, consulte la [Asignación de los tipos de datos de Adobe Campaign/DBMS](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) sección.
+  Para ver una tabla que enumera las asignaciones para los tipos de datos generados por Adobe Campaign para los distintos sistemas de administración de bases de datos, consulte la [Asignación de los tipos de datos de Adobe Campaign/DBMS](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) sección.
 
 Para obtener más información sobre cada atributo, consulte [Descripción de atributo](../../configuration/using/schema/attribute.md) sección.
 

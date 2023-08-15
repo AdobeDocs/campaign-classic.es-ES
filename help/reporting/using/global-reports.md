@@ -6,8 +6,8 @@ badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic 
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
-workflow-type: ht
-source-wordcount: '2304'
+workflow-type: tm+mt
+source-wordcount: '2300'
 ht-degree: 100%
 
 ---
@@ -102,13 +102,13 @@ Se utilizan los siguientes indicadores:
 * **[!UICONTROL Unreachable]** : Tipo de error que se produce en la cadena de distribución de mensajes: incidente en la retransmisión SMTP, dominio temporalmente inaccesible, etc.
 * **[!UICONTROL Not connected]** : Tipo de error que indica que el teléfono móvil de los destinatarios está apagado o desconectado de la red en el momento del envío.
 
-   >[!NOTE]
-   >
-   >Este indicador solo incluye las entregas de canales móviles. Para obtener más información, consulte [esta sección](../../delivery/using/sms-channel.md).
+  >[!NOTE]
+  >
+  >Este indicador solo incluye las entregas de canales móviles. Para obtener más información, consulte [esta sección](../../delivery/using/sms-channel.md).
 
-   Se pueden abrir todas las líneas de la tabla de valores haciendo clic en el símbolo `[+]`. Para cada tipo de error, se puede mostrar el desglose de mensajes de error por dominio.
+  Se pueden abrir todas las líneas de la tabla de valores haciendo clic en el símbolo `[+]`. Para cada tipo de error, se puede mostrar el desglose de mensajes de error por dominio.
 
-   ![](assets/s_ncs_user_errors_report_detail.png)
+  ![](assets/s_ncs_user_errors_report_detail.png)
 
 **[!UICONTROL Breakdown of errors per domain]**
 
@@ -292,9 +292,9 @@ Se utilizan los siguientes indicadores:
 * **[!UICONTROL Hard bounces]** : porcentaje del número de rechazos “graves” comparado con el número total de mensajes procesados.
 * **[!UICONTROL Soft bounces]** : porcentaje del número de rechazos “leves” comparado con el número total de mensajes procesados.
 
-   >[!NOTE]
-   >
-   >Para obtener más información sobre los rechazos graves y leves, consulte [Administración de cuarentena](../../delivery/using/understanding-quarantine-management.md).
+  >[!NOTE]
+  >
+  >Para obtener más información sobre los rechazos graves y leves, consulte [Administración de cuarentena](../../delivery/using/understanding-quarantine-management.md).
 
 * **[!UICONTROL Opens]** : porcentaje del número de destinatarios objetivo que abrieron un mensaje al menos una vez comparado con el número de mensajes procesados correctamente.
 * **[!UICONTROL Clicks]** : porcentaje del número de personas que hizo clic en un envío al menos una vez comparado con el número de mensajes procesados correctamente.

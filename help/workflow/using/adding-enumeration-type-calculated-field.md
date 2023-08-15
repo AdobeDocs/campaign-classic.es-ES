@@ -2,7 +2,7 @@
 product: campaign
 title: Adición de un campo calculado de tipo Lista desglosada
 description: Aprenda cómo añadir un campo calculado de tipo Lista desglosada
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: workflow
 content-type: reference
 topic-tags: use-cases
@@ -10,7 +10,7 @@ feature: Workflows, Data Management
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
@@ -23,15 +23,15 @@ Aquí se desea crear una consulta con un campo calculado de tipo **[!UICONTROL E
 
 * ¿Qué tabla se debe seleccionar?
 
-   La tabla de destinatario (nms:recipient).
+  La tabla de destinatario (nms:recipient).
 
 * ¿Campos que se desea seleccionar en la columna de salida?
 
-   Apellidos, Nombre, Sexo
+  Apellidos, Nombre, Sexo
 
 * ¿Con qué criterios se va a filtrar la información?
 
-   El lenguaje del destinatario.
+  El lenguaje del destinatario.
 
 Siga estos pasos:
 

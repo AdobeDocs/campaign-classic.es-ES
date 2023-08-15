@@ -3,7 +3,7 @@ product: campaign
 title: 'Interacción: búfer de datos'
 description: 'Interacción: búfer de datos'
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,7 +11,7 @@ exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 

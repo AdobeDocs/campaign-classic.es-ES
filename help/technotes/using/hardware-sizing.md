@@ -3,7 +3,7 @@ product: campaign
 title: Recomendaciones de tamaño de hardware para Campaign Classic v7
 description: Recomendaciones de tamaño de hardware para Campaign Classic v7
 feature: Technote
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
@@ -28,7 +28,7 @@ La instancia de marketing es la parte de la arquitectura de Adobe Campaign que a
 
 >[!CAUTION]
 >
->La información de este documento no se aplica si utiliza una instancia de Adobe Campaign totalmente alojada (implementada en Cloud Services de Adobe).
+>La información contenida en este documento no se aplica si utiliza una instancia de Adobe Campaign totalmente alojada (implementada en Cloud Service de Adobe).
 
 La compatibilidad del software se detalla en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 
@@ -192,7 +192,7 @@ En esta situación, Adobe recomienda instalar Adobe Campaign en cuatro equipos, 
   **Dos sistemas, CPU de núcleo cuádruple a más de 3 Ghz, 8 GB de RAM, RAID 1 o 10, SSD de 80 GB**
 
 * Servidores web
-  **Dos sistemas, CPU de núcleo cuádruple a más de 3 Ghz, 16 GB de RAM, RAID 1 o 10, SSD de 80 GB**
+  **Dos sistemas, CPU de núcleo cuádruple a más de 3 GHz, 16 GB de RAM, RAID 1 o 10, SSD de 80 GB**
 
 
 Los servidores de aplicaciones admiten directamente a los usuarios de la consola de Campaign y la ejecución de flujos de trabajo de campaña. Esta funcionalidad se implementa en dos servidores idénticos para alta disponibilidad, compartiendo un sistema de archivos de almacenamiento con conexión a red (NAS) para habilitar la conmutación por error.

@@ -2,12 +2,12 @@
 product: campaign
 title: Enriquecimiento
 description: Descubra más información sobre la actividad del flujo de trabajo Enriquecimiento
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Enrichment Activity, Targeting Activity
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1298'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ La actividad **[!UICONTROL Enrichment]** permite agregar información a una list
 
 ## Definiciones {#definitions}
 
-Para utilizar la actividad de enriquecimiento, debe estar familiarizado con las diversas opciones disponibles al agregar datos.
+Para utilizar la actividad de enriquecimiento, debe estar familiarizado con las diversas opciones disponibles al añadir datos.
 
 ![](assets/enrichment_edit.png)
 
@@ -43,13 +43,13 @@ Existen cuatro tipos de vínculos:
 * **[!UICONTROL Define a link whose target is still available]**: permite definir un enlace con una cardinalidad 1-1 entre las tablas. Las condiciones de la unión deben estar definidas por un único registro en la tabla de destino.
 * **[!UICONTROL Define a link whose target does not necessarily exist in the base]**: permite definir un enlace con una cardinalidad 0-1 entre las tablas. La condición que los una debe definirse por el registro de 0 o 1 (máximo) en la tabla objetivo.
 
-   Esta opción se configura en la pestaña **[!UICONTROL Simple Join]** a la que se puede acceder mediante el vínculo **[!UICONTROL Edit additional data]** de la actividad **[!UICONTROL Enrichment]**.
+  Esta opción se configura en la pestaña **[!UICONTROL Simple Join]** a la que se puede acceder mediante el vínculo **[!UICONTROL Edit additional data]** de la actividad **[!UICONTROL Enrichment]**.
 
 * **[!UICONTROL Define a link by searching for a reference among several options]**: este tipo de vínculo define una reconciliación hacia un registro único. Adobe Campaign crea un vínculo a una tabla de destino agregando una clave externa en la tabla objetivo para almacenar una referencia del registro único.
 
-   Esta opción se configura en la pestaña **[!UICONTROL Reconciliation and deduplication]** a la que se puede acceder mediante el vínculo **[!UICONTROL Edit additional data]** de la actividad **[!UICONTROL Enrichment]**.
+  Esta opción se configura en la pestaña **[!UICONTROL Reconciliation and deduplication]** a la que se puede acceder mediante el vínculo **[!UICONTROL Edit additional data]** de la actividad **[!UICONTROL Enrichment]**.
 
-En estas secciones también se encuentran disponibles casos de uso que detallan el funcionamiento de actividades de Enriquecimiento en su contexto:
+En estas secciones también se encuentran disponibles casos de uso que detallan el funcionamiento de actividades de enriquecimiento en su contexto:
 
 * [Enriquecimiento de correo electrónico con campos de datos personalizados](email-enrichment-with-custom-date-fields.md).
 * [Enriquecimiento de datos](enriching-data.md)
@@ -71,7 +71,7 @@ En el ejemplo que se muestra a continuación, la transición saliente se ampliar
 
 ![](assets/enrichment_add_data.png)
 
-Haga clic con el botón derecho en la transición entrante de la actividad desarrollada para ver los datos antes de la fase de incremento.
+Haga clic con el botón derecho en la transición entrante de la actividad desarrollada para ver los datos antes de la fase de enriquecimiento.
 
 ![](assets/enrichment_content_before.png)
 
@@ -91,7 +91,7 @@ El esquema coincidente también se ha enriquecido.
 
 ## Gestión de datos adicionales {#managing-additional-data}
 
-Desmarque la opción **[!UICONTROL Keep all additional data from the main set]** si no desea conservar los datos adicionales definidos previamente. En este caso, solo las columnas adicionales seleccionadas en la actividad de ampliación se añadirán a la tabla de resultados saliente. La información adicional añadida a las actividades anteriores no se guardará.
+Desmarque la opción **[!UICONTROL Keep all additional data from the main set]** si no desea conservar los datos adicionales definidos previamente. En este caso, solo las columnas adicionales seleccionadas en la actividad de enriquecimiento se añadirán a la tabla de resultados saliente. La información adicional añadida a las actividades anteriores no se guardará.
 
 ![](assets/enrichment_edit_without_additional.png)
 
@@ -101,7 +101,7 @@ Los datos y el esquema en la salida de la fase de ampliación serán los siguien
 
 ## Creación de un vínculo {#creating-a-link}
 
-Se puede utilizar la actividad de ampliación para crear un vínculo entre los datos de trabajo y la base de datos de Adobe Campaign: será un vínculo local al flujo de trabajo entre los datos entrantes.
+Se puede utilizar la actividad de enriquecimiento para crear un vínculo entre los datos de trabajo y la base de datos de Adobe Campaign: será un vínculo local al flujo de trabajo entre los datos entrantes.
 
 Por ejemplo, si se cargan datos de un archivo que contiene el número de cuenta, el país y el correo electrónico de los destinatarios, se deberá crear un vínculo hacia la lista del país para actualizar esta información en sus perfiles.
 
@@ -120,7 +120,7 @@ Para ello, siga los siguientes pasos:
    83TY2;SWITZERLAND;mike@gmail.com
    ```
 
-1. Edite la actividad de ampliación y haga clic en el vínculo **Add data...** para establecer un vínculo con la lista del país.
+1. Edite la actividad de enriquecimiento y haga clic en el vínculo **Add data...** para establecer un vínculo con la lista del país.
 
    ![](assets/enrichment_edit_after_file_box.png)
 
@@ -132,7 +132,7 @@ Para ello, siga los siguientes pasos:
 
    ![](assets/enrichment_add_a_link_select_join.png)
 
-En la salida de esta actividad de ampliación, el esquema temporal contendrá el vínculo a la lista del país:
+En la salida de esta actividad de enriquecimiento, el esquema temporal contendrá el vínculo a la lista del país:
 
 ![](assets/enrichment_external_link_schema.png)
 
@@ -171,11 +171,11 @@ Después de configurar la consulta (consulte esta [sección](query.md)):
 
    * **[!UICONTROL Search for the best offer in a category]**: marque esta opción y especifique los parámetros de recurso del motor de oferta (espacio de oferta, categoría o temas, fecha de contacto, cantidad de ofertas que desea mantener). Según estos parámetros, el motor calculará automáticamente las ofertas a agregar. Se recomienda completar el campo **[!UICONTROL Category]** o el campo **[!UICONTROL Theme]** en vez de ambos al mismo tiempo.
 
-      ![](assets/int_enrichment_offer3.png)
+     ![](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL A predefined offer]**: marque esta opción y especifique un espacio de oferta, una oferta específica y una fecha de contacto para configurar directamente la oferta que desee añadir, sin recurrir al motor de oferta.
 
-      ![](assets/int_enrichment_offer4.png)
+     ![](assets/int_enrichment_offer4.png)
 
 1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Consulte [Envíos multicanal](cross-channel-deliveries.md).
 
@@ -185,7 +185,7 @@ Para especificar propuestas de oferta, también se puede optar por hacer referen
 
 ## Referencia al vínculo de una oferta {#referencing-a-link-to-an-offer}
 
-También puede hacer referencia a un vínculo de oferta en una actividad de ampliación.
+También puede hacer referencia a un vínculo de oferta en una actividad de enriquecimiento.
 
 Para ello:
 
@@ -195,7 +195,7 @@ Para ello:
 
    ![](assets/int_enrichment_link1.png)
 
-1. Especifique el vínculo entre los datos de la lista entrante en la actividad de ampliación (lista de destinatarios) y la lista de oferta. Por ejemplo, se puede vincular un código de oferta a un destinatario.
+1. Especifique el vínculo entre los datos de la lista entrante en la actividad de enriquecimiento (lista de destinatarios) y la lista de oferta. Por ejemplo, se puede vincular un código de oferta a un destinatario.
 
    ![](assets/int_enrichment_link2.png)
 

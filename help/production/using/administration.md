@@ -3,7 +3,7 @@ product: campaign
 title: Administración
 description: Administración
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
@@ -12,7 +12,7 @@ exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -80,7 +80,7 @@ Esta es una lista de los comandos de administración habituales accesibles en Li
   >[!NOTE]
   >
   >* Si no se especifica la instancia, se utilizará la instancia &quot;predeterminada&quot;.
-  >* En caso de emergencia, utilice el **-inmediato** opción para forzar una parada inmediata del proceso (equivalente al comando Unix) **kill -9**).
+  >* En caso de emergencia, utilice el **-inmediato** para forzar una parada inmediata del proceso (equivalente al comando Unix) **kill -9**).
   >* Utilice el **-noconsole** para garantizar que el módulo iniciado no muestre nada en la consola. Sus registros se escribirán en el disco a través del **syslogd** módulo.
   >* Utilice el **-verboso** para mostrar información adicional sobre las acciones de proceso.
   >

@@ -2,7 +2,7 @@
 product: campaign
 title: Migración a la nube pública
 description: Obtenga más información sobre la migración de Campaign Classic a la nube pública
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Technote, Upgrade
 role: User
 level: Beginner

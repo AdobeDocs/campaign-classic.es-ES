@@ -2,13 +2,13 @@
 product: campaign
 title: Estados de la entrega
 description: Obtenga más información acerca de los estados disponibles en su tablero de entregas
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring, Deliverability
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 source-git-commit: 4b13e310fcee9ba24e83b697fca57bc494505642
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '644'
 ht-degree: 100%
 
 ---
@@ -99,11 +99,11 @@ Si la entrega no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, p
 
 * Puede que el MTA (Agente de Transferencia de Mensajes), que ejecuta módulos y procesos en el servidor de entrega y que administra la entrega por correo electrónico, no se haya iniciado o que sea necesario reiniciarlo.
 
-   Para comprobar esto e iniciar el módulo si es necesario, aplique los siguientes pasos:
+  Para comprobar esto e iniciar el módulo si es necesario, aplique los siguientes pasos:
 
-   >[!NOTE]
-   >
-   >Esta operación se puede realizar con un modelo de alojamiento **on-premise** o **híbrido** con acceso al servidor de Campaign (consulte [modelos de alojamiento](../../installation/using/hosting-models.md)).
+  >[!NOTE]
+  >
+  >Esta operación se puede realizar con un modelo de alojamiento **on-premise** o **híbrido** con acceso al servidor de Campaign (consulte [modelos de alojamiento](../../installation/using/hosting-models.md)).
 
    1. Compruebe que los módulos `mta@<instance>` se inicien en los servidores MTA.
 
@@ -127,13 +127,13 @@ Si la entrega no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, p
 
 * La entrega puede estar utilizando una afinidad no configurada en el servidor remitente.
 
-   En este caso, compruebe la configuración de la administración de tráfico (afinidad de IP) y utilice el campo **[!UICONTROL Managing affinities with IP addresses]** para relacionar las entregas al MTA que administra la afinidad. Para obtener más información sobre las afinidades, consulte [esta sección](../../installation/using/configure-delivery-settings.md).
+  En este caso, compruebe la configuración de la administración de tráfico (afinidad de IP) y utilice el campo **[!UICONTROL Managing affinities with IP addresses]** para relacionar las entregas al MTA que administra la afinidad. Para obtener más información sobre las afinidades, consulte [esta sección](../../installation/using/configure-delivery-settings.md).
 
 * Cuando se ejecutan demasiadas campañas, el estado de la entrega permanece en estado Pendiente.
 
-   El límite de campañas simultáneas se define en la opción **[!UICONTROL NmsOperation_LimitConcurrency]**. El valor predeterminado es 10.
+  El límite de campañas simultáneas se define en la opción **[!UICONTROL NmsOperation_LimitConcurrency]**. El valor predeterminado es 10.
 
-   Obtenga más información sobre las opciones en [esta página](../../installation/using/configuring-campaign-options.md).
+  Obtenga más información sobre las opciones en [esta página](../../installation/using/configuring-campaign-options.md).
 
 
 **Temas relacionados:**

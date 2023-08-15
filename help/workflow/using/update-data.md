@@ -2,12 +2,12 @@
 product: campaign
 title: Actualización de datos
 description: Descubra más información sobre la actividad del flujo de trabajo Actualización de datos
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Targeting Activity, Data Management
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '856'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Especifique cómo identificar los registros de la base de datos:
 
 * Si las entradas de datos están relacionadas con una dimensión de segmentación existente, seleccione la opción **[!UICONTROL By directly using the targeting dimension]** y, luego, en el campo **[!UICONTROL Updated dimension]**.
 
-   Puede mostrar los campos de la dimensión seleccionada con el botón de lupa **[!UICONTROL Edit this link]**.
+  Puede mostrar los campos de la dimensión seleccionada con el botón de lupa **[!UICONTROL Edit this link]**.
 
 * De lo contrario, especifique uno o más vínculos que permitan la identificación de los datos en la base de datos o use directamente las claves de reconciliación.
 

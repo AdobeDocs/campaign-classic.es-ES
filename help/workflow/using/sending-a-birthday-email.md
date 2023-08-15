@@ -2,12 +2,12 @@
 product: campaign
 title: Envío de un correo electrónico de cumpleaños
 description: Descubra más información sobre cómo enviar un correo electrónico de cumpleaños con un flujo de trabajo
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '886'
 ht-degree: 100%
 
 ---

@@ -2,13 +2,13 @@
 product: campaign
 title: Acerca de las plantillas
 description: Introducción a las plantillas de entrega
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Delivery Templates
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '288'
 ht-degree: 100%
 
 ---

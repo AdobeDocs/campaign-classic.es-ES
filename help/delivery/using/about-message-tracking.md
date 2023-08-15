@@ -2,13 +2,13 @@
 product: campaign
 title: Introducción al seguimiento
 description: Obtenga más información sobre las directrices generales para el seguimiento en Adobe Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring, Email
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '695'
 ht-degree: 100%
 
 ---
@@ -111,12 +111,12 @@ Las siguientes sugerencias de solución de problemas le ayudarán a resolver los
 
 * Compruebe que el proceso trackinglogd se está ejecutando
 
-   Este proceso lee la memoria compartida de IIS/servidor web y escribe los registros de redirección.
+  Este proceso lee la memoria compartida de IIS/servidor web y escribe los registros de redirección.
 
-   Puede acceder a ella desde la página principal seleccionando la pestaña Supervisión en la instancia. También puede ejecutar el siguiente comando en la instancia: `<user>@<instance>:~$ nlserver pdump`
+  Puede acceder a ella desde la página principal seleccionando la pestaña Supervisión en la instancia. También puede ejecutar el siguiente comando en la instancia: `<user>@<instance>:~$ nlserver pdump`
 
-   Si el proceso trackinglogd no aparece en la lista, inícielo con el siguiente comando en la instancia: `<user>@<instance>:~$ nlserver start trackinglogd`
+  Si el proceso trackinglogd no aparece en la lista, inícielo con el siguiente comando en la instancia: `<user>@<instance>:~$ nlserver start trackinglogd`
 
 * Compruebe que el flujo de trabajo técnico de seguimiento se ha estado ejecutando recientemente.
 
-   Puede localizar el flujo de trabajo técnico de seguimiento en las carpetas Administración > Producción > Flujos de trabajo técnicos.
+  Puede localizar el flujo de trabajo técnico de seguimiento en las carpetas Administración > Producción > Flujos de trabajo técnicos.

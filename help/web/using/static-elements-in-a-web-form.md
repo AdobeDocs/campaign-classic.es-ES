@@ -2,13 +2,13 @@
 product: campaign
 title: Elementos estáticos de un formulario web
 description: Elementos estáticos de un formulario web
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1043'
 ht-degree: 100%
 
 ---
@@ -28,9 +28,9 @@ Están disponibles los siguientes tipos de campo:
 * Imagen guardada en la biblioteca de recursos o en un servidor accesible a los usuarios. Consulte [Inserción de imágenes](#inserting-images).
 * Secuencia de comandos ejecutada del lado del cliente o del servidor. Debe estar escrita en JavaScript y ser compatible con la mayoría de los navegadores para garantizar la ejecución correcta del lado del cliente.
 
-   >[!NOTE]
-   >
-   >En el lado del servidor, la secuencia de comandos puede utilizar las funciones definidas en [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es).
+  >[!NOTE]
+  >
+  >En el lado del servidor, la secuencia de comandos puede utilizar las funciones definidas en [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es).
 
 ## Inserción de contenido HTML {#inserting-html-content}
 
@@ -63,7 +63,7 @@ Para añadir un vínculo de hipertexto, vaya a **[!UICONTROL Static elements]** 
 * El campo **[!UICONTROL Window]** permite seleccionar el modo de visualización para el vínculo en el caso de un sitio. Puede decidir abrir el vínculo en una nueva ventana, en la ventana actual o en otra ventana.
 * Puede añadir una descripción emergente sobre herramientas, como se muestra a continuación:
 
-   ![](assets/s_ncs_admin_survey_send_an_email.png)
+  ![](assets/s_ncs_admin_survey_send_an_email.png)
 
 * Puede elegir mostrar el vínculo como botón o como imagen. Para ello, seleccione el tipo de visualización en el campo **[!UICONTROL Type]**.
 
@@ -77,39 +77,39 @@ Puede definir otras acciones para el vínculo, de modo que el usuario pueda hace
 
 * Actualizar la página
 
-   Para ello, seleccione la opción **[!UICONTROL Refresh page]** en el cuadro desplegable del campo **[!UICONTROL Action]**.
+  Para ello, seleccione la opción **[!UICONTROL Refresh page]** en el cuadro desplegable del campo **[!UICONTROL Action]**.
 
-   ![](assets/s_ncs_admin_survey_link_refresh.png)
+  ![](assets/s_ncs_admin_survey_link_refresh.png)
 
 * Mostrar la página siguiente/anterior
 
-   Para ello, seleccione la opción **[!UICONTROL Next page]** o **[!UICONTROL Previous page]** en el cuadro desplegable del campo **[!UICONTROL Action]**.
+  Para ello, seleccione la opción **[!UICONTROL Next page]** o **[!UICONTROL Previous page]** en el cuadro desplegable del campo **[!UICONTROL Action]**.
 
-   ![](assets/s_ncs_admin_survey_link_next.png)
+  ![](assets/s_ncs_admin_survey_link_next.png)
 
-   Puede ocultar los botones **[!UICONTROL Next]** o **[!UICONTROL Back]** si desea reemplazarlos por un vínculo. Consulte [esta página](defining-web-forms-page-sequencing.md).
+  Puede ocultar los botones **[!UICONTROL Next]** o **[!UICONTROL Back]** si desea reemplazarlos por un vínculo. Consulte [esta página](defining-web-forms-page-sequencing.md).
 
-   El vínculo reemplaza el botón **[!UICONTROL Next]** utilizado de forma predeterminada.
+  El vínculo reemplaza el botón **[!UICONTROL Next]** utilizado de forma predeterminada.
 
-   ![](assets/s_ncs_admin_survey_link_next_ex.png)
+  ![](assets/s_ncs_admin_survey_link_next_ex.png)
 
 * Mostrar otra página
 
-   La opción **[!UICONTROL Enable a transition]** permite mostrar una página específica asociada con la transición saliente seleccionada en el campo **[!UICONTROL Transition]**.
+  La opción **[!UICONTROL Enable a transition]** permite mostrar una página específica asociada con la transición saliente seleccionada en el campo **[!UICONTROL Transition]**.
 
-   ![](assets/s_ncs_admin_survey_link_viral.png)
+  ![](assets/s_ncs_admin_survey_link_viral.png)
 
-   De forma predeterminada, una página solo tiene una transición de salida. Para crear nuevas transiciones, seleccione la página y, en la sección **[!UICONTROL Add]**, haga clic en **[!UICONTROL Output transitions]** como se muestra a continuación:
+  De forma predeterminada, una página solo tiene una transición de salida. Para crear nuevas transiciones, seleccione la página y, en la sección **[!UICONTROL Add]**, haga clic en **[!UICONTROL Output transitions]** como se muestra a continuación:
 
-   ![](assets/s_ncs_admin_survey_add_transition.png)
+  ![](assets/s_ncs_admin_survey_add_transition.png)
 
-   En el diagrama, esta adición tiene el siguiente aspecto:
+  En el diagrama, esta adición tiene el siguiente aspecto:
 
-   ![](assets/s_ncs_admin_survey_add_transition_graph.png)
+  ![](assets/s_ncs_admin_survey_add_transition_graph.png)
 
-   >[!NOTE]
-   >
-   >Para obtener más información sobre la secuenciación de páginas en un formulario web, consulte [Definición de secuenciación de páginas de formularios web](defining-web-forms-page-sequencing.md).
+  >[!NOTE]
+  >
+  >Para obtener más información sobre la secuenciación de páginas en un formulario web, consulte [Definición de secuenciación de páginas de formularios web](defining-web-forms-page-sequencing.md).
 
 ### Personalización del contenido HTML {#personalizing-html-content}
 

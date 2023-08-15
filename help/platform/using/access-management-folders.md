@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '758'
 ht-degree: 100%
 
 ---
@@ -99,13 +99,13 @@ Para modificar los permisos, puede:
 
 * **Reemplazar un grupo o un operador**. Para ello, haga clic en uno de los grupos (u operadores) con derechos sobre la carpeta y seleccione un nuevo grupo (o un operador nuevo) en la lista desplegable:
 
-   ![](assets/s_ncs_user_folder_properties_security02.png)
+  ![](assets/s_ncs_user_folder_properties_security02.png)
 
 * **Autorizar un grupo o un operador**. Para ello, haga clic en el botón **[!UICONTROL Add]** y seleccione el grupo u operador al que desea conceder autorizaciones sobre esta carpeta.
 * **Prohibir un grupo o un operador**. Para ello, haga clic en **[!UICONTROL Delete]** y seleccione el grupo u operador cuya autorización sobre esta carpeta desea eliminar.
 * **Seleccione los derechos asignados a un grupo o a un operador**. Para ello, haga clic en el grupo u operador respectivo y, a continuación, seleccione los derechos de acceso que desee conceder y desmarque los demás.
 
-   ![](assets/s_ncs_user_folder_properties_security03.png)
+  ![](assets/s_ncs_user_folder_properties_security03.png)
 
 ### Propagación de permisos {#propagate-permissions}
 

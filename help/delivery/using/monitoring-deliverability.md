@@ -2,13 +2,13 @@
 product: campaign
 title: Monitorización de la entregabilidad en Adobe Campaign
 description: Obtenga información acerca de las herramientas y las directrices sobre la monitorización de la entregabilidad en Adobe Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability
 exl-id: e4caa316-242f-46cd-a20b-a5eee5a0c456
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '543'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ También puede utilizar las siguientes herramientas:
    * **[!UICONTROL Hard bounces]** indican la calidad de los datos. Este valor debe ser inferior al 2 %.
    * **[!UICONTROL Soft bounces]** indican reputación. Este valor no debe ser superior al 10 % para un ISP determinado.
 
-   Para obtener más información, consulte la sección [Estadísticas de envío](../../reporting/using/global-reports.md#delivery-statistics).
+  Para obtener más información, consulte la sección [Estadísticas de envío](../../reporting/using/global-reports.md#delivery-statistics).
 * De manera más general, el [panel de envío](about-delivery-monitoring.md) le permite acceder a:
    * el [resumen del envío](delivery-dashboard.md#delivery-summary), que muestra el detalle del envío y el número de mensajes que se van a enviar, procesados y enviados con éxito;
    * los [registros de envío y el historial](delivery-dashboard.md#delivery-logs-and-history), que muestran qué destinatario se ha excluido y por qué;

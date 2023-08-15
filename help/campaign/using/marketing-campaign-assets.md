@@ -2,12 +2,12 @@
 product: campaign
 title: Documentos de campañas de marketing y descripciones del envío
 description: Obtenga más información sobre los documentos de campañas de marketing y las descripciones del envío
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '762'
 ht-degree: 100%
 
 ---
@@ -89,19 +89,19 @@ Una descripción puede contener elementos y campos de personalización, recursos
 * Los elementos pueden ser documentos físicos, por ejemplo, a los que se hace referencia y que se describen aquí y se adjuntan al envío.
 * Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en entregas para un objetivo específico (oferta de bienvenida, descuento, etc.) Se crean en Adobe Campaign y se importan en el esquema mediante el enlace **[!UICONTROL Import personalization fields...]**.
 
-   ![](assets/s_ncs_user_op_add_composition_field.png)
+  ![](assets/s_ncs_user_op_add_composition_field.png)
 
-   También pueden crearse directamente en la descripción haciendo clic en el icono **[!UICONTROL Add]** a la derecha del área de la lista.
+  También pueden crearse directamente en la descripción haciendo clic en el icono **[!UICONTROL Add]** a la derecha del área de la lista.
 
-   ![](assets/s_ncs_user_op_add_composition_field_button.png)
+  ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
 * Los recursos son recursos de marketing generados en el panel de recursos de marketing, al que se accede mediante el vínculo **[!UICONTROL Resources]** de la pestaña **[!UICONTROL Campaigns]**.
 
-   ![](assets/s_ncs_user_mkg_resource_ovv.png)
+  ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
-   >[!NOTE]
-   >
-   >Para obtener más información sobre recursos de marketing, consulte [esta sección](../../mrm/using/managing-marketing-resources.md).
+  >[!NOTE]
+  >
+  >Para obtener más información sobre recursos de marketing, consulte [esta sección](../../mrm/using/managing-marketing-resources.md).
 
 ### Selección de una descripción {#selecting-an-outline}
 

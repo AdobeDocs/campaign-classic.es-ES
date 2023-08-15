@@ -2,12 +2,12 @@
 product: campaign
 title: Prácticas recomendadas del flujo de trabajo
 description: Descubra las prácticas recomendadas del flujo de trabajo Campaña
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1694'
 ht-degree: 100%
 
 ---
@@ -30,17 +30,17 @@ Hay dos soluciones adicionales disponibles para ayudarle:
 
 * **Mantener el resultado de las poblaciones provisionales entre dos ejecuciones**
 
-   Esta opción mantiene las tablas temporales entre dos ejecuciones de un flujo de trabajo. Está disponible en la pestaña **[!UICONTROL General]** de las propiedades del flujo de trabajo y se puede utilizar para fines de desarrollo y prueba para controlar los datos y comprobar los resultados. Puede utilizar esta opción en entornos de desarrollo, pero nunca en entornos de producción. Si mantiene las tablas temporales, el tamaño de la base de datos puede aumentar significativamente y finalmente alcanzar el límite de tamaño. Además, ralentiza la copia de seguridad.
+  Esta opción mantiene las tablas temporales entre dos ejecuciones de un flujo de trabajo. Está disponible en la pestaña **[!UICONTROL General]** de las propiedades del flujo de trabajo y se puede utilizar para fines de desarrollo y prueba para controlar los datos y comprobar los resultados. Puede utilizar esta opción en entornos de desarrollo, pero nunca en entornos de producción. Si mantiene las tablas temporales, el tamaño de la base de datos puede aumentar significativamente y finalmente alcanzar el límite de tamaño. Además, ralentiza la copia de seguridad.
 
-   Solo se conservan las tablas de trabajo de la última ejecución del flujo de trabajo. El flujo de trabajo **[!UICONTROL cleanup]**, que se ejecuta diariamente, depura todas las tablas de trabajo de ejecuciones previas.
+  Solo se conservan las tablas de trabajo de la última ejecución del flujo de trabajo. El flujo de trabajo **[!UICONTROL cleanup]**, que se ejecuta diariamente, depura todas las tablas de trabajo de ejecuciones previas.
 
-   >[!CAUTION]
-   >
-   >Esta opción nunca se debe marcar en un flujo de trabajo de producción. Esta opción se utiliza para analizar los resultados y está diseñada únicamente para fines de prueba y, por lo tanto, solo debe usarse en entornos de ensayo o desarrollo.
+  >[!CAUTION]
+  >
+  >Esta opción nunca se debe marcar en un flujo de trabajo de producción. Esta opción se utiliza para analizar los resultados y está diseñada únicamente para fines de prueba y, por lo tanto, solo debe usarse en entornos de ensayo o desarrollo.
 
 * **Registrar las consultas SQL en el historial**
 
-   Esta opción, disponible en la pestaña **[!UICONTROL Execution]** en las propiedades del flujo de trabajo, registra todas las consultas SQL generadas por la herramienta desde las diferentes actividades. Es una buena forma de ver lo que realmente se ejecuta en la plataforma. Sin embargo, esta opción solo debe utilizarse temporalmente durante el desarrollo y no activarse en la producción.
+  Esta opción, disponible en la pestaña **[!UICONTROL Execution]** en las propiedades del flujo de trabajo, registra todas las consultas SQL generadas por la herramienta desde las diferentes actividades. Es una buena forma de ver lo que realmente se ejecuta en la plataforma. Sin embargo, esta opción solo debe utilizarse temporalmente durante el desarrollo y no activarse en la producción.
 
 Purgue los registros cuando ya no los necesite. El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]** o haciendo clic en el botón Actions ubicado en la barra de herramientas situada encima de la lista. Seleccione Purge history.
 Para aprender a purgar los registros, consulte esta [documentación](starting-a-workflow.md).
@@ -142,7 +142,7 @@ El nombre de la actividad se puede encontrar en la pestaña **[!UICONTROL Advanc
 * Inicie siempre el flujo de trabajo con una actividad **[!UICONTROL Start]** o una actividad **[!UICONTROL Scheduler]**. Si es relevante, también puede utilizar una actividad **[!UICONTROL External signal]**.
 * Al crear el flujo de trabajo, utilice solamente una actividad **[!UICONTROL Scheduler]** por rama. Si la misma rama de un flujo de trabajo tiene varios planificadores (vinculados entre sí), el número de tareas que se van a ejecutar se multiplica exponencialmente, lo cual sobrecarga considerablemente la base de datos. Esta regla también se aplica para todas las actividades con una pestaña de **[!UICONTROL Scheduling & History]**. Más información sobre [Programación](scheduler.md).
 
-   ![](assets/wf-scheduler.png)
+  ![](assets/wf-scheduler.png)
 
 * Utilice las actividades **[!UICONTROL End]** para cada flujo de trabajo. Esto permite a Adobe Campaign liberar espacio temporal utilizado para los cálculos dentro de los flujos de trabajo. Para obtener más información, consulte [Inicio y finalización](start-and-end.md).
 

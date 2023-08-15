@@ -2,12 +2,12 @@
 product: campaign
 title: Audiencia objetivo de la campaña de marketing
 description: Aprenda a definir la audiencia de las campañas de marketing
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1492'
 ht-degree: 100%
 
 ---
@@ -99,72 +99,73 @@ Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la
 
    * El icono **[!UICONTROL Start]** permite iniciar el flujo de trabajo de destino. Al hacer clic en este icono, todas las actividades sin transición de entrada se activan (excepto los saltos de extremo final).
 
-      ![](assets/s_user_segmentation_start.png)
+     ![](assets/s_user_segmentation_start.png)
 
-      El servidor tiene en cuenta la solicitud, tal como muestra su estado:
+     El servidor tiene en cuenta la solicitud, tal como muestra su estado:
 
-      ![](assets/s_user_segmentation_start_status.png)
+     ![](assets/s_user_segmentation_start_status.png)
 
-      El estado del proceso cambia a **[!UICONTROL Started]**.
+     El estado del proceso cambia a **[!UICONTROL Started]**.
 
    * Puede reiniciar el flujo de trabajo de destino mediante el icono correspondiente de la barra de herramientas. Este comando puede resultar útil si el icono **[!UICONTROL Start]** no está disponible, por ejemplo cuando el flujo de trabajo de destino está detenido. En este caso, haga clic en el icono **[!UICONTROL Restart]** para anticipar el reinicio. El servidor tiene en cuenta la solicitud, como se muestra en el estado siguiente:
 
-      ![](assets/s_user_segmentation_restart_status.png)
+     ![](assets/s_user_segmentation_restart_status.png)
 
-      A continuación, el proceso introduce el estado **[!UICONTROL Started]**.
+     A continuación, el proceso introduce el estado **[!UICONTROL Started]**.
 
 * Detener o pausar
 
    * Los iconos de la barra de herramientas permiten detener o pausar un flujo de trabajo de objetivos en curso.
 
-      Al hacer clic en **[!UICONTROL Pause]**, las operaciones en curso **[!UICONTROL are not]** no se pausan, pero no se inicia ninguna otra actividad hasta el siguiente reinicio.
+     Al hacer clic en **[!UICONTROL Pause]**, las operaciones en curso **[!UICONTROL are not]** no se pausan, pero no se inicia ninguna otra actividad hasta el siguiente reinicio.
 
-      ![](assets/s_user_segmentation_pause.png)
+     ![](assets/s_user_segmentation_pause.png)
 
-      El servidor tiene en cuenta el comando, como muestra su estado:
+     El servidor tiene en cuenta el comando, como muestra su estado:
 
-      ![](assets/s_user_segmentation_pause_status.png)
+     ![](assets/s_user_segmentation_pause_status.png)
 
-      También puede pausar un flujo de trabajo de objetivos automáticamente cuando su ejecución alcanza una actividad determinada. Para ello, haga clic con el botón derecho en la actividad desde la que desea pausar el flujo de trabajo de objetivos y seleccione **[!UICONTROL Enable but do not execute]**.
+     También puede pausar un flujo de trabajo de objetivos automáticamente cuando su ejecución alcanza una actividad determinada. Para ello, haga clic con el botón derecho en la actividad desde la que desea pausar el flujo de trabajo de objetivos y seleccione **[!UICONTROL Enable but do not execute]**.
 
-      ![](assets/s_user_segmentation_donotexecute.png)
+     ![](assets/s_user_segmentation_donotexecute.png)
 
-      Esta configuración se muestra mediante un icono especial.
+     Esta configuración se muestra mediante un icono especial.
 
-      ![](assets/s_user_segmentation_pause_activity.png)
+     ![](assets/s_user_segmentation_pause_activity.png)
 
-      >[!NOTE]
-      >
-      >Esta opción es útil durante el diseño avanzado de campañas y las fases de prueba.
+     >[!NOTE]
+     >
+     >Esta opción es útil durante el diseño avanzado de campañas y las fases de prueba.
 
-      Haga clic en **[!UICONTROL Start]** para reanudar la ejecución.
+     Haga clic en **[!UICONTROL Start]** para reanudar la ejecución.
 
    * Haga clic en el icono **[!UICONTROL Stop]** para detener la ejecución en curso.
 
-      ![](assets/s_user_segmentation_stop.png)
+     ![](assets/s_user_segmentation_stop.png)
 
-      El servidor tiene en cuenta el comando, como muestra su estado:
+     El servidor tiene en cuenta el comando, como muestra su estado:
 
-      ![](assets/s_user_segmentation_stop_status.png)
-   También puede detener automáticamente un flujo de trabajo de objetivos cuando la ejecución alcance una actividad. Para ello, haga clic con el botón derecho en la actividad desde la que desea detener el flujo de trabajo de objetivos y seleccione **[!UICONTROL Do not activate]**.
+     ![](assets/s_user_segmentation_stop_status.png)
 
-   ![](assets/s_user_segmentation_donotactivate.png)
+  También puede detener automáticamente un flujo de trabajo de objetivos cuando la ejecución alcance una actividad. Para ello, haga clic con el botón derecho en la actividad desde la que desea detener el flujo de trabajo de objetivos y seleccione **[!UICONTROL Do not activate]**.
 
-   ![](assets/s_user_segmentation_unactivation.png)
+  ![](assets/s_user_segmentation_donotactivate.png)
 
-   Esta configuración se muestra mediante un icono especial.
+  ![](assets/s_user_segmentation_unactivation.png)
 
-   >[!NOTE]
-   >
-   >Esta opción es útil durante el diseño avanzado de campañas y las fases de prueba.
+  Esta configuración se muestra mediante un icono especial.
+
+  >[!NOTE]
+  >
+  >Esta opción es útil durante el diseño avanzado de campañas y las fases de prueba.
 
 * Interrupción incondicional
 
-   En el explorador, seleccione **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** para acceder y utilizar cada flujo de trabajo de campaña.
+  En el explorador, seleccione **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** para acceder y utilizar cada flujo de trabajo de campaña.
 
-   Puede detener el flujo de trabajo de forma incondicional haciendo clic en el icono **[!UICONTROL Actions]** y seleccionando Interrupción **[!UICONTROL Unconditional]**. Esta acción finaliza el flujo de trabajo de la campaña.
+  Puede detener el flujo de trabajo de forma incondicional haciendo clic en el icono **[!UICONTROL Actions]** y seleccionando Interrupción **[!UICONTROL Unconditional]**. Esta acción finaliza el flujo de trabajo de la campaña.
 
-   ![](assets/s_user_segmentation_stop_unconditional.png)
+  ![](assets/s_user_segmentation_stop_unconditional.png)
 
 ## Adición de un grupo de control {#defining-a-control-group}
 

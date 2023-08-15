@@ -2,13 +2,13 @@
 product: campaign
 title: Configuración de muestras de población
 description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: A/B Testing
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '182'
 ht-degree: 100%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 100%
 
 * Haga doble clic en la actividad **[!UICONTROL Query]**.
 
-   ![](assets/use_case_abtesting_createrecipients_001.png)
+  ![](assets/use_case_abtesting_createrecipients_001.png)
 
 * Haga clic en el vínculo **[!UICONTROL Edit query]** y seleccione los destinatarios a quienes desee dirigirse.
 
-   ![](assets/use_case_abtesting_createrecipients_002.png)
+  ![](assets/use_case_abtesting_createrecipients_002.png)
 
 * Vincule la actividad **[!UICONTROL Query]** a la actividad **[!UICONTROL Split]**.
 
-   ![](assets/use_case_abtesting_createrecipients_003.png)
+  ![](assets/use_case_abtesting_createrecipients_003.png)
 
 ## Configuración de la actividad División {#configuring-the-split-activity}
 
@@ -39,46 +39,46 @@ Esta actividad permite crear varias poblaciones: la que recibe la entrega A, la 
 
    * Haga doble clic en la actividad **[!UICONTROL Split]**.
 
-      ![](assets/use_case_abtesting_createrecipients_004.png)
+     ![](assets/use_case_abtesting_createrecipients_004.png)
 
    * En la pestaña existente, cambie la etiqueta a población A.
 
-      ![](assets/use_case_abtesting_createrecipients_005.png)
+     ![](assets/use_case_abtesting_createrecipients_005.png)
 
    * Seleccione la opción **[!UICONTROL Limit the selected records]**.
 
-      ![](assets/use_case_abtesting_createrecipients_006.png)
+     ![](assets/use_case_abtesting_createrecipients_006.png)
 
    * Haga clic en el vínculo **[!UICONTROL Edit]**, seleccione **[!UICONTROL Activate random sampling]** y haga clic en **[!UICONTROL Next]**.
 
-      ![](assets/use_case_abtesting_createrecipients_007.png)
+     ![](assets/use_case_abtesting_createrecipients_007.png)
 
    * Defina el umbral en 10 % y haga clic en **[!UICONTROL Finish]**.
 
-      ![](assets/use_case_abtesting_createrecipients_008.png)
+     ![](assets/use_case_abtesting_createrecipients_008.png)
 
 1. Creación de la población B:
 
    * Haga clic en **[!UICONTROL Add]** para crear una nueva pestaña para la población B.
 
-      ![](assets/use_case_abtesting_createrecipients_009.png)
+     ![](assets/use_case_abtesting_createrecipients_009.png)
 
    * Limite la población al 10% como se mostró anteriormente.
 
-      ![](assets/use_case_abtesting_createrecipients_010.png)
+     ![](assets/use_case_abtesting_createrecipients_010.png)
 
 1. Creación de la población restante:
 
    * Vaya a la pestaña **[!UICONTROL General]**.
 
-      ![](assets/use_case_abtesting_createrecipients_011.png)
+     ![](assets/use_case_abtesting_createrecipients_011.png)
 
    * Seleccione **[!UICONTROL Generate complement]**.
 
-      ![](assets/use_case_abtesting_createrecipients_012.png)
+     ![](assets/use_case_abtesting_createrecipients_012.png)
 
    * Cambie la etiqueta para especificar que esta población no incluye A ni B y haga clic en **[!UICONTROL OK]** para cerrar la actividad.
 
-      ![](assets/use_case_abtesting_createrecipients_013.png)
+     ![](assets/use_case_abtesting_createrecipients_013.png)
 
 Ahora puede crear las dos plantillas de envío. [Más información](a-b-testing-uc-delivery-templates.md)).

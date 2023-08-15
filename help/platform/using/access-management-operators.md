@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1156'
 ht-degree: 100%
 
 ---
@@ -102,31 +102,31 @@ El enlace **[!UICONTROL Edit the access parameters...]** permite acceder a las s
 
 * La opción **[!UICONTROL Disable account]** permite desactivar la cuenta del operador: este deja de tener acceso a Adobe Campaign.
 
-   >[!NOTE]
-   >
-   >Aunque su cuenta esté deshabilitada, el operador puede recibir alertas o notificaciones de Campaign. Para dejar de enviar notificaciones de Campaign a este operador, Adobe recomienda eliminar la dirección de correo electrónico de su perfil.
+  >[!NOTE]
+  >
+  >Aunque su cuenta esté deshabilitada, el operador puede recibir alertas o notificaciones de Campaign. Para dejar de enviar notificaciones de Campaign a este operador, Adobe recomienda eliminar la dirección de correo electrónico de su perfil.
 
 * La opción **[!UICONTROL Forbid access from the rich client]** permite restringir el uso de Adobe Campaign al [acceso Web](../../platform/using/adobe-campaign-workspace.md#console-and-web-access) o a través de API: el acceso a la consola del cliente de Adobe Campaign ya no está disponible.
 * Es posible vincular una zona de seguridad al operador. Para obtener más información, consulte [esta página](../../installation/using/security-zones.md).
 * También puede definir una máscara IP de confianza mediante el vínculo apropiado.
 
-   El operador puede conectarse a Adobe Campaign sin introducir su contraseña si su dirección IP está en la lista.
+  El operador puede conectarse a Adobe Campaign sin introducir su contraseña si su dirección IP está en la lista.
 
-   También se puede especificar un conjunto de direcciones IP autorizado que pueden conectarse sin contraseña, como en el siguiente ejemplo:
+  También se puede especificar un conjunto de direcciones IP autorizado que pueden conectarse sin contraseña, como en el siguiente ejemplo:
 
-   ![](assets/operator_trustip.png)
+  ![](assets/operator_trustip.png)
 
-   >[!NOTE]
-   >
-   >Para mantener el acceso a su plataforma segura, esta opción debe utilizarse con cuidado.
+  >[!NOTE]
+  >
+  >Para mantener el acceso a su plataforma segura, esta opción debe utilizarse con cuidado.
 
 * La opción **[!UICONTROL Restrict to information found in sub-folders of:]** permite limitar los derechos atribuidos al operador de una carpeta. El usuario solo puede ver las subcarpetas del nodo especificado en esta opción:
 
-   ![](assets/s_ncs_user_restrictions_operators.png)
+  ![](assets/s_ncs_user_restrictions_operators.png)
 
-   >[!IMPORTANT]
-   >
-   >Se trata de una restricción muy estricta y debe utilizarse con precaución. Un operador registrado con este tipo de derechos puede ver el contenido de la carpeta especificada y no tiene acceso a ningún otro nodo del árbol mediante el navegador. Sin embargo, según las funcionalidades a las que tenga acceso este operador (por ejemplo, flujos de trabajo), el usuario puede mostrar datos que normalmente se almacenan en nodos a los que no se puede acceder.
+  >[!IMPORTANT]
+  >
+  >Se trata de una restricción muy estricta y debe utilizarse con precaución. Un operador registrado con este tipo de derechos puede ver el contenido de la carpeta especificada y no tiene acceso a ningún otro nodo del árbol mediante el navegador. Sin embargo, según las funcionalidades a las que tenga acceso este operador (por ejemplo, flujos de trabajo), el usuario puede mostrar datos que normalmente se almacenan en nodos a los que no se puede acceder.
 
 ### Comprobación de configuración {#check-settings}
 
@@ -136,15 +136,15 @@ Puede acceder a:
 
 * La lista de derechos en carpetas vinculadas al operador.
 
-   ![](assets/operator_folder_permissions.png)
+  ![](assets/operator_folder_permissions.png)
 
-   >[!NOTE]
-   >
-   >Para obtener más información, consulte [Administración de acceso a carpetas](#folder-access-management),
+  >[!NOTE]
+  >
+  >Para obtener más información, consulte [Administración de acceso a carpetas](#folder-access-management),
 
 * El registro de aprobaciones del operador.
 
-   ![](assets/operator_profile_validations.png)
+  ![](assets/operator_profile_validations.png)
 
 * La lista de foros de debate a los que están suscritas.
 * Los eventos en el calendario.

@@ -2,12 +2,12 @@
 product: campaign
 title: Definición de aprobaciones
 description: Las aprobaciones permiten a los operadores tomar las decisiones que rigen los flujos de trabajo o confirmar su ejecución continuada
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Approvals
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '848'
 ht-degree: 100%
 
 ---
@@ -89,15 +89,15 @@ Puede crear cuatro tipos de caducidades:
 * **Delay before a given date**: la caducidad se calcula restando un periodo desde la fecha especificada.
 * **Expiration calculated by script**: la caducidad se calcula mediante JavaScript.
 
-   En el ejemplo siguiente se calcula una caducidad 24 horas antes de que se inicie la entrega (identificado mediante **vars.deliveryId**):
+  En el ejemplo siguiente se calcula una caducidad 24 horas antes de que se inicie la entrega (identificado mediante **vars.deliveryId**):
 
-   ```
-   var delivery = nms.delivery.get(vars.deliveryId)
-   var expiration = delivery.scheduling.contactDate
-   var oneDay = 1000*60*60*24
-   expiration.setTime(expiration.getTime() - oneDay)
-   return expiration
-   ```
+  ```
+  var delivery = nms.delivery.get(vars.deliveryId)
+  var expiration = delivery.scheduling.contactDate
+  var oneDay = 1000*60*60*24
+  expiration.setTime(expiration.getTime() - oneDay)
+  return expiration
+  ```
 
 ## Aprobación múltiple {#multiple-approval}
 

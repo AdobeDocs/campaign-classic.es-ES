@@ -3,7 +3,7 @@ product: campaign
 title: Duplicación de entornos
 description: Duplicación de entornos
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
@@ -12,7 +12,7 @@ exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '1314'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -66,7 +66,7 @@ Para que este proceso funcione, los entornos de origen y destino deben tener el 
 
 Esta sección le ayudará a comprender los pasos necesarios para transferir un entorno de origen a un entorno de destino mediante un caso práctico: nuestro objetivo aquí es restaurar un entorno de producción (**picar** ) a un entorno de desarrollo (**dev** ) para trabajar en un contexto lo más cercano posible a la plataforma &quot;en directo&quot;.
 
-Los siguientes pasos deben realizarse con bueno cuidado: es posible que algunos procesos aún estén en curso cuando se copian las bases de datos del entorno de origen. La cauterización (paso 3 a continuación) evita que los mensajes se envíen dos veces y mantiene la coherencia de los datos.
+Los siguientes pasos deben realizarse con mucho cuidado: es posible que algunos procesos aún estén en curso cuando se copian las bases de datos del entorno de origen. La cauterización (paso 3 a continuación) evita que los mensajes se envíen dos veces y mantiene la coherencia de los datos.
 
 >[!IMPORTANT]
 >

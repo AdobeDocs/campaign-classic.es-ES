@@ -2,12 +2,12 @@
 product: campaign
 title: Cómo utilizar los datos de flujo de trabajo
 description: Descubra cómo utilizar los datos de flujo de trabajo
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Data Management
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '415'
 ht-degree: 100%
 
 ---
@@ -26,15 +26,15 @@ Los datos de la base de datos de Adobe Campaign y de las listas existentes puede
 
 * La actividad **[!UICONTROL List update]** permite almacenar tablas de trabajo en una lista de datos.
 
-   Puede seleccionar una lista existente o crearla. En este caso, se calculan el nombre y, posiblemente, la carpeta de registros.
+  Puede seleccionar una lista existente o crearla. En este caso, se calculan el nombre y, posiblemente, la carpeta de registros.
 
-   ![](assets/s_user_create_list.png)
+  ![](assets/s_user_create_list.png)
 
-   Consulte [Actualización de listas](list-update.md).
+  Consulte [Actualización de listas](list-update.md).
 
 * La actividad **[!UICONTROL Update data]** realiza una actualización en masa de los campos de la base de datos.
 
-   Para obtener más información, consulte [Actualización de datos](update-data.md).
+  Para obtener más información, consulte [Actualización de datos](update-data.md).
 
 ### Gestión de suscripciones y bajas {#subscription-unsubscription-management}
 

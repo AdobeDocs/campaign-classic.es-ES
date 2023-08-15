@@ -8,7 +8,7 @@ role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 source-git-commit: be57635a6165790b8c8964d106ed0a3cb76c63af
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Adobe Campaign permite coordinar la creación de campañas de marketing conversa
 
 ## Funcionalidades clave {#key-capabilities}
 
-Adobe Campaign ofrece una plataforma para diseñar experiencias multicanal para los clientes y proporciona un entorno para la organización visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal.
+Adobe Campaign ofrece una plataforma para diseñar experiencias multicanal para los clientes y proporciona un entorno para la orquestación visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal.
 
 El ciclo de vida de la campaña de marketing de Adobe Campaign ilustra las áreas principales de funcionalidad del producto:
 

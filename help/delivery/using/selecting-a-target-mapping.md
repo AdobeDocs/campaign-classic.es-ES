@@ -2,13 +2,13 @@
 product: campaign
 title: Selección de una asignación de destino
 description: Obtenga información sobre cómo asignar destinos
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Delivery Templates
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '192'
 ht-degree: 100%
 
 ---

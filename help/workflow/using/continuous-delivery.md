@@ -2,17 +2,17 @@
 product: campaign
 title: Entrega continua
 description: Entrega continua
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Channels Activity
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '371'
 ht-degree: 100%
 
 ---
 
-# Entrega continua{#continuous-delivery}
+# Envío continuo{#continuous-delivery}
 
 
 

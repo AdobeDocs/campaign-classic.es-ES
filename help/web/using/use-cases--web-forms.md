@@ -2,13 +2,13 @@
 product: campaign
 title: "Ejemplos de uso: formularios web"
 description: "Ejemplos de uso: formularios web"
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '969'
 ht-degree: 100%
 
 ---
@@ -184,7 +184,7 @@ La suscripción al boletín informativo implica los pasos siguientes:
    * ya no están en lista de bloqueados,
    * están suscritos al servicio informativo.
 
-      ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
+     ![](assets/s_ncs_admin_survey_double-opt-in_sample_9.png)
 
 ## Visualización de distintas opciones en función de los valores seleccionados {#displaying-different-options-depending-on-the-selected-values}
 
@@ -194,11 +194,11 @@ En el ejemplo siguiente, se solicita al usuario que seleccione un tipo de vehíc
 
 * Cuando el usuario selecciona “vehículo privado”, se ofrecen las opciones “compacto” y “monovolumen”.
 
-   ![](assets/s_ncs_admin_survey_condition_sample2.png)
+  ![](assets/s_ncs_admin_survey_condition_sample2.png)
 
 * Cuando el usuario selecciona “vehículo comercial”, se muestra una selección en una lista desplegable:
 
-   ![](assets/s_ncs_admin_survey_condition_sample1.png)
+  ![](assets/s_ncs_admin_survey_condition_sample1.png)
 
 En este ejemplo, el tipo de vehículo no se almacena en la base de datos. La lista desplegable se configura de la siguiente manera:
 
@@ -212,8 +212,8 @@ La visualización condicional de la columna derecha se configura en los contened
 
 * Visibilidad condicional de campos para un vehículo privado:
 
-   ![](assets/s_ncs_admin_survey_condition_config2.png)
+  ![](assets/s_ncs_admin_survey_condition_config2.png)
 
 * Visibilidad condicional de campos para un vehículo comercial:
 
-   ![](assets/s_ncs_admin_survey_condition_config3.png)
+  ![](assets/s_ncs_admin_survey_condition_config3.png)

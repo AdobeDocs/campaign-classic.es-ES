@@ -2,12 +2,12 @@
 product: campaign
 title: Administración y personalización de listas
 description: Aprenda a examinar y configurar listas
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1158'
 ht-degree: 100%
 
 ---

@@ -2,13 +2,13 @@
 product: campaign
 title: Exclusión del seguimiento de aplicaciones web
 description: Exclusión del seguimiento de aplicaciones web
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Apps
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '682'
 ht-degree: 100%
 
 ---
@@ -42,11 +42,11 @@ Si el seguimiento web está activado, puede darse lo siguiente:
 * No tener banner.
 * Configure el banner manualmente en cada página: marque esta opción y seleccione el banner en cada página de las propiedades de página.
 
-   ![](assets/pageproperties.png)
+  ![](assets/pageproperties.png)
 
 * Agregue automáticamente el banner a todas las páginas: seleccione el banner directamente en las propiedades de la aplicación web.
 
-   ![](assets/optoutconfig.png)
+  ![](assets/optoutconfig.png)
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ Las API de cliente disponibles para personalizar el banner son:
 * **NL.ClientWebTracking.forbid()**: Establece el valor de la cookie de exclusión para prohibir el seguimiento web. El seguimiento web necesita la entrada de un usuario para prohibirlo.
 * **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**: Cierra el banner de la cookie de exclusión cuando el usuario ha hecho clic en el botón Aceptar o Rechazar. (durante la fase de propagación del evento de clic).
 
-   bannerDomElt {DOMElement}: el elemento DOM raíz del banner de la cookie que debe eliminarse.
+  bannerDomElt {DOMElement}: el elemento DOM raíz del banner de la cookie que debe eliminarse.
 
 * **NL.ClientWebTracking.hasUserPrefs()**: devuelve el valor verdadero si el usuario ha elegido sus preferencias de seguimiento web.
 * **NL.ClientWebTracking.getUserPrefs()**: Devuelve el valor de cookie de exclusión que define las preferencias del usuario.
@@ -93,23 +93,23 @@ Si tiene que escribir una JSSP, las API de servidor están disponibles:
 
 * **NL.ServerWebTracking.generateOptOutBanner(escapeJs)**: Genera el marcado para el banner de exclusión que se inserta en la página de JSSP.
 
-   **escapeJs {Boolean}**: verdadero cuando se debe escapar el marcado generado para utilizarlo en JavaScript.
+  **escapeJs {Boolean}**: verdadero cuando se debe escapar el marcado generado para utilizarlo en JavaScript.
 
-   Devuelve el HTML del marcado del banner de exclusión que debe publicarse en la página.
+  Devuelve el HTML del marcado del banner de exclusión que debe publicarse en la página.
 
 * **NL.ServerWebTracking._displayOptOutBanner()**
 
-   Devuelve el valor verdadero si se debe mostrar el banner de exclusión después de que el administrador lo seleccione.
+  Devuelve el valor verdadero si se debe mostrar el banner de exclusión después de que el administrador lo seleccione.
 
-   Se llama a este código cuando el administrador ya ha elegido utilizar el banner de exclusión del seguimiento web.
+  Se llama a este código cuando el administrador ya ha elegido utilizar el banner de exclusión del seguimiento web.
 
-   El banner debe mostrarse si el usuario aún no ha elegido si participar en el seguimiento o no.
+  El banner debe mostrarse si el usuario aún no ha elegido si participar en el seguimiento o no.
 
 * **NL.ServerWebTracking.renderOptOutBanner(escapeJs)**
 
-   Renderiza el marcado del banner de exclusión al insertarlo en la página JSSP. Se denomina igual que en Jssp entre &lt;% %>
+  Renderiza el marcado del banner de exclusión al insertarlo en la página JSSP. Se denomina igual que en Jssp entre &lt;% %>
 
-   **escapeJs {Boolean}**: verdadero cuando se debe escapar el marcado generado para utilizarlo en JavaScript.
+  **escapeJs {Boolean}**: verdadero cuando se debe escapar el marcado generado para utilizarlo en JavaScript.
 
 Ejemplo de JSSP:
 

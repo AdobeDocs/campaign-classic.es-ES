@@ -1,9 +1,9 @@
 ---
 product: campaign
-title: Configuración del acceso a Vertica analytics
-description: Obtenga información sobre cómo configurar el acceso a los Verticas analytics en FDA
+title: Configuración del acceso a las Verticas analytics
+description: Obtenga información sobre cómo configurar el acceso a las Verticas analytics en FDA
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: connectors
@@ -11,11 +11,11 @@ exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 25%
+ht-degree: 26%
 
 ---
 
-# Configuración del acceso a Vertica analytics {#configure-fda-vertica}
+# Configuración del acceso a las Verticas analytics {#configure-fda-vertica}
 
 
 

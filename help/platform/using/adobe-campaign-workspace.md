@@ -2,14 +2,14 @@
 product: campaign
 title: Espacio de trabajo de Adobe Campaign
 description: Aprenda a utilizar y personalizar el espacio de trabajo de Campaign
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '916'
 ht-degree: 100%
 
 ---
@@ -90,11 +90,11 @@ Las listas están disponibles a través del vínculo **[!UICONTROL Lists]** en l
 
 * Al hacer clic en una funcionalidad principal o en un vínculo, la página correspondiente reemplaza a la página actual. Para volver a la página anterior, haga clic en el botón **[!UICONTROL Back]** de la barra de herramientas. Para volver a la página principal, haga clic en el botón **[!UICONTROL Home]**.
 
-   ![](assets/d_ncs_user_interface_back_home_buttons.png)
+  ![](assets/d_ncs_user_interface_back_home_buttons.png)
 
 * En el caso de un menú o acceso directo a una pantalla de visualización (como una aplicación web, programa, entrega, informe, etc.), la página coincidente se muestra en otra pestaña. Esto permite navegar desde una página a otra mediante las pestañas.
 
-   ![](assets/d_ncs_user_interface_tabs.png)
+  ![](assets/d_ncs_user_interface_tabs.png)
 
 ### Creación de un elemento {#creating-an-element}
 

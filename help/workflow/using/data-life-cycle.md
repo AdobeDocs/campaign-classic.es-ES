@@ -2,12 +2,12 @@
 product: campaign
 title: Ciclo de vida de datos
 description: Obtenga más información sobre el ciclo de vida de los datos en flujos de trabajo
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Data Management
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '516'
 ht-degree: 100%
 
 ---
@@ -28,17 +28,17 @@ Para ello, seleccione el menú correspondiente:
 
 * Visualización del público objetivo
 
-   Este menú muestra los datos disponibles del público objetivo así como la estructura de la tabla de trabajo (la pestaña **[!UICONTROL Schema]**).
+  Este menú muestra los datos disponibles del público objetivo así como la estructura de la tabla de trabajo (la pestaña **[!UICONTROL Schema]**).
 
-   ![](assets/wf-right-click-display.png)
+  ![](assets/wf-right-click-display.png)
 
-   Para obtener más información, consulte [Esquema de tablas de trabajo y flujo de trabajo](monitoring-workflow-execution.md#worktables-and-workflow-schema).
+  Para obtener más información, consulte [Esquema de tablas de trabajo y flujo de trabajo](monitoring-workflow-execution.md#worktables-and-workflow-schema).
 
 * Análisis del público objetivo
 
-   Este menú permite acceder al asistente de análisis descriptivo que permite producir las estadísticas y los informes sobre los datos de transición.
+  Este menú permite acceder al asistente de análisis descriptivo que permite producir las estadísticas y los informes sobre los datos de transición.
 
-   Para obtener más información, consulte [esta sección](../../reporting/using/using-the-descriptive-analysis-wizard.md).
+  Para obtener más información, consulte [esta sección](../../reporting/using/using-the-descriptive-analysis-wizard.md).
 
 Los datos del público objetivo se depuran mientras se ejecuta el flujo de trabajo. Solo se puede acceder a la última tabla de trabajo. Puede configurar el flujo de trabajo para que todas las tablas de trabajo permanezcan accesibles: marque la opción **[!UICONTROL Keep the result of interim populations between two executions]** en las propiedades del flujo de trabajo.
 

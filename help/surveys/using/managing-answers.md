@@ -2,13 +2,13 @@
 product: campaign
 title: Administración de respuestas
 description: Aprenda a administrar las respuestas a las encuestas
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '851'
 ht-degree: 100%
 
 ---
@@ -138,7 +138,7 @@ Las puntuaciones se pueden utilizar en pruebas o secuencias de comandos.
 
 * Para utilizar puntuaciones en pruebas, utilice el campo **[!UICONTROL Score]** de la fórmula de cálculo de prueba, como se muestra a continuación:
 
-   ![](assets/s_ncs_admin_survey_score_in_a_test.png)
+  ![](assets/s_ncs_admin_survey_score_in_a_test.png)
 
 * Puede utilizar la puntuación en una secuencia de comandos.
 
@@ -146,18 +146,18 @@ Las puntuaciones se pueden utilizar en pruebas o secuencias de comandos.
 
 * En una encuesta, la siguiente página permite asignar distintas puntuaciones a los usuarios según el valor seleccionado en la lista desplegable:
 
-   ![](assets/s_ncs_admin_survey_score_exa.png)
+  ![](assets/s_ncs_admin_survey_score_exa.png)
 
 * Puede combinar esta puntuación con un segundo valor, en función de la opción seleccionada:
 
-   ![](assets/s_ncs_admin_survey_score_exb.png)
+  ![](assets/s_ncs_admin_survey_score_exb.png)
 
 * Cuando el usuario hace clic en el botón **[!UICONTROL Next]**, se añaden dos valores.
 
-   ![](assets/s_ncs_admin_survey_score_exe.png)
+  ![](assets/s_ncs_admin_survey_score_exe.png)
 
 * Se pueden aplicar condiciones para que la página se muestre según la puntuación. Se configura de la siguiente manera:
 
-   ![](assets/s_ncs_admin_survey_score_exd.png)
+  ![](assets/s_ncs_admin_survey_score_exd.png)
 
-   ![](assets/s_ncs_admin_survey_score_exg.png)
+  ![](assets/s_ncs_admin_survey_score_exg.png)

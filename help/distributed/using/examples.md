@@ -2,12 +2,12 @@
 product: campaign
 title: Ejemplos de marketing distribuido
 description: Ejemplos de marketing distribuido
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1300'
 ht-degree: 100%
 
 ---
@@ -42,35 +42,35 @@ En este ejemplo, la actividad de la **solicitud de campaña** incluye:
 
 * campos introducidos por la entidad local durante la solicitud,
 
-   ![](assets/mkg_dist_web_app2.png)
+  ![](assets/mkg_dist_web_app2.png)
 
 * vínculos que permiten a la entidad local evaluar la campaña (por ejemplo: el objetivo, el presupuesto, el contenido, etc.),
 
-   ![](assets/mkg_dist_web_app3.png)
+  ![](assets/mkg_dist_web_app3.png)
 
 * secuencias de comandos que permiten calcular y mostrar el resultado de estas evaluaciones.
 
-   ![](assets/mkg_dist_web_app4.png)
+  ![](assets/mkg_dist_web_app4.png)
 
 En este ejemplo se utilizan las siguientes API:
 
 * Para la evaluación de destino,
 
-   ```
-   var res = nms.localOrder.EvaluateTarget(ctx.localOrder);
-   ```
+  ```
+  var res = nms.localOrder.EvaluateTarget(ctx.localOrder);
+  ```
 
 * Para la evaluación del presupuesto,
 
-   ```
-   var res = nms.localOrder.EvaluateDeliveryBudget(ctx.@deliveryId, NL.XTK.parseNumber(ctx.@compt));
-   ```
+  ```
+  var res = nms.localOrder.EvaluateDeliveryBudget(ctx.@deliveryId, NL.XTK.parseNumber(ctx.@compt));
+  ```
 
 * Para la evaluación de contenido,
 
-   ```
-   var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
-   ```
+  ```
+  var res = nms.localOrder.EvaluateContent(ctx.localOrder, ctx.@deliveryId, "html", resSeed.@id);
+  ```
 
 ## Creación de una campaña de colaboración (por aprobación de destino) {#creating-a-collaborative-campaign--by-target-approval-}
 
@@ -219,7 +219,7 @@ Los pasos son los siguientes:
    * previsualizan el contenido de entrega,
    * aprobar su participación.
 
-      ![](assets/mkg_dist_use_case_form_8.png)
+     ![](assets/mkg_dist_use_case_form_8.png)
 
 1. El operador de validación de solicitudes aprueba su participación.
 

@@ -2,13 +2,13 @@
 product: campaign
 title: Contenido condicional
 description: Aprenda a añadir contenido condicional
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Personalization, Multilingual Messages
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '494'
 ht-degree: 100%
 
 ---
@@ -48,22 +48,22 @@ Para crear contenido condicional según el valor de un campo, aplique los pasos 
 
    * Seleccione el primer elemento de la expresión, **`<field>`** (de forma predeterminada, este elemento se resalta al insertar la expresión **if**), y haga clic en el icono de personalización para reemplazarlo por el campo de prueba.
 
-      ![](assets/s_ncs_user_conditional_content03.png)
+     ![](assets/s_ncs_user_conditional_content03.png)
 
    * Reemplace **`<value>`** por el valor del campo para el que se debe cumplir la condición. Este valor debe estar entre comillas.
    * Especifique el contenido que desea que se inserte cuando se cumpla la condición. Este contenido puede consistir en un texto, una imagen, un formulario, un vínculo de hipertexto, etc.
 
-      ![](assets/s_ncs_user_conditional_content04.png)
+     ![](assets/s_ncs_user_conditional_content04.png)
 
 1. Haga clic en la pestaña **[!UICONTROL Preview]** para ver el contenido del mensaje según el destinatario de la entrega:
 
    * Selección de un destinatario para el cual la condición es verdadera:
 
-      ![](assets/s_ncs_user_conditional_content05.png)
+     ![](assets/s_ncs_user_conditional_content05.png)
 
    * Selección de un destinatario para el cual la condición no es verdadera:
 
-      ![](assets/s_ncs_user_conditional_content06.png)
+     ![](assets/s_ncs_user_conditional_content06.png)
 
 Se pueden añadir otros casos y definir contenido diferente según los valores de uno o varios campos. Para ello, utilice **[!UICONTROL Conditional content > Else]** y **[!UICONTROL Conditional content > Else if]**. Estas expresiones se configuran del mismo modo que la expresión **if**.
 

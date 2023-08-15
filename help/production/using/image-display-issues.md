@@ -3,7 +3,7 @@ product: campaign
 title: Problemas de visualización de imágenes
 description: Problemas de visualización de imágenes
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Solo se aplica a Campaign Classic v7"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,7 +11,7 @@ exl-id: 62fa491e-3e83-422b-bcde-2bae2c1b676e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 

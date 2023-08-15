@@ -2,13 +2,13 @@
 product: campaign
 title: Envío, monitorización y seguimiento de SMS
 description: Obtenga información sobre cómo enviar, monitorizar y rastrear SMS en Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: SMS
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '970'
 ht-degree: 100%
 
 ---
@@ -34,13 +34,13 @@ Estas son las opciones disponibles:
 
 * **Dirección del remitente**: permite personalizar el nombre del remitente del envío con una cadena de caracteres alfanuméricos limitada a 11 caracteres. El campo no debe estar compuesto exclusivamente por números. Puede definir una condición para mostrar, por ejemplo, nombres distintos según el código de zona del destinatario:
 
-   ```
-   <% if( String(recipient.mobilePhone).indexOf("+1") == 0){ %>NeoShopUS<%} else {%>NeoShopWorld<%}%>
-   ```
+  ```
+  <% if( String(recipient.mobilePhone).indexOf("+1") == 0){ %>NeoShopUS<%} else {%>NeoShopWorld<%}%>
+  ```
 
-   >[!IMPORTANT]
-   >
-   >Compruebe la legislación de su país sobre la edición de nombres de remitente. También debe consultar si su operador ofrece esta funcionalidad.
+  >[!IMPORTANT]
+  >
+  >Compruebe la legislación de su país sobre la edición de nombres de remitente. También debe consultar si su operador ofrece esta funcionalidad.
 
 * **Modo de transmisión**: transmisión de mensaje por SMS.
 * **Prioridad**: nivel de importancia asignado a un mensaje. La prioridad **[!UICONTROL Normal]** está seleccionada de forma predeterminada. Pregunte al proveedor de servicios el coste de los SMS enviados con la prioridad **[!UICONTROL High]**.
@@ -72,17 +72,16 @@ El módulo **nlserver sms** consulta al enrutador SMS a intervalos regulares. Es
 
 * **Informes de estado**: vea los “logs” de envío para comprobar el estado de los mensajes.
 
-   >[!NOTE]
-   >
-   >Cada SMS enviado se vincula a una cuenta externa con su clave principal. De este modo:
-   >
-   > * Los informes de estado de una cuenta de SMS externa eliminada no se procesan correctamente.
-   > * Una cuenta SMS solo se puede vincular a una cuenta externa única para garantizar que los informes de estado se atribuyen a la cuenta correcta
-
+  >[!NOTE]
+  >
+  >Cada SMS enviado se vincula a una cuenta externa con su clave principal. De este modo:
+  >
+  > * Los informes de estado de una cuenta de SMS externa eliminada no se procesan correctamente.
+  > * Una cuenta SMS solo se puede vincular a una cuenta externa única para garantizar que los informes de estado se atribuyen a la cuenta correcta
 
 * **Baja**: los destinatarios que deseen dejar de recibir envíos SMS pueden devolver un mensaje que contenga la palabra STOP. Si su proveedor lo permite en los términos del contrato, puede recuperar mensajes mediante la actividad de flujo de trabajo de los **SMS de entrada** y, a continuación, crear una consulta para activar la opción **No volver a ponerse en contacto con este destinatario** para los destinatarios correspondientes.
 
-   Consulte la guía [Flujos de trabajo](../../workflow/using/architecture.md).
+  Consulte la guía [Flujos de trabajo](../../workflow/using/architecture.md).
 
 ## Esquema InSMS {#insms-schema}
 
@@ -94,11 +93,11 @@ El esquema InSMS contiene información relacionada con los SMS entrantes. Una de
 * **created**: fecha en la que se insertó el mensaje entrante en Adobe Campaign.
 * **extAccount**: Cuenta externa de Adobe Campaign.
 
-   >[!IMPORTANT]
-   >
-   >Los campos siguientes son específicos de NetSize.
-   >
-   >Si el operador utilizado no es NetSize, estos campos se consideran vacíos.
+  >[!IMPORTANT]
+  >
+  >Los campos siguientes son específicos de NetSize.
+  >
+  >Si el operador utilizado no es NetSize, estos campos se consideran vacíos.
 
 * **alias**: alias del mensaje entrante.
 * **separator**: separador entre el alias y el cuerpo del mensaje.

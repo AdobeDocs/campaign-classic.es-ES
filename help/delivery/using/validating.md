@@ -2,13 +2,13 @@
 product: campaign
 title: Validación
 description: Validación
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Direct Mail
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '253'
 ht-degree: 100%
 
 ---
@@ -42,6 +42,6 @@ Existen dos modos:
 * **[!UICONTROL Messages are considered sent after validation]** (modo predeterminado): en este modo de función, todos los broadlogs se actualizan cuando el operador confirma la entrega (su estado pasa de “Envío pendiente” a “Enviado”) y la entrega se establece automáticamente como **[!UICONTROL Finished]**.
 * **[!UICONTROL A file of results determines the messages that are sent and those that have failed]**: este modo permite actualizar los broadlogs a través de un archivo externo enviado por el proveedor de servicios. En este caso, se debe utilizar un flujo de trabajo que procese esta información para actualizar el estado del broadlog.
 
-   >[!NOTE]
-   >
-   >En este caso, el usuario debe cambiar también el estado a **[!UICONTROL Finished]** en cuanto se actualicen los broadlogs.
+  >[!NOTE]
+  >
+  >En este caso, el usuario debe cambiar también el estado a **[!UICONTROL Finished]** en cuanto se actualicen los broadlogs.

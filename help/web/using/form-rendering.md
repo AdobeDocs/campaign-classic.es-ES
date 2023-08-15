@@ -2,18 +2,18 @@
 product: campaign
 title: Renderización de formularios
 description: Renderización de formularios
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '999'
 ht-degree: 100%
 
 ---
 
-# Renderización de formularios{#form-rendering}
+# Procesamiento de formularios{#form-rendering}
 
 
 
@@ -80,7 +80,7 @@ Permite definir las siguientes propiedades:
 * **[!UICONTROL Lines]**: número de líneas de una zona del tipo **[!UICONTROL Multi-line text]**.
 * **[!UICONTROL Style inline]**: permite sobrecargar la hoja de estilos CSS con ajustes adicionales. Estos se separan con caracteres **;** como se muestra en el ejemplo siguiente:
 
-   ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
+  ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
 
 ### Definición de encabezados y pies de página {#defining-headers-and-footers}
 
@@ -148,11 +148,11 @@ En la ventana de selección de campos, se puede elegir entre los siguientes dato
 
 * El directorio principal contiene los parámetros del contexto del formulario. Los parámetros predeterminados son el identificador (que coincide con el identificador encriptado del destinatario), idioma y origen.
 
-   Para obtener más información, consulte [esta página](defining-web-forms-properties.md#form-url-parameters).
+  Para obtener más información, consulte [esta página](defining-web-forms-properties.md#form-url-parameters).
 
 * El subdirectorio **[!UICONTROL Recipients]** contiene los campos de entrada insertados en el formulario y almacenados en la base de datos.
 
-   Para obtener más información, consulte [Almacenamiento de datos en la base de datos](web-forms-answers.md#storing-data-in-the-database).
+  Para obtener más información, consulte [Almacenamiento de datos en la base de datos](web-forms-answers.md#storing-data-in-the-database).
 
 * El subdirectorio **[!UICONTROL Variables]** contiene las variables disponibles para este formulario. Para obtener más información, consulte [Almacenamiento de datos en una variable local](web-forms-answers.md#storing-data-in-a-local-variable).
 

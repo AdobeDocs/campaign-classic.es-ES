@@ -2,13 +2,13 @@
 product: campaign
 title: Formularios de entrada
 description: Aprenda a utilizar formularios de entrada en Campaign
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Data Management
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '844'
 ht-degree: 100%
 
 ---

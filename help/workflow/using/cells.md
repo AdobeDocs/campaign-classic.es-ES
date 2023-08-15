@@ -2,12 +2,12 @@
 product: campaign
 title: Celdas
 description: Celdas
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Targeting Activity
 exl-id: 7b562dba-7e4b-40a7-91db-7b9379de44ca
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '134'
 ht-degree: 100%
 
 ---

@@ -2,11 +2,11 @@
 product: campaign
 title: Centro de mensajes (Control)
 description: Centro de mensajes (Control)
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '162'
 ht-degree: 100%
 
 ---
@@ -21,9 +21,9 @@ El flujo de trabajo detallado a continuación está programado para ejecutarse c
 
 Para obtener más información, consulte estas secciones en función de la versión de Campaign:
 
-![](assets/do-not-localize/v7.jpeg)[  Documentación de Campaign v7](../../message-center/using/about-transactional-messaging.md)
+![](assets/do-not-localize/v7.jpeg)[Documentación de Campaign v7](../../message-center/using/about-transactional-messaging.md)
 
-![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html?lang=es)
+![](assets/do-not-localize/v8.png)[Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html?lang=es)
 
 
 <table> 

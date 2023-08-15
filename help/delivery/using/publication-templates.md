@@ -2,13 +2,13 @@
 product: campaign
 title: Plantillas de publicación
 description: Plantillas de publicación
-badge-v7: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="Also applies to Campaign v8"
+badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
+badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Templates
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '836'
 ht-degree: 100%
 
 ---
@@ -73,21 +73,21 @@ Estas son las opciones de publicación disponibles:
 * La opción **[!UICONTROL Multi-file generation]** activa un modo especial de publicación del documento. Esta opción consiste en rellenar una etiqueta de partición al principio de cada página del documento de salida. La generación del contenido genera un archivo para cada etiqueta de partición completada. Este modo se utiliza para generar minisitios a partir de un bloque de contenido. Para obtener más información, consulte [Generación de varios archivos](#multi-file-generation).
 * El campo **[!UICONTROL Location]** contiene el nombre del archivo de salida. El nombre puede estar compuesto por variables para generar un nombre de archivo automático.
 
-   Una variable se rellena con el siguiente formato: **`$(<xpath>)`**, donde **`<xpath>`** es la ruta de un campo del esquema de datos de la plantilla de publicación.
+  Una variable se rellena con el siguiente formato: **`$(<xpath>)`**, donde **`<xpath>`** es la ruta de un campo del esquema de datos de la plantilla de publicación.
 
-   El nombre de un archivo puede constar de un campo de tipo fecha. Para aplicar formato a este campo correctamente, utilice la función **$date-format**, utilizando la ruta del campo y el formato de salida como parámetros.
+  El nombre de un archivo puede constar de un campo de tipo fecha. Para aplicar formato a este campo correctamente, utilice la función **$date-format**, utilizando la ruta del campo y el formato de salida como parámetros.
 
-   De forma predeterminada, el formato de construcción del nombre de archivo utiliza las variables en los campos “@nombre” y “@fecha”:
+  De forma predeterminada, el formato de construcción del nombre de archivo utiliza las variables en los campos “@nombre” y “@fecha”:
 
-   ```
-   ct_$(@name)_$date-format(@date,'%4Y%2M%2D').htm
-   ```
+  ```
+  ct_$(@name)_$date-format(@date,'%4Y%2M%2D').htm
+  ```
 
-   El nombre de archivo generado tendrá el siguiente aspecto: ct_news12_20110901.htm.
+  El nombre de archivo generado tendrá el siguiente aspecto: ct_news12_20110901.htm.
 
-   >[!NOTE]
-   >
-   >Para obtener más información sobre la generación de contenido, consulte [Creación de una instancia de contenido](using-a-content-template.md#creating-a-content-instance).
+  >[!NOTE]
+  >
+  >Para obtener más información sobre la generación de contenido, consulte [Creación de una instancia de contenido](using-a-content-template.md#creating-a-content-instance).
 
 ### Entrega {#delivery}
 

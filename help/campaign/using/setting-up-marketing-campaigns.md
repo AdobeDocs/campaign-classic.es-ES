@@ -2,12 +2,12 @@
 product: campaign
 title: Creación de campañas de marketing
 description: Obtenga información sobre cómo crear y ejecutar campañas de marketing
-badge-v7-only: label="v7" type="Informative" tooltip="Applies to Campaign Classic v7 only"
+badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1260'
 ht-degree: 100%
 
 ---
