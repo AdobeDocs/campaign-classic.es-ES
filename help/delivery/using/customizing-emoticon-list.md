@@ -5,17 +5,16 @@ description: Obtenga información sobre cómo personalizar la lista de emoticono
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email, Push
+role: User, Data Engineer
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '454'
 ht-degree: 100%
 
 ---
 
 # Personalización de la lista de emoticonos {#customize-emoticons}
-
-
 
 La lista de emoticonos que se muestra en la ventana emergente se rige por una lista desglosada que permite mostrar valores en una lista para restringir las opciones que el usuario tiene para un campo determinado.
 El orden de lista de emoticonos se puede personalizar y también se pueden añadir otros emoticonos a la lista.
