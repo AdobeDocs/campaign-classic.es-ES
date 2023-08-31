@@ -7,16 +7,14 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
+workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 100%
 
 ---
 
 # Procesamiento de la bandeja de entrada{#inbox-rendering}
-
-
 
 ## Acerca del procesamiento de la bandeja de entrada {#about-inbox-rendering}
 

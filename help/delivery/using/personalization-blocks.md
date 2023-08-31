@@ -5,8 +5,9 @@ description: Aprenda a utilizar bloques de personalización
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Personalization
+role: User
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 100%
@@ -15,13 +16,11 @@ ht-degree: 100%
 
 # Bloques de personalización{#personalization-blocks}
 
-
-
 Los bloques personalizados son dinámicos, personalizados y contienen un procesamiento específico que puede insertar en las entregas. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un vínculo a una página espejo. Consulte [Inserción de bloques de personalización](#inserting-personalization-blocks).
 
 ![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#personalization-blocks-video)
 
-Se puede acceder a los bloques personalizados mediante el nodo **[!UICONTROL Resources > Campaign Management > Personalization blocks]** del explorador de Adobe Campaign. Hay varios bloques disponibles de forma predeterminada (consulte [Bloques de personalización predeterminados](#out-of-the-box-personalization-blocks)).
+Se puede acceder a los bloques personalizados mediante el nodo **[!UICONTROL Resources > Campaign Management > Personalization blocks]** de Adobe Campaign Explorer. Hay varios bloques disponibles de forma predeterminada (consulte [Bloques de personalización predeterminados](#out-of-the-box-personalization-blocks)).
 
 Tiene la posibilidad de definir nuevos bloques que le permitan optimizar la personalización de las entregas. Para obtener más información sobre esto, consulte [Definición de bloques de personalización propios](#defining-custom-personalization-blocks).
 
@@ -124,7 +123,7 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
 
 Se pueden definir nuevos campos personalizados para que se inserten desde el icono de campo personalizado en el menú **[!UICONTROL Include...]**. Estos campos se definen en bloques personalizados.
 
-Para crear un bloque personalizado, vaya al explorador y aplique los pasos siguientes:
+Para crear un bloque personalizado, vaya a Explorer y aplique los pasos siguientes:
 
 1. Haga clic en el nodo **[!UICONTROL Resources > Campaign Management > Personalization blocks]**.
 1. Haga clic con el botón derecho en la lista de bloques y seleccione **[!UICONTROL New]** .

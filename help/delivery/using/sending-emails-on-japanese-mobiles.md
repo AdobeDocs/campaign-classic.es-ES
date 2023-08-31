@@ -5,8 +5,9 @@ description: Aprenda a configurar, diseñar y enviar correos electrónicos que s
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email, Email Design
+role: User
 exl-id: 44634227-2340-49c4-b330-740c739ea551
-source-git-commit: 403227736e2e8c606204e9324d0afb5b71be62a5
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 100%
@@ -14,8 +15,6 @@ ht-degree: 100%
 ---
 
 # Envío de correos electrónicos en móviles japoneses {#sending-emails-on-japanese-mobiles}
-
-
 
 ## Formatos de correo electrónico para móviles japoneses {#email-formats-for-japanese-mobiles}
 

@@ -5,17 +5,16 @@ description: Aprenda a optimizar la entrega de mensajes
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability
+role: User
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Optimización de las entregas {#optimize-delivery}
-
-
 
 Antes de empezar a crear envíos, puede realizar varias acciones para proteger y optimizar el proceso de envío de forma ascendente.
 
@@ -47,7 +46,7 @@ Para llegar a la bandeja de entrada de sus destinatarios sin rebotar ni ser marc
 
 * ¿Qué es la capacidad de envío?
 
-   * Hace referencia a los factores de un mensaje de correo electrónico que determinan su capacidad para ser aceptado por el servidor de un destinatario. Los ISP (proveedores de servicios de Internet) filtran los correos electrónicos que se identifican como SPAM o bloquean la descarga de imágenes. Si determinan que cierto dominio está enviando demasiados correos electrónicos, establecerán un límite en el número de correos electrónicos que aceptarán de ese remitente.
+   * Hace referencia a los factores de un correo electrónico que determinan su capacidad para ser aceptado por el servidor de un destinatario. Los ISP (proveedores de servicios de Internet) filtran los correos electrónicos que se identifican como SPAM o bloquean la descarga de imágenes. Si determinan que cierto dominio está enviando demasiados correos electrónicos, establecerán un límite en el número de correos electrónicos que aceptarán de ese remitente.
 
    * Al comprobar la tasa de envíos de sus correos electrónicos, debe centrarse en cuatro categorías principales: calidad de los datos, mensaje y contenido, infraestructuras de envío y reputación. Para profundizar en este tema, consulte [esta sección](about-deliverability.md).
 

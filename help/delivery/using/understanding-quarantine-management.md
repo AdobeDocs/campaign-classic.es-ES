@@ -5,17 +5,16 @@ description: Comprensión de la administración de cuarentenas
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring, Deliverability
+role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
 workflow-type: tm+mt
 source-wordcount: '3009'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Comprensión de la administración de cuarentenas{#understanding-quarantine-management}
-
-
 
 Adobe Campaign administra una lista de direcciones en cuarentena. Los destinatarios cuya dirección se haya puesto en cuarentena se excluyen de forma predeterminada durante el análisis de la entrega y no se tendrán en cuenta para la segmentación. Una dirección de correo electrónico se puede poner en cuarentena, por ejemplo, cuando el buzón está lleno o si la dirección no existe. En cualquier caso, el procedimiento de cuarentena cumple las reglas específicas que se describen a continuación.
 
@@ -43,11 +42,11 @@ La cuarentena y la inclusión en la lista de bloqueados no se aplican al mismo o
 
 * Al incluirse en la **lista de bloqueados**, no obstante, el **perfil** ya no se tendrá en cuenta en las entregas, por ejemplo, tras una baja (exclusión) de un canal determinado. Por ejemplo, si un perfil incluido en la lista de bloqueados del canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán de la entrega.
 
-  Puede comprobar si un perfil está en la lista de bloqueados de uno o más canales en la sección **[!UICONTROL No longer contact]** de la pestaña **[!UICONTROL General]** del perfil. Consulte [esta sección](../../platform/using/editing-a-profile.md#general-tab).
+  Puede comprobar si un perfil está en la lista de bloqueados de la para uno o más canales en la **[!UICONTROL No longer contact]** de la sección del perfil **[!UICONTROL General]** pestaña. Consulte [esta sección](../../platform/using/editing-a-profile.md#general-tab).
 
 >[!NOTE]
 >
->La cuarentena incluye el estado **[!UICONTROL Denylisted]**, que se aplica cuando los destinatarios informan el mensaje como correo no deseado o responden a un mensaje SMS con la palabra clave como “DETENER”. En ese caso, la dirección o el número de teléfono del perfil se envían a cuarentena con el estado **[!UICONTROL Denylisted]**. Para obtener más información sobre la administración de SMS de detención, consulte [esta sección](../../delivery/using/sms-send.md#processing-inbound-messages).
+>La cuarentena incluye un **[!UICONTROL Denylisted]** estado, que se aplica cuando los destinatarios informan el mensaje como correo no deseado o responden a un mensaje SMS con la palabra clave como &quot;DETENER&quot;. En ese caso, la dirección o el número de teléfono del perfil se envían a cuarentena con el **[!UICONTROL Denylisted]** estado. Para obtener más información sobre la administración de SMS de detención, consulte [esta sección](../../delivery/using/sms-send.md#processing-inbound-messages).
 
 ## Identificación de direcciones en cuarentena {#identifying-quarantined-addresses}
 
@@ -164,16 +163,16 @@ A continuación se muestran las directrices recomendadas para esta consulta:
 
 * Para entornos de Campaign Classic v7 con información de regla de correo electrónico entrante en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
-   * **El texto del error (texto de cuarentena)** contiene “Momen_Code10_InvalidRecipient”
+   * **Texto de error (texto de cuarentena)** contiene &quot;Momen_Code10_InvalidRecipient&quot;
    * **Dominio de correo electrónico (@domain)** igual a domain1.com O **Dominio de correo electrónico (@domain)** igual a domain2.com O **Dominio de correo electrónico (@domain)** igual a domain3.com
    * **Actualizar estado (@lastModified)** en o después de DD/MM/AAAA HH:MM:SS AM
    * **Actualizar estado (@lastModified)** en DD/MM/AAAA HH:MM:SS PM
 
 * Para entornos de Campaign Classic v7 con información de respuesta de rechazo SMTP en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
-   * **Texto de error (texto de cuarentena)** contiene “550-5.1.1” Y **Texto de error (texto de cuarentena)** contiene “support.ISP.com”
+   * **Texto de error (texto de cuarentena)** contiene &quot;550-5.1.1&quot; Y **Texto de error (texto de cuarentena)** contiene &quot;support.ISP.com&quot;
 
-  donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
+  donde &quot;support.ISP.com&quot; puede ser: &quot;support.apple.com&quot; o &quot;support.google.com&quot;, por ejemplo
 
    * **Actualizar estado (@lastModified)** en o después de DD/MM/AAAA HH:MM:SS AM
    * **Actualizar estado (@lastModified)** en DD/MM/AAAA HH:MM:SS PM
