@@ -5,16 +5,16 @@ description: Recursos y principio del gestor de contenido
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Templates
+role: User, Developer, Data Engineer
 exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '250'
 ht-degree: 100%
 
 ---
 
 # Recursos y principios del gestor de contenido{#content-manager-resources-and-principles}
-
 
 
 Se debe definir una plantilla de publicación que contenga plantillas de transformación para cada contenido.
