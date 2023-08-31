@@ -2,20 +2,19 @@
 product: campaign
 title: Creación de plantillas de entrega
 description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado
+role: User
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: A/B Testing
 exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 100%
+source-wordcount: '100'
+ht-degree: 94%
 
 ---
 
-# Creación de plantillas de envíos {#step-3--creating-two-delivery-templates}
-
-
+# Prueba A/B: Creación de plantillas de envío {#step-3--creating-two-delivery-templates}
 
 Ahora, queremos crear dos plantillas de envío. Se hará referencia a cada plantilla en una actividad **[!UICONTROL Email delivery]** vinculada a la actividad **[!UICONTROL Split]**. Para obtener más información, consulte [esta sección](about-templates.md).
 

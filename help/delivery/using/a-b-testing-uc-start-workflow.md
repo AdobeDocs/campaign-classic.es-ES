@@ -5,15 +5,16 @@ description: Obtenga información sobre cómo realizar pruebas A/B mediante un c
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: A/B Testing
+role: User
 exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 100%
+source-wordcount: '99'
+ht-degree: 94%
 
 ---
 
-# Inicio del flujo de trabajo {#step-7--starting-the-workflow}
+# Prueba AB: Inicie el flujo de trabajo {#step-7--starting-the-workflow}
 
 
 

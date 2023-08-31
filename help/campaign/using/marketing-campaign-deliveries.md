@@ -2,10 +2,11 @@
 product: campaign
 title: Entregas de campañas de marketing
 description: Más información sobre las entregas de campañas de marketing
+role: User
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 100%
@@ -38,7 +39,7 @@ Una vez concedidas todas las solicitudes de aprobación, el estado de entrega ca
 
 >[!NOTE]
 >
->Si se designa un operador o grupo de operadores específico para iniciar una entrega en las propiedades del mismo, también puede permitir que el operador a cargo de la entrega lo pueda confirmar. Para ello, active la opción **NMS_ActivateOwnerConfirmation** introduciendo **1** como valor. Las opciones se administran desde el nodo **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** en el explorador de Adobe Campaign.
+>Si se designa un operador o grupo de operadores específico para iniciar una entrega en las propiedades del mismo, también puede permitir que el operador a cargo de la entrega lo pueda confirmar. Para ello, active la opción **NMS_ActivateOwnerConfirmation** introduciendo **1** como valor. Las opciones se administran desde el nodo **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** en Adobe Campaign Explorer.
 >  
 >Para desactivar esta opción, introduzca **0** como valor. El proceso de confirmación de envío funcionará de forma predeterminada: solo el operador o grupo de operadores designados para la entrega en las propiedades de envío (o un administrador) puede confirmar y llevar a cabo la entrega.
 

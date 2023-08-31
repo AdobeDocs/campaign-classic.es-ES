@@ -5,8 +5,9 @@ description: Acerca del canal de correo postal
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Direct Mail
+role: User
 exl-id: 6474cf2e-c4db-4430-b001-18bf4911b0ea
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
@@ -14,7 +15,6 @@ ht-degree: 100%
 ---
 
 # Acerca del canal de correo directo{#about-direct-mail-channel}
-
 
 
 Adobe Campaign permite producir archivos para proporcionar de forma masiva letras personalizadas. Los perfiles de destinatario deben contener al menos sus nombres y direcciones postales.

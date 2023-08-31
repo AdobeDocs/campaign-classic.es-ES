@@ -3,9 +3,10 @@ product: campaign
 title: Métodos SOAP en JavaScript
 feature: Configuration, Instance Settings
 description: Métodos SOAP en JavaScript
+role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 13%

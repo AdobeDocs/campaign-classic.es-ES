@@ -3,13 +3,11 @@ product: campaign
 title: Administración de flujos de trabajo
 description: Administración de flujos de trabajo
 feature: Workflows, Configuration
+role: Data Engineer, Developer
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
-audience: configuration
-content-type: reference
-topic-tags: use-a-custom-recipient-table
 exl-id: 617b0050-6b04-4c68-9f63-511baae99f41
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 18%

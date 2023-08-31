@@ -5,17 +5,16 @@ description: Obtenga información sobre cómo realizar pruebas A/B mediante un c
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: A/B Testing
+role: User
 exl-id: bc23a444-a872-48fb-8bba-64b301541089
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 100%
+source-wordcount: '122'
+ht-degree: 95%
 
 ---
 
-# Definición de la entrega final {#step-6--defining-the-final-delivery}
-
-
+# Prueba AB: Definir la entrega final {#step-6--defining-the-final-delivery}
 
 Una vez que la secuencia de comandos se ha creado para seleccionar el ganador de la prueba A/B, se puede definir los parámetros de la entrega final.
 
