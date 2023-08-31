@@ -5,17 +5,16 @@ description: Una vez que el mensaje esté listo, realice todas las comprobacione
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability
+role: User
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '904'
 ht-degree: 100%
 
 ---
 
 # Realice todas las comprobaciones necesarias antes de enviar {#perform-all-checks}
-
-
 
 Cuando el mensaje esté listo, asegúrese de que su contenido se muestra correctamente en todos los dispositivos y no contiene ningún error, como por ejemplo de personalización incorrecta o enlaces rotos.
 
