@@ -5,17 +5,16 @@ description: Aprenda a crear contenido personalizado en entregas de Adobe Campai
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email Design, Personalization
+role: User
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '1300'
 ht-degree: 100%
 
 ---
 
 # Creación de contenido personalizado {#build-personalized-content}
-
-
 
 Al diseñar el contenido del mensaje, trate de evitar problemas comunes que podrían impedir la ejecución del envío. La mayoría de las veces, los posibles errores están relacionados con la [personalización](about-personalization.md), el [formato](defining-the-email-content.md#message-content) y las [imágenes](defining-the-email-content.md#adding-images).
 
