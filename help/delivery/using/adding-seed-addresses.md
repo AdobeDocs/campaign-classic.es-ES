@@ -5,17 +5,16 @@ description: Adición de direcciones semilla
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Seed Address
+role: User
 exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '339'
 ht-degree: 100%
 
 ---
 
 # Adición de direcciones semilla{#adding-seed-addresses}
-
-
 
 ## Direcciones semilla en una entrega {#seed-addresses-in-a-delivery}
 
