@@ -5,17 +5,16 @@ description: Creación de una plantilla de entrega
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Delivery Templates
+role: User
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '395'
 ht-degree: 100%
 
 ---
 
 # Creación de una plantilla de entrega{#creating-a-delivery-template}
-
-
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#delivery-template-video)
 
@@ -41,7 +40,7 @@ Para obtener más información sobre el modo de configuración, consulte [Vincul
 
 Para configurar una plantilla de envío, siga los siguientes pasos:
 
-1. Abra el explorador de Campaign.
+1. Abra Campaign Explorer.
 1. En la carpeta **Recursos**, seleccione **Plantilla** y luego **Plantillas de envío**.
 
    ![](assets/delivery_template_1.png)
