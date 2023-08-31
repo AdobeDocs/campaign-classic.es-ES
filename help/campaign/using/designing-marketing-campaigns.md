@@ -2,11 +2,12 @@
 product: campaign
 title: Diseño y ejecución de campañas de marketing
 description: Defina, optimice, ejecute y analice campañas de marketing
+role: User
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Campaigns
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '450'
 ht-degree: 100%
 
