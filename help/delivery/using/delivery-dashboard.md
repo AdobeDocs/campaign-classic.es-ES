@@ -5,16 +5,16 @@ description: Obtenga más información acerca de cómo utilizar el tablero de en
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring
+role: User, Data Engineer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '1186'
 ht-degree: 100%
 
 ---
 
 # Tablero de entregas {#delivery-dashboard}
-
 
 
 El **panel de entregas** es fundamental para controlar las entregas y los problemas que puedan ser detectados durante la entrega de mensajes.
@@ -115,9 +115,9 @@ Algunos indicadores o estados pueden ser incorrectos o no estar actualizados; es
 
 * Si su estado de entrega es incorrecto, compruebe que se hayan realizado todas las aprobaciones necesarias para esta entrega o que los flujos de trabajo de **[!UICONTROL operationMgt]** y **[!UICONTROL deliveryMgt]** se estén ejecutando sin errores. Esto también se puede deber a que la entrega mediante una afinidad no está configurado en la instancia del emisor.
 
-* Si los indicadores de entregas aún se encuentran en 0 y si se encuentra en una configuración intermediaria, consulte el flujo de trabajo técnico **[!UICONTROL Mid-sourcing (delivery counters)]**. Inícielo si su estado no es **[!UICONTROL Started]**. A continuación, puede intentar volver a calcular los indicadores haciendo clic con el botón derecho en la entrega correspondiente en el explorador de Adobe Campaign y seleccionando **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]**. Para obtener más información sobre los indicadores de seguimiento, consulte [esta sección](../../reporting/using/delivery-reports.md#tracking-indicators).
+* Si los indicadores de entregas aún se encuentran en 0 y si se encuentra en una configuración intermediaria, consulte el flujo de trabajo técnico **[!UICONTROL Mid-sourcing (delivery counters)]**. Inícielo si su estado no es **[!UICONTROL Started]**. A continuación, puede intentar volver a calcular los indicadores haciendo clic con el botón derecho en la entrega correspondiente en Adobe Campaign Explorer y seleccionando **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]**. Para obtener más información sobre los indicadores de seguimiento, consulte [esta sección](../../reporting/using/delivery-reports.md#tracking-indicators).
 
-* Si el contador de entregas no coincide con su entrega, intente volver a calcular los indicadores haciendo clic con el botón derecho en la entrega correspondiente del explorador de Adobe Campaign y seleccionando **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** para volver a sincronizar. Para obtener más información sobre los indicadores de seguimiento, consulte [esta sección](../../reporting/using/delivery-reports.md#tracking-indicators).
+* Si el contador de entregas no coincide con su entrega, intente volver a calcular los indicadores haciendo clic con el botón derecho en la entrega correspondiente de Adobe Campaign Explorer y seleccionando **[!UICONTROL Actions]** > **[!UICONTROL Recompute delivery and tracking indicators]** para volver a sincronizar. Para obtener más información sobre los indicadores de seguimiento, consulte [esta sección](../../reporting/using/delivery-reports.md#tracking-indicators).
 
 * Si el contador de entregas no está actualizado para las implementaciones intermediarias, compruebe que se esté ejecutando el flujo de trabajo técnico **[!UICONTROL Mid-Sourcing (Delivery counters)]**. Para obtener más información, consulte [esta página](../../installation/using/mid-sourcing-deployment.md).
 
