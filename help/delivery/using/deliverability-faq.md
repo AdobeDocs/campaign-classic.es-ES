@@ -5,17 +5,16 @@ description: Descubra los puntos clave que debe comprobar al administrar la entr
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability, Troubleshooting
+role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+workflow-type: ht
 source-wordcount: '666'
 ht-degree: 100%
 
 ---
 
 # Solución de problemas de envío{#deliverability-faq}
-
-
 
 ¿Está teniendo un problema de envío? Puede encontrar la solución aquí.
 
