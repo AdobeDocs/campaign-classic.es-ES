@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 feature: Fatigue Management, Typology Rules, Campaigns
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3274'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
