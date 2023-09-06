@@ -8,13 +8,13 @@ feature: A/B Testing
 role: User
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Prueba AB: Analice el resultado {#step-8--analyzing-the-result}
+# Prueba AB: Análisis del resultado {#step-8--analyzing-the-result}
 
 Una vez remitidos los envíos de prueba, se puede comprobar los destinatarios a los que se han enviado y si se han abierto o no.
 
