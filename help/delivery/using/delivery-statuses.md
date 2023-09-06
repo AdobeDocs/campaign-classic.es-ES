@@ -8,9 +8,9 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: 0663257a-3a70-4e0c-bbeb-8242aaa0876d
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ Si la entrega no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, p
 
   En este caso, compruebe la configuración de la administración de tráfico (afinidad de IP) y utilice el campo **[!UICONTROL Managing affinities with IP addresses]** para relacionar las entregas al MTA que administra la afinidad. Para obtener más información sobre las afinidades, consulte [esta sección](../../installation/using/configure-delivery-settings.md).
 
-* Cuando se ejecutan demasiadas campañas, el estado de la entrega permanece en estado Pendiente.
+* Cuando se ejecutan demasiadas campañas, el estado del envío permanece en estado Pendiente.
 
   El límite de campañas simultáneas se define en la opción **[!UICONTROL NmsOperation_LimitConcurrency]**. El valor predeterminado es 10.
 
