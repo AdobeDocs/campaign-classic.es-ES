@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -43,13 +43,13 @@ En función del periodo de tiempo del problema, se indican a continuación las d
 
 * Para instancias de Campaign con información de respuesta de rechazo SMTP en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
-   * **Texto de error (texto de cuarentena)** contiene &quot;la búsqueda del usuario se ha realizado correctamente, pero no se ha encontrado ningún registro de usuario&quot; Y **Texto de error (texto de cuarentena)** contiene &quot;support.apple.com&quot;
+   * **El texto de error (texto de cuarentena)** contiene “la búsqueda del usuario se ha realizado correctamente, pero no se ha encontrado ningún registro de usuario” Y **el texto de error (texto de cuarentena)** contiene “support.apple.com”
    * **Estado de la actualización (@lastModified)** el 26 de abril de 2021 a las 07:00:00, o después
    * **Estado de la actualización (@lastModified)** el 26 de abril de 2021 a las 13:00:00, o antes
 
 * Para instancias de Campaign con información de regla de correo electrónico entrante en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
-   * **Texto de error (texto de cuarentena)** contiene &quot;Momen_Code10_InvalidRecipient&quot;
+   * **El texto del error (texto de cuarentena)** contiene “Momen_Code10_InvalidRecipient”
    * **Dominio de correo electrónico (@domain)** igual a icloud.com O **dominio de correo electrónico (@domain)** igual a me.com O **dominio de correo electrónico (@domain)** igual a mac.com
    * **Estado de la actualización (@lastModified)** el 26 de abril de 2021 a las 07:00:00, o después
    * **Estado de la actualización (@lastModified)** el 26 de abril de 2021 a las 13:00:00, o antes
