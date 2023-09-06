@@ -8,13 +8,13 @@ feature: A/B Testing
 role: User
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Prueba A/B: Crear el script {#step-5--creating-the-script}
+# Prueba A/B: creación del script {#step-5--creating-the-script}
 
 
 La elección del contenido de entrega destinado a la población restante se calcula mediante una secuencia de comandos. Esta secuencia de comandos recupera la información relativa a la entrega con la mayor tasa de apertura y copia el contenido en la entrega final.
