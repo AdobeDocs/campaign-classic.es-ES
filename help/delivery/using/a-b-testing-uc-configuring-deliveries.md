@@ -7,13 +7,13 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: A/B Testing
 exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Prueba AB: Configurar los envíos en el flujo de trabajo {#step-4--configuring-the-deliveries-in-the-workflow}
+# Prueba AB: configuración de los envíos en el flujo de trabajo {#step-4--configuring-the-deliveries-in-the-workflow}
 
 Una vez que [se hayan creado las poblaciones](a-b-testing-uc-population-samples.md), puede configurar las entregas. En este caso de uso, las dos primeras entregas permiten enviar contenido diferente a las poblaciones A y B. La tercera es la opción alternativa: se envía a los destinatarios que no pertenecen a A ni B. Su contenido se calcula mediante una secuencia de comandos y es idéntico a A o B, dependiendo de cuál obtuvo la tasa de apertura más alta. Es necesario configurar un periodo de espera para la tercera entrega, para averiguar el resultado de los envíos A y B. Esta es la razón por la que la tercera entrega incluye una actividad **[!UICONTROL Wait]**.
 
