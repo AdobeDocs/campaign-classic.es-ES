@@ -8,9 +8,9 @@ feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8458'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -382,7 +382,7 @@ Si necesita controlar con precisión el número de conexiones, por ejemplo, el r
 
 #### Nombre de implementación de SMSC {#smsc-implementation-name}
 
-Define el nombre de la implementación de SMSC. Debe configurarse con el nombre de su proveedor. Póngase en contacto con el administrador o con el equipo de entrega para saber qué añadir en este campo. La función de este campo se describe en la sección [gestión de errores SR](sms-protocol.md#sr-error-management).
+Define el nombre de la implementación de SMSC. Debe configurarse con el nombre de su proveedor. Póngase en contacto con el administrador o con el equipo de entregabilidad para saber qué añadir en este campo. La función de este campo se describe en la sección [gestión de errores SR](sms-protocol.md#sr-error-management).
 
 #### Servidor {#server}
 
