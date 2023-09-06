@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 feature: Typology Rules, Campaigns
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
