@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
 source-git-commit: 32c2ce24bdd62724e4b4ff66f4664e8faa259b4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Adobe Campaign permite importar archivos comprimidos o encriptados. Antes de que
 
 >[!IMPORTANT]
 >
->No puede descomprimir archivos comprimidos de más de 4 Gb.
+>No puede descomprimir archivos comprimidos de más de 4 Gb.
 
 Para poder hacerlo:
 
-1. Utilice el [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es#decrypting-data) para generar un par de claves pública y privada para permitir el descifrado de archivos.
+1. Utilice el [Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es#decrypting-data) para generar un par de claves pública y privada para permitir el descifrado de archivos.
 
    >[!NOTE]
    >
