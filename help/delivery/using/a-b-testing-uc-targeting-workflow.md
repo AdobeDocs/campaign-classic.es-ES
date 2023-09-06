@@ -8,13 +8,13 @@ feature: A/B Testing
 role: User
 exl-id: aa21fa33-aef9-484a-b454-0cd5a6868a98
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Pruebas AB: Crear un flujo de trabajo de segmentación {#step-1--creating-a-targeting-workflow}
+# Pruebas AB: creación un flujo de trabajo de segmentación {#step-1--creating-a-targeting-workflow}
 
 Se debe crear el flujo de trabajo en la pestaña **[!UICONTROL Targeting and Workflows]** de una campaña. Se compone de una actividad **[!UICONTROL Query]**, una actividad **[!UICONTROL Split]** vinculada a dos actividades **[!UICONTROL Email delivery]**, una actividad **[!UICONTROL Wait]**, una actividad **[!UICONTROL JavaScript code]** y una actividad **[!UICONTROL Delivery]**.
 
