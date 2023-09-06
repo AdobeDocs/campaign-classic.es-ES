@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Envío con el servidor de correo mejorado en Adobe Campaign Classic
+title: Enviar con el MTA mejorado en Adobe Campaign Classic
 description: Obtenga información acerca del ámbito y las características específicas del envío de correos electrónicos con el servidor de correo mejorado de Adobe Campaign
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
@@ -8,9 +8,9 @@ feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1352'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
