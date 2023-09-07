@@ -7,7 +7,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
+source-git-commit: 155fbcd2846cfc5a8db25194bd8d7007356db24e
 workflow-type: tm+mt
 source-wordcount: '1869'
 ht-degree: 58%
@@ -28,7 +28,7 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 >
 > Si está utilizando [Campaign: Conector CRM de Microsoft Dynamics](../../platform/using/crm-connectors.md), debe actualizar los servidores de marketing y de fuentes intermedias con esta nueva versión.
 
-_Septiembre_ 7 de septiembre de 2023
+_7 de septiembre de 2023_
 
 **Mejora de la seguridad**
 
@@ -88,7 +88,7 @@ _Septiembre_ 7 de septiembre de 2023
 
 ## Versión 7.3.3, compilación 9359 {#release-7-3-3}
 
-[!BADGE Disponibilidad general]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad general"}
+[!BADGE Disponibilidad limitada]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
 
 >[!CAUTION]
 >
