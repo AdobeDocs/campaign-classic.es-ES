@@ -9,10 +9,10 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 4%
+source-wordcount: '978'
+ht-degree: 3%
 
 ---
 
@@ -102,3 +102,7 @@ Ejemplo de valores posibles:
 * América/Nueva_York, etc.
 
   Estos valores se toman de la base de datos tz (Olson). Para obtener más información, consulte [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
+
+## base de datos de oracle y zona horaria del servidor
+
+Para la base de datos principal, Campaign utiliza la zona horaria del servidor para establecer la zona horaria de sesión en la conexión de base de datos. La opción &quot;WdbcTimeZone&quot; no tiene ningún impacto. Por lo tanto, la zona horaria del servidor debe coincidir con la de la base de datos principal utilizada por Campaign. Si no puede cambiar la zona horaria del servidor, la utilizada por Campaign puede anularse configurando la variable de entorno TZ en customer.sh.

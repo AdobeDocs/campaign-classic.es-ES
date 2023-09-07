@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '7962'
-ht-degree: 42%
+source-wordcount: '8056'
+ht-degree: 41%
 
 ---
 
@@ -43,6 +43,7 @@ Los primeros parámetros se encuentran dentro de **compartido** nodo. Están rel
 * [proxyConfig](#proxyconfig)
 * [threadPool](#threadpool)
 * [urlPermission](#urlpermission)
+* [cusHeaders](#cusheaders)
 * [xtkJobs](#xtkjobs)
 
 **Otros parámetros**
@@ -997,6 +998,29 @@ Para obtener más información, consulte [Protección de conexión saliente](../
   </tr> 
  </tbody> 
 </table>
+
+## cusHeaders {#cusheaders}
+
+Este nodo le permite agregar encabezados específicos en las solicitudes realizadas al cargar un archivo desde un servidor externo. Las redes de distribución de contenido (CDN) pueden solicitar un encabezado específico para confiar en el solicitante. Estos encabezados se pueden utilizar para mejorar la confianza en las solicitudes de Campaign, especialmente al descargar documentos personalizados para cada destinatario en el paso de ejecución de la entrega. Un número elevado de solicitudes de descarga de recursos se puede interpretar como un ataque DDos. dnsPattern le permite establecer nombres de encabezado y valores específicos para diferentes CDN en función de su nombre de dominio.
+
+```
+  <!-- List of custom headers added to request. 
+         -->
+    <cusHeaders>
+
+    <!-- Pattern of DNS name or domain 
+         value :  dnsPattern: All or part of the URL's domain to verify, * is a wild card Default:  -->
+      <dnsPattern value="">
+
+    <!-- Header Name and Value 
+           headerName :  Header Name 
+           headerValue :  Header Value -->
+        <headerDef headerName="" headerValue=""/>
+
+      </dnsPattern>
+
+    </cusHeaders> 
+```
 
 ### url {#url}
 
