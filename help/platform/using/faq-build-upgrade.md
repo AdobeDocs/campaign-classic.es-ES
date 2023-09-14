@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1998'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ En sus sistemas de desarrollo y ensayo, exporte cualquier trabajo que sea críti
 
 <!--For more information please [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).-->
 
-Actualice su conocimiento en cuanto a los flujos de trabajo y las entregas de ruta críticos desarrollados en los libros de ejecución (o por su equipo de consultoría o socio) mediante la revisión de la documentación proporcionada a su equipo al final de la implementación.
+Actualice su conocimiento en cuanto a los flujos de trabajo y los envíos de ruta críticos desarrollados en los libros de ejecución (o por su equipo de consultoría o socio) mediante la revisión de la documentación proporcionada a su equipo al final de la implementación.
 
 Identifique los tiempos de bajo volumen o bajo tráfico que sean ideales para las ventanas de mantenimiento, ya que producirán el menor impacto comercial.
 
@@ -179,7 +179,7 @@ Obtenga más información en [Opciones de ayuda y asistencia para Campaign Class
 
 ### Lista de comprobación posterior a la actualización del servidor de mensajería en la nube
 
-1. Enviar una entrega de prueba
+1. Enviar un envío de prueba
    1. Validar los registros de entregas y el flujo de trabajo relacionado
    1. Validación de la actualización de los registros de seguimiento
    1. Validar vínculos de seguimiento y páginas espejo
@@ -192,8 +192,7 @@ Obtenga más información en [Opciones de ayuda y asistencia para Campaign Class
 * Asegúrese de utilizar la misma versión de la consola que la versión de compilación después de la actualización.
 * ¿Tiene aplicaciones web que insertan datos en la base de datos de Campaign? Si es así, ejecútelos y
 compruebe que pueden insertar nuevos registros a través de la API.
-* ¿Puede enviar una prueba de correo electrónico correctamente? Cree una nueva entrega con una plantilla conocida, envíela a
-un destinatario de prueba, compruebe la personalización y el vínculo de cancelación de suscripción, y asegúrese de que las páginas espejo funcionen.
+* ¿Puede enviar una prueba de correo electrónico correctamente? Cree un nuevo envío con una plantilla conocida, envíelo a un destinatario de prueba, compruebe la personalización y el vínculo de cancelación de suscripción, y asegúrese de que las páginas espejo funcionen.
 * ¿Se están ejecutando todos los flujos de trabajo de ruta críticos? Compruebe los flujos de trabajo, abra el historial de flujo de trabajo y compruebe
 que no hay errores.
 * ¿Están todas las carpetas presentes, visibles y accesibles? Navegue por diferentes carpetas y verifique
