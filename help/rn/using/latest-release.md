@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 155fbcd2846cfc5a8db25194bd8d7007356db24e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1869'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -44,45 +44,46 @@ _7 de septiembre de 2023_
 
 **Mejoras**
 
-* El parámetro MaxWorkingSetMb del archivo de configuración del servidor (serverConf.xml) se ha modificado para optimizar la asignación de memoria para las entregas. (NEO-49204)
+* El parámetro MaxWorkingSetMb del archivo de configuración del servidor (serverConf.xml) se ha modificado para optimizar la asignación de memoria para los envíos. (NEO-49204)
 * La cuenta externa de BigQuery se ha mejorado con las nuevas opciones utilizadas para configurar el SDK de GCloud. (NEO-63879) [Más información](../../installation/using/configure-fda-google-big-query.md#google-external)
-* Un nuevo `cusHeader` se ha añadido una sección de en el archivo de configuración del servidor (serverConf.xml). Permite añadir encabezados personalizados al cargar un archivo desde un servidor externo. (NEO-58339) [Más información](../../installation/using/the-server-configuration-file.md#cusheaders).
+* Una nueva sección de `cusHeader` se ha añadido en el archivo de configuración del servidor (serverConf.xml). Permite añadir encabezados personalizados al cargar un archivo desde un servidor externo. (NEO-58339) [Más información](../../installation/using/the-server-configuration-file.md#cusheaders).
 * Se ha mejorado la administración del registro de seguimiento para evitar ID negativos para lastMsgId. Se ha cambiado de int32 a int64. (NEO-52290)
-* El flujo de trabajo Intermediario (estadísticas de envío) se ha añadido de forma predeterminada. Este nuevo flujo de trabajo sincroniza los datos estadísticos de entrega (nms:deliveryStat) desde el mid a la instancia de marketing. (NEO-36802)
+* El flujo de trabajo Intermediario (estadísticas de envío) se ha añadido de forma predeterminada. Este nuevo flujo de trabajo sincroniza los datos estadísticos de envío (nms:deliveryStat) desde el mid a la instancia de marketing. (NEO-36802)
 
 **Parches**
 
 * Se ha corregido un problema que se podía producir cuando se realizaba una solicitud de servicio antes del inicio de sesión de IMS, si la autenticación de llamada de solicitud de servicio utilizaba un token de servicio. (NEO-64903)
 * Se ha corregido un problema de regresión que podía provocar problemas de desplazamiento al utilizar el Editor de contenido digital. (NEO-64671, NEO-59256)
-* Se ha corregido un problema de regresión al pegar contenido desde Excel al editor de contenido digital. (NEO-63287)
+* Se ha corregido un problema de regresión al pegar contenido desde Excel al Editor de contenido digital. (NEO-63287)
 * Se ha corregido un problema que podía impedir que las aplicaciones web se mostraran correctamente en el modo de compatibilidad v5. (NEO-63174)
-* Se ha corregido un problema que impedía que los operadores que no eran administradores enviaran entregas de webAnalytics. (NEO-62750)
-* Se ha corregido un problema para evitar que los exploradores agregaran espacios adicionales al utilizar contenido condicional en una entrega. (NEO-62132)
+* Se ha corregido un problema que impedía que los operadores que no eran administradores hicieran envíos de webAnalytics. (NEO-62750)
+* Se ha corregido un problema para evitar que los exploradores agregaran espacios adicionales al utilizar contenido condicional en un envío. (NEO-62132)
 * Se ha corregido un problema de regresión que impedía que el cálculo del contacto activo funcionara correctamente en el flujo de trabajo Facturación al utilizar esquemas de destino asociados con varios esquemas de registro. (NEO-61468)
-* Se ha corregido un problema que podría provocar un error e impedir que se desplace al editar el contenido de una entrega. (NEO-61364)
+* Se ha corregido un problema que podría provocar un error e impedir que usted se desplace al editar el contenido de un envío. (NEO-61364)
 * Se ha corregido un problema que provocaba que se abriera una ventana emergente al hacer clic en una imagen en el editor de contenido de correo electrónico. (NEO-60752)
-* Se ha corregido un problema que podía provocar que los caracteres especiales del contenido del HTML de una entrega se codificaran incorrectamente en varios exploradores. (NEO-60081)
+* Se ha corregido un problema que podía provocar que los caracteres especiales del contenido del HTML de un envío se codificaran incorrectamente en varios exploradores. (NEO-60081)
 * Se corrigió un problema con la sincronización que se podría producir al utilizar la actividad de flujo de trabajo inSMS. (NEO-59544)
 * Se ha corregido un problema que se producía al usar el conector de Big Query con campos de fecha y hora o marca de tiempo. (NEO-59502, NEO-49768)
 * Se ha corregido un problema que impedía usar informes de envío acumulativos. (NEO-59211)
-* Se ha corregido un problema que podría provocar errores al compartir audiencias con el servicio principal Personas. (NEO-58637)
-* Se corrigió un problema que se producía al mostrar la página espejo de una entrega. (NEO-58325)
+* Se ha corregido un problema que podría provocar errores al compartir públicos con el servicio principal Personas. (NEO-58637)
+* Se corrigió un problema que se producía al mostrar la página espejo de un envío. (NEO-58325)
 * Se ha corregido un problema que impedía que funcionara la expresión xtk XtkLibrary.Right(). (NEO-57870)
-* Se ha corregido un problema que provocaba que el atributo de estilo de la etiqueta de cuerpo se cambiara al cargar una imagen en el editor de contenido digital. (NEO-57697)
+* Se ha corregido un problema que provocaba que el atributo de estilo de la etiqueta de cuerpo cambiara al cargar una imagen en el editor de contenido digital. (NEO-57697)
 * Se ha corregido un problema con los caracteres especiales al realizar exportaciones por lotes con la actividad del conector de CRM. (NEO-54300)
 * Se ha corregido un problema que impedía que la carga masiva funcionara con tipos de datos de &quot;cadena&quot; al utilizar una actividad de carga de datos y el conector de Big Query. (NEO-53748)
 * Se ha corregido un problema con la clave de caché que podría provocar problemas de procesamiento de ofertas. (NEO-51516, NEO-49995)
 * Se ha corregido un problema que podría provocar un error de validación al enviar un envío de correo directo mediante targetMapping con aprobaciones. (NEO-50758)
-* Se corrigió un problema con la administración de consultas que podría afectar el rendimiento de la entrega. (NEO-49991)
-* Se ha corregido un problema que se producía al usar cuentas externas en actividades de entrega de flujo de trabajo de Campaign, lo que podía provocar problemas de configuración de cuentas externas. (NEO-49959)
-* Se ha corregido un problema de rendimiento al enviar notificaciones push. (NEO-49953) Se ha corregido un problema que podía hacer que los caracteres japoneses se mostraran incorrectamente al exportar informes (NEO-49308).
+* Se corrigió un problema con la administración de consultas que podría afectar al rendimiento del envío. (NEO-49991)
+* Se ha corregido un problema que se producía al usar cuentas externas en actividades de envío de flujo de trabajo de Campaign, lo que podía provocar problemas de configuración de cuentas externas. (NEO-49959)
+* Se ha corregido un problema de rendimiento al enviar notificaciones push. (NEO-49953)
+Se ha corregido un problema que podía hacer que los caracteres japoneses se mostraran incorrectamente al exportar informes (NEO-49308).
 * Se ha corregido un problema que hacía que el informe de errores de Tomcat mostrara demasiados detalles de error. (NEO-49029)
-* Se ha corregido un problema que podría provocar un error de entrega al utilizar un gran número de ofertas. (NEO-48807)
-* Se ha corregido un problema que podía impedir que **Actualización de datos** que la actividad de flujo de trabajo funcione correctamente. (NEO-48140)
-* Se ha corregido un problema que podía impedir que los datos de rastreo de clics se sincronizaran para entregas con una cuenta externa diferente al correo electrónico.(NEO-47277)
+* Se ha corregido un problema que podría provocar un error de envío al utilizar un gran número de ofertas. (NEO-48807)
+* Se ha corregido un problema que podía impedir que la actividad de flujos de trabajo **Actualizar datos** funcionara correctamente. (NEO-48140)
+* Se ha corregido un problema que podía impedir que los datos de rastreo de clics se sincronizaran para envíos con una cuenta externa diferente al correo electrónico.(NEO-47277)
 * Se ha corregido un problema que podía impedir que los registros de seguimiento en tiempo real se sincronizaran en la instancia de marketing del Centro de mensajes. (NEO-42540)
 * Se ha corregido un problema que impedía que el prefijo del espacio de trabajo se mostrara en la ventana de detección de un esquema para las tablas de la base de datos Snowflake. (NEO-40297)
-* Se ha corregido un problema que impedía `<img-amp>` que funcionen en el contenido del correo electrónico. (NEO-38685)
+* Se ha corregido un problema que impedía que las etiquetas `<img-amp>` funcionaran en el contenido del correo electrónico. (NEO-38685)
 * Se ha corregido un problema que podría provocar que el flujo de trabajo de archivado del Centro de mensajes falle al utilizar una retransmisión HTTP. (NEO-33783)
 * Se ha corregido un problema que podría provocar errores de nombre y tamaño de fuente en el editor de contenido de correo electrónico. (NEO-61342)
 
