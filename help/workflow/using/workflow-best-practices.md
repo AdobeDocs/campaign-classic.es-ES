@@ -5,10 +5,10 @@ description: Descubra las prácticas recomendadas del flujo de trabajo Campaña
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 1baf424138c95b16add37d9d556e3a2566a869c2
 workflow-type: tm+mt
-source-wordcount: '1694'
-ht-degree: 100%
+source-wordcount: '1385'
+ht-degree: 99%
 
 ---
 
@@ -53,23 +53,6 @@ Para aprender a purgar los registros, consulte esta [documentación](starting-a-
 * Para reducir los tiempos de ejecución generales, reemplace las actividades largas con actividades simplificadas y más rápidas.
 * Evite ejecutar más de 20 flujos de trabajo simultáneamente. Cuando se ejecutan demasiados flujos de trabajo al mismo tiempo, el sistema puede quedarse sin recursos y volverse inestable. Para obtener más información sobre el motivo por el que el flujo de trabajo puede no iniciarse, consulte este [artículo](https://helpx.adobe.com/ie/campaign/kb/workflows-not-starting-in-a-campaign-technical-workflows.html).
 
-### Ejecución del flujo de trabajo {#workflow-execution}
-
-**No programe un flujo de trabajo para que se ejecute con una frecuencia superior a 15 minutos**, ya que podría limitar el rendimiento general del sistema y crear bloques en la base de datos.
-
-**Asimismo, evite dejar los flujos de trabajo en estado pausado**. Si crea un flujo de trabajo temporal, asegúrese de que este pueda terminar correctamente y no permanecer en estado **[!UICONTROL paused]**. Si está en pausa, eso implica que necesita mantener las tablas temporales y, por lo tanto, aumentar el tamaño de la base de datos. Asigne supervisores de flujo de trabajo en Workflow Properties para enviar una alerta cuando un flujo de trabajo falle o el sistema lo ponga en pausa.
-
-Para evitar tener flujos de trabajo en estado pausado:
-
-* Consulte los flujos de trabajo regularmente para garantizar que no hay errores inesperados.
-* Mantenga los flujos de trabajo tan sencillos como sea posible, por ejemplo, dividiendo los flujos de trabajo grandes en distintos flujos de trabajo. Puede utilizar las actividades **[!UICONTROL External signal]** impulsando la ejecución en función de la ejecución de otros flujos de trabajo.
-* Evite tener actividades desactivadas con flujos en los flujos de trabajo, dejando los subprocesos abiertos y generando que muchas tablas temporales puedan consumir mucho espacio. Evite mantener las actividades en estados **[!UICONTROL Do not enable]** o **[!UICONTROL Enable but do not execute]** en los flujos de trabajo.
-
-**Detenga los flujos de trabajo no utilizados**. Los flujos de trabajo que siguen ejecutándose mantienen conexiones con la base de datos.
-
-**Solo se debe utilizar la detención incondicional en los casos más inusuales**. Evite utilizar esta acción de forma regular. El no realizar un cierre limpio de las conexiones generadas por los flujos de trabajo a la base de datos afecta al rendimiento.
-
-**No realice varias solicitudes de detención en el mismo flujo de trabajo**. La detención de un flujo de trabajo es un proceso asíncrono: la solicitud se registra y, después, el servidor o los servidores de flujo de trabajo cancelan las operaciones en curso. Por lo tanto, la detención de una instancia de flujo de trabajo puede llevar tiempo, especialmente si el flujo de trabajo se ejecuta en varios servidores, cada uno de los cuales debe asumir el control para cancelar las tareas en curso. Para evitar cualquier problema, espere a que se complete la operación de parada y evite detener un flujo de trabajo varias veces.
 
 ### Ejecutar en la opción de motor {#execute-in-the-engine-option}
 
@@ -135,7 +118,7 @@ El HeatMap de flujo de trabajo permite a los administradores de la plataforma de
 
 Al desarrollar el flujo de trabajo, todas las actividades tienen un nombre, como todos los objetos de Adobe Campaign. Aunque la herramienta genera el nombre, le recomendamos que cambie el nombre por uno explícito al configurarlo. El riesgo de hacerlo más tarde es que puede interrumpir el flujo de trabajo con actividades al usar el nombre de otra actividad anterior. Por lo tanto, sería difícil actualizar los nombres más adelante.
 
-El nombre de la actividad se puede encontrar en la pestaña **[!UICONTROL Advanced]**. Evite poner nombres como **[!UICONTROL query]**, **[!UICONTROL query1]**, **[!UICONTROL query11]**; asígneles nombres explícitos como **[!UICONTROL querySubscribedRecipients]**. Este nombre se muestra en el historial y, si procede, en los registros SQL, lo que le ayuda a depurar el flujo de trabajo al configurarlo.
+El nombre de la actividad se puede encontrar en la pestaña **[!UICONTROL Advanced]**. No los dejes con nombre **[!UICONTROL query]**, **[!UICONTROL query1]**, **[!UICONTROL query11]**, pero asígneles nombres explícitos como **[!UICONTROL querySubscribedRecipients]**. Este nombre se muestra en el historial y, si procede, en los registros SQL, lo que le ayuda a depurar el flujo de trabajo al configurarlo.
 
 ### Primeras y últimas actividades {#first-and-last-activities}
 
