@@ -4,10 +4,10 @@ product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 feature: Overview
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: baa1cfe3b8e65daee7902c85c0ca3ef293b44657
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 100%
+source-wordcount: '171'
+ht-degree: 87%
 
 ---
 
@@ -17,13 +17,11 @@ ht-degree: 100%
 
 ## Novedades
 
-* **[¡Ya está aquí la versión de marzo!](rn/using/latest-release.md)**<br/> Descubra nuevas funcionalidades, mejoras y correcciones en las notas de la versión
-
-* **[Programa de versiones de 2022](technotes/using/dc-migration.md)**<br/> Actualice su entorno y mejore la seguridad, la infraestructura y el rendimiento
+* **[¡Ya está aquí la versión de septiembre!](rn/using/latest-release.md)**<br/> Descubra nuevas funcionalidades, mejoras y correcciones en las notas de la versión
 
 <!--* **[Secure your Campaign environment](technotes/using/tech-stack-upgrade.md)**<br/> Update to the latest versions to secure your Campaign platform-->
 
-* **[Actualice la integración de activadores de Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)**<br/> El servicio de autenticación oAuth heredado ha llegado al final de su vida útil: debe migrar a Adobe I/O
+* **[Actualice la integración de Adobe Experience Cloud](integrations/using/configuring-adobe-io.md)**<br/> El servicio de autenticación oAuth heredado ha llegado al final de su vida útil: debe migrar al Adobe I/O
 
 [Más actualizaciones](rn/using/documentation-updates.md)
 
