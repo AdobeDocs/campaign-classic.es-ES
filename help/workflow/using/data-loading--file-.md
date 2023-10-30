@@ -5,10 +5,10 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Data Management Activity
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 5723d3d617413070b7aed2be2849acca61c10815
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 100%
+source-wordcount: '1082'
+ht-degree: 97%
 
 ---
 
@@ -49,6 +49,10 @@ A continuación, puede modificar el formato general del archivo y el de cada col
 El formato del archivo general permite definir la forma en que se reconocerán las columnas (codificación de archivos, separadores utilizados, etc.).
 
 El formato de columna permite definir el valor de procesamiento de cada columna:
+
+>[!NOTE]
+>
+>Puede añadir tantas columnas como desee. La longitud máxima de los valores de cada columna viene determinada por el tipo de datos elegido.
 
 * **[!UICONTROL Ignore column]**: no se procesa esta columna durante la carga de datos.
 * **[!UICONTROL Data type]**: especifica el tipo de datos esperados para cada columna.
