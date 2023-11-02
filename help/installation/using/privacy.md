@@ -5,17 +5,14 @@ description: Conozca las prácticas recomendadas de seguridad para la privacidad
 feature: Installation, Privacy, Privacy Tools, URL Personalization
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: a2106e55617209f28da42c50008d16188563b2da
 workflow-type: tm+mt
 source-wordcount: '852'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
 # Personalización y privacidad {#privacy}
-
-
-
 
 ## Personalización de la URL {#url-personalization}
 
@@ -88,7 +85,7 @@ Debe asegurarse de que un usuario autenticado con privilegios bajos no pueda acc
 
 Esta restricción permite eliminar los campos con contraseñas, pero permite a la cuenta externa acceder a ella desde la interfaz de todos los usuarios. [Más información](../../configuration/using/restricting-pii-view.md).
 
-Para ello, siga los pasos a continuación:
+Para realizar esto, siga los pasos a continuación:
 
 1. Vaya a la **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]** del explorador de Campaign.
 
