@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 source-git-commit: 1baf424138c95b16add37d9d556e3a2566a869c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1115'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Los botones de la barra de herramientas se encuentran en esta [sección](../../c
 
   >[!IMPORTANT]
   >
-  >La detención de un flujo de trabajo es un proceso asíncrono: la solicitud se registra y, a continuación, el servidor o los servidores de flujo de trabajo cancelan las operaciones en curso. Por lo tanto, la detención de una instancia de flujo de trabajo puede llevar tiempo, especialmente si el flujo de trabajo se ejecuta en varios servidores, cada uno de los cuales debe asumir el control para cancelar las tareas en curso. Para evitar cualquier problema, espere a que se complete la operación de detención y no realice varias solicitudes en el mismo flujo de trabajo.
+  >La detención de un flujo de trabajo es un proceso asíncrono: la solicitud se registra y, después, el servidor o los servidores de flujo de trabajo cancelan las operaciones en curso. Por lo tanto, la detención de una instancia de flujo de trabajo puede llevar tiempo, especialmente si el flujo de trabajo se ejecuta en varios servidores, cada uno de los cuales debe asumir el control para cancelar las tareas en curso. Para evitar cualquier problema, espere a que se complete la operación de detención y no realice varias solicitudes en el mismo flujo de trabajo.
 
 * **[!UICONTROL Unconditional stop]**
 
@@ -85,7 +85,7 @@ Los botones de la barra de herramientas se encuentran en esta [sección](../../c
   Las opciones **[!UICONTROL Mass update of selected lines]** y **[!UICONTROL Merge selected lines]** son opciones genéricas de plataforma disponibles en todos los menús **[!UICONTROL Actions]**. Para obtener más información, consulte [esta sección](../../platform/using/updating-data.md).
 
 
-## Prácticas recomendadas de ejecución de flujo de trabajo {#workflow-execution-best-practices}
+## Prácticas recomendadas para la ejecución de flujos de trabajo {#workflow-execution-best-practices}
 
 **No programe un flujo de trabajo para que se ejecute con una frecuencia superior a 15 minutos**, ya que podría limitar el rendimiento general del sistema y crear bloques en la base de datos.
 
