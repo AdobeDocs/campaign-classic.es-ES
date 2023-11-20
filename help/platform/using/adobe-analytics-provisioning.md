@@ -7,16 +7,14 @@ feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: ccc48c93d81266b0971acc3a549458e0823eeb37
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '673'
+ht-degree: 95%
 
 ---
 
 # Aprovisionamiento del Conector de Adobe Analytics {#adobe-analytics-connector-provisioning}
-
-
 
 >[!IMPORTANT]
 >
@@ -31,6 +29,12 @@ La integración entre Adobe Campaign Classic y la autenticación de Adobe Analyt
 * Si va a implementar un conector nuevo, la implementación de Adobe IMS es opcional. Sin un usuario de Adobe ID, Adobe Campaign utilizará un usuario técnico para sincronizar con Adobe Analytics.
 
 Para que esta integración funcione, debe crear un perfil de producto de Adobe Analytics que se utilice exclusivamente para el conector de Analytics. A continuación, deberá crear un proyecto de Adobe I/O.
+
+<!--
+>[!AVAILABILITY]
+>
+> JWT (JSON Web Tokens) is currently in the process of depreciation and is being replaced with OAuth. The transition is being carried out progressively within Campaign's upcoming releases and documentation will be updated to reflect these updates.
+-->
 
 ## Creación de un perfil de producto de Adobe Analytics {#analytics-product-profile}
 
@@ -72,7 +76,9 @@ Para obtener más información acerca de los perfiles de producto, consulte la [
 
    ![](assets/do-not-localize/triggers_13.png)
 
-1. Para la capacidad **[!UICONTROL Dimensions]**, añada el **[!UICONTROL Dimensions]** que tendrá que configurar más adelante.
+1. Para el **[!UICONTROL Dimensions]** capacidad, añada el **[!UICONTROL Dimensions]** necesario para la configuración futura.
+
+   Asegúrese de que los Dimension seleccionados coinciden con los que se van a configurar en la [Cuenta externa](adobe-analytics-connector.md#external-account-classic) y se alinean con el número de eVars correspondiente de [Adobe Analytics](adobe-analytics-connector.md#configure-conversion-success).
 
 1. Para la capacidad **[!UICONTROL Report Suite Tools]**, agregue los siguientes permisos:
 
