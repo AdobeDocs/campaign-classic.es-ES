@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 source-git-commit: 52dcc8c01c5ce2421bfb59235bd0e458e7c8122f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -93,11 +93,11 @@ En la instancia de ejecución, se puede acceder a los flujos de trabajo técnico
    * **[!UICONTROL Delivery failed]** : este estado se copia desde los registros de envío. Significa que la entrega ha fallado.
    * **[!UICONTROL Event not taken into account]**: el evento no se ha podido relacionar con una plantilla de mensaje. El evento no se va a procesar.
 
-### Archivando programación de flujo de trabajo
+### Archivado de la programación del flujo de trabajo
 
-Evite modificar el **flujo de trabajo de archivado** programación que se ejecuta en la instancia de control. De lo contrario, es posible que se pierdan algunos datos de seguimiento que se están extrayendo de la instancia de ejecución.
+Evite modificar la programación del **flujo de trabajo de archivado** que se ejecuta en la instancia de control. De lo contrario, es posible que se pierdan algunos datos de seguimiento que se están extrayendo de la instancia de ejecución.
 
-Si modifica la programación del flujo de trabajo de archivado, también debe cambiar el **flujo de trabajo de seguimiento** programación en la instancia de ejecución para que coincida con la programación del flujo de trabajo de archivado en la instancia de control.
+Si modifica la programación del flujo de trabajo de archivado, también debe cambiar la programación del **flujo de trabajo de seguimiento** en la instancia de ejecución para que coincida con la programación del flujo de trabajo de archivado en la instancia de control.
 
 ## Configuración de marcas múltiples {#configuring-multibranding}
 
