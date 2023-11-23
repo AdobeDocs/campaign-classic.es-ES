@@ -3,24 +3,25 @@ product: campaign
 title: Aprovisionamiento del conector de Adobe Analytics
 description: Más información acerca del aprovisionamiento del conector de Adobe Analytics
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
+badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 feature: Analytics Integration
 role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
-source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
+source-git-commit: 26d1b0bc9886988ff636d322c781a23f95a9bcd0
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Aprovisionamiento del Conector de Adobe Analytics {#adobe-analytics-connector-provisioning}
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 > Estos pasos solo corresponden a las implementaciones híbridas y locales.
 >
->Para implementaciones alojadas, póngase en contacto con el equipo de [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Para implementaciones de Managed Services alojadas y de Campaign, póngase en contacto con [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) equipo.
 
 La integración entre Adobe Campaign Classic y la autenticación de Adobe Analytics es compatible con el servicio Identity Management de Adobe (IMS):
 
