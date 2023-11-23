@@ -8,9 +8,9 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 6939307c0b33ff662fe4ef9ae0192ae7b500a95c
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '354'
 ht-degree: 42%
 
 ---
@@ -45,6 +45,7 @@ En función de las bases de datos externas a las que desee tener acceso desde Ad
 
 Siga los vínculos a continuación para obtener más información:
 
+* Conectar Campaign y [Amazon Redshift](../../installation/using/configure-fda-redshift.md)
 * Conectar Campaign y [Azure synapse](../../installation/using/configure-fda-synapse.md)
 * Conectar Campaign y [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
 * Conectar Campaign y [Hadoop](../../installation/using/configure-fda-hadoop.md)

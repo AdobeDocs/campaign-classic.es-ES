@@ -6,10 +6,10 @@ title: Guía de Campaign Classic v7
 user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enriquecidos para crear, coordinar y ofrecer campañas dinámicas que los clientes realmente deseen mediante correo electrónico, canales móviles, sin conexión y mucho más.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 88ee8d1575f6397a35fb6f7412cd08119a75c131
+source-git-commit: 6939307c0b33ff662fe4ef9ae0192ae7b500a95c
 workflow-type: tm+mt
-source-wordcount: '2529'
-ht-degree: 100%
+source-wordcount: '2532'
+ht-degree: 99%
 
 ---
 
@@ -33,14 +33,14 @@ ht-degree: 100%
       + [Lanzamiento de Adobe Campaign](platform/using/launching-adobe-campaign.md)
       + Espacio de trabajo de Adobe Campaign{#campaign-workspace}
          + [Introducción a la IU de Campaign](platform/using/adobe-campaign-workspace.md)
-         + [Uso del explorador de Campaign](platform/using/adobe-campaign-explorer.md)
+         + [Uso de Campaign Explorer](platform/using/adobe-campaign-explorer.md)
          + [Examen y personalización de listas](platform/using/adobe-campaign-ui-lists.md)
       + Preguntas frecuentes {#faq}
          + [Preguntas clave](platform/using/common-questions.md)
          + [Conceptos globales](platform/using/faq-key-concepts.md)
          + [Actualización de compilación](platform/using/faq-build-upgrade.md)
          + [Privacidad](platform/using/privacy-faq.md)
-         + [Audiencias](platform/using/faq-audiences.md)
+         + [Públicos](platform/using/faq-audiences.md)
          + [Diseño de mensajes](platform/using/faq-designing.md)
          + [Envío de mensajes](platform/using/faq-messages.md)
          + [Flujos de trabajo](platform/using/faq-workflows.md)
@@ -117,7 +117,7 @@ ht-degree: 100%
    + Pasos clave al crear un envío {#key-steps-when-creating-a-delivery}
       + [Introducción a las envíos](delivery/using/steps-about-delivery-creation-steps.md)
       + [Crear e identificar un envío](delivery/using/steps-create-and-identify-the-delivery.md)
-      + [Definición de la audiencia](delivery/using/steps-defining-the-target-population.md)
+      + [Definición del público](delivery/using/steps-defining-the-target-population.md)
       + [Validación de la envíos](delivery/using/steps-validating-the-delivery.md)
       + [Envío de la entrega](delivery/using/steps-sending-the-delivery.md)
       + Prácticas recomendadas relacionadas con los envíos {#delivery-bestpractices}
@@ -652,6 +652,7 @@ ht-degree: 100%
          + [Prácticas recomendadas y limitaciones](installation/using/fda-best-practices.md)
          + Directrices de configuración {#config-databases}
             + [Pasos de configuración](installation/using/configure-fda.md)
+            + [Configuración de Amazon Redshift](installation/using/configure-fda-redshift.md)
             + [Configuración de Azure Synapse](installation/using/configure-fda-synapse.md)
             + [Configuración de Google BigQuery](installation/using/configure-fda-google-big-query.md)
             + [Configuración de Hadoop](installation/using/configure-fda-hadoop.md)
@@ -785,8 +786,8 @@ ht-degree: 100%
       + [Métodos SOAP en JavaScript](configuration/using/soap-methods-in-javascript.md)
       + [Adición de funciones SQL adicionales](configuration/using/adding-additional-sql-functions.md)
    + Jerarquía de navegación {#navigation-hierarchy}
-      + [Configuración de la jerarquía del explorador](configuration/using/configuration.md)
-      + [Editar la jerarquía del explorador](configuration/using/edition.md)
+      + [Configuración de la jerarquía de Explorer](configuration/using/configuration.md)
+      + [Editar la jerarquía de Explorer](configuration/using/edition.md)
    + Uso de una tabla de destinatarios personalizada {#use-a-custom-recipient-table}
       + [Acerca de la tabla de destinatarios personalizada](configuration/using/about-custom-recipient-table.md)
       + [Características del esquema](configuration/using/schema-characteristics.md)
