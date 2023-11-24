@@ -9,10 +9,10 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e6a2986e5355b32164386e1f6d64f52dc6977632
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 100%
+source-wordcount: '582'
+ht-degree: 86%
 
 ---
 
@@ -30,6 +30,10 @@ Una vez enviada esta solicitud, Adobe procede a suministrarle la integración y 
 >[!IMPORTANT]
 >
 >Si está utilizando el dominio demdex y sigue la sintaxis **ftp-out.demdex.com** para la cuenta externa de importación y **ftp-in.demdex.com** para la cuenta externa de exportación, debe adaptar la implementación en consecuencia y desplazarse al conector Amazon Simple Storage Service (S3) para importar o exportar datos. Para obtener más información sobre cómo configurar sus cuentas externas con Amazon S3, consulte esta [sección](../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign).
+
+El diagrama siguiente detalla cómo funciona esta integración. AAM Aquí, las siglas en inglés para Adobe Audience Manager y AC para Adobe Campaign son:
+
+![](assets/aam_diagram.png){align="center"}
 
 ## Paso 1: Configuración o verificación de las cuentas externas en Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
@@ -86,10 +90,16 @@ Para configurar la fuente de datos **[!UICONTROL Recipient - Visitor ID]**:
 
 Para la configuración de la integración con el servicio principal Personas o Audience Manager, también es necesario configurar el servidor de seguimiento de campañas.
 
-Debe verificar que el servidor de seguimiento de Campaign esté registrado en el dominio (CNAME). Se puede encontrar más información sobre la delegación de nombres de dominio en [este artículo](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es).
+Para permitir que las audiencias compartidas funcionen con el ID de visitante, el dominio del servidor de seguimiento debe ser un subdominio de la dirección URL en la que se hizo clic o del sitio web principal.
+
+>[!IMPORTANT]
+>
+>Debe verificar que el servidor de seguimiento de Campaign esté registrado en el dominio (CNAME). Se puede encontrar más información sobre la delegación de nombres de dominio en [este artículo](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es).
 
 ## Paso 4: Configuración del servicio de ID de visitante {#step-4--configure-the-visitor-id-service}
 
 En caso de que el servicio de ID de visitante no se haya configurado en las propiedades web o sitios web, consulte el siguiente [documento](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=es) o el siguiente [vídeo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) para aprender a configurar el servicio.
+
+Sincronizar los identificadores de cliente con el ID declarado mediante `setCustomerID` en el servicio de ID de Experience Cloud con el código de integración: `AdobeCampaignID`. El `AdobeCampaignID` debe coincidir con el valor de la clave de reconciliación establecida en la fuente de datos del destinatario configurada en [Paso 2: Configuración de las fuentes de datos](#step-2--configure-the-data-sources).
 
 La configuración y el suministro han finalizado, la integración ya puede utilizarse para importar y exportar audiencias o segmentos.
