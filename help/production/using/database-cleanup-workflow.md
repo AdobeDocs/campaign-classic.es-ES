@@ -8,7 +8,7 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 624978901943b4c74f50c20298c9596f73b25b1b
 workflow-type: tm+mt
 source-wordcount: '2830'
 ht-degree: 1%
@@ -282,7 +282,7 @@ Esta tarea elimina de la base de datos todas las tablas de trabajo que coincidan
 1. La lista de tablas con nombres que comienzan por **wkDlv_** se recupera primero con la siguiente consulta (postgresql):
 
    ```sql
-   SELECT relname FROM pg_class WHERE relname LIKE Lower('wkDlv_') ESCAPE E'\\' AND relkind IN ('r','v') AND pg_get_userbyid(relowner)<>'postgres'
+   SELECT relname FROM pg_class WHERE relname LIKE Lower('wkDlv_%') ESCAPE E'\\' AND relkind IN ('r','v') AND pg_get_userbyid(relowner)<>'postgres'
    ```
 
 1. A continuación, se excluyen las tablas utilizadas por los flujos de trabajo en curso. Para ello, la lista de envíos en curso se recupera mediante la siguiente consulta:
