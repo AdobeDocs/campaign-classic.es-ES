@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 8ecb5aba9a070276927e97586ed463ab485717d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3645'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/lat
 
 ### Noviembre de 2023
 
-JWT (JSON Web Tokens) está actualmente en proceso de depreciación y se está reemplazando con OAuth. La transición se está llevando a cabo de forma progresiva dentro de las próximas versiones de Campaign y la documentación se actualizará para reflejar estas actualizaciones.
+JWT (JSON Web Tokens) está actualmente en desuso y se está reemplazando por OAuth. La transición se está llevando a cabo de forma progresiva dentro de las próximas versiones de Campaign y la documentación se actualizará para reflejar estas actualizaciones.
 
 ### Agosto de 2023
 
@@ -185,7 +185,7 @@ Nuevo conector de FDA de Vertica Analytics: [más información](../../installati
 
 Nuevo conector FDA de Google, Big Query: [más información](../../installation/using/configure-fda-google-big-query.md)
 
-La descripción técnica del flujo de trabajo &quot;Facturación (billing)&quot; incluye ahora las tareas realizadas originalmente por el &quot;Número de perfiles de facturación activos (billingActiveContactCount)&quot;. [Más información](../../workflow/using/about-technical-workflows.md)
+La descripción técnica del flujo de trabajo “Facturación (billing)” incluye ahora las tareas realizadas originalmente por el “Número de perfiles de facturación activos (billingActiveContactCount)”. [Más información](../../workflow/using/about-technical-workflows.md)
 
 ## Mayo de 2021 {#may-2021}
 
