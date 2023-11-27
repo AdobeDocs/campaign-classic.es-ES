@@ -11,9 +11,9 @@ internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '761'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Antes de iniciar esta implementación, compruebe lo siguiente:
 
 >[!AVAILABILITY]
 >
-> JWT (JSON Web Tokens) está actualmente en proceso de depreciación y se está reemplazando con OAuth. La transición se está llevando a cabo de forma progresiva dentro de las próximas versiones de Campaign y la documentación se actualizará para reflejar estas actualizaciones.
+> JWT (JSON Web Tokens) está actualmente en desuso y se está reemplazando por OAuth. La transición se está llevando a cabo de forma progresiva dentro de las próximas versiones de Campaign y la documentación se actualizará para reflejar estas actualizaciones.
 
 1. Acceda a [!DNL Adobe I/O] e inicie sesión con el acceso de desarrollador de la organización. Asegúrese de haber iniciado sesión en el portal correcto de la organización.
 
