@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: dbbc5d9f354357e5ca13eaeffddf67865480070d
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '2549'
-ht-degree: 100%
+source-wordcount: '2553'
+ht-degree: 98%
 
 ---
 
@@ -291,7 +291,7 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](../..
 * Se ha corregido un problema que podía reducir el uso de memoria en el servidor al realizar el análisis del envío.
 * Se ha corregido un problema que podía impedir que la instancia funcionara al intentar ejecutar consultas complejas específicas.
 * Se ha corregido un problema que podía impedir que se ejecutara el flujo de trabajo técnico **Sincronización de páginas de Twitter**. (NEO-28634)
-* Se ha corregido un problema que podía mostrar un mensaje de error relacionado con la función decryptPassword al intentar publicar en Twitter mediante la plantilla de envíos de **tuits (Twitter)**. (NEO-28216)
+* Se ha corregido un problema que podía mostrar un mensaje de error relacionado con la función decryptPassword al intentar publicar en X (anteriormente conocido como Twitter) utilizando **Tweet (twitter)** plantilla de envíos. (NEO-28216)
 * Se ha corregido un problema que se producía al utilizar una actividad **JavaScript** para realizar una solicitud HTTP en un flujo de trabajo. Después de definir el número de puerto en el nombre del host, la llamada generaría el siguiente error (NEO-29146):
 
 ```

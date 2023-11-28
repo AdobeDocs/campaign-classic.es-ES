@@ -4,11 +4,11 @@ title: Instalación de paquetes integrados de Campaign Classic
 description: Obtenga información sobre cómo instalar paquetes integrados de Campaign
 feature: Installation, Application Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
-badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1282'
 ht-degree: 23%
 
 ---
@@ -98,7 +98,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr--> 
   <tr> 
    <td> Redes sociales (Marketing social) <br /> </td> 
-   <td> Sincroniza Adobe Campaign con Twitter y Facebook. <a href="../../social/using/about-social-marketing.md">Más información</a> <br /> </td> 
+   <td> Sincroniza Adobe Campaign con X (anteriormente conocido como Twitter) y Facebook. <a href="../../social/using/about-social-marketing.md">Más información</a> <br /> </td> 
    <td> Todo</td> 
   </tr> 
   <tr> 

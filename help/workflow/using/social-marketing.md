@@ -4,10 +4,10 @@ title: Social Marketing
 description: Descubra más información sobre los flujos de trabajo técnicos de Social Marketing
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '129'
+ht-degree: 79%
 
 ---
 
@@ -47,12 +47,12 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **Ma
   <tr> 
    <td> <span class="uicontrol">Cálculo de las estadísticas de Twitter</span> <br /> </td> 
    <td> <span class="uicontrol">statsTwitter</span> <br /> </td> 
-   <td> Este flujo de trabajo calcula las estadísticas vinculadas a los retweets y las visitas en Twitter.<br /> </td> 
+   <td> Este flujo de trabajo calcula las estadísticas vinculadas a los retweets y las visitas en X (anteriormente conocido como Twitter).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Sincronización de páginas de Twitter</span> <br /> </td> 
    <td> <span class="uicontrol">syncTwitter</span> <br /> </td> 
-   <td> Este flujo de trabajo importa los seguidores de Twitter en Adobe Campaign todos los días a las 7 a. m.<br /> </td> 
+   <td> Este flujo de trabajo importa X seguidores en Adobe Campaign todos los días a las 7 a. m.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

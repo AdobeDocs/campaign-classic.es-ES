@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 feature: Data Model
 role: Data Engineer, Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2385'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ Es la tabla predeterminada que se usa para **destinatarios de envíos**. Como re
 
 El campo iFolderId es la clave externa que vincula al destinatario con su carpeta de ejecución. Para obtener más información, consulte [XtkFolder](#XtkFolder).
 
-El campo sCountryCode es el código ISO 3166-1 Alpha 2 (2 caracteres) del país asociado con el destinatario. Este campo es en realidad una clave externa en la tabla de referencia de país (NmsCountry), que contiene las etiquetas de país y otros datos de código de país. Si el país no está rellenado, se almacena el valor &quot;XX&quot; (y se utiliza en lugar de un registro de ID cero).
+El campo sCountryCode es el código ISO 3166-1 Alpha 2 (2 caracteres) del país asociado al destinatario. Este campo es en realidad una clave externa en la tabla de referencia de país (NmsCountry), que contiene las etiquetas de país y otros datos de código de país. Si el país no está rellenado, se almacena el valor &quot;XX&quot; (y se utiliza en lugar de un registro de ID cero).
 
 Para obtener más información sobre la tabla de destinatarios, consulte [esta sección](../../configuration/using/about-data-model.md#default-recipient-table).
 
@@ -261,12 +261,12 @@ Este conjunto de tablas está vinculado al **Canal de aplicaciones móviles**, q
 
 ## Módulo de marketing social {#social-marketing-module}
 
-Este conjunto de tablas está vinculado al **Administración de redes sociales** , que permite interactuar con los clientes y clientes potenciales a través de Facebook y Twitter. Para obtener más información, consulte [Acerca del marketing social](../../social/using/about-social-marketing.md).
+Este conjunto de tablas está vinculado al **Administración de redes sociales** , que permite interactuar con clientes y clientes potenciales a través de Facebook y X (anteriormente conocido como Twitter). Para obtener más información, consulte [Acerca del marketing social](../../social/using/about-social-marketing.md).
 
 ![](assets/data-model_social.png)
 
 * **NmsVisitor**: Esta tabla coincide con el **nms:visitor** esquema. Contiene información sobre los visitantes.
-* **NmsVisitorSub**: Esta tabla coincide con el **nms:visitorSub** esquema. Permite vincular a un visitante a los servicios a los que se ha suscrito (Twitter o Facebook).
+* **NmsVisitorSub**: Esta tabla coincide con el **nms:visitorSub** esquema. Permite vincular a un visitante a los servicios a los que se ha suscrito (X o Facebook).
 * **NmsFriendShipRel**: Esta tabla coincide con el **nms:friendRel** esquema. Permite vincular visitantes con sus amigos en el contexto del servicio de Facebook.
 * **NmsVisitorInterestRel**: Esta tabla coincide con el **nms:visitorInterestRel** esquema. Permite vincular los visitantes y sus intereses.
 * **NmsInterest**: Esta tabla coincide con el **nms:interest** esquema. Contiene la lista de intereses de cada visitante.

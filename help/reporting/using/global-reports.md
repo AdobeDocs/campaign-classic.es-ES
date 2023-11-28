@@ -5,10 +5,10 @@ description: Informes globales
 badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '2300'
-ht-degree: 100%
+source-wordcount: '2308'
+ht-degree: 96%
 
 ---
 
@@ -167,9 +167,9 @@ La tabla de valores utiliza los indicadores siguientes:
 
 ### Difusión en redes sociales {#sharing-to-social-networks}
 
-El marketing viral permite que los destinatarios de las entregas compartan información con sus redes de contactos: pueden añadir un vínculo a su perfil (Facebook, Twitter, etc.) o enviar un mensaje a un amigo. Cada difusión y cada acceso a la información compartida se rastrea dentro de la entrega. Para obtener más información sobre marketing viral, consulte [esta sección](../../delivery/using/viral-and-social-marketing.md).
+El marketing viral permite que los destinatarios de las entregas compartan información con sus redes de contactos: pueden añadir un vínculo a su perfil (Facebook, X, anteriormente conocido como Twitter, etc.) o enviar un mensaje a un amigo. Cada difusión y cada acceso a la información compartida se rastrea dentro de la entrega. Para obtener más información sobre marketing viral, consulte [esta sección](../../delivery/using/viral-and-social-marketing.md).
 
-Este informe muestra el desglose de mensajes compartidos y abiertos por red social (Facebook, Twitter, etc.) y por correo electrónico.
+Este informe muestra el desglose de mensajes compartidos y abiertos por red social (Facebook, X, etc.) o por correo electrónico.
 
 ![](assets/s_ncs_user_social_report.png)
 
@@ -202,7 +202,7 @@ Esta sección incluye dos gráficos que representan el desglose de actividades d
 
 ## Estadísticas de actividades de difusión {#statistics-on-sharing-activities}
 
-Este informe muestra la evolución de las difusiones en redes sociales (Facebook, Twitter, correo electrónico, etc.) en el tiempo.
+Este informe muestra la evolución de las difusiones en redes sociales (Facebook, X, antes conocido como Twitter, correo electrónico, etc.) a tiempo.
 
 Para obtener más información sobre marketing viral, consulte [esta sección](../../delivery/using/viral-and-social-marketing.md).
 
@@ -259,7 +259,7 @@ Este informe permite monitorizar las suscripciones a los servicios de informaci�
 
 ![](assets/s_ncs_user_services_report.png)
 
-Se puede visualizar para una suscripción haciendo clic en el nodo **[!UICONTROL Profiles and targets > Services and subscriptions]** de la página principal o del explorador. Seleccione la suscripción deseada y, a continuación, haga clic en la pestaña **[!UICONTROL Reports]**. El informe **[!UICONTROL Subscriptions tracking]** está disponible de forma predeterminada. Permite ver las tendencias de suscripción y de bajas de suscripción y la tasa de fidelidad durante un periodo. Se puede configurar la representación de estos datos a través de la lista desplegable. Haga clic en **[!UICONTROL Refresh]** para validar la configuración seleccionada.
+Se puede visualizar para una suscripción haciendo clic en el nodo **[!UICONTROL Profiles and targets > Services and subscriptions]** de la página principal o de Explorer. Seleccione la suscripción deseada y, a continuación, haga clic en la pestaña **[!UICONTROL Reports]**. El informe **[!UICONTROL Subscriptions tracking]** está disponible de forma predeterminada. Permite ver las tendencias de suscripción y de bajas de suscripción y la tasa de fidelidad durante un periodo. Se puede configurar la representación de estos datos a través de la lista desplegable. Haga clic en **[!UICONTROL Refresh]** para validar la configuración seleccionada.
 
 Para obtener más información, consulte [esta página](../../delivery/using/managing-subscriptions.md).
 

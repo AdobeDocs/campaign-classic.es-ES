@@ -6,10 +6,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '5974'
-ht-degree: 100%
+source-wordcount: '5978'
+ht-degree: 99%
 
 ---
 
@@ -119,7 +119,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 
 +++**Canal**
 
-Un canal es un medio a través del cual se envía una comunicación. Los canales integrados en Adobe Campaign son el correo electrónico, los SMS, el correo directo, las notificaciones push, LINE y Twitter. Se pueden implementar canales personalizados para los requisitos de canal no estándar.
+Un canal es un medio a través del cual se envía una comunicación. Los canales integrados en Adobe Campaign son el correo electrónico, los SMS, el correo postal, las notificaciones push, LINE y X (anteriormente conocido como Twitter). Se pueden implementar canales personalizados para los requisitos de canal no estándar.
 
 Más información sobre los [Canales](../../delivery/using/communication-channels.md).
 +++
@@ -348,11 +348,11 @@ Una enumeración es un tipo de datos definido en esquemas o a nivel de plataform
 Más información sobre las [Enumeraciones](../../platform/using/managing-enumerations.md).
 +++
 
-+++**Vista del explorador**
++++**Vista de Explorer**
 
-La vista del explorador es una visualización jerárquica de las carpetas que contienen datos y artefactos de Adobe Campaign. Tenga en cuenta que el sistema de carpetas de Adobe Campaign no funciona como una vista de árbol típica, ya que cada carpeta contiene datos de un tipo específico, como envíos, flujos de trabajo u ofertas.
+La vista de Explorer es una visualización jerárquica de las carpetas que contienen datos y artefactos de Adobe Campaign. Tenga en cuenta que el sistema de carpetas de Adobe Campaign no funciona como una vista de árbol típica, ya que cada carpeta contiene datos de un tipo específico, como envíos, flujos de trabajo u ofertas.
 
-Más información sobre la [Vista del explorador](../../platform/using/adobe-campaign-explorer.md).
+Más información sobre la [Vista de Explorer](../../platform/using/adobe-campaign-explorer.md).
 +++
 
 +++**Cuentas externas**
@@ -396,14 +396,14 @@ Más información sobre el [Filtrado de dimensión](../../workflow/using/buildin
 
 +++**Carpeta**
 
-Una carpeta es un elemento de vista del Explorador que contiene registros de base de datos de un tipo de datos específico. La excepción es el tipo de carpeta genérica que se utiliza como elemento organizador y que no contiene ningún dato en sí, solo otras carpetas.
+Una carpeta es un elemento de vista de Explorer que contiene registros de base de datos de un tipo de datos específico. La excepción es el tipo de carpeta genérica que se utiliza como elemento organizador y que no contiene ningún dato en sí, solo otras carpetas.
 
 Más información sobre las [Carpetas](../../platform/using/adobe-campaign-explorer.md).
 +++
 
 +++**Vista de carpeta**
 
-La vista de carpeta es un tipo especial de carpeta del Explorador que se utiliza para mostrar todos los registros de un tipo de datos seleccionado, independientemente de la carpeta a la que pertenezca. Las vistas de carpetas se utilizan como herramienta administrativa para administrar datos particionados o datos que se distribuyen entre muchas carpetas.
+La vista de carpeta es un tipo especial de carpeta Explorer que se utiliza para mostrar todos los registros de un tipo de datos seleccionado, independientemente de la carpeta a la que pertenezca. Las vistas de carpetas se utilizan como herramienta administrativa para administrar datos particionados o datos que se distribuyen entre muchas carpetas.
 
 Más información sobre la [Vista de carpeta](../../platform/using/adobe-campaign-explorer.md).
 +++
@@ -556,7 +556,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 +++**Árbol de navegación**
 
-El árbol de navegación es la navegación principal en la vista del explorador de Adobe Campaign. El árbol de navegación funciona como un explorador de archivos (por ejemplo, el Explorador de Windows). Las carpetas pueden contener subcarpetas. Al seleccionar un nodo, se muestra la vista correspondiente al nodo. La vista mostrada es una lista asociada con un esquema y un formulario de entrada para editar la línea seleccionada. Puede personalizar el árbol de navegación y definir permisos en las carpetas.
+El árbol de navegación es la navegación principal en la vista de Explorer de Adobe Campaign. El árbol de navegación funciona como un explorador de archivos (por ejemplo, el Explorador de Windows). Las carpetas pueden contener subcarpetas. Al seleccionar un nodo, se muestra la vista correspondiente al nodo. La vista mostrada es una lista asociada con un esquema y un formulario de entrada para editar la línea seleccionada. Puede personalizar el árbol de navegación y definir permisos en las carpetas.
 
 Más información sobre el [Árbol de navegación](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarch).
 +++
@@ -782,7 +782,7 @@ Más información sobre las [Variables de personalización](../../delivery/using
 
 +++**Plan**
 
-Un plan es un tipo de carpeta que se utiliza para organizar actividades de marketing en base a un calendario. Las carpetas de plan de la vista del explorador definen unidades basadas en el tiempo, como un año, un trimestre o un mes. Las carpetas de plan se pueden anidar y pueden contener otras carpetas de plan, carpetas de programa o campañas.
+Un plan es un tipo de carpeta que se utiliza para organizar actividades de marketing en base a un calendario. Las carpetas de plan de la vista de Explorer definen unidades basadas en el tiempo, como un año, un trimestre o un mes. Las carpetas de plan se pueden anidar y pueden contener otras carpetas de plan, carpetas de programa o campañas.
 
 Más información sobre los [Planes](../../campaign/using/setting-up-marketing-campaigns.md).
 +++

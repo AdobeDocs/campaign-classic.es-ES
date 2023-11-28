@@ -7,10 +7,10 @@ feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 100%
+source-wordcount: '853'
+ht-degree: 98%
 
 ---
 
@@ -80,7 +80,7 @@ Para acceder a las funcionalidades y configuraciones avanzadas, debe hacer clic 
 
 ![](assets/d_ncs_user_interface01.png)
 
-El diseño general del explorador de Adobe Campaign se presenta en [esta página](../../platform/using/adobe-campaign-explorer.md).
+El diseño general de Adobe Campaign Explorer se presenta en [esta página](../../platform/using/adobe-campaign-explorer.md).
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Un perfil al que se destinan varios envíos se cuenta solo una vez.
 
 >[!NOTE]
 >
->Los canales de Facebook y Twitter no se tienen en cuenta.
+>No se tienen en cuenta los canales facebook y X (anteriormente conocidos como Twitter).
 
 Tenga en cuenta que el recuento de perfiles principales solo está disponible para las **instancias de marketing**. No está disponible para Instancias de ejecución; es decir, instancias de MID (fuentes intermedias) y RT (mensajería en tiempo real/centro de mensajes).
 
