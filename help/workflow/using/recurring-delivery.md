@@ -5,16 +5,14 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 05210269da2a32310c19911a3bc32240c84dc7ad
-workflow-type: ht
-source-wordcount: '277'
-ht-degree: 100%
+source-git-commit: 198921813ff097db0d4ba0a8203fef65bb591af7
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 88%
 
 ---
 
 # Entrega recurrente{#recurring-delivery}
-
-
 
 Una actividad de **[!UICONTROL Recurring delivery]** permite configurar una ocurrencia de plantilla de envío específica de una campaña.
 
@@ -31,6 +29,10 @@ Para ello:
 1. Configure la plantilla de envío.
 
 El proceso de configuración de esta actividad es similar a la creación de una plantilla de envío en términos de las opciones disponibles. Para obtener más información, consulte [esta sección](../../delivery/using/about-templates.md).
+
+>[!CAUTION]
+>
+>Los envíos recurrentes no admiten el envío de pruebas, como [datos de destino](../../workflow/using/data-life-cycle.md#target-data) elementos de personalización.
 
 Para ver un ejemplo de la actividad utilizada, consulte esta [sección](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
