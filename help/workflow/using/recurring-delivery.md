@@ -5,9 +5,9 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 198921813ff097db0d4ba0a8203fef65bb591af7
+source-git-commit: cfc38df8184a8f59d49ce27eb7875783e8941611
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '292'
 ht-degree: 88%
 
 ---
@@ -32,7 +32,7 @@ El proceso de configuración de esta actividad es similar a la creación de una 
 
 >[!CAUTION]
 >
->Los envíos recurrentes no admiten el envío de pruebas, como [datos de destino](../../workflow/using/data-life-cycle.md#target-data) elementos de personalización.
+>Las entregas recurrentes no admiten la previsualización de contenido ni la entrega de pruebas, lo que incluye [datos de destino](../../workflow/using/data-life-cycle.md#target-data) elementos de personalización.
 
 Para ver un ejemplo de la actividad utilizada, consulte esta [sección](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 

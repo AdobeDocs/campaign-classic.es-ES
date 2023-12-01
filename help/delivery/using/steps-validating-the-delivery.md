@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability, Email Rendering, Proofs
 role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 198921813ff097db0d4ba0a8203fef65bb591af7
+source-git-commit: cfc38df8184a8f59d49ce27eb7875783e8941611
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 99%
+source-wordcount: '1665'
+ht-degree: 100%
 
 ---
 
@@ -138,10 +138,6 @@ Para detectar posibles errores en la configuración del mensaje, Adobe recomiend
 Para enviar una prueba, siga los pasos a continuación:
 
 1. Asegúrese de que el objetivo de prueba se ha configurado tal como se describe en [Definición de un objetivo de prueba específico](steps-defining-the-target-population.md#defining-a-specific-proof-target).
-
-   >[!CAUTION]
-   >
-   >[Entregas recurrentes](../../workflow/using/recurring-delivery.md) no admiten el envío de pruebas, lo que incluye [datos de destino](../../workflow/using/data-life-cycle.md#target-data) elementos de personalización.
 
 1. En la barra superior del asistente de envíos, haga clic en **[!UICONTROL Send a proof]**.
 
