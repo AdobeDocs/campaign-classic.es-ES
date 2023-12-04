@@ -4,10 +4,10 @@ title: Actualización del nuevo servidor de envío
 description: Obtenga información sobre cómo actualizar al nuevo servidor de envío de Campaign
 feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 65b6f91e083c955df044ffeb10f5338104d1ce56
+source-git-commit: eea3657f1cffa215e1fc1cb1eb8782b83321aae4
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 20%
+source-wordcount: '1252'
+ht-degree: 21%
 
 ---
 
@@ -48,7 +48,7 @@ Como parte de la nueva integración del servidor de entrega, Campaign debe comun
 
 >[!AVAILABILITY]
 >
-> JWT (JSON Web Tokens) está actualmente en proceso de depreciación y se está reemplazando con OAuth. La transición se está llevando a cabo de forma progresiva dentro de las próximas versiones de Campaign y la documentación se actualizará para reflejar estas actualizaciones.
+> JWT (JSON Web Tokens) está actualmente en desuso y se está reemplazando por OAuth. La transición se está llevando a cabo de forma progresiva dentro de las próximas versiones de Campaign y la documentación se actualizará para reflejar estas actualizaciones.
 
 ### Requisitos previos{#prerequisites}
 
@@ -71,7 +71,7 @@ Si no puede ver **Adobe Campaign** contacto [Adobe del Servicio de atención al 
 1. Clic **Adobe Campaign** y seleccione su Organización.
    **Precaución**: Si tiene más de una organización, asegúrese de seleccionar la correcta. Más información sobre las Organizaciones [en esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
 
-1. Compruebe que una **[!UICONTROL Product profile]** existe. Si no es así, créela. No se requiere permiso para este **[!UICONTROL Product profile]**.
+1. Compruebe que una **[!UICONTROL Product profile]** existe. Si no es así, créela. No se requiere permiso para esto **[!UICONTROL Product profile]**.
 
 
 >[!CAUTION]
@@ -90,7 +90,7 @@ Si no puede ver **Adobe Campaign** contacto [Adobe del Servicio de atención al 
    >
    >Si ya está utilizando la funcionalidad de autenticación JWT de E/S de Adobe para otra integración, como el conector de Analytics o las Déclencheur de Adobe, debe actualizar el proyecto añadiendo **API de Campaign** a ese proyecto.
 
-1. Elija **[!UICONTROL Add API]**.
+1. Elegir **[!UICONTROL Add API]**.
    ![](assets/Add-API.png)
 1. En la ventana **[!UICONTROL Add an API]** seleccione **[!UICONTROL Adobe Campaign]**.
    ![](assets/AC-API.png)
@@ -145,15 +145,7 @@ Para ello:
 
 1. Debe detener y reiniciar el servidor para que se tenga en cuenta la modificación. También puede ejecutar una `config -reload` comando.
 
-### Paso 3: Habilitar el nuevo servidor de envío
-
-Ahora puede habilitar el nuevo servidor de envío. Para realizar esto:
-
-1. Abra la consola del cliente e inicie sesión en Adobe Campaign como administrador.
-1. Navegar a **Administración > Plataforma > Opciones**.
-1. Acceda a la `NewDeliverabilityServer_FeatureFlag` y establezca el valor en `1`. Esta configuración debe realizarse en todas las instancias de Campaign (MKT, MID, RT, EXEC). Como cliente híbrido, póngase en contacto con Adobe para que establezca la opción en las instancias MID, RT y EXEC.
-
-### Paso 4: Validar la configuración
+### Paso 3: Validar la configuración
 
 Para comprobar que la integración se ha realizado correctamente, siga los pasos a continuación:
 
