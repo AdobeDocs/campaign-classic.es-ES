@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: f2e6db9e198f96e1e0250d461b419ac00e39bf45
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 98%
+source-wordcount: '2221'
+ht-degree: 88%
 
 ---
 
@@ -18,9 +18,35 @@ ht-degree: 98%
 
 Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con la **última versión de Campaign Classic v7**. Cada nueva compilación viene con un estado que se materializa con un color. Obtenga más información sobre los estados de compilación de Campaign Classic v7 en [esta página](rn-overview.md).
 
-## Versión 7.3.4, compilación 9364 {#release-7-3-4}
+## Versión 7.3.5, compilación 9368 {#release-7-3-5}
 
 [!BADGE Disponibilidad general]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad general"}
+
+
+_miércoles, 05 de diciembre de 2023_
+
+
+**Mejoras de seguridad**
+
+
+* Con Campaign Classic v7.3.5, se ha mejorado y protegido el proceso de autenticación. Los operadores técnicos ahora deben utilizar Adobe Identity Management System (IMS) para conectarse a Campaign. Obtenga información sobre cómo migrar sus cuentas técnicas existentes en [esta nota técnica](../../technotes/using/ims-migration.md).
+
+* Además, como parte del esfuerzo por reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomienda migrar el modo de autenticación del usuario final de la autenticación nativa de inicio de sesión/contraseña a Adobe Identity Management System (IMS). Obtenga información sobre cómo migrar los operadores en [esta nota técnica](../../technotes/using/migrate-users-to-ims.md).
+
+**Parches**
+
+* Se ha corregido un problema que se producía al utilizar datos de una base de datos de Google Big Query y actualizar datos en una base de datos de Oracle: todas las claves se establecían en `0` en la tabla temporal del flujo de trabajo. (NEO-65091)
+* Se ha corregido un problema que ocasionaba que fallara una ejecución de flujo de trabajo cuando se combinaban dos consultas en una base de datos de Google Big Query en un **Union** actividad de flujo de trabajo. (NEO-63705)
+* Se ha corregido un problema que solicitaba al usuario que se volviera a autenticar al hacer clic en `Back` en un informe de Campaign. (NEO-65087)
+* Se ha corregido un error en el flujo de trabajo Database Cleanup que se producía cuando se eliminaba una entrega antes de las pruebas de entrega. (NEO-48114)
+* Se ha corregido un problema al conectarse a la consola del cliente: las actualizaciones recientes sobre la verificación TLS provocaban un error de conexión. (NEO-50488)
+* Se ha corregido un problema con la autenticación proxy HTTP después de la actualización de Campaign a la versión 7.3.1. Las solicitudes HTTP en los flujos de trabajo de campaña fallaban con `error 407 – proxy auth required is returned`. (NEO-49624)
+* Se ha corregido un error intermitente con el descifrado GPG en **Script** actividades de flujo de trabajo. El mensaje de error asociado era: `gpg: decryption failed: No secret key`. (NEO-50257)
+  <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
+
+## Versión 7.3.4, compilación 9364 {#release-7-3-4}
+
+[!BADGE Disponibilidad limitada]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
 
 >[!CAUTION]
 >
