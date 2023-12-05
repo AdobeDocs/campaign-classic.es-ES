@@ -3,9 +3,9 @@ keywords: Campaign Classic;inicio;temas populares
 product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 41dcf70724761237a8230bad04322bd3322c0e6f
+source-git-commit: 5fe07c7955b529cd7f1a481167dd4139aa886bb0
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '292'
 ht-degree: 7%
 
 ---
@@ -32,12 +32,6 @@ Descubra las actualizaciones, mejoras y parches que se proporcionan con Campaign
 Para reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomienda migrar el modo de autenticación del usuario final de la autenticación nativa de inicio de sesión/contraseña a Adobe Identity Management System (IMS).
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](technotes/using/migrate-users-to-ims.md)
-
->[!TAB Actualice la integración de Adobe Experience Cloud]
-
-El servicio de autenticación oAuth heredado ha llegado al final de su vida útil: debe migrar al Adobe I/O.
-
-[![imagen](assets/do-not-localize/learn-more-button.svg)](integrations/using/configuring-adobe-io.md)
 
 >[!ENDTABS]
 
