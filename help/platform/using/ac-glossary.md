@@ -7,9 +7,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5978'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 
 +++**Canal**
 
-Un canal es un medio a través del cual se envía una comunicación. Los canales integrados en Adobe Campaign son el correo electrónico, los SMS, el correo postal, las notificaciones push, LINE y X (anteriormente conocido como Twitter). Se pueden implementar canales personalizados para los requisitos de canal no estándar.
+Un canal es un medio a través del cual se envía una comunicación. Los canales integrados en Adobe Campaign son el correo electrónico, los SMS, el correo directo, las notificaciones push, LINE y X (anteriormente conocido como Twitter).  Se pueden implementar canales personalizados para los requisitos de canal no estándar.
 
 Más información sobre los [Canales](../../delivery/using/communication-channels.md).
 +++
@@ -928,11 +928,11 @@ La aprobación del destino es el proceso de hacer que un operador o un grupo de 
 Más información sobre la [Aprobación del destino](../../workflow/using/local-approval.md).
 +++
 
-+++**Datos de destino**
++++**Datos de destinatario**
 
 Los datos de destino son los datos almacenados en la tabla de trabajo (transición) de un flujo de trabajo. Estos datos están disponibles dentro del envío para personalizar el contenido del envío o para definir la lógica de los elementos dinámicos del envío.
 
-Más información sobre los [Datos de destino](../../workflow/using/data-life-cycle.md#target-data).
+Más información sobre los [Datos de destinatario](../../workflow/using/data-life-cycle.md#target-data).
 +++
 
 +++**Asignación de destino**
