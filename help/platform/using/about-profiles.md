@@ -8,9 +8,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '853'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Un perfil al que se destinan varios envíos se cuenta solo una vez.
 
 >[!NOTE]
 >
->No se tienen en cuenta los canales facebook y X (anteriormente conocidos como Twitter).
+>No se tienen en cuenta los canales de Facebook y X (anteriormente conocido como Twitter).
 
 Tenga en cuenta que el recuento de perfiles principales solo está disponible para las **instancias de marketing**. No está disponible para Instancias de ejecución; es decir, instancias de MID (fuentes intermedias) y RT (mensajería en tiempo real/centro de mensajes).
 
