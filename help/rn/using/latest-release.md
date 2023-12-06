@@ -10,7 +10,7 @@ exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: f2e6db9e198f96e1e0250d461b419ac00e39bf45
 workflow-type: tm+mt
 source-wordcount: '2221'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -167,7 +167,7 @@ Obtenga más información en la [Matriz de compatibilidad de Campaign](../../rn/
 
 **Funciones obsoletas**
 
-* El marketing social con Facebook ya no se utiliza. Puede utilizar la integración de X (anteriormente conocida como Twitter) para publicar en medios sociales o trabajar con Adobe para crear un canal personalizado.
+* El marketing social con Facebook ya no se utiliza. Puede usar la integración de X (anteriormente conocido como Twitter) para publicar en medios sociales o trabajar con Adobe para crear un canal personalizado.
 * El conector ACS (oferta Prime) ya no se utiliza. Puede utilizar las funcionalidades de exportación e importación de Campaign para extraer e insertar datos en ambos productos.
 
 Obtenga más información en la página [Funciones obsoletas y eliminadas](deprecated-features.md).
