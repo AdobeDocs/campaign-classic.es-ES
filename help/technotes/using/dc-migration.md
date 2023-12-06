@@ -6,11 +6,13 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 feature: Technote, Upgrade
 role: User
 level: Beginner
+solution: Campaign
+version: Classic v7
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 87a27eb96fe9fbcb68a5e961b95cb4588eee85e3
 workflow-type: tm+mt
 source-wordcount: '1540'
-ht-degree: 66%
+ht-degree: 48%
 
 ---
 
@@ -49,7 +51,7 @@ Este programa tiene tres objetivos principales:
 * Cifrado de datos en reposo 
 * Autenticación mejorada (IMS)
 
-**Infraestructuras**
+**Infraestructura**
 
 * Adaptación de hardware Agile
 * Restauración más rápida
@@ -79,7 +81,7 @@ Este programa tiene tres objetivos principales:
 
 Para comenzar como es debido, las cuentas que requieran esta migración recibirán un mensaje de Adobe por correo electrónico con una cronología y acceso a la documentación. Esta notificación le indica que se ha programado la migración de su cuenta.
 
-Se puede iniciar una migración mediante [abrir un nuevo ticket de asistencia al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support). Utilice la línea de asunto “Migrar a AWS”.
+Se puede iniciar una migración mediante [abrir un nuevo ticket de asistencia al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support). Utilice la línea de asunto &quot;Migrar a AWS&quot;.
 
 ### ¿Es obligatoria esta migración?
 
@@ -91,9 +93,9 @@ Adobe planea eliminar el antiguo centro de datos, las instancias de Adobe Campai
 
 A partir de ahí, hay que realizar el proceso con mucho cuidado ya que su ubicación actual puede estar expuesta a **vulnerabilidades de seguridad y rendimiento**.
 
-Además, esta migración es ahora un **requisito previo para cualquier actualización futura** de la compilación de Adobe Campaign. La actualización de compilación ya no es posible en el centro de datos heredado.
+Además, esta migración es ahora una **requisito previo para cualquier actualización futura de la compilación** de su Adobe Campaign. La actualización de compilación ya no es posible en el centro de datos heredado.
 
-Adobe se ha comprometido a proteger sus datos y prepararle para el futuro de Adobe Campaign. Necesitamos su colaboración para lograr el éxito juntos.
+Adobe se ha comprometido a proteger sus datos y prepararle para el futuro de Adobe Campaign. Necesitamos su colaboración para que sea un éxito conjunto.
 
 
 **Hemos organizado un equipo** de representantes del Servicio de atención al cliente, responsables de éxito de clientes, gerentes de productos, ingenieros, especialistas en TechOps y consultores de productos dedicados para ayudar y garantizar que la experiencia sea fluida y se desarrolle sin problemas. Nos comprometemos a garantizar que dispone de la información de contacto y del proyecto pertinente.
@@ -111,7 +113,7 @@ Obtenga más información en Migración de Campaign a [Preguntas frecuentes sobr
 
 ## Ruta de migración a la nube pública
 
-Adobe se encarga de la mayoría de las acciones. Pero necesitamos su ayuda para que valide y firme.
+Adobe se encarga de la mayoría de las acciones. Lo necesitamos para la validación y la aprobación.
 
 ![](assets/MigrationPath.png)
 
@@ -123,7 +125,7 @@ Adobe se encarga de la mayoría de las acciones. Pero necesitamos su ayuda para 
 
 La base de datos se descargará del centro de datos heredado y se restaurará en la nube pública (AWS). Cuando se reinicia en el nuevo centro de datos, la aplicación se reanudará desde el estado exacto en que estaba antes del cierre. Los usuarios no verán ninguna diferencia, excepto que algunas tareas programadas se habrán retrasado.
 
-**Envío de direcciones IP por correo electrónico**
+**IP de envío de correo electrónico**
 
 Cuando se complete la migración, la instancia de Campaign tendrá direcciones IP de envío completamente distintas. Con el fin de garantizar una transición sin problemas, Adobe implementará una ampliación de las nuevas direcciones IP de envío cambiando progresivamente el tráfico de las direcciones IP antiguas a las nuevas.
 
@@ -140,7 +142,7 @@ En general, esto significa que el cliente debe comprobar las posibles restriccio
 
 **Servidores de Campaign**
 
-Los servidores de Campaign existentes (contenedores) se moverán a la nube pública (AWS) con un enfoque &quot;lift-and-shift&quot;. Es decir, no se necesitará una nueva instalación del servidor, pero todo el servidor se transferirá al nuevo centro de datos. Es decir, no se necesitará una nueva instalación del servidor, pero todo el servidor se transferirá al nuevo centro de datos.
+Los servidores de Campaign existentes (contenedores) se moverán a la nube pública (AWS) con un enfoque &quot;lift-and-shift&quot;. Es decir, no se necesitará una nueva instalación del servidor, pero todo el servidor se transferirá al nuevo centro de datos. La operación no requerirá más trabajo que una reconfiguración técnica de bajo nivel.
 
 **Nombres de servidor**
 
@@ -155,15 +157,16 @@ Esto significa que el cambio será transparente para los usuarios y las implemen
 
 ### Preparación
 
-**Envío de direcciones IP por correo electrónico**
+**IP de envío de correo electrónico**
 
-En primer lugar, la capacidad de entrega de Adobe evaluará el estado de entrega de la plataforma y recomendará un plan para el cambio a las nuevas IP.
+En primer lugar, la Capacidad de entrega de Adobe evaluará el estado de entrega de la plataforma y recomendará un plan para el cambio a las nuevas IP.
 
-Adobe proporcionará el mismo número de IP en el nuevo centro de datos.
+El Adobe proporcionará el mismo número de IP en el nuevo centro de datos.
 
-La ampliación de nuevas IP puede comenzar tan pronto como se aprovisionan las nuevas.
+La ampliación de nuevas direcciones IP puede comenzar en cuanto se aprovisionan las nuevas.
 
-**Limpieza de aplicaciones** La transferencia de datos entre centros de datos está en la ruta crítica del tiempo de inactividad.
+**Limpieza de aplicaciones**
+La transferencia de datos entre centros de datos se encuentra en la ruta crítica del tiempo de inactividad.
 
 Los datos se almacenan de dos maneras:
 
@@ -181,11 +184,11 @@ Sugerencias:
 
 **Pausar ejecuciones**
 
-Recomendamos reducir la velocidad y pausar todas las ejecuciones justo antes de cerrar la aplicación en el centro de datos heredado: entregas y flujos de trabajo. Esto facilitará el reinicio en la nube pública (AWS), ya que se habrá dado tiempo a los procesos para pausar “correctamente” y guardar cualquier estado de ejecución en curso. 
+Recomendamos reducir la velocidad y pausar todas las ejecuciones justo antes de cerrar la aplicación en el centro de datos heredado: entregas y flujos de trabajo. Esto facilitará el reinicio en la nube pública (AWS), ya que se habrá dado tiempo a los procesos para pausar &quot;correctamente&quot; y guardar cualquier estado de ejecución en curso.
 
 **Durante la migración**
 
-Mientras se produce la migración, solo seguirá funcionando un servicio: Redirección de vínculos de correo electrónico. Es decir, todos los destinatarios podrán llegar a la página de destino cuando hagan clic en un mensaje de correo electrónico. Sin embargo, no se rastrearán estos clics, por lo que las tasas de clics de las entregas que se iniciaron poco antes de que la migración serán inferiores a las habituales.
+Mientras se produce la migración, solo seguirá funcionando un servicio: Redirección de vínculos de correo electrónico. Es decir, todos los destinatarios podrán llegar a la página de destino cuando hagan clic en un mensaje de correo electrónico. Sin embargo, no se registrarán estos clics, por lo que las tasas de clics de las entregas que se iniciaron poco antes de que la migración serán inferiores a las habituales.
 
 **Restart**
 
