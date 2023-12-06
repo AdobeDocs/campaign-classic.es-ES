@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1791'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -171,7 +171,7 @@ _17 de diciembre de 2019_
 
 La versión 9032@d6b8062 incluye la siguiente corrección:
 
-* Se ha corregido un problema de seguimiento en los siguientes canales de comunicación: móvil (SMS, MMS), push (iOS, Android) y redes sociales (Facebook, X, anteriormente conocido como Twitter). (NEO-19595)
+* Se ha corregido un problema de seguimiento en los siguientes canales de comunicación: móvil (SMS, MMS), push (iOS, Android) y redes sociales como Facebook y X (anteriormente conocido como Twitter). (NEO-19595)
 
 ### [!DNL Gold Standard] 4 liberación{#gs-4}
 
