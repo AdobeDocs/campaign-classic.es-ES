@@ -6,9 +6,9 @@ badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic 
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2308'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -167,9 +167,9 @@ La tabla de valores utiliza los indicadores siguientes:
 
 ### Difusión en redes sociales {#sharing-to-social-networks}
 
-El marketing viral permite que los destinatarios de las entregas compartan información con sus redes de contactos: pueden añadir un vínculo a su perfil (Facebook, X, anteriormente conocido como Twitter, etc.) o enviar un mensaje a un amigo. Cada difusión y cada acceso a la información compartida se rastrea dentro de la entrega. Para obtener más información sobre marketing viral, consulte [esta sección](../../delivery/using/viral-and-social-marketing.md).
+El marketing viral permite que los destinatarios de los envíos compartan información con sus redes de contactos: pueden añadir un vínculo a su perfil de Facebook, X (anteriormente conocido como Twitter), etc., o enviar un mensaje a un amigo.  Cada difusión y cada acceso a la información compartida se rastrea dentro de la entrega. Para obtener más información sobre marketing viral, consulte [esta sección](../../delivery/using/viral-and-social-marketing.md).
 
-Este informe muestra el desglose de mensajes compartidos y abiertos por red social (Facebook, X, etc.) o por correo electrónico.
+Este informe muestra el desglose de mensajes compartidos y abiertos por red social (Facebook, X, etc.)  o por correo electrónico.
 
 ![](assets/s_ncs_user_social_report.png)
 
@@ -202,7 +202,7 @@ Esta sección incluye dos gráficos que representan el desglose de actividades d
 
 ## Estadísticas de actividades de difusión {#statistics-on-sharing-activities}
 
-Este informe muestra la evolución de las difusiones en redes sociales (Facebook, X, antes conocido como Twitter, correo electrónico, etc.) a tiempo.
+Este informe muestra la evolución de las difusiones en redes sociales como Facebook, X (anteriormente conocido como Twitter), correo electrónico, etc. en el tiempo.
 
 Para obtener más información sobre marketing viral, consulte [esta sección](../../delivery/using/viral-and-social-marketing.md).
 
