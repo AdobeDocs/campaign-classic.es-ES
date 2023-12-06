@@ -9,18 +9,18 @@ content-type: reference
 topic-tags: introduction
 exl-id: c8fd5f75-9386-42dd-bfb6-8086a86aa324
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '101'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 # Acerca del marketing social{#about-social-marketing}
 
-El **Administración de redes sociales** (Marketing social) La aplicación diseñada para administrar las redes sociales permite interactuar con los clientes y clientes potenciales a través de X (anteriormente conocido como Twitter).
+La aplicación **Gestión de redes sociales** (Social Marketing) diseñada para administrar las redes sociales permite interactuar con los clientes y posibles clientes a través de X (anteriormente conocido como Twitter).
 
-Conozca los pasos clave para integrar Campaign y X en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=es){target="_blank"}.
+Conozca los pasos clave para integrar Campaign y X en la [Documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=es){target="_blank"}.
 
-Como cliente on-premise o híbrido, su cuenta externa de X debe estar configurada y habilitada. Para las configuraciones híbridas, la pestaña **Intermediario** también debe estar configurada con una conexión activa a la plataforma intermediaria.
+Como cliente On-Premise o híbrido, su cuenta externa de X debe estar configurada y habilitada. Para las configuraciones híbridas, la pestaña **Intermediario** también debe estar configurada con una conexión activa a la plataforma intermediaria.
 
 ![](assets/tw-external-account.png)
