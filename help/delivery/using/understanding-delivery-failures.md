@@ -8,9 +8,9 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: 8b0162680d6a3a2d4891d1f71020b44b28046ad7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2573'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -293,7 +293,7 @@ For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](s
 
 For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, these rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).-->
 
-El **[!UICONTROL Inbound email]** Las reglas de contienen la lista de cadenas de caracteres que pueden devolver los servidores remotos y que permiten clasificar el error (**Duro**, **Suave** o **Ignorado**).
+Estas reglas de **[!UICONTROL Inbound email]** contienen la lista de cadenas de caracteres que pueden devolver los servidores remotos y que le permiten clasificar el error (**Devuelto no válido**, **Devuelto no entregado** o **Ignorado**).
 
 Cuando un mensaje de correo electrónico falla, el servidor remoto devuelve un mensaje de rechazo a la dirección especificada en los [parámetros de la plataforma](../../installation/using/deploying-an-instance.md). Adobe Campaign compara el contenido de cada mensaje de rechazo con las cadenas de la lista de reglas y, a continuación, lo asigna a uno de los tres [tipos de error](#delivery-failure-types-and-reasons).
 
