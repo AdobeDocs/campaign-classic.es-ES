@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1519'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   </tr>
 <tr>
  <td>Marketing social con Facebook</td>
- <td>El marketing social con Facebook ya no se utiliza. Puede utilizar la integración de X (anteriormente conocida como Twitter) para publicar en medios sociales o trabajar con Adobe para crear un canal personalizado.
+ <td>El marketing social con Facebook ya no se utiliza. Puede usar la integración de X (anteriormente conocido como Twitter) para publicar en medios sociales o trabajar con Adobe para crear un canal personalizado.
  <p></p>
   <p>Fecha de eliminación del destinatario: finales de 2023</p>
   </td>
