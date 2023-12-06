@@ -8,9 +8,9 @@ feature: Personalization
 role: User
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '877'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -115,7 +115,7 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
   >Este bloque se puede utilizar en envíos dirigidos solamente a visitantes.
 
 * **[!UICONTROL Registration confirmation]**: inserta un vínculo que permite confirmar la suscripción.
-* **[!UICONTROL Social network sharing links]** : inserta botones que permiten al destinatario compartir un vínculo al contenido de la página espejo con el cliente de correo electrónico, Facebook, X (anteriormente conocido como Twitter) y LinkedIn (consulte [Marketing viral: enviar a un amigo](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
+* **[!UICONTROL Social network sharing links]** : inserta botones que permiten al destinatario compartir un vínculo al contenido de la página espejo con el cliente de correo electrónico, Facebook, X (anteriormente conocido como Twitter) y LinkedIn (consulte [Marketing viral: reenviar a un amigo](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
 * **[!UICONTROL Style of content emails]** y **[!UICONTROL Notification style]**: genera un código que dé formato a un correo electrónico con estilos HTML predefinidos. Estos bloques deben insertarse en el código fuente de la entrega, en la sección **[!UICONTROL ...]**, entre las etiquetas **`<style>...</style>`**.
 * **[!UICONTROL Offer acceptance URL in unitary mode]**: inserta una URL que permite establecer una oferta de interacción como **[!UICONTROL Accepted]** (consulte [esta sección](../../interaction/using/offer-analysis-report.md)).
 
