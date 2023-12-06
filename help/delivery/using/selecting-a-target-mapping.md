@@ -8,9 +8,9 @@ feature: Delivery Templates
 role: User
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -25,10 +25,10 @@ Estos mapeos son los siguientes:
 | Name | Uso | Esquema estándar |
 |---|---|---|
 | Recipients | Envío a destinatarios de la base de datos de Adobe Campaign | nms:recipient |
-| Visitantes | Envío a los visitantes cuyos perfiles se hayan recopilado mediante recomendación (marketing viral) o a través de redes sociales (Facebook, X, antes conocido como Twitter), por ejemplo. | mns:visitor |
+| Visitantes | Envío a los visitantes cuyos perfiles se hayan recopilado mediante recomendación (marketing viral) o a través de redes sociales como por ejemplo Facebook o X (anteriormente conocido como Twitter). | mns:visitor |
 | Suscripciones | Envío a destinatarios suscritos a un servicio de información como un boletín informativo | nms:subscription |
 | Suscripciones de visitantes | Envío a los visitantes que están suscritos a un servicio de información | nms:visitorSub |
-| Servicio | Publicación en una cuenta X o en una página de Facebook | nms:service |
+| Servicio | Publicación en una cuenta de X o en una página de Facebook | nms:service |
 | Operadores | Envío a los operadores de Adobe Campaign | nms:operator |
 | Archivo externo | Envío a través de un archivo que contiene toda la información necesaria para la entrega | No hay ningún esquema vinculado, no se ha introducido ningún destino |
 
