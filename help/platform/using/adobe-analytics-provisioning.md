@@ -9,9 +9,9 @@ role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: d690a5c4b9779ccd90b50bfbc74df18f0ac60d14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '761'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ La integración entre Adobe Campaign Classic y la autenticación de Adobe Analyt
 
 * Si administra una cuenta externa migrada, debe implementar Adobe IMS y conectarse a Adobe Campaign a través de un Adobe ID.
 
-  Tenga en cuenta que el usuario que ha iniciado sesión mediante Adobe ID IMS debe ser el propietario de **Conector de datos** cuenta en Adobe Analytics y tiene permisos para **Perfil del producto** mencionado [abajo](#analytics-product-profile).
+  El usuario que haya iniciado sesión mediante el IMS de Adobe ID debe ser el propietario de la cuenta del **Conector de datos** en Adobe Analytics y debe tener un conjunto de permisos para el **Perfil del producto** mencionado [a continuación](#analytics-product-profile).
 
-El problema era que el propietario del conector de datos era un usuario diferente al usuario que había iniciado sesión en Campaign y que estaba probando la integración con Analytics.
+El problema era que el propietario del Conector de datos era un usuario diferente al usuario que había iniciado sesión en Campaign y que estaba probando la integración con Analytics.
 
 * Si va a implementar un conector nuevo, la implementación de Adobe IMS es opcional. Sin un usuario de Adobe ID, Adobe Campaign utilizará un usuario técnico para sincronizar con Adobe Analytics.
 
