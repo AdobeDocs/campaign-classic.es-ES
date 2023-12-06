@@ -8,9 +8,9 @@ feature: Channel Configuration
 role: User
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '287'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Para crear una entrega, haga clic en **[!UICONTROL Create]** encima de la lista 
 
 ![](assets/s_ncs_user_wizard_email01_1.png)
 
-Se proporciona una plantilla predeterminada para cada canal instalado: correo postal, correo electrónico, fax, teléfono, canal móvil (SMS), Facebook, X (anteriormente conocido como Twitter), etc.
+Se proporciona una plantilla predeterminada para cada canal instalado: correo directo, correo electrónico, fax, teléfono, canal móvil (SMS), Facebook, X (anteriormente conocido como Twitter), etc.
 
 >[!NOTE]
 >
