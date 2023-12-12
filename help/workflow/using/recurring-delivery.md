@@ -6,9 +6,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 feature: Workflows
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 source-git-commit: cfc38df8184a8f59d49ce27eb7875783e8941611
-workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '288'
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ El proceso de configuración de esta actividad es similar a la creación de una 
 
 >[!CAUTION]
 >
->Las entregas recurrentes no admiten la previsualización de contenido ni la entrega de pruebas, lo que incluye [datos de destino](../../workflow/using/data-life-cycle.md#target-data) elementos de personalización.
+>Las entregas recurrentes no admiten la vista previa del contenido ni el envío de pruebas que incluyan elementos de personalización de [datos de destino](../../workflow/using/data-life-cycle.md#target-data).
 
 Para ver un ejemplo de la actividad utilizada, consulte esta [sección](sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
 ## Configuración de envíos recurrentes {#set-up-recurring-delivery}
 
-Un **envío recurrente** creará una nueva instancia de envío cada vez que se ejecute. Por ejemplo, si el flujo de trabajo está programado para ejecutarse una vez a la semana, el resultado sería de 52 envíos al cabo de un año. Esto también significa que el registro y los registros de seguimiento generales se separarán por cada instancia de envío.
+Un **envío recurrente** creará una nueva instancia de envío cada vez que se ejecute. Por ejemplo, si el flujo de trabajo está programado para ejecutarse una vez a la semana, el resultado serían 52 envíos al cabo de un año.  Esto también significa que el registro y los registros de seguimiento generales se separarán por cada instancia de envío.
 
 ![Entrega recurrente](assets/delivery_recurring.jpg)
 
