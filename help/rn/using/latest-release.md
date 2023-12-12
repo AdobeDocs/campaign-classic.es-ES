@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: f2e6db9e198f96e1e0250d461b419ac00e39bf45
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2221'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,25 +23,25 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 [!BADGE Disponibilidad general]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad general"}
 
 
-_miércoles, 05 de diciembre de 2023_
+_5 de diciembre de 2023_
 
 
 **Mejoras de seguridad**
 
 
-* Con Campaign Classic v7.3.5, se ha mejorado y protegido el proceso de autenticación. Los operadores técnicos ahora deben utilizar Adobe Identity Management System (IMS) para conectarse a Campaign. Obtenga información sobre cómo migrar sus cuentas técnicas existentes en [esta nota técnica](../../technotes/using/ims-migration.md).
+* Con la versión 7.3.5 de Campaign Classic , se ha mejorado y protegido el proceso de autenticación. Ahora, los operadores técnicos deberán utilizar Adobe Identity Management System (IMS) para conectarse a Campaign. Obtén información sobre cómo migrar tus cuentas técnicas existentes en [esta nota técnica](../../technotes/using/ims-migration.md).
 
-* Además, como parte del esfuerzo por reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomienda migrar el modo de autenticación del usuario final de la autenticación nativa de inicio de sesión/contraseña a Adobe Identity Management System (IMS). Obtenga información sobre cómo migrar los operadores en [esta nota técnica](../../technotes/using/migrate-users-to-ims.md).
+* Además, con el objetivo de reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomienda migrar el modo de autenticación del usuario final de la autenticación nativa de inicio de sesión/contraseña a Adobe Identity Management System (IMS). Aprende a migrar los operadores en [esta nota técnica](../../technotes/using/migrate-users-to-ims.md).
 
 **Parches**
 
-* Se ha corregido un problema que se producía al utilizar datos de una base de datos de Google Big Query y actualizar datos en una base de datos de Oracle: todas las claves se establecían en `0` en la tabla temporal del flujo de trabajo. (NEO-65091)
-* Se ha corregido un problema que ocasionaba que fallara una ejecución de flujo de trabajo cuando se combinaban dos consultas en una base de datos de Google Big Query en un **Union** actividad de flujo de trabajo. (NEO-63705)
-* Se ha corregido un problema que solicitaba al usuario que se volviera a autenticar al hacer clic en `Back` en un informe de Campaign. (NEO-65087)
-* Se ha corregido un error en el flujo de trabajo Database Cleanup que se producía cuando se eliminaba una entrega antes de las pruebas de entrega. (NEO-48114)
+* Se ha corregido un problema que se producía al utilizar datos de una base de datos de Google Big Query y al actualizar datos en una base de datos de Oracle: todas las claves se establecían en `0` en la tabla temporal del flujo de trabajo. (NEO-65091)
+* Se ha corregido un problema que ocasionaba que fallara una ejecución de flujo de trabajo cuando se combinaban dos consultas en una base de datos de Google Big Query en una actividad de flujo de trabajo de **Union**. (NEO-63705)
+* Se ha corregido un problema que consistía en la solicitud al usuario de volverse a autenticar al hacer clic en el botón `Back` en un informe de campaña. (NEO-65087)
+* Se ha corregido un error en el flujo de trabajo para la limpieza de base de datos que se producía cuando se eliminaba una entrega antes que las pruebas de entrega. (NEO-48114)
 * Se ha corregido un problema al conectarse a la consola del cliente: las actualizaciones recientes sobre la verificación TLS provocaban un error de conexión. (NEO-50488)
-* Se ha corregido un problema con la autenticación proxy HTTP después de la actualización de Campaign a la versión 7.3.1. Las solicitudes HTTP en los flujos de trabajo de campaña fallaban con `error 407 – proxy auth required is returned`. (NEO-49624)
-* Se ha corregido un error intermitente con el descifrado GPG en **Script** actividades de flujo de trabajo. El mensaje de error asociado era: `gpg: decryption failed: No secret key`. (NEO-50257)
+* Se ha corregido un problema con la autenticación proxy HTTP después de la actualización de Campaign a la versión 7.3.1. Las solicitudes HTTP en los flujos de trabajo de la campaña fallaban con `error 407 – proxy auth required is returned`. (NEO-49624)
+* Se ha corregido un error intermitente con el descifrado GPG en actividades de flujo de trabajo de **Script**. El mensaje de error asociado era: `gpg: decryption failed: No secret key`. (NEO-50257)
   <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
 
 ## Versión 7.3.4, compilación 9364 {#release-7-3-4}
