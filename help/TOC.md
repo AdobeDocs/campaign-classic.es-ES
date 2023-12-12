@@ -7,9 +7,9 @@ user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enr
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: c2ac8fcf1d9746dbddffc90491a6f214e2c3df2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2544'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 + [Últimas actualizaciones](rn/using/documentation-updates.md)
 + Notas de la versión {#release-notes}
    + [Introducción a las actualizaciones](rn/using/rn-overview.md)
-   + [Última versión](rn/using/latest-release.md)
+   + [Último lanzamiento](rn/using/latest-release.md)
    + Versiones anteriores {#previous-releases}
       + [[!DNL Gold Standard]](rn/using/gold-standard.md)
       + [2021](rn/using/release--2021.md)
@@ -118,7 +118,7 @@ ht-degree: 99%
       + [Introducción a las envíos](delivery/using/steps-about-delivery-creation-steps.md)
       + [Crear e identificar un envío](delivery/using/steps-create-and-identify-the-delivery.md)
       + [Definición del público](delivery/using/steps-defining-the-target-population.md)
-      + [Validación de la envíos](delivery/using/steps-validating-the-delivery.md)
+      + [Validación de la entrega](delivery/using/steps-validating-the-delivery.md)
       + [Envío de la entrega](delivery/using/steps-sending-the-delivery.md)
       + Prácticas recomendadas relacionadas con los envíos {#delivery-bestpractices}
          + [Conozca las prácticas recomendadas](delivery/using/delivery-best-practices.md)
@@ -445,7 +445,7 @@ ht-degree: 99%
       + [Envío](workflow/using/delivery.md)
       + [Control de envíos](workflow/using/delivery-control.md)
       + [Envío continuo](workflow/using/continuous-delivery.md)
-      + [Envío recurrente](workflow/using/recurring-delivery.md)
+      + [Entrega recurrente](workflow/using/recurring-delivery.md)
       + [Envíos en canales múltiples](workflow/using/cross-channel-deliveries.md)
       + [Aprobación local](workflow/using/local-approval.md)
       + [Carga de datos (RDBMS)](workflow/using/data-loading--rdbms-.md)
