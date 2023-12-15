@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Push
 role: User
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
+source-git-commit: 92c79e7050124bc707f4d6b87c7952016586002c
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 89%
@@ -30,7 +30,7 @@ Hay dos canales de envío disponibles:
 
   >[!IMPORTANT]
   >
-  >Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de admitir este cambio. Ya puede comprobar y realizar acciones. Obtenga más información en esta [nota técnica de Adobe Campaign v8](https://experienceleague.corp.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
+  >Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de admitir este cambio. Ya puede comprobar y realizar acciones. Obtenga más información en esta [nota técnica de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
 
 En relación con esos dos canales hay dos actividades de envío en los flujos de trabajo de campaña. Dos plantillas de mensajes transaccionales también están disponibles para la mensajería transaccional.
 

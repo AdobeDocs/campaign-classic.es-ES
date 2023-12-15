@@ -6,7 +6,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 feature: Push
 role: User, Developer
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
+source-git-commit: 92c79e7050124bc707f4d6b87c7952016586002c
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 79%
@@ -28,7 +28,7 @@ Podrá [crear una notificación enriquecida de Android](create-notifications-and
 
 >[!IMPORTANT]
 >
->Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de admitir este cambio. Ya puede comprobar y realizar acciones. Obtenga más información en esta [nota técnica de Adobe Campaign v8](https://experienceleague.corp.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
+>Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de admitir este cambio. Ya puede comprobar y realizar acciones. Obtenga más información en esta [nota técnica de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
 
 
 ## Configuración de la cuenta externa de Android {#configuring-external-account-android}
@@ -109,7 +109,7 @@ De forma predeterminada, Adobe Campaign guarda una clave en el campo **[!UICONTR
 
 >[!IMPORTANT]
 >
->Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Como parte del esfuerzo continuo de Google por mejorar sus servicios, las API de FCM heredadas dejarán de usarse el **20 de junio de 2024**. Obtenga más información en esta [nota técnica de Adobe Campaign v8](https://experienceleague.corp.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
+>Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Como parte del esfuerzo continuo de Google por mejorar sus servicios, las API de FCM heredadas dejarán de usarse el **20 de junio de 2024**. Obtenga más información en esta [nota técnica de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
 
 Después de crear el servicio y una nueva aplicación móvil, debe configurar la aplicación móvil. El **HTTP (heredado)** La API no debe seleccionarse, ya que ha quedado obsoleta en Google.
 

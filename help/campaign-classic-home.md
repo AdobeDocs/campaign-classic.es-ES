@@ -3,7 +3,7 @@ keywords: Campaign Classic;inicio;temas populares
 product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
+source-git-commit: 92c79e7050124bc707f4d6b87c7952016586002c
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 84%
@@ -38,7 +38,7 @@ Para reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomi
 
 Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de admitir este cambio. Ya puede comprobar y realizar acciones.
 
-[![imagen](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.corp.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}
+[![imagen](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}
 
 
 >[!ENDTABS]
