@@ -7,20 +7,16 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Push
 role: User
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '677'
-ht-degree: 100%
+source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
+workflow-type: tm+mt
+source-wordcount: '684'
+ht-degree: 89%
 
 ---
 
 # Introducción al canal de aplicaciones móviles{#about-mobile-app-channel}
 
 El **canal de aplicaciones móviles** permite utilizar la plataforma de Adobe Campaign para enviar notificaciones personalizadas a los terminales iOS y Android a través de aplicaciones.
-
->[!CAUTION]
->
->Este documento detalla el proceso para integrar su aplicación móvil con la plataforma Adobe Campaign. No proporciona información sobre cómo crear la aplicación móvil o cómo configurarla para gestionar notificaciones. Si desea obtener más información, consulte la [documentación](https://developer.apple.com/) oficial de Apple y la [documentación](https://developer.android.com/index.html) de Android.
 
 Hay dos canales de envío disponibles:
 
@@ -32,14 +28,14 @@ Hay dos canales de envío disponibles:
 
   ![](assets/nmac_intro_1.png)
 
-En relación con esos dos canales hay dos actividades de envío en los flujos de trabajo de campaña:
+  >[!IMPORTANT]
+  >
+  >Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de admitir este cambio. Ya puede comprobar y realizar acciones. Obtenga más información en esta [nota técnica de Adobe Campaign v8](https://experienceleague.corp.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}.
+
+En relación con esos dos canales hay dos actividades de envío en los flujos de trabajo de campaña. Dos plantillas de mensajes transaccionales también están disponibles para la mensajería transaccional.
 
 ![](assets/nmac_intro_3.png)
 
-
->[!NOTE]
->
->Dos plantillas de mensajes transaccionales también están disponibles para la mensajería transaccional.
 
 Puede definir el comportamiento de la aplicación para las situaciones en las que el usuario activa la notificación para mostrar la pantalla correspondiente al contexto de la aplicación. Por ejemplo:
 
