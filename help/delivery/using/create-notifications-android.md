@@ -7,9 +7,9 @@ feature: Push
 role: User, Developer, Data Engineer
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 source-git-commit: 9756f05e3887bc74578bae00138c4d1317a480f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '654'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
 * **[!UICONTROL Notification message]**, gestionado automáticamente por el SDK de FCM.
   <br> FCM muestra automáticamente el mensaje en los dispositivos de los usuarios en nombre de la aplicación del cliente. Los mensajes de notificación contienen un conjunto predefinido de parámetros y opciones, pero pueden personalizarse aún más con las variables de aplicación personalizadas.
 
-Para obtener más información sobre los tipos de mensajes de Firebase Cloud Messaging, consulte [Documentación de FCM](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages){target="_blank"}.
+Para obtener más información sobre los tipos de mensajes de Firebase Cloud Messaging, consulte la [documentación de FCM](https://firebase.google.com/docs/cloud-messaging/concept-options#notifications_and_data_messages){target="_blank"}.
 
 
 ## Creación de un mensaje de datos {#creating-data-message}
@@ -100,7 +100,7 @@ La imagen y la página web deberían aparecer en la notificación push cuando se
    * **[!UICONTROL Tag]**: establezca el identificador utilizado para reemplazar las notificaciones existentes en el cajón de notificaciones.
    * **[!UICONTROL Click action]**: configure en la notificación la acción asociada con el clic del usuario.
 
-   Para obtener más información sobre **[!UICONTROL Notification options]** y cómo rellenar estos campos, consulte [Documentación de FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
+   Para obtener más información sobre **[!UICONTROL Notification options]** y cómo rellenar estos campos, consulte la [documentación de FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
 
    ![](assets/nmac_android_8.png)
 
@@ -113,7 +113,7 @@ La imagen y la página web deberían aparecer en la notificación push cuando se
    * **[!UICONTROL Notification Priority]**: establezca los niveles de prioridad de la notificación en predeterminados, mínimos, bajos o altos. Para más información, consulte la [documentación de FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#NotificationPriority).
    * **[!UICONTROL Visibility]**: establezca los niveles de visibilidad de la notificación en pública, privada o secreta. Para más información, consulte la [documentación de FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility).
 
-   Para obtener más información sobre **[!UICONTROL HTTP v1 additional options]** y cómo rellenar estos campos, consulte [Documentación de FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
+   Para obtener más información sobre **[!UICONTROL HTTP v1 additional options]** y cómo rellenar estos campos, consulte la [documentación de FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
 
    ![](assets/nmac_android_9.png)
 
