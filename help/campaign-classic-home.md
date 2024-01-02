@@ -4,9 +4,9 @@ product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 6dd2a2343c0204c01dd0fa4910299efa15c29849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Descubre las actualizaciones, mejoras y parches que se proporcionan con la versi
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
->[!TAB Mover a Adobe IMS]
+>[!TAB Pasarse a Adobe IMS]
 
 Para reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomienda migrar el modo de autenticación del usuario final de la autenticación nativa de inicio de sesión/contraseña a Adobe Identity Management System (IMS).
 
@@ -36,9 +36,9 @@ Para reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomi
 
 >[!TAB Cambios en el canal push]
 
-Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de admitir este cambio. Ya puede comprobar y realizar acciones.
+Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a la implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de que admitan este cambio. Ya puede comprobar y realizar acciones.
 
-[![imagen](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html){target="_blank"}
+[![imagen](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=es){target="_blank"}
 
 
 >[!ENDTABS]
