@@ -3,13 +3,13 @@ audience: end-user
 breadcrumb-title: Documentación de Campaign Classic v7
 product: campaign
 title: Guía de Campaign Classic v7
-user-guide-description: Con Adobe Campaign, puede utilizar datos de clientes enriquecidos para crear, coordinar y ofrecer campañas dinámicas que los clientes realmente deseen mediante correo electrónico, canales móviles, sin conexión y mucho más.
+user-guide-description: Documentación del producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: c2ac8fcf1d9746dbddffc90491a6f214e2c3df2e
+source-git-commit: cb1f079fbb7af6bb6645aae86261ca723fd97c3a
 workflow-type: tm+mt
-source-wordcount: '2544'
-ht-degree: 100%
+source-wordcount: '2524'
+ht-degree: 99%
 
 ---
 
@@ -841,3 +841,7 @@ ht-degree: 100%
       + [Migración a la nube pública](technotes/using/dc-migration.md)
       + [Preguntas frecuentes](technotes/using/dc-migration-faq.md)
 + [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
+
+<!--
+With Adobe Campaign Classic v7, you can use rich customer data to create, coordinate, and deliver dynamic campaigns that customers actually want — through email, mobile, offline channels, and more.
+-->
