@@ -4,34 +4,28 @@ title: Implementación de IMS
 description: Implementación de IMS
 feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 58552d6e-fbed-4944-85c4-9c14bf60d823
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 49271e291953483ee14709b26ec053217a336718
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 100%
+source-wordcount: '78'
+ht-degree: 28%
 
 ---
 
 # Implementación de IMS{#implementing-ims}
 
+Una [Configuración de IMS](configuring-ims.md) ha finalizado, puede activar la conexión.
 
+Para habilitar el modo de autenticación IMS en Adobe Campaign, siga estos pasos:
 
-## Activación de la conexión IMS {#enabling-the-ims-connection}
-
-1. Para activar la conexión a través de IMS, marque **[!UICONTROL Connect with an Adobe ID]** en la ventana de conexiones de la consola.
+1. Abra la pantalla de conexión de la consola del cliente.
+1. Seleccione el entorno para el que necesita habilitar la conexión.
+1. Compruebe la **[!UICONTROL Connect with an Adobe ID]** y guarde los cambios.
 
    ![](assets/ims_1.png)
 
-1. Introduzca su Adobe ID y contraseña. Se muestra la pantalla de inicio de Adobe Campaign.
-
-   ![](assets/ims_2.png)
-
-## Desactivación de la conexión IMS {#disabling-the-ims-connection}
-
-Para desactivar la conexión a través del Adobe ID, desconecte, haga clic en **[!UICONTROL File > Connections]** y desmarque **[!UICONTROL Connect with an Adobe ID]**.
-
-![](assets/ims_4.png)
+1. Al conectarse a este entorno, utilice su Adobe ID y contraseña.

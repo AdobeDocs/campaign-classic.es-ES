@@ -4,23 +4,22 @@ title: Solución de problemas de IMS
 description: Solución de problemas de IMS
 feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 49271e291953483ee14709b26ec053217a336718
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '418'
+ht-degree: 94%
 
 ---
 
 # Solución de problemas de IMS{#ims-troubleshooting}
 
 
-
-Las siguientes sugerencias para la solución de problemas ayudarán a los clientes **locales** a resolver los problemas más comunes que se producen al utilizar la integración con IMS. Para clientes **alojados**, póngase en contacto con Adobe.
+Las siguientes sugerencias para la solución de problemas le ayudarán **on-premise** y **híbrido** Los clientes de resuelven los problemas más comunes que se producen al utilizar la integración de IMS. Para clientes **alojados**, póngase en contacto con Adobe.
 
 **Cuenta externa**
 
