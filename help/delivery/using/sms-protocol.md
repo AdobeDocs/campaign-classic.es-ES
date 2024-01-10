@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '8458'
-ht-degree: 100%
+source-git-commit: 73fd678d54ba1db647c1c188e8064b28466b3cd2
+workflow-type: tm+mt
+source-wordcount: '8448'
+ht-degree: 99%
 
 ---
 
@@ -61,7 +61,7 @@ Un SMS lleva más información que texto. Aquí hay una lista de lo que puede en
 
 * Una dirección de destinatario, a veces denominada `ADC` o `MSISDN`. Ese es el número del móvil que recibirá el SMS.
 
-* Una dirección de remitente, que puede llamarse `oADC` o, a veces, `sender id`. Puede ser un número de teléfono de uso diario, un código corto cuando se envía a través de un proveedor o un nombre. El nombre es una característica opcional, en ese caso no puede responder al mensaje de texto.
+* Una dirección de remitente, que puede llamarse `oADC` o, a veces, `sender id`. Puede ser un número de teléfono de uso diario, un código corto cuando se envía a través de un proveedor o un nombre. El nombre es una característica opcional, en ese caso no puede responder al SMS.
 
 * Un indicador que señala si el mensaje es un mensaje flash. Un mensaje flash es una ventana emergente que no se almacena en la memoria.
 
@@ -241,7 +241,7 @@ Cada parte de un mensaje largo es un SMS individual. Estas partes viajan indepen
 
 Se puede establecer el número máximo de SMS por mensaje por envío mediante la configuración **Número máximo de SMS por mensaje** en la **Plantilla de envíos**. Los mensajes que superen este límite fallarán al enviar un mensaje de error con el motivo SMS demasiado largo.
 
-Hay dos maneras de enviar mensajes largos:
+Hay dos maneras de enviar SMS largos:
 
 * **UDH**: la forma predeterminada y recomendada de enviar mensajes largos. En este modo, el conector divide el mensaje en varios `SUBMIT_SM PDU` con información UDH en ellos. Este protocolo es el que utilizan los propios teléfonos móviles. Esto significa que Adobe Campaign tiene el mayor control sobre la generación de mensajes, lo que le permite calcular exactamente cuántas partes se enviaron y cómo se dividieron.
 
@@ -412,7 +412,7 @@ El conector SMPP extendido de Adobe Campaign Classic puede controlar el número 
 
 Para Adobe Campaign Classic, puede haber un número diferente de conexiones de receptor y transmisor:
 
-* **Conexiones del transmisor = Número de conexiones secundarias MTA * número de procesos secundarios MTA * número de MTA </br> (si se establece la respuesta automática) + Número de conexiones secundarias MTA**
+* **Conexiones del transmisor = Número de conexiones secundarias MTA * número de procesos secundarios MTA * número de MTA (si se establece la respuesta automática) * número de conexiones secundarias MTA**
 
 Como se ha sugerido anteriormente, el proceso SMS de Adobe Campaign Classic abre más conexiones de transmisores si la respuesta automática está activada. Estas conexiones adicionales se utilizan para enviar las respuestas automáticas.
 
