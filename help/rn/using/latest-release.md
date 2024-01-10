@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 9083c9c11b6b9c695cc98882e99ceb3cffc20ec7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2258'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -120,13 +120,13 @@ Se ha corregido un problema que podía hacer que los caracteres japoneses se mos
 
 >[!AVAILABILITY]
 >
->Hay disponible una actualización de parche específica de Campaign v7.3.3.IMS para esta versión, si no se ha aplicado ningún otro parche a su entorno. Trae consigo [Actualizaciones de seguridad de Adobe Identity Management System (IMS) incluidas en la versión 7.3.5](#release-7-3-5-security) a entornos existentes de la versión 7.3.3.
+>Hay disponible una actualización de parche específica de Campaign v7.3.3.IMS para esta versión, si no se ha aplicado ningún otro parche a su entorno. Realiza [actualizaciones de seguridad de Adobe Identity Management System (IMS) incluidas en la versión 7.3.5](#release-7-3-5-security) en los entornos existentes de la versión 7.3.3.
 
 
 _20 de marzo de 2023_
 
 
-### Mejora de seguridad {#release-7-3-3-security}
+### Mejora de la seguridad {#release-7-3-3-security}
 
 * Para mejorar la seguridad, Tomcat se ha actualizado de la versión 8.5.81 a la 8.5.85. (NEO-56936)
 
