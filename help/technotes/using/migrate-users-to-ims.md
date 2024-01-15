@@ -2,9 +2,9 @@
 title: Migración de los operadores de Campaign a Adobe Identity Management System (IMS)
 description: Obtenga información sobre cómo migrar operadores de Campaign a Adobe Identity Management System (IMS)
 exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
-source-git-commit: 9083c9c11b6b9c695cc98882e99ceb3cffc20ec7
+source-git-commit: da35a3050d838cd8e57bf802dc066e32f22f8273
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1223'
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ Un requisito previo para esta migración es actualizar su entorno a una de las s
 
 * Campaign v7.3.5 (recomendado)
 * Campaign v7.3.3.IMS
-  <!--* Campaign v7.3.2.IMS-->
+* Campaign v7.3.2.IMS
 
 Estas versiones de Campaign se detallan en la sección [Notas de versión](../../rn/using/latest-release.md).
 

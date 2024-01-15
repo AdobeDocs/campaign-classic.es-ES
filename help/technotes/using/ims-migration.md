@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo migrar los operadores técnicos de
 feature: Technote
 role: Admin
 exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
-source-git-commit: 9083c9c11b6b9c695cc98882e99ceb3cffc20ec7
+source-git-commit: da35a3050d838cd8e57bf802dc066e32f22f8273
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Un requisito previo para esta migración es actualizar su entorno a una de las s
 
 * Campaign v7.3.5 (recomendado)
 * Campaign v7.3.3.IMS
-  <!--* Campaign v7.3.2.IMS-->
+* Campaign v7.3.2.IMS
 
 Estas versiones de Campaign se detallan en la sección [Notas de versión](../../rn/using/latest-release.md).
 
