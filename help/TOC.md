@@ -3,13 +3,13 @@ audience: end-user
 breadcrumb-title: Documentación de Campaign Classic v7
 product: campaign
 title: Guía de Campaign Classic v7
-user-guide-description: Documentación del producto para Adobe Campaign Classic v7.
+user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: cb1f079fbb7af6bb6645aae86261ca723fd97c3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2524'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 99%
       + [Introducción a las envíos](delivery/using/steps-about-delivery-creation-steps.md)
       + [Crear e identificar un envío](delivery/using/steps-create-and-identify-the-delivery.md)
       + [Definición del público](delivery/using/steps-defining-the-target-population.md)
-      + [Validación de la entrega](delivery/using/steps-validating-the-delivery.md)
+      + [Validación del envío](delivery/using/steps-validating-the-delivery.md)
       + [Envío de la entrega](delivery/using/steps-sending-the-delivery.md)
       + Prácticas recomendadas relacionadas con los envíos {#delivery-bestpractices}
          + [Conozca las prácticas recomendadas](delivery/using/delivery-best-practices.md)
@@ -221,10 +221,10 @@ ht-degree: 99%
       + [Acceso a los registros de seguimiento](delivery/using/accessing-the-tracking-logs.md)
       + [Seguimiento de pruebas](delivery/using/testing-tracking.md)
       + [Solución de problemas de seguimiento](delivery/using/tracking-troubleshooting.md)
-   + Administración de la capacidad de entrega {#deliverability-management}
-      + [¿Qué es la capacidad de entrega?](delivery/using/about-deliverability.md)
+   + Administración de la entregabilidad {#deliverability-management}
+      + [¿Qué es la entregabilidad?](delivery/using/about-deliverability.md)
       + [Contenido de mensajes de control](delivery/using/control-message-content.md)
-      + [Supervisión de la capacidad de entrega](delivery/using/monitoring-deliverability.md)
+      + [Supervisión de la entregabilidad](delivery/using/monitoring-deliverability.md)
       + [Procesamiento de la bandeja de entrada](delivery/using/inbox-rendering.md)
       + [SpamAssassin](delivery/using/spamassassin.md)
       + [Solución de problemas](delivery/using/deliverability-faq.md)
@@ -445,7 +445,7 @@ ht-degree: 99%
       + [Envío](workflow/using/delivery.md)
       + [Control de envíos](workflow/using/delivery-control.md)
       + [Envío continuo](workflow/using/continuous-delivery.md)
-      + [Entrega recurrente](workflow/using/recurring-delivery.md)
+      + [Envío recurrente](workflow/using/recurring-delivery.md)
       + [Envíos en canales múltiples](workflow/using/cross-channel-deliveries.md)
       + [Aprobación local](workflow/using/local-approval.md)
       + [Carga de datos (RDBMS)](workflow/using/data-loading--rdbms-.md)
