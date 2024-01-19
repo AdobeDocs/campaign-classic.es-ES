@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Utilice su Adobe ID para conectarse a Adobe Campaign
-description: Obtenga más información acerca de la implementación IMS de Adobe en Adobe Campaign
+description: Obtenga más información acerca de la implementación de Adobe IMS en Adobe Campaign
 feature: Configuration
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 audience: integrations
@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
 source-git-commit: 49271e291953483ee14709b26ec053217a336718
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 55%
 
 Adobe Identity Management System (IMS) ayuda a los administradores a crear y administrar el acceso del usuario a aplicaciones y servicios. Para obtener más información sobre los distintos tipos de ID de Adobe, consulte [esta página](https://helpx.adobe.com/es/enterprise/using/identity.html).
 
-Los usuarios de Campaign pueden conectarse a la consola de Adobe Campaign con su Adobe ID, en lugar de con el [autenticación nativa de usuario/contraseña](../../platform/using/access-management-operators.md). Esta implementación ofrece las siguientes ventajas:
+Los usuarios de Campaign pueden conectarse a la consola de Adobe Campaign con su Adobe ID, en lugar de con la [autenticación nativa de usuario/contraseña](../../platform/using/access-management-operators.md). Esta implementación proporciona las siguientes ventajas:
 
 * Se puede utilizar la misma ID para todas las soluciones de Experience Cloud.
-* La conexión se mantiene cuando se utiliza Adobe Campaign con diferentes integraciones.
-* Directiva de administración de contraseñas más segura que el inicio de sesión o la contraseña nativos.
+* Cada conexión se mantiene cuando se utiliza Adobe Campaign con diferentes integraciones.
+* Política de gestión más segura de contraseñas que el inicio de sesión o la contraseña nativos.
 * Uso de cuentas de ID federadas (proveedor de ID externo).
 
 <!--
