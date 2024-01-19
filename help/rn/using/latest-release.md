@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: da35a3050d838cd8e57bf802dc066e32f22f8273
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2295'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ _5 de diciembre de 2023_
 * Se ha corregido un problema que se producía al utilizar datos de una base de datos de Google Big Query y al actualizar datos en una base de datos de Oracle: todas las claves se establecían en `0` en la tabla temporal del flujo de trabajo. (NEO-65091)
 * Se ha corregido un problema que ocasionaba que fallara una ejecución de flujo de trabajo cuando se combinaban dos consultas en una base de datos de Google Big Query en una actividad de flujo de trabajo de **Union**. (NEO-63705)
 * Se ha corregido un problema que consistía en la solicitud al usuario de volverse a autenticar al hacer clic en el botón `Back` en un informe de campaña. (NEO-65087)
-* Se ha corregido un error en el flujo de trabajo para la limpieza de base de datos que se producía cuando se eliminaba una entrega antes que las pruebas de entrega. (NEO-48114)
+* Se ha corregido un error en el flujo de trabajo para la limpieza de base de datos que se producía cuando se eliminaba un envío antes que las pruebas de envío. (NEO-48114)
 * Se ha corregido un problema al conectarse a la consola del cliente: las actualizaciones recientes sobre la verificación TLS provocaban un error de conexión. (NEO-50488)
 * Se ha corregido un problema con la autenticación proxy HTTP después de la actualización de Campaign a la versión 7.3.1. Las solicitudes HTTP en los flujos de trabajo de la campaña fallaban con `error 407 – proxy auth required is returned`. (NEO-49624)
 * Se ha corregido un error intermitente con el descifrado GPG en actividades de flujo de trabajo de **Script**. El mensaje de error asociado era: `gpg: decryption failed: No secret key`. (NEO-50257)
@@ -203,7 +203,7 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](depre
 * Se ha corregido un problema de rendimiento en la pestaña HTML de un envío que se podía producir en código HTML extenso. (NEO-47440)
 * Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de entregas en la instancia MID, cuando la opción `FeatureFlag_GZIP_Compression` estaba activada. (NEO-49183)
 * Se ha corregido un problema que impedía enviar notificaciones de aplicaciones móviles de iOS desde una instancia de ejecución al usar la autenticación basada en token. (NEO-45961)
-* Se ha corregido un problema con el flujo de trabajo **Actualizar la entrega** (deliverabilityUpdate) que se bloqueaba cuando tenía que sincronizar demasiados broadlogs. (NEO-48287)
+* Se ha corregido un problema con el flujo de trabajo **Actualizar la entregabilidad** (deliverabilityUpdate) que se bloqueaba cuando tenía que sincronizar demasiados broadlogs. (NEO-48287)
 * Se ha corregido un problema con el tipo de eventos que bloqueaba el flujo de trabajo **Sincronización del centro de mensajes** (mcSynch).
 * Se ha corregido un problema que podría provocar un error al añadir el indicador **Destinatarios que han abierto** (estimatedRecipientOpen) en los datos adicionales de una actividad del flujo de trabajo **Consulta**. (NEO-46665)
 * Se ha corregido un problema con el flujo de trabajo **Facturación** que fallaba cuando los paquetes de control y ejecución del centro de mensajes se habían instalado en la misma instancia. (NEO-47674)
