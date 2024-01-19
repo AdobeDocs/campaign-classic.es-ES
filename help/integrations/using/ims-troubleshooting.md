@@ -10,16 +10,16 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
 source-git-commit: 49271e291953483ee14709b26ec053217a336718
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Solución de problemas de IMS{#ims-troubleshooting}
 
 
-Las siguientes sugerencias para la solución de problemas le ayudarán **on-premise** y **híbrido** Los clientes de resuelven los problemas más comunes que se producen al utilizar la integración de IMS. Para clientes **alojados**, póngase en contacto con Adobe.
+Las siguientes sugerencias para la solución de problemas ayudarán a los clientes **locales** e **híbridos** a resolver los problemas más comunes que se producen al utilizar la integración con IMS. Para clientes **alojados**, póngase en contacto con Adobe.
 
 **Cuenta externa**
 
