@@ -6,10 +6,10 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: cb1f079fbb7af6bb6645aae86261ca723fd97c3a
+source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
 workflow-type: tm+mt
-source-wordcount: '2524'
-ht-degree: 100%
+source-wordcount: '2536'
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,9 @@ ht-degree: 100%
       + [Adjuntar archivos](delivery/using/attaching-files.md)
    + Envío de SMS {#sending-messages-on-mobiles}
       + [Introducción a los SMS](delivery/using/sms-channel.md)
-      + [Configuración del canal de SMS](delivery/using/sms-set-up.md)
+      + Configurar el canal SMS {#sms-set-up}
+         + [Configuración de SMS en una instancia independiente](delivery/using/sms-set-up.md)
+         + [Configuración de SMS en una infraestructura intermediaria](delivery/using/sms-set-up-mid.md)
       + [Creación de un SMS](delivery/using/sms-create.md)
       + [Envío y seguimiento de SMS](delivery/using/sms-send.md)
       + [Configuración y protocolo del conector SMS](delivery/using/sms-protocol.md)
