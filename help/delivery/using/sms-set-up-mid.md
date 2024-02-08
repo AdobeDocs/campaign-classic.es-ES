@@ -7,23 +7,23 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: SMS
 role: User, Developer, Admin
 source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '993'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
 # Configuración del canal SMS en una infraestructura intermediaria {#setting-up-sms-channel}
 
-Para enviar a un teléfono móvil con servidores intermedios, necesita:
+Para enviar a un teléfono móvil con servidores intermediarios, necesita:
 
-1. Operador SMS creado en el servidor intermediario utilizado para la cuenta externa SMS creada en el servidor de marketing.
+1. Un operador SMS creado en el servidor intermediario utilizado para la cuenta SMS externa creada en el servidor de marketing.
 
 1. Una cuenta externa en el servidor de marketing que especifique el modo de canal y envío.
 
-1. Una cuenta externa en el servidor intermediario que detalla el conector y el tipo de mensaje.
+1. Una cuenta externa en el servidor intermediario que detalle el conector y el tipo de mensaje.
 
-1. Una plantilla de envío que hace referencia a la cuenta externa para racionalizar el proceso de envío.
+1. Una plantilla de envíos que haga referencia a la cuenta externa para optimizar el proceso de envío.
 
 >[!NOTE]
 >
@@ -31,51 +31,51 @@ Para enviar a un teléfono móvil con servidores intermedios, necesita:
 
 ## Creación del operador SMS en el servidor intermediario {#create-sms-operator}
 
-Para iniciar el proceso de configuración, debe crear un operador SMS en el servidor intermedio específicamente para la cuenta externa.
+Para iniciar el proceso de configuración, debe crear un operador SMS en el servidor intermediario específicamente para la cuenta externa.
 
 >[!IMPORTANT]
 >
 >Cada conector SMS requiere un operador SMS único.
 
-1. En el **[!UICONTROL Administration]** > **[!UICONTROL Access management]** > **[!UICONTROL Operators node]** del árbol, haga clic en el **[!UICONTROL New]** icono.
+1. En el nodo **[!UICONTROL Administration]** > **[!UICONTROL Access management]** > **[!UICONTROL Operators node]** del árbol, haga clic en el icono **[!UICONTROL New]**.
 
    ![](assets/sms_operator_mid_3.png)
 
-1. Especifique el del usuario **[!UICONTROL Identification parameters]**, incluidos su nombre de inicio de sesión, contraseña y nombre. El inicio de sesión y la contraseña son necesarios para que el operador inicie sesión en Adobe Campaign de forma segura.
+1. Especifique los **[!UICONTROL Identification parameters]** del usuario, incluidos su nombre de inicio de sesión, contraseña y nombre.  El nombre de inicio de sesión y la contraseña son necesarios para que el operador inicie sesión en Adobe Campaign de forma segura.
 
-   Tenga en cuenta que la variable **[!UICONTROL Name (login)]** se utilizará más adelante para asignar un nombre a la cuenta externa SMPP en el servidor intermediario.
+   Tenga en cuenta que el **[!UICONTROL Name (login)]** se utilizará más adelante para asignar un nombre a la cuenta externa SMPP en el servidor intermediario.
 
    ![](assets/sms_operator_mid_1.png)
 
 1. Seleccione los permisos otorgados al operador en la sección Operator access rights.
 
-   Para asignar derechos al operador, haga clic en **[!UICONTROL Add]** situado encima de la lista de derechos. A continuación, seleccione una **[!UICONTROL Operator group]** o **[!UICONTROL Named rights]** de la lista de grupos disponibles.
+   Para asignar derechos al operador, haga clic en el botón **[!UICONTROL Add]** situado sobre la lista de derechos. A continuación, seleccione un **[!UICONTROL Operator group]** o **[!UICONTROL Named rights]** de la lista de grupos disponibles.
 
    ![](assets/sms_operator_mid_2.png)
 
-1. Clic **[!UICONTROL Save]** para finalizar la creación del operador. El perfil ahora se incluye en la lista de operadores existentes.
+1. Haga clic en **[!UICONTROL Save]** para finalizar la creación del operador. El perfil ahora se incluye en la lista de operadores existentes.
 
-## Cree una cuenta externa SMS en el servidor de marketing {#create-accound-mkt}
+## Creación de una cuenta externa SMS en el servidor de marketing {#create-accound-mkt}
 
-Para enviar un SMS a un teléfono móvil con servidores medios, primero debe crear la cuenta externa SMS en el servidor de marketing.
+Para enviar un SMS a un teléfono móvil con servidores intermediarios, primero debe crear su cuenta externa SMS en el servidor de marketing.
 
 1. En el nodo **[!UICONTROL External accounts]** > **[!UICONTROL Platform]** del árbol, haga clic en el icono **[!UICONTROL New]**.
 
    ![](assets/mid_external_account_2.png)
 
-1. Escriba su **[!UICONTROL Label]** y **[!UICONTROL Internal name]**. Tenga en cuenta que Internal name se utilizará más adelante para asignar un nombre a la cuenta externa de SMPP en el servidor intermediario.
+1. Escriba su **[!UICONTROL Label]** y **[!UICONTROL Internal name]**. Tenga en cuenta que Internal name se utilizará más adelante para asignar un nombre a la cuenta externa SMPP en el servidor intermediario.
 
-1. Defina el tipo de cuenta como **[!UICONTROL Routing]**, el canal como **[!UICONTROL Mobile (SMS)]** y el modo de envío como **[!UICONTROL Mid-sourcing]**.
+1. Defina el tipo de cuenta como **[!UICONTROL Routing]**, el canal como **[!UICONTROL Mobile (SMS)]** y el modo de envío como **[!UICONTROL Mid-sourcing]**.
 
    ![](assets/mid_external_account_1.png)
 
-1. En el **[!UICONTROL Mid-Sourcing]** pestaña, especifique los parámetros de conexión del servidor intermediario.
+1. En la pestaña **[!UICONTROL Mid-Sourcing]**, especifique los parámetros de conexión del servidor intermediario.
 
-   Introduzca los detalles de la [conector SMS creado anteriormente](#create-sms-operator) en el **[!UICONTROL Account]** y **[!UICONTROL Password]** campos.
+   Introduzca los detalles del [conector SMS creado anteriormente](#create-sms-operator) en los campos **[!UICONTROL Account]** y **[!UICONTROL Password]**.
 
    ![](assets/mid_external_account_7.png)
 
-1. Confirme la configuración haciendo clic en **[!UICONTROL Test the connection]**.
+1. Confirme la configuración haciendo clic en **[!UICONTROL Test the connection]**.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
@@ -85,7 +85,7 @@ Para enviar un SMS a un teléfono móvil con servidores medios, primero debe cre
 >
 >El uso de la misma cuenta y contraseña para varias cuentas externas de SMS puede provocar conflictos y superposición entre las cuentas. Consulte la [Página de solución de problemas de SMS](troubleshooting-sms.md#external-account-conflict).
 
-Una vez que haya configurado correctamente su cuenta externa de SMS en el servidor de marketing, el siguiente paso es establecer la cuenta externa de SMPP en el servidor intermediario.
+Una vez que haya configurado correctamente su cuenta externa SMS en el servidor de marketing, el siguiente paso es establecer la cuenta externa SMPP en el servidor intermediario.
 
 Para obtener más información sobre el protocolo y la configuración de SMS, consulte esta [página](sms-protocol.md).
 
@@ -93,11 +93,11 @@ Para realizar esto, siga los pasos a continuación:
 
 1. En el nodo **[!UICONTROL External accounts]** > **[!UICONTROL Platform]** del árbol, haga clic en el icono **[!UICONTROL New]**.
 
-1. Escriba su **[!UICONTROL Label]** y **[!UICONTROL Internal name]**.
+1. Escriba su **[!UICONTROL Label]** y **[!UICONTROL Internal name]**.
 
    >[!WARNING]
    >
-   >Al asignar un **[!UICONTROL Internal name]**, asegúrese de seguir la convención de nombres especificada:
+   >Al asignar un **[!UICONTROL Internal name]**, asegúrese de seguir la convención de nomenclatura especificada:
    > </br>`SMS Operator Name_Internal Name of the Marketing SMS external account`
 
    ![](assets/mid_external_account_6.png)
@@ -128,9 +128,9 @@ Para realizar esto, siga los pasos a continuación:
    >
    >Algunos caracteres cuentan como dos (llaves, corchetes, símbolo del euro, etc.).
    >
-   >La lista de caracteres GSM disponibles se presenta en [esta sección](sms-set-up.md#about-character-transliteration).
+   >La lista de caracteres GSM disponibles puede consultarse en [esta sección](sms-set-up.md#about-character-transliteration).
 
-   También puede autorizar la transliteración de caracteres marcando la casilla correspondiente.
+   También puede autorizar la transliteración de caracteres marcando el cuadro correspondiente.
 
    ![](assets/mid_external_account_5.png)
 
@@ -154,15 +154,15 @@ Para realizar esto, siga los pasos a continuación:
 
 ## Modificación de la plantilla de envíos {#changing-the-delivery-template}
 
-Adobe Campaign ofrece una plantilla de envíos móvil ubicada en la variable **[!UICONTROL Resources > Templates > Delivery templates]** nodo. Para obtener más información, consulte la sección [Acerca de las plantillas](about-templates.md).
+Adobe Campaign ofrece una plantilla de envíos móvil ubicada en el nodo **[!UICONTROL Resources > Templates > Delivery templates]**. Para obtener más información, consulte la sección [Acerca de las plantillas](about-templates.md).
 
-Para enviar mensajes a través del canal SMS, debe crear una plantilla que incluya una referencia al conector de canal.
+Para enviar mensajes a través del canal SMS, debe crear una plantilla que incluya una referencia al conector del canal.
 
-Para conservar la plantilla de envíos nativa, se recomienda duplicarla y, a continuación, configurarla.
+Para conservar la plantilla de envíos nativa, recomendamos que la duplique y, a continuación, la configure.
 
-En el ejemplo siguiente, generamos una plantilla para facilitar la entrega de mensajes a través de la cuenta SMPP creada anteriormente. Para ello, haga lo siguiente:
+En el ejemplo siguiente, generamos una plantilla para facilitar el envío de mensajes a través de la cuenta SMPP creada anteriormente.  Para ello, haga lo siguiente:
 
-1. En el **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** del árbol, haga clic con el botón derecho en el **[!UICONTROL Send to mobiles]** plantilla y seleccione **[!UICONTROL Duplicate]**.
+1. En el nodo **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** del árbol, haga clic con el botón derecho en la plantilla **[!UICONTROL Send to mobiles]** y seleccione **[!UICONTROL Duplicate]**.
 
    ![](assets/delivery_template_mid_1.png)
 
@@ -172,7 +172,7 @@ En el ejemplo siguiente, generamos una plantilla para facilitar la entrega de me
 
 1. Haga clic **[!UICONTROL Properties]**.
 
-1. En el **[!UICONTROL General]** , seleccione un modo de enrutamiento que corresponda a la cuenta externa creada en la sección [Cree una cuenta externa SMS en el servidor de marketing](#create-accound-mkt).
+1. En la pestaña **[!UICONTROL General]**, seleccione un modo de enrutamiento que corresponda a la cuenta externa creada en la sección [Creación de una cuenta externa SMS en el servidor de marketing](#create-accound-mkt).
 
    ![](assets/delivery_template_mid_3.png)
 
