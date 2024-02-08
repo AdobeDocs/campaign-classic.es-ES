@@ -8,9 +8,9 @@ feature: SMS
 role: User, Developer, Admin
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1751'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -360,7 +360,7 @@ Para realizar envíos a través del canal SMS, debe crear una plantilla en la qu
 
 Para conservar la plantilla de envíos nativa, recomendamos que la duplique y, a continuación, la configure.
 
-En el siguiente ejemplo, creamos una plantilla para enviar mensajes a través de la cuenta NetSize activada anteriormente. Para ello:
+En el siguiente ejemplo, creamos una plantilla para enviar mensajes a través de la cuenta NetSize activada anteriormente. Para ello, haga lo siguiente:
 
 1. Vaya al nodo **[!UICONTROL Delivery templates]**.
 1. Haga clic con el botón derecho del ratón en la plantilla **[!UICONTROL Send to mobiles]** y seleccione **[!UICONTROL Duplicate]**.
