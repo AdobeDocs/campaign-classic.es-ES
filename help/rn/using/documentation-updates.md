@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3699'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/lat
 
 Se ha añadido información sobre cómo se define el campo Dirección postal predeterminado para el correo directo y por qué es importante asegurarse de que las direcciones estén completas. [Más información](../../delivery/using/about-direct-mail-channel.md)
 
-Se ha añadido una nueva página sobre cómo configurar el canal SMS en Campaign en una infraestructura intermediaria. [Más información](../../delivery/using/sms-set-up-mid.md)
+Se ha añadido una nueva página sobre cómo configurar el canal SMS en Campaign en una infraestructura intermediaria.  [Más información](../../delivery/using/sms-set-up-mid.md)
 
 ## 2023
 
