@@ -5,10 +5,10 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Data Management Activity
 exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 58998fa2480a33776507a434ed846541ac19e58b
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 96%
 
 ---
 
@@ -49,7 +49,7 @@ Para configurar la extracción de datos, siga estos pasos:
 
 Puede definir un proceso posterior que se va a ejecutar durante la extracción de datos, permitiéndole comprimir o cifrar los archivos. Para ello, se debe agregar el comando deseado en la pestaña **[!UICONTROL Script]** de la actividad.
 
-Para obtener más información, consulte esta sección: [Descompresión o desencriptado de un archivo](how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+Para obtener más información, consulte esta sección: [Comprimir o encriptar un archivo](../../platform/using/zip-encrypt.md)
 
 ![](assets/postprocessing_dataextraction.png)
 
