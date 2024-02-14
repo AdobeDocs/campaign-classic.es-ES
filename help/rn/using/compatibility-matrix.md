@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 3db5242e2074c6d0530258073ae83c11164d7365
-workflow-type: ht
-source-wordcount: '772'
-ht-degree: 100%
+source-git-commit: e430978dd182eaea082122ef748118e5210b05d5
+workflow-type: tm+mt
+source-wordcount: '805'
+ht-degree: 96%
 
 ---
 
@@ -41,6 +41,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <tr> 
 <td>CentOs</td>
 <td>
+<p>8.x (solo para entornos híbridos)</p>
 <p>7.x</p>
 <p><strong>Importante:</strong> Si está utilizando RHEL, debe estar dispuesto a deshabilitar SELinux o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no está causando problemas con las operaciones de Campaign.</p>
 </td>
@@ -127,7 +128,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
-<p>11g  R2</p>
+<p>11g R2</p>
 </td>
 </tr>
 <tr>
@@ -353,7 +354,7 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 
 ### Tiempo de ejecución de Microsoft WebView2
 
-Tiempo de ejecución de Microsoft Edge WebView2 La última versión es obligatoria para la consola del cliente de Campaign.
+La última versión del tiempo de ejecución de Microsoft Edge WebView2 es obligatoria para la consola del cliente de Campaign.
 
 Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download).
 
