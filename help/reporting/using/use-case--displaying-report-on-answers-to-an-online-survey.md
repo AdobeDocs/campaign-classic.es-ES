@@ -6,9 +6,9 @@ badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Reporting, Monitoring, Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Antes de comenzar este ejemplo de uso, debe tener acceso a una encuesta y a un c
 
 Para recopilar las respuestas a la encuesta, realice los pasos siguientes:
 
-1. Cree un flujo de trabajo y añada una actividad **[!UICONTROL Answers to a survey]**. Para obtener más información sobre esta actividad, consulte [esta sección](../../surveys/using/publish--track-and-use-collected-data.md#using-the-collected-data).
+1. Cree un flujo de trabajo y añada una actividad **[!UICONTROL Answers to a survey]**. Para obtener más información sobre esta actividad, consulte [esta sección](../../surveys/using/publish-track-and-use-collected-data.md#using-the-collected-data).
 1. Edite la actividad y seleccione la encuesta cuyas respuestas desee analizar.
 1. Active la opción **[!UICONTROL Select all the answer data]** para recopilar toda la información.
 

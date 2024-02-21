@@ -9,7 +9,7 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 100%
@@ -30,7 +30,7 @@ El uso de plantillas de flujo de trabajo facilita la preparación de importacion
 
 En muchos proyectos, las importaciones se crean sin actividad de **[!UICONTROL Deduplication]** porque los archivos utilizados en el proyecto no tienen duplicados. Los duplicados aparecen en ocasiones al importar archivos diferentes. En este caso, la deduplicación resulta difícil. Por lo tanto, la deduplicación es una buena precaución en todos los flujos de trabajo de importación.
 
-No dé por hecho que los datos entrantes son coherentes y correctos, o que el departamento de TI o el iniciador de Adobe Campaign se pueden encargar de ello. Durante el proyecto, tenga en cuenta la limpieza de los datos. Deduplique, reconcilie y mantenga la coherencia al importar datos.
+No dé por hecho que los datos entrantes son coherentes y correctos, o que el departamento de TI o el supervisor de Adobe Campaign se pueden encargar de ello. Durante el proyecto, tenga en cuenta la limpieza de los datos. Deduplique, reconcilie y mantenga la coherencia al importar datos.
 
 Un ejemplo de una plantilla de flujo de trabajo genérica diseñada para importar datos está disponible en el [Ejemplo: Plantilla de flujo de trabajo para importar la sección datos](../../platform/using/creating-import-export-templates.md).
 
@@ -61,8 +61,8 @@ Utilice archivos comprimidos para importar y exportar cuando sea posible. GZIP e
 
 **Temas relacionados:**
 
-* [Actividad de carga de datos (archivo)](../../workflow/using/data-loading--file-.md)
-* [Actividad de extracción de datos (archivo)](../../workflow/using/extraction--file-.md)
+* [Actividad de carga de datos (archivo)](../../workflow/using/data-loading-file.md)
+* [Actividad de extracción de datos (archivo)](../../workflow/using/extraction-file.md)
 
 ## Importación en modo Delta {#importing-in-delta-mode}
 

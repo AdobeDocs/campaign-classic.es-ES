@@ -6,9 +6,9 @@ badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '942'
 ht-degree: 100%
 
 ---
@@ -147,7 +147,7 @@ Cuando esté en producción, se puede acceder a la encuesta en el servidor y se 
 
 Para enviar la encuesta, puede enviar un mensaje a la población objetivo que contenga un vínculo de acceso o colocar la URL de acceso a la encuesta en una página web, por ejemplo.
 
-Puede monitorizar las respuestas del usuario a través de informes y “logs”. Consulte [Seguimiento de respuestas](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking).
+Puede monitorizar las respuestas del usuario a través de informes y “logs”. Consulte [Seguimiento de respuestas](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking).
 
 >[!CAUTION]
 >

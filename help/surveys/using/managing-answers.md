@@ -6,7 +6,7 @@ badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Almacenar respuestas recopiladas {#storing-collected-answers}
 
-Además de los modos de almacenamiento estándar comunes a todos los formularios web en Adobe Campaign (campo de base de datos y variable local), las encuestas permiten la ampliación dinámica del modelo de datos utilizando campos archivados.
+Además de los modos de almacenamiento estándar comunes a todos los formularios web en Adobe Campaign (campo de base de datos y variable local), las encuestas permiten la extensión dinámica del modelo de datos utilizando campos archivados.
 
 >[!CAUTION]
 >
@@ -101,7 +101,7 @@ Para cada formulario, las respuestas proporcionadas pueden utilizarse en campos 
 
 ### Configuración de almacenamiento {#storage-settings}
 
-Puede archivar las respuestas a las encuestas en formato XML. Esto le permite guardar una copia sin procesar de las respuestas recopiladas, lo que puede resultar útil en caso de una estandarización excesiva de los datos en una lista desglosada. [Más información](../../surveys/using/publish--track-and-use-collected-data.md#standardizing-data)
+Puede archivar las respuestas a las encuestas en formato XML. Esto le permite guardar una copia sin procesar de las respuestas recopiladas, lo que puede resultar útil en caso de una estandarización excesiva de los datos en una lista desglosada. [Más información](../../surveys/using/publish-track-and-use-collected-data.md#standardizing-data)
 
 >[!CAUTION]
 >

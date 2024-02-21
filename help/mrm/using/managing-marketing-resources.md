@@ -8,7 +8,7 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 100%
@@ -195,7 +195,7 @@ Puede asociar un recurso de marketing con uno o más inventarios de existencias 
 
 >[!NOTE]
 >
->Para obtener más información sobre la administración de existencias en Adobe Campaign, consulte [Administración de existencias](../../campaign/using/providers--stocks-and-budgets.md#stock-management).
+>Para obtener más información sobre la administración de existencias en Adobe Campaign, consulte [Administración de existencias](../../campaign/using/providers-stocks-and-budgets.md#stock-management).
 
 Para asociar un recurso de marketing a un inventario de existencias, edite la asignación de existencias y edite o cree un inventario. Añada una línea de acción y seleccione el recurso de marketing correspondiente.
 

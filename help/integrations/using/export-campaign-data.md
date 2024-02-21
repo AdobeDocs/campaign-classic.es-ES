@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 audience: integrations
 content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
-source-git-commit: d15592aaccf036fc956049e611139ea5a46e9fc0
-workflow-type: ht
-source-wordcount: '504'
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
+source-wordcount: '477'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Para exportar datos de Campaign Classic a la ubicación de S3 o Azure Blob Stora
 
 Para ello, añada y configure lo siguiente:
 
-* Una actividad **[!UICONTROL Data extraction (file)]** para extraer los datos de destino en un archivo CSV. Para obtener más información sobre cómo configurar esta actividad, consulte[esta sección](../../workflow/using/extraction--file-.md).
+* Una actividad **[!UICONTROL Data extraction (file)]** para extraer los datos de destino en un archivo CSV. Para obtener más información sobre cómo configurar esta actividad, consulte[esta sección](../../workflow/using/extraction-file.md).
 
   ![](assets/rtcdp-extract-file.png)
 

@@ -6,7 +6,7 @@ badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 100%
@@ -156,7 +156,7 @@ En la ventana de selección de campos, se puede elegir entre los siguientes dato
 
 * El subdirectorio **[!UICONTROL Variables]** contiene las variables disponibles para este formulario. Para obtener más información, consulte [Almacenamiento de datos en una variable local](web-forms-answers.md#storing-data-in-a-local-variable).
 
-Para obtener más información sobre este tema, consulte el caso de uso disponible aquí: [Mostrar diferentes opciones en función de los valores seleccionados](use-cases--web-forms.md#displaying-different-options-depending-on-the-selected-values).
+Para obtener más información sobre este tema, consulte el caso de uso disponible aquí: [Mostrar diferentes opciones en función de los valores seleccionados](use-cases-web-forms.md#displaying-different-options-depending-on-the-selected-values).
 
 También puede condicionar la visualización de las páginas del formulario con el objeto **[!UICONTROL Test]**. Para obtener más información, consulte esta [página](defining-web-forms-page-sequencing.md#conditional-page-display).
 

@@ -6,9 +6,9 @@ feature: Configuration
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '336'
 ht-degree: 2%
 
 ---
@@ -126,7 +126,7 @@ Cuando las páginas web se generan dinámicamente, puede agregar la etiqueta de 
 
 Si desea controlar la información enviada al servidor de redirección, la forma más fiable es realizar la consulta HTTP sincrónicamente utilizando un idioma de generación de páginas.
 
-La dirección URL que cree debe cumplir las reglas de sintaxis definidas en [Etiqueta de seguimiento web: definición](../../configuration/using/web-tracking-tag--definition.md).
+La dirección URL que cree debe cumplir las reglas de sintaxis definidas en [Etiqueta de seguimiento web: definición](../../configuration/using/web-tracking-tag-definition.md).
 
 ![](assets/d_ncs_integration_webtracking_structure3.png)
 

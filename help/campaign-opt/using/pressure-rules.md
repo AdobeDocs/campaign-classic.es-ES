@@ -6,10 +6,10 @@ role: User, Data Engineer
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Fatigue Management, Typology Rules, Campaigns
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '3274'
-ht-degree: 100%
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
+source-wordcount: '3343'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Las reglas de **presión** para administrar la fatiga de marketing pueden consis
 Las campañas se seleccionan según los umbrales definidos y el peso del mensaje.
 
 * Un umbral es la cantidad más alta de envíos autorizados para un destinatario determinado durante un periodo determinado. Puede ser fijo o variable. Se define o calcula en la configuración de reglas de tipología. Consulte [Número máximo de mensajes](#maximum-number-of-messages).
-* El peso de la entrega le permite identificar las entregas de mayor prioridad dentro del marco de la gestión de presión. Los mensajes con mayor peso son prioritarios. Consulte [Peso del mensaje](#message-weight).
+* El peso del envío le permite identificar las entregas de mayor prioridad dentro del marco de la gestión de presión. Los mensajes con mayor peso son prioritarios. Consulte [Peso del mensaje](#message-weight).
 
 La mediación consiste en asegurarse de que las campañas programadas cuyo peso sea mayor que la campaña en curso no saturen los perfiles: si este es el caso, el perfil se excluye de la entrega.
 
@@ -78,7 +78,7 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, si
 
    Para obtener más información, consulte [Número máximo de mensajes](#maximum-number-of-messages).
 
-1. Especifique el método para calcular el peso de la entrega.
+1. Especifique el método para calcular el peso del envío.
 
    Cada entrega tiene un peso, es decir, un valor que representa su nivel de prioridad: esto permite la mediación entre las campañas. El peso se calcula mediante la fórmula definida en la regla de tipología o en sus propiedades. Para obtener más información, consulte [Peso del mensaje](#message-weight).
 
@@ -113,7 +113,7 @@ Puede indexar el número de mensajes autorizados según el segmento al que perte
 
 ![](assets/campaign_opt_pressure_sample.png)
 
-Para definir el umbral, puede utilizar una dimensión vinculada a la dimensión de objetivo: por ejemplo, para incluir mensajes enviados a los perfiles de destinatario almacenados en la tabla de visitantes (para obtener más información sobre la tabla de visitantes, consulte [esta sección](../../surveys/using/use-case--creating-a-refer-a-friend-form.md)) o para evitar que se envíe más de un mensaje por semana a una misma familia (lo que puede hacer referencia a varias direcciones de correo electrónico) identificada en una dimensión vinculada a los destinatarios.
+Para definir el umbral, puede utilizar una dimensión vinculada a la dimensión de objetivo: por ejemplo, para incluir mensajes enviados a los perfiles de destinatario almacenados en la tabla de visitantes (para obtener más información sobre la tabla de visitantes, consulte [esta sección](../../surveys/using/use-case-creating-a-refer-a-friend-form.md)) o para evitar que se envíe más de un mensaje por semana a una misma familia (lo que puede hacer referencia a varias direcciones de correo electrónico) identificada en una dimensión vinculada a los destinatarios.
 
 Para ello, seleccione la opción **[!UICONTROL Count messages on a linked dimension]** y luego seleccione al visitante o la tabla de contacto.
 
@@ -157,7 +157,7 @@ Para restringir las entregas que se tienen en cuenta a un periodo de dos semanas
 
 o
 
-1. Escriba **7d** en el campo **[!UICONTROL Period considered]** Y marque **[!UICONTROL Take the deliveries into account in the provisional calendar]** en el cálculo se tienen en cuenta las entregas realizadas hasta siete días antes de la fecha de entrega y programadas hasta siete días después de la fecha de entrega en los que se aplica la regla.
+1. Entrar **7d** en el **[!UICONTROL Period considered]** y marque la **[!UICONTROL Take the deliveries into account in the provisional calendar]** : en el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de entrega y programadas hasta 7 días después de la fecha de entrega en los que se aplica la regla.
 
 La fecha de inicio depende de cómo se haya configurado la base de datos.
 
@@ -284,7 +284,7 @@ Durante el análisis de la entrega, los destinatarios de la entrega se excluyen 
 
   ![](assets/campaign_opt_pressure_sample_1_10.png)
 
-### Cálculo del peso de la entrega según el comportamiento {#calculating-the-delivery-weight-based-on-behavior}
+### Cálculo del peso del envío según el comportamiento {#calculating-the-delivery-weight-based-on-behavior}
 
 Puede definir reglas de presión basadas en el comportamiento del destinatario: por lo tanto, el peso de una entrega se puede adaptar a criterios que varían de un destinatario a otro. Por ejemplo: puede decidir enviar un mensaje dependiendo de si un destinatario visitó su sitio de Internet, hizo clic en una sección específica del último boletín, se suscribió a un servicio de información o incluso en función de las respuestas a un estudio, un juego en línea, etc.
 

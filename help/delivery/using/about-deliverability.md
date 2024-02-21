@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability
 role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '736'
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
+source-wordcount: '668'
 ht-degree: 100%
 
 ---
@@ -67,7 +67,7 @@ Al configurar, diseñar y probar el mensaje, asegúrese de seguir las prácticas
 
 Para evitar el envío de mensajes a direcciones no válidas, limitar las comunicaciones incorrectas y mejorar la reputación del remitente, Adobe recomienda implementar un mecanismo de inclusión doble. Este método le permite asegurarse de que sus destinatarios se hayan suscrito intencionadamente.
 
-Para obtener más información sobre esto, consulte [Creación de un formulario de suscripción con doble inclusión](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in).
+Para obtener más información sobre esto, consulte [Creación de un formulario de suscripción con doble inclusión](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in).
 
 Para obtener más información sobre las prácticas recomendadas al recopilar datos de sus clientes, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html?lang=es#data-quality-and-hygiene).
 

@@ -6,7 +6,7 @@ feature: Web Apps, Web Forms, Landing Pages, Email Design
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
@@ -50,11 +50,11 @@ Para crear una **aplicación web** simple, debe hacer lo siguiente:
 
 Para crear un **envío de correo electrónico**, debe hacer lo siguiente:
 
-1. Creación de un envío a partir de una plantilla de DCE: [Más información](use-case--creating-an-email-delivery.md)
+1. Creación de un envío a partir de una plantilla de DCE: [Más información](use-case-creating-an-email-delivery.md)
 1. Seleccione un contenido existente o cree contenido desde una [plantilla estándar](template-management.md)
 1. Editar y configurar contenido en línea
 1. Realización del envío: [Más información](../../delivery/using/steps-about-delivery-creation-steps.md)
 
 >[!NOTE]
 >
->En [este ejemplo de uso](use-case--creating-an-email-delivery.md) encontrará una muestra completa de la implementación en el contexto de un envío de correo electrónico.
+>En [este ejemplo de uso](use-case-creating-an-email-delivery.md) encontrará una muestra completa de la implementación en el contexto de un envío de correo electrónico.

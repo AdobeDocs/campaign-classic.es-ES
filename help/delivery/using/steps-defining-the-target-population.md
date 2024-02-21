@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Audiences, Proofs
 role: User
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '1610'
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
+source-wordcount: '1605'
 ht-degree: 100%
 
 ---
@@ -226,7 +226,7 @@ Asimismo, consulte:
 
 * [Selección del destino de la prueba](#selecting-the-proof-target)
 * [Acerca de las direcciones semilla](about-seed-addresses.md)
-* [Caso de uso: selección de direcciones semilla según ciertos criterios](use-case--selecting-seed-addresses-on-criteria.md)
+* [Caso de uso: selección de direcciones semilla según ciertos criterios](use-case-selecting-seed-addresses-on-criteria.md)
 
 ## Tutorial en vídeo {#seeds-and-proofs-video}
 

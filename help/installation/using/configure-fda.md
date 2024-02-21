@@ -8,14 +8,14 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: 6939307c0b33ff662fe4ef9ae0192ae7b500a95c
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 42%
+ht-degree: 38%
 
 ---
 
-# Configuración de los conectores FDA {#specific-configurations-by-database-type}
+# Configuración de conectores FDA {#specific-configurations-by-database-type}
 
 
 
@@ -34,10 +34,10 @@ Para configurar el acceso a una base de datos externa con FDA, los pasos de conf
 
 1. Instale los controladores y configure la cuenta externa correspondiente a la base de datos en el servidor de Adobe Campaign. Consulte las páginas específicas de la base de datos [listado a continuación](#fda-specific-configuration)
 1. Pruebe la cuenta externa o cree una conexión temporal entre Adobe Campaign y la base de datos externa. [Más información](../../installation/using/connecting-to-database.md)
-1. Crear el esquema de la base de datos externa en Adobe Campaign. Esto permite identificar la estructura de datos de la base de datos externa. [Más información](../../installation/using/creating-data-schema.md)
+1. Cree el esquema de la base de datos externa en Adobe Campaign. Esto permite identificar la estructura de datos de la base de datos externa. [Más información](../../installation/using/creating-data-schema.md)
 1. Si es necesario, cree una nueva asignación de destino a partir del esquema creado anteriormente. Esto es necesario si los destinatarios de los envíos proceden de la base de datos externa. Esta implementación viene con limitaciones relacionadas con la personalización de mensajes. [Más información](../../installation/using/defining-data-mapping.md)
 
-Una vez que se haya creado el esquema, los datos se pueden procesar en los flujos de trabajo de Adobe Campaign. Para obtener más información, consulte [esta sección](../../workflow/using/accessing-an-external-database--fda-.md).
+Una vez que se haya creado el esquema, los datos se pueden procesar en los flujos de trabajo de Adobe Campaign. Para obtener más información, consulte [esta sección](../../workflow/using/accessing-an-external-database-fda.md).
 
 ## Configuración específica de base de datos {#fda-specific-configuration}
 

@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Seed Address
 role: User
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Además, las direcciones semilla permiten **previsualizar y probar la personaliz
 
 La función de las direcciones semilla tiene las siguientes ventajas:
 
-* Sustitución aleatoria de campos con datos tomados de perfiles de destinatarios: esto permite introducir únicamente la dirección de correo electrónico, por ejemplo, en la sección de la dirección semilla; además, permite que Campaign rellene automáticamente los demás campos de formulario del perfil (consulte [Caso de uso: configuración del reemplazo de campo](use-case--configuring-the-field-substitution.md)).
+* Sustitución aleatoria de campos con datos tomados de perfiles de destinatarios: esto permite introducir únicamente la dirección de correo electrónico, por ejemplo, en la sección de la dirección semilla; además, permite que Campaign rellene automáticamente los demás campos de formulario del perfil (consulte [Caso de uso: configuración del reemplazo de campo](use-case-configuring-the-field-substitution.md)).
 * Al utilizar un flujo de trabajo con funciones de gestión de datos, los datos adicionales procesados en los envíos se pueden introducir en el ámbito de la dirección semilla para forzar los valores, esto evita la sustitución de valores aleatorios.
 * Las direcciones sembradas se excluyen automáticamente de los informes en las siguientes estadísticas de envío: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
 
@@ -36,7 +36,7 @@ Las direcciones semilla se añaden al destino de las entregas mediante su import
 >
 >Las direcciones semilla no pertenecen a la lista de distribución, sino que se crean en una lista independiente. Si se amplía la lista de distribución con nuevos datos, debe ampliar la lista de direcciones semilla con los mismos datos. De lo contrario, los campos ampliados no tienen en cuenta las direcciones semilla.
 >
->En esta sección se presenta un ejemplo de cómo ampliar la tabla de direcciones semilla: [Caso de uso: selección de direcciones semilla con base en criterios](use-case--selecting-seed-addresses-on-criteria.md)..
+>En esta sección se presenta un ejemplo de cómo ampliar la tabla de direcciones semilla: [Caso de uso: Selección de direcciones semilla según ciertos criterios](use-case-selecting-seed-addresses-on-criteria.md).
 
 En las entregas por correo postal, las direcciones semilla se añaden durante la extracción y se mezclan en el documento de salida.
 

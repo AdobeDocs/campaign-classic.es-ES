@@ -6,8 +6,8 @@ role: User
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Campaigns
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 100%
 
@@ -126,7 +126,7 @@ En el siguiente ejemplo, la etiqueta, el coste estimado y la descripción asocia
 
 ![](assets/s_ncs_user_op_composition_in_export_template.png)
 
-El modelo de exportación debe estar asociado al proveedor de servicios seleccionado para la entrega. Consulte [esta sección](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+El modelo de exportación debe estar asociado al proveedor de servicios seleccionado para la entrega. Consulte [esta sección](../../campaign/using/providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
 >[!NOTE]
 >

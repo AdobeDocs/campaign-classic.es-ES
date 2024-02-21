@@ -6,7 +6,7 @@ badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 100%
@@ -48,11 +48,11 @@ En Adobe Campaign, utilice las [aplicaciones web](../../web/using/about-web-form
 
 El módulo opcional de creación de encuestas ofrece una IU fácil de usar y las siguientes funcionalidades adicionales:
 
-* Ampliación dinámica de la base de datos: creación de respuestas que no forman parte del modelo de datos inicial. [Más información](../../surveys/using/managing-answers.md#storing-collected-answers).
+* Extensión dinámica de la base de datos: creación de respuestas que no forman parte del modelo de datos inicial. [Más información](../../surveys/using/managing-answers.md#storing-collected-answers).
 * Gestión de la puntuación. [Más información](../../surveys/using/managing-answers.md#score-management).
 * Visualización aleatoria de preguntas. [Más información](../../surveys/using/building-a-survey.md#adding-questions).
-* Seguimiento en tiempo real de las respuestas. [Más información](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking).
-* Generación de informes específicos. [Más información](../../surveys/using/publish--track-and-use-collected-data.md#reports-on-surveys).
+* Seguimiento en tiempo real de las respuestas. [Más información](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking).
+* Generación de informes específicos. [Más información](../../surveys/using/publish-track-and-use-collected-data.md#reports-on-surveys).
 
 
 ## Pasos de implementación {#surveys-implementation-steps}

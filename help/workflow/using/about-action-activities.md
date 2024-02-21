@@ -5,7 +5,7 @@ description: Acerca de las actividades de acción
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Data Management
 exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 100%
@@ -22,11 +22,11 @@ ht-degree: 100%
 * **Recurring delivery**: permite configurar una instancia de plantilla de envío dentro de una campaña. Consulte [Envío recurrente](recurring-delivery.md).
 * **Cross-channel deliveries**: permite configurar una entrega en el canal correspondiente. Consulte la sección [Envíos multicanal](cross-channel-deliveries.md).
 * **Local approval**: permite realizar aprobaciones y dirigir notificaciones en un contexto de marketing distribuido (módulo opcional). Consulte [Aprobación local](local-approval.md).
-* **Data loading (RDBMS)**: permite acceder a una base de datos externa para obtener datos. Consulte la sección [Carga de datos (RDBMS)](data-loading--rdbms-.md).
-* **Loading (SOAP)**: permite recopilar datos mediante una llamada SOAP. Consulte [Carga (SOAP)](loading--soap-.md).
-* **Data loading (file)**: permite acceder a un origen de datos externo para utilizar sus datos. Consulte la sección [Carga de datos (archivo)](data-loading--file-.md).
+* **Data loading (RDBMS)**: permite acceder a una base de datos externa para obtener datos. Consulte la sección [Carga de datos (RDBMS)](data-loading-rdbms.md).
+* **Loading (SOAP)**: permite recopilar datos mediante una llamada SOAP. Consulte [Carga (SOAP)](loading-soap.md).
+* **Data loading (file)**: permite acceder a un origen de datos externo para utilizar sus datos. Consulte la sección [Carga de datos (archivo)](data-loading-file.md).
 * **Content management**: permite crear o personalizar contenidos. Consulte la sección [Administración de contenido](content-management.md).
-* **Extraction (file)**: permite extraer datos de una tabla en un archivo. Consulte la sección [Extracción (archivo)](extraction--file-.md).
+* **Extraction (file)**: permite extraer datos de una tabla en un archivo. Consulte la sección [Extracción (archivo)](extraction-file.md).
 * **SQL code and JavaScript code**: ejecuta el script SQL o JavaScript especificado en la actividad. Consulte [Código SQL y código JavaScript](sql-code-and-javascript-code.md).
 * **SQL Data Management**: permite escribir sus propias consultas SQL para crear y rellenar tablas de trabajo. Consulte [Administración de datos SQL](sql-data-management.md).
 * **nlserver module**: inicia un módulo nlserver con sus argumentos. Consulte [Módulo Nlserver](nlserver-module.md).

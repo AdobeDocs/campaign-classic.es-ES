@@ -7,7 +7,7 @@ role: Data Engineer, Developer
 badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '1710'
 ht-degree: 3%
@@ -54,7 +54,7 @@ Puede crear diferentes tipos de formularios de entrada. El tipo de formulario de
 
 * Administración de contenido
 
-  Utilice este tipo de formulario para la administración de contenido. Ver esto [caso de uso](../../delivery/using/use-case--creating-content-management.md).
+  Utilice este tipo de formulario para la administración de contenido. Ver esto [caso de uso](../../delivery/using/use-case-creating-content-management.md).
 
   ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
@@ -223,7 +223,7 @@ Para crear un formulario, siga estos pasos:
 
 1. Si el formulario se basa en un tipo de esquema específico, puede buscar los campos de este esquema:
 
-   1. Haga clic en **[!UICONTROL Insert]** > **[!UICONTROL Document fields]**.
+   1. Clic **[!UICONTROL Insert]** > **[!UICONTROL Document fields]**.
 
       ![](assets/input-form-create-4.png)
 
@@ -242,7 +242,7 @@ Para crear un formulario, siga estos pasos:
    | Editor de campos | Atributo de formulario |
    | --- | --- |
    | Botón de opción | `type="radiobutton"` |
-   | Casilla | `type="checkbox"` |
+   | Casilla de verificación | `type="checkbox"` |
    | Editar árbol | `type="tree"` |
 
    Más información sobre [controles de lista de memoria](form-structure.md#memory-list-controls).

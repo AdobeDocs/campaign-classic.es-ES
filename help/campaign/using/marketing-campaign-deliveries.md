@@ -6,9 +6,9 @@ role: User
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '1494'
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
+source-wordcount: '1492'
 ht-degree: 100%
 
 ---
@@ -112,7 +112,7 @@ La extracción de archivos inicia dos operaciones: cálculo de presupuesto y cá
 
 >[!NOTE]
 >
->Para obtener más información sobre los cálculos de costos y la gestión de existencias, véase [Proveedores, saldos y presupuestos](../../campaign/using/providers--stocks-and-budgets.md).
+>Para obtener más información sobre los cálculos de costos y la gestión de existencias, véase [Proveedores, saldos y presupuestos](../../campaign/using/providers-stocks-and-budgets.md).
 
 ## Administración de documentos asociados {#managing-associated-documents}
 
@@ -227,7 +227,7 @@ En el siguiente ejemplo, la etiqueta, el coste estimado y la descripción asocia
 
 ![](assets/s_ncs_user_op_composition_in_export_template.png)
 
-El modelo de exportación debe estar asociado al proveedor de servicios seleccionado para la entrega. Consulte [Creación de proveedores de servicios y sus estructuras de costes](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+El modelo de exportación debe estar asociado al proveedor de servicios seleccionado para la entrega. Consulte [Creación de proveedores de servicios y sus estructuras de costes](../../campaign/using/providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
 >[!NOTE]
 >

@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 41%
+ht-degree: 38%
 
 ---
 
@@ -33,9 +33,9 @@ En varias actividades de flujo de trabajo de Adobe Campaign, puede utilizar los 
 
 * **Filtro en datos externos** - El [Consulta](../../workflow/using/targeting-data.md#selecting-data) La actividad de le permite añadir datos externos y utilizarlos en las configuraciones de filtro definidas. Para obtener más información, consulte [esta página](../../workflow/using/targeting-data.md#selecting-data).
 
-* **Creación de subconjuntos** - El [Split](../../workflow/using/split.md) La actividad de le permite crear subconjuntos. Puede utilizar datos externos para definir los criterios de filtrado que deben utilizarse. Para obtener más información, consulte [esta página](../../workflow/using/split.md).
+* **Creación de subconjuntos** - El [Split](../../workflow/using/split.md) La actividad de le permite crear subconjuntos. Se pueden utilizar datos externos para definir los criterios de filtrado que se deben utilizar. Para obtener más información, consulte [esta página](../../workflow/using/split.md).
 
-* **Cargar base de datos externa** - Puede utilizar los datos externos en la [Carga de datos](../../workflow/using/data-loading--rdbms-.md) Actividad (RDBMS). Obtenga más información en [esta página](../../workflow/using/data-loading--rdbms-.md).
+* **Cargar base de datos externa** - Puede utilizar los datos externos en la [Carga de datos](../../workflow/using/data-loading-rdbms.md) Actividad (RDBMS). Obtenga más información en [esta página](../../workflow/using/data-loading-rdbms.md).
 
 * **Adición de información y vínculos** - El [Enriquecimiento](../../workflow/using/enrichment.md) La actividad permite agregar datos adicionales a la tabla de trabajo del flujo de trabajo y vínculos a una tabla externa. En este contexto, puede utilizar datos de una base de datos externa. Obtenga más información en [esta página](../../workflow/using/enrichment.md).
 

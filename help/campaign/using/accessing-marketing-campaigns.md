@@ -6,8 +6,8 @@ role: User
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Campaigns, Cross Channel Orchestration
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 100%
 
@@ -142,7 +142,7 @@ El vínculo **[!UICONTROL Reports]** permite acceder a los informes de campaña.
 Las campañas se crean mediante plantillas de campaña. Puede configurar plantillas reutilizables para las que algunas opciones están seleccionadas y otras configuraciones ya están guardadas. Para cada campaña, se ofrece la siguiente funcionalidad:
 
 * Referencia a [documentos y recursos](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents): puede asociar documentos con la campaña (resumen, informes, imágenes, etc.). Se admiten todos los formatos de documento.
-* Definición de costes: para cada campaña, Adobe Campaign permite definir las [entradas de coste y las estructuras de cálculo de costes](../../campaign/using/providers--stocks-and-budgets.md#defining-cost-categories) que se pueden utilizar al crear la campaña de marketing. Por ejemplo: costes de impresión, uso de una agencia externa, alquiler de salas.
+* Definición de costes: para cada campaña, Adobe Campaign permite definir las [entradas de coste y las estructuras de cálculo de costes](../../campaign/using/providers-stocks-and-budgets.md#defining-cost-categories) que se pueden utilizar al crear la campaña de marketing. Por ejemplo: costes de impresión, uso de una agencia externa, alquiler de salas.
 * Definición de objetivos: puede definir objetivos cuantificables para una campaña, por ejemplo: número de suscriptores, volumen comercial, etc. Esta información se utiliza más tarde en los informes de campaña.
 * Administración de [direcciones semilla](../../delivery/using/about-seed-addresses.md) y [grupos de control](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 * Administrar aprobaciones: puede seleccionar los tratamientos que desea aprobar y, si es necesario, seleccionar los operadores o grupos de operadores revisores. [Más información](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)

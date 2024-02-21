@@ -6,9 +6,9 @@ role: User
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '1260'
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
+source-wordcount: '1255'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Para crear una campaña de marketing:
 
 1. Supervise los envíos. [Más información](../../campaign/using/marketing-campaign-monitoring.md).
 
-1. Planifique campañas y costes asociados. [Más información](../../campaign/using/providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+1. Planifique campañas y costes asociados. [Más información](../../campaign/using/providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
 
 Una vez completados estos pasos, puede iniciar los envíos (consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)), comprobar los datos, los procesos y la información relacionada con los envíos y, si es necesario, administrar los documentos asociados (consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents)). También puede realizar un seguimiento de la ejecución de las fases de procesamiento de las campañas y envíos (consulte [esta sección](../../campaign/using/marketing-campaign-monitoring.md)).
 

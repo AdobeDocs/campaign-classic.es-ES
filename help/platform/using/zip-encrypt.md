@@ -9,7 +9,7 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-source-git-commit: 58998fa2480a33776507a434ed846541ac19e58b
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
@@ -37,7 +37,7 @@ A continuación, puede utilizar comandos o código en la pestaña **[!UICONTROL 
 **Temas relacionados:**
 
 * [Descomprimir o descifrar un archivo antes de procesarlo](../../platform/using/unzip-decrypt.md)
-* [Actividad de extracción de datos (archivo)](../../workflow/using/extraction--file-.md).
+* [Actividad de extracción de datos (archivo)](../../workflow/using/extraction-file.md).
 
 ## Caso de uso: cifrado y exportación de datos con una clave instalada en el Panel de control {#use-case-gpg-encrypt}
 
@@ -60,7 +60,7 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 1. Configure la actividad **[!UICONTROL Query]** para destinatario de los datos deseados de la base de datos. Para obtener más información, consulte [esta sección](../../workflow/using/query.md).
 
-1. Abra la actividad **[!UICONTROL Data extraction (file)]** y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/extraction--file-.md).
+1. Abra la actividad **[!UICONTROL Data extraction (file)]** y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/extraction-file.md).
 
    ![](assets/gpg-data-extraction.png)
 

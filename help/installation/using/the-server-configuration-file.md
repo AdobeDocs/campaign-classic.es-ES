@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '8056'
-ht-degree: 41%
+source-wordcount: '8075'
+ht-degree: 6%
 
 ---
 
@@ -82,7 +82,7 @@ Estos son los diferentes parámetros del **authentication** nodo:
    <td> checkIPConsistent<br /> </td> 
    <td> Habilitar comprobación de direcciones IP.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> defaultMode<br /> </td> 
@@ -98,7 +98,7 @@ Estos son los diferentes parámetros del **authentication** nodo:
   </tr> 
   <tr> 
    <td> securityTimeOutSec<br /> </td> 
-   <td> Tiempo de espera del token de seguridad en segundos.<br /> </td> 
+   <td> Tiempo de espera de token de seguridad en segundos.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
@@ -204,7 +204,7 @@ Estos son los diferentes parámetros del **dataStore** nodo. Aquí es donde se d
   </tr> 
   <tr> 
    <td> uploadAllowlist<br /> </td> 
-   <td> Archivos autorizados para descargar separados por “,”. La cadena debe ser una expresión Java regular válida. Consulte <a href="file-res-management.md" target="_blank">Limitación de archivos cargables</a>.<br /> </td> 
+   <td> Archivos autorizados para descargar separados por ",". La cadena debe ser una expresión Java regular válida. Consulte <a href="file-res-management.md" target="_blank">Limitación de archivos cargables</a>.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> '.+' <br /> </td> 
   </tr> 
@@ -212,7 +212,7 @@ Estos son los diferentes parámetros del **dataStore** nodo. Aquí es donde se d
    <td> useVault<br /> </td> 
    <td> Almacenar secretos en Vault: usar Hashicorp Vault.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> vaultSecretPath<br /> </td> 
@@ -289,9 +289,9 @@ Estos son los diferentes parámetros del **dataStore > dataSource** nodo.
  <tbody> 
   <tr> 
    <td> name<br /> </td> 
-   <td> Nombre del origen de datos<br /> </td> 
+   <td> Nombre de fuente de datos<br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> por defecto<br /> </td> 
+   <td> predeterminado<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -316,7 +316,7 @@ En el **dataStore > dataSource > dbcnx** , configure las opciones de conexión:
   </tr> 
   <tr> 
    <td> dbSchema<br /> </td> 
-   <td> Espacio de trabajo<br /> </td> 
+   <td> Workspace<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> </td> 
   </tr> 
@@ -418,7 +418,7 @@ En el **dataStore > dataSource > grupo** , configure los parámetros del grupo d
   </tr> 
   <tr> 
    <td> maxIdleDelaySec<br /> </td> 
-   <td> Tiempo máximo de inactivo de la conexión. 0 indica el valor predeterminado.<br /> </td> 
+   <td> Tiempo máximo de inactivo de la conexión. 0 significa el valor predeterminado.<br /> </td> 
    <td> Corto<br /> </td> 
   </tr> 
  </tbody> 
@@ -475,11 +475,11 @@ Estos son los diferentes parámetros del **dataStore > preprocessCommand** nodo.
  <tbody> 
   <tr> 
    <td> mando<br /> </td> 
-   <td> Línea de comando <br /> </td> 
+   <td> Línea de comandos <br /> </td> 
    <td> Cadena<br /> </td> 
   </tr> 
   <tr> 
-   <td> label<br /> </td> 
+   <td> etiqueta<br /> </td> 
    <td> Etiqueta de línea de comando<br /> </td> 
    <td> Cadena<br /> </td> 
   </tr> 
@@ -516,7 +516,7 @@ Para obtener más información, consulte [sección](../../installation/using/con
  <tbody> 
   <tr> 
    <td> localDomain<br /> </td> 
-   <td> Domain name: nombre de dominio predeterminado. Utilizado por el comando SMTP HELO. De forma predeterminada, utiliza los parámetros de red de la primera interfaz de red declarada en Windows; o analiza el archivo/etc/resolv.conf en Linux (dominio o entrada de búsqueda). <br /> </td> 
+   <td> Domain name: nombre de dominio predeterminado. Utilizado por el comando SMTP HELO. De forma predeterminada, utiliza los parámetros de red de la primera interfaz de red declarada en Windows; o analiza el file/etc/resolv.conf en Linux (dominio o entrada de búsqueda). <br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -533,7 +533,7 @@ Para obtener más información, consulte [sección](../../installation/using/con
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
-   <td> tiempo de espera<br /> </td> 
+   <td> timeout<br /> </td> 
    <td> Tiempo de espera en milisegundos para una consulta DNS.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 5000<br /> </td> 
@@ -616,7 +616,7 @@ Estos son los diferentes parámetros del **htmlToPdf** nodo. Esta es la configur
    <td> 'phantomjs' <br /> </td> 
   </tr> 
   <tr> 
-   <td> tiempo de espera<br /> </td> 
+   <td> timeout<br /> </td> 
    <td> Tiempo de espera para una conversión: tiempo máximo de conversión en segundos. Más allá de este umbral, el proceso de conversión se detiene y se genera un error.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 120<br /> </td> 
@@ -625,7 +625,7 @@ Estos son los diferentes parámetros del **htmlToPdf** nodo. Esta es la configur
    <td> detallado<br /> </td> 
    <td> Modo detallado: inicie el modo detallado para diagnosticar posibles errores.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> waitTime<br /> </td> 
@@ -682,7 +682,7 @@ Estos son los diferentes parámetros del **ims** nodo. Esta es la configuración
   </tr> 
   <tr> 
    <td> authIMSTAClientId<br /> </td> 
-   <td> ID de cliente de la cuenta técnica<br /> </td> 
+   <td> ID de cliente de cuenta técnica<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -812,13 +812,13 @@ Estos son los diferentes parámetros del **control** nodo. Esta es la configurac
   </tr> 
   <tr> 
    <td> unixScript<br /> </td> 
-   <td> Secuencia de comandos Unix ejecutada por el servicio de monitorización.<br /> </td> 
+   <td> Script Unix ejecutado por el servicio de monitorización.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> winScript<br /> </td> 
-   <td> Script de Windows que ejecutará el servicio de monitorización.<br /> </td> 
+   <td> Script de Windows que ejecutará el servicio de supervisión.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -841,13 +841,13 @@ Estos son los diferentes parámetros del **ooconv** nodo. Esta es la configuraci
  <tbody> 
   <tr> 
    <td> maxConversions<br /> </td> 
-   <td> Número máximo de errores permitidos por un servidor OpenOffice. Después de este número, se reinicia el servidor.<br /> </td> 
+   <td> Número máximo de conversiones permitidas por un servidor OpenOffice. Más allá de este número, se reinicia el servidor.<br /> </td> 
    <td> Largo<br /> </td> 
-   <td> 1000<br /> </td> 
+   <td> MIL<br /> </td> 
   </tr> 
   <tr> 
    <td> maxServerIdleSec<br /> </td> 
-   <td> Tiempo máximo de inactivo del servidor OpenOffice antes del cierre forzado.<br /> </td> 
+   <td> Tiempo máximo de inactividad del servidor OpenOffice antes del cierre forzado.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 7200<br /> </td> 
   </tr> 
@@ -858,7 +858,7 @@ Estos son los diferentes parámetros del **ooconv** nodo. Esta es la configuraci
    <td> 8101-8110<br /> </td> 
   </tr> 
   <tr> 
-   <td> URL<br /> </td> 
+   <td> url<br /> </td> 
    <td> URL del servidor de conversión de documentos.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> 'http://localhost:8080/nl/jsp/ooconv.jsp'<br /> </td> 
@@ -884,9 +884,9 @@ Para obtener más información, consulte [Configuración de conexión proxy](fil
  <tbody> 
   <tr> 
    <td> activado<br /> </td> 
-   <td> Usar un servidor proxy.<br /> </td> 
+   <td> Utilice un servidor proxy.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> invalidar<br /> </td> 
@@ -898,7 +898,7 @@ Para obtener más información, consulte [Configuración de conexión proxy](fil
    <td> useSingleProxy<br /> </td> 
    <td> Servidor proxy único: utilice la misma configuración para todos los tipos de proxy.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -935,7 +935,7 @@ Para obtener más información, consulte [Configuración de conexión proxy](fil
   </tr> 
   <tr> 
    <td> puerto<br /> </td> 
-   <td> Puerto del servidor Proxy<br /> </td> 
+   <td> Puerto del servidor proxy<br /> </td> 
    <td> Corto<br /> </td> 
   </tr> 
  </tbody> 
@@ -957,7 +957,7 @@ Estos son los diferentes parámetros del **threadPool** nodo.
  <tbody> 
   <tr> 
    <td> maxThreadCount<br /> </td> 
-   <td> Número máximo de hilo en el grupo. <br /> </td> 
+   <td> Número máximo de hilos en el grupo. <br /> </td> 
    <td> Largo<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -994,7 +994,7 @@ Para obtener más información, consulte [Protección de conexión saliente](../
    <td> debugTrace<br /> </td> 
    <td> Seguimiento de depuración del mecanismo de selección de URL: emite mensajes adicionales durante el proceso de verificación de URL.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1093,7 +1093,7 @@ Estos son los diferentes parámetros del **xtkJobs** nodo. Esta es la configurac
  <tbody> 
   <tr> 
    <td> purgeLogsPeriod<br /> </td> 
-   <td> Período de actualizar el estado de la memoria del procesamiento del servidor (en ms).<br /> </td> 
+   <td> Período de actualización del estado de la memoria del procesamiento del servidor (en ms).<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 500<br /> </td> 
   </tr> 
@@ -1138,7 +1138,7 @@ Para obtener más información, consulte [Activación del archivado de correo el
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> compressBatchSize<br /> </td> 
@@ -1196,7 +1196,7 @@ Para obtener más información, consulte [Activación del archivado de correo el
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen últimos. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1210,7 +1210,7 @@ Para obtener más información, consulte [Activación del archivado de correo el
    <td> smtpEnableTLS<br /> </td> 
    <td> Activar compatibilidad con SMTPS: activa la entrega de correos electrónicos en modo seguro (STARTTLS/SMTPS) cuando el servidor remoto lo admite.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> smtpNbConnection<br /> </td> 
@@ -1220,7 +1220,7 @@ Para obtener más información, consulte [Activación del archivado de correo el
   </tr> 
   <tr> 
    <td> smtpRelayAddress<br /> </td> 
-   <td> Enumerar lista separada por comas de nombres DNS o direcciones IP de retransmisiones SMTP que se deben utilizar. <br /> </td> 
+   <td> Lista separada por comas de nombres DNS o direcciones IP de retransmisiones SMTP que se van a utilizar. <br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1257,19 +1257,19 @@ Estos son los diferentes parámetros del **inMail** nodo. Esta es la configuraci
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> checkInstanceName<br /> </td> 
    <td> Verify instance name: si es true, el nombre de la instancia de Adobe Campaign contenido en los encabezados Message-ID debe ser el mismo que la instancia actual. <br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> verdadero<br /> </td> 
+   <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> defaultForwardAddress<br /> </td> 
    <td> Dirección de reenvío: dirección de transferencia de correo electrónico predeterminada no procesada por una regla. <br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> errorForwardAddress<br /> </td> 
@@ -1281,7 +1281,7 @@ Estos son los diferentes parámetros del **inMail** nodo. Esta es la configuraci
    <td> ignoreSize<br /> </td> 
    <td> Ignore message size: se utiliza para ignorar el tamaño de un mensaje devuelto por los servidores POP3. En este caso, el módulo espera un '.' al final de los mensajes. <br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> inMailPeriodSec<br /> </td> 
@@ -1351,13 +1351,13 @@ Estos son los diferentes parámetros del **inMail** nodo. Esta es la configuraci
   </tr> 
   <tr> 
    <td> reloadPeriodSec<br /> </td> 
-   <td> Frecuencia de recarga de la base de datos de las cuentas que se van a sondear.<br /> </td> 
+   <td> Frecuencia de recarga de la base de datos de cuentas a sondear.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen últimos. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1382,11 +1382,11 @@ En el **inMail > msgDump** , configure los siguientes parámetros. Esta es la co
    <td> basurero<br /> </td> 
    <td> Guardar todos los mensajes entrantes en formato de texto. <br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> msgPath<br /> </td> 
-   <td> Ruta de volcado de enviar mensaje.<br /> </td> 
+   <td> Ruta de volcado de mensajes.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> '/tmp/inMail'<br /> </td> 
   </tr> 
@@ -1397,7 +1397,7 @@ En el **inMail > msgDump** , configure los siguientes parámetros. Esta es la co
 
 Estos son los diferentes parámetros del **interactiond** nodo. Esta es la configuración del demonio de escritura para eventos de interacción entrantes.
 
-Para obtener más información, consulte [Interacción: búfer de datos](../../installation/using/interaction---data-buffer.md).
+Para obtener más información, consulte [Interacción: búfer de datos](../../installation/using/interaction-data-buffer.md).
 
 <table> 
  <thead> 
@@ -1419,7 +1419,7 @@ Para obtener más información, consulte [Interacción: búfer de datos](../../i
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> callDataSize<br /> </td> 
@@ -1465,7 +1465,7 @@ Para obtener más información, consulte [Interacción: búfer de datos](../../i
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen últimos. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1508,7 +1508,7 @@ Estos son los diferentes parámetros del **mta** nodo. Esta es la configuración
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> dataLogPath<br /> </td> 
@@ -1544,7 +1544,7 @@ Estos son los diferentes parámetros del **mta** nodo. Esta es la configuración
    <td> logEmailErrors<br /> </td> 
    <td> Generar estadísticas de errores y almacenarlas en la base de datos.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> verdadero<br /> </td> 
+   <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> logLevel<br /> </td> 
@@ -1584,9 +1584,9 @@ Estos son los diferentes parámetros del **mta** nodo. Esta es la configuración
   </tr> 
   <tr> 
    <td> minMessagesToLog<br /> </td> 
-   <td> Umbral de enviar mensajes a tener en cuenta. No se generan estadísticas de error para una ruta determinada si el número total de mensajes enviados para el período especificado por errorPeriodSec es estrictamente inferior al umbral.<br /> </td> 
+   <td> Umbral de mensaje a tener en cuenta. No se generan estadísticas de error para una ruta determinada si el número total de mensajes enviados para el período especificado por errorPeriodSec es estrictamente inferior al umbral.<br /> </td> 
    <td> Largo<br /> </td> 
-   <td> 1000<br /> </td> 
+   <td> MIL<br /> </td> 
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 
@@ -1610,11 +1610,11 @@ Estos son los diferentes parámetros del **mta** nodo. Esta es la configuración
    <td> retryLostMessages<br /> </td> 
    <td> Reintentar mensajes perdidos: se volverán a intentar partes de los envíos si el proceso secundario está inactivo.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> verdadero<br /> </td> 
+   <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen últimos. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -1622,7 +1622,7 @@ Estos son los diferentes parámetros del **mta** nodo. Esta es la configuración
    <td> signEmailLinks<br /> </td> 
    <td> Habilitar el mecanismo de firma. Esto mejora la seguridad en el seguimiento de vínculos en el correo electrónico.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> verdadero<br /> </td> 
+   <td> true<br /> </td> 
   </tr>
   <tr> 
    <td> statServerAddress<br /> </td> 
@@ -1641,7 +1641,7 @@ Estos son los diferentes parámetros del **mta** nodo. Esta es la configuración
    <td> statServerTLSSupport<br /> </td> 
    <td> Enable TLS by domain: habilita TLS configurable por MX (requiere un servidor de estadísticas actualizado).<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> verdadero <br /> </td> 
+   <td> true <br /> </td> 
   </tr> 
   <!--tr> 
    <td> statServerVersion<br /> </td> 
@@ -1659,7 +1659,7 @@ Estos son los diferentes parámetros del **mta** nodo. Esta es la configuración
    <td> verifyMode<br /> </td> 
    <td> Modo de verificación: activa el modo de verificación (sin transmisión física de mensajes; utilizado para simulación y ensayos).<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> workingPath<br /> </td> 
@@ -1731,7 +1731,7 @@ Para obtener más información, consulte [retransmisión SMTP](../../installatio
  <tbody> 
   <tr> 
    <td> dirección<br /> </td> 
-   <td> Enumerar lista separada por comas de nombres DNS o direcciones IP de retransmisiones SMTP que se deben utilizar. <br /> </td> 
+   <td> Lista separada por comas de nombres DNS o direcciones IP de retransmisiones SMTP que se van a utilizar. <br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1762,31 +1762,31 @@ Para obtener más información, consulte [sección](../../installation/using/con
  <tbody> 
   <tr> 
    <td> dataBasePoolPeriodSec<br /> </td> 
-   <td> Frecuencia de sondeo de base de datos de los trabajos que se van a enviar. Este valor indica la frecuencia de sondeo de la base de datos (en segundos). Para obtener la lista de trabajos pendientes de envío, el MTA sondea la base de datos periódicamente. Cuando no hay ningún trabajo en espera, el período de sondeo se define por este valor. De lo contrario, si un trabajo se ha transferido a un servidor secundario, la duración de este sondeo se reduce automáticamente a un segundo para que un nuevo trabajo pueda procesarse de nuevo lo antes posible. Es decir, tan pronto como un servidor secundario esté disponible de nuevo. Esto no significa que la consulta de la base de datos se realice cada segundo hasta que un servidor secundario esté disponible de nuevo. De hecho, el acceso a una base de datos solo se ejecuta cuando hay al menos un servidor secundario disponible.<br /> </td> 
+   <td> Frecuencia de sondeo de base de datos de los trabajos que se van a enviar. Este valor indica la frecuencia de sondeo de la base de datos (en segundos). Para obtener la lista de trabajos en espera de envío, el MTA sondea la base de datos de forma regular. Cuando no hay ningún trabajo en espera, el período de sondeo se define con este valor. De lo contrario, si se ha transferido un trabajo a un servidor secundario, esta duración de sondeo se reduce automáticamente a un segundo para que se pueda volver a procesar un nuevo trabajo lo antes posible, es decir, tan pronto como un servidor secundario esté disponible de nuevo. Esto no significa que la consulta de la base de datos se realice cada segundo hasta que un servidor secundario vuelva a estar disponible. De hecho, el acceso a una base de datos solo se realiza cuando hay al menos un servidor secundario disponible.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
   <tr> 
    <td> dataBaseRetryDelaySec<br /> </td> 
-   <td> Período de espera después de un error de conexión a base de datos. Un error de conexión a la base de datos suele deberse al propio servidor de base de datos. El servidor también puede detenerse por razones de mantenimiento, por ejemplo. El parámetro DataBaseRetryDelay define la duración entre dos intentos de conexión en caso de un error de conexión a base de datos.<br /> </td> 
+   <td> Período de espera después de un error de conexión a base de datos. Un error de conexión a la base de datos suele deberse al propio servidor de la base de datos. El servidor también se puede detener por motivos de mantenimiento, por ejemplo. El parámetro DataBaseRetryDelay define la duración entre dos intentos de conexión en caso de un error de conexión a la base de datos.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> domainKeysReloadPeriodSec<br /> </td> 
-   <td> Período de validez de la caché de claves privadas (DomainKeys). Las claves privadas utilizadas para firmar correos electrónicos siguiendo la recomendación de DomainKeys (http://antispam.yahoo.com/domainkeys) se almacenan como opciones en la base de datos. El parámetro domainKeysReloadPeriodSec define cuántos segundos puede mantener el MTA estas claves en una caché. Después de este retraso, todas las claves deben volver a cargarse de la base de datos.<br /> </td> 
+   <td> Período de validez de la caché de claves privadas (DomainKeys). Las claves privadas utilizadas para firmar correos electrónicos siguiendo la recomendación de DomainKeys (http://antispam.yahoo.com/domainkeys) se almacenan como opciones en la base de datos. El parámetro domainKeysReloadPeriodSec define cuántos segundos puede mantener el MTA estas claves en una caché. Después de este retraso, todas las claves deben volver a cargarse desde la base de datos.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSpareServers<br /> </td> 
-   <td> Número máximo de servidores secundarios. Representa el número máximo de servidores en ejecución. Se recomienda limitar este número a un nivel óptimo compatible con los recursos de memoria del servidor. Esto puede comprobarse durante un envío. La memoria utilizada no debe exceder un tercio de la memoria física disponible; de lo contrario, se utilizará el intercambio. Consulte <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">Procesos secundarios de MTA</a>.<br /> </td> 
+   <td> Número máximo de servidores secundarios. Representa el número máximo de servidores en ejecución. Se recomienda limitar este número a un nivel óptimo compatible con los recursos de memoria del servidor. Esto se puede comprobar durante una entrega. La memoria utilizada no debe exceder un tercio de la memoria física disponible; de lo contrario, se utilizará el intercambio. Consulte <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">Procesos secundarios de MTA</a>.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 2<br /> </td> 
   </tr> 
   <tr> 
    <td> minSpareServers<br /> </td> 
-   <td> Número mínimo de servidores secundarios. El MTA intenta mantener al menos este número de servidores en funcionamiento. Si hay menos, reinicia nuevos servidores cada segundo hasta que se alcanza este valor.<br /> </td> 
+   <td> Número mínimo de servidores secundarios. El MTA intenta mantener al menos este número de servidores en ejecución. Si hay menos, reinicia nuevos servidores cada segundo hasta que se alcanza este valor.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 0<br /> </td> 
   </tr> 
@@ -1829,7 +1829,7 @@ Para obtener más información, consulte [Optimización del envío de correo ele
   </tr> 
   <tr> 
    <td> maxAgeSec<br /> </td> 
-   <td> Tiempo máximo de retención de mensajes. Si el mensaje preparado no se ha podido enviar debido al estrangulamiento o no se ha podido conectar con el MTA del público destinatario, el mensaje se abandona y se procesará en el siguiente reintento.<br /> </td> 
+   <td> Tiempo máximo de retención de mensajes. Si no se ha podido enviar un mensaje preparado debido al estrangulamiento o no se ha podido conectar con el MTA de destinatario, el mensaje se abandona y se procesará en el siguiente reintento.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -1841,7 +1841,7 @@ Para obtener más información, consulte [Optimización del envío de correo ele
   </tr> 
   <tr> 
    <td> maxMsgPerChild<br /> </td> 
-   <td> Número máximo de mensajes por servidor secundario. Cada secundario de MTA procesa este número de mensajes y muere. Es importante especificar un número tal que las pérdidas de memoria o recursos en el MTA sean inofensivas (normalmente unos pocos miles). Aunque no haya igualado pérdidas de memoria conocidas en el código MTA, los motores JavaScript y XSL integrados no son totalmente fiables.<br /> </td> 
+   <td> Número máximo de mensajes por servidor secundario. Cada elemento secundario de MTA procesa este número de mensajes y muere. Es importante especificar un número tal que las pérdidas de memoria o recursos en el MTA sean inofensivas (normalmente unos pocos miles). Incluso si no hay fugas de memoria conocidas en el código MTA, los motores JavaScript y XSL integrados no son totalmente fiables.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 5000000<br /> </td> 
   </tr> 
@@ -1867,7 +1867,7 @@ Para obtener más información, consulte [Optimización del envío de correo ele
    <td> startWithFirstMX<br /> </td> 
    <td> Iniciar siempre con la prioridad MX más alta.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> timeToLive<br /> </td> 
@@ -1892,13 +1892,13 @@ En el **mta > secundario > smtp** , configure los siguientes parámetros. Esta e
  <tbody> 
   <tr> 
    <td> enableTLS<br /> </td> 
-   <td> Activa el envío de mensajes de correo electrónico en modo seguro (STARTTLS/SMTPS) cuando el servidor remoto lo admite.<br /> </td> 
+   <td> Activa el envío de correos electrónicos en modo seguro (STARTTLS/SMTPS) cuando el servidor remoto lo admite.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> inactiveSessionTimeoutSec<br /> </td> 
-   <td> Tiempo de apagado de sesión inactiva. Este parámetro solo se utiliza si la sesión se reutiliza para transmitir varios mensajes a un dominio determinado. Cuando el MTA ha completado la transmisión del mensaje, la sesión SMTP que ha utilizado no se cierra sistemáticamente. Si un mensaje está listo para enviarse para este mismo dominio, se volverá a utilizar la misma sesión SMTP y por esta razón la sesión no se cierra automáticamente. El parámetro IdleSessionTimeout permite definir el tiempo durante el cual una sesión SMTP puede permanecer activa a la espera de otro mensaje. Una vez transcurrida la duración, la sesión se cierra automáticamente.<br /> </td> 
+   <td> Tiempo de espera de sesión inactivo. Este parámetro solo se utiliza si la sesión se reutiliza para transmitir varios mensajes a un dominio determinado. Cuando el MTA ha completado la transmisión del mensaje, la sesión SMTP que ha utilizado no se cierra sistemáticamente. Si un mensaje está listo para enviarse para este mismo dominio, se reutilizará la misma sesión SMTP y por esta razón la sesión no se cierra automáticamente. El parámetro IdleSessionTimeout permite definir el tiempo durante el cual una sesión SMTP puede permanecer activa a la espera de otro mensaje. Una vez transcurrida la duración, la sesión se cierra automáticamente.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
@@ -1910,9 +1910,9 @@ En el **mta > secundario > smtp** , configure los siguientes parámetros. Esta e
   </tr> 
   <tr> 
    <td> maxSessionsPerChild<br /> </td> 
-   <td> Número máximo de sesiones SMTP por servidor secundario. Para entregar un mensaje, el MTA inicializa una conexión SMTP con el MTA del destinatario. El número máximo de sesiones SMTP activas y simultáneas para un servidor secundario está limitado por este valor. Si se multiplica este valor por maxSpareServers, se obtiene el número máximo de mensajes que un servidor secundario determinado puede procesar simultáneamente.<br /> </td> 
+   <td> Número máximo de sesiones SMTP por servidor secundario. Para enviar un mensaje, el MTA inicializa una conexión SMTP con el MTA del destinatario. El número máximo de sesiones SMTP simultáneas y activas para un servidor secundario determinado está limitado por este valor. Si multiplica este valor por maxSpareServers, obtiene el número máximo de mensajes que un servidor secundario determinado puede procesar simultáneamente.<br /> </td> 
    <td> Largo<br /> </td> 
-   <td> 1000<br /> </td> 
+   <td> MIL<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1963,17 +1963,17 @@ Para obtener más información, consulte [Lista de direcciones IP para usar](../
   </tr> 
   <tr> 
    <td> publicId<br /> </td> 
-   <td> Id. de dirección pública asociada. Se utiliza como clave para el servidor de estadísticas. Debe ser numérica. Consulte esta <a href="../../installation/using/email-deliverability.md#managing-ip-addresses">sección</a>.<br /> </td> 
+   <td> ID de dirección pública asociada. Se utiliza como clave para el servidor de estadísticas. Debe ser numérico. Ver esto <a href="../../installation/using/email-deliverability.md#managing-ip-addresses">sección</a>.<br /> </td> 
    <td> Largo<br /> </td> 
   </tr> 
   <tr> 
-   <td> ponderación<br /> </td> 
+   <td> peso<br /> </td> 
    <td> Especifica la frecuencia de uso de esta IP, en relación con otras IP (los pesos mayores de posible cliente dan lugar a frecuencias más altas).<br /> </td> 
    <td> Largo<br /> </td> 
   </tr> 
   <tr> 
    <td> includeDomains<br /> </td> 
-   <td> Lista separada por comas de las máscaras de dominio que se van a incluir.<br /> </td> 
+   <td> Lista separada por comas de las máscaras de dominio que desea incluir.<br /> </td> 
    <td> Cadena<br /> </td> 
   </tr> 
   <tr> 
@@ -2005,9 +2005,9 @@ Estos son los diferentes parámetros del **nmac** nodo. Esta es la configuració
  <tbody> 
   <tr> 
    <td> useHTTPProxy<br /> </td> 
-   <td> Usar proxy HTTP definido en shared/proxyHTTP. <br /> </td> 
+   <td> Use el proxy HTTP definido en shared/proxyHTTP. <br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2040,7 +2040,7 @@ Estos son los diferentes parámetros del **nmac > retransmitir** nodo. Esto conf
   </tr> 
   <tr> 
    <td> trustedCertsChain<br /> </td> 
-   <td> Cadena de certificados (archivo PEM). Útil cuando se usa un servidor de simulación.<br /> </td> 
+   <td> Cadena de certificados (archivo PEM). Útil cuando se utiliza un servidor ficticio.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2063,7 +2063,7 @@ Estos son los diferentes parámetros del **canalizado** nodo. Esta es la configu
  <tbody> 
   <tr> 
    <td> appName<br /> </td> 
-   <td> Nombre de la aplicación generada en la conexión de desarrollador cuando se guarda la clave público. <br /> </td> 
+   <td> Nombre de la aplicación generada en la conexión de desarrollador cuando se guarda la clave pública. <br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2089,7 +2089,7 @@ Estos son los diferentes parámetros del **canalizado** nodo. Esta es la configu
    <td> autoStart<br /> </td> 
    <td> Inicio automático <br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> disableAuth<br /> </td> 
@@ -2099,7 +2099,7 @@ Estos son los diferentes parámetros del **canalizado** nodo. Esta es la configu
   </tr> 
   <tr> 
    <td> discoverPipelineEndpoint<br /> </td> 
-   <td> URL para Discover la URL de servicios de tubería.<br /> </td> 
+   <td> URL para descubrir la URL de servicios de canalización.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> 'https://producer-pipeline-pnw.adobe.net'<br /> </td> 
   </tr> 
@@ -2143,7 +2143,7 @@ Estos son los diferentes parámetros del **canalizado** nodo. Esta es la configu
    <td> pointerFlushMessageCount<br /> </td> 
    <td> El puntero se almacenará en la base de datos cada vez que se procese este número de mensajes.<br /> </td> 
    <td> <br /> </td> 
-   <td> 1000<br /> </td> 
+   <td> MIL<br /> </td> 
   </tr> 
   <tr> 
    <td> pointerFlushPeriodSec<br /> </td> 
@@ -2165,7 +2165,7 @@ Estos son los diferentes parámetros del **canalizado** nodo. Esta es la configu
   </tr> 
   <tr> 
    <td> processingThreads<br /> </td> 
-   <td> Número máximo de hilos para el procesamiento de evento.<br /> </td> 
+   <td> Número máximo de subprocesos para el procesamiento de eventos.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 4<br /> </td> 
   </tr> 
@@ -2183,7 +2183,7 @@ Estos son los diferentes parámetros del **canalizado** nodo. Esta es la configu
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen últimos. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2231,36 +2231,36 @@ Para obtener más información, consulte [Definición de zonas de seguridad](../
  <tbody> 
   <tr> 
    <td> allowDebug<br /> </td> 
-   <td> Autorizar modo de depurar para aplicaciones de Web.<br /> </td> 
+   <td> Autorizar modo de depuración para aplicaciones web.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> allowEmptyPassword<br /> </td> 
-   <td> Autoriza al usuario a utilizar la aplicación sin contraseña.<br /> </td> 
+   <td> Autorizar al usuario a utilizar la aplicación sin contraseña.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> allowHTTP<br /> </td> 
    <td> Autorizar el uso de HTTP para el inicio de sesión del operador.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> allowSQLInjection<br /> </td> 
    <td> Autorizar el uso de SQLDATA en expresiones.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> allowUserPassword<br /> </td> 
    <td> Autorizar tokens de sesión de usuario o contraseña.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
-   <td> label<br /> </td> 
+   <td> etiqueta<br /> </td> 
    <td> Etiqueta<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> NewLabel()<br /> </td> 
@@ -2275,13 +2275,13 @@ Para obtener más información, consulte [Definición de zonas de seguridad](../
    <td> sessionTokenOnly<br /> </td> 
    <td> No utilice el token de seguridad.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> showErrors<br /> </td> 
    <td> Mostrar detalles del error<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2328,7 +2328,7 @@ Para obtener más información, consulte [Definición de zonas de seguridad](../
  </thead> 
  <tbody> 
   <tr> 
-   <td> label<br /> </td> 
+   <td> etiqueta<br /> </td> 
    <td> Etiqueta<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> NewLabel()<br /> </td> 
@@ -2347,7 +2347,7 @@ Para obtener más información, consulte [Definición de zonas de seguridad](../
   </tr> 
   <tr> 
    <td> proxy<br /> </td> 
-   <td> Máscara o dirección del proxy (inverso) utilizado por esta subred para el acceso a la instancia. En este caso, se probará el encabezado “X-Forwarded-For” en lugar de este proxy.<br /> </td> 
+   <td> Máscara o dirección del proxy (inverso) utilizado por esta subred para acceder a la instancia. En este caso, se probará el encabezado "X-Forwarded-For" en lugar de este proxy.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> 127.0.0.1 <br /> </td> 
   </tr> 
@@ -2378,11 +2378,11 @@ Estos son los diferentes parámetros del **sms** nodo. Esta es la configuración
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> dataRetentionDays<br /> </td> 
-   <td> Número máximo de archivos de trabajo activos de días conservados por el conector de SMPP.<br /> </td> 
+   <td> Número máximo de archivos de trabajo diarios conservados por el conector SMPP.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 60<br /> </td> 
   </tr> 
@@ -2436,7 +2436,7 @@ Estos son los diferentes parámetros del **sms** nodo. Esta es la configuración
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen últimos. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2447,7 +2447,7 @@ Estos son los diferentes parámetros del **sms** nodo. Esta es la configuración
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
-   <td> tiempo de espera<br /> </td> 
+   <td> timeout<br /> </td> 
    <td> Tiempo de espera de comunicación con pasarela SMS.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> 300<br /> </td> 
@@ -2502,7 +2502,7 @@ Estos son los diferentes parámetros del **estadísticas** nodo. Esta es la conf
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -2524,7 +2524,7 @@ Estos son los diferentes parámetros del **estadísticas** nodo. Esta es la conf
   </tr> 
   <tr> 
    <td> puerto<br /> </td> 
-   <td> Puerto de escucha del servidor. Consulte esta <a href="../../installation/using/email-deliverability.md#definition-of-the-server-port">sección</a>.<br /> </td> 
+   <td> Puerto de escucha del servidor. Ver esto <a href="../../installation/using/email-deliverability.md#definition-of-the-server-port">sección</a>.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -2536,7 +2536,7 @@ Estos son los diferentes parámetros del **estadísticas** nodo. Esta es la conf
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen últimos. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2567,7 +2567,7 @@ Estos son los diferentes parámetros del **syslogd** nodo. Esta es la configurac
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -2607,7 +2607,7 @@ Estos son los diferentes parámetros del **syslogd** nodo. Esta es la configurac
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen últimos. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2638,13 +2638,13 @@ Estos son los diferentes parámetros del **tracking** nodo. Esta es la configura
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> blockRedirectForUnsignedTrackingLink<br /> </td> 
    <td> Deshabilite las direcciones URL con formato incorrecto generadas en versiones anteriores.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> ConsolidationPeriodSec<br /> </td> 
@@ -2686,7 +2686,7 @@ Estos son los diferentes parámetros del **tracking** nodo. Esta es la configura
    <td> logCountPerRequest<br /> </td> 
    <td> Número de registros solicitados por llamada al servidor de seguimiento remoto.<br /> </td> 
    <td> Largo<br /> </td> 
-   <td> 1000<br /> </td> 
+   <td> MIL<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
@@ -2720,7 +2720,7 @@ Estos son los diferentes parámetros del **tracking** nodo. Esta es la configura
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen últimos. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2769,7 +2769,7 @@ Estos son los diferentes parámetros del **trackinglogd** nodo. Esta es la confi
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -2821,7 +2821,7 @@ Estos son los diferentes parámetros del **trackinglogd** nodo. Esta es la confi
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen últimos. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2878,7 +2878,7 @@ Para obtener más información, consulte [sección](configuring-campaign-server.
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> controlPort<br /> </td> 
@@ -2930,7 +2930,7 @@ Para obtener más información, consulte [sección](configuring-campaign-server.
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen últimos. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 
@@ -2938,7 +2938,7 @@ Para obtener más información, consulte [sección](configuring-campaign-server.
    <td> startSoapRouterInModule<br /> </td> 
    <td> Inicie el enrutador SOAP en modo de módulo.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3040,13 +3040,13 @@ Estos son los diferentes parámetros del **web > jssp** nodo. Esta es la configu
    <td> collectGarbageAfterRequest<br /> </td> 
    <td> Activa el recolector de elementos no utilizados del contexto JavaScript después de cada consulta.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> verdadero<br /> </td> 
+   <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> timeToLive<br /> </td> 
    <td> Número máximo de páginas servidas por un contexto JavaScript. <br /> </td> 
    <td> Largo<br /> </td> 
-   <td> 1000<br /> </td> 
+   <td> MIL<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3071,9 +3071,9 @@ Para obtener más información, consulte [sección](../../installation/using/dep
  <tbody> 
   <tr> 
    <td> debugRelay<br /> </td> 
-   <td> Iniciar el módulo de retransmisión HTTP en el servidor web en modo de depuración.<br /> </td> 
+   <td> Inicie el módulo de retransmisión HTTP en el servidor web en modo de depuración.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> forbiddenCharsInAuthority<br /> </td> 
@@ -3095,18 +3095,18 @@ Para obtener más información, consulte [sección](../../installation/using/dep
   </tr> 
   <tr> 
    <td> startRelay<br /> </td> 
-   <td> Iniciar el módulo de retransmisión HTTP.<br /> </td> 
+   <td> Inicie el módulo de retransmisión HTTP.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> startRelayInModule<br /> </td> 
    <td> Inicie el módulo de retransmisión HTTP en el servidor web. <br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> verdadero<br /> </td> 
+   <td> true<br /> </td> 
   </tr> 
   <tr> 
-   <td> tiempo de espera<br /> </td> 
+   <td> timeout<br /> </td> 
    <td> Tiempo de espera antes de eliminar la URL prohibida.<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> '60'<br /> </td> 
@@ -3177,14 +3177,14 @@ Para obtener más información, consulte [Seguridad y transmisiones dinámicas d
    <td> <br /> </td> 
   </tr> 
   <tr> 
-   <td> tiempo de espera<br /> </td> 
+   <td> timeout<br /> </td> 
    <td> Tiempo máximo de ejecución (en segundos) de la solicitud que se retransmite.<br /> </td> 
    <td> Largo<br /> </td> 
    <td> <br /> </td> 
   </tr> 
   <tr> 
    <td> urlPath<br /> </td> 
-   <td> Máscara de direcciones URL para retransmitir (por ejemplo: “/nl*”, “*.jsp”).<br /> </td> 
+   <td> Máscara de direcciones URL para retransmitir (por ejemplo: "/nl*", "*.jsp").<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3318,7 +3318,7 @@ Para obtener más información, consulte [sección](../../installation/using/dep
   </tr> 
   <tr> 
    <td> cookieDomain<br /> </td> 
-   <td> Lista separada por comas de los dominios que se van a configurar para indicar explícitamente el dominio que se va a establecer como cookie. <br /> </td> 
+   <td> Lista de dominios separados por comas que se deben configurar para indicar explícitamente el dominio que se va a establecer como cookie. <br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3350,25 +3350,25 @@ Para obtener más información, consulte [sección](../../installation/using/dep
    <td> showSourceIP<br /> </td> 
    <td> Cuando se establece en false, el valor de sourceIP en la respuesta devuelta por r/test es una cadena vacía. <br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> verdadero<br /> </td> 
+   <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> startRedirection<br /> </td> 
-   <td> Iniciar el servicio de redirección.<br /> </td> 
+   <td> Inicie el servicio de redirección.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> verdadero<br /> </td> 
+   <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> startRedirectionInModule<br /> </td> 
    <td> Inicie el servicio de redirección en el modo de módulo.<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> verdadero<br /> </td> 
+   <td> true<br /> </td> 
   </tr> 
   <tr> 
    <td> trackWebVisitors<br /> </td> 
    <td> Seguimiento web: creación de registros para las páginas visitadas por usuarios desconocidos. <br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> trackingPassword<br /> </td> 
@@ -3406,7 +3406,7 @@ Para obtener más información, consulte [Seguimiento redundante](../../installa
    <td> 1<br /> </td> 
   </tr> 
   <tr> 
-   <td> URL<br /> </td> 
+   <td> url<br /> </td> 
    <td> URL del servidor de redirección adicional<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> <br /> </td> 
@@ -3469,7 +3469,7 @@ Para obtener más información, consulte [Flujos de trabajo y afinidades de alta
    <td> autoStart<br /> </td> 
    <td> Inicio automático<br /> </td> 
    <td> Booleano<br /> </td> 
-   <td> falso<br /> </td> 
+   <td> false<br /> </td> 
   </tr> 
   <tr> 
    <td> dataBasePoolPeriodSec<br /> </td> 
@@ -3509,7 +3509,7 @@ Para obtener más información, consulte [Flujos de trabajo y afinidades de alta
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen últimos. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
+   <td> Prioridad al inicio. Los módulos de prioridad baja se inician primero y se detienen por última vez. Por lo tanto, el módulo syslogd debe tener la prioridad 0.<br /> </td> 
    <td> Corto<br /> </td> 
    <td> 10<br /> </td> 
   </tr> 

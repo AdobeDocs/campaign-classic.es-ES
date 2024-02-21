@@ -7,9 +7,9 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability
 role: User
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '748'
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
+source-wordcount: '736'
 ht-degree: 100%
 
 ---
@@ -77,4 +77,4 @@ Al comenzar a enviar correos electrónicos en una nueva plataforma, puede utiliz
 
 Para evitar el envío de mensajes a direcciones no válidas, limitar las comunicaciones incorrectas y mejorar la reputación del remitente, Adobe recomienda implementar un mecanismo de inclusión doble para la confirmación posterior a la suscripción. Esto ayuda a garantizar la suscripción intencionada de un destinatario.
 
-Los detalles para la implementación de este mecanismo se describen en [esta sección](../../web/using/use-cases--web-forms.md).
+Los detalles para la implementación de este mecanismo se describen en [esta sección](../../web/using/use-cases-web-forms.md).

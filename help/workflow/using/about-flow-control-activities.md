@@ -5,7 +5,7 @@ description: Acerca de las actividades de control de flujo
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: 3810cbd0-159c-4161-b568-1f61dcea0300
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Las siguientes actividades son actividades de base de datos: su principal tarea 
 * **Wait**: activa la transición saliente después de un límite de tiempo determinado. Consulte [Esperar](wait.md).
 * **Time constraint**: permite pausar una tarea durante un periodo determinado. Consulte [Restricción de tiempo](time-constraint.md).
 * **Sub-workflow**: permite ejecutar otro flujo de trabajo. Consulte [Subworkflow](sub-workflow.md).
-* **Jumps**: permite implementar transiciones sin vínculos. Consulte [Saltos (puntos iniciales y finales)](jump--start-point-and-end-point-.md).
+* **Jumps**: permite implementar transiciones sin vínculos. Consulte [Saltos (puntos iniciales y finales)](jump-start-point-and-end-point.md).
 * **External signal**: permite activar la transición saliente después de recibir una señal externa. Consulte la sección [Señales externas](external-signal.md).
 * **Approval**: permite enviar un correo electrónico a un operador o a un grupo de operadores y esperar a que la aprobación continúe con la ejecución. Consulte la sección [Aprobación](approval.md).
 * **Alert**: permite enviar una advertencia a un operador o a un grupo de operadores. Consulte la sección [Alerta](alert.md).

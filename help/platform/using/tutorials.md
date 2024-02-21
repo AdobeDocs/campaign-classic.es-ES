@@ -9,9 +9,9 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: e612a4e7-f4ef-4db4-afab-5544b73430d3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '344'
 ht-degree: 100%
 
 ---
@@ -34,9 +34,9 @@ Comience a utilizar Adobe Campaign consultando las instrucciones paso a paso.
 Obtenga más información sobre Adobe Campaign consultando los siguientes ejemplos y casos de uso:
 
 * [Creación de un filtro en el formato de email de los suscriptores](../../platform/using/use-case.md#creating-a-filter-on-the-email-format-of-subscribers): Aprenda a crear un filtro para ordenar suscripciones de boletín basándose en el formato de email del destinatario.
-* [Cree un formulario de suscripción con doble incidencia](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in): Aprenda a enviar una solicitud de confirmación de suscripción para crear una incidencia doble para asegurarse de que el destinatario se haya suscrito de forma intencionada.
-* [Creación de una entrega de correo electrónico](../../web/using/use-case--creating-an-email-delivery.md): Aprenda a crear una entrega por correo electrónico con el Editor de contenido digital.
-* [Creación de resúmenes](../../web/using/use-cases--creating-overviews.md): Cree aplicaciones web de tipo de visión general para mostrar todas las aplicaciones web en su base de datos.
+* [Cree un formulario de suscripción con doble incidencia](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in): Aprenda a enviar una solicitud de confirmación de suscripción para crear una incidencia doble para asegurarse de que el destinatario se haya suscrito de forma intencionada.
+* [Creación de una entrega de correo electrónico](../../web/using/use-case-creating-an-email-delivery.md): Aprenda a crear una entrega por correo electrónico con el Editor de contenido digital.
+* [Creación de resúmenes](../../web/using/use-cases-creating-overviews.md): Cree aplicaciones web de tipo de visión general para mostrar todas las aplicaciones web en su base de datos.
 * [Casos de uso de flujo de trabajo](../../workflow/using/about-workflow-use-cases.md): Descubra a través de estos casos de uso diferentes formas de utilizar los flujos de trabajo.
 
 ## Autoayuda {#how-to-videos}

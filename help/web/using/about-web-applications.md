@@ -6,9 +6,9 @@ badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '697'
 ht-degree: 100%
 
 ---
@@ -50,12 +50,12 @@ Las aplicaciones web de Adobe Campaign proporcionan acceso a las siguientes func
 * Invitaciones o notificaciones por correo electrónico. Para obtener más información, consulte [esta página](publishing-a-web-form.md#delivering-a-form-via-email).
 * Personalización de mensajes de error y de fin. Para obtener más información, consulte [esta página](defining-web-forms-properties.md#setting-up-an-error-page).
 * Uso de imágenes, vídeos, vínculos de hipertexto, captcha, etc. Para obtener más información, consulte [esta página](editing-content.md).
-* Seguimiento de las respuestas en tiempo real. Para obtener más información, consulte [esta página](../../surveys/using/publish--track-and-use-collected-data.md#response-tracking).
+* Seguimiento de las respuestas en tiempo real. Para obtener más información, consulte [esta página](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking).
 
 El módulo opcional de creación **Survey** ofrece las siguientes funcionalidades adicionales:
 
-* Ampliación dinámica de la base de datos: creación de respuestas no incluidas en la plantilla de datos inicial. Para obtener más información, consulte [esta página](../../surveys/using/managing-answers.md#storing-collected-answers).
-* Generación de informes específicos. Para obtener más información, consulte [esta página](../../surveys/using/publish--track-and-use-collected-data.md#reports-on-surveys).
+* Extensión dinámica de la base de datos: creación de respuestas no incluidas en la plantilla de datos inicial. Para obtener más información, consulte [esta página](../../surveys/using/managing-answers.md#storing-collected-answers).
+* Generación de informes específicos. Para obtener más información, consulte [esta página](../../surveys/using/publish-track-and-use-collected-data.md#reports-on-surveys).
 
 En comparación con las aplicaciones web, las encuestas tienen una interfaz gráfica simplificada con un número reducido de controles de edición.
 

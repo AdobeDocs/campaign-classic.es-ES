@@ -6,7 +6,7 @@ badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
@@ -33,7 +33,7 @@ El diseño se aplica automáticamente en función de la configuración seleccion
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-Para obtener más información sobre esto, consulte el ejemplo de implementación completa: [Creación de contenido en el asistente de envíos](use-case--creating-content-management.md#creating-content-in-the-delivery-wizard).
+Para obtener más información sobre esto, consulte el ejemplo de implementación completa: [Creación de contenido en el asistente de envíos](use-case-creating-content-management.md#creating-content-in-the-delivery-wizard).
 
 ## Creación de una instancia de contenido {#creating-a-content-instance}
 

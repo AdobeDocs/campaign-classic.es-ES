@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: b29340a0-954d-41e4-b0a3-9d356e4dc753
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 100%
@@ -49,7 +49,7 @@ Descubra cómo [explorar sus datos](../../reporting/using/ac-cubes.md) con cubos
 
 ## ¿Se puede crear un informe a partir de respuestas a una encuesta en línea? {#can-i-create-a-report-from-answers-to-an-online-survey-}
 
-Lea [este caso de uso](../../surveys/using/use-case--displaying-report-on-answers-to-an-online-survey.md) para aprender a diseñar un informe que muestre las respuestas a una encuesta en línea.
+Lea [este caso de uso](../../surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md) para aprender a diseñar un informe que muestre las respuestas a una encuesta en línea.
 
 ## ¿Cómo se puede compartir el acceso a mi informe en la interfaz de Campaign? {#how-can-i-share-access-to-my-report}
 

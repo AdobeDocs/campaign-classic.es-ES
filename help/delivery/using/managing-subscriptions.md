@@ -7,8 +7,8 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Hay tres modos de suscripción/baja del servicio:
 
 >[!NOTE]
 >
->En [esta sección](../../web/using/use-cases--web-forms.md#create-a-subscription--form-with-double-opt-in) se adjunta una muestra para crear un formulario de suscripción con doble adhesión.
+>En [esta sección](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in) se adjunta una muestra para crear un formulario de suscripción con doble adhesión.
 
 ## Creación de un servicio informativo {#creating-an-information-service}
 

@@ -6,10 +6,10 @@ feature: Installation, Application Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 23%
+source-wordcount: '1271'
+ht-degree: 11%
 
 ---
 
@@ -63,7 +63,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   <tr> 
    <td> Entrega<br /> </td> 
    <td> Supervisa los envíos y los problemas que se puedan detectar cuando se envían mensajes. <a href="../../delivery/using/about-delivery-monitoring.md">Más información</a><br /> </td> 
-   <td> Todo</td> 
+   <td> Todas</td> 
   </tr> 
   <tr> 
    <td> Campañas de marketing (Campaign)<br /> </td> 
@@ -71,12 +71,12 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
    <td> Marketing</td>
   </tr> 
   <tr> 
-   <td> Recursos de Marketing (MRM)<br /> </td> 
+   <td> Recursos de marketing (MRM)<br /> </td> 
    <td> Controla las acciones de marketing de forma cooperativa mediante la administración y el seguimiento de las tareas, los presupuestos y los recursos de marketing. <a href="../../mrm/using/about-marketing-resource-management.md">Más información</a> <br /> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
-   <td> Motor de ofertas (interacción)<br /> </td> 
+   <td> Motor de oferta (interacción)<br /> </td> 
    <td> Responde en tiempo real durante una interacción con un contacto determinado (un cliente o destinatario) mediante la realización de una o varias ofertas adaptadas.  Opcional. <a href="../../interaction/using/interaction-and-offer-management.md#packages-configuration">Más información</a> <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
@@ -99,7 +99,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   <tr> 
    <td> Redes sociales (Marketing social) <br /> </td> 
    <td> Sincroniza Adobe Campaign con X (anteriormente conocido como Twitter) y Facebook. <a href="../../social/using/about-social-marketing.md">Más información</a> <br /> </td> 
-   <td> Todo</td> 
+   <td> Todas</td> 
   </tr> 
   <tr> 
    <td> Control de mensajes transaccionales (Centro de mensajes - Control)<br /> </td> 
@@ -127,7 +127,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
    <td> Todo<br /> </td> 
   </tr> 
    <tr> 
-   <td> Canal del teléfono<br /> </td> 
+   <td> Canal de teléfono<br /> </td> 
    <td> Realiza envíos a través del canal telefónico con Adobe Campaign. Se utiliza para el centro de llamadas. Opcional. <a href="../../delivery/using/communication-channels.md">Más información</a> <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
@@ -158,7 +158,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Acceso a datos externos (acceso de datos federado)<br /> </td> 
-   <td> Proporciona la opción Acceso de datos federados (FDA) para procesar la información almacenada en una o más bases de datos externas, de modo que pueda acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.  Opcional. <a href="../../workflow/using/accessing-an-external-database--fda-.md">Más información</a> <br /> </td> 
+   <td> Proporciona la opción Acceso de datos federados (FDA) para procesar la información almacenada en una o más bases de datos externas, de modo que pueda acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.  Opcional. <a href="../../workflow/using/accessing-an-external-database-fda.md">Más información</a> <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
   <tr> 
@@ -169,7 +169,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   <tr> 
    <td> Monitorización de la capacidad de entrega (capacidad de entrega por correo electrónico)<br /> </td> 
    <td> Mide el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rebotar o marcadas como correo no deseado. Opcional. <a href="../../delivery/using/about-deliverability.md">Más información</a> <br /> </td> 
-   <td> Todo </td> 
+   <td> Todas </td> 
   </tr> 
   <tr> 
    <td> Administración de cupones<br /> </td> 
@@ -214,7 +214,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   <tr> 
    <td> Reglamento de protección de datos de privacidad<br /> </td> 
    <td> Contiene funcionalidad adicional para ayudarle con el cumplimiento de la privacidad en Campaign Classic. <a href="https://helpx.adobe.com/es/campaign/kb/acc-privacy.html">Más información</a> <br /> </td> 
-   <td> Todo</td> 
+   <td> Todas</td> 
   </tr> 
   <tr> 
    <td> Transfer to Mid-Sourcing <br /> </td> 
@@ -229,7 +229,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   <tr> 
    <td> Compatibilidad con AMP<br /> </td> 
    <td> Permite utilizar la nueva AMP interactiva para el formato de correo electrónico y enviar correos electrónicos dinámicos. Opcional. <a href="../../delivery/using/defining-interactive-content.md">Más información</a> <br /> </td> 
-   <td> Todo </td> 
+   <td> Todas </td> 
   </tr> 
   <tr> 
    <td> Conector ACS (obsoleto)<br /> </td> 

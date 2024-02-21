@@ -5,9 +5,9 @@ description: Descubra más información sobre los datos de objetivos en un flujo
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Query Editor, Data Management, Workflows
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1926'
 ht-degree: 100%
 
 ---
@@ -66,7 +66,7 @@ En las actividades de tipo **[!UICONTROL Union]** o **[!UICONTROL Intersection]*
 
 ### Reconciliación con los datos adicionales {#reconciliation-with-additional-data}
 
-Durante las fases de conciliación de datos (**[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc. actividades), puede seleccionar las columnas que se utilizarán para la reconciliación de datos en las columnas adicionales. Para ello, configure una reconciliación sobre una selección de columnas y especifique el conjunto principal. A continuación, seleccione las columnas en la columna inferior de la ventana, como se muestra en el siguiente ejemplo:
+Durante las fases de reconciliación de datos (**[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc. actividades), puede seleccionar las columnas que se utilizarán para la reconciliación de datos en las columnas adicionales. Para ello, configure una reconciliación sobre una selección de columnas y especifique el conjunto principal. A continuación, seleccione las columnas en la columna inferior de la ventana, como se muestra en el siguiente ejemplo:
 
 ![](assets/select-column-and-join.png)
 
@@ -198,7 +198,7 @@ A continuación, es preciso añadir nuevos subconjuntos:
 
    >[!NOTE]
    >
-   >Si ha adquirido la opción **Federated Data Access**, puede crear subconjuntos basados en la información de una base externa. Para ello, seleccione el esquema de la tabla externa en el campo **[!UICONTROL Targeting dimension]**. Para obtener más información, consulte [Acceso a una base de datos externa (FDA)](accessing-an-external-database--fda-.md).
+   >Si ha adquirido la opción **Federated Data Access**, puede crear subconjuntos basados en la información de una base externa. Para ello, seleccione el esquema de la tabla externa en el campo **[!UICONTROL Targeting dimension]**. Para obtener más información, consulte [Acceso a una base de datos externa (FDA)](accessing-an-external-database-fda.md).
 
 Una vez creados los subconjuntos, la actividad de división muestra de forma predeterminada tantas transiciones de salida como subconjuntos:
 
@@ -240,8 +240,8 @@ En Adobe Campaign, la gestión de datos combina un conjunto de actividades para 
 
 Para implementar estas operaciones, Adobe Campaign ofrece:
 
-* Actividades de recopilación de datos: [File transfer](file-transfer.md), [Data loading (file)](data-loading--file-.md), [Data loading (RDBMS)](data-loading--rdbms-.md), [Update data](update-data.md). Este primer paso de recopilación de datos prepara los datos para permitir que se procesen en otras actividades. Es necesario monitorizar varios parámetros para garantizar que el flujo de trabajo se ejecuta correctamente y proporciona los resultados esperados. Por ejemplo, al importar datos, la clave principal (Pkey) de estos datos debe ser exclusiva para cada registro.
-* Actividades de establecimiento de objetivos enriquecidas con opciones de administración de datos: [Query](query.md), [Union](union.md), [Intersection](intersection.md), [Split](split.md). Esto permite configurar una unión o una intersección entre los datos de distintas dimensiones de destino, siempre y cuando sea posible la comparación de los mismos.
+* Actividades de recopilación de datos: [File transfer](file-transfer.md), [Data loading (file)](data-loading-file.md), [Data loading (RDBMS)](data-loading-rdbms.md), [Update data](update-data.md). Este primer paso de recopilación de datos prepara los datos para permitir que se procesen en otras actividades. Es necesario monitorizar varios parámetros para garantizar que el flujo de trabajo se ejecuta correctamente y proporciona los resultados esperados. Por ejemplo, al importar datos, la clave principal (Pkey) de estos datos debe ser exclusiva para cada registro.
+* Actividades de establecimiento de objetivos enriquecidas con opciones de administración de datos: [Query](query.md), [Union](union.md), [Intersection](intersection.md), [Split](split.md). Esto permite configurar una unión o una intersección entre los datos de distintas dimensiones de destino, siempre y cuando sea posible la reconciliación de los mismos.
 * Actividades de transformación de datos: [Enrichment](enrichment.md), [Change dimension](change-dimension.md).
 
 >[!CAUTION]

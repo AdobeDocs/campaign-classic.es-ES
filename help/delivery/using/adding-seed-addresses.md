@@ -7,8 +7,8 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Seed Address
 role: User
 exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Hay tres modos de inserción posibles:
 
    Para ello, haga clic en el enlace **[!UICONTROL Edit the dynamic condition...]** e introduzca los parámetros de selección de las direcciones semilla. Por ejemplo, puede incluir todas las direcciones semilla que contenga una carpeta específica o las pertenecientes a un departamento específico de su organización.
 
-   En esta sección se presenta un ejemplo de esto: [Caso de uso: selección de direcciones semilla en los criterios](use-case--selecting-seed-addresses-on-criteria.md).
+   En esta sección se presenta un ejemplo de esto: [Caso de uso: selección de direcciones semilla en los criterios](use-case-selecting-seed-addresses-on-criteria.md).
 
 >[!NOTE]
 >

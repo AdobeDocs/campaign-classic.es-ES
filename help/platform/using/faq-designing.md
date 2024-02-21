@@ -8,7 +8,7 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 48926e87-03d9-4aa0-89cb-e3fb4f99c1f5
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Descubra cómo importar un HTML existente para crear y enviar correos electróni
 
 ## ¿Cómo se utiliza el DCE de Campaign para crear contenido de correo electrónico? {#how-to-use-campaign-dce-to-create-an-email-content-}
 
-[Diseñar un mensaje de correo electrónico con el editor de contenido digital de Campaign](../../web/using/use-case--creating-an-email-delivery.md): aprenda a utilizar el DCE de Campaign para diseñar un correo electrónico a través de un ejemplo.
+[Diseñar un mensaje de correo electrónico con el editor de contenido digital de Campaign](../../web/using/use-case-creating-an-email-delivery.md): aprenda a utilizar el DCE de Campaign para diseñar un correo electrónico a través de un ejemplo.
 
 ## ¿Cómo puedo crear una newsletter basada en suscripción en Campaign? {#how-can-i-create-a-subscription-based-newsletter-in-campaign-}
 
