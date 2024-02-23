@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
-source-wordcount: '1519'
-ht-degree: 100%
+source-git-commit: f3dc9d56c693f334923d627a28a9e45b92b1c0c3
+workflow-type: tm+mt
+source-wordcount: '1558'
+ht-degree: 99%
 
 ---
 
@@ -48,13 +48,13 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
  <td>Marketing social con Facebook</td>
  <td>El marketing social con Facebook ya no se utiliza. Puede usar la integración de X (anteriormente conocido como Twitter) para publicar en medios sociales o trabajar con Adobe para crear un canal personalizado.
  <p></p>
-  <p>Fecha de eliminación del destinatario: finales de 2023</p>
+  <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>
 <tr>
  <td>Conector ACS</td>
  <td>El conector ACS (oferta Prime) ya no se utiliza. Puede utilizar las funcionalidades de exportación e importación de Campaign para extraer e insertar datos en ambos productos.<p></p>
-  <p>Fecha de eliminación del destinatario: finales de 2023</p>
+  <!--p>Target removal date: End of 2023</p-->
   </td>
 </tr>
  </tbody> 
@@ -119,7 +119,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es">nueva versión en línea</a>.</td>
   </tr> 
   <tr> 
-   <td>Orquestación de campañas  - Marketing predictivo</td>
+   <td>Campaign Orchestration: marketing predictivo</td>
    <td>A partir de la versión 18.10 de Campaign, las funcionalidades de marketing predictivas ya no están disponibles.</td>
   </tr> 
   <tr> 
