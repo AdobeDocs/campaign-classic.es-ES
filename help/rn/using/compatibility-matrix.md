@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 915b550c28c8d7dd9c29ce5142a4a835a39019b4
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 96%
+source-wordcount: '764'
+ht-degree: 92%
 
 ---
 
@@ -41,9 +41,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <tr> 
 <td>CentOs</td>
 <td>
-<p>8.x (solo para entornos híbridos)</p>
 <p>7.x</p>
-<p><strong>Importante:</strong> Si está utilizando RHEL, debe estar dispuesto a deshabilitar SELinux o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no está causando problemas con las operaciones de Campaign.</p>
 </td>
 </tr>
 <tr>
@@ -58,7 +56,6 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <td>
 <p>8.x</p>
 <p>7.x</p>
-<p><strong>Importante:</strong> Si está utilizando RHEL, debe estar dispuesto a deshabilitar SELinux o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no está causando problemas con las operaciones de Campaign.</p>
 </td>
 </tr>
 <tr>
@@ -70,6 +67,10 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 </tr>
 </tbody>
 </table>
+
+>[!NOTE]
+>
+>Si utiliza RHEL, debe estar dispuesto a deshabilitar SELinux o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no esté causando problemas con las operaciones de Campaign.
 
 ## Servidores web{#WebServers}
 
