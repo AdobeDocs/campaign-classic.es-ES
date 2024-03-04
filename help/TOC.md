@@ -6,9 +6,9 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: f3dc9d56c693f334923d627a28a9e45b92b1c0c3
+source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
 workflow-type: tm+mt
-source-wordcount: '2536'
+source-wordcount: '2538'
 ht-degree: 99%
 
 ---
@@ -740,8 +740,8 @@ ht-degree: 99%
       + [Acerca del modelo de datos](configuration/using/about-data-model.md)
       + [Descripción del modelo de datos](configuration/using/data-model-description.md)
       + [Prácticas recomendadas](configuration/using/data-model-best-practices.md)
-   + Referencia de esquema {#schema-reference}
-      + [Acerca de la referencia de esquema](configuration/using/about-schema-reference.md)
+   + Trabajo con esquemas {#schema-reference}
+      + [Introducción a los esquemas](configuration/using/about-schema-reference.md)
       + [Estructura del esquema](configuration/using/schema-structure.md)
       + [Asignación de base de datos](configuration/using/database-mapping.md)
       + Elementos y atributos {#elements-attributes}

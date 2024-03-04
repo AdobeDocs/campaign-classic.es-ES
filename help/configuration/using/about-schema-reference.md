@@ -1,27 +1,27 @@
 ---
 product: campaign
-title: Acerca de la referencia de esquema en Adobe Campaign Classic
-description: Aprenda a configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign Classic
+title: Introducción a los esquemas en Adobe Campaign
+description: Aprenda a trabajar con esquemas y a ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 15%
+source-wordcount: '376'
+ht-degree: 2%
 
 ---
 
-# Acerca de la referencia de esquema{#about-schema-reference}
+# Introducción a los esquemas {#about-schema-reference}
+
+## Qué es un esquema {#what-is-a-schema}
 
 En este capítulo se describe cómo configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign.
 
-Para comprender mejor las tablas integradas de Campaign y su interacción, consulte la [modelo de datos de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/about-data-model.html?lang=es).
+Para comprender mejor las tablas integradas de Campaign y su interacción, consulte la [modelo de datos de Campaign Classic](about-data-model.md).
 
-La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada **esquema**.
-
-Un esquema es un documento XML asociado a una tabla de una base de datos. Define la estructura de datos y describe la definición SQL de la tabla:
+En Adobe Campaign, la estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. A **esquema** es un documento XML asociado a una tabla de la base de datos. Define la estructura de datos y describe la definición SQL de la tabla:
 
 * Nombre de la tabla
 * Campos

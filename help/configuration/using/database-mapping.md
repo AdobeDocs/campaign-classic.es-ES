@@ -6,18 +6,18 @@ feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1984'
 ht-degree: 2%
 
 ---
 
 # Asignación de base de datos{#database-mapping}
 
-La asignación SQL del esquema de ejemplo proporciona el siguiente documento XML:
+La asignación SQL del esquema de ejemplo descrito [en esta página](schema-structure.md) genera el siguiente documento XML:
 
-```
+```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">
   <enumeration basetype="byte" name="gender">    
     <value label="Not specified" name="unknown" value="0"/>    
@@ -38,27 +38,27 @@ La asignación SQL del esquema de ejemplo proporciona el siguiente documento XML
 
 ## Descripción {#description}
 
-El elemento raíz del esquema ya no es **`<srcschema>`**, pero **`<schema>`**.
+El elemento raíz del esquema ha cambiado a **`<srcschema>`** hasta **`<schema>`**.
 
-Esto nos lleva a otro tipo de documento, que se genera automáticamente a partir del esquema de origen, simplemente denominado esquema. La aplicación Adobe Campaign utilizará este esquema.
+Este otro tipo de documento se genera automáticamente a partir del esquema de origen y se denomina simplemente esquema.
 
 Los nombres SQL se determinan automáticamente en función del nombre y el tipo del elemento.
 
 Las reglas de nomenclatura SQL son las siguientes:
 
-* tabla: concatenación del área de nombres y el nombre del esquema.
+* **tabla**: concatenación del área de nombres y el nombre del esquema
 
   En este ejemplo, el nombre de la tabla se introduce mediante el elemento principal del esquema en **sqltable** atributo:
 
-  ```
+  ```sql
   <element name="recipient" sqltable="CusRecipient">
   ```
 
-* field: nombre del elemento precedido por un prefijo definido según el tipo (&quot;i&quot; para entero, &quot;d&quot; para doble, &quot;s&quot; para cadena, &quot;ts&quot; para fechas, etc.)
+* **campo**: nombre del elemento precedido por un prefijo definido según el tipo: &quot;i&quot; para entero, &quot;d&quot; para doble, &quot;s&quot; para cadena, &quot;ts&quot; para fechas, etc.
 
   El nombre del campo se introduce mediante la variable **sqlname** para cada uno de los **`<attribute>`** y **`<element>`**:
 
-  ```
+  ```sql
   <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
   ```
 
@@ -68,7 +68,7 @@ Las reglas de nomenclatura SQL son las siguientes:
 
 La secuencia de comandos SQL para crear la tabla generada a partir del esquema ampliado es la siguiente:
 
-```
+```sql
 CREATE TABLE CusRecipient(
   iGender NUMERIC(3) NOT NULL Default 0,   
   sCity VARCHAR(50),   
@@ -78,12 +78,12 @@ CREATE TABLE CusRecipient(
 
 Las restricciones de campo SQL son las siguientes:
 
-* no hay valores nulos en los campos numérico y de fecha,
-* los campos numéricos se inicializan en 0.
+* no hay valores nulos en los campos numérico y de fecha
+* los campos numéricos se inicializan en 0
 
 ## Campos XML {#xml-fields}
 
-De forma predeterminada, cualquier **`<attribute>`** y **`<element>`** se asigna a un campo SQL de la tabla de esquema de datos. Sin embargo, puede hacer referencia a este campo en XML en lugar de en SQL, lo que significa que los datos se almacenan en un campo memo (&quot;mData&quot;) de la tabla que contiene los valores de todos los campos XML. El almacenamiento de estos datos es un documento XML que observa la estructura del esquema.
+De forma predeterminada, cualquier  **`<attribute>`** y **`<element>`** El elemento con tipo se asigna a un campo SQL de la tabla de esquema de datos. Sin embargo, puede hacer referencia a este campo en XML en lugar de en SQL, lo que significa que los datos se almacenan en un campo memo (&quot;mData&quot;) de la tabla que contiene los valores de todos los campos XML. El almacenamiento de estos datos es un documento XML que observa la estructura del esquema.
 
 Para rellenar un campo en XML, debe añadir la variable **xml** con el valor &quot;true&quot; al elemento correspondiente.
 
@@ -91,21 +91,19 @@ Para rellenar un campo en XML, debe añadir la variable **xml** con el valor &qu
 
 * Campo de comentarios multilínea:
 
-  ```
+  ```sql
   <element name="comment" xml="true" type="memo" label="Comment"/>
   ```
 
 * Descripción de los datos en formato HTML:
 
-  ```
+  ```sql
   <element name="description" xml="true" type="html" label="Description"/>
   ```
 
   El tipo &quot;html&quot; permite almacenar el contenido del HTML en una etiqueta CDATA y mostrar una comprobación especial de edición del HTML en la interfaz de cliente de Adobe Campaign.
 
-El uso de campos XML permite añadir campos sin necesidad de modificar la estructura física de la base de datos. Otra ventaja es que utiliza menos recursos (tamaño asignado a campos SQL, límite en el número de campos por tabla, etc.).
-
-La principal desventaja es que es imposible indexar o filtrar un campo XML.
+Utilice campos XML para añadir nuevos campos sin modificar la estructura física de la base de datos. Otra ventaja es que utiliza menos recursos (tamaño asignado a campos SQL, límite en el número de campos por tabla, etc.). Sin embargo, tenga en cuenta que no puede indexar ni filtrar un campo XML.
 
 ## Campos indexados {#indexed-fields}
 
@@ -113,7 +111,7 @@ Los índices permiten optimizar el rendimiento de las consultas SQL utilizadas e
 
 Se declara un índice a partir del elemento principal del esquema de datos.
 
-```
+```sql
 <dbindex name="name_of_index" unique="true/false">
   <keyfield xpath="xpath_of_field1"/>
   <keyfield xpath="xpath_of_field2"/>
@@ -123,23 +121,21 @@ Se declara un índice a partir del elemento principal del esquema de datos.
 
 Los índices obedecen las siguientes reglas:
 
-* Un índice puede hacer referencia a uno o varios campos de la tabla.
-* Un índice puede ser único (para evitar duplicados) en todos los campos si la variable **único** attribute contiene el valor &quot;true&quot;.
-* El nombre SQL del índice se determina a partir del nombre SQL de la tabla y el nombre del índice.
+* Un índice puede hacer referencia a uno o varios campos de la tabla
+* Un índice puede ser único (para evitar duplicados) en todos los campos si la variable **único** El atributo contiene el valor &quot;true&quot;
+* El nombre SQL del índice se determina a partir del nombre SQL de la tabla y el nombre del índice
 
 >[!NOTE]
 >
->Como estándar, los índices son los primeros elementos declarados a partir del elemento principal del esquema.
-
->[!NOTE]
+>* Como estándar, los índices son los primeros elementos declarados a partir del elemento principal del esquema.
 >
->Los índices se crean automáticamente durante la asignación de tablas (estándar o FDA).
+>* Los índices se crean automáticamente durante la asignación de tablas (estándar o FDA).
 
 **Ejemplo**:
 
 * Añadir un índice a la dirección de correo electrónico y a la ciudad:
 
-  ```
+  ```sql
   <srcSchema name="recipient" namespace="cus">
     <element name="recipient">
       <dbindex name="email">
@@ -157,7 +153,7 @@ Los índices obedecen las siguientes reglas:
 
 * Añadir un índice único al campo de nombre &quot;id&quot;:
 
-  ```
+  ```sql
   <srcSchema name="recipient" namespace="cus">
     <element name="recipient">
       <dbindex name="id" unique="true">
@@ -180,7 +176,7 @@ Una tabla debe tener al menos una clave para identificar un registro de la tabla
 
 Se declara una clave a partir del elemento principal del esquema de datos.
 
-```
+```sql
 <key name="name_of_key">
   <keyfield xpath="xpath_of_field1"/>
   <keyfield xpath="xpath_of_field2"/>
@@ -188,25 +184,23 @@ Se declara una clave a partir del elemento principal del esquema de datos.
 </key>
 ```
 
-Las claves obedecen las siguientes reglas:
+Las siguientes reglas se aplican a las claves:
 
-* Una clave puede hacer referencia a uno o varios campos de la tabla.
-* Una clave se conoce como &#39;primary&#39; (o &#39;priority&#39;) cuando es la primera del esquema que se rellena o si contiene la variable **interno** con el valor &quot;true&quot;.
-* Se declara implícitamente un índice único para cada definición de clave. La creación de un índice en la clave se puede evitar añadiendo la variable **noDbIndex** con el valor &quot;true&quot;.
-
->[!NOTE]
->
->Como estándar, las claves son los elementos declarados a partir del elemento principal del esquema después de definir los índices.
+* Una clave puede hacer referencia a uno o varios campos de la tabla
+* Una clave se conoce como &#39;primary&#39; (o &#39;priority&#39;) cuando es la primera del esquema que se rellena o si contiene la variable **interno** con el valor &quot;true&quot;
+* Se declara implícitamente un índice único para cada definición de clave. La creación de un índice en la clave se puede evitar añadiendo la variable **noDbIndex** con el valor &quot;true&quot;
 
 >[!NOTE]
 >
->Las claves se crean durante la asignación de tablas (estándar o FDA), Adobe Campaign encuentra índices únicos.
+>* Como estándar, las claves son los elementos declarados a partir del elemento principal del esquema después de definir los índices.
+>
+>* Las claves se crean durante la asignación de tablas (estándar o FDA), Adobe Campaign encuentra índices únicos.
 
 **Ejemplo**:
 
 * Añadir una clave a la dirección de correo electrónico y a la ciudad:
 
-  ```
+  ```sql
   <srcSchema name="recipient" namespace="cus">
     <element name="recipient">
       <key name="email">
@@ -224,7 +218,7 @@ Las claves obedecen las siguientes reglas:
 
   El esquema generado:
 
-  ```
+  ```sql
   <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
     <element name="recipient" sqltable="CusRecipient">    
      <dbindex name="email" unique="true">      
@@ -247,7 +241,7 @@ Las claves obedecen las siguientes reglas:
 
 * Adición de una clave principal o interna al campo de nombre &quot;id&quot;:
 
-  ```
+  ```sql
   <srcSchema name="recipient" namespace="cus">
     <element name="recipient">
       <key name="id" internal="true">
@@ -266,7 +260,7 @@ Las claves obedecen las siguientes reglas:
 
   El esquema generado:
 
-  ```
+  ```sql
   <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
     <element name="recipient" sqltable="CusRecipient">    
       <key name="email">      
@@ -299,7 +293,7 @@ Desde ACC 18.10, **XtkNewId** ya no es el valor predeterminado para la secuencia
 
 >[!IMPORTANT]
 >
->Al crear un nuevo esquema o durante una ampliación de esquema, se debe mantener el mismo valor de secuencia de clave principal (@pkSequence) para todo el conjunto.
+>Al crear un nuevo esquema o durante una extensión de esquema, se debe mantener el mismo valor de secuencia de clave principal (@pkSequence) para todo el conjunto.
 
 >[!NOTE]
 >
@@ -311,7 +305,7 @@ Para declarar una clave única, rellene el **autopk** atributo (con valor &quot;
 
 Declarar una clave incremental en el esquema de origen:
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient" autopk="true">
   ...
@@ -321,7 +315,7 @@ Declarar una clave incremental en el esquema de origen:
 
 El esquema generado:
 
-```
+```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
   <element name="recipient" autopk="true" pkSequence="XtkNewId" sqltable="CusRecipient"> 
     <dbindex name="id" unique="true">
@@ -370,7 +364,7 @@ Para obtener más información sobre las tablas de FDA, consulte [Acceso a una b
 
 Se debe declarar un vínculo en el esquema que contenga la clave externa de la tabla vinculada a través del elemento principal:
 
-```
+```sql
 <element name="name_of_link" type="link" target="key_of_destination_schema">
   <join xpath-dst="xpath_of_field1_destination_table" xpath-src="xpath_of_field1_source_table"/>
   <join xpath-dst="xpath_of_field2_destination_table" xpath-src="xpath_of_field2_source_table"/>
@@ -412,7 +406,7 @@ Los vínculos obedecen las siguientes reglas:
 
 Relación 1-N con la tabla de esquema &quot;cus:company&quot;:
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     ...
@@ -423,7 +417,7 @@ Relación 1-N con la tabla de esquema &quot;cus:company&quot;:
 
 El esquema generado:
 
-```
+```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
   <element name="recipient" sqltable="CusRecipient"> 
     <dbindex name="companyId">      
@@ -444,7 +438,7 @@ La clave externa se agrega automáticamente en un elemento que utiliza las misma
 
 Esquema extendido del destinatario (&quot;cus:company&quot;):
 
-```
+```sql
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
   <element name="company" sqltable="CusCompany" autopk="true"> 
     <dbindex name="id" unique="true">     
@@ -475,7 +469,7 @@ Se ha añadido un vínculo inverso a la tabla &quot;cus:recipient&quot; con los 
 
 En este ejemplo, declaramos un vínculo hacia la tabla de esquema &quot;nms:address&quot;. La unión es una unión externa y se rellena explícitamente con la dirección de correo electrónico del destinatario y el campo &quot;@address&quot; de la tabla vinculada (&quot;nms:address&quot;).
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient"> 
     ...
@@ -490,7 +484,7 @@ En este ejemplo, declaramos un vínculo hacia la tabla de esquema &quot;nms:addr
 
 Relación 1-1 con la tabla de esquema &quot;cus:extension&quot;:
 
-```
+```sql
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
 ```
 
@@ -498,7 +492,7 @@ Relación 1-1 con la tabla de esquema &quot;cus:extension&quot;:
 
 Vínculo a una carpeta (esquema &quot;xtk:folder&quot;):
 
-```
+```sql
 <element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
 ```
 
@@ -508,7 +502,7 @@ El valor predeterminado devuelve el identificador del primer archivo de tipo de 
 
 En este ejemplo, deseamos crear una clave en un vínculo (&quot;empresa&quot; a &quot;cus:empresa&quot; esquema) con la variable **xlink** y un campo de la tabla (&quot;correo electrónico&quot;):
 
-```
+```sql
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <key name="companyEmail"> 
@@ -524,7 +518,7 @@ En este ejemplo, deseamos crear una clave en un vínculo (&quot;empresa&quot; a 
 
 El esquema generado:
 
-```
+```sql
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
   <element name="recipient" sqltable="CusRecipient"> 
     <dbindex name="companyId">      
