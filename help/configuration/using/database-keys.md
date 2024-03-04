@@ -5,7 +5,7 @@ description: Comprensión de la administración de claves en esquemas de datos
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
-source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
+source-git-commit: 4a29c189e1e438bbb90067ece63ced0196c618ec
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 6%
@@ -28,7 +28,6 @@ Se declara una clave a partir del elemento principal del esquema de datos.
 ```
 
 Una clave se conoce como &quot;clave principal&quot; cuando es la primera del esquema que se rellena o si contiene la variable `internal` atributo establecido en &quot;true&quot;.
-
 
 Las siguientes reglas se aplican a las claves:
 
