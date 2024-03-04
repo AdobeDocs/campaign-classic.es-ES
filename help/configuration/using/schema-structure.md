@@ -9,9 +9,9 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: bd1007ffcfa58ee60fdafa424c7827e267845679
+source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1517'
 ht-degree: 11%
 
 ---
@@ -485,3 +485,14 @@ Resultado de la cadena calculada para un destinatario: **Doe John (john.doe@aol.
 >[!NOTE]
 >
 >Si el esquema no contiene una Compute string, se rellena una Compute string de forma predeterminada con los valores de la clave principal del esquema.
+
+
+## Más información
+
+Examine los siguientes vínculos para obtener más información:
+
+* [Introducción a los esquemas](about-schema-reference.md)
+* [Asignación de base de datos](database-mapping.md)
+* [Administración de vínculos](database-links.md)
+* [Administración de claves](database-keys.md)
+* [Modelo de datos de Campaign](about-data-model.md)

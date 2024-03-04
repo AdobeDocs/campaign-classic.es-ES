@@ -5,10 +5,10 @@ description: Comprensión de la administración de claves en esquemas de datos
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
-source-git-commit: f03e72d4ecd17446264adf74603aefca95f99d41
+source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 5%
+source-wordcount: '625'
+ht-degree: 6%
 
 ---
 
@@ -180,3 +180,13 @@ Además de la definición de la clave y su índice, se ha añadido un campo num�
 >
 >Al crear la tabla, se inserta automáticamente un registro con una clave principal establecida en 0. Este registro se utiliza para evitar las uniones externas, que no son efectivas en las tablas de volumen. De forma predeterminada, todas las claves externas se inicializan con el valor 0, de modo que siempre se pueda devolver un resultado en la unión cuando el elemento de datos no se rellena.
 
+
+## Más información
+
+Examine los siguientes vínculos para obtener más información:
+
+* [Introducción a los esquemas](about-schema-reference.md)
+* [Estructura del esquema](schema-structure.md)
+* [Asignación de base de datos](database-mapping.md)
+* [Administración de vínculos](database-links.md)
+* [Modelo de datos de Campaign](about-data-model.md)

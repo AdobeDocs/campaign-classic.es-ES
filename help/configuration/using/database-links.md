@@ -5,10 +5,10 @@ description: Asignación de base de datos
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
-source-git-commit: f03e72d4ecd17446264adf74603aefca95f99d41
+source-git-commit: 46220dcfdddb8f6f1e7026cafc503aaeecb7e0fa
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 1%
+source-wordcount: '939'
+ht-degree: 2%
 
 ---
 
@@ -222,3 +222,13 @@ El esquema generado:
 ```
 
 La definición de la clave del nombre &quot;companyEmail&quot; se amplió con la clave externa del vínculo &quot;company&quot;. Esta clave genera un índice único en ambos campos.
+
+## Más información
+
+Examine los siguientes vínculos para obtener más información:
+
+* [Introducción a los esquemas](about-schema-reference.md)
+* [Estructura del esquema](schema-structure.md)
+* [Asignación de base de datos](database-mapping.md)
+* [Administración de claves](database-keys.md)
+* [Modelo de datos de Campaign](about-data-model.md)
