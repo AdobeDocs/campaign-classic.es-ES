@@ -6,10 +6,10 @@ badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 8bb839bd0118010ac8e3e4bde88f6f3972786ed0
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 100%
+source-wordcount: '1287'
+ht-degree: 72%
 
 ---
 
@@ -81,7 +81,7 @@ Una vez que se ha creado, configurado y publicado el formulario, se puede enviar
 
 Existen tres fases en el ciclo de vida de un formulario:
 
-1. **Formulario que se está editando**
+1. **Edición en curso**
 
    Esta es la fase inicial de diseño: Cuando se crea un nuevo formulario, se encuentra en fase de edición. El acceso al formulario, solo para fines de prueba, requiere el uso del parámetro **[!UICONTROL __uuid]** en su dirección URL. Se puede acceder a esta dirección URL desde la subpestaña **[!UICONTROL Preview]**. Consulte [Parámetros de URL del formulario](defining-web-forms-properties.md#form-url-parameters).
 
@@ -89,21 +89,33 @@ Existen tres fases en el ciclo de vida de un formulario:
    >
    >Siempre que se edite el formulario, su dirección URL de acceso es una dirección URL especial.
 
-1. **Formulario en línea**
+1. **Publicación pendiente**
 
-   Cuando se haya completado la fase de diseño, se puede enviar el formulario. En primer lugar, debe publicarse. Para obtener más información, consulte [Publicación de un formulario](#publishing-a-form).
+   En algunos casos (como cuando [importación de un formulario a través de un paquete](#import-web-packages)), un formulario web puede tener **[!UICONTROL Pending publication]** estado hasta que esté activo.
+
+   >[!NOTE]
+   >
+   >Para aplicaciones web técnicas (disponibles a través de la variable **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Web applications]** menú ), un formulario con la variable **[!UICONTROL Pending publication]** el estado es automáticamente [publicado](#publishing-a-form) y obtiene el **[!UICONTROL Online]** estado.
+
+1. **En línea**
+
+   Cuando se haya completado la fase de diseño, se puede enviar el formulario.
+
+   Cuando un formulario tiene **[!UICONTROL Being edited]** o **[!UICONTROL Pending publication]** estado, debe ser [publicado](#publishing-a-form) para estar en línea y ser accesible a través de la URL del formulario web en un explorador.
+
+   Una vez publicado, el formulario estará activo hasta que caduque.
 
    El formulario se mantiene en **[!UICONTROL Live]** hasta que caduca.
 
    >[!CAUTION]
    >
-   >Para poder enviarlo, la dirección URL de la encuesta no debe contener el parámetro **[!UICONTROL __uuid]**.
+   >Para poder enviarlo, la dirección URL del formulario no debe contener **[!UICONTROL __uuid]** parámetro.
 
-1. **Formulario no disponible**
+1. **Cerrado**
 
    Una vez cerrado el formulario, la fase de entrega termina y el formulario deja de estar disponible: ya no es accesible para los usuarios.
 
-   La fecha de caducidad se puede definir en la ventana de propiedades del formulario. Para obtener más información, consulte [Hacer que un formulario esté disponible en línea](#making-a-form-available-online).
+   La fecha de caducidad se puede definir en la ventana de propiedades del formulario. Para obtener más información, consulte [Publicación de un formulario en línea](#making-a-form-available-online).
 
 El estado de publicación de un formulario se muestra en la lista de formularios.
 
@@ -156,3 +168,35 @@ Seleccione un destinatario y haga clic en el botón **[!UICONTROL Detail...]** p
 ![](assets/s_ncs_admin_survey_trace_edit.png)
 
 Puede procesar los registros de respuestas proporcionados en las consultas, por ejemplo para dirigirse solo a los no encuestados para enviarles recordatorios o para ofrecer comunicaciones específicas únicamente a los encuestados.
+
+### Importación de paquetes de formularios web {#import-web-packages}
+
+Al exportar e importar un paquete que incluye un formulario web de una instancia a otra (por ejemplo, de una fase a otra de producción), el estado del formulario web en la nueva instancia puede variar según varias condiciones. A continuación se enumeran los diferentes casos.
+
+Obtenga más información sobre los distintos estados de un formulario web en [esta sección](#life-cycle-of-a-form).
+
+>[!NOTE]
+>
+>Al exportar un formulario web a través de un paquete, el estado del formulario es visible en el contenido del paquete resultante.
+
+* Si el estado del formulario web era **[!UICONTROL Pending publication]** o **[!UICONTROL Online]** cuando se exporta desde la primera instancia:
+
+   * El formulario web obtiene el **[!UICONTROL Pending publication]** estado cuando se importa en la nueva instancia.
+
+   * Si el formulario web ya existe en la nueva instancia, se reemplaza por la nueva versión del formulario y toma la **[!UICONTROL Pending publication]** estado, incluso si la versión antigua del formulario era **[!UICONTROL Online]**.
+
+   * Si el formulario existe o no, el formulario debe ser [publicado](#publishing-a-form) para convertirse en **[!UICONTROL Online]** en la nueva instancia y accesible a través de la URL del formulario web en un explorador.
+
+* Si el estado del formulario web era **[!UICONTROL Being edited]** al exportar:
+
+   * Si el formulario web es nuevo en la instancia en la que se importa el paquete, el formulario web obtiene la variable **[!UICONTROL Being edited]** estado.
+
+   * Si el formulario web ya existe en la nueva instancia, se trata de una modificación de un formulario existente. Si la versión antigua del formulario era **[!UICONTROL Online]**, la versión antigua permanece en línea hasta que se actualiza la nueva versión del formulario [publicado](#publishing-a-form) de nuevo en la nueva instancia.
+
+  >[!NOTE]
+  >
+  >Puede comprobar la versión más reciente de su formulario web mediante la variable **[!UICONTROL Preview]** pestaña.
+
+<!--For RN:
+* Now, when a web form has the **Pending publication** status, it must be published before it becomes **Online** and accessible through the web form URL in a web browser. [Read more](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
+-->
