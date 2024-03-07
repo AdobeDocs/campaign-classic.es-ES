@@ -9,10 +9,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 99%
 
 ---
 
@@ -43,7 +43,7 @@ Por ejemplo:
 * Separador: tabulación o punto y coma
 * Primera línea con encabezados
 * Sin delimitador de cadenas
-* Formato de fecha: AAAA/MM/DD HH:mm:SS
+* Formato de fecha: `YYYY/MM/DD HH:mm:SS`
 
 Ejemplo de archivo para importar:
 

@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 3%
+source-wordcount: '294'
+ht-degree: 4%
 
 ---
 
@@ -27,8 +27,8 @@ A continuación, encontrará algunas de las prácticas recomendadas principales 
 
   **En Apache**, edite /etc/apache2/mods-available/ssl.conf. Este es un ejemplo.
 
-   * SSLProtocol all -SSLv2 -SSLv3 -TLSv1
-   * SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1
+   * `SSLProtocol all -SSLv2 -SSLv3 -TLSv1`
+   * `SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1`
 
   **En IIS** (consulte la [documentación](https://support.microsoft.com/en-us/kb/245030)), realice la siguiente configuración:
 

@@ -4,15 +4,15 @@ title: Comandos habituales
 description: Comandos habituales
 feature: Monitoring
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
-badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 9%
+source-wordcount: '421'
+ht-degree: 8%
 
 ---
 
@@ -164,5 +164,5 @@ Para cambiar el **interno** contraseña: **nlserver config -internalpassword**
 >* Para obtener la lista de parámetros, utilice el **-?** parámetro: **Configuración de nlserver -?**
 >* En el caso de una base de datos de Oracle, no debe especificar la cuenta. La sintaxis es la siguiente:
 >
->  nlserver config -setdblogin:Oracle:test6@dbserver
+>  `nlserver config -setdblogin:Oracle:test6@dbserver`
 >

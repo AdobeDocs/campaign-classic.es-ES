@@ -8,10 +8,10 @@ feature: Deliverability
 hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '495'
+ht-degree: 88%
 
 ---
 
@@ -27,9 +27,9 @@ Los problemas globales en Apple o Gmail, por ejemplo, pueden causar que algunos 
 
 * “550 5.1.1 &#39;dirección de correo electrónico&#39;: la búsqueda del usuario se ha realizado correctamente, pero no se ha encontrado ningún registro de usuario”.
 
-* “Se ha rechazado el destinatario 550 &#39;dirección de correo electrónico&#39;”
+* &quot;550 destinatario de &#39;dirección de correo electrónico&#39; rechazado&quot;
 
-Tenga en cuenta que si el aplazamiento devuelve un error con el mensaje “452 acción solicitada anulada: inténtelo de nuevo más tarde” se están observando, se vuelven a intentar automáticamente y no se necesitan acciones. Deben mejorar a medida que el ISP recupera la capacidad completa.
+Tenga en cuenta que si se observan devoluciones de aplazamiento con el mensaje &quot;452 acción solicitada anulada: volver a intentarlo más tarde&quot;, se vuelven a intentar automáticamente y no se necesitan acciones. Deben mejorar a medida que el ISP recupera la capacidad completa.
 
 >[!NOTE]
 >
@@ -56,17 +56,17 @@ En función del periodo de tiempo del problema y la ISP, se indican a continuaci
 
    * **El texto del error (texto de cuarentena)** contiene “Momen_Code10_InvalidRecipient”
    * **Dominio de correo electrónico (@domain)** igual a domain1.com O **Dominio de correo electrónico (@domain)** igual a domain2.com O **Dominio de correo electrónico (@domain)** igual a domain3.com
-   * **Actualizar estado (@lastModified)** en o después de DD/MM/AAAA HH:MM:SS AM
-   * **Actualizar estado (@lastModified)** en DD/MM/AAAA HH:MM:SS PM
+   * **Actualizar estado (@lastModified)** el o después `MM/DD/YYYY HH:MM:SS AM`
+   * **Actualizar estado (@lastModified)** el o antes `MM/DD/YYYY HH:MM:SS PM`
 
 * Para entornos de Campaign con información de respuesta de rechazo SMTP en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
-   * **Texto de error (texto de cuarentena)** contiene “550-5.1.1” Y **Texto de error (texto de cuarentena)** contiene “support.ISP.com”
+   * **El texto del error (texto de cuarentena)** contiene “550-5.1.1” Y **El texto del error (texto de cuarentena)** contiene “support.ISP.com”
 
      donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
 
-   * **Actualizar estado (@lastModified)** en o después de DD/MM/AAAA HH:MM:SS AM
-   * **Actualizar estado (@lastModified)** en DD/MM/AAAA HH:MM:SS PM
+   * **Actualizar estado (@lastModified)** el o después `MM/DD/YYYY HH:MM:SS AM`
+   * **Actualizar estado (@lastModified)** el o antes  `MM/DD/YYYY HH:MM:SS PM`
 
 
 Una vez que tenga la lista de destinatarios afectados, puede aplicarles un estado **[!UICONTROL Valid]** para que el flujo de trabajo **[!UICONTROL Database cleanup]** los elimine de la lista de cuarentena, o simplemente elimínelos de la tabla.

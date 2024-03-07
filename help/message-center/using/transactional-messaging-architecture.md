@@ -5,10 +5,10 @@ description: En esta sección se describe la arquitectura de mensajería transac
 feature: Transactional Messaging, Message Center, Architecture
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 100%
+source-wordcount: '1110'
+ht-degree: 98%
 
 ---
 
@@ -157,7 +157,7 @@ A continuación se muestra un ejemplo de un evento que contiene esta informació
          <urn:domEvent>
 
               <rtEvent wishedChannel="41" type="DELIVERY" registrationToken="2cefnefzef758398493srefzefkzq483974">
-                <mobileApp _operation=”none” uuid="com.adobe.NeoMiles"/>
+                <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
                     <url>http://www.adobe.com</url>
@@ -222,7 +222,7 @@ A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** >
    * **[!UICONTROL Server]** : introduzca la URL del servidor de la campaña de la instancia de ejecución.
    * **[!UICONTROL Account]** : introduzca la cuenta utilizada para acceder a la instancia de ejecución.
    * **[!UICONTROL Password]** : introduzca la contraseña de la cuenta utilizada para acceder a la instancia de ejecución.
-   * **[!UICONTROL Data Source]**: Introduzca la sintaxis siguiente **[!UICONTROL nms:extAccount:ID of your external database account in the execution instance]**.
+   * **[!UICONTROL Data Source]** : introduzca la siguiente sintaxis **`nms:extAccount:ID`** de la cuenta de base de datos externa en la instancia de ejecución.
 
 1. Cree una cuenta externa **[!UICONTROL Execution instance]** en la instancia de **marketing** mediante la configuración siguiente para crear el flujo de trabajo de la sincronización de datos:
 

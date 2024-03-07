@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring, Deliverability
 role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '3009'
-ht-degree: 100%
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
+workflow-type: tm+mt
+source-wordcount: '2990'
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ La siguiente información está disponible para cada dirección:
 >
 >Fin de año 1: (1&#42;0,33)/(1+0,5) = 22 %.
 >
->Fin de año 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75) = 32,5 %.
+Fin de año 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75) = 32,5 %.
 
 ### Identificación de direcciones en cuarentena en informes de envío {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -109,7 +109,7 @@ Si un usuario clasifica un correo electrónico como correo no deseado ([bucle de
 
 >[!NOTE]
 >
->La cuarentena en Adobe Campaign distingue entre mayúsculas y minúsculas. Asegúrese de importar las direcciones de correo electrónico en minúsculas para que no se redireccionen más adelante.
+La cuarentena en Adobe Campaign distingue entre mayúsculas y minúsculas. Asegúrese de importar las direcciones de correo electrónico en minúsculas para que no se redireccionen más adelante.
 
 En la lista de direcciones en cuarentena (consulte [Identificación de direcciones en cuarentena para toda la plataforma](#identifying-quarantined-addresses-for-the-entire-platform)), el campo **[!UICONTROL Error reason]** indica por qué la dirección seleccionada se colocó en cuarentena.
 
@@ -145,7 +145,7 @@ A continuación, su estado cambia a **[!UICONTROL Valid]**.
 
 >[!IMPORTANT]
 >
->Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** nunca se quitarán, aunque reciban un correo electrónico.
+Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** nunca se quitarán, aunque reciban un correo electrónico.
 
 ### Actualizaciones manuales {#unquarantine-manual}
 
@@ -165,8 +165,8 @@ A continuación se muestran las directrices recomendadas para esta consulta:
 
    * **El texto del error (texto de cuarentena)** contiene “Momen_Code10_InvalidRecipient”
    * **Dominio de correo electrónico (@domain)** igual a domain1.com O **Dominio de correo electrónico (@domain)** igual a domain2.com O **Dominio de correo electrónico (@domain)** igual a domain3.com
-   * **Actualizar estado (@lastModified)** en o después de DD/MM/AAAA HH:MM:SS AM
-   * **Actualizar estado (@lastModified)** en DD/MM/AAAA HH:MM:SS PM
+   * **Actualizar estado (@lastModified)** el o después `MM/DD/YYYY HH:MM:SS AM`
+   * **Actualizar estado (@lastModified)** el o antes `MM/DD/YYYY HH:MM:SS PM`
 
 * Para entornos de Campaign Classic v7 con información de respuesta de rechazo SMTP en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
@@ -174,8 +174,8 @@ A continuación se muestran las directrices recomendadas para esta consulta:
 
   donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
 
-   * **Actualizar estado (@lastModified)** en o después de DD/MM/AAAA HH:MM:SS AM
-   * **Actualizar estado (@lastModified)** en DD/MM/AAAA HH:MM:SS PM
+   * **Actualizar estado (@lastModified)** el o después `MM/DD/YYYY HH:MM:SS AM`
+   * **Actualizar estado (@lastModified)** el o antes  `MM/DD/YYYY HH:MM:SS PM`
 
 Una vez que tenga la lista de destinatarios afectados, añada una **[!UICONTROL Update data]** actividad para establecer su estado de dirección de correo electrónico en **[!UICONTROL Valid]** de modo que sean quitadas de la lista de cuarentena por el **[!UICONTROL Database cleanup]** flujo de trabajo. También puede eliminarlos de la tabla de cuarentena.
 
@@ -242,7 +242,7 @@ Sincrónicamente, si APNS devuelve el estado “no registrado” para un mensaje
    <td> No<br /> </td> 
   </tr> 
   <tr> 
-   <td> Problema de certificado (contraseña, corrupción, etc.) y conexión de prueba a un problema de APNS<br /> </td> 
+   <td> Problema de certificado (contraseña, corrupción, etc.) y probar la conexión con un problema de APNS<br /> </td> 
    <td> Fallo<br /> </td> 
    <td> Varios mensajes de error según el error<br /> </td> 
    <td> Leve<br /> </td> 
@@ -292,13 +292,13 @@ Durante el análisis de la entrega, todos los dispositivos excluidos del destino
 
 >[!NOTE]
 >
->Para los clientes que utilicen el conector Baidu, los distintos tipos de errores son:
+Para los clientes que utilicen el conector Baidu, los distintos tipos de errores son:
 >
->* Problema de conexión al principio del envío: tipo de error **[!UICONTROL Undefined]**, motivo del error **[!UICONTROL Unreachable]**, con reintento.
->* Se ha perdido la conexión durante un envío: error de software, motivo del error **[!UICONTROL Refused]**, con reintento.
->* Error sincrónico devuelto por Baidu durante el envío: error de hardware, motivo del error **[!UICONTROL Refused]**, sin reintento.
+* Problema de conexión al principio del envío: tipo de error **[!UICONTROL Undefined]**, motivo del error **[!UICONTROL Unreachable]**, con reintento.
+* Se ha perdido la conexión durante un envío: error de software, motivo del error **[!UICONTROL Refused]**, con reintento.
+* Error sincrónico devuelto por Baidu durante el envío: error de hardware, motivo del error **[!UICONTROL Refused]**, sin reintento.
 >
->Adobe Campaign se pone en contacto con el servidor Baidu cada 10 minutos para recuperar el estado del mensaje enviado y actualiza los broadlogs. Si se declara un mensaje como enviado, el estado del mensaje en los broadlogs se establece en **[!UICONTROL Received]**. Si Baidu declara un error, el estado se establece en **[!UICONTROL Failed]**.
+Adobe Campaign se pone en contacto con el servidor Baidu cada 10 minutos para recuperar el estado del mensaje enviado y actualiza los broadlogs. Si se declara un mensaje como enviado, el estado del mensaje en los broadlogs se establece en **[!UICONTROL Received]**. Si Baidu declara un error, el estado se establece en **[!UICONTROL Failed]**.
 
 **Para Android V2**
 
@@ -517,7 +517,7 @@ El mecanismo de cuarentena para mensajes SMS es el mismo a nivel global que el p
 
 >[!NOTE]
 >
->La tabla **[!UICONTROL Delivery log qualification]** no se aplica al conector **Extended generic SMPP**.
+La tabla **[!UICONTROL Delivery log qualification]** no se aplica al conector **Extended generic SMPP**.
 
 <table> 
  <tbody> 
@@ -576,9 +576,9 @@ Antes de que se clasifique un nuevo tipo de error, el motivo del error se establ
 
 >[!NOTE]
 >
->Los tipos de errores y los motivos del error son los mismos que para los correos electrónicos. Consulte [Tipos y motivos de errores de entrega](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Los tipos de errores y los motivos del error son los mismos que para los correos electrónicos. Consulte [Tipos y motivos de errores de entrega](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
->Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla de clasificación de registros de entregas.
+Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla de clasificación de registros de entregas.
 
 Ejemplo de mensaje generado:
 

@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email Design
 role: User, Developer, Data Engineer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '1459'
-ht-degree: 100%
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
+workflow-type: tm+mt
+source-wordcount: '1454'
+ht-degree: 99%
 
 ---
 
@@ -565,7 +565,7 @@ En el formulario, el campo para seleccionar la imagen se añade mediante la sigu
 
 ## Visualización de la fecha {#date-display}
 
-En el documento de entrada XML, las fechas se almacenan en formato XML interno: **AAAA/MM/DD HH:MM:SS** (ejemplo: 2018/10/01 12:23:30).
+En el documento de entrada XML, las fechas se almacenan en formato XML interno: **`YYYY/MM/DD HH:MM:SS`** (ejemplo) `2018/10/01 12:23:30`).
 
 Adobe Campaign ofrece funciones de formato de fecha para las plantillas JavaScript y las hojas de estilo XSL detalladas más adelante.
 

@@ -4,15 +4,15 @@ title: Localice la versión de Tomcat en Adobe Campaign.
 description: Aprenda a averiguar la versión actual del servlet web integrado de Tomcat utilizado en una instancia de Adobe Campaign
 feature: Monitoring
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
-badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 4%
+source-wordcount: '503'
+ht-degree: 3%
 
 ---
 
@@ -52,11 +52,11 @@ Para localizar la versión de Tomcat incrustada en una instancia de Adobe Campai
 
 Por ejemplo, la variable *ServerInfo.properties* para Adobe Campaign contendrá la siguiente información, que indica Tomcat v8.5.X:
 
-*server.info=Apache Tomcat/8.5.X*
+*`server.info=Apache Tomcat/8.5.X`*
 
-*server.number=8.5.X.Y*
+*`server.number=8.5.X.Y`*
 
-*server.built=MM DD YYY HH:MM:SS*
+*`server.built=MM DD YYY HH:MM:SS`*
 
 Una vez que pueda establecer la versión exacta de Tomcat utilizada en una instancia determinada, puede ayudarle a solucionar problemas relacionados con Tomcat.
 

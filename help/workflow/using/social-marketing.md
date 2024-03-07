@@ -4,8 +4,8 @@ title: Social Marketing
 description: Descubra más información sobre los flujos de trabajo técnicos de Social Marketing
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
+workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->:warning: Esta funcionalidad solo está disponible en Campaign Classic v7. [Más información](../../social/using/about-social-marketing.md)
+>`:warning:` Esta funcionalidad solo está disponible en Campaign Classic v7. [Más información](../../social/using/about-social-marketing.md)
 
 Los flujos de trabajo detallados a continuación se instalan con el módulo **Marketing social** de forma predeterminada.
 

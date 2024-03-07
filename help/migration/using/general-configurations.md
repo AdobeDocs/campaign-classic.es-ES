@@ -10,9 +10,9 @@ topic-tags: configuration
 hide: true
 hidefromtoc: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2607'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ nlserver config -internalpassword
 
 * El seguimiento ya no funciona si la contraseña está vacía. Si este es el caso, un mensaje de error le hará saber y le pedirá que vuelva a configurarlo.
 * Las contraseñas de usuario ya no se almacenan en **xtk:sessionInfo** esquema.
-* Los permisos de administración ahora son necesarios para utilizar **xtk:builder:EvaluateJavaScript** y **xtk:builder:EvaluateJavaScriptTemplate** funciones.
+* Los permisos de administración ahora son necesarios para utilizar **`xtk:builder:EvaluateJavaScript`** y **`xtk:builder:EvaluateJavaScriptTemplate`** funciones.
 
 Se han modificado ciertos esquemas predeterminados y ahora, de forma predeterminada, solo se puede acceder a ellos con acceso de escritura para operadores con **administrador** permiso:
 
@@ -461,7 +461,7 @@ Existen tres formas posibles de resolver un conflicto:
 
   >[!IMPORTANT]
   >
-  >Si selecciona este modo de resolución, se arriesga a perder parches en la nueva versión. Por lo tanto, se recomienda encarecidamente que esta opción no se utilice ni se reserve únicamente para operadores expertos.
+  Si selecciona este modo de resolución, se arriesga a perder parches en la nueva versión. Por lo tanto, se recomienda encarecidamente que esta opción no se utilice ni se reserve únicamente para operadores expertos.
 
 Si decide resolver manualmente el conflicto, siga este procedimiento:
 
@@ -508,13 +508,13 @@ En la versión 7, se ha movido el contenido de la oferta. En la versión 6.02, e
 
 >[!IMPORTANT]
 >
->Si algunos envíos que utilizan ofertas configuradas se enviaban después de la migración, debe eliminar y volver a crear todos estos envíos en la versión 7. Si no puede hacerlo, se ofrece un &quot;modo de compatibilidad&quot;. No se recomienda este modo porque no se beneficiará de todas las nuevas funciones de Interaction v7. Se trata de un modo de transición que le permite completar campañas en curso antes de la migración real a la versión 6.1. Para obtener más información sobre este modo, póngase en contacto con nosotros.
+Si algunos envíos que utilizan ofertas configuradas se enviaban después de la migración, debe eliminar y volver a crear todos estos envíos en la versión 7. Si no puede hacerlo, se ofrece un &quot;modo de compatibilidad&quot;. No se recomienda este modo porque no se beneficiará de todas las nuevas funciones de Interaction v7. Se trata de un modo de transición que le permite completar campañas en curso antes de la migración real a la versión 6.1. Para obtener más información sobre este modo, póngase en contacto con nosotros.
 
 Ejemplo de secuencia de comandos de movimiento (**interactionTo610_full_XX.js**) está disponible en el **Migración** dentro de la carpeta Adobe Campaign v7. Este archivo muestra un ejemplo de una secuencia de comandos para un cliente mediante una única representación de correo electrónico por oferta (la variable **[!UICONTROL htmlSource]** y **[!UICONTROL textSource]** campos). El contenido que estaba en **NmsEmailOfferView** se ha movido a la tabla de ofertas.
 
 >[!NOTE]
 >
->El uso de este script no le permite beneficiarse de las opciones de &quot;administración de contenido&quot; y &quot;funciones de renderización&quot;. Para beneficiarse de estas funciones, debe reconsiderar las ofertas del catálogo, especialmente los espacios de contenido de ofertas y configuración.
+El uso de este script no le permite beneficiarse de las opciones de &quot;administración de contenido&quot; y &quot;funciones de renderización&quot;. Para beneficiarse de estas funciones, debe reconsiderar las ofertas del catálogo, especialmente los espacios de contenido de ofertas y configuración.
 
 ```
 loadLibrary("/nl/core/shared/nl.js");
@@ -614,7 +614,7 @@ Este es el procedimiento que debe seguirse después de haber movido el contenido
 
    >[!NOTE]
    >
-   >Los nombres de las categorías y las ofertas en línea se modifican después de su publicación. En el canal entrante, actualice todas las referencias a ofertas y categorías.
+   Los nombres de las categorías y las ofertas en línea se modifican después de su publicación. En el canal entrante, actualice todas las referencias a ofertas y categorías.
 
 ## Informes {#reports}
 
