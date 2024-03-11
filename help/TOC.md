@@ -6,9 +6,9 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: e4d57effe5cae1effcd6fbcd716b9dcf4eec6189
+source-git-commit: 834d6c02536187b348842e6d524c4a83d02b355d
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2552'
 ht-degree: 99%
 
 ---
@@ -17,16 +17,16 @@ ht-degree: 99%
 # Documentación de Adobe Campaign Classic v7 {#using}
 
 + [Documentación de Campaign v7](campaign-classic-home.md)
-+ [Últimas actualizaciones](rn/using/documentation-updates.md)
 + Notas de la versión {#release-notes}
    + [Introducción a las actualizaciones](rn/using/rn-overview.md)
    + [Último lanzamiento](rn/using/latest-release.md)
    + Versiones anteriores {#previous-releases}
-      + [2022](rn/using/release-2022.md)
-      + [2021](rn/using/release-2021.md)
-      + [[!DNL Gold Standard]](rn/using/gold-standard.md)
+      + [Versiones de 2022](rn/using/release-2022.md)
+      + [Versiones de 2021](rn/using/release-2021.md)
+      + [Versiones de [!DNL Gold Standard]](rn/using/gold-standard.md)
    + [Funciones obsoletas](rn/using/deprecated-features.md)
    + [Matriz de compatibilidad](rn/using/compatibility-matrix.md)
+   + [Actualizaciones de la documentación](rn/using/documentation-updates.md)
 + Introducción {#getting-started}
    + Introducción a Adobe Campaign {#starting-with-adobe-campaign}
       + [Introducción a Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
