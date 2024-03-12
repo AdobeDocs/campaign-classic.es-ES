@@ -4,7 +4,7 @@ title: Actividad de flujo de trabajo de SMS entrante para infraestructura interm
 description: Actividad de flujo de trabajo de SMS entrante para infraestructura intermediaria
 feature: Technote, SMS
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
-source-git-commit: 5667cb6b45742638f8c984d7eb9633660f64fc0f
+source-git-commit: 85adfe3515480bed559091427ff1acec14a70320
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 1. Añada una extensión a `nms:inSMS` en la instancia de Marketing. La extensión agregará un nuevo atributo a `nms:inSMS` y realizar un seguimiento de la clave principal de registro inSMS proveniente de la instancia intermediaria.
 
-   ```
+   ```xml
    <element img="nms:miniatures/mini-sms.png" label="Incoming SMS"
           labelSingular="Incoming SMS" name="inSMS">
    <dbindex name="midInSMSId" unique="false">
@@ -55,7 +55,7 @@ ht-degree: 2%
 
    Sustituya el bloque siguiente. Tenga en cuenta que esta secuencia de comandos puede variar si anteriormente personalizó este código.
 
-   ```
+   ```Javascript
    var lastSynchKey = getOption('SMS_MO_INDEX_WKF1105_inSmsUS_smsmidus');
    
    var smsId = application.getNewIds(1);
@@ -70,7 +70,8 @@ ht-degree: 2%
    ```
 
    Con el siguiente nuevo script personalizado para actualizar los datos en SMS en función de una clave compuesta, combinando la clave principal del registro intermediario y el ID de cuenta externa del enrutamiento SMS de marketing.
-Siga los requisitos previos siguientes:
+
+   Siga los requisitos previos siguientes:
 
    * Introduzca el valor real de `<EXTERNAL_ACCOUNT_ID>`, por ejemplo, `var iExtAccountId=72733155`.
    * Asegúrese de mantener los siguientes elementos en el script personalizado:
@@ -111,7 +112,7 @@ Siga los requisitos previos siguientes:
 
    La secuencia de comandos restablecerá el puntero de clave principal a 24 horas antes. El flujo de trabajo intentará volver a procesar todos los datos de inSMS de la instancia de intermediario en las 24 horas anteriores y añadir los datos que falten a la instancia de marketing.
 
-   ```
+   ```Javascript
    // please enter real external account ID to replace <EXTERNAL_ACCOUNT_ID>
    // please enter real pointer option name to replace '<POINTER_OPTION_NAME>'
    // OPTION NAME format: SMS_MO_INDEX_{internal name of the workflow}_inSms_{internal name of the external account to access the mid}
