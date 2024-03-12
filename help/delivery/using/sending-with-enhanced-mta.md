@@ -7,10 +7,10 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '1352'
-ht-degree: 100%
+source-git-commit: bc6f5d569d0c8a5eba4499a854af370258ce83a2
+workflow-type: tm+mt
+source-wordcount: '1380'
+ht-degree: 98%
 
 ---
 
@@ -108,6 +108,10 @@ Las calificaciones de rechazo de la tabla **[!UICONTROL Delivery log qualificati
 >El servidor de correo mejorado califica el rebote SMTP y devuelve esa calificación a Campaign en forma de código de rechazo asignado a un motivo y una calificación de Campaign.
 
 Para obtener más información sobre la calificación de correo rechazado, consulte [esta sección](understanding-delivery-failures.md#bounce-mail-qualification).
+
+### Envío
+
+Una entrega no se puede detener una vez transferido al servidor de correo mejorado, aunque se muestre con el **[!UICONTROL Stopped]** estado en Campaign.
 
 ### Rendimiento del envío
 
