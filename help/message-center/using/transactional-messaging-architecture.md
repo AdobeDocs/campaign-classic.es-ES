@@ -6,9 +6,9 @@ feature: Transactional Messaging, Message Center, Architecture
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1110'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

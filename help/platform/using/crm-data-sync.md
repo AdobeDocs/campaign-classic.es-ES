@@ -6,9 +6,9 @@ feature: Microsoft CRM Integration, Salesforce Integration
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1536'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ La fecha de la última sincronización se almacena de forma predeterminada en un
 >
 >Esta nota solo se aplica a la actividad genérica **[!UICONTROL CRM Connector]**. Para otras actividades CRM, el proceso es automático.
 >
->Esta opción debe crearse manualmente y rellenarse en **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. Debe ser una opción de texto y su valor debe coincidir con el siguiente formato: **`yyyy/MM/dd hh:mm:ss`**.
+>Esta opción debe crearse manualmente y rellenarse en **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. Debe ser una opción de texto y su valor debe coincidir con el formato siguiente: **`yyyy/MM/dd hh:mm:ss`**
 > 
 >Debe actualizar manualmente esta opción para una importación posterior.
 
@@ -112,7 +112,7 @@ La activación de la opción **[!UICONTROL Automatic index]** genera tres variab
 
   >[!NOTE]
   >
-  >Estas fechas se muestran en el siguiente formato: **`yyyy/MM/dd hh:mm:ss`**.
+  >Estas fechas se muestran en el siguiente formato: **`yyyy/MM/dd hh:mm:ss`**
 
 ### Filtrado de datos {#filtering-data}
 

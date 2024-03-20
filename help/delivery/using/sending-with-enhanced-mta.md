@@ -8,9 +8,9 @@ feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: bc6f5d569d0c8a5eba4499a854af370258ce83a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1380'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Para obtener más información sobre la calificación de correo rechazado, consu
 
 ### Envío
 
-Una entrega no se puede detener una vez transferido al servidor de correo mejorado, aunque se muestre con el **[!UICONTROL Stopped]** estado en Campaign.
+Un envío no se puede detener una vez transferido al MTA mejorado, aunque se muestre con el estado **[!UICONTROL Stopped]** en Campaign.
 
 ### Rendimiento del envío
 

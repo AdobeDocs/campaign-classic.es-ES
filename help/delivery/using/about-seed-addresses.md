@@ -8,9 +8,9 @@ feature: Seed Address
 role: User
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
 source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Las direcciones semilla se añaden al destino de las entregas mediante su import
 >
 >Las direcciones semilla no pertenecen a la lista de distribución, sino que se crean en una lista independiente. Si se amplía la lista de distribución con nuevos datos, debe ampliar la lista de direcciones semilla con los mismos datos. De lo contrario, los campos ampliados no tienen en cuenta las direcciones semilla.
 >
->En esta sección se presenta un ejemplo de cómo ampliar la tabla de direcciones semilla: [Caso de uso: Selección de direcciones semilla según ciertos criterios](use-case-selecting-seed-addresses-on-criteria.md).
+>En esta sección se muestra un ejemplo de cómo ampliar la tabla de direcciones semilla: [Caso de uso: selección de direcciones semilla en función de criterios](use-case-selecting-seed-addresses-on-criteria.md).
 
 En las entregas por correo postal, las direcciones semilla se añaden durante la extracción y se mezclan en el documento de salida.
 

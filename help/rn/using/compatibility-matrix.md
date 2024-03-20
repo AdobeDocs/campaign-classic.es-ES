@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 3e771d9a18c083bee8239b95d1d68d63928217c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '764'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 
 >[!IMPORTANT]
 >
->Si utiliza RHEL, debe estar dispuesto a deshabilitar SELinux o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no esté causando problemas con las operaciones de Campaign.
+>Si está utilizando RHEL, debe estar dispuesto a deshabilitar SELinux o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no está causando problemas con las operaciones de Campaign.
 
 ## Servidores web{#WebServers}
 
@@ -150,7 +150,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 <p>2016</p>
 <p>2014</p>
 <p>2012: SP1 y SP2</p>
-<p><strong>Importante:</strong> Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaign se ejecuta en Linux. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux/prerequisites-of-campaign-installation-in-linux.html#database-access-layers">Más información</a>.</p>
+<p><strong>Importante:</strong> Microsoft SQL Server no se admite como base de datos principal cuando el servidor de Campaign se ejecuta en Linux. <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/installing-campaign-in-linux/prerequisites-of-campaign-installation-in-linux.html?lang=es#database-access-layers">Más información</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -355,7 +355,7 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 
 ### Tiempo de ejecución de Microsoft WebView2
 
-La última versión del tiempo de ejecución de Microsoft Edge WebView2 es obligatoria para la consola del cliente de Campaign.
+La última versión en tiempo de ejecución de Microsoft Edge WebView2 es obligatoria en la consola del cliente de Campaign.
 
 Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download).
 

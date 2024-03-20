@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 517f09e508207b14e6b870f926753b2d9a547262
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ _5 de diciembre de 2023_
 
 * Además, con el objetivo de reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomienda migrar el modo de autenticación del usuario final de la autenticación nativa de inicio de sesión/contraseña a Adobe Identity Management System (IMS). Aprende a migrar los operadores en [esta nota técnica](../../technotes/using/migrate-users-to-ims.md).
 
-* Ahora, cuando un formulario web tiene la variable **Publicación pendiente** estado, no se activa automáticamente. Para evitar problemas de seguridad, debe publicarse antes de que se convierta en **En línea** y accesible a través de la URL del formulario web en un explorador web. [Más información](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
+* Ahora, cuando un formulario web tiene el estado **Publicación pendiente**, no se activa automáticamente. Para evitar problemas de seguridad, debe publicarse antes de que esté **En línea** y sea accesible a través de la URL del formulario web en un explorador web. [Más información](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
 
 ### Parches {#release-7-3-5-patches}
 

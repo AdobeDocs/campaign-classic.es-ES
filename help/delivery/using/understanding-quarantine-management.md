@@ -8,9 +8,9 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2990'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -165,8 +165,8 @@ A continuación se muestran las directrices recomendadas para esta consulta:
 
    * **El texto del error (texto de cuarentena)** contiene “Momen_Code10_InvalidRecipient”
    * **Dominio de correo electrónico (@domain)** igual a domain1.com O **Dominio de correo electrónico (@domain)** igual a domain2.com O **Dominio de correo electrónico (@domain)** igual a domain3.com
-   * **Actualizar estado (@lastModified)** el o después `MM/DD/YYYY HH:MM:SS AM`
-   * **Actualizar estado (@lastModified)** el o antes `MM/DD/YYYY HH:MM:SS PM`
+   * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS AM` o después
+   * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS PM` o antes 
 
 * Para entornos de Campaign Classic v7 con información de respuesta de rechazo SMTP en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
@@ -174,8 +174,8 @@ A continuación se muestran las directrices recomendadas para esta consulta:
 
   donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
 
-   * **Actualizar estado (@lastModified)** el o después `MM/DD/YYYY HH:MM:SS AM`
-   * **Actualizar estado (@lastModified)** el o antes  `MM/DD/YYYY HH:MM:SS PM`
+   * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS AM` o después
+   * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS PM` o antes
 
 Una vez que tenga la lista de destinatarios afectados, añada una **[!UICONTROL Update data]** actividad para establecer su estado de dirección de correo electrónico en **[!UICONTROL Valid]** de modo que sean quitadas de la lista de cuarentena por el **[!UICONTROL Database cleanup]** flujo de trabajo. También puede eliminarlos de la tabla de cuarentena.
 
@@ -242,7 +242,7 @@ Sincrónicamente, si APNS devuelve el estado “no registrado” para un mensaje
    <td> No<br /> </td> 
   </tr> 
   <tr> 
-   <td> Problema de certificado (contraseña, corrupción, etc.) y probar la conexión con un problema de APNS<br /> </td> 
+   <td> Problema de certificado (contraseña, datos dañados, etc.) y probar la conexión con un problema de APN<br /> </td> 
    <td> Fallo<br /> </td> 
    <td> Varios mensajes de error según el error<br /> </td> 
    <td> Leve<br /> </td> 

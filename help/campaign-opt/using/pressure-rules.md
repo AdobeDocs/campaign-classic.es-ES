@@ -7,9 +7,9 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 feature: Fatigue Management, Typology Rules, Campaigns
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3343'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ Para restringir las entregas que se tienen en cuenta a un periodo de dos semanas
 
 o
 
-1. Entrar **7d** en el **[!UICONTROL Period considered]** y marque la **[!UICONTROL Take the deliveries into account in the provisional calendar]** : en el cálculo se tienen en cuenta las entregas realizadas hasta 7 días antes de la fecha de entrega y programadas hasta 7 días después de la fecha de entrega en los que se aplica la regla.
+1. Introduzca **7d** en el campo **[!UICONTROL Period considered]** Y marque la opción **[!UICONTROL Take the deliveries into account in the provisional calendar]**: en el cálculo se tendrán en cuenta los envíos realizados hasta siete días antes de la fecha de envío y programados hasta siete días después de la fecha de envío en la que se aplica la regla.
 
 La fecha de inicio depende de cómo se haya configurado la base de datos.
 

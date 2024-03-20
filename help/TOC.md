@@ -7,9 +7,9 @@ user-guide-description: Documentación de producto para Adobe Campaign Classic v
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 834d6c02536187b348842e6d524c4a83d02b355d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -740,7 +740,7 @@ ht-degree: 99%
       + [Acerca del modelo de datos](configuration/using/about-data-model.md)
       + [Descripción del modelo de datos](configuration/using/data-model-description.md)
       + [Prácticas recomendadas](configuration/using/data-model-best-practices.md)
-   + Trabajo con esquemas {#schema-reference}
+   + Uso de esquemas{#schema-reference}
       + [Introducción a los esquemas](configuration/using/about-schema-reference.md)
       + [Estructura del esquema](configuration/using/schema-structure.md)
       + [Asignación de base de datos](configuration/using/database-mapping.md)

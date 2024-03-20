@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
 source-git-commit: 209ccbcac20052826dad0c55b35173be20b10114
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1013'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Los criterios de aplicación disponibles en la pestaña **[!UICONTROL General]**
 
 En la pestaña **[!UICONTROL Offer presentation]** debe especificar las mismas dimensiones para la regla de presentación que las configuradas en el entorno.
 
-El **[!UICONTROL Targeting dimension]** coincide con la tabla de destinatarios (de forma predeterminada: `nms:recipients`), que recibirán las propuestas de las ofertas. El **[!UICONTROL Storage dimension]** coincide con la tabla que contiene el historial de propuestas vinculado a la dimensión de destino (de forma predeterminada: `nms:propositionRcp`).
+La **[!UICONTROL Targeting dimension]** coincide con la tabla de destinatarios (de forma predeterminada: `nms:recipients`) que recibirán las propuestas de ofertas. La **[!UICONTROL Storage dimension]** coincide con la tabla que contiene el historial de propuestas vinculado a la dimensión de segmentación (de forma predeterminada, `nms:propositionRcp`).
 
 ![](assets/offer_typology_009.png)
 
