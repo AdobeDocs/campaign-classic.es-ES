@@ -9,10 +9,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 67a6e03318a74b665dc6928028470f98c0abae5e
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 100%
+source-wordcount: '703'
+ht-degree: 89%
 
 ---
 
@@ -44,7 +44,7 @@ A continuación, puede utilizar los comandos de preprocesamiento deseados en los
 1. Añada y configure una actividad **[!UICONTROL File transfer]** en el flujo de trabajo.
 1. Añada una actividad **[!UICONTROL Data loading (file)]** y defina el formato de archivo.
 1. Marque la opción **[!UICONTROL Pre-process the file]**.
-1. Especifique el comando de preprocesamiento que desee aplicar.
+1. Seleccione el comando de preprocesamiento que desee aplicar.
 1. Añada otras actividades para administrar los datos que provengan del archivo.
 1. Guarde y ejecute el flujo de trabajo.
 
@@ -87,17 +87,15 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 1. Abra la actividad **[!UICONTROL Data loading (file)]** y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/data-loading-file.md).
 
-   Añada una fase de preprocesamiento a la actividad para descifrar los datos entrantes. Para ello, seleccione la opción **[!UICONTROL Pre-process the file]** y copie y pegue este comando de descifrado en el **[!UICONTROL Command]** campo:
-
-   `gpg --batch --passphrase passphrase --decrypt <%=vars.filename%>`
+   Añada una fase de preprocesamiento a la actividad para descifrar los datos entrantes. Para ello, seleccione la **[!UICONTROL Pre-process the file]** , luego seleccione **[!UICONTROL Decrypt]** desde el **[!UICONTROL Command]** lista desplegable:
 
    ![](assets/gpg_load.png)
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >En este ejemplo, utilizamos la frase de contraseña utilizada de forma predeterminada por Panel de control, que es &quot;frase de contraseña&quot;.
+   >Si es necesario modificar los comandos disponibles, puede ponerse en contacto con [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para ajustar la configuración de preProcessCommand.
    >
-   >Si ya ha instalado las claves GPG en su instancia a través de una solicitud a Atención al cliente en el pasado, la frase de contraseña puede haber cambiado y ser diferente de la predeterminada.
+   >Si está trabajando con una implementación híbrida, puede configurar estos comandos directamente desde el archivo de configuración del servidor (serverConf.xml). [Obtenga información sobre cómo configurar comandos de preprocesamiento en el archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md#preprocesscommand)
 
 1. Haga clic en **[!UICONTROL OK]** para confirmar esta configuración.
 
