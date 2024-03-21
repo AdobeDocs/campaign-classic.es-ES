@@ -7,10 +7,10 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: a6113868f5e22583c8017b1134f69d66b92e92f1
 workflow-type: tm+mt
-source-wordcount: '3699'
-ht-degree: 100%
+source-wordcount: '3716'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,10 @@ Esta página enumera todas las nuevas funciones y actualizaciones de la document
 Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md) para ver las actualizaciones relacionadas con la versión.
 
 ## 2024
+
+### Marzo de 2024 {#mar-2024}
+
+La sección de configuración de la aplicación móvil se ha actualizado para la conexión basada en tokens de iOS a APNS. [Más información](../../delivery/using/configuring-the-mobile-application.md#creating-ios-app)
 
 ### Enero de 2024 {#jan-2024}
 
