@@ -6,10 +6,10 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 834d6c02536187b348842e6d524c4a83d02b355d
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+workflow-type: tm+mt
+source-wordcount: '2558'
+ht-degree: 99%
 
 ---
 
@@ -107,8 +107,9 @@ ht-degree: 100%
          + [Conexión con Salesforce.com](platform/using/crm-sfdc.md)
          + [Sincronización de datos con el CRM](platform/using/crm-data-sync.md)
       + Conector de Adobe Analytics{#analytics-connector}
-         + [Aprovisionamiento del Conector de Adobe Analytics](platform/using/adobe-analytics-provisioning.md)
+         + [Introducción al conector de Adobe Analytics](platform/using/gs-aa.md)
          + [Integración del conector de Adobe Analytics](platform/using/adobe-analytics-connector.md)
+         + [Aprovisionamiento del Conector de Adobe Analytics](platform/using/adobe-analytics-provisioning.md)
          + [Migración al conector de Adobe Analytics](technotes/using/aa-connector-migration.md)
          + [Conectores de datos de Adobe Analytics](platform/using/adobe-analytics-data-connector-legacy.md)
    + [Opciones de ayuda y asistencia](support.md)

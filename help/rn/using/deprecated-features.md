@@ -7,8 +7,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: f3dc9d56c693f334923d627a28a9e45b92b1c0c3
-workflow-type: ht
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
       <tr>
   <td>Conector de datos de Adobe Analytics<br></td>
    <td><p>El conector de datos de Adobe Analytics se eliminó el 17 de agosto de 2022. Ya no se utiliza en la versión 21.1.3 de Campaign.</p>
-   <p>Si utiliza este conector, debe adaptar la implementación en consecuencia. <a href="../../platform/using/adobe-analytics-connector.md">Más información</a></p>
+   <p>Si utiliza este conector, debe adaptar la implementación en consecuencia. <a href="../../platform/using/gs-aa.md">Más información</a></p>
   </td>
  </tr>
     <tr>

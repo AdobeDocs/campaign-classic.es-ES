@@ -1,22 +1,22 @@
 ---
 product: campaign
-title: Web Analytics
+title: Análisis web
 description: Descubra más información sobre el paquete Web Analytics
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Analytics Integration
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 92%
 
 ---
 
 
-# Web Analytics{#web-analytics}
+# Análisis web{#web-analytics}
 
 
 
-Los flujos de trabajo detallados a continuación se instalan con el módulo **Conectores web de Analytics** de forma predeterminada. Para obtener más información sobre este módulo, consulte esta [sección](../../platform/using/adobe-analytics-connector.md).
+Los flujos de trabajo detallados a continuación se instalan con el módulo **Conectores web de Analytics** de forma predeterminada. Para obtener más información sobre este módulo, consulte esta [sección](../../platform/using/gs-aa.md).
 
 <table> 
  <tbody> 
@@ -33,7 +33,7 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **Co
   <tr> 
    <td> <span class="uicontrol">Identification of converted contacts</span> <br /> </td> 
    <td> <span class="uicontrol">webAnalyticsFindConverted</span><br /> </td> 
-   <td> Este flujo de trabajo lista a los visitantes del sitio que han finalizado su compra después de la campaña de remarketing. Los datos recopilados por este flujo de trabajo se pueden consultar en <span class="uicontrol">Re-marketing efficiency report</span> (consulte esta <a href="../../platform/using/adobe-analytics-connector.md#creating-a-re-marketing-campaign">página</a>). <br /> </td> 
+   <td> Este flujo de trabajo lista a los visitantes del sitio que han finalizado su compra después de la campaña de remarketing. Los datos recopilados por este flujo de trabajo se pueden consultar en la <span class="uicontrol">Informe de eficiencia de remarketing</span>. <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Event purge</span> <br /> </td> 

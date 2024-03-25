@@ -6,7 +6,7 @@ feature: Installation, Application Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 11%
@@ -193,7 +193,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Conectores de análisis web<br /> </td> 
-   <td> Permite que Adobe Campaign y Adobe Analytics interactúen mediante el paquete de conectores de Web Analytics. No compatible con mensajes transaccionales (paquete del centro de mensajes). <a href="../../platform/using/adobe-analytics-connector.md">Más información</a><br /> </td> 
+   <td> Permite que Adobe Campaign y Adobe Analytics interactúen mediante el paquete de conectores de Web Analytics. No compatible con mensajes transaccionales (paquete del centro de mensajes). <a href="../../platform/using/gs-aa.md">Más información</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 

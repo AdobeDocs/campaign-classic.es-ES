@@ -9,9 +9,9 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 59156851156338c9462781d31ce81a651362f2da
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '736'
 ht-degree: 100%
 
 ---
@@ -95,7 +95,7 @@ La siguiente tabla permite acceder a la documentación de integración de Experi
   </tr> 
   <tr> 
    <td> <strong>Conector de Adobe Analytics</strong><br /> </td> 
-   <td> El <strong>Conector de Adobe Analytics </strong> permite que Adobe Campaign y Adobe Analytics interactúen mediante segmentos en relación con el comportamiento del usuario tras una campaña de correo electrónico. A la inversa, envía indicadores y atributos de las campañas de correo electrónico que envía Adobe Campaign a Adobe Analytics.<br /> <p><a href="../../platform/using/adobe-analytics-connector.md">Obtenga más información</a> acerca de la integración de conectores Campaign - Analytics.</p><br /> </td> 
+   <td> El <strong>Conector de Adobe Analytics </strong> permite que Adobe Campaign y Adobe Analytics interactúen mediante segmentos en relación con el comportamiento del usuario tras una campaña de correo electrónico. A la inversa, envía indicadores y atributos de las campañas de correo electrónico que envía Adobe Campaign a Adobe Analytics.<br /> <p><a href="../../platform/using/gs-aa.md">Obtenga más información</a> acerca de la integración de conectores Campaign - Analytics.</p><br /> </td> 
   </tr> 
  </tbody> 
 </table>
