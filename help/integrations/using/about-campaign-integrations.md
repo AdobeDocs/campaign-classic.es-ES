@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
 source-git-commit: 59156851156338c9462781d31ce81a651362f2da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
 ht-degree: 100%
 
