@@ -7,7 +7,7 @@ exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -63,19 +63,19 @@ Este elemento permite definir un parámetro para llamar a un método SOAP.
    * datetime
    * datetimetz
    * datetimenotz
-   * date
+   * fecha
    * DOMocument
    * DOMElement
    * doble
    * enum
-   * float
+   * flotante
    * html
    * int64
    * vincular
    * largo
    * nota
    * MNTOKEN
-   * percent
+   * porcentaje
    * clave principal
    * corto
    * cadena

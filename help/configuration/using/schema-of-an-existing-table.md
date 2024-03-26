@@ -9,7 +9,7 @@ exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
@@ -30,7 +30,7 @@ Cuando la aplicación necesite acceder a los datos de una tabla, una vista SQL o
 Para crear el esquema correspondiente, aplique las siguientes fases:
 
 1. Edite el **[!UICONTROL Administration>Configuration>Data schemas]** del árbol de Adobe Campaign y haga clic en **[!UICONTROL New]** .
-1. Seleccione la opción **[!UICONTROL Access data from an existing table or an SQL view]** y haga clic en **[!UICONTROL Next]** .
+1. Seleccione el **[!UICONTROL Access data from an existing table or an SQL view]** y haga clic en **[!UICONTROL Next]** .
 
    ![](assets/s_ncs_configuration_extand_a_schema.png)
 
@@ -44,7 +44,7 @@ Para crear el esquema correspondiente, aplique las siguientes fases:
 
    El esquema debe rellenarse con el atributo view=&quot;true&quot; en `<srcSchema>` elemento raíz para no generar una secuencia de comandos SQL de creación de tabla.
 
-**Por ejemplo** :
+**Ejemplo** :
 
 ```
 <srcSchema name="recipient" namespace="cus" view="true">

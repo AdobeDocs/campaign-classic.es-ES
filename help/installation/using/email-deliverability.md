@@ -4,15 +4,15 @@ title: Configuración técnica de correo electrónico
 description: Obtenga información sobre cómo configurar Campaign para controlar la salida de las instancias al enviar correos electrónicos
 feature: Installation, Deliverability
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
-badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3048'
-ht-degree: 20%
+source-wordcount: '3100'
+ht-degree: 13%
 
 ---
 
@@ -148,11 +148,11 @@ Las reglas MX (Mail eXchanger) son las reglas que administran la comunicación e
 
 Estas reglas se vuelven a cargar automáticamente cada mañana a las 6 a. m. (hora del servidor) para proporcionar regularmente la instancia de cliente.
 
-Según las capacidades materiales y la política interna, un ISP acepta una cantidad predefinida de conexiones y mensajes por hora. El sistema ISP puede modificar estas variables automáticamente según la reputación de la IP y el dominio del remitente. Mediante su plataforma de envío, Adobe Campaign administra más de 150 reglas específicas del ISP y, además, una regla genérica para otros dominios.
+Según las capacidades materiales y la política interna, un ISP aceptará un número predefinido de conexiones y mensajes por hora. El sistema ISP puede modificar automáticamente estas variables en función de la reputación de la IP y del dominio de envío. Mediante su plataforma de envío, Adobe Campaign administra más de 150 reglas específicas del ISP y, además, una regla genérica para otros dominios.
 
 El número máximo de conexiones no depende exclusivamente del número de direcciones IP públicas que utiliza el MTA.
 
-Por ejemplo, si ha permitido 5 conexiones en las reglas MX y ha configurado 2 direcciones IP públicas, puede pensar que no puede tener más de 10 conexiones abiertas simultáneamente en este dominio. Esto no es así, en realidad el número máximo de conexiones se refiere a una ruta y a una ruta que combine una de nuestras IP públicas de MTA y una IP pública del MTA del cliente.
+Por ejemplo, si ha permitido 5 conexiones en las reglas MX y ha configurado 2 direcciones IP públicas, puede pensar que no puede tener más de 10 conexiones abiertas simultáneamente a este dominio. Esto no es así, en realidad el número máximo de conexiones se refiere a una ruta y a una ruta que combine una de nuestras IP públicas de MTA y una IP pública del MTA del cliente.
 
 En el siguiente ejemplo, el usuario tiene dos direcciones IP públicas configuradas y el dominio es yahoo.com.
 
@@ -177,7 +177,7 @@ user:~ user$ host -t a mta5.am0.yahoodns.net
                 mta5.am0.yahoodns.net has address 98.138.112.35
 ```
 
-Para este registro, el usuario puede ponerse en contacto con 8 direcciones IP de pares. Como el usuario tiene 2 direcciones IP públicas, esto les proporciona 8 * 2 = 16 combinaciones para llegar a los servidores de correo de yahoo.com. Cada una de estas combinaciones se denomina path.
+Para este registro, el usuario puede contactar con 8 direcciones IP de igual a igual. Como el usuario tiene 2 direcciones IP públicas, esto les proporciona 8 * 2 = 16 combinaciones para llegar a los servidores de correo de yahoo.com. Cada una de estas combinaciones se denomina ruta.
 
 El segundo registro MX aparece como:
 
@@ -201,7 +201,7 @@ En total, tenemos 16 direcciones IP remotas. En combinación con nuestras 2 IP p
 >
 >Si 2 registros MX hacen referencia a la misma dirección IP, esta cuenta como una ruta en lugar de dos.
 
-A continuación se muestran algunos ejemplos de uso de las reglas MX:
+A continuación se muestran algunos ejemplos de uso de reglas MX:
 
 ![](assets/s_ncs_examples_mx_rules.png)
 
@@ -232,7 +232,7 @@ Para volver a cargar la configuración sin reiniciar el servidor de estadística
 
 >[!NOTE]
 >
->Se prefiere esta línea de comando a **nlserver restart**. Evita que las estadísticas recopiladas antes del reinicio se pierdan y evita los picos en uso que pueden ir contra las cuotas definidas en las reglas MX.
+>Esta línea de comandos es preferible a **nlserver restart**. Evita que las estadísticas recopiladas antes del reinicio se pierdan y evita los picos en uso que pueden ir contra las cuotas definidas en las reglas MX.
 
 ### Configuración de reglas MX {#configuring-mx-rules}
 
@@ -265,7 +265,7 @@ Los siguientes parámetros disponibles para cada regla son:
   gmail.com mail exchanger = 30 alt3.gmail-smtp-in.l.google.com.
   ```
 
-  En este caso, la regla MX `*.google.com` se utilizará. Como puede ver, la máscara de regla MX no necesariamente coincide con el dominio del mensaje. Las reglas MX aplicadas a las direcciones de correo electrónico de gmail.com son las que tienen la máscara `*.google.com`.
+  En este caso, la regla MX `*.google.com` se utilizará. Como puede ver, la máscara de regla MX no coincide necesariamente con el dominio del correo. Las reglas MX aplicadas para las direcciones de correo electrónico gmail.com serán las que tengan la máscara `*.google.com`.
 
 * **[!UICONTROL Range of identifiers]**: esta opción permite indicar los rangos de identificadores (publicID) para los que se aplica la regla. Puede especificar:
 
@@ -276,11 +276,11 @@ Los siguientes parámetros disponibles para cada regla son:
   >
   >Si el campo está vacío, la regla se aplica a todos los identificadores.
 
-  Una ID pública es un identificador interno de una IP pública utilizada por uno o varios MTA. Estas ID se definen en los servidores MTA del archivo **config-instance.xml**.
+  Un ID público es un identificador interno de una IP pública que utilizan uno o varios MTA. Estas ID se definen en los servidores MTA del archivo **config-instance.xml**.
 
   ![](assets/s_ncs_install_mta_ips.png)
 
-* **[!UICONTROL Shared]**: define el ámbito de las propiedades de esta regla MX. Cuando se activa, todos los parámetros se comparten en todas las direcciones IP disponibles en la instancia. Cuando se anula la selección, las reglas MX se definen para cada IP. El número máximo de mensajes se multiplica por el número de direcciones IP disponibles.
+* **[!UICONTROL Shared]**: define el ámbito de las propiedades de esta regla MX. Cuando se selecciona, todos los parámetros se comparten en todas las direcciones IP disponibles en la instancia. Cuando no está marcada, las reglas MX se definen para cada IP. El número máximo de mensajes se multiplica por el número de direcciones IP disponibles.
 * **[!UICONTROL Maximum number of connections]**: número máximo de conexiones simultáneas a con el dominio del remitente.
 * **[!UICONTROL Maximum number of messages]**: número máximo de mensajes que se pueden enviar en una conexión. Cuando los mensajes superan este número, la conexión se cierra y se abre una nueva.
 * **[!UICONTROL Messages per hour]**: número máximo de mensajes que se pueden enviar en una hora al dominio del remitente.
@@ -396,14 +396,14 @@ Los parámetros son los siguientes:
 
 En el ejemplo anterior, con condiciones normales, las direcciones se distribuyen de la siguiente manera:
 
-    * &quot;1&quot;: 5 / (5+5+1) = 45%
-    * &quot;2&quot;: 5 / (5+5+1) = 45%
-    * &quot;3&quot;: 1 / (5+5+1) = 10%
+    * &quot;1&quot;: 5 / (5+5+1) = 45 %
+    * &quot;2&quot;: 5 / (5+5+1) = 45 %
+    * &quot;3&quot;: 1 / (5+5+1) = 10 %
 
 Si, por ejemplo, la primera dirección no se puede utilizar hacia un MX determinado, los mensajes se enviarán de la siguiente manera:
 
-    * &quot;2&quot;: 5 / (5+1) = 83%
-    * &quot;3&quot;: 1 / (5+1) = 17%
+    * &quot;2&quot;: 5 / (5+1) = 83 %
+    * &quot;3&quot;: 1 / (5+1) = 17 %
 
 * **includeDomains**: permite reservar esta dirección IP para correos electrónicos pertenecientes a un dominio específico. Esta es una lista de máscaras que pueden contener uno o más caracteres comodín (&#39;&#42;&#39;). Si no se especifica el atributo, todos los dominios pueden utilizar esta dirección IP.
 

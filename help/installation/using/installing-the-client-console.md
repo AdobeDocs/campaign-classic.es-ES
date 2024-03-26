@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Instalación de la consola del cliente
+title: Instalación de la consola de cliente
 description: Obtenga información sobre cómo instalar la consola de cliente
 feature: Installation, Upgrade
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
@@ -10,8 +10,8 @@ topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 6%
+source-wordcount: '1131'
+ht-degree: 3%
 
 ---
 
@@ -145,7 +145,7 @@ Puede añadir tantas conexiones como sea necesario para conectarse a los entorno
 
 >[!NOTE]
 >
->El botón **[!UICONTROL Add]** permite crear **[!UICONTROL folders]** para organizar todas las conexiones. Basta con arrastrar y colocar cada conexión en una carpeta.
+>El **[!UICONTROL Add]** El botón permite crear **[!UICONTROL folders]** para organizar todas las conexiones. Basta con arrastrar y colocar cada conexión en una carpeta.
 
 ### Iniciar sesión en Adobe Campaign
 
@@ -157,7 +157,7 @@ Para iniciar sesión en una instancia existente, siga los pasos a continuación:
 
 1. Seleccione la instancia de Campaign en la que debe iniciar sesión.
 
-1. Haga clic en **[!UICONTROL Ok]**
+1. Clic **[!UICONTROL Ok]**
 
 1. Introduzca las credenciales de inicio de sesión del usuario y haga clic en **[!UICONTROL Log in]**
 

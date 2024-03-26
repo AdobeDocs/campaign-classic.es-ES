@@ -10,8 +10,8 @@ topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1767'
-ht-degree: 75%
+source-wordcount: '1636'
+ht-degree: 67%
 
 ---
 
@@ -87,15 +87,15 @@ La cuenta externa Teradata permite conectar la instancia de Campaign a la base d
 
    * **[!UICONTROL Type]**: elija el **[!UICONTROL Teradata]** escriba.
 
-   * **[!UICONTROL Server]**: URL o nombre del servidor Teradata
+   * **[!UICONTROL Server]**: URL o nombre del servidor de Teradata
 
-   * **[!UICONTROL Account]**: Nombre de la cuenta utilizada para acceder a la base de datos Teradata
+   * **[!UICONTROL Account]**: Nombre de la cuenta utilizada para acceder a la base de datos de Teradata
 
-   * **[!UICONTROL Password]**: Contraseña utilizada para conectarse a la base de datos Teradata
+   * **[!UICONTROL Password]**: Contraseña utilizada para conectarse a la base de datos de Teradata
 
    * **[!UICONTROL Database]**: Nombre de la base de datos (opcional)
 
-   * **[!UICONTROL Options]**: Opciones que pasan por Teradata. Utilice el siguiente formato: &#39;parameter=value&#39;. Utilice un punto y coma como separador entre valores.
+   * **[!UICONTROL Options]**: opciones que se pasan por la Teradata. Utilice el siguiente formato: &#39;parameter=value&#39;. Utilice un punto y coma como separador entre valores.
 
    * **[!UICONTROL Timezone]**: Zona horaria definida en Teradata. [Más información](#timezone)
 
@@ -106,7 +106,7 @@ El conector admite las siguientes opciones:
 | TD_MAX_SESSIONS | Especifica el número máximo de sesiones de inicio de sesión que puede adquirir el Transportador paralelo de Teradata para un trabajo de operador. |
 | TimeZoneName | Nombre de la zona horaria del servidor. |
 | CharacterSet | Se utiliza para configurar el conjunto de caracteres de la Teradata. <br>[Para obtener más información, consulte esta página](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/Configuration-of-odbc.ini-in-UNIX/Linux-and-Apple-OS-X/Teradata-DSN-Options#rub1478609534082__table_N102D3_N102B6_N102B3_N10001). |
-| IANAppCodePage | Página de códigos de la aplicación ODBC. <br>[Para obtener más información, consulte esta página](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page) |
+| IANAppCodePage | Página de códigos de la aplicación ODBC. <br>Para obtener más información, consulte [esta página](https://docs.teradata.com/r/ODBC-Driver-for-Teradata-User-Guide/May-2017/ODBC-Driver-for-Teradata-Application-Development/International-Character-Set-Support/Application-Code-Page) |
 
 ### Agregar cuentas externas ODBC adicionales {#add-external}
 
@@ -140,11 +140,11 @@ Para configurar Query banding, siga los pasos a continuación:
 
 1. Marque la casilla **[!UICONTROL Active]** para activar esta función.
 
-#### Solución de problemas de cuentas externas {#external-account-troubleshooting}
+#### Solución de problemas de cuenta externa {#external-account-troubleshooting}
 
 Si aparece el siguiente error al probar la conexión **TIM-030008 Date &#39;2&#39;: missing character(s) (iRc=-53)** asegúrese de que el controlador ODBC esté correctamente instalado y de que LD_LIBRARY_PATH (Linux)/PATH (Windows) está configurado para el servidor de Campaign.
 
-Error de ODBC **ODB-240000: [no se encontró el nombre del origen de datos de Microsoft][ODBC Driver Manager] y no se especificó ningún controlador predeterminado.** se produce con Windows si se utiliza un controlador 16.X. Adobe Campaign espera que el nombre de Teradata sea &#39;{teradata}&#39; en odbcinst.ini.
+Error de ODBC **ODB-240000: [no se encontró el nombre del origen de datos de Microsoft][ODBC Driver Manager] y no se especificó ningún controlador predeterminado.** se produce con Windows si se utiliza un controlador 16.X. Adobe Campaign espera que la teradata se llame &#39;{teradata}&#39; en odbcinst.ini.
 
 * A partir de Campaign 18.10, puede agregar ODBCDriverName=&quot;Teradata Database ODBC Driver 16.10&quot; en las opciones de la cuenta externa. El número de versión puede cambiar, y se puede encontrar el nombre exacto ejecutando odbcad32.exe y accediendo a la pestaña Controladores.
 
@@ -173,7 +173,7 @@ Starting from Adobe Campaign Classic 17.9, we now support by default Teradata da
 Customers with a Latin-1 Teradata database migrating to a recent Campaign Classic release will have to add the parameter APICharSize=1 in the options of the external account.
 -->
 
-### Configuración del usuario {#user-configuration}
+### Configuración de usuario {#user-configuration}
 
 Se requieren los siguientes derechos en la base de datos externa: procedimientos personalizados create/drop/execute y tablas create/drop/insert/select. También es posible que tenga que crear funciones de modo de usuario si desea utilizar las funciones md5 y sha2 en la instancia de Adobe Campaign.
 
@@ -287,7 +287,7 @@ Para instalar el controlador ODBC:
 
 1. Ejecute setup_wrapper.sh.
 
-### Instalación de herramientas y utilidades de Teradata {#teradata-tools-installation}
+### Instalación de herramientas y utilidades de teradata {#teradata-tools-installation}
 
 Para instalar las herramientas:
 

@@ -8,8 +8,8 @@ feature: Email
 role: User, Developer, Data Engineer
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '912'
+workflow-type: tm+mt
+source-wordcount: '915'
 ht-degree: 100%
 
 ---
@@ -96,7 +96,7 @@ Además del modo predeterminado, también están disponibles las siguientes opci
 
 * **[!UICONTROL Force the generation of the mirror page]**: Incluso si no se inserta ningún vínculo a la página espejo en el envío, esta se creará.
 * **[!UICONTROL Do not generate the mirror page]**: No se genera ninguna página espejo, aunque el vínculo esté presente en el envío.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: Esta opción permite acceder al contenido de la página espejo, con información de personalización, en la ventana de registro de envío. Para ello, tras finalizar la entrega, haga clic en la pestaña **[!UICONTROL Delivery]** y seleccione la línea del destinatario cuya página duplicada desee ver. Haga clic en el vínculo **[!UICONTROL Display the mirror page for this message...]**.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: Esta opción permite acceder al contenido de la página espejo, con información de personalización, en la ventana de registro de envío. Para ello, tras finalizar la entrega, haga clic en la pestaña **[!UICONTROL Delivery]** y seleccione la línea del destinatario cuya página espejo desee ver. Haga clic en el vínculo **[!UICONTROL Display the mirror page for this message...]**.
 
   ![](assets/s_ncs_user_wizard_miror_page_link.png)
 

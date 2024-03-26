@@ -4,15 +4,15 @@ title: Configuración de Campaign Tomcat
 description: Configuración de Campaign Tomcat
 feature: Installation, Instance Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
-badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 9%
+source-wordcount: '293'
+ht-degree: 5%
 
 ---
 
@@ -56,7 +56,7 @@ Si es necesario, esta operación se puede reproducir en el servidor.
 
 ## Ocultar el informe de errores de Tomcat {#hide-tomcat-error-report}
 
-Por motivos de seguridad, le recomendamos encarecidamente que oculte el informe de errores de Tomcat. Estos son los pasos.
+Por motivos de seguridad, le recomendamos encarecidamente que oculte el informe de errores de Tomcat. Aquí están los pasos.
 
 1. Abra el **server.xml** archivo ubicado en el **/tomcat-8/conf** directorio de la carpeta de instalación de Adobe Campaign:  `/usr/local/neolane/nl6/tomcat-8/conf`
 1. Agregue el siguiente elemento en la parte inferior después de todos los elementos de contexto existentes:

@@ -10,12 +10,12 @@ topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 73%
+source-wordcount: '742'
+ht-degree: 69%
 
 ---
 
-# Configurar el acceso a Azure Synapse {#configure-access-to-azure-synapse}
+# Configuración del acceso al Azure synapse {#configure-access-to-azure-synapse}
 
 
 
@@ -24,7 +24,7 @@ Uso de Campaign [Acceso de datos federado](../../installation/using/about-fda.md
 1. Configuración del Azure synapse en [CentOS](#azure-centos), [Windows](#azure-windows) o [Debian](#azure-debian)
 1. Configuración del Azure synapse [cuenta externa](#azure-external) en Campaign
 
-## Azure Synapse en CentOS {#azure-centos}
+## Azure synapse en CentOS {#azure-centos}
 
 >[!CAUTION]
 >
@@ -107,7 +107,7 @@ Para configurar el Azure synapse en CentOS, siga los pasos a continuación:
    iptables -A OUTPUT -p tcp -d [server_hostname_here] --dport 1433 -j ACCEPT
    ```
 
-## Azure Synapse en Windows {#azure-windows}
+## Azure synapse en Windows {#azure-windows}
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ Para configurar Azure Synapse en Windows:
 
 1. Dado que Azure Synapse Analytics se comunica a través del puerto TCP 1433, debe abrir este puerto en Windows Defender Firewall. Para más información, consulte la [documentación de Windows](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-an-outbound-program-or-service-rule).
 
-## Azure Synapse en Debian {#azure-debian}
+## Azure synapse en Debian {#azure-debian}
 
 **Requisitos previos:**
 
@@ -194,7 +194,7 @@ Para configurar Azure Synapse en Debian:
 
 ## cuenta externa de azure synapse {#azure-external}
 
-La cuenta externa [!DNL Azure Synapse] permite conectar la instancia de Campaign a la base de datos externa Azure Synapse.
+El [!DNL Azure Synapse] una cuenta externa permite conectar la instancia de Campaign a la base de datos externa de Azure synapse.
 
 Para crear su [!DNL Azure Synapse] cuenta externa siga los pasos a continuación:
 

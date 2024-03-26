@@ -10,8 +10,8 @@ topic-tags: connectors
 exl-id: 39bfe775-e182-4a0b-ad3c-b7a901297c90
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 72%
+source-wordcount: '264'
+ht-degree: 71%
 
 ---
 

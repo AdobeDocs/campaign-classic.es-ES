@@ -21,7 +21,7 @@ Para crear un **[!UICONTROL List]** escriba list en función de la nueva tabla d
 
 Para obtener más información sobre las listas en Campaign, consulte [esta sección](../../platform/using/creating-and-managing-lists.md#about-lists-in-adobe-campaign).
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](../../platform/using/creating-and-managing-lists.md#create-list-in-a-wf-video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](../../platform/using/creating-and-managing-lists.md#create-list-in-a-wf-video)
 
 Para crear un flujo de trabajo de objetivos y actualizar los destinatarios en una tabla de destinatarios personalizada, siga los pasos a continuación:
 

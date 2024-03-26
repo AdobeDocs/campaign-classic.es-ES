@@ -11,7 +11,7 @@ topic-tags: starting-with-adobe-campaign
 exl-id: 8e308a9f-14a4-4a25-9fd0-8d4bdbcf74ce
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '567'
 ht-degree: 100%
 
 ---
@@ -58,7 +58,7 @@ Para más información sobre cómo crear un campo nuevo, consulte la [documentac
 
    ![](assets/privacy-ccpa-3.png)
 
-1. Haga clic en el nodo **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]** del explorador. En **[!UICONTROL Recipient (nms)]**, en Paquete general, añada un elemento `<input>` y use la ruta relativa definida en el paso 2 para el valor xpath. Para obtener más información sobre la identificación de un formulario, consulte [esta sección](../../configuration/using/identifying-a-form.md).
+1. Haga clic en el nodo **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]** de Explorer. En **[!UICONTROL Recipient (nms)]**, en Paquete general, añada un elemento `<input>` y use la ruta relativa definida en el paso 2 para el valor xpath. Para obtener más información sobre la identificación de un formulario, consulte [esta sección](../../configuration/using/identifying-a-form.md).
 
    ```
    <input  colspan="2" type="checkbox" xpath="@OPTOUTCCPA"/>

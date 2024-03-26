@@ -76,7 +76,7 @@ Puede enviar un mensaje al foro de un operador si, por ejemplo, el mensaje no es
 
 Para acceder al foro de un operador:
 
-* Si tiene los derechos necesarios para acceder al nodo del explorador **[!UICONTROL Administration > Access management > Operators]**, abra el panel del operador deseado y haga clic en el vínculo **[!UICONTROL Forum]** situado en la esquina superior derecha.
+* Si tiene los derechos necesarios para acceder al nodo de Explorer **[!UICONTROL Administration > Access management > Operators]**, abra el panel del operador deseado y haga clic en el vínculo **[!UICONTROL Forum]** situado en la esquina superior derecha.
 * Si no es así, busque el nombre del operador en Adobe Campaign (en un mensaje publicado en el foro por este operador, correspondiente a una tarea asignada a él) y haga clic en él para acceder a su tablero. También puede pedir al administrador que cree una vista de la carpeta del operador.
 
 ## Suscripción a un foro {#subscribing-to-a-forum}
@@ -112,6 +112,6 @@ Si los operadores suscritos a un foro no reciben notificaciones como se espera:
 * Ver los registros de envío:
 
    * En la página de inicio de Adobe Campaign, vaya a **[!UICONTROL Campaigns > Navigation > Deliveries]** y, a continuación, abra la entrega **[!UICONTROL Discussion forum notification]**.
-   * En el explorador, vaya a **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**, luego haga clic en **[!UICONTROL Discussion forum notifications]**.
+   * En Explorer, vaya a **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**, luego haga clic en **[!UICONTROL Discussion forum notifications]**.
 
   En el cuadro **[!UICONTROL Discussion forum notifications]**, los registros de envío se encuentran en la pestaña **[!UICONTROL Edit > Delivery]**. También puede ver las pestañas **[!UICONTROL Tracking > Log]** y **[!UICONTROL Exclusion causes]**.

@@ -7,7 +7,7 @@ feature: Workflows, Data Management
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '985'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Se utiliza la siguiente estructura de datos:
 Su objetivo es:
 
 * Para utilizar las distintas opciones de la actividad de enriquecimiento
-* Para actualizar los datos de la base de datos después de una conciliación
+* Para actualizar los datos de la base de datos después de una reconciliación
 * Para crear una “vista” global de los datos enriquecidos
 
 Para crear una lista de resumen, se debe seguir estos pasos:
@@ -38,7 +38,7 @@ Para crear una lista de resumen, se debe seguir estos pasos:
 1. Enriquecimiento de los datos de “Contactos” con un cálculo agregado de la tabla “Compras”.
 1. Creación de la lista de resumen
 
-## Paso 1: Cargue el archivo y concilie los datos importados {#step-1--loading-the-file-and-reconciling-the-imported-data}
+## Paso 1: Cargue el archivo y reconcilie los datos importados {#step-1--loading-the-file-and-reconciling-the-imported-data}
 
 Los datos que se desean cargar son aquellos relacionados con las “Compras” con el siguiente formato:
 
@@ -95,7 +95,7 @@ Añada la actividad de enriquecimiento y configúrela como se indica a continuac
 
 Para obtener más información sobre los distintos tipos de vínculos, consulte [Enriquecimiento y modificación de datos](targeting-data.md#enriching-and-modifying-data).
 
-En la siguiente ventana, se debe crear una condición de unión seleccionando el campo de origen (en el conjunto principal) y el campo de objetivo (perteneciente al esquema “Stores”) para configurar la conciliación de datos.
+En la siguiente ventana, se debe crear una condición de unión seleccionando el campo de origen (en el conjunto principal) y el campo de objetivo (perteneciente al esquema “Stores”) para configurar la reconciliación de datos.
 
 ![](assets/uc2_enrich_enrich4.png)
 
@@ -115,7 +115,7 @@ Los datos de la tabla de trabajo del flujo de trabajo después de este enriqueci
 
 Este paso detalla cómo escribir los datos importados y enriquecidos en la tabla “Purchases”. Para ello, se debe utilizar una actividad **Update data**.
 
-Se debe llevar a cabo una conciliación entre los datos de la tabla de trabajo del flujo de trabajo y del entorno de segmentación de **Purchases** antes de actualizar los datos en la tabla **Purchases**.
+Se debe llevar a cabo una reconciliación entre los datos de la tabla de trabajo del flujo de trabajo y del entorno de segmentación de **Purchases** antes de actualizar los datos en la tabla **Purchases**.
 
 1. En la actividad de enriquecimiento, haga clic en la pestaña **[!UICONTROL Reconciliation]**.
 1. Seleccione el entorno de segmentación, el esquema “Purchases” en este caso.

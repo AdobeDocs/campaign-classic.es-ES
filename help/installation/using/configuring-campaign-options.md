@@ -10,12 +10,12 @@ topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
 workflow-type: tm+mt
-source-wordcount: '4004'
-ht-degree: 9%
+source-wordcount: '3838'
+ht-degree: 1%
 
 ---
 
-# Lista de opciones de Campaign Classic{#configuring-campaign-options}
+# Lista de opciones del Campaign Classic{#configuring-campaign-options}
 
 El **[!UICONTROL Administration / Platform / Options]** permite configurar las opciones de Adobe Campaign. Algunos de ellos están integrados al instalar Campaign y otros se pueden añadir manualmente cuando sea necesario. Las opciones disponibles varían según los paquetes instalados con la instancia.
 
@@ -288,11 +288,11 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">NcmRessourcesDir</span> <br /> </td> 
-   <td> Ubicación de los recursos para su publicación en la consola del cliente de Adobe Campaign. Consulte <a href="../../delivery/using/formatting.md#image-referencing">esta sección</a>.<br /> </td> 
+   <td> Ubicación de los recursos para su publicación en la consola del cliente de Adobe Campaign. Consulte <a href="../../delivery/using/formatting.md#image-referencing">esta sección</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmRessourcesDirPreview</span> <br /> </td> 
-   <td> Ubicación de los recursos para la vista previa en la consola del cliente de Adobe Campaign. Consulte <a href="../../delivery/using/formatting.md#image-referencing">esta sección</a>.<br /> </td> 
+   <td> Ubicación de los recursos para la vista previa en la consola del cliente de Adobe Campaign. Consulte <a href="../../delivery/using/formatting.md#image-referencing">esta sección</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_DefaultIgnoredImage</span> <br /> </td> 
@@ -300,7 +300,7 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImagePublishing</span> </td> 
-   <td> Configuración de la carga de imagen. Los valores pueden ser none / tracking / script / list (puede anularse mediante la configuración opcional del operador). </td> 
+   <td> Configuración de la carga de imágenes. Los valores pueden ser none / tracking / script / list (puede anularse mediante la configuración opcional del operador). </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImageSubDirectory</span> <br /> </td> 
@@ -336,7 +336,7 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkFileRes_Public_URL</span> <br /> </td> 
-   <td> Nuevo URL para archivos de recurso público.<br /> </td> 
+   <td> Nueva URL para archivos de recursos públicos.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -515,7 +515,7 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventErrorWarning</span> <br /> </td> 
-   <td> Umbral de advertencia para el procesamiento de errores de eventos en tiempo real.<br /> </td> 
+   <td> Umbral de advertencia para procesar errores de eventos en tiempo real.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">MC_RtEventMaxQueueAlert</span> <br /> </td> 
@@ -564,7 +564,7 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
  </tbody> 
 </table>
 
-## Database {#database}
+## Base de datos {#database}
 
 <table> 
  <thead> 
@@ -733,7 +733,7 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
-   <td> Esta opción se utiliza al importar datos de un sistema de terceros a través de un conector CRM. La activación de la opción  solo permite recopilar objetos modificados desde la última importación. Esta opción debe crearse manualmente y rellenarse de la siguiente manera: 
+   <td> Esta opción se utiliza al importar datos de un sistema de terceros a través de un conector CRM. La activación de la opción solo permite recopilar objetos modificados desde la última importación. Esta opción debe crearse manualmente y rellenarse de la siguiente manera: 
     <ul> 
      <li> <p> <span class="uicontrol">Nombre interno</span> : LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
      <li> <p> <span class="uicontrol">Valor (campo)</span> : fecha de la última importación, con el DD/MM/yyyy hh:mm:formato ss. </p> </li> 
@@ -745,7 +745,7 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_TenantName</span> <br /> </td> 
-   <td> Nombre de la organización de Adobe Target. Este valor corresponde al nombre de Client de Adobe Target.<br /> Consulte <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">esta sección</a>.<br /> </td> 
+   <td> Nombre de la organización Adobe Target. Este valor corresponde al nombre de Adobe Target Client.<br /> Consulte <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">esta sección</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM ID_Fuente_datosDeDatos</span> <br /> </td> 
@@ -872,7 +872,7 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_OpenFormula</span> <br /> </td> 
-   <td> Abierto script de cálculo de URL.<br /> </td> 
+   <td> Abra el script de cálculo de URL.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsTracking_Password</span> <br /> </td> 
@@ -1047,7 +1047,7 @@ El **[!UICONTROL Administration / Platform / Options]** permite configurar las o
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_ServersMode</span> <br /> </td> 
-   <td> Opción que permite especificar el modo de invalidación de los formularios web: local de forma predeterminada, utiliza servidores de seguimiento si la opción es “seguimiento” y utiliza una lista personalizada con la opción “otros servidores”.<br /> </td> 
+   <td> Opción que permite especificar el modo de invalidación de los formularios web: local de forma predeterminada, utiliza servidores de seguimiento si la opción es "seguimiento" y utiliza una lista personalizada con la opción "otros servidores".<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkWebForm_ServersURLs</span> <br /> </td> 

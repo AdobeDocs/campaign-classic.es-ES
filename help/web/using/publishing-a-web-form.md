@@ -7,7 +7,7 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 source-git-commit: 8bb839bd0118010ac8e3e4bde88f6f3972786ed0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1287'
 ht-degree: 100%
 

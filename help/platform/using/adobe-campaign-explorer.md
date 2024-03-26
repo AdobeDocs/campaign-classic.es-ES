@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Uso del explorador de Adobe Campaign
-description: Aprenda a utilizar el explorador de Campaign
+title: Uso de Adobe Campaign Explorer
+description: Aprenda a utilizar Campaign Explorer
 feature: Overview
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: platform
@@ -10,16 +10,16 @@ topic-tags: starting-with-adobe-campaign
 exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '454'
 ht-degree: 100%
 
 ---
 
-# Uso del explorador de Adobe Campaign {#using-adobe-campaign-explorer}
+# Uso de Adobe Campaign Explorer {#using-adobe-campaign-explorer}
 
 
 
-Es posible acceder al explorador de Adobe Campaign mediante el icono de la barra de herramientas. Le permite acceder a todas las funcionalidades de Adobe Campaign, a las pantallas de configuración y a una vista más detallada de algunos de los elementos de la plataforma.
+Es posible acceder a Adobe Campaign Explorer mediante el icono de la barra de herramientas. Le permite acceder a todas las funcionalidades de Adobe Campaign, a las pantallas de configuración y a una vista más detallada de algunos de los elementos de la plataforma.
 
 El espacio de trabajo de **[!UICONTROL Explorer]** se divide en tres zonas:
 

@@ -8,8 +8,8 @@ feature: Monitoring, Deliverability, Troubleshooting
 role: User
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '803'
+workflow-type: tm+mt
+source-wordcount: '804'
 ht-degree: 100%
 
 ---

@@ -9,11 +9,11 @@ exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
-# Introducción al modelo de datos de Campaign {#about-data-model}
+# Introducción al modelo de datos de Campaign{#about-data-model}
 
 El modelo de datos conceptuales de la base de datos de Adobe Campaign consta de un conjunto de tablas integradas y su interacción. En esta página se enumeran las tablas y los conceptos principales.
 
@@ -62,7 +62,7 @@ Sin embargo, es posible ampliar la tabla de destinatarios, pero no reducir el n�
 
 Además, como la tabla Destinatario forma parte del producto, tanto la tabla como su formulario asociado evolucionan a medida que cambia el producto. Por lo tanto, se necesita mantenimiento adicional para comprobar que cualquier extensión sigue siendo válida tras la actualización.
 
-## Extensión del modelo de datos {#extending-data-model}
+## Ampliación del modelo de datos {#extending-data-model}
 
 Al comenzar con Adobe Campaign, debe evaluar el modelo de datos predeterminado para comprobar qué tabla es la más adecuada para almacenar los datos de marketing.
 
@@ -79,7 +79,7 @@ Para obtener más información sobre la configuración de esquemas de extensión
 >
 >La ampliación del modelo de datos está reservada para usuarios avanzados.
 
-## Uso de una lista de destinatarios personalizada {#custom-recipient-table}
+## Uso de una tabla de destinatarios personalizada {#custom-recipient-table}
 
 Al diseñar el modelo de datos de Adobe Campaign, puede utilizar el [tabla de destinatarios integrada](#default-recipient-table), o decida crear una [tabla de destinatarios personalizada](../../configuration/using/about-custom-recipient-table.md) para almacenar sus perfiles de marketing.
 

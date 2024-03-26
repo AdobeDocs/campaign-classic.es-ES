@@ -7,8 +7,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 source-git-commit: a2106e55617209f28da42c50008d16188563b2da
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 15%
+source-wordcount: '812'
+ht-degree: 12%
 
 ---
 
@@ -184,4 +184,4 @@ Para proteger las páginas, siga estos pasos:
 
 ## Solicitudes de privacidad
 
-Consulte [esta página](../../platform/using/privacy-management.md) para obtener información general sobre qué es la administración de privacidad y sus pasos de implementación en Adobe Campaign. También encontrará recomendaciones e información general del proceso y de los perfiles del usuario.
+Consulte [esta página](../../platform/using/privacy-management.md) para obtener información general sobre qué es la administración de privacidad y sus pasos de implementación en Adobe Campaign. También encontrará prácticas recomendadas y una descripción general del proceso y los perfiles del usuario.

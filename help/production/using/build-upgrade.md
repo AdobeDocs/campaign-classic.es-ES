@@ -4,15 +4,15 @@ title: Introducción a las actualizaciones de versiones
 description: Conozca los pasos clave para actualizar a una nueva compilación
 feature: Monitoring, Upgrade
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
-badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2380'
-ht-degree: 5%
+source-wordcount: '2330'
+ht-degree: 3%
 
 ---
 
@@ -209,7 +209,7 @@ Es necesario reiniciar los siguientes servicios:
 
 ### Actualización de consolas de cliente
 
-La consola de cliente debe estar en la misma compilación que la instancia de servidor.
+La consola de cliente debe tener la misma compilación como instancia de servidor.
 
 En el equipo donde está instalado el servidor de aplicaciones de Adobe Campaign (nlserverweb), descargue y copie el archivo:
 
@@ -231,7 +231,7 @@ Cuando la mensajería transaccional (centro de mensajes) está habilitada en la 
 1. Ejecute los scripts posteriores a la actualización.
 1. Ejecute pruebas y asegúrese de que los correos electrónicos se reciben correctamente a través de la instancia de producción del Centro de mensajes.
 1. Actualizar clientes y borrar la caché.
-1. Exportación de paquetes:
+1. Exportar paquetes:
    * Exportación de paquetes mediante la herramienta de exportación de paquetes de cliente
    * Importar paquete de esquema
    * Desconexión y reconexión del cliente

@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: Requisitos previos para la instalación de Campaign en Linux
+title: Requisitos previos para Campaign instalación en Linux
 description: Requisitos previos para la instalación de Campaign en Linux
 feature: Installation, Instance Settings
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
-badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 4%
+source-wordcount: '923'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 ## Requisitos previos de software {#software-prerequisites}
 
-En esta sección se detallan los pasos de configuración preliminares necesarios para instalar Adobe Campaign.
+Esta sección detalla los pasos preliminares de configuración necesarios antes de instalar Adobe Campaign.
 
 La configuración técnica y de software necesaria para instalar Adobe Campaign se detalla en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 
@@ -43,9 +43,9 @@ Como recordatorio, los siguientes componentes deben instalarse y configurarse co
 
 Para instalar Adobe Campaign en Linux, asegúrese de que dispone de las bibliotecas requeridas.
 
-* La biblioteca C debe poder admitir el modo TLS (almacenamiento local de subprocesos). Este modo está activo en la mayoría de los casos, excepto con algunos kernels para los que se ha desactivado la compatibilidad con Xen.
+* La biblioteca C debe ser compatible con el modo TLS (almacenamiento local de subprocesos). Este modo está activo en la mayoría de los casos, excepto con algunos núcleos para los que se ha desactivado el soporte de Xen.
 
-  Para comprobarlo, puede utilizar el **comando uname-a | grep Xen** , por ejemplo.
+  Para comprobar esto, puede utilizar el **comando uname -a | grep xen** , por ejemplo.
 
   Si el comando no devuelve nada (línea vacía), significa que la configuración es correcta.
 
@@ -53,15 +53,15 @@ Para instalar Adobe Campaign en Linux, asegúrese de que dispone de las bibliote
 
   Para las distribuciones RHEL 7/8, se requiere la versión 1.0 de OpenSSL.
 
-* Para utilizar Adobe Campaign, debe tener **instalado libicu** biblioteca.
+* Para usar Adobe Campaign, debe tener instalada la **biblioteca libicu** .
 
-  Se admiten las siguientes versiones de **libicu** (32 bits o 64 bits):
+  Las siguientes versiones de **libicu** son compatibles (32 bits o 64 bits):
 
-   * RHEL 7/8, aclibicu50 7:
+   * RHEL 7/8, CentOS 7: libicu50
    * Debian 8: libicu52
    * Debian 9: libicu57
 
-  Para utilizar Adobe Campaign, debe tener instalado libc-áreas biblioteca. En RHEL/CentOS, ejecute el siguiente comando:
+  Para utilizar Adobe Campaign, debe tener instalada la biblioteca libc-ares. En RHEL/CentOS, ejecute el siguiente comando:
 
   ```
   yum install c-ares
@@ -103,7 +103,7 @@ SELINUX=disabled
 
 ### Fuentes para estadísticas de MTA {#fonts-for-mta-statistics}
 
-Para que los informes sobre las estadísticas de MTA (NMS/FRA/JSP/stat. jsp) se muestren correctamente, agregue fuentes.
+Para que los informes sobre las estadísticas de MTA (NMS/FRA/JSP/stat.jsp) se muestren correctamente, agregue fuentes.
 
 En Debian, añada el comando:
 
@@ -125,7 +125,7 @@ En Redhat, utilice el siguiente comando:
   dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
   ```
 
-### Fuentes para instancias de Japonés {#fonts-for-japanese-instances}
+### Fuentes para instancias Japonés {#fonts-for-japanese-instances}
 
 Se necesitan fuentes de caracteres específicos para las instancias japonesas a fin de exportar los informes al formato de PDF.
 
@@ -167,13 +167,13 @@ Para Debian, se requieren las siguientes configuraciones:
 
 ### Instalación de LibreOffice para CentOS {#installing-libreoffice-for-centos}
 
-Las siguientes configuraciones son necesarias con la de la:
+Las siguientes configuraciones son necesarias con CentOS:
 
 ```
 yum install libreoffice-headless libreoffice-writer libreoffice-calc
 ```
 
-## Capas de acceso a bases de datos {#database-access-layers}
+## Capas de acceso a base de datos {#database-access-layers}
 
 Las capas de acceso para el motor de base de datos que utilice deben estar instaladas en el servidor y ser accesibles a través de la cuenta de Adobe Campaign. Las versiones y los modos de instalación pueden variar según el motor de base de datos utilizado.
 
@@ -183,15 +183,15 @@ Compruebe también la información general [Base de datos](../../installation/us
 
 ### PostgreSQL {#postgresql}
 
-Adobe Campaign es compatible con todas las versiones de la bibliotecas del cliente PostgreSQL de la versión 7,2: ( **libpq. por ejemplo, 5** , **libpq. por ejemplo: 4** , libpq. por ejemplo, **etc. 3.2** y **libpq. por ejemplo. 3.1** ).
+Adobe Campaign admite todas las versiones del bibliotecas cliente PostgreSQL a partir de la versión 7.2: (libpq.so.5, libpq.so.4 **,** libpq.so.3.2 **y** libpq.so.3.1 **).******
 
-El uso de PostgreSQL con Adobe Campaign también requiere la instalación de los bibliotecas de pgcrypto **correspondientes** .
+El uso de PostgreSQL con Adobe Campaign también requiere la instalación del bibliotecas pgcrypto **correspondiente**.
 
 ### Oracle {#oracle}
 
-Recupere la versión biblioteca para 64-bit Debian, por ejemplo: **libclntsh.so** , libclntsh. por ejemplo, **11.1** y **libclntsh. so. 10.1** .
+Recupere la versión biblioteca para Debian de 64 bits, es decir: **libclntsh.so**, **libclntsh.so.11.1** y **libclntsh.so.10.1**.
 
-Puede obtener un paquete de Linux RPM desde la red tecnológica de Oracle.
+Puede obtener un paquete RPM de Linux de Oracle Technology Network.
 
 >[!NOTE]
 >
@@ -217,7 +217,7 @@ Si observa en la consola del cliente que hay retrasos inesperados (una o más ho
 
 ### DB2 {#db2}
 
-La versión de biblioteca admitida es **libdb2.so** .
+La versión biblioteca admitida es **libdb2.so**.
 
 ## Pasos de implementación {#implementation-steps}
 
@@ -225,7 +225,7 @@ Las instalaciones de Adobe Campaign para Linux deben llevarse a cabo en la sigui
 
 El proceso de instalación se describe en este capítulo. Los pasos de instalación son los siguientes:
 
-* Paso 1: instalación del servidor de aplicación, consulte [ instalación de paquetes con Linux ](../../installation/using/installing-packages-with-linux.md) .
-* Paso 2: integración con un servidor Web (opcional, según los componentes implementados).
+* Paso 1: Instalación del servidor aplicación, consulte Instalación [de paquetes con Linux](../../installation/using/installing-packages-with-linux.md).
+* Paso 2: Integración con un servidor web (opcional, según los componentes implementados).
 
-Una vez completados los pasos de la instalación, debe configurar las instancias, la base de datos y el servidor. Para obtener más información, consulte [ acerca de la configuración ](../../installation/using/about-initial-configuration.md) inicial.
+Una vez completados los pasos de instalación, debe configurar las instancias, la base de datos y el servidor. Para obtener más información, consulte [Acerca de la configuración](../../installation/using/about-initial-configuration.md) inicial.

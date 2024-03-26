@@ -11,8 +11,8 @@ topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3241'
-ht-degree: 100%
+source-wordcount: '3307'
+ht-degree: 99%
 
 ---
 
@@ -320,7 +320,7 @@ Siga estos pasos:
 
    Hay varios tipos de fórmulas disponibles: **[!UICONTROL Field only]**, **[!UICONTROL Aggregate]**, **[!UICONTROL Expression]**.
 
-   Seleccione **[!UICONTROL Process on an aggregate function]**, y **[!UICONTROL Count]**. Haga clic en **[!UICONTROL Next]**.
+   Seleccionar **[!UICONTROL Process on an aggregate function]**, y **[!UICONTROL Count]**. Haga clic en **[!UICONTROL Next]**.
 
    ![](assets/query_editor_nveau_54.png)
 

@@ -11,7 +11,7 @@ topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '822'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Para ello, siga los siguientes pasos:
 
 1. [Inserción de la oferta dinámica en un correo electrónico](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
 1. [Creación de ofertas de redireccionamiento](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
-1. [Creación de audiencias](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
+1. [Crear públicos](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
 1. [Creación de una actividad de segmentación de experiencias ](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
 1. [Vista previa y envío del correo electrónico](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
@@ -85,7 +85,7 @@ En este caso, necesitamos dos ofertas de redirección, la tercera (la predetermi
 
 1. Siga el mismo procedimiento para la oferta de redirección restante. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=es).
 
-## Creación de audiencias {#audiences-target}
+## Crear públicos {#audiences-target}
 
 En Target, debe crear las dos audiencias en las que se clasifican las personas que visitan la oferta para enviarles los diferentes contenidos. Para cada audiencia, añada una regla para definir quién puede ver la oferta.
 
@@ -105,7 +105,7 @@ En Target, debe crear las dos audiencias en las que se clasifican las personas q
 
 En Target, es necesario crear una actividad de segmentación de experiencias, definir las diferentes experiencias y asociarlas a las ofertas correspondientes.
 
-### Definición de la audiencia {#defining-the-audience}
+### Definición del público {#defining-the-audience}
 
 1. Para crear una actividad de segmentación de experiencias, en la pestaña **[!UICONTROL Activities]**, haga clic en **[!UICONTROL Create Activity]** y, a continuación, en **[!UICONTROL Experience Targeting]**.
 

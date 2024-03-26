@@ -9,8 +9,8 @@ hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 18%
+source-wordcount: '1110'
+ht-degree: 11%
 
 ---
 
@@ -101,7 +101,7 @@ Como cliente on-premise/híbrido, debe actualizar a una de las versiones más re
 
 Una vez actualizadas todas las instancias, la consola de cliente también debe actualizarse a esta versión.
 
-* Obtenga información sobre cómo acceder a [Adobe Software Distribution](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es).
+* Obtenga información sobre cómo acceder a [Distribución de software de Adobe](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es).
 
 * [Obtenga información sobre cómo instalar la consola del cliente de Campaign](../../installation/using/installing-the-client-console.md).
 
@@ -128,7 +128,7 @@ Una vez que las instancias se hayan actualizado a una versión más reciente, to
 
 Además, en el caso de entornos híbridos, los clientes deben asegurarse de que la canalización esté configurada en una instancia intermediaria. [Más información](../../integrations/using/configuring-pipeline.md).
 
-[Descubra más información sobre cómo migrar a Adobe I/O](../../integrations/using/configuring-adobe-io.md).
+[Descubra más información sobre cómo migrar al Adobe I/O](../../integrations/using/configuring-adobe-io.md).
 
 ## Actualizaciones de APNS {#acc-apns-updates}
 

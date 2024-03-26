@@ -32,7 +32,7 @@ Una vez configuradas las plantillas, se pueden iniciar operaciones de importaci�
 
   ![](assets/s_ncs_user_import_from_production.png)
 
-* Las importaciones y exportaciones también se pueden iniciar desde el explorador de Adobe Campaign.
+* Las importaciones y exportaciones también se pueden iniciar desde Adobe Campaign Explorer.
 
   ![](assets/s_ncs_user_export_wizard_launch_from_menu.png)
 

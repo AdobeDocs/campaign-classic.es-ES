@@ -10,8 +10,8 @@ topic-tags: connectors
 exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 74%
+source-wordcount: '356'
+ht-degree: 71%
 
 ---
 
@@ -78,13 +78,13 @@ La conexión a una base de datos externa de Oracle en FDA requiere ciertas confi
 
 1. En Campaign Classic, puede configurar la cuenta externa [!DNL Oracle]. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#oracle-external).
 
-## Cuenta externa de Oracle {#oracle-external}
+## cuenta externa de oracle {#oracle-external}
 
 El [!DNL Oracle] una cuenta externa permite conectar la instancia de Campaign a la base de datos externa de Oracle.
 
 1. Desde Campaign **[!UICONTROL Explorer]**, seleccione **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
-1. Elija **[!UICONTROL New]**.
+1. Elegir **[!UICONTROL New]**.
 
 1. Seleccione **[!UICONTROL External database]** como **[!UICONTROL Type]** de su cuenta externa.
 

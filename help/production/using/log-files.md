@@ -4,15 +4,15 @@ title: Archivos de registro
 description: Archivos de registro
 feature: Monitoring
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
-badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: c9d427da-6965-4945-90f0-d0770701d55e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 7%
+source-wordcount: '451'
+ht-degree: 6%
 
 ---
 
@@ -41,7 +41,7 @@ Los archivos de registro de varias instancias se enumeran en la siguiente tabla:
 | web.log | Registros del módulo web (consola de cliente, informes, API de SOAP, etc.) |
 | webmdl.log | Registros del módulo de redirección |
 | watchdog.log | Registros del módulo de monitorización de procesos de Adobe Campaign |
-| trackinglogd.log | Registros de seguimiento |
+| trackinglogd.log | “Logs” de seguimiento |
 
 Los archivos de registro de instancia mono se enumeran en la siguiente tabla:
 

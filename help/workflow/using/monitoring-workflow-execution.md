@@ -7,7 +7,7 @@ feature: Workflows
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '2023'
+source-wordcount: '2025'
 ht-degree: 100%
 
 ---
@@ -114,7 +114,7 @@ Cuando se produce un error, el flujo de trabajo se detiene y la actividad que se
 
 ![](assets/wf-global-view_filter_only_errors.png)
 
-En el explorador de Adobe Campaign, la lista de flujos de trabajo muestra una columna **[!UICONTROL Failed]** de forma predeterminada.
+En Adobe Campaign Explorer, la lista de flujos de trabajo muestra una columna **[!UICONTROL Failed]** de forma predeterminada.
 
 ![](assets/wf-explorer_errors_col.png)
 

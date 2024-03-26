@@ -128,7 +128,7 @@ Para las **campañas de colaboración**, la entidad central debe especificar el 
 
 ![](assets/s_advuser_mkg_dist_create_mutual_entry.png)
 
-### Audiencia {#audience}
+### Público {#audience}
 
 La entidad central debe especificar las entidades locales involucradas en cada campaña en cuanto se cree la campaña colaborativa.
 

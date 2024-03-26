@@ -23,7 +23,7 @@ Puede ocurrir que un destinatario no se considere apto para todas las ofertas. P
 
 Para incluir siempre una categoría en las recomendaciones, siga los siguientes pasos:
 
-1. Abra el explorador y haga clic en un catálogo de ofertas desde la estructura de árbol.
+1. Abra Explorer y haga clic en un catálogo de ofertas desde la estructura de árbol.
 1. Haga clic en la pestaña **[!UICONTROL Eligibility]** y marque la casilla **[!UICONTROL Always include this category in the recommendations]**.
 1. Finalice y apruebe haciendo clic en **[!UICONTROL Save]**.
 

@@ -11,7 +11,7 @@ topic-tags: audience-sharing
 exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '630'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Se pueden importar audiencias o segmentos a Adobe Campaign desde Audience Manager o el servicio principal Personas mediante las listas de destinatarios.
 
-1. Vaya al nodo **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Lists]** en el explorador de Adobe Campaign.
+1. Vaya al nodo **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Lists]** en Adobe Campaign Explorer.
 1. En la barra de acciones, seleccione **[!UICONTROL New]** > **[!UICONTROL Create a shared audience...]**.
 
    ![](assets/aam_import_audience.png)
@@ -43,7 +43,7 @@ Se pueden importar audiencias o segmentos a Adobe Campaign desde Audience Manage
 
 1. Guarde la audiencia.
 
-La audiencia se importa mediante un flujo de trabajo técnico. La lista importada contiene elementos que se pueden conciliar mediante la fuente de datos AMC. Los elementos no reconocidos por Adobe Campaign no se importan.
+La audiencia se importa mediante un flujo de trabajo técnico. La lista importada contiene elementos que se pueden reconciliar mediante la fuente de datos AMC. Los elementos no reconocidos por Adobe Campaign no se importan.
 
 El proceso de importación tarda en sincronizarse de 24 a 36 horas cuando los segmentos se importan directamente desde el servicio principal Personas o Audience Manager. Después de este periodo, puede encontrar y utilizar la nueva audiencia en Adobe Campaign.
 
@@ -85,4 +85,4 @@ La sincronización entre Adobe Campaign y el servicio principal Personas tarda d
 
 >[!NOTE]
 >
->Para poder conciliarlos, los registros deben tener una Adobe Experience Cloud ID (“ID de visitante” o “ID declarada”). Los registros sin Adobe Experience Cloud ID se omiten al exportar e importar audiencias.
+>Para poder reconciliarlos, los registros deben tener una Adobe Experience Cloud ID (“ID de visitante” o “ID declarada”). Los registros sin Adobe Experience Cloud ID se omiten al exportar e importar audiencias.

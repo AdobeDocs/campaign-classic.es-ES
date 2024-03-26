@@ -8,8 +8,8 @@ feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 source-git-commit: 4661688a22bd1a82eaf9c72a739b5a5ecee168b1
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 100%
+source-wordcount: '1547'
+ht-degree: 99%
 
 ---
 
@@ -134,7 +134,7 @@ Es posible exportar e importar cadenas de caracteres para traducirlas con una he
 >
 >Los nombres de los archivos de exportación se generan automáticamente. Si realiza la misma exportación varias veces, los archivos nuevos reemplazan a los existentes. Si es necesario conservar los archivos anteriores, cambie la **[!UICONTROL Target folder]**, luego haga clic en **[!UICONTROL Start]** de nuevo para ejecutar la exportación.
 
-Al exportar archivos en **formato CSV**, cada idioma se vincula a un estado y a un estado de aprobación. La columna **¿Aprobar?** permite aprobar una traducción. Esta columna puede contener los valores **Sí** o **No**. En cuanto al editor integrado (consulte [Administración de traducciones en el editor](#managing-translations-in-the-editor)), la aprobación de las traducciones es opcional y no bloquea el proceso.
+Al exportar archivos en **formato CSV**, cada idioma se vincula a un estado y a un estado de aprobación. El **¿Aprobar?** permite aprobar una traducción. Esta columna puede contener los valores **Sí** o **No**. En cuanto al editor integrado (consulte [Administración de traducciones en el editor](#managing-translations-in-the-editor)), la aprobación de las traducciones es opcional y no bloquea el proceso.
 
 ### Importación de archivos {#importing-files}
 

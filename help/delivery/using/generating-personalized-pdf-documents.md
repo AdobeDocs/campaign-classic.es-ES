@@ -8,8 +8,8 @@ feature: Personalization
 role: User
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '454'
+workflow-type: tm+mt
+source-wordcount: '455'
 ht-degree: 100%
 
 ---
@@ -50,11 +50,11 @@ El procedimiento para generar tablas dinámicas es el siguiente:
 
 La inserción de imágenes externas resulta útil si, por ejemplo, se desea personalizar un documento con una imagen cuya URL se introduce en un campo del destinatario.
 
-Para ello, se debe configurar un bloque personalizado y, a continuación, incluir una llamada al bloque personalizado en el adjunto.
+Para ello, se debe configurar un bloque personalizado y, a continuación, incluir una llamada al bloque personalizado en el archivo adjunto.
 
 **Ejemplo: inserción de un logotipo personalizado según el país del destinatario**
 
-**Paso 1: Creación del adjunto:**
+**Paso 1: Creación del archivo adjunto:**
 
 * Inserte la llamada al bloque de personalización: **&lt;%@ include view=&quot;blockname&quot; %>**.
 * Inserte el contenido (personalizado o no) en el cuerpo del archivo.

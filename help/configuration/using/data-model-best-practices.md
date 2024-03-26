@@ -7,7 +7,7 @@ feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '3995'
+source-wordcount: '4020'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ Los recursos de Adobe Campaign tienen tres identificadores y es posible añadir 
 
 En la tabla siguiente se describen estos identificadores y su propósito.
 
-| Identifier | Descripción | Prácticas recomendadas |
+| Identificador | Descripción | Prácticas recomendadas |
 |--- |--- |--- |
 | Identificación | <ul><li>El ID es la clave primaria física de una tabla de Adobe Campaign. Para las tablas listas para usarse, se trata de un número generado de 32 bits a partir de una secuencia</li><li>Este identificador suele ser único para una instancia de Adobe Campaign específica. </li><li>Un ID generado automáticamente puede ser visible en una definición de esquema. Busque en *autopk=&quot;true&quot;* atributo.</li></ul> | <ul><li>Los identificadores generados automáticamente no deben utilizarse como referencia en un flujo de trabajo o en una definición de paquete.</li><li>No se debe dar por hecho que el ID siempre será un número creciente.</li><li>El ID de una tabla predeterminada es un número de 32 bits y no se debe cambiar este tipo. Este número se toma de una &quot;secuencia&quot; cubierta en la sección con el mismo nombre.</li></ul> |
 | Nombre (o nombre interno) | <ul><li>Esta información es un identificador único de un registro de una tabla. Este valor se puede actualizar de forma manual, normalmente con un nombre generado.</li><li>Este identificador mantiene su valor cuando se implementa en una instancia diferente de Adobe Campaign y no debe estar vacío.</li></ul> | <ul><li>Cambie el nombre del registro generado por Adobe Campaign si el objeto debe implementarse de un entorno a otro.</li><li>Cuando un objeto tiene un atributo namespace (*esquema* por ejemplo), este área de nombres común se aprovechará en todos los objetos personalizados creados. Algunas áreas de nombres reservadas no deben usarse: *nms*, *xtk*, *nl*, *ncl*, *crm*, *xxl*.</li><li>Cuando un objeto no tiene ningún área de nombres (*workflow* o *envío* por ejemplo), esta noción de área de nombres se agregaría como prefijo de un objeto de nombre interno: *namespaceMyObjectName*.</li><li>No utilice caracteres especiales como el espacio &quot;&quot;, punto y coma &quot;:&quot; o guión &quot;-&quot;. Todos estos caracteres se sustituirían por un guion bajo &quot;_&quot; (carácter permitido). Por ejemplo, &quot;abc-def&quot; y &quot;abc:def&quot; se almacenarían como &quot;abc_def&quot; y se sobrescribirían mutuamente.</li></ul> |

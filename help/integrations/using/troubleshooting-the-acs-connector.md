@@ -12,7 +12,7 @@ hidefromtoc: true
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '879'
 ht-degree: 100%
 
 ---
@@ -98,7 +98,7 @@ Según su implementación, puede enfrentarse a varios problemas comunes.
 
   Además, asegúrese de que la opción **[!UICONTROL Share with ACS]** está marcada en la actividad **[!UICONTROL List update]** y que el flujo de trabajo se ejecutó correctamente.
 
-  Tenga en cuenta que los perfiles de los destinatarios de la lista deben haberse sincronizado con Campaign Standard antes de la ejecución del flujo de trabajo. Una vez compartidos con Campaign Standard, los destinatarios de la lista se concilian con los perfiles de Campaign Standard, lo cual significa que deben existir allí. Se omiten los destinatarios de la lista que no se puedan conciliar con los perfiles en Campaign Standard.
+  Tenga en cuenta que los perfiles de los destinatarios de la lista deben haberse sincronizado con Campaign Standard antes de la ejecución del flujo de trabajo. Una vez compartidos con Campaign Standard, los destinatarios de la lista se reconcilian con los perfiles de Campaign Standard, lo cual significa que deben existir allí. Se omiten los destinatarios de la lista que no se puedan reconciliar con los perfiles en Campaign Standard.
 
   Si comparte una lista de perfiles y ninguno está sincronizado con Campaign Standard, se crea una audiencia de consulta vacía en Campaign Standard que no se puede utilizar.
 

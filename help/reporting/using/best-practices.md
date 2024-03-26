@@ -7,7 +7,7 @@ badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic 
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '851'
 ht-degree: 100%
 
 ---
@@ -55,7 +55,7 @@ Para optimizar la creación, el uso y la duración de un informe, debe revisar l
 
 1. Definición del contenido
 
-   Luego necesita saber qué tipo de datos desea mostrar: indicadores de envío, informes sobre los perfiles de base de datos, etc.
+   Luego necesita saber qué tipo de datos desea mostrar: indicadores de entrega, informes sobre los perfiles de base de datos, etc.
 
    También es necesario conocer la naturaleza de estos datos (simples, resultantes de un cálculo, importantes, etc.), su ubicación (en Adobe Campaign, en un sistema de terceros), la frecuencia de actualización para definir la periodicidad del cálculo (diariamente, semanalmente, sobre la marcha), así como su volumen.
 

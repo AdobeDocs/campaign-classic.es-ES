@@ -28,7 +28,7 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **Tr
   <tr> 
    <td> <span class="uicontrol">Mid-sourcing (delivery counters)</span> <br /> </td> 
    <td> <span class="uicontrol">defaultMidSourcingDlv</span> <br /> </td> 
-   <td> <p>Este flujo de trabajo recopila información de recuento para las entregas en el servidor de mid-sourcing. La información de recuento incluye indicadores de envío generales como el número de envíos realizados, etc.</p> <p>No se incluye la información de seguimiento como las aperturas.</p> <p>De forma predeterminada, se activa cada diez minutos.</p> </td> 
+   <td> <p>Este flujo de trabajo recopila información de recuento para las entregas en el servidor de mid-sourcing. La información de recuento incluye indicadores de entrega generales como el número de envíos realizados, etc.</p> <p>No se incluye la información de seguimiento como las aperturas.</p> <p>De forma predeterminada, se activa cada diez minutos.</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Mid-sourcing (delivery logs)</span> <br /> </td> 

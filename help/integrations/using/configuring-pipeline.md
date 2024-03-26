@@ -10,8 +10,8 @@ content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 100%
+source-wordcount: '920'
+ht-degree: 99%
 
 ---
 
@@ -130,7 +130,7 @@ La lista de parámetros opcionales se encuentra a continuación:
 
 | Opción | Descripción |
 |:-:|:-:|
-| appName(Heredado) | AppID de la aplicación OAuth registrada en la aplicación heredada de Oath donde se cargó la clave pública. Para obtener más información, consulte [esta página](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) |
+| appName(Legacy) | AppID de la aplicación OAuth registrada en la aplicación heredada de Oath donde se cargó la clave pública. Para obtener más información, consulte [esta página](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) |
 | authGatewayEndpoint(Legacy) | URL para obtener los tokens de la puerta de enlace. Predeterminado: ```https://api.omniture.com``` |
 | authPrivateKey(Legacy) | La clave privada, la parte pública cargada en la aplicación heredada de Oath, AES cifrada con la opción XtkKey: ```cryptString("PRIVATE_KEY")``` |
 | disableAuth(Legacy) | Deshabilite la autenticación, la conexión sin tokens de puerta de enlace solo la aceptan algunos extremos de canalización de desarrollo. |

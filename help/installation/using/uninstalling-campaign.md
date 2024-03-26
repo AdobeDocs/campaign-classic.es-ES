@@ -11,7 +11,7 @@ exl-id: e2b026ba-aaf3-443d-8c36-c908288a14fd
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 41%
+ht-degree: 18%
 
 ---
 
@@ -43,4 +43,4 @@ rm -rf /user/local/neolane
 
 **Windows:**
 
-Consulte [esta página](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deleting-and-cleansing-adobe-campaign-previous-version). Recuerde eliminar la carpeta de instalación de Campaign.
+Consulte esta sección [página](../../migration/using/migrating-in-windows-for-adobe-campaign-7.md#deleting-and-cleansing-adobe-campaign-previous-version). Recuerde eliminar la carpeta de instalación de Campaign.

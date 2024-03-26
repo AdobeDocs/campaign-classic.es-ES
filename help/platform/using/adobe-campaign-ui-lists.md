@@ -7,8 +7,8 @@ feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 100%
+source-wordcount: '1160'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Puede acceder a las listas de registros de la base de datos de Campaign mediante el Explorador. Puede filtrar estas listas, ejecutar búsquedas, añadir información, filtrar y ordenar datos.
+Puede acceder a las listas de registros de la base de datos de Campaign mediante Explorer. Puede filtrar estas listas, ejecutar búsquedas, añadir información, filtrar y ordenar datos.
 
 ## Recuento de registros {#counting-records}
 
@@ -26,7 +26,7 @@ En la parte inferior derecha de la pantalla de la lista, un **[!UICONTROL counte
 
 ![](assets/s_ncs_user_nb_200_0.png)
 
-Si aparece un símbolo **?** en lugar del número a la derecha, haga clic en el contador para iniciar el cálculo.
+Si un &quot;**?**&quot; aparece en lugar del número a la derecha, haga clic en el contador para iniciar el cálculo.
 
 ### Carga de más registros {#loading-more-records}
 

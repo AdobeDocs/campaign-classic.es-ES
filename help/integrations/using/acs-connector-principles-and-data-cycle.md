@@ -9,7 +9,7 @@ hidefromtoc: true
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2045'
+source-wordcount: '2043'
 ht-degree: 100%
 
 ---
@@ -105,7 +105,7 @@ Se puede acceder fácilmente a los perfiles duplicados para las entregas, pero t
 
 ### Facturación {#billing}
 
-La facturación no se ve afectada por su aplicación seleccionada para realizar entregas, Campaign v7 o Campaign Standard. La información de facturación se concilia entre Campaign v7 y Campaign Standard. Por lo tanto, si realiza entregas al mismo destinatario utilizando ambas aplicaciones, se cuenta como un perfil activo.
+La facturación no se ve afectada por su aplicación seleccionada para realizar entregas, Campaign v7 o Campaign Standard. La información de facturación se reconcilia entre Campaign v7 y Campaign Standard. Por lo tanto, si realiza entregas al mismo destinatario utilizando ambas aplicaciones, se cuenta como un perfil activo.
 
 ## Implementación {#implementation}
 
@@ -125,7 +125,7 @@ La **implementación avanzada** le permite realizar ejemplos de uso más complej
 
 Para utilizar la función, es necesario instalar el paquete **[!UICONTROL ACS Connector]**. Siempre realizan esta tarea el administrador técnico de Adobe o el consultor.
 
-Todos los elementos técnicos relacionados con ACS Connector están disponibles en el nodo **[!UICONTROL Administration > ACS Connector]** del explorador.
+Todos los elementos técnicos relacionados con ACS Connector están disponibles en el nodo **[!UICONTROL Administration > ACS Connector]** de Explorer.
 
 ### Flujos de trabajo técnicos y de duplicación {#technical-and-replication-workflows}
 

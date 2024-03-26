@@ -8,7 +8,7 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '554'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ Seleccione el formato en el que desee exportar el informe desde la lista despleg
 
 Cuando un informe contiene varias páginas, se debe repetir la operación con cada página.
 
-Se puede configurar el informe con el fin de exportarlo en formato PDF, Excel u OpenOffice. Abra el explorador de Adobe Campaign y seleccione el informe correspondiente.
+Se puede configurar el informe con el fin de exportarlo en formato PDF, Excel u OpenOffice. Abra Adobe Campaign Explorer y seleccione el informe correspondiente.
 
 En la pestaña **[!UICONTROL Page]**, se accede a las opciones de exportación a través de las actividades **[!UICONTROL Advanced]** del informe.
 

@@ -7,7 +7,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '471'
 ht-degree: 12%
 
 ---
@@ -37,7 +37,7 @@ La pista de auditoría consta de tres componentes:
    * Pause
    * Stop
    * Restart
-   * Cleanup que es igual a la acción Purgar historial
+   * Limpieza igual al historial de purga de acciones
    * Simular, que es igual a la acción Iniciar en modo de simulación
    * Activación igual a la acción Ejecutar tareas pendientes ahora
    * Interrupción incondicional
@@ -105,4 +105,4 @@ Para ello:
 
    ![](assets/audit_trail_6.png)
 
-1. Haga clic en **[!UICONTROL Save]** .
+1. Haga clic en **[!UICONTROL Save]**.

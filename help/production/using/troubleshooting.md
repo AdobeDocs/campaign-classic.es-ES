@@ -11,7 +11,7 @@ exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 23%
+ht-degree: 17%
 
 ---
 
@@ -47,7 +47,7 @@ A continuación se ofrecen algunas sugerencias para mejorar su experiencia con l
 * [Precisión de registro](../../production/using/log-precision.md)
 * [Seguimiento de problemas de registro](../../production/using/tracking-logs-issues.md)
 
-## Problemas con la base de datos {#database-issues}
+## Problemas de base de datos {#database-issues}
 
 Descubra cómo puede resolver problemas de rendimiento leyendo las siguientes secciones:
 

@@ -26,4 +26,4 @@ También se pueden crear vínculos con otras tablas de resultados a través de l
 
 ![](assets/wf_manipulation_box_link_tab.png)
 
-La sección inferior permite configurar la lista de condiciones del vínculo, es decir, los criterios utilizados para comparar los datos de las dos tablas.
+La sección inferior permite configurar la lista de condiciones del vínculo, es decir, los criterios utilizados para reconciliar los datos de las dos tablas.

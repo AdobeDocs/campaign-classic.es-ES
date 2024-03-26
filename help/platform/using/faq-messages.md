@@ -78,7 +78,7 @@ Puede retrasar la entrega de mensajes para programar su fecha o manejar la presi
 
 [Haga clic aquí para obtener más información](../../delivery/using/steps-sending-the-delivery.md#scheduling-the-delivery-sending).
 
-### ¿Se puede añadir un adjunto a los correos electrónicos? {#can-i-add-an-attachment-to-emails-}
+### ¿Se puede añadir un archivo adjunto a los correos electrónicos? {#can-i-add-an-attachment-to-emails-}
 
 Con Campaign Classic, puede añadir archivos adjuntos personalizados a sus correos electrónicos.
 

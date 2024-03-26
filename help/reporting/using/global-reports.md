@@ -6,8 +6,8 @@ badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic 
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
-source-wordcount: '2308'
+workflow-type: tm+mt
+source-wordcount: '2292'
 ht-degree: 100%
 
 ---
@@ -279,7 +279,7 @@ La tabla de valores utiliza los indicadores siguientes:
 
 Este gráfico muestra la evolución de las suscripciones y las bajas de suscripción durante el periodo correspondiente.
 
-## Estadísticas de entrega {#delivery-statistics}
+## Estadísticas de envío {#delivery-statistics}
 
 Este informe muestra el desglose por dominio de Internet, de todos los mensajes procesados y enviados, de los rechazos graves o leves, aperturas, clics y bajas de suscripción.
 

@@ -7,7 +7,7 @@ exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 ## Modelo de contenido {#content-model-5}
 
-enumeración:==(ayuda| valor)
+enumeración:==(ayuda| value)
 
 ## Atributos {#attributes-5}
 
@@ -60,19 +60,19 @@ Las enumeraciones se definen al principio de un esquema (antes de definir el ele
    * datetime
    * datetimetz
    * datetimenotz
-   * date
+   * fecha
    * DOMocument
    * DOMElement
    * doble
    * enum
-   * float
+   * flotante
    * html
    * int64
    * vincular
    * largo
    * nota
    * MNTOKEN
-   * percent
+   * porcentaje
    * clave principal
    * corto
    * cadena

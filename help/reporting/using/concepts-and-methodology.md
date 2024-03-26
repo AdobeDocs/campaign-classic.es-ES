@@ -9,8 +9,8 @@ hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 100%
+source-wordcount: '1506'
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ En el siguiente ejemplo, los idiomas se agrupan en tres categorías: inglés/ale
 
 Puede utilizar una máscara SQL para combinar varios valores en un filtro. Para ello, en la columna **[!UICONTROL Yes]**, marque **[!UICONTROL Use an SQL mask]** e introduzca el filtro SQL que desea aplicar en la columna **[!UICONTROL Value or expression]**.
 
-En el ejemplo siguiente, todos los dominios de correo electrónico que comienzan con **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.) o con **ymail** (ymail.com, ymail.eu, etc.) se agrupan en la etiqueta **YAHOO!**, así como las direcciones con el dominio **rocketmail.com**.
+En el ejemplo siguiente, todos los dominios de correo electrónico que comienzan con **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.), o con **correo postal** (ymail.com, ymail.eu, etc.) se agrupan bajo la etiqueta **¡YAHOO!**, así como direcciones con **rocketmail.com** dominio.
 
 ![](assets/s_advuser_cube_class_03b.png)
 

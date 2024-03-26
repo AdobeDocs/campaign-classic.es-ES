@@ -10,8 +10,8 @@ topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '508'
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ También puede conectarse con un nombre de usuario y contraseña específicos:
 
    La primera vez que acceda a la base de datos, la contraseña es la que le proporciona el administrador. Una vez que esté conectado, puede cambiar la contraseña mediante el menú **[!UICONTROL Tools > Change password...]**. Los detalles sobre operadores y conexiones están disponibles en [Administración de acceso](../../platform/using/access-management.md).
 
-1. Haga clic en **[!UICONTROL LOG IN]** para confirmar.<!--You can also press the **Enter** key to launch connection.-->
+1. Clic **[!UICONTROL LOG IN]** para confirmar.<!--You can also press the **Enter** key to launch connection.-->
 
 Ahora puede acceder al [espacio de trabajo de Adobe Campaign](../../platform/using/adobe-campaign-workspace.md).
 

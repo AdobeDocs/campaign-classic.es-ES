@@ -8,8 +8,8 @@ feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '970'
+workflow-type: tm+mt
+source-wordcount: '974'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Para aprobar el mensaje y enviarlo a los destinatarios de la entrega que está c
 
 El proceso detallado para validar y realizar un envío se detalla en las siguientes secciones:
 
-* [Validación de la envíos](steps-validating-the-delivery.md)
+* [Validación del envío](steps-validating-the-delivery.md)
 * [Envío de la entrega](steps-sending-the-delivery.md)
 
 ## Parámetros avanzados {#advanced-parameters}

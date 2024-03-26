@@ -7,8 +7,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 47%
+source-wordcount: '294'
+ht-degree: 34%
 
 ---
 
@@ -42,7 +42,7 @@ Se presentan los diferentes modelos de alojamiento [en esta sección](../../inst
 
 ## Acceso de datos federado{#fda}
 
-Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para procesar la información almacenada en una o más bases de datos externas: puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign. [Más información](../../installation/using/about-fda.md)
+Adobe Campaign proporciona el **Acceso de datos federado** (FDA) para procesar la información almacenada en una o más bases de datos externas: puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign. [Más información](../../installation/using/about-fda.md)
 
 >[!CAUTION]
 >

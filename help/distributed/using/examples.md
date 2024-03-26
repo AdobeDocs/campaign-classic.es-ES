@@ -7,8 +7,8 @@ feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 100%
+source-wordcount: '1303'
+ht-degree: 99%
 
 ---
 
@@ -152,7 +152,7 @@ Una vez aprobadas las comprobaciones, la campaña puede iniciarse automáticamen
 
    * el contenido del mensaje que se envía a las entidades locales en la notificación,
    * el recordatorio de aprobación,
-   * el procesamiento esperado para la campaña..
+   * el procesamiento esperado para la campaña.
 
    ![](assets/mkg_dist_use_case_target_valid7.png)
 

@@ -9,8 +9,8 @@ topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 1%
+source-wordcount: '1558'
+ht-degree: 0%
 
 ---
 
@@ -88,7 +88,7 @@ La secuencia en la que `<attribute>` Los elementos de se definen en una `<srcsch
   Las tablas de características SQL se crean automáticamente en función del tipo de característica:
 
    * dedicado: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
-   * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
+   * compartido: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
   Existen dos tipos de campos de características: campos oà¹ simples en los que se autoriza un solo valor en la característica y campos oà¹ de opción múltiple, en los que la característica está vinculada a un elemento de colección que puede contener varios valores.
 
@@ -140,17 +140,17 @@ La secuencia en la que `<attribute>` Los elementos de se definen en una `<srcsch
    * datetime
    * datetimetz
    * datetimenotz
-   * date
+   * fecha
    * doble
    * enum
-   * float
+   * flotante
    * html
    * int64
    * vincular
    * largo
    * nota
    * MNTOKEN
-   * percent
+   * porcentaje
    * clave principal
    * corto
    * cadena

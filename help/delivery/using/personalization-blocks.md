@@ -8,8 +8,8 @@ feature: Personalization
 role: User
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
-source-wordcount: '877'
+workflow-type: tm+mt
+source-wordcount: '873'
 ht-degree: 100%
 
 ---

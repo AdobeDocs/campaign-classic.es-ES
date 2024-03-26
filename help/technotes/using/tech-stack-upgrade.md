@@ -6,8 +6,8 @@ feature: Technote, Upgrade
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 9%
+source-wordcount: '502'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Por motivos de seguridad, debe [instale la última versión de Campaign](#ac-upg
 
 >[!NOTE]
 >
->En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Consulte también la [Preguntas frecuentes sobre actualización de compilación](../../platform/using/faq-build-upgrade.md).
+>Si tiene alguna pregunta sobre estos cambios, póngase en contacto con [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Consulte también la [Preguntas frecuentes sobre actualización de compilación](../../platform/using/faq-build-upgrade.md).
 >
 
 ## Actualización de compilación de Campaign {#ac-upgrade}

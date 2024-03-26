@@ -8,7 +8,7 @@ feature: Email
 role: User
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Al crear un archivo adjunto calculado, el nombre del archivo adjunto se puede ca
 
 ![](assets/s_ncs_user_wizard_attachment.png)
 
-Para crear un adjunto personalizado, siga estos pasos:
+Para crear un archivo adjunto personalizado, siga estos pasos:
 
 1. Haga clic en el vínculo **[!UICONTROL Attachments]**.
 1. Haga clic en el botón **[!UICONTROL Add]** y seleccione **[!UICONTROL Calculated attachment]**.
@@ -147,7 +147,7 @@ Puede calcular el nombre del archivo adjunto durante la preparación de la entre
 
 ### Adjuntar un archivo personalizado {#attach-a-personalized-file}
 
-Al seleccionar los datos adjuntos, puede elegir la opción **[!UICONTROL The file name is calculated during delivery for each recipient (it can depend on the recipient)]**. A continuación, puede asignar los datos de personalización del destinatario con el nombre del archivo que se va a enviar.
+Al seleccionar los archivos adjuntos, puede elegir la opción **[!UICONTROL The file name is calculated during delivery for each recipient (it can depend on the recipient)]**. A continuación, puede asignar los datos de personalización del destinatario con el nombre del archivo que se va a enviar.
 
 >[!NOTE]
 >

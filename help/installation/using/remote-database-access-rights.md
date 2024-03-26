@@ -10,7 +10,7 @@ topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '983'
 ht-degree: 98%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 En primer lugar, para que el usuario pueda llevar a cabo operaciones en una base de datos externa a través de FDA, el último debe tener un derecho específico en Adobe Campaign.
 
-1. Seleccione el nodo **[!UICONTROL Administration > Access Management > Named Rights]** en el explorador de Adobe Campaign.
+1. Seleccione el nodo **[!UICONTROL Administration > Access Management > Named Rights]** en Adobe Campaign Explorer.
 1. Cree un nuevo derecho especificando la etiqueta elegida.
 1. El campo **[!UICONTROL Name]** debe tener el siguiente formato **user:base@server**, donde:
 
@@ -33,7 +33,7 @@ En primer lugar, para que el usuario pueda llevar a cabo operaciones en una base
      >
      >La parte **:base** es opcional en Oracle.
 
-1. Guarde el derecho asignado y luego vincúlelo al usuario elegido desde el nodo **[!UICONTROL Administration > Access Management > Operators]** del explorador de Adobe Campaign.
+1. Guarde el derecho asignado y luego vincúlelo al usuario elegido desde el nodo **[!UICONTROL Administration > Access Management > Operators]** de Adobe Campaign Explorer.
 
 A continuación, para procesar los datos contenidos en una base de datos externa, el usuario de Adobe Campaign debe tener al menos derechos de escritura en la base de datos para poder crear tablas de trabajo. Adobe Campaign los elimina automáticamente.
 
@@ -49,7 +49,7 @@ En general, son necesarios los siguientes derechos:
 
 El administrador de la base de datos debe hacer coincidir estos derechos con los derechos específicos de cada motor de base de datos. Para obtener más información, consulte la siguiente sección.
 
-## Derechos FDA {#fda-rights}
+## Derechos de FDA {#fda-rights}
 
 |   | Snowflake | Redshift | Oracle | SQLServer | PostgreSQL | MySQL |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|

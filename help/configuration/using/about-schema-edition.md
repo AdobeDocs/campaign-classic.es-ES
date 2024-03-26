@@ -8,8 +8,8 @@ role: Data Engineer, Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 10%
+source-wordcount: '1013'
+ht-degree: 9%
 
 ---
 
@@ -107,7 +107,7 @@ En este ejemplo, en lugar de permitir que **@autopk** atributo crear una clave p
 
 >[!IMPORTANT]
 >
->Al crear un nuevo esquema o durante una ampliación de esquema, se debe mantener el mismo valor de secuencia de clave principal (@pkSequence) para todo el conjunto.
+>Al crear un nuevo esquema o durante una extensión de esquema, se debe mantener el mismo valor de secuencia de clave principal (@pkSequence) para todo el conjunto.
 
 Para obtener más información, consulte la [Administración de claves](../../configuration/using/database-mapping.md#management-of-keys) sección.
 
@@ -121,7 +121,7 @@ La lista completa de atributos está disponible en la [`<attribute>` elemento](.
 
 * **@advanced**
 * **@dataPolicy**
-* **@por defecto**
+* **@default**
 * **@desc**
 * **@enum**
 * **@expr**
@@ -132,7 +132,7 @@ La lista completa de atributos está disponible en la [`<attribute>` elemento](.
 * **@required**
 * **@ref**
 * **@xml**
-* **@tipo**
+* **@type**
 
   Para ver una tabla que enumera las asignaciones para los tipos de datos generados por Adobe Campaign para los distintos sistemas de administración de bases de datos, consulte la [Asignación de los tipos de datos de Adobe Campaign/DBMS](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data) sección.
 

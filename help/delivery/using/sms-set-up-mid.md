@@ -6,8 +6,9 @@ badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7
 badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: SMS
 role: User, Developer, Admin
-source-git-commit: 4165f5988dfeee2f3b4d872c445ace11c9aa4fe1
-workflow-type: ht
+exl-id: 6987cb5e-8821-4619-b0e4-f0fad3355bfb
+source-git-commit: 46dcd80d5adc31a66b47c6d75e7914b0a686326b
+workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 100%
 
@@ -187,4 +188,3 @@ Ahora tiene una cuenta externa y una plantilla de envíos que le permiten realiz
 * [Transliteración de caracteres SMS](sms-set-up.md#about-character-transliteration)
 * [Codificaciones de texto](sms-set-up.md#about-text-encodings)
 * [Respuesta automática](sms-set-up.md#automatic-reply)
-

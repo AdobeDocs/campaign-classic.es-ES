@@ -7,7 +7,7 @@ feature: Workflows
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 En este ejemplo, deseamos enviar una alerta a un operador con el nombre de los perfiles que abrieron una newsletter, pero que no hicieron clic en el vínculo que contenía.
 
-Los campos de nombre y apellido de los perfiles se vinculan a la dimensión de segmentación **[!UICONTROL Recipients]**, mientras que la actividad **[!UICONTROL Alert]** está vinculada al **[!UICONTROL Operator]** de la dimensión de segmentación. Como resultado, no hay ningún campo disponible entre los dos entornos de segmentación para realizar una conciliación y recuperar los campos Nombre y Apellido, y mostrarlos en la actividad de Alerta.
+Los campos de nombre y apellido de los perfiles se vinculan a la dimensión de segmentación **[!UICONTROL Recipients]**, mientras que la actividad **[!UICONTROL Alert]** está vinculada al **[!UICONTROL Operator]** de la dimensión de segmentación. Como resultado, no hay ningún campo disponible entre los dos entornos de segmentación para realizar una reconciliación y recuperar los campos Nombre y Apellido, y mostrarlos en la actividad de Alerta.
 
 El proceso consiste en crear un flujo de trabajo como se muestra a continuación:
 

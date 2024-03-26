@@ -18,7 +18,7 @@ ht-degree: 100%
 
 
 
-Cada carpeta del árbol de navegación del Explorador tiene asociados derechos de acceso de lectura, escritura y eliminación. Para acceder a un archivo, un operador o grupo de operadores debe tener al menos acceso de lectura.
+Cada carpeta del árbol de navegación de Explorer tiene asociados derechos de acceso de lectura, escritura y eliminación. Para acceder a un archivo, un operador o grupo de operadores debe tener al menos acceso de lectura.
 
 ## Carpetas y vistas {#folders-and-views}
 
@@ -28,7 +28,7 @@ Las carpetas son nodos del árbol de Adobe Campaign. Estos nodos se crean hacien
 
 ![](assets/s_ncs_user_add_folder_in_tree.png)
 
-Puede personalizar el árbol de navegación del Explorador. Conozca los pasos de configuración y las prácticas recomendadas [en esta sección](adobe-campaign-workspace.md).
+Puede personalizar el árbol de navegación de Explorer. Conozca los pasos de configuración y las prácticas recomendadas [en esta sección](adobe-campaign-workspace.md).
 
 ### ¿Qué es una vista? {#about-views}
 

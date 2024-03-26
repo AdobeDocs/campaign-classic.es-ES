@@ -9,7 +9,7 @@ badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2401'
 ht-degree: 5%
 
 ---
@@ -188,7 +188,7 @@ El contenedor principal se define mediante la variable **type=&quot;bloc de nota
 
 >[!NOTE]
 >
->A **style=&quot;down|up**(de forma predeterminada)**&quot;** fuerza la colocación vertical de las etiquetas de tabulación por debajo o por encima del control. Esta función es opcional.
+>A **style=&quot;down|up**(de forma predeterminada)**&quot;** fuerza la colocación vertical de las etiquetas de tabulación por debajo o por encima del control. Esta funcionalidad es opcional.
 >`<container style="down" type="notebook">  … </container>`
 
 #### Lista de iconos {#icon-list}
@@ -509,7 +509,7 @@ Ejemplo en el campo &quot;Género&quot;:
 
 ![](assets/d_ncs_integration_form_exemple17.png)
 
-## Casilla {#checkbox}
+## Casilla de verificación {#checkbox}
 
 Una casilla de verificación refleja un estado booleano (seleccionado o no). De forma predeterminada, los campos &quot;booleanos&quot; (true/false) utilizan este control. Con este botón se puede asociar una variable que tenga un valor predeterminado de 0 o 1. Este valor se puede sobrecargar mediante la variable **checkValue** atributos.
 

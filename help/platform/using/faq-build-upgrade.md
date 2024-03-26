@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: a94c361c5bdd9d61ae9232224af910a78245a889
-workflow-type: ht
-source-wordcount: '1998'
+workflow-type: tm+mt
+source-wordcount: '2003'
 ht-degree: 100%
 
 ---
@@ -78,7 +78,7 @@ El tiempo necesario para realizar una actualización de compilación depende de 
 
 * El tamaño de la base de datos que restaurar o de la que hacer copias de seguridad (las bases de datos más grandes requieren más tiempo para actualizarse)
 * El tamaño de los entornos (muchos de nuestros clientes tienen varios servidores diferentes y cada uno gestiona funciones específicas, donde los entornos más grandes requieren más tiempo para la actualización)
-* La complejidad del sistema (algunos sistemas cuentan con servicios y conexiones más dependientes que verificar, lo que requiere la verificación de la estabilidad y el funcionamiento de esos sistemas)
+* La complejidad del sistema (algunos sistemas cuentan con servicios y conexiones más dependientes que verificar, lo que requiere la verificación de la estabilidad y el rendimiento de esos sistemas)
 
 La actualización de la compilación es un proceso de dos pasos:
 

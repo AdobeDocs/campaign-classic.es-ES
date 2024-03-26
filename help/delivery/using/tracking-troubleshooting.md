@@ -8,8 +8,8 @@ feature: Monitoring, Troubleshooting
 role: User
 exl-id: 62e67a39-1e5c-4716-a3f3-b0ca69693cd0
 source-git-commit: d2f5f2a662c022e258fb3cc56c8502c4f4cb2849
-workflow-type: ht
-source-wordcount: '770'
+workflow-type: tm+mt
+source-wordcount: '764'
 ht-degree: 100%
 
 ---
@@ -218,7 +218,7 @@ En Adobe Campaign Classic, se supone que una asignación de destino es única en
 
 ![](assets/tracking-troubleshooting.png)
 
-No es posible utilizar varios esquemas de segmentación con el mismo esquema de registro de seguimiento, ya que el flujo de trabajo de seguimiento no podrá conciliar los datos con el ID de segmentación.
+No es posible utilizar varios esquemas de segmentación con el mismo esquema de registro de seguimiento, ya que el flujo de trabajo de seguimiento no podrá reconciliar los datos con el ID de segmentación.
 
 Si no desea utilizar la asignación de destino predeterminada con nms:destinatario, le recomendamos los siguientes métodos:
 

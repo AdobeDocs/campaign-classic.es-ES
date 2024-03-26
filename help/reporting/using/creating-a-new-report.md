@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Para crear un informe, siga los pasos siguientes:
 
-1. Abra el explorador de Adobe Campaign y, en el nodo **[!UICONTROL Administration > Configuration]**, seleccione la carpeta **[!UICONTROL Reports]**.
+1. Abra Adobe Campaign Explorer y, en el nodo **[!UICONTROL Administration > Configuration]**, seleccione la carpeta **[!UICONTROL Reports]**.
 1. Haga clic en el botón **[!UICONTROL New]** situado encima de la lista de informes.
 1. Seleccione **[!UICONTROL Create a new report from a template]** y haga clic en **[!UICONTROL Next]**.
 

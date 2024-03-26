@@ -11,7 +11,7 @@ topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2966'
+source-wordcount: '2976'
 ht-degree: 100%
 
 ---
@@ -174,7 +174,7 @@ Existen cuatro tipos de campos calculados:
 
   ![](assets/s_ncs_user_import_wizard03_4.png)
 
-## Paso 4: Composición {#step-4---reconciliation}
+## Paso 4: Reconciliación {#step-4---reconciliation}
 
 El paso de conciliación del asistente de importación le permite definir el modo de reconciliación de los datos del archivo con los datos existentes en la base de datos, y también establecer las reglas de prioridad entre los datos del archivo y los datos de la base de datos. La ventana de configuración tiene este aspecto:
 
@@ -208,7 +208,7 @@ Las siguientes opciones están disponibles para cada campo de la tabla relaciona
 
 ### Claves de reconciliación {#reconciliation-keys}
 
-Se debe completar por lo menos una clave de conciliación para administrar la deduplicación.
+Se debe completar por lo menos una clave de reconciliación para administrar la deduplicación.
 
 Una clave de reconciliación es un conjunto de campos utilizados para identificar un registro. Por ejemplo, para importar destinatarios, la clave de la reconciliación puede ser el número de cuenta, el campo “correo electrónico” o los campos “apellidos, nombre, compañía”, etc.
 

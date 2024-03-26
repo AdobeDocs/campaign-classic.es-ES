@@ -4,15 +4,15 @@ title: Implementación de una instancia
 description: Más información sobre el Asistente de implementación de Campaign
 feature: Installation, Instance Settings, Deployment
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
-badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3391'
-ht-degree: 6%
+source-wordcount: '3395'
+ht-degree: 5%
 
 ---
 
@@ -360,7 +360,7 @@ Adobe Campaign permite diferenciar estas tres direcciones URL para distribuir la
 >
 >Por razones de privacidad, recomendamos utilizar HTTPS para todos los recursos externos.
 
-Para que se puedan ver desde el exterior, las imágenes utilizadas en los mensajes de correo electrónico y recursos públicos vinculados a las campañas deben estar presentes en un servidor accesible de forma externa. Luego pueden estar disponibles para destinatarios u operadores externos.
+Para que se puedan ver desde el exterior, las imágenes utilizadas en los correos electrónicos y recursos públicos vinculados a las campañas deben estar presentes en un servidor accesible de forma externa. Luego pueden estar disponibles para destinatarios u operadores externos.
 
 ![](assets/s_ncs_install_deployment_wiz_img_uploading.png)
 

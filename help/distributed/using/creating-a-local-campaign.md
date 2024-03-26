@@ -7,7 +7,7 @@ feature: Distributed Marketing
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1572'
 ht-degree: 100%
 
 ---
@@ -189,7 +189,7 @@ Esta información se encuentra en el mensaje de notificación enviado a las agen
 
 ![](assets/s_advuser_mkg_dist_local_notif.png)
 
-### Audiencia {#audience}
+### Público {#audience}
 
 Para una campaña local, la entidad central puede especificar las entidades locales involucradas en la comprobación de **[!UICONTROL Limit the package to a set of local entities]**.
 

@@ -10,7 +10,7 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '139'
 ht-degree: 14%
 
 ---
@@ -28,7 +28,7 @@ Una cosa muy importante que hay que comprobar al implementar un tipo de arquitec
 
 Cuando sea posible, utilice un canal seguro: POP3S en lugar de POP3 (o POP3 a través de TLS).
 
-## Database
+## Base de datos
 
 Debe aplicar las prácticas recomendadas de seguridad del motor de la base de datos.
 

@@ -7,8 +7,8 @@ feature: Query Editor, Workflows
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 100%
+source-wordcount: '220'
+ht-degree: 93%
 
 ---
 
@@ -56,4 +56,4 @@ La columna **[!UICONTROL Taken into account if]** permite definir los criterios 
 
 Aquí, **$(/tmp/@text)=&#39;agency&#39;**
 
-La expresión **$(/tmp/@text)!=&#39;&#39;** aplica cada condición cuando el campo de entrada no está vacío.
+El **$(/tmp/@text)=&#39;&#39;** La expresión aplica cada condición cuando el campo de entrada no está vacío.

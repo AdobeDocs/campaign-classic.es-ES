@@ -6,7 +6,7 @@ feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
-source-wordcount: '2014'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Modelo de contenido {#content-model-4}
 
-element:==(atributo) | compute-string | dbindex | predeterminado | elemento | ayuda | unirse clave | | sysFilter | translatedDefault)
+element:==(atributo) | compute-string | dbindex | predeterminado | elemento | ayuda | unirse | key | sysFilter | translatedDefault)
 
 ## Atributos {#attributes-4}
 
@@ -97,7 +97,7 @@ Existen cuatro tipos de `<element>`  elementos en Adobe Campaign:
   Las tablas de características SQL se crean automáticamente en función del tipo de característica:
 
    * dedicado: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
-   * shared: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
+   * compartido: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
   Existen dos tipos de campos de características: campos simples en los que se autoriza un solo valor en la característica y campos de opción múltiple, en los que la característica está vinculada a un elemento de colección que puede contener varios valores.
 
@@ -184,17 +184,17 @@ Existen cuatro tipos de `<element>`  elementos en Adobe Campaign:
    * datetime
    * datetimetz
    * datetimenotz
-   * date
+   * fecha
    * doble
    * enum
-   * float
+   * flotante
    * html
    * int64
    * vincular
    * largo
    * nota
    * MNTOKEN
-   * percent
+   * porcentaje
    * clave principal
    * corto
    * cadena

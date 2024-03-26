@@ -7,8 +7,8 @@ feature: Reporting, Monitoring
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2979'
-ht-degree: 100%
+source-wordcount: '3049'
+ht-degree: 99%
 
 ---
 
@@ -831,7 +831,7 @@ Este informe se basa en la tabla **[!UICONTROL Delivery]** (nms:delivery).
  </tbody> 
 </table>
 
-## Estadísticas de entrega {#delivery-statistics-1}
+## Estadísticas de envío {#delivery-statistics-1}
 
 Este informe se basa en la tabla **[!UICONTROL Delivery and tracking statistics]** (nms:deliveryLogStats).
 
@@ -919,7 +919,7 @@ El indicador **Enviado** (@sent), al que se accede a través de **Envíos (nms:d
 
 ## Sincronización de indicadores {#indicator-synchronization}
 
-Si observa desincronizaciones o incoherencia en determinados indicadores, seleccione la entrega en el explorador de Adobe Campaign, haga clic con el botón derecho y elija **[!UICONTROL Action>Recompute delivery and tracking indicators]**. Haga clic en **[!UICONTROL Next]**, luego en **[!UICONTROL Finish]**.
+Si observa desincronizaciones o incoherencia en determinados indicadores, seleccione la entrega en Adobe Campaign Explorer, haga clic con el botón derecho y elija **[!UICONTROL Action>Recompute delivery and tracking indicators]**. Haga clic en **[!UICONTROL Next]**, luego en **[!UICONTROL Finish]**.
 
 ![](assets/s_ncs_user_recalculate_indicators.png)
 

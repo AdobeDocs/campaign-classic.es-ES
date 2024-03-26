@@ -7,8 +7,8 @@ feature: Push
 role: User, Developer
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '313'
+workflow-type: tm+mt
+source-wordcount: '292'
 ht-degree: 100%
 
 ---

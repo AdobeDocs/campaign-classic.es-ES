@@ -33,4 +33,4 @@ En la pestaña **Campañas**, abra la entrega seleccionada. Haga clic en el bot�
 
 ![](assets/dce_save_model.png)
 
-La nueva plantilla se guarda en el nodo **Recursos > Plantillas > Plantillas de contenido** del explorador.
+La nueva plantilla se guarda en el nodo **Resources > Templates > Content templates** de Explorer.

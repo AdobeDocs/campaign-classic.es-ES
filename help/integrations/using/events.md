@@ -10,8 +10,8 @@ content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 100%
+source-wordcount: '1209'
+ht-degree: 98%
 
 ---
 
@@ -82,7 +82,7 @@ Ejemplo:
 El contenido se define en formato JSON en Adobe Analytics para cada activador.
 Por ejemplo, un activador LogoUpload_upload_Visits:
 
-* **[!UICONTROL eVar01]** puede contener el ID del comprador en formato de cadena que se utiliza para conciliar con destinatarios de Adobe Campaign. <br>Debe conciliarse para encontrar el ID del comprador, que es la clave primaria.
+* **[!UICONTROL eVar01]** puede contener el ID del comprador en formato de cadena que se utiliza para la reconciliación con destinatarios de Adobe Campaign. <br>Debe reconciliarse para encontrar el ID del comprador, que es la clave primaria.
 
 * **[!UICONTROL timeGMT]** puede contener la hora del activador del lado de Adobe Analytics en formato UTC Epoch (segundos desde 1/1/1970 UTC).
 
@@ -220,7 +220,7 @@ Los eventos se pueden mostrar con un formulario sencillo basado en el esquema de
 
 >[!NOTE]
 >
->El nodo Evento de canalización no está integrado y debe añadirse, así como el formulario relacionado debe crearse en Campaign. Estas operaciones están restringidas únicamente a usuarios expertos. Para obtener más información, consulte estas secciones: [Jerarquía de navegación](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy) y [Edición de formularios](../../configuration/using/editing-forms.md).
+>El nodo Evento de canalización no está integrado y debe añadirse, así como el formulario relacionado debe crearse en Campaign. Estas operaciones están restringidas únicamente a usuarios expertos. Para obtener más información, consulte estas secciones: [Jerarquía de navegación](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy). y [Edición de formularios](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 
@@ -230,7 +230,7 @@ Los eventos se pueden mostrar con un formulario sencillo basado en el esquema de
 
 La reconciliación es el proceso de hacer coincidir el cliente de Adobe Analytics con la base de datos de Adobe Campaign. Por ejemplo, los criterios para la coincidencia pueden ser shopper_id.
 
-Por motivos de desempeño, la coincidencia debe realizarse en modo por lotes mediante un flujo de trabajo.
+Por razones de rendimiento, la coincidencia debe realizarse en modo por lotes mediante un flujo de trabajo.
 La frecuencia debe establecerse en 15 minutos para optimizar la carga de trabajo. Como consecuencia, el retraso entre una recepción de evento en Adobe Campaign y su procesamiento por un flujo de trabajo de marketing es de hasta 15 minutos.
 
 ### Opciones para la reconciliación de unidades en JavaScript {#options-unit-reconciliation}

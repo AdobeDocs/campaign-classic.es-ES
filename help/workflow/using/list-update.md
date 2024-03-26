@@ -7,7 +7,7 @@ feature: Workflows, Targeting Activity
 exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '468'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,7 @@ Identifique la población que se va a guardar en el grupo.
 
 ## Tutorial en vídeo {#video}
 
-Este vídeo muestra cómo crear una lista de destinatarios desde el Explorador.
+Este vídeo muestra cómo crear una lista de destinatarios desde Explorer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 

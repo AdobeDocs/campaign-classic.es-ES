@@ -7,8 +7,8 @@ hidefromtoc: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 76%
+source-wordcount: '657'
+ht-degree: 68%
 
 ---
 
@@ -40,7 +40,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
     <td valign="top">
         <ul>
         <li><a href="platform/using/faq-key-concepts.md">Conceptos clave</a></li>
-        <li><a href="platform/using/faq-campaign-config.md">Ajustes de Campaign</a></li>
+        <li><a href="platform/using/faq-campaign-config.md">Configuración de campaña</a></li>
         <li><a href="platform/using/faq-reporting.md">Creación de informes</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">Actualización de compilación</a></li>
         <li><a href="platform/using/faq-messages.md">Prueba, envío y seguimiento de mensajes</a></li>
@@ -53,8 +53,8 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <ul>
         <li><a href="production/using/performance-and-throughput-issues.md">Problemas de rendimiento y producción</a></li>
         <li><a href="delivery/using/delivery-performances.md">Rendimiento de envíos</a></li>
-        <li><a href="workflow/using/workflow-best-practices.md">Optimización del rendimiento de los flujos de trabajo</a></li>
-        <li><a href="workflow/using/monitoring-workflow-execution.md">Solución de problemas de ejecución de flujos de trabajo</a></li>
+        <li><a href="workflow/using/workflow-best-practices.md">Optimización del rendimiento del flujo de trabajo</a></li>
+        <li><a href="workflow/using/monitoring-workflow-execution.md">Solución de problemas de ejecución de flujo</a></li>
         <li><a href="platform/using/sftp-server-usage.md">Uso del servidor SFTP</a></li>
         <li><a href="delivery/using/understanding-delivery-failures.md">Comprender los errores de envío</a></li>
         </ul>
@@ -67,7 +67,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <li><a href="production/using/monitoring-guidelines.md">Herramientas de monitorización de Discover</a></li>
         <li><a href="platform/using/import-export-workflows.md">Importación de datos con flujos de trabajo</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">Envío de mensajes en varias olas</a></li>
-        <li><a href="delivery/using/defining-the-email-content.md">Diseño de contenido de correos electrónicos</a></li>
+        <li><a href="delivery/using/defining-the-email-content.md">Diseño del contenido del correo electrónico</a></li>
         <li><a href="delivery/using/delivery-best-practices.md">Prácticas recomendadas de entregas</a></li>
         </ul>
     </td>
@@ -137,7 +137,7 @@ El nuevo sistema de tickets se ha lanzado a través de [Adobe Admin Console](htt
 
 ### ¡Consulte a los expertos!
 
-Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_en blanco}.
+Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
 
 ### Acceso al Centro de descargas de Campaign
 

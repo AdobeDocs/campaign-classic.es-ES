@@ -4,15 +4,15 @@ title: Tablas que mantener
 description: Tablas que mantener
 feature: Monitoring
 badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
-badge-v7-prem: label="on-premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 5%
+source-wordcount: '1146'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ La siguiente lista contiene únicamente las tablas que están más sujetas a fra
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Nombre de la tabla </strong><br /> </th> 
+   <th> <strong>Nombre de tabla </strong><br /> </th> 
    <th> <strong>Tamaño</strong><br /> </th> 
    <th> <strong>Tipo principal de actividad</strong><br /> </th> 
    <th> <strong>Comentarios</strong><br /> </th> 
@@ -47,7 +47,7 @@ La siguiente lista contiene únicamente las tablas que están más sujetas a fra
   </tr> 
   <tr> 
    <td> NmsDeliveryPart<br /> </td> 
-   <td> Media<br /> </td> 
+   <td> Mediana<br /> </td> 
    <td> Inserciones, actualizaciones y eliminaciones<br /> </td> 
    <td> Tabla de trabajo en la que se insertan los registros durante la preparación de la entrega. A continuación, se actualizan durante la entrega y, finalmente, se eliminan una vez finalizada la entrega.<br /> Esta tabla tiende a fragmentarse rápidamente aunque su tamaño medio sea bastante limitado.<br /> </td> 
   </tr> 
@@ -59,13 +59,13 @@ La siguiente lista contiene únicamente las tablas que están más sujetas a fra
   </tr> 
   <tr> 
    <td> NmsDeliveryStat<br /> </td> 
-   <td> Media<br /> </td> 
+   <td> Mediana<br /> </td> 
    <td> Inserciones, actualizaciones y eliminaciones<br /> </td> 
    <td> Esta tabla contiene estadísticas sobre el proceso de envío. Sus registros se actualizan periódicamente. <br /> </td> 
   </tr> 
   <tr> 
    <td> NmsAddress<br /> </td> 
-   <td> Media<br /> </td> 
+   <td> Mediana<br /> </td> 
    <td> Actualizaciones e inserciones<br /> </td> 
    <td> Esta tabla contiene información sobre las direcciones de correo electrónico. Se actualiza con frecuencia como parte del proceso de cuarentena (los registros se crean en el primer error de entrega, se actualizan cuando los contadores cambian y se eliminan una vez que la entrega se realiza correctamente). <br /> </td> 
   </tr> 
@@ -113,7 +113,7 @@ La siguiente lista contiene únicamente las tablas que están más sujetas a fra
   </tr> 
   <tr> 
    <td> NmsEmailErrorStat<br /> </td> 
-   <td> Media<br /> </td> 
+   <td> Mediana<br /> </td> 
    <td> Inserciones, actualizaciones y eliminaciones<br /> </td> 
    <td> Esta tabla contiene los agregados de los errores SMTP ordenados por dominio. Inicialmente contiene información detallada que añade la tarea de limpieza una vez que queda obsoleta. <br /> </td> 
   </tr> 

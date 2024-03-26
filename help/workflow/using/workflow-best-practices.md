@@ -6,8 +6,8 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 feature: Workflows
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
 source-git-commit: 1baf424138c95b16add37d9d556e3a2566a869c2
-workflow-type: ht
-source-wordcount: '1385'
+workflow-type: tm+mt
+source-wordcount: '1388'
 ht-degree: 100%
 
 ---

@@ -11,7 +11,7 @@ topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1390'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ La configuración de la plantilla de hipótesis permite definir el contexto para
 
 Para crear una plantilla de hipótesis, aplique los siguientes pasos:
 
-1. En el Explorador de Adobe Campaign, haga clic en **[!UICONTROL Resources>Templates>Hypothesis templates]**.
+1. En Adobe Campaign Explorer, haga clic en **[!UICONTROL Resources>Templates>Hypothesis templates]**.
 
    ![](assets/response_hypothesis_model_creation_001.png)
 
@@ -188,7 +188,7 @@ Una vez que haya definido la tabla de transacciones y los campos a los que se re
 
 En este ejemplo, vamos a crear una plantilla de hipótesis para una entrega de correo postal. La tabla de transacciones (**Purchases** en nuestro ejemplo) en la que se basarán las hipótesis contiene líneas de compra vinculadas a artículos o productos. Queremos configurar nuestro modelo para crear hipótesis sobre artículos o productos en la tabla de compras.
 
-1. En el explorador de Adobe Campaign, vaya al directorio **[!UICONTROL Resources > Templates > Hypothesis templates]**.
+1. En Adobe Campaign Explorer, vaya al directorio **[!UICONTROL Resources > Templates > Hypothesis templates]**.
 1. Haga clic en **[!UICONTROL New]** para crear una plantilla.
 
    ![](assets/response_hypothesis_model_example_001.png)

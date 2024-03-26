@@ -8,8 +8,8 @@ feature: Deliverability
 role: User, Data Engineer
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
 source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
-workflow-type: ht
-source-wordcount: '470'
+workflow-type: tm+mt
+source-wordcount: '468'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ Recomendamos seguir las directrices que se indican a continuación para garantiz
 
 ## Lista de comprobación de problemas de rendimiento {#performance-issues}
 
-Si los resultados de la entrega son malos, puede comprobar:
+Si el rendimiento de la entrega no es bueno, puede comprobar:
 
 * **El tamaño de la entrega**: Las entregas grandes pueden tardar más en completarse. Los elementos MTA secundarios se configuran para gestionar un tamaño predeterminado que funciona con la mayoría de las instancias, pero es necesario comprobar si las entregas son constantemente lentos.
 * **El destinatario de la entrega**: El rendimiento de las entregas se puede ver afectado por errores de rechazos leves que se gestionan según la configuración de reintento. Cuanto mayor sea el número de errores, más necesarios son los reintentos de entrega.

@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1152'
 ht-degree: 100%
 
 ---
@@ -126,7 +126,7 @@ El enlace **[!UICONTROL Edit the access parameters...]** permite acceder a las s
 
   >[!IMPORTANT]
   >
-  >Se trata de una restricción muy estricta y debe utilizarse con precaución. Un operador registrado con este tipo de derechos puede ver el contenido de la carpeta especificada y no tiene acceso a ningún otro nodo del árbol mediante el navegador. Sin embargo, según las funcionalidades a las que tenga acceso este operador (por ejemplo, flujos de trabajo), el usuario puede mostrar datos que normalmente se almacenan en nodos a los que no se puede acceder.
+  >Se trata de una restricción muy estricta y debe utilizarse con precaución. Un operador registrado con este tipo de derechos puede ver el contenido de la carpeta especificada y no tiene acceso a ningún otro nodo del árbol mediante Explorer. Sin embargo, según las funcionalidades a las que tenga acceso este operador (por ejemplo, flujos de trabajo), el usuario puede mostrar datos que normalmente se almacenan en nodos a los que no se puede acceder.
 
 ### Comprobación de configuración {#check-settings}
 

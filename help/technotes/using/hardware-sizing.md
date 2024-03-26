@@ -7,7 +7,7 @@ badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign 
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2519'
+source-wordcount: '2576'
 ht-degree: 1%
 
 ---
@@ -110,7 +110,7 @@ Las funciones de inclusión/exclusión de suscripción y del centro de preferenc
 
 El consumo de espacio en disco en los servidores de aplicaciones depende del período de retención de archivos intercambiados con proveedores de servicios de terceros (por ejemplo, proveedores de impresión para correo postal) y del tamaño y la retención de archivos planos importados, como actualizaciones de suscripciones o preferencias de su sitio web, o extractos de sus propios sistemas de CRM o marketing.
 
-### Database
+### Base de datos
 
 Las recomendaciones de hardware para el servidor de bases de datos son las siguientes:
 
@@ -139,7 +139,7 @@ Volumen estimado:
 | Correo electrónico | 42 millones/mes |
 | Correo directo | 10 millones/mes |
 | SMS móvil | 1.000.000/mes |
-| Volumen diario máximo de correo electrónico | 5,000,000 |
+| Volumen diario máximo de correo electrónico | 5.000.000 |
 
 ### Servidores web y de aplicaciones
 
@@ -153,7 +153,7 @@ Los servidores web alojan aplicaciones web de Campaign que admiten los 10 millon
 
 Consulte [Escenario 1: implementación moderada](#scenario-1) para obtener más comentarios sobre los proxies, los centros de preferencias/gestión de suscripciones y el uso del espacio en disco.
 
-### Database
+### Base de datos
 
 Las recomendaciones de hardware para el servidor de bases de datos son las siguientes:
 
@@ -201,7 +201,7 @@ Los servidores web alojan aplicaciones web de Campaign que admiten los 10 millon
 
 Consulte [Escenario 1: implementación moderada](#scenario-1) para obtener más comentarios sobre los proxies, los centros de preferencias/gestión de suscripciones y el uso del espacio en disco.
 
-### Database
+### Base de datos
 
 Las recomendaciones de hardware para el servidor de bases de datos son las siguientes:
 

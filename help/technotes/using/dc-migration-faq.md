@@ -9,8 +9,8 @@ level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '2222'
-ht-degree: 62%
+source-wordcount: '2211'
+ht-degree: 41%
 
 ---
 
@@ -52,7 +52,7 @@ A continuación se enumeran los efectos globales en la base de datos e infraestr
 
 * **¿Cuál es el plan para abordar cualquier problema posterior a la migración?**
 
-  Se realizarán pruebas exhaustivas antes de que se migraran los sistemas de producción. Sin embargo, en caso de problemas, [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support) seguirá siendo el principal punto de contacto. Adobe ha creado un equipo de expertos para proporcionar asistencia avanzada, en caso de que fuera necesario.
+  Se realizarán pruebas exhaustivas antes de que se migraran los sistemas de producción. Sin embargo, en caso de problemas, [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support) seguirá siendo el principal punto de contacto. El Adobe ha creado un equipo de expertos para proporcionar asistencia avanzada, si es necesario.
 
 ## Impacto de la capacidad de entrega
 
@@ -82,7 +82,7 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 
   Adobe guiará al cliente a través de las pruebas necesarias para garantizar que la configuración se esté ejecutando en los nuevos servidores de la nube pública (AWS) después de la migración.
 
-* **¿Generará la migración nuevas direcciones URL para el seguimiento, los recursos y aplicaciones web?**
+* **¿Generará la migración nuevas direcciones URL para el seguimiento, los recursos y las aplicaciones web?**
 
   No, conservaremos las direcciones URL existentes.
 
@@ -90,11 +90,11 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 
   Ambos `neolane.net` y `campaign.adobe.com` se establecerá después de la migración. Para hacerlo simple: redireccionaremos neolane.net a nuevas instancias en la nube pública (AWS), por lo que no se requieren cambios por parte del cliente.
 
-* **¿Cuál es el plan para la preparación de las IP?**
+* **¿Cuál es el plan para el calentamiento de la IP?**
 
   En primer lugar, la capacidad de entrega de Adobe evaluará el estado de entrega de la plataforma y recomendará un plan para el cambio a las nuevas IP
 
-  Después de la migración no es necesario realizar ninguna preparación. Podría ser una excepción y, en ese caso, el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) se pondrá en contacto con los clientes.
+  No se requiere calentamiento después de la migración. Podría ser una excepción y, en tal caso, [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support) se pondrá en contacto con los clientes.
 
   Sin embargo, el plan es hacer que esta operación sea transparente para el negocio, a diferencia de la mejora inicial que se realiza durante el lanzamiento.
 
@@ -134,11 +134,11 @@ A continuación se enumeran los efectos globales en la configuración, conectivi
 
   Sí. Las integraciones de terceros como, por ejemplo, los proveedores de SMS, deben agregar nuevas direcciones IP de servidores de aplicaciones Adobe Campaign a la lista de permitidos.
 
-* **¿Afectará la migración a la conectividad con Adobe Analytics mediante el conector Genesis? ¿Qué sucede si se añaden direcciones IP de Campaign a la lista de permitidos del lado de Adobe Analytics?**
+* **¿Afectará la migración a la conectividad con Adobe Analytics mediante el conector de Genesis? ¿Qué sucede si se añaden direcciones IP de Campaign a la lista de permitidos del lado de Adobe Analytics?**
 
   Las direcciones IP de los servidores de aplicaciones de Adobe Campaign cambiarán. Este paso será gestionado por el Servicio de atención al cliente de Adobe después de la migración.
 
-* **¿Afectará la migración a la conectividad con otras soluciones de Adobe (AEM, Target, etc.)?**
+* **¿Afectará la migración a la conectividad con otras soluciones de Adobe AEM (, Target, etc.)?**
 
   Las integraciones son una combinación de direcciones IP declaradas en la configuración de cuenta de la lista de permitidos y el servicio web. Esto se contabilizará y será propiedad del Servicio de atención al cliente de Adobe.
 
@@ -191,7 +191,7 @@ A continuación se enumeran los efectos en los permisos, certificados y acceso a
 
 * **¿Necesitamos solicitar nuevas claves de acceso STP al cliente?**
 
-  No, Adobe copiará las claves de acceso SFTP como en el nuevo servidor.
+  No, el Adobe copiará las claves de acceso SFTP como en el nuevo servidor.
 
 * **¿Cómo se gestionan los permisos de SFTP?**
 
@@ -224,7 +224,7 @@ El impacto global durante la migración se enumera a continuación.
 
 * **¿Es necesario planificar la detención de la actividad de marketing durante la migración?**
 
-  Adobe recomienda reducir la velocidad y pausar todas las ejecuciones justo antes de cerrar la aplicación en el centro de datos heredado: entregas y flujos de trabajo. Esto facilitará el reinicio en el servidor en la nube (AWS), ya que se habrá dado tiempo a los procesos para pausar “correctamente” y guardar cualquier estado de ejecución en curso.
+  Adobe recomienda reducir la velocidad y pausar todas las ejecuciones justo antes de cerrar la aplicación en el centro de datos heredado: entregas y flujos de trabajo. Esto facilitará el reinicio en el servidor en la nube (AWS), ya que se habrá dado tiempo a los procesos para pausar &quot;correctamente&quot; y guardar cualquier estado de ejecución en curso.
 
 * **¿El servicio Adobe Campaign dejará de funcionar durante un tiempo?**
 
@@ -246,9 +246,9 @@ El impacto global durante la migración se enumera a continuación.
 
 * **¿Qué sucede con los mensajes enviados desde el servidor heredado? ¿Los vínculos siempre serán accesibles?**
 
-  Mientras se esté ejecutando la migración, solo un servicio seguirá funcionando: Redirección de vínculos de correo electrónico. Todos los destinatarios podrán llegar a la página de destino cuando hagan clic en un mensaje de correo electrónico. Sin embargo, no se rastrearán estos clics, por lo que las tasas de clics de los envíos que se iniciaron poco antes de que la migración serán menos que habitualmente.
+  Mientras se esté ejecutando la migración, solo un servicio seguirá funcionando: Redirección de vínculos de correo electrónico. Todos los destinatarios podrán llegar a la página de destino cuando hagan clic en un mensaje de correo electrónico. Sin embargo, no se rastrearán estos clics, por lo que las tasas de clics de los envíos que se iniciaron poco antes de que la migración serán inferiores a las habituales.
 
-* **¿Qué hay de los entornos intermediarios/RT?**
+* **¿Qué sucede con los entornos intermediarios/RT?**
 
   El abastecimiento de MID y RT se gestiona como cualquier otra infraestructura alojada.
 

@@ -7,7 +7,7 @@ feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '639'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Para obtener más información sobre la creación de listas, consulte [esta secc
 
 ## Paso 2: Creación de la plantilla de publicación {#step-2--creating-the-delivery-template}
 
-1. Vaya al nodo **[!UICONTROL Resources > Templates > Delivery templates]** del explorador de Adobe Campaign y duplique la plantilla predeterminada **[!UICONTROL Email delivery]**.
+1. Vaya al nodo **[!UICONTROL Resources > Templates > Delivery templates]** de Adobe Campaign Explorer y duplique la plantilla predeterminada **[!UICONTROL Email delivery]**.
 
    ![](assets/use_case_report_2.png)
 
