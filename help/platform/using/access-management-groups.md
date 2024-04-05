@@ -7,10 +7,10 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
+source-git-commit: 4e99ec73f99264e91ca427542e29bd42da88a3f9
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 100%
+source-wordcount: '512'
+ht-degree: 95%
 
 ---
 
@@ -80,7 +80,7 @@ Los grupos de operadores predeterminados son:
 
 1. **[!UICONTROL Access to reports]**
 
-   Este grupo está reservado para operadores externos, para acceder a los informes de entrega a través de un acceso Web.
+   Este grupo está reservado para operadores externos, con el fin de habilitar los iconos Informe, Programación y Foro en el Panel de campañas para un operador específico.
 
 1. **[!UICONTROL Workflow execution]**
 
