@@ -3,15 +3,14 @@ product: campaign
 title: Definición de condiciones de filtro
 description: Definición de condiciones de filtro
 feature: Query Editor
-badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '3307'
+source-wordcount: '3304'
 ht-degree: 99%
 
 ---

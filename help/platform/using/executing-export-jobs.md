@@ -3,16 +3,15 @@ product: campaign
 title: Configuración de los trabajos de exportación
 description: Obtenga información sobre cómo configurar y ejecutar trabajos de exportación en Campaign
 feature: Overview
-badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 98%
+source-wordcount: '947'
+ht-degree: 97%
 
 ---
 

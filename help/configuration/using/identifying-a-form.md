@@ -4,13 +4,12 @@ title: Identificación de formularios
 description: Identificación de formularios
 feature: Application Settings
 role: Data Engineer, Developer
-badge-v7: label="v7" type="Informative" tooltip="Se aplica a Campaign Classic v7"
-badge-v8: label="v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 28%
+source-wordcount: '71'
+ht-degree: 19%
 
 ---
 
