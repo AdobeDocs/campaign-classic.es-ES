@@ -2,13 +2,12 @@
 product: campaign
 title: Creación de una notificación push para dispositivos iOS
 description: Aprenda a crear notificaciones push para iOS
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Push
 role: User, Developer, Data Engineer
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '971'
 ht-degree: 100%
 
 ---

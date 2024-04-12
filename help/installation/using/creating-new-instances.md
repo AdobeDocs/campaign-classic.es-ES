@@ -3,15 +3,14 @@ product: campaign
 title: Creación de nuevas instancias
 description: Creación de nuevas instancias
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 3b87eb3c-3b50-4ed4-80b1-4333261ffe0b
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 7%
+source-wordcount: '82'
+ht-degree: 0%
 
 ---
 

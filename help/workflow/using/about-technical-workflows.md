@@ -2,12 +2,11 @@
 product: campaign
 title: Flujos de trabajo técnicos
 description: Obtenga más información sobre los flujos de trabajo técnicos disponibles con los paquetes de Campaign Classic
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1704'
 ht-degree: 97%
 
 ---

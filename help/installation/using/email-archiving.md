@@ -3,15 +3,14 @@ product: campaign
 title: Archivado de correo electrónico
 description: Archivado de correo electrónico
 feature: Installation, Instance Settings, Email
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: e808e71ccf949bdaf735cdb2895389f03638bd71
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 4%
+source-wordcount: '1211'
+ht-degree: 3%
 
 ---
 

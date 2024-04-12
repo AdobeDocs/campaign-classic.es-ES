@@ -1,12 +1,11 @@
 ---
 title: Conectores CRM
 description: Descubra más información sobre el conector CRM y configure la sincronización de datos
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Data Management
 exl-id: 41966f31-9f37-4ab7-919a-d4624f9d1178
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '113'
 ht-degree: 100%
 
 ---

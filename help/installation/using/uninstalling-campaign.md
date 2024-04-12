@@ -3,15 +3,14 @@ product: campaign
 title: Desinstalación de Campaign
 description: Obtenga información sobre cómo desinstalar Campaign
 feature: Installation
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: e2b026ba-aaf3-443d-8c36-c908288a14fd
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 18%
+source-wordcount: '36'
+ht-degree: 2%
 
 ---
 

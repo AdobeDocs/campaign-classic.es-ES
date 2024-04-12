@@ -2,12 +2,11 @@
 product: campaign
 title: Flujo de trabajo de entrega por canales cruzados
 description: Descubra más información sobre los flujos de trabajo de entrega por canales cruzados
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Channels Activity
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '670'
 ht-degree: 100%
 
 ---

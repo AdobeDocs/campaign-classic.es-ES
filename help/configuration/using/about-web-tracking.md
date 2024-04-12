@@ -4,12 +4,11 @@ title: Acerca del seguimiento web
 feature: Configuration, Instance Settings
 description: Acerca del seguimiento web
 role: User, Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 8%
+source-wordcount: '192'
+ht-degree: 4%
 
 ---
 

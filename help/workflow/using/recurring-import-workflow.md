@@ -2,12 +2,11 @@
 product: campaign
 title: Configuración de una importación recurrente
 description: Obtenga información sobre cómo configurar una plantilla de flujo de trabajo para importaciones recurrentes
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Data Management
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1015'
 ht-degree: 100%
 
 ---

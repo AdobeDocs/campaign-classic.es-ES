@@ -3,16 +3,15 @@ product: campaign
 title: Solución de problemas del conector ACS
 description: Solución de problemas del conector ACS
 feature: ACS Connector, Troubleshooting
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: integrations
 content-type: reference
 topic-tags: acs-connector
 hide: true
 hidefromtoc: true
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '872'
 ht-degree: 100%
 
 ---

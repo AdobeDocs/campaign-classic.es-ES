@@ -4,12 +4,11 @@ title: Ejemplos de la edición de esquemas
 description: Ejemplos de la edición de esquemas
 feature: Schema Extension
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 3%
+source-wordcount: '669'
+ht-degree: 2%
 
 ---
 

@@ -3,14 +3,13 @@ product: campaign
 title: Exportación e importación de perfiles
 description: Exportación e importación de perfiles
 feature: Profiles
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: fd0f7b6e-84e1-442d-ae88-817fb6758d64
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '140'
 ht-degree: 100%
 
 ---

@@ -3,15 +3,14 @@ product: campaign
 title: Directrices de script y código
 description: Obtenga más información acerca de las directrices que se deben seguir al desarrollar en Adobe Campaign (flujos de trabajo, JavaScript, JSSP, etc.)
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 5%
+source-wordcount: '740'
+ht-degree: 4%
 
 ---
 

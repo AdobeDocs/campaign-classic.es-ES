@@ -3,16 +3,15 @@ product: campaign
 title: Restauración
 description: Restauración
 feature: Monitoring
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: ba4db1af-778c-4c34-9a3c-49f41faa49b5
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 24%
+source-wordcount: '75'
+ht-degree: 17%
 
 ---
 

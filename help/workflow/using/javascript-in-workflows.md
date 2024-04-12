@@ -2,12 +2,11 @@
 product: campaign
 title: Ejemplos de código JavaScript en flujos de trabajo
 description: Estos ejemplos muestran cómo se puede utilizar código JavaScript en un flujo de trabajo
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1695'
 ht-degree: 100%
 
 ---

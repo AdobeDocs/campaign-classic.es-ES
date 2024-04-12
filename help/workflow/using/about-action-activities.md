@@ -2,12 +2,11 @@
 product: campaign
 title: Acerca de las actividades de acción
 description: Acerca de las actividades de acción
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Data Management
 exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---

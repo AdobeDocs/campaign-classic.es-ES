@@ -4,12 +4,11 @@ title: Editar árbol de navegación del explorador de Campaign
 description: Editar árbol de navegación del explorador de Campaign
 feature: Application Settings
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 5%
+source-wordcount: '131'
+ht-degree: 0%
 
 ---
 

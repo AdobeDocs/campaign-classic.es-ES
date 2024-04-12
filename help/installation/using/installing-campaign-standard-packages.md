@@ -3,13 +3,12 @@ product: campaign
 title: Instalación de paquetes integrados de Campaign Classic
 description: Obtenga información sobre cómo instalar paquetes integrados de Campaign
 feature: Installation, Application Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 11%
+source-wordcount: '1264'
+ht-degree: 10%
 
 ---
 
@@ -63,7 +62,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   <tr> 
    <td> Entrega<br /> </td> 
    <td> Supervisa los envíos y los problemas que se puedan detectar cuando se envían mensajes. <a href="../../delivery/using/about-delivery-monitoring.md">Más información</a><br /> </td> 
-   <td> Todas</td> 
+   <td> Todos</td> 
   </tr> 
   <tr> 
    <td> Campañas de marketing (Campaign)<br /> </td> 
@@ -99,7 +98,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   <tr> 
    <td> Redes sociales (Marketing social) <br /> </td> 
    <td> Sincroniza Adobe Campaign con X (anteriormente conocido como Twitter) y Facebook. <a href="../../social/using/about-social-marketing.md">Más información</a> <br /> </td> 
-   <td> Todas</td> 
+   <td> Todos</td> 
   </tr> 
   <tr> 
    <td> Control de mensajes transaccionales (Centro de mensajes - Control)<br /> </td> 
@@ -169,7 +168,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   <tr> 
    <td> Monitorización de la capacidad de entrega (capacidad de entrega por correo electrónico)<br /> </td> 
    <td> Mide el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rebotar o marcadas como correo no deseado. Opcional. <a href="../../delivery/using/about-deliverability.md">Más información</a> <br /> </td> 
-   <td> Todas </td> 
+   <td> Todos </td> 
   </tr> 
   <tr> 
    <td> Administración de cupones<br /> </td> 
@@ -214,7 +213,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   <tr> 
    <td> Reglamento de protección de datos de privacidad<br /> </td> 
    <td> Contiene funcionalidad adicional para ayudarle con el cumplimiento de la privacidad en Campaign Classic. <a href="https://helpx.adobe.com/es/campaign/kb/acc-privacy.html">Más información</a> <br /> </td> 
-   <td> Todas</td> 
+   <td> Todos</td> 
   </tr> 
   <tr> 
    <td> Transfer to Mid-Sourcing <br /> </td> 
@@ -229,7 +228,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   <tr> 
    <td> Compatibilidad con AMP<br /> </td> 
    <td> Permite utilizar la nueva AMP interactiva para el formato de correo electrónico y enviar correos electrónicos dinámicos. Opcional. <a href="../../delivery/using/defining-interactive-content.md">Más información</a> <br /> </td> 
-   <td> Todas </td> 
+   <td> Todos </td> 
   </tr> 
   <tr> 
    <td> Conector ACS (obsoleto)<br /> </td> 

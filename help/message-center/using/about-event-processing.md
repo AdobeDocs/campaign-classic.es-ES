@@ -3,14 +3,13 @@ product: campaign
 title: Procesamiento de eventos
 description: Descubra cómo se procesan los eventos de mensajería transaccional en Adobe Campaign Classic
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '693'
 ht-degree: 100%
 
 ---

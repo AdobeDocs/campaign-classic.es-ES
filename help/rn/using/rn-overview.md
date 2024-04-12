@@ -2,14 +2,13 @@
 product: campaign
 title: Introducción a las actualizaciones
 description: Más información sobre las actualizaciones de Campaign Classic
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '929'
 ht-degree: 97%
 
 ---

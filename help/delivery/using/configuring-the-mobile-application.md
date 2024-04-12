@@ -2,13 +2,12 @@
 product: campaign
 title: Configuración de la aplicación móvil de iOS en Adobe Campaign
 description: Descubra cómo configurar su aplicación móvil para iOS
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Push
 role: User, Developer
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 466f04bce8f4c62b5dbb0e9d15150ab0c3bf2fbd
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '596'
 ht-degree: 91%
 
 ---

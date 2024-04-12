@@ -2,15 +2,14 @@
 product: campaign
 title: Adición de un campo calculado de tipo Lista desglosada
 description: Aprenda cómo añadir un campo calculado de tipo Lista desglosada
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: workflow
 content-type: reference
 topic-tags: use-cases
 feature: Workflows, Data Management
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '437'
 ht-degree: 100%
 
 ---

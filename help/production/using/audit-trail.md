@@ -3,12 +3,11 @@ product: campaign
 title: Pista de auditoría
 description: Obtenga información sobre cómo monitorizar la instancia con la pista de auditoría de Campaign
 feature: Audit Trail, Monitoring, Workflows
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 12%
+source-wordcount: '464'
+ht-degree: 10%
 
 ---
 

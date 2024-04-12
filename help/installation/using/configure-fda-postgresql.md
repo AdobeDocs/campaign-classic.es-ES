@@ -3,12 +3,11 @@ product: campaign
 title: Configuración del acceso a PostgreSQL
 description: Obtenga información sobre cómo configurar el acceso a PostgreSQL
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: 2c678f45-2555-4647-9885-bd002db7df37
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 11%
+source-wordcount: '336'
+ht-degree: 10%
 
 ---
 

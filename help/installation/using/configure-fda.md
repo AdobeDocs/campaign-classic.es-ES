@@ -3,15 +3,14 @@ product: campaign
 title: Configuración de conectores FDA
 description: Conozca los pasos de configuración para FDA
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 38%
+source-wordcount: '347'
+ht-degree: 37%
 
 ---
 

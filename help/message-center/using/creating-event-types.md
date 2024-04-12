@@ -3,14 +3,13 @@ product: campaign
 title: Creación de tipos de eventos
 description: Aprenda a crear tipos de eventos que coincidan con los mensajes transaccionales que desea enviar en Adobe Campaign Classic
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 98b7c827-f31d-46a6-a28d-40a78a4b4248
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '169'
 ht-degree: 100%
 
 ---

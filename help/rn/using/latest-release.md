@@ -3,13 +3,12 @@ product: campaign
 title: Último lanzamiento
 description: Notas de la versión más reciente de Campaign Classic v7
 feature: Release Notes
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 517f09e508207b14e6b870f926753b2d9a547262
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '2319'
+source-wordcount: '2312'
 ht-degree: 100%
 
 ---

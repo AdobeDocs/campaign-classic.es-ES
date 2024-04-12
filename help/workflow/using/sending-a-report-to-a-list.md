@@ -2,12 +2,11 @@
 product: campaign
 title: Envío de un informe a una lista
 description: Descubra más información sobre cómo enviar un informe a una lista con un flujo de trabajo
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '632'
 ht-degree: 100%
 
 ---

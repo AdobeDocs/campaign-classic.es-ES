@@ -2,12 +2,11 @@
 product: campaign
 title: Acerca de los flujos de trabajo
 description: Automatice los procesos con flujos de trabajo, administre datos y audiencias, envíe mensajes, y mucho más
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Data Management
 exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '650'
 ht-degree: 100%
 
 ---

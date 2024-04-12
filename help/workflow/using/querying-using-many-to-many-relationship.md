@@ -2,12 +2,11 @@
 product: campaign
 title: Consultas con una relación “varios a varios”
 description: Aprenda a hacer consultas mediante una relación “varios a varios”
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Query Editor, Workflows
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '390'
 ht-degree: 100%
 
 ---

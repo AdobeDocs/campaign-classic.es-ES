@@ -3,15 +3,14 @@ product: campaign
 title: Arquitectura general
 description: Arquitectura general
 feature: Monitoring, Architecture
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: production
 content-type: reference
 topic-tags: introduction
 exl-id: 3bfb5448-6996-4080-bf9a-434f1207637e
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 8%
+source-wordcount: '186'
+ht-degree: 4%
 
 ---
 

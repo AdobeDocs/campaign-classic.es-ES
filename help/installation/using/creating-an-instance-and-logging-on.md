@@ -3,15 +3,14 @@ product: campaign
 title: Creación de una instancia e inicio de sesión
 description: Creación de una instancia e inicio de sesión
 feature: Installation, Instance Settings
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 2%
+source-wordcount: '586'
+ht-degree: 1%
 
 ---
 
@@ -19,9 +18,9 @@ ht-degree: 2%
 
 
 
-Para crear una nueva base de datos instancia y Adobe Campaign, siga el siguiente proceso:
+Para crear una nueva instancia y una base de datos de Adobe Campaign, siga el siguiente proceso:
 
-1. Crear la conexión.
+1. Cree la conexión.
 1. Inicie sesión para crear los instancia relacionados.
 1. Crear y configure la base de datos.
 
@@ -31,9 +30,9 @@ Para crear una nueva base de datos instancia y Adobe Campaign, siga el siguiente
 
 Cuando se inicia la consola Adobe Campaign, se accede a un inicio de sesión Página.
 
-Para crear una nueva instancia, siga los pasos a continuación:
+Para crear una nueva instancia, seguir los pasos siguientes:
 
-1. Haga clic en el vínculo en la esquina superior derecha de los campos de credenciales para acceder a la ventana de configuración de la conexión. Este vínculo puede ser **[!UICONTROL New...]** o un nombre de instancia existente.
+1. Haga clic en la vincular situada en la esquina superior derecha de los campos de credenciales para acceder a la ventana de configuración de conexión. Este vínculo puede ser **[!UICONTROL New...]** o un nombre de instancia existente.
 
    ![](assets/s_ncs_install_define_connection_01.png)
 
@@ -43,7 +42,7 @@ Para crear una nueva instancia, siga los pasos a continuación:
 
 1. Especifique una conexión con el servidor de aplicaciones de Adobe Campaign mediante una dirección URL. Utilice un DNS o un alias del equipo, o su dirección IP.
 
-   Por ejemplo, puede utilizar el `https://<machine>.<domain>.com` tipo URL.
+   Por ejemplo, puede utilizar la variable `https://<machine>.<domain>.com` escriba la dirección URL.
 
    >[!CAUTION]
    >
@@ -55,9 +54,9 @@ Para crear una nueva instancia, siga los pasos a continuación:
 
    ![](assets/s_ncs_install_create_instance.png)
 
-   El nombre de la instancia agregada al nombre de dominio no debe superar los 40 caracteres. Esto le permite restringir el tamaño de los encabezados &quot;Message-ID&quot; y evita que los mensajes se consideren como correo no deseado, especialmente por herramientas como SpamAssassin.
+   El nombre del instancia agregado al nombre de dominio no debe exceder los 40 caracteres. Esto le permite restringir el tamaño de los encabezados &quot;Enviar mensaje-ID&quot; y evita que los mensajes sean considerados como spam, particularmente por herramientas como SpamAssassin.
 
-1. En el **[!UICONTROL DNS masks]** , introduzca la variable **lista de máscaras DNS** a la que se debe adjuntar la instancia. El servidor de Adobe Campaign utiliza el nombre de host que aparece en las solicitudes HTTP para determinar a qué instancia acceder.
+1. En los **[!UICONTROL DNS masks]** campos, introduzca el lista de máscaras DNS a las **** que debe adjuntarse la instancia. El servidor de Adobe Campaign utiliza el nombre de host que aparece en las solicitudes HTTP para determinar a qué instancia acceder.
 
    El nombre de host se encuentra entre la cadena **https://** y el primer carácter de barra diagonal **/** de la dirección del servidor.
 
@@ -69,9 +68,9 @@ Para crear una nueva instancia, siga los pasos a continuación:
 
    El servidor debe identificarse con este nombre, especialmente para cargar imágenes en correos electrónicos.
 
-   Además, el servidor debe poder conectarse a sí mismo con este nombre y, si es posible, mediante una dirección de bucle invertido (127.0.0.1), especialmente para permitir que los informes se exporten en formato de PDF.
+   Además, el servidor debe poder conectarse a sí mismo con este nombre y, si es posible, mediante una dirección de bucle invertido - 127.0.0.1 -, particularmente para permitir que los informes se exporten en PDF formato.
 
-1. En el **[!UICONTROL Language]** , seleccione la opción **idioma de instancia**: inglés (EE. UU.), inglés (Reino Unido), francés o japonés.
+1. En la **[!UICONTROL Language]** lista desplegable, seleccione el **idioma** instancia: Inglés (EE.UU.), Inglés (Reino Unido), Francés o Japonés.
 
    Las diferencias entre inglés de EE. UU. e inglés de Reino Unido se describen en [esta sección](../../platform/using/adobe-campaign-workspace.md#date-and-time).
 
@@ -79,8 +78,8 @@ Para crear una nueva instancia, siga los pasos a continuación:
    >
    >No se puede modificar el idioma de la instancia después de este paso. Las instancias de Adobe Campaign no son multilingües: no puede cambiar la interfaz de un idioma a otro.
 
-1. Haga clic para **[!UICONTROL Ok]** confirmar instancia declaración. Cierre la sesión y vuelva a iniciarla para declarar la base de datos.
+1. Clic **[!UICONTROL Ok]** para confirmar la declaración de la instancia. Cierre la sesión y vuelva a iniciarla para declarar la base de datos.
 
    >[!NOTE]
    >
-   >El instancia se puede crear desde la línea de comandos. Para obtener más información, consulte [Comando líneas](../../installation/using/command-lines.md).
+   >La instancia se puede crear desde la línea de comandos. Para obtener más información, consulte [Comando líneas](../../installation/using/command-lines.md).

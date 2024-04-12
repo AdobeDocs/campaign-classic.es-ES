@@ -2,13 +2,12 @@
 product: campaign
 title: Acerca de la edición de esquema
 description: Introducción a la edición de esquemas
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1006'
 ht-degree: 9%
 
 ---

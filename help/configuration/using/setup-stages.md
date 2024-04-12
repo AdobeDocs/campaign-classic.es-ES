@@ -4,12 +4,11 @@ title: Etapas de configuración
 description: Etapas de configuración
 feature: Configuration
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: a5ae0b61-3377-46d9-a327-6c897eeda770
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 8%
+source-wordcount: '234'
+ht-degree: 5%
 
 ---
 

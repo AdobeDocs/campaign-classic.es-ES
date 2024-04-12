@@ -2,12 +2,11 @@
 product: campaign
 title: Prácticas recomendadas del modelo de datos
 description: Aprenda a trabajar con el modelo de datos de Campaign Classic
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '4020'
+source-wordcount: '4013'
 ht-degree: 1%
 
 ---

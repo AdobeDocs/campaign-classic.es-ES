@@ -3,14 +3,13 @@ product: campaign
 title: Configuraciones adicionales
 description: Obtenga información sobre cómo ajustar configuraciones adicionales para la mensajería transaccional en Adobe Campaign Classic
 feature: Transactional Messaging, Message Center
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 52dcc8c01c5ce2421bfb59235bd0e458e7c8122f
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '804'
 ht-degree: 100%
 
 ---

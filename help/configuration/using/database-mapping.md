@@ -4,12 +4,11 @@ title: Asignación de base de datos
 description: Asignación de base de datos
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
-source-git-commit: 4a29c189e1e438bbb90067ece63ced0196c618ec
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 5%
+source-wordcount: '525'
+ht-degree: 4%
 
 ---
 

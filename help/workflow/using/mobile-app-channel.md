@@ -2,11 +2,10 @@
 product: campaign
 title: Canal de aplicaciones móviles
 description: Canal de aplicaciones móviles
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '65'
 ht-degree: 100%
 
 ---

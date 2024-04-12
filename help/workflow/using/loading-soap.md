@@ -2,12 +2,11 @@
 product: campaign
 title: Carga (SOAP)
 description: Carga (SOAP)
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows
 exl-id: 20414e73-2ba9-44f9-8e16-cb6604933ee0
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '251'
 ht-degree: 100%
 
 ---

@@ -2,12 +2,11 @@
 product: campaign
 title: Carga de datos (archivo)
 description: Descubra más información sobre la actividad del flujo de trabajo Carga de datos (archivos)
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Workflows, Data Management Activity
 exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
-source-git-commit: 229844437770c460d958724e2dc15941e35939a6
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1140'
 ht-degree: 92%
 
 ---

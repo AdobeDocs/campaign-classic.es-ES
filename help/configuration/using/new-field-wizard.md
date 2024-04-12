@@ -2,14 +2,13 @@
 product: campaign
 title: Asistente de nuevo campo
 description: Asistente de nuevo campo
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 7%
+source-wordcount: '200'
+ht-degree: 4%
 
 ---
 

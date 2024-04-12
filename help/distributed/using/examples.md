@@ -2,12 +2,11 @@
 product: campaign
 title: Ejemplos de marketing distribuido
 description: Ejemplos de marketing distribuido
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Distributed Marketing
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
-source-git-commit: 8debcd3d8fb883b3316cf75187a86bebf15a1d31
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1296'
 ht-degree: 99%
 
 ---

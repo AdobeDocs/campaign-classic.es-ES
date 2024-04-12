@@ -2,14 +2,13 @@
 product: campaign
 title: Acerca de los conectores
 description: Acerca de los conectores
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
-workflow-type: ht
-source-wordcount: '200'
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+workflow-type: tm+mt
+source-wordcount: '193'
 ht-degree: 100%
 
 ---

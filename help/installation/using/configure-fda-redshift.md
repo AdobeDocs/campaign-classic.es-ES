@@ -3,15 +3,14 @@ product: campaign
 title: Configuración del acceso a Amazon Redshift
 description: Obtenga información sobre cómo configurar el acceso a Amazon Redshift en FDA
 feature: Installation, Federated Data Access
-badge-v7-only: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: ef2b98bd-441e-4e59-bb41-4e835e250663
-source-git-commit: 2ba6066b2999973e64ed3b429af78696f093dd09
+source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 28%
+source-wordcount: '248'
+ht-degree: 26%
 
 ---
 
