@@ -3,14 +3,14 @@ product: campaign
 title: Requisitos previos para la instalación de Campaign en Linux
 description: Requisitos previos para la instalación de Campaign en Linux
 feature: Installation, Instance Settings
-badge-v7-prem: label="On-Premise e híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '917'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Como recordatorio, los siguientes componentes deben instalarse y configurarse co
 
 ### Bibliotecas {#libraries}
 
-Para instalar Adobe Campaign en Linux, asegúrese de que dispone de las bibliotecas requeridas.
+Para instalar Adobe Campaign en Linux, asegúrese de tener la bibliotecas necesaria.
 
 * La biblioteca C debe ser compatible con el modo TLS (almacenamiento local de subprocesos). Este modo está activo en la mayoría de los casos, excepto con algunos núcleos para los que se ha desactivado el soporte de Xen.
 
