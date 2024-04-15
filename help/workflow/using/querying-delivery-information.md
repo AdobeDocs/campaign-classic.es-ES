@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo consultar la información de entre
 feature: Query Editor, Workflows
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1252'
 ht-degree: 100%
 

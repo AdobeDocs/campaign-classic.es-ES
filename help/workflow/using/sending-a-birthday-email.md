@@ -5,7 +5,7 @@ description: Descubra más información sobre cómo enviar un correo electrónic
 feature: Workflows
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '878'
 ht-degree: 100%
 

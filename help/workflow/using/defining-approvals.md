@@ -5,7 +5,7 @@ description: Las aprobaciones permiten a los operadores tomar las decisiones que
 feature: Approvals
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '842'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: Recurso de Marketing (MRM)
 description: Recurso de Marketing (MRM)
 feature: Workflows, Targeting Activity
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
 ht-degree: 100%
 

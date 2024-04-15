@@ -5,7 +5,7 @@ description: Descubra las prácticas recomendadas del flujo de trabajo Campaña
 feature: Workflows
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1381'
 ht-degree: 100%
 

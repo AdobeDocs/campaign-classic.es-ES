@@ -5,7 +5,7 @@ description: Un módulo específico gestiona los flujos de trabajo. Este módulo
 feature: Workflows
 exl-id: 46801f78-706c-4dfa-bce7-3d15f569f222
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
 ht-degree: 100%
 

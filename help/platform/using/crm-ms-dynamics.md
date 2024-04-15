@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo conectar Campaign y Microsoft Dyna
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1104'
 ht-degree: 100%
 
