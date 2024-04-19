@@ -2,14 +2,14 @@
 product: campaign
 title: Bloques de personalización
 description: Aprenda a utilizar bloques de personalización
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Personalization
 role: User
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '870'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

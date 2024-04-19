@@ -3,15 +3,15 @@ product: campaign
 title: Configuración de la integración de audiencias compartidas en Adobe Campaign
 description: Obtenga información sobre cómo configurar la integración de audiencias compartidas
 feature: Audiences, People Core Service Integration
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '555'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

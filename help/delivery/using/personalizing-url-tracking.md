@@ -2,14 +2,14 @@
 product: campaign
 title: Configuración de las opciones de seguimiento de URL
 description: Obtenga información sobre cómo configurar las opciones de seguimiento de URL
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring, Email Design, Personalization
 role: User
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

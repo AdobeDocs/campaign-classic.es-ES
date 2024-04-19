@@ -2,13 +2,13 @@
 product: campaign
 title: Uso de una plantilla de contenido
 description: Uso de una plantilla de contenido
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

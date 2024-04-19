@@ -2,14 +2,14 @@
 product: campaign
 title: SpamAssassin
 description: Obtenga información sobre cómo configurar la detección de correo no deseado con SpamAssassin
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email, Deliverability
 role: User
 exl-id: 8be6836d-f7dc-4199-b2b2-b6a9cac9d162
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

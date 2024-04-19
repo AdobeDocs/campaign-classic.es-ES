@@ -3,15 +3,15 @@ product: campaign
 title: Monitorización de la ejecución de trabajos
 description: Obtenga información sobre cómo monitorizar la ejecución de trabajos de importación y exportación
 feature: Monitoring
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 415c5137-2eb0-4581-a46e-26e8e3d264fa
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

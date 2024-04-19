@@ -2,14 +2,14 @@
 product: campaign
 title: Archivos adjuntos
 description: Archivos adjuntos
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email
 role: User
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '975'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

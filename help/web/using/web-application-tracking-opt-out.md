@@ -2,13 +2,13 @@
 product: campaign
 title: Exclusión del seguimiento de aplicaciones web
 description: Exclusión del seguimiento de aplicaciones web
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Apps
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

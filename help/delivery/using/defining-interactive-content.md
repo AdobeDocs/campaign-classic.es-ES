@@ -2,14 +2,14 @@
 product: campaign
 title: Definición de contenido interactivo en Adobe Campaign Classic
 description: Aprenda a definir contenido de correo electrónico dinámico e interactivo con AMP en Adobe Campaign
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email Design
 role: User
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1422'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

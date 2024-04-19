@@ -3,15 +3,15 @@ product: campaign
 title: Descompresión o descifrado de un archivo
 description: Obtenga información sobre cómo descomprimir o descifrar un archivo en Campaign antes de procesarlo
 feature: Workflows, Encryption
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -86,13 +86,13 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 1. Abra la actividad **[!UICONTROL Data loading (file)]** y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/data-loading-file.md).
 
-   Añada una fase de preprocesamiento a la actividad para descifrar los datos entrantes. Para ello, seleccione la **[!UICONTROL Pre-process the file]** , luego seleccione **[!UICONTROL Decrypt]** desde el **[!UICONTROL Command]** lista desplegable:
+   Añada una fase de preprocesamiento a la actividad para descifrar los datos entrantes. Para ello, seleccione la opción **[!UICONTROL Pre-process the file]** y, luego, seleccione **[!UICONTROL Decrypt]** de la lista desplegable **[!UICONTROL Command]**:
 
    ![](assets/gpg_load.png)
 
    >[!NOTE]
    >
-   >Si es necesario modificar los comandos disponibles, puede ponerse en contacto con [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para ajustar la configuración de preProcessCommand.
+   >Si es necesario modificar los comandos disponibles, puede ponerse en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para ajustar la configuración de preProcessCommand.
    >
    >Si está trabajando con una implementación híbrida, puede configurar estos comandos directamente desde el archivo de configuración del servidor (serverConf.xml). [Obtenga información sobre cómo configurar comandos de preprocesamiento en el archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md#preprocesscommand)
 

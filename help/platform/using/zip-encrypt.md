@@ -3,15 +3,15 @@ product: campaign
 title: Compresión o cifrado de un archivo
 description: Obtenga información sobre cómo comprimir o cifrar un archivo en Campaign antes de procesarlo
 feature: Data Management, Encryption
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

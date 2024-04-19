@@ -2,14 +2,14 @@
 product: campaign
 title: Comprensión de la administración de cuarentenas
 description: Comprensión de la administración de cuarentenas
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring, Deliverability
 role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2987'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

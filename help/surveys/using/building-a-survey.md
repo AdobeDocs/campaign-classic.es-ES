@@ -2,13 +2,13 @@
 product: campaign
 title: Diseño de una encuesta
 description: Aprenda los pasos clave para diseñar una encuesta
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '793'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -6,9 +6,9 @@ feature: Push
 role: User, Developer
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ En el siguiente ejemplo, se añaden **mediaURl** y **mediaExt** para crear notif
 
    Hay dos modos disponibles:
 
-   * (Recomendado) **[!UICONTROL Token-based authentication]**: complete la configuración de conexión de APNS **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** y **[!UICONTROL Bundle Id]** a continuación, seleccione el certificado p8 haciendo clic en **[!UICONTROL Enter the private key...]**. Para obtener más información sobre **[!UICONTROL Token-based authentication]**, consulte [Documentación de Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
+   * (Recomendado) **[!UICONTROL Token-based authentication]**: complete la configuración las conexiones APNS **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** y **[!UICONTROL Bundle Id]** y luego seleccione el certificado p8 haciendo clic en **[!UICONTROL Enter the private key...]**. Para más información sobre **[!UICONTROL Token-based authentication]**, consulte la [documentación de Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
 
    * **[!UICONTROL Certificate-based authentication]**: haga clic en **[!UICONTROL Enter the certificate...]**, seleccione la clave p12 e introduzca la contraseña proporcionada por el desarrollador de aplicaciones móviles.
 
@@ -116,7 +116,7 @@ En el siguiente ejemplo, se añaden **mediaURl** y **mediaExt** para crear notif
    >
    > Adobe recomienda utilizar **[!UICONTROL Token-based authentication]** para la configuración de iOS, ya que las claves de autenticación P8 son más nuevas y seguras.
 
-1. Utilice el **[!UICONTROL Test the connection]** para validar la configuración.
+1. Utilice el botón **[!UICONTROL Test the connection]** para validar la configuración.
 
 1. Haga clic en **[!UICONTROL Next]** para configurar la aplicación de producción y siga los mismos pasos detallados anteriormente.
 

@@ -2,13 +2,13 @@
 product: campaign
 title: Introducción a los formularios web
 description: Introducción a los formularios web en Campaign
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Landing Pages, Web Forms
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

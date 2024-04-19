@@ -3,15 +3,15 @@ product: campaign
 title: Privacidad y consentimiento
 description: Más información sobre Privacidad y consentimiento
 feature: Privacy, Privacy Tools
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1977'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ Estas son las distintas personalidades utilizadas en este ejemplo:
 
 * **Laura** es el **Sujeto de datos**. Es el destinatario que recibe los mensajes de la compañía aérea. Laura es una viajera frecuente, pero puede decidir en algún momento que no quiere publicidad personalizada o mensajes de marketing de la compañía aérea. En ese caso le pide a la compañía aérea (según su proceso) que borre su número de viajero frecuente.
 
-* **Anne** es el **Controlador de datos** en la compañía de aerolíneas. Recibe la solicitud de Laura, recupera los ID útiles solicitados para identificar al sujeto de datos y envía la solicitud en Adobe Campaign.
+* **Anne** es el **Controlador de datos** en la compañía de aerolíneas. Recibe la solicitud de Laura, recupera los ID útiles solicitados para identificar al sujeto de datos y envía la solicitud por Adobe Campaign.
 
 * **Adobe Campaign** es el **procesador de datos**.
 

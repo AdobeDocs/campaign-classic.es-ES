@@ -2,14 +2,14 @@
 product: campaign
 title: Definición del contenido del correo directo
 description: Aprenda a definir el contenido de correo directo
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Direct Mail
 role: User
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

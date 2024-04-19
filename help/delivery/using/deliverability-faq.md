@@ -2,14 +2,14 @@
 product: campaign
 title: Puntos clave a la hora de administrar la entregabilidad en Adobe Campaign Classic
 description: Descubra los puntos clave que debe comprobar al administrar la entregabilidad en Adobe Campaign
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability, Troubleshooting
 role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

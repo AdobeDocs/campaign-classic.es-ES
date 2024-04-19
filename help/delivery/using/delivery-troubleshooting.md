@@ -2,14 +2,14 @@
 product: campaign
 title: Solución de problemas de envíos de entregas
 description: Obtenga más información sobre el rendimiento de las entregas y cómo solucionar problemas relacionados con la monitorización de entregas
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring, Deliverability, Troubleshooting
 role: User
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

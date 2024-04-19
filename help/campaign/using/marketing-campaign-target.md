@@ -6,9 +6,9 @@ role: User
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1485'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -89,9 +89,9 @@ Puede crear varios flujos de trabajo de objetivos para una sola campaña. Para a
 
 Los flujos de trabajo de destino se pueden iniciar manualmente mediante el botón **[!UICONTROL Start]** de la barra de herramientas, siempre que tenga los derechos adecuados.
 
-Los objetivos se pueden programar para la ejecución automática según una programación (programador) o un evento (señal externa, importación de archivos, etc.).
+La segmentación se puede programar para la ejecución automática según una programación (programador) o un evento (señal externa, importación de archivos, etc.).
 
-Las acciones relacionadas con la ejecución del flujo de trabajo de objetivos (inicio, parada, pausa, etc.) son **asíncrono** processes: el comando se guarda y surte efecto en cuanto el servidor esté disponible para aplicarlo.
+Las acciones relacionadas con la ejecución del flujo de trabajo de segmentación (inicio, detención, pausa, etc.) son procesos **asíncronos**: el comando se guarda y surte efecto en cuanto el servidor esté disponible para aplicarlo.
 
 Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la ejecución del flujo de trabajo de destino.
 

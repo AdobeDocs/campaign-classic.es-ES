@@ -3,15 +3,15 @@ product: campaign
 title: Preguntas frecuentes sobre privacidad y consentimiento
 description: Preguntas frecuentes sobre privacidad y consentimiento
 feature: Privacy, Privacy Tools
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ce2c90cd-46d9-4365-8013-5c1273b6c176
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

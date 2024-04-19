@@ -2,13 +2,13 @@
 product: campaign
 title: Traducción de una aplicación web
 description: Traducción de una aplicación web
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Apps
 exl-id: 82c5c610-8161-4686-aa79-1b690e763765
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

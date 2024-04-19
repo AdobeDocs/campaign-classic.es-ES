@@ -2,14 +2,14 @@
 product: campaign
 title: Prácticas recomendadas para las entregas de Campaign
 description: Conozca las prácticas recomendadas al diseñar y enviar una entrega
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability
 role: User
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

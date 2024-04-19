@@ -3,15 +3,15 @@ product: campaign
 title: Aprobación y activación de una oferta
 description: Aprobación y activación de una oferta
 feature: Interaction, Offers
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

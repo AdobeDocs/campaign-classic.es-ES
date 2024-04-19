@@ -3,14 +3,14 @@ product: campaign
 title: Configuración de la canalización
 description: Descubra más información sobre cómo configurar la canalización
 feature: Triggers
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

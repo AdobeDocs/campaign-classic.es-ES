@@ -2,14 +2,14 @@
 product: campaign
 title: Configuración y envío de la entrega
 description: Obtenga información sobre cómo configurar y realizar la entrega
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Channel Configuration
 role: User
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1524'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

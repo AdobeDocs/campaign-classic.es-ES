@@ -2,13 +2,13 @@
 product: campaign
 title: Pasos clave para crear una encuesta
 description: Creación de la primera encuesta con Campaign
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -3,15 +3,15 @@ product: campaign
 title: Seguimiento de la simulación
 description: Seguimiento de la simulación
 feature: Interaction, Offers, Reporting
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
 exl-id: 490ebbea-9bdc-453e-8a02-c02b095e55e9
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

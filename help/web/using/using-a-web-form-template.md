@@ -2,13 +2,13 @@
 product: campaign
 title: Uso de una plantilla de formulario web
 description: Uso de una plantilla de formulario web
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Forms
 exl-id: 0cbb8e4c-8cb4-4dd7-ad09-b8b3165c19a8
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

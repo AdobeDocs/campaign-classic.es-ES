@@ -2,13 +2,13 @@
 product: campaign
 title: '“Caso de uso: selección de direcciones semilla según ciertos criterios”'
 description: '“Caso de uso: selección de direcciones semilla según ciertos criterios”'
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

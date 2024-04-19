@@ -2,14 +2,14 @@
 product: campaign
 title: Acerca de las plantillas
 description: Introducción a las plantillas de entrega
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Delivery Templates
 role: User
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

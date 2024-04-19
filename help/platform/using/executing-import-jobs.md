@@ -3,15 +3,15 @@ product: campaign
 title: Configuración de trabajos de importación
 description: Obtenga información sobre cómo configurar y ejecutar trabajos de importación en Campaign
 feature: Overview
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2973'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

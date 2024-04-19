@@ -2,14 +2,14 @@
 product: campaign
 title: Comprensión de los errores de entrega
 description: Aprenda a comprender los errores de entrega
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2567'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ Los posibles motivos de un error de entrega son:
    <td> Inaccesible </td> 
    <td> Leve/Grave </td> 
    <td> 3 </td> 
-   <td> Se ha producido un error en la cadena de entrega de mensajes. Podría ser un incidente en la retransmisión SMTP, un dominio al que no se puede acceder temporalmente, etc. Según el error, se vuelve a intentar enviar un correo a la dirección hasta que el contador de errores alcance 5 o se envía directamente a cuarentena.<br /> </td> 
+   <td> Se ha producido un error en la cadena de entrega de mensajes. Podría ser un incidente en la retransmisión SMTP, un dominio que está temporalmente inaccesible, etc. Según el error, se vuelve a intentar enviar un correo a la dirección hasta que el contador de errores alcance 5 o se envía directamente a cuarentena.<br /> </td> 
   </tr> 
   <tr> 
    <td> Usuario desconocido </td> 

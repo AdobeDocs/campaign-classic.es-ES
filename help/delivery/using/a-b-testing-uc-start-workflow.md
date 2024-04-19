@@ -2,14 +2,14 @@
 product: campaign
 title: Inicio del flujo de trabajo
 description: Obtenga información sobre cómo realizar pruebas A/B mediante un caso de uso dedicado
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: A/B Testing
 role: User
 exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '96'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

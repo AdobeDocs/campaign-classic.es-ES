@@ -3,14 +3,14 @@ product: campaign
 title: Solución de problemas de canalización
 description: Solución de problemas de canalización
 feature: Triggers
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

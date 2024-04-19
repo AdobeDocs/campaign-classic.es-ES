@@ -5,9 +5,9 @@ description: Aprenda a examinar y configurar listas
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1153'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ En la parte inferior derecha de la pantalla de la lista, un **[!UICONTROL counte
 
 ![](assets/s_ncs_user_nb_200_0.png)
 
-Si un &quot;**?**&quot; aparece en lugar del número a la derecha, haga clic en el contador para iniciar el cálculo.
+Si aparece un símbolo &quot;**?**&quot; en lugar del número a la derecha, haga clic en el contador para iniciar el cálculo.
 
 ### Carga de más registros {#loading-more-records}
 

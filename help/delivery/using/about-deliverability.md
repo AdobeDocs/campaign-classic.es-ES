@@ -2,14 +2,14 @@
 product: campaign
 title: Introducción a la capacidad de entrega en Campaign
 description: Conozca las prácticas recomendadas sobre la capacidad de entrega
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability
 role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '665'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -2,14 +2,14 @@
 product: campaign
 title: Configuración del canal SMS de Campaign
 description: Obtenga información sobre cómo configurar el canal SMS en Campaign
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: SMS
 role: User, Developer, Admin
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1748'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

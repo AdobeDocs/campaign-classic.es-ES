@@ -3,12 +3,12 @@ product: campaign
 title: Configuración del acceso al informe
 description: Configuración del acceso al informe
 feature: Reporting, Monitoring
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

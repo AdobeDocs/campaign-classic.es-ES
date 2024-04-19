@@ -2,14 +2,14 @@
 product: campaign
 title: Introducción al seguimiento de vínculos personalizados
 description: Obtenga información sobre cómo escribir vínculos en correos electrónicos que se pueden personalizar y admiten el seguimiento en Campaign
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Personalization
 role: User
 exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

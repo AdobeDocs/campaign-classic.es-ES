@@ -2,13 +2,13 @@
 product: campaign
 title: Seguimiento de las visitas en una aplicación web
 description: Seguimiento de las visitas en una aplicación web
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Apps, Reporting, Monitoring
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -2,14 +2,14 @@
 product: campaign
 title: Prácticas recomendadas sobre el rendimiento de los envíos
 description: Obtenga más información sobre el rendimiento de los envíos y las prácticas recomendadas
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability
 role: User, Data Engineer
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

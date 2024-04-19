@@ -4,9 +4,9 @@ title: Análisis web
 description: Descubra más información sobre el paquete Web Analytics
 feature: Workflows, Analytics Integration
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **Co
   <tr> 
    <td> <span class="uicontrol">Identification of converted contacts</span> <br /> </td> 
    <td> <span class="uicontrol">webAnalyticsFindConverted</span><br /> </td> 
-   <td> Este flujo de trabajo lista a los visitantes del sitio que han finalizado su compra después de la campaña de remarketing. Los datos recopilados por este flujo de trabajo se pueden consultar en la <span class="uicontrol">Informe de eficiencia de remarketing</span>. <br /> </td> 
+   <td> Este flujo de trabajo lista a los visitantes del sitio que han finalizado su compra después de la campaña de remarketing. Los datos recopilados por este flujo de trabajo se pueden consultar en el <span class="uicontrol">Informe de eficiencia de remarketing</span>. <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Event purge</span> <br /> </td> 

@@ -3,15 +3,15 @@ product: campaign
 title: Trabajo con paquetes de datos
 description: Trabajo con paquetes de datos
 feature: Data Management, Package Export/Import
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2474'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -353,7 +353,7 @@ Siempre importe en la misma versión de la plataforma. Debe comprobar que implem
 
 >[!IMPORTANT]
 >
->El Adobe no admite la importación entre distintas versiones.
+>Adobe no admite la importación entre distintas versiones.
 <!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won’t be able to help you resolve any issues you encounter.-->
 
 Preste atención a la estructura del esquema y de la base de datos. La importación de paquete con esquema debe ir seguida de la generación de esquemas.

@@ -3,14 +3,14 @@ product: campaign
 title: Configuración de eventos
 description: Descubra más información sobre cómo configurar eventos para la implementación personalizada
 feature: Triggers
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -219,7 +219,7 @@ Los eventos se pueden mostrar con un formulario sencillo basado en el esquema de
 
 >[!NOTE]
 >
->El nodo Evento de canalización no está integrado y debe añadirse, así como el formulario relacionado debe crearse en Campaign. Estas operaciones están restringidas únicamente a usuarios expertos. Para obtener más información, consulte estas secciones: [Jerarquía de navegación](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy). y [Edición de formularios](../../configuration/using/editing-forms.md).
+>El nodo Evento de canalización no está integrado y debe añadirse, así como el formulario relacionado debe crearse en Campaign. Estas operaciones están restringidas únicamente a usuarios expertos. Para obtener más información, consulte estas secciones: [Jerarquía de navegación](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy) y [Edición de formularios](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 

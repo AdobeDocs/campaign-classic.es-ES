@@ -2,13 +2,13 @@
 product: campaign
 title: Definición del diseño de los formularios web
 description: Definición del diseño de los formularios web
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Forms
 exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

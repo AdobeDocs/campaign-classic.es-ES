@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo iniciar un flujo de trabajo y desc
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1109'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 Un flujo de trabajo siempre se inicia manualmente. Cuando se inicia, no obstante, puede permanecer inactivo según la información especificada mediante un planificador (consulte [Scheduler](scheduler.md)) o una planificación de actividad.
 
-Acciones relacionadas con la ejecución del flujo de trabajo de objetivos (inicio, parada, pausa, etc.) son **asíncrono** processes: el pedido se registra y entra en vigor en cuanto el servidor esté disponible para aplicarlo.
+Las acciones relacionadas con la ejecución del flujo de trabajo de segmentación (inicio, detención, pausa, etc.) son procesos **asíncronos**: el pedido se guarda y se aplica en cuanto el servidor esté disponible para su aplicación.
 
 La barra de herramientas permite iniciar y rastrear la ejecución del flujo de trabajo.
 

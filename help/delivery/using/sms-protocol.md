@@ -2,14 +2,14 @@
 product: campaign
 title: Configuración y protocolo del conector SMS
 description: Obtenga más información sobre el conector de SMS y cómo configurarlo
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8445'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

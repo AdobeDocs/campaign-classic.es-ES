@@ -3,15 +3,15 @@ product: campaign
 title: Pasos para crear una consulta
 description: Pasos para crear una consulta
 feature: Query Editor
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '865'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

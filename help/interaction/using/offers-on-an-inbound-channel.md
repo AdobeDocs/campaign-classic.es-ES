@@ -3,15 +3,15 @@ product: campaign
 title: Ofertas en un canal entrante
 description: Ofertas en un canal entrante
 feature: Interaction, Offers
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2097'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

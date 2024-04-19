@@ -3,15 +3,15 @@ product: campaign
 title: Filtrado de opciones
 description: Filtrado de opciones
 feature: Overview
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: cf75a435-97e2-4d4f-8b9b-c30a57390deb
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

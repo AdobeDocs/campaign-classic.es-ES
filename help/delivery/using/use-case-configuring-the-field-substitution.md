@@ -2,13 +2,13 @@
 product: campaign
 title: '“Caso de uso: configuración de la sustitución de campos”'
 description: '“Caso de uso: configuración de la sustitución de campos”'
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

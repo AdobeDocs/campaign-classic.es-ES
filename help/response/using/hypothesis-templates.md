@@ -3,15 +3,15 @@ product: campaign
 title: Plantillas de hipótesis
 description: Aprenda a crear hipótesis en el Gestor de respuestas de Campaign
 feature: Campaigns, Templates
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1387'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

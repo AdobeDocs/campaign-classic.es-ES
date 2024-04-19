@@ -3,15 +3,15 @@ product: campaign
 title: Importación y exportación de datos mediante flujos de trabajo
 description: Obtenga información sobre cómo importar y exportar datos mediante flujos de trabajo en Campaign
 feature: Data Management, Workflows
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

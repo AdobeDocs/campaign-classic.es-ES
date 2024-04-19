@@ -3,15 +3,15 @@ product: campaign
 title: Ofertas en un canal de salida
 description: Ofertas en un canal de salida
 feature: Interaction, Offers
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

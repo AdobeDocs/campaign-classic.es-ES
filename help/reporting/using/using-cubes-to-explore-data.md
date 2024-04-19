@@ -2,15 +2,15 @@
 product: campaign
 title: Uso de cubos para explorar datos
 description: Uso de cubos para explorar datos
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Reporting, Monitoring
 hide: true
 hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '974'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

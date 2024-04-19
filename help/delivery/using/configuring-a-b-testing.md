@@ -2,14 +2,14 @@
 product: campaign
 title: Configuración de las pruebas A/B
 description: Obtenga información sobre cómo configurar las pruebas A/B en Campaign
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: A/B Testing
 role: User
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

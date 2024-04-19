@@ -2,14 +2,14 @@
 product: campaign
 title: Creación de una plantilla de entrega
 description: Creación de una plantilla de entrega
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Delivery Templates
 role: User
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

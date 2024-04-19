@@ -2,14 +2,14 @@
 product: campaign
 title: Pasos clave para enviar un correo electrónico
 description: Obtenga información sobre cómo confirmar la entrega de un mensaje de correo electrónico y descubrir las características específicas del envío de mensajes
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email
 role: User
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

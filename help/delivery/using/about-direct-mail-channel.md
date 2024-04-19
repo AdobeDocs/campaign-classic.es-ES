@@ -2,14 +2,14 @@
 product: campaign
 title: Acerca del canal de correo postal
 description: Acerca del canal de correo postal
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Direct Mail
 role: User
 exl-id: 6474cf2e-c4db-4430-b001-18bf4911b0ea
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

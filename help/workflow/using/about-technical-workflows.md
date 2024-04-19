@@ -5,9 +5,9 @@ description: Obtenga más información sobre los flujos de trabajo técnicos dis
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1704'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Para obtener más información sobre la supervisión de flujos de trabajo técni
 |------|--------|-----------|
 | **Limpieza de alias** (aliasCleansing) | Entrega | Este flujo de trabajo estandariza los valores de enumeración. Se activa cada día a las 3 de la mañana de forma predeterminada. |
 | **Facturación** (facturación) | Entrega | Este flujo de trabajo envía el informe de actividad del sistema al operador “facturación” por correo electrónico. Se activa el día 25 de cada mes en la instancia de Marketing. |
-| **Cálculo de las estadísticas de Twitter** (statsTwitter) | Redes sociales (Marketing social): solo Campaign v7 | Este flujo de trabajo calcula las estadísticas vinculadas a los retuits y las visitas en X (anteriormente conocido como Twitter). |
+| **Cálculo de las estadísticas de Twitter** (statsTwitter) | Redes sociales (marketing social): solo Campaign v7 | Este flujo de trabajo calcula las estadísticas vinculadas a los retuits y las visitas en X (anteriormente conocido como Twitter). |
 | **Trabajos de Campaign** (operationMgt) | Campañas de marketing (Campaign) | Este flujo de trabajo administra los trabajos de las campañas de marketing (inicia la segmentación, la extracción de archivos, etc.). También crea flujos de trabajo relacionados con campañas recurrentes y periódicas. |
 | **Recopilación de datos para el servicio HeatMap** (collectDataHeatMapService) | Instalado de forma predeterminada | Este flujo de trabajo recupera los datos requeridos por el servicio HeatMap. |
 | **Recopilar solicitudes de privacidad** (collectPrivacyRequests) | Reglamento de protección de datos de privacidad | Este flujo de trabajo genera los datos del destinatario almacenados en Adobe Campaign y los hace disponibles para su descarga en la pantalla de la solicitud de privacidad. |
@@ -72,9 +72,9 @@ Para obtener más información sobre la supervisión de flujos de trabajo técni
 | **Sistema de informes de acumulados** (reportingAggregates) | Entrega | Este flujo de trabajo actualiza los agregados que se utilizan en los informes. Se activa cada día a la 2 de la mañana de forma predeterminada. |
 | **Envío de indicadores y atributos de campañas** (webAnalyticsSendMetrics) | Conectores de análisis web | Este flujo de trabajo permite enviar indicadores de campaña de correo electrónico desde Adobe Campaign a Adobe Experience Cloud Suite a través del conector de Adobe® Analytics. Los indicadores correspondientes son los siguientes: Enviado (iSent), Número total de aperturas (iTotalRecipientOpen), Número total de destinatarios que hicieron clic (iTotalRecipientClick), Errores (iError), Exclusión (opt-out) (iOptOut). |
 | **Stock: pedidos y alertas** (stockMgt) | Campañas de marketing (Campaign) | Este flujo de trabajo inicia el cálculo de stock en las líneas de pedido y administra los umbrales de alertas de advertencia. |
-| **Sincronización de seguidores de Facebook** (syncFacebookFans) | Redes sociales (Marketing social): solo Campaign v7 | Este flujo de trabajo importa los seguidores de Facebook en Adobe Campaign todos los días a las 7 a. m. |
-| **Sincronización de páginas de Facebook** (syncFacebook) | Redes sociales (Marketing social): solo Campaign v7 | Este flujo de trabajo sincroniza las páginas de Facebook con Adobe Campaign todos los días a las 7 a. m. |
-| **Sincronización de páginas de Twitter** (syncTwitter) | Redes sociales (Marketing social): solo Campaign v7 | Este flujo de trabajo importa los seguidores de X a Adobe Campaign todos los días a las 07:00. |
+| **Sincronización de seguidores de Facebook** (syncFacebookFans) | Redes sociales (marketing social): solo Campaign v7 | Este flujo de trabajo importa los seguidores de Facebook en Adobe Campaign todos los días a las 7 a. m. |
+| **Sincronización de páginas de Facebook** (syncFacebook) | Redes sociales (marketing social): solo Campaign v7 | Este flujo de trabajo sincroniza las páginas de Facebook con Adobe Campaign todos los días a las 7 a. m. |
+| **Sincronización de páginas de Twitter** (syncTwitter) | Redes sociales (marketing social): solo Campaign v7 | Este flujo de trabajo importa los seguidores de X a Adobe Campaign todos los días a las 07:00. |
 | **Notificación de tareas** (taskMgt) | Recursos de marketing (MRM): solo Campaign v7 | Este flujo de trabajo le permite enviar mensajes de notificación sobre las tareas de las campañas de marketing. |
 | **Seguimiento** (seguimiento) | Entrega | Este flujo de trabajo realiza la recuperación y la consolidación de la información de seguimiento. También garantiza que se recalculen las estadísticas de seguimiento y envío, especialmente las utilizadas por los flujos de trabajo de archivado del Centro de mensajes. De forma predeterminada, se activa una vez cada hora. |
 | **Actualizar estado del evento** (updateEventsStatus) | Ejecución de mensaje transaccional (Centro de mensajes - Ejecución) | Este flujo de trabajo permite asignar un estado a un evento. Los estados de eventos son los siguientes:<ul><li>Pendiente: el evento está en cola. Aún no se le ha asociado ninguna plantilla de mensaje.</li><li>Envío pendiente: el evento está en cola, se le ha asociado una plantilla de mensaje y el envío lo está procesando en ese momento.</li><li>Enviado: este estado se copia desde los registros de envío. Significa que el envío se realizó.</li><li>Envío ignorado: este estado se copia desde los registros de envío. Significa que el envío se ha ignorado.</li><li>Error de envío: este estado se copia desde los registros de envío. Significa que el envío ha fallado.</li><li>Evento no cubierto: el evento no se ha podido asociar con una plantilla de mensaje. El evento no se vuelve a procesar.</li></ul> |

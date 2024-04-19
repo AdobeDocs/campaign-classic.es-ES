@@ -2,13 +2,13 @@
 product: campaign
 title: Administración de respuestas
 description: Aprenda a administrar las respuestas a las encuestas
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '848'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

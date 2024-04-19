@@ -7,9 +7,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '905'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 80%
 
 Los perfiles están centralizados en la base de datos de Adobe Campaign. Existen muchos mecanismos para adquirir perfiles y crear esta base de datos: recopilación en línea mediante formularios web, importación manual o automática de archivos de texto, replicación con bases de datos de fabricantes, u otros sistemas de información. Con Adobe Campaign, puede incorporar el historial de marketing, la información de compra, las preferencias, los datos CRM y cualquier dato PI relevante en una vista consolidada para analizar y actuar en consecuencia.
 
-&quot;**Perfil**&quot; significa un registro de información (por ejemplo, un registro de la tabla nmsRecipient o una tabla externa que contiene una ID de cookie, ID de cliente, ID móvil u otra información relacionada con un canal determinado) que representa a un cliente final, a un cliente potencial o a un contacto.
+Un “**perfil**” es un registro de información (por ejemplo, un registro de la tabla nmsRecipient o una tabla externa que contiene un ID de cookie, ID de cliente, ID móvil u otra información relacionada con un canal determinado) que representa a un cliente final, a un cliente potencial o a un posible cliente.
 
 En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS, etc.). Los datos de destinatario almacenados en la base de datos permiten filtrar el destinatario que recibirá cualquier envío dado y añadir datos de personalización en el contenido de los envíos. Existen otros tipos de perfiles en la base de datos. Están diseñados para usos diferentes. Por ejemplo se crean perfiles semilla para probar los envíos antes de enviarlos al público objetivo final.
 
@@ -89,18 +89,18 @@ El diseño general de Adobe Campaign Explorer se presenta en [esta página](../.
 
 ## Perfiles activos {#active-profiles}
 
-Un perfil activo es un perfil con el que el cliente ha intentado comunicarse durante los últimos 12 meses a través de cualquier canal.
+Un perfil activo es un perfil con el que el cliente ha intentado comunicarse durante los últimos 12 meses a través de cualquier canal.
 
 Según el contrato, cada una de las instancias de Campaign se aprovisiona con una cantidad específica de perfiles activos que se contabilizan a efectos de facturación. Consulte su contrato más reciente para obtener una referencia sobre la cantidad de perfiles activos adquiridos. Obtenga más información en [Descripción del producto de Adobe Campaign](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-Puede monitorizar el número de perfiles activos en su instancia directamente desde el Panel de control de Campaign de Campaign. Para obtener más información, consulte [documentación del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es){target="_blank"}.
+Puede monitorizar el número de perfiles activos en su instancia directamente desde el Panel de control de Campaign. Para obtener más información, consulte la [documentación del panel de control](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es){target="_blank"}.
 
-Se aplican las siguientes limitaciones y protecciones:
+Son de aplicación las siguientes limitaciones y protecciones:
 
 * Un perfil al que se destinan varios envíos se cuenta solo una vez.
 * Los perfiles segmentados en el contexto del marketing social en X (Twitter) o Facebook no se tienen en cuenta como perfiles activos.
-* El recuento de perfiles activos está disponible para **Instancias de marketing** solo. No está disponible para Instancias de ejecución; es decir, instancias de MID (fuentes intermedias) y RT (mensajería en tiempo real/centro de mensajes).
-* El recuento se basa en la clave principal del destinatario. Como consecuencia, si un perfil está presente en dos tablas de destinatarios diferentes, se puede contabilizar dos veces como un perfil activo.
+* El recuento de perfiles activos solo está disponible para las **Instancias de marketing**. No está disponible para Instancias de ejecución; es decir, instancias de MID (fuentes intermedias) y RT (mensajería en tiempo real/centro de mensajes).
+* El recuento se basa en la clave principal del destinatario. Como consecuencia, si un perfil está presente en dos tablas de destinatarios diferentes, es posible que se contabilice dos veces como perfil activo.
 
 
 ## Tutorial en vídeo {#create-profiles-video}

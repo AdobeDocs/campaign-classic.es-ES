@@ -2,14 +2,14 @@
 product: campaign
 title: Personalización de la lista de emoticonos
 description: Obtenga información sobre cómo personalizar la lista de emoticonos al utilizar Adobe Campaign
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email, Push
 role: User, Data Engineer
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

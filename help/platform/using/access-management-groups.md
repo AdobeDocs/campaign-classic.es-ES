@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 source-git-commit: 4e99ec73f99264e91ca427542e29bd42da88a3f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Los grupos de operadores predeterminados son:
 
 1. **[!UICONTROL Access to reports]**
 
-   Este grupo está reservado para operadores externos, con el fin de habilitar los iconos Informe, Programación y Foro en el Panel de campañas para un operador específico.
+   Este grupo está reservado para operadores externos, con el fin de habilitar los iconos Informe, Programación y Foro en el panel de campañas para un operador específico.
 
 1. **[!UICONTROL Workflow execution]**
 

@@ -2,14 +2,14 @@
 product: campaign
 title: Contenido condicional
 description: Aprenda a añadir contenido condicional
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Personalization, Multilingual Messages
 role: User
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

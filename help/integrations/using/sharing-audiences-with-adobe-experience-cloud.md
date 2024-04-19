@@ -3,15 +3,15 @@ product: campaign
 title: Uso compartido con Adobe Experience Cloud
 description: Uso compartido con Adobe Experience Cloud
 feature: Audiences, People Core Service Integration
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

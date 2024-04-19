@@ -2,13 +2,13 @@
 product: campaign
 title: Configuración de encuestas en línea
 description: Aprenda a configurar encuestas en línea
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: 387bc362-4064-4181-9385-8e0c3423ba3e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
