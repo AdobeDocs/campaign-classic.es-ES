@@ -73,7 +73,7 @@ La siguiente información está disponible para cada dirección:
 >
 >Fin de año 1: (1&#42;0,33)/(1+0,5) = 22 %.
 >
-Fin de año 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75) = 32,5 %.
+>Fin de año 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75) = 32,5 %.
 
 ### Identificación de direcciones en cuarentena en informes de envío {#identifying-quarantined-addresses-in-delivery-reports}
 
@@ -108,7 +108,7 @@ Si un usuario clasifica un correo electrónico como correo no deseado ([bucle de
 
 >[!NOTE]
 >
-La cuarentena en Adobe Campaign distingue entre mayúsculas y minúsculas. Asegúrese de importar las direcciones de correo electrónico en minúsculas para que no se redireccionen más adelante.
+>La cuarentena en Adobe Campaign distingue entre mayúsculas y minúsculas. Asegúrese de importar las direcciones de correo electrónico en minúsculas para que no se redireccionen más adelante.
 
 En la lista de direcciones en cuarentena (consulte [Identificación de direcciones en cuarentena para toda la plataforma](#identifying-quarantined-addresses-for-the-entire-platform)), el campo **[!UICONTROL Error reason]** indica por qué la dirección seleccionada se colocó en cuarentena.
 
@@ -144,7 +144,7 @@ A continuación, su estado cambia a **[!UICONTROL Valid]**.
 
 >[!IMPORTANT]
 >
-Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** nunca se quitarán, aunque reciban un correo electrónico.
+>Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** nunca se quitarán, aunque reciban un correo electrónico.
 
 ### Actualizaciones manuales {#unquarantine-manual}
 
@@ -291,13 +291,13 @@ Durante el análisis de la entrega, todos los dispositivos excluidos del destino
 
 >[!NOTE]
 >
-Para los clientes que utilicen el conector Baidu, los distintos tipos de errores son:
+>Para los clientes que utilicen el conector Baidu, los distintos tipos de errores son:
 >
-* Problema de conexión al principio del envío: tipo de error **[!UICONTROL Undefined]**, motivo del error **[!UICONTROL Unreachable]**, con reintento.
-* Se ha perdido la conexión durante un envío: error de software, motivo del error **[!UICONTROL Refused]**, con reintento.
-* Error sincrónico devuelto por Baidu durante el envío: error de hardware, motivo del error **[!UICONTROL Refused]**, sin reintento.
+>* Problema de conexión al principio del envío: tipo de error **[!UICONTROL Undefined]**, motivo del error **[!UICONTROL Unreachable]**, con reintento.
+>* Se ha perdido la conexión durante un envío: error de software, motivo del error **[!UICONTROL Refused]**, con reintento.
+>* Error sincrónico devuelto por Baidu durante el envío: error de hardware, motivo del error **[!UICONTROL Refused]**, sin reintento.
 >
-Adobe Campaign se pone en contacto con el servidor Baidu cada 10 minutos para recuperar el estado del mensaje enviado y actualiza los broadlogs. Si se declara un mensaje como enviado, el estado del mensaje en los broadlogs se establece en **[!UICONTROL Received]**. Si Baidu declara un error, el estado se establece en **[!UICONTROL Failed]**.
+>Adobe Campaign se pone en contacto con el servidor Baidu cada 10 minutos para recuperar el estado del mensaje enviado y actualiza los broadlogs. Si se declara un mensaje como enviado, el estado del mensaje en los broadlogs se establece en **[!UICONTROL Received]**. Si Baidu declara un error, el estado se establece en **[!UICONTROL Failed]**.
 
 **Para Android V2**
 
@@ -516,7 +516,7 @@ El mecanismo de cuarentena para mensajes SMS es el mismo a nivel global que el p
 
 >[!NOTE]
 >
-La tabla **[!UICONTROL Delivery log qualification]** no se aplica al conector **Extended generic SMPP**.
+>La tabla **[!UICONTROL Delivery log qualification]** no se aplica al conector **Extended generic SMPP**.
 
 <table> 
  <tbody> 
@@ -575,9 +575,9 @@ Antes de que se clasifique un nuevo tipo de error, el motivo del error se establ
 
 >[!NOTE]
 >
-Los tipos de errores y los motivos del error son los mismos que para los correos electrónicos. Consulte [Tipos y motivos de errores de entrega](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>Los tipos de errores y los motivos del error son los mismos que para los correos electrónicos. Consulte [Tipos y motivos de errores de entrega](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
-Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla de clasificación de registros de entregas.
+>Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla de clasificación de registros de entregas.
 
 Ejemplo de mensaje generado:
 
