@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo migrar los operadores técnicos de
 feature: Technote
 role: Admin
 exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
-source-git-commit: c63fea4d400440005ecf3733413c346bd4a2fd18
+source-git-commit: c8ff250c1e4013d4c8271a3a388ddbabcfaeea38
 workflow-type: tm+mt
 source-wordcount: '1744'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -166,7 +166,7 @@ Para probar la conexión, siga los pasos detallados en la [Guía de credencial
 
 ### Paso 8: Actualización de las integraciones de API de terceros {#ims-migration-step-8}
 
-Ahora debe actualizar las integraciones de la API de realizando llamadas a Adobe Campaign para utilizar la cuenta técnica recién creada.
+Ahora debe actualizar todas las integraciones de API que realizan llamadas a Adobe Campaign para utilizar la cuenta técnica recién creada.
 
 Para obtener más información sobre los pasos de integración de API, consulte los ejemplos de código que aparecen a continuación.
 
