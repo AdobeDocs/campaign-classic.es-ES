@@ -5,7 +5,7 @@ description: Obtenga información sobre los pasos clave para crear un nuevo info
 feature: Reporting, Monitoring
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '923'
 ht-degree: 100%
 

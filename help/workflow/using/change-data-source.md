@@ -4,7 +4,7 @@ description: Descubra más información acerca de la actividad Cambiar fuente de
 feature: Workflows, Data Management, Federated Data Access
 exl-id: d7bf9d62-6f9e-415f-8160-446210f6392e
 source-git-commit: b94c4bfd478b4a8fbcefe6341608dd6a14bb31d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
