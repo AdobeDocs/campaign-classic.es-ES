@@ -5,15 +5,23 @@ description: Obtenga información sobre cómo conceder acceso a las funciones de
 badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: 6dc6aeb5adeb82d527b39a05ee70a9926205ea0b
-workflow-type: ht
-source-wordcount: '256'
-ht-degree: 100%
+source-git-commit: e1a085384fb27ec165c487c112fbc70fe9738d9e
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 75%
 
 ---
 
 # Introducción a los permisos{#access-management}
 
+
+>[!CAUTION]
+>
+>A partir de la versión 7.3.1 del Campaign Classic, todos los operadores deben utilizar [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"} para conectarse a Campaign.
+>
+>Como parte del esfuerzo por reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomienda migrar todos los operadores existentes en modo de autenticación del inicio de sesión/autenticación nativa con contraseña al Sistema Identity Management de Adobe (IMS). Obtenga información sobre cómo migrar los operadores en [esta página](../../technotes/using/migrate-users-to-ims.md).
+> 
+>Después de esta migración, tenga en cuenta que ya no se aplica la siguiente sección.  Obtenga información sobre cómo configurar permisos con Adobe IMS en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=es){target="_blank"}.
 
 
 Adobe Campaign le permite definir y administrar los derechos asignados a los distintos operadores. Se trata de un conjunto de derechos y restricciones que autorizan o niegan:
