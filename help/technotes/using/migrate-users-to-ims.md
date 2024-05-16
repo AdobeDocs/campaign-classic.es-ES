@@ -2,10 +2,10 @@
 title: Migración de los operadores de Campaign a Adobe Identity Management System (IMS)
 description: Obtenga información sobre cómo migrar operadores de Campaign a Adobe Identity Management System (IMS)
 exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
-source-git-commit: 59156851156338c9462781d31ce81a651362f2da
+source-git-commit: c8cd1ef5e79e14c3ce804c32be0e995408d9358c
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 2%
+source-wordcount: '1279'
+ht-degree: 4%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 Como parte del esfuerzo por reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomienda migrar el modo de autenticación del usuario final de la autenticación nativa de inicio de sesión/contraseña a Adobe Identity Management System (IMS). Todos los operadores deben implementar [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"} para conectarse a Campaign.
 
-Tenga en cuenta que en la versión 8 de Campaign, no se permite la conexión con un usuario/contraseña (también conocida como autenticación nativa). **Adobe recomienda realizar esta migración en Campaign v7.3.5 para poder migrar sin problemas a Campaign v8.**
+Tenga en cuenta que en Campaign v8 no se permite la conexión con un usuario/contraseña (también conocida como autenticación nativa). **Adobe recomienda realizar esta migración en Campaign v7.3.5 para poder migrar sin problemas a Campaign v8.**
 
 ## ¿Qué ha cambiado?{#move-to-ims-changes}
 
@@ -77,6 +77,7 @@ A continuación se enumeran los pasos clave para esta migración:
 1. Implemente Adobe IMS para su conexión como se detalla en [esta página](../../integrations/using/implementing-ims.md).
 
 También puede migrar sus operadores técnicos a la consola de Adobe Developer como se detalla en [esta nota técnica](ims-migration.md).
+
 
 
 ## Preguntas frecuentes {#ims-migration-faq}
@@ -152,5 +153,5 @@ Ahora puede ver la lista de sus **Operadores** y sus **Tipo de autenticación**.
 ## Vínculos útiles {#ims-useful-links}
 
 * [Migración de usuarios técnicos a la consola de Adobe Developer](ims-migration.md)
-* [Notas de la versión de Adobe Campaign v8](../../rn/using/latest-release.md)
+* [Notas de la versión de Adobe Campaign Classic v7](../../rn/using/latest-release.md)
 * [¿Qué es Adobe Identity Management System (IMS)?](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}
