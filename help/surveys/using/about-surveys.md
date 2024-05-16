@@ -5,18 +5,21 @@ description: Introducción a las encuestas de Campaign
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '531'
-ht-degree: 100%
+source-git-commit: 8e5a328bee7701adfedec6a533cc21b4ce548187
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 95%
 
 ---
 
 # Introducción a las encuestas{#about-surveys}
 
-
-
 Adobe Campaign incluye un módulo gráfico para definir y publicar aplicaciones web. Se utiliza para crear páginas, como un formulario de edición en una extranet, o formularios de notificación, incluidos datos de la base de datos con tablas, gráficos, formularios de entrada, etc. Utilice esta capacidad para diseñar y publicar páginas web en las que los usuarios puedan buscar o introducir información.
+
+>[!AVAILABILITY]
+>
+>La administración de encuestas no está disponible en Campaign v8 en el contexto de una implementación empresarial (FDAC). Obtenga más información en [Documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
+
 
 El complemento opcional **Encuesta** le permite crear un nuevo tipo de aplicación web para realizar y administrar cuestionarios en línea, como formularios para añadir o modificar información del perfil, para suscribirse o cancelar la suscripción a un servicio informativo o un formulario de entrada de competencia. Cuando se hayan recopilado las respuestas, se almacenan en la base de datos o en variables locales. El modelo de datos se puede ampliar de forma dinámica a través de las respuestas a los cuestionarios. Puede ver los resultados en tiempo real, filtrar las respuestas y analizarlas con gráficos especializados.
 

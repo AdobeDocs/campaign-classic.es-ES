@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Personalization
 role: User
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '894'
-ht-degree: 100%
+source-git-commit: 8e5a328bee7701adfedec6a533cc21b4ce548187
+workflow-type: tm+mt
+source-wordcount: '911'
+ht-degree: 95%
 
 ---
 
@@ -17,15 +17,17 @@ ht-degree: 100%
 
 Añadir cupones a las entregas puede proporcionar aumentar el valor de los productos y servicios para sus destinatarios. Se puede utilizar el módulo de cupones de Campaign para crear un conjunto de cupones que pretenda añadir a las próximas ofertas de marketing. Cuando esté preparado para crear una entrega, asigne los cupones aplicables. Dado que los cupones son válidos durante un periodo determinado, un cupón asignado se enlaza exclusivamente a su mensaje de envío. Además, Campaign confirma que hay suficientes cupones para la cantidad de mensajes antes de realizar la entrega.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->La administración de cupones es un paquete que debe instalarse. Para confirmar que tiene instalado el administrador de cupones, marque **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
->
->Los datos de cupones se pueden importar y exportar en los formatos CSV y XML. Para obtener información sobre la importación y la exportación, consulte [esta sección](../../platform/using/get-started-data-import-export.md).
+>La administración de cupones no está disponible en Campaign v8 en el contexto de una implementación empresarial (FDAC). Obtenga más información en [Documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
+
+La administración de cupones depende de un paquete que debe instalarse. Para confirmar que tiene instalado el administrador de cupones, marque **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
+
+Los datos de cupones se pueden importar y exportar en los formatos CSV y XML. [Más información](../../platform/using/get-started-data-import-export.md).
 
 ## Creación de un cupón {#creating-a-coupon}
 
-El módulo de cupones ofrece dos opciones al crear cupones:
+El módulo Coupon Management ofrece dos opciones al crear cupones:
 
 * **Anonymous**: Un cupón genérico para destinatarios seleccionados o listas de destinatarios.
 * **Individual**: Un cupón personalizado para destinatarios seleccionados.
