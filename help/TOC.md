@@ -7,7 +7,7 @@ user-guide-description: Documentación de producto para Adobe Campaign Classic v
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: c8cd1ef5e79e14c3ce804c32be0e995408d9358c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2550'
 ht-degree: 100%
 
