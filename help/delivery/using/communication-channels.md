@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
+source-git-commit: 8fbfc211c4e791b324c34d3d180daa7597c00c7f
+workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign ofrece los siguientes canales de envío:
 1. **Canal móvil**: las entregas en canales móviles permiten enviar mensajes SMS o de LINE personalizados a la población objetivo. Consulte [el canal de SMS](sms-channel.md).
 1. **Canal de aplicación móvil**: los envíos de aplicaciones móviles permiten enviar notificaciones a sistemas iOS y Android. Consulte el capítulo [canal de aplicaciones móviles](about-mobile-app-channel.md).
 
-   En [esta página](steps-about-delivery-creation-steps.md#other-channels) se describen otros canales.
+   Otros canales se describen en [esta sección](#other-channels).
 
    >[!NOTE]
    >
