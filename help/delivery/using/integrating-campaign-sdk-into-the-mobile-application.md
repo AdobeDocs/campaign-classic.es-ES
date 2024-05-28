@@ -5,10 +5,10 @@ description: Descubra cómo integrar el SDK de Campaign en su aplicación móvil
 feature: Mobile SDK Integration, Push
 role: User, Developer
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
+workflow-type: tm+mt
 source-wordcount: '986'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ A continuación se muestran los pasos de integración para el SDK de Campaign.
   Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/");
   ```
 
-  El siguiente permiso permite recuperar una ID única del teléfono:
+  El siguiente permiso permite recuperar el ID único de un móvil:
 
   ```
   <uses-permission android:name="android.permission.READ_PHONE_STATE" /> 

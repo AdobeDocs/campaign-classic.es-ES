@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Channel Configuration
 role: User
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '1524'
-ht-degree: 100%
+source-git-commit: efd333aed2b14667dc95f92341fc16482f0fb6aa
+workflow-type: tm+mt
+source-wordcount: '1526'
+ht-degree: 96%
 
 ---
 
@@ -162,7 +162,7 @@ Los siguientes dos ejemplos son los casos más comunes para usar varias olas.
 
   Al administrar una campaña de lealtad por teléfono, su organización tiene una capacidad limitada para procesar la cantidad de llamadas a los suscriptores.
 
-  Al usar olas, restringimos el número de mensajes a 20 por día, es decir, la capacidad de procesamiento diaria de un centro de llamadas.
+  Con las olas, puede restringir el número de mensajes a 20 por día, por ejemplo, teniendo en cuenta la capacidad de procesamiento diaria de un centro de llamadas.
 
   Para ello, seleccione la opción **[!UICONTROL Schedule multiple waves of the same size]**. Introduzca **[!UICONTROL 20]** como tamaño de la ola y **[!UICONTROL 1d]** en el campo **[!UICONTROL Period]**.
 
