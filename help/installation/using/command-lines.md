@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 4%
@@ -24,7 +24,7 @@ Las siguientes líneas de comandos requieren la capacidad de acceder al servidor
 
 La creación de instancias se puede ejecutar mediante líneas de comandos con la sintaxis:
 
-```
+```sql
 nlserver config -addinstance:instance/masques DNS[/lang]
 ```
 
@@ -36,7 +36,7 @@ El comando **nlserver config -addinstance:instance1/demo&#42;/eng** permite crea
 
 Puede asociar una base de datos existente con una instancia desde la línea de comandos mediante la siguiente sintaxis:
 
-```
+```sql
 nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 ```
 
@@ -49,6 +49,6 @@ Los siguientes valores son posibles para **`[rdbms]`** parámetro:
 
 El siguiente comando configura el **demostración** con el servidor de tipo SQL conocido como **base6**, vinculado a **campaña** cuenta y su **contraseña** en el **dbsrv** servidor:
 
-```
+```sql
  nlserver config -setdblogin:db:campaign:myBase/password@dbServer -instance:demo
 ```

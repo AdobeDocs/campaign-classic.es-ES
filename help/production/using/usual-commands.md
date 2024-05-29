@@ -3,14 +3,14 @@ product: campaign
 title: Comandos habituales
 description: Comandos habituales
 feature: Monitoring
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '408'
 ht-degree: 6%
 
 ---
@@ -41,7 +41,7 @@ El parámetro **`<command>`** corresponde al módulo.
 
 Puede añadir el parámetro **-who** para enumerar las conexiones en curso (base de datos y aplicación).
 
-```
+```sql
 nlserver pdump -who
 HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 web@default (9984) - 50.1 Mo
@@ -65,7 +65,7 @@ Otro comando útil es **monitor nlserver**. Muestra el archivo XML de monitoriza
 
 Puede añadir el parámetro **-falta** para enumerar los módulos ausentes (error en módulos, módulos cerrados, etc.)
 
-```
+```sql
 nlserver monitor -missing
 HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 inMail@test
@@ -79,11 +79,11 @@ Esto corresponde a los módulos con inicio automático pero que no se han inicia
 
 La sintaxis para iniciar los módulos seguirá teniendo el siguiente formato:
 
-```
+```sql
 nlserver start <module>@<INSTANCE>
 ```
 
-```
+```sql
 nlserver stop <module>@<INSTANCE>
 ```
 
@@ -99,7 +99,7 @@ Para detener los servicios de Adobe Campaign, utilice uno de los siguientes coma
 
    * En Linux:
 
-     ```
+     ```sql
      /etc/init.d/nlserver6 stop
      ```
 
@@ -109,13 +109,13 @@ Para detener los servicios de Adobe Campaign, utilice uno de los siguientes coma
 
    * En Windows:
 
-     ```
+     ```sql
      net stop nlserver6
      ```
 
 * Si no es así, en la cuenta de Adobe Campaign:
 
-  ```
+  ```sql
   nlserver shutdown 
   ```
 
@@ -125,13 +125,13 @@ Del mismo modo, para reiniciar Adobe Campaign puede utilizar uno de los siguient
 
 * Si tiene acceso de administrador o raíz:
 
-   * En Linux: /etc/init.d/nlserver6 start
+   * En Linux: `/etc/init.d/nlserver6 start`
 
      >[!NOTE]
      >
      >A partir de la versión 20.1, se recomienda utilizar el siguiente comando (para Linux): **systemctl start nlserver**
 
-   * En Windows: net start nlserver6
+   * En Windows: `net start nlserver6`
 
 * De lo contrario, en la cuenta de Adobe Campaign: **nlserver watchdog -svc -noconsole**
 
@@ -141,11 +141,11 @@ El **config** El comando permite administrar la configuración del servidor, inc
 
 Utilice el **config** al mando del **nlserver** archivo ejecutable con **-setdblogin** parámetro.
 
-```
+```sql
 nlserver config -setdblogin:<[dbms:]account[:database][/password]@server>
 ```
 
-```
+```sql
 nlserver config -setdblogin:PostgreSQL:<accountName>:test6@dbserver
 ```
 
