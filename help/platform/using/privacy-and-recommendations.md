@@ -8,15 +8,14 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '1977'
-ht-degree: 100%
+source-git-commit: 5d237d42adabe42a07bc759913dd9453df650671
+workflow-type: tm+mt
+source-wordcount: '1910'
+ht-degree: 99%
 
 ---
 
 # Privacidad y consentimiento{#privacy-and-recommendations}
-
 
 
 ## Recomendaciones generales {#general-recommendations}
@@ -31,18 +30,7 @@ Tómese el tiempo necesario para ver la [Lista de control de seguridad y privaci
 
 ### Normas de privacidad {#privacy-regulations}
 
-Para gestionar correctamente la privacidad y administrar los datos personales, siga la legislación aplicable a la región o regiones en las que opera. Estas normas incluyen lo siguiente:
-* [RGPD](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (Reglamento General de Protección de Datos de Europa)
-* [DPA](https://www.gov.uk/data-protection) (implementación del RGPD en el Reino Unido)
-* [Directiva europea sobre privacidad y comunicaciones electrónicas](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
-* [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business) (ley estadounidense que establece las reglas y requisitos de los correos electrónicos comerciales)
-* [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (Ley de Privacidad del Consumidor de California)
-* [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (Ley de Protección de Datos Personales de Tailandia)
-* [LGPD](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf) (Ley General de Protección de Datos de Brasil)
-
->[!NOTE]
->
->Para obtener más información sobre cómo se aplican el RGPD, la CCPA, la PDPA y la LGPD a Adobe Campaign, consulte [esta página](../../platform/using/privacy-management.md#privacy-management-regulations).
+Para gestionar correctamente la privacidad y administrar los datos personales, siga la legislación aplicable a la región o regiones en las que opera. Las funciones de Adobe Campaign le ayudan a cumplir con las regulaciones enumeradas en [esta página](../../platform/using/privacy-management.md#privacy-management-regulations).
 
 ### Privacidad de Adobe Experience Cloud {#experience-cloud-privacy}
 
