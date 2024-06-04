@@ -7,10 +7,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '261'
-ht-degree: 100%
+source-git-commit: 271e0f9fde0cbfb016e201c8390b26673d8fc696
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 91%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Esta capacidad no está disponible de forma predeterminada como parte del producto. Para esta implementación, primero debe abrir un ticket con el Soporte de Adobe. A continuación, podrá seguir los pasos detallados en esta [página](../../integrations/using/configuring-pipeline.md#prerequisites).
+>Esta capacidad no está disponible de forma predeterminada como parte del producto. Para esta implementación, colabore con su representante de Adobe/Servicio de atención al cliente. A continuación, podrá seguir los pasos detallados en esta [página](../../integrations/using/configuring-pipeline.md#prerequisites).
 
-[!DNL Triggers] ejecutar acciones de marketing en un corto intervalo de tiempo tras la acción de un usuario. El tiempo de respuesta típico es inferior a una hora.
+[!DNL Triggers] ejecutar acciones de marketing en un corto intervalo de tiempo después de la acción de un usuario. El tiempo de respuesta típico es inferior a una hora.
 
 Permite integraciones más ágiles, ya que la configuración es mínima y no participa un tercero.
 También admite grandes volúmenes de tráfico sin afectar el rendimiento de las actividades de marketing. Como ejemplo, la integración puede procesar un millón de activadores por hora.
