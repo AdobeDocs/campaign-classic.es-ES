@@ -6,8 +6,8 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Templates
 role: User
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
+source-git-commit: a94774daa4005fe95066b85f921d9baa981b2a7c
+workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ Estas son las opciones de publicación disponibles:
 
   De forma predeterminada, el formato de construcción del nombre de archivo utiliza las variables en los campos “@nombre” y “@fecha”:
 
-  ```
+  ```xml
   ct_$(@name)_$date-format(@date,'%4Y%2M%2D').htm
   ```
 
@@ -117,7 +117,7 @@ El principio es generar una página principal que enumere los capítulos, con la
 
 La hoja de estilos correspondiente (“cus:book.xsl”) es la siguiente:
 
-```
+```xml
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output encoding="ISO-8859-1" method="html"/>
@@ -140,7 +140,7 @@ La hoja de estilos correspondiente (“cus:book.xsl”) es la siguiente:
 
 Se requiere una segunda hoja de estilo (“cus:chapter.xsl”) para generar los detalles de los capítulos:
 
-```
+```xml
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output encoding="ISO-8859-1" method="html"/>
@@ -167,7 +167,7 @@ Se requiere una segunda hoja de estilo (“cus:chapter.xsl”) para generar los 
 
 La etiqueta de partición se rellena al comienzo de la página para que se incluya en el archivo que se va a generar.
 
-```
+```xml
 <xsl:comment> #nl:output_replace($(path)/<xsl:value-of select="@id"/>.htm)</xsl:comment>
 ```
 
