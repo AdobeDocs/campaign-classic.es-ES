@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '1996'
-ht-degree: 100%
+source-git-commit: 991ad88101468c3e7f5d676586dfdd05d63e7c6d
+workflow-type: tm+mt
+source-wordcount: '2042'
+ht-degree: 96%
 
 ---
 
@@ -122,13 +122,17 @@ La instalación de una actualización de compilación para clientes alojados no 
 
 No. El servidor se apaga durante la actualización para garantizar que se conserva la integridad de los datos mientras se actualiza el producto. Una vez finalizado, se reinicia y se reanudan todos los servicios.
 
+## ¿Puedo seguir utilizando mi instancia de Campaign durante el proceso de actualización?
+
+No. El Adobe recomienda deshabilitar cualquier operación de la campaña durante el periodo de mantenimiento para evitar perder o perder datos. No debe crear ni implementar ninguna campaña, consulta, flujo de trabajo o envío durante la actualización.
+
 ## ¿Seguirán enviándose los mensajes de correo electrónico desde el Centro de mensajes durante el proceso de actualización?
 
 Cuando la actualización se produce en el Centro de mensajes, no se envían correos electrónicos desde la instancia. Tenga en cuenta que cualquier proceso que se detenga cuando se apague un sistema de Campaign se reanudará automáticamente cuando se reinicie el sistema. Esto incluye envíos activos o programados, seguimiento y cálculos de métricas para envíos enviados anteriormente.
 
 ## ¿Seguirán funcionando los flujos de trabajo y realizarán envíos?
 
-No. Durante la actualización de la compilación, el flujo de trabajo y los servicios de correo se detienen. Esto significa que no se ejecutarán flujos de trabajo y no se enviarán envíos. Se reanudarán una vez que se reinicie el sistema. No obstante, Adobe recomienda encarecidamente que todos los flujos de trabajo de ruta críticos se comprueben después de la actualización para garantizar que se ejecuten y no se hayan dañado.
+No. Durante la actualización de la compilación, el flujo de trabajo y los servicios de correo se detienen. Esto significa que no se ejecutarán flujos de trabajo y no se enviarán envíos. Se reanudarán una vez que se reinicie el sistema. Sin embargo, Adobe recomienda encarecidamente que todos los flujos de trabajo de ruta críticos se comprueben después de la actualización para garantizar que se ejecuten y no se hayan dañado.
 
 ## ¿Seguirán funcionando los vínculos de seguimiento durante la actualización?
 
