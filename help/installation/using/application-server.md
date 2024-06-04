@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
-source-git-commit: 30670fba2fb84b968ef2e8a8f24746c81cc05f57
+source-git-commit: 7e1c3b256cf43232e49d9daa0bf44d1e114b565b
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '622'
 ht-degree: 3%
 
 ---
@@ -32,28 +32,28 @@ La aplicación ha sido aprobada para el Kit de Desarrollo de Java (JDK) desarrol
 Las versiones compatibles se detallan en Campaign [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 
 
-
 ### Recomendaciones
 
-El kit de desarrollo de Java se puede instalar con la versión de JDK adecuada que ya usan otras aplicaciones del equipo.
+Al instalar y actualizar el kit de desarrollo de Java, aplique las siguientes recomendaciones:
 
-Al instalar el JDK, no es necesaria la integración con los exploradores web.
+* El kit de desarrollo de Java se puede instalar con la versión de JDK adecuada que ya usan otras aplicaciones del equipo.
 
-En un equipo que solo ejecuta agentes de envío (**mta de nlserver** ) o el servidor de flujo de trabajo (**nlserver wfserver** ), no es necesario instalar un JDK.
+* Al instalar el JDK, no es necesaria la integración con los exploradores web.
 
+* En un equipo que solo ejecuta agentes de envío (**mta de nlserver** ) o el servidor de flujo de trabajo (**nlserver wfserver** ), no es necesario instalar un JDK.
 
->[!CAUTION]
->
-> Para conservar el rendimiento de las operaciones de la plataforma y garantizar la compatibilidad con la versión instalada, debe desactivar las funciones de actualización automática del JDK en Windows y Linux.
->
-> Al actualizar la versión de Java, primero debe desinstalar la versión anterior. Ambas versiones de Java instaladas en el mismo equipo pueden causar conflictos.
+* Para conservar el rendimiento de las operaciones de la plataforma y garantizar la compatibilidad con la versión instalada, debe desactivar las funciones de actualización automática del JDK en Windows y Linux.
+
+* Al actualizar la versión de Java, primero debe desinstalar la versión anterior. Ambas versiones de Java instaladas en el mismo equipo pueden causar conflictos.
+
+  Como cliente On-Premise, puede comprobar las `LD_LIBRARY_PATH` [variable de entorno](installing-packages-with-linux.md#environment-variables) se establece en la última versión (por ejemplo, java11). Si se establece en una versión anterior (por ejemplo, Java8), por lo que debe actualizarse. Para JDK 11, la ruta para localizar bibliotecas JDK es `/usr/lib/jvm/java-11-openjdk-amd64/lib`.
 
 
 ### Pasos de instalación
 
 El kit de desarrollo de Java es específico de la plataforma: se necesitan instaladores independientes para cada sistema operativo.
 
-Para descargar el JDK de Java, conéctese a [sitio web de oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
+Para descargar el JDK, conéctese a [sitio web de oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -73,6 +73,7 @@ Para RHEL, utilice el siguiente comando:
 ```sql
 yum install java-1.8.0-openjdk
 ```
+
 
 ## OpenSSL {#openssl}
 
