@@ -3,20 +3,19 @@ product: campaign
 title: Integración en un servidor web para Linux
 description: Aprenda a integrar Campaign en un servidor web (Linux)
 feature: Installation, Instance Settings
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 0e88ac270423ad419237264e562a03ab0c42efb5
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 4%
 
 ---
 
-# Integración en un servidor web para Linux{#integration-into-a-web-server-for-linux}
-
+# Integración en un servidor web para Linux {#integration-into-a-web-server-for-linux}
 
 
 Adobe Campaign incluye Apache Tomcat, que actúa como punto de entrada en el servidor de aplicaciones a través de HTTP (y SOAP).
@@ -29,7 +28,7 @@ En este caso:
 * A continuación, las consolas de cliente se conectan mediante una dirección URL como:
 
   ```
-  http://<computer>:8080
+  https://<computer>:8080
   ```
 
 Sin embargo, por motivos de seguridad y administración, se recomienda utilizar un servidor Web específico como punto de entrada principal para el tráfico HTTP cuando el equipo que ejecuta Adobe Campaign está expuesto en Internet y desea abrir el acceso a la consola fuera de la red.
