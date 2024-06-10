@@ -4,9 +4,9 @@ title: Actualización del nuevo servidor de envío
 description: Obtenga información sobre cómo actualizar al nuevo servidor de envío de Campaign
 feature: Technote, Deliverability
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: a08b386ff73fd9a2e9b3909c8f8de5e419104ce4
+source-git-commit: 514f390b5615a504f3805de68f882af54e0c3949
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1381'
 ht-degree: 16%
 
 ---
@@ -50,7 +50,7 @@ Como parte de la nueva integración del servidor de entrega, Campaign debe comun
 >
 > La credencial de cuenta de servicio (JWT) se está viendo obsoleta por el Adobe. Las integraciones de Campaign con soluciones de Adobe y aplicaciones ahora deben depender de la credencial de servidor a servidor OAuth. </br>
 >
-> * Si ha implementado integraciones entrantes con Campaign, debe migrar su cuenta técnica como se detalla en esta documentación. Las credenciales de la cuenta de servicio (JWT) existentes seguirán funcionando hasta el 27 de enero de 2025. Además, la creación de nuevas credenciales de cuenta de servicio (JWT) en Developer Console ya no es posible a partir del 3 de junio de 2024. No se puede crear ni agregar una nueva credencial de cuenta de servicio (JWT) a un proyecto después de esta fecha. </br>
+> * Si ha implementado integraciones entrantes con Campaign, debe migrar su cuenta técnica como se detalla en [esta documentación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Las credenciales de la cuenta de servicio (JWT) existentes seguirán funcionando hasta el 27 de enero de 2025. Además, la creación de nuevas credenciales de cuenta de servicio (JWT) en Developer Console ya no es posible a partir del 3 de junio de 2024. No se puede crear ni agregar una nueva credencial de cuenta de servicio (JWT) a un proyecto después de esta fecha. </br>
 >
 > * Si ha implementado integraciones salientes, como la de Campaign-Analytics o la de Experience Cloud Déclencheur, seguirán funcionando hasta el 27 de enero de 2025. Sin embargo, antes de esa fecha, debe actualizar el entorno de Campaign a la versión 7.4.1 y migrar la cuenta técnica a oAuth. Como la creación de nuevas credenciales de cuenta de servicio (JWT) en Developer Console ya no es posible a partir del 3 de junio de 2024, no puede crear una nueva integración saliente basada en JWT después de esta fecha
 
