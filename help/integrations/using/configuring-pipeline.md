@@ -1,49 +1,49 @@
 ---
 product: campaign
-title: Configuración de la canalización
-description: Obtenga información sobre cómo configurar la canalización para la integración de Campaign con Déclencheur
+title: Configuración de canalización
+description: Obtenga información sobre cómo configurar la canalización para la integración Campaign - Triggers
 feature: Triggers
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: 271e0f9fde0cbfb016e201c8390b26673d8fc696
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '875'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
-# Configuración de la canalización {#configuring-pipeline}
+# Configuración de canalización {#configuring-pipeline}
 
 Los parámetros de autenticación como el ID de cliente, la clave privada y el extremo de autenticación se configuran en los archivos de configuración de instancia.
 
-La lista de déclencheur que se van a procesar se configura en una opción en formato JSON.
+La lista de activadores que se van a procesar se configura en una opción en formato JSON.
 
 Los activadores se utilizan para la segmentación mediante un flujo de trabajo de campaña que envía correos electrónicos. La campaña se configura de modo que un cliente que tenga ambos eventos desencadenadores reciba un correo electrónico.
 
 ## Requisitos previos {#prerequisites}
 
-Antes de iniciar esta configuración, compruebe lo siguiente:
+Antes de iniciar esta configuración, compruebe que dispone de:
 
 * Un proyecto de Adobe Developer
-* Un ID de organización válido: para encontrar el ID de organización, consulte [esta página](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}
+* Un ID de organización válido: para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}
 * Un acceso para desarrolladores para su organización
-* Una configuración de déclencheur válida en Adobe Analytics
+* Una configuración de activadores válida en Adobe Analytics
 
 ## Archivos de autenticación y configuración {#authentication-configuration}
 
-Se requiere la autenticación ya que la canalización está alojada en Adobe Experience Cloud. Utiliza un par de claves públicas y privadas. Este proceso tiene la misma función que un usuario/contraseña, pero es más seguro. La autenticación es compatible con el Marketing Cloud a través del proyecto de Adobe Developer.
+Se requiere la autenticación, ya que la canalización está alojada en Adobe Experience Cloud. Utiliza un par de claves públicas y privadas. Este proceso tiene la misma función que un usuario/contraseña, solo que es más seguro. La autenticación es compatible con Marketing Cloud mediante el proyecto de Adobe Developer.
 
 ## Paso 1: Crear/actualizar su proyecto de Adobe Developer {#creating-adobe-io-project}
 
-Para los clientes alojados, colabore con su representante de Adobes/Servicio de atención al cliente para permitir a su organización utilizar los tokens de cuenta de Adobe Developer para la integración de Déclencheur.
+Para los clientes alojados, trabaje con su representante de Adobe / Servicio de atención al cliente para permitir a su organización utilizar los tokens de cuenta de Adobe Developer para la integración de activadores.
 
-Para clientes on-premise/híbridos, consulte la [Configuración del Adobe I/O para Adobe Experience Cloud Triggers](../../integrations/using/configuring-adobe-io.md) página. Tenga en cuenta que debe seleccionar **[!UICONTROL Adobe Analytics]** al agregar la API a la credencial de Adobe Developer.
+Para los clientes On-Premise/híbridos, consulte la página [Configuración de Adobe I/O para los activadores de Adobe Experience Cloud](../../integrations/using/configuring-adobe-io.md). Tenga en cuenta que debe seleccionar **[!UICONTROL Adobe Analytics]** al añadir la API a la credencial de Adobe Developer.
 
-## Paso 2: Configurar la opción de canalización {#configuring-nmspipeline}
+## Paso 2: Configuración de la opción de canalización {#configuring-nmspipeline}
 
-Una vez configurada la autenticación, la canalización recuperará los eventos. Solo procesará los activadores configurados en Adobe Campaign. El déclencheur debe haberse generado desde Adobe Analytics y se debe haber insertado en la canalización, que solo procesará los déclencheur configurados en Adobe Campaign.
+Una vez configurada la autenticación, la canalización recuperará los eventos. Solo procesará los activadores configurados en Adobe Campaign. El activador debe haberse generado desde Adobe Analytics y se debe haber insertado en la canalización, que solo procesará los activadores configurados en Adobe Campaign.
 
 La opción también se puede configurar con un comodín para capturar todos los activadores independientemente del nombre.
 
@@ -92,7 +92,7 @@ La opción también se puede configurar con un comodín para capturar todos los 
    }
    ```
 
-### Definición del parámetro de consumidor {#consumer-parameter}
+### Establecer el parámetro de consumidor {#consumer-parameter}
 
 La canalización funciona como un modelo de proveedor y consumidor. Los mensajes se consumen únicamente para un consumidor individual: cada consumidor obtiene su propia copia de los mensajes.
 
@@ -104,18 +104,18 @@ El servicio de canalización realiza un seguimiento de los mensajes recuperados 
 
 Para configurar la opción Canalización, debe seguir estas recomendaciones:
 
-* Añadir o editar déclencheur en **[!UICONTROL Triggers]**.
-* Asegúrese de que el JSON sea válido.
-* El **Nombre** corresponde al ID de déclencheur. El comodín &quot;*&quot; capturará todos los activadores.
-* El **Consumidor** parameter corresponde al nombre de la instancia o aplicación que realiza la llamada.
-* el `pipelined`process también admite el tema &quot;alias&quot;.
-* Siempre debe reiniciar `pipelined`procesar después de realizar cambios.
+* Añadir o editar activadores en **[!UICONTROL Triggers]**.
+* Asegúrese de que el JSON sea válido. 
+* El parámetro **Nombre** corresponde al ID del activador. El comodín &quot;*&quot; capturará todos los activadores.
+* El parámetro **Consumidor** corresponde al nombre de la instancia o aplicación que realiza la llamada.
+* el proceso `pipelined` también admite el tema “alias”.
+* Siempre debe reiniciar el proceso `pipelined` después de realizar cambios.
 
 ## Paso 3: Configuración opcional {#step-optional}
 
-Puede cambiar algunos parámetros internos según los requisitos de carga, pero asegúrese de probarlos antes de aplicarlos al entorno de producción.
+Puede cambiar algunos parámetros internos según sus requisitos de carga, pero asegúrese de probarlos antes de aplicarlos en su entorno de producción.
 
-La lista de parámetros opcionales es la siguiente:
+La lista de parámetros opcionales es:
 
 | Opción | Descripción |
 |:-:|:-:|
@@ -136,9 +136,9 @@ La lista de parámetros opcionales es la siguiente:
 
 ### Inicio automático de proceso de canalización {#pipelined-process-autostart}
 
-El `pipelined` El proceso de debe iniciarse automáticamente.
+El proceso `pipelined` debe iniciarse automáticamente.
 
-Para ello, configure el `<`canalizado`>` en el archivo de configuración a autostart=&quot;true&quot;:
+Para ello, establezca el elemento `<`pipelined`>` en el archivo de configuración como autostart=&quot;true&quot;:
 
 ```sql
  <pipelined autoStart="true" ... "/>
@@ -157,5 +157,5 @@ nlserver restart pipelined@instance
 Para validar la configuración de la canalización para el aprovisionamiento, siga los pasos a continuación:
 
 * Asegúrese de que el proceso de `pipelined` se esté ejecutando.
-* Compruebe la `pipelined.log` para registros de conexión de canalización.
+* Compruebe los registros de conexión de canalización en `pipelined.log`.
 * Compruebe la conexión y si se reciben los pings. Los clientes alojados pueden utilizar la Monitorización desde la consola de cliente.

@@ -6,9 +6,9 @@ feature: Mobile SDK Integration, Push
 role: User, Developer
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: 00d46a7508def4d472e6bb8940a4d40a23c4fb07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ A continuación se muestran los pasos de integración para el SDK de Campaign.
   Neolane.getInstance().setTrackingHost("https://yourTrackingHost:yourTrackingPort/");
   ```
 
-  El siguiente permiso permite recuperar el ID único de un móvil:
+  El siguiente permiso permite recuperar el ID único de un teléfono móvil:
 
   ```
   <uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
@@ -542,7 +542,7 @@ Para implementar el delegado **registerDeviceStatus**, siga estos pasos:
 
 +++**Variables**
 
-Las variables permiten definir el comportamiento de la aplicación móvil después de recibir una notificación. Estas variables deben definirse en el código de la aplicación móvil y en la consola de Adobe Campaign, en **[!UICONTROL Variables]** en la aplicación móvil dedicada (consulte [Configuración de una aplicación móvil en Adobe Campaign](configuring-the-mobile-application.md)). A continuación, se muestra un ejemplo de código que permite a una aplicación móvil recopilar variables añadidas en una notificación. En este ejemplo, se utiliza la variable “VAR”.
+Las variables permiten definir el comportamiento de la aplicación móvil después de recibir una notificación. Estas variables se deben definir en el código de la aplicación móvil y en la consola de Adobe Campaign, en la pestaña **[!UICONTROL Variables]** de la aplicación móvil dedicada (consulte [Configuración de una aplicación móvil en Adobe Campaign](configuring-the-mobile-application.md)). A continuación, se muestra un ejemplo de código que permite a una aplicación móvil recopilar variables añadidas en una notificación. En este ejemplo, se utiliza la variable “VAR”.
 
 * **En Android**:
 

@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
 source-git-commit: 5d237d42adabe42a07bc759913dd9453df650671
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '905'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 81%
 
 Adobe Campaign ofrece un conjunto de herramientas para que cumpla con las [normas de privacidad](#privacy-management-regulations) (incluye el RGPD, la CCPA, la PDPA y la LGPD).
 
-Estas son las cinco funciones principales que ofrece Adobe Campaign para garantizar la preparación de las normas de privacidad:
+Estas son las cinco funciones principales que ofrece Adobe Campaign para garantizar la preparación de las regulaciones de privacidad:
 
 * **Derecho al acceso**
 * **Derecho a eliminar**
@@ -40,14 +40,14 @@ It also contains information on important features to manage Privacy ([Consent, 
 
 Las capacidades de Adobe Campaign le ayudan a cumplir con las siguientes regulaciones:
 
-* **RGPD** (Reglamento General de Protección de Datos) es la ley de privacidad de la Unión Europea (UE) que armoniza y moderniza los requisitos de protección de datos de los países de la UE.
-* **CCPA** (Ley de Privacidad del Consumidor de California) proporciona a los residentes de California nuevos derechos respecto a su información personal e impone responsabilidades de protección de datos para las entidades que operen en California.
-* **PDPA** (Ley de Protección de Datos Personales) es la ley de privacidad que armoniza y moderniza los requisitos de protección de datos para Tailandia.
-* **LGPD** (Lei Geral de Proteção de Dados) se aplica a todas las compañías que recopilan o procesan datos personales en Brasil.
-* **CASL** (Ley canadiense contra el correo no deseado) abarca todos los mensajes enviados dentro o fuera de Canadá, pero no incluye los mensajes enviados a través de Canadá,
-* **VCDPA** (Virginia Consumer Data Protection Act) y **CPA** (Ley de Privacidad de Colorado) se aplican a todas las compañías que llevan a cabo negocios o se dirigen a residentes dentro de esos estados.
+* El **RGPD** (Reglamento General de Protección de Datos) es la ley de privacidad de la Unión Europea (UE) que armoniza y moderniza los requisitos de protección de datos de los países de la UE.
+* La **CCPA** (Ley de privacidad del consumidor de California) proporciona a los residentes de California nuevos derechos respecto a su información personal e impone responsabilidades de protección de datos para las entidades que operen en California.
+* La **PDPA** (Ley de protección de datos personales) es la ley de privacidad que armoniza y moderniza los requisitos de protección de datos para Tailandia.
+* La **LGPD** (Ley general de protección de datos) se aplica a todas las compañías que recopilen o procesen datos personales en Brasil.
+* La **CASL** (Ley canadiense antispam) abarca todos los mensajes que se envían con origen o destino en Canadá, pero no incluye los mensajes enrutados a través de Canadá,
+* La **VCDPA** (Ley de protección de datos del consumidor de Virginia) y la **CPA** (Ley de privacidad de Colorado) se aplican a todas las compañías que llevan a cabo negocios o se dirigen a residentes dentro de esos estados.
 
-Todas estas regulaciones se aplican a los clientes de Adobe Campaign que albergan datos de sujetos de datos que residan en las regiones o países respectivos antes mencionados.
+Todas estas normativas se aplican a los clientes de Adobe Campaign que dispongan de datos de sujetos de datos residentes en las regiones o países mencionados anteriormente.
 
 <!--Several Privacy capabilities are available in Adobe Campaign, including consent management, data retention settings, and rights management. See [Consent, Retention and Roles](#consent-retention-roles). In addition to this, Adobe Campaign helps facilitate your readiness as Data Controller for certain Privacy requests. See [Right to Access and Right to be Forgotten](#right-access-forgotten).-->
 
