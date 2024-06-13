@@ -5,10 +5,10 @@ description: Definición de las propiedades de los formularios web
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '1220'
-ht-degree: 100%
+source-git-commit: 1d4990917fea54e67ed23cd0771295de03a4f01a
+workflow-type: tm+mt
+source-wordcount: '1375'
+ht-degree: 88%
 
 ---
 
@@ -83,6 +83,32 @@ Los temas se guardan en el nodo **[!UICONTROL Administration>Configuration>Form 
 En la parte inferior de la ventana de propiedades se muestra una renderización de muestra. El icono **[!UICONTROL Edit link]** permite ver la configuración del tema seleccionado:
 
 ![](assets/s_ncs_admin_survey_properties_render.png)
+
+## Logotipo en el formulario {#logo-in-the-form}
+
+Puede cambiar el logotipo que utiliza en el formulario su propio logotipo.
+
+En el **[!UICONTROL Rendering]** dentro de la **[!UICONTROL Properties]** Haga clic en el icono de cristal de la plantilla de su aplicación web:
+
+![](assets/logo_glass.png)
+
+En la nueva ventana, haga clic en **[!UICONTROL Page layout]** vínculo :
+
+![](assets/logo_pagelayout.png)
+
+Aquí tiene la posibilidad de cambiar la ruta de la imagen del logotipo:
+
+![](assets/logo_path.png)
+
+Las imágenes disponibles se encuentran en **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Images]**. Puede añadir su logotipo aquí.
+
+Estas imágenes se colocan en el directorio back-end de la instancia *datakit\nms\fra\img\activities* o *datakit\nms\eng\img\activities* (eng o fra, según el idioma de la instancia).
+
+Para tener una nueva imagen disponible en este directorio (y en Imágenes), póngase en contacto con el servicio de asistencia técnica del Adobe para realizar cambios en los directorios back-end.
+
+En las instancias locales, puede agregar imágenes al conjunto de datos usted mismo.
+
+La imagen cargada no tiene que ser visible desde el cliente de Campaign. La ruta correcta es suficiente para utilizarla como nuevo logotipo.
 
 ## Textos en el formulario {#texts-in-the-form}
 
