@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 28302b40d4fa43b400a3e1b6dd3e133976a01418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Para obtener más información sobre los elementos obsoletos, visite [esta pági
 
 ## Sistemas operativos {#OperatingSystems}
 
-Como cliente on-premise/híbrido, debe instalar Adobe Campaign en uno de los sistemas operativos que se indican a continuación. Obtenga más información acerca de los pasos de instalación de Campaign Classic v7 en [esta página](../../installation/using/application-server.md).
+Como cliente On-Premise/híbrido, debe instalar Adobe Campaign en uno de los sistemas operativos que se indican a continuación. Obtenga más información sobre los pasos de instalación de Campaign Classic v7 en [esta página](../../installation/using/application-server.md).
 
 
 <table> 
@@ -76,7 +76,7 @@ Como cliente on-premise/híbrido, debe instalar Adobe Campaign en uno de los sis
 
 ## Servidores web {#WebServers}
 
-Como cliente on-premise/híbrido, según el sistema operativo, debe integrar Campaign en uno de los servidores web que se indican a continuación. Obtenga más información acerca de los pasos de configuración de servidores web en [esta página](../../installation/using/integration-into-a-web-server-for-windows.md) (para Windows) y [esta página](../../installation/using/integration-into-a-web-server-for-linux.md) (para Linux) .
+Como cliente On-Premise/híbrido, según su sistema operativo, deberá integrar Campaign en uno de los servidores web que se indican a continuación. Obtenga más información acerca de los pasos de configuración de los servidores web en [esta página](../../installation/using/integration-into-a-web-server-for-windows.md) (para Windows) y [esta página](../../installation/using/integration-into-a-web-server-for-linux.md) (para Linux).
 
 <table>
 <tbody>
@@ -97,7 +97,7 @@ Como cliente on-premise/híbrido, según el sistema operativo, debe integrar Cam
 
 ## Herramientas {#Tools}
 
-Como cliente on-premise/híbrido, debe instalar y configurar las herramientas que se enumeran a continuación. [Más información](../../installation/using/application-server.md).
+Como cliente On-Premise/híbrido, debe instalar y configurar las herramientas que se indican a continuación. [Más información](../../installation/using/application-server.md).
 
 <table>
 <tbody>
@@ -127,7 +127,7 @@ Como cliente on-premise/híbrido, debe instalar y configurar las herramientas qu
 
 ## Sistemas de administración de bases de datos de relación (RDBMS){#RDBMSservers}
 
-Como cliente on-premise/híbrido, debe instalar y configurar una de las bases de datos que se indican a continuación. [Más información](../../installation/using/creating-and-configuring-the-database.md).
+Como cliente On-Premise/híbrido, debe instalar y configurar una de las bases de datos que se indican a continuación. [Más información](../../installation/using/creating-and-configuring-the-database.md).
 
 
 <table>
@@ -168,7 +168,7 @@ Como cliente on-premise/híbrido, debe instalar y configurar una de las bases de
 >
 >* El controlador RDBMS debe coincidir con la versión del servidor RDBMS.
 >
->* PostgreSQL es el RDBMS para entornos de Cloud Service alojados/administrados.
+>* PostgreSQL es el RDBMS para entornos alojados o de Managed Cloud Services.
 
 ## Conectores CRM{#CRMconnectors}
 
