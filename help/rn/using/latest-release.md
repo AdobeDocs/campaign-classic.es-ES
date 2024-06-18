@@ -6,42 +6,52 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 8fec4d038eddaa3c5a2aade1b619f2543453d4de
-workflow-type: ht
-source-wordcount: '352'
-ht-degree: 100%
+source-git-commit: d31aa28da06e65664da655b6b082563767b35f7a
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 19%
 
 ---
 
-# Último lanzamiento{#latest-release}
+# Último lanzamiento {#latest-release}
 
 Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con la **última versión de Campaign Classic v7**. Cada nueva compilación viene con un estado que se materializa con un color. Obtenga más información sobre los estados de compilación de Campaign Classic v7 en [esta página](rn-overview.md).
 
-## Versión 7.3.5, compilación 9368 {#release-7-3-5}
+## Versión 7.4.1, compilación 9383 {#release-7-4-1}
 
 [!BADGE Disponibilidad general]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad general"}
 
+_miércoles, 18 de junio de 2024_
 
-_5 de diciembre de 2023_
+### Cambios y mejoras {#release-7-4-1-changes}
+
+* Con la credencial de cuenta de servicio (JWT) obsoleta por el Adobe, las integraciones salientes de Campaign con soluciones de Adobe y aplicaciones ahora dependen de la credencial de servidor a servidor de OAuth. Si ha implementado integraciones salientes, como la de Campaign-Analytics o la de Experience Cloud Déclencheur, debe actualizar su entorno de Campaign a la versión 7.4.1 y migrar su cuenta técnica a oAuth antes del 27 de enero de 2025. [Más información](../../integrations/using/oauth-technical-account.md)
+
+* Una vez que haya [se han migrado los operadores técnicos de Campaign a Developer Console](../../technotes/using/ims-migration.md) y [Se ha realizado la transición a IMS para la autenticación del usuario final](../../technotes/using/migrate-users-to-ims.md), ahora puede habilitar la interfaz de usuario y las restricciones de la API para eliminar opciones y funcionalidades específicas de la autenticación nativa. [Más información](../../technotes/using/impact-ims-migration.md)
 
 
-### Mejoras de seguridad {#release-7-3-5-security}
+
+### Actualizaciones de compatibilidad {#release-7-4-1-compat}
+
+El [matriz de compatibilidad para Adobe Campaign](compatibility-matrix.md) se ha actualizado con los cambios que se proporcionan con esta nueva versión y se enumera a continuación.
+
+* Adobe Campaign ahora es compatible con **Microsoft Server 2022** y **RHEL 9** como sistemas operativos.
+
+* Adobe Campaign ahora es compatible con **Microsoft SQL Server 2022** y **Oracle 23c** como Relation Database Management Systems y en el acceso de datos federado (FDA).
+
+* Adobe Campaign ahora requiere al menos un kit de desarrollo de Java (JDK) 11. En Windows, el JRE debe estar disponible como se describe en [esta sección](../../installation/using/application-server.md#jdk).
+
+* El SDK de Campaign (Neolane) para aplicaciones móviles ya no se utiliza. Ahora debe realizar la transición al SDK de Adobe Experience Platform. [Más información](deprecated-features.md).
+
+  Mientras tanto, para garantizar la continuidad del servicio, Campaign v7.4 incluye:
+
+   * un nuevo SDK de Campaign 1.0.27 para iOS, compatible con iOS 16 y 17, y la última versión [Requisitos de solicitud de privacidad de Apple iOS](https://developer.apple.com/news/?id=r1henawx){target="_blank"}.
+   * un nuevo SDK de Campaign para Android 14.
 
 
-* Con la versión 7.3.5 de Campaign Classic , se ha mejorado y protegido el proceso de autenticación. Ahora, los operadores técnicos deberán utilizar Adobe Identity Management System (IMS) para conectarse a Campaign. Obtén información sobre cómo migrar tus cuentas técnicas existentes en [esta nota técnica](../../technotes/using/ims-migration.md).
+### Parches {#release-7-4-1-patches}
 
-* Además, con el objetivo de reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomienda migrar el modo de autenticación del usuario final de la autenticación nativa de inicio de sesión/contraseña a Adobe Identity Management System (IMS). Aprende a migrar los operadores en [esta nota técnica](../../technotes/using/migrate-users-to-ims.md).
+Esta versión incluye las siguientes correcciones:
 
-* Ahora, cuando un formulario web tiene el estado **Publicación pendiente**, no se activa automáticamente. Para evitar problemas de seguridad, debe publicarse antes de que esté **En línea** y sea accesible a través de la URL del formulario web en un explorador web. [Más información](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
-
-### Parches {#release-7-3-5-patches}
-
-* Se ha corregido un problema que se producía al utilizar datos de una base de datos de Google Big Query y al actualizar datos en una base de datos de Oracle: todas las claves se establecían en `0` en la tabla temporal del flujo de trabajo. (NEO-65091)
-* Se ha corregido un problema que ocasionaba que fallara una ejecución de flujo de trabajo cuando se combinaban dos consultas en una base de datos de Google Big Query en una actividad de flujo de trabajo de **Union**. (NEO-63705)
-* Se ha corregido un problema que consistía en la solicitud al usuario de volverse a autenticar al hacer clic en el botón `Back` en un informe de campaña. (NEO-65087)
-* Se ha corregido un error en el flujo de trabajo para la limpieza de base de datos que se producía cuando se eliminaba un envío antes que las pruebas de envío. (NEO-48114)
-* Se ha corregido un problema al conectarse a la consola del cliente: las actualizaciones recientes sobre la verificación TLS provocaban un error de conexión. (NEO-50488)
-* Se ha corregido un problema con la autenticación proxy HTTP después de la actualización de Campaign a la versión 7.3.1. Las solicitudes HTTP en los flujos de trabajo de la campaña fallaban con `error 407 – proxy auth required is returned`. (NEO-49624)
-* Se ha corregido un error intermitente con el descifrado GPG en actividades de flujo de trabajo de **Script**. El mensaje de error asociado era: `gpg: decryption failed: No secret key`. (NEO-50257)
-  <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
+NEO-74754, NEO-73174, NEO-72504, NEO-71534, NEO-71473, NEO-70195, NEO-69663, NEO-69651, NEO-67620, NEO-67235, NEO-66797, NEO-64680, NEO-63706, NEO-63657, NEO-62964, NEO-62575, NEO-58734, NEO-40531, NEO-36189, NEO-29592
 
