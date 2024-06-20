@@ -4,10 +4,10 @@ title: Inicio de un flujo de trabajo
 description: Obtenga información sobre cómo iniciar un flujo de trabajo y descubra acciones de flujos de trabajo en la barra de herramientas y el menú que aparece al hacer clic con el botón derecho
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '1109'
-ht-degree: 100%
+source-git-commit: 98815fe0417f9126826e0273caa80888164793ec
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -64,6 +64,16 @@ Los botones de la barra de herramientas se encuentran en esta [sección](../../c
   Esta acción detiene y reinicia el flujo de trabajo. En la mayoría de los casos, es posible reiniciarlo más rápido. También resulta útil automatizar el reinicio cuando la detención lleva una determinada cantidad de tiempo: esto sucede porque el comando “Detener” no está disponible cuando el flujo de trabajo se detiene.
 
   Las acciones **[!UICONTROL Start / Pause / Stop / Restart]** también están disponibles a través de los iconos de ejecución de la barra de herramientas. Para obtener más información, consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
+
+  Tenga en cuenta que la variable **Restart** La acción no borra las variables de instancia de flujo de trabajo en comparación con **Ejecución**, **Detener**, y **Inicio** (las variables de instancia se borran tras la acción Iniciar). Al reiniciar un flujo de trabajo, las variables de instancia siguen estando disponibles para su uso con valores conservados. Para borrarlos, puede hacer lo siguiente:
+   * Realizar **Detener** y **Inicio** acciones.
+   * Añada el siguiente código JavaScript al final de la ejecución del flujo de trabajo:
+
+     ```
+     var wkf = xtk.workflow.load(instance.id)
+     wkf.variables='<variables/>'
+     wkf.save()
+     ```
 
 * **[!UICONTROL Purge history]**
 
