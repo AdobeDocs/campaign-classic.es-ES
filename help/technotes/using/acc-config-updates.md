@@ -6,7 +6,7 @@ feature: Technote, Upgrade
 hide: true
 hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 10%
@@ -123,11 +123,11 @@ Obtenga información sobre cómo comprobar su versión [en esta sección](../../
 
 **¿Cómo realizar la actualización?**
 
-Una vez que las instancias se hayan actualizado a una versión más reciente, todos los clientes deberán seguir las [procedimiento pasar al nuevo modo de autenticación](../../integrations/using/configuring-adobe-io.md). Esto requiere que genere el nuevo token de Adobe I/O y lo utilice en la implementación.  
+Una vez que las instancias se hayan actualizado a una versión más reciente, todos los clientes deberán seguir las [procedimiento pasar al nuevo modo de autenticación](../../integrations/using/about-triggers.md#implement). Esto requiere que genere el nuevo token de Adobe I/O y lo utilice en la implementación.  
 
 Además, en el caso de entornos híbridos, los clientes deben asegurarse de que la canalización esté configurada en una instancia intermediaria. [Más información](../../integrations/using/configuring-pipeline.md).
 
-[Descubra más información sobre cómo migrar al Adobe I/O](../../integrations/using/configuring-adobe-io.md).
+[Descubra más información sobre cómo migrar al Adobe I/O](../../integrations/using/about-triggers.md#implement).
 
 ## Actualizaciones de APNS {#acc-apns-updates}
 

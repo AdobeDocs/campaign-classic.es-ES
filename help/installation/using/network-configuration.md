@@ -3,14 +3,14 @@ product: campaign
 title: Configuración de red
 description: Conozca las directrices de comunicación del sistema
 feature: Installation, Instance Settings
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '704'
 ht-degree: 2%
 
 ---
@@ -167,10 +167,6 @@ Los puertos predeterminados son los siguientes:
   <tr> 
    <td> <strong>Microsoft SQL Server</strong><br /> </td> 
    <td> 1433/tcp<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>DB2</strong><br /> </td> 
-   <td> 50000/tcp<br /> </td> 
   </tr> 
  </tbody> 
 </table>

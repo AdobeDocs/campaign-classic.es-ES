@@ -6,7 +6,7 @@ feature: Installation, Architecture, Deployment
 role: Architect
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: a38d53f4b37aadbc53446b5e399af2eae56c12af
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Como cliente On-Premise, antes de empezar a implementar Campaign Classic, debe c
 
 ## Híbrido
 
-Cuando se implementa como modelo híbrido, el software de la solución Adobe Campaign reside en las instalaciones del cliente y la administración de la ejecución se proporciona como servicio en la nube por Adobe. La instancia de marketing de Adobe Campaign se instala dentro del cortafuegos de un cliente, por lo que la información de identificación personal (PII) permanece interna y solo se envían a la nube los datos necesarios para personalizar los correos electrónicos para su ejecución por correo electrónico. La instancia de ejecución, alojada en la nube, recibe las solicitudes de la instancia local para enviar correos electrónicos. Esta instancia personaliza todos los correos electrónicos y los envía. No se almacenan datos de ningún tipo de forma permanente en la nube.
+Cuando se implementa como modelo híbrido, el software de la solución Adobe Campaign reside en las instalaciones del cliente y la administración de la ejecución se proporciona como servicio en la nube por Adobe. La instancia de marketing de Adobe Campaign se instala dentro del cortafuegos de un cliente, por lo que la información de identificación personal (PII) permanece interna y solo se envían a la nube los datos necesarios para personalizar los correos electrónicos para su ejecución por correo electrónico. La instancia de ejecución, alojada en la nube, recibe las solicitudes de la instancia On-Premise para enviar correos electrónicos. Esta instancia personaliza todos los correos electrónicos y los envía. No se almacenan datos de ningún tipo de forma permanente en la nube.
 
 ![](assets/deployment_hybrid.png)
 

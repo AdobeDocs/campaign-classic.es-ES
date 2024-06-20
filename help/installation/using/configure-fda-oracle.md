@@ -7,7 +7,7 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 71%
@@ -58,7 +58,7 @@ La conexión a una base de datos externa de Oracle en FDA requiere ciertas confi
    * **libaio1**
 
      ```
-     aptitude install libaio1
+     apt install libaio1
      or
      yum install libaio1
      ```

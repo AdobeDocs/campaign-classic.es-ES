@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 5%
@@ -89,7 +89,7 @@ Siga estos pasos:
 
 1. Una vez instalado el servidor de Adobe Campaign, inicie el servidor de aplicaciones (web) con el comando **nlserver web -tomcat** (el módulo Web le permite iniciar Tomcat en modo de servidor web independiente escuchando en el puerto 8080) y asegurarse de que Tomcat se inicia correctamente:
 
-   ```
+   ```sql
    12:08:18 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    12:08:18 >   Starting Web server module (pid=28505, tid=-1225184768)...
    12:08:18 >   Tomcat started
@@ -191,7 +191,7 @@ Siga estos pasos:
    >
    >A partir de la versión 20.1, se recomienda utilizar el siguiente comando (para Linux): **systemctl start nlserver**
 
-   ```
+   ```sql
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    syslogd@default (7611) - 9.2 MB
    stat@demo (5988) - 1.5 MB

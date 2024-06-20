@@ -3,15 +3,15 @@ product: campaign
 title: Umbrales de conexión
 description: Umbrales de conexión
 feature: Monitoring
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 757e3a5395f24e0bdd04737aba0458881e4ea780
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 8%
+source-wordcount: '168'
+ht-degree: 10%
 
 ---
 
@@ -31,7 +31,7 @@ Existen tres umbrales diferentes:
 
    * **Tomcat** : todas las consultas que llegan realmente al cliente de Adobe Campaign Tomcat.
 
-     Este umbral se configura en la variable **nl6/tomcat-8/conf/server.xml** archivo. El **maxThreads** El atributo permite aumentar el umbral del número de consultas procesadas a la vez. Se puede cambiar a 250, por ejemplo.
+     Este umbral se configura en la variable **nl6/tomcat-X/conf/server.xml** archivo. El **maxThreads** El atributo permite aumentar el umbral del número de consultas procesadas a la vez. Se puede cambiar a 250, por ejemplo.
 
      ```
      <Connector protocol="HTTP/1.1" port="8080"

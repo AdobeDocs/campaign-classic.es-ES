@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 6%
@@ -89,7 +89,7 @@ Los pasos para instalar el primer servidor son los siguientes:
 
 1. Una vez instalado el servidor de Adobe Campaign, inicie el servidor de aplicaciones (web) con el comando **nlserver web -tomcat** (el módulo Web le permite iniciar Tomcat en modo de servidor web independiente escuchando en el puerto 8080) y asegurarse de que Tomcat se inicia correctamente:
 
-   ```
+   ```sql
    12:08:18 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    12:08:18 >   Starting Web server module (pid=28505, tid=-1225184768)...
    12:08:18 >   Tomcat started
@@ -136,7 +136,7 @@ Los pasos para instalar el primer servidor son los siguientes:
 
 1. Edite el **config-demo.xml** (creado mediante el comando anterior y ubicado junto al archivo **config-default.xml** ), compruebe que la variable **mta** (envío), **wfserver** (flujo de trabajo), **inMail** (correos electrónicos de rebote) y **estadísticas** (estadísticas) los procesos están activados y, a continuación, configure la dirección del **aplicación** servidor de estadísticas:
 
-   ```
+   ```xml
    <?xml version='1.0'?>
    <serverconf>  
      <shared>    
@@ -156,7 +156,7 @@ Los pasos para instalar el primer servidor son los siguientes:
 
 1. Edite el **serverConf.xml** y especifique el dominio de entrega y, a continuación, especifique las direcciones IP (o host) de los servidores DNS utilizados por el módulo MTA para responder consultas DNS de tipo MX.
 
-   ```
+   ```xml
    <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
    ```
 
@@ -175,7 +175,7 @@ Los pasos para instalar el primer servidor son los siguientes:
    >A partir de la versión 20.1, se recomienda utilizar el siguiente comando (para Linux): **systemctl start nlserver**
 
 
-   ```
+   ```sql
    12:09:54 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    syslogd@default (7611) - 9.2 MB
    stat@demo (5988) - 1.5 MB
@@ -214,7 +214,7 @@ Siga estos pasos:
 
 1. Edite el **config-demo.xml** (creado mediante el comando anterior y ubicado junto al archivo **config-default.xml** ), compruebe que la variable **mta** (envío), **wfserver** (flujo de trabajo), **inMail** (correos electrónicos de rebote) y **estadísticas** (estadísticas) los procesos están activados y, a continuación, configure la dirección del **aplicación** servidor de estadísticas:
 
-   ```
+   ```xml
    <?xml version='1.0'?>
    <serverconf>  
      <shared>    
@@ -234,7 +234,7 @@ Siga estos pasos:
 
 1. Edite el **serverConf.xml** y rellenar la configuración DNS del módulo MTA:
 
-   ```
+   ```xml
    <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
    ```
 
@@ -266,7 +266,7 @@ Los pasos son los siguientes:
 1. Copie el **config-demo.xml** y **serverConf.xml** archivos creados durante la instalación. En el **config-demo.xml** , active el archivo **trackinglogd** procesar y desactivar el **mta**, **en el correo**, **wfserver** y **estadísticas** procesos.
 1. Edite el **serverConf.xml** y rellene los servidores de seguimiento redundantes en los parámetros de la redirección:
 
-   ```
+   ```xml
    <spareServer enabledIf="$(hostname)!='front_srv1'" id="1" url="https://front_srv1:8080"/>
    <spareServer enabledIf="$(hostname)!='front_srv2'" id="2" url="https://front_srv2:8080"/>
    ```
@@ -275,13 +275,13 @@ Los pasos son los siguientes:
 
    El explorador debe mostrar los siguientes mensajes (según la URL redirigida por el equilibrador de carga):
 
-   ```
+   ```xml
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv1"/>
    ```
 
    o
 
-   ```
+   ```xml
    <redir status="OK" date="AAAA/MM/JJ HH:MM:SS" build="XXXX" host="tracking.campaign.net" localHost="front_srv2"/>
    ```
 

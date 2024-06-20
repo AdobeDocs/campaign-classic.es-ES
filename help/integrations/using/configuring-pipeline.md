@@ -7,10 +7,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
-source-git-commit: 271e0f9fde0cbfb016e201c8390b26673d8fc696
-workflow-type: ht
-source-wordcount: '875'
-ht-degree: 100%
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+workflow-type: tm+mt
+source-wordcount: '833'
+ht-degree: 92%
 
 ---
 
@@ -31,19 +31,17 @@ Antes de iniciar esta configuración, compruebe que dispone de:
 * Un acceso para desarrolladores para su organización
 * Una configuración de activadores válida en Adobe Analytics
 
-## Archivos de autenticación y configuración {#authentication-configuration}
-
-Se requiere la autenticación, ya que la canalización está alojada en Adobe Experience Cloud. Utiliza un par de claves públicas y privadas. Este proceso tiene la misma función que un usuario/contraseña, solo que es más seguro. La autenticación es compatible con Marketing Cloud mediante el proyecto de Adobe Developer.
+Se requiere la autenticación, ya que la canalización está alojada en Adobe Experience Cloud. Utiliza una autenticación compatible con mediante un proyecto de Adobe Developer.
 
 ## Paso 1: Crear/actualizar su proyecto de Adobe Developer {#creating-adobe-io-project}
 
-Para los clientes alojados, trabaje con su representante de Adobe / Servicio de atención al cliente para permitir a su organización utilizar los tokens de cuenta de Adobe Developer para la integración de activadores.
+Debe habilitar a su organización con tokens de cuenta de Adobe Developer para la integración de Déclencheur.
 
-Para los clientes On-Premise/híbridos, consulte la página [Configuración de Adobe I/O para los activadores de Adobe Experience Cloud](../../integrations/using/configuring-adobe-io.md). Tenga en cuenta que debe seleccionar **[!UICONTROL Adobe Analytics]** al añadir la API a la credencial de Adobe Developer.
+Obtenga información sobre cómo crear su cuenta técnica de Adobe en [esta página](../../integrations/using/oauth-technical-account.md). Tenga en cuenta que debe seleccionar **[!UICONTROL Adobe Analytics]** al añadir la API a la credencial de Adobe Developer.
 
 ## Paso 2: Configuración de la opción de canalización {#configuring-nmspipeline}
 
-Una vez configurada la autenticación, la canalización recuperará los eventos. Solo procesará los activadores configurados en Adobe Campaign. El activador debe haberse generado desde Adobe Analytics y se debe haber insertado en la canalización, que solo procesará los activadores configurados en Adobe Campaign.
+Una vez configurada la autenticación, la canalización recuperará los eventos. Solo procesa los déclencheur configurados en Adobe Campaign. El activador debe haberse generado desde Adobe Analytics y se debe haber insertado en la canalización, que solo procesará los activadores configurados en Adobe Campaign.
 
 La opción también se puede configurar con un comodín para capturar todos los activadores independientemente del nombre.
 
@@ -51,7 +49,7 @@ La opción también se puede configurar con un comodín para capturar todos los 
 
 1. Seleccione la opción **[!UICONTROL NmsPipeline_Config]**.
 
-1. En el campo **[!UICONTROL Value (long text)]**, puede pegar el siguiente código JSON, que especifica dos activadores. Debe asegurarse de eliminar los comentarios.
+1. En el campo **[!UICONTROL Value (long text)]**, puede pegar el siguiente código JSON, que especifica dos activadores. Asegúrese de quitar los comentarios.
 
    ```json
    {
@@ -111,7 +109,7 @@ Para configurar la opción Canalización, debe seguir estas recomendaciones:
 * el proceso `pipelined` también admite el tema “alias”.
 * Siempre debe reiniciar el proceso `pipelined` después de realizar cambios.
 
-## Paso 3: Configuración opcional {#step-optional}
+## (opcional) Paso 3: Configuración adicional {#step-optional}
 
 Puede cambiar algunos parámetros internos según sus requisitos de carga, pero asegúrese de probarlos antes de aplicarlos en su entorno de producción.
 

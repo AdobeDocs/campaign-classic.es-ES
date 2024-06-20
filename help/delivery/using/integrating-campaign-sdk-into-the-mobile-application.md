@@ -4,17 +4,17 @@ title: Integración del SDK de Campaign
 description: Descubra cómo integrar el SDK de Campaign en su aplicación móvil
 feature: Mobile SDK Integration, Push
 role: User, Developer
+hide: true
+hidefromtoc: true
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: 00d46a7508def4d472e6bb8940a4d40a23c4fb07
-workflow-type: ht
+source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
+workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
 
 ---
 
 # Integración del SDK de Campaign con la aplicación {#integrating-campaign-sdk-into-the-mobile-application}
-
-
 
 >[!CAUTION]
 >

@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: d2451b62-bddf-4dee-8789-35aaae8348e1
-source-git-commit: 5d237d42adabe42a07bc759913dd9453df650671
-workflow-type: ht
-source-wordcount: '1910'
-ht-degree: 100%
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+workflow-type: tm+mt
+source-wordcount: '1907'
+ht-degree: 97%
 
 ---
 
@@ -68,11 +68,14 @@ Al administrar la privacidad, es importante definir qué datos deben manejarse c
 * Los **datos personales** son información que puede identificar directa o indirectamente a un individuo.
 * Los **datos personales confidenciales** son información relacionada con el origen étnico, las opiniones políticas, las creencias religiosas, los antecedentes penales, la información genética, los datos de salud, las preferencias sexuales, la información biométrica y la afiliación a sindicatos.
 
-Al integrar la Campaign con otras soluciones de Experience Cloud en las que las audiencias se pueden transferir de un sistema a otro, como [Adobe Analytics](../../platform/using/gs-aa.md), [Audience Manager o el servicio principal de personas](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md)o con otras soluciones a través de [conectores de CRM ](../../platform/using/crm-connectors.md), debe prestar especial atención a la protección de datos personales.
+Al integrar Campaign con otras soluciones de Experience Cloud, donde las audiencias se pueden transferir de un sistema a otro, como [Adobe Analytics](../../integrations/using/gs-aa.md), [Audiencias de Experience Cloud](../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md), [Campaign Standard](../../integrations/using/synchronizing-audiences.md)o con otras soluciones mediante [Conectores CRM](../../platform/using/crm-connectors.md)Por lo tanto, debe prestar especial atención a la protección de datos personales.
 
 La [legislación principal](#privacy-regulations) hace referencia a las diferentes entidades que administran los datos de la siguiente manera:
+
 * Un **controlador de datos** es una autoridad que determina los medios y el propósito de recopilar, utilizar y compartir datos personales.
+
 * Un **procesador de datos** es cualquier persona o parte que recopila, utiliza o comparte datos personales según lo indicado por el controlador de datos.
+
 * Se entiende por **sujeto de datos** toda persona viva cuyos datos personales se recopilen, utilicen o compartan y que pueda identificarse, directa o indirectamente, por referencia a dichos datos personales.
 
 Por lo tanto, como compañía que recopila y comparte datos personales, usted es el controlador de datos, sus clientes son los sujetos de datos y Adobe Campaign actúa como un procesador de datos al tratar sus datos personales como usted lo indica. Tenga en cuenta que, como controlador de datos, es su responsabilidad gestionar la relación con los temas de datos, como al administrar [solicitudes de privacidad](#privacy-requests).

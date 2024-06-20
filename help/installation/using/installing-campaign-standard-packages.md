@@ -3,11 +3,11 @@ product: campaign
 title: Instalación de paquetes integrados de Campaign Classic
 description: Obtenga información sobre cómo instalar paquetes integrados de Campaign
 feature: Installation, Application Settings
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1264'
 ht-degree: 10%
 
 ---
@@ -192,7 +192,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Conectores de análisis web<br /> </td> 
-   <td> Permite que Adobe Campaign y Adobe Analytics interactúen mediante el paquete de conectores de Web Analytics. No compatible con mensajes transaccionales (paquete del centro de mensajes). <a href="../../platform/using/gs-aa.md">Más información</a><br /> </td> 
+   <td> Permite que Adobe Campaign y Adobe Analytics interactúen mediante el paquete de conectores de Web Analytics. No compatible con mensajes transaccionales (paquete del centro de mensajes). <a href="../../integrations/using/gs-aa.md">Más información</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 
@@ -202,7 +202,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Integración de audiencias compartidas de Adobe Experience Cloud<br /> </td> 
-   <td> Permite intercambiar y compartir audiencias y segmentos con las soluciones y los servicios principales de Adobe Experience Cloud. Requiere IMS. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Más información</a> <br /> </td> 
+   <td> Permite intercambiar y compartir audiencias y segmentos con soluciones y aplicaciones de Adobe Experience Cloud. Requiere IMS. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 

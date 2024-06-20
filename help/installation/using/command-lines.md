@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
-source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '145'
 ht-degree: 4%
 
 ---
@@ -45,7 +45,6 @@ Los siguientes valores son posibles para **`[rdbms]`** parámetro:
 * **postgresql**: para PostgreSQL,
 * **oracle**: para el Oracle,
 * **mssql**: para Microsoft SQL Server,
-* **DB2**: para el motor DB2.
 
 El siguiente comando configura el **demostración** con el servidor de tipo SQL conocido como **base6**, vinculado a **campaña** cuenta y su **contraseña** en el **dbsrv** servidor:
 

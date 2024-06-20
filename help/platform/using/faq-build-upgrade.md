@@ -7,15 +7,14 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 991ad88101468c3e7f5d676586dfdd05d63e7c6d
-workflow-type: ht
-source-wordcount: '2042'
-ht-degree: 100%
+source-git-commit: f39dc6077a7ddc3fb9b53d4082c08e65e7683f10
+workflow-type: tm+mt
+source-wordcount: '2026'
+ht-degree: 99%
 
 ---
 
 # Preguntas frecuentes sobre la actualización de versiones {#build-upgrade-faq}
-
 
 
 Adobe Campaign se actualiza periódicamente. Si conoce nuestras [Notas de la versión](../../rn/using/rn-overview.md) publicadas, probablemente sea consciente de que se lanza un promedio anual de dos o tres versiones menores repletas de nuevas funciones, mejoras y correcciones. Además, lanzamos versiones periódicamente solamente con correcciones acumulativas. Esta cadencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y, por supuesto, mejorar su experiencia con nuestro producto.
@@ -136,7 +135,7 @@ No. Durante la actualización de la compilación, el flujo de trabajo y los serv
 
 ## ¿Seguirán funcionando los vínculos de seguimiento durante la actualización?
 
-El seguimiento de vínculos en correos electrónicos que ya se han enviado no funcionará durante la actualización porque se detienen todos los servidores. Volverán a estar operativos una vez que finalice la actualización y se reinicien los servidores.
+A partir de la versión 7.3.5 de Campaign Classic, el seguimiento de vínculos en correos electrónicos que ya se han enviado seguirá funcionando durante la actualización.
 
 ## ¿Debo estar disponible durante el proceso de actualización de la compilación?
 

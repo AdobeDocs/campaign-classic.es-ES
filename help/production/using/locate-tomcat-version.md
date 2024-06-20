@@ -3,21 +3,19 @@ product: campaign
 title: Localice la versión de Tomcat en Adobe Campaign.
 description: Aprenda a averiguar la versión actual del servlet web integrado de Tomcat utilizado en una instancia de Adobe Campaign
 feature: Monitoring
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 757e3a5395f24e0bdd04737aba0458881e4ea780
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 1%
+source-wordcount: '505'
+ht-degree: 2%
 
 ---
 
 # Localice la versión de Tomcat{#locate-tomcat-version}
-
-
 
 Adobe Campaign utiliza un **servlet web integrado denominado Apache Tomcat** para procesar solicitudes HTTP/HTTPS entre la aplicación y cualquier interfaz externa (incluida la consola de cliente, vínculos de URL rastreados, llamadas SOAP y otras). A menudo hay un servidor web externo (generalmente IIS o Apache) delante de esto para cualquier instancia de Adobe Campaign externa.
 
@@ -31,6 +29,12 @@ El Tomcat utilizado en Adobe Campaign es una versión integrada personalizada qu
 
 Las versiones nuevas o actualizadas de las versiones incrustadas de Tomcat solo se publican con nuevas compilaciones de Adobe Campaign en sí y no como parches independientes fuera de las compilaciones de Adobe Campaign.
 
+>[!AVAILABILITY]
+>
+>
+> A partir de la versión 7.4.1 de Campaign, Tomcat 10.1 es la versión predeterminada.
+>
+
 ## Cómo localizar la versión de Tomcat incrustada
 
 Para localizar la versión de Tomcat incrustada en una instancia de Adobe Campaign, siga los pasos a continuación.
@@ -39,7 +43,7 @@ Para localizar la versión de Tomcat incrustada en una instancia de Adobe Campai
 >
 >Debe tener acceso a los archivos del servidor de Adobe Campaign que necesita comprobar. El procedimiento descrito a continuación sólo se aplica a **modelos de alojamiento on-premise**.
 
-1. Vaya a *\tomcat-7\lib* dentro de la carpeta de instalación de Adobe Campaign (por ejemplo, *Archivos C:\Program\ [Carpeta_instalación]* en Windows, o */usr/local/neolane/nl6* en Linux).
+1. Vaya a *\tomcat-11\lib* dentro de la carpeta de instalación de Adobe Campaign (por ejemplo, *Archivos C:\Program\ [Carpeta_instalación]* en Windows, o */usr/local/neolane/nl6* en Linux).
 
 1. Copie el archivo *catalina.jar* cambie a una carpeta temporal externa (por ejemplo, su escritorio) y cambie el nombre de la extensión de .jar a .zip.
 
@@ -49,11 +53,11 @@ Para localizar la versión de Tomcat incrustada en una instancia de Adobe Campai
 
 1. Una vez finalizado, si se encuentra en un equipo servidor, elimine los archivos temporales que ha creado.
 
-Por ejemplo, la variable *ServerInfo.properties* para Adobe Campaign contendrá la siguiente información, que indica Tomcat v8.5.X:
+Por ejemplo, la variable *ServerInfo.properties* para Adobe Campaign contiene la siguiente información, que indica Tomcat v11.X:
 
-*`server.info=Apache Tomcat/8.5.X`*
+*`server.info=Apache Tomcat/11.X`*
 
-*`server.number=8.5.X.Y`*
+*`server.number=A.B.X.Y`*
 
 *`server.built=MM DD YYY HH:MM:SS`*
 

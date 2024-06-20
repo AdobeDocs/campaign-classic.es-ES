@@ -8,45 +8,41 @@ audience: integrations
 content-type: reference
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+source-git-commit: 597d24fa780a324507c56c55a5309b6ee1cf46eb
+workflow-type: tm+mt
+source-wordcount: '704'
+ht-degree: 46%
 
 ---
 
 # Introducción a las integraciones de Adobe Campaign {#about-campaign-integrations}
 
+Adobe Experience Cloud es un completo conjunto de soluciones integradas de primera categoría que se basan en una plataforma de datos habitual que contiene un conjunto común de potentes soluciones y aplicaciones.
 
+Obtenga más información sobre las integraciones funcionales disponibles entre Adobe Campaign y las soluciones de Adobe Experience Cloud en [esta página](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/integrations){_blank}.
 
-Adobe Experience Cloud es un conjunto completo de las mejores soluciones integradas en una plataforma de datos común con un conjunto de servicios principales potentes.
-
-Obtenga información sobre las integraciones funcionales disponibles entre Adobe Campaign y [Soluciones Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/marketing-cloud-integrations.html?lang=es) y [servicios principales](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html?lang=es). Puede modernizar las implementaciones de soluciones e implementar Experience Cloud para que pueda utilizar funciones como atributos y audiencias del cliente.
-
-![](assets/ExCloud-solutions.png)
-
-Descubra la lista completa de soluciones de Adobe y los servicios principales que se pueden integrar con Adobe Campaign, así como la documentación asociada, en [esta sección](#experience-cloud-integrations).
+La lista completa de soluciones de Adobe y servicios de aplicaciones que se pueden integrar con Adobe Campaign, así como la documentación asociada, están disponibles en [esta sección](#experience-cloud-integrations).
 
 >[!CAUTION]
 >
->La mayoría de estas integraciones requieren implementar Adobe Identity Management System (IMS) para iniciar sesión con Adobe ID. [Obtenga más información en esta página](../../integrations/using/about-adobe-id.md).
+>Estas integraciones requieren implementar Adobe Identity Management System (IMS) para iniciar sesión mediante Adobe ID. [Obtenga más información en esta página](../../integrations/using/about-adobe-id.md).
 >
 
 ## Vinculación de soluciones {#working-with-experience-cloud-solutions}
 
 Se pueden vincular varias soluciones a Adobe Experience Cloud. La **organización** es la entidad del cliente que permite a un administrador configurar grupos y usuarios y controlar el inicio de sesión único (SSO) en Adobe Experience Cloud. La organización funciona como una empresa de inicio de sesión que abarca todos los productos y soluciones de Experience Cloud. Generalmente, la organización es el nombre de la empresa. Sin embargo, una empresa puede tener muchas organizaciones.
 
-Se detalla la administración de la organización y los vínculos de las cuentas de Adobe Experience Cloud en el [portal de ayuda de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=es).
+La administración de la organización y la vinculación de cuentas de Adobe Experience Cloud se detallan en la [Portal de ayuda de Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations){_blank}.
 
 ## Administración de cookies e identidades {#id-and-cookies}
 
-Cuando se instala Adobe Campaign o se integra una instalación existente con Adobe Experience Cloud, se activa el [Servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es). Este servicio reemplaza la cookie permanente que utiliza principalmente Adobe Campaign para las funciones de seguimiento.
+Al instalar Adobe Campaign o integrar una instalación existente con Adobe Experience Cloud, la variable [Servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/id-service/using/home){_blank} está activada. Este servicio reemplaza la cookie permanente que utiliza principalmente Adobe Campaign para las funciones de seguimiento.
 
 El Servicio de identidad de Adobe Experience Cloud (servicio de ID) proporciona un ID universal y persistente que identifica sus visitantes en todas las soluciones de Experience Cloud.
 
 Se asigna una ID único de visitante a los destinatarios que generen registros de seguimiento. Esta ID se guarda en el campo **[!UICONTROL Requester UUID (@sourceID)]** de la tabla **[!UICONTROL nms:trackingLogRcp]**. **Por lo tanto, ya no se pueden utilizar los datos de seguimiento de los destinatarios existentes antes de implementar el servicio de ID de visitante**.
 
-Las otras soluciones de Adobe Experience Cloud reconocen, por consiguiente, el ID con el mismo CNAME. [Más información](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=es)
+Las otras soluciones de Adobe Experience Cloud reconocen, por consiguiente, el ID con el mismo CNAME. [Más información](https://experienceleague.adobe.com/en/docs/id-service/using/reference/analytics-reference/cname){_blank}.
 
 ## Integraciones de Experience Cloud {#experience-cloud-integrations}
 
@@ -55,46 +51,46 @@ La siguiente tabla permite acceder a la documentación de integración de Experi
 <table> 
  <thead> 
   <tr> 
-   <th> Servicios principales y de soluciones<br /> </th> 
+   <th> Soluciones y aplicaciones<br /> </th> 
    <th> Ejemplos de uso<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <strong>Plataforma de datos de clientes en tiempo real de Adobe (RTCDP)</strong><br /> </td> 
-   <td> La integración entre Adobe Campaign y la plataforma de datos del cliente en tiempo real de Adobe (RTCDP) le permite compartir datos de segmentos e importar audiencias a Adobe Campaign.<br /> <p><a href="../../integrations/using/get-started-sources-destinations.md">Obtenga más información</a> sobre Campaign: integración de la plataforma de datos del cliente en tiempo real de Adobe.</p><br /> </td> 
+   <td> Configure la integración entre Adobe Campaign y Adobe Real-time Customer Data Platform (RTCDP) para compartir datos de segmentos e importar audiencias a Adobe Campaign.<br /> <p><a href="../../integrations/using/get-started-sources-destinations.md">Obtenga más información</a> sobre Campaign: integración de la plataforma de datos del cliente en tiempo real de Adobe.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Identity Management System (IMS), Adobe ID</strong><br /> </td> 
-   <td> Permite conectarse a Adobe Campaign con la misma Adobe ID que para las otras soluciones de Adobe Experience Cloud.<br /> Se debe utilizar una Adobe ID para iniciar sesión con el objetivo de utilizar ciertas funcionalidades vinculadas a las integraciones de Adobe Experience Cloud, especialmente los servicios principales.<br /> <p><a href="../../integrations/using/about-adobe-id.md">Obtenga más información</a> sobre la implementación de la Adobe ID con Adobe Campaign.</p><br /> </td> 
+   <td> Configure Adobe IMS para que se conecte a Adobe Campaign con la misma Adobe ID que para las otras soluciones de Adobe Experience Cloud.<br /> Se debe utilizar una Adobe ID para iniciar sesión con el fin de utilizar ciertas funcionalidades vinculadas a las integraciones de Adobe Experience Cloud.<br /> <p><a href="../../integrations/using/about-adobe-id.md">Obtenga más información</a> sobre la implementación de la Adobe ID con Adobe Campaign.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Experience Manager</strong><br /> </td> 
-   <td> Permite crear contenido de correo electrónico o formularios asignados a la base de datos de Adobe Campaign directamente en <strong>Adobe Experience Manager</strong>.<br /> <p><a href="../../integrations/using/about-adobe-experience-manager.md">Obtenga más información</a> sobre la integración de Adobe Campaign con Adobe Experience Manager.</p><br /> </td> 
+   <td> Configure esta integración para crear contenido de correo electrónico o formularios asignados a la base de datos de Adobe Campaign directamente en <strong>Adobe Experience Manager</strong>.<br /> <p><a href="../../integrations/using/about-adobe-experience-manager.md">Obtenga más información</a> sobre la integración de Adobe Campaign con Adobe Experience Manager.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Target</strong><br /> </td> 
-   <td> Permite insertar imágenes que <strong>Adobe Target</strong> calcula dinámicamente cuando se abre el correo electrónico que Adobe Campaign crea y envía.<br /> <p><a href="../../integrations/using/integrating-with-adobe-target.md">Obtenga más información</a> sobre la integración de Adobe Campaign con Adobe Target.</p><br /> </td> 
+   <td> Configure esta integración para insertar imágenes que se calculen dinámicamente mediante <strong>Adobe Target</strong> cuando se abre el correo electrónico creado y enviado por Adobe Campaign.<br /> <p><a href="../../integrations/using/integrating-with-adobe-target.md">Obtenga más información</a> sobre la integración de Adobe Campaign con Adobe Target.</p><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Servicio principal Personas</strong><br /> <strong>Adobe Audience Manager</strong><br /> </td> 
-   <td> Permite compartir audiencias entre las soluciones de Adobe Experience Cloud y el servicio principal que utiliza.<br /> <p><a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Obtenga más información</a> sobre Adobe Campaign: integraciones del servicio principal Personas y Adobe Audience Manager.</p><br /> </td> 
+   <td><strong>Adobe Audience Manager</strong><br /> </td> 
+   <td> Configure esta integración para compartir audiencias entre las soluciones de Adobe Experience Cloud y las aplicaciones que utiliza.<br /> <p><a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Más información</a> acerca de las integraciones de Adobe Campaign con Adobe Audience Manager.</p><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Servicio principal de activos</strong><br /> </td> 
-   <td> Permite insertar activos de la biblioteca de Adobe Experience Cloud en correos electrónicos y páginas de destino creadas en Adobe Campaign.<br /> <p><a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-experience-cloud-assets">Obtenga más información</a> sobre la integración de Adobe Campaign con el servicio principal de activos.</p><br /> </td> 
+   <td> <strong>Assets</strong><br /> </td> 
+   <td> Configure esta integración para insertar recursos de la biblioteca de Adobe Experience Cloud en correos electrónicos y páginas de aterrizaje creadas en Adobe Campaign.<br /> <p><a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-experience-cloud-assets">Más información</a> Acerca de la integración de Adobe Campaign con Assets</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AEM Assets</strong><br /> </td> 
-   <td> Permite insertar activos de la biblioteca de <strong>AEM Assets</strong> en correos electrónicos y páginas de destino creadas en Adobe Campaign.<br /> <p><a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-aem-assets">Obtenga más información</a> sobre la integración de Adobe Campaign con AEM Assets.</p><br /> </td> 
+   <td> Configure esta integración para insertar recursos desde su <strong>AEM Assets</strong> en correos electrónicos y páginas de destino creadas en Adobe Campaign.<br /> <p><a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-aem-assets">Obtenga más información</a> sobre la integración de Adobe Campaign con AEM Assets.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Activadores de Experience Cloud</strong><br /> </td> 
-   <td> La integración entre <strong>el servicio principal de activadores</strong> y Adobe Campaign permite enviar mensajes de correo electrónico personalizados a sus clientes como una reacción ante comportamientos específicos rastreados en el sitio web mediante Adobe Analytics.<br /> <p><a href="https://helpx.adobe.com/es/campaign/kb/triggers-and-campaign.html">Obtenga más información</a> sobre la integración de Adobe Campaign con los activadores de Experience Cloud.</p><br /> </td> 
+   <td> Configuración de la integración entre <strong>Adobe Experience Cloud Triggers</strong> y Adobe Campaign para enviar correos electrónicos personalizados a sus clientes como reacción a los comportamientos específicos rastreados en el sitio web mediante Adobe Analytics.<br /> <p><a href="about-triggers.md">Obtenga más información</a> sobre la integración de Adobe Campaign con los activadores de Experience Cloud.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Conector de Adobe Analytics</strong><br /> </td> 
-   <td> El <strong>Conector de Adobe Analytics </strong> permite que Adobe Campaign y Adobe Analytics interactúen mediante segmentos en relación con el comportamiento del usuario tras una campaña de correo electrónico. A la inversa, envía indicadores y atributos de las campañas de correo electrónico que envía Adobe Campaign a Adobe Analytics.<br /> <p><a href="../../platform/using/gs-aa.md">Obtenga más información</a> acerca de la integración de conectores Campaign - Analytics.</p><br /> </td> 
+   <td> Configure esta integración para permitir que Adobe Campaign y Adobe Analytics interactúen mediante segmentos en relación con el comportamiento del usuario tras una campaña de correo electrónico. A la inversa, envía indicadores y atributos de las campañas de correo electrónico que envía Adobe Campaign a Adobe Analytics.<br /> <p><a href="../../integrations/using/gs-aa.md">Obtenga más información</a> acerca de la integración de conectores Campaign - Analytics.</p><br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -3,15 +3,15 @@ product: campaign
 title: Creación y configuración de la base de datos
 description: Creación y configuración de la base de datos
 feature: Installation, Instance Settings
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 1%
+source-wordcount: '1306'
+ht-degree: 2%
 
 ---
 
@@ -58,7 +58,7 @@ Identifique el servidor y elija el tipo de operación que desea realizar. En est
 Según el motor de base de datos seleccionado, la información de identificación del servidor puede variar.
 
 * Para un **Oracle** motor, rellene el **Nombre de TNS** definido para el servidor de aplicaciones.
-* Para un **PostgreSQL** o **DB2** , debe especificar el nombre DNS (o la dirección IP) definida en el servidor de aplicaciones para acceder al servidor de base de datos.
+* Para un **PostgreSQL** , debe especificar el nombre DNS (o la dirección IP) definida en el servidor de aplicaciones para acceder al servidor de base de datos.
 * Para un **Microsoft SQL Server** motor, debe definir: el nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de base de datos: **DNS** o **DNS`\<instance>`** (modo de instancia),
 
   >[!CAUTION]
@@ -78,7 +78,6 @@ Para ello, introduzca el nombre y la contraseña de un **Cuenta del sistema de a
 * **sistema** para una base de datos de Oracle,
 * **sa** para una base de datos de Microsoft SQL Server,
 * **postgres** para una base de datos PostgreSQL,
-* **db2inst1** para una base de datos DB2.
 
 ### Paso 3: Conexión y características de la base de datos {#step-3---connection-and-characteristics-of-the-database}
 
@@ -89,11 +88,6 @@ El siguiente paso le permite configurar los ajustes para iniciar sesión en la b
 Debe definir la siguiente configuración:
 
 * Especifique el nombre de la base de datos que se va a crear.
-
-  >[!NOTE]
-  >
-  >Para una base de datos DB2, el nombre de la base de datos no debe exceder los 8 caracteres.
-
 * Introduzca la contraseña de la cuenta vinculada a esta base de datos.
 * Indique si la base de datos debe estar en Unicode o no.
 
@@ -182,7 +176,7 @@ Identifique el servidor y elija el tipo de operación que desea realizar. En est
 Según el motor de base de datos seleccionado, la información de identificación del servidor puede variar.
 
 * Para un **Oracle** motor, rellene el **Nombre de TNS** definido para el servidor de aplicaciones.
-* Para un **PostgreSQL** o **DB2** , debe especificar el nombre DNS (o la dirección IP) definida en el servidor de aplicaciones para acceder al servidor de base de datos.
+* Para un **PostgreSQL** , debe especificar el nombre DNS (o la dirección IP) definida en el servidor de aplicaciones para acceder al servidor de base de datos.
 * Para un **Microsoft SQL Server** motor, debe definir:
 
    1. el nombre DNS (o dirección IP) definido en el servidor de aplicaciones para acceder al servidor de base de datos,

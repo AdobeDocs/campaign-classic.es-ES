@@ -2,21 +2,20 @@
 product: campaign
 title: Configuración de la integración de audiencias compartidas en Adobe Campaign
 description: Obtenga información sobre cómo configurar la integración de audiencias compartidas
-feature: Audiences, People Core Service Integration
+feature: Audiences
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '555'
-ht-degree: 100%
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+workflow-type: tm+mt
+source-wordcount: '551'
+ht-degree: 96%
 
 ---
 
 # Configuración de la integración de audiencias compartidas en Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
-
 
 
 Una vez enviada esta solicitud, Adobe procede a suministrarle la integración y a ponerse en contacto con usted para proporcionarle los detalles y la información necesarios para finalizar la configuración:
@@ -87,7 +86,7 @@ Para configurar la fuente de datos **[!UICONTROL Recipient - Visitor ID]**:
 
 ## Paso 3: Configuración del servidor de seguimiento de Campaign {#step-3--configure-campaign-tracking-server}
 
-Para la configuración de la integración con el servicio principal Personas o Audience Manager, también es necesario configurar el servidor de seguimiento de campañas.
+Para la configuración de la integración con Audience Manager, también es necesario configurar el servidor de seguimiento de campañas.
 
 Para permitir que los públicos compartidos funcionen con el ID de visitante, el dominio del servidor de seguimiento debe ser un subdominio de la dirección URL en la que se hizo clic o del sitio web principal.
 

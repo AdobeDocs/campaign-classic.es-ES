@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Personalization
 role: User
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '891'
-ht-degree: 100%
+source-git-commit: 0cf7f249f366a6ef0e9bd0326ec14131fcf7dc18
+workflow-type: tm+mt
+source-wordcount: '1024'
+ht-degree: 87%
 
 ---
 
@@ -115,6 +115,26 @@ Durante la vista previa o la entrega, si la fase de personalización supera el t
 El valor predeterminado es 5 segundos.
 
 Si establece esta opción en 0, no va a haber límite de tiempo para la fase de personalización.
+
+## Pestaña Personalización {#personalization-tab}
+
+En Delivery Properties, tiene una pestaña Personalization.
+
+Puede encontrar la posibilidad de agregar datos a la consulta de perfil de la dimensión de segmentación haciendo clic en el **&quot;Editar la consulta de carga del perfil de destinatario&quot;**. Puede utilizar los datos extraídos directamente dentro de una expresión para extraer lo que realmente necesita. Estos datos se añaden al contexto.
+
+![](assets/persotab-edit.png){zoomable="yes"}
+
+Si los datos que desea agregar no están en la dimensión de segmentación, puede hacer clic en **&quot;Agregar objetos en el contexto de ejecución de scripts&quot;**.
+
+![](assets/persotab_addobjects.png){zoomable="yes"}
+
+Puede seleccionar el esquema de objeto que necesite y, a continuación, puede utilizar esos datos dentro del código JavaScript, que se ejecutará durante la preparación de la entrega.
+
+![](assets/persotab_addobjects_articles.png){zoomable="yes"}
+
+Al añadir el esquema de objeto, puede seleccionar los campos que desea añadir al contexto:
+
+![](assets/persotab_addobjects_fields.png){zoomable="yes"}
 
 ## Tutorial en vídeo {#personalization-fields-video}
 

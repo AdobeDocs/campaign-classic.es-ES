@@ -7,16 +7,18 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
-source-git-commit: 4e99ec73f99264e91ca427542e29bd42da88a3f9
-workflow-type: ht
-source-wordcount: '512'
-ht-degree: 100%
+source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
+workflow-type: tm+mt
+source-wordcount: '533'
+ht-degree: 96%
 
 ---
 
 # Creación y administración de grupos de operadores {#operator-groups}
 
-
+>[!NOTE]
+>
+>Estos procedimientos solo se aplican a los operadores que se conectan a Campaign con autenticación nativa. Para la autenticación IMS de Adobe, consulte [esta documentación](https://helpx.adobe.com/es/enterprise/using/user-groups.html).
 
 Los grupos de operadores se crean mediante el nodo **[!UICONTROL Administration > Access management > Operator groups]** del árbol.
 

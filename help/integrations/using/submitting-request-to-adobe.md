@@ -2,34 +2,32 @@
 product: campaign
 title: Envío de la solicitud a Adobe
 description: Envío de la solicitud a Adobe
-feature: Audiences, People Core Service Integration
+feature: Audiences
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '149'
-ht-degree: 100%
+source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 78%
 
 ---
 
 # Envío de la solicitud a Adobe{#submitting-request-to-adobe}
 
-
-
 >[!NOTE]
 >
 >Como usuario de la versión 7, para poder continuar, asegúrese de que Adobe Identity Management System (IMS) esté habilitado en su sistema. [Más información](../../integrations/using/about-adobe-id.md).
 
-Una vez habilitado el IMS para su organización, se puede solicitar a Campaign el aprovisionamiento entre el servicio principal Personas y Audience Manager. Para ello, envíe un email a [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) con la siguiente información:
+Una vez habilitado el servicio Identity Management de Adobe (IMS) para su organización, puede solicitar el aprovisionamiento del [Audiencia de Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview){target="_blank"} Integración de con Campaign. Para ello, envíe un email a [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) con la siguiente información:
 
 <table> 
  <tbody> 
   <tr> 
    <td> <strong>Tipo de solicitud</strong><br /> </td> 
-   <td> Configuración de la integración AAM/servicio principal Personas de Campaign </td> 
+   <td> Configuración de Audiencia: Integración de Campaign </td> 
   </tr> 
   <tr> 
    <td> <strong>Nombre de la organización</strong><br /> </td> 
@@ -43,10 +41,10 @@ Una vez habilitado el IMS para su organización, se puede solicitar a Campaign e
    <td> <strong>Entorno</strong><br /> </td> 
    <td> Ejemplo: Producción </td> 
   </tr> 
-  <tr> 
-   <td> <strong>AAM o servicio Personas</strong><br /> </td> 
-   <td> Ejemplo: Adobe Audience Manager. Asegúrese de mencionar si posee o no una licencia de Audience Manager.</td> 
-  </tr> 
+  <!--tr> 
+   <td> <strong>AAM or People Service</strong><br /> </td> 
+   <td> Example: Adobe Audience Manager. Make sure to mention whether or not you own Audience Manager license.</td> 
+  </tr--> 
   <tr> 
    <td> <strong>ID declarada o ID de visitante</strong><br /> </td> 
    <td> Ejemplo: ID declarado </td> 

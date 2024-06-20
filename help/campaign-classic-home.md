@@ -3,10 +3,10 @@ keywords: Campaign Classic;inicio;temas populares
 product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: b74ae2335fa5ba7a2cc4c3a0fdb375d7698dcd81
-workflow-type: ht
-source-wordcount: '346'
-ht-degree: 100%
+source-git-commit: fb19195c7331a2adc0bcf7a37ae7678078dce5e6
+workflow-type: tm+mt
+source-wordcount: '353'
+ht-degree: 91%
 
 ---
 
@@ -21,9 +21,9 @@ Echa un vistazo a las mejoras más recientes del producto y la documentación de
 >[!BEGINTABS]
 
 
->[!TAB Ya está aquí la versión de diciembre.]
+>[!TAB ¡La versión de junio está activa!]
 
-Descubre las actualizaciones, mejoras y parches que se proporcionan con la versión 7.3.5 de Campaign Classic.
+Descubra las actualizaciones, mejoras y parches que se proporcionan con Campaign Classic v7.4.1.
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
@@ -31,7 +31,7 @@ Descubre las actualizaciones, mejoras y parches que se proporcionan con la versi
 
 Para reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomienda migrar el modo de autenticación del usuario final de la autenticación nativa de inicio de sesión/contraseña a Adobe Identity Management System (IMS).
 
-[![imagen](assets/do-not-localize/learn-more-button.svg)](technotes/using/migrate-users-to-ims.md)
+[![imagen](assets/do-not-localize/learn-more-button.svg)](technotes/using/ac-ims.md)
 
 
 >[!TAB Cambios en el canal push]
@@ -113,4 +113,4 @@ Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM
 
 ## Recursos adicionales
 
-[Lista de mensajes de error](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=es) - [Descripción del producto Adobe Campaign](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Compatibility matrix](rn/using/compatibility-matrix.md) - [Tutorials](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es){target="_blank"} - [Control Panel for Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es){target="_blank"}
+[Lista de mensajes de error](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=es) - [Descripción del producto de Adobe Campaign](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Matriz de compatibilidad](rn/using/compatibility-matrix.md) - [Tutorials](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es){target="_blank"} - [Panel de control de Campaign para Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es){target="_blank"}

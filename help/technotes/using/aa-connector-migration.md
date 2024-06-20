@@ -3,24 +3,24 @@ product: campaign
 title: Migración al conector de Adobe Analytics
 description: 'Campaign: Preguntas frecuentes sobre el conector de Analytics'
 feature: Technote, Analytics Integration
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Solo se aplica a las implementaciones locales e híbridas de la versión 7"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas v7"
 exl-id: 5bf61654-3d68-4560-a93f-7a768a2c5be4
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+hide: true
+hidefromtoc: true
+source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
 workflow-type: tm+mt
 source-wordcount: '841'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Migración de las integraciones de Genesis existentes al conector de Adobe Analytics {#acc-aa-faq}
 
-
-
 A partir de la versión 21.1.3 de Campaign Classic v7, el conector de datos de Adobe Analytics queda obsoleto. [Más información](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html)
 
 El 1 de agosto de 2021, Adobe Campaign Classic se ha eliminado de la IU heredada de Data Connectors, pero las integraciones de Campaign existentes seguirán recopilando y pasando datos a Adobe Analytics hasta el 17 de agosto de 2022. Después de esta fecha, la integración deja de recopilar y pasar datos a Adobe Analytics.
 
-Usted **debe implementar** la nueva integración del conector de Adobe Analytics en Adobe Exchange, que sustituye a la integración heredada de Data Connectors. Para obtener más información sobre Adobe Analytics Connector, consulte [esta página](../../platform/using/gs-aa.md).
+Usted **debe implementar** la nueva integración del conector de Adobe Analytics en el Adobe Exchange que sustituye a la integración heredada de Data Connectors. Para obtener más información sobre Adobe Analytics Connector, consulte [esta página](../../integrations/using/gs-aa.md).
 
 Si tiene alguna duda acerca de estos cambios, lea la [FAQ](#faq-aa). Para obtener más información, póngase en contacto con [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
@@ -46,7 +46,7 @@ Ya está disponible una nueva integración entre Campaign Classic v7 y Adobe Ana
 
 Si está utilizando el conector de datos de Adobe Analytics existente (anteriormente conocido como integración de Genesis) y la integración se implementó en una versión inferior a la de Campaign 21.1.3, se verá afectado.
 
-Obtenga información sobre cómo comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Obtenga información sobre cómo comprobar su versión [en esta sección](../../integrations/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 ## ¿Cómo realizar la actualización?
 
@@ -55,7 +55,7 @@ Debe actualizar a Campaign 21.1.3 (o más) **antes del 17 de agosto de 2022**.
 Como cliente alojado, Adobe trabajará con usted para actualizar las instancias a la versión más reciente. A continuación, podrá utilizar [Conector de Adobe Analytics](../../platform/using/gs-aa.md).
 
 Como cliente on-premise/híbrido, debe actualizar a una de las versiones más recientes para beneficiarse de la nueva integración.
-Una vez que todas las instancias se hayan actualizado, podrá [implementación de la nueva integración](../../platform/using/adobe-analytics-provisioning.md) a Adobe Analytics Connector y garantice una transición sin problemas.
+Una vez que todas las instancias se hayan actualizado, podrá [implementación de la nueva integración](../../integrations/using/adobe-analytics-provisioning.md) a Adobe Analytics Connector y garantice una transición sin problemas.
 
 ## Preguntas frecuentes{#faq-aa}
 

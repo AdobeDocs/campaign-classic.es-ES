@@ -1,23 +1,21 @@
 ---
 product: campaign
 title: Requisitos previos para la instalación de Campaign en Linux
-description: Requisitos previos para la instalación de Campaign en Linux
+description: Requisitos previos para Campaign instalación en Linux
 feature: Installation, Instance Settings
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
 
 # Requisitos previos para instalar Campaign en Linux{#prerequisites-of-campaign-installation-in-linux}
-
-
 
 ## Requisitos previos de software {#software-prerequisites}
 
@@ -27,16 +25,13 @@ La configuración técnica y de software necesaria para instalar Adobe Campaign 
 
 Como recordatorio, los siguientes componentes deben instalarse y configurarse correctamente:
 
-* Apache, consulte Compatibilidad [matriz](../../rn/using/compatibility-matrix.md),
-* Java JDK y OpenJDK, consulte Kit de [desarrollo de Java - JDK](../../installation/using/application-server.md#java-development-kit---jdk),
+* Apache, consulte [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md),
+* Java JDK y OpenJDK, consulte [Kit de desarrollo de Java: JDK](../../installation/using/application-server.md#jdk),
 * Bibliotecas, consulte [Bibliotecas](#libraries),
-* Capas de acceso a la base de datos, consulte Capas](#database-access-layers) de acceso a [la base de datos,
+* Capas de acceso a bases de datos, consulte [Capas de acceso a base de datos](#database-access-layers),
 * LibreOffice, consulte [Instalación de LibreOffice para Debian](#installing-libreoffice-for-debian) y [Instalación de LibreOffice para CentOS](#installing-libreoffice-for-centos),
 * Fuentes, consulte [Fuentes para estadísticas de MTA](#fonts-for-mta-statistics) y [Fuentes para instancias japonesas](#fonts-for-japanese-instances).
 
->[!NOTE]
->
->Para instalar una compilación inferior o igual a 8709 en las plataformas CentOS 7 y Debian 8, el módulo apache access_compat debe estar habilitado.
 
 ### Bibliotecas {#libraries}
 
@@ -46,33 +41,15 @@ Para instalar Adobe Campaign en Linux, asegúrese de tener la bibliotecas necesa
 
   Para comprobar esto, puede utilizar el **comando uname -a | grep xen** , por ejemplo.
 
-  Si el comando no devuelve nada (línea vacía), significa que la configuración es correcta.
+  Si el comando no devuelve una línea vacía, significa que la configuración es correcta.
 
 * Debe tener la versión de OpenSSL **1.0.2** o superior.
 
-  Para las distribuciones RHEL 7/8, se requiere la versión 1.0 de OpenSSL.
+  Para las distribuciones RHEL, se requiere la versión 1.0 de OpenSSL.
 
 * Para utilizar Adobe Campaign, debe tener el **libicu** biblioteca instalada.
 
-  Las siguientes versiones de **libicu** son compatibles (32 o 64 bits):
-
-   * RHEL 7/8, CentOS 7: libicu50
-   * Debian 8: libicu52
-   * Debian 9: libicu57
-
-  Para utilizar Adobe Campaign, debe tener instalada la biblioteca libc-ares. En RHEL/CentOS, ejecute el siguiente comando:
-
-  ```
-  yum install c-ares
-  ```
-
-  En Debian:
-
-  ```
-  aptitude install libc-ares2
-  ```
-
-### Selinux {#selinux}
+### SELinux {#selinux}
 
 Cuando se utiliza, el módulo SELinux debe estar configurado correctamente.
 
@@ -102,51 +79,36 @@ SELINUX=disabled
 
 ### Fuentes para estadísticas de MTA {#fonts-for-mta-statistics}
 
-Para que los informes sobre las estadísticas de MTA (NMS/FRA/JSP/stat.jsp) se muestren correctamente, agregue fuentes.
+Para que los informes sobre las estadísticas de MTA (nms/fra/jsp/stat.jsp) se muestren correctamente, agregue fuentes.
 
 En Debian, añada el comando:
 
 ```
-aptitude install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
+apt install xfonts-base xfonts-75dpi ttf-bitstream-vera ttf-dejavu
 ```
 
-En Redhat, utilice el siguiente comando:
+Utilice el siguiente comando para RHEL:
 
-* Para CentOS/RHEL 7:
-
-  ```
-  yum install xorg-x11-fonts-base xorg-x11-fonts-75dpi bitstream-vera-fonts dejavu-lgc-fonts
-  ```
-
-* Para RHEL 8:
-
-  ```
-  dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
-  ```
+```
+dnf install xorg-x11-fonts-misc xorg-x11-fonts-75dpi dejavu-lgc-sans-fonts  dejavu-sans-fonts dejavu-sans-mono-fonts dejavu-serif-fonts
+```
 
 ### Fuentes para instancias japonesas {#fonts-for-japanese-instances}
 
-Se necesitan fuentes de caracteres específicos para las instancias japonesas a fin de exportar los informes al formato de PDF.
+Fuentes de caracteres específicos son necesarios para las instancias de Japonés con el fin de exportar los informes a PDF formato.
 
 En Debian, añada el comando:
 
 ```
-aptitude install fonts-ipafont
+apt install fonts-ipafont
 ```
 
-En Red Hat, agregue el comando:
+Para RHEL, agregue el siguiente comando:
 
-* Para RHEL 7:
-
-  ```
-  yum install ipa-gothic-fonts ipa-mincho-fonts
-  ```
-
-* Para RHEL 8:
-
-  ```
-  dnf install vlgothic-fonts
-  ```
+```
+dnf install epel-release # if required
+dnf install vlgothic-fonts
+```
 
 ### Instalación de LibreOffice para Debian {#installing-libreoffice-for-debian}
 
@@ -158,7 +120,7 @@ Para Debian, se requieren las siguientes configuraciones:
    apt-get install libreoffice-writer libreoffice-calc libreoffice-java-common
    ```
 
-1. Instale las siguientes fuentes (opcional pero muy recomendable para instancias japonesas):
+1. Instale las siguientes fuentes (opcionales pero muy recomendables para Japonés instancias):
 
    ```
    apt-get install fonts-ipafont
@@ -174,7 +136,7 @@ yum install libreoffice-headless libreoffice-writer libreoffice-calc
 
 ## Capas de acceso a la base de datos {#database-access-layers}
 
-Las capas de acceso para el motor de base de datos que utilice deben estar instaladas en el servidor y ser accesibles a través de la cuenta de Adobe Campaign. Las versiones y los modos de instalación pueden variar según el motor de base de datos utilizado.
+Las capas de acceso para el motor de base de datos que está utilizando deben estar instaladas en su servidor y ser accesibles a través del Adobe Campaign cuenta. Las versiones y los modos de instalación pueden variar según el motor de base de datos utilizado.
 
 La versión piloto admitida se detalla en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 
@@ -182,41 +144,37 @@ Compruebe también la información general [Base de datos](../../installation/us
 
 ### PostgreSQL {#postgresql}
 
-Adobe Campaign es compatible con todas las versiones de las bibliotecas de cliente PostgreSQL de la versión 7.2: (**libpq.so.5**, **libpq.so.4**, **libpq.so.3.2** y **libpq.so.3.1**).
+Adobe Campaign es compatible con todas las versiones de las bibliotecas de cliente PostgreSQL de la versión 9.6: **libpq.so.5**.
 
 El uso de PostgreSQL con Adobe Campaign también requiere la instalación del correspondiente **pgcrypto** bibliotecas.
 
 ### Oracle {#oracle}
 
-Recupere la versión de la biblioteca para Debian de 64 bits, por ejemplo: **libclntsh.so**, **libclntsh.so.11.1** y **libclntsh.so.10.1**.
+Recupere la versión biblioteca para Debian de 64 bits, es decir: libclntsh.so, libclntsh.so.19.1 **,** libclntsh.so.18.1 **,** libclntsh.so.12.1 **,** libclntsh.so.11.1 **o** libclntsh.so.10.1 **.******
 
-Puede obtener un paquete RPM de Linux de la Red de Tecnología de Oracle.
+Puede obtener un paquete RPM de Linux de Oracle Technology Network.
 
 >[!NOTE]
 >
->Si ya ha instalado el cliente de Oracle pero el entorno global (por ejemplo: /etc/profile) no está configurado correctamente, puede añadir la información que falta a **nl6/customer.sh** script Para obtener más información, consulte [Variables de entorno](../../installation/using/installing-packages-with-linux.md#environment-variables).
+>Si ya ha instalado el cliente de Oracle pero el entorno global (para instancia: /etc/perfil) no está configurado correctamente, puede agregar la **información que falta al script nl6/customer.sh**. Para obtener más información, consulte Variables [](../../installation/using/installing-packages-with-linux.md#environment-variables)de entorno.
 
 **Solución de problemas y prácticas recomendadas**
 
-Los problemas pueden aparecer después de una actualización del cliente Oracle o del servidor, cambio de versión o en la primera instalación del instancia.
+Los problemas pueden aparecer después de que un cliente de Oracle o un servidor actualicen, cambien de versión o en la primera instalación de la instancia.
 
-Si observa en la consola del cliente que hay retrasos inesperados (una o más horas) en los registros, flujo de trabajo último procesamiento, siguiente procesamiento, etc., puede haber un problema entre el biblioteca del cliente Oracle y el servidor de Oracle. Para evitar estos problemas
+Si observa en la consola del cliente que hay retrasos inesperados (una o más horas) en los registros, el último procesamiento del flujo de trabajo, el siguiente procesamiento, etc., puede haber un problema entre la biblioteca del cliente de Oracle y el servidor de Oracle. Para evitar tales problemas
 
 1. Asegúrese de utilizar el **cliente completo**.
 
-   Se han identificado varios problemas al utilizar la versión de cliente instantáneo de Oracle. Además, es imposible cambiar el archivo Timezone en un cliente instantáneo.
+   Se han identificado varios problemas al utilizar la versión Oracle Instant Client. Además, es imposible cambiar el archivo Timezone en el cliente instantáneo.
 
-1. Asegúrese de que la variable **versión de cliente** y el **versión del servidor de base de datos** son las **igual**.
+1. Asegúrese de que la versión del **cliente y la versión** del servidor de **base de datos son iguales****.**
 
    Se sabe que la combinación de versiones a pesar de la matriz de compatibilidad de Oracle y la recomendación de alinear las versiones de cliente y servidor causa problemas.
 
-   Compruebe también ORACLE_HOME valor para asegurarse de que apunta a la versión de cliente esperada (en caso de que haya varias versiones instaladas en el equipo).
+   Compruebe también el valor de ORACLE_HOME para asegurarse de que señala a la versión de cliente esperada (en caso de que haya varias versiones instaladas en el equipo).
 
-1. Asegúrese de que el cliente y el servidor utilicen el mismo **archivo** de zona horaria.
-
-### DB2 {#db2}
-
-La versión biblioteca admitida es **libdb2.so**.
+1. Asegúrese de que el cliente y el servidor utilicen lo mismo **archivo de zona horaria**.
 
 ## Pasos de implementación {#implementation-steps}
 

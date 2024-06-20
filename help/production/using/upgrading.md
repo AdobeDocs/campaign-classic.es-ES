@@ -3,12 +3,12 @@ product: campaign
 title: Actualización a una nueva compilación
 description: Conozca los pasos técnicos para actualizar a una nueva compilación
 feature: Monitoring, Upgrade
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 2%
@@ -57,7 +57,7 @@ Para reemplazar todos los archivos con la nueva versión, debe cerrar todas las 
 
 1. Compruebe que no hay tareas activas ejecutando la variable **nlserver pdump** comando. Debería aparecer lo siguiente:
 
-   ```
+   ```sql
    C:<installation path>Adobe Campaign v7bin>nlserver pdump
    HH:MM:SS > Application Server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    No tasks

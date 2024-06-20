@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
-source-git-commit: 0e88ac270423ad419237264e562a03ab0c42efb5
+source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 4%
@@ -207,7 +207,7 @@ Ahora puede probar la configuración iniciando Apache. El módulo Adobe Campaign
 
 Se muestra la siguiente información:
 
-```
+```sql
 12:26:28 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 12:26:28 >   Web server start (pid=29698, tid=-1212463424)...
 12:26:28 >   Server started

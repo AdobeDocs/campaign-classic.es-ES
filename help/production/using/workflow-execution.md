@@ -3,12 +3,12 @@ product: campaign
 title: Ejecución del flujo de trabajo
 description: Ejecución del flujo de trabajo
 feature: Monitoring, Workflows
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 14%
@@ -91,7 +91,7 @@ Para comprobar esto e iniciar el módulo si es necesario, aplique los siguientes
 
    Un usuario administrador también puede comprobar que la variable **wfserver@`<instance>`** El módulo se inicia en el servidor de aplicaciones principal mediante el comando siguiente.
 
-   ```
+   ```sql
    nlserver pdump
    HH:MM:SS > Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
    [...]

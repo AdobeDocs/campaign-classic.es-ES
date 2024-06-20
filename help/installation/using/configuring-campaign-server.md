@@ -3,12 +3,12 @@ product: campaign
 title: Configuración del servidor de Campaign
 description: Configuración del servidor de Campaign
 feature: Installation, Instance Settings
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
-source-git-commit: fa089574b028193b6da346482d6ea42b1d19f0aa
+source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 2%
@@ -69,13 +69,13 @@ Los operadores conectados mediante este inicio de sesión tendrán todos los der
 
 Utilice el siguiente comando:
 
-```
+```sql
 nlserver config -internalpassword
 ```
 
 A continuación, se muestra la siguiente información. Introduzca y confirme la contraseña:
 
-```
+```sql
 17:33:57 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
 Enter the current password.
 Password:
