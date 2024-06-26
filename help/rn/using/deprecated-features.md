@@ -8,8 +8,8 @@ level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 33d06c00ca9c7cd0ff077341df2b5b52ddf747a4
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   </tr>
   <tr>
  <td>SDK heredado de Campaign (Neolane)</td>
- <td><p>El SDK de Campaign (Neolane) para aplicaciones móviles ya no se utiliza. En su lugar, utilice el SDK de Adobe Experience Platform Mobile configurando la extensión de Adobe Campaign en la interfaz de usuario de la recopilación de datos. El SDK móvil de Adobe Experience Platform impulsa las soluciones y los servicios Experience Cloud de Adobe en sus aplicaciones móviles. La configuración de los SDK se administra mediante la interfaz de usuario de recopilación de datos para lograr una configuración flexible e integraciones ampliables basadas en reglas. Obtenga información sobre cómo configurar el canal de la aplicación móvil en <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings">Documentación de Campaign v8</a>.</p>
+ <td><p>El SDK de Campaign (Neolane) para aplicaciones móviles ha quedado obsoleto. También puede utilizar el SDK móvil de Adobe Experience Platform configurando la extensión de Adobe Campaign en la interfaz de usuario de recopilación de datos. El SDK móvil de Adobe Experience Platform impulsa las soluciones y los servicios Experience Cloud de Adobe en sus aplicaciones móviles. La configuración de los SDK se administra mediante la interfaz de usuario de recopilación de datos para lograr una configuración flexible e integraciones ampliables basadas en reglas. Obtenga información sobre cómo configurar el canal de la aplicación móvil en la <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/push/push-settings">documentación de Campaign v8</a>.</p>
 <p>Fecha de eliminación objetivo: verano de 2025 </p>
 </td>
 </tr>
@@ -88,7 +88,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
  </tr>
   <tr>
   <td>Autenticación OAuth (OAuth y JWT)<br></td>
-  <td><p> La autenticación de integración de Déclencheur, basada originalmente en la configuración de autenticación de OAuth para acceder a la canalización, ahora se ha cambiado y se ha movido al Adobe I/O. Este modo de autenticación había quedado obsoleto con la versión 20.3 de Campaign.<p>
+  <td><p> La autenticación de la integración de los activadores, basada originalmente en la configuración de autenticación OAUTH para acceder a la canalización, ahora se ha cambiado y se ha movido a Adobe I/O. Este modo de autenticación había quedado obsoleto con la versión 20.3 de Campaign.<p>
   <p>Si utilizaba la integración de activadores, aprenda a adaptar la implementación <a href="../../integrations/using/about-triggers.md#implement">en esta página</a>.</p> 
   <p>Para obtener más información sobre la depreciación de la autenticación OAuth, consulte esta <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md">página</a>.</p> 
   <!--p><em>Target removal date: October 20, 2021. Hosted environments benefit from an extension until May 25, 2022. </em></p-->
