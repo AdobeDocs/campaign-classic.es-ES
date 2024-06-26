@@ -4,23 +4,24 @@ title: 'Nota técnica: Habilitar Microsoft Edge Chromium en el entorno de Campai
 description: Campaign - Edge Chromium
 feature: Technote, Upgrade
 exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 8734e6ef26a7342042a5242d54854b7d3a5e6244
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 8%
+source-wordcount: '263'
+ht-degree: 7%
 
 ---
 
 # Cómo habilitar Microsoft Edge Chromium en su entorno {#edge-conf}
-
-
-
 
 ## ¿Qué ha cambiado?
 
 Tras el fin de vida útil de Microsoft Internet Explorer 11, el motor de renderización de HTML para los paneles de la consola del cliente utiliza Edge Chromium, a partir de la versión 7.3 de Campaign Classic.
 
 Además de la instalación del tiempo de ejecución de Microsoft Edge Webview 2, que ahora es [necesario para cualquier instalación de la consola del cliente](../../installation/using/installing-the-client-console.md#webview), Microsoft Edge Chromium debe estar habilitado en sus instancias.
+
+>[!NOTE]
+>
+>Después de habilitar Microsoft Edge Chromium, la variable `Ctrl+F` (Windows) o `Command+F` (Mac) El acceso directo para abrir el cuadro de diálogo de búsqueda del explorador ya no funcionará.
 
 ## ¿Se ha visto afectado?
 

@@ -4,26 +4,26 @@ title: División
 description: Descubra más información sobre la actividad del flujo de trabajo División
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '1946'
-ht-degree: 100%
+source-git-commit: 13eb777e96602ddd3463f721c6b2a3e6b67cb329
+workflow-type: tm+mt
+source-wordcount: '1971'
+ht-degree: 98%
 
 ---
 
 # División{#split}
 
-
-
 La actividad del tipo **Split** permite dividir un segmento en varios subconjuntos. El segmento se construye con todos los resultados recibidos: todas las actividades anteriores deben terminar para que se ejecute esta actividad.
 
 Esta actividad no desencadena una unión de poblaciones entrantes. Si varias transiciones se cruzan en una sola actividad, se recomienda que inserte una actividad **[!UICONTROL Union]** delante de ella.
 
-Para ver un ejemplo de la actividad dividida que se está utilizando, consulte [Creación de subconjuntos mediante la actividad Dividir](targeting-data.md#creating-subsets-using-the-split-activity).
+>[!NOTE]
+>
+>No se pueden realizar operaciones de división en tablas que tienen orígenes diferentes. Para este fin, debe añadir una **Enriquecimiento** actividad antes de **Split** actividad.
 
-En [esta sección](cross-channel-delivery-workflow.md) se describe un ejemplo que muestra cómo usar la actividad Partición para segmentar el objetivo en diferentes poblaciones utilizando condiciones de filtrado.
-
-Un ejemplo que muestra cómo usar una variable de instancia en una actividad de división está disponible en [Campaign Knowlegde Base](javascript-scripts-and-templates.md).
+* Para ver un ejemplo de la actividad dividida que se está utilizando, consulte [Creación de subconjuntos mediante la actividad Dividir](targeting-data.md#creating-subsets-using-the-split-activity).
+* En [esta sección](cross-channel-delivery-workflow.md) se describe un ejemplo que muestra cómo usar la actividad Partición para segmentar el objetivo en diferentes poblaciones utilizando condiciones de filtrado.
+* Un ejemplo que muestra cómo usar una variable de instancia en una actividad de división está disponible en [Campaign Knowlegde Base](javascript-scripts-and-templates.md).
 
 Para configurar esta actividad, defina el contenido del subconjunto y la etiqueta en la pestaña **[!UICONTROL Subsets]**, luego elija la dimensión de destino en la pestaña **[!UICONTROL General]**.
 
