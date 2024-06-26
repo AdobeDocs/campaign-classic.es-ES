@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Para configurar la fuente de datos **[!UICONTROL Recipient - Visitor ID]**:
 
 ## Paso 3: Configuración del servidor de seguimiento de Campaign {#step-3--configure-campaign-tracking-server}
 
-Para la configuración de la integración con Audience Manager, también es necesario configurar el servidor de seguimiento de campañas.
+Para la configuración de la integración con Audience Manager, también es necesario configurar el servidor de seguimiento de Campaign.
 
 Para permitir que los públicos compartidos funcionen con el ID de visitante, el dominio del servidor de seguimiento debe ser un subdominio de la dirección URL en la que se hizo clic o del sitio web principal.
 

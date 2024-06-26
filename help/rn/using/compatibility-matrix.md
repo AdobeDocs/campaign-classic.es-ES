@@ -7,21 +7,21 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: b23632d0718d62d61e94e636937b93aa39bbe43f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '840'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # Matriz de compatibilidad {#compatibility-matrix}
 
-En su [última compilación](../../rn/using/latest-release.md), Adobe Campaign Classic v7 es compatible con todos los sistemas y herramientas enumerados en esta página. Cuando las versiones específicas de estos sistemas y herramientas de terceros llegan al final de su vida útil (EOL) con sus respectivos creadores, Adobe Campaign ya no es compatible con ellas y se eliminan de nuestra matriz de compatibilidades en la versión posterior del producto. Para evitar problemas, compruebe que se encuentra en una versión compatible de cualquier sistema enumerado en esta matriz de compatibilidad. Para obtener más información sobre los elementos obsoletos, visite [esta página](../../rn/using/deprecated-features.md).
+En su [última versión](../../rn/using/latest-release.md), Adobe Campaign Classic versión 7 es compatible con todos los sistemas y herramientas enumerados en esta página. Cuando las versiones específicas de estos sistemas y herramientas de terceros lleguen al final de su vida útil (EOL) con sus respectivos creadores, Adobe Campaign ya no será compatible con ellos y se eliminarán de nuestra matriz de compatibilidad en la versión posterior del producto. Para evitar problemas, compruebe que utiliza una versión compatible de cualquier sistema enumerado en esta matriz de compatibilidad. Para obtener más información sobre los elementos obsoletos, visite [esta página](../../rn/using/deprecated-features.md).
 
 A menos que se indique lo contrario, se admiten todas las versiones secundarias.
 
 >[!CAUTION]
 >
->Esta matriz se actualiza regularmente: se añaden nuevos sistemas y herramientas compatibles y se eliminan los obsoletos.
+>Esta matriz se actualiza regularmente con la incorporación de nuevos sistemas compatibles y la eliminación de obsoletos.
 
 ## Sistemas operativos {#OperatingSystems}
 
@@ -30,8 +30,8 @@ Como cliente On-Premise/híbrido, debe instalar Adobe Campaign en uno de los sis
 <table> 
 <tbody> 
 <td><strong>Sistema operativo</strong></td>
-<td><strong>Versión del sistema operativo</strong></td>
-<td><strong>Versión mínima de la campaña</strong></td>
+<td><strong>Versión de sistema operativo</strong></td>
+<td><strong>Versión mínima de Campaign</strong></td>
 <tr> 
 <td>CentOs</td>
 <td>
@@ -83,7 +83,7 @@ Como cliente On-Premise/híbrido, debe instalar Adobe Campaign en uno de los sis
 
 >[!IMPORTANT]
 >
->Si utiliza RHEL, debe estar dispuesto a deshabilitar [SELinux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#selinux) o que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no esté causando problemas con las operaciones de Campaign.
+>Si utiliza RHEL, debe estar dispuesto a deshabilitar [SELinux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#selinux) o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no está causando problemas con las operaciones de Campaign.
 
 ## Servidores web {#WebServers}
 
@@ -100,7 +100,7 @@ Como cliente On-Premise/híbrido, según su sistema operativo, deberá integrar 
 <tr>
 <td>Apache</td>
 <td>
-<p>2,4</p>
+<p>2.4</p>
 </td>
 </tr>
 </tbody>
@@ -126,7 +126,7 @@ Como cliente On-Premise/híbrido, debe instalar y configurar las herramientas qu
 <p></p>
 </td>
 <td>
-<p>necesario a partir de la versión 7.4.1</p>
+<p>obligatorio desde la versión 7.4.1</p>
 <p>hasta la versión 7.4.1</p>
 <p>hasta la versión 7.4.1</p>
 </tr>
@@ -159,7 +159,7 @@ Como cliente On-Premise/híbrido, debe instalar y configurar una de las bases de
 <tbody>
 <td><strong>Sistema de bases de datos</strong></td>
 <td><strong>Versión de la base de datos</strong></td>
-<td><strong>Versión mínima de la campaña</strong></td>
+<td><strong>Versión mínima de Campaign</strong></td>
 <tr>
 <td>Oracle</td>
 <td>
@@ -254,7 +254,7 @@ Los entornos **Managed Services** (alojados), **Híbrido** y **On-Premise** pued
 <tbody>
 <td><strong>Sistema de bases de datos</strong></td>
 <td><strong>Versión de la base de datos</strong></td>
-<td><strong>Versión mínima de la campaña</strong></td>
+<td><strong>Versión mínima de Campaign</strong></td>
 <tr>
 <td>Amazon Redshift</td>
 <td><p> </p>
@@ -295,7 +295,7 @@ Los entornos **Híbrido** y **On-Premise** pueden conectar a Campaign con los si
 <tbody>
 <td><strong>Sistema de bases de datos</strong></td>
 <td><strong>Versión de la base de datos</strong></td>
-<td><strong>Versión mínima de la campaña</strong></td>
+<td><strong>Versión mínima de Campaign</strong></td>
 <tr>
 <td>Microsoft Azure Synapse Analytics</td>
 <td> </td>
@@ -426,9 +426,9 @@ Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](http://www.
 
 ## SDK móvil {#MobileSDK}
 
-Puede utilizar Campaign para lo siguiente [enviar notificaciones push](../../delivery/using/about-mobile-app-channel.md)mediante el SDK de Adobe Experience Platform Mobile, configurando la extensión de Adobe Campaign en la interfaz de usuario de la recopilación de datos.
+Puede utilizar Campaign para [enviar notificaciones push](../../delivery/using/about-mobile-app-channel.md) a través del SDK móvil de Adobe Experience Platform configurando la extensión de Adobe Campaign en la interfaz de usuario de recopilación de datos.
 
-El SDK de Campaign es [obsoleto](deprecated-features.md) a partir de Campaign v7.4. Para garantizar una transición sin problemas de la implementación existente al SDK de AEP Mobile, aún puede utilizarlo en los sistemas operativos que se enumeran a continuación<!--, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)-->.
+El SDK de Campaign está [obsoleto](deprecated-features.md) a partir de Campaign versión 7.4. Para garantizar una transición sin problemas de la implementación existente en el SDK móvil de AEP, puede seguir utilizándolo en los sistemas operativos que se enumeran a continuación<!--, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)-->.
 
 
 <table>
@@ -439,7 +439,7 @@ El SDK de Campaign es [obsoleto](deprecated-features.md) a partir de Campaign v7
 <p>7 - 14</p>
 <p>con la versión 1.1.1 del SDK móvil.</p>
 <p>Android 13 y 14 son compatibles a partir de la versión 7.4 de Campaign.</p>
-<p>Android 12 es compatible a partir de la versión 7.3 de Campaign.</p>
+<p>Android 12 es compatible a partir de la versión 7.3 de Campaign</p>
 </td>
 </tr>
 <tr>
@@ -469,6 +469,6 @@ Los siguientes exploradores, en su última versión, son compatibles con Campaig
 >
 >* [Notas de la versión de Campaign Classic](../../rn/using/latest-release.md)
 >* [Arquitectura general de Campaign](../../installation/using/general-architecture.md)
->* [Recomendaciones de tamaño de hardware](../../technotes/using/hardware-sizing.md)
+>* [Recomendaciones sobre el tamaño del hardware](../../technotes/using/hardware-sizing.md)
 >* [Funcionalidades y sistemas obsoletos](../../rn/using/deprecated-features.md)
 >* [Generar procedimiento de actualización](../../production/using/build-upgrade.md)

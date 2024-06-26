@@ -8,9 +8,9 @@ audience: integrations
 content-type: reference
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '833'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,17 +31,17 @@ Antes de iniciar esta configuración, compruebe que dispone de:
 * Un acceso para desarrolladores para su organización
 * Una configuración de activadores válida en Adobe Analytics
 
-Se requiere la autenticación, ya que la canalización está alojada en Adobe Experience Cloud. Utiliza una autenticación compatible con mediante un proyecto de Adobe Developer.
+Se requiere la autenticación, ya que la canalización está alojada en Adobe Experience Cloud. Utiliza una autenticación que es compatible a través de un proyecto de Adobe Developer.
 
 ## Paso 1: Crear/actualizar su proyecto de Adobe Developer {#creating-adobe-io-project}
 
-Debe habilitar a su organización con tokens de cuenta de Adobe Developer para la integración de Déclencheur.
+Debe habilitar su organización con tokens de cuenta de Adobe Developer para la integración de los activadores.
 
-Obtenga información sobre cómo crear su cuenta técnica de Adobe en [esta página](../../integrations/using/oauth-technical-account.md). Tenga en cuenta que debe seleccionar **[!UICONTROL Adobe Analytics]** al añadir la API a la credencial de Adobe Developer.
+Aprenda a crear su cuenta técnica de Adobe en [esta página](../../integrations/using/oauth-technical-account.md). Tenga en cuenta que debe seleccionar **[!UICONTROL Adobe Analytics]** al añadir la API a la credencial de Adobe Developer.
 
 ## Paso 2: Configuración de la opción de canalización {#configuring-nmspipeline}
 
-Una vez configurada la autenticación, la canalización recuperará los eventos. Solo procesa los déclencheur configurados en Adobe Campaign. El activador debe haberse generado desde Adobe Analytics y se debe haber insertado en la canalización, que solo procesará los activadores configurados en Adobe Campaign.
+Una vez configurada la autenticación, la canalización recuperará los eventos. Solo procesará los activadores configurados en Adobe Campaign. El activador debe haberse generado desde Adobe Analytics y se debe haber insertado en la canalización, que solo procesará los activadores configurados en Adobe Campaign.
 
 La opción también se puede configurar con un comodín para capturar todos los activadores independientemente del nombre.
 

@@ -6,9 +6,9 @@ feature: Push
 role: User, Developer
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '837'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Después de crear el servicio, debe crear la aplicación de Android:
 
    ![](assets/nmac_android.png)
 
-1. Asegúrese de que es igual **[!UICONTROL Integration key]** se define en Adobe Campaign y en el código de la aplicación a través del SDK. <!--For more on this, refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
+1. Asegúrese de que se ha definido la misma **[!UICONTROL Integration key]** en Adobe Campaign y en el código de aplicación a través del SDK.<!--For more on this, refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
 
    >[!NOTE]
    >
@@ -156,4 +156,4 @@ Deberá ampliar **appsubscriptionRcp** para definir nuevos campos adicionales qu
 
    >[!CAUTION]
    >
-   >Asegúrese de que los nombres de configuración en la variable **[!UICONTROL Subscription parameters]** son las mismas que las del código de la aplicación móvil. <!--Refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
+   >Asegúrese de que los nombres de configuración en la pestaña **[!UICONTROL Subscription parameters]** sean los mismos que los del código de la aplicación móvil.<!--Refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->

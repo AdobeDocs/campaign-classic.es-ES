@@ -5,9 +5,9 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 feature: Workflows, Targeting Activity
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
 source-git-commit: 13eb777e96602ddd3463f721c6b2a3e6b67cb329
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1971'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Esta actividad no desencadena una unión de poblaciones entrantes. Si varias tra
 
 >[!NOTE]
 >
->No se pueden realizar operaciones de división en tablas que tienen orígenes diferentes. Para este fin, debe añadir una **Enriquecimiento** actividad antes de **Split** actividad.
+>No se pueden realizar operaciones de división en tablas que tienen orígenes diferentes. Para ello, debe añadir una actividad **Enriquecimiento** antes que la actividad **División**.
 
 * Para ver un ejemplo de la actividad dividida que se está utilizando, consulte [Creación de subconjuntos mediante la actividad Dividir](targeting-data.md#creating-subsets-using-the-split-activity).
 * En [esta sección](cross-channel-delivery-workflow.md) se describe un ejemplo que muestra cómo usar la actividad Partición para segmentar el objetivo en diferentes poblaciones utilizando condiciones de filtrado.

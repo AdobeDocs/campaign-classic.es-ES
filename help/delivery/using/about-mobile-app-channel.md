@@ -7,9 +7,9 @@ feature: Push
 role: User
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '772'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Para obtener más información sobre la creación de entregas, consulte [esta se
 
 ## Configuración de canal de notificaciones push {#push-notification-configuration}
 
-Para enviar notificaciones push con Adobe Campaign, primero debe configurar el entorno y la aplicación. Antes de empezar a enviar notificaciones push con Adobe Campaign, debe asegurarse de que las configuraciones y integraciones estén implementadas en la aplicación móvil y para las etiquetas en Adobe Experience Platform. El SDK de Adobe Experience Platform Mobile proporciona API de integración del lado del cliente para sus móviles a través de SDK compatibles con Android y iOS. La configuración de los SDK se administra mediante la interfaz de usuario de recopilación de datos para lograr una configuración flexible e integraciones ampliables basadas en reglas. Obtenga más información en [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings).
+Para enviar notificaciones push con Adobe Campaign, primero debe configurar el entorno y la aplicación. Antes de empezar a enviar notificaciones push con Adobe Campaign, debe asegurarse de que las configuraciones e integraciones estén implementadas en la aplicación móvil y para las etiquetas en Adobe Experience Platform. El SDK de Adobe Experience Platform Mobile proporciona API de integración del lado del cliente para sus móviles a través de SDK compatibles con Android y iOS. La configuración de los SDK se administra mediante la interfaz de usuario de recopilación de datos para lograr una configuración flexible e integraciones ampliables basadas en reglas. Más información en la [documentación de Campaign versión 8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/push/push-settings).
 
 
 ## Ruta de datos {#data-path}

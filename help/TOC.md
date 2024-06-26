@@ -7,9 +7,9 @@ user-guide-description: Documentación de producto para Adobe Campaign Classic v
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 3307c75ed7df0fcd357dd7c684481c62e0457e04
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 99%
    + Paquetes de datos y enumeraciones {#administration-basics}
       + [Paquetes de datos](platform/using/working-with-data-packages.md)
       + [Enumeraciones](platform/using/managing-enumerations.md)
-   + Conectores CRM {#connectors}
+   + Conectores de CRM{#connectors}
       + [Introducción a los conectores CRM](platform/using/crm-connectors.md)
       + [Conexión con Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
       + [Conexión con Salesforce.com](platform/using/crm-sfdc.md)
@@ -352,7 +352,7 @@ ht-degree: 99%
    + [Caso de uso: visualización del informe de respuestas en una encuesta en línea](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Integración con Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
    + [Introducción a las integraciones de Campaign](integrations/using/about-campaign-integrations.md)
-   + [Cree su cuenta técnica de Adobe](integrations/using/oauth-technical-account.md)
+   + [Creación de la cuenta técnica de Adobe](integrations/using/oauth-technical-account.md)
    + Activadores de Adobe Experience Cloud {#experience-triggers}
       + [Uso de  [!DNL Experience Cloud Triggers]](integrations/using/about-triggers.md)
       + [Configuración de canalización](integrations/using/configuring-pipeline.md)

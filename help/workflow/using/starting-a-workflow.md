@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo iniciar un flujo de trabajo y desc
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 source-git-commit: 98815fe0417f9126826e0273caa80888164793ec
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1172'
+ht-degree: 100%
 
 ---
 
@@ -65,8 +65,8 @@ Los botones de la barra de herramientas se encuentran en esta [sección](../../c
 
   Las acciones **[!UICONTROL Start / Pause / Stop / Restart]** también están disponibles a través de los iconos de ejecución de la barra de herramientas. Para obtener más información, consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
 
-  Tenga en cuenta que la variable **Restart** La acción no borra las variables de instancia de flujo de trabajo en comparación con **Ejecución**, **Detener**, y **Inicio** (las variables de instancia se borran tras la acción Iniciar). Al reiniciar un flujo de trabajo, las variables de instancia siguen estando disponibles para su uso con valores conservados. Para borrarlos, puede hacer lo siguiente:
-   * Realizar **Detener** y **Inicio** acciones.
+  Tenga en cuenta que la acción **Reiniciar** no borra las variables de la instancia de flujo de trabajo en comparación con las acciones **Ejecución**, **Detener** e **Iniciar** (las variables de instancia se borran tras la acción Iniciar). Al reiniciar un flujo de trabajo, las variables de instancia siguen estando disponibles para su uso con los valores conservados. Para configurarlas, puede:
+   * Ejecutar las acciones **Detener** e **Iniciar**.
    * Añada el siguiente código JavaScript al final de la ejecución del flujo de trabajo:
 
      ```

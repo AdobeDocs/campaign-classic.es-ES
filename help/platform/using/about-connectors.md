@@ -7,9 +7,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 05080d7f-f2d6-4ffe-b112-05b26a3a8a1d
 source-git-commit: efd09fd71069878a5096bfa3592e6ebbaa9dd4e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -19,14 +19,14 @@ Adobe Campaign proporciona varios conectores que le permiten comunicarse con apl
 
 Los conectores disponibles se enumeran a continuación:
 
-* El **Conector de acceso de datos federado (FDA)** permite conectar Campaign a una o varias bases de datos externas y procesar la información almacenada en ellas sin afectar a los datos de Campaign. [Más información](../../installation/using/about-fda.md).
-* Los conectores de CRM permiten intercambiar datos entre Adobe Campaign y su solución de CRM mediante actividades de flujo de trabajo dedicadas. [Más información](../../platform/using/crm-connectors.md).
-* El conector de Analytics le permite compartir datos entre Adobe Campaign y Adobe Analytics. [Más información](../../integrations/using/gs-aa.md).
+* El **conector de FDA (Acceso de datos federados)** le permite conectar Campaign a una o varias bases de datos externas y procesar la información almacenada en ellas sin que ello afecte a los datos de Campaign. [Más información](../../installation/using/about-fda.md).
+* Los conectores de CRM permiten intercambiar datos entre Adobe Campaign y su solución CRM mediante las actividades de flujo de trabajo dedicadas. [Más información](../../platform/using/crm-connectors.md).
+* Analytics Connector le permite compartir datos entre Adobe Campaign y Adobe Analytics. [Más información](../../integrations/using/gs-aa.md).
 
 También puede integrar Campaign con múltiples sistemas, como:
 
 * Soluciones de Adobe Experience Cloud: Adobe Experience Manager, Adobe Target, Adobe Audience Manager, activadores de Experience Cloud, etc. [Más información](../../integrations/using/about-campaign-integrations.md)
-* Adobe Identity Management System (IMS) para el inicio de sesión único (SSO), para proteger el acceso a su instancia de Campaign y conectarse a Adobe Campaign con la misma Adobe ID que para las otras soluciones de Adobe Experience Cloud. [Más información](../../integrations/using/about-adobe-id.md).
+* Adobe Identity Management System (IMS) para el inicio de sesión único (SSO), para proteger el acceso a su instancia de Campaign y conectarse a Adobe Campaign con el mismo Adobe ID que para las demás soluciones de Adobe Experience Cloud. [Más información](../../integrations/using/about-adobe-id.md).
 * Directorio LDAP, para unificar la administración del acceso. [Más información](../../installation/using/connecting-through-ldap.md).
 
 >[!NOTE]

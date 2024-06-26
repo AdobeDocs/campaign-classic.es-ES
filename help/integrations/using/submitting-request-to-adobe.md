@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 78%
 >
 >Como usuario de la versión 7, para poder continuar, asegúrese de que Adobe Identity Management System (IMS) esté habilitado en su sistema. [Más información](../../integrations/using/about-adobe-id.md).
 
-Una vez habilitado el servicio Identity Management de Adobe (IMS) para su organización, puede solicitar el aprovisionamiento del [Audiencia de Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/services/audiences/overview){target="_blank"} Integración de con Campaign. Para ello, envíe un email a [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) con la siguiente información:
+Una vez habilitado Adobe Identity Management Service (IMS) de su organización, puede solicitar el aprovisionamiento de la integración de [Experience Cloud Audience](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/overview){target="_blank"}con Campaign. Para ello, envíe un email a [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) con la siguiente información:
 
 <table> 
  <tbody> 
   <tr> 
    <td> <strong>Tipo de solicitud</strong><br /> </td> 
-   <td> Configuración de Audiencia: Integración de Campaign </td> 
+   <td> Configuración del público: Integración de Campaign </td> 
   </tr> 
   <tr> 
    <td> <strong>Nombre de la organización</strong><br /> </td> 

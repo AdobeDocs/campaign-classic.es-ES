@@ -7,9 +7,9 @@ feature: Personalization
 role: User
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
 source-git-commit: 0cf7f249f366a6ef0e9bd0326ec14131fcf7dc18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1024'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -118,17 +118,17 @@ Si establece esta opción en 0, no va a haber límite de tiempo para la fase de 
 
 ## Pestaña Personalización {#personalization-tab}
 
-En Delivery Properties, tiene una pestaña Personalization.
+En Propiedades de envío, tiene una pestaña Personalización.
 
-Puede encontrar la posibilidad de agregar datos a la consulta de perfil de la dimensión de segmentación haciendo clic en el **&quot;Editar la consulta de carga del perfil de destinatario&quot;**. Puede utilizar los datos extraídos directamente dentro de una expresión para extraer lo que realmente necesita. Estos datos se añaden al contexto.
+Puede encontrar la posibilidad de añadir datos a la consulta de perfil de la dimensión de segmentación haciendo clic en **“Editar la consulta de carga del perfil de destinatario”**. Puede utilizar los datos extraídos directamente dentro de una expresión para extraer lo que realmente necesita. Esos datos se añadirán al contexto.
 
 ![](assets/persotab-edit.png){zoomable="yes"}
 
-Si los datos que desea agregar no están en la dimensión de segmentación, puede hacer clic en **&quot;Agregar objetos en el contexto de ejecución de scripts&quot;**.
+Si los datos que desea añadir no están en la dimensión de segmentación, puede hacer clic en **“Añadir objetos en el contexto de ejecución de scripts”**.
 
 ![](assets/persotab_addobjects.png){zoomable="yes"}
 
-Puede seleccionar el esquema de objeto que necesite y, a continuación, puede utilizar esos datos dentro del código JavaScript, que se ejecutará durante la preparación de la entrega.
+Allí puede seleccionar el esquema de objeto que necesite y, a continuación, puede utilizar esos datos dentro del código JavaScript, que se ejecutarán durante la preparación del envío.
 
 ![](assets/persotab_addobjects_articles.png){zoomable="yes"}
 

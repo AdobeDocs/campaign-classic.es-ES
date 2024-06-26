@@ -8,9 +8,9 @@ audience: integrations
 content-type: reference
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -46,13 +46,13 @@ Antes de iniciar esta implementación, compruebe lo siguiente:
 
 ## Pasos de implementación {#implement}
 
-Para implementar los Déclencheur de Campaign y Experience Cloud, siga los pasos a continuación:
+Para implementar Campaign y los activadores de Experience Cloud, siga estos pasos:
 
 1. Cree un proyecto de OAuth. [Más información](oauth-technical-account.md#oauth-service)
 
 1. Añada las credenciales del proyecto OAuth en Adobe Campaign. [Más información](oauth-technical-account.md#add-credentials)
 
-1. Actualice el tipo de autenticación al proyecto de Developer Console en el archivo de configuración **config-&lt; instance-name >.xml** como sigue:
+1. Actualice el tipo de autenticación en el proyecto de Developer Console en el archivo de configuración **config-&lt; instance-name >.xml** como sigue:
 
    ```
    <pipelined ... authType="imsJwtToken"  ... />

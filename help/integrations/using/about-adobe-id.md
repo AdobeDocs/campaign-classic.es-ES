@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
 source-git-commit: ffab91fc9fa7e60973fdda930239f5836671a341
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Los usuarios de Campaign pueden conectarse a la consola de Adobe Campaign con su
 
 >[!IMPORTANT]
 >
-> Tenga en cuenta que en Campaign v8 no se permite la conexión con un usuario/contraseña (también conocida como autenticación nativa). **El Adobe recomienda realizar esta migración a partir de la versión 7.3.5 de Campaign para poder migrar sin problemas a la versión 8 de Campaign.**
+> Tenga en cuenta que en Campaign v8 no se permite la conexión con un usuario/contraseña (también conocida como autenticación nativa). **Adobe recomienda realizar esta migración a partir de la versión 7.3.5 de Campaign para poder migrar sin problemas a Campaign versión 8.**
 >
->Obtenga información sobre cómo migrar a Adobe IMS en [esta sección](../../technotes/using/ac-ims.md).
+>Aprenda a migrar a Adobe IMS en [esta sección](../../technotes/using/ac-ims.md).
 >
 
 
