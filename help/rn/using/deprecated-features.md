@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
+source-git-commit: 33d06c00ca9c7cd0ff077341df2b5b52ddf747a4
 workflow-type: tm+mt
-source-wordcount: '1637'
-ht-degree: 95%
+source-wordcount: '1636'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   <tr>
  <td>SDK heredado de Campaign (Neolane)</td>
  <td><p>El SDK de Campaign (Neolane) para aplicaciones móviles ya no se utiliza. En su lugar, utilice el SDK de Adobe Experience Platform Mobile configurando la extensión de Adobe Campaign en la interfaz de usuario de la recopilación de datos. El SDK móvil de Adobe Experience Platform impulsa las soluciones y los servicios Experience Cloud de Adobe en sus aplicaciones móviles. La configuración de los SDK se administra mediante la interfaz de usuario de recopilación de datos para lograr una configuración flexible e integraciones ampliables basadas en reglas. Obtenga información sobre cómo configurar el canal de la aplicación móvil en <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings">Documentación de Campaign v8</a>.</p>
-<p>Fecha de eliminación del destinatario: finales de 2024 </p>
+<p>Fecha de eliminación objetivo: verano de 2025 </p>
 </td>
 </tr>
 <tr>
