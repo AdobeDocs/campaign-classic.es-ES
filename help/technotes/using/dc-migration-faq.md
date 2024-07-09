@@ -6,10 +6,10 @@ feature: Technote, Upgrade
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 6803b6628313db9108a191fd143dac68ee799149
 workflow-type: tm+mt
-source-wordcount: '2204'
-ht-degree: 41%
+source-wordcount: '2225'
+ht-degree: 39%
 
 ---
 
@@ -79,6 +79,10 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 
   Los subdominios existentes se moverán del centro de datos heredado a la nube pública (AWS). Este artículo será gestionado por el equipo de entrega de Adobe como parte del proceso de migración.
 
+  >[!NOTE]
+  >
+  >La participación del equipo de entrega se basa en el contrato y los clientes deben ponerse en contacto con su representante de Adobes para obtener información relacionada con la participación en la entrega.
+
   Adobe guiará al cliente a través de las pruebas necesarias para garantizar que la configuración se esté ejecutando en los nuevos servidores de la nube pública (AWS) después de la migración.
 
 * **¿Generará la migración nuevas direcciones URL para el seguimiento, los recursos y las aplicaciones web?**
@@ -91,7 +95,7 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 
 * **¿Cuál es el plan para el calentamiento de la IP?**
 
-  En primer lugar, la capacidad de entrega de Adobe evaluará el estado de entrega de la plataforma y recomendará un plan para el cambio a las nuevas IP
+  En primer lugar, la Capacidad de entrega de Adobe evaluará el estado de entrega de la plataforma y recomendará un plan para el cambio a las nuevas IP
 
   No se requiere calentamiento después de la migración. Podría ser una excepción y, en tal caso, [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support) se pondrá en contacto con los clientes.
 
@@ -119,7 +123,7 @@ La migración a la nube pública incluirá nuevas direcciones IP para los servid
 
 ![](assets/migration.png)
 
-Veamos los dos casos:
+Consideremos los dos casos :
 
 * Tráfico entrante: Toda la actividad de red que se inicia desde sus sistemas o desde un tercero en los servidores de Adobe Campaign. La configuración será gestionada por Adobe y, a continuación, se copiará de la nube heredada a la nube pública durante la migración. A continuación, la conectividad para el tráfico entrante se conservará tal cual después de la migración y no se espera ninguna acción por parte del cliente
 
@@ -157,7 +161,7 @@ A continuación se enumeran los efectos globales en la configuración, conectivi
 
   [Más información](#config) acerca de la IP en la lista de permitidos.
 
-* **¿Nos aseguraremos de que todos los parámetros de configuración de la memoria JavaScript se establezcan correctamente después de la migración?**
+* **¿Nos aseguraremos de que todos los parámetros de configuración de la memoria de JavaScript se establezcan correctamente después de la migración?**
 
   Se copiará la configuración de instancias del centro de datos heredado a la nube pública (AWS), de modo que estos valores se conservarán tras la migración.
 
@@ -208,7 +212,7 @@ A continuación se enumeran los efectos en los permisos, certificados y acceso a
 
   La implementación del cliente puede utilizar secuencias de comandos personalizadas (Perl/Shell/Python/JavaScript) en flujos de trabajo para, por ejemplo, manipular archivos y carpetas.
 
-  En la instancia alojada, las secuencias de comandos solo se ejecutan mediante el motor JavaScript. Estas implementaciones específicas pueden provocar lagunas de seguridad y problemas posteriores a la actualización. No son compatibles.
+  En la instancia alojada, las secuencias de comandos solo se ejecutan mediante el motor de JavaScript. Estas implementaciones específicas pueden provocar lagunas de seguridad y problemas posteriores a la actualización. No son compatibles.
 
 * **Con la integración de IMS, ¿funcionará como hasta ahora en una nueva instancia o se necesitará alguna actualización de configuración adicional?**
 
