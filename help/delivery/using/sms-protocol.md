@@ -7,9 +7,9 @@ feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: 6803b6628313db9108a191fd143dac68ee799149
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8466'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -385,7 +385,7 @@ Define el nombre de la implementación de SMSC. Debe configurarse con el nombre 
 
 >[!NOTE]
 >
->La participación del equipo de entrega se basa en el contrato y los clientes deben ponerse en contacto con su representante de Adobes para obtener información relacionada con la participación en la entrega.
+>La participación del equipo de entregabilidad se basa en el contrato y los clientes deben ponerse en contacto con su representante de Adobe para obtener información relacionada con la participación en la entregabilidad.
 
 #### Servidor {#server}
 

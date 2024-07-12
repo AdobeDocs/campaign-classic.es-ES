@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 source-git-commit: e40331266f34e2d6aa7b7720948d0cf26d4c6009
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1066'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Al administrar archivos y datos para fines de ETL, estos archivos se almacenan e
 
 * Utilice autenticación basada en claves en lugar de autenticación mediante contraseña para evitar la caducidad de la contraseña (las contraseñas tienen un periodo de validez de 90 días). Además, la autenticación basada en claves permite generar claves múltiples, por ejemplo al administrar varias entidades. Por el contrario, la autenticación mediante contraseña requiere que comparta la contraseña con todas las entidades que esté administrando.
 
-  El formato de clave admitido es SSH-2 RSA 2048. La herramienta para generar claves SSH para Windows es PuTTYgen y ssh-keygen para Linux. Puede cargar claves SSH públicas a través del Panel de control de Campaign de Campaign. [Más información](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/key-management){target="_blank"}
+  El formato de clave admitido es SSH-2 RSA 2048. La herramienta para generar claves SSH para Windows es PuTTYgen y ssh-keygen para Linux. Puede cargar claves SSH públicas a través del Panel de control de Campaign. [Más información](https://experienceleague.adobe.com/es/docs/control-panel/using/sftp-management/key-management){target="_blank"}
 
 * Utilice lotes en sus cargas por SFTP y sus flujos de trabajo.
 
@@ -31,7 +31,7 @@ Al administrar archivos y datos para fines de ETL, estos archivos se almacenan e
 
 * De forma predeterminada, todas las carpetas que cree se encuentran en modo de lectura y escritura solo para su identificador. Cuando cree carpetas a las que Campaign requiera tener acceso, asegúrese de configurarlas con derechos de lectura y escritura para todo el grupo. De lo contrario, es posible que, por motivos de seguridad, los flujos de trabajo no puedan crear o eliminar archivos que se ejecuten con un identificador diferente dentro del mismo grupo.
 
-* Las IP públicas desde las que intente iniciar la conexión SFTP se deben incluir a la lista de permitidos de la instancia de Campaign. Las IP públicas se pueden añadir a través del Panel de control de Campaign. [Más información](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing){target="_blank"}
+* Las IP públicas desde las que intente iniciar la conexión SFTP se deben incluir a la lista de permitidos de la instancia de Campaign. Las IP públicas se pueden añadir a través del panel de control. [Más información](https://experienceleague.adobe.com/es/docs/control-panel/using/sftp-management/ip-range-allow-listing){target="_blank"}
 
 ## Prácticas recomendadas de uso del almacenamiento SFTP {#sftp-server-best-practices}
 
@@ -43,7 +43,7 @@ Para evitar estos problemas, Adobe recomienda seguir las prácticas recomendadas
 
 >[!NOTE]
 >
->* Puede monitorizar el almacenamiento del servidor SFTP con el Campaign Classic [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=es){target="_blank"}.
+>* Puede monitorizar el almacenamiento del servidor SFTP con el [Panel de control de Campaign Classic](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=es){target="_blank"}.
 >
 >* Todos los usuarios administradores pueden acceder al Panel de control. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel){target="_blank"}.
 >
@@ -68,7 +68,7 @@ Además, al especificar en Campaign Classic una ruta a un servidor SFTP externo,
 
 ## Problemas de conexión con el servidor SFTP alojado en Adobe {#sftp-server-troubleshooting}
 
-En la sección siguiente se muestra la información que se debe verificar y proporcionar al equipo de asistencia de Adobe a través de [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} cuando encuentre algún problema de conexión con servidores SFTP alojados en el Adobe.
+En la sección siguiente, se muestra la información que se debe verificar y proporcionar al equipo de soporte de Adobe a través del [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} cuando encuentre algún problema de conexión con servidores SFTP alojados por Adobe.
 
 1. Compruebe que la instancia se esté ejecutando. Para ello, abra el navegador y luego realice una llamada **[!UICONTROL GET]** en el punto final de la instancia **[!UICONTROL /r/test]**:
 
@@ -144,7 +144,7 @@ Este error indica que el nombre de dominio del servidor FTP no se pudo resolver 
 
    De lo contrario, valide lo siguiente:
 
-   * La contraseña no contiene el `@` carácter. La conexión falla si hay un `@` en la contraseña.
+   * La contraseña no contiene el carácter `@`. La conexión no se establecerá si la contraseña tiene el carácter `@`.
    * No hay problemas con el firewall que puedan obstaculizar la comunicación entre el servidor de aplicaciones de Adobe Campaign y el servidor SFTP.
    * Ejecute los comandos tracert y telnet desde el servidor de campaña al sftp para ver si hay algún problema de conexión.
    * No hay problemas con el protocolo de comunicación.
