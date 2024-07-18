@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo restringir la vista IP
 feature: PI
 role: Data Engineer, Developer
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: e198defd60f4b12681025b04b12a1498df015047
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '439'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Algunos clientes necesitan que los usuarios de marketing puedan acceder a los re
 
 ## Implementación {#implementation}
 
-Se ha agregado un nuevo atributo que se puede aplicar a cualquier elemento o atributo a los esquemas, complementa el atributo existente **[!UICONTROL visibleIf]** . Este atributo es: **[!UICONTROL accessibleIf]** . Cuando contiene una expresión XTK relacionada con el contexto del usuario actual, puede aprovechar **[!UICONTROL HasNamedRight]** o **[!UICONTROL $(login)]** , por ejemplo.
+Se ha agregado un nuevo atributo que se puede aplicar a cualquier elemento o atributo a los esquemas, que complementa el atributo existente **[!UICONTROL visibleIf]** Este atributo es: **[!UICONTROL accessibleIf]** . Cuando contiene una expresión XTK relacionada con el contexto de usuario actual, puede aprovechar **[!UICONTROL HasNamedRight]** o **[!UICONTROL $(login)]** , por ejemplo.
 
 A continuación, puede encontrar un ejemplo de una extensión de esquema de destinatario que muestra este uso:
 
@@ -40,7 +40,7 @@ A continuación, puede encontrar un ejemplo de una extensión de esquema de dest
 Las propiedades principales son:
 
 * **[!UICONTROL visibleIf]** : oculta los campos de los metadatos, por lo que no se puede acceder a ellos dentro de una vista de esquema, una selección de columna o un generador de expresiones. Pero esto no oculta ningún dato. Si el nombre del campo se introduce manualmente en una expresión, se muestra el valor.
-* **[!UICONTROL accessibleIf]** : oculta los datos (reemplazándolos por valores vacíos) de la consulta resultante. Si visibleIf está vacío, obtiene la misma expresión que **[!UICONTROL accessibleIf]** .
+* **[!UICONTROL accessibleIf]** : oculta los datos (reemplazándolos por valores vacíos) de la consulta resultante. Si visibleIf está vacío, obtiene la misma expresión que **[!UICONTROL accessibleIf]**
 
 Estas son las consecuencias de utilizar este atributo en Campaign:
 
@@ -53,9 +53,13 @@ Estas son las consecuencias de utilizar este atributo en Campaign:
 * Al almacenar la población de destino en un grupo (lista), las características de los campos almacenados son las mismas que la fuente de los datos.
 * De forma predeterminada, el código JS no puede acceder a los datos.
 
+>[!IMPORTANT]
+>
+>El uso del atributo **accessibleIf** en parámetros esenciales (como los de las claves compuestas) puede provocar errores a los usuarios a los que no se les permite leer los datos debido a datos ocultos. Esto puede provocar errores de consulta o un comportamiento inesperado. Asegúrese de que los parámetros esenciales estén accesibles para evitar interrupciones.
+
 ## Recomendaciones {#recommendations}
 
-En cada entrega, las direcciones de correo electrónico se copian en la variable **[!UICONTROL broadLog]** y el **[!UICONTROL forecastLog]** tablas: como consecuencia, esos campos también deben protegerse.
+En cada entrega, las direcciones de correo electrónico se copian en las tablas **[!UICONTROL broadLog]** y **[!UICONTROL forecastLog]**: como consecuencia, esos campos también deben protegerse.
 
 A continuación se muestra un ejemplo de extensión de tabla de registro para implementar esto:
 
