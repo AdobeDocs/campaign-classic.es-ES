@@ -33,7 +33,7 @@ método:==( ayuda | parameters)
 
 ## Padres {#parents-10}
 
-`<methods>`  ,  `<interface />`
+`<methods>`, `<interface />`
 
 ## Tareas secundarias {#children-10}
 
@@ -42,22 +42,22 @@ método:==( ayuda | parameters)
 
 ## Descripción {#description-10}
 
-Este elemento permite definir un método SOAP.
+SOAP Este elemento permite definir un método de.
 
 ## Uso y contexto de uso {#use-and-context-of-use-7}
 
-Los métodos SOAP habilitan procesos de aplicación.
+SOAP Los métodos de habilitan procesos de aplicación.
 
 La &quot;@library&quot; es necesaria para declarar un nuevo método (no nativo): el área de nombres y el nombre utilizados para la biblioteca son independientes del área de nombres y el nombre del esquema donde se encuentra la declaración.
 
 ## Descripción de atributo {#attribute-description-10}
 
-* **acceso (cadena)**: este atributo define el control de acceso para el uso del método. Si falta este atributo, la identificación es obligatoria. Los valores disponibles son: &quot;anonymous&quot;, &quot;admin&quot; y &quot;sql&quot;.
+* **access (cadena)**: este atributo define el control de acceso para el uso del método. Si falta este atributo, la identificación es obligatoria. Los valores disponibles son: &quot;anonymous&quot;, &quot;admin&quot; y &quot;sql&quot;.
 * **const (booleano)**: si está activado, este atributo significa que el método declarado alterará la entidad
 * **label (cadena)**: etiqueta del método.
-* **library (string)**: este método no es nativo de la aplicación. Este atributo toma el valor de la biblioteca de métodos donde se encuentra la definición del método (nms:mylibrary.js).
+* **biblioteca (cadena)**: este método no es nativo de la aplicación. Este atributo toma el valor de la biblioteca de métodos donde se encuentra la definición del método (nms:mylibrary.js).
 * **nombre (MNTOKEN)**: nombre de método único.
-* **static (booleano)**: si este atributo está activado, el método se considera autónomo; todos los parámetros deben especificarse en el método cuando se solicite.
+* **static (boolean)**: si este atributo está activado, el método se considera autónomo; todos los parámetros deben especificarse en el método cuando se solicite.
 
 ## Ejemplos {#examples-7}
 

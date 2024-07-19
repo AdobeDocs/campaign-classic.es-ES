@@ -3,7 +3,7 @@ product: campaign
 title: Administración de archivos y recursos
 feature: Installation, Application Settings
 description: Obtenga información sobre cómo configurar la administración de archivos y recursos en Campaign
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
@@ -21,11 +21,11 @@ ht-degree: 2%
 
 ## Limitar formato de archivo de carga {#limiting-uploadable-files}
 
-Utilice el **uploadWhiteList** para restringir los tipos de archivo disponibles para cargar en el servidor de Adobe Campaign.
+Use el atributo **uploadWhiteList** para restringir los tipos de archivo disponibles para cargar en el servidor de Adobe Campaign.
 
-Este atributo está disponible en **dataStore** elemento de la **serverConf.xml** archivo. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
+Este atributo está disponible en el elemento **dataStore** del archivo **serverConf.xml**. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
 
-El valor predeterminado de este atributo es **.+** y permite cargar cualquier tipo de archivo.
+El valor predeterminado de este atributo es **.+** y le permite cargar cualquier tipo de archivo.
 
 Para limitar los posibles formatos, reemplace el valor del atributo por una expresión regular java válida. Puede introducir varios valores separándolos con una coma.
 
@@ -35,13 +35,13 @@ También puede evitar que se carguen archivos importantes configurando el servid
 
 >[!NOTE]
 >
->El **uploadWhiteList** restringe los tipos de archivo disponibles para cargar en el servidor de Adobe Campaign. Sin embargo, cuando el modo de publicación es **Servidor(es) de seguimiento** o **Otro servidor de Adobe Campaign**, el **uploadWhitelist** El atributo también debe actualizarse en esos servidores.
+>El atributo **uploadWhiteList** restringe los tipos de archivo disponibles para cargar en el servidor de Adobe Campaign. Sin embargo, cuando el modo de publicación es **Servidor(es) de seguimiento** u **Otro(s) servidor(es) de Adobe Campaign**, el atributo **uploadWhitelist** también debe actualizarse en esos servidores.
 
 ## Configuración de conexión proxy {#proxy-connection-configuration}
 
-Puede conectar el servidor de Campaign a un sistema externo a través de un proxy mediante una **Transferencia de archivos** actividad de flujo de trabajo, por ejemplo. Para lograrlo, debe configurar la variable **proxyConfig** de la sección **serverConf.xml** mediante un comando específico. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
+Puede conectar el servidor de Campaign a un sistema externo a través de un proxy, por ejemplo, mediante una actividad de flujo de trabajo **Transferencia de archivos**. Para conseguirlo, debe configurar la sección **proxyConfig** del archivo **serverConf.xml** mediante un comando específico. Todos los parámetros disponibles en **serverConf.xml** se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
 
-Las siguientes conexiones proxy son posibles: HTTP, HTTPS, FTP y SFTP. Tenga en cuenta que a partir de la versión 20.2 de Campaign, los parámetros de protocolo HTTP y HTTPS son **ya no está disponible**. Estos parámetros aún se mencionan a continuación, ya que siguen estando disponibles en versiones anteriores, incluida la 9032.
+Las siguientes conexiones proxy son posibles: HTTP, HTTPS, FTP y SFTP. Tenga en cuenta que a partir de la versión 20.2 de Campaign, los parámetros de protocolo HTTP y HTTPS **ya no están disponibles**. Estos parámetros aún se mencionan a continuación, ya que siguen estando disponibles en versiones anteriores, incluida la 9032.
 
 >[!CAUTION]
 >
@@ -112,23 +112,23 @@ Si necesita utilizar el conector HTTP/2 de iOS a través de un proxy, se admiten
 * HTTP sin autenticación
 * Autenticación básica HTTP
 
-Para activar el modo proxy, se debe realizar el siguiente cambio en la `serverconf.xml` archivo:
+Para activar el modo proxy, se debe realizar el siguiente cambio en el archivo `serverconf.xml`:
 
 ```
 <nmac useHTTPProxy="true">
 ```
 
-Para obtener más información sobre este conector HTTP/2 de iOS, consulte [página](../../delivery/using/about-mobile-app-channel.md).
+Para obtener más información sobre este conector HTTP/2 de iOS, consulte esta [página](../../delivery/using/about-mobile-app-channel.md).
 
 ## Administrar recursos públicos {#managing-public-resources}
 
 Para que estén disponibles públicamente, las imágenes utilizadas en los correos electrónicos y recursos públicos vinculados a las campañas deben estar presentes en un servidor accesible de forma externa. Luego pueden estar disponibles para destinatarios u operadores externos. [Más información](../../installation/using/deploying-an-instance.md#managing-public-resources).
 
-Los recursos públicos se almacenan en **/var/res/instance** del directorio de instalación de Adobe Campaign.
+Los recursos públicos se almacenan en el directorio **/var/res/instance** del directorio de instalación de Adobe Campaign.
 
-La URL coincidente es: **http://server/res/instance** donde **instancia** es el nombre de la instancia de seguimiento.
+La URL coincidente es: **http://server/res/instance**, donde **instancia** es el nombre de la instancia de seguimiento.
 
-Puede especificar otro directorio agregando un nodo a **conf-`<instance>`.xml** para configurar el almacenamiento en el servidor. Esto significa añadir las siguientes líneas:
+Puede especificar otro directorio agregando un nodo al archivo **conf-`<instance>`.xml** para configurar el almacenamiento en el servidor. Esto significa añadir las siguientes líneas:
 
 ```
 <serverconf>

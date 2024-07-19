@@ -36,13 +36,13 @@ Para crear una nueva instancia, seguir los pasos siguientes:
 
    ![](assets/s_ncs_install_define_connection_01.png)
 
-1. Clic **[!UICONTROL Add > Connection]** e introduzca la etiqueta y la dirección URL del servidor de aplicaciones de Adobe Campaign.
+1. Haga clic en **[!UICONTROL Add > Connection]** e introduzca la etiqueta y la dirección URL del servidor de aplicaciones de Adobe Campaign.
 
    ![](assets/s_ncs_install_define_connection_02.png)
 
 1. Especifique una conexión con el servidor de aplicaciones de Adobe Campaign mediante una dirección URL. Utilice un DNS o un alias del equipo, o su dirección IP.
 
-   Por ejemplo, puede utilizar la variable `https://<machine>.<domain>.com` escriba la dirección URL.
+   Por ejemplo, puede usar la dirección URL de tipo `https://<machine>.<domain>.com`.
 
    >[!CAUTION]
    >
@@ -62,9 +62,9 @@ Para crear una nueva instancia, seguir los pasos siguientes:
 
    Puede definir una lista de valores separados por comas.
 
-   ¿El? y &#42; los caracteres se pueden utilizar como comodines para reemplazar uno o varios caracteres (DNS, puerto, etc.). Por instancia, el valor de la **demostración&#42;** funcionará con &quot;https://demo&quot; como lo hará con &quot;https://demo:8080&quot; y igualado con &quot;https://demo2&quot;.
+   ¿El? y &#42; los caracteres pueden utilizarse como comodines para sustituir uno o varios caracteres (DNS, puerto, etcetera.). Por instancia, el valor de la **demostración&#42;** funcionará con &quot;https://demo&quot; como lo hará con &quot;https://demo:8080&quot; y igualado con &quot;https://demo2&quot;.
 
-   Los nombres utilizados deben definirse en su DNS. También puede informar la correspondencia entre un nombre DNS y una dirección IP en el **archivo c:/windows/system32/drivers/etc/hosts** en Windows y en el **archivo /etc/hosts** en Linux. Por lo tanto, debe modificar la configuración de conexión para usar este nombre DNS con el fin de conectarse a su instancia elegido.
+   Los nombres utilizados deben definirse en su DNS. También puede informar la correspondencia entre un nombre DNS y una dirección IP en el **archivo c:/windows/system32/drivers/etcetera/hosts** en Windows y en el **archivo /etcetera/hosts** en Linux. Por lo tanto, debe modificar la configuración de conexión para usar este nombre DNS con el fin de conectarse a su instancia elegido.
 
    El servidor debe identificarse con este nombre, especialmente para cargar imágenes en correos electrónicos.
 
@@ -72,13 +72,13 @@ Para crear una nueva instancia, seguir los pasos siguientes:
 
 1. En la **[!UICONTROL Language]** lista desplegable, seleccione el **idioma** instancia: Inglés (EE.UU.), Inglés (Reino Unido), Francés o Japonés.
 
-   Las diferencias entre inglés de EE. UU. e inglés de Reino Unido se describen en [esta sección](../../platform/using/adobe-campaign-workspace.md#date-and-time).
+   Las diferencias entre el inglés de EE.UU. y el inglés de Reino Unido se describen en [esta sección](../../platform/using/adobe-campaign-workspace.md#date-and-time).
 
    >[!CAUTION]
    >
    >No se puede modificar el idioma de la instancia después de este paso. Las instancias de Adobe Campaign no son multilingües: no puede cambiar la interfaz de un idioma a otro.
 
-1. Clic **[!UICONTROL Ok]** para confirmar la declaración de la instancia. Cierre la sesión y vuelva a iniciarla para declarar la base de datos.
+1. Haga clic en **[!UICONTROL Ok]** para confirmar la declaración de la instancia. Cierre la sesión y vuelva a iniciarla para declarar la base de datos.
 
    >[!NOTE]
    >

@@ -32,7 +32,7 @@ A continuación, encontrará algunas de las prácticas recomendadas principales 
   **En IIS** (consulte la [documentación](https://support.microsoft.com/en-us/kb/245030)), realice la siguiente configuración:
 
    * Agregar una subclave del Registro en HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL
-   * Para permitir que el sistema utilice los protocolos que no se negociarán de forma predeterminada (como TLS 1.2), cambie los datos del valor DWORD del valor DisabledByDefault a 0x0 en las siguientes claves del Registro en el **Protocolos** clave:
+   * Para permitir que el sistema utilice los protocolos que no se negociarán de forma predeterminada (como TLS 1.2), cambie los datos del valor DWORD del valor DisabledByDefault a 0x0 en las siguientes claves del Registro bajo la clave **Protocolos**:
 
      SCHANNEL\Protocols\TLS 1.2\Client
 
@@ -44,30 +44,30 @@ A continuación, encontrará algunas de las prácticas recomendadas principales 
 
   SCHANNEL\Protocols\SSL 3.0\Server: Enabled: DWORD (32 bits) Value to 0
 
-* Retire el **TRACE** método:
+* Quitar el método **TRACE**:
 
-  **En Apache**, edite en /etc/apache2/conf.d/security: TraceEnable **Desactivado**
+  **En Apache**, editar en /etc/apache2/conf.d/security: TraceEnable **Desactivado**
 
   **En IIS** (consulte la [documentación](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)), realice la siguiente configuración:
 
-   * Asegúrese de que **Filtrado de solicitudes** servicio de rol o función está instalada.
-   * En el **Filtrado de solicitudes** , haga clic en la ficha Verbos HTTP y, a continuación, haga clic en Denegar verbo. En el panel Acciones, introduzca TRACE en el cuadro de diálogo abierto.
+   * Asegúrese de que la característica o el servicio de rol **Filtrado de solicitudes** esté instalado.
+   * En el panel **Filtrado de solicitudes**, haga clic en la ficha Verbos HTTP y, a continuación, haga clic en Denegar verbo. En el panel Acciones, introduzca TRACE en el cuadro de diálogo abierto.
 
 * Quitar el titular:
 
   **En Apache**, editar /etc/apache2/conf.d/security:
 
-   * ServerSignature **Desactivado**
+   * FirmaServidor **Desactivada**
    * ServerTokens **Prod**
 
   **En IIS**, realice la siguiente configuración:
 
-   * Instalar **URLScan**.
-   * Edite el **Urlscan.ini** archivo para tener **RemoveServerHeader=1**
+   * Instalar **URL que pueden**.
+   * Edite el archivo **Urlscan.ini** para que tenga **RemoveServerHeader=1**
 
 * Limite el tamaño de la consulta para evitar que se carguen archivos importantes:
 
-  **En Apache**, añada el **LimitRequestBody** directiva (tamaño en bytes) en el directorio /.
+  **En Apache**, agregue la directiva **LimitRequestBody** (tamaño en bytes) en el directorio /.
 
   ```
   <Directory />
@@ -77,9 +77,9 @@ A continuación, encontrará algunas de las prácticas recomendadas principales 
   </Directory>
   ```
 
-  **En IIS** (consulte la [documentación](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)), establezca el **maxAllowedContentLength** (longitud de contenido máxima permitida) en las opciones de filtrado de contenido.
+  **En IIS** (consulte la [documentación](https://www.iis.net/configreference/system.webserver/security/requestfiltering/requestlimits)), establezca **maxAllowedContentLength** (longitud de contenido máxima permitida) en las opciones de filtrado de contenido.
 
 Temas relacionados:
 
 * [Resumen del cumplimiento de Adobe Marketing Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
-* [Información general sobre seguridad de Adobe Campaign](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#security)
+* [Información general sobre la seguridad de Adobe Campaign](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#security)

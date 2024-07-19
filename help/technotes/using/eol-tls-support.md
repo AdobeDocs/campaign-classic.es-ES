@@ -24,9 +24,9 @@ El Adobe ya no es compatible con los sistemas de usuario y de cliente que no son
 
 ## ¿Por qué veo esta página?
 
-Si ve el siguiente mensaje: **Esta página no se puede mostrar** Sin embargo, esto significa que las aplicaciones de Adobe, la página web o el servicio al que intenta acceder requieren una conexión de red más segura con su explorador web, sistema operativo o aplicación. Es obligatorio utilizar **TLS 1.2** para una comunicación de red segura y un intercambio de datos entre los sistemas de los usuarios y las aplicaciones de Adobe y los servicios web.
+Si ve el siguiente mensaje: **Esta página no se puede mostrar**, significa que las aplicaciones de Adobe, la página web o el servicio al que intenta obtener acceso requieren una conexión de red más segura con el explorador web, el sistema operativo o la aplicación. Es obligatorio usar **TLS 1.2** para la comunicación de red segura y el intercambio de datos entre los sistemas de los usuarios y las aplicaciones de Adobe y los servicios web.
 
-El Adobe de ha dejado de admitir versiones anteriores de TLS (incluidos TLS 1.0 y 1.1). Para obtener más información técnica sobre el protocolo TLS 1.2, consulte [Preguntas más frecuentes](#faq).
+El Adobe de ha dejado de admitir versiones anteriores de TLS (incluidos TLS 1.0 y 1.1). Para obtener detalles técnicos sobre el protocolo TLS 1.2, consulte [Preguntas más frecuentes](#faq).
 
 ## ¿Qué puedo hacer para reanudar el servicio?
 
@@ -41,13 +41,13 @@ Puede descargar e instalar uno de los siguientes exploradores populares:
 
 Si utiliza otro navegador, asegúrese de que sea compatible con TLS 1.2.
 
-El sistema operativo y los marcos de aplicación también deben ser compatibles con TLS 1.2. Si la actualización del explorador no resuelve el problema, asegúrese de que el equipo cumple los requisitos del sistema que se enumeran en [Matriz de compatibilidad de Campaign](../../rn/using/compatibility-matrix.md).
+El sistema operativo y los marcos de aplicación también deben ser compatibles con TLS 1.2. Si al actualizar el explorador no se resuelve el problema, asegúrese de que el equipo cumpla los requisitos del sistema enumerados en [Matriz de compatibilidad de Campaign](../../rn/using/compatibility-matrix.md).
 
 ## Preguntas frecuentes{#faq}
 
 * **¿Qué es la seguridad de la capa de transporte (TLS)?**
 
-  [Seguridad de capa de transporte](https://en.wikipedia.org/wiki/Transport_Layer_Security) (TLS) es un protocolo de seguridad que proporciona privacidad e integridad de datos entre dos aplicaciones que se comunican. Se implementa ampliamente en exploradores web y otras aplicaciones que requieren que los datos se intercambien de forma segura a través de una red.
+  [Seguridad de la capa de transporte](https://en.wikipedia.org/wiki/Transport_Layer_Security) (TLS) es un protocolo de seguridad que proporciona privacidad e integridad de datos entre dos aplicaciones que se comunican. Se implementa ampliamente en exploradores web y otras aplicaciones que requieren que los datos se intercambien de forma segura a través de una red.
 
   Según la especificación del protocolo, TLS incluye dos capas, el protocolo de registro TLS y el protocolo de enlace TLS. El protocolo Record proporciona seguridad de conexión. El protocolo de protocolo de enlace permite que el servidor y el cliente se autenticen mutuamente y negocien algoritmos de cifrado y claves criptográficas antes del intercambio de datos.
 
@@ -69,7 +69,7 @@ El sistema operativo y los marcos de aplicación también deben ser compatibles 
 
   Se han documentado ataques contra TLS 1.0 mediante un método de codificación anterior y las versiones anteriores son más vulnerables que TLS 1.2. Para obtener más información, consulte Ataques contra TLS/SSL.
 
-* **¿Por qué el Adobe desactiva la compatibilidad con TLS 1.0 y 1.1?**
+* **¿Por qué el Adobe deshabilita la compatibilidad con TLS 1.0 y 1.1?**
 
   El Adobe tiene estándares de seguridad que requieren deshabilitar la compatibilidad con protocolos más antiguos. Uno de estos estándares garantiza el cumplimiento de la industria de tarjetas de pago (PCI). El servidor de adaptación PCI es un conjunto de estándares de seguridad que requieren organizaciones que acepten, procesen, almacenen o transmitan información de tarjetas de crédito para mantener un entorno seguro.
 
@@ -81,11 +81,11 @@ El sistema operativo y los marcos de aplicación también deben ser compatibles 
 
   El Adobe ha migrado a TLS 1.2 para que sus aplicaciones y servicios web sean accesibles de forma más segura.
 
-* **¿Cuál es la última fecha en la que puedo utilizar una versión anterior de TLS?**
+* **¿Cuál es la última fecha en que puedo usar una versión anterior de TLS?**
 
   El Adobe de anima a los usuarios a abandonar rápidamente las versiones anteriores para evitar exponerse a vulnerabilidades de seguridad. Para obtener más información, póngase en contacto con el Servicio de atención al cliente de Adobe o con su gestor de éxito de clientes.
 
-* **¿Qué mensaje de error aparece si utilizo un explorador que no está configurado para TLS 1.2?**
+* **¿Qué mensaje de error aparece si utilizo un explorador que no esté configurado para TLS 1.2?**
 
   Depende del explorador que esté utilizando. Todos los navegadores mencionados en [Matriz de compatibilidad de Campaign](../../rn/using/compatibility-matrix.md) están configurados para utilizar TLS 1.2. Si utiliza un explorador o una versión que no figura en la lista, actualice el explorador.
 

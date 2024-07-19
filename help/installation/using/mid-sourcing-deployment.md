@@ -29,7 +29,7 @@ La comunicación general entre servidores y procesos se realiza según el siguie
 ![](assets/s_ncs_install_midsourcing.png)
 
 * Los módulos de administración de ejecución y rechazos están desactivados en la instancia.
-* La aplicación está configurada para ejecutar mensajes en un servidor &quot;intermediario&quot; remoto que se administra mediante llamadas SOAP (a través de HTTP o HTTPS).
+* SOAP La aplicación está configurada para ejecutar mensajes en un servidor &quot;intermediario&quot; remoto que se gestiona mediante llamadas de (por HTTP o HTTPS).
 
 ## Funciones {#features}
 
@@ -65,4 +65,4 @@ La comunicación general entre servidores y procesos se realiza según el siguie
 
 ### Instalación y configuración (implementación intermediaria) {#installing-and-configuring--mid-sourcing-deployment-}
 
-Consulte [Mid-sourcing server](../../installation/using/mid-sourcing-server.md).
+Consulte [Servidor intermediario](../../installation/using/mid-sourcing-server.md).

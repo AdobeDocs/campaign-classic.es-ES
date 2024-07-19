@@ -32,17 +32,17 @@ En esta página se detallan los pasos específicos que deben seguirse antes de i
 
 ## Pasos de migración {#migration-steps}
 
-El procedimiento de migración debe llevarse a cabo en **todo** y en un orden concreto.
+El procedimiento de migración debe llevarse a cabo en **todos** los servidores y en un orden particular.
 
-* En el caso de un **plataforma independiente** (modo de máquina única), la aplicación se migra en su totalidad.
-* En el caso de un **plataforma estándar** (empresa), los pasos de migración son los siguientes:
+* En el caso de una **plataforma independiente** (modo de máquina única), la aplicación se migra en su totalidad.
+* En el caso de una **plataforma estándar** (empresa), los pasos de migración son los siguientes:
 
    1. Migre el servidor de marketing.
    1. Migre el servidor de correo (mta).
    1. Migre los servidores de redirección y seguimiento (Apache/IIS).
 
-* En el caso de un **Plataforma de Cloud Messaging**, los servidores de ejecución se alojan en Adobe Campaign. Póngase en contacto con Adobe Campaign para coordinar la migración entre diferentes servidores.
-* En el caso de un **Power Booster o Power Cluster Platform** Sin embargo, los pasos de migración son los siguientes:
+* En el caso de **Cloud Messaging Platform**, los servidores de ejecución se hospedan en Adobe Campaign. Póngase en contacto con Adobe Campaign para coordinar la migración entre diferentes servidores.
+* En el caso de **Power Booster o Power Cluster Platform**, los pasos de migración son los siguientes:
 
    1. Migre los servidores de redirección y seguimiento (Apache/IIS).
    1. Migre los servidores Power Booster/Cluster.
@@ -50,7 +50,7 @@ El procedimiento de migración debe llevarse a cabo en **todo** y en un orden co
 
 ## Contraseñas de usuario {#user-passwords}
 
-En la versión 7, **interno** y **administrador** la conexión del operador debe estar protegida con una contraseña. Se recomienda encarecidamente asignar contraseñas a estas cuentas y a todas las cuentas de operador, **antes de la migración**. Si no ha especificado una contraseña para **interno**, no se podrá conectar. Para asignar una contraseña a **interno**, introduzca el siguiente comando:
+En la versión 7, la conexión del operador **internal** y **admin** debe estar protegida con una contraseña. Se recomienda encarecidamente asignar contraseñas a estas cuentas y a todas las cuentas de operador, **antes de la migración**. Si no ha especificado una contraseña para **internal**, no podrá conectarse. Para asignar una contraseña a **internal**, escriba el siguiente comando:
 
 ```
 nlserver config -internalpassword
@@ -58,4 +58,4 @@ nlserver config -internalpassword
 
 >[!CAUTION]
 >
->El **interno** la contraseña debe ser idéntica para todos los servidores de seguimiento. Para obtener más información, consulte la [Identificador interno](../../installation/using/configuring-campaign-server.md#internal-identifier) y [Permisos](../../platform/using/access-management.md) secciones.
+>La contraseña **internal** debe ser idéntica para todos los servidores de seguimiento. Para obtener más información, consulte las secciones [Identificador interno](../../installation/using/configuring-campaign-server.md#internal-identifier) y [Permisos](../../platform/using/access-management.md).

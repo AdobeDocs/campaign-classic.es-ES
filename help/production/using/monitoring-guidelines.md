@@ -17,7 +17,7 @@ ht-degree: 22%
 
 ## Panel de monitorización de instancias {#instance-monitoring-dashboard}
 
-El **[!UICONTROL Monitoring]** La pestaña, a la que se puede acceder desde la página de inicio del Campaign Classic, es el punto de entrada principal para ayudarle a monitorizar la instancia.
+La pestaña **[!UICONTROL Monitoring]**, a la que se puede acceder desde la página de inicio del Campaign Classic, es el punto de entrada principal para ayudarle a monitorizar su instancia.
 
 Proporciona un tablero de lo que está ocurriendo en su instancia: su estado (versión de compilación, paquetes instalados, etc.), indicadores del sistema, registros, flujos de trabajo que se están ejecutando actualmente, estado de los últimos envíos enviados, etc.
 
@@ -40,7 +40,7 @@ Hay disponibles formas adicionales de monitorizar los diferentes procesos de Cam
 
 <img src="assets/do-not-localize/icon_system.svg" width="60px">
 
-**Herramientas de monitorización automática**
+**Herramientas de supervisión automática**
 
 Hay varios métodos automáticos disponibles. para ayudarle a monitorizar su instancia. Por ejemplo, puede configurar informes de correo electrónico con anomalías detectadas, recuperar una lista de indicadores en formato XML, etc. [Haga clic aquí](../../production/using/monitoring-processes.md#automatic-monitoring) para obtener más información.
 
@@ -70,11 +70,11 @@ El mapa de calor del flujo de trabajo proporciona una representación visual de 
 
 La pista de auditoría permite visualizar todas las modificaciones realizadas en los flujos de trabajo, así como sus estados actuales. [Haga clic aquí](../../production/using/audit-trail.md).
 
-**Solución de problemas de flujos**
+**Solución de problemas de flujos de trabajo**
 
 Se pueden realizar acciones específicas al encontrar problemas con la ejecución de un flujo de trabajo. [Haga clic aquí](../../production/using/workflow-execution.md) para obtener más información
 
-**Monitorización del estado de flujo de trabajo**
+**Supervisión del estado del flujo de trabajo**
 
 Además del mapa de calor, puede crear un flujo de trabajo que le permitirá monitorizar el estado de un conjunto de flujos de trabajo y enviar mensajes recurrentes a los supervisores. [Haga clic aquí](../../workflow/using/supervising-workflows.md) para obtener más información.
 
@@ -94,14 +94,14 @@ Los informes SMTP muestran las estadísticas de envío y los errores SMTP por do
 
 **Prácticas recomendadas**
 
-[Prácticas recomendadas para la entrega y el diseño de envíos](../../delivery/using/delivery-best-practices.md) puede ayudarle a mejorar su rendimiento.
+Las [prácticas recomendadas para la entrega y el diseño de entregas](../../delivery/using/delivery-best-practices.md) pueden ayudarle a mejorar su rendimiento.
 
 **Solución de problemas del envío**
 Se pueden realizar acciones específicas al encontrar problemas con las entregas:
 * [Problemas de entregas](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problemas de visualización de imágenes](../../production/using/image-display-issues.md)
 * [Problemas de rendimiento de envíos](../../delivery/using/delivery-performances.md)
-* [Problemas de archivos temporales](../../production/using/temporary-files.md) - *solo modelos de alojamiento on-premise*
+* [Problemas con archivos temporales](../../production/using/temporary-files.md) - *solo modelos de alojamiento local*
 
 ### Monitorización de la base de datos {#monitoring-database}
 
@@ -111,19 +111,19 @@ Se pueden realizar acciones específicas al encontrar problemas con las entregas
 
 El flujo de trabajo Database cleanup permite eliminar datos obsoletos de la base de datos. Se recomienda evitar el crecimiento exponencial de la base de datos. [Haga clic aquí](../../production/using/database-cleanup-workflow.md) para obtener más información.
 
-**Solución de problemas de rendimiento de base**
+**Solución de problemas de rendimiento de base de datos**
 
 Se pueden realizar acciones específicas al encontrar problemas con el rendimiento de la base de datos. [Haga clic aquí](../../production/using/database-performances.md) para obtener más información.
 
 **Mantenimiento de la base de datos**
 
-*solo modelos de alojamiento on-premise e híbrido*
+*Solo modelos de alojamiento on-premise e híbrido*
 
 Se recomienda realizar el mantenimiento de la base de datos de forma regular para evitar un consumo excesivo de espacio en disco, lo que afecta al acceso a la base de datos. [Haga clic aquí](../../production/using/recommendations.md) para obtener más información.
 
 **Copia de seguridad y restauración**
 
-*solo modelos de alojamiento on-premise e híbrido*
+*Solo modelos de alojamiento on-premise e híbrido*
 
 El backup es esencial para evitar la pérdida de datos en caso de problemas (ya sean físicos o relacionados con el sistema) en una máquina. [Haga clic aquí](../../production/using/backup.md) para obtener más información. El procedimiento de restauración se describe en [esta sección](../../production/using/restoration.md).
 
@@ -138,7 +138,7 @@ Los recursos técnicos están disponibles en la documentación del Campaign Clas
 
 **Configuración del servidor**
 
-*Solo modelos de alojamiento on-premise e híbridos*
+*Solo modelos de alojamiento on-premise e híbrido*
 
 * [Configuraciones del servidor](../../installation/using/configuring-campaign-server.md)
 * [Configuración del archivo Serverconf.xml](../../installation/using/the-server-configuration-file.md)

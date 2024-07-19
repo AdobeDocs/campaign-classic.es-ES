@@ -4,12 +4,12 @@ title: Características del esquema
 description: Características del esquema
 feature: Custom Resources
 role: Data Engineer, Developer
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -29,9 +29,9 @@ Las características de un esquema que hace referencia a una tabla existente son
 
 ## Atributo de vista {#the-view-attribute}
 
-Los esquemas de origen aceptan **vista** para el **srcSchema** elemento raíz. Debe utilizarse cuando se manipula Adobe Campaign en tablas personalizadas. El **view=&quot;true&quot;** indica al asistente de actualización de la estructura de la base de datos que ignore este esquema. Por lo tanto, la aplicación no puede sincronizar la tabla, sus columnas y sus índices con el esquema correspondiente.
+Los esquemas de Source aceptan el atributo **view** para el elemento raíz **srcSchema**. Debe utilizarse cuando se manipula Adobe Campaign en tablas personalizadas. El atributo **view=&quot;true&quot;** indica al asistente de actualización de estructura de la base de datos que ignore este esquema. Por lo tanto, la aplicación no puede sincronizar la tabla, sus columnas y sus índices con el esquema correspondiente.
 
-Cuando este atributo se establece en **true**, el esquema solo se utiliza para generar consultas SQL para acceder a los datos de esta tabla.
+Cuando este atributo se establece en **true**, el esquema solo se usa para generar consultas SQL con el fin de acceder a los datos de esta tabla.
 
 ## Nombres de tablas y columnas {#names-of-tables-and-columns}
 
@@ -55,7 +55,7 @@ Cuando el asistente de actualización de tablas crea las tablas, los nombres de 
 </element>
 ```
 
-En este ejemplo, si los nombres de las tablas y columnas no se hubieran especificado explícitamente, la aplicación habría utilizado **CusIndividual** para la tabla, **lastName** y **firstName** para las columnas.
+En este ejemplo, si no se hubieran especificado explícitamente los nombres de las tablas y columnas, la aplicación habría utilizado **CusIndividual** para la tabla, **lastName** y **firstName** para las columnas.
 
 En un esquema, es posible rellenar solo parte de las columnas de una tabla existente. El usuario no podrá acceder a las columnas que no se hayan rellenado.
 
@@ -77,7 +77,7 @@ En un esquema, un índice se define de la siguiente manera:
 
 Por este motivo, es importante declarar los índices existentes de la tabla personalizada en el esquema coincidente.
 
-Se declara implícitamente un índice para cada declaración de clave y vínculo del esquema de origen. La declaración de índice se puede evitar especificando **noDbIndex=&quot;true&quot;** atributo:
+Se declara implícitamente un índice para cada declaración de clave y vínculo del esquema de origen. La declaración de índice se puede evitar especificando el atributo **noDbIndex=&quot;true&quot;**:
 
 **Ejemplo**:
 

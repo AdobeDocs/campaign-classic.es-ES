@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## Información general {#general-information}
 
-Todos los métodos API se presentan en forma de servicios web. Esto permite administrar todas las funciones de Adobe Campaign mediante llamadas SOAP, que son el punto de entrada nativo del servidor de aplicaciones de Adobe Campaign. La propia consola de Adobe Campaign solo utiliza llamadas SOAP.
+Todos los métodos API se presentan en forma de servicios web. Esto permite administrar todas las funciones de Adobe Campaign SOAP a través de llamadas de, que son el punto de entrada nativo del servidor de aplicaciones de Adobe Campaign. La propia consola de Adobe Campaign SOAP solo utiliza llamadas de.
 
 Los servicios web permiten crear muchas aplicaciones a partir de un sistema de terceros:
 
@@ -28,7 +28,7 @@ Los servicios web permiten crear muchas aplicaciones a partir de un sistema de t
 
 La definición de los servicios web implementados en el servidor de aplicaciones de Adobe Campaign está disponible en los esquemas de datos.
 
-Un servicio web se describe en la gramática de los esquemas de datos y está disponible en el **`<methods>`** Elemento.
+Se describe un servicio web en la gramática de los esquemas de datos y está disponible en el elemento **`<methods>`**.
 
 ```
 <methods>
@@ -43,15 +43,15 @@ Un servicio web se describe en la gramática de los esquemas de datos y está di
 </methods>
 ```
 
-Aquí tiene un ejemplo de la definición del método llamado **GenerateForm**.
+Aquí tenemos un ejemplo de la definición del método denominado **GenerateForm**.
 
-La descripción del servicio comienza con `<method>` Elemento. La lista de parámetros del método se completa desde el  `<parameters>` Elemento. Cada parámetro se especifica mediante un nombre, un tipo (Boolean, string, DOMElement, etc.) y una descripción. El atributo &quot;inout&quot; con el valor &quot;out&quot; permite especificar que el parámetro &quot;result&quot; se encuentra en la salida de la llamada SOAP.
+La descripción del servicio comienza con el elemento `<method>`. La lista de parámetros del método se completó desde el elemento `<parameters>`. Cada parámetro se especifica mediante un nombre, un tipo (Boolean, string, DOMElement, etc.) y una descripción. SOAP El atributo &quot;inout&quot; con el valor &quot;out&quot; permite especificar que el parámetro &quot;result&quot; se encuentra en la salida de la llamada de la llamada de la línea de comandos de la llamada de salida.
 
 La presencia del atributo &quot;static&quot; (con el valor &quot;true&quot;) describe este método como static, lo que significa que se deben declarar todos los parámetros del método.
 
 Un método &quot;const&quot; tiene implícitamente un documento XML en formato de su esquema asociado como entrada.
 
-Una descripción completa de la `<method>` de un esquema de Adobe Campaign está disponible en el capítulo &quot;Referencias de esquema&quot; en [Método](../../configuration/using/schema/method.md)
+Hay disponible una descripción completa del elemento `<method>` de un esquema de Adobe Campaign en el capítulo &quot;Referencias de esquema&quot; en [Método](../../configuration/using/schema/method.md)
 
 Ejemplo del método &quot;ExecuteQuery&quot; de tipo &quot;const&quot; del esquema &quot;xtk:queryDef&quot;:
 
@@ -91,7 +91,7 @@ Una descripción de WSDL comienza por definir los tipos utilizados para formar m
 
 #### Tipos {#types}
 
-Las definiciones de tipo se basan en esquemas XML. En este ejemplo, el método &quot;ExecuteQuery&quot; toma una cadena &quot;s:string&quot; y un documento XML (`<s:complextype>`) como parámetros. El valor devuelto del método (&quot;ExecuteQueryResponse&quot;) es un documento XML (  `<s:complextype>`).
+Las definiciones de tipo se basan en esquemas XML. En nuestro ejemplo, el método &quot;ExecuteQuery&quot; toma una cadena &quot;s:string&quot; y un documento XML (`<s:complextype>`) como parámetros. El valor devuelto del método (&quot;ExecuteQueryResponse&quot;) es un documento XML ( `<s:complextype>`).
 
 ```
 <types>
@@ -127,7 +127,7 @@ Las definiciones de tipo se basan en esquemas XML. En este ejemplo, el método &
 
 #### Mensajes {#messages}
 
-El `<message>` describe los nombres y tipos de un conjunto de campos que se van a enviar. El método utiliza dos mensajes para pasar como parámetro (&quot;ExecuteQueryIn&quot;) y el valor devuelto (&quot;ExecuteQueryOut&quot;).
+`<message>` describe los nombres y tipos de un conjunto de campos que se van a enviar. El método utiliza dos mensajes para pasar como parámetro (&quot;ExecuteQueryIn&quot;) y el valor devuelto (&quot;ExecuteQueryOut&quot;).
 
 ```
 <message name="ExecuteQueryIn">
@@ -141,7 +141,7 @@ El `<message>` describe los nombres y tipos de un conjunto de campos que se van 
 
 #### PortType {#porttype}
 
-El `<porttype>` asocia los mensajes en la operación &quot;ExecuteQuery&quot; desencadenada por la consulta (&quot;input&quot;) que genera una respuesta (&quot;output&quot;).
+El `<porttype>` asocia los mensajes en la operación &quot;ExecuteQuery&quot; desencadenada por la consulta (&quot;entrada&quot;) que genera una respuesta (&quot;salida&quot;).
 
 ```
 <portType name="queryDefMethodsSoap">
@@ -154,7 +154,7 @@ El `<porttype>` asocia los mensajes en la operación &quot;ExecuteQuery&quot; de
 
 #### Enlace {#binding}
 
-El `<binding>` especifica el protocolo de comunicación SOAP ( `<soap:binding>` ), transporte de datos en HTTP (valor del atributo &quot;transport&quot;) y formato de datos para la operación &quot;ExecuteQuery&quot;. El cuerpo del sobre SOAP contiene los segmentos de mensaje directamente sin transformación.
+SOAP La parte `<binding>` especifica el protocolo de comunicación de la ( `<soap:binding>` ), el transporte de datos en HTTP (valor del atributo &quot;transport&quot;) y el formato de datos para la operación &quot;ExecuteQuery&quot;. SOAP El cuerpo del sobre de la contiene los segmentos de mensaje directamente sin transformación.
 
 ```
 <binding name="queryDefMethodsSoap" type="tns:queryDefMethodsSoap">
@@ -173,7 +173,7 @@ El `<binding>` especifica el protocolo de comunicación SOAP ( `<soap:binding>` 
 
 #### Servicio {#service}
 
-El `<service>` Este artículo describe el servicio &quot;XtkQueryDef&quot; con su URI en la URL del servidor de aplicaciones de Adobe Campaign.
+La parte `<service>` describe el servicio &quot;XtkQueryDef&quot; con su URI en la dirección URL del servidor de aplicaciones de Adobe Campaign.
 
 ```
 <service name="XtkQueryDef">
@@ -189,11 +189,11 @@ Adobe Campaign ha aumentado la seguridad de los mecanismos de autenticación al 
 
 Hay dos modos de autenticación disponibles:
 
-* **mediante una llamada a los métodos de inicio de sesión**. Este modo genera un token de sesión y un token de seguridad. Es el modo más seguro y, por lo tanto, el más recomendado.
+* **mediante una llamada al método de inicio de sesión()**. Este modo genera un token de sesión y un token de seguridad. Es el modo más seguro y, por lo tanto, el más recomendado.
 
 o
 
-* **mediante el inicio de sesión y la contraseña de Adobe Campaign** que crea un token de sesión. El token de sesión caduca automáticamente después de un periodo establecido. No se recomienda este modo y es necesario reducir la configuración de seguridad de la aplicación para algunas zonas (allowUserPassword=&quot;true&quot; y sessionTokenOnly=&quot;true&quot;).
+* **mediante el inicio de sesión de Adobe Campaign + contraseña** que crea un token de sesión. El token de sesión caduca automáticamente después de un periodo establecido. No se recomienda este modo y es necesario reducir la configuración de seguridad de la aplicación para algunas zonas (allowUserPassword=&quot;true&quot; y sessionTokenOnly=&quot;true&quot;).
 
 ### Características del token de sesión {#session-token-characteristics}
 
@@ -231,13 +231,13 @@ Desde un POST y un GET HTTP:
 * el servidor completa los vínculos con el token
 * el servidor agrega un campo oculto a los formularios
 
-Desde una llamada SOAP:
+SOAP Desde una llamada a la:
 
 * se añade a los encabezados de llamada
 
 ### Ejemplos de llamadas {#call-examples}
 
-* Uso de **HttpSoapConnection/SoapService**:
+* Usando **HttpSoapConnection/SoapService**:
 
 ```
   
@@ -270,11 +270,11 @@ Desde una llamada SOAP:
   logInfo(queryRes[0].toXMLString())
 ```
 
-* Uso de **HttpServletRequest**:
+* Usando **HttpServletRequest**:
 
 >[!NOTE]
 >
->Las direcciones URL utilizadas en lo siguiente **HttpServletRequest** las llamadas de deben estar en lista de permitidos en la sección permisos de url de **serverConf.xml** archivo. Esto también se aplica a la dirección URL del propio servidor.
+>Las direcciones URL utilizadas en las siguientes llamadas a **HttpServletRequest** deben estar en lista de permitidos en la sección de permisos de URL del archivo **serverConf.xml**. Esto también se aplica a la dirección URL del propio servidor.
 
 Ejecución de inicio de sesión:
 

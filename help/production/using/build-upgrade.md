@@ -3,7 +3,7 @@ product: campaign
 title: Introducción a las actualizaciones de versiones
 description: Conozca los pasos clave para actualizar a una nueva compilación
 feature: Monitoring, Upgrade
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 En esta sección se proporciona una guía detallada sobre el proceso de actualización y los pasos para identificar y resolver conflictos.
 
-La mejora de la construcción debe llevarse a cabo con precaución, sus impactos deben ser considerados de antemano y el procedimiento debe completarse con un alto nivel de disciplina. Para garantizar que la actualización se realice correctamente, asegúrese de que solo los usuarios expertos realizan los pasos descritos a continuación. Además, recomendamos encarecidamente ponerse en contacto con [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) antes de iniciar cualquier actualización.
+La mejora de la construcción debe llevarse a cabo con precaución, sus impactos deben ser considerados de antemano y el procedimiento debe completarse con un alto nivel de disciplina. Para garantizar que la actualización se realice correctamente, asegúrese de que solo los usuarios expertos realizan los pasos descritos a continuación. Además, le recomendamos encarecidamente que se ponga en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) antes de iniciar cualquier actualización.
 
 Se necesitan los siguientes requisitos previos:
 
@@ -29,16 +29,16 @@ Se necesitan los siguientes requisitos previos:
 * Conocimientos sobre sistemas y servidores
 * Derechos y permisos administrativos
 
-Puede encontrar más información en estas secciones: [Actualización de Adobe Campaign](../../production/using/upgrading.md), [Migración a una nueva versión](../../migration/using/about-migration.md).
+Puede encontrar más información en estas secciones: [Actualizando Adobe Campaign](../../production/using/upgrading.md), [Migrando a una nueva versión](../../migration/using/about-migration.md).
 
-Para las instancias alojadas e híbridas, debe solicitar la actualización de la compilación al equipo de operaciones técnicas de Adobe. Para obtener más información, consulte la sección Preguntas más frecuentes en la parte inferior de esta página. Consulte también la [preguntas frecuentes sobre actualización de compilación](../../platform/using/faq-build-upgrade.md).
+Para las instancias alojadas e híbridas, debe solicitar la actualización de la compilación al equipo de operaciones técnicas de Adobe. Para obtener más información, consulte la sección Preguntas más frecuentes en la parte inferior de esta página. Consulte también las [preguntas frecuentes sobre la actualización de la compilación](../../platform/using/faq-build-upgrade.md).
 
 ## Preparación de la actualización
 
 ![](assets/do-not-localize/icon_planification.png)
 
 Antes de iniciar la actualización de la compilación, debe realizar una preparación completa como se describe a continuación.
-Una vez que el sistema esté listo para actualizarse, se requiere una actualización de la compilación **al menos** 2 horas.
+Una vez que el sistema esté listo para actualizarse, una actualización de compilación tarda **al menos** 2 horas.
 
 El proceso de actualización de la compilación requiere los siguientes recursos:
 
@@ -55,7 +55,7 @@ Estos son los puntos clave sobre cómo planificar una actualización de compilac
 1. Distribuya los datos de contacto para el Adobe y el personal del cliente.
 1. Para instancias alojadas: el personal del Adobe y del cliente coordinará el tiempo de la actualización y quién la ejecutará.
 1. Para instancias locales: el personal del cliente gestiona todo el proceso. Si se necesita asistencia para probar flujos de trabajo personalizados y lógica de entrega, se deben incluir servicios de consultoría.
-1. Determine y confirme a qué versión de Adobe Campaign desea actualizar: consulte la [Notas de la versión de Adobe Campaign Classic](../../rn/using/rn-overview.md).
+1. Determine y confirme a qué versión de Adobe Campaign desea actualizar. Consulte las [notas de la versión de Adobe Campaign Classic](../../rn/using/rn-overview.md).
 1. Confirme la posesión de ejecutables de actualización.
 
 ### Personas clave
@@ -84,26 +84,26 @@ Antes de iniciar la actualización de la compilación, los clientes locales debe
 
 1. Realizar una copia de seguridad completa de las bases de datos para todas las instancias de los entornos de origen y destino.
 
-1. Obtenga la versión más reciente de su [archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md).
+1. Obtenga la última versión de su [archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md).
 
-1. [Descargar la última versión](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html). [Más información](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es).
+1. [Descargar la última compilación](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html). [Más información](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es).
 
-También necesita conocer todos los [líneas de comandos útiles](../../installation/using/command-lines.md) antes de iniciar una actualización de compilación:
+También necesita conocer todas las [líneas de comandos útiles](../../installation/using/command-lines.md) antes de iniciar una actualización de compilación:
 
 * **nlserver pdump**: enumera los procesos en ejecución
 * **nlserver pdump -who**: enumera las sesiones de cliente activas
-* **Falta el monitor nlserver.**: faltan propiedades en la lista
+* **nlserver monitor -missing**: faltan propiedades
 * **nlserver start process@instance-name**: inicia un proceso
 * **nlserver stop process@instance-name**: detiene un proceso
 * **nlserver restart process@instance-name**: reinicia un proceso
-* **apagado de nlserver**: detiene todos los procesos de Campaign
-* **nlserver watchdog -svc**: inicia el vigilante (solo UNIX)
+* **nlserver shutdown**: detiene todos los procesos de Campaign
+* **nlserver watchdog -svc**: inicia el watchdog (solo UNIX)
 
 ## Realización de la actualización
 
 ![](assets/do-not-localize/icon_process.png)
 
-Los procedimientos siguientes solo los realiza **on-premise** clientes. Para los clientes alojados, el equipo de alojamiento se encarga de ello. A continuación se describe el procedimiento detallado para actualizar Adobe Campaign a una nueva versión.
+Los procedimientos que se indican a continuación solamente los realizan **clientes locales**. Para los clientes alojados, el equipo de alojamiento se encarga de ello. A continuación se describe el procedimiento detallado para actualizar Adobe Campaign a una nueva versión.
 
 ### Duplicación del entorno
 
@@ -115,7 +115,7 @@ Para realizar esto, siga los pasos a continuación:
 
 1. Restaure estas copias en todas las instancias del entorno de destino.
 
-1. Ejecute el **nms:congelaciónInstance.js** script de cauterización en el entorno de destino antes de iniciarlo. Esto detendrá todos los procesos que interactúan con el exterior: registros, seguimiento, envíos, flujos de trabajo de campaña, etc.
+1. Ejecute el script de cauterización **nms:congelaciónInstance.js** en el entorno de destino antes de iniciarlo. Esto detendrá todos los procesos que interactúan con el exterior: registros, seguimiento, envíos, flujos de trabajo de campaña, etc.
 
    ```
    nlserverjavacsriptnms:freezeInstance.js–instance:<dev> -arg:run
@@ -123,7 +123,7 @@ Para realizar esto, siga los pasos a continuación:
 
 1. Compruebe la cauterización como se indica a continuación:
 
-   * Compruebe que la única parte del envío sea la que tenga el ID establecido en. **0**:
+   * Compruebe que la única parte del envío sea la que tiene el identificador establecido en **0**:
 
      ```
      SELECT * FROM neolane.nmsdeliverypart;
@@ -148,15 +148,15 @@ Para reemplazar todos los archivos con la nueva versión, es necesario cerrar to
 
 1. Cierre los siguientes servicios:
 
-   * Servicios Web (IIS): **iisreset /stop**
-   * Servicio de Adobe Campaign: **net stop nlserver6**
+   * Servicios web (IIS): **iisreset /stop**
+   * servicio Adobe Campaign: **net stop nlserver6**
 
    >[!NOTE]
    >
    >Asegúrese de que el servidor de redirección (webmdl) esté detenido para que el archivo nlsrvmod.dll utilizado por IIS pueda reemplazarse por la nueva versión.
    >
 
-1. Valide que no haya tareas activas ejecutando la variable **nlserver pdump** comando. Si no hay tareas, el resultado debe ser similar al siguiente:
+1. Valide que no haya tareas activas ejecutando el comando **nlserver pdump**. Si no hay tareas, el resultado debe ser similar al siguiente:
 
    ```
    C:\<installation path>\bin>nlserverpdump HH:MM:SS > Application Server for Adobe Campaign version x.x (build xxx) dated xx/xx/xxxx No tasks
@@ -166,13 +166,13 @@ Para reemplazar todos los archivos con la nueva versión, es necesario cerrar to
 
 ### Actualizar la aplicación de Adobe Campaign Server
 
-1. Ejecute el **Setup.exe** archivo. Si necesita descargar este archivo, acceda a [el Centro de descargas](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html).
+1. Ejecute el archivo **Setup.exe**. Si necesita descargar este archivo, obtenga acceso a [el centro de descargas](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html).
 
 1. Seleccione el modo de instalación: **Actualizar** o **Reparar**.
 
 1. Haga clic en **Next**.
 
-1. Clic **Finalizar**: el programa de instalación copia los nuevos archivos.
+1. Haga clic en **Finalizar**: el programa de instalación copia los nuevos archivos.
 
 1. Una vez finalizada la operación, haga clic en **Finalizar**.
 
@@ -180,7 +180,7 @@ Para reemplazar todos los archivos con la nueva versión, es necesario cerrar to
 
 1. Abra la línea de comandos.
 
-1. Ejecutar **nlserver config -postupgrade -allinstances** para realizar lo siguiente:
+1. Ejecute **nlserver config -postupgrade -allinstances** para realizar lo siguiente:
 
    * Sincronización de recursos
    * Actualización de esquemas
@@ -203,8 +203,8 @@ Para reemplazar todos los archivos con la nueva versión, es necesario cerrar to
 
 Es necesario reiniciar los siguientes servicios:
 
-* Servicios Web (IIS): **issreset /start**
-* Servicio de Adobe Campaign: **net start nlserver6**
+* Servicios web (IIS): **issreset /start**
+* servicio Adobe Campaign: **net start nlserver6**
 
 ### Actualización de consolas de cliente
 
@@ -242,7 +242,7 @@ Cuando la mensajería transaccional (centro de mensajes) está habilitada en la 
    * Desconectar y volver a conectar
    * Realizar una comprobación rápida de los flujos de trabajo
 
-1. Publique las plantillas del Centro de mensajes para asegurarse de que la interfaz entre los servidores y la instancia del Centro de mensajes funcione.
+1. Plantillas del Centro de mensajes de Publish para garantizar que la interfaz entre los servidores y la instancia del Centro de mensajes funcione.
 1. Ejecute pruebas para asegurarse de que los correos electrónicos se reciben correctamente a través de la instancia de producción del Centro de mensajes.
 1. Ejecute pruebas de flujo de trabajo en producción para asegurarse de que se reciben los envíos.
 
@@ -250,7 +250,7 @@ Cuando la mensajería transaccional (centro de mensajes) está habilitada en la 
 
 En el contexto de un entorno de intermediario, debe realizar estos pasos adicionales para actualizar:
 
-1. Contacto [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para coordinar la actualización del servidor intermediario.
+1. Póngase en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para coordinar la actualización del servidor intermediario.
 1. Compruebe que la versión se ha actualizado ejecutando un vínculo de prueba. Por ejemplo:
 
    ```
@@ -281,7 +281,7 @@ YYYY-MM-DD HH:MM:SS.750Z 00002E7A 1 warning log Document of identifier 'nms:incl
 
 Si la advertencia se refiere a un conflicto de recursos, se requiere la atención del usuario para resolverlo.
 
-El **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** contiene el resultado de la sincronización. Está disponible de forma predeterminada en el siguiente directorio: **installationDirectory/var/`<instance-name>`/postupgrade**. Los errores y las advertencias se indican mediante los atributos de error y advertencia.
+El archivo **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** contiene el resultado de la sincronización. Está disponible de manera predeterminada en el siguiente directorio: **installationDirectory/var/`<instance-name>`/postupgrade**. Los errores y las advertencias se indican mediante los atributos de error y advertencia.
 
 ### Analizar conflictos
 
@@ -317,10 +317,10 @@ Si no se aplica ninguna de estas condiciones, se trata de un falso positivo. Si 
 
 Para resolver conflictos, siga el siguiente proceso:
 
-1. En el explorador de Adobe Campaign, vaya a **Administration > Configuration > Package management > Edit conflicts**.
+1. En el explorador de Adobe Campaign, vaya a **Administración > Configuración > Administración de paquetes > Editar conflictos**.
 
 1. Seleccione el conflicto que desee resolver en la lista.
-Existen tres opciones para resolver conflictos: **Aceptar la nueva versión**, **Mantener la versión actual**, **Combine el código (y declare como resuelto)**, **Ignorar el conflicto (no recomendado)**.
+Hay tres opciones para resolver conflictos: **Aceptar la nueva versión**, **Mantener la versión actual**, **Combinar el código (y declarar como resuelto)**, **Ignorar el conflicto (no recomendado)**.
 
 **¿Cuándo puedo aceptar la nueva versión?**
 
@@ -333,14 +333,14 @@ Existen tres opciones para resolver conflictos: **Aceptar la nueva versión**, *
 * Si no desea realizar la combinación
 * Si no necesita ninguna corrección en el objeto en conflicto de la actualización
 
-**¿Cuándo se debe realizar una combinación?**
+**¿Cuándo realizar una combinación?**
 
 * Solo se pueden combinar formularios, informes y aplicaciones web.
 * Algunas combinaciones menores se pueden resolver sin comprender el código.
 * Las combinaciones más complejas deben ser realizadas por alguien con las habilidades y capacidades adecuadas.
-* Consulte [Realización de una combinación](#perform-a-merge).
+* Ver [Realizar una combinación](#perform-a-merge).
 
-**¿Qué pasa si ignoro los conflictos?**
+**¿Qué sucede si se ignoran los conflictos?**
 
 * El conflicto se mantendrá
 * El objeto no se actualizará
@@ -357,7 +357,7 @@ Existen diferentes tipos de combinaciones:
 1. Fácil combinación: los elementos personalizados y nuevos son pequeños y no están relacionados, y no se requiere codificación.
 1. Sin cambios: aceptar nueva versión, solo se cambió la fecha de la última actualización, solo comentarios, pestañas, espacios o líneas nuevas. Ejemplo: guardado accidental.
 1. Cambios triviales: solo cambió una línea. Ejemplo: xpathToLoad
-1. Combinación compleja: cuando se requiere codificación. Se requieren habilidades de desarrollo. Consulte [Combinaciones complejas](#complex-merges).
+1. Combinación compleja: cuando se requiere codificación. Se requieren habilidades de desarrollo. Ver [combinaciones complejas](#complex-merges).
 
 #### ¿Cómo combinar?
 
@@ -369,8 +369,8 @@ Existen diferentes tipos de combinaciones:
 #### ¿Dónde encontrar el código?
 
 1. El código integrado se almacena en archivos XML en la carpeta de conjuntos de datos. Busque el archivo XML que coincida con el objeto en conflicto. Ejemplo: installationDirectory\datakit\nms\fra\form\recipient.xml
-1. Recupere la versión original: a través de la [Centro de descargas](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) u otra instalación no actualizada del producto.
-1. Recupere la nueva versión: a través de la [Centro de descargas](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) o los archivos instalados del cliente.
+1. Recupere la versión original: a través del [Centro de descargas](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) u otra instalación no actualizada del producto.
+1. Recupere la nueva versión: a través del [Centro de descargas](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) o de los archivos instalados del cliente.
 1. Recupere la versión personalizada: recupere el código fuente del objeto desde el cliente de Campaign.
 
 ### ¿Cómo hacer una diferencia?
@@ -389,9 +389,9 @@ Existen diferentes tipos de combinaciones:
 
 Si decide resolver el conflicto manualmente, siga este procedimiento:
 
-1. En la sección inferior de la ventana, busque la variable **_Conflict_string_** para localizar las entidades con conflictos. La entidad instalada con la nueva versión contiene el nuevo argumento; la entidad que coincide con la versión anterior contiene el argumento personalizado.
-1. Elimine la versión que no desee conservar. Elimine el **_Conflict_argument_** cadena de la entidad que está conservando.
-1. Vaya al conflicto que ha resuelto. Haga clic en **Acciones** y seleccione **Declarar como resuelto**.
+1. En la sección inferior de la ventana, busque **_conflicts_string_** para localizar las entidades con conflictos. La entidad instalada con la nueva versión contiene el nuevo argumento; la entidad que coincide con la versión anterior contiene el argumento personalizado.
+1. Elimine la versión que no desee conservar. Elimine la cadena **_Conflict_argument_** de la entidad que está conservando.
+1. Vaya al conflicto que ha resuelto. Haga clic en el icono **Acciones** y seleccione **Declarar como resuelto**.
 1. Guarde los cambios: el conflicto se ha resuelto.
 
 #### Combinaciones complejas{#complex-merges}

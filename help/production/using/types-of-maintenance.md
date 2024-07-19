@@ -3,7 +3,7 @@ product: campaign
 title: Tipos de mantenimiento
 description: Tipos de mantenimiento
 feature: Monitoring
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
@@ -11,7 +11,7 @@ exl-id: 08e179aa-fd83-4c0a-879e-ab7aec168d92
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 ## Mantenimiento de aplicaciones {#application-maintenance}
 
-Adobe Campaign proporciona un flujo de trabajo integrado que le permite programar determinadas tareas de mantenimiento de la base de datos: **flujo de trabajo limpieza base datos**. Este flujo de trabajo realiza las siguientes tareas:
+Adobe Campaign proporciona un flujo de trabajo integrado que le permite programar ciertas tareas de mantenimiento de la base de datos: el **flujo de trabajo de limpieza de la base de datos**. Este flujo de trabajo realiza las siguientes tareas:
 
 * eliminación de registros caducados,
 * eliminación de registros huérfanos y reinicio de estados para objetos caducados,
@@ -68,7 +68,7 @@ Hay varias estrategias disponibles:
   <tr> 
    <td> Desfragmentación en línea<br /> </td> 
    <td> La mayoría de los motores de base de datos proporcionan métodos de desfragmentación.<br /> </td> 
-   <td> Simplemente utilice el método de desfragmentación de la base de datos. Estos métodos suelen encargarse de los problemas de integridad bloqueando los datos durante la desfragmentación.<br /> </td> 
+   <td> Simplemente utilice el método de desfragmentación de la base de datos. Estos métodos normalmente se encargan de los problemas de integridad bloqueando los datos durante la desfragmentación.<br /> </td> 
    <td> Según la base de datos, estos métodos de desfragmentación se pueden proporcionar como una opción RDBMS (Oracle) y no siempre son la forma más eficaz de tratar con tablas más grandes.<br /> </td> 
   </tr> 
   <tr> 
@@ -79,8 +79,8 @@ Hay varias estrategias disponibles:
   </tr> 
   <tr> 
    <td> Duplicar, cambiar nombre y soltar<br /> </td> 
-   <td> Esto crea una copia de una tabla y sus índices, luego suelta el existente y cambia el nombre de la copia para que ocupe su lugar.<br /> </td> 
-   <td> Este método es más rápido que el primer enfoque, ya que genera menos E/S (sin copia como archivo y leer de este archivo).<br /> </td> 
+   <td> Esto crea una copia de una tabla y sus índices, luego borra la existente y cambia el nombre de la copia para ocupar su lugar.<br /> </td> 
+   <td> Este método es más rápido que el primero, ya que genera menos E/S (no se puede copiar como archivo y leer de este archivo).<br /> </td> 
    <td> Requiere el doble de espacio.<br /> Se deben detener todos los procesos activos que escriben en la tabla durante el proceso. Sin embargo, los procesos de lectura no se verán afectados, ya que la tabla se intercambia en el último momento una vez reconstruida. <br /> </td> 
   </tr> 
  </tbody> 

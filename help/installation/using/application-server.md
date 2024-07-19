@@ -25,11 +25,11 @@ Java Development Kit, o JDK, es un kit de desarrollo de software. Es el componen
 
 El generador de páginas web dinámicas utiliza la tecnología JSP. Para ello, se incluye un motor Tomcat (de Apache) en la aplicación. Requiere un kit de desarrollo de Java (JDK) instalado en todos los servidores en los que está instalada la aplicación de Adobe Campaign.
 
-Primero debe instalar un JDK en los equipos en los que desea ejecutar el servidor de aplicaciones de Adobe Campaign (**nlserver web** ) porque incorpora un contenedor de servlet, Apache Tomcat, utilizado para generar páginas web dinámicas (informes, formularios web, etc.).
+Primero debe instalar un JDK en los equipos en los que desea ejecutar el servidor de aplicaciones de Adobe Campaign (**nlserver web** process) porque incorpora un contenedor de servlet, Apache Tomcat, que se utiliza para generar páginas web dinámicas (informes, formularios web, etc.).
 
-La aplicación ha sido aprobada para el Kit de Desarrollo de Java (JDK) desarrollado por el Oracle, así como para **OpenJDK**.
+La aplicación ha sido aprobada para el Kit de Desarrollo de Java (JDK) desarrollado por Oracle y para **OpenJDK**.
 
-Las versiones compatibles se detallan en Campaign [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
+Las versiones compatibles se detallan en Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
 
 >[!AVAILABILITY]
@@ -47,18 +47,18 @@ Al instalar y actualizar el kit de desarrollo de Java, aplique las siguientes re
 
 * Al instalar el JDK, no es necesaria la integración con los exploradores web.
 
-* En un equipo que solo ejecuta agentes de envío (**mta de nlserver** ) o el servidor de flujo de trabajo (**nlserver wfserver** ), no es necesario instalar un JDK.
+* En un equipo que solo ejecute agentes de envío (proceso **nlserver mta**) o el servidor de flujo de trabajo (proceso **nlserver wfserver**), no es necesario instalar un JDK.
 
 * Al actualizar la versión de Java, primero debe desinstalar la versión anterior. Ambas versiones de Java instaladas en el mismo equipo pueden causar conflictos.
 
-  Como cliente On-Premise, puede comprobar las `LD_LIBRARY_PATH` [variable de entorno](installing-packages-with-linux.md#environment-variables) se establece en la última versión (por ejemplo, java11). Si se establece en una versión anterior (por ejemplo, Java8), por lo que debe actualizarse. Para JDK 11, la ruta para localizar bibliotecas JDK es `/usr/lib/jvm/java-11-openjdk-amd64/lib`.
+  Como cliente On-Premise, puede comprobar que la `LD_LIBRARY_PATH` [variable de entorno](installing-packages-with-linux.md#environment-variables) está configurada con la última versión (por ejemplo, java11). Si se establece en una versión anterior (por ejemplo, Java8), por lo que debe actualizarse. Para JDK 11, la ruta para localizar bibliotecas JDK es `/usr/lib/jvm/java-11-openjdk-amd64/lib`.
 
 
 ### Pasos de instalación
 
 El kit de desarrollo de Java es específico de la plataforma: se necesitan instaladores independientes para cada sistema operativo.
 
-Para descargar el JDK, conéctese a [sitio web de oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
+Para descargar el JDK, conéctese a [sitio web de Oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -85,9 +85,9 @@ dnf install java-11-openjdk-headless
 
 Puede utilizar Adobe Campaign para exportar informes a Microsoft Excel y Adobe PDF.
 
-* Para el formato de Microsoft Excel, Adobe Campaign se basa en **LibreOffice**.
+* Para el formato Microsoft Excel, Adobe Campaign se basa en **LibreOffice**.
 
-* Para el formato Adobe PDF, Adobe Campaign utiliza el **PhantomJS** convertidor. PhantomJs está incluido en el paquete de fábrica y LibreOffice debe instalarse en los equipos en los que se ejecuta el servidor de aplicaciones de Adobe Campaign (**nlserver web** proceso).
+* Para el formato Adobe PDF, Adobe Campaign usa el convertidor **PhantomJS**. PhantomJs se incluye en el paquete de fábrica y LibreOffice debe instalarse en los equipos en los que se ejecuta el servidor de aplicaciones de Adobe Campaign (proceso web **nlserver**).
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ SpamAssassin le permite asignar una puntuación a los correos electrónicos para
 
 La calificación de correos electrónicos como no deseados por SpamAssassin se basa completamente en reglas de filtrado y puntuación. Por lo tanto, estas reglas deben actualizarse al menos una vez al día para que la instalación de SpamAssassin y su integración en Adobe Campaign sean completamente funcionales y garanticen la relevancia de las puntuaciones asignadas a los envíos antes de enviarlos. Esta actualización es responsabilidad del administrador del servidor que aloja SpamAssassin.
 
-La versión mínima admitida es: **3,4**
+La versión mínima admitida es: **3.4**
 
 SpamAssassin requiere un acceso a Internet HTTP (tcp/80).
 

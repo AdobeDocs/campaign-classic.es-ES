@@ -43,7 +43,7 @@ Este elemento permite definir un índice vinculado a una tabla.
 
 Es posible definir varios índices. Un índice puede hacer referencia a uno o varios campos de la tabla. La declaración de índice suele seguir la definición del elemento de esquema principal.
 
-El orden de los `<keyfield>` elementos definidos en una `<dbindex>` es muy importante. El primero `<keyfield>` debe ser el criterio de indexación en el que se basan principalmente las consultas.
+El orden de los elementos de `<keyfield>` definidos en `<dbindex>` es muy importante. El primer `<keyfield>` debe ser el criterio de indexación en el que se basan principalmente las consultas.
 
 El nombre del índice en la base de datos se calcula concatenando el nombre de la tabla y el nombre del índice. Por ejemplo: Nombre de tabla &quot;Sample&quot;, Espacio de nombres &quot;Cus&quot;, nombre de índice &quot;MyIndex&quot;-> nombre del campo de índice durante la creación del índice que realiza la consulta: &quot;CusSample_myIndex&quot;.
 
@@ -61,14 +61,14 @@ El nombre del índice en la base de datos se calcula concatenando el nombre de l
    * &quot;update&quot;: update. Esto significa que Adobe Campaign actualizará el elemento o generará un error si no existe.
    * &quot;eliminar&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará elementos.
 
-* **applyIf (cadena)**: condición para tener en cuenta el índice que recibe una expresión XTK.
-* **label (cadena)**: etiqueta de índice.
+* **applyIf (string)**: condición para tener en cuenta el índice: recibe una expresión XTK.
+* **etiqueta (cadena)**: etiqueta de índice.
 * **nombre (MNTOKEN)**: nombre de índice único.
-* **único (booleano)**: si esta opción está activada (@unique=&quot;true&quot;), el atributo garantiza la exclusividad del índice en todos sus campos.
+* **unique (boolean)**: si esta opción está activada (@unique=&quot;true&quot;), el atributo garantiza la exclusividad del índice en todos sus campos.
 
 ## Ejemplos {#examples-3}
 
-Creación de un índice en el campo ID. (el atributo &quot;@unique&quot; de la variable `<dbindex>` déclencheur de elementos agregar la palabra clave SQL &quot;UNIQUE&quot; cuando se crea el índice en la base de datos (consulta).
+Creación de un índice en el campo ID. (el atributo &quot;@unique&quot; del elemento `<dbindex>` déclencheur la adición de la palabra clave SQL &quot;UNIQUE&quot; cuando se crea el índice en la base de datos (query)).
 
 ```
 <element label="Sample" name="Sample">

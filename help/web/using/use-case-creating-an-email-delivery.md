@@ -2,13 +2,13 @@
 product: campaign
 title: 'Caso de uso: creación de una entrega por correo electrónico'
 description: 'Caso de uso: creación de una entrega por correo electrónico'
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
 source-wordcount: '747'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

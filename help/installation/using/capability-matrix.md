@@ -19,7 +19,7 @@ Adobe Campaign Classic incluye un conjunto de módulos y opciones. La disponibil
 
 Esta página muestra las principales diferencias entre implementaciones alojadas (Managed Services) y locales. Las especificidades de las implementaciones híbridas dependen de los elementos alojados por el Adobe y alojados en sus instalaciones.
 
-Se presentan los diferentes modelos de alojamiento [en esta sección](../../installation/using/hosting-models.md).
+Los diferentes modelos de alojamiento se introdujeron [en esta sección](../../installation/using/hosting-models.md).
 
 ## Disponibilidad por modelo de implementación {#capability-matrix}
 
@@ -41,7 +41,7 @@ Se presentan los diferentes modelos de alojamiento [en esta sección](../../inst
 
 ## Acceso de datos federado{#fda}
 
-Adobe Campaign proporciona el **Acceso de datos federado** (FDA) para procesar la información almacenada en una o más bases de datos externas: puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign. [Más información](../../installation/using/about-fda.md)
+Adobe Campaign proporciona la opción **Acceso de datos federado** (FDA) para procesar la información almacenada en una o más bases de datos externas: puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign. [Más información](../../installation/using/about-fda.md)
 
 >[!CAUTION]
 >

@@ -49,30 +49,30 @@ Se debe declarar un vínculo en el esquema que contenga la clave externa de la t
 
 Los vínculos obedecen las siguientes reglas:
 
-* La definición de un vínculo se introduce en una **vincular**-type **`<element>`** con los atributos siguientes:
+* La definición de un vínculo se especifica en un **vínculo** de tipo **`<element>`** con los atributos siguientes:
 
-   * **name**: nombre del vínculo de la tabla de origen
-   * **destino**: nombre del esquema de destino
+   * **nombre**: nombre del vínculo de la tabla de origen
+   * **target**: nombre del esquema de destino
    * **etiqueta**: etiqueta del vínculo
-   * **revLink** (opcional): nombre del vínculo inverso del esquema de destinatario (deducido automáticamente de forma predeterminada)
-   * **integridad** (opcional): integridad referencial de la incidencia de la tabla de origen a la incidencia de la tabla de destino.
+   * **revLink** (opcional): nombre del vínculo inverso del esquema de destino (deducido automáticamente de forma predeterminada)
+   * **integridad** (opcional): integridad referencial de la aparición de la tabla de origen a la aparición de la tabla de destino.
 Los valores posibles son:
 
-      * **definir**: es posible eliminar la incidencia de origen si una incidencia de destino ya no hace referencia a ella
-      * **normal**: al eliminar la incidencia de origen se inicializan las claves del vínculo a la incidencia de destino (modo predeterminado), este tipo de integridad inicializa todas las claves externas
-      * **poseer**: al eliminar la ocurrencia de origen, se elimina la ocurrencia de destino
-      * **owncopy**: igual que **poseer** (en caso de eliminación) o duplica las ocurrencias (en caso de duplicación)
-      * **neutral**: sin comportamiento específico
+      * **define**: es posible eliminar la ocurrencia de origen si una ocurrencia de destino ya no hace referencia a ella
+      * **normal**: al eliminar la ocurrencia de origen se inicializan las claves del vínculo a la ocurrencia de destino (modo predeterminado), este tipo de integridad inicializa todas las claves externas
+      * **propio**: al eliminar la ocurrencia de origen, se elimina la ocurrencia de destino
+      * **owncopy**: igual que **own** (en caso de eliminación) o duplica las ocurrencias (en caso de duplicación)
+      * **neutro**: sin comportamiento específico
 
    * **revIntegrity** (opcional): integridad en el esquema de destino (opcional, &quot;normal&quot; de forma predeterminada)
-   * **revCardinality** (opcional): con el valor &quot;single&quot; rellena la cardinalidad con tipo 1-1 (1-N de forma predeterminada)
+   * **revCardinality** (opcional): con el valor &quot;single&quot; rellena la cardinalidad con el tipo 1-1 (1-N de forma predeterminada)
    * **externalJoin** (opcional): fuerza la unión externa
    * **revExternalJoin** (opcional): fuerza la unión externa en el vínculo inverso
 
-* Un vínculo hace referencia a uno o varios campos de la tabla de origen a la tabla de destino. Los campos que componen la unión ( `<join>`  ) no es necesario rellenarlos porque se deducen automáticamente de forma predeterminada mediante la clave interna del esquema de destinatario.
+* Un vínculo hace referencia a uno o varios campos de la tabla de origen a la tabla de destino. No es necesario rellenar los campos que componen la combinación (elemento `<join>`) porque se deducen automáticamente de forma predeterminada mediante la clave interna del esquema de destino.
 * Se agrega automáticamente un índice a la clave externa del vínculo en el esquema ampliado.
 * Un vínculo consta de dos semirvínculos, en los que el primero se declara desde el esquema de origen y el segundo se crea automáticamente en el esquema ampliado del esquema de destino.
-* Una unión puede ser una unión externa si la variable **externalJoin** se agrega el atributo, con el valor &quot;true&quot; (admitido en PostgreSQL).
+* Una unión puede ser una unión externa si se agrega el atributo **externalJoin** con el valor &quot;true&quot; (admitido en PostgreSQL).
 
 >[!NOTE]
 >
@@ -137,8 +137,8 @@ Se ha añadido un vínculo inverso a la tabla &quot;cus:recipient&quot; con los 
 
 * **name**: se deduce automáticamente del nombre del esquema de origen (se puede forzar con el atributo &quot;revLink&quot; en la definición del vínculo en el esquema de origen)
 * **revLink**: nombre del vínculo inverso
-* **destino**: clave del esquema vinculado (esquema &quot;cus:recipient&quot;)
-* **libre**: el vínculo se declara como elemento de colección para una cardinalidad 1-N (de forma predeterminada)
+* **target**: clave de esquema vinculado (esquema &quot;cus:recipient&quot;)
+* **unbound**: el vínculo se declara como elemento de colección para una cardinalidad 1-N (de forma predeterminada)
 * **integridad**: &quot;definir&quot; de forma predeterminada (se puede forzar con el atributo &quot;revIntegrity&quot; en la definición del vínculo en el esquema de origen).
 
 ## Ejemplo: vínculo simple {#example-2}
@@ -176,7 +176,7 @@ El valor predeterminado devuelve el identificador del primer archivo de tipo de 
 
 ## Ejemplo: Creación de una clave en un vínculo {#example-5}
 
-En este ejemplo, creamos una clave en un vínculo (esquema &quot;empresa&quot; a &quot;cus:empresa&quot;) con **xlink** y un campo de la tabla (&quot;correo electrónico&quot;):
+En este ejemplo, creamos una clave en un vínculo (esquema &quot;company&quot; a &quot;cus:company&quot;) con el atributo **xlink** y un campo de la tabla (&quot;email&quot;):
 
 ```sql
 <srcSchema name="recipient" namespace="cus">

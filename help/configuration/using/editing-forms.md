@@ -4,7 +4,7 @@ title: Editar formularios
 description: Editar formularios
 feature: Configuration
 role: Data Engineer, Developer
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
@@ -25,7 +25,7 @@ Puede crear y modificar formularios de entrada:
 * Puede modificar los formularios de entrada de fábrica que se envían de forma predeterminada. Los formularios de entrada de fábrica se basan en los esquemas de datos de fábrica.
 * Puede crear formularios de entrada personalizados basados en esquemas de datos definidos.
 
-Forms son entidades de `xtk:form` escriba. Puede ver la estructura del formulario de entrada en la `xtk:form` esquema. Para ver este esquema, elija **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]** en el menú. Más información sobre [estructura del formulario](form-structure.md).
+Forms son entidades del tipo `xtk:form`. Puede ver la estructura del formulario de entrada en el esquema `xtk:form`. Para ver este esquema, elija **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]** en el menú. Más información sobre [estructura de formulario](form-structure.md).
 
 Para acceder a los formularios de entrada, elija **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]** en el menú:
 
@@ -37,7 +37,7 @@ Para diseñar formularios, edite el contenido XML en el editor XML:
 
 [Más información](form-structure.md#formatting).
 
-Para obtener una vista previa de un formulario, haga clic en **[!UICONTROL Preview]** pestaña:
+Para obtener una vista previa de un formulario, haga clic en la ficha **[!UICONTROL Preview]**:
 
 ![](assets/d_ncs_integration_form_preview.png)
 
@@ -53,7 +53,7 @@ Puede crear diferentes tipos de formularios de entrada. El tipo de formulario de
 
 * Administración de contenido
 
-  Utilice este tipo de formulario para la administración de contenido. Ver esto [caso de uso](../../delivery/using/use-case-creating-content-management.md).
+  Utilice este tipo de formulario para la administración de contenido. Ver este [caso de uso](../../delivery/using/use-case-creating-content-management.md).
 
   ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
@@ -98,17 +98,17 @@ Utilice contenedores para organizar el contenido de los formularios:
 * Puede agrupar los campos en secciones.
 * Puede agregar páginas a formularios de varias páginas.
 
-Para insertar un contenedor, utilice el `<container>` Elemento. [Más información](form-structure.md#containers).
+Para insertar un contenedor, use el elemento `<container>`. [Más información](form-structure.md#containers).
 
 #### Agrupar campos
 
 Utilice contenedores para agrupar los campos de entrada en secciones organizadas.
 
-Para insertar una sección en un formulario, utilice este elemento: `<container type="frame">`. Si lo desea, para añadir un título de sección, utilice el `label` atributo.
+Para insertar una sección en un formulario, utilice este elemento: `<container type="frame">`. Opcionalmente, para agregar un título de sección, use el atributo `label`.
 
 Sintaxis: `<container type="frame" label="`*section_title*`"> […] </container>`
 
-En este ejemplo, un contenedor define la variable **Creación** , que incluye la sección **[!UICONTROL Created by]** y **[!UICONTROL Name]** campos de entrada:
+En este ejemplo, un contenedor define la sección **Creation**, que comprende los campos de entrada **[!UICONTROL Created by]** y **[!UICONTROL Name]**:
 
 ```xml
 <form _cs="Coupons (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Coupons"
@@ -128,7 +128,7 @@ En este ejemplo, un contenedor define la variable **Creación** , que incluye la
 
 Para formularios de varias páginas, utilice un contenedor para crear una página de formulario.
 
-Este ejemplo muestra los contenedores de **General** y **Detalles** páginas de un formulario:
+Este ejemplo muestra contenedores para las páginas **General** y **Detalles** de un formulario:
 
 ```xml
 <container img="ncm:book.png" label="General">
@@ -151,11 +151,11 @@ Utilice contenedores para anidar formularios dentro de otros formularios. [Más 
 
 Para buscar imágenes, elija **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Images]** en el menú.
 
-Para asociar una imagen con un elemento del formulario, por ejemplo, un icono, puede añadir una referencia a una imagen. Utilice el `img` , por ejemplo, en la variable `<container>` Elemento.
+Para asociar una imagen con un elemento del formulario, por ejemplo, un icono, puede añadir una referencia a una imagen. Utilice el atributo `img`, por ejemplo, en el elemento `<container>`.
 
 Sintaxis: `img="`*`namespace`*`:`*`filename`*`.`*`extension`*`"`
 
-En este ejemplo se muestran referencias a la variable `book.png` y `detail.png` imágenes del `ncm` área de nombres:
+Este ejemplo muestra referencias a las imágenes `book.png` y `detail.png` del espacio de nombres `ncm`:
 
 ```xml
 <container img="ncm:book.png" label="General">
@@ -176,7 +176,7 @@ Estas imágenes se utilizan para iconos en los que los usuarios hacen clic para 
 Para crear un formulario, siga estos pasos:
 
 1. En el menú, elija **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]**.
-1. Haga clic en **[!UICONTROL New]** en la parte superior derecha de la lista.
+1. Haga clic en el botón **[!UICONTROL New]** en la parte superior derecha de la lista.
 
    ![](assets/input-form-create-1.png)
 
@@ -184,7 +184,7 @@ Para crear un formulario, siga estos pasos:
 
    * Especifique el nombre del formulario y el área de nombres.
 
-     El nombre del formulario y el área de nombres pueden coincidir con el esquema de datos relacionado.  Este ejemplo muestra un formulario para la `cus:order` esquema de datos:
+     El nombre del formulario y el área de nombres pueden coincidir con el esquema de datos relacionado.  Este ejemplo muestra un formulario para el esquema de datos `cus:order`:
 
      ```xml
      <form entitySchema="xtk:form" img="xtk:form.png" label="Order" name="order" namespace="cus" type="iconbox" xtkschema="xtk:form">
@@ -192,7 +192,7 @@ Para crear un formulario, siga estos pasos:
      </form>
      ```
 
-     También puede especificar explícitamente el esquema de datos en la variable `entity-schema` atributo.
+     También puede especificar explícitamente el esquema de datos en el atributo `entity-schema`.
 
      ```xml
      <form entity-schema="cus:stockLine" entitySchema="xtk:form" img="xtk:form.png" label="Stock order" name="stockOrder" namespace="cus" xtkschema="xtk:form">
@@ -205,15 +205,15 @@ Para crear un formulario, siga estos pasos:
 
      ![](assets/input-form-create-2.png)
 
-     Si está diseñando un formulario de varias páginas, puede omitir el tipo de formulario en la `<form>` y especifique el tipo en un contenedor.
+     Si está diseñando un formulario de varias páginas, puede omitir el tipo de formulario en el elemento `<form>` y especificar el tipo en un contenedor.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
 1. Inserte los elementos del formulario.
 
-   Por ejemplo, para insertar un campo de entrada, utilice el `<input>` Elemento. Configure las variables `xpath` a la referencia de campo como una expresión XPath. [Más información](schema-structure.md#referencing-with-xpath).
+   Por ejemplo, para insertar un campo de entrada, utilice el elemento `<input>`. Establezca el atributo `xpath` en la referencia de campo como una expresión XPath. [Más información](schema-structure.md#referencing-with-xpath).
 
-   Este ejemplo muestra campos de entrada basados en la variable `nms:recipient` esquema.
+   Este ejemplo muestra campos de entrada basados en el esquema `nms:recipient`.
 
    ```xml
    <input xpath="@firstName"/>
@@ -222,7 +222,7 @@ Para crear un formulario, siga estos pasos:
 
 1. Si el formulario se basa en un tipo de esquema específico, puede buscar los campos de este esquema:
 
-   1. Clic **[!UICONTROL Insert]** > **[!UICONTROL Document fields]**.
+   1. Haga clic en **[!UICONTROL Insert]** > **[!UICONTROL Document fields]**.
 
       ![](assets/input-form-create-4.png)
 
@@ -284,15 +284,15 @@ Para crear un formulario, siga estos pasos:
 
 Puede crear formularios de varias páginas. También puede anidar formularios dentro de otros formularios.
 
-### Crear un `iconbox` formulario
+### Crear un formulario `iconbox`
 
-Utilice el `iconbox` tipo de formulario para mostrar los iconos de la izquierda, que llevan a los usuarios a diferentes páginas del formulario.
+Utilice el tipo de formulario `iconbox` para mostrar los iconos a la izquierda del formulario, que llevarán a los usuarios a diferentes páginas del formulario.
 
 ![](assets/iconbox_form_preview.png)
 
 Para cambiar el tipo de un formulario existente a `iconbox`, siga estos pasos:
 
-1. Cambie el `type` atributo del `<form>` elemento a `iconbox`:
+1. Cambiar el atributo `type` del elemento `<form>` a `iconbox`:
 
    ```xml
    <form […] type="iconbox">
@@ -300,8 +300,8 @@ Para cambiar el tipo de un formulario existente a `iconbox`, siga estos pasos:
 
 1. Establezca un contenedor para cada página de formulario:
 
-   1. Añadir un `<container>` como elemento secundario del elemento `<form>` Elemento.
-   1. Para definir una etiqueta y una imagen para el icono, utilice la variable `label` y `img` atributos.
+   1. Agregue un elemento `<container>` como elemento secundario del elemento `<form>`.
+   1. Para definir una etiqueta y una imagen para el icono, use los atributos `label` y `img`.
 
       ```xml
       <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="iconbox" xtkschema="xtk:form">
@@ -320,17 +320,17 @@ Para cambiar el tipo de un formulario existente a `iconbox`, siga estos pasos:
       </form>
       ```
 
-   Como alternativa, quite el `type="frame"` atributo del existente `<container>` elementos.
+   Como alternativa, quite el atributo `type="frame"` de los elementos `<container>` existentes.
 
 ### Crear un formulario de bloc de notas
 
-Utilice el `notebook` tipo de formulario para mostrar las pestañas en la parte superior del formulario, que llevan a los usuarios a diferentes páginas.
+Utilice el tipo de formulario `notebook` para mostrar las fichas en la parte superior del formulario, que llevan a los usuarios a diferentes páginas.
 
 ![](assets/notebook_form_preview.png)
 
 Para cambiar el tipo de un formulario existente a `notebook`, siga estos pasos:
 
-1. Cambie el `type` atributo del `<form>` elemento a `notebook`:
+1. Cambiar el atributo `type` del elemento `<form>` a `notebook`:
 
    ```xml
    <form […] type="notebook">
@@ -338,8 +338,8 @@ Para cambiar el tipo de un formulario existente a `notebook`, siga estos pasos:
 
 1. Agregue un contenedor para cada página de formulario:
 
-   1. Añadir un `<container>` como elemento secundario del elemento `<form>` Elemento.
-   1. Para definir la etiqueta y la imagen del icono, utilice la variable `label` y `img` atributos.
+   1. Agregue un elemento `<container>` como elemento secundario del elemento `<form>`.
+   1. Para definir la etiqueta y la imagen para el icono, utilice los atributos `label` y `img`.
 
    ```xml
      <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="notebook" xtkschema="xtk:form">
@@ -358,7 +358,7 @@ Para cambiar el tipo de un formulario existente a `notebook`, siga estos pasos:
      </form>
    ```
 
-   Como alternativa, quite el `type="frame"` atributo del existente `<container>` elementos.
+   Como alternativa, quite el atributo `type="frame"` de los elementos `<container>` existentes.
 
 ### Anidar formularios
 
@@ -366,17 +366,17 @@ Puede anidar formularios dentro de otros formularios. Por ejemplo, puede anidar 
 
 Nivel de anidación que controla la navegación. Los usuarios pueden explorar en profundidad los subformularios.
 
-Para anidar un formulario dentro de otro formulario, inserte un `<container>` y configure el `type` al tipo de formulario. Para el formulario de nivel superior, puede establecer el tipo de formulario en un contenedor exterior o en la variable `<form>` Elemento.
+Para anidar un formulario dentro de otro formulario, inserte un elemento `<container>` y establezca el atributo `type` en el tipo de formulario. Para el formulario de nivel superior, puede establecer el tipo de formulario en un contenedor externo o en el elemento `<form>`.
 
 ### Ejemplo
 
 Este ejemplo muestra un formulario complejo:
 
-* El formulario de nivel superior es un formulario de cuadro de iconos. Este formulario consta de dos contenedores etiquetados **General** y **Detalles**.
+* El formulario de nivel superior es un formulario de cuadro de iconos. Este formulario consta de dos contenedores etiquetados como **General** y **Detalles**.
 
-  Como resultado, la forma externa muestra el **General** y **Detalles** páginas en el nivel superior. Para acceder a estas páginas, los usuarios hacen clic en los iconos de la izquierda del formulario.
+  Como resultado, el formulario externo muestra las páginas **General** y **Detalles** en el nivel superior. Para acceder a estas páginas, los usuarios hacen clic en los iconos de la izquierda del formulario.
 
-* El subformulario es un formulario de bloc de notas que está anidado en el **General** contenedor. El subformulario consta de dos contenedores etiquetados **Nombre** y **Contacto**.
+* El subformulario es un formulario de bloc de notas anidado en el contenedor **General**. El subformulario consta de dos contenedores con la etiqueta **Name** y **Contact**.
 
 ```xml
 <form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
@@ -399,21 +399,21 @@ Este ejemplo muestra un formulario complejo:
 </form>
 ```
 
-Como resultado, la variable **General** del formulario externo muestra la **Nombre** y **Contacto** pestañas.
+Como resultado, la página **General** del formulario externo muestra las fichas **Nombre** y **Contacto**.
 
 ![](assets/nested_forms_preview.png)
 
-Para anidar un formulario dentro de otro formulario, inserte un `<container>` y configure el `type` al tipo de formulario. Para el formulario de nivel superior, puede establecer el tipo de formulario en un contenedor exterior o en la variable `<form>` Elemento.
+Para anidar un formulario dentro de otro formulario, inserte un elemento `<container>` y establezca el atributo `type` en el tipo de formulario. Para el formulario de nivel superior, puede establecer el tipo de formulario en un contenedor externo o en el elemento `<form>`.
 
 ### Ejemplo
 
 Este ejemplo muestra un formulario complejo:
 
-* El formulario de nivel superior es un formulario de cuadro de iconos. Este formulario consta de dos contenedores etiquetados **General** y **Detalles**.
+* El formulario de nivel superior es un formulario de cuadro de iconos. Este formulario consta de dos contenedores etiquetados como **General** y **Detalles**.
 
-  Como resultado, la forma externa muestra el **General** y **Detalles** páginas en el nivel superior. Para acceder a estas páginas, los usuarios hacen clic en los iconos de la izquierda del formulario.
+  Como resultado, el formulario externo muestra las páginas **General** y **Detalles** en el nivel superior. Para acceder a estas páginas, los usuarios hacen clic en los iconos de la izquierda del formulario.
 
-* El subformulario es un formulario de bloc de notas que está anidado en el **General** contenedor. El subformulario consta de dos contenedores etiquetados **Nombre** y **Contacto**.
+* El subformulario es un formulario de bloc de notas anidado en el contenedor **General**. El subformulario consta de dos contenedores con la etiqueta **Name** y **Contact**.
 
 ```xml
 <form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
@@ -436,7 +436,7 @@ Este ejemplo muestra un formulario complejo:
 </form>
 ```
 
-Como resultado, la variable **General** del formulario externo muestra la **Nombre** y **Contacto** pestañas.
+Como resultado, la página **General** del formulario externo muestra las fichas **Nombre** y **Contacto**.
 
 ![](assets/nested_forms_preview.png)
 
@@ -461,9 +461,9 @@ Puede incluir controles de validación en los formularios.
 
 ### Conceder acceso de solo lectura a los campos
 
-Para conceder acceso de solo lectura a un campo, utilice el `readOnly="true"` atributo. Por ejemplo, es posible que desee mostrar la clave principal de un registro, pero con acceso de sólo lectura. [Más información](form-structure.md#non-editable-fields).
+Para conceder acceso de sólo lectura a un campo, utilice el atributo `readOnly="true"`. Por ejemplo, es posible que desee mostrar la clave principal de un registro, pero con acceso de sólo lectura. [Más información](form-structure.md#non-editable-fields).
 
-En este ejemplo, la clave principal (`iRecipientId`) del `nms:recipient` El esquema de se muestra en el acceso de solo lectura:
+En este ejemplo, la clave principal (`iRecipientId`) del esquema `nms:recipient` se muestra en el acceso de solo lectura:
 
 ```xml
 <value xpath="@iRecipientId" readOnly="true"/>
@@ -473,8 +473,8 @@ En este ejemplo, la clave principal (`iRecipientId`) del `nms:recipient` El esqu
 
 Puede comprobar la información obligatoria:
 
-* Utilice el `required="true"` para los campos obligatorios.
-* Utilice el `<leave>` para comprobar estos campos y mostrar mensajes de error.
+* Utilice el atributo `required="true"` para los campos obligatorios.
+* Utilice el nodo `<leave>` para comprobar estos campos y mostrar mensajes de error.
 
 En este ejemplo, la dirección de correo electrónico es obligatoria y se muestra un mensaje de error si el usuario no ha proporcionado esta información:
 
@@ -487,11 +487,11 @@ En este ejemplo, la dirección de correo electrónico es obligatoria y se muestr
 </leave>
 ```
 
-Más información sobre [campos de expresión](form-structure.md#expression-field) y [contexto de formulario](form-structure.md#context-of-forms).
+Obtenga más información sobre [campos de expresión](form-structure.md#expression-field) y [contexto de formulario](form-structure.md#context-of-forms).
 
 ### Validar valores
 
-Puede utilizar llamadas SOAP de JavaScript para validar datos de formulario desde la consola. Utilice estas llamadas para realizar validaciones complejas, por ejemplo, para comparar un valor con una lista de valores autorizados. [Más información](form-structure.md#soap-methods).
+Puede utilizar llamadas a JavaScript SOAP para validar datos de formulario desde la consola de. Utilice estas llamadas para realizar validaciones complejas, por ejemplo, para comparar un valor con una lista de valores autorizados. [Más información](form-structure.md#soap-methods).
 
 1. Cree una función de validación en un archivo JS.
 
@@ -509,13 +509,13 @@ Puede utilizar llamadas SOAP de JavaScript para validar datos de formulario desd
    }
    ```
 
-   En este ejemplo, la función se denomina `checkValue`. Esta función se utiliza para comprobar el `recipient` tipo de datos en `nms` namespace. El valor que se está comprobando se registra. Si el valor no es válido, se registra un mensaje de error. Si el valor es válido, se devuelve el valor 1.
+   En este ejemplo, la función se denomina `checkValue`. Esta función se usa para comprobar el tipo de datos `recipient` en el espacio de nombres `nms`. El valor que se está comprobando se registra. Si el valor no es válido, se registra un mensaje de error. Si el valor es válido, se devuelve el valor 1.
 
    Puede utilizar el valor devuelto para modificar el formulario.
 
-1. En el formulario, agregue `<soapCall>` al elemento `<leave>` Elemento.
+1. En el formulario, agregue el elemento `<soapCall>` al elemento `<leave>`.
 
-   En este ejemplo, se utiliza una llamada SOAP para validar el `@valueToCheck` cadena:
+   SOAP En este ejemplo, se usa una llamada de para validar la cadena `@valueToCheck`:
 
    ```xml
    <form name="recipient" (…)>
@@ -528,14 +528,14 @@ Puede utilizar llamadas SOAP de JavaScript para validar datos de formulario desd
    </form>
    ```
 
-   En este ejemplo, la variable `checkValue` y el método `nms:recipient` se utilizan estos servicios:
+   En este ejemplo, se utilizan el método `checkValue` y el servicio `nms:recipient`:
 
    * El servicio es el área de nombres y el tipo de datos.
    * El método es el nombre de la función. El nombre distingue entre mayúsculas y minúsculas.
 
    La llamada se realiza sincrónicamente.
 
-   Se muestran todas las excepciones. Si usa el `<leave>` , los usuarios no podrán guardar el formulario hasta que se valide la información introducida.
+   Se muestran todas las excepciones. Si utiliza el elemento `<leave>`, los usuarios no podrán guardar el formulario hasta que se valide la información introducida.
 
 Este ejemplo muestra cómo puede realizar llamadas de servicio desde formularios:
 
@@ -548,4 +548,4 @@ Este ejemplo muestra cómo puede realizar llamadas de servicio desde formularios
 </enter>
 ```
 
-En este ejemplo, la entrada es un ID, que es una clave principal. Cuando los usuarios rellenan el formulario para este ID, se realiza una llamada SOAP con este ID como parámetro de entrada. El resultado es un booleano que se escribe en este campo: `/tmp/@count`. Puede utilizar este booleano dentro del formulario. Más información sobre [contexto de formulario](form-structure.md#context-of-forms).
+En este ejemplo, la entrada es un ID, que es una clave principal. SOAP Cuando los usuarios rellenan el formulario de este ID, se realiza una llamada a la cuenta de la aplicación con este ID como parámetro de entrada. El resultado es un booleano escrito en este campo: `/tmp/@count`. Puede utilizar este booleano dentro del formulario. Más información sobre [contexto de formulario](form-structure.md#context-of-forms).

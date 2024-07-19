@@ -3,7 +3,7 @@ product: campaign
 title: Precisión de registro
 description: Precisión de registro
 feature: Monitoring
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,7 +11,7 @@ exl-id: c2470098-62f3-4fee-b1c5-800ed0e91f75
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,7 @@ Implica reiniciar los procesos con un nivel más alto de registros.
 
 Adobe Campaign puede funcionar con dos niveles de registro:
 
-1. El **Detallado** El modo es el primer nivel después del nivel estándar. El siguiente comando lo activa:
+1. El modo **Detallado** es el primer nivel después del nivel estándar. El siguiente comando lo activa:
 
    ```
    nlserver restart <MODULE_NAME> -verbose 
@@ -41,7 +41,7 @@ Adobe Campaign puede funcionar con dos niveles de registro:
    nlserver restart <MODULE_NAME> -noconsole
    ```
 
-1. El **TraceFilter** , que permite guardar el mayor número de registros. Se activa mediante el siguiente comando:
+1. El modo **TraceFilter**, que permite guardar el mayor número de registros. Se activa mediante el siguiente comando:
 
    ```
    nlserver stop <MODULE_NAME>; nlserver <MODULE_NAME> -verbose -tracefilter:*
@@ -49,9 +49,9 @@ Adobe Campaign puede funcionar con dos niveles de registro:
 
    >[!NOTE]
    >
-   >Si utiliza **tracefilter:&#42;**, todos los tipos de registro están activados: ncm, rdr, nms, jst, timing, wdbc, ldap, soap, xtk, xtkquery, session, xtkwriter, network, pop3, inmail\
-   Los tipos de registro más útiles son: **wdbc** (muestra todas las consultas SQL), **jabón** (muestra todas las llamadas SOAP), **ldap** (muestra todas las consultas LDAP después de la autenticación), **xtkquery** (muestra la lista de todos los querydef).\
-   Puede utilizarlos de forma individual (**tracefilter:soap,wdbc** por ejemplo). También puede activarlos todos y elegir excluir algunos otros: **-tracefilter:&#42;,!soap**
+   >Si usa **tracefilter:&#42;**, se activarán todos los tipos de registro: ncm, rdr, nms, jst, timing, wdbc, ldap, soap, xtk, xtkquery, session, xtkwriter, network, pop3, inmail\
+   SOAP Los tipos de registro más útiles son: **wdbc** (muestra todas las consultas SQL), **soap** (muestra todas las llamadas a la), **ldap** (muestra todas las consultas LDAP después de la autenticación), **xtkquery** (muestra la lista de todas las consultas def).\
+   Puede usarlos por separado (**tracefilter:soap,wdbc** por ejemplo). También puede activarlos todos y elegir excluir otros: **-tracefilter:&#42;,!soap**
 
    Compruebe que se ha producido el error y, a continuación, reinicie el proceso de forma normal:
 
@@ -71,7 +71,7 @@ Antes de enviar este comando, compruebe que ningún trabajo en curso se vea afec
 nlserver pdump -who
 ```
 
-A continuación, apague y reinicie el módulo en **TraceFilter** modo:
+A continuación, apague y reinicie el módulo en el modo **TraceFilter**:
 
 ```
 nlserver stop web; LD_PRELOAD=libjsig.so nlserver web -tomcat -verbose -tracefilter:* -tracefile:web_debug@default
@@ -85,7 +85,7 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 
 >[!NOTE]
 >
-El **Tracefile** El modo permite guardar los registros. En los ejemplos anteriores, los registros se guardan en la **var/`<instance-name>`/mta_debug.log** y **var/default/web_debug.log** archivos.
+El modo **Tracefile** le permite guardar los registros. En los ejemplos anteriores, los registros se guardan en los archivos **var/`<instance-name>`/mta_debug.log** y **var/default/web_debug.log**.
 
 >[!IMPORTANT]
 >

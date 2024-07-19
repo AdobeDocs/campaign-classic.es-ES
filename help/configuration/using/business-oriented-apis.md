@@ -18,7 +18,7 @@ Las API empresariales son específicas para cada tipo de objeto. Tienen un efect
 
 * Envíos:
 
-   * Creación de una acción de entrega, consulte [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-),
+   * Creando una acción de envío, consulte [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-),
    * envío de una campaña (inicio, pausa, parada, envío de prueba),
    * recuperando registros de envío.
 
@@ -27,7 +27,7 @@ Las API empresariales son específicas para cada tipo de objeto. Tienen un efect
    * inicio de un flujo de trabajo,
    * verificación de procesos, etc.
 
-     Consulte [Métodos SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
+     SOAP Consulte [métodos de en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
 
 * Gestión de contenido
 * Administración de suscripciones, consulte [Suscribirse (nms:subscription)](#subscribe--nms-subscription-) y [Cancelar suscripción (nms:subscription)](#unsubscribe--nms-subscription-).
@@ -37,7 +37,7 @@ Esta sección detalla el uso de los servicios &quot;Suscribirse&quot;, &quot;Can
 
 >[!IMPORTANT]
 >
->[Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es) contiene información adicional sobre las llamadas SOAP y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
+>SOAP [La documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es) contiene información adicional sobre las llamadas a la aplicación y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
 
 ## Suscribirse (nms:subscription) {#subscribe--nms-subscription-}
 
@@ -62,7 +62,7 @@ Descripción del método &quot;subscribe&quot; en el esquema &quot;nms:subscript
 </method>
 ```
 
-La definición de la clave de reconciliación debe introducirse mediante _**key** en el `<recipient>` del documento XML. El contenido de este atributo es una lista XPath separada por comas.
+La definición de la clave de reconciliación debe introducirse mediante el atributo _**key** en el elemento `<recipient>` del documento XML. El contenido de este atributo es una lista XPath separada por comas.
 
 Esta llamada no devuelve ningún dato, excepto errores.
 
@@ -80,7 +80,7 @@ Actualización del destinatario y de la suscripción.
 <recipient _key="email, [folder-id]" email= "john.doe@adobe.com" folder-id="1305" firstName="John" lastName="Doe"/>
 ```
 
-### Ejemplo de mensajes SOAP {#example-of-soap-messages}
+### SOAP Ejemplo de mensajes de {#example-of-soap-messages}
 
 * Consulta:
 
@@ -133,7 +133,7 @@ Descripción del método &quot;Unsubscribe&quot; en el esquema &quot;nms:subscri
 </method>
 ```
 
-La definición de la clave de reconciliación debe introducirse mediante el atributo _key en `<recipient>` del documento XML. El contenido de este atributo es una lista XPath separada por comas.
+La definición de la clave de reconciliación debe introducirse mediante el atributo _key en el elemento `<recipient>` del documento XML. El contenido de este atributo es una lista XPath separada por comas.
 
 Si el destinatario no está presente en la base de datos o no está suscrito al servicio informativo en cuestión, el servicio no realiza ninguna acción y no genera un error.
 
@@ -143,7 +143,7 @@ Si el destinatario no está presente en la base de datos o no está suscrito al 
 
 Esta llamada no devuelve ningún dato, excepto errores.
 
-### Ejemplo de mensajes SOAP {#example-of-soap-messages-1}
+### SOAP Ejemplo de mensajes de {#example-of-soap-messages-1}
 
 Consulta:
 
@@ -204,7 +204,7 @@ Esta llamada no devuelve ningún dato, excepto errores.
 
 ### Ejemplo de documento XML {#xml-document-example}
 
-Este ejemplo se basa en una plantilla de envío personalizada de una fuente de datos externa (un archivo en este caso). La configuración se describe completamente en la plantilla de envíos, por lo que lo único que queda por enviar cuando se produce la llamada es el contenido del archivo desde el `<externalsource>` Elemento.
+Este ejemplo se basa en una plantilla de envío personalizada de una fuente de datos externa (un archivo en este caso). La configuración se describe completamente en la plantilla de envíos, por lo que lo único que queda por enviar cuando se realice la llamada es el contenido del archivo del elemento `<externalsource>`.
 
 ```
 <delivery>

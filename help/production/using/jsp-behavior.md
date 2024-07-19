@@ -19,7 +19,7 @@ ht-degree: 36%
 
 
 
-Si es cierto **jsp** los trabajos no se ejecutan correctamente, debe forzarlos a volver a compilar.
+Si ciertos trabajos de **jsp** no se han ejecutado correctamente, debe forzar su recompilación.
 
 Para ello, introduzca los siguientes comandos:
 
@@ -30,4 +30,4 @@ rm -r work/
 nlserver start web
 ```
 
-El **jsp** los trabajos se regeneran la próxima vez que se conecte.
+Los trabajos de **jsp** se regenerarán la próxima vez que se conecte.

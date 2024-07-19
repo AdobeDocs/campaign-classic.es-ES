@@ -26,11 +26,11 @@ La configuración técnica y de software necesaria para instalar Adobe Campaign 
 Como recordatorio, los siguientes componentes deben instalarse y configurarse correctamente:
 
 * Apache, consulte [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md),
-* Java JDK y OpenJDK, consulte [Kit de desarrollo de Java: JDK](../../installation/using/application-server.md#jdk),
+* Java JDK y OpenJDK, consulte [Kit de desarrollo de Java - JDK](../../installation/using/application-server.md#jdk),
 * Bibliotecas, consulte [Bibliotecas](#libraries),
-* Capas de acceso a bases de datos, consulte [Capas de acceso a base de datos](#database-access-layers),
-* LibreOffice, consulte [Instalación de LibreOffice para Debian](#installing-libreoffice-for-debian) y [Instalación de LibreOffice para CentOS](#installing-libreoffice-for-centos),
-* Fuentes, consulte [Fuentes para estadísticas de MTA](#fonts-for-mta-statistics) y [Fuentes para instancias japonesas](#fonts-for-japanese-instances).
+* Capas de acceso a bases de datos, consulte [Capas de acceso a bases de datos](#database-access-layers),
+* LibreOffice, consulte [Instalación de LibreOffice para Debian](#installing-libreoffice-for-debian) e [Instalación de LibreOffice para CentOS](#installing-libreoffice-for-centos),
+* Fuentes, consulte [Fuentes para estadísticas de MTA](#fonts-for-mta-statistics) y [Fuentes para instancias de japonés](#fonts-for-japanese-instances).
 
 
 ### Bibliotecas {#libraries}
@@ -47,7 +47,7 @@ Para instalar Adobe Campaign en Linux, asegúrese de tener la bibliotecas necesa
 
   Para las distribuciones RHEL, se requiere la versión 1.0 de OpenSSL.
 
-* Para utilizar Adobe Campaign, debe tener el **libicu** biblioteca instalada.
+* Para usar Adobe Campaign, debes tener instalada la biblioteca **libicu**.
 
 ### SELinux {#selinux}
 
@@ -59,7 +59,7 @@ Para ello, inicie sesión como root e introduzca el siguiente comando:
 echo 0 >/selinux/enforce
 ```
 
-Además de esto, en la variable **/etc/sysconfig/httpd** , se agregó la siguiente línea para hacer referencia al script de configuración del entorno de Adobe Campaign:
+Además, en el archivo **/etc/sysconfig/httpd**, se agregó la línea siguiente para hacer referencia al script de configuración del entorno de Adobe Campaign:
 
 ```
 . ~neolane/nl6/env.sh
@@ -67,9 +67,9 @@ Además de esto, en la variable **/etc/sysconfig/httpd** , se agregó la siguien
 
 En RHEL y CentOS, los problemas de compatibilidad con las capas de cliente de bases de datos se observaron cuando SELinux está habilitado. Para asegurarse de que Adobe Campaign puede funcionar correctamente, se recomienda desactivar SELinux.
 
-**Siga el siguiente proceso:**
+**Aplicar el proceso siguiente:**
 
-* Editar el archivo **/etc/selinux/config**
+* Edite el archivo **/etc/selinux/config**
 
 * Modifique la línea SELINUX de la siguiente manera:
 
@@ -138,15 +138,15 @@ yum install libreoffice-headless libreoffice-writer libreoffice-calc
 
 Las capas de acceso para el motor de base de datos que está utilizando deben estar instaladas en su servidor y ser accesibles a través del Adobe Campaign cuenta. Las versiones y los modos de instalación pueden variar según el motor de base de datos utilizado.
 
-La versión piloto admitida se detalla en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
+Las versiones piloto compatibles se detallan en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 
-Compruebe también la información general [Base de datos](../../installation/using/database.md) sección.
+Compruebe también la sección general [Base de datos](../../installation/using/database.md).
 
 ### PostgreSQL {#postgresql}
 
-Adobe Campaign es compatible con todas las versiones de las bibliotecas de cliente PostgreSQL de la versión 9.6: **libpq.so.5**.
+Adobe Campaign admite todas las versiones de las bibliotecas de cliente PostgreSQL de la versión 9.6: **libpq.so.5**.
 
-El uso de PostgreSQL con Adobe Campaign también requiere la instalación del correspondiente **pgcrypto** bibliotecas.
+El uso de PostgreSQL con Adobe Campaign también requiere la instalación de las bibliotecas **pgcrypto** correspondientes.
 
 ### Oracle {#oracle}
 
@@ -156,7 +156,7 @@ Puede obtener un paquete RPM de Linux de Oracle Technology Network.
 
 >[!NOTE]
 >
->Si ya ha instalado el cliente de Oracle pero el entorno global (para instancia: /etc/perfil) no está configurado correctamente, puede agregar la **información que falta al script nl6/customer.sh**. Para obtener más información, consulte Variables [](../../installation/using/installing-packages-with-linux.md#environment-variables)de entorno.
+>Si ya ha instalado el cliente Oracle pero el entorno global (para instancia: /etcetera/perfil) no está configurado correctamente, puede agregar la **información que falta al script nl6/customer.sh** Para obtener más información, consulte Variables [](../../installation/using/installing-packages-with-linux.md#environment-variables)de entorno.
 
 **Solución de problemas y prácticas recomendadas**
 
@@ -164,7 +164,7 @@ Los problemas pueden aparecer después de que un cliente de Oracle o un servidor
 
 Si observa en la consola del cliente que hay retrasos inesperados (una o más horas) en los registros, el último procesamiento del flujo de trabajo, el siguiente procesamiento, etc., puede haber un problema entre la biblioteca del cliente de Oracle y el servidor de Oracle. Para evitar tales problemas
 
-1. Asegúrese de utilizar el **cliente completo**.
+1. Asegúrese de usar **cliente completo**.
 
    Se han identificado varios problemas al utilizar la versión Oracle Instant Client. Además, es imposible cambiar el archivo Timezone en el cliente instantáneo.
 
@@ -174,7 +174,7 @@ Si observa en la consola del cliente que hay retrasos inesperados (una o más ho
 
    Compruebe también el valor de ORACLE_HOME para asegurarse de que señala a la versión de cliente esperada (en caso de que haya varias versiones instaladas en el equipo).
 
-1. Asegúrese de que el cliente y el servidor utilicen lo mismo **archivo de zona horaria**.
+1. Asegúrese de que el cliente y el servidor usen el mismo **archivo de zona horaria**.
 
 ## Pasos de implementación {#implementation-steps}
 

@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Protección de privacidad de correo en la aplicación Mail de Apple
 
-![Aplicable a las versiones 7 y 8](../../assets/common.svg)
+![Se aplica a las versiones 7 y 8](../../assets/common.svg)
 
 ## ¿Qué ha cambiado?
 
@@ -29,11 +29,11 @@ La nueva función de Apple es la forma de lo que está por venir en el sector en
 
 ### Evaluación del impacto en los déclencheur de la campaña
 
-Evalúe cómo afectan estos cambios a los déclencheur de campaña actuales. Identifique los flujos de trabajo en los que las aperturas de correo electrónico se utilizan como criterio para la segmentación, el direccionamiento o el redireccionamiento. Lea el [sugerencias y trucos](#find-email-open-tracking).
+Evalúe cómo afectan estos cambios a los déclencheur de campaña actuales. Identifique los flujos de trabajo en los que las aperturas de correo electrónico se utilizan como criterio para la segmentación, el direccionamiento o el redireccionamiento. Lea [sugerencias y trucos](#find-email-open-tracking).
 
 ### Conservar los datos
 
-Preserve sus datos y consolide sus conocimientos actuales en dispositivos. Puede basar los indicadores clave de rendimiento (KPI) en el agente de usuario. Por ejemplo, puede generar KPI en torno a perfiles de personas que utilizan la aplicación de correo de iOS y Apple. Lea el [sugerencias y trucos](#preserve-tracking-data).
+Preserve sus datos y consolide sus conocimientos actuales en dispositivos. Puede basar los indicadores clave de rendimiento (KPI) en el agente de usuario. Por ejemplo, puede generar KPI en torno a perfiles de personas que utilizan la aplicación de correo de iOS y Apple. Lea [sugerencias y trucos](#preserve-tracking-data).
 
 ### Archivar los registros de seguimiento más allá del período de retención
 
@@ -46,7 +46,7 @@ Archive los registros de seguimiento más allá del período de retención de Ad
 ### Evalúe la tendencia actual de las tasas de apertura
 
 Determine qué proporción de la audiencia utiliza la aplicación Mail de Apple en un dispositivo iOS.
-Con esta evaluación, puede identificar posibles lagunas anómalas y su causa. Puede determinar si una brecha se debe a problemas de rendimiento de la campaña o a la funcionalidad de protección de privacidad de Apple. Lea el [sugerencias y trucos](#measure-ios-footprint).
+Con esta evaluación, puede identificar posibles lagunas anómalas y su causa. Puede determinar si una brecha se debe a problemas de rendimiento de la campaña o a la funcionalidad de protección de privacidad de Apple. Lea [sugerencias y trucos](#measure-ios-footprint).
 
 ### Volver a evaluar la estrategia de campaña y las métricas de rendimiento
 
@@ -60,7 +60,7 @@ Le recomendamos que explore los datos disponibles actualmente y evalúe la corre
 
 Para recopilar datos de Adobe Campaign, puede utilizar informes predeterminados como los siguientes:
 
-* **[!UICONTROL Operating Systems]** informe
+* Informe **[!UICONTROL Operating Systems]**
 
   Para identificar la proporción de visitantes por sistema operativo y por versión, utilice este informe. [Más información](../../reporting/using/global-reports.md#operating-systems).
 
@@ -72,7 +72,7 @@ Para recopilar datos de Adobe Campaign, puede utilizar informes predeterminados 
 
   ![](../../reporting/using/assets/s_ncs_user_os_report2.png)
 
-* **[!UICONTROL Breakdown of opens]** informe
+* Informe **[!UICONTROL Breakdown of opens]**
 
   Para identificar la proporción de correos electrónicos abiertos por sistema operativo, utilice este informe. [Más información](../../reporting/using/global-reports.md#breakdown-of-opens).
 
@@ -82,7 +82,7 @@ Para recopilar datos de Adobe Campaign, puede utilizar informes predeterminados 
 
 Puede identificar los flujos de trabajo en los que las aperturas de correo electrónico se utilizan como criterio para la segmentación, el direccionamiento y el redireccionamiento.
 
-Para ello, puede utilizar el complemento **[!UICONTROL type]** atributo de la URL del vínculo rastreado (**[!UICONTROL url/@type]**). Para las aperturas de correo electrónico, este atributo se establece en **[!UICONTROL Open]**. Este atributo está disponible en el editor de consultas, el **[!UICONTROL Query]** actividad en un flujo de trabajo y filtros predefinidos. Puede utilizar este atributo como criterio de objetivo para campañas de marketing.
+Para ello, puede usar el atributo **[!UICONTROL type]** de la dirección URL del vínculo rastreado (**[!UICONTROL url/@type]**). Para las aperturas de correo electrónico, este atributo se establece en **[!UICONTROL Open]**. Este atributo está disponible en el editor de consultas, en la actividad **[!UICONTROL Query]** de un flujo de trabajo y en filtros predefinidos. Puede utilizar este atributo como criterio de objetivo para campañas de marketing.
 
 ![](assets/identify-email-open-tracking-1.png)
 
@@ -90,7 +90,7 @@ En este ejemplo, un experto en marketing desea enviar una oferta de recompensa a
 
 * Puede utilizar las aperturas de correo electrónico como criterio de objetivo en una consulta.
 
-  Como condición de filtrado, puede especificar que el tipo de URL de los registros de seguimiento de una entrega específica se establezca en **[!UICONTROL Open]**.
+  Puede especificar, como condición de filtrado, que el tipo de URL de los registros de seguimiento de una entrega específica debe establecerse en **[!UICONTROL Open]**.
 
   ![](assets/identify-email-open-tracking-2.png)
 
@@ -106,7 +106,7 @@ En este ejemplo, un experto en marketing desea enviar una oferta de recompensa a
   >
   >Desde un flujo de trabajo, no se pueden ver los criterios de objetivo de un filtro predefinido.
 
-Para recuperar la lista de flujos de trabajo en los que las aperturas de correo electrónico se utilizan como criterio de objetivo, debe consultar la `xtk:workflow` esquema. El contenido del flujo de trabajo se almacena en la variable **[!UICONTROL XML memo (data)]** en formato XML.
+Para recuperar la lista de flujos de trabajo en los que se utilizan las aperturas de correo electrónico como criterio de objetivo, debe consultar el esquema `xtk:workflow`. El contenido del flujo de trabajo se almacena en el campo **[!UICONTROL XML memo (data)]** en formato XML.
 
 ![](assets/identify-email-open-tracking-5.png)
 
@@ -114,7 +114,7 @@ Puede especificar que los flujos de trabajo deben incluir este contenido:
 
 `expr="[url/@type] = 2"`
 
-Este criterio de objetivo significa que el tipo de URL rastreada debe establecerse en **[!UICONTROL Open]**.
+Este criterio de direccionamiento significa que el tipo de URL rastreada debe establecerse en **[!UICONTROL Open]**.
 
 ![](assets/identify-email-open-tracking-6.png)
 
@@ -139,7 +139,7 @@ Este ejemplo muestra una implementación personalizada en un solo flujo de traba
 >
 >Le recomendamos encarecidamente que pruebe y valide este paquete en un entorno que no sea de producción.
 
-Descargue la [paquete de muestra](assets/PKG_Search_workflows_using_Opens_in_queries_V1.xml) e instálelo. [Más información](../../platform/using/working-with-data-packages.md#importing-packages).
+Descargue el [paquete de ejemplo](assets/PKG_Search_workflows_using_Opens_in_queries_V1.xml) e instálelo. [Más información](../../platform/using/working-with-data-packages.md#importing-packages).
 
 Una vez instalado el paquete, puede acceder al flujo de trabajo desde la carpeta que contiene los flujos de trabajo técnicos listos para usar en su instancia:
 
@@ -159,7 +159,7 @@ El flujo de trabajo consta de estos pasos principales:
 
 El flujo de trabajo incluye estos pasos detallados:
 
-1. La actividad inicial es una actividad de consulta en `xtk:workflow` esquema. Esta actividad se utiliza para encontrar, en la instancia correspondiente, las consultas explícitas de flujo de trabajo que incluyen las aperturas de correo electrónico como criterio de objetivo.
+1. La actividad inicial es una actividad de consulta en el esquema `xtk:workflow`. Esta actividad se utiliza para encontrar, en la instancia correspondiente, las consultas explícitas de flujo de trabajo que incluyen las aperturas de correo electrónico como criterio de objetivo.
 
    ![](assets/identify-email-open-tracking-9.png)
 
@@ -190,7 +190,7 @@ El flujo de trabajo incluye estos pasos detallados:
 1. Esta lista de filtros predefinidos se utiliza para buscar los flujos de trabajo en los que se utilizan estos filtros.
 1. Ambas listas de flujos de trabajo se combinan en una lista.
 
-   Para este fin, se utiliza código JavaScript.
+   Para este fin, se utiliza el código JavaScript.
 
    ![](assets/identify-email-open-tracking-18.png)
 
@@ -340,11 +340,11 @@ Para conservar los datos de seguimiento, debe exportarlos de Adobe Campaign a su
 
 >[!IMPORTANT]
 >
->El siguiente ejemplo se centra en la configuración predeterminada `nms:Recipient` schema, que es el esquema de perfil predeterminado. Si utiliza asignaciones de destino personalizadas adicionales que se adjuntan a perfiles personalizados, le recomendamos que amplíe esta estrategia de exportación a todas las tablas de registros personalizados. [Más información](../../configuration/using/target-mapping.md).
+>El siguiente ejemplo se centra en el esquema predeterminado `nms:Recipient`, que es el esquema de perfil predeterminado. Si utiliza asignaciones de destino personalizadas adicionales que se adjuntan a perfiles personalizados, le recomendamos que amplíe esta estrategia de exportación a todas las tablas de registros personalizados. [Más información](../../configuration/using/target-mapping.md).
 
 ##### Principio
 
-De forma predeterminada, la variable `nms:Recipient` Este esquema está vinculado a tres esquemas que debe exportar:
+De manera predeterminada, el esquema `nms:Recipient` está vinculado a tres esquemas que debe exportar:
 
 | Esquema | Contenido |
 | --- | --- |
@@ -382,11 +382,11 @@ Este ejemplo muestra cómo se pueden exportar datos de seguimiento desde Adobe C
    La consulta inicial se utiliza para recuperar los registros de seguimiento de los últimos tres meses.
 Puede utilizar una consulta incremental para extraer únicamente los registros que aún no haya exportado.
 
-   Añada toda la información necesaria del **[!UICONTROL Additional data]** nodo.
+   Agregue toda la información necesaria del nodo **[!UICONTROL Additional data]**.
 
    ![](assets/export-tracking-data-2.png)
 
-1. Añadir un **[!UICONTROL Data extraction (file)]** actividad. Asigne todos los datos de la consulta a un formato de archivo de extracción.
+1. Agregue una actividad **[!UICONTROL Data extraction (file)]**. Asigne todos los datos de la consulta a un formato de archivo de extracción.
 
    ![](assets/export-tracking-data-3.png)
 
@@ -425,14 +425,14 @@ Estos ejemplos muestran cómo se pueden utilizar flujos de trabajo para desglosa
 
 * El primer flujo de trabajo de ejemplo incluye estas actividades:
 
-   1. La inicial **[!UICONTROL Query]** se utiliza la actividad para seleccionar todas las aperturas de correo electrónico de los últimos tres meses.
-   1. A **[!UICONTROL Split]** La actividad se utiliza para dividir la selección por aplicación de correo electrónico, explorador, sistema operativo y dispositivo.
+   1. La actividad **[!UICONTROL Query]** inicial se usa para seleccionar todas las aperturas de correo electrónico de los últimos tres meses.
+   1. Se usa una actividad **[!UICONTROL Split]** para dividir la selección por aplicación de correo electrónico, explorador, sistema operativo y dispositivo.
 
-   1. A **[!UICONTROL Deduplication]** la actividad sigue a cada **[!UICONTROL Split]** actividad. El **[!UICONTROL Deduplication]** La actividad se utiliza para eliminar direcciones de correo electrónico duplicadas.
+   1. Una actividad **[!UICONTROL Deduplication]** sigue a cada actividad **[!UICONTROL Split]**. La actividad **[!UICONTROL Deduplication]** se usa para eliminar direcciones de correo electrónico duplicadas.
 
-      El **[!UICONTROL Deduplication]** la actividad se coloca después de **[!UICONTROL Split]** actividad para evitar perder información sobre los destinatarios que utilizan varios dispositivos.
+      La actividad **[!UICONTROL Deduplication]** se coloca después de la actividad **[!UICONTROL Split]** para evitar la pérdida de información sobre los destinatarios que utilizan varios dispositivos.
 
-   1. Un **[!UICONTROL End]** la actividad sigue a cada **[!UICONTROL Deduplication]** actividad.
+   1. Una actividad **[!UICONTROL End]** sigue a cada actividad **[!UICONTROL Deduplication]**.
 
   Este tipo de flujo de trabajo resulta útil si almacena los destinatarios únicamente en la tabla de destinatarios predeterminada para la segmentación.
 
@@ -440,14 +440,14 @@ Estos ejemplos muestran cómo se pueden utilizar flujos de trabajo para desglosa
 
 * El segundo flujo de trabajo de ejemplo incluye estas actividades:
 
-   1. La inicial **[!UICONTROL Query]** se utiliza la actividad para seleccionar todas las aperturas de correo electrónico de los últimos tres meses.
-   1. A **[!UICONTROL Deduplication]** La actividad se utiliza para eliminar direcciones de correo electrónico duplicadas.
-   1. A **[!UICONTROL Fork]** se utiliza la actividad:
+   1. La actividad **[!UICONTROL Query]** inicial se usa para seleccionar todas las aperturas de correo electrónico de los últimos tres meses.
+   1. Se usa una actividad **[!UICONTROL Deduplication]** para quitar direcciones de correo electrónico duplicadas.
+   1. Se utiliza una actividad **[!UICONTROL Fork]**:
 
-      * En una transición, la variable **[!UICONTROL Change dimension]** se utiliza para encontrar los destinatarios a los que hace referencia el registro de seguimiento.
-      * En la otra transición, la variable **[!UICONTROL Split]** La actividad se utiliza para dividir la selección por aplicación de correo electrónico, explorador, sistema operativo y dispositivo.
+      * En una transición, la actividad **[!UICONTROL Change dimension]** se usa para encontrar los destinatarios a los que hace referencia el registro de seguimiento.
+      * En la otra transición, la actividad **[!UICONTROL Split]** se usa para dividir la selección por aplicación de correo electrónico, explorador, sistema operativo y dispositivo.
 
-   1. Un **[!UICONTROL End]** La actividad sigue cada transición después de la **[!UICONTROL Split]** actividad.
+   1. Una actividad **[!UICONTROL End]** sigue cada transición después de la actividad **[!UICONTROL Split]**.
 
   Este tipo de flujo de trabajo resulta útil si almacena los destinatarios en una tabla distinta a la tabla de destinatarios predeterminada.
 

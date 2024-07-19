@@ -18,7 +18,7 @@ ht-degree: 9%
 >
 >Algunos esquemas integrados no deben ampliarse: principalmente aquellos para los que se definen las siguientes configuraciones:\
 >**dataSource=&quot;file&quot;** y **mappingType=&quot;xmlFile&quot;**.\
->No se deben ampliar los siguientes esquemas: **xtk:entityBackupNew**, **xtk:entityBackupOriginal**, **xtk:entityOriginal**, **xtk:formulario**, **xtk:srcSchema**, **ncm:publicar**, **nl:monitorización**, **nms:calendario**, **nms:remoteTracking**, **nms:userAgentRules**, **xtk:builder**, **xtk:conexiones**, **xtk:dbInit**, **xtk:funcList**, **xtk:fusion**, **xtk: jst**, **xtk:navtree**, **xtk:queryDef**, **xtk:resourceMenu**, **xtk:schema**, **xtk:scriptContext**, **xtk:session**, **xtk:sqlSchema**, **xtk:strings**.
+>No se deben ampliar los siguientes esquemas: **xtk:entityBackupNew**, **xtk:entityBackupOriginal**, **xtk:entityOriginal**, **xtk:form**, **xtk:srcSchema**, **ncm:publishing**, **nl:monitoring**, **nms:calendar**, **nms:remoteTracking{1** nms:userAgentRules **,** xtk:builder **,** xtk:connections **,** xtk:dbInit **,** xtk:funcList **,** xtk:fusion **,** xtk: jst **,** xtk:navtree **** xtk:queryDef **,** xtk:resourceMenu **,** xtk:schema **,** xtk:scriptContext **,** xtk:session **,** xtk:sqlSchema **,** xtk:strings **.**
 >Esta lista no es exhaustiva.
 
 Existen dos métodos para ampliar un esquema existente:
@@ -26,7 +26,7 @@ Existen dos métodos para ampliar un esquema existente:
 1. Modificar directamente el esquema de origen.
 1. Creación de otro esquema con el mismo nombre pero un área de nombres diferente. La ventaja es que puede ampliar una tabla sin necesidad de modificar el esquema original.
 
-   El elemento raíz del esquema debe contener la variable **extendedSchema** atributo con el nombre del esquema que se va a ampliar como su valor.
+   El elemento raíz del esquema debe contener el atributo **extendedSchema** con el nombre del esquema que se va a extender como su valor.
 
    Un esquema de extensión no tiene su propio esquema: el esquema generado a partir del esquema de origen se rellena con los campos del esquema de extensión.
 
@@ -34,7 +34,7 @@ Existen dos métodos para ampliar un esquema existente:
    >
    >No se le permite modificar los esquemas integrados de la aplicación, sino el mecanismo de extensión del esquema. De lo contrario, los esquemas modificados no se actualizarán en el momento de futuras actualizaciones de la aplicación. Esto puede provocar un mal funcionamiento en el uso de Adobe Campaign.
 
-   **Ejemplo**: extensión del **nms:destinatario** esquema.
+   **Ejemplo**: extensión del esquema **nms:recipient**.
 
    ```
    <srcSchema extendedSchema="nms:recipient" name="recipient" namespace="cus">
@@ -44,7 +44,7 @@ Existen dos métodos para ampliar un esquema existente:
    </srcSchema>
    ```
 
-   El **nms:destinatario** el esquema ampliado se rellena con el campo rellenado en el esquema de extensión:
+   El esquema extendido **nms:recipient** se ha rellenado con el campo rellenado en el esquema de extensión:
 
    ```
    <schema dependingSchemas="cus:recipient" name="recipient" namespace="nms">
@@ -54,9 +54,9 @@ Existen dos métodos para ampliar un esquema existente:
    </schema>
    ```
 
-   El **dependSchemas** en el elemento raíz del esquema hace referencia a las dependencias de los esquemas de extensión.
+   El atributo **dependSchemas** del elemento raíz del esquema hace referencia a las dependencias de los esquemas de extensión.
 
-   El **belongingTo** en el campo rellena el esquema donde se declara.
+   El atributo **belongingTo** del campo rellena el esquema donde se declaró.
 
 >[!IMPORTANT]
 >

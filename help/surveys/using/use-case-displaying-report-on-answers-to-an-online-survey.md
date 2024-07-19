@@ -2,13 +2,13 @@
 product: campaign
 title: "Ejemplo de uso: Visualización del informe de las respuestas a una encuesta online"
 description: "Ejemplo de uso: Visualización del informe de las respuestas a una encuesta online"
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

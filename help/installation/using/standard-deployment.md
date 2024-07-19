@@ -55,17 +55,17 @@ Este tipo de configuración puede gestionar un gran número de destinatarios (de
    * VIP la primera expuesta al público para el seguimiento y señalamiento del equilibrador de carga en una dirección IP virtual () y que luego se distribuye a los dos servidores frontales,
    * el segundo se expone a los usuarios internos para que accedan a él a través de la consola y que señala al mismo servidor de aplicaciones.
 
-* Firewall configurado para abrir STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 para Oracle, 5432 para PostgreSQL, etc.) puertos. Para obtener más información, consulte esta sección [Acceso a base de datos](../../installation/using/network-configuration.md#database-access).
+* Firewall configurado para abrir STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 para Oracle, 5432 para PostgreSQL, etc.) puertos. Para obtener más información, consulte la sección [Acceso a la base de datos](../../installation/using/network-configuration.md#database-access).
 
 ### Instalación del servidor de aplicaciones {#installing-the-application-server}
 
-Siga los pasos para instalar una instancia independiente desde el servidor de aplicaciones de Adobe Campaign hasta la creación de la base de datos (paso 12). Consulte [Instalación y configuración (un solo equipo)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
+Siga los pasos para instalar una instancia independiente desde el servidor de aplicaciones de Adobe Campaign hasta la creación de la base de datos (paso 12). Consulte [Instalar y configurar (un solo equipo)](../../installation/using/standalone-deployment.md#installing-and-configuring--single-machine-).
 
 Dado que el equipo no es un servidor de seguimiento, no tenga en cuenta la integración con el servidor web.
 
 En los ejemplos siguientes, los parámetros de la instancia son:
 
-* Nombre de la instancia: **demostración**
+* Nombre de la instancia: **demo**
 * Máscara DNS: **console.campaign.net&#42;** (solo para conexiones de consola de cliente y para informes)
 * Idioma: inglés
 * Base de datos: **campaign:demo@dbsrv**
@@ -85,13 +85,13 @@ Los pasos son los siguientes:
    * Para Linux: [Integración en un servidor web para Linux](../../installation/using/integration-into-a-web-server-for-linux.md)
    * Para Windows: [Integración en un servidor web para Windows](../../installation/using/integration-into-a-web-server-for-windows.md)
 
-1. Cree el **demostración** ejemplo. Hay dos formas de hacerlo:
+1. Cree la instancia **demo**. Hay dos formas de hacerlo:
 
    * Cree la instancia a través de la consola:
 
      ![](assets/install_create_new_connexion.png)
 
-     Para obtener más información, consulte [Creación de una instancia e inicio de sesión](../../installation/using/creating-an-instance-and-logging-on.md).
+     Para obtener más información, consulte [Crear una instancia e iniciar sesión](../../installation/using/creating-an-instance-and-logging-on.md).
 
      o
 
@@ -105,9 +105,9 @@ Los pasos son los siguientes:
 
    El nombre de la instancia es el mismo que el del servidor de aplicaciones.
 
-   La conexión al servidor con el **nlserver web** (páginas espejo, baja) se realizará desde la URL del equilibrador de carga (tracking.campaign.net).
+   La conexión al servidor con el módulo **nlserver web** (páginas espejo, baja) se realizará desde la dirección URL del equilibrador de carga (tracking.campaign.net).
 
-1. Cambie el **interno** al mismo que el servidor de aplicaciones.
+1. Cambie **internal** por el mismo que el servidor de aplicaciones.
 
    Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
@@ -117,11 +117,11 @@ Los pasos son los siguientes:
    nlserver config -setdblogin:PostgreSQL:campaign:demo@dbsrv -instance:demo
    ```
 
-1. En el **config-default.xml** y **config-demo.xml** , habilite la opción **web**, **trackinglogd** y **mta** módulos.
+1. En los archivos **config-default.xml** y **config-demo.xml**, habilite los módulos **web**, **trackinglogd** y **mta**.
 
    Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
-1. Edite el **serverConf.xml** archivo y rellenar:
+1. Edite el archivo **serverConf.xml** y rellene lo siguiente:
 
    * la configuración DNS del módulo MTA:
 
@@ -131,7 +131,7 @@ Los pasos son los siguientes:
 
      >[!NOTE]
      >
-     >El **nameServers** El parámetro solo se utiliza en Windows.
+     >El parámetro **nameServers** solo se usa en Windows.
 
      Para obtener más información, consulte [Configuración de envío](configure-delivery-settings.md).
 
@@ -160,11 +160,11 @@ Los pasos son los siguientes:
 
    Para obtener más información, consulte las siguientes secciones:
 
-   * Para Linux: [Inicio del servidor web y prueba de la configuración](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
-   * Para Windows: [Inicio del servidor web y prueba de la configuración](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
+   * Para Linux: [Iniciando el servidor web y probando la configuración](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
+   * Para Windows: [Iniciando el servidor web y probando la configuración](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
 
 1. Inicie el servidor de Adobe Campaign.
-1. En la consola de Adobe Campaign, conéctese con el **administrador** inicie sesión sin contraseña e inicie el asistente de implementación.
+1. En la consola de Adobe Campaign, conéctese con el inicio de sesión de **admin** sin contraseña e inicie el asistente de implementación.
 
    Para obtener más información, consulte [Implementación de una instancia](../../installation/using/deploying-an-instance.md).
 
@@ -178,4 +178,4 @@ Los pasos son los siguientes:
 
    >[!NOTE]
    >
-   >Utilizamos la instancia existente de los dos servidores de seguimiento creados anteriormente y utilizamos el **interno** iniciar sesión.
+   >Utilizamos la instancia existente de los dos servidores de seguimiento creados anteriormente y usamos el inicio de sesión **interno**.

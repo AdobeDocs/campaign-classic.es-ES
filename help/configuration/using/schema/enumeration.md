@@ -7,7 +7,7 @@ exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -82,9 +82,9 @@ Las enumeraciones se definen al principio de un esquema (antes de definir el ele
 
 * **default (cadena)**: Valor predeterminado. El valor predeterminado también puede ser uno de los valores definidos en la enumeración.
 * **desc (cadena)**: descripción de la enumeración.
-* **label (cadena)**: etiqueta de enumeración.
+* **label (string)**: etiqueta de enumeración.
 * **nombre (cadena)**: nombre interno de la enumeración.
-* **template (cadena)**: este atributo define una referencia a un `<enumeration>` compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
+* **template (string)**: este atributo define una referencia a un elemento `<enumeration>` compartido por varios esquemas. La definición se copia automáticamente en el esquema actual.
 
 ## Ejemplos {#examples-4}
 

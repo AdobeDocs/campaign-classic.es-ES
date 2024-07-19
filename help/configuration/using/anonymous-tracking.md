@@ -23,8 +23,8 @@ Adobe Campaign permite vincular la información de seguimiento web recopilada a 
 
 Para habilitar el seguimiento web anónimo en la instancia, se deben configurar los siguientes elementos:
 
-* El **trackWebVisitors** parámetro del **redirección** elemento de la **serverConf.xml** el archivo del servidor de seguimiento debe establecerse en &#39;**true**&#39;, para colocar una cookie permanente (**uuid230**) en los navegadores de usuarios desconocidos de Internet que visitan el sitio.
-* El **Seguimiento web anónimo** el modo debe estar seleccionado en la pantalla tracking configuration del asistente de implementación.
+* El parámetro **trackWebVisitors** del elemento **redirection** del archivo **serverConf.xml** del servidor de seguimiento debe establecerse en &#39;**true**&#39; para colocar una cookie permanente (**uuid230**) en los exploradores de usuarios de Internet desconocidos que visiten el sitio.
+* El modo **Seguimiento web anónimo** debe estar seleccionado en la pantalla de configuración de seguimiento del asistente de implementación.
 
   ![](assets/webtracking_anonymous_set.png)
 

@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # Configuración de Apache Tomcat {#configuring-tomcat}
 
-Adobe Campaign utiliza un **servlet web integrado denominado Apache Tomcat** para procesar solicitudes HTTP/HTTPS entre la aplicación y cualquier interfaz externa (incluida la consola de cliente, vínculos de URL rastreados, llamadas SOAP y otras). A menudo hay un servidor web externo (generalmente IIS o Apache) delante de esto para cualquier instancia de Adobe Campaign externa.
+Adobe Campaign SOAP usa un servlet web **incrustado llamado Apache Tomcat** para procesar solicitudes HTTP/HTTPS entre la aplicación y cualquier interfaz externa (incluida la consola de cliente, vínculos de URL rastreados, llamadas de la y otros). A menudo hay un servidor web externo (generalmente IIS o Apache) delante de esto para cualquier instancia de Adobe Campaign externa.
 
 Obtenga más información sobre Tomcat en Campaign y cómo localizar su versión de Tomcat en [esta página](../../production/using/locate-tomcat-version.md).
 
@@ -32,12 +32,12 @@ Obtenga más información sobre Tomcat en Campaign y cómo localizar su versión
 
 >[!NOTE]
 >
->Este procedimiento está restringido a **on-premise** implementaciones.
+>Este procedimiento está restringido a **implementaciones locales**.
 >
 
-Cuando el puerto de escucha 8080 del servidor Tomcat ya está ocupado con otra aplicación requerida para su configuración, debe reemplazar el puerto 8080 por uno libre (8090 por ejemplo). Para cambiarlo, edite el **server.xml** archivo guardado en **/tomcat-X/conf** de la carpeta de instalación de Adobe Campaign.
+Cuando el puerto de escucha 8080 del servidor Tomcat ya está ocupado con otra aplicación requerida para su configuración, debe reemplazar el puerto 8080 por uno libre (8090 por ejemplo). Para cambiarlo, edite el archivo **server.xml** guardado en el directorio **/tomcat-X/conf** de la carpeta de instalación de Adobe Campaign.
 
-A continuación, modifique el puerto de las páginas de retransmisión JSP. Para ello, cambie el **serverConf.xml** archivo guardado en **/conf** del directorio de instalación de Adobe Campaign.
+A continuación, modifique el puerto de las páginas de retransmisión JSP. Para ello, cambie el archivo **serverConf.xml** guardado en el directorio **/conf** del directorio de instalación de Adobe Campaign.
 
 ```xml
 <serverConf>
@@ -51,10 +51,10 @@ A continuación, modifique el puerto de las páginas de retransmisión JSP. Para
 
 >[!NOTE]
 >
->Este procedimiento está restringido a **on-premise** implementaciones.
+>Este procedimiento está restringido a **implementaciones locales**.
 >
 
-Para definir la configuración específica del cliente, puede crear un **user_contexts.xml** archivo en el **/tomcat-X/conf** , que también contiene la carpeta **contexts.xml** archivo.
+Para definir la configuración específica del cliente, puede crear un archivo **user_contexts.xml** en la carpeta **/tomcat-X/conf**, que también contiene el archivo **contexts.xml**.
 
 Este archivo contendrá el siguiente tipo de información:
 
@@ -69,14 +69,14 @@ Si es necesario, esta operación se puede reproducir en el servidor.
 
 >[!NOTE]
 >
->Este procedimiento está restringido a **on-premise** implementaciones.
+>Este procedimiento está restringido a **implementaciones locales**.
 >
 >Este cambio ya no es necesario a partir de la versión 7.4.1 de Campaign.
 >
 
 Por motivos de seguridad, le recomendamos encarecidamente que oculte el informe de errores de Tomcat. Siga estos pasos:
 
-1. Abra el **server.xml** archivo ubicado en el **/tomcat-X/conf** directorio de la carpeta de instalación de Adobe Campaign:  `/usr/local/neolane/nl6/tomcat-X/conf`
+1. Abra el archivo **server.xml** ubicado en el directorio **/tomcat-X/conf** de la carpeta de instalación de Adobe Campaign: `/usr/local/neolane/nl6/tomcat-X/conf`
 1. Agregue el siguiente elemento en la parte inferior después de todos los elementos de contexto existentes:
 
    ```xml

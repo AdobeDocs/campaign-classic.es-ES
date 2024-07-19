@@ -33,7 +33,7 @@ Adobe Campaign no restringe el tamaño del archivo. Pero puede hacerlo configura
 
 ## Relé
 
-Consulte la [esta página](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays) para obtener más información.
+Consulte [esta página](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays) para obtener más información.
 
 De forma predeterminada, todas las páginas dinámicas se transmiten automáticamente al servidor Tomcat local del equipo cuyo módulo web se haya iniciado. Puede optar por no transmitir algunos de ellos. Si no utiliza algunos módulos de Adobe Campaign (como webapp, interaction, some jsp), puede eliminarlos de las reglas de retransmisión.
 
@@ -43,13 +43,13 @@ Si utiliza nombres de host diferentes (uno público y otro para operadores), tam
 
 ## Protección de conexión saliente
 
-La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) está limitada. Para permitir una nueva URL, el administrador debe hacer referencia a ella en la [archivo serverConf.xml](../../installation/using/the-server-configuration-file.md).
+La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) está limitada. Para permitir una nueva dirección URL, el administrador debe hacer referencia a ella en el [archivo serverConf.xml](../../installation/using/the-server-configuration-file.md).
 
 Existen tres modos de protección de conexión:
 
-* **Bloqueo** : todas las direcciones URL que no pertenecen a la lista de permitidos están bloqueadas y muestran un mensaje de error. Es el modo predeterminado después de una posactualización.
-* **Permisivo** : se permiten todas las direcciones URL que no pertenecen a la lista de permitidos.
-* **Advertencia** : se permiten todas las direcciones URL que no están en la lista de permitidos, pero el intérprete JS emite una advertencia para que el administrador pueda recopilarlas. Este modo agrega mensajes de advertencia JST-310027.
+* **Bloqueo**: todas las direcciones URL que no pertenecen a la lista de permitidos están bloqueadas y muestran un mensaje de error. Es el modo predeterminado después de una posactualización.
+* **Permisivo**: se permiten todas las direcciones URL que no pertenecen a la lista de permitidos.
+* **Advertencia**: se permiten todas las direcciones URL que no están en la lista de permitidos, pero el intérprete JS emite una advertencia para que el administrador pueda recopilarlas. Este modo agrega mensajes de advertencia JST-310027.
 
 ```
 <urlPermission action="warn" debugTrace="true">
@@ -65,7 +65,7 @@ Los clientes existentes que provengan de una migración pueden utilizar el modo 
 
 ## Restricción de comandos (del lado del servidor)
 
-En la lista de bloqueados de la se incluyen varios comandos que no se pueden ejecutar mediante la función execCommand. Un usuario de Unix dedicado proporciona una seguridad adicional para ejecutar comandos externos. Para instalaciones alojadas, esta restricción se aplica automáticamente. Para las instalaciones in situ, puede configurar manualmente esta restricción siguiendo las instrucciones de [esta página](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). Además, **[!UICONTROL Script]** y **[!UICONTROL External task]** las actividades de flujo de trabajo no están disponibles (instancias recién instaladas).
+En la lista de bloqueados de la se incluyen varios comandos que no se pueden ejecutar mediante la función execCommand. Un usuario de Unix dedicado proporciona una seguridad adicional para ejecutar comandos externos. Para instalaciones alojadas, esta restricción se aplica automáticamente. Para las instalaciones in situ, puede configurar manualmente esta restricción siguiendo las instrucciones de [esta página](../../installation/using/configuring-campaign-server.md#restricting-authorized-external-commands). Además, las actividades de flujo de trabajo **[!UICONTROL Script]** y **[!UICONTROL External task]** no están disponibles (instancias recién instaladas).
 
 ## Otras configuraciones
 
@@ -78,10 +78,10 @@ Puede agregar encabezados HTTP adicionales para todas las páginas (para obtener
   >
   >Adobe Campaign se puede romper añadiendo ciertos encabezados.
 
-Adobe Campaign permite establecer una contraseña sin formato en la variable `<dbcnx .../>` Elemento. No utilice esta función.
+Adobe Campaign permite establecer una contraseña sin formato en el elemento `<dbcnx .../>`. No utilice esta función.
 
-De forma predeterminada, Adobe Campaign no fija una sesión a una IP específica, pero puede activarla para evitar que se robe la sesión. Para ello, en el [archivo serverConf.xml](../../installation/using/the-server-configuration-file.md), establezca el atributo checkIPConsistent en **true** en el `<authentication>` nodo.
+De forma predeterminada, Adobe Campaign no fija una sesión a una IP específica, pero puede activarla para evitar que se robe la sesión. Para ello, en el archivo [serverConf.xml](../../installation/using/the-server-configuration-file.md), establezca el atributo checkIPConsistent en **true** en el nodo `<authentication>`.
 
-De forma predeterminada, el MTA de Adobe Campaign no utiliza una conexión segura para enviar contenido al servidor SMTP. Debe habilitar esta función (puede reducir la velocidad de envío). Para ello, establezca **enableTLS** hasta **true** en el `<smtp ...>` nodo.
+De forma predeterminada, el MTA de Adobe Campaign no utiliza una conexión segura para enviar contenido al servidor SMTP. Debe habilitar esta función (puede reducir la velocidad de envío). Para ello, establezca **enableTLS** en **true** en el nodo `<smtp ...>`.
 
 Puede reducir la duración de una sesión en el nodo de autenticación (atributo sessionTimeOutSec).

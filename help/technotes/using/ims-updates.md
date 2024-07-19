@@ -15,19 +15,19 @@ ht-degree: 6%
 
 
 
-El 30 de junio de 2021 se realizarán cambios en [Adobe Identity Management System](https://helpx.adobe.com/es/enterprise/using/identity.html) Funciones de inicio de sesión de (IMS) que podrían afectar a la capacidad para seguir utilizando Adobe Campaign. Aprenda a asegurarse de seguir utilizando Adobe Campaign Classic v7 sin interrupciones.
+El 30 de junio de 2021 se realizaron cambios en las funcionalidades de inicio de sesión de [Adobe Identity Management System](https://helpx.adobe.com/es/enterprise/using/identity.html) (IMS) que podrían afectar su capacidad para seguir usando Adobe Campaign. Aprenda a asegurarse de seguir utilizando Adobe Campaign Classic v7 sin interrupciones.
 
 ## ¿Qué ha cambiado?
 
-El servicio Identity Management de Adobe (IMS) dejó de admitir versiones antiguas de Internet Explorer en **30 de junio de 2021**. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
+El servicio Identity Management de Adobe (IMS) dejó de admitir versiones antiguas de Internet Explorer el **30 de junio de 2021**. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
 
 Adobe desea conservar la funcionalidad de IMS para todos los clientes a partir del 30 de junio de 2021. IMS forma parte del marco de seguridad que permite a los usuarios iniciar sesión en la consola del cliente, por lo tanto en Adobe Campaign.
 
-Para conservar esta funcionalidad, los clientes deben actualizar la consola de cliente en cada equipo de los usuarios y garantizar la última actualización de sus [Versión de Windows](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), con **Internet Explorer 11** integrado, se instala en el equipo de cada usuario.
+Para conservar esta funcionalidad, los clientes deben actualizar la consola de cliente en cada equipo de los usuarios y asegurarse de que la última actualización de su [versión de Windows](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), con **Internet Explorer 11** integrado, esté instalada en cada equipo de los usuarios.
 
 ## ¿Se ha visto afectado?
 
-Si se está conectando a Campaign [a través de una Adobe ID](../../integrations/using/about-adobe-id.md), a través del servicio Identity Management de Adobe (IMS) y ejecutando una versión de Campaign anterior a las enumeradas a continuación, se verá afectado.
+Si se está conectando a Campaign [a través de un Adobe ID](../../integrations/using/about-adobe-id.md), a través del Servicio Identity Management de Adobe (IMS) y ejecuta una versión de Campaign anterior a las que se enumeran a continuación, se verá afectado.
 
 Si ya ha actualizado pero utiliza una versión antigua de Microsoft Internet Explorer, debe actualizar a Internet Explorer 11.
 
@@ -45,22 +45,22 @@ Si ya ha actualizado pero utiliza una versión antigua de Microsoft Internet Exp
    * Versión 20.1.4 de Campaign.
    * Versión 19.2.4 de Campaign.
 
-  Estas versiones incluyen un nuevo protocolo de conexión. La actualización es obligatoria tanto para el servidor de Campaign como para la consola del cliente: una vez actualizadas todas las instancias, la consola del cliente debe actualizarse a esta versión para poder conectarse a Campaign después de **30 de junio de 2021**.
+  Estas versiones incluyen un nuevo protocolo de conexión. La actualización es obligatoria tanto para el servidor de Campaign como para la consola del cliente: una vez actualizadas todas las instancias, la consola del cliente también debe actualizarse a esta versión para poder conectarse a Campaign después del **30 de junio de 2021**.
 
-Además, asegúrese de que dispone de la última actualización de [Versión de Windows](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), con **Internet Explorer 11** integrado, se instala en el equipo de cada usuario.
+Además, asegúrese de que la última actualización de su [versión de Windows](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), con **Internet Explorer 11** integrado, esté instalada en cada equipo de los usuarios.
 
 ## Preguntas frecuentes
 
 **¿Cómo puedo comprobar mi versión de Campaign?**
 
-Obtenga información sobre cómo comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Aprenda a comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 
 **¿Cómo puedo comprobar si uso IMS?**
 
 Para comprobar el modo de conexión, puede:
 
-* Inicie la consola del cliente de Campaign y acceda a la configuración de conexión de la instancia. Si la variable **Conexión con un Adobe ID** está seleccionada, está utilizando Adobe IMS.
+* Inicie la consola del cliente de Campaign y acceda a la configuración de conexión de la instancia. Si la opción **Conectarse con un Adobe ID** está seleccionada, está usando Adobe IMS.
 
   ![](../../integrations/using/assets/ims_1.png)
 
@@ -72,7 +72,7 @@ o
 
 **Mensaje de advertencia de conexión**
 
-El siguiente mensaje de advertencia es visible para los usuarios si necesitan actualizar su consola de cliente o utilizar una versión antigua de Microsoft Internet Explorer: **Debe instalar la última actualización para Windows o sus aplicaciones de Adobe.**
+El siguiente mensaje de advertencia es visible para los usuarios si necesitan actualizar su consola de cliente o usar una versión antigua de Microsoft Internet Explorer: **Debe instalar la última versión actualizada en Windows o en sus aplicaciones de Adobe.**
 
 ![](../../integrations/using/assets/do-not-localize/errorMsg.png)
 
@@ -93,5 +93,5 @@ Si no actualizó la versión de Internet Explorer, verá el siguiente mensaje y 
 * [Preguntas frecuentes sobre la actualización de versiones](../../platform/using/faq-build-upgrade.md)
 * [Hacer que la nueva consola de cliente esté disponible para los usuarios](../../installation/using/client-console-availability-for-windows.md)
 * [Instalación de la consola del cliente de Campaign](../../installation/using/installing-the-client-console.md)
-* [Acceso a distribución de software de Adobe](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es)
-* [Descargar versión de Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
+* [Distribución de software de Adobe de acceso](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es)
+* [Descargar compilación del Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)

@@ -4,12 +4,12 @@ title: Acerca de la tabla de destinatarios personalizada
 description: Acerca de la tabla de destinatarios personalizada
 feature: Configuration, Custom Resources
 role: User, Data Engineer, Developer
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
 source-wordcount: '676'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -43,16 +43,16 @@ El uso de una tabla de destinatarios personalizada tiene las siguientes limitaci
 
   Recomendamos:
 
-   * Dedicación de la **[!UICONTROL nms:BroadLogRcp]** y **[!UICONTROL nms:TrackingLogRcp]** a la lista para usar de forma predeterminada **[!UICONTROL nms:Recipientschema]**. Estas dos tablas de registro no deben vincularse a ninguna tabla de destinatarios personalizada adicional.
+   * Dedicando los esquemas **[!UICONTROL nms:BroadLogRcp]** y **[!UICONTROL nms:TrackingLogRcp]** a **[!UICONTROL nms:Recipientschema]** de forma predeterminada. Estas dos tablas de registro no deben vincularse a ninguna tabla de destinatarios personalizada adicional.
    * Definición de esquemas de &quot;broadlog&quot; y de &quot;log&quot; de seguimiento personalizados específicos para cada nuevo esquema de destinatario personalizado. Esto se puede hacer automáticamente al configurar la asignación de destino, consulte [Asignación de destino](../../configuration/using/target-mapping.md).
 
-* No puede utilizar el estándar **[!UICONTROL Services and Subscriptions]** se ofrece en el producto.
+* No puede usar el estándar **[!UICONTROL Services and Subscriptions]** ofrecido en el producto.
 
-  Esto significa que la operación general se detalla en [esta sección](../../delivery/using/managing-subscriptions.md) no es aplicable.
+  Esto significa que la operación general detallada en [esta sección](../../delivery/using/managing-subscriptions.md) no es aplicable.
 
-* El vínculo con la variable **[!UICONTROL visitor]** no funciona.
+* El vínculo con la tabla **[!UICONTROL visitor]** no funciona.
 
-  Por lo tanto, para utilizar la variable **[!UICONTROL Social Marketing]** : debe configurar el paso de almacenamiento para hacer referencia a la tabla correcta.
+  Por lo tanto, para utilizar el módulo **[!UICONTROL Social Marketing]** debe configurar el paso de almacenamiento para hacer referencia a la tabla correcta.
 
   Del mismo modo, cuando se utilizan funciones de referencia, se debe adaptar la plantilla de transferencia de mensajes inicial estándar.
 
@@ -68,8 +68,8 @@ También recomendamos comprobar los valores predeterminados utilizados en las di
 
 Por ejemplo:
 
-* Algunos informes estándar, especialmente los que ofrecen **Interacción** y el **Aplicaciones móviles** debe ser redesarrollado. Consulte la [Administración de informes](../../configuration/using/managing-reports.md) sección.
-* Las configuraciones predeterminadas para determinadas actividades de flujo de trabajo hacen referencia a la tabla de destinatarios estándar (**[!UICONTROL nms:recipient]**): estas configuraciones deben cambiarse cuando se utilizan para una tabla de destinatarios externa. Consulte la [Administración de flujos de trabajo](../../configuration/using/managing-workflows.md) sección.
-* El estándar **[!UICONTROL Unsubscription link]** el bloque personalizado debe adaptarse.
+* Deben redesarrollarse ciertos informes estándar, en particular los ofrecidos por **Interaction** y **Mobile Applications**. Consulte la sección [Administración de informes](../../configuration/using/managing-reports.md).
+* Las configuraciones predeterminadas para determinadas actividades de flujo de trabajo hacen referencia a la tabla de destinatarios estándar (**[!UICONTROL nms:recipient]**): estas configuraciones deben cambiarse cuando se utilizan para una tabla de destinatarios externa. Consulte la sección [Administración de flujos de trabajo](../../configuration/using/managing-workflows.md).
+* Se debe adaptar el bloque personalizado estándar **[!UICONTROL Unsubscription link]**.
 * Se debe modificar la asignación de destino de las plantillas de envío estándar.
 * Los formularios V4 no son compatibles para su uso con una tabla de destinatarios externa: debe utilizar aplicaciones web.

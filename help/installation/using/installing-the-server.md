@@ -23,7 +23,7 @@ Para una plataforma Windows de 32 bits, instale Adobe Campaign de 32 bits. Para 
 
 Los pasos de instalación del servidor de Adobe Campaign son los siguientes:
 
-1. Ejecutar el archivo **setup.exe**.
+1. Ejecute el archivo **setup.exe**.
 
    ![](assets/s_ncs_install_installer_01.png)
 
@@ -38,7 +38,7 @@ Los pasos de instalación del servidor de Adobe Campaign son los siguientes:
    * **[!UICONTROL Installation of a client]** : instalación de los componentes necesarios para el cliente de Adobe Campaign.
    * **[!UICONTROL Custom installation]** : el usuario elige los elementos que se van a instalar.
 
-   Seleccionar **Instalación de un servidor de aplicaciones** y siga los diferentes pasos que se muestran a continuación:
+   Seleccione **Instalación de un servidor de aplicaciones** y siga los diferentes pasos que se muestran a continuación:
 
    ![](assets/s_ncs_install_installer_02.png)
 
@@ -46,7 +46,7 @@ Los pasos de instalación del servidor de Adobe Campaign son los siguientes:
 
    ![](assets/s_ncs_install_installer_03.png)
 
-1. Clic **[!UICONTROL Finish]** para iniciar la instalación:
+1. Haga clic en **[!UICONTROL Finish]** para iniciar la instalación:
 
    ![](assets/s_ncs_install_installer_04.png)
 
@@ -80,7 +80,7 @@ No task
 
 ## Primer inicio del servidor {#first-start-up-of-the-server}
 
-Una vez finalizada la prueba de instalación, abra un símbolo del sistema a través del **[!UICONTROL Start > Programs > Adobe Campaign]** e introduzca el siguiente comando:
+Una vez finalizada la prueba de instalación, abra un símbolo del sistema a través del menú **[!UICONTROL Start > Programs > Adobe Campaign]** e introduzca el siguiente comando:
 
 ```sql
 nlserver web
@@ -100,7 +100,7 @@ Se muestra la siguiente información:
 15:30:12 >   Web server stop (pid=664, tid=4188)...
 ```
 
-Prensa **Ctrl + C** para detener el proceso, introduzca el siguiente comando:
+Presione **Ctrl+C** para detener el proceso y luego ingrese el siguiente comando:
 
 ```sql
 nlserver start web
@@ -135,7 +135,7 @@ Se muestra la siguiente información:
 
 ## Contraseña para el identificador interno {#password-for-the-internal-identifier}
 
-El servidor de Adobe Campaign define un inicio de sesión técnico llamado **interno** que tiene todos los derechos en todas las instancias. Justo después de la instalación, el inicio de sesión no tiene contraseña. Es obligatorio definir uno.
+El servidor de Adobe Campaign define un inicio de sesión técnico denominado **internal** con todos los derechos en todas las instancias. Justo después de la instalación, el inicio de sesión no tiene contraseña. Es obligatorio definir uno.
 
 Obtenga más información en [esta sección](../../installation/using/configuring-campaign-server.md#internal-identifier).
 

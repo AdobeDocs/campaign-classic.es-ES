@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ## Ampliación de una tabla {#extending-a-table}
 
-Para ampliar el **nms:destinatario** esquema de la tabla de destinatarios, siga el siguiente procedimiento:
+Para ampliar la tabla de destinatarios del esquema **nms:recipient**, siga el siguiente procedimiento:
 
 1. Cree el esquema de extensión (**cus:extension**) con los siguientes datos:
 
@@ -40,13 +40,13 @@ Para ampliar el **nms:destinatario** esquema de la tabla de destinatarios, siga 
    </srcSchema>
    ```
 
-   En este ejemplo, un campo indexado (**fidelidad**) y se agrega la variable **ubicación** (que ya existía en el **nms:destinatario** schema) se complementa con un campo enumerado (**área**).
+   En este ejemplo, se agrega un campo indizado (**fidelity**) y el elemento **location** (que ya existía en el esquema **nms:recipient**) se complementa con un campo enumerado (**area**).
 
    >[!IMPORTANT]
    >
-   >Recuerde añadir el **extendedSchema** para hacer referencia al esquema de extensión.
+   >Recuerde agregar el atributo **extendedSchema** para hacer referencia al esquema de extensión.
 
-1. Compruebe que el esquema ampliado sea el **nms:destinatario** y que los datos adicionales estén presentes:
+1. Compruebe que el esquema extendido sea el esquema **nms:recipient** y que los datos adicionales estén presentes:
 
    ```
    <schema dependingSchemas="cus:extension" mappingType="sql" name="recipient" namespace="nms" xtkschema="xtk:schema">
@@ -101,7 +101,7 @@ Ordenar esquema de origen de tabla:
 </srcSchema>
 ```
 
-El tipo de tabla es **autopk** para crear una clave principal generada automáticamente que se utilizará en la unión del vínculo a la tabla de destinatarios.
+El tipo de tabla es **autopk** para crear una clave principal generada automáticamente que utilizará la unión del vínculo a la tabla de destinatarios.
 
 Esquema generado:
 
@@ -153,7 +153,7 @@ Una tabla de extensión permite ampliar el contenido de una tabla existente en u
 
 El propósito de una tabla de extensión es evitar limitaciones en el número de campos admitidos en una tabla o optimizar el espacio ocupado por los datos, que se consumen bajo demanda.
 
-Creación del esquema de tabla de extensiones (**cus:feature**):
+Creando el esquema de la tabla de extensiones (**cus:feature**):
 
 ```
 <srcSchema mappingType="sql" name="feature" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -203,7 +203,7 @@ Una tabla de desbordamiento es una tabla de extensión (cardinalidad 1-1), pero 
 
 La tabla de desbordamiento contiene la clave externa de la tabla que se va a ampliar. Por lo tanto, la tabla que se va a ampliar no se modifica. La relación entre las dos tablas es el valor de la clave principal de la tabla que se va a ampliar.
 
-Creación del esquema de tabla de desbordamiento (**cus:desbordamiento**):
+Creando el esquema de tabla de desbordamiento (**cus:overflow**):
 
 ```
 <srcSchema label="Overflow" name="overflow" namespace="cus" xtkschema="xtk:srcSchema">  
@@ -235,9 +235,9 @@ CREATE UNIQUE INDEX CusOverflow2_id ON CusOverflow2(iRecipientId);
 
 Una tabla de relación permite vincular dos tablas con la cardinalidad N-N. Esta tabla contiene solo las claves externas de las tablas que se van a vincular.
 
-Ejemplo de una tabla de relaciones entre grupos (**nms:grupo**) y destinatarios (**nms:destinatario**).
+Ejemplo de una tabla de relaciones entre grupos (**nms:group**) y destinatarios (**nms:recipient**).
 
-Esquema de origen de la tabla de relaciones:
+Esquema de Source de la tabla de relaciones:
 
 ```
 <srcSchema name="rcpGrpRel" namespace="cus">
@@ -301,7 +301,7 @@ CREATE INDEX CusRcpGrpRel_recipientId ON CusRcpGrpRel(iRecipientId);
 
 Este caso de uso muestra cómo se puede utilizar una tabla de referencia existente como alternativa a los mecanismos de enumeración integrados de Adobe Campaign (enum, userEnum o dbEnum).
 
-También puede utilizar una tabla de referencia existente como enumeración en los esquemas. Esto se puede lograr creando un vínculo entre una tabla y la tabla de referencia, y añadiendo el atributo **displayAsField=&quot;true&quot;**.
+También puede utilizar una tabla de referencia existente como enumeración en los esquemas. Esto se puede lograr creando un vínculo entre una tabla y la tabla de referencia y agregando el atributo **displayAsField=&quot;true&quot;**.
 
 En este ejemplo, la tabla de referencia contiene una lista de nombres e identificadores bancarios:
 
@@ -319,7 +319,7 @@ xtkschema="xtk:srcSchema">
 </srcSchema>
 ```
 
-En cualquier tabla que utilice esta tabla de referencia, defina un vínculo y añada el **displayAsField=&quot;true&quot;** atributo.
+En cualquier tabla que use esta tabla de referencia, defina un vínculo y agregue el atributo **displayAsField=&quot;true&quot;**.
 
 ```
 <element displayAsField="true" label="Bank" name="bank" target="cus:bank" type="link" noDbIndex="true"/>
@@ -331,7 +331,7 @@ La interfaz de usuario no mostrará un vínculo sino un campo. Cuando los usuari
 
 * Para que se complete automáticamente, debe definir una cadena de cálculo en la tabla de referencia.
 
-* Añada el **noDbIndex=&quot;true&quot;** en la definición del vínculo para evitar que Adobe Campaign cree un índice de los valores almacenados en la tabla de origen del vínculo.
+* Agregue el atributo **noDbIndex=&quot;true&quot;** en la definición del vínculo para evitar que Adobe Campaign cree un índice de los valores almacenados en la tabla de origen del vínculo.
 
 ## Temas relacionados
 

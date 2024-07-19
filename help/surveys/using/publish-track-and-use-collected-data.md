@@ -2,13 +2,13 @@
 product: campaign
 title: Publicación, seguimiento y utilización de datos recopilados
 description: Descubra cómo publicar, rastrear y utilizar datos recopilados en una encuesta
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

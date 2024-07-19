@@ -22,11 +22,11 @@ Los objetos incorporados deben ser monitoreados y es importante evitar que crezc
 
 ## Secuencia de ID {#sequence-of-ids}
 
-Adobe Campaign utiliza una secuencia de ID que debe consumirse en consecuencia: **xtkNewId**. Si la secuencia se consume muy rápidamente (es decir, desde 100 000 al día), debe verificar que sea coherente con los requisitos de su empresa, como enviar millones de correos electrónicos al día. Es posible definir una secuencia dedicada para tablas específicas. Puede configurar un flujo de trabajo para monitorizar el uso de ID.
+Adobe Campaign usa una secuencia de ID que debe consumirse según corresponda: **xtkNewId**. Si la secuencia se consume muy rápidamente (es decir, desde 100 000 al día), debe verificar que sea coherente con los requisitos de su empresa, como enviar millones de correos electrónicos al día. Es posible definir una secuencia dedicada para tablas específicas. Puede configurar un flujo de trabajo para monitorizar el uso de ID.
 
 Cuando la secuencia alcanza más de 2 mil millones (2.147.483.648 es el número exacto), vuelve a cero. Debe evitarse y crea problemas, por lo que esta secuencia debe monitorizarse.
 
-Para evitarlo con tablas grandes, considere la posibilidad de utilizar una secuencia específica. Esto se puede hacer con la variable **pkSequence** en el esquema.
+Para evitarlo con tablas grandes, considere la posibilidad de utilizar una secuencia específica. Esto se puede hacer con el atributo **pkSequence** en el esquema.
 
 Los flujos de trabajo de alta frecuencia que crean muchos registros consumirán muchos ID. Por lo tanto, es muy recomendable evitar demasiados registros y altas frecuencias en los flujos de trabajo.
 
@@ -48,13 +48,13 @@ Las entregas de más de dos años deben purgarse de la instancia.
 
 El número de archivos en el disco del servidor de aplicaciones no debe aumentar indefinidamente.
 
-Los flujos de trabajo de importación crean archivos y, por lo tanto, provocan expansión de disco. Esto se puede evitar utilizando el estándar de [Recopilador de archivos](../../workflow/using/file-collector.md) actividad. El recolector de archivos mueve los archivos a una carpeta temporal y los purga automáticamente.
+Los flujos de trabajo de importación crean archivos y, por lo tanto, provocan expansión de disco. Esto se puede evitar usando la actividad estándar [Recolector de archivos](../../workflow/using/file-collector.md). El recolector de archivos mueve los archivos a una carpeta temporal y los purga automáticamente.
 
 Si un flujo de trabajo importa archivos y no utiliza las funciones estándar, debe purgarse para mantener el espacio en disco al mínimo.
 
 ## Datos transaccionales y registros {#transactional-data-and-logs}
 
-Cada [workflow](../../workflow/using/data-life-cycle.md#work-table) que importa datos en Adobe Campaign hace que el tamaño de la base de datos crezca.
+Cada [flujo de trabajo](../../workflow/using/data-life-cycle.md#work-table) que importa datos a Adobe Campaign hace que el tamaño de la base de datos aumente.
 
 Compruebe que los flujos de trabajo de limpieza o depuración se estén ejecutando y purguen los registros de forma eficaz. Se deben purgar todos los datos transaccionales y los registros. La tarea de limpieza depura solo las tablas estándar: seguimiento y registros generales. Flujos de trabajo específicos deben depurar tablas específicas. Consulte [esta sección](../../workflow/using/monitoring-workflow-execution.md#purging-the-logs).
 

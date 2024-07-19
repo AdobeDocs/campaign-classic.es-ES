@@ -3,13 +3,13 @@ product: campaign
 title: Direcciones semilla
 description: Direcciones semilla
 role: Data Engineer, Developer
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Seed Address
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -25,7 +25,7 @@ Para obtener más información sobre el uso de las direcciones semilla, consulte
 
 ## Implementación {#implementation}
 
-El **nms:seedMember** y el formulario vinculado que vienen de serie están pensados para ampliarse para la configuración del cliente, para hacer referencia a todos los campos necesarios. La definición del esquema contiene comentarios que detallan su modo de configuración.
+El esquema **nms:seedMember** y el formulario vinculado que vienen de forma predeterminada están pensados para ampliarse para la configuración del cliente, a fin de hacer referencia a todos los campos necesarios. La definición del esquema contiene comentarios que detallan su modo de configuración.
 
 Definición del esquema ampliado de la tabla de destinatarios:
 
@@ -44,14 +44,14 @@ Definición del esquema ampliado de la tabla de destinatarios:
 
 Siga estos pasos:
 
-1. Cree una extensión de **nms:seedMember** esquema. Para obtener más información, consulte [esta sección](../../configuration/using/extending-a-schema.md).
-1. En esta nueva extensión, añada un nuevo elemento en la raíz de **[!UICONTROL seedMember]** con los siguientes parámetros:
+1. Cree una extensión del esquema **nms:seedMember**. Para obtener más información, consulte [esta sección](../../configuration/using/extending-a-schema.md).
+1. En esta nueva extensión, agregue un nuevo elemento en la raíz de **[!UICONTROL seedMember]** con los siguientes parámetros:
 
    ```
    name="custom_customNamespace_customSchema"
    ```
 
-   Este elemento debe contener los campos necesarios para exportar las campañas. Estos campos deben tener el mismo nombre que los campos correspondientes en el esquema externo. Por ejemplo, si el esquema es **[!UICONTROL cus:person]** , el **[!UICONTROL nms:seedMember]** Este esquema debe ampliarse de la siguiente manera:
+   Este elemento debe contener los campos necesarios para exportar las campañas. Estos campos deben tener el mismo nombre que los campos correspondientes en el esquema externo. Por ejemplo, si el esquema es **[!UICONTROL cus:person]** , el esquema **[!UICONTROL nms:seedMember]** debe ampliarse de la siguiente manera:
 
    ```
      <srcSchema extendedSchema="nms:seedMember" label="Seed addresses" labelSingular="Seed address" name="seedMember" namespace="cus">
@@ -70,20 +70,20 @@ Siga estos pasos:
 
    >[!NOTE]
    >
-   >La extensión del **nms:seedMember** Este esquema debe cumplir con las estructuras de una campaña y una entrega en Adobe Campaign.
+   >La extensión del esquema **nms:seedMember** debe cumplir con las estructuras de una campaña y una entrega en Adobe Campaign.
 
    >[!IMPORTANT]
    >
    >
    >    
    >    
-   >    * Durante la extensión, se debe especificar un **Nombre SQL (@sqlname)** para el campo &quot;correo electrónico&quot;. El nombre SQL debe ser diferente de &quot;sEmail&quot;, que está reservado para el esquema de destinatarios.
+   >    * Durante la extensión, debe especificar un **nombre SQL (@sqlname)** para el campo &quot;correo electrónico&quot;. El nombre SQL debe ser diferente de &quot;sEmail&quot;, que está reservado para el esquema de destinatarios.
    >    * Debe actualizar la estructura de la base de datos con el esquema creado al ampliar **nms:seedMember**.
-   >    * En el **nms:seedMember** extensión, el campo que contiene la dirección de correo electrónico debe tener **name=&quot;email&quot;** como atributo. El nombre SQL debe ser diferente de &quot;sEmail&quot;, que ya se utiliza para el esquema de destinatario. Este atributo debe declararse inmediatamente en la variable **`<element name="custom_cus_person" />`** Elemento.
+   >    * En la extensión **nms:seedMember**, el campo que contiene la dirección de correo electrónico debe tener **name=&quot;email&quot;** como atributo. El nombre SQL debe ser diferente de &quot;sEmail&quot;, que ya se utiliza para el esquema de destinatario. Este atributo debe declararse inmediatamente en el elemento **`<element name="custom_cus_person" />`**.
    >    
    >
 
-1. Modifique la **[!UICONTROL seedMember]** para definir una nueva pestaña &quot;Destinatario interno&quot; en la **[!UICONTROL Seed addresses]** ventana. Para obtener más información, consulte [esta página](../../configuration/using/form-structure.md).
+1. Modifique el formulario **[!UICONTROL seedMember]** según corresponda para definir una nueva pestaña &quot;Destinatario interno&quot; en la ventana **[!UICONTROL Seed addresses]**. Para obtener más información, consulte [esta página](../../configuration/using/form-structure.md).
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"

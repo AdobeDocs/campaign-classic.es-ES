@@ -24,7 +24,7 @@ Adobe Campaign se basa en una base de datos relacional que contiene tablas vincu
 
 El modelo de datos se basa en una tabla principal que es de forma predeterminada la tabla de destinatarios (**NmsRecipient**). Esta tabla permite almacenar todos los perfiles de marketing.
 
-Para obtener más información sobre la tabla de destinatarios, consulte [esta sección](#default-recipient-table).
+Para obtener más información sobre la tabla de destinatarios, vea [esta sección](#default-recipient-table).
 
 ### Tabla de envío {#delivery-table}
 
@@ -40,7 +40,7 @@ Los registros de envío y los registros de seguimiento se eliminan después de u
 
 ### Tablas técnicas {#technical-tables}
 
-Por último, parte del modelo de datos consiste en datos técnicos utilizados para el proceso aplicativo, incluidos los operadores y los derechos de usuario (**NmsGroup**), carpetas (**XtkFolder**).
+Finalmente, parte del modelo de datos consiste en datos técnicos utilizados para el proceso aplicativo, incluidos operadores y derechos de usuario (**NmsGroup**), carpetas (**XtkFolder**).
 
 ## Uso de la tabla de destinatarios integrada {#default-recipient-table}
 
@@ -65,7 +65,7 @@ Además, como la tabla Destinatario forma parte del producto, tanto la tabla com
 
 Al comenzar con Adobe Campaign, debe evaluar el modelo de datos predeterminado para comprobar qué tabla es la más adecuada para almacenar los datos de marketing.
 
-Si es relevante, puede utilizar la tabla de destinatarios predeterminada con los campos predeterminados, como se describe en [esta sección](#default-recipient-table).
+Si es relevante, puede usar la tabla de destinatarios predeterminada con los campos predeterminados, como se describe en [esta sección](#default-recipient-table).
 
 Si es necesario, se puede ampliar con dos mecanismos:
 
@@ -80,25 +80,25 @@ Para obtener más información sobre la configuración de esquemas de extensión
 
 ## Uso de una tabla de destinatarios personalizada {#custom-recipient-table}
 
-Al diseñar el modelo de datos de Adobe Campaign, puede utilizar el [tabla de destinatarios integrada](#default-recipient-table), o decida crear una [tabla de destinatarios personalizada](../../configuration/using/about-custom-recipient-table.md) para almacenar sus perfiles de marketing.
+Al diseñar el modelo de datos de Adobe Campaign, puede usar la [tabla de destinatarios integrada](#default-recipient-table) o decidir crear una [tabla de destinatarios personalizada](../../configuration/using/about-custom-recipient-table.md) para almacenar sus perfiles de marketing.
 
 De hecho, si el modelo de datos no se ajusta a la estructura centrada en el destinatario, puede configurar otras tablas como dimensión de segmentación dentro de Adobe Campaign. Por ejemplo, esto puede ser relevante cuando necesita dirigirse a hogares, cuentas (como teléfonos móviles) y empresas/sitios en lugar de simplemente destinatarios.
 
 >[!NOTE]
 >
->En este caso, debe crear un nuevo [asignación de destino](../../configuration/using/target-mapping.md).
+>En este caso, deberá crear una nueva [asignación de destino](../../configuration/using/target-mapping.md).
 
-Todos los principios y pasos necesarios al utilizar una tabla de destinatarios personalizada se detallan en [esta sección](../../configuration/using/about-custom-recipient-table.md).
+Todos los principios y pasos necesarios al usar una tabla de destinatarios personalizada se detallan en [esta sección](../../configuration/using/about-custom-recipient-table.md).
 
 Las ventajas de utilizar una tabla de destinatarios personalizada son las siguientes:
 
-* **Modelo de datos flexible** : la tabla de destinatarios integrada no sirve si no se necesitan la mayoría de los campos de la tabla de destinatarios o si el modelo de datos no está centrado en el destinatario.
+* **Modelo de datos flexible**: la tabla de destinatarios integrada no sirve si no necesita la mayoría de los campos de la tabla de destinatarios o si el modelo de datos no está centrado en los destinatarios.
 
-* **Escalabilidad** - Los volúmenes grandes requieren una tabla optimizada con pocos campos para un diseño eficiente. La tabla de destinatarios integrada tendría demasiados campos inútiles, lo que podría afectar al rendimiento y carecer de eficiencia.
+* **Escalabilidad**: los volúmenes grandes requieren una tabla optimizada con pocos campos para lograr un diseño eficiente. La tabla de destinatarios integrada tendría demasiados campos inútiles, lo que podría afectar al rendimiento y carecer de eficiencia.
 
-* **Ubicación de datos** : Si los datos residen en una base de datos de marketing externa existente, puede requerir demasiado esfuerzo utilizar la tabla de destinatarios integrada. Crear una nueva basada en una estructura existente es más sencillo.
+* **Ubicación de datos**: si los datos residen en una base de datos de marketing externa existente, es posible que se requiera mucho esfuerzo para utilizar la tabla de destinatarios integrada. Crear una nueva basada en una estructura existente es más sencillo.
 
-* **Fácil migración** - No se necesita mantenimiento para comprobar que todas las extensiones siguen siendo válidas tras la actualización.
+* **Fácil migración**: no se requiere mantenimiento para comprobar que todas las extensiones siguen siendo válidas tras la actualización.
 
 >[!IMPORTANT]
 >
@@ -108,13 +108,13 @@ Las ventajas de utilizar una tabla de destinatarios personalizada son las siguie
 
 Obtenga más información acerca del modelo de datos de Campaign en estas secciones:
 
-* **Descripción de las tablas principales** : Para obtener más información sobre la descripción del modelo de datos del Campaign Classic predeterminado, consulte [esta sección](../../configuration/using/data-model-description.md).
+* **Descripción de las tablas principales**: para obtener más información sobre la descripción del modelo de datos predeterminado del Campaign Classic, consulte [esta sección](../../configuration/using/data-model-description.md).
 
-* **Descripción completa de cada tabla** - Para acceder a la descripción completa de cada tabla, vaya a **[!UICONTROL Admin > Configuration > Data schemas]**, seleccione un recurso de la lista y haga clic en **[!UICONTROL Documentation]** pestaña.
+* **Descripción completa de cada tabla**: para obtener acceso a la descripción completa de cada tabla, vaya a **[!UICONTROL Admin > Configuration > Data schemas]**, seleccione un recurso de la lista y haga clic en la ficha **[!UICONTROL Documentation]**.
 
   ![](assets/data-model_documentation-tab.png)
 
 
-* **Esquemas de campaña** : La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada esquema. Para obtener más información sobre los esquemas de Adobe Campaign, lea [esta sección](../../configuration/using/about-schema-reference.md).
+* **Esquemas de campaña**: la estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada esquema. Para obtener más información sobre los esquemas de Adobe Campaign, lea [esta sección](../../configuration/using/about-schema-reference.md).
 
-* **Recomendaciones del modelo de datos** : Conozca la arquitectura del modelo de datos de Campaign y las prácticas recomendadas relacionadas, en [esta sección](../../configuration/using/data-model-best-practices.md#data-model-architecture).
+* **Prácticas recomendadas del modelo de datos**: Conozca la arquitectura del modelo de datos de Campaign y las prácticas recomendadas relacionadas en [esta sección](../../configuration/using/data-model-best-practices.md#data-model-architecture).

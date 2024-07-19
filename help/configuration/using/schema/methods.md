@@ -33,7 +33,7 @@ método
 
 ## Descripción {#description-11}
 
-Este elemento permite definir un `<method>`  Elemento. Es obligatorio para declarar un método.
+Este elemento le permite definir un elemento `<method>`. Es obligatorio para declarar un método.
 
 ## Descripción de atributo {#attribute-description-11}
 

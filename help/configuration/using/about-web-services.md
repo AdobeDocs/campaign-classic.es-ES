@@ -18,19 +18,19 @@ ht-degree: 3%
 
 El servidor de aplicaciones de Adobe Campaign se ha diseñado para que sea abierto y fácil de integrar con sistemas de información de la empresa cada vez más diversos y complejos.
 
-Las API de Adobe Campaign se utilizan en JavaScript dentro de la aplicación y en SOAP fuera de ella. Constituyen una biblioteca de funciones genéricas que se pueden enriquecer. Para obtener más información, consulte [Implementación de métodos SOAP](../../configuration/using/implementing-soap-methods.md).
+Las API de Adobe Campaign se utilizan en JavaScript SOAP dentro de la aplicación y en la fuera de ella. Constituyen una biblioteca de funciones genéricas que se pueden enriquecer. SOAP Para obtener más información, consulte [Implementación de métodos de](../../configuration/using/implementing-soap-methods.md).
 
 >[!IMPORTANT]
 >
 >La cantidad de llamadas al motor autorizadas por día varía según el contrato de licencia. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-classic---product-description.html).\
->Una lista de todas las API, con su descripción completa, está disponible en [esta documentación dedicada](https://experienceleague.adobe.com/developer/campaign-api/api/index.html.
+>Hay disponible una lista de todas las API, con su descripción completa, en [esta documentación dedicada](https://experienceleague.adobe.com/developer/campaign-api/api/index.html.
 
 ## Requisitos previos {#prerequisites}
 
 Antes de usar las API de Adobe Campaign, debe estar familiarizado con los siguientes temas:
 
 * Javascript
-* protocolo SOAP
+* SOAP protocolo de
 * Modelo de datos Adobe Campaign
 
 ## Uso de API de Adobe Campaign {#using-adobe-campaign-apis}
@@ -38,17 +38,17 @@ Antes de usar las API de Adobe Campaign, debe estar familiarizado con los siguie
 Adobe Campaign utiliza dos tipos de API:
 
 * API genéricas de acceso a datos para consultar los datos del modelo de datos. Consulte [API orientadas a datos](../../configuration/using/data-oriented-apis.md).
-* API específicas para empresas que le permiten actuar sobre cada objeto: envíos, flujos de trabajo, suscripciones, etc. Consulte [API orientadas al negocio](../../configuration/using/business-oriented-apis.md).
+* API específicas para empresas que le permiten actuar sobre cada objeto: envíos, flujos de trabajo, suscripciones, etc. Consulte [API orientadas a la empresa](../../configuration/using/business-oriented-apis.md).
 
 Para desarrollar API e interactuar con Adobe Campaign, debe estar familiarizado con el modelo de datos. Adobe Campaign permite generar una descripción completa de la base. Consulte [Descripción del modelo](../../configuration/using/data-oriented-apis.md#description-of-the-model).
 
 ## Llamadas SOAP {#soap-calls}
 
-El protocolo SOAP permite invocar métodos API, a través del cliente enriquecido, aplicaciones de terceros que utilizan servicios web o JSP que utilizan estos métodos de forma nativa.
+SOAP El protocolo de le permite invocar métodos de API a través del cliente enriquecido, aplicaciones de terceros que utilizan servicios web o JSP que utilizan estos métodos de forma nativa.
 
 ![](assets/s_ncs_configuration_architecture.png)
 
-La estructura de un mensaje SOAP es la siguiente:
+SOAP La estructura de un mensaje de es la siguiente:
 
 * un sobre que define la estructura del mensaje,
 * un encabezado opcional,
@@ -61,17 +61,17 @@ El esquema siguiente muestra los distintos recursos implicados en el uso de las 
 
 ![](assets/s_ncs_integration_webservices_schema_pres.png)
 
-## Ejemplo de un mensaje SOAP en el método &quot;ExecuteQuery&quot; {#example-of-a-soap-message-on-the--executequery--method--}
+## SOAP Ejemplo de un mensaje de en el método &quot;ExecuteQuery&quot; {#example-of-a-soap-message-on-the--executequery--method--}
 
-En este ejemplo, una consulta SOAP invoca el método &quot;ExecuteQuery&quot;, que toma una cadena de caracteres como parámetro para la autenticación (token de sesión) y un contenido XML para la descripción de la consulta que se va a ejecutar.
+SOAP En este ejemplo, una consulta de invoca el método &quot;ExecuteQuery&quot;, que toma una cadena de caracteres como parámetro para la autenticación (token de sesión) y un contenido XML para la descripción de la consulta que se va a ejecutar.
 
 Para obtener más información, consulte [ExecuteQuery (xtk:queryDef)](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-).
 
 >[!NOTE]
 >
->La descripción WSDL de este servicio se completa en el ejemplo siguiente: [Descripción del servicio web: WSDL](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
+>La descripción WSDL de este servicio se completa en el ejemplo que se muestra aquí: [Descripción del servicio web: WSDL](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
 
-### consulta SOAP {#soap-query}
+### SOAP consulta de {#soap-query}
 
 ```
 <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -89,15 +89,15 @@ Para obtener más información, consulte [ExecuteQuery (xtk:queryDef)](../../con
 </SOAP-ENV:Envelope>
 ```
 
-El `<soap-env:envelope>` es el primer elemento del mensaje que representa la envolvente SOAP.
+SOAP El elemento `<soap-env:envelope>` es el primer elemento del mensaje que representa el sobre de la.
 
-El `<soap-env:body>` es el primer elemento secundario del sobre. Contiene la descripción del mensaje, es decir, el contenido de la consulta o la respuesta.
+El elemento `<soap-env:body>` es el primer elemento secundario del sobre. Contiene la descripción del mensaje, es decir, el contenido de la consulta o la respuesta.
 
-El método que se va a invocar se introduce en `<executequery>` del cuerpo del mensaje SOAP.
+SOAP El método que se va a invocar se especifica en el elemento `<executequery>` desde el cuerpo del mensaje de la.
 
-En SOAP, los parámetros se reconocen por orden de apariencia. El primer parámetro, `<__sessiontoken>`, toma la cadena de autenticación, el segundo parámetro es la descripción XML de la consulta desde el `<querydef>` Elemento.
+SOAP En la práctica, los parámetros se reconocen por orden de aparición. El primer parámetro, `<__sessiontoken>`, toma la cadena de autenticación; el segundo parámetro es la descripción XML de la consulta del elemento `<querydef>`.
 
-### Respuesta SOAP {#soap-response}
+### SOAP respuesta de la {#soap-response}
 
 ```
 <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -112,11 +112,11 @@ En SOAP, los parámetros se reconocen por orden de apariencia. El primer paráme
 </SOAP-ENV:Envelope>
 ```
 
-El resultado de la consulta se introduce desde el `<pdomoutput>` Elemento.
+El resultado de la consulta se especifica desde el elemento `<pdomoutput>`.
 
 ## Administración de errores {#error-management}
 
-Ejemplo de respuesta de error SOAP:
+SOAP Ejemplo de respuesta de error:
 
 ```
 <?xml version='1.0' encoding='ISO-8859-1'?>
@@ -132,11 +132,11 @@ ODBC error: [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has bee
 </SOAP-ENV:Envelope>
 ```
 
-El `<soap-env:fault>` del cuerpo del mensaje SOAP se utiliza para transmitir las señales de error que surgen durante el procesamiento del servicio web. Se compone de los siguientes subelementos:
+SOAP El elemento `<soap-env:fault>` del cuerpo del mensaje de la se utiliza para transmitir las señales de error que surgen durante el procesamiento del servicio web. Se compone de los siguientes subelementos:
 
 * `<faultcode>` : indica el tipo de error. Los tipos de error son:
 
-   * &quot;VersionMismatch&quot; en caso de incompatibilidad con la versión de SOAP utilizada,
+   * SOAP &quot;VersionMismatch&quot; en caso de incompatibilidad con la versión de la versión de la versión utilizada,
    * &quot;MustUnderstand&quot; en caso de problemas en el encabezado del mensaje,
    * &quot;Cliente&quot; en el caso de que al cliente le falte información,
    * &quot;Server&quot; en el caso de que el servidor tenga un problema al ejecutar el procesamiento.
@@ -144,7 +144,7 @@ El `<soap-env:fault>` del cuerpo del mensaje SOAP se utiliza para transmitir las
 * `<faultstring>` : mensaje que describe el error
 * `<detail>` : mensaje de error largo
 
-El éxito o el error de la invocación del servicio se identifican cuando la variable `<faultcode>` el elemento está verificado.
+El éxito o error de la invocación del servicio se identifica cuando se verifica el elemento `<faultcode>`.
 
 >[!IMPORTANT]
 >
@@ -174,4 +174,4 @@ La URL del servidor es la siguiente:
 
 https://serverName/nl/jsp/soaprouter.jsp
 
-Con **`<server>`** el servidor de aplicaciones de Adobe Campaign (**nlserver web**).
+Con **`<server>`**, el servidor de aplicaciones de Adobe Campaign (**nlserver web**).

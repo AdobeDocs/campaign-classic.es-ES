@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Impactos de la versión del explorador de 3 dígitos en los componentes web de Campaign {#version-100}
 
-Google y Mozilla advierten que Chrome y Firefox pueden romper algunos sitios web debido a sus próximas versiones de 3 dígitos.
+Google y Mozilla están advirtiendo que Chrome y Firefox podrían romper algunos sitios web debido a sus próximas versiones de 3 dígitos.
 
-La versión 100 de Chrome está configurada para su lanzamiento el **29 de marzo de 2022** y Firefox v100 en **3 de mayo de 2022**.
+La versión 100 de Chrome está programada para el **29 de marzo de 2022** y la versión 100 de Firefox para el **3 de mayo de 2022**.
 
 Microsoft lanzó Edge v100 a principios de marzo de 2022.
 
@@ -43,8 +43,8 @@ Con esta configuración, el explorador envía la nueva cadena del agente de usua
 
 Para probar las páginas web con Mozilla Firefox 100, puede simular el próximo cambio de agente de usuario en las aplicaciones web cambiando manualmente la cadena del agente de usuario.
 
-1. Abra Firefox, introduzca. `about:config` en la barra de direcciones, y presione intro.
-1. Buscar por `general.useragent.override`.
+1. Abra Firefox, escriba `about:config` en la barra de direcciones y presione Intro.
+1. Busque `general.useragent.override`.
 1. Seleccione &quot;Cadena&quot; y luego haga clic en el signo más (+).
 
    ![](assets/force-user-agent-firefox.png)
@@ -58,33 +58,33 @@ Para probar las páginas web con Mozilla Firefox 100, puede simular el próximo 
 1. Haga clic en el botón de marca de verificación azul para guardar la configuración.
 1. Cierre y vuelva a iniciar el explorador.
 
-Para volver a cambiar el agente de usuario a su valor predeterminado, simplemente vuelva a `about:config` y buscar `general.useragent.override` configurando de nuevo.  Cuando aparezca, haga clic en el icono de papelera para eliminar la configuración y vuelva a iniciar el explorador.
+Para volver a cambiar el agente de usuario a su valor predeterminado, simplemente vuelva a `about:config` y busque de nuevo la configuración de `general.useragent.override`.  Cuando aparezca, haga clic en el icono de papelera para eliminar la configuración y vuelva a iniciar el explorador.
 
-### Prueba con Chrome 100{#test-chrome-100}
+### Pruebas con Chrome 100{#test-chrome-100}
 
 Para probar el agente de usuario de Google Chrome 100 en sus propias aplicaciones web, puede habilitar esta prueba siguiendo los pasos siguientes:
 
-1. Abra Chrome y escriba `chrome://flags` en la barra de direcciones, y presione intro.
-1. Buscar `Force major version to 100 in User-Agent` en el campo de búsqueda, y actívelo como se muestra a continuación.
+1. Abra Chrome, escriba `chrome://flags` en la barra de direcciones y presione Intro.
+1. Busque `Force major version to 100 in User-Agent` en el campo de búsqueda y actívelo como se muestra a continuación.
 
    ![](assets/force-user-agent-chrome.png)
 
 1. Reinicie el explorador.
-1. Cierre el `chrome://flags` pestaña.
+1. Cierre la ficha `chrome://flags`.
 
-Para volver a cambiar el agente de usuario a su valor predeterminado, simplemente siga este proceso y cambie la configuración del indicador a `Default` y reinicie el explorador.
+Para volver a cambiar el agente de usuario a su valor predeterminado, simplemente siga este proceso, cambie la configuración del indicador a `Default` y reinicie el explorador.
 
 
 ### Pruebas con Microsoft Edge 100{#test-ms-edge-100}
 
-A partir de v97, los propietarios del sitio pueden emular esta versión habilitando el indicador de experimento  `#force-major-version-to-100` in `edge://flags`.
+A partir de v97, los propietarios del sitio pueden emular esta versión habilitando el indicador de experimento `#force-major-version-to-100` en `edge://flags`.
 
-1. Abra Microsoft Edge y escriba `edge://flags` en la barra de direcciones, y presione intro.
-1. Buscar por `force-major-version-to-100` y actívelo como se muestra a continuación.
+1. Abra Microsoft Edge, escriba `edge://flags` en la barra de direcciones y presione Intro.
+1. Busque el campo `force-major-version-to-100` y actívelo como se muestra a continuación.
 
    ![](assets/force-user-agent-edge.png)
 
 1. Reinicie el explorador.
-1. Cierre el `edge://flags` pestaña.
+1. Cierre la ficha `edge://flags`.
 
-Para volver a cambiar el agente de usuario a su valor predeterminado, simplemente siga este proceso y cambie la configuración del indicador a `Default` y reinicie el explorador.
+Para volver a cambiar el agente de usuario a su valor predeterminado, simplemente siga este proceso, cambie la configuración del indicador a `Default` y reinicie el explorador.

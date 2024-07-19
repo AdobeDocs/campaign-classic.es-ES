@@ -27,7 +27,7 @@ Antes de empezar a trabajar con el conector Adobe Campaign-Adobe Analytics, teng
 
 * El complemento del conector de Web Analytics debe instalarse en su entorno, a través del paquete dedicado.
 
-   * Para implementaciones híbridas y locales, asegúrese de seguir los pasos de aprovisionamiento detallados en esta sección [página](adobe-analytics-provisioning.md).
+   * Para implementaciones híbridas y locales, asegúrese de seguir los pasos de aprovisionamiento detallados en esta [página](adobe-analytics-provisioning.md).
    * Como usuario de Hoster o Cloud Service administrados, póngase en contacto con el Adobe de para conectar Campaign con los servicios y las soluciones de Adobe Experience Cloud.
 
 

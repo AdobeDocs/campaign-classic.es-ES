@@ -18,11 +18,11 @@ ht-degree: 67%
 
 
 
-Uso de Campaign [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) para procesar información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso a la Teradata.
+Utilice la opción [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) de Campaign para procesar la información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso a la Teradata.
 
-1. Instalación y configuración [conductores de teradatas](#teradata-config)
+1. Instalar y configurar [controladores de Teradata](#teradata-config)
 1. Configuración de la Teradata [cuenta externa](#teradata-external) en Campaign
-1. Configuración de [configuración adicional](#teradata-additional-configurations) para Teradata y el servidor de Campaign
+1. Configurar [configuración adicional](#teradata-additional-configurations) para el servidor de Teradata y Campaign
 
 ## configuración de teradata {#teradata-config}
 
@@ -76,7 +76,7 @@ Debe instalar controladores para Teradata para poder implementar la conexión a 
 
 La cuenta externa Teradata permite conectar la instancia de Campaign a la base de datos externa Teradata.
 
-1. Desde Campaign **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
+1. En la campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
 1. Haga clic en **[!UICONTROL New]** y seleccione **[!UICONTROL External database]** como **[!UICONTROL Type]**.
 
@@ -84,19 +84,19 @@ La cuenta externa Teradata permite conectar la instancia de Campaign a la base d
 
 1. Para configurar la cuenta externa **[!UICONTROL Teradata]**, debe especificar:
 
-   * **[!UICONTROL Type]**: elija el **[!UICONTROL Teradata]** escriba.
+   * **[!UICONTROL Type]**: elija el tipo **[!UICONTROL Teradata]**.
 
-   * **[!UICONTROL Server]**: URL o nombre del servidor de Teradata
+   * **[!UICONTROL Server]**: URL o nombre de su servidor de Teradata
 
-   * **[!UICONTROL Account]**: Nombre de la cuenta utilizada para acceder a la base de datos de Teradata
+   * **[!UICONTROL Account]**: nombre de la cuenta utilizada para acceder a la base de datos de Teradata
 
-   * **[!UICONTROL Password]**: Contraseña utilizada para conectarse a la base de datos de Teradata
+   * **[!UICONTROL Password]**: contraseña utilizada para conectarse a la base de datos de Teradata
 
-   * **[!UICONTROL Database]**: Nombre de la base de datos (opcional)
+   * **[!UICONTROL Database]**: nombre de la base de datos (opcional)
 
-   * **[!UICONTROL Options]**: opciones que se pasan por la Teradata. Utilice el siguiente formato: &#39;parameter=value&#39;. Utilice un punto y coma como separador entre valores.
+   * **[!UICONTROL Options]**: opciones que se pasarán por la Teradata. Utilice el siguiente formato: &#39;parameter=value&#39;. Utilice un punto y coma como separador entre valores.
 
-   * **[!UICONTROL Timezone]**: Zona horaria definida en Teradata. [Más información](#timezone)
+   * **[!UICONTROL Timezone]**: zona horaria definida en la Teradata. [Más información](#timezone)
 
 El conector admite las siguientes opciones:
 
@@ -133,9 +133,9 @@ Cuando se configura esta opción, cada vez que un usuario de Campaign realiza un
 
 Para configurar Query banding, siga los pasos a continuación:
 
-1. Utilice el  **[!UICONTROL Default]** para introducir una banda de consulta predeterminada que se utilizará si un usuario no tiene ninguna banda de consulta asociada. Si este campo se deja vacío, los usuarios sin banda de consulta no podrán utilizar Teradata.
+1. Use **[!UICONTROL Default]** para especificar una banda de consulta predeterminada que se utilizará si un usuario no tiene ninguna banda de consulta asociada. Si este campo se deja vacío, los usuarios sin banda de consulta no podrán utilizar Teradata.
 
-1. Utilice el **[!UICONTROL Users]** para especificar una banda de consulta para cada usuario. Puede agregar todos los pares clave/valor que necesite, por ejemplo, priority=1;workload=high. Si el usuario no tiene ninguna banda de consulta asignada, se aplica el campo **[!UICONTROL Default]**.
+1. Utilice el campo **[!UICONTROL Users]** para especificar una banda de consulta para cada usuario. Puede agregar todos los pares clave/valor que necesite, por ejemplo, priority=1;workload=high. Si el usuario no tiene ninguna banda de consulta asignada, se aplica el campo **[!UICONTROL Default]**.
 
 1. Marque la casilla **[!UICONTROL Active]** para activar esta función.
 
@@ -227,7 +227,7 @@ Para instalar sha2:
 
 ### Instalación de UDF_UTF16TO8 {#UDF-UTF16TO8-installation}
 
-Si desea utilizar las funciones udf_utf16to8 en la instancia de Adobe Campaign, instale la función de modo usuario en la base de datos de Teradata desde el **kit de herramientas unicode de teradata**.
+Si desea utilizar las funciones udf_utf16to8 en su instancia de Adobe Campaign, instale la función de modo usuario en su base de datos de Teradata desde el **kit de herramientas Unicode de Teradata**.
 
 El sha1 del archivo descargado es el siguiente e58235f434f52c71316a577cb48e20b97d24f470.
 

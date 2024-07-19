@@ -39,17 +39,17 @@ Permite definir los campos que crean una unión entre tablas SQL.
 
 ## Uso y contexto de uso {#use-and-context-of-use-5}
 
-A `<join>`  element solo se puede usar si el elemento principal  `<element>`  es de tipo &quot;vínculo&quot;. Esto significa que el elemento principal debe tener declarado el atributo &quot;@type=link&quot;.
+Un elemento `<join>` solo se puede usar si el elemento principal `<element>` es de tipo &quot;vínculo&quot;. Esto significa que el elemento principal debe tener declarado el atributo &quot;@type=link&quot;.
 
-No es necesario especificar el nombre y el área de nombres de la tabla remota en el `<join>`  Elemento. Deben especificarse en el elemento principal  `<element>`.
+No es necesario especificar el nombre y el área de nombres de la tabla remota en el elemento `<join>`. Deben especificarse en el elemento principal `<element>`.
 
 Por norma, los vínculos se definen al final del esquema.
 
-Si la variable `<join>` no se ha especificado cuando se define el elemento de tipo de vínculo, el vínculo se coloca automáticamente en las claves principales de ambas tablas.
+Si el elemento `<join>` no se especifica cuando se define el elemento de tipo de vínculo, el vínculo se colocará automáticamente en las claves principales de ambas tablas.
 
 ## Descripción de atributo {#attribute-description-7}
 
-* **dstFilterExpr (cadena)**: este atributo permite restringir el número de valores aptos en la tabla remota.
+* **dstFilterExpr (cadena)**: este atributo le permite restringir el número de valores elegibles en la tabla remota.
 * **xpath-dst (string)**: este atributo recibe un Xpath (atributo @name de la tabla remota).
 * **xpath-src (string)**: este atributo recibe un Xpath (atributo @name en el esquema actual).
 

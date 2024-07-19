@@ -14,11 +14,11 @@ ht-degree: 9%
 
 # Métodos SOAP en JavaScript{#soap-methods-in-javascript}
 
-JavaScript ejecutado en el servidor de Adobe Campaign.
+Este es el JavaScript ejecutado en el servidor de Adobe Campaign.
 
 ## Métodos estáticos {#static-methods}
 
-Se accede a los métodos SOAP estáticos invocando un método en el objeto que representa el esquema. Los esquemas son propiedades de objetos &quot;namespace&quot;. Estas áreas de nombres son variables globales, por lo que, por ejemplo, las variables xtk o nms representan las áreas de nombres correspondientes
+SOAP Se accede a los métodos de la estática invocando un método en el objeto que representa el esquema. Los esquemas son propiedades de objetos &quot;namespace&quot;. Estas áreas de nombres son variables globales, por lo que, por ejemplo, las variables xtk o nms representan las áreas de nombres correspondientes
 
 En el ejemplo siguiente se invoca el método PostEvent estático del esquema xtk:workflow:
 
@@ -28,7 +28,7 @@ xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false)
 
 ## Métodos no estáticos {#non-static-methods}
 
-Para utilizar métodos SOAP no estáticos, primero es necesario recuperar una entidad utilizando los métodos &quot;get&quot; o &quot;create&quot; en los esquemas correspondientes.
+SOAP Para utilizar métodos de no estáticos, primero es necesario recuperar una entidad utilizando los métodos &quot;get&quot; o &quot;create&quot; en los esquemas correspondientes.
 
 En el ejemplo siguiente se invoca el método ExecuteQuery del esquema &quot;xtk:queryDef&quot;:
 

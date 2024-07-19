@@ -27,7 +27,7 @@ Utilice el puerto integrado de Apache Tomcat como prioridad (8080 de forma prede
 
 ### Servidor de envío {#delivery-server}
 
-Para el servidor de entrega (**mta de nlserver**), los puertos siguientes deben estar abiertos:
+Para el servidor de entrega (**nlserver mta**), los puertos siguientes deben estar abiertos:
 
 <table> 
  <tbody> 
@@ -38,7 +38,7 @@ Para el servidor de entrega (**mta de nlserver**), los puertos siguientes deben 
   </tr> 
   <tr> 
    <td> 25/tcp (smtp)<br /> </td> 
-   <td> Anywhere<br /> </td> 
+   <td> En cualquier lugar<br /> </td> 
    <td> Tráfico SMTP para difusión por correo electrónico.<br /> </td> 
   </tr> 
   <tr> 
@@ -48,12 +48,12 @@ Para el servidor de entrega (**mta de nlserver**), los puertos siguientes deben 
   </tr> 
   <tr> 
    <td> 38000/tcp (puerto predeterminado)<br /> </td> 
-   <td> Pasarela SMS<br /> </td> 
-   <td> Se utiliza para enviar tráfico SMS al enrutador SMS NetSize [opción].<br /> </td> 
+   <td> Puerta de enlace de SMS<br /> </td> 
+   <td> Se usa para enviar tráfico SMS al enrutador SMS NetSize [opción].<br /> </td> 
   </tr> 
   <tr> 
    <td> 7777/udp<br /> </td> 
-   <td> Servidor de estadísticas<br /> </td> 
+   <td> Servidor de estadísticas <br /> </td> 
    <td> Acceso al servidor de estadísticas.<br /> </td> 
   </tr> 
  </tbody> 
@@ -96,7 +96,7 @@ Para el servidor de aplicaciones (**nlserver web**), los puertos siguientes debe
   </tr> 
   <tr> 
    <td> 80/tcp (http)<br /> 443/tcp (https)<br /> </td> 
-   <td> Anywhere<br /> </td> 
+   <td> En cualquier lugar<br /> </td> 
    <td> Tráfico HTTP o HTTPS (incluido para la oferta de envío).<br /> </td> 
   </tr> 
  </tbody> 
@@ -106,7 +106,7 @@ Cuando varios servidores de aplicaciones de una plataforma de Adobe Campaign nec
 
 ### Estado de envío de SMS {#sms-delivery-status}
 
-Para rastrear envíos de SMS (**nlserver sms**), el siguiente puerto debe estar abierto:
+Para hacer un seguimiento de las entregas de SMS (**nlserver sms**), debe estar abierto el siguiente puerto:
 
 <table> 
  <tbody> 
@@ -117,7 +117,7 @@ Para rastrear envíos de SMS (**nlserver sms**), el siguiente puerto debe estar 
   </tr> 
   <tr> 
    <td> 38000/tcp (puerto predeterminado)<br /> </td> 
-   <td> Pasarela SMS<br /> </td> 
+   <td> Puerta de enlace de SMS<br /> </td> 
    <td> Consulta el estado de la cola de envíos administrada por la puerta de enlace de SMS NetSize [opción].<br /> </td> 
   </tr> 
  </tbody> 
@@ -136,8 +136,8 @@ Para el cliente enriquecido de Adobe Campaign (**nlclient**), los puertos siguie
   </tr> 
   <tr> 
    <td><p> 80/tcp (http)</p><p>443/tcp (https)</p><br /> </td> 
-   <td> Servidor de aplicaciones<br /> </td> 
-   <td> Tráfico de SOAP (HTTP).<br /> </td> 
+   <td> Servidor de aplicaciones <br /> </td> 
+   <td> SOAP Tráfico de (HTTP).<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -151,14 +151,14 @@ Los puertos predeterminados son los siguientes:
 <table> 
  <tbody> 
   <tr> 
-   <td> Tipo de base de datos<br /> </td> 
+   <td> Tipo de base de datos <br /> </td> 
    <td> Puerto (predeterminado)<br /> </td> 
    <td> Destino<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Oracle</strong><br /> </td> 
    <td> 1521/tcp<br /> </td> 
-   <td> Servidor de base de datos<br /> </td> 
+   <td> Servidor de base de datos <br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>PostgreSQL</strong><br /> </td> 
@@ -180,7 +180,7 @@ Además, ciertos componentes deben ser accesibles desde la Internet pública par
 <table> 
  <tbody> 
   <tr> 
-   <td> Puerto de escucha<br /> </td> 
+   <td> Puerto de escucha <br /> </td> 
    <td> Ubicación<br /> </td> 
   </tr> 
   <tr> 
@@ -197,7 +197,7 @@ Este servidor aloja formularios web, páginas espejo, etc. Los puertos siguiente
 <table> 
  <tbody> 
   <tr> 
-   <td> Puerto de escucha<br /> </td> 
+   <td> Puerto de escucha <br /> </td> 
    <td> Ubicación<br /> </td> 
   </tr> 
   <tr> 
@@ -212,7 +212,7 @@ Este servidor aloja formularios web, páginas espejo, etc. Los puertos siguiente
 <table> 
  <tbody> 
   <tr> 
-   <td> Puerto de escucha<br /> </td> 
+   <td> Puerto de escucha <br /> </td> 
    <td> Ubicación<br /> </td> 
   </tr> 
   <tr> 
@@ -224,21 +224,21 @@ Este servidor aloja formularios web, páginas espejo, etc. Los puertos siguiente
 
 ## Integración con Adobe Experience Manager {#integration-with-adobe-experience-manager}
 
-La integración entre Adobe Campaign y Adobe Experience Manager requiere la apertura de varios puertos si la instalación es &quot;on-premise&quot;. Para obtener más información sobre la configuración de esta integración, consulte [documentación detallada](../../integrations/using/about-adobe-experience-manager.md).
+La integración entre Adobe Campaign y Adobe Experience Manager requiere la apertura de varios puertos si la instalación es &quot;on-premise&quot;. Para obtener más información sobre cómo configurar esta integración, consulte la [documentación detallada](../../integrations/using/about-adobe-experience-manager.md).
 
 <table> 
  <tbody> 
   <tr> 
-   <td> Puerto de escucha<br /> </td> 
+   <td> Puerto de escucha <br /> </td> 
    <td> Descripción<br /> </td> 
   </tr> 
   <tr> 
    <td> 80<br /> </td> 
-   <td> AEM Conexión de la a Adobe Campaign<br /> </td> 
+   <td> AEM conexión de la a Adobe Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 4502</p><p> 4503</p><br /> </td> 
-   <td> Conexión de Adobe Campaign AEM a instancias de "creación" y "publicación" de. AEM Los puertos que se van a abrir pueden diferir de los puertos predeterminados, según la configuración de la aplicación de la que se haya hecho la configuración de la.<br /> </td> 
+   <td> Conexión de Adobe Campaign AEM a las instancias de "creación" y "publicación" de la. AEM Los puertos que se van a abrir pueden diferir de los puertos predeterminados, según la configuración de la aplicación de la que se haya hecho la configuración de la aplicación.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

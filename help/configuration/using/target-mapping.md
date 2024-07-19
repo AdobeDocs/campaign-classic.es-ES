@@ -4,12 +4,12 @@ title: Asignación de destino
 description: Obtenga información sobre cómo crear una asignación de destino
 feature: Application Settings
 role: Data Engineer, Developer
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 38333669-5598-4811-a121-b677c1413f56
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -53,7 +53,7 @@ Para ello, siga los siguientes pasos:
    </srcSchema>
    ```
 
-1. Declare el esquema como una vista externa utilizando el atributo =&quot;true&quot;. Consulte [Atributo de vista](../../configuration/using/schema-characteristics.md#the-view-attribute).
+1. Declare el esquema como una vista externa utilizando el atributo =&quot;true&quot;. Consulte [El atributo de vista](../../configuration/using/schema-characteristics.md#the-view-attribute).
 
    ```
     <srcSchema desc="External recipient table" namespace="cus" view="true"....>
@@ -83,34 +83,34 @@ Para ello, siga los siguientes pasos:
    ```
 
 1. Haga clic en el nodo **[!UICONTROL Administration > Campaign management > Target mappings]**.
-1. Haga clic en **Nuevo** para abrir el asistente de creación de asignaciones de destino.
-1. Introduzca el **Etiqueta** y seleccione el esquema que acaba de crear en el campo **Dimensión de segmentación** field.
+1. Haga clic en el botón **Nuevo** para abrir el asistente para la creación de asignaciones de destino.
+1. Introduzca el campo **Label** y seleccione el esquema que acaba de crear en el campo **Targeting dimension**.
 
    ![](assets/mapping_diffusion_wizard_1.png)
 
-1. En el **Editar formularios de direcciones** , seleccione los campos del esquema que coinciden con las distintas direcciones de envío. Aquí, podemos asignar el **@email** y **@mobile** campos.
+1. En la ventana **Editar formularios de direcciones**, seleccione los campos del esquema que coinciden con las distintas direcciones de entrega. Aquí podemos asignar los campos **@email** y **@mobile**.
 
    ![](assets/mapping_diffusion_wizard_2.png)
 
-1. En lo siguiente **Almacenamiento** , introduzca la **Sufijo de los esquemas de extensión** para diferenciar los nuevos esquemas de los esquemas predeterminados que proporciona Adobe Campaign.
+1. En la siguiente ventana **Storage**, introduzca el campo **Sufijo de los esquemas de extensión** para diferenciar los nuevos esquemas de los esquemas predeterminados proporcionados por Adobe Campaign.
 
-   Clic **[!UICONTROL Define new additional fields]** para seleccionar la dimensión de destino en la entrega.
+   Haga clic en **[!UICONTROL Define new additional fields]** para seleccionar la dimensión de destino en su envío.
 
    De forma predeterminada, la administración de exclusiones se almacena en la misma tabla que los mensajes.
 
-   Compruebe la **Generar un esquema de almacenamiento para el seguimiento** si desea configurar el almacenamiento para el seguimiento vinculado a la asignación de destino.
+   Marque la casilla **Generar un esquema de almacenamiento para el seguimiento** si desea configurar el almacenamiento para el seguimiento vinculado a la asignación de destino.
 
    ![](assets/mapping_diffusion_wizard_3.png)
 
    >[!IMPORTANT]
    >
-   >Adobe Campaign no admite varios esquemas de destinatarios, conocidos como esquemas de segmentación, vinculados a los mismos esquemas de &quot;broadlog&quot; o de &quot;log&quot; de seguimiento. De lo contrario, esto puede provocar anomalías en la reconciliación de datos posteriormente. Para obtener más información, consulte la [Recomendaciones y limitaciones](../../configuration/using/about-custom-recipient-table.md) página.
+   >Adobe Campaign no admite varios esquemas de destinatarios, conocidos como esquemas de segmentación, vinculados a los mismos esquemas de &quot;broadlog&quot; o de &quot;log&quot; de seguimiento. De lo contrario, esto puede provocar anomalías en la reconciliación de datos posteriormente. Para obtener más información, consulte la página [Recomendación y limitaciones](../../configuration/using/about-custom-recipient-table.md).
 
-1. En el **Extensiones** , seleccione los esquemas opcionales que desea generar (la lista de esquemas disponibles depende de los módulos instalados en la plataforma de Adobe Campaign).
+1. En la ventana **Extensions**, seleccione los esquemas opcionales que desea generar (la lista de esquemas disponibles depende de los módulos instalados en la plataforma Adobe Campaign).
 
    ![](assets/mapping_diffusion_wizard_4.png)
 
-1. Haga clic en **Guardar** para cerrar el asistente.
+1. Haga clic en el botón **Guardar** para cerrar el asistente.
 
    El asistente utiliza el esquema de inicio para crear todos los demás esquemas necesarios para que funcione la nueva asignación de destino.
 

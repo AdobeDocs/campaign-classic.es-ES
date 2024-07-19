@@ -35,13 +35,13 @@ De forma predeterminada, el operador webApp es un administrador. Para mejorar la
 
 Cree suficientes grupos de seguridad para dar derechos suficientes a los operadores y permitirles hacer lo que necesiten, y no más.
 
-No utilice el operador admin (o no lo comparta). Cree un operador por usuario físico (para tener una auditoría/registro precisos). Añada los administradores con nuevos nombres al grupo de administradores. Si no utiliza el operador admin, no lo elimine y no lo deshabilite: este operador se utiliza internamente para ejecutar el procesamiento. Pero puedes prohibir esto [acceso a la consola de cliente](../../platform/using/access-management.md) y restringir su zona de seguridad (a localhost).
+No utilice el operador admin (o no lo comparta). Cree un operador por usuario físico (para tener una auditoría/registro precisos). Añada los administradores con nuevos nombres al grupo de administradores. Si no utiliza el operador admin, no lo elimine y no lo deshabilite: este operador se utiliza internamente para ejecutar el procesamiento. Pero puede prohibir su [acceso a la consola del cliente](../../platform/using/access-management.md) y restringir su zona de seguridad (a localhost).
 
 Evite añadir demasiados operadores en el grupo de administradores (o con derechos asignados de administrador). Son operadores muy potentes (pueden realizar todas las sentencias SQL, ejecutar comandos en el servidor, etc.).
 
 Adobe Campaign proporciona tres privilegios de alto nivel mediante [derechos asignados](../../platform/using/access-management.md#named-rights):
 
-* **ADMINISTRACIÓN** (admin): da acceso a todo y permite hacer todo, omitiendo todas las comprobaciones de derechos asignados, por lo que incluye los derechos asignados PROGRAM EXECUTION (createProcess) y SQL
+* **ADMINISTRACIÓN** (administrador): da acceso a todo y permite hacer de todo, omitiendo todas las comprobaciones de derechos asignados, por lo que incluye los derechos asignados de EJECUCIÓN DE PROGRAMA (createProcess) y SQL
 
 * **EJECUCIÓN DEL PROGRAMA** (createProcess): permite ejecutar programas externos (en el servidor)
 

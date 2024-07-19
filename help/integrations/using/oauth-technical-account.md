@@ -4,14 +4,15 @@ title: Cree y configure su cuenta técnica de Adobe para las API
 description: Más información sobre cómo crear su cuenta de API de Adobe
 role: User, Admin
 level: Beginner
-source-git-commit: efd09fd71069878a5096bfa3592e6ebbaa9dd4e4
+exl-id: 5d830ea0-a0a3-4b35-8dc4-e955380431fb
+source-git-commit: 8eadea9f9cc0a44522726024bfbc825e3b4cad98
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
-# Cree su cuenta técnica de Adobe {#create-service-account}
+# Creación de la cuenta técnica de Adobe {#create-service-account}
 
 Las credenciales de autenticación de servidor a servidor permiten al servidor de la aplicación generar tokens de acceso y realizar llamadas de API en nombre de la propia aplicación. [Más información](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/)
 
@@ -19,7 +20,7 @@ Las credenciales de autenticación de servidor a servidor permiten al servidor d
 
 La credencial de la cuenta de servicio (JWT) está en desuso por Adobe. Las integraciones de Campaign con soluciones de Adobe y aplicaciones ahora deben depender de las credenciales de servidor a servidor de OAuth.
 
-Si ha implementado integraciones entrantes o salientes con Campaign antes de junio de 2024, debe actualizar su entorno de Campaign a la versión 7.4.1 y migrar su cuenta técnica a oAuth como se detalla a continuación [en esta documentación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration){target="_blank"}. Las credenciales de la cuenta de servicio existente (JWT) seguirán funcionando hasta que **27 de enero de 2025**.
+Si ha implementado integraciones entrantes o salientes con Campaign antes de junio de 2024, debe actualizar su entorno de Campaign a la versión 7.4.1 y migrar su cuenta técnica a oAuth como se detalla [en esta documentación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration){target="_blank"}. Las credenciales de la cuenta de servicio (JWT) existentes seguirán funcionando hasta el **27 de enero de 2025**.
 
 Una vez completada la migración, debe asociar la nueva credencial a Campaign como se explica en [esta sección](#add-credentials).
 
@@ -27,7 +28,7 @@ Una vez completada la migración, debe asociar la nueva credencial a Campaign co
 
 Para crear la cuenta técnica de OAuth para nuevas integraciones, siga estos pasos:
 
-1. Acceder a la consola de Adobe Developer e iniciar sesión como **Administrador del sistema** de su organización.
+1. Acceda a la consola de Adobe Developer e inicie sesión como **Administrador del sistema** de su organización.
 
    Para obtener más información acerca de las funciones de administrador, consulte esta [página](https://helpx.adobe.com/es/enterprise/using/admin-roles.html).
 
@@ -45,7 +46,7 @@ Para crear la cuenta técnica de OAuth para nuevas integraciones, siga estos pas
 
    ![](assets/api-account-3.png)
 
-1. Seleccione el **[!UICONTROL Product profile]** vínculo a su proyecto.
+1. Seleccione el vínculo **[!UICONTROL Product profile]** a su proyecto.
 
    Puede crear uno nuevo si es necesario. [Más información](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)
 
@@ -53,7 +54,7 @@ Para crear la cuenta técnica de OAuth para nuevas integraciones, siga estos pas
 
    ![](assets/api-account-4.png)
 
-1. En el proyecto, en Credenciales, seleccione [!DNL OAuth Server-to-Server] y copie la siguiente información:
+1. En el proyecto, en Credencial, seleccione [!DNL OAuth Server-to-Server] y copie la siguiente información:
 
    * **[!UICONTROL Client ID]**
    * **[!UICONTROL Client secret]**
@@ -66,7 +67,7 @@ Siga los pasos a continuación para añadir las credenciales del proyecto OAuth 
 
 1. Inicie sesión mediante SSH en cada contenedor donde esté instalada la instancia de Adobe Campaign.
 
-1. Añada las credenciales del proyecto OAuth en Adobe Campaign ejecutando el siguiente comando como `neolane` usuario. Esto insertará las credenciales **[!UICONTROL Technical Account]** en el archivo de configuración de instancia.
+1. Agregue las credenciales de su proyecto OAuth en Adobe Campaign ejecutando el siguiente comando como usuario `neolane`. Esto insertará las credenciales **[!UICONTROL Technical Account]** en el archivo de configuración de instancia.
 
    ```
    nlserver config -instance:<instance_name> -setimsoauth:ims-org-id/client-id/technical-account-id/client-secret

@@ -3,7 +3,7 @@ product: campaign
 title: Seguimiento de pila en Linux
 description: Seguimiento de pila en Linux
 feature: Monitoring
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,7 +11,7 @@ exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 16%
 
 
 
-A **seguimiento de pila** representa un seguimiento contenido en un **núcleo** escriba el archivo. Este archivo se genera en caso de error del equipo. Puede identificar el origen del error.
+Un seguimiento de pila **stack** representa un seguimiento contenido en un archivo de tipo **core**. Este archivo se genera en caso de error del equipo. Puede identificar el origen del error.
 
 >[!NOTE]
 >
->* A **núcleo** el nombre del archivo es **Núcleo.`<num>`**.
->* **gdb - El depurador GNU** debe estar instalado en el equipo.
+>* Un archivo **core** se llama **core.`<num>`**.
+>* **gdb: el depurador GNU** debe estar instalado en el equipo.
 >
 
-El servicio de asistencia técnica de Adobe Campaign puede solicitarle esto **seguimiento de pila**. Para obtenerlo, introduzca los siguientes comandos en Linux:
+El soporte técnico de Adobe Campaign puede pedirle este **seguimiento de pila**. Para obtenerlo, introduzca los siguientes comandos en Linux:
 
 ```
 su - neolane
@@ -56,7 +56,7 @@ gdb nlserver <coreFile>
 
 El soporte técnico de Adobe Campaign podría pedirle que ejecute este comando con un ejecutable específico (que proporcionaremos nosotros).
 
-En este caso, simplemente ejecute el siguiente comando reemplazando **nlserver** con el ejecutable proporcionado por Adobe Campaign:
+En este caso, simplemente ejecute el siguiente comando reemplazando **nlserver** por el ejecutable proporcionado por Adobe Campaign:
 
 ```
 gdb nlserver <coreFile>

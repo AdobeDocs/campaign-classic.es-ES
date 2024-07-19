@@ -17,14 +17,14 @@ ht-degree: 4%
 
 # Integración en un servidor web para Windows {#integration-into-a-web-server-for-windows}
 
-Adobe Campaign incluye Apache Tomcat, que actúa como punto de entrada en el servidor de aplicaciones a través de HTTP (y SOAP).
+Adobe Campaign SOAP incluye Apache Tomcat, que actúa como punto de entrada en el servidor de aplicaciones a través de HTTP (y el servidor de correo electrónico) (y el servidor de correo electrónico).
 
 Puede utilizar este servidor Tomcat integrado para servir solicitudes HTTP.
 
 En este caso:
 
 * el puerto de escucha predeterminado es 8080. Para cambiarlo, consulte [esta sección](../../installation/using/configure-tomcat.md).
-* A continuación, las consolas de cliente se conectan mediante una dirección URL como ```https:// `<computer>`:8080```.
+* Las consolas de cliente se conectan mediante una dirección URL como ```https:// `<computer>`:8080```.
 
 Sin embargo, por motivos de seguridad y administración, se recomienda utilizar un servidor Web específico como punto de entrada principal para el tráfico HTTP cuando el equipo que ejecuta Adobe Campaign está expuesto en Internet y desea abrir el acceso a la consola fuera de la red.
 
@@ -52,17 +52,17 @@ Para integrar Adobe Campaign con el servidor web IIS de Microsoft, siga estos pa
 
    ![](assets/s_ncs_install_iis7_parameters_step1.png)
 
-1. A **VBS** El script de le permite configurar automáticamente los recursos utilizados por el servidor de Adobe Campaign en el directorio virtual que acabamos de crear. Para iniciarlo, haga doble clic en **iis_neolane_setup.vbs** archivo ubicado en el `[INSTALL]\conf` carpeta, donde `[INSTALL]` es la ruta para acceder a la carpeta de instalación de Adobe Campaign.
+1. Un script **VBS** le permite configurar automáticamente los recursos que usa el servidor de Adobe Campaign en el directorio virtual que acabamos de crear. Para iniciarlo, haga doble clic en el archivo **iis_neolane_setup.vbs** ubicado en la carpeta `[INSTALL]\conf`, donde `[INSTALL]` es la ruta de acceso a la carpeta de instalación de Adobe Campaign.
 
    >[!NOTE]
    >
    >Debe iniciar sesión como administrador para ejecutar el script VBS o ejecutar el script como administrador.
 
-   Clic **[!UICONTROL OK]** si el servidor web se utiliza como servidor de redirección de seguimiento, en caso contrario, haga clic en **[!UICONTROL Cancel]**.
+   Haga clic en **[!UICONTROL OK]** si el servidor web se utiliza como servidor de redirección de seguimiento; de lo contrario, haga clic en **[!UICONTROL Cancel]**.
 
-   Cuando ya hay varios sitios configurados en el servidor Web, se muestra una página intermedia para especificar a qué sitio Web se aplica la instalación: introduzca el número vinculado al sitio y haga clic en **[!UICONTROL OK]**.
+   Cuando ya hay varios sitios configurados en el servidor web, se muestra una página intermedia para especificar a qué sitio web se aplica la instalación: escriba el número vinculado al sitio y haga clic en **[!UICONTROL OK]**.
 
-1. En el **[!UICONTROL Content View]** , asegúrese de que el sitio web está correctamente configurado con los recursos de Adobe Campaign:
+1. En la ficha **[!UICONTROL Content View]**, asegúrese de que el sitio web está configurado correctamente con los recursos de Adobe Campaign:
 
    Si no se muestra el árbol, reinicie Microsoft IIS.
 
@@ -72,11 +72,11 @@ A continuación, debe establecer la configuración de seguridad de la DLL ISAPI 
 
 Para ello, siga los siguientes pasos:
 
-1. Seleccione el **[!UICONTROL Features View]** y haga doble clic en **Autenticación** vínculo.
+1. Seleccione la ficha **[!UICONTROL Features View]** y haga doble clic en el vínculo **Autenticación**.
 
    ![](assets/s_ncs_install_iis7_parameters_step8.png)
 
-1. En el **Seguridad de directorio** del sitio web, asegúrese de que el acceso anónimo está habilitado. Si es necesario, haga clic en **[!UICONTROL Edit]** para cambiar la configuración.
+1. En la ficha **Seguridad de directorios** del sitio web, asegúrese de que el acceso anónimo está habilitado. Si es necesario, haga clic en el vínculo **[!UICONTROL Edit]** para cambiar la configuración.
 
    ![](assets/s_ncs_install_iis7_parameters_step9.png)
 
@@ -86,7 +86,7 @@ Ahora debe probar si la configuración es correcta.
 
 Para ello, siga el siguiente procedimiento:
 
-1. Reinicie el servidor IIS de Microsoft con el **iisreset** línea de comandos.
+1. Reinicie el servidor IIS de Microsoft con la línea de comandos **iisreset**.
 
 1. Inicie el servicio de Adobe Campaign y asegúrese de que se esté ejecutando.
 
@@ -119,7 +119,7 @@ También puede asegurarse de que el archivo DLL ISAPI está cargado correctament
 
 Para ello, siga los siguientes pasos:
 
-1. Edite los filtros ISAPI para el sitio de Adobe Campaign haciendo clic en **[!UICONTROL Driver mapping]** icono.
+1. Edite los filtros ISAPI para el sitio Adobe Campaign haciendo clic en el icono **[!UICONTROL Driver mapping]**.
 1. A continuación, compruebe el contenido del filtro ISAPI.
 
 
@@ -129,9 +129,9 @@ Al configurar el servidor Web de IIS, se establece automáticamente un límite d
 
 Esto puede afectar a Adobe Campaign, especialmente si desea cargar archivos que superen este límite.
 
-Por ejemplo, si utiliza un **Carga de datos (archivo)** Escriba la actividad en un flujo de trabajo para importar un archivo de 50 MB. Un error evitará que el flujo de trabajo se ejecute correctamente.
+Por ejemplo, si utiliza una actividad de tipo **Carga de datos (archivo)** en un flujo de trabajo para importar un archivo de 50 MB, un error impedirá que el flujo de trabajo se ejecute correctamente.
 
 En este caso, debe aumentar este límite.
 
-Para obtener más información sobre esta opción de IIS de Microsoft, consulte la sección &quot;Cómo&quot; de la [Documentación de Microsoft](https://learn.microsoft.com/en-us/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}.
+Para obtener más información sobre esta opción de IIS de Microsoft, consulte la sección &quot;HowTo&quot; de la [documentación de Microsoft](https://learn.microsoft.com/en-us/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}.
 

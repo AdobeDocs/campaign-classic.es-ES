@@ -28,9 +28,9 @@ La creación de instancias se puede ejecutar mediante líneas de comandos con la
 nlserver config -addinstance:instance/masques DNS[/lang]
 ```
 
-(donde **eng** y **fra** son valores posibles para `[lang]` parameter)
+(donde **eng** y **fra** son valores posibles para el parámetro `[lang]`)
 
-El comando **nlserver config -addinstance:instance1/demo&#42;/eng** permite crear una instancia de llamada **instance1** en inglés con la demostración de máscara DNS&#42;.
+El comando **nlserver config -addinstance:instance1/demo&#42;/eng** le permite crear una instancia denominada **instance1** en inglés con la demostración de máscara DNS&#42;.
 
 ## Declarar una base de datos {#declaring-a-database}
 
@@ -40,13 +40,13 @@ Puede asociar una base de datos existente con una instancia desde la línea de c
 nlserver config -setdblogin:[rbdms:]account[:database][/password]@server
 ```
 
-Los siguientes valores son posibles para **`[rdbms]`** parámetro:
+Los siguientes valores son posibles para el parámetro **`[rdbms]`**:
 
 * **postgresql**: para PostgreSQL,
-* **oracle**: para el Oracle,
+* **oracle**: para Oracle,
 * **mssql**: para Microsoft SQL Server,
 
-El siguiente comando configura el **demostración** con el servidor de tipo SQL conocido como **base6**, vinculado a **campaña** cuenta y su **contraseña** en el **dbsrv** servidor:
+El siguiente comando configura la instancia **demo** con el servidor de tipo SQL conocido como **base6**, vinculado a la cuenta **campaign** y su **contraseña** en el servidor **dbsrv**:
 
 ```sql
  nlserver config -setdblogin:db:campaign:myBase/password@dbServer -instance:demo

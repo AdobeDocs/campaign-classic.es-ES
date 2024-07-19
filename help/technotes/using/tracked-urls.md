@@ -25,7 +25,7 @@ Tenga en cuenta que los vínculos de baja pueden dar error como los demás. La f
 
 **¿Se ha visto afectado?**
 
-Para mejorar la seguridad, el mecanismo de firma para el seguimiento de vínculos en correos electrónicos se ha introducido en [Campaign Gold Standard 8](../../rn/using/gold-standard.md#gs8) - Abril de 2020 - y está habilitado de forma predeterminada para todos los clientes a partir de la versión 19.1.4 (9032@3a9dc9c) y Campaign 20.2.
+Para mejorar la seguridad, el mecanismo de firma para el seguimiento de vínculos en correos electrónicos se introdujo en [Campaign Gold Standard 8](../../rn/using/gold-standard.md#gs8) - abril de 2020 - y está habilitado de forma predeterminada para todos los clientes a partir de la versión 19.1.4 (9032@3a9dc9c) y Campaign 20.2.
 
 Si su entorno se está ejecutando en una de las versiones enumeradas a continuación, puede verse afectado:
 
@@ -38,17 +38,17 @@ Si su entorno se está ejecutando en una de las versiones enumeradas a continuac
 * Versiones de Campaign 19.1.5 (compilación 9033) a 19.1.7 (compilación 9036).
 
 
-Obtenga información sobre cómo comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Aprenda a comprobar su versión [en esta sección](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 **¿Cómo realizar la actualización?**
 
-As a **cliente alojado**, el Adobe trabajará con usted para actualizar la configuración en breve.
+Como **cliente alojado**, Adobe trabajará con usted para actualizar su configuración en breve.
 
-Como un **cliente on-premise/híbrido**, debe actualizar la configuración.
+Como **cliente on-premise/híbrido**, debe actualizar su configuración.
 
 Siga este paso:
 
-1. En el [archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md) (serverConf.xml), cambiar **signEmailLinks** hasta **false**.
+1. En el [archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md) (serverConf.xml), cambie **signEmailLinks** a **false**.
 1. Reinicie el servicio **nlserver**.
 1. En el servidor de seguimiento, reinicie el servidor web (apache2 en Debian, httpd en CentOS/RedHat, IIS en Windows).
 
@@ -58,7 +58,7 @@ Siga este paso:
 
 >[!NOTE]
 >
->El **config-`<instance>`.xml** el archivo anula el **serverConf.xml** configuración. Si la variable **signEmailLinks** está presente en el  **config-`<instance>`.xml** (donde **instancia** es el nombre de su instancia), también debe convertirse a **false**.
+>El archivo **config-`<instance>`.xml** anula la configuración de **serverConf.xml**. Si **signEmailLinks** está presente en **config-`<instance>`.xml** (donde **instance** es el nombre de su instancia), también debe cambiarse a **false**.
 >
 
 **¿Cuáles son las consecuencias?**

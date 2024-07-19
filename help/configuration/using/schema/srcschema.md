@@ -44,24 +44,24 @@ Ninguno
 
 ## Descripción {#description-14}
 
-El `<srcschema>` es el elemento raíz de un esquema. Es el punto de entrada para la definición del esquema.
+`<srcschema>` es el elemento raíz de un esquema. Es el punto de entrada para la definición del esquema.
 
 ## Uso y contexto de uso {#use-and-context-of-use-9}
 
-La presentación del esquema está disponible en [Acerca de la referencia de esquema](../../../configuration/using/about-schema-reference.md) y [Estructura del esquema](../../../configuration/using/schema-structure.md).
+La presentación de esquemas está disponible en [Acerca de la referencia de esquema](../../../configuration/using/about-schema-reference.md) y [Estructura de esquema](../../../configuration/using/schema-structure.md).
 
 ## Descripción de atributo {#attribute-description-14}
 
-* **creado (fecha y hora)**: este atributo proporciona información sobre la fecha y la hora de creación del esquema. Tiene un formulario de &quot;Fecha y hora&quot;. Los valores mostrados se toman del servidor. La hora se muestra en formato UTC.
+* **created (datetime)**: este atributo proporciona información sobre la fecha y la hora de creación del esquema. Tiene un formulario de &quot;Fecha y hora&quot;. Los valores mostrados se toman del servidor. La hora se muestra en formato UTC.
 * **createdBy-id (long)**: es el identificador del operador que creó el esquema.
 * **desc (cadena)**: descripción del esquema
 * **entitySchema (cadena)**: esquema básico en el que se basan la sintaxis y la aprobación (de forma predeterminada para Adobe Campaign: xtk:srcSchema). Al guardar el esquema actual, Adobe Campaign aprueba su gramática con el esquema declarado en el atributo @xtkschema.
-* **extendedSchema (cadena)**: recibe el nombre del esquema predeterminado en el que se basa la extensión de esquema actual. El formato es &quot;área de nombres:nombre&quot;.
-* **img (cadena)**: icono vinculado al esquema (puede definirse en el asistente de creación de esquemas).
-* **label (cadena)**: etiqueta de esquema.
-* **labelSingular (cadena)**: etiqueta (singular) para su visualización en la interfaz.
-* **lastModified (fecha y hora)**: este atributo proporciona información sobre la fecha y la hora de la última modificación. Tiene un formulario de &quot;Fecha y hora&quot;. Los valores mostrados se toman del servidor. La hora se muestra en formato UTC.
-* **biblioteca (booleano)**: uso del esquema como biblioteca y no como entidad. Por lo tanto, otros esquemas pueden hacer referencia a este esquema gracias a los atributos &quot;@ref&quot; y &quot;@template&quot;.
+* **extendedSchema (string)**: recibe el nombre del esquema predeterminado en el cual se basa la extensión de esquema actual. El formato es &quot;área de nombres:nombre&quot;.
+* **img (cadena)**: icono vinculado al esquema (puede definirse en el asistente para la creación de esquemas).
+* **etiqueta (cadena)**: etiqueta de esquema.
+* **labelSingular (cadena)**: etiqueta (singular) para mostrar en la interfaz.
+* **lastModified (datetime)**: este atributo proporciona información sobre la fecha y la hora de la última modificación. Tiene un formulario de &quot;Fecha y hora&quot;. Los valores mostrados se toman del servidor. La hora se muestra en formato UTC.
+* **biblioteca (booleana)**: uso del esquema como biblioteca y no como entidad. Por lo tanto, otros esquemas pueden hacer referencia a este esquema gracias a los atributos &quot;@ref&quot; y &quot;@template&quot;.
 * **mappingType (cadena)**:
 
    * &quot;sql&quot;: asignación de base de datos
@@ -69,16 +69,16 @@ La presentación del esquema está disponible en [Acerca de la referencia de esq
    * &quot;xmlFile&quot;: asignación de archivos de texto en formato XML
    * &quot;binaryFile&quot;: asignación de archivos binarios
 
-* **modifiedBy-id (largo)**: coincide con el identificador del operador que cambió el esquema.
+* **modifiedBy-id (long)**: coincide con el identificador del operador que cambió el esquema.
 * **nombre (cadena)**: nombre de esquema único.
-* **namespace (cadena)**: área de nombres del esquema (predeterminado: nms, xtk, nl). Al crear un nuevo esquema para un proyecto, le recomendamos que utilice un área de nombres dedicada.
-* **useRecycleBin (booleano)**: activa la función de papelera en la aplicación. Los registros eliminados se colocarán en la papelera antes de la eliminación final. Esta función solo está disponible en el modo &quot;Envío&quot;.
-* **vista (booleano)**: si está activado (@view=&quot;true&quot;), el esquema se utilizará como vista. El asistente de actualización de la estructura de la base de datos no tendrá en cuenta el esquema. Esta opción se utiliza principalmente para hacer referencia a tablas externas.
-* **xtkschema (cadena)**: nombre del esquema que define la gramática del esquema (xtk:srcSchema de forma predeterminada).
+* **área de nombres (cadena)**: área de nombres del esquema (predeterminado: nms, xtk, nl). Al crear un nuevo esquema para un proyecto, le recomendamos que utilice un área de nombres dedicada.
+* **useRecycleBin (booleano)**: activa la característica de papelera en la aplicación. Los registros eliminados se colocarán en la papelera antes de la eliminación final. Esta función solo está disponible en el modo &quot;Envío&quot;.
+* **vista (booleano)**: si está activada (@view=&quot;true&quot;), el esquema se utilizará como vista. El asistente de actualización de la estructura de la base de datos no tendrá en cuenta el esquema. Esta opción se utiliza principalmente para hacer referencia a tablas externas.
+* **xtkschema (string)**: nombre del esquema que define la gramática del esquema (xtk:srcSchema de forma predeterminada).
 
 ## Ejemplos {#examples-11}
 
-`<srcschema>` del esquema predeterminado &quot;nms:delivery&quot;
+`<srcschema>` elemento del esquema predeterminado &quot;nms:delivery&quot;
 
 ```
 <srcSchema desc="Defines all the settings of a delivery (or delivery template)."  

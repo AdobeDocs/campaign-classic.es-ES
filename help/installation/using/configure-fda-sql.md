@@ -15,12 +15,12 @@ ht-degree: 7%
 
 
 
-Uso de Campaign **Acceso de datos federado** (FDA) para procesar información almacenada en una base de datos externa de Microsoft SQL Server. Siga estos pasos para configurar el acceso a [!DNL Microsoft SQL Server].
+Utilice la opción **Acceso de datos federado** (FDA) de Campaign para procesar la información almacenada en una base de datos externa de Microsoft SQL Server. Siga los pasos a continuación para configurar el acceso a [!DNL Microsoft SQL Server].
 
-1. Configurar [!DNL Microsoft SQL Server] el [CentOS](#sql-centos).
-1. Configurar [!DNL Microsoft SQL Server] el [Linux](#sql-linux).
-1. Configurar [!DNL Microsoft SQL Server] el [Windows](#sql-windows).
-1. Configure las variables [!DNL Microsoft SQL Server] [cuenta externa](#sql-external) en Campaign
+1. Configurar [!DNL Microsoft SQL Server] en [CentOS](#sql-centos).
+1. Configurar [!DNL Microsoft SQL Server] en [Linux](#sql-linux).
+1. Configurar [!DNL Microsoft SQL Server] en [Windows](#sql-windows).
+1. Configurar la [!DNL Microsoft SQL Server] [cuenta externa](#sql-external) en Campaign
 
 ## Microsoft SQL Server en CentOS {#sql-centos}
 
@@ -28,7 +28,7 @@ Uso de Campaign **Acceso de datos federado** (FDA) para procesar información al
 >
 > [!DNL Microsoft SQL Server] está disponible en CentOS 7 y 6.
 
-Para configurar [!DNL Microsoft SQL Server] En CentOS, siga los pasos a continuación:
+Para configurar [!DNL Microsoft SQL Server] en CentOS, siga los pasos a continuación:
 
 1. Descargue e instale el controlador ODBC de SQL con el siguiente comando:
 
@@ -40,7 +40,7 @@ Para configurar [!DNL Microsoft SQL Server] En CentOS, siga los pasos a continua
    sudo ACCEPT_EULA=Y yum install msodbcsql
    ```
 
-1. En Adobe Campaign, puede configurar los [!DNL Microsoft SQL Server] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#sql-external).
+1. En Adobe Campaign, puede configurar su cuenta externa [!DNL Microsoft SQL Server]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#sql-external).
 
 ## Microsoft SQL Server en Linux {#sql-linux}
 
@@ -58,7 +58,7 @@ Para configurar [!DNL Microsoft SQL Server] En CentOS, siga los pasos a continua
    # accept the license terms
    ```
 
-1. En Adobe Campaign, puede configurar los [!DNL Microsoft SQL Server] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#sql-external).
+1. En Adobe Campaign, puede configurar su cuenta externa [!DNL Microsoft SQL Server]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#sql-external).
 
 ## Microsoft SQL Server en Windows {#sql-windows}
 
@@ -66,39 +66,39 @@ Para configurar [!DNL Microsoft SQL Server] en Windows:
 
 1. En Windows, haga clic en **[!UICONTROL Control Panel]** &#39;>&#39; **[!UICONTROL System and Security]** &#39;>&#39; **[!UICONTROL Administrative Tools]**&#39;>&#39; **[!UICONTROL ODBC Data Sources (64-bit)]**.
 
-1. Desde el **[!UICONTROL ODBC Data Sources (64-bit)]** nueva ventana, haga clic en **[!UICONTROL Add...]**.
+1. En la nueva ventana de **[!UICONTROL ODBC Data Sources (64-bit)]**, haga clic en **[!UICONTROL Add...]**.
 
-1. Compruebe si SQL Server Native Client v11 aparece en la lista **[!UICONTROL Create New Data Source]** ventana.
+1. Compruebe si SQL Server Native Client v11 aparece en la ventana **[!UICONTROL Create New Data Source]**.
 
 1. Si SQL Server Native Client no aparece en la lista, puede descargarlo en [esta página](https://www.microsoft.com/en-my/download/details.aspx?id=36434).
 
-1. En Adobe Campaign, puede configurar los [!DNL Microsoft SQL Server] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#sql-external).
+1. En Adobe Campaign, puede configurar su cuenta externa [!DNL Microsoft SQL Server]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#sql-external).
 
 ## Cuenta externa de Microsoft SQL Server {#sql-external}
 
-Debe crear un [!DNL Microsoft SQL Server] cuenta externa para conectar la instancia de Campaign a [!DNL Microsoft SQL Server] base de datos externa.
+Debe crear una cuenta externa [!DNL Microsoft SQL Server] para conectar la instancia de Campaign a la base de datos externa [!DNL Microsoft SQL Server].
 
-1. Desde Campaign **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. En la campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
 1. Haga clic en **[!UICONTROL New]**.
 
 1. Seleccione **[!UICONTROL External database]** como **[!UICONTROL Type]** de su cuenta externa.
 
-1. En **[!UICONTROL Configuration]**, seleccione [!DNL Microsoft SQL Server] desde el **[!UICONTROL Type]** menú desplegable.
+1. En **[!UICONTROL Configuration]**, seleccione [!DNL Microsoft SQL Server] de la lista desplegable **[!UICONTROL Type]**.
 
    ![](assets/sql.png)
 
-1. Configure las variables **[!UICONTROL Microsoft SQL Server]** autenticación de cuenta externa:
+1. Configure la autenticación de cuenta externa **[!UICONTROL Microsoft SQL Server]**:
 
-   * **[!UICONTROL Server]**: URL del [!DNL Microsoft SQL Server] servidor.
+   * **[!UICONTROL Server]**: URL del servidor [!DNL Microsoft SQL Server].
 
-   * **[!UICONTROL Account]**: Nombre del usuario.
+   * **[!UICONTROL Account]**: nombre del usuario.
 
    * **[!UICONTROL Password]**: contraseña de cuenta de usuario.
 
-   * **[!UICONTROL Database]**: Nombre de la base de datos (opcional).
+   * **[!UICONTROL Database]**: nombre de la base de datos (opcional).
 
-   * **[!UICONTROL Timezone]**: Zona horaria definida en [!DNL Microsoft SQL Server]. [Más información](https://docs.microsoft.com/en-us/sql/t-sql/functions/current-timezone-transact-sql?view=sql-server-ver15)
+   * **[!UICONTROL Timezone]**: zona horaria establecida en [!DNL Microsoft SQL Server]. [Más información](https://docs.microsoft.com/en-us/sql/t-sql/functions/current-timezone-transact-sql?view=sql-server-ver15)
 
 1. Haga clic en la pestaña **[!UICONTROL Parameters]** y luego en el botón **[!UICONTROL Deploy functions]** para crear funciones.
 
@@ -106,12 +106,12 @@ Debe crear un [!DNL Microsoft SQL Server] cuenta externa para conectar la instan
    >
    >Para que todas las funciones estén disponibles, debe crear las funciones SQL de Adobe Campaign en la base de datos remota. Para obtener más información, consulte esta [página](../../configuration/using/adding-additional-sql-functions.md).
 
-1. Clic **[!UICONTROL Save]** cuando finalice la configuración.
+1. Haga clic en **[!UICONTROL Save]** cuando finalice la configuración.
 
 El conector admite las siguientes opciones:
 
 | Opción | Descripción |
 |---|---|
-| Autenticación | Tipo de autenticación admitida por el conector. Valor admitido actual: ActiveDirectoryMSI. <br> Para obtener más información, consulte el ejemplo 8 de [Documentación de Microsoft](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings). |
-| Cifrar | Especifica si las conexiones utilizan el cifrado TLS a través de la red. Los valores posibles son **sí/obligatorio (18.0 y posterior)**, **no/opcional (18.0 y posterior)**, y **estricto (18.0 y posterior)**. El valor predeterminado se establece en **yes** en la versión 18.0 y posterior de y **no** en versiones anteriores. <br>Para obtener más información, consulte [Documentación de Microsoft](https://docs.microsoft.com/en-us/sql/connect/odbc/dsn-connection-string-attribute?view=azure-sqldw-latest#encrypt). |
-| TrustServerCertificate | Habilita el cifrado mediante un certificado de servidor firmado automáticamente, cuando se utiliza con **Cifrar**. <br>Valores aceptados: **yes** o **no** (valor predeterminado, lo que significa que se validará el certificado del servidor). |
+| Autenticación | Tipo de autenticación admitida por el conector. Valor admitido actual: ActiveDirectoryMSI. <br> Para obtener más información, consulte el ejemplo 8 de [documentación de Microsoft](https://docs.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings). |
+| Cifrar | Especifica si las conexiones utilizan el cifrado TLS a través de la red. Los valores posibles son **yes/mandatory (18.0 y posterior)**, **no/optional (18.0 y posterior)**, y **strict (18.0 y posterior)**. El valor predeterminado está establecido en **yes** en la versión 18.0 y posteriores, y en **no** en versiones anteriores. <br>Para obtener más información, consulte [Documentación de Microsoft](https://docs.microsoft.com/en-us/sql/connect/odbc/dsn-connection-string-attribute?view=azure-sqldw-latest#encrypt). |
+| TrustServerCertificate | Habilita el cifrado mediante un certificado de servidor firmado automáticamente, cuando se usa con **Encrypt**. <br>Valores aceptados: **sí** o **no** (valor predeterminado, lo que significa que se validará el certificado del servidor). |

@@ -21,7 +21,7 @@ A continuación se describe la estructura básica de un esquema.
 
 ## Esquemas de datos  {#data-schema}
 
-Para un `<srcschema>`, la estructura es la siguiente:
+Para un(a) `<srcschema>`, la estructura es la siguiente:
 
 ```sql
 <srcSchema>
@@ -105,7 +105,7 @@ En nuestro ejemplo, el elemento principal se representa mediante la siguiente l�
 <element name="recipient">
 ```
 
-El **`<attribute>`** y **`<element>`** Los elementos que siguen al elemento principal se utilizan para definir las ubicaciones y los nombres de los elementos de datos en la estructura XML.
+Los elementos **`<attribute>`** y **`<element>`** que siguen al elemento principal se utilizan para definir las ubicaciones y los nombres de los elementos de datos en la estructura XML.
 
 En nuestro esquema de ejemplo, estos son:
 
@@ -120,42 +120,42 @@ En nuestro esquema de ejemplo, estos son:
 
 Se aplican las siguientes reglas:
 
-* Cada **`<element>`** y **`<attribute>`** debe identificarse por nombre a través de **name** atributo.
+* Cada **`<element>`** y **`<attribute>`** debe identificarse por su nombre mediante el atributo **name**.
 
   >[!IMPORTANT]
   >
   >El nombre del elemento debe ser conciso, preferiblemente en inglés, e incluir solo los caracteres permitidos en las reglas de nomenclatura XML.
 
-* Solo **`<element>`** Los elementos pueden contener **`<attribute>`** elementos y **`<element>`** elementos en la estructura XML.
-* Un **`<attribute>`** el elemento debe tener un nombre único dentro de un **`<element>`**.
-* El uso de **`<elements>`** en cadenas de datos de varias líneas.
+* Solo los elementos **`<element>`** pueden contener **`<attribute>`** elementos y **`<element>`** elementos en la estructura XML.
+* Un elemento **`<attribute>`** debe tener un nombre único dentro de un elemento **`<element>`**.
+* Se recomienda el uso de **`<elements>`** en cadenas de datos de varias líneas.
 
 ## Tipos de datos {#data-types}
 
-El tipo de datos se introduce mediante la variable **type** en el **`<attribute>`** y **`<element>`** elementos.
+El tipo de datos se ingresa mediante el atributo **type** en los elementos **`<attribute>`** y **`<element>`**.
 
-Encontrará una lista detallada en la descripción de la [`<attribute>` elemento](../../configuration/using/schema/attribute.md) y el [`<element>` elemento](../../configuration/using/schema/element.md).
+Hay disponible una lista detallada en la descripción del elemento [`<attribute>` ](../../configuration/using/schema/attribute.md) y el elemento [`<element>` ](../../configuration/using/schema/element.md).
 
-Cuando este atributo no se rellena, **cadena** es el tipo de datos predeterminado a menos que el elemento contenga elementos secundarios. Si es así, solo se utiliza para estructurar los elementos jerárquicamente (**`<location>`** en nuestro ejemplo).
+Cuando este atributo no se rellena, **string** es el tipo de datos predeterminado a menos que el elemento contenga elementos secundarios. Si es así, solo se usa para estructurar los elementos jerárquicamente (**`<location>`** elemento en nuestro ejemplo).
 
 Los siguientes tipos de datos son compatibles con los esquemas:
 
 * **cadena**: cadena de caracteres. Ejemplos: un nombre, una ciudad, etc.
 
-  El tamaño se puede especificar mediante la variable **length** (opcional, valor predeterminado &quot;255&quot;).
+  El tamaño se puede especificar mediante el atributo **length** (opcional, valor predeterminado &quot;255&quot;).
 
-* **booleano**: Campo booleano. Ejemplo de valores posibles: true/false, 0/1, sí/no, etc.
+* **booleano**: campo booleano. Ejemplo de valores posibles: true/false, 0/1, sí/no, etc.
 * **byte**, **corto**, **largo**: enteros (1 byte, 2 bytes, 4 bytes). Ejemplos: una edad, un número de cuenta, una cantidad de puntos, etc.
-* **doble**: número de punto flotante de precisión doble. Ejemplos: un precio, una tasa, etc.
-* **fecha**, **datetime**: fechas y fechas + horas. Ejemplos: una fecha de nacimiento, una fecha de compra, etc.
+* **double**: número de punto flotante de precisión doble. Ejemplos: un precio, una tasa, etc.
+* **fecha**, **fecha y hora**: fechas y fechas + horas. Ejemplos: una fecha de nacimiento, una fecha de compra, etc.
 * **datetimenotz**: fecha y hora sin datos de zona horaria.
-* **intervalo de tiempo**: duraciones. Ejemplo: antigüedad.
-* **nota**: campos de texto largos (varias líneas). Ejemplos: una descripción, un comentario, etc.
-* **uuid**: los campos &quot;uniqueidentifier&quot; para admitir un GUID (admitido solo en Microsoft SQL Server).
+* **timespan**: duraciones. Ejemplo: antigüedad.
+* **memo**: campos de texto largos (varias líneas). Ejemplos: una descripción, un comentario, etc.
+* **uuid**: los campos &quot;uniqueidentifier&quot; admiten un GUID (sólo se admite en Microsoft SQL Server).
 
   >[!NOTE]
   >
-  >Para contener un **uuid** en RDBMS que no sea Microsoft SQL Server, `the newuuid()` La función debe añadirse y completarse con su valor predeterminado.
+  >Para contener un campo **uuid** en RDBMS que no sea Microsoft SQL Server, se debe agregar y completar la función `the newuuid()` con su valor predeterminado.
 
 Este es un ejemplo de esquema con los tipos introducidos:
 
@@ -190,33 +190,33 @@ En la tabla siguiente se enumeran las asignaciones para los tipos de datos gener
   </tr> 
   <tr> 
    <td> Booleano<br /> </td> 
-   <td> PEQUEÑO<br /> </td> 
+   <td> SMALLINT<br /> </td> 
    <td> NUMBER(3)<br /> </td> 
   </tr> 
   <tr> 
    <td> Byte<br /> </td> 
-   <td> PEQUEÑO<br /> </td> 
+   <td> SMALLINT<br /> </td> 
    <td> NUMBER(3)<br /> </td> 
   </tr> 
   <tr> 
    <td> Corto<br /> </td> 
-   <td> PEQUEÑO<br /> </td> 
-   <td> NÚMERO(5)<br /> </td> 
+   <td> SMALLINT<br /> </td> 
+   <td> NUMBER(5)<br /> </td> 
   </tr> 
   <tr> 
    <td> Doble<br /> </td> 
-   <td> DOBLE PRECISIÓN<br /> </td> 
-   <td> FLOTAR<br /> </td> 
+   <td> PRECISIÓN DOBLE<br /> </td> 
+   <td> FLOTANTE<br /> </td> 
   </tr> 
   <tr> 
-   <td> Largo<br /> </td> 
+   <td> Long<br /> </td> 
    <td> ENTERO<br /> </td> 
-   <td> NÚMERO(10)<br /> </td> 
+   <td> NUMBER(10)<br /> </td> 
   </tr> 
   <tr> 
    <td> Int64<br /> </td> 
    <td> BIGINT<br /> </td> 
-   <td> NÚMERO(20)<br /> </td> 
+   <td> NUMBER(20)<br /> </td> 
   </tr> 
   <tr> 
    <td> Fecha<br /> </td> 
@@ -226,22 +226,22 @@ En la tabla siguiente se enumeran las asignaciones para los tipos de datos gener
   <tr> 
    <td> Hora<br /> </td> 
    <td> HORA<br /> </td> 
-   <td> FLOTAR<br /> </td> 
+   <td> FLOTANTE<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetime<br /> </td> 
-   <td> TIMESTAMPZ<br /> </td> 
+   <td> MARCA DE TIEMPO <br /> </td> 
    <td> FECHA<br /> </td> 
   </tr> 
   <tr> 
    <td> Datetimenotz<br /> </td> 
-   <td> TIMESTAMPZ<br /> </td> 
+   <td> MARCA DE TIEMPO <br /> </td> 
    <td> FECHA<br /> </td> 
   </tr> 
   <tr> 
-   <td> Intervalo de tiempo<br /> </td> 
-   <td> DOBLE PRECISIÓN<br /> </td> 
-   <td> FLOTAR<br /> </td> 
+   <td> Duración <br /> </td> 
+   <td> PRECISIÓN DOBLE<br /> </td> 
+   <td> FLOTANTE<br /> </td> 
   </tr> 
   <tr> 
    <td> Nota<br /> </td> 
@@ -249,7 +249,7 @@ En la tabla siguiente se enumeran las asignaciones para los tipos de datos gener
    <td> CLOB (NCLOB si es Unicode)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Blob<br /> </td> 
+   <td> Blob <br /> </td> 
    <td> BLOB<br /> </td> 
    <td> BLOB<br /> </td> 
   </tr> 
@@ -258,11 +258,11 @@ En la tabla siguiente se enumeran las asignaciones para los tipos de datos gener
 
 ## Propiedades {#properties}
 
-El **`<elements>`** y **`<attributes>`** Los elementos del esquema de datos se pueden enriquecer con varias propiedades. Puede rellenar una etiqueta para describir el elemento actual.
+Los elementos **`<elements>`** y **`<attributes>`** del esquema de datos se pueden enriquecer con varias propiedades. Puede rellenar una etiqueta para describir el elemento actual.
 
 ### Etiquetas y descripciones {#labels-and-descriptions}
 
-* El **etiqueta** La propiedad permite introducir una descripción breve.
+* La propiedad **label** le permite escribir una breve descripción.
 
   >[!NOTE]
   >
@@ -278,7 +278,7 @@ El **`<elements>`** y **`<attributes>`** Los elementos del esquema de datos se p
 
   ![](assets/d_ncs_integration_schema_label.png)
 
-* El **desc** La propiedad permite introducir una descripción larga.
+* La propiedad **desc** permite escribir una descripción larga.
 
   La descripción se muestra en el formulario de entrada en la barra de estado de la ventana principal de la consola del cliente de Adobe Campaign.
 
@@ -294,32 +294,32 @@ El **`<elements>`** y **`<attributes>`** Los elementos del esquema de datos se p
 
 ### Valores predeterminados {#default-values}
 
-Utilice el **predeterminado** para definir una expresión que devuelva un valor predeterminado al crear el contenido.
+Use la propiedad **default** para definir una expresión que devuelva un valor predeterminado al crear contenido.
 
-El valor debe ser una expresión compatible con el lenguaje XPath. Para obtener más información, consulte [Hacer referencia con XPath](../../configuration/using/schema-structure.md#referencing-with-xpath).
+El valor debe ser una expresión compatible con el lenguaje XPath. Para obtener más información, consulte [Referencia con XPath](../../configuration/using/schema-structure.md#referencing-with-xpath).
 
 **Ejemplo**:
 
-* Fecha actual: **default=GetDate()&quot;**
+* Fecha actual: **default=&quot;GetDate()&quot;**
 * Contador: **default=&quot;&#39;FRM&#39;+CounterValue(&#39;myCounter&#39;)&quot;**
 
-  En este ejemplo, el valor predeterminado se construye utilizando la concatenación de una cadena y llamando a la variable **CounterValue** función con un nombre de contador libre. El número devuelto se incrementa en uno en cada inserción.
+  En este ejemplo, el valor predeterminado se construye usando la concatenación de una cadena y llamando a la función **CounterValue** con un nombre de contador gratuito. El número devuelto se incrementa en uno en cada inserción.
 
   >[!NOTE]
   >
-  >En la consola del cliente de Adobe Campaign, vaya a la **[!UICONTROL Administration > Counters]** del Explorador para administrar contadores.
+  >En la consola del cliente de Adobe Campaign, vaya a la carpeta **[!UICONTROL Administration > Counters]** del Explorador para administrar los contadores.
 
-Para vincular un valor predeterminado a un campo, puede utilizar el `<default>`  o  `<sqldefault>`   field.
+Para vincular un valor predeterminado a un campo, puede usar `<default>` o `<sqldefault>`   field.
 
-`<default>` : le permite rellenar previamente el campo con un valor predeterminado al crear entidades. El valor no será un valor SQL predeterminado.
+`<default>` : permite rellenar previamente el campo con un valor predeterminado al crear entidades. El valor no será un valor SQL predeterminado.
 
-`<sqldefault>` : permite tener un valor añadido al crear un campo. Este valor aparece como un resultado SQL. Durante una actualización de esquema, este valor solo afecta a los registros nuevos.
+`<sqldefault>` : permite tener un valor agregado al crear un campo. Este valor aparece como un resultado SQL. Durante una actualización de esquema, este valor solo afecta a los registros nuevos.
 
 ### Enumeraciones {#enumerations}
 
 #### Abrir enumeración {#free-enumeration}
 
-El **userEnum** La propiedad permite definir una enumeración abierta para almacenar y mostrar los valores introducidos mediante este campo.
+La propiedad **userEnum** permite definir una enumeración abierta para almacenar y mostrar los valores introducidos mediante este campo.
 
 La sintaxis es la siguiente:
 
@@ -331,13 +331,13 @@ Estos valores se muestran en una lista desplegable del formulario de entrada:
 
 >[!NOTE]
 >
->En la consola del cliente de Adobe Campaign, vaya a la **[!UICONTROL Administration > Enumerations]** de Explorer para administrar las enumeraciones.
+>En la consola del cliente de Adobe Campaign, vaya a la carpeta **[!UICONTROL Administration > Enumerations]** del explorador para administrar las enumeraciones.
 
 #### Establecer enumeración {#set-enumeration}
 
-El **enum** La propiedad permite definir una enumeración fija utilizada cuando se conoce de antemano la lista de valores posibles.
+La propiedad **enum** le permite definir una enumeración fija utilizada cuando se conoce de antemano la lista de valores posibles.
 
-El **enum** attribute hace referencia a la definición de una clase de enumeración rellenada en el esquema fuera del elemento principal.
+El atributo **enum** hace referencia a la definición de una clase de enumeración rellenada en el esquema fuera del elemento principal.
 
 Las enumeraciones permiten al usuario seleccionar un valor de una lista desplegable en lugar de introducir el valor en un campo de entrada normal:
 
@@ -353,25 +353,25 @@ Ejemplo de una declaración de enumeración en el esquema de datos:
 </enumeration>
 ```
 
-Se declara una enumeración fuera del elemento principal mediante la variable **`<enumeration>`** Elemento.
+Se declara una enumeración fuera del elemento principal mediante el elemento **`<enumeration>`**.
 
 Las propiedades de la enumeración son las siguientes:
 
 * **baseType**: tipo de datos asociados con los valores
-* **etiqueta**: descripción de la enumeración
-* **name**: nombre de la enumeración
-* **predeterminado**: valor predeterminado de la enumeración
+* **label**: descripción de la enumeración
+* **nombre**: nombre de la enumeración
+* **default**: valor predeterminado de la enumeración
 
-Los valores de enumeración se declaran en la variable **`<value>`** con los atributos siguientes:
+Los valores de enumeración se declaran en el elemento **`<value>`** con los atributos siguientes:
 
 * **name**: nombre del valor almacenado internamente
-* **etiqueta**: etiqueta mostrada en la interfaz gráfica
+* **label**: etiqueta mostrada en la interfaz gráfica
 
 #### enumeración dbenum {#dbenum-enumeration}
 
-*El **dbeno** La propiedad permite definir una enumeración cuyas propiedades son similares a las del **enum** propiedad.
+*La propiedad **dbenum** permite definir una enumeración cuyas propiedades son similares a las de la propiedad **enum**.
 
-Sin embargo, la variable **name** El atributo no almacena el valor internamente, almacena un código que permite ampliar las tablas correspondientes sin modificar su esquema.
+Sin embargo, el atributo **name** no almacena el valor internamente, sino que almacena un código que permite ampliar las tablas correspondientes sin modificar su esquema.
 
 Esta enumeración se utiliza para especificar la naturaleza de las campañas, por ejemplo.
 
@@ -404,9 +404,9 @@ A continuación, se muestra un ejemplo de esquema con las propiedades rellenadas
 
 Una colección es una lista de elementos con el mismo nombre y el mismo nivel jerárquico.
 
-El **libre** el atributo con el valor &quot;true&quot; permite rellenar un elemento de colección.
+El atributo **unbound** con el valor &quot;true&quot; permite rellenar un elemento de colección.
 
-**Ejemplo**: definición del **`<group>`** elemento de colección en el esquema.
+**Ejemplo**: definición del elemento de colección **`<group>`** en el esquema.
 
 ```sql
 <element name="group" unbound="true" label="List of groups">
@@ -432,23 +432,23 @@ Los elementos se designan por su nombre y los atributos se designan por el nombr
 **Ejemplo**:
 
 * **@email**: selecciona el correo electrónico,
-* **ubicación/@city**: selecciona el atributo &quot;city&quot; en **`<location>`** elemento
+* **location/@city**: selecciona el atributo &quot;city&quot; en el elemento **`<location>`**
 * **../@email**: selecciona la dirección de correo electrónico del elemento principal del elemento actual
-* **grupo`[1]/@label`**: selecciona el atributo &quot;label&quot; que es el elemento secundario del primer **`<group>`** elemento de colección
-* **grupo`[@label='test1']`**: selecciona el atributo &quot;label&quot; que es el elemento secundario del **`<group>`** y contiene el valor &quot;test1&quot;
+* **group`[1]/@label`**: selecciona el atributo &quot;label&quot; que es el elemento secundario del primer elemento de colección **`<group>`**
+* **group`[@label='test1']`**: selecciona el atributo &quot;label&quot; que es el elemento secundario de **`<group>`** y contiene el valor &quot;test1&quot;
 
 >[!NOTE]
 >
 >Se añade una restricción adicional cuando la ruta cruza un subelemento. En este caso, la siguiente expresión debe colocarse entre corchetes:
 >
->* **ubicación/@city** no es válido; utilice **`[location/@city]`**
+>* **ubicación/@city** no es válida; use **`[location/@city]`**
 >* **`[@email]`** y **@email** son equivalentes
 >
 
 También es posible definir expresiones complejas, como las siguientes operaciones aritméticas:
 
-* **@gender+1**: añade 1 al contenido del **género** atributo,
-* **@email + &#39;(&#39;+@created+&#39;)&#39;**: construye una cadena tomando el valor de la dirección de correo electrónico añadida a la fecha de creación entre paréntesis (para el tipo de cadena, ponga la constante entre comillas).
+* **@gender+1**: agrega 1 al contenido del atributo **gender**,
+* **@email + &#39;(&#39;+@created+&#39;)&#39;**: construye una cadena tomando el valor de la dirección de correo electrónico agregada a la fecha de creación entre paréntesis (para el tipo de cadena, ponga la constante entre comillas).
 
 Se han añadido funciones de alto nivel a las expresiones para enriquecer el potencial de este lenguaje.
 
@@ -459,14 +459,14 @@ Puede acceder a la lista de funciones disponibles a través de cualquier editor 
 **Ejemplo**:
 
 * **GetDate()**: devuelve la fecha actual
-* **Año(@created)**: devuelve el año de la fecha contenida en el atributo &quot;created&quot;
+* **Year(@created)**: devuelve el año de la fecha contenida en el atributo &quot;created&quot;
 * **GetEmailDomain(@email)**: devuelve el dominio de la dirección de correo electrónico
 
 ## Creación de una cadena a través de la cadena de cálculo {#building-a-string-via-the-compute-string}
 
-A **Cadena Compute** es una expresión XPath que se utiliza para construir una cadena que representa un registro de una tabla asociada al esquema. **Cadena Compute** se utiliza principalmente en la interfaz gráfica para mostrar la etiqueta de un registro seleccionado.
+Una **Compute string** es una expresión XPath que se usa para construir una cadena que representa un registro en una tabla asociada con el esquema. **Compute string** se utiliza principalmente en la interfaz gráfica para mostrar la etiqueta de un registro seleccionado.
 
-El **Cadena Compute** se define mediante la variable **`<compute-string>`** bajo el elemento principal del esquema de datos. Un **expr** contiene una expresión XPath para calcular la visualización.
+**Compute string** se define a través del elemento **`<compute-string>`** en el elemento principal del esquema de datos. Un atributo **expr** contiene una expresión XPath para calcular la presentación.
 
 **Ejemplo**: calcule la cadena de la tabla de destinatarios.
 

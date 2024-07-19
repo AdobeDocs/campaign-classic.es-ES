@@ -18,9 +18,9 @@ ht-degree: 66%
 
 
 
-Uso de Campaign **Acceso de datos federado** (FDA) para procesar información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso a la Sybase IQ.
+Utilice la opción **Acceso de datos federado** (FDA) de Campaign para procesar la información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso a la Sybase IQ.
 
-1. Configurar [base de datos sybase IQ](#configuring-sybase)
+1. Configurar [base de datos de Sybase IQ](#configuring-sybase)
 1. Configuración de la Sybase IQ [cuenta externa](#sybase-external) en Campaign
 
 ## configuración de sybase IQ {#configuring-sybase}
@@ -29,7 +29,7 @@ La conexión a una base de datos externa de Sybase IQ en FDA requiere ciertas co
 
 >[!NOTE]
 >
->Antes de empezar, asegúrese de que la **unixodbc** El paquete está en el servidor.
+>Antes de empezar, asegúrese de que el paquete **unixodbc** esté en el servidor.
 
 1. Instale **iq_odbc**. Se puede producir un error al final de la instalación. Puede ignorar este error.
 
@@ -71,7 +71,7 @@ La conexión a una base de datos externa de Sybase IQ en FDA requiere ciertas co
 
 La cuenta externa Sybase IQ permite conectar la instancia de Campaign a la base de datos externa Sybase IQ.
 
-1. Desde Campaign **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. En la campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
 1. Haga clic en **[!UICONTROL New]** y seleccione **[!UICONTROL External database]** como **[!UICONTROL Type]**.
 

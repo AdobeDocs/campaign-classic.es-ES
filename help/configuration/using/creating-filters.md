@@ -4,12 +4,12 @@ title: Creación de filtros
 description: Obtenga información sobre cómo crear filtros para una tabla personalizada
 feature: Profiles, Custom Resources
 role: Data Engineer, Developer
-badge-v8: label="También se aplica a la versión 8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 6fad3dac-9af0-4796-adcf-d1de4b255aca
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -21,6 +21,6 @@ Estos filtros están disponibles en la ventana de selección de objetivos con la
 
 1. Vaya al nodo **[!UICONTROL Administration > Configuration > Predefined filters]**.
 1. Cree un nuevo filtro.
-1. Introduzca el **[!UICONTROL Label]** del filtro y, a continuación, seleccione el esquema que coincida con la tabla de destinatarios externa en la **[!UICONTROL Document type]** field.
-1. Cree su **[!UICONTROL filtering conditions]** según los campos del esquema.
+1. Introduzca el **[!UICONTROL Label]** del filtro y, a continuación, seleccione el esquema que coincida con la tabla de destinatarios externa en el campo **[!UICONTROL Document type]**.
+1. Cree su **[!UICONTROL filtering conditions]** basado en los campos de su esquema.
 1. Guarde el filtro.

@@ -11,7 +11,7 @@ exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
 source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ Puede cambiar o recuperar una contraseña perdida.
 Hay dos escenarios posibles:
 
 * [Contraseña perdida por un operador de Adobe Campaign](#password-lost-by-campaign-operator)
-* [Contraseña interna perdida](#internal-password-lost) (solo clientes on-premise)
+* [Se ha perdido la contraseña interna](#internal-password-lost) (solo para clientes locales)
 
 ## Contraseña perdida por un operador de Campaign {#password-lost-by-campaign-operator}
 
@@ -39,7 +39,7 @@ Para restablecer una contraseña de Campaign, siga los pasos a continuación:
 
 1. Conectarse mediante un operador con derechos de administrador.
 1. Haga clic con el botón derecho en un operador.
-1. Seleccionar **[!UICONTROL Actions]** > **[!UICONTROL Reset password]**.
+1. Seleccione **[!UICONTROL Actions]** > **[!UICONTROL Reset password]**.
 
    ![](assets/operator-passwd.png)
 
@@ -55,9 +55,9 @@ Si se pierde la contraseña interna, debe reinicializarla.
 
 Para ello, siga el siguiente procedimiento:
 
-1. Edite el **/usr/local/neolane/nl6/conf/serverConf.xml** archivo.
+1. Edite el archivo **/usr/local/neolane/nl6/conf/serverConf.xml**.
 
-1. Vaya a la **internalPassword** línea.
+1. Vaya a la línea **internalPassword**.
 
    ```xml
    <!-- XTK authentication mode internalPassword : Password of internal account -->
@@ -73,7 +73,7 @@ Para ello, siga el siguiente procedimiento:
 
 1. Guarde los cambios y cierre el archivo.
 
-1. Detenga el `nlserver` proceso.
+1. Detener el proceso `nlserver`.
 
 1. Configure la nueva contraseña. Para ello, introduzca los siguientes comandos:
 
@@ -87,6 +87,6 @@ Para ello, siga el siguiente procedimiento:
    Confirmation 
    ```
 
-1. Inicie el `nlserver` proceso.
+1. Iniciar el proceso `nlserver`.
 
-1. Ahora puede usar su nueva contraseña para conectarse en **Interno** modo.
+1. Ahora puede usar su nueva contraseña para conectarse al modo **Interno**.

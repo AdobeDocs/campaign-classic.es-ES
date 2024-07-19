@@ -27,12 +27,12 @@ Para ello, los archivos .eml correspondientes a los correos electrónicos enviad
 ## Recommendations y limitaciones {#recommendations-and-limitations}
 
 * La capacidad CCO del correo electrónico es opcional. Compruebe el acuerdo de licencia.
-* Para **arquitecturas alojadas e híbridas**, póngase en contacto con su administrador de cuentas para activarlo. La dirección de correo electrónico de CCO que elija se debe proporcionar al equipo de Adobe, que la configurará por usted.
-* Para **instalaciones on-premise**, siga las directrices que se indican a continuación para activarlo; consulte las [Activación del CCO del correo electrónico (local)](#activating-email-archiving--on-premise-) y [Configuración de la dirección de correo electrónico CCO (local)](#configuring-the-bcc-email-address--on-premise-) secciones.
+* Para **arquitecturas hospedadas e híbridas**, póngase en contacto con su administrador de cuentas para activarlo. La dirección de correo electrónico de CCO que elija se debe proporcionar al equipo de Adobe, que la configurará por usted.
+* Para **instalaciones in situ**, siga las directrices que se indican a continuación para activarlo; consulte las secciones [Activación del CCO del correo electrónico (local)](#activating-email-archiving--on-premise-) y [Configuración de la dirección de correo electrónico del CCO (local)](#configuring-the-bcc-email-address--on-premise-).
 * Solo puede utilizar una dirección de correo electrónico CCO.
-* Una vez configurado el correo electrónico CCO, asegúrese de que la función esté habilitada en la plantilla de envíos o en la entrega a través de **[!UICONTROL Email BCC]** opción. Para obtener más información, consulte [esta sección](../../delivery/using/sending-messages.md#archiving-emails).
+* Una vez configurado el correo electrónico CCO, asegúrese de que la función esté habilitada en la plantilla de envíos o en la entrega a través de la opción **[!UICONTROL Email BCC]**. Para obtener más información, consulte [esta sección](../../delivery/using/sending-messages.md#archiving-emails).
 * Solo se tienen en cuenta los correos electrónicos enviados correctamente, no las devoluciones.
-* El sistema de archivado de correo electrónico cambió con Adobe Campaign 17.2 (compilación 8795). Si ya estaba utilizando el archivado de correo electrónico, debe actualizar manualmente al nuevo sistema de CCO de correo electrónico. Para obtener más información, consulte la [Cambio al nuevo CCO de correo electrónico](#updated-email-archiving-system--bcc-) sección.
+* El sistema de archivado de correo electrónico cambió con Adobe Campaign 17.2 (compilación 8795). Si ya estaba utilizando el archivado de correo electrónico, debe actualizar manualmente al nuevo sistema de CCO de correo electrónico. Para obtener más información sobre esto, consulte la sección [Traslado al nuevo CCO de correo electrónico](#updated-email-archiving-system--bcc-).
 
 ## Activación del CCO del correo electrónico (local) {#activating-email-archiving--on-premise-}
 
@@ -45,7 +45,7 @@ Para activar el archivado de correo electrónico CCO cuando Adobe Campaign está
 
 Para habilitar la transferencia de correos electrónicos enviados a una dirección de correo electrónico de CCO, las copias sin procesar exactas de los correos electrónicos enviados deben guardarse primero como archivos .eml en una carpeta local.
 
-La ruta para la carpeta local debe especificarse en la variable **config-`<instance>`.xml** , desde la configuración. Por ejemplo:
+La ruta de la carpeta local debe especificarse en el archivo **config-`<instance>`.xml**, desde la configuración. Por ejemplo:
 
 ```
 <mta dataLogPath="C:\emails">
@@ -53,7 +53,7 @@ La ruta para la carpeta local debe especificarse en la variable **config-`<insta
 
 >[!NOTE]
 >
->Es responsabilidad del equipo que implementa el proyecto garantizar que la configuración de seguridad permita el acceso a la carpeta definida a través del **dataLogPath** parámetros.
+>Es responsabilidad del equipo que implementa el proyecto garantizar que la configuración de seguridad permita el acceso a la carpeta definida a través de los parámetros **dataLogPath**.
 
 La ruta completa es la siguiente: **`<datalogpath>  YYYY-MM-DDHHh`**. La fecha y la hora se establecen según el reloj del servidor MTA (UTC). Por ejemplo:
 
@@ -61,7 +61,7 @@ La ruta completa es la siguiente: **`<datalogpath>  YYYY-MM-DDHHh`**. La fecha y
 C:\emails\2018-12-02\13h
 ```
 
-El nombre del archivo es **`<deliveryid>-<broadlogid>.eml`** cuando el estado de los correos electrónicos no es **[!UICONTROL Sent]**. Una vez que el estado haya cambiado a **[!UICONTROL Sent]**, el nombre del archivo se convierte en **`<deliveryid>-<broadlogid>-sent.eml`**. Por ejemplo:
+El nombre del archivo es **`<deliveryid>-<broadlogid>.eml`** cuando el estado de los correos electrónicos no es **[!UICONTROL Sent]**. Una vez que el estado haya cambiado a **[!UICONTROL Sent]**, el nombre de archivo se convierte en **`<deliveryid>-<broadlogid>-sent.eml`**. Por ejemplo:
 
 ```
 C:\emails\2018-12-02\13h\4012-8040-sent.eml
@@ -71,11 +71,11 @@ C:\emails\2018-12-02\13h\4012-8040-sent.eml
 >
 >En una instancia intermediaria, el directorio de los correos electrónicos de CCO se encuentra en el servidor intermediario.
 >
->deliveryID y broadlogID provienen del servidor intermediario cuando no se envía el estado de los correos electrónicos. Una vez que el estado haya cambiado a **[!UICONTROL Sent]**, estos ID provienen del servidor de marketing.
+>deliveryID y broadlogID provienen del servidor intermediario cuando no se envía el estado de los correos electrónicos. Una vez que el estado ha cambiado a **[!UICONTROL Sent]**, estos ID provienen del servidor de marketing.
 
 ### Parámetros {#parameters}
 
-Una vez definida la ruta de la carpeta local, añada y edite los siguientes elementos como desee en la **config-`<instance name>.xml`** archivo. A continuación se muestran los valores predeterminados:
+Una vez definida la ruta de la carpeta local, agregue y edite los siguientes elementos como desee en el archivo **config-`<instance name>.xml`**. A continuación se muestran los valores predeterminados:
 
 ```
 <archiving autoStart="false" compressionFormat="0" compressBatchSize="10000"
@@ -89,21 +89,21 @@ Una vez definida la ruta de la carpeta local, añada y edite los siguientes elem
 
   **1**: compresión (formato .zip)
 
-* **compressBatchSize**: número de archivos .eml añadidos a un archivo (archivo .zip).
+* **compressBatchSize**: número de archivos .eml agregados a un archivo (archivo .zip).
 
 
-* **archivingType**: estrategia de archivado que se va a utilizar. El único valor posible es **1**. Las copias sin procesar de los correos electrónicos enviados se guardan en formato .eml en el **dataLogPath** y se envían a la dirección de correo electrónico del CCO a través de SMTP. Una vez enviadas las copias por correo electrónico a la dirección de CCO, el nombre del archivo pasa a ser **`<deliveryid>-<broadlogid>-sent-archived.eml`** y el archivo se mueve a la **dataLogPath/archived** carpeta. La ruta del archivo de correo electrónico archivado enviado y CCO es **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
+* **archivingType**: estrategia de archivado para usar. El único valor posible es **1**. Las copias sin procesar de los correos electrónicos enviados se guardan en formato .eml en la carpeta **dataLogPath** y se envían a la dirección de correo electrónico de la CCO a través de SMTP. Una vez que las copias de correo electrónico se envían a la dirección de CCO, el nombre del archivo de almacenamiento se convierte en **`<deliveryid>-<broadlogid>-sent-archived.eml`** y el archivo se mueve a la carpeta **dataLogPath/archived**. La ruta del archivo de correo electrónico archivado enviado y CCO es entonces **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
 
   <!--
   **0**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder (default value). An archiving copy of the **`<deliveryid>-<broadlogid>-sent.eml`** file is saved to the **dataLogPath/archives** folder. The sent email file path becomes **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.-->
 
-* **expirationDelay**: número de días que se conservan los archivos .eml para el archivado. Después de este retraso, se mueven automáticamente al **dataLogPath/archived** carpeta para compresión. De forma predeterminada, los archivos .eml caducan al cabo de dos días.
-* **purgeArchivesDelay**: número de días durante los cuales se guardan los archivos en el **dataLogPath/`<archives>`** carpeta. Después de ese período, se eliminan de forma permanente. La depuración comienza cuando se inicia el MTA. De forma predeterminada, se realiza cada siete días.
-* **pollDelay**: frecuencia de comprobación (en segundos) de los nuevos correos electrónicos enviados a **dataLogPath** carpeta. Por ejemplo, si este parámetro se establece en 60, significa que cada minuto, el proceso de archivado pasa por los archivos .eml dentro de **dataLogPath/`<date and time>`** , aplique una depuración si es necesario y envíe copias por correo electrónico a la dirección de CCO o comprima los archivos archivados cuando sea necesario.
-* **acquisitionLimit**: número de archivos .eml procesados a la vez antes de que se vuelva a aplicar el proceso de archivado según el **pollDelay** parámetro. Por ejemplo, si establece la variable **acquisitionLimit** parámetro a 100 mientras que la variable **pollDelay** parámetro se establece en 60, se procesarán 100 archivos .eml por minuto.
+* **expirationDelay**: número de días que se conservan los archivos .eml para el archivado. Tras ese retraso, se moverán automáticamente a la carpeta **dataLogPath/archived** para su compresión. De forma predeterminada, los archivos .eml caducan al cabo de dos días.
+* **purgeArchivesDelay**: el número de días que se guardan los archivos en la carpeta **dataLogPath/`<archives>`**. Después de ese período, se eliminan de forma permanente. La depuración comienza cuando se inicia el MTA. De forma predeterminada, se realiza cada siete días.
+* **pollDelay**: frecuencia de comprobación (en segundos) de nuevos correos electrónicos entrantes enviados a la carpeta **dataLogPath**. Por ejemplo, si este parámetro se establece en 60, significa que cada minuto, el proceso de archivado pasa por los archivos .eml dentro de las carpetas **dataLogPath/`<date and time>`**, aplica una depuración si es necesario y envía copias de correo electrónico a la dirección de CCO o comprime los archivos archivados cuando sea necesario.
+* **acquisitionLimit**: número de archivos .eml procesados a la vez antes de que el proceso de archivado se aplique de nuevo según el parámetro **pollDelay**. Por ejemplo, si establece el parámetro **acquisitionLimit** en 100 mientras que el parámetro **pollDelay** está establecido en 60, se procesarán 100 archivos .eml por minuto.
 * **smtpNbConnection**: número de conexiones SMTP a la dirección de correo electrónico CCO.
 
-Asegúrese de ajustar estos parámetros según el rendimiento de envío de correo electrónico. Por ejemplo, en una configuración en la que el MTA envía 30 000 correos electrónicos por hora, puede establecer la variable **pollDelay** para 600, el parámetro **acquisitionLimit** parámetro a 5000 y el **smtpNbConnection** parámetro a 2. Esto significa que, con 2 conexiones SMTP, se envían 5000 correos electrónicos a la dirección de CCO cada 10 minutos.
+Asegúrese de ajustar estos parámetros según el rendimiento de envío de correo electrónico. Por ejemplo, en una configuración en la que el MTA envía 30 000 correos electrónicos por hora, puede establecer el parámetro **pollDelay** en 600, el parámetro **acquisitionLimit** en 5000 y el parámetro **smtpNbConnection** en 2. Esto significa que, con 2 conexiones SMTP, se envían 5000 correos electrónicos a la dirección de CCO cada 10 minutos.
 
 ## Configuración de la dirección de correo electrónico CCO (local) {#configuring-the-bcc-email-address--on-premise-}
 
@@ -114,22 +114,22 @@ Asegúrese de ajustar estos parámetros según el rendimiento de envío de corre
 >
 >Por motivos de privacidad, los correos electrónicos CCO deben procesarse mediante un sistema de archivado capaz de almacenar información de identificación personal (PII) de forma segura.
 
-En el **config-`<instance name>.xml`** utilice los siguientes parámetros para definir el servidor de correo electrónico SMTP al que se transferirán los archivos almacenados:
+En el archivo **config-`<instance name>.xml`**, utilice los siguientes parámetros para definir el servidor de correo electrónico SMTP al que se transferirán los archivos almacenados:
 
 ```
 <archiving smtpBccAddress="" smtpEnableTLS="false" smtpRelayAddress="" smtpRelayPort="25"/>
 ```
 
 * **smtpBccAddress**: archivando destino de destino
-* **smtpEnableTLS**: utilizando una conexión SMTP segura (protocolo TLS/SSL)
-* **smtpRelayAddress**: dirección de retransmisión que se utilizará
-* **smtpRelayPort**: puerto de retransmisión para utilizar
+* **smtpEnableTLS**: usando una conexión SMTP segura (protocolo TLS/SSL)
+* **smtpRelayAddress**: dirección de retransmisión para usar
+* **smtpRelayPort**: puerto de retransmisión para usar
 
 >[!NOTE]
 >
 >Si utiliza una retransmisión SMTP, los cambios realizados en los correos electrónicos por la retransmisión no se tienen en cuenta en el proceso de archivado.
 >
->Además, el relé asigna un **[!UICONTROL Sent]** estado a todos los correos electrónicos, incluidos los que no se envían. Por lo tanto, todos los mensajes se archivan.
+>Además, la retransmisión asigna un estado **[!UICONTROL Sent]** a todos los correos electrónicos, incluidos los que no se envían. Por lo tanto, todos los mensajes se archivan.
 
 <!--
 ## Moving to the new Email BCC {#updated-email-archiving-system--bcc-}
@@ -152,13 +152,13 @@ Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]*
 ## Prácticas recomendadas para CCO de correo electrónico {#best-practices}
 
 * **Buzón de direcciones CCO**: asegúrese de que tenga suficiente capacidad de recepción para archivar todos los correos electrónicos enviados por el MTA.
-* **Agrupación MTA**: la función de archivado BCC funciona en el nivel de MTA. Permite duplicar todos los correos electrónicos enviados por el MTA. Como el MTA se puede agrupar en varias instancias (desarrollo, prueba o producción por ejemplo) o incluso en varios clientes (en un entorno de intermediario), la configuración de esta función afecta a la seguridad:
+* **Agrupación de MTA**: la característica de archivado de CCO funciona en el nivel de MTA. Permite duplicar todos los correos electrónicos enviados por el MTA. Como el MTA se puede agrupar en varias instancias (desarrollo, prueba o producción por ejemplo) o incluso en varios clientes (en un entorno de intermediario), la configuración de esta función afecta a la seguridad:
 
    * Si comparte un servidor de correo con varios clientes y uno de ellos tiene esta opción activada, este cliente accederá a todos los correos electrónicos de los demás clientes que compartan el mismo servidor de correo. Para evitar una situación de este tipo, utilice un servidor de correo diferente para cada cliente.
    * Si utiliza el mismo MTA en varias instancias (desarrollo, prueba, prod) para un solo cliente, los mensajes enviados desde las tres instancias se duplicarán mediante la opción dataLogPath.
 
-* **Correos electrónicos por conexión**: el archivado de correo electrónico CCO funciona abriendo una conexión e intentando enviar todos los correos electrónicos a través de esa conexión. El Adobe recomienda consultar con su contacto técnico interno la cantidad de correos electrónicos aceptados en una conexión determinada. El aumento de este número puede tener un gran impacto en el rendimiento de las CCO.
-* **IP de envío de CCO**: actualmente, los correos electrónicos CCO no se envían a través de los proxies de MTA normales. En su lugar, se abre una conexión directa desde el servidor MTA al servidor de correo electrónico de destino. Esto significa que es posible que tenga que agregar direcciones IP adicionales a la lista de permitidos de la red, según la configuración del servidor de correo electrónico.
+* **Correos electrónicos por conexión**: el archivado de correo electrónico CCO funciona abriendo una conexión e intentando enviar todos los mensajes de correo electrónico a través de esa conexión. El Adobe recomienda consultar con su contacto técnico interno la cantidad de correos electrónicos aceptados en una conexión determinada. El aumento de este número puede tener un gran impacto en el rendimiento de las CCO.
+* **IP de envío de CCO**: actualmente, los correos electrónicos de CCO no se envían a través de los proxies de MTA normales. En su lugar, se abre una conexión directa desde el servidor MTA al servidor de correo electrónico de destino. Esto significa que es posible que tenga que agregar direcciones IP adicionales a la lista de permitidos de la red, según la configuración del servidor de correo electrónico.
 
 <!--## Email BCC with Enhanced MTA {#email-bcc-with-enhanced-mta}
 

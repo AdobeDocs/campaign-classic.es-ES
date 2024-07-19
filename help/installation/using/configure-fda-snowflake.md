@@ -16,10 +16,10 @@ ht-degree: 32%
 
 # Configuración del acceso al Snowflake {#configure-access-to-snowflake}
 
-Uso de Campaign **Acceso de datos federado** (FDA) para procesar la información almacenada en una base de datos externa. Siga estos pasos para configurar el acceso a [!DNL Snowflake].
+Utilice la opción **Acceso de datos federado** (FDA) de Campaign para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a [!DNL Snowflake].
 
-1. Configurar [!DNL Snowflake] el [Linux](#snowflake-linux).
-1. Configure las variables [!DNL Snowflake] [cuenta externa](#snowflake-external) en Campaign
+1. Configurar [!DNL Snowflake] en [Linux](#snowflake-linux).
+1. Configurar la [!DNL Snowflake] [cuenta externa](#snowflake-external) en Campaign
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Uso de Campaign **Acceso de datos federado** (FDA) para procesar la información
 
 ## Snowflake en Linux {#snowflake-linux}
 
-Para configurar [!DNL Snowflake] En Linux, siga los pasos a continuación:
+Para configurar [!DNL Snowflake] en Linux, siga los pasos a continuación:
 
 1. Antes de la instalación de ODBC, compruebe que los siguientes paquetes estén instalados en la distribución Linux:
 
@@ -49,7 +49,7 @@ Para configurar [!DNL Snowflake] En Linux, siga los pasos a continuación:
      apt-get install -y grep sed tar wget perl curl
      ```
 
-1. Antes de ejecutar la secuencia de comandos, puede tener acceso a más información con el `--help` opción:
+1. Antes de ejecutar el script, puede tener acceso a más información con la opción `--help`:
 
    ```
    cd /usr/local/neolane/nl6/bin/fda-setup-scripts/
@@ -70,25 +70,25 @@ Para configurar [!DNL Snowflake] En Linux, siga los pasos a continuación:
    systemctl start nlserver.service
    ```
 
-1. En Campaign, puede configurar la [!DNL Snowflake] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#snowflake-external).
+1. En Campaign, puede configurar la cuenta externa [!DNL Snowflake]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#snowflake-external).
 
 ## Cuenta externa de Snowflake {#snowflake-external}
 
-Debe crear un [!DNL Snowflake] cuenta externa para conectar la instancia de Campaign a [!DNL Snowflake] base de datos externa.
+Debe crear una cuenta externa [!DNL Snowflake] para conectar la instancia de Campaign a la base de datos externa [!DNL Snowflake].
 
-1. Desde Campaign **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. En la campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
 1. Haga clic en **[!UICONTROL New]**.
 
 1. Seleccione **[!UICONTROL External database]** como **[!UICONTROL Type]** de su cuenta externa.
 
-1. En **[!UICONTROL Configuration]**, seleccione [!DNL Snowflake] desde el **[!UICONTROL Type]** menú desplegable.
+1. En **[!UICONTROL Configuration]**, seleccione [!DNL Snowflake] de la lista desplegable **[!UICONTROL Type]**.
 
    ![](assets/snowflake_5.png)
 
-1. Añada su **[!UICONTROL Server]** URL y **[!UICONTROL Database]**.
+1. Agregue su dirección URL **[!UICONTROL Server]** y **[!UICONTROL Database]**.
 
-1. Configure las variables **[!UICONTROL Snowflake]** autenticación de cuenta externa:
+1. Configure la autenticación de cuenta externa **[!UICONTROL Snowflake]**:
 
    * Para la autenticación de cuenta/contraseña, debe especificar:
 
@@ -98,7 +98,7 @@ Debe crear un [!DNL Snowflake] cuenta externa para conectar la instancia de Camp
 
      ![](assets/snowflake.png)
 
-   * Para la autenticación de par de claves, haga clic en **[!UICONTROL Keypair Auth]** para utilizar su **[!UICONTROL Private key]** para autenticar y copiar y pegar su **[!UICONTROL Private key]**.
+   * Para la autenticación de par de claves, haga clic en la ficha **[!UICONTROL Keypair Auth]** para usar su **[!UICONTROL Private key]** para autenticar y copiar y pegar su **[!UICONTROL Private key]**.
 
      ![](assets/snowflake_4.png)
 
@@ -110,7 +110,7 @@ Debe crear un [!DNL Snowflake] cuenta externa para conectar la instancia de Camp
 
    ![](assets/snowflake_2.png)
 
-1. Clic **[!UICONTROL Save]** cuando finalice la configuración.
+1. Haga clic en **[!UICONTROL Save]** cuando finalice la configuración.
 
 El conector admite las siguientes opciones:
 

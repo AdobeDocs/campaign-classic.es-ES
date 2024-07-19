@@ -78,7 +78,8 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                               <p>URL Parameter</p> 
                            </td>
                            <td>
-                              <p>Identificador de envío que se utilizará si no hay ninguna cookie de sesión. Este valor se debe expresar en hexadecimal.
+                              <p>Identificador de envío que se utilizará si no hay ninguna cookie de sesión. Este valor debe ser
+                                 expresado en hexadecimal.
                               </p> 
                            </td> 
                         </tr>
@@ -90,14 +91,16 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
                               <p>URL Parameter</p> 
                            </td>
                            <td>
-                              <p>Parámetro utilizado para identificar al usuario de Internet. El formato de este parámetro es "name=value", donde name es un campo del esquema de destinatarios. Este parámetro tiene prioridad sobre el identificador contenido en la cookie de sesión.
+                              <p>Parámetro utilizado para identificar al usuario de Internet. El formato de este parámetro es "nombre=valor",
+                                 donde name es un campo del esquema recipient. Este parámetro tiene prioridad sobre
+                                 el identificador contenido en la cookie de sesión.
                               </p> 
                            </td> 
                         </tr> 
                      </tbody>  
                   </table>
 
-**Algunas direcciones URL de seguimiento web**
+**Algunas URL de seguimiento web**
 
 * Visita a una página de identificador &quot;principal&quot;
 
@@ -127,5 +130,5 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
 
 Los siguientes métodos son posibles:
 
-* Inserción de la dirección URL en **&quot;src&quot;** atributo de un HTML **`<img>`** incorporada en la página web que desea rastrear.
+* Insertando la dirección URL en el atributo **&quot;src&quot;** de una etiqueta de HTML **`<img>`** incorporada en la página web que desea rastrear.
 * Llamada directa al servidor de redirección cuando se genera la página web que desea rastrear.

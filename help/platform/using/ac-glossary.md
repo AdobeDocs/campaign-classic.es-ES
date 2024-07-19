@@ -7,7 +7,7 @@ role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '5959'
 ht-degree: 100%
 
@@ -912,11 +912,11 @@ En el Panel de control, puede interactuar con todos los servidores SFTP conectad
 Más información sobre la [Administración SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=es).
 +++
 
-+++**Actividad de los servicios de suscripción**
++++**Actividad Servicios de suscripción**
 
 La actividad del flujo de trabajo de los servicios de suscripción permite crear o eliminar una suscripción a un servicio informativo para la población especificada en la transición.
 
-Más información sobre la [Actividad de servicios de suscripción](../../workflow/using/subscription-services.md).
+Más información sobre la [Actividad Servicios de suscripción](../../workflow/using/subscription-services.md).
 +++
 
 +++**Aprobación del destino**

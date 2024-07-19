@@ -18,9 +18,9 @@ ht-degree: 77%
 
 
 
-Uso de Campaign **Acceso de datos federado** (FDA) para procesar información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso al Hadoop.
+Utilice la opción **Acceso de datos federado** (FDA) de Campaign para procesar la información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso al Hadoop.
 
-1. Configurar [base de datos hadoop](#configuring-hadoop)
+1. Configurar [base de datos de Hadoop](#configuring-hadoop)
 1. Configuración del Hadoop [cuenta externa](#hadoop-external) en Campaign
 
 ## Configuración de Hadoop 3.0 {#configuring-hadoop}
@@ -38,7 +38,7 @@ La conexión a una base de datos externa de Hadoop en FDA requiere las siguiente
    systemctl start nlserver.service
    ```
 
-1. En Campaign Classic, puede configurar la cuenta externa [!DNL Hadoop]. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#hadoop-external).
+1. En Campaign Classic, puede configurar la cuenta externa [!DNL Hadoop]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#hadoop-external).
 
 ## Cuenta externa de Hadoop {#hadoop-external}
 
@@ -90,7 +90,7 @@ Si necesita conectarse al Hadoop 2.1, siga los pasos que se describen a continua
 ### Hadoop 2.1 para Windows {#for-windows}
 
 1. Instale controladores de [perspectiva de ODBC y Azure HD](https://www.microsoft.com/en-us/download/details.aspx?id=40886) para Windows.
-1. Cree el DSN (Nombre de Fuente de Datos) ejecutando la herramienta ODBC DataSource Administrator. Se proporciona una muestra de DSN del sistema para Hive para que usted la modifique.
+1. Cree el DSN (Nombre de Data Source) ejecutando la herramienta ODBC DataSource Administrator. Se proporciona una muestra de DSN del sistema para Hive para que usted la modifique.
 
    ```
    Description: vorac (or any name you like)
@@ -101,7 +101,7 @@ Si necesita conectarse al Hadoop 2.1, siga los pasos que se describen a continua
    User/Password: admin/<your password here>
    ```
 
-1. Cree la cuenta externa de Hadoop como se detalla en [esta sección](#hadoop-external).
+1. Cree la cuenta externa de Hadoop, tal como se detalla en [esta sección](#hadoop-external).
 
 ### Hadoop 2.1 para Linux {#for-linux}
 
@@ -188,4 +188,4 @@ Si necesita conectarse al Hadoop 2.1, siga los pasos que se describen a continua
    isql vorac -v
    ```
 
-1. Cree la cuenta externa de Hadoop como se detalla en [esta sección](#hadoop-external).
+1. Cree la cuenta externa de Hadoop, tal como se detalla en [esta sección](#hadoop-external).

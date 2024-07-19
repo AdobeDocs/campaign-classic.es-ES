@@ -30,7 +30,7 @@ Cada modo tiene características específicas. El modo de seguimiento web &quot;
 >
 >El modo predeterminado se puede cambiar en cualquier momento en el asistente de implementación de instancias.
 
-Tenga en cuenta que si utiliza la variable **web permanente** o **anónimo** en el modo de seguimiento, debe añadir un índice a la columna &quot;sourceID&quot; (uuid230) en las tablas de seguimiento (trackingLogXXX):
+Tenga en cuenta que si está usando el modo de seguimiento **web permanente** o **anonymous**, debe agregar un índice a la columna &quot;sourceID&quot; (uuid230) en las tablas de seguimiento (trackingLogXXX):
 
 1. Identifique la(s) tabla(s) de seguimiento relacionada con el seguimiento permanente.
 1. Amplíe los esquemas que coinciden con estas tablas agregando las siguientes líneas:
@@ -41,11 +41,11 @@ Tenga en cuenta que si utiliza la variable **web permanente** o **anónimo** en 
 </dbindex>
 ```
 
-**Permanente** y **Anónimo** Los modos de seguimiento web incluyen dos opciones: **Envío forzado** y **Última entrega**.
+Los modos de seguimiento web **Permanent** y **Anonymous** incluyen dos opciones: **Forced delivery** y **Last delivery**.
 
-El **Envío forzado** Esta opción permite especificar el identificador de la entrega (@jobid) durante el seguimiento.
+La opción **Envío forzado** le permite especificar el identificador del envío (@jobid) durante el seguimiento.
 
-El **Última entrega** Esta opción permite vincular el registro de seguimiento actual al último envío rastreado.
+La opción **Última entrega** le permite vincular el registro de seguimiento actual con la última entrega rastreada.
 
 **Características del seguimiento web de sesión:**
 
@@ -80,7 +80,7 @@ Este modo es el más costoso en términos de cálculo y volumen.
 
 >[!NOTE]
 >
->Si la variable **[!UICONTROL Leads]** está instalado, debe hacer lo mismo con la tabla de actividades (**crm:incomingLead**)
+>Si el paquete **[!UICONTROL Leads]** está instalado, debe hacer lo mismo con la tabla de actividades (**crm:incomingLead**)
 
 El siguiente esquema resume las funcionalidades de los tres modos de seguimiento web:
 

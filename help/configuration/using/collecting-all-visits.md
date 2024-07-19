@@ -26,11 +26,11 @@ Un usuario conocido por la plataforma es un destinatario que ya ha sido identifi
 
 ## Configuración del servidor {#server-configuration}
 
-Los servidores se configuran sobrecargando ciertos elementos del **serverConf.xml** archivo. Estos archivos se guardan en **conf** del directorio de instalación de Adobe Campaign.
+Los servidores se configuran sobrecargando ciertos elementos del archivo **serverConf.xml**. Estos archivos se guardan en el subdirectorio **conf** del directorio de instalación de Adobe Campaign.
 
 ### Servidor de redirección {#redirection-server}
 
-Para el servidor de redirección, establezca el **trackWebVisitors** atributo del **redirección** elemento a **true**.
+Para el servidor de redirección, establezca el atributo **trackWebVisitors** del elemento **redirection** en **true**.
 
 ```
 <redirection P3PCompactPolicy="CAO DSP COR CURa DEVa TAIa OUR BUS IND UNI COM NAV"
@@ -43,7 +43,7 @@ trackingPassword=""
 
 Para ver la información de seguimiento a través de la consola de cliente, debe:
 
-* Crear un **envío ficticio** (la asignación de envío debe ser idéntica a la asignación del esquema de destino),
-* Introduzca el **nombre interno** de este envío en la **NmsTracking_WebTrackingDelivery** opción.
+* Crear **envío ficticio** (la asignación de envío debe ser idéntica a la asignación del esquema de destino),
+* Escriba el **nombre interno** de esta entrega en la opción **NmsTracking_WebTrackingDelivery**.
 
 Toda la información de seguimiento del sitio no directamente posterior a un clic en un correo electrónico se puede ver en la entrega ficticia creada.

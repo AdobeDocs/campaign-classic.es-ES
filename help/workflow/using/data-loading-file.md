@@ -7,7 +7,7 @@ exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
 source-wordcount: '1140'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -37,7 +37,7 @@ Para ello, seleccione la opción **[!UICONTROL Pre-process the file]** y elija u
 
 >[!CAUTION]
 >
->Si está trabajando con una implementación híbrida o local, es posible que los comandos de preprocesamiento no funcionen de forma predeterminada, ya que su configuración predeterminada utiliza &quot;zcat&quot;, que no está disponible en Windows. En ese caso, debe ajustar la variable **preProcessCommand** en el archivo de configuración del servidor (serverConf.xml) para adaptarlo a sus necesidades. [Obtenga información sobre cómo configurar comandos de preprocesamiento en el archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md#preprocesscommand)
+>Si está trabajando con una implementación híbrida o local, es posible que los comandos de preprocesamiento no funcionen de forma predeterminada, ya que su configuración predeterminada utiliza &quot;zcat&quot;, que no está disponible en Windows. En ese caso, debe ajustar el nodo **preProcessCommand** en el archivo de configuración del servidor (serverConf.xml) para adaptarlo a sus necesidades. [Obtenga información sobre cómo configurar comandos de preprocesamiento en el archivo de configuración del servidor](../../installation/using/the-server-configuration-file.md#preprocesscommand)
 
 ## Definición del formato del archivo {#defining-the-file-format}
 

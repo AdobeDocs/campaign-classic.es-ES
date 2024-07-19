@@ -39,12 +39,12 @@ Este elemento permite definir una condición de filtrado.
 
 ## Uso y contexto de uso {#use-and-context-of-use-2}
 
-Uno `<sysfiler>`  puede contener varias condiciones de filtrado.
+Un elemento `<sysfiler>` puede contener varias condiciones de filtrado.
 
 ## Descripción de atributo {#attribute-description-2}
 
-* **boolOperator (cadena)**: si hay varios `<conditions>` se definen dentro del mismo  `<sysfilter>` , este atributo permite combinarlos. De forma predeterminada, el vínculo lógico es entre `<condition>` elementos es &quot;Y&quot;. El atributo &quot;@boolOperator&quot; permite combinar vínculos de tipo &quot;OR&quot; y &quot;AND&quot;.
-* **enabledIf (cadena)**: prueba de activación de condición.
+* **boolOperator (string)**: si se definen varios `<conditions>` dentro del mismo elemento `<sysfilter>`, este atributo le permite combinarlos. De manera predeterminada, el vínculo lógico está entre `<condition>` elementos y es &quot;AND&quot;. El atributo &quot;@boolOperator&quot; permite combinar vínculos de tipo &quot;OR&quot; y &quot;AND&quot;.
+* **enabledIf (string)**: prueba de activación de condición.
 * **expr (cadena)**: una expresión XTK.
 
 ## Ejemplos {#examples-2}

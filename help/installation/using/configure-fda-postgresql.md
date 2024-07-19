@@ -15,21 +15,21 @@ ht-degree: 10%
 
 
 
-Uso de Campaign **Acceso de datos federado** (FDA) para procesar la información almacenada en una base de datos PostgreSQL externa.
+Utilice la opción Campaign **Acceso de datos federados** (FDA) para procesar la información almacenada en una base de datos PostgreSQL externa.
 
 ## Configuración de PostgreSQL {#postgresql-configuration}
 
 Primero debe instalar Libpq. Libpq permite a los programas cliente enviar consultas al servidor back-end PostgreSQL y recibir los resultados de estas consultas.
 
-Siga estos pasos para configurar el acceso a [!DNL PostgreSQL]:
+Siga los pasos a continuación para configurar el acceso a [!DNL PostgreSQL]:
 
 * Para CentOS, ejecute el siguiente comando `sudo apt-get -y install libpq-dev`.
 
-* En Linux, ejecute el siguiente comando `yum install postgresql-devel`.
+* Para Linux, ejecute el siguiente comando `yum install postgresql-devel`.
 
-* Para Windows, Libpq se implementa mediante `libpq.dll` que se incluye en la instalación de Adobe Campaign.
+* Para Windows, Libpq se implementa mediante `libpq.dll`, que se incluye en la instalación de Adobe Campaign.
 
-En Adobe Campaign, puede configurar los [!DNL PostgreSQL] cuenta externa. Para obtener más información sobre cómo configurar la cuenta externa, consulte [esta sección](#postgresql-external).
+En Adobe Campaign, puede configurar su cuenta externa [!DNL PostgreSQL]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#postgresql-external).
 
 ## Cuenta externa de PostgreSQL {#postgresql-external}
 
@@ -37,31 +37,31 @@ En Adobe Campaign, puede configurar los [!DNL PostgreSQL] cuenta externa. Para o
 >
 > PostgreSQL está disponible en CentOS 7 y 6.
 
-Debe crear un [!DNL PostgreSQL] cuenta externa para conectar la instancia de Campaign a [!DNL PostgreSQL] base de datos externa.
+Debe crear una cuenta externa [!DNL PostgreSQL] para conectar la instancia de Campaign a la base de datos externa [!DNL PostgreSQL].
 
-1. Desde Campaign **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
+1. En la campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Platform]** &#39;>&#39; **[!UICONTROL External accounts]**.
 
 1. Haga clic en **[!UICONTROL New]**.
 
 1. Seleccione **[!UICONTROL External database]** como **[!UICONTROL Type]** de su cuenta externa.
 
-1. En **[!UICONTROL Configuration]**, seleccione [!DNL PostgreSQL, Greenplum] desde el **[!UICONTROL Type]** menú desplegable.
+1. En **[!UICONTROL Configuration]**, seleccione [!DNL PostgreSQL, Greenplum] de la lista desplegable **[!UICONTROL Type]**.
 
    ![](assets/postgresql_1.png)
 
-1. Configure las variables **[!UICONTROL PostgreSQL]** autenticación de cuenta externa:
+1. Configure la autenticación de cuenta externa **[!UICONTROL PostgreSQL]**:
 
-   * **[!UICONTROL Server]**: URL del [!DNL PostgreSQL] servidor.
+   * **[!UICONTROL Server]**: URL del servidor [!DNL PostgreSQL].
 
-   * **[!UICONTROL Account]**: Nombre del usuario.
+   * **[!UICONTROL Account]**: nombre del usuario.
 
    * **[!UICONTROL Password]**: contraseña de cuenta de usuario.
 
-   * **[!UICONTROL Database]**: Nombre de la base de datos (opcional).
+   * **[!UICONTROL Database]**: nombre de la base de datos (opcional).
 
-   * **[!UICONTROL Working schema]**: Nombre del esquema de trabajo. [Más información](https://www.postgresql.org/docs/current/ddl-schemas.html)
+   * **[!UICONTROL Working schema]**: nombre de su esquema de trabajo. [Más información](https://www.postgresql.org/docs/current/ddl-schemas.html)
 
-   * **[!UICONTROL Timezone]**: Zona horaria definida en [!DNL PostgreSQL]. [Más información](https://www.postgresql.org/docs/7.2/timezones.html)
+   * **[!UICONTROL Timezone]**: zona horaria establecida en [!DNL PostgreSQL]. [Más información](https://www.postgresql.org/docs/7.2/timezones.html)
 
 1. Haga clic en la pestaña **[!UICONTROL Parameters]** y luego en el botón **[!UICONTROL Deploy functions]** para crear funciones.
 
@@ -69,7 +69,7 @@ Debe crear un [!DNL PostgreSQL] cuenta externa para conectar la instancia de Cam
    >
    >Para que todas las funciones estén disponibles, debe crear las funciones SQL de Adobe Campaign en la base de datos remota. Para obtener más información, consulte esta [página](../../configuration/using/adding-additional-sql-functions.md).
 
-1. Clic **[!UICONTROL Save]** cuando finalice la configuración.
+1. Haga clic en **[!UICONTROL Save]** cuando finalice la configuración.
 
 El conector admite las siguientes opciones:
 

@@ -46,7 +46,7 @@ Una tabla debe tener al menos una clave.
 
 Como regla, las claves se declaran después del elemento principal del esquema y de los índices.
 
-Una clave se conoce como compuesta si incluye varios campos (es decir, varios `<keyfield>` children). No utilice una clave compuesta para definir una clave principal.
+Una clave se conoce como compuesta si incluye varios campos (es decir, varios `<keyfield>` elementos secundarios). No utilice una clave compuesta para definir una clave principal.
 
 Si el elemento principal del esquema contiene el atributo &quot;@autopk=true&quot;, la clave principal es única. Solo podemos tener una clave principal por esquema.
 
@@ -55,11 +55,11 @@ Los primeros 1000 identificadores están reservados, por lo que si es necesario 
 ## Descripción de atributo {#attribute-description-8}
 
 * **allowEmptyPart (booleano)**: en el caso de una clave compuesta, si este atributo está activado, la clave se considera válida si al menos una de sus claves no está vacía. En este caso, el valor de noción vacío es &quot;0&quot; (booleano o para todos los tipos de datos numéricos). De forma predeterminada, es necesario introducir todas las claves que componen una clave compuesta.
-* **applyIf (cadena)**: este atributo permite hacer que la clave sea opcional. Define la condición según la cual se aplicará la definición de clave. Este atributo recibe una expresión XTK.
-* **interno (booleano)**: si está activada, este atributo permite a Adobe Campaign saber que la clave es principal.
+* **applyIf (string)**: este atributo permite hacer la clave opcional. Define la condición según la cual se aplicará la definición de clave. Este atributo recibe una expresión XTK.
+* **internal (booleano)**: si está activado, este atributo le permite saber a Adobe Campaign que la clave es principal.
 * **label (cadena)**: etiqueta de la clave.
 * **nombre (MNTOKEN)**: nombre interno de la clave.
-* **noDbIndex (booleano)**: si está activado (noDbIndex=&quot;true&quot;), el campo que coincida con la clave no se indexará.
+* **noDbIndex (booleano)**: si está activado (noDbIndex=&quot;true&quot;), el campo que coincida con la clave no se indizará.
 
 ## Ejemplos {#examples-------}
 
@@ -72,7 +72,7 @@ Declaración de una clave compuesta que autoriza que el campo &quot;@expr&quot; 
  </key>
 ```
 
-Declaración de una clave principal en el campo &quot;Nombre&quot; del tipo CADENA en un `<srcschema>`  y la consulta SQL coincidente:
+Declaración de una clave principal en el campo &quot;Name&quot; de tipo STRING en un `<srcschema>` y la consulta SQL coincidente:
 
 ```
  

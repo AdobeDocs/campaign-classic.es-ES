@@ -3,7 +3,7 @@ product: campaign
 title: Configuración de permisos de URL
 description: Obtenga información sobre cómo configurar permisos de URL
 feature: Installation, Instance Settings, Permissions
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,7 +11,7 @@ exl-id: 6fe8da3b-57b9-4a69-8602-a03993630b27
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
@@ -25,14 +25,14 @@ De forma predeterminada, las instancias no pueden conectarse a direcciones URL e
 
 >[!NOTE]
 >
->Este procedimiento está restringido a **on-premise** implementaciones.
+>Este procedimiento está restringido a **implementaciones locales**.
 >
->As a **alojado** cliente, si puede acceder a [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es), puede utilizar la interfaz de autoservicio de permisos de URL. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=es)
+>Como cliente de **hosted**, si puede acceder al [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es), puede usar la interfaz de autoservicio de permisos de URL. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=es)
 >
->Otros **híbrido/alojado** Los clientes de deberán ponerse en contacto con el equipo de asistencia del Adobe de para añadir la IP a la lista de permitidos.
+>Otros clientes de **híbrido/alojado** deben ponerse en contacto con el equipo de soporte de Adobe para agregar la IP a la lista de permitidos.
 >
 
-Para **Híbrido** y **On-Premise** implementaciones, el administrador debe hacer referencia a un nuevo **urlPermission** en el **serverConf.xml** archivo.
+Para implementaciones **Hybrid** y **On-Premise**, el administrador debe hacer referencia a un nuevo **urlPermission** en el archivo **serverConf.xml**.
 
 
 Hay tres modos de protección de conexión disponibles:
@@ -51,9 +51,9 @@ Hay tres modos de protección de conexión disponibles:
 
 >[!IMPORTANT]
 >
->De forma predeterminada, las nuevas implementaciones utilizan el **Bloqueo** modo.
+>De manera predeterminada, las nuevas implementaciones utilizan el modo **Bloqueo**.
 >
->Como cliente existente que proviene de una migración, puede utilizar temporalmente el **Advertencia** modo. Analice el tráfico saliente antes de permitir las direcciones URL. Una vez definida la lista de direcciones URL permitidas, puede añadir las direcciones URL a la lista de permitidos y activar el **Bloqueo** modo.
+>Como cliente existente que proviene de una migración, puede usar temporalmente el modo **Advertencia**. Analice el tráfico saliente antes de permitir las direcciones URL. Una vez definida la lista de direcciones URL permitidas, puede agregarlas a la lista de permitidos y activar el modo **Bloqueo**.
 
 Para obtener más información, consulte estas secciones:
 

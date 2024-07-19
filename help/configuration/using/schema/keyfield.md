@@ -26,7 +26,7 @@ keyfield:==EMPTY
 
 ## Padres {#parents-9}
 
-`<key>`  ,  `<dbindex />`
+`<key>`, `<dbindex />`
 
 ## Tareas secundarias {#children-9}
 
@@ -39,7 +39,7 @@ Este elemento define los campos que se van a integrar en un índice o una clave.
 ## Descripción de atributo {#attribute-description-9}
 
 * **xlink (MNTOKEN)**: permite hacer referencia automáticamente a las claves externas definidas en la unión para una tabla de relación (vínculo N-N).
-* **xpath (MNTOKEN)**: definición de un índice o una clave en una `<attribute>`  Elemento. Este atributo recibe un Xpath que define la ruta al atributo de esquema que define la clave o el índice.
+* **xpath (MNTOKEN)**: definición de un índice o clave en un elemento `<attribute>`. Este atributo recibe un Xpath que define la ruta al atributo de esquema que define la clave o el índice.
 
 ## Ejemplos {#examples-}
 

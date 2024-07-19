@@ -3,7 +3,7 @@ product: campaign
 title: Duplicación de entornos
 description: Duplicación de entornos
 feature: Monitoring
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: data-processing
@@ -11,7 +11,7 @@ exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -37,13 +37,13 @@ Para ello, siga los siguientes pasos:
 
 1. Crear una copia de las bases de datos en todas las instancias del entorno de origen.
 1. Restaurar estas copias en todas las instancias del entorno de destino.
-1. Ejecute el **nms:congelaciónInstance.js** script de cauterización en el entorno de destino antes de iniciarlo.
+1. Ejecute el script de cauterización **nms:congelaciónInstance.js** en el entorno de destino antes de iniciarlo.
 
    Este proceso no afecta a los servidores ni a su configuración.
 
    >[!NOTE]
    >
-   >En el contexto de Adobe Campaign, una **cauterización** combina acciones que permiten detener todos los procesos que interactúan con el exterior: registros, seguimiento, envíos, flujos de trabajo de la campaña, etc.\
+   >En el contexto de Adobe Campaign, una **cauterización** combina acciones que le permiten detener todos los procesos que interactúan con el exterior: registros, seguimiento, envíos, flujos de trabajo de campaña, etc.\
    >Este paso es necesario para evitar enviar mensajes varias veces (una vez desde el entorno nominal y otra desde el entorno duplicado).
 
    >[!IMPORTANT]
@@ -63,14 +63,14 @@ Para que este proceso funcione, los entornos de origen y destino deben tener el 
 
 ### Procedimiento de transferencia {#transfer-procedure}
 
-Esta sección le ayudará a comprender los pasos necesarios para transferir un entorno de origen a un entorno de destino mediante un caso práctico: nuestro objetivo aquí es restaurar un entorno de producción (**picar** ) a un entorno de desarrollo (**dev** ) para trabajar en un contexto lo más cercano posible a la plataforma &quot;en directo&quot;.
+Esta sección le ayudará a comprender los pasos necesarios para transferir un entorno de origen a un entorno de destino mediante un caso práctico: nuestro objetivo aquí es restaurar un entorno de producción (**prod** instancia) a un entorno de desarrollo (**dev** instancia) para que funcione en un contexto lo más cercano posible a la plataforma &quot;activa&quot;.
 
 Los siguientes pasos deben realizarse con mucho cuidado: es posible que algunos procesos aún estén en curso cuando se copian las bases de datos del entorno de origen. La cauterización (paso 3 a continuación) evita que los mensajes se envíen dos veces y mantiene la coherencia de los datos.
 
 >[!IMPORTANT]
 >
 >* El siguiente procedimiento es válido en lenguaje PostgreSQL. Si el lenguaje SQL es diferente (Oracle, por ejemplo), las consultas SQL deben adaptarse.
->* Los comandos siguientes se aplican en el contexto de una **picar** instancia y una **dev** en PostgreSQL.
+>* Los comandos siguientes se aplican en el contexto de una instancia de **prod** y una instancia de **dev** en PostgreSQL.
 >
 
 ### Paso 1: Realizar una copia de seguridad de los datos del entorno de origen (prod) {#step-1---make-a-backup-of-the-source-environment--prod--data}
@@ -95,8 +95,8 @@ Esta exportación permite mantener la configuración de desarrollo y actualizar 
 
 Para ello, realice una exportación de paquetes para los dos elementos siguientes:
 
-* Exporte el **xtk:opción** en un archivo options_dev.xml, sin los registros con los siguientes nombres internos: &quot;WdbcTimeZone&quot;, &quot;NmsServer_LastPostUpgrade&quot; y &quot;NmsBroadcast_RegexRules&quot;.
-* En un archivo &quot;extaccount_dev.xml&quot;, exporte el **nms:extAccount** para todos los registros cuyo ID no sea 0 (@id &lt;> 0).
+* Exporte la tabla **xtk:option** a un archivo &#39;options_dev.xml&#39;, sin los registros con los siguientes nombres internos: &#39;WdbcTimeZone&#39;, &#39;NmsServer_LastPostUpgrade&#39; y &#39;NmsBroadcast_RegexRules&#39;.
+* En un archivo &quot;extaccount_dev.xml&quot;, exporte la tabla **nms:extAccount** para todos los registros cuyo ID no sea 0 (@id &lt;> 0).
 
 Compruebe que el número de opciones/cuentas exportadas sea igual al número de líneas que se exportarán en cada archivo.
 
@@ -138,14 +138,14 @@ nlserver pdump
 
 >[!NOTE]
 >
->En Windows, la variable **webmdl** El proceso puede seguir activo sin afectar a otras operaciones.
+>En Windows, el proceso **webmdl** puede seguir activo sin afectar a otras operaciones.
 
 También puede comprobar que no hay procesos del sistema en ejecución.
 
 Para ello, utilice el proceso siguiente:
 
-* En Windows: abra el **Administrador de tareas** y compruebe que no hay **nlserver.exe** procesos.
-* En Linux: ejecute el **ps aux | grep nlserver** y compruebe que no hay ninguna **nlserver** procesos.
+* En Windows: abra el **Administrador de tareas** y compruebe que no haya procesos de **nlserver.exe**.
+* En Linux: ejecute **ps aux | comando grep nlserver** y compruebe que no haya procesos **nlserver**.
 
 ### Paso 4: Restauración de las bases de datos en el entorno de destino (dev) {#step-4---restore-the-databases-in-the-target-environment--dev-}
 
@@ -192,9 +192,9 @@ En el entorno de destino, reinicie los procesos de Adobe Campaign para todos los
 
 >[!NOTE]
 >
->Antes de reiniciar Adobe Campaign en **dev** entorno, puede aplicar un procedimiento de seguridad adicional: inicie el **web** solo módulo.
+>Antes de reiniciar Adobe Campaign en el entorno **dev**, puedes aplicar un procedimiento de seguridad adicional: inicia solo el módulo **web**.
 >  
->Para ello, edite el archivo de configuración de la instancia (**config-dev.xml**) y, a continuación, añada el carácter &quot;_&quot; antes de las opciones autoStart=&quot;true&quot; para cada módulo (mta, stat, etc.).
+>Para ello, edite el archivo de configuración de su instancia (**config-dev.xml**) y luego agregue el carácter &quot;_&quot; antes de las opciones autoStart=&quot;true&quot; para cada módulo (mta, stat, etc.).
 
 Ejecute el siguiente comando para iniciar el proceso web:
 
@@ -223,11 +223,11 @@ Para importar la configuración desde la base de datos del entorno de destino (d
 1. Abra Admin Console de la base de datos y purgue las cuentas externas (tabla nms:extAccount) cuyo ID no sea 0 (@id &lt;> 0).
 1. En la consola de Adobe Campaign, importe el paquete options_dev.xml creado anteriormente mediante la funcionalidad de importación de paquetes.
 
-   Compruebe que las opciones se hayan actualizado en la **[!UICONTROL Administration > Platform > Options]** nodo.
+   Compruebe que las opciones se hayan actualizado correctamente en el nodo **[!UICONTROL Administration > Platform > Options]**.
 
 1. En la consola de Adobe Campaign, importe el archivo extaccount_dev.xml creado anteriormente mediante la funcionalidad de importación de paquetes
 
-   Compruebe que las bases de datos externas se hayan importado realmente en el **[!UICONTROL Administration > Platform > External accounts]** .
+   Compruebe que las bases de datos externas se hayan importado realmente en **[!UICONTROL Administration > Platform > External accounts]**
 
 ### Paso 9: Reinicio de todos los procesos y cambio de usuarios (dev) {#step-9---restart-all-processes-and-change-users--dev-}
 

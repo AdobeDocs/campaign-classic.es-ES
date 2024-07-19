@@ -100,7 +100,7 @@ El Panel de control de Campaign de Campaign le ayuda a aumentar la eficacia de s
 >
 >Todos los usuarios administradores pueden acceder al Panel de control. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta sección](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 >
->Tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última versión [Compilación de GA](rn/using/rn-overview.md). Aprenda a comprobar su versión en [esta sección](platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es).
+>Tenga en cuenta que la instancia debe alojarse en AWS y actualizarse con la última [versión de GA](rn/using/rn-overview.md). Aprenda a comprobar su versión en [esta sección](platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Para comprobar si la instancia está alojada en AWS, siga los pasos detallados en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es).
 
 ### ¿Cómo acceder al Panel de control?
 
@@ -124,16 +124,16 @@ Puede monitorizar los subdominios y sus certificados. Obtenga más información 
 ### Configuración de instancias
 
 Obtenga información sobre cómo administrar la configuración de las instancias de Campaign Classic en el Panel de control. Obtenga más información en estas páginas:
-* [Agregar direcciones IP a la lista de permitidos](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es) para acceder a sus instancias de Campaign
-* [Administración de permisos de URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=es)
-* [Acceder a detalles de instancia](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=es)
-* [Administración de claves GPG para el cifrado de datos](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es)
+* [Agregar direcciones IP a la lista de permitidos](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es) para tener acceso a las instancias de Campaign
+* [Administrar permisos de URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=es)
+* [Detalles de instancia de acceso](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=es)
+* [Administrar claves GPG para el cifrado de datos](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es)
 
 ## Solicitud de ayuda {#support}
 
 <img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-El nuevo sistema de tickets se ha lanzado a través de [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}. Este nuevo sistema requiere nuevas cuentas individuales para cada usuario con los permisos correctos. Si no puede iniciar sesión con su Adobe ID, solicite acceso a través de Experience League y el equipo de Atención al cliente lo ayudará lo antes posible. [Más información](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html)
+El nuevo sistema de tickets se ha iniciado a través de [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}. Este nuevo sistema requiere nuevas cuentas individuales para cada usuario con los permisos correctos. Si no puede iniciar sesión con su Adobe ID, solicite acceso a través de Experience League y el equipo de Atención al cliente lo ayudará lo antes posible. [Más información](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html)
 
 ### ¡Consulte a los expertos!
 
@@ -141,10 +141,10 @@ El nuevo sistema de tickets se ha lanzado a través de [Adobe Admin Console](htt
 
 ### Acceso al Centro de descargas de Campaign
 
-Como administrador de Campaign, vaya a [esta página](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) para acceder a Distribución de software de Experience Cloud.
+Como administrador de Campaign, vaya a [esta página](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) para acceder a la distribución de software de Experience Cloud.
 
 ### Creación de un ticket o inicio de una conversación
 
 La creación de un caso le permite ponerse en contacto con el equipo de Asistencia al cliente de Adobe en relación con cualquier problema que tenga con sus productos de Adobe. Para ayudarle a resolver sus problemas, Adobe Admin Console le permitirá hablar con Asistencia al cliente de Adobe.
 
-Para registrar un problema o iniciar una sesión de chat en el nuevo sistema, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}. Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html){_blank}.
+Para registrar un problema o iniciar una sesión de chat en ese nuevo sistema, conéctate a [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}. Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html){_blank}.

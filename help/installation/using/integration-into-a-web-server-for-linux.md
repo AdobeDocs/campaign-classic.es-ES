@@ -18,7 +18,7 @@ ht-degree: 4%
 # Integración en un servidor web para Linux {#integration-into-a-web-server-for-linux}
 
 
-Adobe Campaign incluye Apache Tomcat, que actúa como punto de entrada en el servidor de aplicaciones a través de HTTP (y SOAP).
+Adobe Campaign SOAP incluye Apache Tomcat, que actúa como punto de entrada en el servidor de aplicaciones a través de HTTP (y el servidor de correo electrónico) (y el servidor de correo electrónico).
 
 Puede utilizar este servidor Tomcat integrado para servir solicitudes HTTP.
 
@@ -53,13 +53,13 @@ Siga estos pasos:
    a2dismod auth_basic authn_file authz_default authz_user autoindex cgi dir env negotiation userdir
    ```
 
-   Asegúrese de que la variable **alias**, **authz_host** y **mimo** Los módulos de aún están activados. Para ello, utilice el siguiente comando:
+   Asegúrese de que los módulos **alias**, **authz_host** y **mime** sigan habilitados. Para ello, utilice el siguiente comando:
 
    ```
    a2enmod  alias authz_host mime
    ```
 
-1. Cree el archivo **nlsrv.load** in **/etc/apache2/mods-available** e inserte el siguiente contenido:
+1. Cree el archivo **nlsrv.load** en **/etc/apache2/mods-available** e inserte el siguiente contenido:
 
    En Debian 8:
 
@@ -67,7 +67,7 @@ Siga estos pasos:
    LoadModule requesthandler24_module /usr/local/[INSTALL]/nl6/lib/libnlsrvmod.so
    ```
 
-1. Cree el archivo **nlsrv.conf** in **/etc/apache2/mods-available** mediante el siguiente comando:
+1. Cree el archivo **nlsrv.conf** en **/etc/apache2/mods-available** con el siguiente comando:
 
    ```
    ln -s /usr/local/[INSTALL]/nl6/conf/apache_neolane.conf /etc/apache2/mods-available/nlsrv.conf
@@ -79,13 +79,13 @@ Siga estos pasos:
     a2enmod nlsrv
    ```
 
-   Si utiliza el complemento **mod_rewrite** para las páginas de Adobe Campaign, debe cambiar el nombre del módulo **nlsrv.load** y **nlsrv.conf** archivos a **zz-nlsrv.load** y **zz-nlsrv.conf**. Para activar el módulo, ejecute el siguiente comando:
+   Si está usando el módulo **mod_rewrite** para páginas Adobe Campaign, debe cambiar el nombre de los archivos **nlsrv.load** y **nlsrv.conf** por **zz-nlsrv.load** y **zz-nlsrv.conf**. Para activar el módulo, ejecute el siguiente comando:
 
    ```
    a2enmod zz-nlsrv
    ```
 
-1. Edite el **/etc/apache2/envvars** , añada las líneas siguientes:
+1. Edite el archivo **/etc/apache2/envvars** y agregue las siguientes líneas:
 
    ```
    # Added Neolane
@@ -114,7 +114,7 @@ Este procedimiento se aplica si ha instalado y protegido Apache con un paquete b
 
 Siga estos pasos:
 
-1. En el `httpd.conf` , active los siguientes módulos Apache:
+1. En el archivo `httpd.conf`, active los siguientes módulos Apache:
 
    ```
    alias
@@ -153,7 +153,7 @@ Siga estos pasos:
    ForceLanguagePriority
    ```
 
-1. Cree un archivo de configuración específico de Adobe Campaign en la `/etc/httpd/conf.d/` carpeta. Por ejemplo `CampaignApache.conf`
+1. Cree un archivo de configuración específico de Adobe Campaign en la carpeta `/etc/httpd/conf.d/`. Por ejemplo `CampaignApache.conf`
 
 1. Para **RHEL7**, agregue las siguientes instrucciones al archivo:
 
@@ -164,7 +164,7 @@ Siga estos pasos:
 
 1. Para **RHEL7**:
 
-   Añada el `/etc/systemd/system/httpd.service` archivo con el siguiente contenido:
+   Agregar el archivo `/etc/systemd/system/httpd.service` con el siguiente contenido:
 
    ```
    .include /usr/lib/systemd/system/httpd.service

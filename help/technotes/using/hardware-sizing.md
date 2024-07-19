@@ -19,9 +19,9 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Este artículo se proporciona solo como guía de ejemplo general. Debe ponerse en contacto con el administrador de satisfacción del cliente de Adobe Campaign para medir el tamaño exacto de la implementación antes de iniciar el proyecto de Campaign. **No hacer** adquiera o implemente cualquier infraestructura o hardware hasta que esto se haga.
+>Este artículo se proporciona solo como guía de ejemplo general. Debe ponerse en contacto con el administrador de satisfacción del cliente de Adobe Campaign para medir el tamaño exacto de la implementación antes de iniciar el proyecto de Campaign. **No** adquiera o implemente ninguna infraestructura o hardware hasta que esto termine.
 
-Este documento proporciona recomendaciones generales para la implementación de Adobe Campaign Classic v7 en su centro de datos local o entorno de nube virtualizado. Este tipo de implementación, denominado **híbrido** o **intermediario**, coloca la instancia de marketing de Campaign y la base de datos de marketing bajo su control operativo, mientras utiliza los servicios de mensajería de Adobe Cloud para enviar correos electrónicos, SMS o mensajes SMPP, y recopilar datos de aperturas, devoluciones y rastreos de clics por correo electrónico.
+Este documento proporciona recomendaciones generales para la implementación de Adobe Campaign Classic v7 en su centro de datos local o entorno de nube virtualizado. Este tipo de implementación, denominada **híbrida** o **intermediaria**, coloca la instancia de marketing de Campaign y la base de datos de marketing bajo su control operativo, mientras utiliza los servicios de mensajería de Adobe Cloud para enviar correos electrónicos, SMS o mensajes SMPP, y recopilar datos de aperturas, rechazos y rastreo de clics por correo electrónico.
 
 La instancia de marketing es la parte de la arquitectura de Adobe Campaign que administra toda la actividad de marketing y almacena todos los datos de destinatario y los datos de análisis devueltos por las campañas. La instancia de marketing es un conjunto de servidores locales que ejecutan Adobe Campaign Services y una base de datos relacional.
 
@@ -36,9 +36,9 @@ La compatibilidad del software se detalla en la [Matriz de compatibilidad](../..
 
 Se proporcionan diagramas de implementación y recomendaciones de tamaño de hardware para tres escenarios representativos:
 
-1. [De Tamaño Moderado](#scenario-1) - 5 millones de destinatarios activos en el sistema
-1. [De Gran Tamaño](#scenario-2) - 20 millones de destinatarios activos en el sistema
-1. [Empresa](#scenario-3) - 50 millones de destinatarios activos, con mensajería transaccional
+1. [Tamaño moderado](#scenario-1): 5 millones de destinatarios activos en el sistema
+1. [Tamaño grande](#scenario-2): 20 millones de destinatarios activos en el sistema
+1. [Empresa](#scenario-3) - 50 millones de destinatarios activos, con mensajes transaccionales
 
 ### Suposiciones
 
@@ -55,7 +55,7 @@ Este documento supone también los siguientes tipos de uso para los tres casos:
 
 Campaign es una aplicación centrada en la base de datos, y el rendimiento del servidor de la base de datos es fundamental. La ejecución de flujos de trabajo, segmentación, seguimiento de cargas de datos, interacciones entrantes, análisis y otras actividades genera actividad de base de datos. En general, el tamaño y la frecuencia de estas operaciones determinan el tamaño de los servidores de base de datos.
 
-Los servidores de aplicaciones de la instancia de marketing requieren suficiente CPU y memoria para ejecutar flujos de trabajo y responder a llamadas a la API de SOAP, incluidas las solicitudes de los usuarios de la consola de Campaign. Los requisitos de CPU pueden ser significativos para flujos de trabajo que utilizan interacciones salientes con reglas de oferta complejas, flujos de trabajo que ejecutan JavaScript personalizado y aplicaciones web con niveles de tráfico elevados.
+SOAP Los servidores de aplicaciones de la instancia de marketing requieren suficiente CPU y memoria para ejecutar flujos de trabajo y responder a llamadas de API de, incluidas las solicitudes de los usuarios de la consola de Campaign. Los requisitos de CPU pueden ser significativos para flujos de trabajo que utilizan interacciones salientes con reglas de oferta complejas, flujos de trabajo que ejecutan JavaScript personalizado y aplicaciones web con niveles de tráfico elevados.
 
 Las aplicaciones web de Campaign también se pueden implementar en los servidores de aplicaciones de la instancia de marketing o en sistemas de servidores web independientes. Dado que las cargas de trabajo de las aplicaciones web entran en conflicto con los flujos de trabajo críticos y los usuarios de la consola de Campaign, las aplicaciones web y las interacciones entrantes se pueden implementar en servidores independientes para garantizar que la funcionalidad principal de Campaign se ejecute de forma fiable con un buen rendimiento.
 
@@ -99,7 +99,7 @@ Los servidores web de Adobe Campaign se muestran en la zona segura.
 
 Este escenario recomienda instalar Adobe Campaign en cuatro equipos, con la siguiente especificación:
 
-**CPU de núcleo cuádruple a 3 GHz+, 8 GB de RAM, RAID 1 o 10, 2 SSD de 80 GB**
+**CPU de núcleo cuádruple a más de 3 GHz, 8 GB de RAM, RAID 1 o 10, 2 SSD de 80 GB**
 
 Estos sistemas crean la instancia de marketing Application Server, que da soporte directamente a los usuarios de la consola de Campaign y ejecuta los flujos de trabajo de la campaña.
 
@@ -113,7 +113,7 @@ El consumo de espacio en disco en los servidores de aplicaciones depende del per
 
 Las recomendaciones de hardware para el servidor de bases de datos son las siguientes:
 
-**CPU de 4 núcleos a 3 Ghz+, 16 GB de RAM, RAID 1 o 10, SSD de 128 GB como mínimo**
+**CPU de 4 núcleos a más de 3 Ghz, 16 GB de RAM, RAID 1 o 10, SSD de 128 GB como mínimo**
 
 La estimación de memoria supone un almacenamiento en caché completo de aproximadamente 500 000 destinatarios para un inicio de campaña de gran tamaño, además de espacio en búfer RDBMS para ejecutar flujos de trabajo, importar datos de seguimiento y otras actividades simultáneas.
 
@@ -144,19 +144,19 @@ Volumen estimado:
 
 En esta situación, Adobe recomienda instalar Adobe Campaign en cuatro equipos, dos servidores de aplicaciones y dos servidores web, con la siguiente especificación:
 
-**CPU de núcleo cuádruple a 3 GHz+, 8 GB de RAM, RAID 1 o 10, SSD de 80 GB**
+**CPU de núcleo cuádruple a más de 3 GHz, 8 GB de RAM, RAID 1 o 10, SSD de 80 GB**
 
 Los servidores de aplicaciones admiten directamente a los usuarios de la consola de Campaign y la ejecución de flujos de trabajo de campaña. Esta funcionalidad se implementa en dos servidores idénticos para alta disponibilidad, compartiendo un sistema de archivos de almacenamiento con conexión a red (NAS) para habilitar la conmutación por error.
 
 Los servidores web alojan aplicaciones web de Campaign que admiten los 10 millones de destinatarios activos del sistema.
 
-Consulte [Escenario 1: implementación moderada](#scenario-1) para obtener más comentarios sobre los proxies, los centros de preferencias/gestión de suscripciones y el uso del espacio en disco.
+Consulte [Escenario 1: implementación de tamaño moderado](#scenario-1) para obtener más comentarios sobre los proxies, la administración de centros de preferencias/suscripciones y el uso del espacio en disco.
 
 ### Base de datos
 
 Las recomendaciones de hardware para el servidor de bases de datos son las siguientes:
 
-**CPU de 8 núcleos a 3 Ghz+, 64 GB de RAM, RAID 1 o 10, 2 SSD de 320 GB o RAID 10, SSD de 640 GB como mínimo**
+**CPU de 8 núcleos a más de 3 Ghz, 64 GB de RAM, RAID 1 o 10, 2 SSD de 320 GB o RAID 10, SSD de 640 GB como mínimo**
 
 La estimación de memoria supone un almacenamiento en caché completo de aproximadamente 5 000 000 de destinatarios para un inicio de campaña de gran tamaño, además de espacio en búfer RDBMS para ejecutar flujos de trabajo, importar datos de seguimiento y otras actividades simultáneas.
 
@@ -178,7 +178,7 @@ Volumen estimado:
 | Volumen diario máximo de correo electrónico | 2,5 millones |
 
 
-La implementación que admite 50 millones de destinatarios es esencialmente la misma que se muestra en [Escenario 2](#scenario-2): el tráfico de la aplicación web de Campaign se enruta a los servidores web de Campaign, por lo que las ráfagas de tráfico web después de grandes lanzamientos de campañas no afectan a los flujos de trabajo de Campaign ni a los usuarios de la consola del cliente.
+La implementación que admite 50 millones de destinatarios es esencialmente la misma que se muestra en [Escenario 2](#scenario-2): El tráfico de la aplicación web de Campaign se enruta a los servidores web de Campaign, por lo que las ráfagas de tráfico web después de grandes lanzamientos de campaña no afectan a los flujos de trabajo de Campaign ni a los usuarios de la consola de cliente.
 
 Esta implementación también incluye llamadas del Centro de mensajería, impulsadas desde sus propios sitios web y aplicaciones.
 
@@ -191,20 +191,20 @@ En esta situación, Adobe recomienda instalar Adobe Campaign en cuatro equipos, 
   **Dos sistemas, CPU de núcleo cuádruple a más de 3 Ghz, 8 GB de RAM, RAID 1 o 10, SSD de 80 GB**
 
 * Servidores web
-  **Dos sistemas, CPU de núcleo cuádruple a más de 3 GHz, 16 GB de RAM, RAID 1 o 10, SSD de 80 GB**
+  **Dos sistemas, CPU de núcleo cuádruple a más de 3 Ghz, 16 GB de RAM, RAID 1 o 10, SSD de 80 GB**
 
 
 Los servidores de aplicaciones admiten directamente a los usuarios de la consola de Campaign y la ejecución de flujos de trabajo de campaña. Esta funcionalidad se implementa en dos servidores idénticos para alta disponibilidad, compartiendo un sistema de archivos de almacenamiento con conexión a red (NAS) para habilitar la conmutación por error.
 
 Los servidores web alojan aplicaciones web de Campaign que admiten los 10 millones de destinatarios activos del sistema.
 
-Consulte [Escenario 1: implementación moderada](#scenario-1) para obtener más comentarios sobre los proxies, los centros de preferencias/gestión de suscripciones y el uso del espacio en disco.
+Consulte [Escenario 1: implementación de tamaño moderado](#scenario-1) para obtener más comentarios sobre los proxies, la administración de centros de preferencias/suscripciones y el uso del espacio en disco.
 
 ### Base de datos
 
 Las recomendaciones de hardware para el servidor de bases de datos son las siguientes:
 
-**CPU de 8 núcleos a 3 GHz+, RAM de 96 GB, RAID 1 o 10, SSD de 1,5 TB como mínimo**
+**CPU de 8 núcleos a más de 3 Ghz, RAM de 96 GB, RAID 1 o 10, SSD de 1,5 TB mínimo**
 
 La estimación de memoria supone un almacenamiento en caché completo de aproximadamente 12 500 000 destinatarios para un inicio de campaña de gran tamaño, además de espacio en búfer RDBMS para ejecutar flujos de trabajo, importar datos de seguimiento y otras actividades simultáneas.
 
@@ -223,10 +223,10 @@ La frecuencia de los lanzamientos de campañas afecta a los requisitos de CPU de
 * **Frecuencia de correo directo**
 La frecuencia de los correos directos puede afectar a los requisitos de CPU del servidor de base de datos. Combinadas con lanzamientos de campañas y otros flujos de trabajo, las operaciones de segmentación para correos directos suponen una carga significativa en el servidor de la base de datos.
 
-* **Volumen del mensaje SMS**
+* **Volumen de mensaje SMS**
 Al igual que el tamaño de la campaña de correo electrónico, el volumen de mensajes SMS no coloca grandes cargas en servidores de Campaign ubicados en las instalaciones; la carga se realiza principalmente en servidores de mensajería de Adobe Cloud en la nube. La segmentación para campañas SMS, como correo electrónico y correo directo, puede suponer una carga significativa en la base de datos de marketing. Por lo tanto, la frecuencia de los lanzamientos de campañas SMS y la complejidad de la segmentación son más relevantes que el volumen de mensajes SMS.
 
-* **Complejidad del esquema de base de datos**
+* **Complejidad de esquema de base de datos**
 La cantidad de datos para cada destinatario activo requiere tanto espacio de almacenamiento como espacio de búfer de base de datos, por lo que más destinatarios generalmente requieren más memoria y CPU en el servidor de base de datos. Los esquemas complejos también requieren que se unan más tablas para la segmentación, por lo que las operaciones de segmentación pueden ejecutarse mucho más lentamente y requieren más CPU y memoria de base de datos cuando los datos se distribuyen en varias tablas.
 
   La memoria del servidor de base de datos se calcula asegurando que el grupo de búferes de base de datos puede ser lo suficientemente grande como para contener todos los datos de destinatario, además de tablas temporales para ejecutar flujos de trabajo, más un margen para otras operaciones de base de datos.
@@ -234,8 +234,8 @@ La cantidad de datos para cada destinatario activo requiere tanto espacio de alm
 * **Uso de interacción saliente**
 Las reglas para interacción en modo por lotes se evalúan en flujos de trabajo que transfieren toda la complejidad del cálculo a la base de datos. El principal factor de esfuerzo de la base de datos es la cantidad total de ofertas aptas calculadas durante una visualización del motor (tamaño del objetivo X cantidad promedio de ofertas por destinatario antes de mantener las N mejores ofertas). La velocidad de CPU del servidor de base de datos es el primer factor de rendimiento.
 
-* **Interacciones entrantes o uso de API de SOAP**
-Las reglas y ofertas de interacción entrantes se evalúan en la base de datos de marketing, lo que requiere recursos significativos del servidor de la base de datos, especialmente CPU. El uso intensivo de interacciones entrantes o API de SOAP requiere servidores web independientes para separar la carga de trabajo de la ejecución de flujos de trabajo de Campaign.
+* SOAP **Interacciones entrantes o uso de API de**
+Las reglas y ofertas de interacción entrantes se evalúan en la base de datos de marketing, lo que requiere recursos significativos del servidor de la base de datos, especialmente CPU. SOAP El uso intensivo de interacciones entrantes o API de requiere servidores web independientes para separar la carga de trabajo de la ejecución de flujos de trabajo de Campaign.
 
 * **Período de retención de datos de seguimiento**
 El aumento de la retención de datos de seguimiento más allá de 90 días requiere más almacenamiento de la base de datos y puede ralentizar el sistema, ya que la inserción de nuevos datos de seguimiento se dirige a tablas grandes. El seguimiento de datos no es útil para la segmentación de campañas después de 90 días, por lo que se recomienda un período de retención más corto.
@@ -253,7 +253,7 @@ Los servidores agrupados, por ejemplo, los servidores de aplicaciones redundante
 Cualquier configuración RAID recomendada debe mantenerse para la seguridad de la base de datos, a fin de garantizar que la pérdida de un dispositivo de almacenamiento no cause la pérdida de datos.
 
 * **Rendimiento de E/S**
-Se debe respetar la clasificación de IOPS recomendada para el almacenamiento de la base de datos. Es posible que los servicios en la nube como Amazon EC2 no proporcionen el rendimiento requerido y deben evaluarse cuidadosamente. Por ejemplo, los volúmenes SSD aprovisionados por Amazon EC2 se clasifican actualmente en 20 000 IOPS cada uno. Obtenga más información en [Documentación de Amazon](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html)), por lo que una configuración RAID de 4 volúmenes se clasificaría en 80 000 IOPS, lo que puede no ser suficiente.
+Se debe respetar la clasificación de IOPS recomendada para el almacenamiento de la base de datos. Es posible que los servicios en la nube como Amazon EC2 no proporcionen el rendimiento requerido y deben evaluarse cuidadosamente. Por ejemplo, los volúmenes SSD aprovisionados por Amazon EC2 se clasifican actualmente en 20 000 IOPS cada uno. Obtenga más información en [documentación de Amazon](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html)), por lo que una configuración RAID de 4 volúmenes tendría una clasificación de 80 000 IOPS, lo que podría no ser suficiente.
 
 Adobe recomienda realizar pruebas de rendimiento para cualquier implementación virtualizada de Adobe Campaign antes de poner el sistema en producción.
 

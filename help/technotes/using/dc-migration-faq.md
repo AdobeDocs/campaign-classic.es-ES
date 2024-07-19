@@ -9,7 +9,7 @@ exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 source-git-commit: 6803b6628313db9108a191fd143dac68ee799149
 workflow-type: tm+mt
 source-wordcount: '2225'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -35,7 +35,7 @@ A continuación se enumeran los efectos globales en la base de datos e infraestr
 
   Además, para mantener el mejor nivel de seguridad, Adobe no proporcionará información detallada relacionada con la infraestructura.
 
-* **¿Existe algún riesgo de pérdida de datos?**
+* **¿Existe riesgo de pérdida de datos?**
 
   La base de datos se descargará del centro de datos heredado y se restaurará en la nube pública (AWS). Cuando se reinicia en el nuevo centro de datos, la aplicación se reanudará desde el estado exacto en que estaba antes de la migración. Los usuarios no verán ninguna diferencia, excepto que algunas tareas programadas se habrán retrasado.
 
@@ -43,7 +43,7 @@ A continuación se enumeran los efectos globales en la base de datos e infraestr
 
   Estamos aprovisionando la nube pública (AWS) con nuevas definiciones de paquetes basadas en el tamaño de la base de datos actual, el tamaño del disco, etc. Por ejemplo, si un cliente tiene un servidor de aplicaciones en centros de datos heredados, puede tener dos servidores de aplicaciones en la nube pública (AWS) basados en definiciones de paquetes.
 
-* **¿Va a cambiar el número de compilación o la versión de campaña?**
+* **¿Va a cambiar el número de compilación o la versión de la campaña?**
 
   Como primer paso, vamos a mantener la misma compilación de Campaign Classic con la migración.
 
@@ -51,7 +51,7 @@ A continuación se enumeran los efectos globales en la base de datos e infraestr
 
 * **¿Cuál es el plan para abordar cualquier problema posterior a la migración?**
 
-  Se realizarán pruebas exhaustivas antes de que se migraran los sistemas de producción. Sin embargo, en caso de problemas, [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support) seguirá siendo el principal punto de contacto. El Adobe ha creado un equipo de expertos para proporcionar asistencia avanzada, si es necesario.
+  Se realizarán pruebas exhaustivas antes de que se migraran los sistemas de producción. Sin embargo, en caso de problemas, [el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) seguirá siendo el principal punto de contacto. El Adobe ha creado un equipo de expertos para proporcionar asistencia avanzada, si es necesario.
 
 ## Impacto de la capacidad de entrega
 
@@ -59,11 +59,11 @@ A continuación se enumeran los efectos globales en la base de datos e infraestr
 
 A continuación, se detalla el impacto global en las direcciones IP, la lista de bloqueados, subdominios y direcciones URL.
 
-* **¿Cómo se gestionará la IP en la lista de permitidos? ¿Necesitarán los clientes añadir nuevas direcciones IP a la lista de permitidos para el tráfico entrante desde Campaign?**
+* **¿Cómo se gestionará la dirección IP en la lista de permitidos? ¿Necesitarán los clientes agregar nuevas direcciones IP a la lista de permitidos para el tráfico entrante de Campaign?**
 
   La dirección IP de los servidores de Adobe cambiará. Por lo tanto, es posible que los clientes tengan que agregar esas nuevas direcciones IP a la lista de permitidos de su sistema.
 
-  [Más información](#config) acerca de la IP en la lista de permitidos.
+  [Más información](#config) sobre la dirección IP en la lista de permitidos.
 
 * **¿Cómo administraremos el puerto agregado a la lista de permitidos para el acceso SFTP/FTP?**
 
@@ -73,7 +73,7 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 
   La dirección IP de los servidores de Adobe cambiará. Por lo tanto, es posible que los clientes tengan que agregar esas nuevas direcciones IP a la lista de permitidos de su sistema.
 
-  [Más información](#config) acerca de la IP en la lista de permitidos.
+  [Más información](#config) sobre la dirección IP en la lista de permitidos.
 
 * **¿Cómo se gestionará la delegación de subdominios?**
 
@@ -81,7 +81,7 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 
   >[!NOTE]
   >
-  >La participación del equipo de entrega se basa en el contrato y los clientes deben ponerse en contacto con su representante de Adobes para obtener información relacionada con la participación en la entrega.
+  >La participación del equipo de entregabilidad se basa en el contrato y los clientes deben ponerse en contacto con su representante de Adobe para obtener información relacionada con la participación en la entregabilidad.
 
   Adobe guiará al cliente a través de las pruebas necesarias para garantizar que la configuración se esté ejecutando en los nuevos servidores de la nube pública (AWS) después de la migración.
 
@@ -91,13 +91,13 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 
 * **¿Habrá un cambio en el subdominio de Neolane.net a campaign.adobe.com?**
 
-  Ambos `neolane.net` y `campaign.adobe.com` se establecerá después de la migración. Para hacerlo simple: redireccionaremos neolane.net a nuevas instancias en la nube pública (AWS), por lo que no se requieren cambios por parte del cliente.
+  Tanto `neolane.net` como `campaign.adobe.com` estarán en su lugar después de la migración. Para hacerlo simple: redireccionaremos neolane.net a nuevas instancias en la nube pública (AWS), por lo que no se requieren cambios por parte del cliente.
 
-* **¿Cuál es el plan para el calentamiento de la IP?**
+* **¿Cuál es el plan para el calentamiento de IP?**
 
   En primer lugar, la Capacidad de entrega de Adobe evaluará el estado de entrega de la plataforma y recomendará un plan para el cambio a las nuevas IP
 
-  No se requiere calentamiento después de la migración. Podría ser una excepción y, en tal caso, [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support) se pondrá en contacto con los clientes.
+  No se requiere calentamiento después de la migración. Podría ser una excepción y, en ese caso, [el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) se pondrá en contacto con los clientes.
 
   Sin embargo, el plan es hacer que esta operación sea transparente para el negocio, a diferencia de la mejora inicial que se realiza durante el lanzamiento.
 
@@ -137,7 +137,7 @@ A continuación se enumeran los efectos globales en la configuración, conectivi
 
   Sí. Las integraciones de terceros como, por ejemplo, los proveedores de SMS, deben agregar nuevas direcciones IP de servidores de aplicaciones Adobe Campaign a la lista de permitidos.
 
-* **¿Afectará la migración a la conectividad con Adobe Analytics mediante el conector de Genesis? ¿Qué sucede si se añaden direcciones IP de Campaign a la lista de permitidos del lado de Adobe Analytics?**
+* **¿Afectará la migración a la conectividad con Adobe Analytics mediante el conector de Genesis? ¿Qué sucede si se agregan direcciones IP de Campaign a la lista de permitidos del lado de Adobe Analytics?**
 
   Las direcciones IP de los servidores de aplicaciones de Adobe Campaign cambiarán. Este paso será gestionado por el Servicio de atención al cliente de Adobe después de la migración.
 
@@ -159,15 +159,15 @@ A continuación se enumeran los efectos globales en la configuración, conectivi
 
   La dirección IP de los servidores de Adobe cambiará. Por lo tanto, es posible que los clientes tengan que agregar esas nuevas direcciones IP a la lista de permitidos de su sistema.
 
-  [Más información](#config) acerca de la IP en la lista de permitidos.
+  [Más información](#config) sobre la IP en la lista de permitidos.
 
-* **¿Nos aseguraremos de que todos los parámetros de configuración de la memoria de JavaScript se establezcan correctamente después de la migración?**
+* **¿Nos aseguraremos de que todos los parámetros de configuración de memoria de JavaScript se establezcan correctamente después de la migración?**
 
   Se copiará la configuración de instancias del centro de datos heredado a la nube pública (AWS), de modo que estos valores se conservarán tras la migración.
 
-* **¿Existe algún riesgo para el acceso a determinadas extensiones de archivo?**
+* **¿Existe algún riesgo para el acceso a ciertas extensiones de archivo?**
 
-  Es posible que el cliente desee permitir que los archivos de fuente y los archivos de la reunión de Outlook se carguen en la carpeta de recursos públicos. Esta configuración se realiza en el `config-<instance>.xml` archivo. Esto se copiará junto a los archivos de configuración.
+  Es posible que el cliente desee permitir que los archivos de fuente y los archivos de la reunión de Outlook se carguen en la carpeta de recursos públicos. Esta configuración se realiza en el archivo `config-<instance>.xml` actual. Esto se copiará junto a los archivos de configuración.
 
 * **¿Cambiará la zona horaria en el nuevo servidor? ¿Podrá el cliente mantener su huso horario actual?**
 
@@ -188,7 +188,7 @@ Con esta migración a la nube pública (AWS), los entornos de los clientes se ma
 
 A continuación se enumeran los efectos en los permisos, certificados y acceso al SFTP.
 
-* **¿Se van a transferir todos los certificados a los nuevos servidores?**
+* **¿Se van a mover todos los certificados a los nuevos servidores?**
 
   Sí, todos los certificados se moverán como parte de esta migración.
 
@@ -196,11 +196,11 @@ A continuación se enumeran los efectos en los permisos, certificados y acceso a
 
   No, el Adobe copiará las claves de acceso SFTP como en el nuevo servidor.
 
-* **¿Cómo se gestionan los permisos de SFTP?**
+* **¿Cómo se administran los permisos de SFTP?**
 
   Garantizamos que el nuevo servidor SFTP, los usuarios, directorios y archivos tengan exactamente los mismos niveles de permisos.
 
-* **Si no se ha podido establecer la conexión SFTP, ¿cuál es la solución o plan para mantener al cliente en funcionamiento?**
+* **Si no se pudo establecer la conexión SFTP, ¿cuál es la solución o plan para mantener al cliente en funcionamiento?**
 
   El único problema de conectividad que puede surgir se relaciona con la lista de permitidos del lado del cliente. El cliente debe agregar esta prueba en un entorno que no sea de producción para asegurarse de que funciona antes de pasar a producción.
 
@@ -208,7 +208,7 @@ A continuación se enumeran los efectos en los permisos, certificados y acceso a
 
   No, no hay ninguna configuración de lista de permitidos específica del centro de datos que se deba administrar.
 
-* **¿Podemos garantizar que las secuencias de comandos personalizadas se ejecuten correctamente en el nuevo entorno?**
+* **¿Nos aseguramos de que los scripts personalizados se ejecuten correctamente en el nuevo entorno?**
 
   La implementación del cliente puede utilizar secuencias de comandos personalizadas (Perl/Shell/Python/JavaScript) en flujos de trabajo para, por ejemplo, manipular archivos y carpetas.
 
@@ -229,7 +229,7 @@ El impacto global durante la migración se enumera a continuación.
 
   Adobe recomienda reducir la velocidad y pausar todas las ejecuciones justo antes de cerrar la aplicación en el centro de datos heredado: entregas y flujos de trabajo. Esto facilitará el reinicio en el servidor en la nube (AWS), ya que se habrá dado tiempo a los procesos para pausar &quot;correctamente&quot; y guardar cualquier estado de ejecución en curso.
 
-* **¿El servicio Adobe Campaign dejará de funcionar durante un tiempo?**
+* **¿Esperamos tiempo de inactividad de nuestro servicio Adobe Campaign?**
 
   Es inevitable que la migración conlleve algo de tiempo de inactividad. El objetivo de este plan es guiar para minimizar este tiempo de inactividad.
 
@@ -247,7 +247,7 @@ El impacto global durante la migración se enumera a continuación.
 
   El tiempo de inactividad depende totalmente del tamaño de la base de datos del cliente y de los tamaños de almacenamiento de archivos SFTP. Contacte con el Servicio de atención al cliente para obtener una duración estimada.
 
-* **¿Qué sucede con los mensajes enviados desde el servidor heredado? ¿Los vínculos siempre serán accesibles?**
+* **Qué sucede con los mensajes enviados desde el servidor heredado. ¿Los vínculos siempre serán accesibles?**
 
   Mientras se esté ejecutando la migración, solo un servicio seguirá funcionando: Redirección de vínculos de correo electrónico. Todos los destinatarios podrán llegar a la página de destino cuando hagan clic en un mensaje de correo electrónico. Sin embargo, no se rastrearán estos clics, por lo que las tasas de clics de los envíos que se iniciaron poco antes de que la migración serán inferiores a las habituales.
 

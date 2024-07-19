@@ -26,4 +26,4 @@ En caso de una configuración en varios equipos, no tiene que utilizar el mismo 
 >
 >Los pasos de configuración de la instalación principal solo se pueden realizar mediante el Adobe para implementaciones alojadas por el Adobe, por ejemplo, para configurar los archivos de configuración del servidor y de la instancia.
 >
->Para obtener más información sobre las principales diferencias entre implementaciones, consulte la [Modelos de alojamiento](../../installation/using/hosting-models.md) o a la sección [Diferencias de funciones para implementaciones alojadas y locales](../../installation/using/capability-matrix.md).
+>Para obtener más información sobre las principales diferencias entre implementaciones, consulte la sección [Modelos de alojamiento](../../installation/using/hosting-models.md) o [Diferencias de características para implementaciones alojadas y locales](../../installation/using/capability-matrix.md).

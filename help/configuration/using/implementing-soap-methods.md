@@ -12,21 +12,21 @@ ht-degree: 4%
 
 ---
 
-# Implementación de métodos SOAP{#implementing-soap-methods}
+# SOAP Implementación de métodos de{#implementing-soap-methods}
 
 
 
 ## Introducción {#introduction}
 
-Es posible crear métodos SOAP en JavaScript. Esta función simplemente habilita los procesos aplicativos, puede evitar desarrollar JSP y sus llamadas en los formularios.
+SOAP Es posible crear métodos de en JavaScript. Esta función simplemente habilita los procesos aplicativos, puede evitar desarrollar JSP y sus llamadas en los formularios.
 
-Estos métodos SOAP se comportan del mismo modo que los definidos de forma nativa en la aplicación. Se admiten los mismos atributos: static, key only y const.
+SOAP Estos métodos de se comportan del mismo modo que los definidos de forma nativa en la aplicación. Se admiten los mismos atributos: static, key only y const.
 
 ## Definir una biblioteca de métodos {#defining-a-method-library}
 
 La creación de una biblioteca de métodos consta de dos fases:
 
-* La declaración del método SOAP,
+* SOAP La declaración de método de la,
 * Definición (o implementación) en JavaScript.
 
 ### Declaración {#declaration}
@@ -55,7 +55,7 @@ El método testLog(msg) se declara en una extensión nms:recipient
 
 ### Definición {#definition}
 
-Los métodos SOAP se implementan en forma de función de JavaScript agrupada en una secuencia de comandos que representa una biblioteca.
+SOAP Se implementan métodos en forma de función de JavaScript agrupada en una secuencia de comandos que representa una biblioteca.
 
 >[!NOTE]
 >
@@ -88,8 +88,8 @@ La firma de la función debe incluir un argumento para cada parámetro &quot;in&
 
 Casos específicos:
 
-* **métodos no estáticos**: la función debe incluir primero un argumento adicional, que coincida con la entidad XML pasada en forma de objeto de tipo &quot;xml&quot; (E4X).
-* **Métodos de tipo &quot;solo clave&quot;**: la función debe incluir primero un argumento adicional, que coincida con la clave pasada en forma de cadenas de caracteres.
+* **métodos no estáticos**: la función debe incluir primero un argumento adicional, que coincida con la entidad XML pasada en forma de objeto de tipo &#39;xml&#39; (E4X).
+* **métodos de tipo &quot;solo clave&quot;**: la función debe incluir primero un argumento adicional, que coincida con la clave pasada en forma de cadenas de caracteres.
 
 **3. Valores devueltos**
 

@@ -26,12 +26,12 @@ Se declara una clave a partir del elemento principal del esquema de datos.
 </key>
 ```
 
-Una clave se conoce como &quot;clave principal&quot; cuando es la primera del esquema que se rellena o si contiene la variable `internal` atributo establecido en &quot;true&quot;.
+Una clave se conoce como &#39;clave principal&#39; cuando es la primera del esquema que se va a rellenar o si contiene el atributo `internal` establecido como &quot;true&quot;.
 
 Las siguientes reglas se aplican a las claves:
 
 * Una clave puede hacer referencia a uno o varios campos de la tabla
-* Se declara implícitamente un índice único para cada definición de clave. La creación de un índice en la clave se puede evitar configurando la variable `noDbIndex` atributo a &quot;true&quot;.
+* Se declara implícitamente un índice único para cada definición de clave. La creación de un índice en la clave se puede evitar estableciendo el atributo `noDbIndex` en &quot;true&quot;.
 
 >[!NOTE]
 >
@@ -126,21 +126,21 @@ Las siguientes reglas se aplican a las claves:
 
 ## Clave de incremento automático {#auto-incremental-key}
 
-La clave principal de la mayoría de las tablas de Adobe Campaign es un entero de 32 bits generado automáticamente por el motor de la base de datos. El cálculo del valor clave depende de una secuencia (de forma predeterminada, la variable **XtkNewId** función SQL) generando un número único en toda la base de datos. El contenido de la clave se introduce automáticamente al insertar el registro.
+La clave principal de la mayoría de las tablas de Adobe Campaign es un entero de 32 bits generado automáticamente por el motor de la base de datos. El cálculo del valor de clave depende de una secuencia (de forma predeterminada, la función SQL **XtkNewId**) que genere un número único en toda la base de datos. El contenido de la clave se introduce automáticamente al insertar el registro.
 
 La ventaja de una clave incremental es que proporciona una clave técnica no modificable para las uniones entre tablas. Además, esta clave no ocupa mucha memoria porque utiliza un entero de doble byte.
 
-Puede especificar en el esquema de origen el nombre de la secuencia que se va a utilizar con el **pkSequence** atributo. Si este atributo no se proporciona en el esquema de origen, la variable **XtkNewId** se utilizará la secuencia predeterminada. La aplicación utiliza secuencias dedicadas para **nms:broadLog** y **nms:trackingLog** esquemas (**NmsBroadLogId** y **NmsTrackingLogId** respectivamente), ya que estas son las tablas que contienen la mayor cantidad de registros.
+Puede especificar en el esquema de origen el nombre de la secuencia que se va a utilizar con el atributo **pkSequence**. Si este atributo no se proporciona en el esquema de origen, se utilizará la secuencia predeterminada **XtkNewId**. La aplicación usa secuencias dedicadas para los esquemas **nms:broadLog** y **nms:trackingLog** (**NmsBroadLogId** y **NmsTrackingLogId** respectivamente) porque estas son las tablas que contienen la mayor cantidad de registros.
 
-Desde ACC 18.10, **XtkNewId** ya no es el valor predeterminado para la secuencia en los esquemas predeterminados. Ahora puede crear un esquema o ampliar el esquema existente con una secuencia dedicada.
+A partir de la versión 18.10 de ACC, **XtkNewId** ya no es el valor predeterminado para la secuencia en los esquemas predeterminados. Ahora puede crear un esquema o ampliar el esquema existente con una secuencia dedicada.
 
 >[!IMPORTANT]
 >
 >Al crear un nuevo esquema o durante una extensión de esquema, se debe mantener el mismo valor de secuencia de clave principal (@pkSequence) para todo el conjunto.
 
-Una secuencia a la que se hace referencia en un esquema de Adobe Campaign (**NmsTrackingLogId** por ejemplo) debe asociarse con una función SQL que devuelva el número de ID en los parámetros, separados por comas. Se debe llamar a esta función **GetNew** XXX **ID**, donde **XXX** es el nombre de la secuencia (**GetNewNmsTrackingLogIds** por ejemplo). Ver el **postgres-nms.sql**, **mssql-nms.sql** o **oracle-nms.sql** archivos proporcionados con la aplicación en el **datakit/nms/eng/sql/** para recuperar el ejemplo de la creación de la secuencia &quot;NmsTrackingLogId&quot; para cada motor de base de datos.
+Una secuencia a la que se hace referencia en un esquema de Adobe Campaign (**NmsTrackingLogId**, por ejemplo) debe asociarse con una función SQL que devuelva el número de ID en los parámetros, separados por comas. Esta función debe llamarse **GetNew** XXX **Ids**, donde **XXX** es el nombre de la secuencia (**GetNewNmsTrackingLogIds**, por ejemplo). Vea los archivos **postgres-nms.sql**, **mssql-nms.sql** o **oracle-nms.sql** proporcionados con la aplicación en el directorio **datakit/nms/eng/sql/** para recuperar el ejemplo de creación de secuencia &#39;NmsTrackingLogId&#39; para cada motor de base de datos.
 
-Para declarar una clave única, rellene el **autopk** atributo (con valor &quot;true&quot;) en el elemento principal del esquema de datos.
+Para declarar una clave única, rellene el atributo **autopk** (con el valor &quot;true&quot;) en el elemento principal del esquema de datos.
 
 **Ejemplo**:
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Método simple {#simple-method}
 
-Este método consiste en enviar una llamada HTTP al servidor de redirección insertando un **`<img>`** Etiqueta de HTML en el código fuente del HTML de la página web que desea rastrear.
+Este método consiste en enviar una llamada HTTP al servidor de redirección insertando una etiqueta de HTML **`<img>`** en el código fuente del HTML de la página web que desea rastrear.
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ Inserción de una etiqueta de seguimiento web de tipo TRANSACTION en la página 
 
 Cuando las páginas web se generan dinámicamente, puede agregar la etiqueta de seguimiento web en el momento de la generación de la página.
 
-**Ejemplo**: seguimiento web añadido a JSP.
+**Ejemplo**: seguimiento web agregado a JSP.
 
 ```
 <%@page import="java.util.Random" %>
@@ -125,7 +125,7 @@ Cuando las páginas web se generan dinámicamente, puede agregar la etiqueta de 
 
 Si desea controlar la información enviada al servidor de redirección, la forma más fiable es realizar la consulta HTTP sincrónicamente utilizando un idioma de generación de páginas.
 
-La dirección URL que cree debe cumplir las reglas de sintaxis definidas en [Etiqueta de seguimiento web: definición](../../configuration/using/web-tracking-tag-definition.md).
+La dirección URL que construya debe obedecer las reglas de sintaxis definidas en [etiqueta de seguimiento web: definition](../../configuration/using/web-tracking-tag-definition.md).
 
 ![](assets/d_ncs_integration_webtracking_structure3.png)
 
@@ -133,7 +133,7 @@ La dirección URL que cree debe cumplir las reglas de sintaxis definidas en [Eti
 >
 >La redirección y el seguimiento web utilizan cookies y es importante que el servidor web que realiza la llamada HTTP sincrónica esté en el mismo dominio que el servidor de redirección. Los distintos intercambios HTTP deben transmitir las cookies &quot;id&quot;, &quot;uuid&quot; y &quot;uuid230&quot;.
 
-**Ejemplo**: generación dinámica en Java, con autenticación de destinatarios mediante el número de cuenta.
+**Ejemplo**: generación dinámica en Java, con autenticación de destinatarios usando su número de cuenta.
 
 ```
 [...]

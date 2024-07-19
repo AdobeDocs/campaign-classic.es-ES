@@ -20,9 +20,9 @@ A partir de la versión 21.1.3 de Campaign Classic v7, el conector de datos de A
 
 El 1 de agosto de 2021, Adobe Campaign Classic se ha eliminado de la IU heredada de Data Connectors, pero las integraciones de Campaign existentes seguirán recopilando y pasando datos a Adobe Analytics hasta el 17 de agosto de 2022. Después de esta fecha, la integración deja de recopilar y pasar datos a Adobe Analytics.
 
-Usted **debe implementar** la nueva integración del conector de Adobe Analytics en el Adobe Exchange que sustituye a la integración heredada de Data Connectors. Para obtener más información sobre Adobe Analytics Connector, consulte [esta página](../../integrations/using/gs-aa.md).
+Usted **debe implementar** la nueva integración de Adobe Analytics Connector en el Adobe Exchange que reemplaza la integración heredada de Data Connectors. Para obtener más información sobre el conector de Adobe Analytics, consulte [esta página](../../integrations/using/gs-aa.md).
 
-Si tiene alguna duda acerca de estos cambios, lea la [FAQ](#faq-aa). Para obtener más información, póngase en contacto con [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Si tiene alguna pregunta sobre estos cambios, lea las [preguntas frecuentes](#faq-aa). Para obtener más información, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 >[!NOTE]
 >
@@ -32,13 +32,13 @@ Si tiene alguna duda acerca de estos cambios, lea la [FAQ](#faq-aa). Para obtene
 
 Ya está disponible una nueva integración entre Campaign Classic v7 y Adobe Analytics. A continuación se enumeran los cambios más importantes.
 
-* El **Fecha de contacto** La clasificación, que solía ser de tipo fecha, ha quedado obsoleta para Adobe Analytics. Para las integraciones migradas, seguirá siendo del mismo tipo. Para cualquier **Fecha de contacto** creado por Campaign, el tipo es **Cadena**.
+* La clasificación **Fecha de contacto**, que solía ser de tipo fecha, ha quedado obsoleta en Adobe Analytics. Para las integraciones migradas, seguirá siendo del mismo tipo. Para cualquier **fecha de contacto** creada por Campaign, el tipo será **cadena**.
 
-* **Reglas de procesamiento** son creados por Adobe Campaign como parte de nuevas integraciones. Cualquiera **Reglas de procesamiento** debe crearse manualmente desde Adobe Analytics o utilizar directamente la implementación de Javascript del lado del cliente. **Reglas de procesamiento** permanecerá intacto para las integraciones existentes.
+* Adobe Campaign crea **reglas de procesamiento** como parte de nuevas integraciones. **Las reglas de procesamiento** deben crearse manualmente desde Adobe Analytics o usar directamente la implementación de Javascript del lado del cliente. **Reglas de procesamiento** permanecerán intactas para las integraciones existentes.
 
 * Los flujos de trabajo técnicos integrados y su comportamiento siguen siendo los mismos. Solo se han cambiado las API back-end utilizadas por los flujos de trabajo para insertar/extraer datos en Adobe Analytics.
 
-* Tenga en cuenta que la variable `nlserver` El proceso debe configurarse con el usuario de cuenta técnica de IMS para que funcione el nuevo conector. Este cambio debe hacerse por Adobe. Para implementar esto, póngase en contacto con [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+* Tenga en cuenta que el proceso `nlserver` debe configurarse con el usuario de cuenta técnica de IMS para que funcione el nuevo conector. Este cambio debe hacerse por Adobe. Para que esto se implemente, comuníquese con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * Si utilizaba las API de Adobe Genesis en flujos de trabajo personalizados para extraer y extraer datos de Adobe Analytics, ahora necesita utilizar las nuevas API de Adobe Analytics 1.4/2.0. [Más información](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360047148832-Replacements-for-Data-Connector-API-calls)
 
@@ -46,33 +46,33 @@ Ya está disponible una nueva integración entre Campaign Classic v7 y Adobe Ana
 
 Si está utilizando el conector de datos de Adobe Analytics existente (anteriormente conocido como integración de Genesis) y la integración se implementó en una versión inferior a la de Campaign 21.1.3, se verá afectado.
 
-Obtenga información sobre cómo comprobar su versión [en esta sección](../../integrations/using/launching-adobe-campaign.md#getting-your-campaign-version).
+Aprenda a comprobar su versión [en esta sección](../../integrations/using/launching-adobe-campaign.md#getting-your-campaign-version).
 
 ## ¿Cómo realizar la actualización?
 
 Debe actualizar a Campaign 21.1.3 (o más) **antes del 17 de agosto de 2022**.
 
-Como cliente alojado, Adobe trabajará con usted para actualizar las instancias a la versión más reciente. A continuación, podrá utilizar [Conector de Adobe Analytics](../../platform/using/gs-aa.md).
+Como cliente alojado, Adobe trabajará con usted para actualizar las instancias a la versión más reciente. A continuación, podrá usar [conector Adobe Analytics](../../platform/using/gs-aa.md).
 
 Como cliente on-premise/híbrido, debe actualizar a una de las versiones más recientes para beneficiarse de la nueva integración.
-Una vez que todas las instancias se hayan actualizado, podrá [implementación de la nueva integración](../../integrations/using/adobe-analytics-provisioning.md) a Adobe Analytics Connector y garantice una transición sin problemas.
+Una vez que todas las instancias se hayan actualizado, podrá [implementar la nueva integración](../../integrations/using/adobe-analytics-provisioning.md) en el conector de Adobe Analytics y garantizar una transición sin problemas.
 
 ## Preguntas frecuentes{#faq-aa}
 
-**¿Cómo puedo obtener registros?**
+**¿Cómo puedo obtener los registros?**
 
-La configuración de la interfaz de usuario y los flujos de trabajo están equipados con **detallado** registro.
+La configuración de la interfaz de usuario y los flujos de trabajo están equipados con **registro detallado**.
 
 En el modo detallado, los encabezados de solicitud y respuesta también se imprimen para cada solicitud de API a Adobe Analytics.
 
 Como usuario On-Premise, puede implementar el modo detallado de la siguiente manera:
 
-* Para habilitar el modo detallado en la interfaz de usuario: vuelva a ejecutar el `web` procesar en modo detallado.
-* Para habilitar el modo detallado para **webAnalytics** flujos de trabajo: seleccione **Ejecutar en el motor** en las propiedades del flujo de trabajo y vuelva a ejecutar `wfserver` en modo detallado.
+* Para habilitar el modo detallado en la interfaz de usuario: vuelva a ejecutar el proceso `web` en modo detallado.
+* Para habilitar el modo detallado para los flujos de trabajo de **webAnalytics**: seleccione la opción **Ejecutar en el motor** de las propiedades del flujo de trabajo y vuelva a ejecutar `wfserver` en el modo detallado.
 
-**¿Qué significa el error &quot;Propietario de integración no es administrador&quot;?**
+**¿Qué significa el error &quot;Propietario de la integración no es administrador&quot;?**
 
-Más información sobre Data Connectors `Integration Owner Not Admin` Error en [esta página](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error).
+Obtenga más información sobre el error de Data Connectors `Integration Owner Not Admin` en [esta página](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360035167932-Adobe-Analytics-Data-Connectors-Integration-Owner-Not-Admin-Error).
 
 **Una vez completada la migración al nuevo conector, ¿qué sucede con los datos antiguos y los grupos de informes?**
 
@@ -84,12 +84,12 @@ La integración se basa en los datos del token de cuenta técnica para el funcio
 
 Si leemos los detalles de un componente de Analytics (como métricas, dimensiones, segmentos o grupos de informes), la API no devolverá estos componentes en el resultado (que puede parecer que algo se eliminó en Analytics o no está presente). La API de Analytics rechazará esas solicitudes y se producirá un error.
 
-La solución es actualizar el **Perfil del producto** en el contexto de usuario de Analytics del token de usuario técnico con los componentes recién creados o que faltan al agregar estos componentes en [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}. Para obtener más información, póngase en contacto con [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+La solución consiste en actualizar el **Perfil de producto** en el contexto de usuario de Analytics del token de usuario técnico con los componentes recién creados o que faltan agregando estos componentes en [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}. Para obtener más información, comuníquese con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 ## Vínculos útiles
 
 * [Actualice su entorno](../../production/using/build-upgrade.md)
 * [Preguntas frecuentes sobre la actualización de versiones](../../platform/using/faq-build-upgrade.md)
-* [Descargar versión de Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
+* [Descargar compilación del Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
 * [Hacer que la nueva consola de cliente esté disponible para los usuarios](../../installation/using/client-console-availability-for-windows.md)
 * [Instalación de la consola del cliente de Campaign](../../installation/using/installing-the-client-console.md)

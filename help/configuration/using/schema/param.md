@@ -7,7 +7,7 @@ exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
 source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -41,16 +41,16 @@ parámetro:==help
 
 ## Descripción {#description-12}
 
-Este elemento permite definir un parámetro para llamar a un método SOAP.
+SOAP Este elemento permite definir un parámetro para llamar a un método de.
 
 ## Descripción de atributo {#attribute-description-12}
 
-* **desc (cadena)**: descripción que hace referencia a `<param>` Elemento.
-* **inout (cadena)**: este atributo define si el parámetro se encuentra en la entrada (entrada) o salida (salida) de la llamada SOAP. Si no se especifica este atributo, se introduce el parámetro predeterminado (&quot;@inout=in&quot;).
-* **label (cadena)**: `<param>` etiqueta
+* **desc (cadena)**: descripción que hace referencia al elemento `<param>`.
+* SOAP **inout (cadena)**: este atributo define si el parámetro se encuentra o no en la entrada (entrada) o salida (salida) de la llamada a la. Si no se especifica este atributo, se introduce el parámetro predeterminado (&quot;@inout=in&quot;).
+* **etiqueta (cadena)**: `<param>` etiqueta
 * **localizable (cadena)**: si está activado, este atributo indica a la herramienta de recopilación que recupere el valor del atributo &quot;@label&quot; para su traducción (uso interno).
-* **nombre (MNTOKEN)**: nombre interno del `<param>`
-* **type (cadena)**: este atributo define el tipo de `<param>` elemento
+* **nombre (MNTOKEN)**: nombre interno de `<param>`
+* **type (string)**: este atributo define el tipo de elemento `<param>`
 
   Lista de tipos disponibles:
 

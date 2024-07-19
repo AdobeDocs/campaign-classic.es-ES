@@ -23,23 +23,23 @@ ht-degree: 0%
 Los pasos de migración en Linux son los siguientes:
 
 1. Detener todos los servicios: [Más información](#service-stop).
-1. Guardar la base de datos - [Más información](#back-up-the-database).
+1. Guardar la base de datos: [Más información](#back-up-the-database).
 1. Desinstalar paquetes de versiones anteriores de Adobe Campaign: [Más información](#uninstalling-adobe-campaign-previous-version-packages).
-1. Migración de la plataforma: [Más información](#deploying-adobe-campaign-v7).
-1. Volver a iniciar el servicio - [Más información](#re-starting-services).
+1. Migrar la plataforma: [Más información](#deploying-adobe-campaign-v7).
+1. Volver a iniciar el servicio: [Más información](#re-starting-services).
 
 ## Detención de servicio {#service-stop}
 
 En primer lugar, detenga todos los procesos con acceso a la base de datos en todos los equipos correspondientes.
 
-1. Iniciar sesión como **raíz**.
-1. Todos los servidores que utilizan el módulo de redirección (**webmdl** service) se deben detener. Para Apache, ejecute el siguiente comando:
+1. Inicie sesión como **root**.
+1. Deben detenerse todos los servidores que utilizan el módulo de redirección (**webmdl**). Para Apache, ejecute el siguiente comando:
 
    ```
    /etc/init.d/apache2 stop
    ```
 
-1. Inicie sesión de nuevo como **raíz**.
+1. Inicie sesión de nuevo como **root**.
 1. Detenga los servicios de versiones anteriores de Adobe Campaign en todos los servidores.
 
    ```
@@ -156,7 +156,7 @@ En primer lugar, detenga todos los procesos con acceso a la base de datos en tod
 -->
 
 1. Realice una copia de seguridad de la base de datos de Adobe Campaign.
-1. Iniciar sesión como **neolano** y realice una copia de seguridad del **nl6** mediante el siguiente comando:
+1. Inicie sesión como **neolane** y realice una copia de seguridad del directorio **nl6** con el siguiente comando:
 
    ```
    su - neolane
@@ -165,7 +165,7 @@ En primer lugar, detenga todos los procesos con acceso a la base de datos en tod
 
    >[!IMPORTANT]
    >
-   >Como medida de precaución, le recomendamos que comprima el **nl6.back** y guárdelo en una ubicación segura que no sea el servidor.
+   >Como medida de precaución, le recomendamos que comprima la carpeta **nl6.back** y la guarde en una ubicación segura que no sea el servidor.
 
 ## Desinstalar paquetes de versiones anteriores de Adobe Campaign {#uninstalling-adobe-campaign-previous-version-packages}
 
@@ -213,10 +213,10 @@ En primer lugar, detenga todos los procesos con acceso a la base de datos en tod
 
 Esta sección muestra cómo desinstalar paquetes de Adobe Campaign v6.1.
 
-1. Iniciar sesión como **raíz**.
+1. Inicie sesión como **root**.
 1. Identifique los paquetes de Adobe Campaign instalados con el siguiente comando.
 
-   * Entrada **Debian**:
+   * En **Debian**:
 
      ```
      dpkg -l | grep nl
@@ -229,7 +229,7 @@ Esta sección muestra cómo desinstalar paquetes de Adobe Campaign v6.1.
      ii  nlthirdparty6                   XXXX                     nlthirdparty6-XXXX
      ```
 
-   * Entrada **Red Hat**:
+   * En **Red Hat**:
 
      ```
      rpm -qa | grep nl
@@ -237,13 +237,13 @@ Esta sección muestra cómo desinstalar paquetes de Adobe Campaign v6.1.
 
 1. Desinstale los paquetes de Adobe Campaign v6.
 
-   * Entrada **Debian**:
+   * En **Debian**:
 
      ```
      dpkg --purge nlserver6 nlthirdparty6
      ```
 
-   * Entrada **Red Hat**:
+   * En **Red Hat**:
 
      ```
      rprm -ev nlserver6 nlthirdparty6
@@ -473,13 +473,13 @@ Para implementar Adobe Campaign, siga los siguientes pasos:
 
 1. Instale los paquetes más recientes de Adobe Campaign v7 con el siguiente comando:
 
-   * Entrada **Debian**:
+   * En **Debian**:
 
      ```
      dpkg -i nlserver6-XXXX-amd64_debX.deb
      ```
 
-   * Entrada **Red Hat**:
+   * En **Red Hat**:
 
      ```
      rpm -Uvh nlserver6-XXXX-x86_64_rhX.rpm
@@ -491,7 +491,7 @@ Para implementar Adobe Campaign, siga los siguientes pasos:
 
    >[!NOTE]
    >
-   >Adobe Campaign v7 está instalado en **/usr/local/neolane/nl6/** de forma predeterminada.
+   >Adobe Campaign v7 está instalado en el directorio **/usr/local/neolane/nl6/** de forma predeterminada.
 
 1. Para que el programa de instalación de la consola del cliente esté disponible, cópielo en el directorio de instalación de Adobe Campaign:
 
@@ -503,7 +503,7 @@ Para implementar Adobe Campaign, siga los siguientes pasos:
    >
    >Para obtener más información sobre cómo instalar Adobe Campaign en Linux, consulte [esta sección](../../installation/using/installing-campaign-standard-packages.md).
 
-1. Vaya a la **nl6.back** haga una copia de seguridad de la carpeta y copie (sobrescriba) los archivos de configuración y las subcarpetas de cada instancia. Iniciar sesión como **neolano** y ejecute el siguiente comando:
+1. Vaya a la carpeta de copia de seguridad **nl6.back** y copie (sobrescriba) los archivos de configuración y las subcarpetas de cada instancia. Inicie sesión como **neolane** y ejecute el siguiente comando:
 
    ```
    su - neolane
@@ -520,7 +520,7 @@ Para implementar Adobe Campaign, siga los siguientes pasos:
    nlserver config -reload
    ```
 
-1. Inicie el proceso posterior a la actualización mediante el siguiente comando (sin modificar como **neolano**):
+1. Inicie el proceso posterior a la actualización mediante el siguiente comando (con el nombre **neolane**):
 
    ```
    su - neolane

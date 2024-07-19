@@ -3,7 +3,7 @@ product: campaign
 title: Uso de servidores MX con Campaign
 description: Descubra cómo funcionan los servidores MX con Adobe Campaign Classic
 feature: Installation, Instance Settings
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -12,7 +12,7 @@ exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -36,9 +36,9 @@ Cuando envía un correo electrónico, el servidor de software establece una cone
 
 En el protocolo de conexión, deben respetarse las reglas para evitar el spam y el monopolio de los servidores. Los más importantes son los siguientes:
 
-* **Número máximo de conexiones permitidas**: Cuando se respeta este número, las direcciones IP no están en la lista de bloqueados de la y los correos electrónicos no se rechazan debido a conexiones adicionales.
-* **Número máximo de mensajes**: Durante la conexión, se debe definir el número de mensajes que se pueden enviar. Si no se define este número, el servidor enviará tantos como sea posible. Esto hace que se identifique como correo no deseado y el ISP lo añada a la lista de bloqueados de la.
-* **Mensajes por hora**: Para que coincida con su reputación de correo electrónico, Adobe Campaign controlará el número de correos electrónicos que sus IP pueden enviar por hora. Este sistema le protegerá contra la denegación o/y la lista de bloqueados de correo electrónico por parte del usuario.
+* **Número máximo de conexiones permitidas**: cuando se respeta este número, las direcciones IP no están en la lista de bloqueados de la y los correos electrónicos no se rechazan debido a conexiones adicionales.
+* **Número máximo de mensajes**: durante la conexión, se debe definir el número de mensajes que se pueden enviar. Si no se define este número, el servidor enviará tantos como sea posible. Esto hace que se identifique como correo no deseado y el ISP lo añada a la lista de bloqueados de la.
+* **Mensajes por hora**: para que coincidan con su reputación de correo electrónico, Adobe Campaign controlará el número de correos electrónicos que sus IP pueden enviar por hora. Este sistema le protegerá contra la denegación o/y la lista de bloqueados de correo electrónico por parte del usuario.
 
 ## Correos electrónicos entrantes
 
@@ -50,21 +50,21 @@ Es el proceso que utiliza Adobe Campaign para procesar errores durante las comun
 
 La dirección de error procesará las devoluciones enviadas por los ISP. El proceso analizará diferentes códigos de error SMTP y aplicará la acción correcta según el estándar de RegEx.
 
-Por ejemplo, una dirección de correo electrónico tiene un comentario &quot;550 Usuario desconocido&quot; enviado por un ISP. Este código de error lo procesa la dirección de error de Adobe Campaign (dirección de la ruta de retorno). Este error se compara con el estándar de RegEx y se aplica la regla correcta. El correo electrónico se considera un *Rechazo duro* (que coincida con el tipo ) y, a continuación, *Usuario desconocido* (que coincida con el motivo) y se envía a cuarentena después del primer bucle en el sistema.
+Por ejemplo, una dirección de correo electrónico tiene un comentario &quot;550 Usuario desconocido&quot; enviado por un ISP. Este código de error lo procesa la dirección de error de Adobe Campaign (dirección de la ruta de retorno). Este error se compara con el estándar de RegEx y se aplica la regla correcta. El correo electrónico se considera un *rechazo grave* (que coincide con el tipo), *Usuario desconocido* (que coincide con el motivo) y se envía a cuarentena después del primer bucle en el sistema.
 
 ### ¿Cómo lo gestiona Adobe Campaign?
 
 Adobe Campaign administra este proceso con una coincidencia entre un tipo de error y un motivo:
 
-* **[!UICONTROL User Unknown]**: Dirección que es sintácticamente correcta, pero no existe. Este error se clasifica como una devolución grave y se envía a cuarentena dentro del primer error.
-* **[!UICONTROL Mailbox full]**: Buzón que ha alcanzado la capacidad máxima. Este error también puede indicar que el usuario ya no está usando este buzón. Este error se clasifica como una devolución suave y se envía a cuarentena dentro del tercer error y se elimina de la cuarentena después de un periodo de 30 días.
+* **[!UICONTROL User Unknown]**: dirección que es sintácticamente correcta pero no existe. Este error se clasifica como una devolución grave y se envía a cuarentena dentro del primer error.
+* **[!UICONTROL Mailbox full]**: buzón que ha alcanzado la capacidad máxima. Este error también puede indicar que el usuario ya no está usando este buzón. Este error se clasifica como una devolución suave y se envía a cuarentena dentro del tercer error y se elimina de la cuarentena después de un periodo de 30 días.
 * **[!UICONTROL Inactive User]**: el ISP ha desactivado el buzón debido a un usuario inactivo en los últimos 6 meses. Este error se clasifica como una devolución suave y se envía a cuarentena dentro del tercer error.
 * **[!UICONTROL Invalid domain]**: el dominio de la dirección de correo electrónico no existe. Este error se clasifica como una devolución suave y se envía a cuarentena dentro del tercer error.
 * **[!UICONTROL Refused]**: el ISP se negó a entregar el correo electrónico a sus usuarios. Este error se clasifica como una devolución suave y no se envía a cuarentena, ya que el error no está vinculado a la dirección de correo electrónico, sino a la IP o a una reputación de dominio.
 
 >[!NOTE]
 >
->Para obtener más información sobre los tipos y motivos de los errores de entrega, consulte esta sección [sección](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>Para obtener más información sobre los tipos y motivos de errores de entrega, consulte esta [sección](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 ## Instancia de entrega {#deliveratbility-env}
 
@@ -80,12 +80,12 @@ El modo personalizado es para clientes avanzados que desean establecer sus propi
 
 ## Ejemplos de rechazos
 
-* **Usuario desconocido** (mensajes devueltos no válidos): 550 5.1.1 ... Usuario desconocido {mx003}
-* **Buzón lleno** (rebote suave): 550 5.2.2 Se ha superado la cuota de usuario
-* **Buzón inactivo** (rebote suave): 550 5.7.1 : Dirección del destinatario rechazada: buzón inactivo, no reaparecido durante más de 6 meses
-* **Dominio no válido** (devolución suave): Error de consulta DNS para &#39;ourdan.com&#39;
-* **Rechazado** (devolución suave): La devolución del correo electrónico entrante (regla &#39;Feedback_loop_Hotmail&#39; ha coincidido con esta devolución)
-* **Inaccesible** (rebote suave): 421 4.16.55 [TS01] Mensajes de x.x.x.x diferidos temporalmente debido a quejas excesivas del usuario
+* **Usuario desconocido** (rechazo grave): 550 5.1.1... Usuario desconocido {mx003}
+* **Buzón lleno** (rebote suave): 550 5.2.2 Se superó la cuota de usuario
+* **Buzón inactivo** (rebote suave): 550 5.7.1 : Dirección de destinatario rechazada: buzón inactivo, no reabierto durante más de 6 meses
+* **Dominio no válido** (devolución suave): error de consulta DNS para &#39;ourdan.com&#39;
+* **Rechazado** (rebote suave): el rebote del correo electrónico entrante (la regla &#39;Feedback_loop_Hotmail&#39; coincide con este rebote)
+* **Inaccesible** (rebote suave): 421 4.16.55 [TS01] Mensajes de x.x.x.x temporalmente diferidos debido a quejas excesivas del usuario
 
 **Temas relacionados:**
 * [Configuración MX](../../installation/using/email-deliverability.md#mx-configuration)

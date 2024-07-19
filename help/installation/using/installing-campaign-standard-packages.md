@@ -70,12 +70,12 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
    <td> Marketing</td>
   </tr> 
   <tr> 
-   <td> Recursos de marketing (MRM)<br /> </td> 
+   <td> Recursos de mercadotecnia (MRM)<br /> </td> 
    <td> Controla las acciones de marketing de forma cooperativa mediante la administración y el seguimiento de las tareas, los presupuestos y los recursos de marketing. <a href="../../mrm/using/about-marketing-resource-management.md">Más información</a> <br /> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
-   <td> Motor de oferta (interacción)<br /> </td> 
+   <td> Motor de ofertas (interacción)<br /> </td> 
    <td> Responde en tiempo real durante una interacción con un contacto determinado (un cliente o destinatario) mediante la realización de una o varias ofertas adaptadas.  Opcional. <a href="../../interaction/using/interaction-and-offer-management.md#packages-configuration">Más información</a> <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
@@ -146,7 +146,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
-   <td> Marketing Analytics<br /> </td> 
+   <td> Análisis de marketing<br /> </td> 
    <td> Permite analizar y medir datos, calcular estadísticas y simplificar y optimizar la creación y el cálculo de informes. Además, puede crear informes y generar poblaciones objetivo. Opcional. <a href="../../reporting/using/ac-cubes.md">Más información</a><br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
@@ -196,8 +196,8 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
    <td> Marketing </td> 
   </tr> 
   <tr> 
-   <td> AEM integración de<br /> </td> 
-   <td> Le permite administrar el contenido de los envíos de correos electrónicos y los formularios directamente en Adobe Experience Manager AEM para beneficiarse de las funcionalidades de edición de contenido y de las capacidades de envío de Adobe Campaign. <a href="../../integrations/using/about-adobe-experience-manager.md">Más información</a> <br /> </td> 
+   <td> AEM Integración de<br /> </td> 
+   <td> Le permite administrar el contenido de los envíos de correos electrónicos y los formularios directamente en Adobe Experience Manager AEM para beneficiarse de las funcionalidades de edición de contenido y de las capacidades de envío de Adobe Campaign, que se encuentran en la fase de publicación de contenido en la que se realiza el envío de los mensajes de forma remota. <a href="../../integrations/using/about-adobe-experience-manager.md">Más información</a> <br /> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
@@ -216,7 +216,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
    <td> Todos</td> 
   </tr> 
   <tr> 
-   <td> Transfer to Mid-Sourcing <br /> </td> 
+   <td> Transferir a intermediario <br /> </td> 
    <td> Detalla la instalación y configuración de un servidor intermediario, así como la implementación de una instancia que permite a terceros enviar mensajes en modo intermediario. Opcional. <a href="../../installation/using/mid-sourcing-server.md">Más información</a> <br /> </td> 
    <td> Marketing </td> 
   </tr> 
@@ -242,30 +242,30 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
 
 Debe instalar canales de entrega (correo electrónico, canal móvil, canal de aplicación móvil, LINE, etc.) antes de instalar la mensajería transaccional (paquete del centro de mensajes). Si ha iniciado un proyecto de centro de mensajes solo de correo electrónico y necesita agregar un canal nuevo posteriormente, debe seguir estos pasos:
 
-1. Instale el nuevo canal, por ejemplo, el **Canal móvil**, mediante el asistente de importación de paquetes ( **[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
+1. Instale el nuevo canal, por ejemplo el **canal móvil**, mediante el asistente de importación de paquetes (**[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
 1. Importe el archivo ( **[!UICONTROL Tools > Advanced > Import package > File]**) y seleccione:
 
    ```
    \datakit\nms\[Your language]\package\messageCenter.xml
    ```
 
-1. En el **[!UICONTROL XML data content to import]**, mantenga únicamente la plantilla de envío del Centro de mensajes correspondiente al canal relacionado. Por ejemplo, si ha agregado la variable **Canal móvil**, conserve solo el **entidades** elemento correspondiente a **[!UICONTROL Mobile transactional message]** Plantilla (smsTriggerMessage). Si ha agregado la variable **Canal de aplicaciones móviles**, conserve solo el **Mensaje transaccional de iOS** plantillas (iosTriggerMessage) y **Mensaje transaccional de Android** (androidTriggerMessage).
+1. En **[!UICONTROL XML data content to import]**, conserve solamente la plantilla de entrega del Centro de mensajes correspondiente al canal relacionado. Por ejemplo, si ha agregado el **canal móvil**, conserve solamente el elemento **entities** correspondiente a la plantilla **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). Si has agregado **Canal de aplicaciones móviles**, conserva solamente las plantillas **mensaje transaccional de iOS** (iosTriggerMessage) y **mensaje transaccional de Android** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
 
 
-### [!DNL LINE] configuración de canal{#line-package}
+### Configuración del canal [!DNL LINE]{#line-package}
 
-Para configurar el [!DNL LINE] canal, primero debe instalar el [!DNL LINE] paquete.
+Para configurar el canal [!DNL LINE], primero debe instalar el paquete [!DNL LINE].
 
 En el contexto de una configuración intermediaria, debe:
 
-* Instale el [!DNL LINE] en las instancias de Marketing y MID
+* Instale el paquete [!DNL LINE] tanto en la instancia de Marketing como en la de MID
 
-* Configure las variables [!DNL LINE] cuenta externa en la instancia de mkt para que apunte a la instancia mid cambiando el modo de envío. [Más información](../../delivery/using/line-channel.md#configure-line-external)
+* Configure la cuenta externa [!DNL LINE] en la instancia de mkt para que apunte a la instancia de mid cambiando el modo de envío. [Más información](../../delivery/using/line-channel.md#configure-line-external)
 
-* Configure las variables [!DNL LINE] credenciales de en la cuenta externa de la instancia de MID.
+* Configure las credenciales de [!DNL LINE] en la cuenta externa de la instancia MID.
 
 >[!CAUTION]
 >
->Las plantillas de entrega del Centro de mensajes para [!DNL LINE] El canal no estará disponible si los paquetes del Centro de mensajes se han instalado anteriormente [!DNL LINE].
+>Las plantillas de entrega del Centro de mensajes para el canal [!DNL LINE] no estarán disponibles si los paquetes del Centro de mensajes están instalados antes de [!DNL LINE].

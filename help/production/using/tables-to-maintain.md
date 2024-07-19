@@ -3,7 +3,7 @@ product: campaign
 title: Tablas que mantener
 description: Tablas que mantener
 feature: Monitoring
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
@@ -46,7 +46,7 @@ La siguiente lista contiene únicamente las tablas que están más sujetas a fra
   </tr> 
   <tr> 
    <td> NmsDeliveryPart<br /> </td> 
-   <td> Mediana<br /> </td> 
+   <td> Medium<br /> </td> 
    <td> Inserciones, actualizaciones y eliminaciones<br /> </td> 
    <td> Tabla de trabajo en la que se insertan los registros durante la preparación de la entrega. A continuación, se actualizan durante la entrega y, finalmente, se eliminan una vez finalizada la entrega.<br /> Esta tabla tiende a fragmentarse rápidamente aunque su tamaño medio sea bastante limitado.<br /> </td> 
   </tr> 
@@ -58,14 +58,14 @@ La siguiente lista contiene únicamente las tablas que están más sujetas a fra
   </tr> 
   <tr> 
    <td> NmsDeliveryStat<br /> </td> 
-   <td> Mediana<br /> </td> 
+   <td> Medium<br /> </td> 
    <td> Inserciones, actualizaciones y eliminaciones<br /> </td> 
    <td> Esta tabla contiene estadísticas sobre el proceso de envío. Sus registros se actualizan periódicamente. <br /> </td> 
   </tr> 
   <tr> 
    <td> NmsAddress<br /> </td> 
-   <td> Mediana<br /> </td> 
-   <td> Actualizaciones e inserciones<br /> </td> 
+   <td> Medium<br /> </td> 
+   <td> Actualizaciones, inserciones<br /> </td> 
    <td> Esta tabla contiene información sobre las direcciones de correo electrónico. Se actualiza con frecuencia como parte del proceso de cuarentena (los registros se crean en el primer error de entrega, se actualizan cuando los contadores cambian y se eliminan una vez que la entrega se realiza correctamente). <br /> </td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ La siguiente lista contiene únicamente las tablas que están más sujetas a fra
    <td> XtkWorkflowTask<br /> </td> 
    <td> Pequeño<br /> </td> 
    <td> Inserciones, actualizaciones y eliminaciones<br /> </td> 
-   <td> Cada ejecución de una actividad de flujo de trabajo lleva a la creación de un registro en esta tabla. El mecanismo de depuración los elimina una vez que han caducado.<br /> </td> 
+   <td> Cada ejecución de una actividad de flujo de trabajo lleva a la creación de un registro en esta tabla. El mecanismo de depuración los elimina una vez caducados.<br /> </td> 
   </tr> 
   <tr> 
    <td> XtkWorkflowEvent<br /> </td> 
@@ -94,7 +94,7 @@ La siguiente lista contiene únicamente las tablas que están más sujetas a fra
   </tr> 
   <tr> 
    <td> NmsBroadLog<br /> </td> 
-   <td> Mayor<br /> </td> 
+   <td> Más grande<br /> </td> 
    <td> Inserciones, actualizaciones y eliminaciones<br /> </td> 
    <td> Esta es la tabla más grande del sistema. Hay un registro por mensaje enviado y estos registros se insertan, actualizan para rastrear el estado de envío y se eliminan cuando se purga el historial. <br /> </td> 
   </tr> 
@@ -112,7 +112,7 @@ La siguiente lista contiene únicamente las tablas que están más sujetas a fra
   </tr> 
   <tr> 
    <td> NmsEmailErrorStat<br /> </td> 
-   <td> Mediana<br /> </td> 
+   <td> Medium<br /> </td> 
    <td> Inserciones, actualizaciones y eliminaciones<br /> </td> 
    <td> Esta tabla contiene los agregados de los errores SMTP ordenados por dominio. Inicialmente contiene información detallada que añade la tarea de limpieza una vez que queda obsoleta. <br /> </td> 
   </tr> 
@@ -159,16 +159,16 @@ La siguiente lista contiene únicamente las tablas que están más sujetas a fra
    <td> Similar a las otras tablas trackingLog, pero con la tabla NmsRtEvent en lugar de NmsRecipient.<br /> </td> 
   </tr> 
   <tr> 
-   <td> NmsRtEvent (instancia de ejecución del centro de mensajes)<br /> </td> 
+   <td> NmsRtEvent (instancia de ejecución del Centro de mensajes)<br /> </td> 
    <td> Grande<br /> </td> 
    <td> Inserciones, actualizaciones y eliminaciones<br /> </td> 
-   <td> Tabla que contiene la cola de eventos del Centro de mensajes. El centro de mensajes actualiza el estado de estos eventos a medida que se procesan. Las eliminaciones se realizan durante la depuración. Le recomendamos que vuelva a crear con regularidad el índice de esta tabla y que la reconstruya.<br /> </td> 
+   <td> Tabla que contiene la cola de eventos del Centro de mensajes. El centro de mensajes actualiza el estado de estos eventos a medida que se procesan. Las eliminaciones se realizan durante la depuración. Le recomendamos que vuelva a crear con regularidad el índice de esta tabla y la reconstruya.<br /> </td> 
   </tr> 
   <tr> 
-   <td> NmsEventHisto (instancia de control del centro de mensajes)<br /> </td> 
+   <td> NmsEventHisto (instancia de control del Centro de mensajes)<br /> </td> 
    <td> Grande<br /> </td> 
    <td> Inserciones, actualizaciones y eliminaciones<br /> </td> 
-   <td> Similar a NmsRtEvent. Esta tabla archiva todos los eventos de todas las instancias de ejecución. No se utiliza en procesos en tiempo real, solo en informes.<br /> </td> 
+   <td> Similar a NmsRtEvent. Esta tabla archiva todos los eventos de todas las instancias de ejecución. No se utiliza en ningún proceso en tiempo real, sólo en los informes.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsMobileApp<br /> </td> 
@@ -179,7 +179,7 @@ La siguiente lista contiene únicamente las tablas que están más sujetas a fra
   <tr> 
    <td> NmsAppSubscriptionRcp<br /> </td> 
    <td> Grande<br /> </td> 
-   <td> Inserciones y actualizaciones<br /> </td> 
+   <td> Inserciones, actualizaciones<br /> </td> 
    <td> Tabla que incluye los identificadores de dispositivos móviles (direcciones) utilizados para enviar la notificación (similar a una tabla de destinatarios).<br /> </td> 
   </tr> 
   <tr> 
@@ -205,4 +205,4 @@ La siguiente lista contiene únicamente las tablas que están más sujetas a fra
 
 ## Tablas de clientes {#customer-tables}
 
-Además de la lista anterior, las tablas que contienen creadas por clientes (que no existen en el modelo de datos de Adobe Campaign) durante la configuración de la plataforma también pueden estar sujetas a fragmentación, especialmente si se actualizan con frecuencia durante los procedimientos de carga o sincronización de datos. Estas tablas pueden formar parte del modelo de datos predeterminado de Adobe Campaign (por ejemplo, **NmsRecipient**). En este caso, es responsabilidad del administrador de la plataforma de Adobe Campaign realizar una auditoría de su modelo de base de datos específico para encontrar estas tablas personalizadas. Estas tablas no se mencionan necesariamente explícitamente en nuestros procedimientos de mantenimiento.
+Además de la lista anterior, las tablas que contienen creadas por clientes (que no existen en el modelo de datos de Adobe Campaign) durante la configuración de la plataforma también pueden estar sujetas a fragmentación, especialmente si se actualizan con frecuencia durante los procedimientos de carga o sincronización de datos. Estas tablas pueden formar parte del modelo de datos predeterminado de Adobe Campaign (por ejemplo **NmsRecipient**). En este caso, es responsabilidad del administrador de la plataforma de Adobe Campaign realizar una auditoría de su modelo de base de datos específico para encontrar estas tablas personalizadas. Estas tablas no se mencionan necesariamente explícitamente en nuestros procedimientos de mantenimiento.

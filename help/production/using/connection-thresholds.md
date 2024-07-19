@@ -23,15 +23,15 @@ En el caso de los servidores con gran carga, es posible que se supere el umbral 
 
 Existen tres umbrales diferentes:
 
-* El **Umbral de conexión web**, configurado en el servidor web. Para modificarla, póngase en contacto con el administrador del sistema.
+* El **umbral de conexión web**, configurado en su servidor web. Para modificarla, póngase en contacto con el administrador del sistema.
 
 * El **umbral de conexión a base de datos**. Para modificarla, póngase en contacto con el administrador de la base de datos.
 
-* El **Umbral de conexión de Adobe Campaign**, disponible en dos lugares:
+* El **umbral de conexión de Adobe Campaign**, disponible en dos lugares:
 
-   * **Tomcat** : todas las consultas que llegan realmente al cliente de Adobe Campaign Tomcat.
+   * **Tomcat**: todas las consultas que llegan realmente al cliente de Adobe Campaign Tomcat.
 
-     Este umbral se configura en la variable **nl6/tomcat-X/conf/server.xml** archivo. El **maxThreads** El atributo permite aumentar el umbral del número de consultas procesadas a la vez. Se puede cambiar a 250, por ejemplo.
+     Este umbral está configurado en el archivo **nl6/tomcat-X/conf/server.xml**. El atributo **maxThreads** le permite aumentar el umbral del número de consultas procesadas a la vez. Se puede cambiar a 250, por ejemplo.
 
      ```
      <Connector protocol="HTTP/1.1" port="8080"
@@ -47,7 +47,7 @@ Existen tres umbrales diferentes:
 
    * **Base de datos**: conjunto de todas las conexiones abiertas al mismo tiempo en la base de datos por un proceso.
 
-     Este umbral se configura en el archivo **nl6/conf/serverConf.xml**. El **maxCnx** atributo ubicado en **grupo de fuentes de datos** permite aumentar el umbral de consultas procesadas simultáneamente.
+     Este umbral está configurado en el archivo **nl6/conf/serverConf.xml**. El atributo **maxCnx** ubicado en el **grupo de fuentes de datos** le permite aumentar el umbral de consultas procesadas simultáneamente.
 
      ```
          <!-- Data source

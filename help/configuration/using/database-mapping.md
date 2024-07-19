@@ -35,7 +35,7 @@ La asignación SQL del esquema de ejemplo descrito [en esta página](schema-stru
 </schema>
 ```
 
-El elemento raíz del esquema ha cambiado a **`<srcschema>`** hasta **`<schema>`**.
+El elemento raíz del esquema cambió a **`<srcschema>`** a **`<schema>`**.
 
 Este otro tipo de documento se genera automáticamente a partir del esquema de origen y se denomina simplemente esquema.
 
@@ -43,9 +43,9 @@ Los nombres SQL se determinan automáticamente en función del nombre y el tipo 
 
 Las reglas de nomenclatura SQL son las siguientes:
 
-* **tabla**: concatenación del área de nombres y el nombre del esquema
+* **tabla**: concatenación del espacio de nombres y nombre del esquema
 
-  En este ejemplo, el nombre de la tabla se introduce mediante el elemento principal del esquema en **sqltable** atributo:
+  En nuestro ejemplo, el nombre de la tabla se introduce a través del elemento principal del esquema en el atributo **sqltable**:
 
   ```sql
   <element name="recipient" sqltable="CusRecipient">
@@ -53,7 +53,7 @@ Las reglas de nomenclatura SQL son las siguientes:
 
 * **campo**: nombre del elemento precedido por un prefijo definido según el tipo: &quot;i&quot; para entero, &quot;d&quot; para doble, &quot;s&quot; para cadena, &quot;ts&quot; para fechas, etc.
 
-  El nombre del campo se introduce mediante la variable **sqlname** para cada uno de los **`<attribute>`** y **`<element>`**:
+  El nombre de campo se escribe mediante el atributo **sqlname** para cada **`<attribute>`** y **`<element>`** escrito:
 
   ```sql
   <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
@@ -80,9 +80,9 @@ Las restricciones de campo SQL son las siguientes:
 
 ## Campos XML {#xml-fields}
 
-De forma predeterminada, cualquier  **`<attribute>`** y **`<element>`** El elemento con tipo se asigna a un campo SQL de la tabla de esquema de datos. Sin embargo, puede hacer referencia a este campo en XML en lugar de en SQL, lo que significa que los datos se almacenan en un campo memo (&quot;mData&quot;) de la tabla que contiene los valores de todos los campos XML. El almacenamiento de estos datos es un documento XML que observa la estructura del esquema.
+De manera predeterminada, cualquier elemento de tipo **`<attribute>`** y **`<element>`** se asigna a un campo SQL de la tabla de esquema de datos. Sin embargo, puede hacer referencia a este campo en XML en lugar de en SQL, lo que significa que los datos se almacenan en un campo memo (&quot;mData&quot;) de la tabla que contiene los valores de todos los campos XML. El almacenamiento de estos datos es un documento XML que observa la estructura del esquema.
 
-Para rellenar un campo en XML, debe añadir la variable **xml** con el valor &quot;true&quot; al elemento correspondiente.
+Para rellenar un campo en XML, debe agregar el atributo **xml** con el valor &quot;true&quot; al elemento correspondiente.
 
 **Ejemplo**: estos son dos ejemplos de uso de campos XML.
 
@@ -119,7 +119,7 @@ Se declara un índice a partir del elemento principal del esquema de datos.
 Los índices obedecen las siguientes reglas:
 
 * Un índice puede hacer referencia a uno o varios campos de la tabla
-* Un índice puede ser único (para evitar duplicados) en todos los campos si la variable **único** El atributo contiene el valor &quot;true&quot;
+* Un índice puede ser único (para evitar duplicados) en todos los campos si el atributo **unique** contiene el valor &quot;true&quot;
 * El nombre SQL del índice se determina a partir del nombre SQL de la tabla y el nombre del índice
 
 >[!NOTE]

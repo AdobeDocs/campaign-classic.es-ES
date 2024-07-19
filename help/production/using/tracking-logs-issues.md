@@ -20,13 +20,13 @@ ht-degree: 13%
 
 Puede haber varias razones para que los registros de seguimiento no se reenvíen. Le recomendamos que compruebe la siguiente información:
 
-* **¿El** Seguimiento **¿el flujo de trabajo tiene errores?**
+* **¿Tiene errores el flujo de trabajo** Tracking **?**
 
   Consulte [Supervisión de flujos de trabajo técnicos](../../workflow/using/monitoring-technical-workflows.md).
 
   ![](assets/tracking_scheduled_task.png)
 
-* **Es el módulo** trackinglogd **¿se está ejecutando en el servidor?**
+* **¿Se está ejecutando el módulo** trackinglogd **en el servidor?**
 
   Consulte [Archivos de registro](../../production/using/log-files.md).
 

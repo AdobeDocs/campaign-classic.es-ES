@@ -3,7 +3,7 @@ product: campaign
 title: Principio de funcionamiento
 description: Principio de funcionamiento
 feature: Monitoring
-badge-v7-prem: label="Solo local/híbrido" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -25,17 +25,17 @@ Hay muchos módulos de Adobe Campaign. Algunos funcionan de forma continua, mien
 
 Existen tres tipos de módulos de Adobe Campaign:
 
-* Módulos de varias instancias: se ejecuta un solo proceso para todas las instancias. Esto se aplica a los siguientes módulos: **web**, **syslogd**, **trackinglogd** y **perro guardián** (actividades de la **config-default.xml** file).
-* Módulos de instancia mono: se ejecuta un proceso por instancia. Esto se aplica a los siguientes módulos: **mta**, **wfserver**, **inMail**, **sms** y **estadísticas** (actividades de la **config-`<instance>`.xml** file).
+* Módulos de varias instancias: se ejecuta un solo proceso para todas las instancias. Esto se aplica a los siguientes módulos: **web**, **syslogd**, **trackinglogd** y **watchdog** (actividades del archivo **config-default.xml**).
+* Módulos de instancia mono: se ejecuta un proceso por instancia. Esto se aplica a los siguientes módulos: **mta**, **wfserver**, **inMail**, **sms** y **stat** (actividades del archivo **config-`<instance>`.xml**).
 * Módulos de utilidad: son módulos que se ejecutan ocasionalmente para realizar operaciones ocasionales o recurrentes (**cleanup**, **config**, descargar registros de seguimiento, etc.).
 
-La administración de módulos se realiza mediante la herramienta de línea de comandos **nlserver** instalado en el **cubo** de la carpeta de instalación.
+La administración del módulo se realiza mediante la herramienta de línea de comandos **nlserver** instalada en el directorio **bin** de la carpeta de instalación.
 
-La sintaxis general del **nlserver** La herramienta es la siguiente:
+La sintaxis general de la herramienta **nlserver** es la siguiente:
 
 **nlserver `<command>``<command arguments>`**
 
-Para ver la lista de módulos disponibles, utilice el **nlserver** comando.
+Para obtener la lista de módulos disponibles, use el comando **nlserver**.
 
 Los módulos disponibles se detallan en la tabla siguiente:
 
@@ -50,7 +50,7 @@ Los módulos disponibles se detallan en la tabla siguiente:
 | importar | Importing to command line: permite enviar a la línea de comandos un modelo de importación creado en la consola del cliente de Adobe Campaign. |
 | inMail | Analizador de correo entrante |
 | installsetup | Disponibilidad del archivo de instalación del cliente |
-| javascript | Ejecución de scripts JavaScript con acceso a las API de SOAP. |
+| javascript | Ejecución de scripts de JavaScript SOAP con acceso a API de. |
 | trabajo | Procesamiento de línea de comandos |
 | fusionar | Combinación de formularios |
 | midSourcing | Recuperación de información de envío en modo intermediario |
@@ -72,7 +72,7 @@ Los módulos disponibles se detallan en la tabla siguiente:
 | seguimiento | Consolidación y recuperación de registros de seguimiento |
 | trackinglogd | Seguimiento de la escritura y depuración del registro del servidor |
 | perro guardián | Instancia de inicio y monitorización |
-| web | Servidor de aplicaciones (HTTP y SOAP) |
+| web | SOAP Servidor de aplicaciones (HTTP y) |
 | wfserver | Servidor de flujo de trabajo |
 
 >[!IMPORTANT]
@@ -83,7 +83,7 @@ El uso del módulo y la sintaxis de sus parámetros se muestran mediante el sigu
 
 Ejemplo:
 
-**Configuración de nlserver -?**
+**configuración de nlserver -?**
 
 ```
 Usage: nlserver [-verbose:<verbose mode>] [-?|h|H] [-version] [-noconsole]
