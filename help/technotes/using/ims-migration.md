@@ -168,7 +168,7 @@ curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?sch
 
 >[!BEGINTABS]
 
->SOAP [!TAB Llamada de]
+>[!TAB SOAP Llamada de]
 
 ```
 curl --location --request POST 'https://<instance_name>.campaign.adobe.com/nl/jsp/soaprouter.jsp' \
