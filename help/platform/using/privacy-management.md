@@ -8,15 +8,14 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
-source-git-commit: 5d237d42adabe42a07bc759913dd9453df650671
+source-git-commit: 122d69d3d7474480f7799248413ac89338469ebc
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 100%
+source-wordcount: '909'
+ht-degree: 99%
 
 ---
 
 # Administración de la privacidad {#privacy-management}
-
 
 Adobe Campaign ofrece un conjunto de herramientas para que cumpla con las [normas de privacidad](#privacy-management-regulations) (incluye el RGPD, la CCPA, la PDPA y la LGPD).
 
@@ -105,8 +104,9 @@ A continuación se muestran los valores de retención predeterminados para las t
 * **Estadísticas del procesamiento de eventos**: 1 año
 * **Eventos archivados**: 1 año
 * **Eventos de canalización ignorados**: 1 mes
+* **Informes dinámicos**: 13 meses
 
-Y, de manera similar a eliminar, utilizando la funcionalidad estándar de flujo de trabajo, es posible configurar períodos de retención para cualquier tabla personalizada.
+Y de manera similar a eliminar, utilizando la funcionalidad estándar del flujo de trabajo, es posible configurar períodos de retención para cualquier tabla personalizada.
 
 Póngase en contacto con los consultores o administradores técnicos de Adobe para obtener más información sobre la retención o si necesita configurar la retención para tablas personalizadas.
 
