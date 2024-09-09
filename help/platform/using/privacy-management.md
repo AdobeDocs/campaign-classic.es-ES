@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
 source-git-commit: 122d69d3d7474480f7799248413ac89338469ebc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '909'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ A continuación se muestran los valores de retención predeterminados para las t
 * **Estadísticas del procesamiento de eventos**: 1 año
 * **Eventos archivados**: 1 año
 * **Eventos de canalización ignorados**: 1 mes
-* **Informes dinámicos**: 13 meses
+* **Sistema de informes dinámicos**: 13 meses
 
 Y de manera similar a eliminar, utilizando la funcionalidad estándar del flujo de trabajo, es posible configurar períodos de retención para cualquier tabla personalizada.
 
