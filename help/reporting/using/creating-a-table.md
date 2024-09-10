@@ -5,10 +5,10 @@ description: Creación de una tabla
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Reporting, Monitoring
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
 workflow-type: tm+mt
 source-wordcount: '2512'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -461,6 +461,6 @@ Si hace clic en el vínculo de uno de estos entregas, se muestra el gráfico con
 
 Este tipo de tabla le permite mostrar estadísticas calculadas en los datos de la base de datos.
 
-El asistente de análisis descriptivo utiliza una configuración similar a estos tipos de informes. Para obtener más información, consulte [esta página](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-quantitative-distribution-template).
+La configuración de estos tipos de informes es similar a la utilizada para el asistente de análisis descriptivo. Para obtener más información, consulte [esta página](../../reporting/using/using-the-descriptive-analysis-wizard.md#configuring-the-quantitative-distribution-template).
 
 Para obtener más información sobre la creación de una tabla dinámica, consulte [esta sección](../../reporting/using/ac-cubes.md).

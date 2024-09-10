@@ -5,10 +5,10 @@ description: Uso del asistente de análisis descriptivo
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Reporting, Monitoring
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -20,7 +20,7 @@ Para crear un informe de análisis descriptivo, utilice el asistente dedicado. L
 
 ## Análisis de los datos de la base de datos {#analyzing-data-in-the-database}
 
-El asistente de análisis descriptivo se puede iniciar mediante el menú **[!UICONTROL Tools > Descriptive analysis]**: en este caso, el análisis corresponde a los destinatarios de forma predeterminada (**nms:recipient**). Se aplica a todos los datos de la base de datos de Adobe Campaign.
+El asistente de análisis descriptivo se puede iniciar a través del menú **[!UICONTROL Tools > Descriptive analysis]**: en este caso, el análisis corresponde a los destinatarios de forma predeterminada (**nms:recipient**). Se aplica a todos los datos de la base de datos de Adobe Campaign.
 
 ![](assets/reporting_descriptive_wz_launch.png)
 
@@ -36,7 +36,7 @@ El análisis solo corresponde a los destinatarios de la base de datos mayores a 
 
 ## Análisis de un conjunto de datos {#analyzing-a-set-of-data}
 
-Puede utilizar el asistente de análisis descriptivo a través de un contexto diferente: una lista, una transición de flujo de trabajo, uno o varios envíos, una selección de destinatarios, etc.
+Puede utilizar el asistente de análisis descriptivo a través de un contexto diferente: una lista, una transición de flujo de trabajo, uno o más envíos, una selección de destinatarios, etc.
 
 Se puede acceder a él a través de varios nodos del árbol de Adobe Campaign que señalan a la tabla de destinatarios.
 
@@ -119,7 +119,7 @@ Puede mostrar u ocultar el nombre de las estadísticas y los subtotales y elegir
 
 ### Visualización de datos en el gráfico {#displaying-data-in-the-chart}
 
-En el primer paso del asistente de análisis descriptivos, puede elegir mostrar los datos en el formulario de gráficos únicamente, sin tabla. En este caso, debe seleccionar variables al configurar el gráfico. Primero debe seleccionar el número de variables a mostrar y seleccionar los campos de la base de datos correspondiente.
+En el primer paso del asistente de análisis descriptivo, puede elegir mostrar los datos en el formulario de gráficos únicamente, sin tabla. En este caso, debe seleccionar variables al configurar el gráfico. Primero debe seleccionar el número de variables a mostrar y seleccionar los campos de la base de datos correspondiente.
 
 ![](assets/s_ncs_user_report_wizard_023.png)
 
@@ -139,7 +139,7 @@ Las opciones ofrecidas dependen del tipo de gráfico seleccionado. Para obtener 
 
 ### Cálculo de estadísticas {#statistics-calculation}
 
-El asistente de análisis descriptivo le permite calcular varios tipos de estadísticas relacionadas con los datos. De forma predeterminada, solo se configura un recuento simple.
+El asistente de análisis descriptivo le permite calcular varios tipos de estadísticas sobre los datos. De forma predeterminada, solo se configura un recuento simple.
 
 Haga clic en **[!UICONTROL Add]** para crear una estadística nueva.
 
@@ -183,7 +183,7 @@ Las siguientes operaciones son posibles:
 
 ### Visualización del informe {#displaying-the-report}
 
-El último paso del asistente le permite mostrar el informe, es decir la tabla o el gráfico como se han configurado.
+El último paso del asistente le permite mostrar el informe, es decir, la tabla o el gráfico tal y como se han configurado.
 
 Cuando el informe contiene una tabla, la celda del resultado del cálculo aparece coloreada. Cuanto mayor sea el resultado, más intenso es el color.
 
@@ -205,7 +205,7 @@ La plantilla de **[!UICONTROL Quantitative distribution]** que permite generar e
 
 El modo de configuración de un informe de análisis creado mediante la plantilla **[!UICONTROL Quantitative distribution]** se detalla en el ejemplo de implementación [Análisis de datos cuantitativos](../../reporting/using/use-cases.md#quantitative-data-analysis).
 
-Las opciones disponibles al utilizar el asistente de análisis descriptivo para crear un informe cuantitativo se describen a continuación.
+A continuación se describen las opciones disponibles al utilizar el asistente de análisis descriptivo para crear un informe cuantitativo.
 
 Comience por seleccionar la variable a la que corresponden los cálculos:
 

@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: Asistente de nuevo campo
-description: Asistente de nuevo campo
+title: Nuevo asistente de campo
+description: Nuevo asistente de campo
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ec774cc10a69a694b3c2bf5a6f662afd12a1435a
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
-# Asistente de nuevo campo{#new-field-wizard}
+# Nuevo asistente de campo{#new-field-wizard}
 
 
 Un asistente accesible a través de **[!UICONTROL Tools > Advanced > Add new fields]** le permite agregar uno o más campos a una tabla de la base de datos.
