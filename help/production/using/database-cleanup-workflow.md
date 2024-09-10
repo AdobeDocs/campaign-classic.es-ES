@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 6c85ca9d50dd970915b7c46939f88f4d7fdf07d8
 workflow-type: tm+mt
 source-wordcount: '2827'
 ht-degree: 1%
@@ -47,9 +47,9 @@ De manera predeterminada, el flujo de trabajo **[!UICONTROL Database cleanup]** 
 >
 >Para que el flujo de trabajo **[!UICONTROL Database cleanup]** se inicie en la fecha y hora definidas en el programador, se debe iniciar el motor de flujo de trabajo (wfserver).
 
-### Asistente de implementación {#deployment-wizard}
+### asistente de implementación {#deployment-assistant}
 
-El **[!UICONTROL Deployment wizard]**, al que se accede a través del menú **[!UICONTROL Tools > Advanced]**, le permite configurar el tiempo que se guardan los datos para. Los valores se expresan en días. Si estos valores no se modifican, el flujo de trabajo utilizará los valores predeterminados.
+El **[!UICONTROL deployment wizard]**, al que se accede a través del menú **[!UICONTROL Tools > Advanced]**, le permite configurar el tiempo que se guardan los datos para. Los valores se expresan en días. Si estos valores no se modifican, el flujo de trabajo utilizará los valores predeterminados.
 
 ![](assets/ncs_cleanup_deployment-wizard.png)
 
@@ -125,7 +125,7 @@ La primera tarea ejecutada por el flujo de trabajo **[!UICONTROL Database cleanu
 
 Esta tarea purga todas las entregas para eliminarlos o reciclarlos.
 
-1. El flujo de trabajo **[!UICONTROL Database cleanup]** selecciona todas las entregas para las que el campo **deleteStatus** tiene el valor **[!UICONTROL Yes]** o **[!UICONTROL Recycled]** y cuya fecha de eliminación es anterior al período definido en el campo **[!UICONTROL Deleted deliveries]** (**NmsCleanup_RecycledDeliveryPurgeDelay**) del asistente de implementación. Para obtener más información, consulte [Asistente de implementación](#deployment-wizard). Este periodo se calcula en relación con la fecha actual del servidor.
+1. El flujo de trabajo **[!UICONTROL Database cleanup]** selecciona todas las entregas para las que el campo **deleteStatus** tiene el valor **[!UICONTROL Yes]** o **[!UICONTROL Recycled]** y cuya fecha de eliminación es anterior al período definido en el campo **[!UICONTROL Deleted deliveries]** (**NmsCleanup_RecycledDeliveryPurgeDelay**) del asistente de implementación. Para obtener más información, consulte [asistente de implementación](#deployment-assistant). Este periodo se calcula en relación con la fecha actual del servidor.
 1. Para cada servidor intermediario, la tarea selecciona la lista de envíos que desea eliminar.
 1. El flujo de trabajo **[!UICONTROL Database cleanup]** elimina los registros de envío, los archivos adjuntos, la información de la página espejo y todos los demás datos relacionados.
 1. Antes de eliminar la entrega de forma definitiva, el flujo de trabajo depura la información vinculada de las siguientes tablas:
@@ -308,7 +308,7 @@ Este paso le permite eliminar registros para los que no se han procesado todos l
    DELETE FROM XtkReject WHERE iRejectId IN (SELECT iRejectId FROM XtkReject WHERE tsLog < $(curDate)) LIMIT $(l)
    ```
 
-   donde `$(curDate)` es la fecha actual del servidor a partir de la cual se resta el período definido para la opción **NmsCleanup_RejectsPurgeDelay** (consulte [Asistente para implementación](#deployment-wizard)) y `$(l)` es el número máximo de registros que se eliminarán de forma masiva.
+   donde `$(curDate)` es la fecha actual del servidor a partir de la cual se resta el período definido para la opción **NmsCleanup_RejectsPurgeDelay** (consulte [asistente de implementación](#deployment-assistant)) y `$(l)` es el número máximo de registros que se eliminarán de forma masiva.
 
 1. A continuación, se eliminan todos los rechazos huérfanos mediante la siguiente consulta:
 
@@ -395,7 +395,7 @@ SELECT iGroupId FROM NmsGroup WHERE iType>0"
 
 ### Limpieza de visitantes {#cleanup-of-visitors}
 
-Esta tarea elimina los registros obsoletos de la tabla del visitante mediante la eliminación masiva. Los registros obsoletos son aquellos para los que la última modificación es anterior al período de conservación definido en el asistente de implementación (consulte [Asistente de implementación](#deployment-wizard)). Se utiliza la siguiente consulta:
+Esta tarea elimina los registros obsoletos de la tabla del visitante mediante la eliminación masiva. Los registros obsoletos son aquellos para los que la última modificación es anterior al período de conservación definido en el asistente de implementación (consulte [asistente de implementación](#deployment-assistant)). Se utiliza la siguiente consulta:
 
 ```sql
 DELETE FROM NmsVisitor WHERE iVisitorId IN (SELECT iVisitorId FROM NmsVisitor WHERE iRecipientId = 0 AND tsLastModified < AddDays(GetDate(), -30) AND iOrigin = 0 LIMIT 20000)
@@ -423,7 +423,7 @@ DELETE FROM NmsSubscription WHERE iDeleteStatus <>0
 
 ### Limpieza de registros de seguimiento {#cleanup-of-tracking-logs}
 
-Esta tarea elimina los registros obsoletos de las tablas de registro de seguimiento y seguimiento web. Los registros obsoletos son aquellos que son anteriores al período de conservación definido en el asistente de implementación (consulte [Asistente de implementación](#deployment-wizard)).
+Esta tarea elimina los registros obsoletos de las tablas de registro de seguimiento y seguimiento web. Los registros obsoletos son aquellos que son anteriores al período de conservación definido en el asistente de implementación (consulte [asistente de implementación](#deployment-assistant)).
 
 1. En primer lugar, la lista de tablas de registro de seguimiento se recupera mediante la siguiente consulta:
 
@@ -464,7 +464,7 @@ Esta tarea permite depurar los &quot;logs&quot; de envío almacenados en varias 
    DELETE FROM $(tableName) WHERE iBroadLogId IN (SELECT iBroadLogId FROM $(tableName) WHERE tsLastModified < $(option) LIMIT 5000) 
    ```
 
-   donde `$(tableName)` es el nombre de cada tabla en la lista de esquemas y `$(option)` es la fecha definida para la opción **NmsCleanup_BroadLogPurgeDelay** (consulte [Asistente para implementación](#deployment-wizard)).
+   donde `$(tableName)` es el nombre de cada tabla en la lista de esquemas y `$(option)` es la fecha definida para la opción **NmsCleanup_BroadLogPurgeDelay** (consulte [asistente de implementación](#deployment-assistant)).
 
 1. Finalmente, el flujo de trabajo comprueba si existe la tabla **NmsProviderMsgId**. Si es así, todos los datos obsoletos se eliminan mediante la siguiente consulta:
 
@@ -472,7 +472,7 @@ Esta tarea permite depurar los &quot;logs&quot; de envío almacenados en varias 
    DELETE FROM NmsProviderMsgId WHERE iBroadLogId IN (SELECT iBroadLogId FROM NmsProviderMsgId WHERE tsCreated < $(option) LIMIT 5000)
    ```
 
-   donde `$(option)` coincide con la fecha definida para la opción **NmsCleanup_BroadLogPurgeDelay** (consulte [Asistente para implementación](#deployment-wizard)).
+   donde `$(option)` coincide con la fecha definida para la opción **NmsCleanup_BroadLogPurgeDelay** (consulte [asistente de implementación](#deployment-assistant)).
 
 ### Limpieza de la tabla NmsEmailErrorStat {#cleanup-of-the-nmsemailerrorstat-table-}
 
@@ -552,7 +552,7 @@ La lista de tablas de propuestas se recupera y se realiza una eliminación masiv
 DELETE FROM NmsPropositionXxx WHERE iPropositionId IN (SELECT iPropositionId FROM NmsPropositionXxx WHERE tsLastModified < $(option) LIMIT 5000) 
 ```
 
-donde `$(option)` es la fecha definida para la opción **NmsCleanup_PropositionPurgeDelay** (consulte [Asistente para implementación](#deployment-wizard)).
+donde `$(option)` es la fecha definida para la opción **NmsCleanup_PropositionPurgeDelay** (consulte [asistente de implementación](#deployment-assistant)).
 
 ### Limpieza de tablas de simulación {#cleanup-of-simulation-tables}
 
