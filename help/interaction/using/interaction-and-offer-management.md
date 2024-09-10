@@ -4,10 +4,10 @@ title: Interacción y gestión de ofertas
 description: Aprenda a enviar las mejores ofertas a sus contactos en función de las reglas de elegibilidad
 feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -6,10 +6,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
 workflow-type: tm+mt
 source-wordcount: '5959'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -245,11 +245,11 @@ Una descripción del envío es un conjunto estructurado de elementos (documentos
 Más información sobre el [Correo directo](../../delivery/using/about-direct-mail-channel.md).
 +++
 
-+++**Asistente de implementación**
++++**asistente de implementación**
 
 El asistente de implementación define los parámetros de la instancia de Campaign, como el área de nombres predeterminada, la programación de limpieza de la base de datos, los períodos de retención de datos y otra configuración técnica.
 
-Más información sobre el [Asistente de implementación](../../installation/using/deploying-an-instance.md#deployment-wizard).
+Más información sobre [asistente de implementación](../../installation/using/deploying-an-instance.md#deployment-assistant).
 +++
 
 +++**Análisis descriptivo**
@@ -484,7 +484,7 @@ Más información sobre la [Renderización de la bandeja de entrada](../../deliv
 
 +++**Configuraciones de instancia**
 
-Las configuraciones de instancia son detalles de configuración de una instancia de Adobe Campaign. Estas configuraciones se definen en el Asistente de implementación (Herramientas>Avanzadas>Asistente de implementación) o en los archivos de configuración del servidor o de la instancia.
+Las configuraciones de instancia son detalles de configuración de una instancia de Adobe Campaign. Estas configuraciones se definen en el asistente de implementación (Herramientas>Avanzadas>Asistente de implementación) o en los archivos de configuración del servidor o de la instancia.
 
 Más información sobre la [Configuración de instancia](../../installation/using/about-initial-configuration.md).
 
@@ -492,7 +492,7 @@ Más información sobre la [Configuración de instancia](../../installation/usin
 
 +++**Trabajos (importación y exportación)**
 
-Los trabajos se administran mediante un sistema de asistente que simplifica la importación y exportación de datos dentro y fuera del producto. Los trabajos utilizan el sistema de creación de plantillas para la simplicidad y la coherencia, y se pueden definir para que se ejecuten en una programación.
+Los trabajos se administran mediante un sistema asistente que simplifica la importación y exportación de datos dentro y fuera del producto. Los trabajos utilizan el sistema de creación de plantillas para la simplicidad y la coherencia, y se pueden definir para que se ejecuten en una programación.
 
 Más información sobre los [trabajos de importación y exportación](../../platform/using/get-started-data-import-export.md).
 +++

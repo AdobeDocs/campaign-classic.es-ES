@@ -6,10 +6,10 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 3307c75ed7df0fcd357dd7c684481c62e0457e04
+source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
 workflow-type: tm+mt
 source-wordcount: '2552'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -772,7 +772,7 @@ ht-degree: 100%
       + [Filtrado de esquemas](configuration/using/filtering-schemas.md)
       + [Restricción de la vista PII](configuration/using/restricting-pii-view.md)
       + [Actualización de la estructura de la base de datos](configuration/using/updating-the-database-structure.md)
-      + [Asistente de nuevo campo](configuration/using/new-field-wizard.md)
+      + [Nuevo asistente de campo](configuration/using/new-field-wizard.md)
       + [Estructura de un esquema de datos](configuration/using/structure-of-a-data-schema.md)
       + [Regeneración de esquemas](configuration/using/regenerating-schemas.md)
       + [Ejemplos de la edición de esquemas](configuration/using/examples-of-schemas-edition.md)
