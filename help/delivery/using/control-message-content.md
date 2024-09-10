@@ -6,7 +6,7 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: de6e86eb2304a88e836c5759b87d7f38446ed357
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 100%
@@ -14,7 +14,6 @@ ht-degree: 100%
 ---
 
 # Control del contenido de los mensajes{#control-message-content}
-
 
 Para asegurarse de que los mensajes de correo electrónico llegan a los destinatarios y mejoran la tasa de envío de correo electrónico, deben respetar una serie de reglas. De lo contrario, el contenido de ciertos mensajes puede detectarse como correo no deseado. Adobe Campaign proporciona varias herramientas para que el contenido cumpla con estas reglas.
 
@@ -36,7 +35,7 @@ Para obtener sugerencias adicionales para optimizar la capacidad de entrega al d
 
 Algunos ISP verifican la validez de la dirección del remitente (**[!UICONTROL From]**) antes de aceptar mensajes. Una dirección mal formada puede hacer que el servidor receptor la rechace.
 
-Debe asegurarse de proporcionar una dirección correcta en el nivel de instancia (menú **[!UICONTROL Tools > Advanced > Deployment wizard...]**) o en los escenarios más utilizados.
+Debe asegurarse de proporcionar una dirección correcta en el nivel de instancia (menú **[!UICONTROL Tools > Advanced > deployment wizard...]**) o en los escenarios más utilizados.
 
 Para obtener más información sobre esto, consulte [esta página](defining-the-email-content.md).
 
