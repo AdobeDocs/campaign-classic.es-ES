@@ -5,7 +5,7 @@ description: Configuración
 feature: Monitoring, Configuration
 badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 7906e9fee164d731659bbb9f96394faca5961240
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 7%
@@ -26,7 +26,7 @@ Una vez configurada, todos los módulos de Adobe Campaign tienen en cuenta esta 
 
 Edite el archivo **customer.sh** y agregue la línea siguiente:
 
-```
+```sql
 export TRACE_ADDR=localhost:<listening port>
 ```
 
