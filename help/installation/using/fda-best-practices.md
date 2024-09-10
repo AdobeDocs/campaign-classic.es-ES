@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 586456f27dbc039ecb39cc8bd1f6dbdf8af823be
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 37%
+source-wordcount: '456'
+ht-degree: 29%
 
 ---
 
@@ -38,11 +38,13 @@ En varias actividades de flujo de trabajo de Adobe Campaign, puede utilizar los 
 
 * **Agregar información y vínculos** - La actividad [Enriquecimiento](../../workflow/using/enrichment.md) le permite agregar datos adicionales a la tabla de trabajo del flujo de trabajo y vínculos a una tabla externa. En este contexto, puede utilizar datos de una base de datos externa. Obtenga más información en [esta página](../../workflow/using/enrichment.md).
 
-## Limitaciones de FDA {#limitations}
+## Mecanismos de protección y limitaciones {#fda-limitations}
 
-La opción FDA se realiza para manipular los datos en bases de datos externas en modo de lote en los flujos de trabajo. Para evitar problemas de rendimiento, no se recomienda utilizar el módulo FDA en el contexto de operaciones unitarias, como: personalización, interacción, mensajería en tiempo real, etc.
+La opción FDA está diseñada para manipular los datos en bases de datos externas en modo de lote en los flujos de trabajo. Para evitar problemas de rendimiento, no se recomienda utilizar el módulo FDA en el contexto de operaciones unitarias, como: personalización, interacción, mensajería en tiempo real, etc.
 
-Evite en la medida de lo posible las operaciones que requieran utilizar tanto Adobe Campaign como la base de datos externa. Para ello, puede hacer lo siguiente:
+No se admiten los datos de destino de una base de datos y el filtrado de los resultados mediante una dimensión de filtrado que pertenezca a otra base de datos. No se pueden combinar tablas que estén en diferentes orígenes de datos en una consulta. Puede superar esta limitación utilizando otras actividades de flujo de trabajo como Change dimension.
+
+Evite en la medida de lo posible las operaciones que requieran utilizar tanto Adobe Campaign como la base de datos externa. La práctica recomendada es:
 
 * Exporte la base de datos de Adobe Campaign a la base de datos externa y ejecute las operaciones solo desde la base de datos externa antes de volver a importar los resultados en Adobe Campaign.
 
