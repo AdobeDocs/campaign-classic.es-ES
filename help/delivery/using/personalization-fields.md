@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Personalization
 role: User
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: 0cf7f249f366a6ef0e9bd0326ec14131fcf7dc18
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ Después de seleccionar una fuente de datos (campos de destinatario o campo de a
 Se crea un correo electrónico en el que primero debe insertar el nombre del destinatario y, a continuación, se añade la fecha de creación del perfil en el cuerpo del mensaje. Para ello:
 
 1. Cree una nueva entrega o abra una entrega de tipo correo electrónico ya existente.
-1. En el asistente de envíos, haga clic en **[!UICONTROL Subject]** para editar el asunto del mensaje y escriba un asunto.
+1. En el asistente de envío, haga clic en **[!UICONTROL Subject]** para editar el asunto del mensaje y escriba un asunto.
 1. Introduzca &quot; **[!UICONTROL Special offer for]** &quot; y utilice el botón de la barra de herramientas para insertar un campo de personalización. Seleccione **[!UICONTROL Recipients>Title]**.
 
    ![](assets/s_ncs_user_insert_custom_field.png)

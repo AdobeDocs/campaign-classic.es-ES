@@ -7,10 +7,10 @@ feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 La herramienta de consulta de Adobe Campaign se encuentra en varios niveles del software: para crear una población objetivo, segmentar clientes, extraer y filtrar logs de seguimiento, crear filtros, etc.
 
-La herramienta de consulta de Adobe Campaign le permite consultar una base de datos utilizando un asistente dedicado: el editor de consultas genérico. Se accede a través del menú **[!UICONTROL Tools > Generic query editor...]**. Permite extraer información almacenada en una base de datos y organizar, agrupar, ordenar, etc. Por ejemplo, el usuario puede recuperar los destinatarios que han hecho clic un determinado número de veces en el vínculo de un boletín durante un periodo determinado. Esta herramienta le permite recopilar, ordenar y mostrar los resultados según sus necesidades.
+La herramienta de consulta Adobe Campaign le permite consultar una base de datos utilizando un asistente dedicado: el editor de consultas genérico. Se accede a través del menú **[!UICONTROL Tools > Generic query editor...]**. Permite extraer información almacenada en una base de datos y organizar, agrupar, ordenar, etc. Por ejemplo, el usuario puede recuperar los destinatarios que han hecho clic un determinado número de veces en el vínculo de un boletín durante un periodo determinado. Esta herramienta le permite recopilar, ordenar y mostrar los resultados según sus necesidades.
 
 Esta herramienta combina todas las posibilidades de consultas de Adobe Campaign. Por ejemplo, le permite crear y guardar filtros de restricción. Esto significa que un filtro de usuario creado en el editor de consultas genérico se puede utilizar en el cuadro de consulta de un flujo de trabajo de objetivos, etc.
 

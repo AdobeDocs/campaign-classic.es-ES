@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 1%
@@ -49,7 +49,7 @@ Para crear una nueva instancia, seguir los pasos siguientes:
    >Para el URL de conexión, utilice únicamente los siguientes caracteres: `[a-z]`, `[A-Z]`, `[0-9]` y guiones (-) o puntos.
 
 1. Haga clic **[!UICONTROL Ok]** para confirmar la configuración: ahora puede comenzar con el proceso de creación de instancia.
-1. En la **[!UICONTROL Connection settings]** ventana, introduzca el **inicio de sesión interno** y su contraseña para conectarse al servidor Adobe Campaign aplicación. Una vez conectado, accede al asistente de creación de instancia para declarar un nuevo instancia
+1. En la **[!UICONTROL Connection settings]** ventana, introduzca el **inicio de sesión interno** y su contraseña para conectarse al servidor Adobe Campaign aplicación. Una vez conectado, accedes al asistente de creación de instancia para declarar un nuevo instancia
 1. En el **[!UICONTROL Name]** campo, introduzca el nombre del **instancia**. Como este nombre se utiliza para generar un archivo **de configuración config-`<instance>`.xml** y se utiliza en los parámetros de línea de comandos para identificar el instancia, asegúrese de elegir un nombre corto sin caracteres especiales. Por ejemplo: **eMarketing**.
 
    ![](assets/s_ncs_install_create_instance.png)
@@ -62,9 +62,9 @@ Para crear una nueva instancia, seguir los pasos siguientes:
 
    Puede definir una lista de valores separados por comas.
 
-   ¿El? y &#42; los caracteres pueden utilizarse como comodines para sustituir uno o varios caracteres (DNS, puerto, etcetera.). Por instancia, el valor de la **demostración&#42;** funcionará con &quot;https://demo&quot; como lo hará con &quot;https://demo:8080&quot; y igualado con &quot;https://demo2&quot;.
+   ¿El? y &#42; los caracteres se pueden utilizar como comodines para reemplazar uno o varios caracteres (DNS, puerto, etc.). Por instancia, el valor de la **demostración&#42;** funcionará con &quot;https://demo&quot; como lo hará con &quot;https://demo:8080&quot; y igualado con &quot;https://demo2&quot;.
 
-   Los nombres utilizados deben definirse en su DNS. También puede informar la correspondencia entre un nombre DNS y una dirección IP en el **archivo c:/windows/system32/drivers/etcetera/hosts** en Windows y en el **archivo /etcetera/hosts** en Linux. Por lo tanto, debe modificar la configuración de conexión para usar este nombre DNS con el fin de conectarse a su instancia elegido.
+   Los nombres utilizados deben definirse en su DNS. También puede informar la correspondencia entre un nombre DNS y una dirección IP en el **archivo c:/windows/system32/drivers/etc/hosts** en Windows y en el **archivo /etc/hosts** en Linux. Por lo tanto, debe modificar la configuración de conexión para usar este nombre DNS con el fin de conectarse a su instancia elegido.
 
    El servidor debe identificarse con este nombre, especialmente para cargar imágenes en correos electrónicos.
 

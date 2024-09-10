@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: 8fbfc211c4e791b324c34d3d180daa7597c00c7f
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Con Adobe Campaign, puede enviar campañas en canales múltiples incluidos correos electrónicos, SMS, mensajes LINE, notificaciones push y correo postal y medir su eficacia mediante varios [informes](../../reporting/using/delivery-reports.md) dedicados. Estos mensajes están diseñados y enviados por medio de envíos y pueden personalizarse para cada destinatario.
 
-Las funciones principales incluyen establecimiento de objetivos, definición y personalización de mensajes, ejecución de comunicaciones y los informes operativos asociados. El punto de acceso funcional principal es el asistente de envío. Este punto de acceso lleva a varias funciones incluidas en Adobe Campaign.
+Las funciones principales incluyen direccionamiento, definición y personalización de mensajes, ejecución de comunicaciones y los informes operativos asociados. El punto de acceso funcional principal es el asistente de entrega. Este punto de acceso lleva a varias funciones incluidas en Adobe Campaign.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Los envíos se pueden realizar **en línea** (por correo electrónico, uno de lo
 Dependiendo del canal, los modos de envío pueden ser:
 
 * Envío directo mediante Adobe Campaign (modo predeterminado del canal por correo electrónico).
-* Envío externo a través de un operador especializado que recibe el archivo de salida generado por el asistente de envío (modo predeterminado del canal por correo postal).
+* Envío externo a través de un operador especializado que recibe el archivo de salida generado por el asistente de envío (modo predeterminado del canal de correo postal).
 
 Las cuentas externas se configuran mediante el nodo **[!UICONTROL Administration > Platform > External accounts]**. Esta configuración solo deben realizarla usuarios expertos.
 

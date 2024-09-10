@@ -4,10 +4,10 @@ title: 'Campaign: Conector CRM de Microsoft Dynamics'
 description: Obtenga información sobre cómo conectar Campaign y Microsoft Dynamics
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ En Microsoft Dynamics CRM:
 En Campaign Classic:
 1. Cree una nueva cuenta externa
 1. Configure la cuenta externa con la configuración de Microsoft Dynamics
-1. Utilice el asistente de configuración para asignar tablas y sincronizar listas desglosadas
+1. Utilice el asistente de configuración para asignar tablas y sincronizar enumeraciones
 1. Cree el flujo de trabajo de sincronización
 
 [Obtenga más información en esta sección](#configure-acc-for-microsoft)
@@ -169,7 +169,7 @@ Para conectar Microsoft Dynamics 365 y Campaign, debe crear y configurar una cue
 
    ![](assets/crm-ms-dynamics-ext-account.png)
 
-1. Haga clic en el vínculo **[!UICONTROL Microsoft CRM configuration wizard...]**. Adobe Campaign detecta automáticamente las tablas de la plantilla de datos de Microsoft Dynamics.
+1. Haga clic en el vínculo **[!UICONTROL Microsoft CRM configuration assistant...]**. Adobe Campaign detecta automáticamente las tablas de la plantilla de datos de Microsoft Dynamics.
 
    ![](assets/crm_connectors_msdynamics_02.png)
 

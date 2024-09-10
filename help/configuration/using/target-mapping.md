@@ -6,7 +6,7 @@ feature: Application Settings
 role: Data Engineer, Developer
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 38333669-5598-4811-a121-b677c1413f56
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 4%
@@ -83,7 +83,7 @@ Para ello, siga los siguientes pasos:
    ```
 
 1. Haga clic en el nodo **[!UICONTROL Administration > Campaign management > Target mappings]**.
-1. Haga clic en el botón **Nuevo** para abrir el asistente para la creación de asignaciones de destino.
+1. Haga clic en el botón **Nuevo** para abrir el asistente de creación de asignaciones de destino.
 1. Introduzca el campo **Label** y seleccione el esquema que acaba de crear en el campo **Targeting dimension**.
 
    ![](assets/mapping_diffusion_wizard_1.png)

@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1757'
-ht-degree: 59%
+ht-degree: 58%
 
 ---
 
@@ -45,7 +45,7 @@ La cuenta externa se crea y se agrega a la lista de cuentas externas.
 
 ## Cuentas externas específicas de la campaña
 
-### Correos devueltos {#bounce-mails-external-account}
+### Correos rechazados {#bounce-mails-external-account}
 
 La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Para obtener más información sobre esta cuenta externa, consulte esta [página](../../workflow/using/inbound-emails.md).
 
@@ -406,7 +406,7 @@ Para configurar la cuenta externa de Salesforce CRM para que funcione con Adobe 
 
   Seleccione la versión de la API.
 
-Para esta cuenta externa, debe configurar Salesforce CRM con el asistente para configuración.
+Para esta cuenta externa, debe configurar Salesforce CRM con el asistente de configuración.
 
 Para obtener más información sobre esta configuración, consulte esta [página](../../platform/using/crm-connectors.md).
 

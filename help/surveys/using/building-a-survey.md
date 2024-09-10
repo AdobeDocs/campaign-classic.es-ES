@@ -5,7 +5,7 @@ description: Aprenda los pasos clave para diseñar una encuesta
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 100%
@@ -34,7 +34,7 @@ Las páginas del formulario se crean utilizando un editor especial que permite d
 
 ## Adición de campos {#adding-fields}
 
-Los campos de un formulario permiten a los usuarios introducir información y seleccionar opciones. Se crean mediante el primer botón de la barra de herramientas de cada página del formulario, con el menú **[!UICONTROL Add using the wizard]**.
+Los campos de un formulario permiten a los usuarios introducir información y seleccionar opciones. Se crean mediante el primer botón de la barra de herramientas de cada página del formulario, con el menú **[!UICONTROL Add using the assistant]**.
 
 ![](assets/s_ncs_admin_survey_add_field_menu.png)
 

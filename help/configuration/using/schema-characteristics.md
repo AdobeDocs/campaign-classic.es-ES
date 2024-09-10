@@ -6,7 +6,7 @@ feature: Custom Resources
 role: Data Engineer, Developer
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 4%
@@ -29,7 +29,7 @@ Las características de un esquema que hace referencia a una tabla existente son
 
 ## Atributo de vista {#the-view-attribute}
 
-Los esquemas de Source aceptan el atributo **view** para el elemento raíz **srcSchema**. Debe utilizarse cuando se manipula Adobe Campaign en tablas personalizadas. El atributo **view=&quot;true&quot;** indica al asistente de actualización de estructura de la base de datos que ignore este esquema. Por lo tanto, la aplicación no puede sincronizar la tabla, sus columnas y sus índices con el esquema correspondiente.
+Los esquemas de Source aceptan el atributo **view** para el elemento raíz **srcSchema**. Debe utilizarse cuando se manipula Adobe Campaign en tablas personalizadas. El atributo **view=&quot;true&quot;** indica al asistente de actualización de la estructura de la base de datos que ignore este esquema. Por lo tanto, la aplicación no puede sincronizar la tabla, sus columnas y sus índices con el esquema correspondiente.
 
 Cuando este atributo se establece en **true**, el esquema solo se usa para generar consultas SQL con el fin de acceder a los datos de esta tabla.
 

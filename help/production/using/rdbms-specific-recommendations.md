@@ -8,7 +8,7 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: 0654046f7e8271377e38b21a7b2e48f3859353f0
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 4%
@@ -417,7 +417,7 @@ Póngase en contacto con el administrador de la base de datos para conocer los p
 El ejemplo siguiente se refiere a Microsoft SQL Server 2005. Si utiliza otra versión, póngase en contacto con el administrador de la base de datos para conocer los procedimientos de mantenimiento.
 
 1. En primer lugar, conéctese a Microsoft SQL Server Management Studio con un inicio de sesión con derechos de administrador.
-1. Vaya a la carpeta **[!UICONTROL Management > Maintenance Plans]**, haga clic con el botón derecho en ella y elija **[!UICONTROL Maintenance Plan Wizard]**.
+1. Vaya a la carpeta **[!UICONTROL Management > Maintenance Plans]**, haga clic con el botón derecho en ella y elija **[!UICONTROL Maintenance Plan Assistant]**.
 1. Haga clic en **[!UICONTROL Next]** cuando aparezca la primera página.
 1. Seleccione el tipo de plan de mantenimiento que desea crear (programas independientes para cada tarea o un solo programa para todo el plan) y, a continuación, haga clic en el botón **[!UICONTROL Change...]**.
 1. En la ventana **[!UICONTROL Job schedule properties]**, seleccione la configuración de ejecución que desee, haga clic en **[!UICONTROL OK]** y luego haga clic en **[!UICONTROL Next]**.

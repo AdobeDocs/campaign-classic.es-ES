@@ -4,7 +4,7 @@ title: Personalización y privacidad
 description: Conozca las prácticas recomendadas de seguridad para la privacidad y personalización
 feature: Installation, Privacy, Privacy Tools, URL Personalization
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 11%

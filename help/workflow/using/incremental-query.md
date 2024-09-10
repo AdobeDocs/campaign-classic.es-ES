@@ -4,7 +4,7 @@ title: Consulta incremental
 description: Descubra más información sobre la actividad del flujo de trabajo Consulta incremental
 feature: Workflows, Targeting Activity
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Para ello:
 1. En la pestaña **[!UICONTROL Scheduling & History]** , seleccione la opción **[!UICONTROL Schedule execution]** . La tarea permanece activa una vez que se ha creado y solo se activará en los tiempos especificados por la programación para ejecutar la consulta. Sin embargo, si la opción está desactivada, la consulta se ejecuta inmediatamente **y en una misma vez**.
 1. Haga clic en el botón **[!UICONTROL Change]**.
 
-   En la ventana **[!UICONTROL Schedule editing wizard]** puede configurar el tipo de frecuencia, la periodicidad del evento y el periodo de validez del evento.
+   En la ventana **[!UICONTROL Schedule editing assistant]** puede configurar el tipo de frecuencia, la periodicidad del evento y el periodo de validez del evento.
 
    ![](assets/s_user_segmentation_wizard_11.png)
 

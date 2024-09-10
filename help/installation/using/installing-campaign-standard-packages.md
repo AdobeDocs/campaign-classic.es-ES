@@ -5,10 +5,10 @@ description: Obtenga información sobre cómo instalar paquetes integrados de Ca
 feature: Installation, Application Settings
 badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -32,7 +32,7 @@ Los paquetes integrados contienen un conjunto de funciones que se pueden instala
 
 Para instalar un paquete integrado:
 
-1.  En la consola de cliente de Adobe Campaign, acceda al asistente de importación del paquete desde **[!UICONTROL Tools > Advanced > Import package]**.
+1. Acceda al asistente de importación de paquetes desde **[!UICONTROL Tools > Advanced > Import package]** en la consola del cliente de Adobe Campaign.
 1. Seleccione **[!UICONTROL Install a standard package]**.
 1. En la lista de paquetes, marque los paquetes que desea instalar.
    >[!NOTE]

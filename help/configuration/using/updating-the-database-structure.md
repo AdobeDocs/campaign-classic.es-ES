@@ -5,7 +5,7 @@ description: Actualización de la estructura de la base de datos
 feature: Configuration
 role: Data Engineer, Developer
 exl-id: 6c1e061b-8636-4285-8d83-97474544d252
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 8%
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 
 
-Para aplicar las modificaciones realizadas a los esquemas, inicie el asistente de actualización de bases de datos. Se puede acceder a este asistente a través de **[!UICONTROL Tools > Advanced > Update database structure]** Comprueba si la estructura física de la base de datos coincide con su descripción lógica y ejecuta los scripts de actualización de SQL.
+Para aplicar las modificaciones realizadas en los esquemas, inicie el asistente de actualización de la base de datos. Se puede acceder a este asistente mediante **[!UICONTROL Tools > Advanced > Update database structure]** Comprueba si la estructura física de la base de datos coincide con su descripción lógica y ejecuta los scripts de actualización de SQL.
 
 ![](assets/d_ncs_integration_schema_update.png)
 

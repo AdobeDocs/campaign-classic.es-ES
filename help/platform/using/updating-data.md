@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
-source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -38,11 +38,11 @@ Existen dos tipos de actualizaciones: actualización masiva para un conjunto de 
 
 Para la actualización masiva, utilice **[!UICONTROL Action > Mass update of selected lines...]**. El asistente le ayuda a configurar y ejecutar la actualización.
 
-El primer paso del asistente es especificar los campos que se actualizarán.
+El primer paso del asistente es especificar los campos que se van a actualizar.
 
 La sección izquierda del asistente muestra la lista de campos disponibles. Utilice el campo **[!UICONTROL Find]** para ejecutar una búsqueda de estos campos. Pulse la tecla **Intro** para examinar la lista. Los nombres de campo que coinciden con su entrada aparecen en negrita, como se muestra a continuación.
 
-Haga doble clic en los campos que desee actualizar para mostrarlos en la sección derecha del asistente.
+Haga doble clic en los campos que desea actualizar para mostrarlos en la sección derecha del asistente.
 
 ![](assets/s_ncs_user_update_wizard01_1.png)
 

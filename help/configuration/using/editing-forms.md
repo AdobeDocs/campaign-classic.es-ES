@@ -6,7 +6,7 @@ feature: Configuration
 role: Data Engineer, Developer
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1707'
 ht-degree: 3%
@@ -57,7 +57,7 @@ Puede crear diferentes tipos de formularios de entrada. El tipo de formulario de
 
   ![](../../delivery/using/assets/d_ncs_content_form13.png)
 
-* Asistente
+* Ayudante
 
   Este formulario consta de varias pantallas flotantes ordenadas en una secuencia específica. Los usuarios navegan de una pantalla a otra. [Más información](form-structure.md#wizards).
 

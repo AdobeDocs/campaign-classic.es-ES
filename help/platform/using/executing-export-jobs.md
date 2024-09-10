@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -25,7 +25,7 @@ Por ejemplo: puede resultar útil utilizar datos de seguimiento de campañas (hi
 
 El asistente de exportación permite configurar una exportación, definir sus opciones e iniciar la ejecución. Es una serie de pantallas cuyo contenido depende del tipo de exportación (simple o múltiple) y de los derechos del operador.
 
-El asistente de exportación se muestra después de crear un nuevo trabajo de exportación (consulte [Creación de trabajos de importación y exportación](../../platform/using/creating-import-export-jobs.md).
+El asistente de exportación se muestra después de crear un nuevo trabajo de exportación (consulte [Crear trabajos de importación y exportación](../../platform/using/creating-import-export-jobs.md).
 
 ## Paso 1: Selección de la plantilla de exportación {#step-1---choosing-the-export-template}
 
@@ -125,7 +125,7 @@ Haga clic en **[!UICONTROL Start the preview of the data]** para obtener una pre
 
 ![](assets/s_ncs_user_export_wizard07.png)
 
-Haga clic en las pestañas en la parte inferior del asistente para cambiar de la vista previa de los resultados en columnas a los resultados en xml. También puede ver las consultas SQL generadas.
+Haga clic en las pestañas en la parte inferior del asistente para cambiar de la vista previa de los resultados en columnas a los resultados en XML. También puede ver las consultas SQL generadas.
 
 ## Paso 9: Inicio de la exportación {#step-9---launching-the-export}
 

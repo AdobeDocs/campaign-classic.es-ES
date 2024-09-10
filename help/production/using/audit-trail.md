@@ -4,7 +4,7 @@ title: Pista de auditoría
 description: Obtenga información sobre cómo monitorizar la instancia con la pista de auditoría de Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 10%
@@ -78,7 +78,7 @@ Para acceder a **[!UICONTROL Audit trail]** de su instancia:
 
 >[!NOTE]
 >
->De manera predeterminada, el período de retención se establece en 180 días para **[!UICONTROL Audit logs]** Para obtener más información sobre cómo cambiar el período de retención, consulte esta [página](../../production/using/database-cleanup-workflow.md#deployment-wizard).
+>De manera predeterminada, el período de retención se establece en 180 días para **[!UICONTROL Audit logs]** Para obtener más información sobre cómo cambiar el período de retención, consulte esta [página](../../production/using/database-cleanup-workflow.md#deployment-assistant).
 
 ## Habilitar/deshabilitar pista de auditoría {#enable-disable-audit-trail}
 

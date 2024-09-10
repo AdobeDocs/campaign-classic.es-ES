@@ -5,10 +5,10 @@ description: Validación
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Direct Mail
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ La confirmación de la entrega inicia la extracción de datos en el archivo espe
 
 ![](assets/s_ncs_user_postal_del_send_confirm_postal.png)
 
-A continuación, puede cerrar el asistente y ver los “logs” de envío a través de la pestaña **[!UICONTROL Delivery]**, a la que se puede acceder a través de los detalles de envío.
+A continuación, puede cerrar el asistente y ver los registros de envío a través de la pestaña **[!UICONTROL Delivery]**, a la que se puede acceder a través de los detalles de envío.
 
 Se puede configurar el modo de recuperación de “logs” de envío desde la pestaña **[!UICONTROL Analysis]** de las propiedades de envío.
 

@@ -5,10 +5,10 @@ description: Configuración del acceso al informe
 feature: Reporting, Monitoring
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -126,7 +126,7 @@ Para obtener más información sobre esta configuración, consulte la sección d
 
 La publicación del informe es obligatoria para poder compartirlo con otros operadores y mostrarlo en la lista de informes disponibles (también consulte [Informe de contexto de visualización](#report-display-context)). Esta operación debe llevarse a cabo cada vez que se modifica el informe.
 
-1. Abra el asistente de publicación haciendo clic en **[!UICONTROL Publish]**.
+1. Abra el asistente de publicación haciendo clic en **[!UICONTROL Publish]** en la barra de herramientas.
 
    ![](assets/s_ncs_advuser_report_publish_01.png)
 

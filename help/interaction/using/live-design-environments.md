@@ -7,10 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -33,7 +33,7 @@ De forma predeterminada, la interacción viene con un entorno **[!UICONTROL Desi
 
 >[!NOTE]
 >
->Para dirigirse a otra tabla (tabla de visitante para ofertas anónimas o una tabla de destinatarios específica), debe utilizar el asistente de asignación de destino para crear los entornos. Para obtener más información, consulte [Creación de un entorno de ofertas](#creating-an-offer-environment).
+>Para dirigirse a otra tabla (tabla de visitante para ofertas anónimas o a una tabla de destinatarios específica), debe utilizar el asistente de asignación de destino para crear los entornos. Para obtener más información, consulte [Creación de un entorno de ofertas](#creating-an-offer-environment).
 
 ![](assets/offer_environments_overview_002.png)
 

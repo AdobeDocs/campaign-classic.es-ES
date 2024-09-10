@@ -6,16 +6,16 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Monitoring, Email Design, Personalization
 role: User
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Configuración de las opciones de seguimiento de URL{#personalizing-url-tracking}
 
-Es posible acceder a los ajustes avanzados de seguimiento de mensajes mediante el icono **[!UICONTROL Tracking & Images]** de la barra de herramientas del asistente de envío.
+Se puede acceder a la configuración avanzada de seguimiento de mensajes a través del icono **[!UICONTROL Tracking & Images]** en la barra de herramientas del asistente de envío.
 
 >[!NOTE]
 >

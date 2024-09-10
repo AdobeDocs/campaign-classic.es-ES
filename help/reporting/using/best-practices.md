@@ -5,10 +5,10 @@ description: Prácticas recomendadas para la creación de informes de Campaign
 feature: Reporting, Monitoring
 badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ Para optimizar la creación, el uso y la duración de un informe, debe revisar l
    * Exportar datos de la base de datos de Adobe Campaign (a través de un flujo de trabajo, consulte [esta sección](../../workflow/using/about-workflows.md)).
    * Cree una tabla dinámica. Obtenga más información [en esta sección](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
    * Explorar datos agregados. Obtenga más información [en esta sección](../../reporting/using/ac-cubes.md)
-   * Utilice un asistente para analizar los datos. Obtenga más información [en esta sección](../../reporting/using/about-descriptive-analysis.md)
+   * Utilizar un asistente para analizar los datos. Obtenga más información [en esta sección](../../reporting/using/about-descriptive-analysis.md)
    * Analice grandes volúmenes de datos. Obtenga más información [en esta sección](../../reporting/using/about-reports-creation-in-campaign.md)
 
 1. Identificación de la población objetivo

@@ -5,7 +5,7 @@ description: Ejemplos de la edición de esquemas
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 2%
@@ -72,7 +72,7 @@ Para ampliar la tabla de destinatarios del esquema **nms:recipient**, siga el si
    </schema>
    ```
 
-   El script SQL generado desde el asistente de actualización de bases de datos es el siguiente:
+   El script SQL generado desde el asistente de actualización de la base de datos es el siguiente:
 
    ```
    ALTER TABLE NmsRecipient ADD iFidelity INTEGER;

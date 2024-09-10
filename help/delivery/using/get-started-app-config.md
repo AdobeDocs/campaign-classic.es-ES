@@ -5,10 +5,10 @@ description: Obtenga información sobre cómo iniciar la configuración de la ap
 feature: Push
 role: User, Developer
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -46,7 +46,7 @@ Como cliente on-premise, debe instalar un paquete integrado.
 
 Los pasos de instalación son estos:
 
-1.  En la consola de cliente de Adobe Campaign, acceda al asistente de importación del paquete desde **[!UICONTROL Tools > Advanced > Import package]**.
+1. Acceda al asistente de importación de paquetes desde **[!UICONTROL Tools > Advanced > Import package]** en la consola del cliente de Adobe Campaign.
 
    ![](assets/package_ios.png)
 

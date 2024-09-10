@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo definir funciones SQL adicionales
 feature: Configuration, Instance Settings
 role: Data Engineer, Developer
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Una vez añadidas estas funciones, aparecen en el editor de expresiones como otr
 
 Las funciones que se van a agregar están en un archivo &quot;package&quot; de **en formato XML**, cuya estructura se detalla en el párrafo siguiente.
 
-Para instalarlo desde la consola, seleccione las opciones **Herramientas/Avanzadas/Importar paquete** del menú, luego **[!UICONTROL Install from file]** y siga las instrucciones del asistente para importar.
+Para instalarlo desde la consola, seleccione las opciones **Herramientas/Avanzadas/Importar paquete** del menú, luego **[!UICONTROL Install from file]** y siga las instrucciones del asistente de importación.
 
 >[!IMPORTANT]
 >

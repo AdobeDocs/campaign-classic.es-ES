@@ -5,10 +5,10 @@ description: '“Caso de uso: creación de administración de contenido”'
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1192'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -382,7 +382,7 @@ Ahora se puede crear contenido basado en esta plantilla de publicación.
 >
 >Para obtener más información sobre la creación de contenidos, consulte [Uso de una plantilla de contenido](using-a-content-template.md).
 
-### Creación de contenido en el asistente de envíos {#creating-content-in-the-delivery-wizard}
+### Creación de contenido en el asistente de envíos {#creating-content-in-the-delivery-assistant}
 
 Para crear contenido directamente en los envíos, aplique los pasos siguientes:
 
@@ -390,7 +390,7 @@ Para crear contenido directamente en los envíos, aplique los pasos siguientes:
 
    ![](assets/s_ncs_content_in_delivery.png)
 
-   Se agrega una pestaña adicional al asistente de envíos para definir el contenido a través del formulario del gestor de contenido.
+   Se añade una pestaña adicional al asistente de envíos para definir el contenido a través del formulario de gestión de contenido.
 
 1. Introduzca la información variable del boletín informativo.
 

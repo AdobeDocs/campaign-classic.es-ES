@@ -5,10 +5,10 @@ description: Aprenda a crear notificaciones push para iOS
 feature: Push
 role: User, Developer, Data Engineer
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ Para crear una notificación push para dispositivos iOS, siga los pasos a contin
 
 1. Puede añadir un **[!UICONTROL Subtitle]**, valor del parámetro subtítulo de la carga útil de notificación de iOS. Consulte [esta sección](configuring-the-mobile-application.md).
 
-1. Introduzca el contenido del mensaje en la sección **[!UICONTROL Message content]** del asistente. El uso de los campos de personalización se presenta en la sección [Acerca de la personalización](about-personalization.md).
+1. Escriba el contenido del mensaje en la sección **[!UICONTROL Message content]** del asistente. El uso de los campos de personalización se presenta en la sección [Acerca de la personalización](about-personalization.md).
 
    ![](assets/nmac_delivery_ios_5.png)
 

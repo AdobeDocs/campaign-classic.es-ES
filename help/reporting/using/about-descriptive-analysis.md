@@ -5,10 +5,10 @@ description: Introducción al análisis descriptivo
 feature: Reporting, Monitoring
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 100%
+ht-degree: 70%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Para producir estadísticas sobre los datos de la base de datos, cree informes de análisis descriptivo con el asistente dedicado y ajuste su contenido y presentación para adaptarlos a sus necesidades.
+Para generar estadísticas sobre los datos de la base de datos, cree informes de análisis descriptivo con el asistente dedicado y adapte su contenido y presentación para adaptarlos a sus necesidades.
 
 Estos informes hacen referencia a las poblaciones y deben utilizarse únicamente para analizar volúmenes de datos pequeños.
 
@@ -38,7 +38,7 @@ Los análisis cuantitativos proporcionan estadísticas generales sobre los datos
 
 ![](assets/reporting_descriptive_quantitative_sample.png)
 
-Estos informes se crean mediante el asistente de análisis descriptivo, que, según diversos pasos, le permite elegir el tipo de informe que desea crear, así como los datos y el diseño. El informe se muestra en el último paso. Si es necesario, el informe se puede publicar y compartir con otros operadores, imprimir o exportar en formato Excel, PDF u OpenDocument.
+Estos informes se crean mediante el asistente de análisis descriptivo, que, según varios pasos, le permite elegir el tipo de informe que desea crear, así como los datos y el diseño. El informe se muestra en el último paso. Si es necesario, el informe se puede publicar y compartir con otros operadores, imprimir o exportar en formato Excel, PDF u OpenDocument.
 
 Los asistentes de análisis descriptivos no son tan potentes como los informes de Adobe Campaign, pero ofrecen una visión general del contenido de la base de datos o una selección de datos.
 

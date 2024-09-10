@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Monitoring
 role: User, Data Engineer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1186'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ La pestaña **[!UICONTROL Tracking]** enumera el historial de seguimiento de est
 >
 >Si el seguimiento no está habilitado para una entrega, esta pestaña no se muestra.
 
-La configuración de seguimiento se realiza en el escenario adecuado del asistente de entregas. Consulte [Configuración de los vínculos rastreados](how-to-configure-tracked-links.md).
+La configuración de seguimiento se realiza en el escenario adecuado del asistente de envíos. Consulte [Configuración de los vínculos rastreados](how-to-configure-tracked-links.md).
 
 Los datos de **[!UICONTROL Tracking]** se interpretan en los informes de entrega. Consulte [esta sección](../../reporting/using/delivery-reports.md).
 

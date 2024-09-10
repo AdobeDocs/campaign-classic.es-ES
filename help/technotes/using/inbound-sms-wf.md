@@ -4,7 +4,7 @@ title: Actividad de flujo de trabajo de SMS entrante para infraestructura interm
 description: Actividad de flujo de trabajo de SMS entrante para infraestructura intermediaria
 feature: Technote, SMS
 exl-id: 756039b2-5f57-4dc5-8166-a421206b886b
-source-git-commit: 5c42ff45b4d0bc4d61f4fccdba4518801ea4c9da
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 5%
@@ -35,7 +35,7 @@ ht-degree: 5%
    </element>
    ```
 
-1. Para aplicar las modificaciones realizadas a los esquemas, inicie el asistente de actualización de bases de datos. Se puede acceder a este asistente a través de **Herramientas** > **Avanzadas** > **Actualizar estructura de base de datos**. Comprueba si la estructura física de la base de datos coincide con su descripción lógica y ejecuta los scripts de actualización de SQL. [Más información](../../configuration/using/updating-the-database-structure.md)
+1. Para aplicar las modificaciones realizadas en los esquemas, inicie el asistente de actualización de la base de datos. Se puede acceder a este asistente a través de **Herramientas** > **Avanzadas** > **Actualizar estructura de base de datos**. Comprueba si la estructura física de la base de datos coincide con su descripción lógica y ejecuta los scripts de actualización de SQL. [Más información](../../configuration/using/updating-the-database-structure.md)
 
 1. Detenga y haga una copia de seguridad del flujo de trabajo que contiene la **actividad de SMS entrante**.
 

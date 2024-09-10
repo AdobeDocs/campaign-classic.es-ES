@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Personalization
 role: User
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -71,7 +71,7 @@ Para ello, es necesario insertar los siguientes bloques personalizados:
 >Para obtener más información sobre la generación de páginas espejo, consulte [Generación de la página espejo](sending-messages.md#generating-the-mirror-page).
 
 1. Cree una nueva entrega o abra una entrega de tipo correo electrónico ya existente.
-1. En el asistente de envíos, haga clic en **[!UICONTROL Subject]** para editar el asunto del mensaje y escriba un asunto.
+1. En el asistente de envío, haga clic en **[!UICONTROL Subject]** para editar el asunto del mensaje y escriba un asunto.
 1. Inserte los bloques personalizados en el cuerpo del mensaje. Para ello, haga clic en el contenido del mensaje, haga clic en el icono de campo personalizado y seleccione el menú **[!UICONTROL Include]**.
 1. Seleccione el primer bloque que desee insertar. Reinicie el procedimiento para incluir los otros dos bloques.
 

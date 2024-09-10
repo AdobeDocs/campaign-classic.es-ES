@@ -8,10 +8,10 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '2097'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -197,7 +197,7 @@ Siga estos pasos:
 
 ### Creación de un entorno para contactos anónimos {#creating-an-environment-for-anonymous-contacts}
 
-1. Cree un entorno de oferta para interacciones de entrada anónimas mediante el asistente de asignación de entregas (asignación de **visitantes).** Para obtener más información, consulte [Creación de un entorno de ofertas](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+1. Cree un entorno de oferta para interacciones de entrada anónimas mediante el asistente de asignación de entregas (asignación **Visitor**). Para obtener más información, consulte [Creación de un entorno de ofertas](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
    ![](assets/offer_env_anonymous_003.png)
 

@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '2474'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -91,7 +91,7 @@ Un paquete de datos puede crearse manualmente desde cualquier editor de texto. A
 
 Los paquetes se pueden exportar de tres formas diferentes:
 
-* **[!UICONTROL Package Export Wizard]** permite exportar un conjunto de objetos en un solo paquete. Para obtener más información, consulte [Exportación de un conjunto de objetos en un paquete](#exporting-a-set-of-objects-in-a-package)
+* **[!UICONTROL Package Export Assistant]** permite exportar un conjunto de objetos en un solo paquete. Para obtener más información, consulte [Exportación de un conjunto de objetos en un paquete](#exporting-a-set-of-objects-in-a-package)
 * Un **objeto único** se puede exportar en un paquete directamente haciendo clic con el botón derecho en él y seleccionando **[!UICONTROL Actions > Export in a package]**.
 * Las **definiciones de paquetes** permiten crear una estructura de paquetes en la que se añaden objetos que se pueden exportar posteriormente en un paquete. Para obtener más información, consulte [Administración de definiciones de paquetes](#managing-package-definitions)
 
@@ -99,11 +99,11 @@ Una vez exportado el paquete, puede importarlo, junto a todas las entidades aña
 
 ### Exportación de un conjunto de objetos en un paquete {#exporting-a-set-of-objects-in-a-package}
 
-Se puede acceder al asistente de exportación de paquetes mediante el menú **[!UICONTROL Tools > Advanced > Export package...]** de la consola del cliente de Adobe Campaign.
+Se puede acceder al asistente de exportación de paquetes a través del menú **[!UICONTROL Tools > Advanced > Export package...]** de la consola del cliente de Adobe Campaign.
 
 ![](assets/ncs_datapackage_typepackage.png)
 
-Para los tres tipos de paquete, el asistente ofrece los siguientes pasos:
+Para los tres tipos de paquetes, el asistente ofrece los siguientes pasos:
 
 1. Lista de entidades a exportar por tipo de documento:
 

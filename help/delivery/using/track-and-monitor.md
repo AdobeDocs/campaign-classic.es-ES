@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Monitoring, Reporting
 role: User
 exl-id: a039a288-2e7b-4f35-9885-ead3ed4347af
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ Sugerencia: Compruebe la configuración de la administración del tráfico (afin
 
 Para conocer mejor el comportamiento de sus destinatarios, puede rastrear cómo reaccionan a un envío: recepción, apertura, clics en vínculos, suscripciones, etc. En Campaign Classic, esta información se muestra en la pestaña Seguimiento de los destinatarios del envío y en la pestaña Seguimiento del envío.
 
-**Sugerencia**: El seguimiento de mensajes está activado de forma predeterminada. Para configurar direcciones URL, seleccione la opción Mostrar direcciones URL en la sección inferior del asistente de envíos. Por cada dirección URL del mensaje, puede elegir si desea activar el seguimiento.
+**Sugerencia**: El seguimiento de mensajes está activado de forma predeterminada. Para configurar direcciones URL, seleccione la opción Display URLs en la sección inferior del asistente de envíos. Por cada dirección URL del mensaje, puede elegir si desea activar el seguimiento.
 
 Para obtener más información sobre esto, consulte la sección [Configuración del seguimiento](how-to-configure-tracked-links.md) y la descripción de los [Indicadores de seguimiento](../../reporting/using/delivery-reports.md#tracking-indicators).
 
