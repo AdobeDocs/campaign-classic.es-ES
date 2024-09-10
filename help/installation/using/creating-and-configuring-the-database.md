@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
-source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 2%
@@ -139,7 +139,7 @@ El último paso del asistente le permite crear la base de datos. Haga clic en **
 
 Una vez creada la base de datos, puede volver a conectarse para finalizar la configuración de la instancia.
 
-Ahora debe iniciar el asistente de implementación para finalizar la configuración de la instancia. Consulte [Asistente de implementación](../../installation/using/deploying-an-instance.md#deployment-wizard).
+Ahora debe iniciar el asistente de implementación para finalizar la configuración de la instancia. Consulte [asistente de implementación](../../installation/using/deploying-an-instance.md#deployment-assistant).
 
 La configuración de conexión de la base de datos vinculada a la instancia se almacena en el archivo **`/conf/config-<instance>.xml`** que se encuentra en el directorio de instalación de Adobe Campaign.
 
@@ -230,7 +230,7 @@ El último paso del asistente le permite crear la base de datos. Haga clic en **
 
 Una vez creada la base de datos, puede volver a conectarse para finalizar la configuración de la instancia.
 
-Ahora debe iniciar el asistente de implementación para finalizar la configuración de la instancia. Consulte [Asistente de implementación](../../installation/using/deploying-an-instance.md#deployment-wizard).
+Ahora debe iniciar el asistente de implementación para finalizar la configuración de la instancia. Consulte [asistente de implementación](../../installation/using/deploying-an-instance.md#deployment-assistant).
 
 La configuración de conexión de la base de datos vinculada a la instancia se almacena en el archivo **`/conf/config-<instance>.xml`** que se encuentra en el directorio de instalación de Adobe Campaign.
 

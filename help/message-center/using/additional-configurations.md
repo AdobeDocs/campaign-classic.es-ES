@@ -7,7 +7,7 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 100%
@@ -34,11 +34,11 @@ Para realizar esto, siga los pasos a continuación:
 
 >[!NOTE]
 >
->El número de eventos pendientes en la cola se muestra en la sección [System indicators](../../production/using/monitoring-processes.md#system-indicators) de la página de monitorización del proceso de Adobe Campaign. Para obtener más información sobre el asistente de implementación, consulte [esta sección](../../installation/using/deploying-an-instance.md#deployment-wizard).
+>El número de eventos pendientes en la cola se muestra en la sección [System indicators](../../production/using/monitoring-processes.md#system-indicators) de la página de monitorización del proceso de Adobe Campaign. Para obtener más información sobre el asistente de implementación, consulte [esta sección](../../installation/using/deploying-an-instance.md#deployment-assistant).
 
 ## Purga de eventos {#purging-events}
 
-Se puede utilizar el [asistente de implementación](../../production/using/database-cleanup-workflow.md#deployment-wizard) para configurar cuánto tiempo se guardan los datos en la base de datos.
+Se puede utilizar el [asistente de implementación](../../production/using/database-cleanup-workflow.md#deployment-assistant) para configurar cuánto tiempo se guardan los datos en la base de datos.
 
 El [flujo de trabajo de limpieza de la base de datos](../../production/using/database-cleanup-workflow.md) lleva a cabo la depuración de eventos automáticamente. Este flujo de trabajo depura los eventos recibidos y almacenados en las instancias de ejecución y los eventos archivados en una instancia de control.
 

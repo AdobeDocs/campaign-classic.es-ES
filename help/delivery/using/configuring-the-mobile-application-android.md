@@ -5,7 +5,7 @@ description: Descubra cómo configurar su aplicación móvil para Android
 feature: Push
 role: User, Developer
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
-source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 100%

@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Email Design
 role: User
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '1958'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -117,7 +117,7 @@ Para obtener más información, consulte [esta sección](defining-interactive-co
 
 ## Uso de la administración de contenido {#using-content-management}
 
-Puede definir el contenido de la entrega mediante los formularios de administración de contenido directamente en el asistente de envíos. Para ello, debe hacer referencia a la plantilla de publicación de la gestión de contenido que se va a utilizar, en la pestaña **[!UICONTROL Advanced]** de las propiedades de entrega.
+Puede definir el contenido de la entrega mediante los formularios de gestión de contenido directamente en el asistente de envíos. Para ello, debe hacer referencia a la plantilla de publicación de la gestión de contenido que se va a utilizar, en la pestaña **[!UICONTROL Advanced]** de las propiedades de entrega.
 
 ![](assets/s_ncs_content_in_delivery.png)
 
@@ -144,7 +144,7 @@ Para personalizar la lista de emoticonos, consulte esta [página](customizing-em
 
 ## Adición de imágenes {#adding-images}
 
-Las entregas de correo electrónico de formato HTML pueden contener imágenes. Desde el asistente de entregas, puede importar una página HTML que contenga imágenes o insertar imágenes directamente utilizando el editor HTML mediante el icono **[!UICONTROL Image]**.
+Las entregas de correo electrónico de formato HTML pueden contener imágenes. Desde el asistente de envíos, puede importar una página de HTML que contenga imágenes o insertar imágenes directamente utilizando el editor de HTML a través del icono **[!UICONTROL Image]**.
 
 
 ### Mecanismos de protección {#img-guardrails}
@@ -174,7 +174,7 @@ El asistente de envío permite añadir imágenes locales o imágenes almacenadas
 >
 >Para que los destinatarios puedan ver las imágenes incluidas en los mensajes que reciben, estos mensajes deben estar disponibles en un servidor accesible desde el exterior.
 
-Para administrar imágenes mediante el asistente de envíos:
+Para administrar imágenes mediante el asistente de entregas:
 
 1. En la barra de herramientas, haga clic en el icono **[!UICONTROL Tracking & Images]**.
    ![](assets/s_ncs_user_email_del_img_param.png)
@@ -186,7 +186,7 @@ Para administrar imágenes mediante el asistente de envíos:
 * Puede cargar imágenes manualmente sin esperar a la fase de análisis de entregas. Para ello, haga clic en el vínculo **[!UICONTROL Upload the images straightaway...]**.
 * Puede especificar otra ruta para acceder a las imágenes en el servidor de seguimiento. Para ello, indíquela en el campo **[!UICONTROL Images URL]**. Este valor anula el valor definido en los parámetros del asistente de instalación.
 
-Cuando se abre contenido HTML con imágenes incluidas en el asistente de entregas, un mensaje le da la opción de cargar las imágenes inmediatamente en función de los parámetros de entrega.
+Cuando se abre contenido de HTML con imágenes incluidas en el asistente de entregas, un mensaje le da la opción de cargar las imágenes inmediatamente en función de los parámetros de entrega.
 
 ![](assets/s_ncs_user_email_del_img_local.png)
 

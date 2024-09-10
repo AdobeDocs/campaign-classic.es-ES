@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
 source-wordcount: '3389'
 ht-degree: 4%
@@ -21,7 +21,7 @@ ht-degree: 4%
 >
 >Las configuraciones del lado del servidor solo se pueden realizar mediante el Adobe para implementaciones alojadas por el Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
 
-## Asistente de implementación {#deployment-wizard}
+## asistente de implementación {#deployment-assistant}
 
 Adobe Campaign proporciona un asistente gráfico, disponible en la consola del cliente de Adobe Campaign, para definir los parámetros de la instancia a la que se va a conectar.
 
@@ -396,7 +396,7 @@ El campo **Máscaras de URL** le permite especificar la lista de máscaras de UR
 Puede especificar varias máscaras de URL utilizando una coma para separar cada una de ellas.
 
 * Para obtener información sobre cómo usar y administrar imágenes en correos electrónicos, consulte [esta sección](../../delivery/using/defining-the-email-content.md#adding-images).
-* En el asistente de envíos, las imágenes a las que se llama desde estas direcciones URL tienen el estado &quot;Ignorado&quot;.
+* En el asistente de envío, las imágenes a las que se llama desde estas direcciones URL tienen el estado &quot;Ignorado&quot;.
 
 ### Modos de publicación {#publication-modes}
 

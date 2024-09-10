@@ -8,22 +8,25 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 2%
+source-wordcount: '1045'
+ht-degree: 1%
 
 ---
 
-# Conexión a través de LDAP{#connecting-through-ldap}
+# Conexión a través de LDAP {#connecting-through-ldap}
 
 ## Configuración de Campaign y LDAP {#configuring-campaign-and-ldap}
 
 >[!NOTE]
 >
->La configuración de LDAP solo es posible para instalaciones locales o híbridas.
+>* La configuración de LDAP solo es posible para instalaciones locales o híbridas.
+>
+>* Asegúrese de que su sistema y sus versiones de openssl sean compatibles con Campaign en la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md). Las versiones obsoletas pueden afectar a la autenticación LDAP.
+>
 
-La configuración de LDAP se lleva a cabo en el asistente de implementación. La opción **[!UICONTROL LDAP integration]** debe estar seleccionada durante el primer paso de configuración. Consulte [Asistente de implementación](../../installation/using/deploying-an-instance.md#deployment-wizard).
+La configuración de LDAP se lleva a cabo en el asistente de implementación. La opción **[!UICONTROL LDAP integration]** debe estar seleccionada durante el primer paso de configuración. Consulte [asistente de implementación](../../installation/using/deploying-an-instance.md#deployment-assistant).
 
 La ventana permite configurar la identificación de los usuarios de Adobe Campaign a través del directorio LDAP especificado.
 
@@ -32,29 +35,19 @@ La ventana permite configurar la identificación de los usuarios de Adobe Campai
 * Especifique la dirección del servidor LDAP en el campo **[!UICONTROL LDAP server]**. Puede agregar el número de puerto. De forma predeterminada, el puerto utilizado es el 389.
 * En la lista desplegable, seleccione el método de autenticación para los usuarios:
 
-   * Contraseña cifrada (**md5**)
+   * Contraseña cifrada (**md5**): modo predeterminado.
 
-     Modo predeterminado.
-
-   * Contraseña de texto sin formato + SSL (**TLS**)
-
-     Todo el procedimiento de autenticación (contraseña incluida) está cifrado. El puerto seguro 636 no debe utilizarse en este modo: Adobe Campaign cambia automáticamente al modo seguro.
+   * Contraseña de texto sin formato + SSL (**TLS**): todo el procedimiento de autenticación (contraseña incluida) está cifrado. El puerto seguro 636 no debe utilizarse en este modo: Adobe Campaign cambia automáticamente al modo seguro.
 
      Cuando se utiliza este modo de autenticación, en Linux, el certificado se verifica mediante una biblioteca de cliente openLDAP. Se recomienda utilizar un certificado SSL válido para que el procedimiento de autenticación esté cifrado. De lo contrario, la información estará en texto sin formato.
 
      El certificado también se comprueba en Windows.
 
-   * Administrador LAN de Windows NT (**NTLM**)
+   * Administrador LAN de Windows NT (**NTLM**): autenticación de Windows patentada. **[!UICONTROL Unique identifier]** solo se usa para el nombre de dominio.
 
-     Autenticación de Windows registrada. **[!UICONTROL Unique identifier]** solo se usa para el nombre de dominio.
+   * Autenticación de contraseña distribuida (**DPA**): autenticación de Windows patentada. **[!UICONTROL Unique identifier]** solo se usa para el nombre de dominio (domain.com).
 
-   * Autenticación de contraseña distribuida (**DPA**)
-
-     Autenticación de Windows registrada. **[!UICONTROL Unique identifier]** solo se usa para el nombre de dominio (domain.com).
-
-   * Contraseña de texto sin formato
-
-     Sin cifrado (solo para su uso en fases de prueba).
+   * Contraseña de texto sin formato: sin cifrado (solo para fases de prueba).
 
 * Seleccione el modo de autenticación de usuario: **[!UICONTROL Automatically compute the unique user identifier]** (consulte el paso [Cálculo de nombre distintivo](#distinguished-name-calculation)) o **[!UICONTROL Search the unique user identifier in the directory]** (consulte el paso [Búsqueda de identificadores](#searching-for-identifiers)).
 
