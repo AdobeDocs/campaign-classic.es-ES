@@ -4,10 +4,10 @@ title: Inicio de un flujo de trabajo
 description: Obtenga información sobre cómo iniciar un flujo de trabajo y descubra acciones de flujos de trabajo en la barra de herramientas y el menú que aparece al hacer clic con el botón derecho
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
-source-git-commit: 98815fe0417f9126826e0273caa80888164793ec
+source-git-commit: 7453db63a0ed2c617e9f7e4cbfa3480b3ed5020d
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 100%
+source-wordcount: '1179'
+ht-degree: 98%
 
 ---
 
@@ -57,7 +57,7 @@ Los botones de la barra de herramientas se encuentran en esta [sección](../../c
 
   >[!CAUTION]
   >
-  >Esta opción se reserva para usuarios expertos.
+  >La detención incondicional está restringida a los usuarios administradores.
 
 * **[!UICONTROL Restart]**
 
@@ -108,7 +108,7 @@ Para evitar tener flujos de trabajo en estado pausado:
 
 **Detenga los flujos de trabajo no utilizados**. Los flujos de trabajo que siguen ejecutándose mantienen conexiones con la base de datos.
 
-**Solo se debe utilizar la detención incondicional en los casos más inusuales**. Evite utilizar esta acción de forma regular. El no realizar un cierre limpio de las conexiones generadas por los flujos de trabajo a la base de datos afecta al rendimiento.
+**Solo se debe utilizar la detención incondicional en los casos más inusuales**. Esta opción está restringida a los usuarios administradores. Evite utilizar esta acción de forma regular. El no realizar un cierre limpio de las conexiones generadas por los flujos de trabajo a la base de datos afecta al rendimiento.
 
 **No realice varias solicitudes de detención en el mismo flujo de trabajo**. La detención de un flujo de trabajo es un proceso asíncrono: la solicitud se registra y, después, el servidor o los servidores de flujo de trabajo cancelan las operaciones en curso. Por lo tanto, la detención de una instancia de flujo de trabajo puede llevar tiempo, especialmente si el flujo de trabajo se ejecuta en varios servidores, cada uno de los cuales debe asumir el control para cancelar las tareas en curso. Para evitar cualquier problema, espere a que se complete la operación de parada y evite detener un flujo de trabajo varias veces.
 

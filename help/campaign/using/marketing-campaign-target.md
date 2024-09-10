@@ -5,10 +5,10 @@ description: Aprenda a definir la audiencia de las campañas de marketing
 role: User
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 7453db63a0ed2c617e9f7e4cbfa3480b3ed5020d
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 100%
+source-wordcount: '1492'
+ht-degree: 99%
 
 ---
 
@@ -166,6 +166,10 @@ Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la
   Puede detener el flujo de trabajo de forma incondicional haciendo clic en el icono **[!UICONTROL Actions]** y seleccionando Interrupción **[!UICONTROL Unconditional]**. Esta acción finaliza el flujo de trabajo de la campaña.
 
   ![](assets/s_user_segmentation_stop_unconditional.png)
+
+  >[!CAUTION]
+  >
+  >La detención incondicional está restringida a los usuarios administradores.
 
 ## Adición de un grupo de control {#defining-a-control-group}
 
