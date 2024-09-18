@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
-source-git-commit: 757e3a5395f24e0bdd04737aba0458881e4ea780
+source-git-commit: fd4a815bca23b94590012c4883cfaa9c29b6f118
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '515'
 ht-degree: 2%
 
 ---
@@ -32,8 +32,11 @@ Las versiones nuevas o actualizadas de las versiones incrustadas de Tomcat solo 
 >[!AVAILABILITY]
 >
 >
-> A partir de la versión 7.4.1 de Campaign, Tomcat 10.1 es la versión predeterminada.
+>* A partir de la versión 7.4.1 de Campaign, Tomcat 10.1 es la versión predeterminada.
 >
+>* Adobe Campaign Classic no utiliza los protocolos WebSocket y HTTP2.
+>
+
 
 ## Cómo localizar la versión de Tomcat incrustada
 
