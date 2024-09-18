@@ -5,9 +5,9 @@ description: Acerca de los servicios web
 feature: API
 role: Data Engineer, Developer
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '645'
 ht-degree: 3%
 
 ---
@@ -31,7 +31,7 @@ Antes de usar las API de Adobe Campaign, debe estar familiarizado con los siguie
 
 * Javascript
 * SOAP protocolo de
-* Modelo de datos Adobe Campaign
+* Modelo de datos de Adobe Campaign
 
 ## Uso de API de Adobe Campaign {#using-adobe-campaign-apis}
 
