@@ -7,8 +7,8 @@ badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic 
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ Para optimizar la creación, el uso y la duración de un informe, debe revisar l
    * Exportar datos de la base de datos de Adobe Campaign (a través de un flujo de trabajo, consulte [esta sección](../../workflow/using/about-workflows.md)).
    * Cree una tabla dinámica. Obtenga más información [en esta sección](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
    * Explorar datos agregados. Obtenga más información [en esta sección](../../reporting/using/ac-cubes.md)
-   * Utilizar un asistente para analizar los datos. Obtenga más información [en esta sección](../../reporting/using/about-descriptive-analysis.md)
+   * Utilice un asistente para analizar los datos. Obtenga más información [en esta sección](../../reporting/using/about-descriptive-analysis.md)
    * Analice grandes volúmenes de datos. Obtenga más información [en esta sección](../../reporting/using/about-reports-creation-in-campaign.md)
 
 1. Identificación de la población objetivo
