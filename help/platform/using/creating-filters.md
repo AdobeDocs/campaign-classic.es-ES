@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1979'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -204,7 +204,7 @@ Los filtros son específicos de cada operador y se reinician cada vez que el ope
 
 Puede crear un **application filter** guardando un filtro avanzado: puede volver a utilizarlo haciendo clic con el botón derecho en cualquier lista o mediante el botón **[!UICONTROL Filters]** ubicado encima de las listas.
 
-También se puede acceder a estos filtros directamente a través del asistente de envíos, en el paso de selección de destino (consulte [esta sección](../../delivery/using/creating-an-email-delivery.md) para obtener más información sobre la creación de envíos). Para crear el filtro de aplicación, puede:
+También se puede acceder a estos filtros directamente a través del asistente de envíos, en el paso de selección de público destinatario (consulte [esta sección](../../delivery/using/creating-an-email-delivery.md) para obtener más información sobre la creación de envíos). Para crear el filtro de aplicación, puede:
 
 * Convertir un filtro avanzado en un filtro de aplicación. Para ello, haga clic en **[!UICONTROL Save]** antes de cerrar el editor de filtros avanzado.
 
@@ -376,6 +376,6 @@ Haga clic en la pestaña **[!UICONTROL Settings]** para acceder a las siguientes
 
   Seleccione la opción **[!UICONTROL Do not restrict the filter]** si desea que el usuario anule este filtro.
 
-  Esta opción está habilitada para los filtros &quot;Destinatarios de una entrega&quot; y &quot;Destinatarios de entregas pertenecientes a una carpeta&quot;, los cuales se ofrecen en el asistente de entregas y que no se pueden sobrecargar.
+  Esta opción está habilitada para los filtros “Destinatarios de un envío” y “Destinatarios de envíos pertenecientes a una carpeta”, los cuales se ofrecen en el asistente de envíos y no se pueden sobrecargar.
 
   ![](assets/s_ncs_user_filter_advanced_param.png)

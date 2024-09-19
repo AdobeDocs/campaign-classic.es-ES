@@ -7,9 +7,9 @@ feature: SMS
 role: User
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Para diseñar una entrega de SMS nuevo, siga los pasos a continuación:
 
 Para crear el contenido del SMS, siga los pasos a continuación:
 
-1. Escriba el contenido del mensaje en la sección **[!UICONTROL Text content]** del asistente. Los botones de la barra de herramientas permiten importar, guardar o buscar dentro del contenido. El último botón se utiliza para insertar campos de personalización.
+1. Introduzca el contenido del mensaje en la sección **[!UICONTROL Text content]** del asistente. Los botones de la barra de herramientas permiten importar, guardar o buscar dentro del contenido. El último botón se utiliza para insertar campos de personalización.
 
    ![](assets/s_ncs_user_wizard_sms01_138.png)
 

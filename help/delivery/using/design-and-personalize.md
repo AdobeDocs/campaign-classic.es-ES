@@ -7,9 +7,9 @@ feature: Email Design, Personalization
 role: User
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1293'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ Para que sean accesibles desde el exterior, las imágenes utilizadas en los mens
 
 * Puede comprobar si la configuración de la instancia habilita la administración de recursos públicos. [Más información](../../installation/using/deploying-an-instance.md#managing-public-resources)
 
-* Desde el asistente de envíos, puede importar una página de HTML que contenga imágenes o insertar imágenes directamente utilizando el editor de HTML a través del icono **[!UICONTROL Image]**. [Más información](defining-the-email-content.md#adding-images)
+* Desde el asistente de envíos, puede importar una página HTML que contenga imágenes o insertar imágenes directamente utilizando el editor HTML mediante el icono **[!UICONTROL Image]**. [Más información](defining-the-email-content.md#adding-images)
 
 * Si las imágenes no se muestran, compruebe que estén disponibles en el servidor. Para ello, haga clic en la pestaña Origen del envío. Busque las imágenes, y copie y pegue la dirección URL de cada imagen en un navegador web. Si no se muestran las imágenes, póngase en contacto con el administrador de TI o con el proveedor de terceros que proporcione el contenido de envío.
 
@@ -157,6 +157,6 @@ Para que sean accesibles desde el exterior, las imágenes utilizadas en los mens
 
 Adobe recomienda previsualizar el mensaje para comprobar su personalización y cómo verán los destinatarios su entrega.
 
-* En el asistente de envíos, la subpestaña **[!UICONTROL Preview]** le permite ver la renderización de cada contenido para un destinatario. Los campos personalizados y los elementos condicionales del contenido se sustituyen por la información correspondiente del perfil seleccionado. [Más información](defining-the-email-content.md#message-content)
+* En el asistente de envíos, la subpestaña **[!UICONTROL Preview]** permite ver el renderizado de cada contenido para un destinatario. Los campos personalizados y los elementos condicionales del contenido se sustituyen por la información correspondiente del perfil seleccionado. [Más información](defining-the-email-content.md#message-content)
 
 * Durante cada previsualización se realiza una comprobación automática del contenido no deseado. En la subpestaña **[!UICONTROL Preview]**, marque la puntuación de spam [SpamAssassin](spamassassin.md).  Haga clic en **[!UICONTROL More...]** para obtener más información sobre la advertencia.  Antes de hacerlo, asegúrese de que SpamAssassin está correctamente instalado y configurado en el servidor de aplicaciones de Adobe Campaign. [Más información](../../installation/using/configuring-spamassassin.md)

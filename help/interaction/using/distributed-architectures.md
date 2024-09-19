@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: advanced-parameters
 exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1014'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ La sincronización de ofertas se lleva a cabo mediante paquetes. En instancias d
 
 Las ofertas se implementan automáticamente y se publican en instancias de ejecución y control.
 
-Las ofertas eliminadas en el entorno de diseño se desactivan en todas las instancias en línea. Las propuestas y ofertas obsoletas se eliminan automáticamente en todas las instancias después del periodo de depuración (especificado en el asistente de implementación de cada instancia) y de deslizamiento (especificado en las reglas de tipología de propuestas entrantes).
+Las ofertas eliminadas en el entorno de diseño se desactivan en todas las instancias en línea. Las propuestas y ofertas obsoletas se eliminan automáticamente en todas las instancias después del periodo de purga (especificado en el asistente de implementación de cada instancia) y del periodo de deslizamiento (especificado en las reglas de tipología de las propuestas entrantes).
 
 ![](assets/interaction_powerbooster_schema2.png)
 

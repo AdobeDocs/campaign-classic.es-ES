@@ -7,9 +7,9 @@ feature: Direct Mail
 role: User
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Para una entrega de correo postal, el contenido de la extracción se define en e
 
 ![](assets/s_ncs_user_mail_delivery_format_link.png)
 
-Este vínculo le permite acceder al asistente de extracción y definir la información (columnas) que se van a exportar en el archivo de salida.
+Este vínculo le permite acceder al asistente de extracción y definir la información (columnas) que se va a exportar en el archivo de salida.
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 

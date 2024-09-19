@@ -6,9 +6,9 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1192'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -390,7 +390,7 @@ Para crear contenido directamente en los envíos, aplique los pasos siguientes:
 
    ![](assets/s_ncs_content_in_delivery.png)
 
-   Se añade una pestaña adicional al asistente de envíos para definir el contenido a través del formulario de gestión de contenido.
+   Se añade una pestaña adicional al asistente de envíos para definir el contenido a través del formulario del gestor de contenido.
 
 1. Introduzca la información variable del boletín informativo.
 

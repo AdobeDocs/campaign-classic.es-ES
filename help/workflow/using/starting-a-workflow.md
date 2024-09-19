@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo iniciar un flujo de trabajo y desc
 feature: Workflows
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 source-git-commit: 7453db63a0ed2c617e9f7e4cbfa3480b3ed5020d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1179'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Los botones de la barra de herramientas se encuentran en esta [sección](../../c
 
   >[!CAUTION]
   >
-  >La detención incondicional está restringida a los usuarios administradores.
+  >La parada incondicional está restringida a los usuarios administradores.
 
 * **[!UICONTROL Restart]**
 

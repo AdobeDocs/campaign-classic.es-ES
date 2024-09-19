@@ -7,9 +7,9 @@ feature: Monitoring
 role: User, Data Engineer, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Existen tres tipos de instrucciones:
 * **[!DNL value]**: para dar acceso a los campos del envío, las variables de envío y los objetos personalizados cargados en el envío. [Obtenga más información](#value)
 * **[!DNL foreach]**: para crear un bucle de una matriz cargada como un objeto personalizado. [Obtenga más información](#foreach)
 
-Se pueden probar directamente desde el asistente de envío. Se aplican en la previsualización de contenido y cuando hace clic en el botón de seguimiento para ver la lista de las direcciones URL.
+Pueden probarse directamente desde el asistente de envíos. Se aplican en la previsualización de contenido y cuando hace clic en el botón de seguimiento para ver la lista de las direcciones URL.
 
 ## [!DNL include] {#include}
 

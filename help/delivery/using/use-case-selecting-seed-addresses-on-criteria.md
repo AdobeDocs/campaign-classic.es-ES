@@ -6,9 +6,9 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -83,11 +83,11 @@ Para obtener más información sobre las extensiones de esquema, consulte [esta 
 
    ![](assets/dlv_seeds_usecase_12.png)
 
-1. Cuando se muestre el asistente de actualización, haga clic en el botón **[!UICONTROL Next]** para acceder a la ventana Edit tables: los cambios realizados en el esquema de datos de las direcciones semilla requieren una actualización de estructura.
+1. Cuando se muestre el asistente de actualización, haga clic en el botón **[!UICONTROL Next]** para acceder a la ventana de edición de tablas: los cambios realizados en el esquema de datos de las direcciones semilla requieren una actualización de estructura.
 
    ![](assets/dlv_seeds_usecase_13.png)
 
-1. Siga el asistente hasta llegar a la página para ejecutar la actualización. Haga clic en el botón **[!UICONTROL Start]**.
+1. Siga las indicaciones del asistente hasta llegar a la página para ejecutar la actualización. Haga clic en el botón **[!UICONTROL Start]**.
 
    ![](assets/dlv_seeds_usecase_14.png)
 

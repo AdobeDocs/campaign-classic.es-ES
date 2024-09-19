@@ -6,9 +6,9 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Reporting, Monitoring
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2512'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -5,9 +5,9 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 feature: Workflows, Targeting Activity, Query Editor
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1631'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ El enlace **[!UICONTROL Edit query...]** permite definir el tipo de objetivo, la
 
    ![](assets/query_temporary_table.png)
 
-1. Defina las poblaciones con el asistente. Los campos que se van a introducir pueden variar según el tipo de destino. Puede obtener una vista previa de la población objetivo con los criterios actuales en la pestaña **[!UICONTROL Preview]**.
+1. Defina las poblaciones mediante el asistente. Los campos que se van a introducir pueden variar según el tipo de público destinatario. Puede obtener una vista previa de la población objetivo con los criterios actuales en la pestaña **[!UICONTROL Preview]**.
 
    Consulte esta [sección](../../platform/using/filtering-options.md) para obtener más información sobre la creación y el uso de filtros o consultas.
 

@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Como cliente local/híbrido, puede integrar Campaign Classic con su directorio L
 
 Adobe Campaign ofrece varios conectores CRM para vincular la plataforma de Adobe Campaign a los sistemas de terceros. Estos conectores de CRM le permiten sincronizar contactos, cuentas, compras, etc., para facilitar la integración de la aplicación con diversas aplicaciones de terceros y de negocios.
 
-Estos conectores permiten una integración de datos rápida y sencilla: Adobe Campaign proporciona un asistente dedicado para recopilar y seleccionar de las tablas disponibles en CRM. De este modo, se garantiza la sincronización bidireccional para garantizar que los datos estén actualizados en todo momento a lo largo de los sistemas.
+Estos conectores permiten una integración de datos rápida y sencilla: Adobe Campaign proporciona un asistente dedicado para recopilar y seleccionar información de las tablas disponibles en CRM. De este modo, se garantiza la sincronización bidireccional para asegurar que los datos estén actualizados en todo momento en todos los sistemas.
 
 Consulte [Configure CRM connectors](../../platform/using/crm-connectors.md) para aprender a sincronizar su herramienta CRM con Adobe Campaign.
 

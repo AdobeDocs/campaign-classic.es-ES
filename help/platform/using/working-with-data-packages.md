@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2474'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -99,11 +99,11 @@ Una vez exportado el paquete, puede importarlo, junto a todas las entidades aña
 
 ### Exportación de un conjunto de objetos en un paquete {#exporting-a-set-of-objects-in-a-package}
 
-Se puede acceder al asistente de exportación de paquetes a través del menú **[!UICONTROL Tools > Advanced > Export package...]** de la consola del cliente de Adobe Campaign.
+Se puede acceder al asistente de exportación de paquetes mediante el menú **[!UICONTROL Tools > Advanced > Export package...]** de la consola del cliente de Adobe Campaign.
 
 ![](assets/ncs_datapackage_typepackage.png)
 
-Para los tres tipos de paquetes, el asistente ofrece los siguientes pasos:
+Para los tres tipos de paquete, el asistente ofrece los siguientes pasos:
 
 1. Lista de entidades a exportar por tipo de documento:
 

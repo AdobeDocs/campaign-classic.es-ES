@@ -6,9 +6,9 @@ feature: Reporting, Monitoring
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Se puede hacer que un informe sea accesible a través de un nodo específico del
 
 Por ejemplo, generemos un vínculo a un informe para que sea accesible a través de una lista de destinatarios.
 
-1. Haga clic en **[!UICONTROL New]** y seleccione **[!UICONTROL Create a link to an existing report]** en el asistente para la creación de informes.
+1. Haga clic en **[!UICONTROL New]** y seleccione **[!UICONTROL Create a link to an existing report]** en el asistente de creación de informes.
 
    ![](assets/s_ncs_advuser_report_wizard_link_01.png)
 
@@ -126,7 +126,7 @@ Para obtener más información sobre esta configuración, consulte la sección d
 
 La publicación del informe es obligatoria para poder compartirlo con otros operadores y mostrarlo en la lista de informes disponibles (también consulte [Informe de contexto de visualización](#report-display-context)). Esta operación debe llevarse a cabo cada vez que se modifica el informe.
 
-1. Abra el asistente de publicación haciendo clic en **[!UICONTROL Publish]** en la barra de herramientas.
+1. Abra el asistente de publicación haciendo clic en **[!UICONTROL Publish]** de la barra de herramientas.
 
    ![](assets/s_ncs_advuser_report_publish_01.png)
 

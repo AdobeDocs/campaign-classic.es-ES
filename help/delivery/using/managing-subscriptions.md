@@ -7,9 +7,9 @@ feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1117'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -146,7 +146,7 @@ Para registrar a los destinatarios en un servicio informativo, puede:
 
 los envíos de correo electrónico deben contener, por ley, un vínculo para darse de baja. Los destinatarios pueden hacer clic en este vínculo para actualizar su perfil y darse de baja de posibles envíos futuros.
 
-El vínculo predeterminado para darse de baja se inserta con el último botón de la barra de herramientas del editor de contenido, proporcionado en el asistente de envíos (consulte [Acerca de la personalización](about-personalization.md)). Cuando el destinatario hace clic en este vínculo, el perfil se incluye en la lista de bloqueados (de exclusión), lo que significa que este destinatario ya no forma parte de ninguna acción de entrega.
+El vínculo predeterminado para darse de baja se inserta con el último botón de la barra de herramientas del editor de contenido, en el asistente de envíos (consulte [Acerca de la personalización](about-personalization.md)). Cuando el destinatario hace clic en este vínculo, el perfil se incluye en la lista de bloqueados (de exclusión), lo que significa que este destinatario ya no forma parte de ninguna acción de entrega.
 
 Sin embargo, los destinatarios pueden optar por cancelar la suscripción de un servicio sin cancelar la suscripción de todos los servicios. Para esto, puede utilizar un formulario web (consulte [esta sección](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)) o insertar un vínculo personalizado para darse de baja del servicio (consulte [Bloques de personalización](personalization-blocks.md)).
 

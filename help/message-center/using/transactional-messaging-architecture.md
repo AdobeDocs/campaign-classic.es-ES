@@ -5,9 +5,9 @@ description: En esta sección se describe la arquitectura de mensajería transac
 feature: Transactional Messaging, Message Center, Architecture
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1103'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Si ha iniciado un proyecto de mensajería transaccional en el canal de correo el
 >
 >Este procedimiento solo se aplica a los clientes que utilizan un servidor NLServer de Windows instalado en el mismo equipo en el que están trabajando.
 
-1. Instale el canal que necesita, por ejemplo el **canal móvil**, mediante el asistente de importación de paquetes (**[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]**).
+1. Instale el canal que necesita, por ejemplo, el **Canal móvil**, mediante el asistente de importación de paquetes (**[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]**).
 1. Realice una importación de archivos (**[!UICONTROL Tools > Advanced > Import package... > File]**) y seleccione el archivo **datakitnms **`[Your language]`**packagemessageCenter.xml**.
 1. En **[!UICONTROL XML content of the data to import]**, conserve solo la plantilla de envíos que corresponde al canal añadido. Por ejemplo, si ha añadido el **canal móvil**, conserve solamente el elemento **entidades** que corresponda a **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). Si ha añadido el **canal de aplicación móvil**, mantenga únicamente el **mensaje transaccional de iOS** (iosTriggerMessage) y el **mensaje transaccional de Android** (androidTriggerMessage).
 

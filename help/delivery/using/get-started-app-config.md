@@ -6,9 +6,9 @@ feature: Push
 role: User, Developer
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Como cliente on-premise, debe instalar un paquete integrado.
 
 Los pasos de instalación son estos:
 
-1. Acceda al asistente de importación de paquetes desde **[!UICONTROL Tools > Advanced > Import package]** en la consola del cliente de Adobe Campaign.
+1. En la consola del cliente de Adobe Campaign, acceda al asistente de importación de paquetes desde **[!UICONTROL Tools > Advanced > Import package]**.
 
    ![](assets/package_ios.png)
 

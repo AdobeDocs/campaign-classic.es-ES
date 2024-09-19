@@ -5,9 +5,9 @@ description: Descubra más información sobre las entregas multicanal
 feature: Workflows, Channels Activity
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '287'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ En el siguiente ejemplo, crearemos un flujo de trabajo para enviar un correo ele
 1. Añada una actividad **[!UICONTROL Split]** al flujo de trabajo para dividir los destinatarios que tienen número de móvil y aquellos que tienen dirección de correo electrónico.
 1. En la pestaña **[!UICONTROL Delivery]**, seleccione una entrega para cada uno de sus destinatarios.
 
-   Cree su envío de la misma manera que con un asistente de envíos clásico haciendo doble clic en la actividad envío del flujo de trabajo. Para obtener más información, consulte esta [página](../../delivery/using/about-email-channel.md).
+   Cree su envío de la misma manera que con el asistente de envíos clásico, haciendo doble clic en la actividad de envío del flujo de trabajo. Para obtener más información, consulte esta [página](../../delivery/using/about-email-channel.md).
 
    ![](assets/cross_channel_delivery_3.png)
 

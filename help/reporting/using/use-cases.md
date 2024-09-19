@@ -6,9 +6,9 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Reporting, Monitoring
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
 source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1326'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 86%
 
 ## Análisis de una población {#analyzing-a-population}
 
-El siguiente ejemplo permite explorar la población objetivo de un conjunto de boletines informativos mediante el asistente de análisis descriptivo.
+El siguiente ejemplo permite explorar la población destinataria de un conjunto de boletines informativos mediante el asistente de análisis descriptivo.
 
 Los pasos de implementación se describen a continuación, y puede encontrar una lista exhaustiva de opciones con descripciones en las demás secciones de este capítulo.
 
@@ -92,7 +92,7 @@ Puede almacenar, exportar e imprimir datos utilizando la barra de herramientas s
 
 **Objetivo**: genera un informe de análisis sobre la ubicación de los clientes o los posibles clientes.
 
-1. Abra el asistente de análisis descriptivo y seleccione solo **[!UICONTROL Chart]**.
+1. Abra el asistente de análisis descriptivo y seleccione únicamente **[!UICONTROL Chart]**.
 
    ![](assets/s_ncs_user_report_wizard_05a.png)
 
@@ -155,7 +155,7 @@ Puede almacenar, exportar e imprimir datos utilizando la barra de herramientas s
 
 **Objetivo**: para generar un informe de análisis cuantitativo sobre la edad de los destinatarios.
 
-1. Abra el asistente de análisis descriptivo y seleccione **[!UICONTROL Quantitative distribution]** de la lista desplegable.
+1. Abra el asistente de análisis descriptivo y seleccione **[!UICONTROL Quantitative distribution]** en la lista desplegable.
 
    ![](assets/s_ncs_user_report_wizard_011a.png)
 
@@ -276,7 +276,7 @@ Si el análisis corresponde a una entrega, puede analizar la población excluida
 
 ![](assets/reporting_descriptive_exclusion_menu.png)
 
-Esto le llevará al asistente de análisis descriptivo, y el análisis corresponde a los registros de exclusión de destinatarios.
+Esto abre al asistente de análisis descriptivo y el análisis correspondiente a los registros de exclusión de destinatarios.
 
 Por ejemplo, puede mostrar los dominios de todas las direcciones excluidas y ordenarlos por fecha de exclusión.
 

@@ -7,9 +7,9 @@ feature: Email
 role: User
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '975'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Para adjuntar un archivo local a una entrega, siga los pasos a continuación.
 
    ![](assets/s_ncs_user_wizard_email_attachement.png)
 
-También puede arrastrar y soltar directamente el archivo en el campo de la entrega **[!UICONTROL Attachments]**, o bien utilizar el icono **[!UICONTROL Attach]** de la barra de herramientas del asistente de envíos.
+También puede arrastrar y soltar directamente el archivo en el campo **[!UICONTROL Attachments]** de envío o utilizar el icono **[!UICONTROL Attach]** de la barra de herramientas del asistente de envío.
 
 ![](assets/s_ncs_user_wizard_add_file_ico.png)
 

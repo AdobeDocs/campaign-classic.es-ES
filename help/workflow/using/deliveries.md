@@ -4,9 +4,9 @@ title: Entregas
 description: Descubra más información sobre los flujos de trabajo Entregas
 feature: Workflows
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **En
   <tr> 
    <td> <span class="uicontrol">Database cleanup</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
-   <td> <p>Este flujo de trabajo es el flujo de trabajo de mantenimiento de la base de datos: realiza diferentes cálculos en las estadísticas y procesos y elimina datos obsoletos de la base de datos según la configuración definida en el asistente de implementación. Se activa cada día a las 4 a. m. de manera predeterminada.</p> <p>Para obtener más información, consulte esta <a href="../../production/using/database-cleanup-workflow.md">página</a>.</p> </td> 
+   <td> <p>Este flujo de trabajo es el de mantenimiento de la base de datos: realiza diferentes cálculos a partir de las estadísticas y procesos, y elimina los datos obsoletos de la base de datos según la configuración definida en el asistente de implementación. Se activa cada día a las 4 a. m. de manera predeterminada.</p> <p>Para obtener más información, consulte esta <a href="../../production/using/database-cleanup-workflow.md">página</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Limpieza de flujos de trabajo en pausa</span> <br /> </td> 

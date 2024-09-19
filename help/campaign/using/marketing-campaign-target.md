@@ -6,9 +6,9 @@ role: User
 feature: Campaigns, Audiences
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 source-git-commit: 7453db63a0ed2c617e9f7e4cbfa3480b3ed5020d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1492'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -169,7 +169,7 @@ Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la
 
   >[!CAUTION]
   >
-  >La detención incondicional está restringida a los usuarios administradores.
+  >La parada incondicional está restringida a los usuarios administradores.
 
 ## Adición de un grupo de control {#defining-a-control-group}
 

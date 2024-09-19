@@ -5,9 +5,9 @@ description: Obtenga más información sobre el ciclo de vida de los datos en fl
 feature: Workflows, Data Management
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
 source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Para ello, seleccione el menú correspondiente:
 
 * Análisis del público objetivo
 
-  Este menú permite acceder al asistente de análisis descriptivo que permite producir estadísticas e informes sobre los datos de transición.
+  Este menú permite acceder al asistente de análisis descriptivo que permite producir las estadísticas y los informes sobre los datos de transición.
 
   Para obtener más información, consulte [esta sección](../../reporting/using/using-the-descriptive-analysis-wizard.md).
 

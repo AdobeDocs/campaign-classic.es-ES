@@ -6,9 +6,9 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ De manera predeterminada, Adobe Campaign proporciona una plantilla por cada apli
 
 Puede crear más plantillas a través del nodo **[!UICONTROL Resources > Templates > Web Application templates]** del directorio de Adobe Campaign.
 
-El asistente de creación le permite seleccionar las opciones que desea habilitar, como se muestra a continuación.
+El asistente de creación le permite seleccionar las opciones que desee habilitar, como se muestra a continuación.
 
 ![](assets/webapp_create_template.png)
 

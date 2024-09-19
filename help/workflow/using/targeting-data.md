@@ -5,9 +5,9 @@ description: Descubra más información sobre los datos de objetivos en un flujo
 feature: Query Editor, Data Management, Workflows
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1919'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

@@ -6,9 +6,9 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Web Forms, Landing Pages
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2373'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 En un formulario web, los campos permiten a los usuarios introducir información y seleccionar opciones. Los formularios web pueden ofrecer campos de entrada, campos de selección, contenido estático y avanzado (captchas, suscripciones, etc.).
 
-Cuando se utiliza el asistente para agregar campos, el tipo de campo se detecta automáticamente en función del campo o la variable de almacenamiento seleccionados. Puede editarlo mediante el cuadro desplegable **[!UICONTROL Type]** de la pestaña **[!UICONTROL General]**.
+Cuando se utiliza el asistente para añadir campos, el tipo de campo se detecta automáticamente en función del campo o de la variable de almacenamiento seleccionados. Puede editarlo mediante el cuadro desplegable **[!UICONTROL Type]** de la pestaña **[!UICONTROL General]**.
 
 ![](assets/s_ncs_admin_webform_change_type.png)
 

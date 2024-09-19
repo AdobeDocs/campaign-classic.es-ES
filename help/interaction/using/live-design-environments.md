@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: 965c4a6a-6535-454d-bd37-e9c8312b4d13
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ De forma predeterminada, la interacción viene con un entorno **[!UICONTROL Desi
 
 >[!NOTE]
 >
->Para dirigirse a otra tabla (tabla de visitante para ofertas anónimas o a una tabla de destinatarios específica), debe utilizar el asistente de asignación de destino para crear los entornos. Para obtener más información, consulte [Creación de un entorno de ofertas](#creating-an-offer-environment).
+>Para seleccionar otra tabla (tabla de visitantes para ofertas anónimas o una tabla de destinatarios específica), debe utilizar el asistente de asignación de destino para crear los entornos. Para obtener más información, consulte [Creación de un entorno de ofertas](#creating-an-offer-environment).
 
 ![](assets/offer_environments_overview_002.png)
 
@@ -41,7 +41,7 @@ Los gestores de oferta y los gestores de envío tienen acceso a diferentes vista
 
 ## Creación de un entorno de oferta {#creating-an-offer-environment}
 
-De forma predeterminada, la interacción viene con un entorno preconfigurado para dirigirse la tabla de destinatarios (ofertas identificadas). Si desea dirigirse a otra tabla (tabla de visitante para ofertas anónimas o a una tabla de destinatarios específica), debe aplicar las siguientes configuraciones:
+De forma predeterminada, la interacción viene con un entorno preconfigurado para seleccionar la tabla de destinatarios (ofertas identificadas). Si desea dirigirse a otra tabla (tabla de visitante para ofertas anónimas o a una tabla de destinatarios específica), debe aplicar las siguientes configuraciones:
 
 1. Coloque el cursor en el nodo **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Delivery mappings]**. Haga clic con el botón derecho en la asignación de envío que desee utilizar (**[!UICONTROL Visitors]** si desea utilizar ofertas anónimas) y seleccione **[!UICONTROL Actions]** > **[!UICONTROL Modify the options of the targeting dimension]**.
 

@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: unitary-interactions
 exl-id: a8face46-a933-4f2c-8299-ccb66f05967d
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 87%
 
 ## Objetivo y almacenamiento de un entorno para interacciones anónimas {#targeting-and-storing-an-environment-for-anonymous-interactions}
 
-De forma predeterminada, la interacción viene con un entorno preconfigurado para dirigirse la tabla de destinatarios (ofertas identificadas). Si desea dirigirse a otra tabla (tabla de visitante para ofertas anónimas o a una tabla de destinatarios específica), debe utilizar el asistente de asignación de destino para crear el entorno. Para obtener más información sobre esto, consulte [Creación de un entorno de ofertas](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+De forma predeterminada, la interacción viene con un entorno preconfigurado para seleccionar la tabla de destinatarios (ofertas identificadas). Si desea seleccionar otra tabla (tabla de visitantes para ofertas anónimas o una tabla de destinatarios específica), debe utilizar el asistente de asignación de destino para crear el entorno. Para obtener más información sobre esto, consulte [Creación de un entorno de ofertas](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
-Cuando crea un entorno anónimo a través del asistente para la creación de asignaciones, la casilla **[!UICONTROL Environment dedicated to incoming anonymous interactions]** se marca automáticamente en la pestaña **[!UICONTROL General]** del entorno.
+Cuando se crea un entorno anónimo a través del asistente para la creación de asignaciones, la casilla **[!UICONTROL Environment dedicated to incoming anonymous interactions]** se marca automáticamente en la pestaña **[!UICONTROL General]** del entorno.
 
 El **[!UICONTROL Targeting dimension]** se completa automáticamente. De manera predeterminada, se vincula a la tabla del visitante.
 

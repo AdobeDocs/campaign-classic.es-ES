@@ -6,9 +6,9 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Reporting, Monitoring
 exl-id: d133efec-33e1-4711-a90f-e40385059386
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '825'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Para obtener más información, consulte [esta página](../../reporting/using/ac
 
 ## Reutilización de informes y análisis existentes {#re-using-existing-reports-and-analyses}
 
-Puede crear informes de análisis descriptivos sobre los datos utilizando los informes existentes ya almacenados en Adobe Campaign. Este modo es posible tras guardar los análisis o cuando se hayan creado y configurado informes a través del asistente de análisis descriptivo.
+Puede crear informes de análisis descriptivos sobre los datos utilizando los informes existentes ya almacenados en Adobe Campaign. Este modo es posible cuando hay análisis guardados o cuando se han creado y configurado informes para acceder a ellos a través del asistente de análisis descriptivo.
 
 Para saber cómo guardar los análisis descriptivos, consulte [Guardar un informe de análisis](#saving-an-analysis-report).
 

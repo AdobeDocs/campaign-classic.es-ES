@@ -6,9 +6,9 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ También pueden utilizarse para crear instancias de contenido. Una vez creadas, 
 
 ## Creación de una entrega a través de la administración de contenido {#creating-a-delivery-via-content-management}
 
-Puede hacer referencia a una plantilla de contenido en una entrega teniendo en cuenta el uso de campos de entrada para introducir contenido. Se agrega una pestaña adicional al asistente de envíos para definir el contenido de la entrega.
+Puede hacer referencia a una plantilla de contenido en un envío teniendo en cuenta el uso de campos de entrada para introducir contenido. Se añade una pestaña adicional al asistente de envíos para definir el contenido del envío.
 
 ![](assets/s_ncs_content_deliver_a_content.png)
 
@@ -32,7 +32,7 @@ El diseño se aplica automáticamente en función de la configuración seleccion
 
 ![](assets/s_ncs_content_deliver_a_content_html.png)
 
-Para obtener más información, consulte el ejemplo de implementación completa: [Creación de contenido en el asistente de envío](use-case-creating-content-management.md#creating-content-in-the-delivery-assistant).
+Para obtener más información sobre esto, consulte el ejemplo de implementación completa: [Creación de contenido en el asistente de envíos](use-case-creating-content-management.md#creating-content-in-the-delivery-assistant).
 
 ## Creación de una instancia de contenido {#creating-a-content-instance}
 

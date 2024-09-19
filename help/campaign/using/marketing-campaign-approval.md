@@ -6,9 +6,9 @@ role: User
 feature: Approvals, Campaigns
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2437'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -321,7 +321,7 @@ Esta opción le permite definir a alguien a cargo de la edición de contenido, c
 
    ![](assets/s_ncs_user_validation_submit_content_notif.png)
 
-1. Pueden iniciar sesión en la consola, abrir la entrega y editarlo utilizando un asistente simplificado para cambiar el asunto, el HTML y el contenido de texto, y enviar pruebas.
+1. Pueden iniciar sesión en la consola, abrir el envío y editarlo utilizando un asistente simplificado para cambiar el asunto, el contenido HTML y el contenido de texto, y enviar pruebas.
 
    ![](assets/s_user_validation_content_edition.png)
 

@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2973'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Adobe Campaign permite importar datos a la base de datos desde uno o varios arch
 >
 >Puede importar datos sin asignarlos con los datos de la base de datos mediante la función **[!UICONTROL Import a list]**. Posteriormente, los datos se pueden utilizar exclusivamente en flujos de trabajo mediante el objeto **[!UICONTROL Read list]**. Para obtener más información, consulte [esta página](../../workflow/using/read-list.md).
 
-El asistente de importación permite configurar una importación, definir sus opciones (como la transformación de datos) e iniciar la ejecución. Es una serie de pantallas cuyo contenido depende del tipo de importación (simple o múltiple) y de los derechos del operador.
+El asistente de importación permite configurar la importación, definir sus opciones (como la transformación de datos) e iniciar la ejecución. Es una serie de pantallas cuyo contenido depende del tipo de importación (simple o múltiple) y de los derechos del operador.
 
-El asistente de importación se muestra después de crear un nuevo trabajo de importación (consulte [Crear trabajos de importación y exportación](../../platform/using/creating-import-export-jobs.md).
+El asistente de importación se muestra después de crear un nuevo trabajo de importación (consulte [Creación de trabajos de importación y exportación](../../platform/using/creating-import-export-jobs.md).
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Al iniciar el asistente de importación, primero debe seleccionar una plantilla.
 1. Introduzca un nombre para esta importación en el campo **[!UICONTROL Label]**. Puede añadir una descripción.
 1. Seleccione el tipo de importación en el campo apropiado. Existen dos tipos de importación posibles: **[!UICONTROL Simple import]** para importar solo un archivo y **[!UICONTROL Multiple import]** para importar varios archivos en una sola ejecución.
 
-   Para una importación múltiple, seleccione **[!UICONTROL Multiple import]** de la lista desplegable **[!UICONTROL Import type]** en la primera pantalla del asistente de importación.
+   Para una importación múltiple, seleccione **[!UICONTROL Multiple import]** en la lista desplegable de **[!UICONTROL Import type]** en la primera pantalla del asistente de importación.
 
    ![](assets/s_ncs_user_import_wizard01_2.png)
 
@@ -61,7 +61,7 @@ Al iniciar el asistente de importación, primero debe seleccionar una plantilla.
 
    ![](assets/s_ncs_user_import_wizard01_3.png)
 
-   Cada vez que se agrega un archivo, se muestra la pantalla del asistente **[!UICONTROL File to import]**. Consulte la sección [Paso 2 - Selección de archivos Source](#step-2---source-file-selection) y siga los pasos del asistente para definir las opciones de importación como para una importación simple.
+   Cada vez que se añade un archivo, se muestra la pantalla del asistente **[!UICONTROL File to import]**. Consulte la sección [Paso 2: Selección de archivos de origen](#step-2---source-file-selection) y siga los pasos del asistente para definir las opciones de importación como para una importación simple.
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ Existen cuatro tipos de campos calculados:
 
 ## Paso 4: Reconciliación {#step-4---reconciliation}
 
-El paso de reconciliación del asistente de importación le permite definir el modo de reconciliación de los datos del archivo con los datos existentes en la base de datos y establecer las reglas de prioridad entre los datos del archivo y los datos de la base de datos. La ventana de configuración tiene este aspecto:
+El paso de reconciliación del asistente de importación le permite definir el modo de reconciliación de los datos del archivo con los datos existentes en la base de datos, y también establecer las reglas de prioridad entre los datos del archivo y los datos de la base de datos. La ventana de configuración tiene este aspecto:
 
 ![](assets/s_ncs_user_import_wizard04_1.png)
 

@@ -7,9 +7,9 @@ feature: Monitoring
 role: User, Data Engineer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1186'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ La pestaña **[!UICONTROL Tracking]** enumera el historial de seguimiento de est
 >
 >Si el seguimiento no está habilitado para una entrega, esta pestaña no se muestra.
 
-La configuración de seguimiento se realiza en el escenario adecuado del asistente de envíos. Consulte [Configuración de los vínculos rastreados](how-to-configure-tracked-links.md).
+La configuración de seguimiento se realiza en la fase adecuada del asistente de envíos. Consulte [Configuración de los vínculos rastreados](how-to-configure-tracked-links.md).
 
 Los datos de **[!UICONTROL Tracking]** se interpretan en los informes de entrega. Consulte [esta sección](../../reporting/using/delivery-reports.md).
 

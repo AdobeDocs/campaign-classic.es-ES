@@ -7,15 +7,15 @@ feature: Monitoring, Email Design, Personalization
 role: User
 exl-id: 3277726a-fd92-4720-8871-3d0422c7db70
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Configuración de las opciones de seguimiento de URL{#personalizing-url-tracking}
 
-Se puede acceder a la configuración avanzada de seguimiento de mensajes a través del icono **[!UICONTROL Tracking & Images]** en la barra de herramientas del asistente de envío.
+Es posible acceder a la configuración avanzada de seguimiento de mensajes mediante el icono **[!UICONTROL Tracking & Images]** de la barra de herramientas del asistente de envíos.
 
 >[!NOTE]
 >

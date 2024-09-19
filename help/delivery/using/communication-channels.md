@@ -7,9 +7,9 @@ feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1214'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Los envíos se pueden realizar **en línea** (por correo electrónico, uno de lo
 Dependiendo del canal, los modos de envío pueden ser:
 
 * Envío directo mediante Adobe Campaign (modo predeterminado del canal por correo electrónico).
-* Envío externo a través de un operador especializado que recibe el archivo de salida generado por el asistente de envío (modo predeterminado del canal de correo postal).
+* Envío externo a través de un operador especializado que recibe el archivo de salida generado por el asistente de envíos (modo predeterminado para el canal de correo directo).
 
 Las cuentas externas se configuran mediante el nodo **[!UICONTROL Administration > Platform > External accounts]**. Esta configuración solo deben realizarla usuarios expertos.
 

@@ -5,9 +5,9 @@ description: Obtenga más información sobre los flujos de trabajo técnicos dis
 feature: Workflows
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1704'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Para obtener más información sobre la supervisión de flujos de trabajo técni
 | **Recopilación de datos para el servicio HeatMap** (collectDataHeatMapService) | Instalado de forma predeterminada | Este flujo de trabajo recupera los datos requeridos por el servicio HeatMap. |
 | **Recopilar solicitudes de privacidad** (collectPrivacyRequests) | Reglamento de protección de datos de privacidad | Este flujo de trabajo genera los datos del destinatario almacenados en Adobe Campaign y los hace disponibles para su descarga en la pantalla de la solicitud de privacidad. |
 | **Cálculo de costes** (budgetMgt) | Campañas de marketing (Campaign) | Este flujo de trabajo inicia el cálculo de las líneas de gastos y de costes sobre presupuestos, planes, programas, campañas, envíos y tareas. |
-| **Limpieza de base de datos** (cleanup) | Entrega | Este flujo de trabajo es el flujo de trabajo de mantenimiento de la base de datos: realiza diferentes cálculos en las estadísticas y procesos y elimina datos obsoletos de la base de datos según la configuración definida en el asistente de implementación. Se activa cada día a las 4 a. m. de manera predeterminada. Para obtener más información, consulte [esta página](../../production/using/database-cleanup-workflow.md#monitoring-campaign-classic). |
+| **Limpieza de base de datos** (cleanup) | Entrega | Este flujo de trabajo es el de mantenimiento de la base de datos: realiza diferentes cálculos a partir de las estadísticas y procesos, y elimina los datos obsoletos de la base de datos según la configuración definida en el asistente de implementación. Se activa cada día a las 4 a. m. de manera predeterminada. Para obtener más información, consulte [esta página](../../production/using/database-cleanup-workflow.md#monitoring-campaign-classic). |
 | **Eliminar usuarios de LINE bloqueados** (deleteBlockedLineUsersV2) | Canal LINE | Este flujo de trabajo garantiza que los datos de los usuarios de LINE V2 se eliminen después de haber bloqueado la cuenta oficial de LINE durante 180 días. |
 | **Eliminar datos de solicitudes de privacidad** (deletePrivacyRequestsData) | Reglamento de protección de datos de privacidad | Este flujo de trabajo elimina los datos del destinatario almacenados en Adobe Campaign. |
 | **Indicadores de entrega** (deliveryIndicators) | Plataforma intermediaria | Este flujo de trabajo actualiza los indicadores de seguimiento de un envío para un envío. De forma predeterminada, este flujo de trabajo se activa cada hora. |

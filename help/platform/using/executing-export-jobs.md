@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '947'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Por ejemplo: puede resultar útil utilizar datos de seguimiento de campañas (hi
 
 El asistente de exportación permite configurar una exportación, definir sus opciones e iniciar la ejecución. Es una serie de pantallas cuyo contenido depende del tipo de exportación (simple o múltiple) y de los derechos del operador.
 
-El asistente de exportación se muestra después de crear un nuevo trabajo de exportación (consulte [Crear trabajos de importación y exportación](../../platform/using/creating-import-export-jobs.md).
+El asistente de exportación se muestra después de crear un nuevo trabajo de exportación (consulte [Creación de trabajos de importación y exportación](../../platform/using/creating-import-export-jobs.md).
 
 ## Paso 1: Selección de la plantilla de exportación {#step-1---choosing-the-export-template}
 
@@ -95,7 +95,7 @@ Seleccione el orden de las columnas.
 
 ## Paso 6: Condiciones de filtro {#step-6---filter-conditions-}
 
-Puede añadir condiciones de filtro para evitar la exportación de todos los datos. La configuración de este filtro es la misma que la segmentación de destinatarios en el asistente de envíos. Consulte [esta página](../../delivery/using/steps-defining-the-target-population.md).
+Puede añadir condiciones de filtro para evitar la exportación de todos los datos. La configuración de este filtro es la misma que el direccionamiento de destinatarios en el asistente de envíos. Consulte [esta página](../../delivery/using/steps-defining-the-target-population.md).
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 
@@ -125,7 +125,7 @@ Haga clic en **[!UICONTROL Start the preview of the data]** para obtener una pre
 
 ![](assets/s_ncs_user_export_wizard07.png)
 
-Haga clic en las pestañas en la parte inferior del asistente para cambiar de la vista previa de los resultados en columnas a los resultados en XML. También puede ver las consultas SQL generadas.
+Haga clic en las pestañas de la parte inferior del asistente para cambiar de la vista previa de los resultados en columnas a los resultados en XML. También puede ver las consultas SQL generadas.
 
 ## Paso 9: Inicio de la exportación {#step-9---launching-the-export}
 

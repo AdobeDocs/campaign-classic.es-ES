@@ -7,9 +7,9 @@ feature: Deliverability, Email Rendering, Proofs
 role: User
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1662'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -138,7 +138,7 @@ Para enviar una prueba, siga los pasos a continuación:
 
 1. Asegúrese de que el objetivo de prueba se ha configurado tal como se describe en [Definición de un objetivo de prueba específico](steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
-1. Haga clic en **[!UICONTROL Send a proof]** en la barra superior del asistente de envíos.
+1. En la barra superior del asistente de envíos, haga clic en **[!UICONTROL Send a proof]**.
 
    ![](assets/s_ncs_user_email_del_send_proof.png)
 
