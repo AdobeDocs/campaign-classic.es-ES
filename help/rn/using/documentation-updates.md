@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 98859f6452b5f1008a19a48b9b77edd9acf49261
+source-git-commit: 3f6bbf2766a61580c4f232d3919fe955d82a7881
 workflow-type: tm+mt
-source-wordcount: '3746'
-ht-degree: 100%
+source-wordcount: '3782'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,15 @@ Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/lat
 
 ## 2024
 
+### Septiembre de 2024 {#sept-2024}
+
+Los estados de la versión se han reducido y simplificado. [Más información](rn-overview.md)
+
+Se ha actualizado la instalación de los paquetes Linux para la versión 7.4.1. [Más información](../../installation/using/installing-packages-with-linux.md)
+
 ### Junio de 2024 {#june-2024}
+
+Se ha actualizado la sección Notas de la versión con las mejoras de la versión 7.4.1, las actualizaciones de compatibilidad y los parches. [Más información](latest-release.md)
 
 Se ha añadido una nota para especificar cómo borrar variables de instancia al reiniciar flujos de trabajo. [Más información](../../workflow/using/starting-a-workflow.md)
 
