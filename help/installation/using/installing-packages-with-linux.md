@@ -8,14 +8,14 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
-source-git-commit: b4ab1fe5e98211c2b1bcdb319f10777c032831c7
+source-git-commit: 9526d466dc4613410905d9d7265c6471cd1df599
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
 
-# Instalación de paquetes con Linux{#installing-packages-with-linux}
+# Instalación de paquetes con Linux {#installing-packages-with-linux}
 
 Adobe Campaign viene con el paquete **nlserver** que contiene los binarios y los archivos de configuración de una versión determinada.
 
@@ -60,6 +60,8 @@ Para instalar Adobe Campaign en un sistema operativo RPM (RHEL, CentOS), siga es
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
+Tenga en cuenta que la mayoría de las dependencias enumeradas son obligatorias y `nlserver` no se puede iniciar si no están instaladas (la excepción es opendk; se puede instalar otro JDK).
+
 El comando `bc`, obligatorio para ejecutar [netreport](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts), no está disponible de forma predeterminada en todas las distribuciones de Linux. Para comprobar si el comando está disponible, ejecute el comando `which bc`. Si no es así, tiene que instalarlo.
 
 Con CentOS, debe instalar el paquete bc.x86_64: conéctese como **root** y ejecute el siguiente comando:
@@ -81,32 +83,9 @@ Para instalar Adobe Campaign en un sistema operativo Debian de 64 bits, siga los
 1. Para instalarlo, conéctese como **root** y ejecute el siguiente comando, donde **XXXX** es el número de compilación de Adobe Campaign:
 
    ```
-   dpkg -i nlserver6-v7-XXXX-linux-2.6-amd64.deb
+   apt install ./nlserver6-v7-XXXX-linux-2.6-amd64.deb
    ```
 
-   Si faltan dependencias, ejecute el siguiente comando:
-
-   ```
-   apt-get install -f
-   ```
-
-
-1. Al instalar Adobe Campaign en un sistema operativo Debian, tenga en cuenta lo siguiente:
-
-* OpenSSL debe instalarse de antemano.
-* Instale libicu y libc-aresYY, donde XX es la versión, con los siguientes comandos:
-
-  ```
-  apt install libicuXX
-  ```
-
-  ```
-  apt install libc-aresXX
-  ```
-
-  ```
-  apt install openjdk-XX-jdk
-  ```
 
 ## Personalización de parámetros {#personalizing-parameters}
 
