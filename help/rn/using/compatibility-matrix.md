@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: b23632d0718d62d61e94e636937b93aa39bbe43f
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 100%
+source-wordcount: '843'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ A menos que se indique lo contrario, se admiten todas las versiones secundarias.
 
 >[!CAUTION]
 >
->Esta matriz se actualiza regularmente con la incorporación de nuevos sistemas compatibles y la eliminación de obsoletos.
+>Esta matriz se actualiza regularmente: se añaden nuevos sistemas y herramientas compatibles y se eliminan los obsoletos.
 
 ## Sistemas operativos {#OperatingSystems}
 
@@ -53,7 +53,7 @@ Como cliente On-Premise/híbrido, debe instalar Adobe Campaign en uno de los sis
 </td>
 </tr>
 <tr>
-<td>RHEL</td>
+<td>Red Hat Enterprise Linux (RHEL)</td>
 <td>
 <p>9.x</p>
 <p>8.x</p>
@@ -83,7 +83,7 @@ Como cliente On-Premise/híbrido, debe instalar Adobe Campaign en uno de los sis
 
 >[!IMPORTANT]
 >
->Si utiliza RHEL, debe estar dispuesto a deshabilitar [SELinux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#selinux) o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no está causando problemas con las operaciones de Campaign.
+>Con RHEL, debe estar dispuesto a deshabilitar [SELinux](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#selinux) o a que sus arquitectos escriban reglas SELinux personalizadas para comprobar que un SELinux habilitado no está causando problemas con las operaciones de Campaign.
 
 ## Servidores web {#WebServers}
 
@@ -91,10 +91,12 @@ Como cliente On-Premise/híbrido, según su sistema operativo, deberá integrar 
 
 <table>
 <tbody>
+<td><strong>Servidor web</strong></td>
+<td><strong>Versión del servidor web</strong></td>
 <tr>
 <td>Microsoft IIS</td>
 <td>
-<p>10.0 en Windows Server</p>
+<p>10,0</p>
 </td>
 </tr>
 <tr>

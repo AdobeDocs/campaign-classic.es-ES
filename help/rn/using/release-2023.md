@@ -6,7 +6,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
-source-git-commit: f39dc6077a7ddc3fb9b53d4082c08e65e7683f10
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
 source-wordcount: '2337'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## Versión 7.3.5, compilación 9368 {#release-7-3-5}
 
-[!BADGE Disponibilidad limitada]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
+[!BADGE Disponibilidad limitada]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
 
 _5 de diciembre de 2023_
 
@@ -50,7 +50,7 @@ A partir de esta versión, los vínculos de seguimiento en correos electrónicos
 
 ## Versión 7.3.4, compilación 9364 {#release-7-3-4}
 
-[!BADGE Disponibilidad limitada]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
+[!BADGE Disponibilidad limitada]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
 
 
 >[!CAUTION]
@@ -120,7 +120,7 @@ Se ha corregido un problema que podía hacer que los caracteres japoneses se mos
 
 ## Versión 7.3.3, compilación 9359 {#release-7-3-3}
 
-[!BADGE Disponibilidad limitada]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
+[!BADGE Disponibilidad limitada]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
 
 >[!AVAILABILITY]
 >
@@ -156,7 +156,7 @@ _20 de marzo de 2023_
 
 ## Versión 7.3.2, compilación 9356 {#release-7-3-2}
 
-[!BADGE Disponibilidad limitada]{type=Neutral url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
+[!BADGE Disponibilidad limitada]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
 
 
 >[!AVAILABILITY]

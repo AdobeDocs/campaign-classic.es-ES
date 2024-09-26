@@ -4,9 +4,9 @@ title: 'Elementos y atributos de esquema: elemento element'
 description: elemento
 feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2029'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
 * **dbEnum (string)**: recibe el nombre interno de una enumeración &quot;cerrada&quot;. Los valores de enumeración deben definirse en `<srcschema>`.
 * **defOnDuplicate (booleano)**: si este atributo está activado, cuando se duplica un registro, el valor predeterminado (definido en @default) se vuelve a aplicar automáticamente al registro.
 * **default (string)**: permite definir el comportamiento del elemento (llamada a una función, valor predeterminado). Este atributo recibe una expresión XTK.
-* **desc (string)**: permite insertar una descripción del elemento. Esta descripción se muestra en la barra de estado de la interfaz.
+* **desc (string)**: permite insertar una descripción del elemento. Esta descripción se utiliza para comprender qué es el elemento y para qué se utiliza. Puede mostrarlo en el formulario.
 * **displayAsField (booleano)**: si este atributo está activado, se mostrará un tipo de &quot;vínculo&quot; `<element>` como un campo en la vista de árbol de los esquemas (pestaña &quot;Estructura&quot;). De este modo, es posible mostrar un vínculo como un campo local y cambiar su comportamiento durante una consulta. Cuando el elemento se encuentra en la selección de una consulta, se utiliza el valor del destino del vínculo. Cuando el elemento se encuentra en el WHERE de una consulta, se utiliza la clave subyacente del vínculo.
 * **edit (string)**: este atributo especifica el tipo de entrada que se utilizará en el formulario vinculado al esquema.
 * **enum (string)**: recibe el nombre de la enumeración vinculada al campo. La enumeración puede insertarse en el mismo esquema o en un esquema remoto.
