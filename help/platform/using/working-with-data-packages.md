@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+source-git-commit: 349c3dfd936527e50d7d3e03aa3408b395502da0
+workflow-type: tm+mt
 source-wordcount: '2474'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -169,10 +169,10 @@ Contenido del paquete:
 <package author="Administrator (admin)" buildNumber="7974" buildVersion="7.1" img=""
 label="" name="" namespace="" vendor="">
  <desc></desc>
- <version buildDate="2013-01-09 10:30:18.954Z"/>
+ <version buildDate="AAAA-MM-DD HH:MM:SS.954Z"/>
  <entities schema="nms:operation">
-  <operation duration="432000" end="2013-01-14" internalName="OP1" label="MyCampaign"
-  modelName="opEmpty" start="2013-01-09">
+  <operation duration="432000" end="AAAA-MM-DD" internalName="OP1" label="MyCampaign"
+  modelName="opEmpty" start="AAAA-MM-DD">
    <controlGroup>
     <where filteringSchema=""/>
    </controlGroup>
@@ -188,7 +188,7 @@ label="" name="" namespace="" vendor="">
    </fcpSeed>
    <owner _operation="none" name="admin" type="0"/>
    <program _operation="none" name="nmsOperations"/>
-   <task end="2013-01-17 10:07:51.000Z" label="MyTask" name="TSK2" start="2013-01-16 10:07:51.000Z"
+   <task end="2023-01-17 10:07:51.000Z" label="MyTask" name="TSK2" start="2023-01-16 10:07:51.000Z"
    status="1">
     <owner _operation="none" name="admin" type="0"/>
     <operation _operation="none" internalName="OP1"/>
@@ -354,7 +354,7 @@ Siempre importe en la misma versión de la plataforma. Debe comprobar que implem
 >[!IMPORTANT]
 >
 >Adobe no admite la importación entre distintas versiones.
-<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won’t be able to help you resolve any issues you encounter.-->
+<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won't be able to help you resolve any issues you encounter.-->
 
 Preste atención a la estructura del esquema y de la base de datos. La importación de paquete con esquema debe ir seguida de la generación de esquemas.
 
@@ -365,11 +365,11 @@ Preste atención a la estructura del esquema y de la base de datos. La importaci
 Empiece por definir diferentes tipos de paquetes. Solo se utilizan cuatro tipos:
 
 **Entidades**
-* Todos los elementos específicos de “xtk” y de “nms” en Adobe Campaign como esquemas, formularios, carpetas, plantillas de envíos, etc.
-* Puede considerar una entidad como elemento “admin” y “platform”.
+* Todos los elementos específicos de &quot;xtk&quot; y &quot;nms&quot; en Adobe Campaign como esquemas, formularios, carpetas, plantillas de envíos, etc.
+* Puede considerar una entidad como elemento &quot;admin&quot; y &quot;platform&quot;.
 * Evite incluir más de una entidad en un paquete al cargarlo en una instancia de Campaign.
 
-<!--Nothing “works” alone. An entity package does not have a specific role or objective.-->
+<!--Nothing "works" alone. An entity package does not have a specific role or objective.-->
 
 Si necesita implementar la configuración en una instancia nueva, puede importar todos los paquetes de entidades.
 
@@ -390,7 +390,7 @@ Una vez configurada, una función se puede exportar a otro entorno. Por ejemplo,
 
 La primera solución sería volver a exportar toda la función. Sin embargo, para evitar cualquier riesgo (actualizar elementos no deseados), es más seguro tener un paquete que contenga solamente la corrección.
 
-Por este motivo, recomendamos crear un paquete “actualización” que contenga solo un tipo de entidad de la función.
+Por este motivo, recomendamos crear un paquete &quot;actualización&quot; que contenga solo un tipo de entidad de la función.
 
 Una actualización no solo podría ser una corrección, sino también un nuevo elemento del paquete de campaña, función o entidad. Para evitar implementar todo el paquete, puede exportar un paquete de actualización.
 
@@ -427,7 +427,7 @@ El número de paquete 200 no debe utilizarse para una campaña específica: este
 
 #### Actualizar paquete {#update-package}
 
-El último punto se refiere a la numeración del paquete de actualización. Es su número de paquete (entidad, función o campaña) con un “5” como prefijo. Por ejemplo:
+El último punto se refiere a la numeración del paquete de actualización. Es su número de paquete (entidad, función o campaña) con un &quot;5&quot; como prefijo. Por ejemplo:
 * 5001 para actualizar un esquema
 * 5200 para actualizar todas las campañas
 * 5101 para actualizar la función 101
@@ -450,7 +450,7 @@ Al actualizar un paquete, siempre debe colocar un comentario en el campo de desc
 
 ![](assets/ncs_datapackage_best-practices-2.png)
 
-También debe indicar la fecha del comentario. Siempre informe su comentario en un paquete de actualización al “principal” (paquete sin el prefijo 5).
+También debe indicar la fecha del comentario. Siempre informe su comentario en un paquete de actualización al &quot;principal&quot; (paquete sin el prefijo 5).
 
 >[!IMPORTANT]
 >
