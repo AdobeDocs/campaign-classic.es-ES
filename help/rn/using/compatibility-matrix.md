@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ A menos que se indique lo contrario, se admiten todas las versiones secundarias.
 
 >[!CAUTION]
 >
->Esta matriz se actualiza regularmente: se añaden nuevos sistemas y herramientas compatibles y se eliminan los obsoletos.
+>Esta matriz se actualiza regularmente con la incorporación de nuevos sistemas y herramientas compatibles, y la eliminación de lo que haya quedado obsoleto.
 
 ## Sistemas operativos {#OperatingSystems}
 
