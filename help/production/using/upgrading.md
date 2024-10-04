@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
-source-git-commit: cc614ed608f1e8229c0ef1ccf35dbac6cb9dddd3
+source-git-commit: e5468f2aa5dc18c2b24c3e80e416e423ad0e13c9
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1233'
 ht-degree: 3%
 
 ---
@@ -132,22 +132,6 @@ A continuación, puede instalar los paquetes necesarios, tal y como se detalla a
 
 * Distribución basada en RPM (RedHat, SuSe)
 
-  Para instalarlos, ejecute como raíz:
-
-  ```
-  yum install ./nlserver6-v7-XXXX.rpm
-  ```
-
-  Donde XXX es la versión del archivo.
-
-  El archivo rpm depende de paquetes que se pueden encontrar en las distribuciones de CentOS/Red Hat. Si no desea utilizar algunas de estas dependencias, es posible que tenga que utilizar la opción &quot;nodeps&quot; de rpm:
-
-  ```
-  rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
-  ```
-
-  Tenga en cuenta que la mayoría de las dependencias son obligatorias y `nlserver` no puede iniciarse si no hay ninguna instalada. La única excepción es openjdk, puede instalar otro JDK si es necesario.
-
   Si el paquete `epel-release` no está instalado, instálelo. Para ello, introduzca el siguiente comando, como raíz:
 
   ```
@@ -173,6 +157,14 @@ A continuación, puede instalar los paquetes necesarios, tal y como se detalla a
   >[!IMPORTANT]
   >
   >Si lee `Removing:` en lugar de `Upgrading:`, cancele el comando. Probablemente haya algunos errores (enumerados arriba) que explican la eliminación. En tal caso, corrija esos errores actualizando o instalando las dependencias que faltan en la lista e intente ejecutar el comando de nuevo.
+
+  El archivo rpm depende de paquetes que se pueden encontrar en las distribuciones de CentOS/Red Hat. Si no desea utilizar algunas de estas dependencias, es posible que tenga que utilizar la opción &quot;nodeps&quot; de rpm:
+
+  ```
+  rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
+  ```
+
+  Tenga en cuenta que la mayoría de las dependencias son obligatorias y `nlserver` no puede iniciarse si no hay ninguna instalada. La única excepción es openjdk, puede instalar otro JDK si es necesario.
 
 * Distribución basada en DEB (Debian)
 
