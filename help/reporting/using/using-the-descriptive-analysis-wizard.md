@@ -1,20 +1,18 @@
 ---
 product: campaign
-title: Uso del asistente de análisis descriptivo
-description: Uso del asistente de análisis descriptivo
+title: Creación de su primer informe de análisis descriptivo
+description: Aprenda a utilizar el asistente para crear su primer informe de análisis descriptivo
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Reporting, Monitoring
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
-source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
-workflow-type: ht
-source-wordcount: '1570'
-ht-degree: 100%
+source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
+workflow-type: tm+mt
+source-wordcount: '1580'
+ht-degree: 98%
 
 ---
 
-# Uso del asistente de análisis descriptivo{#using-the-descriptive-analysis-wizard}
-
-
+# Creación de su primer informe de análisis descriptivo {#using-the-descriptive-analysis-wizard}
 
 Para crear un informe de análisis descriptivo, utilice el asistente dedicado. La configuración depende de los datos que se analicen y de la renderización deseada.
 

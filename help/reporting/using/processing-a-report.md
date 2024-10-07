@@ -1,20 +1,18 @@
 ---
 product: campaign
-title: Uso de un informe de análisis
-description: Uso de un informe de análisis
+title: Administración y configuración del informe de análisis
+description: Administración y configuración del informe de análisis
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Reporting, Monitoring
 exl-id: d133efec-33e1-4711-a90f-e40385059386
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '825'
-ht-degree: 100%
+source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
+workflow-type: tm+mt
+source-wordcount: '831'
+ht-degree: 97%
 
 ---
 
-# Uso de un informe de análisis{#processing-a-report}
-
-
+# Administración y configuración del informe de análisis {#processing-a-report}
 
 ## Guardado de un informe de análisis {#saving-an-analysis-report}
 

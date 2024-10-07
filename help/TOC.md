@@ -6,10 +6,10 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
+workflow-type: tm+mt
+source-wordcount: '2560'
+ht-degree: 99%
 
 ---
 
@@ -293,10 +293,10 @@ ht-degree: 100%
       + [Cálculo de indicador](reporting/using/indicator-calculation.md)
       + [Personas y destinatarios](reporting/using/person-people-recipients.md)
    + Análisis de poblaciones {#analyzing-populations}
-      + [Acerca del análisis descriptivo](reporting/using/about-descriptive-analysis.md)
-      + [Uso del asistente de análisis descriptivo](reporting/using/using-the-descriptive-analysis-wizard.md)
-      + [Configuración de informes](reporting/using/processing-a-report.md)
-      + [Casos de uso](reporting/using/use-cases.md)
+      + [Qué es el análisis descriptivo](reporting/using/about-descriptive-analysis.md)
+      + [Creación de su primer informe de análisis descriptivo](reporting/using/using-the-descriptive-analysis-wizard.md)
+      + [Administración y configuración del informe de análisis](reporting/using/processing-a-report.md)
+      + [Casos de uso de Analysis Reporting](reporting/using/use-cases.md)
    + Creación de informes nuevos {#creating-new-reports}
       + [Pasos clave para diseñar un informe](reporting/using/about-reports-creation-in-campaign.md)
       + [Creación de un informe nuevo](reporting/using/creating-a-new-report.md)
