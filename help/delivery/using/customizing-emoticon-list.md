@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Email, Push
 role: User, Data Engineer
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 287d1bf60b39e9e2b389701097995dbea962dec9
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,8 @@ ht-degree: 100%
 
 La lista de emoticonos que se muestra en la ventana emergente se rige por una lista desglosada que permite mostrar valores en una lista para restringir las opciones que el usuario tiene para un campo determinado.
 El orden de lista de emoticonos se puede personalizar y también se pueden añadir otros emoticonos a la lista.
-Los emoticonos están disponibles para el correo electrónico y para más información, consulte esta [página](defining-the-email-content.md#inserting-emoticons).
+
+Tenga en cuenta que los emoticonos solo están disponibles para correo electrónico y notificaciones push. Para obtener más información, consulte esta [página](defining-the-email-content.md#inserting-emoticons).
 
 ## Adición de un nuevo emoticono {#add-new-emoticon}
 
