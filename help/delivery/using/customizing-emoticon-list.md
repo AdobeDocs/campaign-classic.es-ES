@@ -7,15 +7,15 @@ feature: Email, Push
 role: User, Data Engineer
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 source-git-commit: 287d1bf60b39e9e2b389701097995dbea962dec9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Personalización de la lista de emoticonos {#customize-emoticons}
 
-La lista de emoticonos que se muestra en la ventana emergente se rige por una lista desglosada que permite mostrar valores en una lista para restringir las opciones que el usuario tiene para un campo determinado.
+La lista de emoticonos que se muestra en el elemento emergente se rige por una lista desglosada que permite mostrar valores en una lista para restringir las opciones que el usuario tiene para un campo determinado.
 El orden de lista de emoticonos se puede personalizar y también se pueden añadir otros emoticonos a la lista.
 
 Tenga en cuenta que los emoticonos solo están disponibles para correo electrónico y notificaciones push. Para obtener más información, consulte esta [página](defining-the-email-content.md#inserting-emoticons).

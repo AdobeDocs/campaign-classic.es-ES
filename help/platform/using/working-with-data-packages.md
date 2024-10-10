@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: 349c3dfd936527e50d7d3e03aa3408b395502da0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2474'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -365,8 +365,8 @@ Preste atención a la estructura del esquema y de la base de datos. La importaci
 Empiece por definir diferentes tipos de paquetes. Solo se utilizan cuatro tipos:
 
 **Entidades**
-* Todos los elementos específicos de &quot;xtk&quot; y &quot;nms&quot; en Adobe Campaign como esquemas, formularios, carpetas, plantillas de envíos, etc.
-* Puede considerar una entidad como elemento &quot;admin&quot; y &quot;platform&quot;.
+* Todos los elementos específicos de “xtk” y de “nms” en Adobe Campaign como esquemas, formularios, carpetas, plantillas de envíos, etc.
+* Puede considerar una entidad como elemento “admin” y “platform”.
 * Evite incluir más de una entidad en un paquete al cargarlo en una instancia de Campaign.
 
 <!--Nothing "works" alone. An entity package does not have a specific role or objective.-->
@@ -390,7 +390,7 @@ Una vez configurada, una función se puede exportar a otro entorno. Por ejemplo,
 
 La primera solución sería volver a exportar toda la función. Sin embargo, para evitar cualquier riesgo (actualizar elementos no deseados), es más seguro tener un paquete que contenga solamente la corrección.
 
-Por este motivo, recomendamos crear un paquete &quot;actualización&quot; que contenga solo un tipo de entidad de la función.
+Por este motivo, recomendamos crear un paquete de “actualización” que contenga solo un tipo de entidad de la función.
 
 Una actualización no solo podría ser una corrección, sino también un nuevo elemento del paquete de campaña, función o entidad. Para evitar implementar todo el paquete, puede exportar un paquete de actualización.
 
@@ -423,11 +423,11 @@ Para ayudar a la importación, los paquetes de entidades deben ordenarse a medid
 
 #### Paquete 200 {#package-200}
 
-El número de paquete 200 no debe utilizarse para una campaña específica: este número se utiliza para actualizar algo que concierne a todas las campañas.
+El número de paquete “200” no debe utilizarse para una campaña específica: este número se utiliza para actualizar algo que concierne a todas las campañas.
 
 #### Actualizar paquete {#update-package}
 
-El último punto se refiere a la numeración del paquete de actualización. Es su número de paquete (entidad, función o campaña) con un &quot;5&quot; como prefijo. Por ejemplo:
+El último punto se refiere a la numeración del paquete de actualización. Es su número de paquete (entidad, función o campaña) con un “5” como prefijo. Por ejemplo:
 * 5001 para actualizar un esquema
 * 5200 para actualizar todas las campañas
 * 5101 para actualizar la función 101
@@ -450,7 +450,7 @@ Al actualizar un paquete, siempre debe colocar un comentario en el campo de desc
 
 ![](assets/ncs_datapackage_best-practices-2.png)
 
-También debe indicar la fecha del comentario. Siempre informe su comentario en un paquete de actualización al &quot;principal&quot; (paquete sin el prefijo 5).
+También debe indicar la fecha del comentario. Incorpore siempre su comentario en un paquete de actualización al “principal” (paquete sin el prefijo 5).
 
 >[!IMPORTANT]
 >
