@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Email Design, Personalization
 role: User
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '1293'
-ht-degree: 100%
+source-git-commit: d34f75fadb02b4c03acc0c2d7be52df65320ec2d
+workflow-type: tm+mt
+source-wordcount: '1287'
+ht-degree: 98%
 
 ---
 
@@ -123,7 +123,7 @@ El diseño interactivo garantiza que un correo electrónico se represente de for
 
 * Utilice el modo de vista previa y envíe pruebas para probar el diseño en tantos dispositivos como sea posible
 
-* El módulo del Editor de contenido digital (DCE) de Adobe Campaign Classic incluye algunas plantillas con formato de diseño interactivo para dispositivos móviles en **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. Obtenga más información [en este artículo](https://theblog.adobe.com/responsive-email-design-101/)
+* El módulo Adobe Campaign Classic Digital Content Editor (DCE) incluye algunas plantillas con formato de diseño interactivo para dispositivos móviles disponibles a través de **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**.
 
 ## Administración de imágenes {#manage-images}
 
