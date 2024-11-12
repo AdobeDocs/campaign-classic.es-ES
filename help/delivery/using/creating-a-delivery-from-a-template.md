@@ -2,13 +2,14 @@
 product: campaign
 title: Creación de una entrega a partir de una plantilla
 description: Obtenga información sobre cómo crear una entrega a partir de una plantilla
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Delivery Templates
+hide: true
+hidefromtoc: true
 role: User
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '178'
 ht-degree: 100%
 
 ---
