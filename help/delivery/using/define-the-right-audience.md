@@ -8,7 +8,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 100%
@@ -33,7 +33,7 @@ En Campaign Classic, de forma predeterminada, las plantillas de envíos se dirig
 
 Por ejemplo, puede enviar a visitantes cuyos perfiles se hayan recopilado a través de redes sociales o a visitantes suscritos a un servicio informativo.
 
-Estas asignaciones se presentan [en esta sección](selecting-a-target-mapping.md).
+Estas asignaciones se presentan [en esta sección](steps-defining-the-target-population.md#select-a-target-mapping).
 
 También puede crear y utilizar una asignación de destino personalizada. Para obtener más información, consulte [esta sección](../../configuration/using/target-mapping.md).
 

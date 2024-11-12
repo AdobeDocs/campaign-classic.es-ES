@@ -6,10 +6,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
-workflow-type: ht
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
+workflow-type: tm+mt
 source-wordcount: '5959'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -93,7 +93,7 @@ Learn more about [Campaigns](../../campaign/using/designing-marketing-campaigns.
 
 *Contexto: Interacción de campaña*
 
-En el contexto de la interacción de campaña, el modo por lotes permite que el motor de oferta seleccione la mejor oferta (u ofertas) para un conjunto de contactos. Las reglas de elegibilidad/priorización se aplican a todos los contactos del conjunto.
+En el contexto de la interacción de campaña, el modo por lotes permite que el motor de oferta seleccione la mejor oferta (u ofertas) para un conjunto de contactos. Las reglas de idoneidad/priorización se aplican a todos los contactos del conjunto.
 
 Más información sobre la [Interacción](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -188,7 +188,7 @@ Más información sobre el [Flujo de trabajo de limpieza de la base de datos](..
 
 *Context: Transactional Messaging*
 
-Dedicated execution server(s) to leverage Transactional Messaging. A server can typically process up to 50,000 Engine Calls per hour. The “Per-Dedicated Server” designation does not necessarily have a 1:1 correlation with a physical server as Adobe may utilize virtualization technologies to achieve the equivalent effect.
+Dedicated execution server(s) to leverage Transactional Messaging. A server can typically process up to 50,000 Engine Calls per hour. The "Per-Dedicated Server" designation does not necessarily have a 1:1 correlation with a physical server as Adobe may utilize virtualization technologies to achieve the equivalent effect.
 
 Learn more about [Transactional Messaging](../../message-center/using/about-transactional-messaging.md).
 +++
@@ -240,7 +240,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 *Contexto: Correo directo*
 
-Una descripción del envío es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creado por la compañía y para una campaña en particular. Se utiliza en el contexto de los envíos por correo directo.
+Una descripción de la entrega es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creados por la compañía y para una campaña en particular. Se utiliza en el contexto de los envíos por correo directo.
 
 Más información sobre el [Correo directo](../../delivery/using/about-direct-mail-channel.md).
 +++
@@ -263,7 +263,7 @@ Más información sobre el [Análisis descriptivo](../../reporting/using/about-d
 
 *Contexto: Marketing distribuido*
 
-El complemento de marketing distribuido ofrece a los operadores de Campaign un espacio de trabajo colaborativo para implementar campañas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **lista de paquetes de Campaign**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
+El complemento de marketing distribuido ofrece a los operadores de Campaign un espacio de trabajo colaborativo para implementar campañas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **lista de paquetes de Campaign**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
 
 Más información sobre el [Marketing distribuido](../../distributed/using/about-distributed-marketing.md)
 +++
@@ -277,7 +277,7 @@ Más información sobre la [Distribución de valores](../../platform/using/defin
 
 +++**Delegación de dominios**
 
-La configuración de subdominios permite configurar una subsección de su dominio (técnicamente, una &quot;zona DNS&quot;) para utilizarla con Adobe Campaign.
+La configuración de subdominios le permite configurar una subsección de su dominio (técnicamente, una &quot;zona DNS&quot;) para utilizarla con Adobe Campaign.
 La delegación de dominios permite que Adobe controle y mantenga todos los aspectos de DNS necesarios para enviar, procesar y rastrear campañas por correo electrónico.
 
 Más información sobre la [Delegación de dominios](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es)
@@ -460,7 +460,7 @@ Más información sobre la [Interacción](../../interaction/using/interaction-an
 ----NOT USEFUL HERE?----
 +++**Image serving**
 
-The functionality that supplies the images embedded in emails to the delivery’s recipients. The insertion of the images based on an emails system’s “download images” functionality is what generates an “open” entry in Campaign’s tracking logs.
+The functionality that supplies the images embedded in emails to the delivery's recipients. The insertion of the images based on an emails system's "download images" functionality is what generates an "open" entry in Campaign's tracking logs.
 
 Learn more about [Image serving](../../delivery/using/defining-the-email-content.md#adding-images).
 +++
@@ -640,7 +640,7 @@ Más información sobre los [Entornos de oferta en directo](../../interaction/us
 
 *Contexto: Interacción de campaña*
 
-Las reglas de presentación de ofertas son reglas de tipología a las que se hace referencia en el entorno de la oferta, que permiten excluir algunas ofertas, tomando en cuenta el historial de propuestas del destinatario.
+Las reglas de presentación de ofertas son reglas de tipología a las que se hace referencia en el entorno de la oferta, que permiten excluir determinadas ofertas tomando en cuenta el historial de propuestas del destinatario.
 
 Más información sobre las [Reglas de presentación de ofertas](../../interaction/using/managing-offer-presentation.md#presentation-rules-overview).
 +++
@@ -676,7 +676,7 @@ Más información sobre la [Interacción](../../interaction/using/interaction-an
 
 *Contexto: Interacción de campaña*
 
-Una simulación de oferta permite a los operadores probar la distribución de ofertas en un ámbito definido (fecha del envío, segmento de destinatario, número de ofertas, tema, etc.) antes de enviar las ofertas. Se puede utilizar para ajustar las prioridades de oferta y las reglas de elegibilidad a fin de maximizar la eficacia de la oferta.
+Una simulación de oferta permite a los operadores probar la distribución de ofertas en un ámbito definido (fecha de entrega, segmento de destinatario, número de ofertas, tema, etc.) antes de enviar las ofertas. Se puede utilizar para ajustar las prioridades de oferta y las reglas de elegibilidad a fin de maximizar la eficacia de la oferta.
 
 Más información sobre las [Simulaciones de ofertas](../../interaction/using/about-offers-simulation.md).
 +++
@@ -775,7 +775,7 @@ Más información sobre los [Campos de personalización](../../delivery/using/pe
 
 +++**Variables de personalización**
 
-Las variables de personalización son fragmentos de código de un envío que pueden mostrar diferentes textos a diferentes destinatarios según la información del destinatario. Estos campos se pueden implementar como campos de personalización o como bloques.
+Las variables de Personalization son fragmentos de código de un envío que pueden mostrar diferentes textos a diferentes destinatarios según la información del destinatario. Estos campos se pueden implementar como campos de personalización o como bloques.
 
 Más información sobre las [Variables de personalización](../../delivery/using/about-personalization.md).
 +++
@@ -883,7 +883,7 @@ Más información sobre la [Extensión de los esquemas](../../configuration/usin
 
 +++**Direcciones semilla**
 
-Las direcciones semilla se utilizan para dirigirse a los destinatarios que no coinciden con los criterios de destino definidos. De este modo, los destinatarios que estén fuera del alcance del envío pueden recibirlo como lo haría cualquier otro destinatario. Se añaden a la audiencia de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatarios o para garantizar el envío.
+Las direcciones semilla se utilizan para dirigirse a los destinatarios que no coinciden con los criterios de destino definidos. De este modo, los destinatarios que estén fuera del alcance del envío pueden recibirlo como lo haría cualquier otro destinatario. Se añaden a la audiencia de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatarios o para garantizar la entrega.
 
 Más información sobre las [Direcciones semilla](../../delivery/using/about-seed-addresses.md).
 +++
@@ -939,7 +939,7 @@ Más información sobre los [Datos de destinatario](../../workflow/using/data-li
 
 La asignación de destino es la asignación de canales de envío a un tipo de datos específico. Las asignaciones de destino definen cómo los distintos canales de envío vinculan los campos de datos de un esquema. Define cómo Campaign envía a ese tipo de datos utilizando un campo o expresión específicos.
 
-Más información sobre la [Asignación de destino](../../delivery/using/selecting-a-target-mapping.md).
+Más información sobre la [Asignación de destino](../../delivery/using/steps-defining-the-target-population.md#select-a-target-mapping).
 +++
 
 +++**Actividades de segmentación**
@@ -984,7 +984,7 @@ Una plantilla es un elemento de diseño utilizado para crear un objeto. Contiene
 -----ACS -> SEEDS IN ACC-----
 +++**Test profiles**
 
-Allows targeting of additional recipients who do not match the defined targeting criteria. They are added to a message’s audience to detect any fraudulent use of your recipient database or to ensure delivery. Seen as the Seed type in the Campaign interface.
+Allows targeting of additional recipients who do not match the defined targeting criteria. They are added to a message's audience to detect any fraudulent use of your recipient database or to ensure delivery. Seen as the Seed type in the Campaign interface.
 
 Learn more about [Test profiles](../../workflow/using/about-workflows.md).
 +++

@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: ht
-source-wordcount: '804'
-ht-degree: 100%
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
+workflow-type: tm+mt
+source-wordcount: '793'
+ht-degree: 99%
 
 ---
 
@@ -169,10 +169,6 @@ Para realizar esto, siga los pasos a continuación:
 
 1. Cree una cuenta externa por marca con el mismo nombre interno que se define en la [instancia de ejecución](#execution-instance) (paso 1).
 
-1. Cree una plantilla de envíos predeterminada por cada marca.
-
-   >[!NOTE]
-   >
-   >    Obtenga información sobre cómo crear una plantilla de envíos en [esta sección](../../delivery/using/creating-a-delivery-template.md#creating-a-new-template).
+1. Cree una [plantilla de envíos](../../delivery/using/about-templates.md) por marca.
 
 1. En las **[!UICONTROL Properties]** de la plantilla de envío, configure el enrutamiento en la cuenta externa de la marca.

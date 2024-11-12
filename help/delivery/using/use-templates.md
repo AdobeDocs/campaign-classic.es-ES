@@ -7,7 +7,7 @@ feature: Delivery Templates
 hide: true
 hidefromtoc: true
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
@@ -20,11 +20,11 @@ ht-degree: 100%
 
 Las plantillas de envíos ofrecen una mayor eficiencia al proporcionar escenarios listos para usar para los tipos de actividades más comunes. Con las plantillas, los especialistas en marketing pueden implementar nuevas campañas con una personalización mínima en un período de tiempo más corto.
 
-Obtenga más información sobre las plantillas de envíos en [esta sección](creating-a-delivery-template.md).
+Obtenga más información sobre las plantillas de envíos en [esta sección](about-templates.md).
 
 ## Introducción a las plantillas de entregas {#gs-templates}
 
-Una [plantilla de envíos](creating-a-delivery-template.md) le permite definir una vez un conjunto de propiedades técnicas y funcionales que se adaptan a sus necesidades y pueden reutilizarse en futuros envíos. A continuación, puede ahorrar tiempo y estandarizar envíos cuando sea necesario.
+Una [plantilla de envíos](about-templates.md) le permite definir una vez un conjunto de propiedades técnicas y funcionales que se adaptan a sus necesidades y pueden reutilizarse en futuros envíos. A continuación, puede ahorrar tiempo y estandarizar envíos cuando sea necesario.
 
 Cuando se gestionan varias marcas en Adobe Campaign, Adobe recomienda tener un subdominio por marca. Por ejemplo, un banco puede tener varios subdominios correspondientes a cada una de sus agencias regionales. Si un banco posee el dominio bluebank.com, sus subdominios pueden ser @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Tener una plantilla de envíos para cada subdominio le permite utilizar los parámetros preconfigurados adecuados para cada una de sus marcas, lo que evita errores y le ahorra tiempo.
 
@@ -44,7 +44,7 @@ Cuando se gestionan varias marcas en Adobe Campaign, Adobe recomienda tener un s
 
 Para configurar direcciones en la interfaz de Campaign, siga los pasos a continuación:
 
-1. En la [plantilla de envíos](creating-a-delivery-template.md), haga clic en el vínculo **[!UICONTROL From]**. En la ventana **[!UICONTROL Email header parameters]**, rellene los campos siguientes:
+1. En la [plantilla de envíos](about-templates.md), haga clic en el vínculo **[!UICONTROL From]**. En la ventana **[!UICONTROL Email header parameters]**, rellene los campos siguientes:
 
    ![](assets/d_best_practices_email_header.png)
 
