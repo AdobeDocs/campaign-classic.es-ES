@@ -6,8 +6,8 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
-workflow-type: ht
+source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+workflow-type: tm+mt
 source-wordcount: '2560'
 ht-degree: 100%
 
@@ -116,8 +116,8 @@ ht-degree: 100%
       + [Definición del público](delivery/using/steps-defining-the-target-population.md)
       + [Validación del envío](delivery/using/steps-validating-the-delivery.md)
       + [Envío de la entrega](delivery/using/steps-sending-the-delivery.md)
-      + Prácticas recomendadas relacionadas con los envíos {#delivery-bestpractices}
-         + [Conozca las prácticas recomendadas](delivery/using/delivery-best-practices.md)
+      + [Prácticas recomendadas relacionadas con las entregas](delivery/using/delivery-best-practices.md)
+      + Prácticas recomendadas relacionadas con las entregas {#delivery-bestpractices}
          + [Optimización de las envíos](delivery/using/optimize-delivery.md)
          + [Uso de plantillas](delivery/using/use-templates.md)
          + [Creación de contenido personalizado](delivery/using/design-and-personalize.md)

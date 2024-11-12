@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: de6e86eb2304a88e836c5759b87d7f38446ed357
-workflow-type: ht
-source-wordcount: '766'
-ht-degree: 100%
+source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+workflow-type: tm+mt
+source-wordcount: '748'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Para obtener sugerencias adicionales para optimizar la capacidad de entrega al d
 
 >[!NOTE]
 >
->Para obtener más información sobre la edición del contenido del correo electrónico, consulte [Definición del contenido del correo electrónico](defining-the-email-content.md) y [Creación de contenido personalizado](design-and-personalize.md).
+>Para obtener más información sobre cómo editar el contenido del correo electrónico, consulte [Definir el contenido del correo electrónico](defining-the-email-content.md).
 
 ## Dirección del remitente {#sender-address}
 
@@ -44,8 +44,6 @@ Para obtener más información sobre esto, consulte [esta página](defining-the-
 Para mejorar la experiencia de los destinatarios y hacer que abran su correo electrónico, Adobe Campaign le permite personalizar sus mensajes.
 
 Para obtener más información sobre el uso de los campos de personalización en Adobe Campaign, consulte [esta sección](personalization-fields.md).
-
-Algunas sugerencias para optimizar la personalización al crear contenido se presentan en [esta sección](design-and-personalize.md#optimize-personalization).
 
 ## Formulario y vínculo de no participación {#opt-out}
 
