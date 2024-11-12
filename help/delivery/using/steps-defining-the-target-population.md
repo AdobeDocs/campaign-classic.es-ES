@@ -2,13 +2,12 @@
 product: campaign
 title: Definición de la población objetivo
 description: Obtenga información sobre cómo definir la población objetivo
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Audiences, Proofs
 role: User
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1593'
 ht-degree: 100%
 
 ---

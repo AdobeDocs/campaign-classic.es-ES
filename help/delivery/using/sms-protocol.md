@@ -2,14 +2,13 @@
 product: campaign
 title: Configuración y protocolo del conector SMS
 description: Obtenga más información sobre el conector de SMS y cómo configurarlo
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: SMS
 role: Developer, Data Engineer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 6803b6628313db9108a191fd143dac68ee799149
+source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
 workflow-type: tm+mt
-source-wordcount: '8466'
-ht-degree: 100%
+source-wordcount: '8457'
+ht-degree: 99%
 
 ---
 
@@ -843,8 +842,8 @@ El SMS debe marcarse como recibido en el registro de envíos. El registro de env
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Compruebe que ha cambiado el nombre del proveedor de envío. El registro de envíos nunca debe contener **SR genérico** en entornos de producción.
 
-* **Compruebe que se procesan los MO**
-Si necesita procesar los MO (respuestas automáticas, almacenar los MO en la base de datos, etc.) intente realizar algunas pruebas. Envíe algunos SMS para cada una de las palabras clave de respuesta automática y compruebe si la respuesta es lo suficientemente rápida, no más de unos segundos.
+* **Compruebe que se han procesado los MO**
+Si necesita procesar el MO (respuestas automáticas, almacenar el MO en la base de datos, etc.), intente realizar algunas pruebas. Envíe algunos SMS para cada una de las palabras clave de respuesta automática y compruebe si la respuesta es lo suficientemente rápida, no más de unos segundos.
 Compruebe en el registro que Adobe Campaign responde con `DELIVER_SM_RESP` correctamente (command_status=0).
 
 ### Compruebe las PDU {#check-pdus}
