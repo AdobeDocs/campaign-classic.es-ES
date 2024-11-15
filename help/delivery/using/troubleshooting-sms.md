@@ -5,10 +5,10 @@ description: Obtenga más información sobre cómo solucionar problemas del cana
 feature: SMS, Troubleshooting
 role: User
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
+source-git-commit: f660dcbb111e73f12737d96ebf9be2aeccbca8ee
 workflow-type: tm+mt
-source-wordcount: '2755'
-ht-degree: 100%
+source-wordcount: '3044'
+ht-degree: 90%
 
 ---
 
@@ -310,3 +310,30 @@ El resultado debe ser el siguiente:
 ```
 
 4 conexiones abiertas para el proceso sms y 2 por mta secundaria con 5 subconexiones.
+
+## Diferencia entre los estados de envío de SMS
+
+Para aclarar las diferencias entre los estados **Enviado**, **Enviado al proveedor** y **Recibido en el móvil**, consulte las definiciones detalladas a continuación:
+
+* **Recibido en el móvil**:
+El mensaje se ha entregado correctamente al dispositivo del usuario, con confirmación proporcionada por la entrega móvil finalizado (MT) y un informe de estado (SR).
+
+* **Enviado**:
+El mensaje se procesó correctamente a través del paso Mobile Terminated (MT), pero aún no se ha recibido un informe de estado (SR) que confirme la entrega al dispositivo móvil.
+
+* **Enviado al proveedor**:
+El mensaje se envió al proveedor mediante `SUBMIT_SM command`, pero no se recibió ninguna confirmación de `SUBMIT_SM_RESP` del proveedor.
+
+Es posible que los mensajes permanezcan en el estado **Enviado** porque la transición a **Recibido** depende de un informe de estado (SR) del dispositivo del usuario. Si el usuario tiene una recepción celular deficiente u otros problemas de conectividad, es posible que no reciba el mensaje inmediatamente. En estos casos, es responsabilidad del proveedor reintentar la entrega o explicar por qué no se generó ningún SR. Si el proveedor identifica alguna discrepancia, debe asegurarse de que el comportamiento de Campaign sea coherente con las expectativas.
+
+Estos son los estados de envío de SMS estándar:
+
+* **Pendiente**: el mensaje aún no se ha enviado al agregador.
+
+* **Tenido en cuenta por el proveedor**: el mensaje se ha enviado al agregador y éste ha confirmado la recepción.
+
+* **Enviado**: el agregador ha confirmado que el mensaje se ha insertado correctamente en la red móvil del usuario sin ningún error inmediato.
+
+* **Recibido en el teléfono móvil**: El dispositivo móvil del usuario ha confirmado la recepción y el agregador lo ha verificado.
+
+* **Error**: el mensaje se envió al agregador, que intentó la entrega al dispositivo móvil del usuario durante un período definido (por ejemplo, varias horas). En última instancia, el envío falló debido a problemas de red, falta de disponibilidad del dispositivo del usuario u otros motivos.
