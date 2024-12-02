@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: c820ea4d41d1a1cf312ff72c97f117b6e4be7e7a
+source-git-commit: 33d043507a43d5892210f86b9bd06f80d43d18b4
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '844'
 ht-degree: 100%
 
 ---
@@ -123,11 +123,13 @@ Como cliente On-Premise/híbrido, debe instalar y configurar las herramientas qu
 </td>
 <td>
 <p>17</p>
+<p>11</p>
 <p>9</p>
 <p>8</p>
 <p></p>
 </td>
 <td>
+<p>obligatorio desde la versión 7.4.1</p>
 <p>obligatorio desde la versión 7.4.1</p>
 <p>hasta la versión 7.4.1</p>
 <p>hasta la versión 7.4.1</p>
