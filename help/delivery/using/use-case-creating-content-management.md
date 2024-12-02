@@ -1,12 +1,12 @@
 ---
 product: campaign
-title: '“Caso de uso: creación de administración de contenido”'
-description: '“Caso de uso: creación de administración de contenido”'
+title: 'Caso de uso: creación de administración de contenido'
+description: 'Caso de uso: creación de administración de contenido'
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 100%
 

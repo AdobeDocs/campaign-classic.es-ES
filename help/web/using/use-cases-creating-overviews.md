@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: '“Casos de uso: creación de descripciones generales”'
-description: '“Casos de uso: creación de descripciones generales”'
+title: 'Caso de uso: Creación de descripciones generales'
+description: 'Caso de uso: Creación de descripciones generales'
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Apps
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88

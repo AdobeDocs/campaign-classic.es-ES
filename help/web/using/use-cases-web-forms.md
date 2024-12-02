@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: "Ejemplos de uso: formularios web"
-description: "Ejemplos de uso: formularios web"
+title: 'Casos de uso: Formularios web'
+description: 'Casos de uso: Formularios web'
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
