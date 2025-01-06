@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 59364cfc-9917-4057-ad5f-fbca7e261b07
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 6%
@@ -28,7 +28,7 @@ Adobe Campaign proporciona dos conjuntos de opciones de arquitectura empaquetada
 
 * **Clúster de energía**
 
-  Esta opción es compatible con instancias de ejecución en clúster de 2 a N disociadas de la instancia de aplicación de Adobe Campaign principal en relación con una aplicación determinada. Los clústeres se pueden alojar de forma remota, en implementaciones distribuidas y por terceros. Además de las ventajas del aislamiento de procesos, la opción Adobe Campaign Power Cluster permite la redundancia y las estrategias de ampliación mediante el uso de hardware básico para simplificar la evolución del SLA o el rendimiento.
+  Esta opción es compatible con instancias de ejecución en clúster de 2 a N disociadas de la instancia de aplicación de Adobe Campaign principal en relación con una aplicación determinada. Los clústeres se pueden alojar de forma remota, en implementaciones distribuidas y por terceros. Además de las ventajas del aislamiento de procesos, la opción Adobe Campaign Power Cluster permite la redundancia y las estrategias de ampliación mediante el uso de hardware básico para simplificar la evolución de SLA o el rendimiento.
 
 ![](assets/architectural_options_diagram.png)
 

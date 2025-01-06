@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo definir la población objetivo
 feature: Audiences, Proofs
 role: User
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Para cada entrega, se pueden definir varios tipos de destinatarios:
 
 ## Selección de los principales destinatarios de la entrega {#selecting-the-main-target}
 
-En la mayoría de los casos, el objetivo principal se extrae de la base de datos de Adobe Campaign (modo predeterminado). No obstante, los destinatarios también se pueden almacenar en un archivo externo. Obtenga más información en [esta sección](steps-defining-the-target-population.md#selecting-external-recipients).
+En la mayoría de los casos, el público destinatario principal se extrae de la base de datos de Adobe Campaign (modo predeterminado). No obstante, los destinatarios también se pueden almacenar en un archivo externo. Obtenga más información en [esta sección](steps-defining-the-target-population.md#selecting-external-recipients).
 
 Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
 

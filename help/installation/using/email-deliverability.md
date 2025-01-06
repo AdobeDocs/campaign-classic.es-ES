@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '3094'
 ht-degree: 13%
@@ -51,7 +51,7 @@ El módulo **mta** distribuye mensajes a sus módulos secundarios **mtachild**. 
 Los pasos son los siguientes:
 
 1. El **mta** selecciona los mensajes aptos y les asigna un **mtachild** disponible.
-1. **mtachild** carga toda la información necesaria para crear el mensaje (contenido, elementos de personalización, archivos adjuntos, imágenes, etc.) y reenvía el mensaje a **Email Traffic Shaper**.
+1. **mtachild** carga toda la información necesaria para crear el mensaje (contenido, elementos de personalización, archivos adjuntos, imágenes, etc.) y reenvía el mensaje al **Administrador de tráfico de correo electrónico**.
 1. Tan pronto como el formador de tráfico de correo electrónico reciba la autorización del servidor de estadísticas (**smtp stat**), el mensaje se enviará al destinatario.
 
 ![](assets/s_ncs_install_email_traffic_shaper.png)
@@ -105,7 +105,7 @@ Cuando se envía un mensaje, hay 3 resultados posibles:
 
 Los mensajes abandonados se devuelven a **mta** y ya no son administrados por **mtachild**.
 
-El **mta** decide el procedimiento para este mensaje (recuperación, abandono, cuarentena, etc.) en función del código de respuesta y de las reglas.
+El **mta** decide el procedimiento para este mensaje (recuperación, abandono, cuarentena, etc.) según el código de respuesta y las reglas.
 
 ### Mensaje pendiente {#message-pending}
 

@@ -5,10 +5,10 @@ description: Introducción a las encuestas de Campaign
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
-source-git-commit: 8e5a328bee7701adfedec6a533cc21b4ce548187
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ En Adobe Campaign, utilice las [aplicaciones web](../../web/using/about-web-form
 * Añadir personalización y definir la posición del campo.
 * Visualización condicional de los campos de encuesta según las respuestas.
 * Visualización de la página de condición.
-* Comprobación de la información antes de la aprobación, según el tipo de datos esperado (número, dirección de correo electrónico, fechas, etc.), y campos obligatorios.
+* Comprobación de la información antes de la aprobación, según el tipo de datos esperado (número, dirección de correo electrónico, fechas, etc.) y campos obligatorios,
 * Enviar invitaciones/notificaciones por correo electrónico.
 * Personalización de páginas de error y finalización.
 * Agregar imágenes, vídeos, vínculos de hipertexto, captcha, etc., en formularios.

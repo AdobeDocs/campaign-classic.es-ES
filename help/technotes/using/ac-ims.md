@@ -2,7 +2,7 @@
 title: Migrar a Adobe Identity Management System (IMS)
 description: Obtenga información sobre cómo migrar el proceso de autenticación a Adobe Identity Management System (IMS)
 exl-id: 84853dbe-8b6f-4875-b29a-c1b755423a3c
-source-git-commit: 8eadea9f9cc0a44522726024bfbc825e3b4cad98
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 5%

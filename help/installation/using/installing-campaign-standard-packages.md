@@ -5,10 +5,10 @@ description: Obtenga información sobre cómo instalar paquetes integrados de Ca
 feature: Installation, Application Settings
 badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ Los paquetes integrados contienen un conjunto de funciones que se pueden instala
 
 Para instalar un paquete integrado:
 
-1. Acceda al asistente de importación de paquetes desde **[!UICONTROL Tools > Advanced > Import package]** en la consola del cliente de Adobe Campaign.
+1. En la consola del cliente de Adobe Campaign, acceda al asistente de importación de paquetes desde **[!UICONTROL Tools > Advanced > Import package]**.
 1. Seleccione **[!UICONTROL Install a standard package]**.
 1. En la lista de paquetes, marque los paquetes que desea instalar.
    >[!NOTE]
@@ -182,7 +182,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Marketing central/local (Marketing distribuido)<br /> </td> 
-   <td> Implementa campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Opcional. <a href="../../distributed/using/about-distributed-marketing.md">Más información</a><br /> </td> 
+   <td> Implementa campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). Opcional. <a href="../../distributed/using/about-distributed-marketing.md">Más información</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 
@@ -240,7 +240,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
 
 ### Paquete de Message Center {#message-center-package}
 
-Debe instalar canales de entrega (correo electrónico, canal móvil, canal de aplicación móvil, LINE, etc.) antes de instalar la mensajería transaccional (paquete del centro de mensajes). Si ha iniciado un proyecto de centro de mensajes solo de correo electrónico y necesita agregar un canal nuevo posteriormente, debe seguir estos pasos:
+Debe instalar los canales de entrega (correo electrónico, canal móvil, canal de aplicación móvil, LINE, etc.) antes de instalar la mensajería transaccional (paquete del centro de mensajes). Si ha iniciado un proyecto de centro de mensajes solo de correo electrónico y necesita agregar un canal nuevo posteriormente, debe seguir estos pasos:
 
 1. Instale el nuevo canal, por ejemplo el **canal móvil**, mediante el asistente de importación de paquetes (**[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
 1. Importe el archivo ( **[!UICONTROL Tools > Advanced > Import package > File]**) y seleccione:

@@ -4,7 +4,7 @@ title: Recomendaciones de tamaño de hardware para Campaign Classic v7
 description: Recomendaciones de tamaño de hardware para Campaign Classic v7
 feature: Technote
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
 source-wordcount: '2569'
 ht-degree: 1%
@@ -55,7 +55,7 @@ Este documento supone también los siguientes tipos de uso para los tres casos:
 
 Campaign es una aplicación centrada en la base de datos, y el rendimiento del servidor de la base de datos es fundamental. La ejecución de flujos de trabajo, segmentación, seguimiento de cargas de datos, interacciones entrantes, análisis y otras actividades genera actividad de base de datos. En general, el tamaño y la frecuencia de estas operaciones determinan el tamaño de los servidores de base de datos.
 
-SOAP Los servidores de aplicaciones de la instancia de marketing requieren suficiente CPU y memoria para ejecutar flujos de trabajo y responder a llamadas de API de, incluidas las solicitudes de los usuarios de la consola de Campaign. Los requisitos de CPU pueden ser significativos para flujos de trabajo que utilizan interacciones salientes con reglas de oferta complejas, flujos de trabajo que ejecutan JavaScript personalizado y aplicaciones web con niveles de tráfico elevados.
+Los servidores de aplicaciones de la instancia de marketing requieren memoria y CPU SOAP suficientes para ejecutar flujos de trabajo y responder a llamadas de API de, incluidas las solicitudes de los usuarios de la consola de Campaign. Los requisitos de CPU pueden ser significativos para los flujos de trabajo que utilizan interacciones salientes con reglas de oferta complejas, flujos de trabajo que ejecutan JavaScript personalizado y aplicaciones web con niveles de tráfico elevados.
 
 Las aplicaciones web de Campaign también se pueden implementar en los servidores de aplicaciones de la instancia de marketing o en sistemas de servidores web independientes. Dado que las cargas de trabajo de las aplicaciones web entran en conflicto con los flujos de trabajo críticos y los usuarios de la consola de Campaign, las aplicaciones web y las interacciones entrantes se pueden implementar en servidores independientes para garantizar que la funcionalidad principal de Campaign se ejecute de forma fiable con un buen rendimiento.
 
@@ -75,7 +75,7 @@ El Adobe le proporciona la lista exclusiva de rutas URL que se pueden retransmit
 
 ### Arquitectura
 
-La arquitectura general es casi idéntica independientemente de los volúmenes. Los requisitos de seguridad y alta disponibilidad dictan un mínimo de cuatro servidores; dos servidores si no se utiliza ninguna aplicación web. La diferencia en la configuración varía principalmente en la configuración del hardware, como el núcleo de la CPU y la memoria.
+La arquitectura general es casi idéntica independientemente de los volúmenes. Los requisitos de seguridad y alta disponibilidad dictan un mínimo de cuatro servidores; dos servidores si no se utiliza ninguna aplicación web. La diferencia en la configuración varía principalmente en la configuración del hardware, como el núcleo de CPU y la memoria.
 
 ## Escenario 1: implementación moderada{#scenario-1}
 
@@ -144,7 +144,7 @@ Volumen estimado:
 
 En esta situación, Adobe recomienda instalar Adobe Campaign en cuatro equipos, dos servidores de aplicaciones y dos servidores web, con la siguiente especificación:
 
-**CPU de núcleo cuádruple a más de 3 GHz, 8 GB de RAM, RAID 1 o 10, SSD de 80 GB**
+**CPU de cuatro núcleos a más de 3 Ghz, 8 GB de RAM, RAID 1 o 10, SSD de 80 GB**
 
 Los servidores de aplicaciones admiten directamente a los usuarios de la consola de Campaign y la ejecución de flujos de trabajo de campaña. Esta funcionalidad se implementa en dos servidores idénticos para alta disponibilidad, compartiendo un sistema de archivos de almacenamiento con conexión a red (NAS) para habilitar la conmutación por error.
 
@@ -156,7 +156,7 @@ Consulte [Escenario 1: implementación de tamaño moderado](#scenario-1) para ob
 
 Las recomendaciones de hardware para el servidor de bases de datos son las siguientes:
 
-**CPU de 8 núcleos a más de 3 Ghz, 64 GB de RAM, RAID 1 o 10, 2 SSD de 320 GB o RAID 10, SSD de 640 GB como mínimo**
+**CPU de más de 8 núcleos a 3 Ghz, RAM de 64 GB, RAID 1 o 10, 2 SSD de 320 GB o RAID 10, SSD de 640 GB como mínimo**
 
 La estimación de memoria supone un almacenamiento en caché completo de aproximadamente 5 000 000 de destinatarios para un inicio de campaña de gran tamaño, además de espacio en búfer RDBMS para ejecutar flujos de trabajo, importar datos de seguimiento y otras actividades simultáneas.
 
@@ -204,7 +204,7 @@ Consulte [Escenario 1: implementación de tamaño moderado](#scenario-1) para ob
 
 Las recomendaciones de hardware para el servidor de bases de datos son las siguientes:
 
-**CPU de 8 núcleos a más de 3 Ghz, RAM de 96 GB, RAID 1 o 10, SSD de 1,5 TB mínimo**
+**CPU de más de 8 núcleos a 3 Ghz, RAM de 96 GB, RAID 1 o 10, SSD de 1,5 TB mínimo**
 
 La estimación de memoria supone un almacenamiento en caché completo de aproximadamente 12 500 000 destinatarios para un inicio de campaña de gran tamaño, además de espacio en búfer RDBMS para ejecutar flujos de trabajo, importar datos de seguimiento y otras actividades simultáneas.
 
@@ -218,24 +218,24 @@ Las suposiciones realizadas para estos escenarios tienen un impacto significativ
 Los destinatarios activos requieren tanto espacio de almacenamiento como espacio de búfer de base de datos, por lo que un mayor número de destinatarios suele requerir más memoria y capacidad de CPU en el servidor de base de datos. Los incrementos de almacenamiento son relativamente pequeños para los propios destinatarios, pero pueden ser significativos para los datos de seguimiento de eventos que se conservan para las campañas de correo electrónico.
 
 * **Tamaño de campaña de correo electrónico**
-La frecuencia de los lanzamientos de campañas afecta a los requisitos de CPU del servidor de bases de datos. Combinadas con el correo directo, las interacciones entrantes y otros flujos de trabajo, las operaciones de segmentación para campañas de correo electrónico suponen una carga significativa en el servidor de la base de datos.
+La frecuencia de los inicios de campaña afecta a los requisitos de CPU del servidor de bases de datos. Combinadas con el correo directo, las interacciones entrantes y otros flujos de trabajo, las operaciones de segmentación para campañas de correo electrónico suponen una carga significativa en el servidor de la base de datos.
 
 * **Frecuencia de correo directo**
-La frecuencia de los correos directos puede afectar a los requisitos de CPU del servidor de base de datos. Combinadas con lanzamientos de campañas y otros flujos de trabajo, las operaciones de segmentación para correos directos suponen una carga significativa en el servidor de la base de datos.
+La frecuencia de los envíos de correo postal puede afectar a los requisitos de CPU del servidor de base de datos. Combinadas con lanzamientos de campañas y otros flujos de trabajo, las operaciones de segmentación para correos directos suponen una carga significativa en el servidor de la base de datos.
 
 * **Volumen de mensaje SMS**
 Al igual que el tamaño de la campaña de correo electrónico, el volumen de mensajes SMS no coloca grandes cargas en servidores de Campaign ubicados en las instalaciones; la carga se realiza principalmente en servidores de mensajería de Adobe Cloud en la nube. La segmentación para campañas SMS, como correo electrónico y correo directo, puede suponer una carga significativa en la base de datos de marketing. Por lo tanto, la frecuencia de los lanzamientos de campañas SMS y la complejidad de la segmentación son más relevantes que el volumen de mensajes SMS.
 
 * **Complejidad de esquema de base de datos**
-La cantidad de datos para cada destinatario activo requiere tanto espacio de almacenamiento como espacio de búfer de base de datos, por lo que más destinatarios generalmente requieren más memoria y CPU en el servidor de base de datos. Los esquemas complejos también requieren que se unan más tablas para la segmentación, por lo que las operaciones de segmentación pueden ejecutarse mucho más lentamente y requieren más CPU y memoria de base de datos cuando los datos se distribuyen en varias tablas.
+La cantidad de datos para cada destinatario activo requiere tanto espacio de almacenamiento como espacio de búfer de base de datos, por lo que un mayor número de destinatarios suele requerir más memoria y CPU en el servidor de base de datos. Los esquemas complejos también requieren que se unan más tablas para la segmentación, por lo que las operaciones de segmentación pueden ejecutarse mucho más lentamente y requieren más memoria y CPU de base de datos cuando los datos se distribuyen en varias tablas.
 
   La memoria del servidor de base de datos se calcula asegurando que el grupo de búferes de base de datos puede ser lo suficientemente grande como para contener todos los datos de destinatario, además de tablas temporales para ejecutar flujos de trabajo, más un margen para otras operaciones de base de datos.
 
 * **Uso de interacción saliente**
-Las reglas para interacción en modo por lotes se evalúan en flujos de trabajo que transfieren toda la complejidad del cálculo a la base de datos. El principal factor de esfuerzo de la base de datos es la cantidad total de ofertas aptas calculadas durante una visualización del motor (tamaño del objetivo X cantidad promedio de ofertas por destinatario antes de mantener las N mejores ofertas). La velocidad de CPU del servidor de base de datos es el primer factor de rendimiento.
+Las reglas para interacción en modo por lotes se evalúan en flujos de trabajo que transfieren toda la complejidad del cálculo a la base de datos. El principal factor de esfuerzo de la base de datos es la cantidad total de ofertas aptas calculadas durante una visualización del motor (tamaño del objetivo X cantidad promedio de ofertas por destinatario antes de mantener las N mejores ofertas). La velocidad de CPU del servidor de bases de datos es el primer factor de rendimiento.
 
 * SOAP **Interacciones entrantes o uso de API de**
-Las reglas y ofertas de interacción entrantes se evalúan en la base de datos de marketing, lo que requiere recursos significativos del servidor de la base de datos, especialmente CPU. SOAP El uso intensivo de interacciones entrantes o API de requiere servidores web independientes para separar la carga de trabajo de la ejecución de flujos de trabajo de Campaign.
+Las reglas y ofertas de interacción entrantes se evalúan en la base de datos de marketing, lo que requiere recursos significativos del servidor de bases de datos, especialmente CPU. SOAP El uso intensivo de interacciones entrantes o API de requiere servidores web independientes para separar la carga de trabajo de la ejecución de flujos de trabajo de Campaign.
 
 * **Período de retención de datos de seguimiento**
 El aumento de la retención de datos de seguimiento más allá de 90 días requiere más almacenamiento de la base de datos y puede ralentizar el sistema, ya que la inserción de nuevos datos de seguimiento se dirige a tablas grandes. El seguimiento de datos no es útil para la segmentación de campañas después de 90 días, por lo que se recomienda un período de retención más corto.
