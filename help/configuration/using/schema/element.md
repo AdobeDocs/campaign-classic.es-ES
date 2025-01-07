@@ -4,7 +4,7 @@ title: 'Elementos y atributos de esquema: elemento element'
 description: elemento
 feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
-source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 0%
@@ -13,7 +13,6 @@ ht-degree: 0%
 
 # elemento {#element--element}
 
-![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model-4}
 
@@ -21,7 +20,7 @@ element:==(atributo) | compute-string | dbindex | predeterminado | elemento | ay
 
 ## Atributos {#attributes-4}
 
-_operation (cadena), advanced (booleano), aggregate (cadena), applyIf (cadena), autopk (booleano), belongingTo (cadena), convDate (cadena), dataPolicy (cadena), dataSource (cadena), dbEnum (cadena), defOnDuplicate (booleano), default (cadena), desc (cadena), displayAsField (booleano), doesNotSupportDiff (booleano), edit (cadena), emptyKeyValue (cadena), enum (cadena), enumImage expandSchemaTarget (cadena), expr (cadena), externalJoin (booleano), feature (cadena), featureDate (booleano), filterPath (cadena), folderLink (cadena), folderModel (cadena), folderProcess (cadena), fullLoad (booleano), jerárquico (booleano), jerárquicoPath (cadena), img (cadena), inout (cadena), integridad (cadena), label (cadena), labelSingular (cadena), longitud (cadena), localizable (booleano), nombre (MNTOKEN) , noDbIndex (booleano), noKey (booleano), ordered (booleano), overflowtable (booleano), pkSequence (cadena), pkgStatus (cadena), ref (cadena), required (booleano), revAdvanced (booleano), revCardinality (cadena), revDesc (cadena), revExternalJoin (booleano), revIntegrity (cadena), revLabel (cadena), revTarget (cadena), revVisible If (cadena), sql (booleano), sqlname (cadena), sqltable (cadena), tableSpace (cadena), tableSpaceIndex (cadena), target (MENTOKEN), plantilla (cadena), temporaryTable (booleano), translatedDefault (cadena), translatedExpr (cadena), type (MENTOKEN), unbound (booleano), user (booleano), userEnum (cadena), visibleIf (cadena), xml (booleano), xmlChildren (booleano)
+_operation (cadena), advanced (booleano), aggregate (cadena), applyIf (cadena), autopk (booleano), belongingTo (cadena), convDate (cadena), dataPolicy (cadena), dataSource (cadena), dbEnum (cadena), defOnDuplicate (booleano), default (cadena), desc (cadena), displayAsField (booleano), doesNotSupportDiff (booleano), edit (cadena), emptyKeyValue (cadena), enum (cadena), enumImage (cadena), expandSchemaTarget (cadena), expr (cadena), externalJoin (booleano), feature (cadena), featureDate (booleano), filterPath (cadena), folderLink (cadena), folderModel (cadena), folderProcess (cadena), fullLoad (booleano), jerárquico (booleano), hierarchyPath (cadena), img (cadena), inout (cadena), integridad (cadena), labelSingular (cadena), longitud (cadena), localizable (booleano), nombre (MNTOKEN), noDbIndex (booleano), noKey (booleano), ordenado (booleano), tabla de desbordamiento (booleano), pkSequence (cadena), pkgStatus (cadena), ref (cadena), obligatorio (booleano), revAdvanced (booleano), revCardinality (cadena), revDesc (cadena), revExternalJoin (booleano), revIntegrity (cadena), revLabel (cadena), revTarget (cadena) revVisibleIf (cadena), sql (booleano), sqlname (cadena), sqltable (cadena), tableSpace (cadena), tableSpaceIndex (cadena), target (TOKEN MENÚ), plantilla (cadena), temporaryTable (booleano), translatedDefault (cadena), translatedExpr (cadena), type (TOKEN MENÚ), unbound (booleano), user (cadena), visibleIf (cadena), xml (booleano), xmlChildren (booleano)
 
 ## Padres {#parents-4}
 

@@ -4,7 +4,7 @@ title: 'Elementos y atributos: elemento de cadena de cálculo'
 description: elemento de cadena de cálculo
 feature: Schema Extension
 exl-id: 8a079bb8-3f53-4144-a065-5bd402649cc7
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 5%
@@ -13,7 +13,6 @@ ht-degree: 5%
 
 # elemento de cadena de cálculo {#compute-string--element}
 
-![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model-1}
 

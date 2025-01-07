@@ -4,7 +4,7 @@ title: 'Elementos y atributos de esquema: elemento param'
 description: elemento param
 feature: Schema Extension
 exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 9%
@@ -13,7 +13,6 @@ ht-degree: 9%
 
 # elemento param {#param--element}
 
-![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model-12}
 

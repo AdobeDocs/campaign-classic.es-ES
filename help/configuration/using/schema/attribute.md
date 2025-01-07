@@ -7,7 +7,7 @@ audience: configuration
 content-type: reference
 topic-tags: schema-reference
 exl-id: e4d34f56-b065-4dce-8974-11dc2767873a
-source-git-commit: 728848eab059fc669c241346a2ff1feebd79222c
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 1%
@@ -16,7 +16,6 @@ ht-degree: 1%
 
 # elemento de atributo {#attribute--element}
 
-![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model}
 
@@ -24,7 +23,7 @@ atributo:==ayuda
 
 ## Atributos {#attributes}
 
-_operation (cadena), advanced (booleano), applyIf (cadena), autoIncrement (booleano), belongingTo (cadena), dataPolicy (cadena), dbEnum (cadena), defOnDuplicate (booleano), default (cadena), desc (cadena), edit (cadena), enum (cadena), expr (cadena), feature (cadena), featureDate (booleano), img (cadena), inout (cadena), label (cadena), length (cadena), localizable (booleano), name (MNTOKEN) ), notNull (booleano), pkgStatus (cadena), ref (cadena), obligatorio (booleano), sql (booleano), sqlDefault (cadena), sqlname (cadena), sqltable (cadena), target (MNTOKEN), plantilla (cadena), translatedDefault (cadena), translatedExpr (cadena), type (MNTOKEN), user (booleano), userEnum (cadena), visibleIf (cadena), xml (booleano)
+_operation (cadena), advanced (booleano), applyIf (cadena), autoIncrement (booleano), belongingTo (cadena), dataPolicy (cadena), dbEnum (cadena), defOnDuplicate (booleano), default (cadena), desc (cadena), edit (cadena), enum (cadena), expr (cadena), feature (cadena), featureDate (booleano), img (cadena), inout (cadena), label (cadena), length (cadena), localizable (booleano), nombre (MNTOKEN), notNull (booleano), pkgStatus (cadena), ref (cadena), obligatorio (booleano), sql (booleano), sqlDefault (cadena), sqlname (cadena), sqltable (cadena), target (MNTOKEN), plantilla (cadena), translatedDefault (cadena), translatedExpr (cadena), type (MNTOKEN), user (booleano), userEnum (cadena), visibleIf (cadena), xml (booleano)
 
 ## Padres {#parents}
 

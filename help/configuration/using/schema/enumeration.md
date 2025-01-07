@@ -4,7 +4,7 @@ title: 'Elementos y atributos de esquema: elemento de enumeración'
 description: elemento de enumeración
 feature: Schema Extension
 exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 8%
@@ -13,7 +13,6 @@ ht-degree: 8%
 
 # elemento de enumeración {#enumeration--element}
 
-![](../../../assets/v7-only.svg)
 
 ## Modelo de contenido {#content-model-5}
 
