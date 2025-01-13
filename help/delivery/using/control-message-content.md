@@ -7,9 +7,9 @@ feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Para obtener sugerencias adicionales para optimizar la capacidad de entrega al d
 
 >[!NOTE]
 >
->Para obtener más información sobre cómo editar el contenido del correo electrónico, consulte [Definir el contenido del correo electrónico](defining-the-email-content.md).
+>Para obtener más información sobre la edición del contenido del correo electrónico, consulte [Definición del contenido del correo electrónico](defining-the-email-content.md).
 
 ## Dirección del remitente {#sender-address}
 

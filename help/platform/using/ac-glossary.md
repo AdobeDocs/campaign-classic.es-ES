@@ -7,9 +7,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5959'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -198,7 +198,7 @@ Learn more about [Transactional Messaging](../../message-center/using/about-tran
 
 *Contexto: Capacidad de entrega de correos electrónicos*
 
-La capacidad de entrega le permite medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rechazarse ni marcarse como correo no deseado. Más concretamente, la capacidad de entrega de correo electrónico hace referencia al conjunto de características que determinan la capacidad de un mensaje para llegar a su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato.
+La entregabilidad le permite medir el éxito de las campañas que llegan a la bandeja de entrada de los destinatarios sin rechazarse ni marcarse como correo no deseado. Más concretamente, la entregabilidad del correo electrónico hace referencia al conjunto de características que determinan la posibilidad de que un mensaje llegue hasta su destino a través de una dirección de correo electrónico personal, en poco tiempo y con la calidad esperada en términos de contenido y formato.
 
 Más información sobre la [Capacidad de entrega](../../delivery/using/about-deliverability.md).
 +++
@@ -240,7 +240,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 *Contexto: Correo directo*
 
-Una descripción de la entrega es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creados por la compañía y para una campaña en particular. Se utiliza en el contexto de los envíos por correo directo.
+Una descripción del envío es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creados por la compañía y para una campaña determinada. Se utiliza en el contexto de los envíos por correo directo.
 
 Más información sobre el [Correo directo](../../delivery/using/about-direct-mail-channel.md).
 +++
@@ -263,7 +263,7 @@ Más información sobre el [Análisis descriptivo](../../reporting/using/about-d
 
 *Contexto: Marketing distribuido*
 
-El complemento de marketing distribuido ofrece a los operadores de Campaign un espacio de trabajo colaborativo para implementar campañas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **lista de paquetes de Campaign**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
+El complemento de marketing distribuido ofrece a los operadores de Campaign un espacio de trabajo colaborativo para implementar campañas entre entidades centrales (sedes centrales, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **lista de paquetes de Campaign**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
 
 Más información sobre el [Marketing distribuido](../../distributed/using/about-distributed-marketing.md)
 +++
@@ -277,8 +277,7 @@ Más información sobre la [Distribución de valores](../../platform/using/defin
 
 +++**Delegación de dominios**
 
-La configuración de subdominios le permite configurar una subsección de su dominio (técnicamente, una &quot;zona DNS&quot;) para utilizarla con Adobe Campaign.
-La delegación de dominios permite que Adobe controle y mantenga todos los aspectos de DNS necesarios para enviar, procesar y rastrear campañas por correo electrónico.
+La configuración de subdominios le permite configurar una subsección del dominio (técnicamente una “zona DNS”) para utilizarla con Adobe Campaign. La delegación de dominios permite que Adobe controle y mantenga todos los aspectos de DNS necesarios para enviar, procesar y rastrear campañas por correo electrónico.
 
 Más información sobre la [Delegación de dominios](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es)
 +++
@@ -539,7 +538,7 @@ Más información sobre los [Derechos asignados](../../platform/using/access-man
 
 +++**Área de nombres**
 
-El área de nombres es una partición que separa los tipos de datos del cliente de los tipos de datos nativos de Adobe Campaign en el modelo de datos. También se utiliza para facilitar la migración de definiciones de una instancia a otra, como mover un esquema o plantilla de la instancia de desarrollo a la instancia de producción.
+El espacio de nombres es una partición que separa los tipos de datos del cliente de los tipos de datos nativos de Adobe Campaign en el modelo de datos. También se utiliza para facilitar la migración de definiciones de una instancia a otra, como mover un esquema o plantilla de la instancia de desarrollo a la instancia de producción.
 
 Más información sobre el [Área de nombres](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 +++
@@ -640,7 +639,7 @@ Más información sobre los [Entornos de oferta en directo](../../interaction/us
 
 *Contexto: Interacción de campaña*
 
-Las reglas de presentación de ofertas son reglas de tipología a las que se hace referencia en el entorno de la oferta, que permiten excluir determinadas ofertas tomando en cuenta el historial de propuestas del destinatario.
+Las reglas de presentación de ofertas son reglas de tipología a las que se hace referencia en el entorno de la oferta, que permiten excluir algunas ofertas, teniendo en cuenta el historial de propuestas del destinatario.
 
 Más información sobre las [Reglas de presentación de ofertas](../../interaction/using/managing-offer-presentation.md#presentation-rules-overview).
 +++
@@ -676,7 +675,7 @@ Más información sobre la [Interacción](../../interaction/using/interaction-an
 
 *Contexto: Interacción de campaña*
 
-Una simulación de oferta permite a los operadores probar la distribución de ofertas en un ámbito definido (fecha de entrega, segmento de destinatario, número de ofertas, tema, etc.) antes de enviar las ofertas. Se puede utilizar para ajustar las prioridades de oferta y las reglas de elegibilidad a fin de maximizar la eficacia de la oferta.
+Una simulación de oferta permite a los operadores probar la distribución de ofertas en un ámbito definido (fecha del envío, segmento de destinatario, número de ofertas, tema, etc.) antes de enviarlas realmente. Se puede utilizar para ajustar las prioridades de oferta y las reglas de elegibilidad a fin de maximizar la eficacia de la oferta.
 
 Más información sobre las [Simulaciones de ofertas](../../interaction/using/about-offers-simulation.md).
 +++
@@ -775,7 +774,7 @@ Más información sobre los [Campos de personalización](../../delivery/using/pe
 
 +++**Variables de personalización**
 
-Las variables de Personalization son fragmentos de código de un envío que pueden mostrar diferentes textos a diferentes destinatarios según la información del destinatario. Estos campos se pueden implementar como campos de personalización o como bloques.
+Las variables de personalización son fragmentos de código de un envío que pueden mostrar diferentes textos a diferentes destinatarios según la información del destinatario. Estos campos se pueden implementar como campos de personalización o como bloques.
 
 Más información sobre las [Variables de personalización](../../delivery/using/about-personalization.md).
 +++
@@ -845,7 +844,7 @@ Más información sobre las [Notificaciones push](../../delivery/using/about-mob
 
 +++**Destinatario**
 
-En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS, etc.) a sus clientes. Los datos de destinatario almacenados en la base de datos permiten filtrar el público objetivo y añadir datos de personalización. Normalmente, se trata de información personal, de contacto, demográfica y transaccional, pero podría ser cualquier tipo de información que admita marketing y análisis.
+En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS, etc.) a los clientes. Los datos de destinatario almacenados en la base de datos permiten filtrar el público objetivo y añadir datos de personalización. Normalmente, se trata de información personal, de contacto, demográfica y transaccional, pero podría ser cualquier tipo de información que admita marketing y análisis.
 
 Más información sobre el [Destinatario](../../configuration/using/about-data-model.md).
 +++
@@ -883,7 +882,7 @@ Más información sobre la [Extensión de los esquemas](../../configuration/usin
 
 +++**Direcciones semilla**
 
-Las direcciones semilla se utilizan para dirigirse a los destinatarios que no coinciden con los criterios de destino definidos. De este modo, los destinatarios que estén fuera del alcance del envío pueden recibirlo como lo haría cualquier otro destinatario. Se añaden a la audiencia de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatarios o para garantizar la entrega.
+Las direcciones semilla se utilizan para dirigirse a los destinatarios que no coinciden con los criterios de destino definidos. De este modo, los destinatarios que estén fuera del alcance del envío pueden recibirlo como lo haría cualquier otro destinatario. Se añaden al público de un mensaje para detectar cualquier uso fraudulento de la base de datos de destinatarios o para garantizar el envío.
 
 Más información sobre las [Direcciones semilla](../../delivery/using/about-seed-addresses.md).
 +++

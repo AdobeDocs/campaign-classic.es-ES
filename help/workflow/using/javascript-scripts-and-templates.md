@@ -5,9 +5,9 @@ description: Plantillas y secuencias de comandos de JavaScript
 feature: Workflows
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
 source-git-commit: d4a2138e03a33092403d5ca00a41a3d7f9aea33e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1247'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -159,7 +159,7 @@ Este ejemplo muestra que la actividad siguiente a **JavaScript code** accede a l
 
 Una vez especificada una variable de instancia en una actividad, puede volver a utilizarla en una consulta de flujo de trabajo.
 
-Por lo tanto, para llamar a una variable **instance.vars.xxx = &quot;yyy&quot;** en un filtro, ingrese **$(instance/vars/@xxx)**.
+Por consiguiente, para llamar a una variable **instance.vars.xxx = &quot;yyy&quot;** en un filtro, escriba **$(instance/vars/@xxx)**.
 
 Por ejemplo:
 
