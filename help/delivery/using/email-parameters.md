@@ -6,7 +6,7 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Email
 role: User, Developer, Data Engineer
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: f7da066d32391341e449397d64853fcbae639a59
+source-git-commit: 09b79849fa9db15dd53d1ed56630a34915aa32ad
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 98%
@@ -33,7 +33,7 @@ Al crear un nuevo envío o una plantilla de envíos, el correo electrónico CCO 
 
 >[!NOTE]
 >
->Si usa el correo electrónico CCO con [MTA mejorado](ending-with-enhanced-mta.md), esta opción se habilita automáticamente para todas las entregas.
+>Si usa el correo electrónico CCO con [MTA mejorado](sending-with-enhanced-mta.md), esta opción se habilita automáticamente para todas las entregas.
 
 Para habilitar el correo electrónico CCO para una plantilla de envíos de correo electrónico, siga los pasos a continuación:
 
