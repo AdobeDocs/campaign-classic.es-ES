@@ -7,9 +7,9 @@ feature: Email
 role: User, Developer, Data Engineer
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 source-git-commit: 09b79849fa9db15dd53d1ed56630a34915aa32ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '912'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Al crear un nuevo envío o una plantilla de envíos, el correo electrónico CCO 
 
 >[!NOTE]
 >
->Si usa el correo electrónico CCO con [MTA mejorado](sending-with-enhanced-mta.md), esta opción se habilita automáticamente para todas las entregas.
+>Si utiliza el correo electrónico CCO con [MTA mejorado](sending-with-enhanced-mta.md), esta opción se activa automáticamente para todos los envíos.
 
 Para habilitar el correo electrónico CCO para una plantilla de envíos de correo electrónico, siga los pasos a continuación:
 
