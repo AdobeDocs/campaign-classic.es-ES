@@ -7,10 +7,10 @@ audience: campaign
 content-type: reference
 topic-tags: tasks--resources-and-budgets
 exl-id: 8cf4d30d-f914-438d-8836-030202b6a449
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 78180ce0958d16b1417500b74736e373725a6b53
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '199'
+ht-degree: 89%
 
 ---
 
@@ -28,34 +28,6 @@ Por lo tanto, en el contexto de los programas y los subprogramas de los planes d
 
 Por último, la capacidad de gestión del presupuesto se amplía a la administración de objetivos y líneas de gastos y a los informes integrados ampliados. A continuación, puede monitorizar y medir la productividad y el rendimiento de todas las actividades de marketing.
 
-## Conceptos y terminología {#core-concepts}
-
-En el contexto de la gestión de recursos de marketing de Adobe Campaign, los siguientes conceptos y términos son específicos:
-
-* **Tarea**
-
-  Una tarea corresponde a una acción que se va a llevar a cabo en el contexto de una campaña. Una tarea se asigna a un grupo o a una persona. Una tarea secundaria puede depender de una tarea principal, lo que significa que la tarea principal no se realiza hasta que se hayan completado todas las tareas secundarias. Algunos ejemplos de tareas incluyen: referencia a un sitio Web, revisión de presupuesto, informe, etc.
-
-  Para obtener más información sobre esto, consulte [Creación y administración de tareas](../../mrm/using/creating-and-managing-tasks.md).
-
-* **Recursos de marketing**
-
-  Adobe Campaign permite realizar un seguimiento del progreso de los proyectos de marketing de colaboración como, por ejemplo, medios de comunicación, planes de acciones, boletines informativos, etc. El ciclo de creación y aprobación de estos recursos de marketing se puede rastrear desde el panel de recursos hasta su publicación.
-
-  Para obtener más información, consulte [Administración de recursos de marketing](../../mrm/using/managing-marketing-resources.md).
-
 >[!NOTE]
 >
->Para obtener más información sobre el espacio de trabajo de Adobe Campaign, consulte [esta sección](../../platform/using/adobe-campaign-workspace.md).
->  
->Las entregas y los canales de comunicación se detallan en [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md).
->
->Las funcionalidades de la campaña de marketing se detallan en [esta sección](../../campaign/using/accessing-marketing-campaigns.md).
-
-Con el complemento de la gestión de recursos de marketing, los planes y programas incluyen las siguientes funcionalidades adicionales:
-
-* **Gestión del presupuesto**. [Obtenga más información](../../mrm/using/controlling-costs.md)
-
-* **Administración de tareas**. [obtenga más información](../../mrm/using/creating-and-managing-tasks.md)
-
-* **Gestión de recursos**. [Obtenga más información](../../mrm/using/managing-marketing-resources.md)
+>Para obtener más información sobre MRM para Adobe Campaign y cómo usarlo, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/mrm/about-marketing-resource-management){target=_blank}.

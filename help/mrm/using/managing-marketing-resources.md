@@ -5,9 +5,11 @@ description: Obtenga información sobre cómo administrar los recursos de market
 feature: Resource Management
 audience: campaign
 content-type: reference
+hide: true
+hidefromtoc: true
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 942edcf028207eab2ea583949ebc99ab61539ea0
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 100%
