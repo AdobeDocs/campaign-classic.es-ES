@@ -3,8 +3,10 @@ product: campaign
 title: Publicación del paquete de campaña
 description: Publicación del paquete de campaña
 feature: Distributed Marketing
+hide: true
+hidefromtoc: true
 exl-id: e96add16-cbc8-43af-acff-06a95d5b7749
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
