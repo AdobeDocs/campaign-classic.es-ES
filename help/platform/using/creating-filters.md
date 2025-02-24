@@ -8,16 +8,17 @@ audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '1979'
-ht-degree: 100%
+source-git-commit: 813ef65ff45407a92c5f9d7f3d07189972a5742b
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 69%
 
 ---
 
 # Creación de filtros{#creating-filters}
 
 
+El filtrado de datos es el proceso de seleccionar una parte más pequeña del conjunto de datos, solo los registros que coinciden con determinados criterios y utilizar ese subconjunto para acciones específicas (actualizaciones, creación de audiencias) o análisis.
 
 Cuando navega por el árbol de Adobe Campaign (en el menú **[!UICONTROL Explorer]** de la página principal), los datos contenidos en la base de datos se muestran en listas. Estas listas se pueden configurar para mostrar solo los datos necesarios para el operador. Se pueden realizar acciones sobre los datos filtrados. La configuración del filtro permite seleccionar datos de una lista **[!UICONTROL dynamically]**. Al modificar los datos, los datos filtrados se actualizan.
 
@@ -25,357 +26,365 @@ Cuando navega por el árbol de Adobe Campaign (en el menú **[!UICONTROL Explore
 >
 >Los ajustes de configuración de la interfaz de usuario se definen localmente en el dispositivo. A veces puede ser necesario limpiar estos datos, especialmente si surgen problemas al actualizarlos. Para ello, utilice el menú **[!UICONTROL File > Clear the local cache]**.
 
-## Tipología de filtros disponibles {#typology-of-available-filters}
+>[!NOTE]
+>
+>Para obtener más información sobre los filtros y cómo utilizarlos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}.
 
-Adobe Campaign permite aplicar filtros a las listas de datos.
 
-Estos filtros pueden utilizarse una vez o guardarse para su uso futuro. Puede aplicar varios filtros al mismo tiempo.
+<!--
 
-En Adobe Campaign, están disponibles estos tipos de filtros:
+## Typology of available filters {#typology-of-available-filters}
 
-* **Filtros predeterminados**
+Adobe Campaign lets you apply filters to data lists.
 
-  El **filtro predeterminado** es accesible a través de los campos situados encima de las listas. Permite filtrar campos predefinidos (para perfiles de destinatario, estos son el nombre y la dirección de email de forma predeterminada). Puede utilizar los campos para introducir los caracteres según los cuales filtrar o seleccionar las condiciones de filtro de una lista desplegable.
+These filters can be used once, or you can save them for future use. You can apply several filters at the same time.
+
+The following filter types are available in Adobe Campaign:
+
+* **Default filters**
+
+  The **default filter** is accessible via the fields located above the lists. It lets you filter on predefined fields (for recipient profiles, these are the name and email address by default). You can use the fields to enter the characters to filter on or to selection the filter conditions from a drop-down list.
 
   ![](assets/filters_recipient_default_filter.png)
 <!--
   >[!NOTE]
   >
   >The **%** character replaces any character string. For example, the string `%@yahoo.com` lets you display all the profiles with an email address in the domain "yahoo.com".
--->
-Puede cambiar el filtro predeterminado de una lista. Para más información, consulte [Modificación del filtro predeterminado](#altering-the-default-filter).
 
-* **Filtros simples**
+  You can change the default filter of a list. For more on this, refer to [Change the default filter](#altering-the-default-filter).
 
-  Los **filtros simples** son filtros independientes de las columnas. Se definen con uno o más criterios de búsqueda simples en las columnas mostradas.
+* **Simple filters**
 
-  Puede combinar varios filtros simples en la misma lista de datos para restringir la búsqueda. Los campos de filtro se muestran uno debajo del otro. Pueden eliminarse de forma independiente.
+  **Simple filters** are one-off filters on the columns. They are defined with one or more simple search criteria on the displayed columns.
+
+  You can combine several simple filters on the same data list to refine your search. The filter fields are displayed one beneath the other. They can be deleted independently of each other.
 
   ![](assets/filters_recipient_simple_filter.png)
 
-  Los filtros simples se detallan en [Creación de un filtro simple](#creating-a-simple-filter).
+  Simple filters are detailed in [Create a simple filter](#creating-a-simple-filter).
 
-* **Filtros avanzados**
+* **Advanced filters**
 
-  Los **filtros avanzados** se crean mediante una consulta o una combinación de consultas sobre los datos.
+  **Advanced filters** are created using a query or a combination of queries on the data.
 
-  Para obtener más información sobre la creación de un filtro avanzado, consulte [Creación de un filtro avanzado](#creating-an-advanced-filter).
+  For more on creating an advanced filter, refer to [Create an advanced filter](#creating-an-advanced-filter).
 
-  Puede utilizar funciones para definir el contenido del filtro. Para obtener más información sobre esto, consulte [Creación de un filtro avanzado con funciones](#creating-an-advanced-filter-with-functions).
+  You can use functions to define the content of the filter. For more on this, refer to [Create an advanced filter with functions](#creating-an-advanced-filter-with-functions).
 
   >[!NOTE]
   >
-  >Para obtener más información sobre la creación de consultas en Adobe Campaign, consulte [esta sección](../../platform/using/about-queries-in-campaign.md).
+  >For more on building queries in Adobe Campaign, refer to [this section](../../platform/using/about-queries-in-campaign.md).
 
-* **Filtros de usuario**
+* **User filters**
 
-  Un **filtro de aplicación** es un filtro avanzado que se ha guardado para utilizar y compartir su configuración con otros operadores.
+  An **application filter** is an advanced filter that has been saved, to use and share its configuration with the other operators.
 
-  El botón **[!UICONTROL Filters]** situado encima de las listas ofrece un conjunto de filtros de aplicación que pueden combinarse para restringir el filtrado. El método para crear estos filtros se muestra en [Guardado de un filtro](#saving-a-filter).
+  The **[!UICONTROL Filters]** button located above the lists offers a set of application filters that can be combined to refine the filtering. The method for creating these filters is presented in [Save a filter](#saving-a-filter).
 
-## Modificación del filtro predeterminado {#altering-the-default-filter}
+## Change the default filter {#altering-the-default-filter}
 
-Para cambiar el filtro predeterminado de una lista de destinatarios, haga clic en el nodo **[!UICONTROL Profiles and Targets > Pre-defined filters]** en el árbol.
+To change the default filter for a recipient list, click the **[!UICONTROL Profiles and Targets > Pre-defined filters]** node of the tree.
 
-Para el resto de tipos de datos, configure el filtro predeterminado mediante el nodo **[!UICONTROL Administration > Configuration > Predefined filters]**.
+For all other types of data, configure the default filter via the **[!UICONTROL Administration > Configuration > Predefined filters]** node.
 
-Siga estos pasos:
+Apply the following steps:
 
-1. Seleccione el filtro que desea utilizar de forma predeterminada.
-1. Haga clic en la pestaña **[!UICONTROL Parameters]** y seleccione **[!UICONTROL Default filter for the associated document type]**.
+1. Select the filter you want to be used by default.
+1. Click the **[!UICONTROL Parameters]** tab and select **[!UICONTROL Default filter for the associated document type]**.
 
    ![](assets/s_ncs_user_default_filter.png)
 
    >[!CAUTION]
    >
-   >Si ya se ha aplicado un filtro predeterminado a la lista, es necesario deshabilitarlo antes de aplicar un filtro nuevo. Para ello, haga clic en la cruz roja a la derecha de los campos de filtro.
+   >If a default filter is already applied to the list, you need to disable it before applying a new filter. To do this, click the red cross to the right of the filtering fields.
 
-1. Haga clic en **[!UICONTROL Save]** para aplicar el filtro.
+1. Click **[!UICONTROL Save]** to apply the filter.
 
    >[!NOTE]
    >
-   >La ventana de definición del filtro se detalla en [Creación de un filtro avanzado](#creating-an-advanced-filter) y [Guardado de un filtro](#saving-a-filter).
+   >The filter definition window is detailed in [Create an advanced filter](#creating-an-advanced-filter) and [Save a filter](#saving-a-filter).
 
-## Creación de un filtro simple {#creating-a-simple-filter}
+## Create a simple filter {#creating-a-simple-filter}
 
-Para crear un **filtro simple**, siga los siguientes pasos:
+To create a **simple filter**, apply the following steps:
 
-1. Haga clic con el botón derecho en el campo que desee filtrar y seleccione **[!UICONTROL Filter on this field]**.
+1. Right-click the field you want to filter and select **[!UICONTROL Filter on this field]**.
 
    ![](assets/s_ncs_user_sort_this_field.png)
 
-   Los campos de filtro predeterminados se muestran encima de la lista.
+   The default filter fields are displayed above the list.
 
-1. Seleccione la opción de filtro en la lista desplegable o introduzca los criterios de filtro que desee aplicar (el método para seleccionar o introducir criterios depende del tipo de campo: texto, enumerado, etc.).
+1. Select the filter option from the drop-down list, or enter the filter criteria to apply (the method for selecting or entering criteria depends on the type of field: text, enumerated, etc.).
 
    ![](assets/s_ncs_user_sort_fields.png)
 
-1. Para activar el filtro, pulse Enter en el teclado o haga clic en la flecha verde a la derecha de los campos de filtro.
+1. To activate the filter, press Enter on the keyboard, or click the green arrow to the right of the filter fields.
 
-Si el campo en el que desea filtrar los datos no se muestra en forma de perfil, puede agregarlo en las columnas que se muestran y luego filtrar en esa columna. Para ello,
+If the field on which you want to filter the data is not displayed in the form of the profile, you can add it in the columns displayed, then filter on that column. To do this,
 
-1. Haga clic en el icono **[!UICONTROL Configure the list]**.
+1. Click the **[!UICONTROL Configure the list]** icon.
 
    ![](assets/s_ncs_user_configure_list.png)
 
-1. Seleccione la columna que desea mostrar; por ejemplo, la edad de los destinatarios.
+1. Select the column to be displayed, for example the age of the recipients.
 
    ![](assets/s_ncs_user_select_fields_to_display.png)
 
-1. Haga clic con el botón derecho en la columna **Age** de la lista de destinatarios y seleccione **[!UICONTROL Filter on this column]**.
+1. Right-click the **Age** column in the recipient list, and select **[!UICONTROL Filter on this column]**.
 
    ![](assets/s_ncs_user_sort_this_column.png)
 
-   A continuación, puede seleccionar las opciones de filtrado de edad.
+   You can then select the age filtering options.
 
    ![](assets/s_ncs_user_delete_filter.png)
 
-## Creación de un filtro avanzado {#creating-an-advanced-filter}
+## Create an advanced filter {#creating-an-advanced-filter}
 
-Para crear un **filtro avanzado**, siga los siguientes pasos:
+To create an **advanced filter**, apply the following steps:
 
-1. Haga clic en el botón **[!UICONTROL Filters]** y seleccione **[!UICONTROL Advanced filter...]**.
+1. Click the **[!UICONTROL Filters]** button and select **[!UICONTROL Advanced filter...]**. 
 
    ![](assets/filters_recipient_create_adv_filter.png)
 
-   También puede hacer clic con el botón derecho del ratón en la lista de datos para filtrar y seleccionar **[!UICONTROL Advanced filter...]**.
+   You can also right-click the list of data to filter and select **[!UICONTROL Advanced filter...]**.
 
-   Se muestra la ventana de definición de la condición de filtrado.
+   The filtering condition definition window is displayed.
 
-1. Haga clic en la columna **[!UICONTROL Expression]** para definir el valor de entrada.
-1. Haga clic en **[!UICONTROL Edit expression]** para seleccionar el campo al que se aplicará el filtro.
+1. Click the **[!UICONTROL Expression]** column to define the input value.
+1. Click **[!UICONTROL Edit expression]** to select the field to which the filter will be applied.
 
    ![](assets/s_user_filter_choose_field.png)
 
-1. En la lista, seleccione el campo en el que desea filtrar los datos. Haga clic en **[!UICONTROL Finish]** para confirmar.
-1. Haga clic en la columna **[!UICONTROL Operator]** y seleccione el operador que se aplicará en la lista desplegable.
-1. Seleccione un valor esperado de la columna **[!UICONTROL Value]**. Puede combinar varios filtros para restringir la consulta. Para añadir una condición de filtro, haga clic en **[!UICONTROL Add]**.
+1. From the list, select the field on which data will be filtered. Click **[!UICONTROL Finish]** to confirm.
+1. Click the **[!UICONTROL Operator]** column and select the operator to be applied from the drop-down list.
+1. Select an expected value from the **[!UICONTROL Value]** column. You can combine several filters to refine your query. To add a filter condition, click **[!UICONTROL Add]**.
 
    ![](assets/s_ncs_user_filter_add_button_alone.png)
 
-1. Puede asignar una jerarquía a las expresiones o cambiar el orden de las expresiones de consulta mediante las flechas de la barra de herramientas.
-1. El operador predeterminado entre expresiones es **y**, pero puede cambiarlo haciendo clic en el campo. Puede seleccionar un operador **o**.
+1. You can assign a hierarchy to the expressions or change the order of the query expressions using the toolbar arrows.
+1. The default operator between expressions is **And**, but you can change this by clicking the field. You can select an **Or** operator.
 
    ![](assets/s_ncs_user_filter_operator.png)
 
-1. Haga clic en **[!UICONTROL OK]** para confirmar la creación del filtro y aplicarlo a la lista.
+1. Click **[!UICONTROL OK]** to confirm filter creation and apply it to the list.
 
-El filtro aplicado se muestra encima de la lista.
+The filter applied is displayed above the list.
 
 ![](assets/s_ncs_user_filter_adv_edit.png)
 
-Para editar o modificar este filtro, haga clic en su etiqueta.
+To edit or modify this filter, click its label.
 
-Para cancelar este filtro, haga clic en el icono **[!UICONTROL Remove this filter]** situado a la derecha del filtro.
+To cancel this filter, click the **[!UICONTROL Remove this filter]** icon to the right of the filter.
 
 ![](assets/s_ncs_user_filter_adv_remove.png)
 
-Se puede guardar un filtro avanzado para utilizarlo en el futuro. Para obtener más información acerca de este tipo de filtro, consulte [Guardado de un filtro](#saving-a-filter).
+You can save an advanced filter to keep it for future use. For further information about this type of filter, see [Save a filter](#saving-a-filter).
 
-### Creación de filtros avanzados con funciones {#creating-an-advanced-filter-with-functions}
+### Create an advanced filter with functions {#creating-an-advanced-filter-with-functions}
 
-Los filtros avanzados pueden utilizar funciones; los **filtros con funciones** se crean mediante un editor de expresiones que permite crear fórmulas con los datos de la base de datos y las funciones avanzadas. Para crear un filtro con funciones, repita los pasos 1, 2 y 3 de creación de filtros avanzados y luego siga este procedimiento:
+Advanced filters can use functions; **filters with functions** are created via an expression editor that lets you create formulas using the database data and advanced functions. To create a filter with functions, repeat advanced filter creation steps 1, 2 and 3, then proceed as follows:
 
-1. En la ventana de selección de campos, haga clic en **[!UICONTROL Advanced selection]**.
-1. Seleccione el tipo de fórmula que desea utilizar: acumulado, filtro de usuario existente o expresión.
+1. In the field selection window, click **[!UICONTROL Advanced selection]**.
+1. Select the type of formula to be used: aggregate, existing user filter or expression.
 
    ![](assets/s_ncs_user_filter_formula_select.png)
 
-   Estas son las opciones disponibles:
+   The following options are available:
 
-   * **[!UICONTROL Field only]** para seleccionar un campo. Este es el modo predeterminado.
-   * **[!UICONTROL Aggregate]** para seleccionar la fórmula de adición que se va a utilizar (cuenta, suma, promedio, máximo, mínimo).
-   * **[!UICONTROL User filter]** para seleccionar uno de los filtros de usuario existentes. Los filtros de usuario se detallan en [Guardado de un filtro](#saving-a-filter).
-   * **[!UICONTROL Expression]** para acceder al editor de expresiones.
+    * **[!UICONTROL Field only]** to select a field. This is the default mode. 
+    * **[!UICONTROL Aggregate]** to select the aggregate formula to be used (counts, sum, average, maximum, minimum).
+    * **[!UICONTROL User filter]** to select one of the existing user filters. User filters are detailed in [Save a filter](#saving-a-filter).
+    * **[!UICONTROL Expression]** to access the expressions editor.
 
-     El editor de expresiones permite definir un filtro avanzado. Tiene el siguiente aspecto:
+      The expression editor lets you define an advanced filter. It looks like this:
+    
+      ![](assets/s_ncs_user_create_exp_exple01.png)
 
-     ![](assets/s_ncs_user_create_exp_exple01.png)
+      It lets you select fields in the database tables and attach advanced functions to them: Select the function to use in the **[!UICONTROL List of functions]**. The functions available are detailed in [List of functions](../../platform/using/defining-filter-conditions.md#list-of-functions). Next, select the field or fields concerned by the functions and click **[!UICONTROL OK]** to approve the expression.
 
-     Permite seleccionar campos en las tablas de base de datos y adjuntarles funciones avanzadas: seleccione la función que desea utilizar en la **[!UICONTROL List of functions]**. Las funciones disponibles se detallan en [Lista de funciones](../../platform/using/defining-filter-conditions.md#list-of-functions). A continuación, seleccione el campo o campos concernidos por las funciones y haga clic en **[!UICONTROL OK]** para aprobar la expresión.
+      >[!NOTE]
+      >
+      >For an example of filter creation based on an expression, refer to [this section](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is).
 
-     >[!NOTE]
-     >
-     >Para ver un ejemplo de creación de filtros basado en una expresión, consulte [esta sección](../../workflow/using/sending-a-birthday-email.md#identifying-recipients-whose-birthday-it-is).
+## Save a filter {#saving-a-filter}
 
-## Guardado de un filtro {#saving-a-filter}
+Filters are specific to each operator and are re-initialized each time the operator clears the cache of their client console.
 
-Los filtros son específicos de cada operador y se reinician cada vez que el operador borra la caché de su consola de cliente.
+You can create an **application filter** by saving an advanced filter: it can be re-used by right-clicking in any list or via the **[!UICONTROL Filters]** button located above the lists.
 
-Puede crear un **application filter** guardando un filtro avanzado: puede volver a utilizarlo haciendo clic con el botón derecho en cualquier lista o mediante el botón **[!UICONTROL Filters]** ubicado encima de las listas.
+These filters can also be accessed directly via the delivery assistant, in the target selection stage (refer to [this section](../../delivery/using/creating-an-email-delivery.md) for more on creating deliveries). To create the application filter, you can:
 
-También se puede acceder a estos filtros directamente a través del asistente de envíos, en el paso de selección de público destinatario (consulte [esta sección](../../delivery/using/creating-an-email-delivery.md) para obtener más información sobre la creación de envíos). Para crear el filtro de aplicación, puede:
-
-* Convertir un filtro avanzado en un filtro de aplicación. Para ello, haga clic en **[!UICONTROL Save]** antes de cerrar el editor de filtros avanzado.
+* Convert an advanced filter to an application filter. To do this, click **[!UICONTROL Save]** before closing the advanced filter editor.
 
   ![](assets/s_ncs_user_filter_save.png)
 
-* Cree este filtro de aplicación a través del nodo **[!UICONTROL Administration > Configuration > Predefined filters]** (o **[!UICONTROL Profiles and targets > Predefined filters]** para los destinatarios) del árbol. Para ello, haga clic con el botón derecho en la lista de filtros y seleccione **[!UICONTROL New...]**. El procedimiento es el mismo que para crear filtros avanzados.
+* Create this application filter via the **[!UICONTROL Administration > Configuration > Predefined filters]** (or **[!UICONTROL Profiles and targets > Predefined filters]** for recipients) node of the tree. To do this, right-click the list of filters, and select **[!UICONTROL New...]**. The procedure is the same as for creating advanced filters.
 
-  El campo **[!UICONTROL Label]** permite asignar un nombre a este filtro. Este nombre aparece en el cuadro combinado del botón **[!UICONTROL Filters...]**.
+  The **[!UICONTROL Label]** field enables you to name this filter. This name will appear in the combo box of the **[!UICONTROL Filters...]** button. 
 
   ![](assets/user_filter_apply.png)
 
-Se pueden eliminar todos los filtros de la lista actual haciendo clic con el botón derecho del ratón y seleccionando **[!UICONTROL No filter]** o a través del icono **[!UICONTROL Filters]** situado encima de la lista.
+You can delete all filters on the current list by right-clicking and selecting **[!UICONTROL No filter]** or via the **[!UICONTROL Filters]** icon located above the list.  
 
-Se pueden combinar los filtros haciendo clic en el botón **[!UICONTROL Filters]** y utilizando el menú **[!UICONTROL And...]**.
+You can combine filters by clicking the **[!UICONTROL Filters]** button and using the **[!UICONTROL And...]** menu.
 
 ![](assets/s_ncs_user_filter_combination.png)
 
-## Filtrado de destinatarios {#filtering-recipients}
+## Filter recipients {#filtering-recipients}
 
-Los filtros predefinidos (consulte [Guardado de un filtro](#saving-a-filter)) permiten filtrar los perfiles de los destinatarios que contiene la base de datos. Puede editar filtros desde el nodo del árbol **[!UICONTROL Profiles and Targets > Predefined filters]**. Los filtros se muestran en la sección superior del espacio de trabajo, a través del botón **[!UICONTROL Filters]**.
+Predefined filters (see [Save a filter](#saving-a-filter)) enable you to filter the profiles of recipients contained in the database. You can edit filters from the **[!UICONTROL Profiles and Targets > Predefined filters]** node of the tree. The filters are listed in the upper section of the workspace, via the **[!UICONTROL Filters]** button.
 
-Seleccione un filtro para mostrar su definición y para acceder a una previsualización de los datos filtrados.
+Select a filter to display its definition and to access a preview of the filtered data.
 
 ![](assets/s_ncs_user_segment_edit.png)
 
 >[!NOTE]
 >
->Para ver un ejemplo detallado de la creación de filtros predefinidos, consulte [Caso de uso](../../platform/using/use-case.md).
+>For a detailed example of predefined filter creation, refer to [Use case](../../platform/using/use-case.md).
 
-Los filtros predefinidos son:
+The predefined filters are:
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>Etiqueta</strong><br /> </td> 
-   <td> <strong>Consulta</strong><br /> </td> 
+   <td> <strong>Label</strong><br /> </td> 
+   <td> <strong>Query</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> Abierto<br /> </td> 
-   <td> Selecciona los destinatarios que han abierto una entrega.<br /> </td> 
+   <td> Opened<br /> </td> 
+   <td> Selects recipients who have opened a delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Abierto pero sin clic<br /> </td> 
-   <td> Selecciona los destinatarios que han abierto una entrega, pero no han hecho clic en un vínculo.<br /> </td> 
+   <td> Opened but not clicked<br /> </td> 
+   <td> Selects recipients who have opened a delivery but have not clicked on a link.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Destinatarios inactivos<br /> </td> 
-   <td> Selecciona destinatarios que no han abierto una entrega en X meses.<br /> </td> 
+   <td> Inactive recipients<br /> </td> 
+   <td> Selects recipients who have not opened a delivery in X months.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Última actividad por tipo de dispositivo<br /> </td> 
-   <td> Selecciona los destinatarios que han hecho clic o abierto la entrega Y con el dispositivo X en los últimos Z días.<br /> </td> 
+   <td> Last activity by device type<br /> </td> 
+   <td> Selects recipients who have clicked or opened delivery Y using device X in the last Z days.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Última actividad por tipo de dispositivo (seguimiento).<br /> </td> 
-   <td> Selecciona los destinatarios que han hecho clic o abierto la entrega Y con el dispositivo X en los últimos Z días.<br /> </td> 
+   <td> Last activity by device type (Tracking)<br /> </td> 
+   <td> Selects recipients who have clicked or opened delivery Y using device X in the last Z days.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Destinatarios no específicos<br /> </td> 
-   <td> Selecciona los destinatarios que nunca se han identificado a través del canal Y en los meses X.<br /> </td> 
+   <td> Untargeted recipients<br /> </td> 
+   <td> Selects recipients who have never been targeted via channel Y in X months.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Destinatarios muy activos<br /> </td> 
-   <td> Selecciona destinatarios que han hecho clic en una entrega por lo menos X veces en los últimos Y meses.<br /> </td> 
+   <td> Very active recipients<br /> </td> 
+   <td> Selects recipients who have clicked in a delivery at least X times in the last Y months.<br /> </td> 
   </tr> 
   <tr> 
- <td> Dirección de correo electrónico incluida en la lista de bloqueados<br /> </td> 
-    <td> Selecciona destinatarios cuya dirección de correo electrónico se encuentra en la de lista de bloqueados.<br/> </td>
+ <td> Denylisted email address<br /> </td> 
+    <td> Selects recipients whose email address is on the denylist.<br/> </td>
   </tr> 
   <tr> 
-   <td> Dirección de correo en cuarentena<br /> </td> 
-   <td> Selecciona destinatarios cuya dirección de correo está en cuarentena.<br /> </td> 
+   <td> Quarantined email address<br /> </td> 
+   <td> Selects recipients whose email address is quarantined.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Direcciones de correo duplicadas en la carpeta<br /> </td> 
-   <td> Selecciona destinatarios cuya dirección de correo está duplicada en la carpeta.<br /> </td> 
+   <td> Email addresses duplicated in the folder<br /> </td> 
+   <td> Selects recipients whose email address is duplicated in the folder.<br /> </td> 
   </tr> 
   <tr> 
-   <td> No se ha abierto ni se ha hecho clic<br /> </td> 
-   <td> Selecciona los destinatarios que no han abierto ninguna entrega ni han hecho clic en una entrega.<br /> </td> 
+   <td> Neither opened nor clicked<br /> </td> 
+   <td> Selects recipients who have not opened a delivery, or clicked in a delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Nuevos destinatarios (días)<br /> </td> 
-   <td> Selecciona los destinatarios creados en los últimos X días.<br /> </td> 
+   <td> New recipients (days)<br /> </td> 
+   <td> Selects recipients that were created in the last X days.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Nuevos destinatarios (minutos)<br /> </td> 
-   <td> Selecciona los destinatarios creados en los últimos X minutos.<br /> </td> 
+   <td> New recipients (minutes)<br /> </td> 
+   <td> Selects recipients that were created in the last X minutes.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Nuevos destinatarios (meses)<br /> </td> 
-   <td> Selecciona los destinatarios creados en los últimos X meses.<br /> </td> 
+   <td> New recipients (months)<br /> </td> 
+   <td> Selects recipients that were created in the last X months.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Por suscripción<br /> </td> 
-   <td> Selecciona los destinatarios por suscripción.<br /> </td> 
+   <td> By subscription<br /> </td> 
+   <td> Selects recipients by subscription.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Al hacer clic en un vínculo específico<br /> </td> 
-   <td> Selecciona los destinatarios que hicieron clic en una URL determinada de una entrega.<br /> </td> 
+   <td> By clicking on a specific link<br /> </td> 
+   <td> Selects recipients who clicked on a particular URL in a delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Por comportamiento tras la entrega<br /> </td> 
-   <td> Selecciona los destinatarios según su comportamiento tras recibir una entrega.<br /> </td> 
+   <td> By post delivery behavior<br /> </td> 
+   <td> Selects recipients according to their behavior after receiving a delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Por fecha de creación<br /> </td> 
-   <td> Selecciona los destinatarios por fecha de creación, durante un periodo que abarca desde X meses (fecha actual menos n meses) hasta Y meses (fecha actual menos n meses).<br /> </td> 
+   <td> By creation date<br /> </td> 
+   <td> Selects recipients by creation date, over a period ranging from X months (current date minus n months) to Y months (current date minus n months).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Por lista<br /> </td> 
-   <td> Selecciona los destinatarios por lista.<br /> </td> 
+   <td> By list<br /> </td> 
+   <td> Selects recipients by list.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Por número de clics<br /> </td> 
-   <td> Selecciona los destinatarios que hicieron clic en una entrega en los últimos X meses.<br /> </td> 
+   <td> By number of clicks<br /> </td> 
+   <td> Selects recipients who clicked in a delivery in the last X months.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Por número de mensajes recibidos<br /> </td> 
-   <td> Selecciona los destinatarios según el número de mensajes recibidos.<br /> </td> 
+   <td> By number of messages received<br /> </td> 
+   <td> Selects recipients according to the number of messages that they received.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Por número de aperturas<br /> </td> 
-   <td> Selecciona los destinatarios que abrieron entre X e Y entregas durante la cantidad de tiempo Z.<br /> </td> 
+   <td> By number of opens<br /> </td> 
+   <td> Selects recipients who opened between X and Y deliveries over Z amount of time.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Por nombre o email<br /> </td> 
-   <td> Selecciona los destinatarios según su nombre o correo electrónico.<br /> </td> 
+   <td> By name or email<br /> </td> 
+   <td> Selects recipients according to their name or email.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Por intervalo de edad<br /> </td> 
-   <td> Selecciona los destinatarios según su edad.<br /> </td> 
+   <td> By age range<br /> </td> 
+   <td> Selects recipients according to their age.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Todas las comparaciones relacionadas con la cuenta y los periodos se deben entender en un sentido general (los destinatarios que corresponden a los límites de consulta se incluyen en la comparación).
+>All comparisons concerning counting and periods are to be understood in the broader sense (recipients that correspond to the query limits are included in the comparison).
 
-Ejemplos de cómo se calculan los datos:
+Examples of how the data is calculated:
 
-* Selecciona los destinatarios con menos de 30 años de edad:
+* Selects recipients who are less than 30 years old: 
 
   ![](assets/predefined_filters_01.png)
 
-* Selecciona los destinatarios que tienen 18 años de edad o más:
+* Selects recipients who are 18 years of age or older:
 
   ![](assets/predefined_filters_03.png)
 
-* Selecciona los destinatarios que tienen entre 18 y 30 años:
+* Selects recipients aged between 18 and 30:
 
   ![](assets/predefined_filters_02.png)
 
-## Configuración avanzada de los filtros de datos {#advanced-settings-for-data-filters}
+## Advanced settings for data filters {#advanced-settings-for-data-filters}
 
-Haga clic en la pestaña **[!UICONTROL Settings]** para acceder a las siguientes opciones:
+Click the **[!UICONTROL Settings]** tab to access the following options:
 
-* **[!UICONTROL Default filter for the associated document type]**: esta opción permite sugerir este filtro de forma predeterminada en el editor de las listas que le interesen.
+* **[!UICONTROL Default filter for the associated document type]**: this option lets you suggest this filter by default in the editor of the lists concerned by the sort.
 
-  Por ejemplo, el filtro **[!UICONTROL By name or login]** se aplica a los operadores. Esta opción está seleccionada y, por lo tanto, el filtro siempre se ofrece en todas las listas de operadores.
+  For example, the **[!UICONTROL By name or login]** filter is applied to operators. This option is selected, and so the filter is always offered on all operator lists.
 
-* **[!UICONTROL Filter shared with other operators]**: esta opción permite poner el filtro a disposición del resto de operadores de la base de datos actual.
-* **[!UICONTROL Use parameter entry form]**: esta opción permite definir los campos de filtro que se muestran encima de la lista cuando se selecciona este filtro. Estos campos permiten definir la configuración del filtro. Este formulario debe introducirse en formato XML mediante el botón **[!UICONTROL Form]**. Por ejemplo, el filtro preconfigurado **[!UICONTROL Recipients who have opened]**, disponible en la lista de destinatarios, muestra un campo de filtro que le permite seleccionar la entrega a la que se dirige el filtro.
+* **[!UICONTROL Filter shared with other operators]**: this option lets you make the filter available to all the other operators on the current database.
+* **[!UICONTROL Use parameter entry form]**: this option lets you define the filter field(s) to be displayed above the list when this filter is selected. These fields let you define the filter settings. This form must be entered in XML format via the **[!UICONTROL Form]** button. For example, the preconfigured filter **[!UICONTROL Recipients who have opened]**, available from the recipients list, displays a filter field that lets you select the delivery at which the filter is aimed.
 
-  El botón **[!UICONTROL Preview]** muestra los resultados del filtro seleccionado.
+  The **[!UICONTROL Preview]** button displays the result of the selected filter.
 
-* El vínculo **[!UICONTROL Advanced parameters]** permite definir ajustes adicionales. En concreto, le permite asociar una tabla SQL con el filtro para que sea común a todos los editores que compartan la tabla.
+* The **[!UICONTROL Advanced parameters]** link lets you define additional settings. In particular, you can associate a SQL table with the filter to make it common to all editors that share the table.
 
-  Seleccione la opción **[!UICONTROL Do not restrict the filter]** si desea que el usuario anule este filtro.
+  Select the **[!UICONTROL Do not restrict the filter]** option if you want to stop the user from overriding this filter.
 
-  Esta opción está habilitada para los filtros “Destinatarios de un envío” y “Destinatarios de envíos pertenecientes a una carpeta”, los cuales se ofrecen en el asistente de envíos y no se pueden sobrecargar.
+  This option is enabled for "Recipients of a delivery" and "Recipients of deliveries belonging to a folder" filters offered in the delivery assistant that cannot be overloaded.
 
   ![](assets/s_ncs_user_filter_advanced_param.png)
+-->
