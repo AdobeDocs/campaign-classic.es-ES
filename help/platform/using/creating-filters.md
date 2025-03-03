@@ -9,16 +9,16 @@ content-type: reference
 topic-tags: filtering-data
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
 source-git-commit: 813ef65ff45407a92c5f9d7f3d07189972a5742b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 # Creación de filtros{#creating-filters}
 
 
-El filtrado de datos es el proceso de seleccionar una parte más pequeña del conjunto de datos, solo los registros que coinciden con determinados criterios y utilizar ese subconjunto para acciones específicas (actualizaciones, creación de audiencias) o análisis.
+El filtrado de datos es el proceso de seleccionar una parte más pequeña del conjunto de datos, solo los registros que coinciden con determinados criterios, y utilizar ese subconjunto para acciones específicas (como actualizaciones o creación de público) o análisis.
 
 Cuando navega por el árbol de Adobe Campaign (en el menú **[!UICONTROL Explorer]** de la página principal), los datos contenidos en la base de datos se muestran en listas. Estas listas se pueden configurar para mostrar solo los datos necesarios para el operador. Se pueden realizar acciones sobre los datos filtrados. La configuración del filtro permite seleccionar datos de una lista **[!UICONTROL dynamically]**. Al modificar los datos, los datos filtrados se actualizan.
 
@@ -28,7 +28,7 @@ Cuando navega por el árbol de Adobe Campaign (en el menú **[!UICONTROL Explore
 
 >[!NOTE]
 >
->Para obtener más información sobre los filtros y cómo utilizarlos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}.
+>Para obtener más información sobre los filtros y cómo utilizarlos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}.
 
 
 <!--

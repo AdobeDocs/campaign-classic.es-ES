@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
 source-git-commit: 22aa5f76541e6ff1612907ab0b34f0ac468fb9a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '87'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Es posible acceder a Adobe Campaign Explorer mediante el icono de la barra de he
 
 >[!NOTE]
 >
->Para obtener más información sobre el explorador de Adobe Campaign, consulte estas páginas en la documentación de Campaign v8: para obtener más información sobre [la interfaz de usuario](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}, su [configuración](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank} o [cómo administrar carpetas y vistas en el explorador](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
+>Para obtener más información sobre el explorador de Adobe Campaign, consulte estas páginas en la documentación de Campaign v8: para obtener más información sobre [la interfaz de usuario](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target=_blank}, su [configuración](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank} o [cómo administrar carpetas y vistas en el explorador](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
 
 <!--

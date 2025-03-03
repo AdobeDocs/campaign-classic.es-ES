@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 source-git-commit: f188c9ce4c47d05638d9d28e2175cb4d32775ba2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '89'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Las listas se crean y administran mediante el vínculo **[!UICONTROL Lists]** en
 
 >[!NOTE]
 >
->Para obtener más información sobre las listas y cómo crearlas y administrarlas, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target=_blank}.
+>Para obtener más información sobre las listas y cómo crearlas y administrarlas, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target=_blank}.
 
 <!--
 Two types of lists are available in Adobe Campaign:
