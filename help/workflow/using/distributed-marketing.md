@@ -2,8 +2,10 @@
 product: campaign
 title: Distributed Marketing
 description: Descubra más información sobre el paquete Distributed Marketing
+hide: true
+hidefromtoc: true
 feature: Workflows, Data Management, Distributed Marketing
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%

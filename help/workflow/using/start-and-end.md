@@ -3,8 +3,10 @@ product: campaign
 title: Inicio y final (Start y End)
 description: Descubra más información sobre las actividades de flujo de trabajo de Inicio y final (Start y End)
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 100%

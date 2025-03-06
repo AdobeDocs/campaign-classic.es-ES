@@ -6,10 +6,10 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
-workflow-type: ht
-source-wordcount: '2562'
-ht-degree: 100%
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+workflow-type: tm+mt
+source-wordcount: '2571'
+ht-degree: 99%
 
 ---
 
@@ -238,6 +238,8 @@ ht-degree: 100%
       + [Enriquecimiento del contenido](delivery/using/enriching-content.md)
       + [Automatización mediante flujos de trabajo](delivery/using/automating-via-workflows.md)
 + Orquestación de campañas de marketing {#orchestrating-campaigns}
+   + [Acerca de las campañas de marketing](campaign/using/about-marketing-campaigns.md)
+   + [Acerca de la optimización de Campaign](campaign-opt/using/about-campaign-optimization.md)
    + Acerca de las campañas de marketing {#about-marketing-campaigns}
       + [Diseño de campañas de marketing](campaign/using/designing-marketing-campaigns.md)
       + [Acceso a campañas de marketing](campaign/using/accessing-marketing-campaigns.md)
@@ -250,14 +252,14 @@ ht-degree: 100%
       + [Configuración y administración de aprobaciones](campaign/using/marketing-campaign-approval.md)
       + [Monitorización de campañas](campaign/using/marketing-campaign-monitoring.md)
       + [Proveedores, stock y presupuestos](campaign/using/providers-stocks-and-budgets.md)
-   + Optimización de la campaña{#campaign-optimization}
-      + [Acerca de las tipologías de campaña](campaign-opt/using/about-campaign-typologies.md)
-      + [Reglas de presión](campaign-opt/using/pressure-rules.md)
-      + [Reglas de coherencia](campaign-opt/using/consistency-rules.md)
-      + [Reglas de control](campaign-opt/using/control-rules.md)
-      + [Reglas de filtrado](campaign-opt/using/filtering-rules.md)
-      + [Aplicación de reglas](campaign-opt/using/applying-rules.md)
-      + [Simulaciones en Campaign](campaign-opt/using/campaign-simulations.md)
+      + Optimización de la campaña{#campaign-optimization}
+         + [Acerca de las tipologías de campaña](campaign-opt/using/about-campaign-typologies.md)
+         + [Reglas de presión](campaign-opt/using/pressure-rules.md)
+         + [Reglas de coherencia](campaign-opt/using/consistency-rules.md)
+         + [Reglas de control](campaign-opt/using/control-rules.md)
+         + [Reglas de filtrado](campaign-opt/using/filtering-rules.md)
+         + [Aplicación de reglas](campaign-opt/using/applying-rules.md)
+         + [Simulaciones en Campaign](campaign-opt/using/campaign-simulations.md)
 + Gestión de recursos de marketing {#mrm}
    + [Acerca de la gestión de recursos de marketing](mrm/using/about-marketing-resource-management.md)
    + [Creación y administración de tareas](mrm/using/creating-and-managing-tasks.md)
@@ -391,6 +393,7 @@ ht-degree: 100%
       + [Sincronización de aplicaciones web](integrations/using/synchronizing-web-applications.md)
       + [Resolución de problemas con  [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
 + Automatización con flujos de trabajo {#automating-with-workflows}
+   + [Acerca de la automatización de flujos](workflow/using/about-workflow-automation.md)
    + Introducción a los flujos de trabajo {#introduction}
       + [Acerca de los flujos de trabajo](workflow/using/about-workflows.md)
       + [Acerca de las actividades](workflow/using/about-activities.md)
@@ -419,7 +422,7 @@ ht-degree: 100%
       + [Enriquecimiento](workflow/using/enrichment.md)
       + [Editar esquema](workflow/using/edit-schema.md)
       + [Motor de oferta](workflow/using/offer-engine.md)
-      + [Anulación de duplicación](workflow/using/deduplication.md)
+      + [Deduplicación](workflow/using/deduplication.md)
       + [Cambio de dimensión](workflow/using/change-dimension.md)
       + [Actualización de listas](workflow/using/list-update.md)
       + [Servicios de suscripción](workflow/using/subscription-services.md)

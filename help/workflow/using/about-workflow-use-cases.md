@@ -3,8 +3,10 @@ product: campaign
 title: Acerca de los casos de uso de flujos de trabajo
 description: Obtenga más información sobre los casos de uso que puede realizar con los flujos de trabajo de Campaign Classic
 feature: Workflows, Data Management
+hide: true
+hidefromtoc: true
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%

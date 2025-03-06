@@ -3,11 +3,13 @@ product: campaign
 title: Enriquecimiento de correo electrónico con campos de datos personalizados
 description: Descubra cómo enriquecer correos electrónicos con campos de datos personalizados
 feature: Workflows
+hide: true
+hidefromtoc: true
 exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -3,11 +3,13 @@ product: campaign
 title: Cómo utilizar los datos de flujo de trabajo
 description: Descubra cómo utilizar los datos de flujo de trabajo
 feature: Workflows, Data Management
+hide: true
+hidefromtoc: true
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '409'
-ht-degree: 100%
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -3,9 +3,11 @@ product: campaign
 title: Entregas multicanal
 description: Descubra más información sobre las entregas multicanal
 feature: Workflows, Channels Activity
+hide: true
+hidefromtoc: true
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
 

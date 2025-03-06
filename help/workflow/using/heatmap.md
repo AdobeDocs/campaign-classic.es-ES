@@ -3,8 +3,10 @@ product: campaign
 title: Mapa de calor del flujo de trabajo de Campaign
 description: Monitorice los flujos de trabajo con el mapa de calor del flujo de trabajo
 feature: Workflows, Heatmap
+hide: true
+hidefromtoc: true
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 100%

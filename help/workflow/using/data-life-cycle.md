@@ -3,9 +3,11 @@ product: campaign
 title: Ciclo de vida de datos
 description: Obtenga más información sobre el ciclo de vida de los datos en flujos de trabajo
 feature: Workflows, Data Management
+hide: true
+hidefromtoc: true
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
+source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 100%
 
