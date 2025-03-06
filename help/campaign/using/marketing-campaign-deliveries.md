@@ -4,11 +4,13 @@ title: Entregas de campañas de marketing
 description: Más información sobre las entregas de campañas de marketing
 role: User
 feature: Campaigns, Resource Management, Cross Channel Orchestration
+hide: true
+hidefromtoc: true
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '1485'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -188,7 +190,7 @@ Después, haga clic **[!UICONTROL Add a delivery outline]** y cree la jerarquía
 Una descripción puede contener elementos y campos de personalización, recursos y ofertas:
 
 * Los elementos pueden ser documentos físicos, por ejemplo, a los que se hace referencia y que se describen aquí y se adjuntan al envío.
-* Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en entregas para un objetivo específico (oferta de bienvenida, descuento, etc.) Se crean en Adobe Campaign y se importan en el esquema mediante el enlace **[!UICONTROL Import personalization fields...]**.
+* Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en envíos para un objetivo específico (oferta de bienvenida, descuento, etc.) Se crean en Adobe Campaign y se importan en el esquema mediante el vínculo **[!UICONTROL Import personalization fields...]**.
 
   ![](assets/s_ncs_user_op_add_composition_field.png)
 

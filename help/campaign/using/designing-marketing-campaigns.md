@@ -4,8 +4,10 @@ title: Diseño y ejecución de campañas de marketing
 description: Defina, optimice, ejecute y analice campañas de marketing
 role: User
 feature: Campaigns
+hide: true
+hidefromtoc: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%

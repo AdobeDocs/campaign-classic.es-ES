@@ -4,9 +4,11 @@ title: Audiencia objetivo de la campaña de marketing
 description: Aprenda a definir la audiencia de las campañas de marketing
 role: User
 feature: Campaigns, Audiences
+hide: true
+hidefromtoc: true
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
-source-git-commit: 7453db63a0ed2c617e9f7e4cbfa3480b3ed5020d
-workflow-type: ht
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
+workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 100%
 
@@ -91,7 +93,7 @@ Los flujos de trabajo de destino se pueden iniciar manualmente mediante el botó
 
 La segmentación se puede programar para la ejecución automática según una programación (programador) o un evento (señal externa, importación de archivos, etc.).
 
-Las acciones relacionadas con la ejecución del flujo de trabajo de segmentación (inicio, detención, pausa, etc.) son procesos **asíncronos**: el comando se guarda y surte efecto en cuanto el servidor esté disponible para aplicarlo.
+Las acciones relacionadas con la ejecución del flujo de trabajo de destino (inicio, parada, pausa, etc.) son procesos **asincrónicos**: el comando se guarda y se aplica en cuanto el servidor esté disponible para su aplicación.
 
 Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la ejecución del flujo de trabajo de destino.
 

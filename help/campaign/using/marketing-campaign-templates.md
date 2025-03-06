@@ -4,11 +4,13 @@ title: Plantillas de campañas de marketing
 description: Plantillas de campañas de marketing
 role: User
 feature: Campaigns, Templates
+hide: true
+hidefromtoc: true
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
 workflow-type: tm+mt
 source-wordcount: '1128'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -66,7 +68,7 @@ El vínculo **[!UICONTROL Advanced campaign settings...]** permite habilitar y d
 
 ![](assets/s_ncs_user_op_template_tab1.3.png)
 
-Si no se selecciona una capacidad, los elementos correspondientes al proceso (menús, iconos, opciones, pestañas, subpestañas, etc.) no aparecerán en la interfaz de la plantilla ni en las campañas basadas en esta plantilla. Las pestañas a la izquierda de los detalles de la campaña generalmente coinciden con los procesos seleccionados en la plantilla. Por ejemplo: si no se selecciona **Expenses and Objectives**, la pestaña correspondiente **[!UICONTROL Budget]** no se muestra en las campañas basadas en esta plantilla.
+Si no se selecciona una capacidad, los elementos relacionados con el proceso (menús, iconos, opciones, pestañas, subpestañas, etc.) no aparecen en la interfaz de la plantilla ni en las campañas basadas en esta plantilla. Las pestañas a la izquierda de los detalles de la campaña generalmente coinciden con los procesos seleccionados en la plantilla. Por ejemplo: si no se selecciona **Expenses and Objectives**, la pestaña correspondiente **[!UICONTROL Budget]** no se muestra en las campañas basadas en esta plantilla.
 
 Además, los accesos directos a las ventanas de configuración se añaden al panel de campañas. Cuando una funcionalidad está habilitada, un vínculo directo le permite acceder a ella desde el panel de campañas.
 
@@ -166,7 +168,7 @@ Cuando crea una plantilla de campaña, debe introducir la siguiente información
 
 ### Parámetros de ejecución de plantilla {#template-execution-parameters}
 
-El vínculo **[!UICONTROL Advanced campaign settings...]** permite configurar las opciones avanzadas de la plantilla para procesar el destinatario de la entrega (grupo de control, direcciones semilla, etc.) y la configuración de la medición de campañas y la ejecución del flujo de trabajo.
+El vínculo **[!UICONTROL Advanced campaign settings...]** le permite configurar las opciones avanzadas de la plantilla para procesar el destinatario de la entrega (grupo de control, direcciones semilla, etc.) y la configuración de la medición de la campaña y la ejecución del flujo de trabajo.
 
 ![](assets/s_ncs_user_op_template_tab1.2.png)
 
