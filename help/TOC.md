@@ -239,7 +239,7 @@ ht-degree: 99%
       + [Automatización mediante flujos de trabajo](delivery/using/automating-via-workflows.md)
 + [Organización de campañas de marketing](campaign/using/about-marketing-campaigns.md)
 + Orquestación de campañas de marketing {#orchestrating-campaigns}
-   + [Acerca de la optimización de Campaign](campaign-opt/using/about-campaign-optimization.md)
+   + [Acerca de la optimización de la campaña](campaign-opt/using/about-campaign-optimization.md)
    + Acerca de las campañas de marketing {#about-marketing-campaigns}
       + [Diseño de campañas de marketing](campaign/using/designing-marketing-campaigns.md)
       + [Acceso a campañas de marketing](campaign/using/accessing-marketing-campaigns.md)
