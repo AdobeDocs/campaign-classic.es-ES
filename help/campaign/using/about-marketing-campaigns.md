@@ -4,23 +4,41 @@ title: Acerca de las campañas de marketing
 description: Defina, optimice, ejecute y analice campañas de marketing
 role: User
 feature: Campaigns
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
+exl-id: 07cfa2b3-4e70-437a-ad5f-15fbfe717d5c
+source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 86%
+source-wordcount: '296'
+ht-degree: 38%
 
 ---
 
-# Acerca de las campañas de marketing{#designing-marketing-campaigns}
+# Organización de campañas de marketing{#designing-marketing-campaigns}
 
 Adobe Campaign ofrece un conjunto de soluciones que le ayudan a personalizar y entregar campañas en todos sus canales en línea y sin conexión. Puede crear, configurar, ejecutar y analizar campañas de marketing. Todas las campañas de marketing se pueden administrar desde un centro de control unificado.
 
 Las campañas incluyen acciones (envíos) y procesos (importación o extracción de archivos), así como recursos (documentos de marketing, descripciones de envíos). Todos ellos se utilizan en las campañas de marketing. Las campañas son parte de un programa y los programas se incluyen en un plan de campaña.
 
->[!NOTE]
->
->Para obtener más información acerca de la administración de campañas, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}.
+Para obtener más información acerca de la administración de campañas, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}.
 
+![](assets/do-not-localize/campaign.jpg){width="40%"}
+
+Conozca los pasos clave relacionados con la administración de campañas:
+
+* [Introducción](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es){target=_blank}: Descubra, paso a paso, cómo crear y ejecutar una campaña de marketing en Adobe Campaign.
+
+* [Cree su primera campaña](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=es){target=_blank}: Aprenda a programar y configurar la lógica para organizar sus campañas. Una campaña unifica todos los elementos relacionados con una campaña de marketing: envíos, reglas de segmentación, costes, archivos de exportación, documentos relacionados, etc.
+
+* [Envíe mensajes en una campaña](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=es){target=_blank}: organice sus envíos en canales múltiples en sus campañas: optimice sus comunicaciones con Adobe Campaign mediante correos electrónicos personalizados, SMS, notificaciones push y mensajes en la aplicación.
+
+![](assets/do-not-localize/add-on.jpg){width="40%"}
+
+Hay tres complementos disponibles para la administración de campañas:
+
+* [Optimización de la campaña](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=es){target=_blank}: este módulo le permite controlar, filtrar y supervisar la entrega de envíos. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía.
+
+* [Administración de recursos de mercadotecnia](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=es){target=_blank}: este módulo le permite controlar las acciones de mercadotecnia en un modo de colaboración mediante la administración completa y el seguimiento en tiempo real de las tareas, los presupuestos y los recursos de mercadotecnia involucrados.
+
+* [Marketing distribuido](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=es){target=_blank}: este módulo le permite controlar las acciones de marketing de forma cooperativa mediante la administración completa y el seguimiento en tiempo real de las tareas, los presupuestos y los recursos de marketing implicados.
 
 <!--
 

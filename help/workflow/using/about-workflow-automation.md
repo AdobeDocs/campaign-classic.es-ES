@@ -3,18 +3,15 @@ product: campaign
 title: Acerca de los flujos de trabajo
 description: Automatice los procesos con flujos de trabajo, administre datos y audiencias, envíe mensajes, y mucho más
 feature: Workflows, Data Management
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+exl-id: 024a7344-9376-4ff3-926a-003148229f9f
+source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 92%
+source-wordcount: '274'
+ht-degree: 59%
 
 ---
 
-# Introducción a los flujos de trabajo{#gs-workflows}
-
-
-
-## Acerca de los flujos de trabajo{#about-workflows}
+# Automatización con flujos de trabajo {#gs-workflows}
 
 Adobe Campaign incluye un módulo de flujos de trabajo que permite organizar la gama completa de procesos y tareas en los distintos módulos del servidor de aplicaciones. Este entorno gráfico completo permite diseñar procesos, incluso la segmentación, la ejecución de campañas, el procesamiento de archivos, la participación humana, etc. El motor de flujo de trabajo se ejecuta y rastrea estos procesos.
 
@@ -24,9 +21,21 @@ Un flujo de trabajo también puede incluir uno o varios operadores por notificar
 
 Los flujos de trabajo se producen en varios contextos y etapas del proceso de administración de campañas.
 
->[!NOTE]
->
->Para obtener más información sobre la administración de flujos de trabajo, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es){target=_blank}.
+Para obtener más información sobre la administración de flujos de trabajo, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es){target=_blank}.
+
+![](assets/do-not-localize/workflow.jpg){width="40%"}
+
+Conozca los pasos clave relacionados con la administración de flujos de trabajo:
+
+* [Actividades de flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=es){target=_blank}: una actividad describe una plantilla de tarea. Los flujos de trabajo incluyen direccionamiento, control de flujo, acciones y actividades de evento.
+
+* [Crear un flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=es){target=_blank}: Aprenda a crear y ejecutar flujos de trabajo técnicos, de campañas y de segmentación.
+
+* [Prácticas recomendadas](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target=_blank}: Obtenga información acerca de las directrices para optimizar el rendimiento del flujo de trabajo de Campaign, mejorar el diseño del flujo de trabajo y seleccionar la configuración correcta.
+
+* [Supervisar flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target=_blank}: aprenda a supervisar la ejecución del flujo de trabajo para asegurarse de que todo se ejecuta correctamente.
+
+* [Casos de uso del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/workflow-use-cases.html){target=_blank}: conozca diferentes contextos en los que se pueden utilizar flujos de trabajo y cómo implementarlos a través de casos de uso de extremo a extremo.
 
 <!--
 
