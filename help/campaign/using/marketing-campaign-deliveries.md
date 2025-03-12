@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1485'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -160,7 +160,7 @@ También pueden editarse y modificarse desde esta vista.
 
 >[!NOTE]
 >
->Las definiciones de la entrega se utilizan principalmente en el contexto de las campañas de correo directo.
+>Las descripciones de los envíos se utilizan principalmente en el contexto de las campañas de correo directo.
 
 Una descripción de la entrega denota un conjunto estructurado de elementos (documentos, ramas, tiendas, cupones promocionales, etc.) creados en la empresa y en una campaña determinada.
 
@@ -190,7 +190,7 @@ Después, haga clic **[!UICONTROL Add a delivery outline]** y cree la jerarquía
 Una descripción puede contener elementos y campos de personalización, recursos y ofertas:
 
 * Los elementos pueden ser documentos físicos, por ejemplo, a los que se hace referencia y que se describen aquí y se adjuntan al envío.
-* Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en envíos para un objetivo específico (oferta de bienvenida, descuento, etc.) Se crean en Adobe Campaign y se importan en el esquema mediante el vínculo **[!UICONTROL Import personalization fields...]**.
+* Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en los envíos para un objetivo específico (ofertas de bienvenida, descuentos, etc.). Esos valores se crean en Adobe Campaign y se importan a la descripción mediante el vínculo **[!UICONTROL Import personalization fields...]**.
 
   ![](assets/s_ncs_user_op_add_composition_field.png)
 

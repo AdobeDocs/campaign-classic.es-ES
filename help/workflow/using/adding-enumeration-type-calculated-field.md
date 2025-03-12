@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
 source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -85,6 +85,6 @@ Siga estos pasos:
 
    ![](assets/query_editor_nveau_79.png)
 
-   Tomemos otro ejemplo y digamos que el valor de la enumeración “2” no se ingresó. Seleccione la función **[!UICONTROL Generate an error and reject the line]**: todos los destinatarios de sexo &quot;2&quot; generan anomalías y el resto de la información de la línea (nombre y apellido, etc.) no se exporta. Se muestra un registro de error en el campo **[!UICONTROL Logs generated during export]** de la ventana de vista previa de datos. Este registro indica que no se ha introducido el valor de enumeración “2”.
+   Tomemos otro ejemplo y digamos que el valor de la enumeración “2” no se ingresó. Seleccione la función **[!UICONTROL Generate an error and reject the line]**: todos los destinatarios de sexo “2” generarán anomalías y el resto de la información de la línea (nombre y apellido, etc.) no se exportará. Se muestra un registro de error en el campo **[!UICONTROL Logs generated during export]** de la ventana de vista previa de datos. Este registro indica que no se ha introducido el valor de enumeración “2”.
 
    ![](assets/query_editor_nveau_80.png)

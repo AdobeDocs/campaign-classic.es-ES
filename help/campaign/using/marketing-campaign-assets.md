@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
 source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -59,9 +59,9 @@ También pueden editarse y modificarse desde esta vista.
 
 >[!NOTE]
 >
->Las definiciones de la entrega se utilizan principalmente en el contexto de las campañas de correo directo.
+>Las descripciones de los envíos se utilizan principalmente en el contexto de las campañas de correo directo.
 
-Una descripción de la entrega denota un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creados por la compañía y para una campaña en particular.
+Una descripción de rnvío significa un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creados por la compañía y para una campaña determinada.
 
 Estos elementos se agrupan en descripciones de envío y cada descripción de envío concreta se asocia a un envío; se hace referencia en el archivo de extracción enviado al **proveedor de servicios** para que se asocie al envío. Por ejemplo, puede crear una descripción de envío que haga referencia a una filial y a los folletos de marketing que utiliza.
 
@@ -89,7 +89,7 @@ Después, haga clic **[!UICONTROL Add a delivery outline]** y cree la jerarquía
 Una descripción puede contener elementos y campos de personalización, recursos y ofertas:
 
 * Los elementos pueden ser documentos físicos, por ejemplo, a los que se hace referencia y que se describen aquí y se adjuntan al envío.
-* Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en envíos para un objetivo específico (oferta de bienvenida, descuento, etc.) Se crean en Adobe Campaign y se importan en el esquema mediante el vínculo **[!UICONTROL Import personalization fields...]**.
+* Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en los envíos para un objetivo específico (ofertas de bienvenida, descuentos, etc.). Esos valores se crean en Adobe Campaign y se importan a la descripción mediante el vínculo **[!UICONTROL Import personalization fields...]**.
 
   ![](assets/s_ncs_user_op_add_composition_field.png)
 
