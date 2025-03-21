@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: ab38c7fd45513c6f7a8ecf7ef8601f0b5a4b5757
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: bf45c8bcdd41e614f9be09bc0fd6385707159841
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 36%
 
 ---
 
@@ -17,49 +17,41 @@ ht-degree: 100%
 
 Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con la **última versión de Campaign Classic v7**. Cada nueva compilación viene con un estado que se materializa con un color. Obtenga más información sobre los estados de compilación de Campaign Classic v7 en [esta página](rn-overview.md).
 
-## Versión 7.4.1, compilación 9383 {#release-7-4-1}
+## Versión 7.4.2, compilación 9390 {#release-7-4-2}
 
-[!BADGE Disponibilidad general]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad general"}
+[!BADGE Disponibilidad limitada]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
 
-_18 de junio de 2024_
+_sábado, 21 de marzo de 2025_
 
-### Cambios y mejoras {#release-7-4-1-changes}
+>[!AVAILABILITY]
+>
+>Esta versión está en **Disponibilidad limitada** (LA). Solo está restringido a usuarios de servicios alojados/administrados. Esta versión estará disponible próximamente para clientes híbridos y locales.
 
-* Dado que Adobe ha dejado obsoleta la credencial de Cuenta de servicio (JWT), las integraciones de salida de Campaign con aplicaciones y soluciones de Adobe ahora dependen de la credencial OAuth de servidor a servidor. Si ha implementado integraciones de salida, como la integración de Campaign-Analytics o los activadores de Experience Cloud, debe actualizar su entorno de Campaign a la versión 7.4.1 y migrar su cuenta técnica a OAuth antes del 27 de enero de 2025. [Más información](../../integrations/using/oauth-technical-account.md)
+<!--
+### Compatibility updates {#comp-7-4-2}
 
-* Una vez que haya [migrado los operadores técnicos de Campaign a Developer Console](../../technotes/using/ims-migration.md) y [haya realizado la transición a IMS para la autenticación del usuario final](../../technotes/using/migrate-users-to-ims.md), ahora puede habilitar la interfaz de usuario y las restricciones de la API para quitar opciones y funcionalidades específicas de la autenticación nativa. [Más información](../../technotes/using/impact-ims-migration.md)
+This release comes with the following compatibility updates:
 
+* JQuery library update: fixes multiple UI issues (reports, web apps)
+* PostgreSQL 15 and 16
 
-### Actualizaciones de compatibilidad {#release-7-4-1-compat}
+-->
 
-La [matriz de compatibilidad para Adobe Campaign](compatibility-matrix.md) se ha actualizado con los cambios que se proporcionan con esta nueva versión y se enumeran a continuación.
+### Mejoras de seguridad {#security-7-4-2}
 
-* Adobe Campaign ahora es compatible con **Microsoft Server 2022** como sistema operativo. 
-* Adobe Campaign ahora es compatible con **RHEL 9** como sistema operativo.
+Esta versión incluye varias correcciones de seguridad.
 
-  >[!CAUTION]
-  >
-  >Como cliente On-Premise que usa RHEL 9, si desea usar la autenticación de DKIM (Domain Keys Identified Mail), debe actualizar la configuración del sistema tal como se detalla en [esta sección](../../installation/using/installing-packages-with-linux.md#rhel-9-update).
+La conexión con las soluciones y aplicaciones de Adobe a través de la cuenta externa **[!UICONTROL Adobe Experience Cloud]** se ha actualizado para reforzar la seguridad.
 
+### Correcciones {#release-7-4-2-fixes}
 
-* Ahora Adobe Campaign es compatible con **Microsoft SQL Server 2022** y **Oracle 23c** como sistemas de gestión de bases de datos relacionales y en el acceso de datos federado (FDA).
+Esta versión incluye las siguientes correcciones principales:
 
-* Adobe Campaign ahora requiere al menos un kit de desarrollo de Java (JDK) 11. En Windows, el JRE debe estar disponible tal como se describe en [esta sección](../../installation/using/application-server.md#jdk).
+* Correcciones de conexión TLS/SMPP
+* Correcciones de Google BigQuery
+* Correcciones de MTA
 
-* El SDK de Campaign (Neolane) para aplicaciones móviles ha quedado obsoleto. Ahora debe realizar la transición al SDK de Adobe Experience Platform. [Más información](deprecated-features.md).
+Los siguientes problemas también se solucionaron en esta versión:
 
-  Mientras tanto, para garantizar la continuidad del servicio, Campaign v7.4 incluye:
-
-   * un nuevo SDK de Campaign 1.0.27 para iOS, compatible con iOS 16 y 17, y los últimos [requisitos de solicitud de privacidad de Apple iOS](https://developer.apple.com/news/?id=r1henawx){target="_blank"}.
-   * un nuevo SDK de Campaign para Android 14.
-
-### Otros cambios {#release-7-4-1-other}
-
-A partir de la versión 7.4.1, las bibliotecas XML para paquetes RPM de Linux ya no se incluyen en Campaign. Como cliente On-Premise o híbrido, el administrador debe instalar estas bibliotecas. [Más información](../../installation/using/installing-packages-with-linux.md)
-
-### Parches {#release-7-4-1-patches}
-
-Esta versión incluye las siguientes correcciones:
-
-NEO-74754, NEO-73174, NEO-72504, NEO-71534, NEO-71473, NEO-70195, NEO-69663, NEO-69651, NEO-67620, NEO-67235, NEO-66797, NEO-64680, NEO-63706, NEO-63657, NEO-62964, NEO-62575, NEO-58734, NEO-40531, NEO-36189, NEO-29592
+NEO-47269, NEO-59059, NEO-62455, NEO-65774, NEO-66462, NEO-66989, NEO-77898, NEO-78843, NEO-79373, NEO-79598, NEO-80145, NEO-80245, NEO-80434, NEO-82923, NEO-81222, NEO-81864, NEO-83252, NEO-82351, NEO-82781, NEO-82838, NEO-83809, NEO-O, NEO-83826, NEO-80683, NEO-84024, NEO-81433, NEO-84553, NEO-85150, NEO---O,-O,-O, O,-O,-O,-O,-O, O, O,-O, O, O, O,, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O
 
