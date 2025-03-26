@@ -3,10 +3,10 @@ keywords: Campaign Classic;inicio;temas populares
 product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: fb19195c7331a2adc0bcf7a37ae7678078dce5e6
+source-git-commit: ec39e513a3474bdcdcf39be7b5e184d62b98f7a2
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 94%
 
 ---
 
@@ -21,9 +21,9 @@ Echa un vistazo a las mejoras más recientes del producto y la documentación de
 >[!BEGINTABS]
 
 
->[!TAB ¡Ya está aquí la versión de junio!]
+>[!TAB La versión de marzo de 2025 ya está activa.]
 
-Descubra las actualizaciones, mejoras y parches que se suministran con la versión 7.4.1 de Campaign Classic.
+Descubra las actualizaciones, mejoras y correcciones que se proporcionan con la versión 7.4.2 de Campaign Classic, de marzo de 2025.
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
@@ -49,7 +49,7 @@ Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM
   <tr style="border: 0;">
     <td>
     <a href="platform/using/launching-adobe-campaign.md"><img src="assets/do-not-localize/start-launch.png"></a></a>
-    <div><strong>Iniciar Adobe Campaign</strong><br/> Obtén información sobre cómo iniciar la consola del cliente de Campaign y conectarse a los servidores de aplicaciones de Campaign.</div>
+    <div><strong>Iniciar Adobe Campaign</strong><br/> Obtenga información sobre cómo iniciar la consola del cliente de Campaign y conectarse a los servidores de aplicaciones de Campaign.</div>
     </td>
     <td>
     <a href="platform/using/about-profiles.md"><img src="assets/do-not-localize/start-profiles.png"></a>
