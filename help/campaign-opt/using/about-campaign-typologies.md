@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
 source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Según la oferta, Campaign Optimization puede estar incluido o ser un complement
 
 >[!NOTE]
 >
->Para obtener más información sobre la optimización de campañas para Adobe Campaign y cómo utilizarla, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target=_blank}.
+>Para obtener más información acerca de la optimización de la campaña para Adobe Campaign y cómo usarla, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/es/docs/campaign/automation/campaign-optimization/campaign-typologies){target=_blank}.
 
 <!--
 

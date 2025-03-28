@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: 631188b5974eaa4cd1bf667c5df9f2ff0f983cf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 
 [!BADGE Disponibilidad limitada]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
 
-_sábado, 21 de marzo de 2025_
+_21 de marzo de 2025_
 
 >[!AVAILABILITY]
 >
->Esta versión está en **Disponibilidad limitada** (LA). Solo está restringido a usuarios de servicios alojados/administrados. Esta versión estará disponible próximamente para clientes híbridos y locales.
+>Esta versión está en **Disponibilidad limitada** (LA). Está restringido solo a usuarios alojados o de Managed Services. Esta versión estará disponible próximamente para clientes híbridos y On-Premise.
 
 <!--
 ### Compatibility updates {#comp-7-4-2}
@@ -41,7 +41,7 @@ This release comes with the following compatibility updates:
 
 Esta versión incluye varias correcciones de seguridad.
 
-La conexión con las soluciones y aplicaciones de Adobe a través de la cuenta externa **[!UICONTROL Adobe Experience Cloud]** se ha actualizado para reforzar la seguridad.
+La conexión con las soluciones y aplicaciones de Adobe a través de la cuenta externa de **[!UICONTROL Adobe Experience Cloud]** se ha actualizado para reforzar la seguridad.
 
 ### Correcciones {#release-7-4-2-fixes}
 
@@ -51,17 +51,17 @@ Esta versión incluye las siguientes correcciones principales:
 
 * Correcciones de Google BigQuery:
 
-   * Se han corregido regresiones en tipos de datos BOOLEANOS
-   * Se corrigieron problemas de configuración de proxy
+   * Se han corregido regresiones en tipos de datos BOOLEAN
+   * Se han corregido problemas de configuración de proxy
    * Se han corregido regresiones en tipos de datos DATETIME
-   * Estabilidad de carga masiva fija
-   * Pruebas internas mejoradas en versiones de ODBC
+   * Se ha corregido la estabilidad de carga masiva
+   * Se han mejorado las pruebas internas en versiones de ODBC
    * Se ha corregido un problema con los caracteres especiales en la cadena de conexión
-   * Se ha eliminado el tiempo de espera predeterminado (5 minutos) en las consultas BigQuery de Google
+   * Se ha quitado el tiempo de espera predeterminado (5 minutos) en las consultas de Google BigQuery
 
-* Agente de transferencia de correo (MTA): se ha corregido un elemento secundario de MTA huérfano que se va a bloquear en el estado **[!UICONTROL Start pending]**.
+* Agente de transferencia de correo (MTA): se ha corregido que un elemento secundario de MTA huérfano quede bloqueado en estado **[!UICONTROL Start pending]**.
 
-Los siguientes problemas también se solucionaron en esta versión:
+En esta versión se han corregido también los siguientes problemas:
 
-NEO-47269, NEO-59059, NEO-62455, NEO-65774, NEO-66462, NEO-66989, NEO-77898, NEO-78843, NEO-79373, NEO-79598, NEO-80145, NEO-80245, NEO-80434, NEO-82923, NEO-81222, NEO-81864, NEO-83252, NEO-82351, NEO-82781, NEO-82838, NEO-83809, NEO-O, NEO-83826, NEO-80683, NEO-84024, NEO-81433, NEO-84553, NEO-85150, NEO---O,-O,-O, O,-O,-O,-O,-O, O, O,-O, O, O, O,, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O
+NEO-47269, NEO-59059, NEO-62455, NEO-65774, NEO-66462, NEO-66989, NEO-77898, NEO-78843, NEO-79373, NEO-79598, NEO-80145, NEO-80245, NEO-80434, NEO-80683, NEO-81222, NEO-81433, NEO-81864, NEO-82351, NEO-82781, NEO-82838, NEO-82923, NEO-83252, NEO-83809, NEO-83826, NEO-84024, NEO-84553, NEO-85150
 
