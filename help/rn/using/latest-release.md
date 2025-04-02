@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: cd0de82ba743fa04e59a4fa6f560a80cd5c8e940
+source-git-commit: 492115471325533e913739d27e0a461edf98b723
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '224'
 ht-degree: 100%
 
 ---
@@ -22,10 +22,6 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 [!BADGE Disponibilidad general]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad general"}
 
 _jueves, 02 de abril de 2025_
-
->[!AVAILABILITY]
->
->Esta versión está en **Disponibilidad limitada** (LA). Está restringido solo a usuarios alojados o de Managed Services. Esta versión estará disponible próximamente para clientes híbridos y On-Premise.
 
 <!--
 ### Compatibility updates {#comp-7-4-2}
