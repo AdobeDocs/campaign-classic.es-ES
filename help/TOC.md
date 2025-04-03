@@ -6,9 +6,9 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
-workflow-type: ht
-source-wordcount: '2571'
+source-git-commit: 3daf88e14792bfc675cd4cbec6571377c9aa9392
+workflow-type: tm+mt
+source-wordcount: '2568'
 ht-degree: 100%
 
 ---
@@ -238,20 +238,19 @@ ht-degree: 100%
       + [Enriquecimiento del contenido](delivery/using/enriching-content.md)
       + [Automatización mediante flujos de trabajo](delivery/using/automating-via-workflows.md)
 + [Orquestación de campañas de marketing](campaign/using/about-marketing-campaigns.md)
-+ Orquestación de campañas de marketing {#orchestrating-campaigns}
    + [Acerca de la optimización de la campaña](campaign-opt/using/about-campaign-optimization.md)
-   + Acerca de las campañas de marketing {#about-marketing-campaigns}
-      + [Diseño de campañas de marketing](campaign/using/designing-marketing-campaigns.md)
-      + [Acceso a campañas de marketing](campaign/using/accessing-marketing-campaigns.md)
-   + Organización de campañas {#orchestrate-campaigns}
-      + [Introducción a las campañas de marketing](campaign/using/setting-up-marketing-campaigns.md)
-      + [Creación y configuración de plantillas](campaign/using/marketing-campaign-templates.md)
-      + [Agregar envíos](campaign/using/marketing-campaign-deliveries.md)
-      + [Selección de la audiencia](campaign/using/marketing-campaign-target.md)
-      + [Administración de documentos y recursos](campaign/using/marketing-campaign-assets.md)
-      + [Configuración y administración de aprobaciones](campaign/using/marketing-campaign-approval.md)
-      + [Monitorización de campañas](campaign/using/marketing-campaign-monitoring.md)
-      + [Proveedores, stock y presupuestos](campaign/using/providers-stocks-and-budgets.md)
+      + Acerca de las campañas de marketing {#about-marketing-campaigns}
+         + [Diseño de campañas de marketing](campaign/using/designing-marketing-campaigns.md)
+         + [Acceso a campañas de marketing](campaign/using/accessing-marketing-campaigns.md)
+      + Organización de campañas {#orchestrate-campaigns}
+         + [Introducción a las campañas de marketing](campaign/using/setting-up-marketing-campaigns.md)
+         + [Creación y configuración de plantillas](campaign/using/marketing-campaign-templates.md)
+         + [Agregar envíos](campaign/using/marketing-campaign-deliveries.md)
+         + [Selección de la audiencia](campaign/using/marketing-campaign-target.md)
+         + [Administración de documentos y recursos](campaign/using/marketing-campaign-assets.md)
+         + [Configuración y administración de aprobaciones](campaign/using/marketing-campaign-approval.md)
+         + [Monitorización de campañas](campaign/using/marketing-campaign-monitoring.md)
+         + [Proveedores, stock y presupuestos](campaign/using/providers-stocks-and-budgets.md)
       + Optimización de la campaña{#campaign-optimization}
          + [Acerca de las tipologías de campaña](campaign-opt/using/about-campaign-typologies.md)
          + [Reglas de presión](campaign-opt/using/pressure-rules.md)
