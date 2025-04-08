@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 85ec9e22281b9132e499bb6862c8c073871725d6
-workflow-type: ht
-source-wordcount: '844'
-ht-degree: 100%
+source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
+workflow-type: tm+mt
+source-wordcount: '846'
+ht-degree: 99%
 
 ---
 
@@ -170,6 +170,7 @@ Como cliente On-Premise/híbrido, debe instalar y configurar una de las bases de
 </td>
 <td>
 <p>23c</p>
+<p>21c</p>
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
@@ -336,6 +337,7 @@ Los entornos **Híbrido** y **On-Premise** pueden conectar a Campaign con los si
 <td>Oracle</td>
 <td>
 <p>23c</p>
+<p>21c</p>
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>

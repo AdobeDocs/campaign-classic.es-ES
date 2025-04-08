@@ -8,9 +8,9 @@ audience: production
 content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
-source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
+source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '439'
 ht-degree: 6%
 
 ---
@@ -165,3 +165,13 @@ Para cambiar la contraseña de **internal**: **nlserver config -internalpassword
 >
 >  `nlserver config -setdblogin:Oracle:test6@dbserver`
 >
+
+Este es un ejemplo para MSSQL:
+
+```sql
+nlserver config -setdblogin:mssql:<login>/"<password>"@<server> -instance:<instance_name> 
+```
+
+* login (p. ej. account:user) y server se pueden encontrar en el nodo dataSource del archivo config-&lt;instance_name>.xml.
+* La contraseña debe ir entre comillas &quot;&quot;.
+

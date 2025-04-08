@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '3782'
-ht-degree: 100%
+source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
+workflow-type: tm+mt
+source-wordcount: '3864'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,17 @@ ht-degree: 100%
 Esta página enumera todas las nuevas funciones y actualizaciones de la documentación por mes y por versión de Campaign.
 
 Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/latest-release.md) para ver las actualizaciones relacionadas con la versión.
+
+## 2025
+
+### Marzo de 2025 {#march-2025}
+
+Como parte de una iniciativa de promoción de Campaign v8, hemos comenzado a reorganizar el conjunto de documentación de Campaign Classic. En la versión 7.4.2 lanzamos el primer hito. Las siguientes guías se han reemplazado con páginas de aterrizaje, incluidos los vínculos a la documentación de la versión 8:
+
+* Organizar campañas de marketing: esta guía se ha reemplazado por una [página de aterrizaje](../../campaign/using/about-marketing-campaigns.md).
+* Administración de recursos de marketing: esta guía se ha eliminado.
+* Marketing distribuido: esta guía se ha eliminado.
+* Automatizar con flujos de trabajo: esta guía se ha reemplazado por [página de aterrizaje](../../workflow/using/about-workflow-automation.md)
 
 ## 2024
 
@@ -238,7 +249,7 @@ Se ha creado una nueva nota técnica para aprender a actualizar la calificación
 
 Se ha reorganizado y mejorado la sección [Introducción a SMS](../../delivery/using/sms-channel.md). Ahora puede aprender a [configurar el canal SMS](../../delivery/using/sms-set-up.md), [crear un SMS](../../delivery/using/sms-create.md), [enviar y rastrear SMS](../../delivery/using/sms-send.md) en secciones dedicadas.
 
-La página Opciones de ayuda y asistencia de Campaign Standard se ha integrado en la documentación principal. [Más información](../../support.md)
+La página Opciones de ayuda y asistencia de Campaign Classic se ha integrado en la documentación principal. [Más información](../../support.md)
 
 Se ha añadido una nueva sección con prácticas recomendadas y comprobaciones para realizar con respecto a la seguridad y la privacidad. [Más información](../../installation/using/get-started-security-privacy.md)
 
@@ -513,7 +524,7 @@ Se ha actualizado el artículo de MTA mejorado de Adobe Campaign. Ahora solo se 
 
 La página de prácticas recomendadas del modelo de datos se ha actualizado con nuevas secciones que incluyen [Secuencias](../../configuration/using/data-model-best-practices.md#sequences), [Rendimiento](../../configuration/using/data-model-best-practices.md#performance) y [Tablas grandes](../../configuration/using/data-model-best-practices.md#large-tables), entre otras. [Más información](../../configuration/using/data-model-best-practices.md)
 
-Ahora está disponible una nueva sección que describe el modelo de datos incorporado de Adobe Campaign y la interacción entre tablas. [Más información](../../configuration/using/data-model-description.md)
+Ahora está disponible una nueva sección que describe el modelo de datos integrado de Adobe Campaign y la interacción entre tablas. [Más información](../../configuration/using/data-model-description.md)
 
 Se han añadido enlaces clave a la página principal de documentación. [Más información](../../campaign-classic-home.md)
 

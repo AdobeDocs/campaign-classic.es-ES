@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: e40331266f34e2d6aa7b7720948d0cf26d4c6009
+source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 100%
+source-wordcount: '1075'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Al administrar archivos y datos para fines de ETL, estos archivos se almacenan e
 
 Los servidores SFTP están diseñados para ser espacios de almacenamiento temporal en los que se puede controlar la retención y eliminación de archivos.
 
-Si no se utiliza o supervisa correctamente, estos espacios pueden ocupar rápidamente el espacio físico disponible en el servidor y provocar que los archivos se trunquen en cargas posteriores. Si el espacio se satura, puede activarse una depuración automática que borraría los archivos más antiguos del almacenamiento SFTP.
+Si no se utiliza o supervisa correctamente, estos espacios pueden ocupar rápidamente el espacio físico disponible en el servidor y provocar que los archivos se trunquen en cargas posteriores. En los servidores SFTP alojados por Adobe, los archivos se comprimen si el almacenamiento SFTP alcanza el umbral del 80 %. El proceso es automático y se activa mediante el sistema de monitorización de Adobe.
 
 Para evitar estos problemas, Adobe recomienda seguir las prácticas recomendadas a continuación.
 
