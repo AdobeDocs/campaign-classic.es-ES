@@ -5,12 +5,13 @@ description: Preguntas frecuentes sobre Campaign Classic
 feature: Troubleshooting, Application Settings
 audience: platform
 content-type: reference
+level: Beginner, Intermediate, Experienced
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+workflow-type: tm+mt
 source-wordcount: '752'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -86,7 +87,7 @@ Una vez que haya iniciado sesión, vaya a **[!UICONTROL File]** > **[!UICONTROL 
 
 ![](assets/faq_soft_cache.png)
 
-Si con esto no ayuda, intente limpiar la caché de disco duro siguiendo los pasos a continuación:
+Si con esto no ayuda, intente borrar la caché de disco duro siguiendo los pasos a continuación.
 
 ## ¿Cómo realizar borrado de caché de disco duro cuando los problemas son específicos del equipo o del usuario?  {#perform-hard-cache-clear}
 

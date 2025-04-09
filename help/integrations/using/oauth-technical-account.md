@@ -1,11 +1,11 @@
 ---
 product: campaign
-title: Cree y configure su cuenta técnica de Adobe para las API
-description: Más información sobre cómo crear su cuenta de API de Adobe
+title: Cree y configure su cuenta técnica de Adobe para API
+description: Más información sobre cómo crear su cuenta de la API de Adobe
 role: User, Admin
-level: Beginner
+level: Intermediate, Experienced
 exl-id: 5d830ea0-a0a3-4b35-8dc4-e955380431fb
-source-git-commit: 5352426fc68cbcb6519127e5c89c1e9f8619ca6b
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 15%
@@ -18,7 +18,7 @@ Las credenciales de autenticación de servidor a servidor permiten al servidor d
 
 ## Migración de integraciones existentes {#migrate-jwt}
 
-La credencial de la cuenta de servicio (JWT) está en desuso por Adobe. Las integraciones de Campaign con soluciones de Adobe y aplicaciones ahora deben depender de las credenciales de servidor a servidor de OAuth.
+Adobe está desaprobando la credencial de la cuenta de servicio (JWT). Las integraciones de Campaign con soluciones y aplicaciones de Adobe ahora deben depender de las credenciales de servidor a servidor de OAuth.
 
 Si ha implementado integraciones entrantes o salientes con Campaign antes de junio de 2024, debe actualizar su entorno de Campaign a la versión 7.4.1 y migrar su cuenta técnica a oAuth como se detalla [en esta documentación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration){target="_blank"}. Las credenciales de la cuenta de servicio existente (JWT) seguirán funcionando hasta el **27 de enero de 2025**.
 
@@ -67,7 +67,7 @@ Una vez ejecutados los pasos anteriores, añada las credenciales del proyecto OA
 
 >[!NOTE]
 >
->Como cliente de Cloud Service alojados o administrados, estos pasos no son necesarios: Adobe ya ha agregado las credenciales del proyecto OAuth a su entorno.
+>Como cliente de Cloud Services alojados o administrados, estos pasos no son necesarios: Adobe ya ha agregado las credenciales del proyecto de OAuth a su entorno.
 >
 
 Como cliente on-premise o híbrido, siga estos pasos:

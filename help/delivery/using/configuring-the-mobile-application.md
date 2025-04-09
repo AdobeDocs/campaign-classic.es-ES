@@ -4,8 +4,9 @@ title: Configuración de la aplicación móvil de iOS en Adobe Campaign
 description: Descubra cómo configurar su aplicación móvil para iOS
 feature: Push
 role: User, Developer
+level: Intermediate, Experienced
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
-source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
+source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
