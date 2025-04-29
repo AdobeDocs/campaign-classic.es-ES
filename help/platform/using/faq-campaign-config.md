@@ -9,9 +9,9 @@ level: Beginner, Intermediate, Experienced
 topic-tags: starting-with-adobe-campaign
 exl-id: 50bed489-2a0f-4123-a326-3d68c8295662
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Una vez que haya iniciado sesión, vaya a **[!UICONTROL File]** > **[!UICONTROL 
 
 ![](assets/faq_soft_cache.png)
 
-Si con esto no ayuda, intente borrar la caché de disco duro siguiendo los pasos a continuación.
+Si esto sigue sin funcionar, intente limpiar la caché de disco duro siguiendo los pasos siguientes.
 
 ## ¿Cómo realizar borrado de caché de disco duro cuando los problemas son específicos del equipo o del usuario?  {#perform-hard-cache-clear}
 

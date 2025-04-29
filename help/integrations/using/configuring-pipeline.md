@@ -9,9 +9,9 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Los activadores se utilizan para la segmentación mediante un flujo de trabajo d
 Antes de iniciar esta configuración, compruebe que dispone de:
 
 * Un proyecto de Adobe Developer
-* ID de organización válido: para encontrar el ID de organización, consulte [esta página](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}
+* Un ID de organización válido: para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/es/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}
 * Un acceso para desarrolladores para su organización
 * Una configuración de activadores válida en Adobe Analytics
 
