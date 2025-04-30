@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9b93603a076b007d66aad52b05e560e17e316eeb
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '854'
+ht-degree: 92%
 
 ---
 
@@ -90,7 +90,7 @@ Cada vez que se utiliza la función **[!UICONTROL Inbox rendering]** en un enví
 >* Para el mismo envío, si vuelve a generar la renderización de la bandeja de entrada, el número de tokens disponibles se reduce de nuevo según la cantidad de renderizaciones generadas.
 >
 
-El número de tokens disponibles restantes se muestra en **[!UICONTROL General summary]** de [Inbox rendering report](#inbox-rendering-report).
+El número de tokens disponibles restantes se muestra en el [informe de procesamiento de la Bandeja de entrada](#inbox-rendering-report).
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
@@ -123,13 +123,13 @@ Para obtener más información sobre la creación, el diseño y la segmentación
 
 Este informe muestra las renderizaciones de la bandeja de entrada tal y como aparecen al destinatario. Las renderizaciones pueden variar en función del modo en que el destinatario abra el envío de correo electrónico: en un navegador, en un dispositivo móvil o a través de una aplicación de correo electrónico.
 
-**[!UICONTROL General summary]** presenta el número de mensajes recibidos, no deseados (correo no deseado), no recibidos o cuya recepción está pendiente en formato lista y a través de una representación gráfica codificada por colores.
+La sección superior presenta la repartición del número de mensajes recibidos, no deseados (correo no deseado), no recibidos o cuya recepción está pendiente a través de una representación gráfica codificada por colores.
 
-![](assets/s_tn_inbox_rendering_summary.png)
+![](assets/s_tn_inbox_rendering_summary.png){width="40%" align="left"}
 
-Pase el ratón por encima del gráfico para ver los detalles de cada color.
+Pase el ratón sobre el gráfico para ver los detalles de cada color. Haga clic en un elemento de la lista para ocultar o mostrar la categoría correspondiente en el gráfico.
 
-El cuerpo del informe se divide en tres partes: **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]** y **[!UICONTROL Webmails]**. Desplácese hacia abajo por el informe para mostrar todas las representaciones agrupadas en estas tres categorías.
+El cuerpo del informe se divide en tres partes: **[!UICONTROL Mobile]**, **[!UICONTROL Desktop]** y **[!UICONTROL Webmails]**. Desplácese hacia abajo por el informe para mostrar todas las representaciones agrupadas en estas tres categorías.
 
 ![](assets/s_tn_inbox_rendering_report.png)
 
