@@ -246,6 +246,6 @@ Puede definir una nueva población para utilizarla como grupo de control. Puede 
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27490?quality=12&captions=spa)
 
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

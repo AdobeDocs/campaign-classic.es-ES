@@ -73,6 +73,6 @@ Identifique la población que se va a guardar en el grupo.
 
 Este vídeo muestra cómo crear una lista de destinatarios desde Explorer.
 
->[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27504?captions=spa)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
