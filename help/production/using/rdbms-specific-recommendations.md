@@ -157,7 +157,7 @@ PostgreSQL no proporciona una manera fácil de realizar una regeneración de tab
 
 A continuación, se muestra un ejemplo de desfragmentación de tabla mediante funciones específicas para generar el DDL necesario. El siguiente SQL le permite crear dos nuevas funciones: **GenRebuildTablePart1** y **GenRebuildTablePart2**, que se pueden usar para generar el DDL necesario para volver a crear una tabla.
 
-* La primera función permite crear una tabla de trabajo (** _tmp** aquí) que es una copia de la tabla original.
+* La primera función permite crear una tabla de trabajo (**&#x200B; _tmp** aquí) que es una copia de la tabla original.
 * A continuación, la segunda función elimina la tabla original y cambia el nombre de la tabla de trabajo y sus índices.
 * El uso de dos funciones en lugar de una significa que si la primera falla, no se corre el riesgo de eliminar la tabla original.
 

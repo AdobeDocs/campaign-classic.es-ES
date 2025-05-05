@@ -383,7 +383,7 @@ En una entrega, puede utilizar imágenes almacenadas en la biblioteca de recurso
 
   Este valor se puede sobrescribir en cada envío.
 
-* Para los recursos públicos, la dirección URL **https://** server **/res/** instance ****donde **instance**es el nombre de la instancia de seguimiento.
+* Para los recursos públicos, la dirección URL **https://** server **/res/** instance **&#x200B;**&#x200B;donde **instance**&#x200B;es el nombre de la instancia de seguimiento.
 
 ### Detección de imagen de entrega {#delivery-image-detection}
 

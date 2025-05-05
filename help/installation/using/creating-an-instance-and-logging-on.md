@@ -56,7 +56,7 @@ Para crear una nueva instancia, seguir los pasos siguientes:
 
    El nombre del instancia agregado al nombre de dominio no debe exceder los 40 caracteres. Esto le permite restringir el tamaño de los encabezados &quot;Enviar mensaje-ID&quot; y evita que los mensajes sean considerados como spam, particularmente por herramientas como SpamAssassin.
 
-1. En los **[!UICONTROL DNS masks]** campos, introduzca el lista de máscaras DNS a las **** que debe adjuntarse la instancia. El servidor de Adobe Campaign utiliza el nombre de host que aparece en las solicitudes HTTP para determinar a qué instancia acceder.
+1. En los **[!UICONTROL DNS masks]** campos, introduzca el lista de máscaras DNS a las **&#x200B;**&#x200B;que debe adjuntarse la instancia. El servidor de Adobe Campaign utiliza el nombre de host que aparece en las solicitudes HTTP para determinar a qué instancia acceder.
 
    El nombre de host se encuentra entre la cadena **https://** y el primer carácter de barra diagonal **/** de la dirección del servidor.
 

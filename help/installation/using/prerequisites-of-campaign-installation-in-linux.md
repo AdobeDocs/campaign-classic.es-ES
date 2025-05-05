@@ -150,13 +150,13 @@ El uso de PostgreSQL con Adobe Campaign también requiere la instalación de las
 
 ### Oracle {#oracle}
 
-Recupere la versión biblioteca para Debian de 64 bits, es decir: libclntsh.so, libclntsh.so.19.1 **,** libclntsh.so.18.1 **,** libclntsh.so.12.1 **,** libclntsh.so.11.1 **o** libclntsh.so.10.1 **.******
+Recupere la versión biblioteca para Debian de 64 bits, es decir: libclntsh.so, libclntsh.so.19.1 **,** libclntsh.so.18.1 **,** libclntsh.so.12.1 **,** libclntsh.so.11.1 **o** libclntsh.so.10.1 **.**&#x200B;**&#x200B;**
 
 Puede obtener un paquete RPM de Linux de Oracle Technology Network.
 
 >[!NOTE]
 >
->Si ya ha instalado el cliente Oracle pero el entorno global (para instancia: /etcetera/perfil) no está configurado correctamente, puede agregar la **información que falta al script nl6/customer.sh** Para obtener más información, consulte Variables [](../../installation/using/installing-packages-with-linux.md#environment-variables)de entorno.
+>Si ya ha instalado el cliente Oracle pero el entorno global (para instancia: /etcetera/perfil) no está configurado correctamente, puede agregar la **información que falta al script nl6/customer.sh** Para obtener más información, consulte Variables [&#128279;](../../installation/using/installing-packages-with-linux.md#environment-variables)de entorno.
 
 **Solución de problemas y prácticas recomendadas**
 
@@ -168,7 +168,7 @@ Si observa en la consola del cliente que hay retrasos inesperados (una o más ho
 
    Se han identificado varios problemas al utilizar la versión Oracle Instant Client. Además, es imposible cambiar el archivo Timezone en el cliente instantáneo.
 
-1. Asegúrese de que la versión del **cliente y la versión** del servidor de **base de datos son iguales****.**
+1. Asegúrese de que la versión del **cliente y la versión** del servidor de **base de datos son iguales**&#x200B;**.**
 
    Se sabe que la combinación de versiones a pesar de la matriz de compatibilidad de Oracle y la recomendación de alinear las versiones de cliente y servidor causa problemas.
 

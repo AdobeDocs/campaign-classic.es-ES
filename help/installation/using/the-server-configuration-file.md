@@ -1625,9 +1625,9 @@ Estos son los diferentes parámetros del nodo **mta**. Esta es la configuración
    <td> statServerAddress<br /> </td> 
    <td> Dirección del servidor de estadísticas de envío, dada como 
     &lt;dns o ip&gt; 
-      <code>[</code>: 
+      <code>&lbrack;</code>: 
      &lt;port&gt; 
-       <code>]</code>. Consulte 
+       <code>&rbrack;</code>. Consulte 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">Coordenadas del servidor de estadísticas</a>. 
       <br /> 
      </td> 
