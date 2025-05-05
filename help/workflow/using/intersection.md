@@ -19,7 +19,7 @@ ht-degree: 0%
 >id="ac_workflow_intersection"
 >title="Actividad de intersección"
 >abstract="Una actividad del tipo Intersección crea un destinatario a partir de la intersección de los destinatarios recibidos. Una intersección permite extraer solamente la población común a todos los resultados de actividad entrante."
->additional-url="https://video.tv.adobe.com/v/329373" text="Ver vídeo de demostración"
+>additional-url="https://video.tv.adobe.com/v/341365?captions=spa" text="Ver vídeo de demostración"
 
 
 
