@@ -81,5 +81,5 @@ A continuación, encontrará algunas de las prácticas recomendadas principales 
 
 Temas relacionados:
 
-* [Resumen del cumplimiento de Adobe Marketing Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
-* [Información general sobre la seguridad de Adobe Campaign](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#security)
+* [Resumen del cumplimiento de Adobe Marketing Cloud](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
+* [Información general sobre la seguridad de Adobe Campaign](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/overview#security)

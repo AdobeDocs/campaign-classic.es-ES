@@ -23,7 +23,7 @@ ht-degree: 100%
 * [Ver vídeos de tutoriales](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es)
 * [Examinar las opciones de autoayuda](../../platform/using/tutorials.md#how-to-videos)
 * [Leer la sección de casos de uso e introducción](../../platform/using/tutorials.md#step-by-step-guides)
-* ¿No encuentra la respuesta? [Preguntar a un experto](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
+* ¿No encuentra la respuesta? [Preguntar a un experto](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es)
 * ¿Necesita asistencia? [Consulte las opciones de ayuda y asistencia técnica de Campaign](../../support.md)
 
 ## 1. ¿Cómo puedo actualizar Campaign a la versión más reciente? {#how-can-i-upgrade-campaign-to-the-latest-version-}

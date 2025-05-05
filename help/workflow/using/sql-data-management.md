@@ -29,7 +29,7 @@ Antes de configurar la actividad, asegúrese de que se cumplan los siguientes re
 
   ![](assets/do-not-localize/v7.jpeg)[Documentación de Campaign v7](../../installation/using/about-fda.md)
 
-  ![](assets/do-not-localize/v8.png)[Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
+  ![](assets/do-not-localize/v8.png)[Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=es)
 
 * El esquema de salida debe existir en la base de datos y estar vinculado a una base de datos de FDA.
 * El operador que ejecute el flujo de trabajo debe tener los derechos asignados de la **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]**. [Más información](../../platform/using/access-management-named-rights.md).

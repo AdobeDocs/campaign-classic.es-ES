@@ -146,7 +146,7 @@ Cuando se crea una tabla personalizada en Adobe Campaign con una clave principal
 
 De forma predeterminada, una secuencia personalizada tendrá valores que oscilan entre +1.000 y +2,1BB. Técnicamente, es posible obtener una gama completa de 4BB habilitando identificadores negativos. Esto debe utilizarse con cuidado y se perderá un ID al pasar de números negativos a positivos: Adobe Campaign suele ignorar el registro 0 en las consultas SQL generadas.
 
-Para obtener más información sobre el agotamiento de secuencias, vea [este vídeo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
+Para obtener más información sobre el agotamiento de secuencias, vea [este vídeo](https://helpx.adobe.com/es/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
 ## Índices {#indexes}
 

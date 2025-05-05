@@ -26,7 +26,7 @@ El equipo de Adobe Campaign realizará la actividad de actualización de segurid
 
 Se espera que esta actualización se ejecute automáticamente fuera del horario laboral normal para que pueda seguir utilizando el servicio de Campaign sin interrupciones.
 
-Las instancias que no son de producción se actualizarán primero mediante Adobe y luego las instancias de producción se actualizarán. Dado que se trata de un proceso de actualización automática propiedad de Adobe, no se requiere ninguna acción por su parte. Sin embargo, si experimenta algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
+Las instancias que no son de producción se actualizarán primero mediante Adobe y luego las instancias de producción se actualizarán. Dado que se trata de un proceso de actualización automática propiedad de Adobe, no se requiere ninguna acción por su parte. Sin embargo, si experimenta algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support).
 
 
 >[!NOTE]
@@ -57,7 +57,7 @@ Las instancias que no son de producción se actualizarán primero mediante Adobe
 
 * **¿Qué validaciones deben ejecutar los clientes?**
 
-  No se necesitan pruebas específicas para esta actualización de seguridad. Si se observa algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
+  No se necesitan pruebas específicas para esta actualización de seguridad. Si se observa algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support).
 
 
 * **¿Puedo solicitar un cambio de fecha y hora en el intervalo programado de actualización de seguridad?**
@@ -65,4 +65,4 @@ Las instancias que no son de producción se actualizarán primero mediante Adobe
   Como se trata de una corrección de seguridad, le recomendamos encarecidamente que se adapte a la programación existente.
 
 
-Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
+Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support).

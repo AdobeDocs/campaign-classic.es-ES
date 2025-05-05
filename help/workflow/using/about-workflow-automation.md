@@ -31,11 +31,11 @@ Conozca los pasos clave relacionados con la administración de flujos de trabajo
 
 * [Crear un flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=es){target=_blank}: Aprenda a crear y ejecutar flujos de trabajo técnicos, de campañas y de segmentación.
 
-* [Prácticas recomendadas](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target=_blank}: Obtenga información acerca de las directrices para optimizar el rendimiento del flujo de trabajo de Campaign, mejorar el diseño del flujo de trabajo y seleccionar la configuración correcta.
+* [Prácticas recomendadas](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=es){target=_blank}: Obtenga información acerca de las directrices para optimizar el rendimiento del flujo de trabajo de Campaign, mejorar el diseño del flujo de trabajo y seleccionar la configuración correcta.
 
-* [Supervisar flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target=_blank}: aprenda a supervisar la ejecución del flujo de trabajo para asegurarse de que todo se ejecuta correctamente.
+* [Supervisar flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=es){target=_blank}: aprenda a supervisar la ejecución del flujo de trabajo para asegurarse de que todo se ejecuta correctamente.
 
-* [Casos de uso del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/workflow-use-cases.html){target=_blank}: conozca diferentes contextos en los que se pueden utilizar flujos de trabajo y cómo implementarlos a través de casos de uso de extremo a extremo.
+* [Casos de uso del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/workflow-use-cases.html?lang=es){target=_blank}: conozca diferentes contextos en los que se pueden utilizar flujos de trabajo y cómo implementarlos a través de casos de uso de extremo a extremo.
 
 <!--
 

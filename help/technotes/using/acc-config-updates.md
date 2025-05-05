@@ -73,7 +73,7 @@ Las **versiones de consola disponibles** a continuación se deben instalar para 
 
 ## Actualización del sistema Identity Management de Adobe (IMS)
 
-El servicio de identidad de Adobe (IMS) dejará de admitir versiones antiguas de Internet Explorer a partir del **30 de junio de 2021**. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
+El servicio de identidad de Adobe (IMS) dejará de admitir versiones antiguas de Internet Explorer a partir del **30 de junio de 2021**. [Más información](https://helpx.adobe.com/es/x-productkb/global/update-operating-system-and-browser.html).
 
 Se requiere una actualización de la consola del cliente de Campaign para garantizar la compatibilidad con Adobe IMS.
 
