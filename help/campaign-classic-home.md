@@ -3,10 +3,10 @@ keywords: Campaign Classic;inicio;temas populares
 product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: ec39e513a3474bdcdcf39be7b5e184d62b98f7a2
-workflow-type: ht
+source-git-commit: 961f056ca8bf201e8cedcddb3a2b1f1a4e32b08a
+workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -21,9 +21,9 @@ Echa un vistazo a las mejoras más recientes del producto y la documentación de
 >[!BEGINTABS]
 
 
->[!TAB Ya está aquí la versión de marzo de 2025.]
+>[!TAB La versión de abril de 2025 ya está activa.]
 
-Descubra las actualizaciones, mejoras y correcciones incluidas en la versión 7.4.2 de Campaign Classic, de marzo de 2025.
+Descubra las actualizaciones, mejoras y correcciones que se proporcionan con la versión 7.4.2 de Campaign Classic, de abril de 2025.
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
@@ -113,4 +113,4 @@ Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM
 
 ## Recursos adicionales
 
-[Lista de mensajes de error](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=es) - [Descripción del producto de Adobe Campaign](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Matriz de compatibilidad](rn/using/compatibility-matrix.md) - [Tutoriales](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es){target="_blank"} - [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es){target="_blank"}
+[Lista de mensajes de error](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=es) - [Descripción del producto Adobe Campaign](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Matriz de compatibilidad](rn/using/compatibility-matrix.md) - [Tutoriales](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es){target="_blank"} - [Panel de control de Campaign para Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es){target="_blank"}
