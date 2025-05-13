@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: 458821770c6233ec1893d4efe60169516b311bdd
+source-git-commit: be7412f2ccf050a44eb32ebe8280c695349faac8
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '903'
 ht-degree: 26%
 
 ---
@@ -17,7 +17,20 @@ ht-degree: 26%
 
 Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con la **última versión de Campaign Classic v7**. Cada nueva compilación viene con un estado que se materializa con un color. Obtenga más información sobre los estados de compilación de Campaign Classic v7 en [esta página](rn-overview.md).
 
-## Versión 7.4.2, compilación 9390 {#release-7-4-2}
+## Versión 7.4.2  {#release-7-4-2}
+
+### Compilación 9391 {#build-9391}
+
+[!BADGE Disponibilidad limitada]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
+
+_martes, 12 de mayo de 2025_
+
+Esta versión incluye las siguientes correcciones:
+
+* Se ha corregido un problema posterior a la actualización que se encontraba en configuraciones que no eran de Oracle. (NEO-87012)
+* Se ha corregido un problema de back-end TLS/HTTPS que afectaba tanto a la consola del cliente como al servidor. (NEO-87432)
+
+### Compilación 9390 {#build-9390}
 
 [!BADGE Disponibilidad general]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad general"}
 
@@ -33,13 +46,13 @@ This release comes with the following compatibility updates:
 
 -->
 
-### Mejoras de seguridad {#security-7-4-2}
+**Mejoras de seguridad**
 
 Esta versión incluye varias correcciones de seguridad.
 
 La conexión con las soluciones y aplicaciones de Adobe a través de la cuenta externa de **[!UICONTROL Adobe Experience Cloud]** se ha actualizado para reforzar la seguridad.
 
-### Correcciones principales {#release-7-4-2-fixes}
+**Correcciones importantes**
 
 Esta versión incluye las siguientes correcciones principales:
 
@@ -58,7 +71,7 @@ Esta versión incluye las siguientes correcciones principales:
 * Agente de transferencia de correo (MTA): se ha corregido que un elemento secundario de MTA huérfano quede bloqueado en estado **[!UICONTROL Start pending]**.
 
 
-### Otras correcciones {#release-7-4-2-other-fixes}
+**Otras correcciones**
 
 En esta versión se han corregido también los siguientes problemas:
 
