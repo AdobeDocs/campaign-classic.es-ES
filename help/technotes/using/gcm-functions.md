@@ -3,7 +3,8 @@ product: campaign
 title: Nuevas funciones basadas en GCM
 description: Nuevas funciones basadas en GCM
 feature: Technote
-source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
+exl-id: 154dee7a-a1e9-40a2-bfa5-3641382d0574
+source-git-commit: b6d64f66d287dba79be5eddec48ee852c2c7740c
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 2%
@@ -37,7 +38,7 @@ Codifica la cadena de caracteres con la clave de instancia mediante el algoritmo
 
 ```
             String 
-            encrypted = Encrypt (
+            encrypted = EncryptString (
             String       
             decrypted
             
@@ -85,7 +86,7 @@ Codifica la cadena de caracteres con la clave del servidor mediante el algoritmo
 Codifica una cadena de caracteres con la clave de la instancia o con cualquier otra clave.
 
 ```
-            cryptString (str [, key
+            encryptString (str [, key
       ] [, useSalt ])
          
 ```
@@ -126,7 +127,7 @@ Disponible en:
 
 ### decryptString() {#decryptString-javascript}
 
-Codifica una cadena de caracteres con la clave de la instancia o con cualquier otra clave. Esta función heredada se puede utilizar con GCM. Está obsoleto para el descifrado de texto cifrado cifrado que se cifra mediante el modo AES-CBC.
+Descifra una cadena de caracteres con la clave de la instancia o de cualquier otra clave. Esta función heredada se puede utilizar con GCM. Está obsoleto para el descifrado de texto cifrado cifrado que se cifra mediante el modo AES-CBC.
 
 ```
             decryptString (str [, key
