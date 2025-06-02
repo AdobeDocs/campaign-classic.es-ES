@@ -25,7 +25,7 @@ Los flujos de trabajo pueden ser una forma útil de automatizar algunos de los p
 
 >[!NOTE]
 >
->Para obtener más información sobre cómo importar y exportar datos mediante flujos de trabajo, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank}.
+>Para obtener más información sobre cómo importar y exportar datos mediante flujos de trabajo, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank}.
 
 
 <!--
