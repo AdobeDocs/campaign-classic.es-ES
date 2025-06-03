@@ -38,7 +38,7 @@ Adobe Campaign ofrece a los controladores de datos dos posibilidades para realiz
 >[!NOTE]
 >
 >* Para obtener más información sobre los datos personales y las distintas entidades que administran los datos (controlador de datos, procesador de datos y sujeto de datos), consulte [Datos personales y personas](privacy-and-recommendations.md#personal-data).
->* Para obtener más información sobre solicitudes de privacidad, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy){target=_blank}.
+>* Para obtener más información sobre solicitudes de privacidad, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/privacy/privacy){target=_blank}.
 
 <!--
 ## Prerequisites {#prerequesites}

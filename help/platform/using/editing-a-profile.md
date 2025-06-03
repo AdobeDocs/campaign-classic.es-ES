@@ -36,7 +36,7 @@ Las fichas y su contenido dependen de la configuración y de los paquetes instal
 
 >[!NOTE]
 >
->Para obtener más información sobre cómo editar perfiles y acceder a ellos, consulte la documentación detallada en [Documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/view-profiles){target=_blank}.
+>Para obtener más información sobre cómo editar perfiles y acceder a ellos, consulte la documentación detallada en [Documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/view-profiles){target=_blank}.
 
 
 

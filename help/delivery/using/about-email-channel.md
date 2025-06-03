@@ -19,7 +19,7 @@ Con Adobe Campaign, cree envíos de correo electrónico para enviar correos elec
 
 Conozca los pasos clave relacionados con la creación de envíos de correo electrónico en la documentación de Campaign v8:
 
-* [Crear un envío de correo electrónico](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html){target="_blank"}: Obtenga información acerca de los diferentes pasos necesarios para crear un envío de correo electrónico.
+* [Crear un envío de correo electrónico](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=es){target="_blank"}: Obtenga información acerca de los diferentes pasos necesarios para crear un envío de correo electrónico.
 * [Defina el contenido del correo electrónico](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html){target="_blank"}: Defina lo que incluirá el correo electrónico: remitente, asunto, contenido, imágenes.
 * [Definir contenido interactivo](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html){target="_blank"}: use el formato AMP interactivo para correo electrónico para enviar correos electrónicos dinámicos.
 * [Enviar correos electrónicos en móviles japoneses](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html){target="_blank"}: Usa uno de los tres formatos japoneses específicos para enviar correos electrónicos en móviles.
@@ -27,9 +27,9 @@ Conozca los pasos clave relacionados con la creación de envíos de correo elect
 
 Consulte estas páginas para obtener más información sobre los parámetros de correo electrónico en la documentación de Campaign v8:
 
-* [Vínculo a la página espejo](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html){target="_blank"}: Configure la página espejo para asegurarse de que sus clientes siempre obtengan la mejor experiencia de procesamiento.
-* [Agregar una dirección de CCO](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}: configure Adobe Campaign para que conserve una copia de los mensajes de correo electrónico enviados desde su plataforma.
-* [Definir parámetros de correo electrónico adicionales](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html){target="_blank"}: Obtenga más información acerca de las opciones y los parámetros disponibles en las propiedades de envío.
+* [Vínculo a la página espejo](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=es){target="_blank"}: Configure la página espejo para asegurarse de que sus clientes siempre obtengan la mejor experiencia de procesamiento.
+* [Agregar una dirección de CCO](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=es){target="_blank"}: configure Adobe Campaign para que conserve una copia de los mensajes de correo electrónico enviados desde su plataforma.
+* [Definir parámetros de correo electrónico adicionales](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html?lang=es){target="_blank"}: Obtenga más información acerca de las opciones y los parámetros disponibles en las propiedades de envío.
 
 Consulte también esta [página](sending-with-enhanced-mta.md) para obtener más información sobre el servidor de correo mejorado.
 
@@ -41,7 +41,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
 
 The key steps to send an email are as follows:
 

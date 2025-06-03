@@ -13,7 +13,7 @@ ht-degree: 95%
 
 # Configuración de envío {#about-delivery-settings}
 
-Las siguientes configuraciones son específicas de Campaign Classic. Para ver otras configuraciones de entrega, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html){target="_blank"}.
+Las siguientes configuraciones son específicas de Campaign Classic. Para ver otras configuraciones de entrega, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=es){target="_blank"}.
 
 ## Análisis de envíos {#delivery-analysis}
 
