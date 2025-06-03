@@ -4,9 +4,11 @@ title: Creación e identificación de la entrega
 description: Creación e identificación de la entrega
 feature: Channel Configuration
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
-workflow-type: ht
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 100%
 

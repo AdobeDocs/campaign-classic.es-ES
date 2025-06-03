@@ -6,10 +6,10 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
-workflow-type: ht
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+workflow-type: tm+mt
 source-wordcount: '2574'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 # Documentación de Adobe Campaign Classic v7 {#using}
 
 + [Documentación de Campaign v7](campaign-classic-home.md)
-+ Notas de la versión {#release-notes}
++ Notas de la versión  {#release-notes}
    + [Introducción a las actualizaciones](rn/using/rn-overview.md)
    + [Último lanzamiento](rn/using/latest-release.md)
    + Versiones anteriores {#previous-releases}
@@ -68,7 +68,7 @@ ht-degree: 100%
       + [Actualización de datos](platform/using/updating-data.md)
       + [Importación y exportación de perfiles](platform/using/exporting-and-importing-profiles.md)
       + [Creación y administración de listas](platform/using/creating-and-managing-lists.md)
-   + Importación y exportación de datos {#importing-and-exporting-data}
+   + Importar y exportar datos {#importing-and-exporting-data}
       + [Introducción a la importación y exportación de datos](platform/using/get-started-data-import-export.md)
       + [Uso de flujos de trabajo para importar y exportar datos](platform/using/import-export-workflows.md)
       + Creación de importaciones y exportaciones genéricas {#generic-imports-exports}
@@ -102,7 +102,7 @@ ht-degree: 100%
    + Paquetes de datos y enumeraciones {#administration-basics}
       + [Paquetes de datos](platform/using/working-with-data-packages.md)
       + [Enumeraciones](platform/using/managing-enumerations.md)
-   + Conectores de CRM{#connectors}
+   + Conectores CRM {#connectors}
       + [Introducción a los conectores CRM](platform/using/crm-connectors.md)
       + [Conexión con Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
       + [Conexión con Salesforce.com](platform/using/crm-sfdc.md)
@@ -110,14 +110,15 @@ ht-degree: 100%
    + [Opciones de ayuda y asistencia](support.md)
 + Creación y envío de mensajes {#sending-messages}
    + [Introducción a los mensajes](delivery/using/communication-channels.md)
+   + [Configuración de envío](delivery/using/delivery-settings.md)
    + Pasos clave al crear un envío {#key-steps-when-creating-a-delivery}
       + [Introducción a las envíos](delivery/using/steps-about-delivery-creation-steps.md)
       + [Crear e identificar un envío](delivery/using/steps-create-and-identify-the-delivery.md)
       + [Definición del público](delivery/using/steps-defining-the-target-population.md)
       + [Validación del envío](delivery/using/steps-validating-the-delivery.md)
       + [Envío de la entrega](delivery/using/steps-sending-the-delivery.md)
-      + [Prácticas recomendadas relacionadas con las entregas](delivery/using/delivery-best-practices.md)
-      + Prácticas recomendadas relacionadas con las entregas {#delivery-bestpractices}
+      + [Prácticas recomendadas de envíos](delivery/using/delivery-best-practices.md)
+      + Prácticas recomendadas de envíos {#delivery-bestpractices}
          + [Optimización de las envíos](delivery/using/optimize-delivery.md)
          + [Uso de plantillas](delivery/using/use-templates.md)
          + [Creación de contenido personalizado](delivery/using/design-and-personalize.md)
@@ -129,21 +130,21 @@ ht-degree: 100%
       + [Crear un envío de correo electrónico](delivery/using/creating-an-email-delivery.md)
       + [Definición del contenido del correo electrónico](delivery/using/defining-the-email-content.md)
       + [Definición del contenido interactivo](delivery/using/defining-interactive-content.md)
-      + Envío de la entrega de correo electrónico {#sending-an-email}
+      + [Envío con el servidor de correo mejorado](delivery/using/sending-with-enhanced-mta.md)
+      + Realización del envío de correo electrónico {#sending-an-email}
          + [Pasos principales para enviar un correo electrónico](delivery/using/sending-messages.md)
          + [Parámetros de correo electrónico](delivery/using/email-parameters.md)
-         + [Envío con el servidor de correo mejorado](delivery/using/sending-with-enhanced-mta.md)
          + [Envío de correos electrónicos en móviles japoneses](delivery/using/sending-emails-on-japanese-mobiles.md)
       + [Adjuntar archivos](delivery/using/attaching-files.md)
    + Envío de SMS {#sending-messages-on-mobiles}
       + [Introducción a los SMS](delivery/using/sms-channel.md)
-      + Configurar el canal SMS {#sms-set-up}
+      + Configuración del canal de SMS {#sms-set-up}
          + [Configuración de SMS en una instancia independiente](delivery/using/sms-set-up.md)
          + [Configuración de SMS en una infraestructura intermediaria](delivery/using/sms-set-up-mid.md)
+         + [Configuración y protocolo del conector SMS](delivery/using/sms-protocol.md)
+         + [Configuración adicional](delivery/using/sms-send.md)
+         + [Solución de problemas de SMS](delivery/using/troubleshooting-sms.md)
       + [Creación de un SMS](delivery/using/sms-create.md)
-      + [Envío y seguimiento de SMS](delivery/using/sms-send.md)
-      + [Configuración y protocolo del conector SMS](delivery/using/sms-protocol.md)
-      + [Solución de problemas de SMS](delivery/using/troubleshooting-sms.md)
       + [Migración al conector genérico SMPP extendido](delivery/using/unsupported-connector-migration.md)
    + [Envío de mensajes de LINE](delivery/using/line-channel.md)
    + Envío de notificaciones push {#sending-push-notifications}
@@ -153,21 +154,21 @@ ht-degree: 100%
          + [Introducción a la configuración de la aplicación](delivery/using/get-started-app-config.md)
          + [Pasos de configuración para iOS](delivery/using/configuring-the-mobile-application.md)
          + [Pasos de configuración para Android](delivery/using/configuring-the-mobile-application-android.md)
-      + Creación de una notificación push{#create-a-push-msg}
+      + Crear una notificación push{#create-a-push-msg}
          + [Creación de un mensaje push para iOS](delivery/using/create-notifications-ios.md)
          + [Creación de un mensaje push para Android](delivery/using/create-notifications-android.md)
-      + [Solución de problemas](delivery/using/troubleshooting.md)
-   + Envío de correo directo {#sending-direct-mail}
+      + [Resolución de problemas](delivery/using/troubleshooting.md)
+   + Envío de correo postal {#sending-direct-mail}
       + [Acerca del canal de correo directo](delivery/using/about-direct-mail-channel.md)
       + [Crear un envío de correo directo](delivery/using/creating-a-direct-mail-delivery.md)
       + [Definición del contenido de correo postal](delivery/using/defining-the-direct-mail-content.md)
       + [Validación](delivery/using/validating.md)
-   + Uso de plantillas de envíos {#using-delivery-templates}
+   + Uso de plantillas de envío {#using-delivery-templates}
       + [Trabajo con plantillas de envío](delivery/using/about-templates.md)
       + [Crear una plantilla de envíos](delivery/using/creating-a-delivery-template.md)
       + [Selección de una asignación de destino](delivery/using/selecting-a-target-mapping.md)
       + [Crear un envío a partir de una plantilla](delivery/using/creating-a-delivery-from-a-template.md)
-   + Personalizar los envíos {#personalizing-deliveries}
+   + Personalización de entregas {#personalizing-deliveries}
       + [Acerca de la personalización](delivery/using/about-personalization.md)
       + [Campos de personalización](delivery/using/personalization-fields.md)
       + [Bloques de personalización](delivery/using/personalization-blocks.md)
@@ -182,10 +183,10 @@ ht-degree: 100%
       + [Uso de una lista de destinatarios externa](delivery/using/using-an-external-recipient-table.md)
       + [Caso de uso: Selección de direcciones semilla según ciertos criterios](delivery/using/use-case-selecting-seed-addresses-on-criteria.md)
       + [Caso de uso: Configuración de la sustitución de campos](delivery/using/use-case-configuring-the-field-substitution.md)
-   + Pruebas A/B {#a-b-testing}
+   + Prueba A/B {#a-b-testing}
       + [Introducción a las pruebas A/B](delivery/using/get-started-a-b-testing.md)
       + [Configuración de las pruebas A/B](delivery/using/configuring-a-b-testing.md)
-      + Caso de uso {#use-case}
+      + Ejemplo de uso {#use-case}
          + [Acerca de este caso de uso](delivery/using/a-b-testing-use-case.md)
          + [Crear un flujo de trabajo de segmentación](delivery/using/a-b-testing-uc-targeting-workflow.md)
          + [Configuración de muestras de población](delivery/using/a-b-testing-uc-population-samples.md)
@@ -199,7 +200,7 @@ ht-degree: 100%
       + [Acerca de los servicios y las suscripciones](delivery/using/about-services-and-subscriptions.md)
       + [Administración de las suscripciones](delivery/using/managing-subscriptions.md)
       + [Marketing viral y social](delivery/using/viral-and-social-marketing.md)
-   + Monitorización de envíos {#monitoring-deliveries}
+   + Monitorización de las entregas {#monitoring-deliveries}
       + [Introducción a la monitorización de envíos](delivery/using/about-delivery-monitoring.md)
       + [Acceso a la lista de envíos](delivery/using/list-of-deliveries.md)
       + [Tablero de envíos](delivery/using/delivery-dashboard.md)
@@ -219,7 +220,7 @@ ht-degree: 100%
       + [Acceso a los registros de seguimiento](delivery/using/accessing-the-tracking-logs.md)
       + [Seguimiento de pruebas](delivery/using/testing-tracking.md)
       + [Solución de problemas de seguimiento](delivery/using/tracking-troubleshooting.md)
-   + Administración de la entregabilidad {#deliverability-management}
+   + Administración de la capacidad de entrega {#deliverability-management}
       + [¿Qué es la entregabilidad?](delivery/using/about-deliverability.md)
       + [Contenido de mensajes de control](delivery/using/control-message-content.md)
       + [Supervisión de la entregabilidad](delivery/using/monitoring-deliverability.md)
@@ -252,7 +253,7 @@ ht-degree: 100%
       + [Configuración y administración de aprobaciones](campaign/using/marketing-campaign-approval.md)
       + [Monitorización de campañas](campaign/using/marketing-campaign-monitoring.md)
       + [Proveedores, stock y presupuestos](campaign/using/providers-stocks-and-budgets.md)
-   + Optimización de la campaña{#campaign-optimization}
+   + Optimización de campaña {#campaign-optimization}
       + [Acerca de las tipologías de campaña](campaign-opt/using/about-campaign-typologies.md)
       + [Reglas de presión](campaign-opt/using/pressure-rules.md)
       + [Reglas de coherencia](campaign-opt/using/consistency-rules.md)
@@ -260,7 +261,7 @@ ht-degree: 100%
       + [Reglas de filtrado](campaign-opt/using/filtering-rules.md)
       + [Aplicación de reglas](campaign-opt/using/applying-rules.md)
       + [Simulaciones en Campaign](campaign-opt/using/campaign-simulations.md)
-+ Gestión de recursos de marketing {#mrm}
++ Administración de recursos de marketing {#mrm}
    + [Acerca de la gestión de recursos de marketing](mrm/using/about-marketing-resource-management.md)
    + [Creación y administración de tareas](mrm/using/creating-and-managing-tasks.md)
    + [Costes de control](mrm/using/controlling-costs.md)
@@ -287,7 +288,7 @@ ht-degree: 100%
    + Acceso a informes integrados {#accessing-built-in-reports}
       + [Acerca de los informes integrados](reporting/using/about-campaign-built-in-reports.md)
       + [Lista de informes](reporting/using/list-of-reports.md)
-   + Informes sobre envíos{#reports-on-deliveries}
+   + Informes sobre entregas{#reports-on-deliveries}
       + [Acerca de los informes sobre los envíos](reporting/using/reports-on-deliveries.md)
       + [Informes globales](reporting/using/global-reports.md)
       + [Informes de envío](reporting/using/delivery-reports.md)
@@ -299,7 +300,7 @@ ht-degree: 100%
       + [Creación de su primer informe de análisis descriptivo](reporting/using/using-the-descriptive-analysis-wizard.md)
       + [Administración y configuración del informe de análisis](reporting/using/processing-a-report.md)
       + [Casos de uso de creación de informes de análisis](reporting/using/use-cases.md)
-   + Creación de informes nuevos {#creating-new-reports}
+   + Creación de nuevos informes {#creating-new-reports}
       + [Pasos clave para diseñar un informe](reporting/using/about-reports-creation-in-campaign.md)
       + [Creación de un informe nuevo](reporting/using/creating-a-new-report.md)
       + [Recopilación de datos para analizar](reporting/using/collecting-data-to-analyze.md)
@@ -322,7 +323,7 @@ ht-degree: 100%
       + [Traducción de una aplicación web](web/using/translating-a-web-application.md)
       + [Seguimiento de visitas en una aplicación web](web/using/tracking-a-web-application.md)
       + [Exclusión del seguimiento de aplicaciones web](web/using/web-application-tracking-opt-out.md)
-   + Editar contenido HTML {#editing-html-content}
+   + Editar contenido de HTML {#editing-html-content}
       + [Introducción al editor HTML](web/using/about-campaign-html-editor.md)
       + [Administración de plantillas](web/using/template-management.md)
       + [Interfaz del editor de contenido](web/using/content-editor-interface.md)
@@ -374,7 +375,7 @@ ht-degree: 100%
       + [Configuración de la integración de audiencias compartidas en  [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [Solución de problemas](integrations/using/troubleshooting.md)
       + [Importación y exportación de audiencias](integrations/using/importing-and-exporting-audiences.md)
-   + Uso compartido de recursos {#asset-sharing}
+   + Uso compartido de activos {#asset-sharing}
       + [Uso compartido de recursos con  [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
       + [Configuración del acceso a  [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
       + [Inserción de un recurso compartido](integrations/using/inserting-a-shared-asset.md)
@@ -386,7 +387,7 @@ ht-degree: 100%
       + [Uso de  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuración de la integración con  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [Inserción de una imagen dinámica](integrations/using/inserting-a-dynamic-image.md)
-   + Conector de ACS {#acs-connector}
+   + Conector ACS {#acs-connector}
       + [Introducción a  [!DNL ACS Connector]](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [Sincronización de perfiles](integrations/using/synchronizing-profiles.md)
       + [Sincronización de audiencias](integrations/using/synchronizing-audiences.md)
@@ -401,7 +402,7 @@ ht-degree: 100%
       + [Datos de destino](workflow/using/targeting-data.md)
       + [Uso de datos de flujo de trabajo](workflow/using/how-to-use-workflow-data.md)
       + [Prácticas recomendadas con flujos de trabajo](workflow/using/workflow-best-practices.md)
-   + Ejecución de un flujo de trabajo {#executing-a-workflow}
+   + Ejecutar un flujo de trabajo {#executing-a-workflow}
       + [Inicio de un flujo de trabajo](workflow/using/starting-a-workflow.md)
       + [Ciclo de vida del flujo de trabajo](workflow/using/workflow-life-cycle.md)
       + [Ciclo de vida de datos](workflow/using/data-life-cycle.md)
@@ -487,7 +488,7 @@ ht-degree: 100%
          + [Uso de agregados](workflow/using/using-aggregates.md)
          + [Uso de la funcionalidad de combinación de la actividad de anulación de duplicación](workflow/using/deduplication-merge.md)
          + [Configuración de un flujo de trabajo de importación recurrente](workflow/using/recurring-import-workflow.md)
-      + Consultas de diseño {#designing-queries}
+      + Diseño de consultas {#designing-queries}
          + [Actualización de lista trimestral con una consulta incremental](workflow/using/quarterly-list-update.md)
       + Consulta y filtro {#designing-queries}
          + [Consulta de la tabla de destinatarios](workflow/using/querying-recipient-table.md)
@@ -502,7 +503,7 @@ ht-degree: 100%
       + [Monitorización de la ejecución del flujo de trabajo](workflow/using/monitoring-workflow-execution.md)
       + [Monitorización de flujos de trabajo técnicos](workflow/using/monitoring-technical-workflows.md)
       + [Mapa de calor del flujo de trabajo](workflow/using/heatmap.md)
-   + Administración avanzada {#advanced-management}
+   + Gestión avanzada {#advanced-management}
       + [Propiedades del flujo de trabajo](workflow/using/workflow-properties.md)
       + [Parámetros avanzados](workflow/using/advanced-parameters.md)
       + [Plantillas y scripts de JavaScript](workflow/using/javascript-scripts-and-templates.md)
@@ -512,8 +513,8 @@ ht-degree: 100%
       + [Cambio de imágenes de actividad](workflow/using/managing-activity-images.md)
       + [Administración de husos horarios](workflow/using/managing-time-zones.md)
       + [Flujos de trabajo técnicos](workflow/using/about-technical-workflows.md)
-+ Administración de ofertas {#managing-offers}
-   + Introducción a la interacción{#interaction-overview}
++ Administrar ofertas {#managing-offers}
+   + Introducción a la interacción {#interaction-overview}
       + [Interacción y gestión de ofertas](interaction/using/interaction-and-offer-management.md)
       + [Glosario](interaction/using/i-glossary.md)
       + [Prácticas recomendadas de interacción](interaction/using/interaction-best-practices.md)
@@ -539,7 +540,7 @@ ht-degree: 100%
       + [Configuración de ejecución](interaction/using/execution-settings.md)
       + [Ámbito de la simulación](interaction/using/simulation-scope.md)
       + [Seguimiento de la simulación](interaction/using/simulation-tracking.md)
-   + Envío de una oferta {#delivering-an-offer}
+   + Entrega de una oferta {#delivering-an-offer}
       + [Acerca de los canales de salida](interaction/using/about-outbound-channels.md)
       + [Integración de una oferta mediante el asistente](interaction/using/integrating-an-offer-via-the-wizard.md)
       + [Integración de una oferta mediante un flujo de trabajo](interaction/using/integrating-an-offer-via-a-workflow.md)
@@ -559,7 +560,7 @@ ht-degree: 100%
       + [Modificación del comportamiento del motor estándar](interaction/using/hooks.md)
       + [Arquitecturas distribuidas](interaction/using/distributed-architectures.md)
       + [Configuración del búfer de datos](installation/using/interaction-data-buffer.md)
-   + Caso de uso {#case-study}
+   + Ejemplo de uso {#case-study}
       + [Reglas de presentación](interaction/using/presentation-rules.md)
       + [Ofertas en un canal de entrada](interaction/using/offers-on-an-inbound-channel.md)
       + [Ofertas en un canal de salida](interaction/using/offers-on-an-outbound-channel.md)
@@ -700,7 +701,7 @@ ht-degree: 100%
       + [Restauración](production/using/restoration.md)
       + [Duplicación de entornos](production/using/duplicating-environments.md)
       + [Flujo de trabajo para limpieza de bases de datos](production/using/database-cleanup-workflow.md)
-   + Actualización de Adobe Campaign {#updating-adobe-campaign}
+   + Actualizar Adobe Campaign {#updating-adobe-campaign}
       + [Introducción](production/using/introduction.md)
       + [Realización de una actualización de compilación](production/using/build-upgrade.md)
       + [Procedimiento de actualización (local)](production/using/upgrading.md)
@@ -712,7 +713,7 @@ ht-degree: 100%
       + [Tipos de mantenimiento](production/using/types-of-maintenance.md)
       + [Recomendaciones específicas de RDBMS](production/using/rdbms-specific-recommendations.md)
       + [Objetos de aplicación](production/using/application-objects.md)
-   + Solución de problemas {#troubleshooting-toc}
+   + Resolución de problemas {#troubleshooting-toc}
       + [Descripción general de la solución de problemas de producción](production/using/troubleshooting.md)
       + Problemas comunes y generales {#common-general-issues-toc}
          + [Módulos y problemas frecuentes](production/using/modules-and-frequent-issues.md)
@@ -727,7 +728,7 @@ ht-degree: 100%
       + Uso de registros {#working-with-log-toc}
          + [Precisión de registro](production/using/log-precision.md)
          + [Problemas de registros de seguimiento](production/using/tracking-logs-issues.md)
-      + Problemas con la base de datos {#database-issues-toc}
+      + Problemas de base de datos {#database-issues-toc}
          + [Rendimiento de la base de datos](production/using/database-performances.md)
          + [Codificación de la base de datos Oracle](production/using/encoding-of-the-oracle-database.md)
       + Mejoras de conexión {#connection-improvements-toc}
@@ -742,7 +743,7 @@ ht-degree: 100%
       + [Acerca del modelo de datos](configuration/using/about-data-model.md)
       + [Descripción del modelo de datos](configuration/using/data-model-description.md)
       + [Prácticas recomendadas](configuration/using/data-model-best-practices.md)
-   + Uso de esquemas{#schema-reference}
+   + Trabajo con esquemas {#schema-reference}
       + [Introducción a los esquemas](configuration/using/about-schema-reference.md)
       + [Estructura del esquema](configuration/using/schema-structure.md)
       + [Asignación de base de datos](configuration/using/database-mapping.md)
@@ -794,7 +795,7 @@ ht-degree: 100%
    + Jerarquía de navegación {#navigation-hierarchy}
       + [Configuración de la jerarquía de Explorer](configuration/using/configuration.md)
       + [Editar la jerarquía de Explorer](configuration/using/edition.md)
-   + Uso de una tabla de destinatarios personalizada {#use-a-custom-recipient-table}
+   + Usar una tabla de destinatarios personalizada {#use-a-custom-recipient-table}
       + [Acerca de la tabla de destinatarios personalizada](configuration/using/about-custom-recipient-table.md)
       + [Características del esquema](configuration/using/schema-characteristics.md)
       + [Asignación de destino](configuration/using/target-mapping.md)
@@ -820,7 +821,7 @@ ht-degree: 100%
       + [Requisitos previos](migration/using/before-starting-migration.md)
       + [Acerca de las pruebas de migración](migration/using/testing-the-migration.md)
       + [Adaptar la configuración](migration/using/configuring-your-platform.md)
-   + Inicie la migración {#migrating-to-adobe-campaign-7}
+   + Inicio de la migración {#migrating-to-adobe-campaign-7}
       + [Migración de una plataforma Microsoft Windows](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
       + [Migración de una plataforma Linux](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
    + [Procedimiento de reversión](migration/using/about-rollback.md)

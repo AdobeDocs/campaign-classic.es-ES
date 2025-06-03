@@ -5,10 +5,10 @@ description: Obtenga información sobre cómo conceder acceso a las funciones de
 badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: 2759d65150299e4fa679ea986df8136cd9525370
-workflow-type: ht
-source-wordcount: '342'
-ht-degree: 100%
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 85%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 >Además, con el objetivo de reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomienda encarecidamente migrar el modo de autenticación de los operadores existentes de la autenticación nativa de inicio de sesión/contraseña a Adobe Identity Management System (IMS). Aprenda a migrar los operadores en [esta página](../../technotes/using/migrate-users-to-ims.md).
 > 
->Después de esta migración, tenga en cuenta que ya no se aplica la siguiente sección.  Obtenga información sobre cómo configurar los permisos con Adobe IMS en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=es){target="_blank"}.
+>Después de esta migración, tenga en cuenta que ya no se aplica la siguiente sección.  Obtenga información sobre cómo configurar permisos con Adobe IMS en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=es){target="_blank"}.
 
 
 Adobe Campaign le permite definir y administrar los derechos asignados a los distintos operadores. Se trata de un conjunto de derechos y restricciones que autorizan o niegan:
@@ -42,25 +42,29 @@ Existen dos tipos de permisos que puede conceder a un usuario:
 
 >[!NOTE]
 >
->Antes de empezar a definir permisos, Adobe recomienda leer la [lista de comprobación de configuración de seguridad](https://helpx.adobe.com/es/campaign/kb/acc-security.html).
+> * Antes de empezar a definir permisos, Adobe recomienda leer la [lista de comprobación de configuración de seguridad](https://helpx.adobe.com/es/campaign/kb/acc-security.html).
+> * Para obtener más información sobre los permisos, consulte la explicación detallada en la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
 
-Obtenga información sobre cómo conceder acceso y configurar permisos en estas secciones:
+<!--
 
-* [Creación de operadores](access-management-operators.md)
+Learn how to grant access and set up permissions in these sections:
 
-* [Definición de grupos](access-management-groups.md)
+* [Create operators](access-management-operators.md)
 
-* [Adición de derechos asignados](access-management-named-rights.md)
+* [Define groups](access-management-groups.md)
 
-* [Administración de acceso a carpetas de Campaign](access-management-folders.md)
+* [Add Named rights](access-management-named-rights.md)
 
-* [Matriz de derechos de acceso](access-management-named-rights.md#access-rights-matrix)
+* [Manage Campaign folder access](access-management-folders.md)
+
+* [Access rights matrix](access-management-named-rights.md#access-rights-matrix)
 
 
-Asimismo, consulte:
+See also:
 
-* [Administración de permisos para flujos de trabajo](../../workflow/using/managing-rights.md)
-* [Administración de permisos para marketing distribuido](../../distributed/using/about-distributed-marketing.md#operators-and-entities)
-* [Administración de permisos para el módulo de interacción](../../interaction/using/operator-profiles.md)
-* [Filtro del acceso a los esquemas](../../configuration/using/filtering-schemas.md)
-* [Restricción de la vista PI](../../configuration/using/restricting-pii-view.md)
+* [Manage permissions for workflows](../../workflow/using/managing-rights.md)
+* [Manage permissions for distributed marketing](../../distributed/using/about-distributed-marketing.md#operators-and-entities)
+* [Manage permissions for the interaction module](../../interaction/using/operator-profiles.md)
+* [Filter access to schemas](../../configuration/using/filtering-schemas.md)
+* [Restricting PI view](../../configuration/using/restricting-pii-view.md)
+-->

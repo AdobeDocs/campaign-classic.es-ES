@@ -7,10 +7,10 @@ feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '186'
-ht-degree: 100%
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 88%
 
 ---
 
@@ -26,6 +26,8 @@ Esta herramienta combina todas las posibilidades de consultas de Adobe Campaign.
 
 Las consultas se crean utilizando campos de la tabla seleccionada o utilizando una fórmula.
 
-[Haga clic aquí](../../workflow/using/query.md) para descubrir el editor de consultas de Campaign.
+>[!NOTE]
+>
+>Para obtener más información sobre Consultas y cómo crearlas, consulte la [documentación de Campaign v8](../../workflow/using/query.md).
 
-![](assets/query_recipients_4.png)
+![Captura de pantalla que muestra un ejemplo de una consulta.](assets/query_recipients_4.png)

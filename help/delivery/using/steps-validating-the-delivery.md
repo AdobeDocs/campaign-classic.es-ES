@@ -4,11 +4,13 @@ title: Validación de la entrega
 description: Obtenga información sobre cómo validar una entrega
 feature: Deliverability, Email Rendering, Proofs
 role: User
+hide: true
+hidefromtoc: true
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
-workflow-type: ht
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

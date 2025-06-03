@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: fd0f7b6e-84e1-442d-ae88-817fb6758d64
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '140'
-ht-degree: 100%
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 72%
 
 ---
 
@@ -22,23 +22,31 @@ Puede [utilizar flujos de trabajo](#use-workflows) para importar perfiles de des
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#import-profiles-video)
 
-## Uso de flujos de trabajo{#use-workflows}
+>[!NOTE]
+>
+>Para aprender a importar y exportar perfiles, consulte la documentación de Campaign v8.
 
-Las exportaciones e importaciones se configuran en plantillas dedicadas ejecutadas a través de flujos de trabajo mediante las actividades de importación y exportación. Se pueden repetir automáticamente según un programa, por ejemplo, para automatizar el intercambio de datos entre varios sistemas de información. [Más información](../../platform/using/import-export-workflows.md#best-practices-when-importing-data)
 
-Si es necesario, puede crear un trabajo ocasional de importación o exportación mediante la **[!UICONTROL Generic imports and exports]** función que se describe a continuación.
+<!--
 
-## Creación de trabajos{#create-jobs}
+## Use workflows{#use-workflows}
 
-Para configurar y ejecutar trabajos de importación y exportación de datos, vaya a la ficha **[!UICONTROL Profiles and targets]** y haga clic en el vínculo **[!UICONTROL Jobs]**. [Más información](../../platform/using/about-generic-imports-exports.md)
+Exports and imports are configured in dedicated templates executed through workflows via import and export activities. They can be repeated automatically according to a schedule, for example to automate data exchange between several information systems. [Learn more](../../platform/using/import-export-workflows.md#best-practices-when-importing-data)
+
+If necessary, you can create an occasional import or export job via the **[!UICONTROL Generic imports and exports]** feature described below.
+
+## Create jobs{#create-jobs}
+
+To configure and execute data imports and exports jobs, go to the **[!UICONTROL Profiles and targets]** tab and click the **[!UICONTROL Jobs]** link. [Learn more](../../platform/using/about-generic-imports-exports.md)
 
 ![](assets/s_ncs_user_interface_import_link.png)
 
 
-## Tutorial en vídeo {#import-profiles-video}
+## Tutorial video {#import-profiles-video}
 
-En este vídeo, se explica cómo importar perfiles en Adobe Campaign para realizar una importación ocasional.
+This video explains how to import profiles in Adobe Campaign, for an occasional import.
 
->[!VIDEO](https://video.tv.adobe.com/v/328396?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
 
-Puede encontrar disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+-->

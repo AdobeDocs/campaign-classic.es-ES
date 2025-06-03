@@ -4,9 +4,11 @@ title: Definición de la población objetivo
 description: Obtenga información sobre cómo definir la población objetivo
 feature: Audiences, Proofs
 role: User
+hide: true
+hidefromtoc: true
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
+source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 100%
 
@@ -14,7 +16,7 @@ ht-degree: 100%
 
 # Definición de la población objetivo {#defining-the-target-population}
 
-Para cada entrega, se pueden definir varios tipos de destinatarios:
+Para cada entrega, se pueden definir varios tipos de poblaciones destinatarias:
 
 * **Audiencia principal**: perfiles que recibirán mensajes. [Obtenga más información](steps-defining-the-target-population.md#selecting-the-main-target)
 * **Prueba**: destinatarios de mensajes de prueba implicados en el ciclo de validación. [Obtenga más información](steps-defining-the-target-population.md#defining-a-specific-proof-target)
@@ -249,6 +251,6 @@ Estos mapeos son los siguientes:
 
 En este vídeo aprenderá a añadir semillas y pruebas a un correo electrónico existente y a enviarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/35551?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
