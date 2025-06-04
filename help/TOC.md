@@ -6,10 +6,10 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
 workflow-type: tm+mt
-source-wordcount: '2574'
-ht-degree: 91%
+source-wordcount: '2573'
+ht-degree: 88%
 
 ---
 
@@ -125,27 +125,26 @@ ht-degree: 91%
          + [Definición de la audiencia correcta](delivery/using/define-the-right-audience.md)
          + [Comprobación antes de enviar](delivery/using/check-before-sending.md)
          + [Seguimiento y monitorización](delivery/using/track-and-monitor.md)
-   + Envío de correos electrónicos {#sending-emails}
-      + [Acerca del canal de correo electrónico](delivery/using/about-email-channel.md)
-      + [Crear un envío de correo electrónico](delivery/using/creating-an-email-delivery.md)
-      + [Definición del contenido del correo electrónico](delivery/using/defining-the-email-content.md)
-      + [Definición del contenido interactivo](delivery/using/defining-interactive-content.md)
-      + [Envío con el servidor de correo mejorado](delivery/using/sending-with-enhanced-mta.md)
-      + Realización del envío de correo electrónico {#sending-an-email}
-         + [Pasos principales para enviar un correo electrónico](delivery/using/sending-messages.md)
-         + [Parámetros de correo electrónico](delivery/using/email-parameters.md)
-         + [Envío de correos electrónicos en móviles japoneses](delivery/using/sending-emails-on-japanese-mobiles.md)
-      + [Adjuntar archivos](delivery/using/attaching-files.md)
-   + Envío de SMS {#sending-messages-on-mobiles}
-      + [Introducción a los SMS](delivery/using/sms-channel.md)
-      + Configuración del canal de SMS {#sms-set-up}
-         + [Configuración de SMS en una instancia independiente](delivery/using/sms-set-up.md)
-         + [Configuración de SMS en una infraestructura intermediaria](delivery/using/sms-set-up-mid.md)
-         + [Configuración y protocolo del conector SMS](delivery/using/sms-protocol.md)
-         + [Configuración adicional](delivery/using/sms-send.md)
-         + [Solución de problemas de SMS](delivery/using/troubleshooting-sms.md)
-      + [Creación de un SMS](delivery/using/sms-create.md)
-      + [Migración al conector genérico SMPP extendido](delivery/using/unsupported-connector-migration.md)
++ Envío de correos electrónicos {#sending-emails}
++ [Crear un envío de correo electrónico](delivery/using/creating-an-email-delivery.md)
++ [Definir el contenido del correo electrónico](delivery/using/defining-the-email-content.md)
++ [Definir contenido interactivo](delivery/using/defining-interactive-content.md)
++ Enviar el envío de correo electrónico {#sending-an-email}
++ [Pasos principales para enviar un correo electrónico](delivery/using/sending-messages.md)
++ [Parámetros de correo electrónico](delivery/using/email-parameters.md)
++ [Enviar en móviles japoneses](delivery/using/sending-emails-on-japanese-mobiles.md)
++ [Adjuntar archivos](delivery/using/attaching-files.md)
++ [Envío de correos electrónicos](delivery/using/about-email-channel.md)
++ Envío de SMS {#sending-messages-on-mobiles}
++ [Introducción a SMS](delivery/using/sms-channel.md)
++ Configurar el canal de SMS {#sms-set-up}
++ [Configurar SMS en una instancia independiente](delivery/using/sms-set-up.md)
++ [Configurar SMS en una infraestructura intermediaria](delivery/using/sms-set-up-mid.md)
++ [Protocolo y configuración del conector SMS](delivery/using/sms-protocol.md)
++ [Configuración adicional](delivery/using/sms-send.md)
++ [Solución de problemas de SMS](delivery/using/troubleshooting-sms.md)
++ [Crear un SMS](delivery/using/sms-create.md)
++ [Migrar al conector genérico SMPP extendido](delivery/using/unsupported-connector-migration.md)
    + [Envío de mensajes de LINE](delivery/using/line-channel.md)
    + Envío de notificaciones push {#sending-push-notifications}
       + [Introducción al canal de aplicaciones móviles](delivery/using/about-mobile-app-channel.md)
@@ -841,6 +840,7 @@ ht-degree: 91%
       + [Actualizaciones del sistema 2023](technotes/using/tech-stack-upgrade.md)
       + [Actualizaciones de IMS](technotes/using/ims-updates.md)
       + [Finalización del servicio de soporte para TLS 1.0 y 1.1](technotes/using/eol-tls-support.md)
+      + [Envío con el servidor de correo mejorado](delivery/using/sending-with-enhanced-mta.md)
    + Correos electrónicos y notificaciones push{#technotes-email}
       + [Protección de privacidad de correo electrónico en Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
       + [Actualización de rechazos graves incorrectos](delivery/using/update-bounce-qualification.md)
