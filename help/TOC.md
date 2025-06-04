@@ -6,9 +6,9 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 67e5a52666b7a57d1fc17d308a124948bf81f432
+source-git-commit: d2292711cf67332eda3fe9bed78248ab62ca1818
 workflow-type: tm+mt
-source-wordcount: '2572'
+source-wordcount: '2575'
 ht-degree: 88%
 
 ---
@@ -125,7 +125,9 @@ ht-degree: 88%
          + [Definición de la audiencia correcta](delivery/using/define-the-right-audience.md)
          + [Comprobación antes de enviar](delivery/using/check-before-sending.md)
          + [Seguimiento y monitorización](delivery/using/track-and-monitor.md)
-+ Correos electrónicos {#sending-emails}
++ Envío de correos electrónicos {#sending-emails}
++ [Introducción a los correos electrónicos](delivery/using/about-email-channel.md)
++ [Enviar con el servidor de correo mejorado](delivery/using/sending-with-enhanced-mta.md)
 + [Crear un envío de correo electrónico](delivery/using/creating-an-email-delivery.md)
 + [Definir el contenido del correo electrónico](delivery/using/defining-the-email-content.md)
 + [Definir contenido interactivo](delivery/using/defining-interactive-content.md)
@@ -134,7 +136,6 @@ ht-degree: 88%
 + [Parámetros de correo electrónico](delivery/using/email-parameters.md)
 + [Enviar en móviles japoneses](delivery/using/sending-emails-on-japanese-mobiles.md)
 + [Adjuntar archivos](delivery/using/attaching-files.md)
-+ [Envío de correos electrónicos](delivery/using/about-email-channel.md)
 + Envío de SMS {#sending-messages-on-mobiles}
 + [Introducción a SMS](delivery/using/sms-channel.md)
 + Configurar el canal de SMS {#sms-set-up}
@@ -840,7 +841,6 @@ ht-degree: 88%
       + [Actualizaciones del sistema 2023](technotes/using/tech-stack-upgrade.md)
       + [Actualizaciones de IMS](technotes/using/ims-updates.md)
       + [Finalización del servicio de soporte para TLS 1.0 y 1.1](technotes/using/eol-tls-support.md)
-      + [Envío con el servidor de correo mejorado](delivery/using/sending-with-enhanced-mta.md)
    + Correos electrónicos y notificaciones push{#technotes-email}
       + [Protección de privacidad de correo electrónico en Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
       + [Actualización de rechazos graves incorrectos](delivery/using/update-bounce-qualification.md)
