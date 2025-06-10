@@ -7,10 +7,10 @@ feature: Application Settings, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
+source-git-commit: 6e83067cef2b08b5bee37610bfef515714756ada
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 98%
+source-wordcount: '517'
+ht-degree: 91%
 
 ---
 
@@ -55,16 +55,21 @@ Para distinguir vistas de carpetas, el nombre de cada vista se muestra en un col
 
 ### Adición de carpetas y creación de vistas {#adding-folders-and-creating-views}
 
+>[!IMPORTANT]
+>
+>Las carpetas listas para usar no deben marcarse como vistas.
+
+
 En el ejemplo siguiente, se muestra cómo crear nuevas carpetas para mostrar datos específicos:
 
 1. Cree una nueva carpeta **[!UICONTROL Deliveries]** y asígnele el nombre **entregas Francia**.
 1. Haga clic con el botón derecho en esta carpeta y seleccione **[!UICONTROL Properties...]**.
 
-   ![](assets/s_ncs_user_add_folder_exple.png)
+   ![Captura de pantalla que muestra un clic derecho en las propiedades](assets/s_ncs_user_add_folder_exple.png)
 
 1. En la pestaña **[!UICONTROL Restriction]**, seleccione **[!UICONTROL This folder is a view]**. Eso hace que se muestren todas las entregas de la base de datos.
 
-   ![](assets/s_ncs_user_add_folder_exple01.png)
+   ![Pantalla que muestra la casilla de verificación](assets/s_ncs_user_add_folder_exple01.png)
 
 1. Defina los criterios del filtro de entregas desde el editor de consultas en la sección central de la ventana: esto muestra las campañas correspondientes al filtro definido.
 
@@ -74,7 +79,7 @@ En el ejemplo siguiente, se muestra cómo crear nuevas carpetas para mostrar dat
 
    Con las siguientes condiciones de filtro:
 
-![](assets/s_ncs_user_add_folder_exple00.png)
+![Captura de pantalla que muestra las diferentes condiciones de filtro](assets/s_ncs_user_add_folder_exple00.png)
 
 Las siguientes entregas se muestran en la vista:
 
@@ -84,46 +89,48 @@ Las siguientes entregas se muestran en la vista:
 >
 >Al administrar eventos [de mensajería transaccional](../../message-center/using/about-transactional-messaging.md), las carpetas **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** no deben configurarse como vistas en las instancias de ejecución, ya que esto podría generar problemas de derechos de acceso. Para obtener más información sobre la colección de eventos, consulte [esta sección](../../message-center/using/about-event-processing.md#event-collection).
 
-## Edición de permisos en una carpeta
+<!--
+## Permissions on a folder
 
-### Edición de permisos en una carpeta {#edit-permissions-on-a-folder}
+### Edit permissions on a folder {#edit-permissions-on-a-folder}
 
-Para editar los permisos en una carpeta específica del árbol, siga los pasos siguientes:
+To edit permissions on a specific folder of the tree, follow the steps below:
 
-1. Haga clic con el botón derecho en la carpeta y seleccione **[!UICONTROL Properties...]**.
+1. Right-click on the folder and select **[!UICONTROL Properties...]**.
 
    ![](assets/s_ncs_user_folder_properties.png)
 
-1. Haga clic en la pestaña **[!UICONTROL Security]** para ver las autorizaciones de esta carpeta.
+1. Click the **[!UICONTROL Security]** tab to view authorizations on this folder.
 
    ![](assets/s_ncs_user_folder_properties_security.png)
 
-### Modificación de permisos {#modify-permissions}
+### Modify permissions {#modify-permissions}
 
-Para modificar los permisos, puede:
+To modify permissions, you can:
 
-* **Reemplazar un grupo o un operador**. Para ello, haga clic en uno de los grupos (u operadores) con derechos sobre la carpeta y seleccione un nuevo grupo (o un operador nuevo) en la lista desplegable:
+* **Replace a group or an operator**. To do this, click one of the groups (or operators) with rights to the folder, and select a new group (or a new operator) from the drop-down list:
 
   ![](assets/s_ncs_user_folder_properties_security02.png)
 
-* **Autorizar un grupo o un operador**. Para ello, haga clic en el botón **[!UICONTROL Add]** y seleccione el grupo u operador al que desea conceder autorizaciones sobre esta carpeta.
-* **Prohibir un grupo o un operador**. Para ello, haga clic en **[!UICONTROL Delete]** y seleccione el grupo u operador cuya autorización sobre esta carpeta desea eliminar.
-* **Seleccione los derechos asignados a un grupo o a un operador**. Para ello, haga clic en el grupo u operador respectivo y, a continuación, seleccione los derechos de acceso que desee conceder y desmarque los demás.
+* **Authorize a group or an operator**. To do this, click the **[!UICONTROL Add]** button and select the group or operator to which you want to assign authorizations for this folder.
+* **Forbid a group or an operator**. To do this, click **[!UICONTROL Delete]** and select the group or operator from which you want to remove authorization for this folder.
+* **Select the rights assigned to a group or an operator**. To do this, click the group or operator concerned, then select the access rights you want to grant and deselect the others.
 
   ![](assets/s_ncs_user_folder_properties_security03.png)
 
-### Propagación de permisos {#propagate-permissions}
+### Propagate permissions {#propagate-permissions}
 
-Puede propagar autorizaciones y derechos de acceso. Para ello, seleccione la opción **[!UICONTROL Propagate]** en las propiedades de la carpeta.
+You can propagate authorizations and access rights. To do this, select the **[!UICONTROL Propagate]** option in the folder properties.
 
-Las autorizaciones definidas en esta ventana se aplican a todas las subcarpetas del nodo actual. A continuación, se pueden sobrecargar estas autorizaciones para cada una de las subcarpetas.
+The authorizations defined in this window will then be applied to all the sub-folders of the current node. You can then overload these authorizations for each of the sub-folders.
 
 >[!NOTE]
 >
->Borrar esta opción para una carpeta no la borra automáticamente para las subcarpetas. Debe borrarla específicamente en relación con cada una de las subcarpetas.
+>Clearing this option for a folder does not automatically clear it for the sub-folders. You must clear it explicitly for each of the sub-folders.
 
-### Concesión de acceso a todos los operadores {#grant-access-to-all-operators}
+### Grant access to all operators {#grant-access-to-all-operators}
 
-En la pestaña **[!UICONTROL Security]**, si la opción **[!UICONTROL System folder]** está seleccionada, se concede acceso a estos datos a todos los operadores, independientemente de sus derechos. Si se borra esta opción, se debe añadir explícitamente el operador (o su grupo) a la lista de autorizaciones para que tengan acceso.
+In the **[!UICONTROL Security]** tab, if the **[!UICONTROL System folder]** option is selected, all operators will have access to this data, regardless of their rights. If this option is cleared, you must explicitly add the operator (or their group) to the list of authorizations in order for them to have access.
 
 ![](assets/s_ncs_user_folder_properties_security03b.png)
+-->
