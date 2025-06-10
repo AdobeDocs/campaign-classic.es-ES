@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Los pasos para crear una consulta en Adobe Campaign son los siguientes:
 >
 >* Todos estos pasos están disponibles en el editor de consultas genérico. Cuando se crea una consulta en otro contexto, se pueden obviar algunos pasos.\
 >La actividad de consulta se muestra en [esta sección](../../workflow/using/query.md).
->* Para obtener más información sobre Consultas y cómo crearlas, consulte la [documentación de Campaign v8](../../workflow/using/query.md).
+>* Para obtener más información sobre consultas y cómo crearlas, consulte la [documentación de la versión 8 de Campaign](../../workflow/using/query.md).
 
 <!--
 ## Step 1 - Choose a table {#step-1---choose-a-table}

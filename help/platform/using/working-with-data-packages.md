@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ El principio de los **paquetes de datos** es exportar una configuración de dato
 
 >[!NOTE]
 >
->Para obtener más información acerca de los paquetes de datos, consulte la [documentación de Campaign v8.](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/packages){target=_blank}
+>Para obtener más información sobre los paquetes de datos, consulte la [documentación de la versión 8 de Campaign.](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/packages){target=_blank}
 
 
 <!--

@@ -6,9 +6,9 @@ feature: SMS
 role: User
 exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
@@ -16,23 +16,23 @@ ht-degree: 6%
 
 Utilice Adobe Campaign para enviar mensajes de texto a sus clientes en sus dispositivos móviles. Puede crear, personalizar y previsualizar mensajes en formato de texto desde el editor de SMS.
 
-Conozca los pasos clave relacionados con la creación de envíos SMS en la documentación de Campaign v8:
+Conozca los pasos clave relacionados con la creación de envíos de SMS en la documentación de la versión 8 de Campaign:
 
-* [Información general sobre el canal SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=es){target="_blank"}: Aprenda a enviar mensajes de texto a sus clientes en sus dispositivos móviles.
-* [Crear un envío de SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/create-sms.html?lang=es){target="_blank"}: descubre los diferentes pasos necesarios para crear un nuevo envío de SMS.
-* [Defina el contenido](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-content.html?lang=es){target="_blank"}: Aprenda a personalizar el contenido de sus mensajes SMS.
-* [Seleccione la audiencia](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-audience.html?lang=es){target="_blank"}: el destino principal se extrae de la base de datos de Adobe Campaign o también se puede almacenar en un archivo externo.
-* [Envío de pruebas de SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-proofs.html?lang=es): Es esencial configurar un ciclo de validación de entrega. Asegúrese de que el contenido se aprueba antes de enviarlo a su audiencia.
-* [Enviar a la audiencia](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html?lang=es): Cuando se valide el SMS, ahora puede enviarlo a su audiencia.
-* [Supervisar y rastrear un SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms-monitor.html?lang=es): supervisa tu envío de SMS para asegurarte de que tus campañas de marketing sean eficientes.
+* [Información general sobre el canal SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=es){target="_blank"}: aprenda a enviar mensajes de texto a sus clientes en sus dispositivos móviles.
+* [Crear un envío de SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/create-sms.html?lang=es){target="_blank"}: descubra los diferentes pasos necesarios para crear un nuevo envío de SMS.
+* [Definir el contenido](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-content.html?lang=es){target="_blank"}: aprenda a personalizar el contenido de sus mensajes SMS.
+* [Seleccionar el público](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-audience.html?lang=es){target="_blank"}: el público destinatario principal se extrae de la base de datos de Adobe Campaign o también se puede almacenar en un archivo externo.
+* [Envío de pruebas de SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-proofs.html?lang=es): es esencial configurar un ciclo de validación de envío. Asegúrese de que el contenido esté aprobado antes de enviarlo a su público.
+* [Enviar al público](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html?lang=es): cuando el SMS esté validado, podrá enviarlo a su público.
+* [Monitorizar y rastrear un SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms-monitor.html?lang=es): monitorice su envío de SMS para asegurarse de que sus campañas de marketing sean eficientes.
 
 Consulte estas páginas para obtener más información sobre la configuración:
 
-* [Configuración independiente](sms-set-up.md): Aprenda a configurar el canal SMS en una instancia independiente.
-* [Configuración intermediaria](sms-set-up-mid.md): Descubra cómo enviar a un teléfono móvil con servidores intermedios.
-* [Conector SMS](sms-protocol.md): Obtenga información acerca del protocolo y la configuración del conector SMS.
-* [Configuración adicional](sms-send.md): Obtenga información acerca de los parámetros avanzados y otra configuración adicional.
-* [Solución de problemas](troubleshooting-sms.md): Hemos enumerado una serie de problemas potenciales y sus soluciones.
+* [Configuración independiente](sms-set-up.md): aprenda a configurar el canal de SMS en una instancia independiente.
+* [Configuración intermediaria](sms-set-up-mid.md): descubra cómo enviar a un teléfono móvil con servidores intermedios.
+* [Conector SMS](sms-protocol.md): obtenga información sobre el protocolo y la configuración del conector SMS.
+* [Configuración adicional](sms-send.md): obtenga información sobre los parámetros avanzados y otra configuración adicional.
+* [Solución de problemas](troubleshooting-sms.md): hemos enumerado una serie de problemas potenciales y sus soluciones.
 
 <!--
 Use Adobe Campaign to send personalized SMS messages.

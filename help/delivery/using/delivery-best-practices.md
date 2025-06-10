@@ -8,12 +8,12 @@ hide: true
 hidefromtoc: true
 exl-id: eb5ad5a4-f640-4b26-b04f-b5567761d996
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '34'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
-# Prácticas recomendadas de entregas {#delivery-best-practices}
+# Prácticas recomendadas para envíos {#delivery-best-practices}
 
-Las prácticas recomendadas relacionadas con el diseño de envíos y el envío con Adobe Campaign se detallan en [Documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/delivery-best-practices){target="_blank"}.
+Las prácticas recomendadas relacionadas con el diseño del envío y el envío con Adobe Campaign se detallan en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/delivery-best-practices){target="_blank"}.

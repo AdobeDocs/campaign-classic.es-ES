@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: profile-management
 exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '115'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Las fichas y su contenido dependen de la configuración y de los paquetes instal
 
 >[!NOTE]
 >
->Para obtener más información sobre cómo editar perfiles y acceder a ellos, consulte la documentación detallada en [Documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/view-profiles){target=_blank}.
+>Para obtener más información sobre cómo editar perfiles y acceder a ellos, consulte la documentación detallada de la [versión 8 de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/view-profiles){target=_blank}.
 
 
 

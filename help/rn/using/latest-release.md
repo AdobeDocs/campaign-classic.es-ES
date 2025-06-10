@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 source-git-commit: cdbcfc5aa0614e41ce76cb777fec58fbd01797d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 
 [!BADGE Disponibilidad limitada]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
 
-_martes, 12 de mayo de 2025_
+_12 de mayo de 2025_
 
-Esta versión incluye las siguientes correcciones:
+Esta compilación incluye las siguientes correcciones:
 
 * Se ha corregido un problema posterior a la actualización que se encontraba en configuraciones que no eran de Oracle. (NEO-87012)
 * Se ha corregido un problema de back-end TLS/HTTPS que afectaba tanto a la consola del cliente como al servidor. (NEO-87432)
@@ -52,7 +52,7 @@ Esta versión incluye varias correcciones de seguridad.
 
 La conexión con las soluciones y aplicaciones de Adobe a través de la cuenta externa de **[!UICONTROL Adobe Experience Cloud]** se ha actualizado para reforzar la seguridad.
 
-**Correcciones importantes**
+**Correcciones principales**
 
 Esta versión incluye las siguientes correcciones principales:
 

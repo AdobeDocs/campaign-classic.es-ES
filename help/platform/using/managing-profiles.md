@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: profile-management
 exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '134'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Cada nodo coincide con una carpeta. Los datos de cada carpeta deben considerarse
 >[!NOTE]
 >
 > * Para mostrar la lista de todos los destinatarios de la base de datos, debe crear una vista. Obtenga más información en [Carpetas y vistas](../../platform/using/access-management-folders.md).
-> * Para obtener más información sobre cómo administrar los perfiles, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
+> * Para obtener más información sobre cómo administrar los perfiles, consulte la [documentación de lq versión 8 de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
 
 <!--
