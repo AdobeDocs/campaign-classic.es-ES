@@ -16,7 +16,7 @@ ht-degree: 68%
 
 Con Adobe Campaign, cree envíos de correo electrónico para enviar correos electrónicos personalizados al público destinatario.
 
-El correo electrónico sigue siendo uno de los canales más potentes y flexibles para interactuar con los usuarios más allá de la aplicación o el sitio web. Tanto si va a enviar contenido personalizado, anuncios o mensajes promocionales, el correo electrónico le proporciona un control total sobre el mensaje y la audiencia. Aprenda a configurar y utilizar el canal de correo electrónico al máximo: personalizando el contenido, dirigiéndose a segmentos de usuarios específicos e incorporando elementos multimedia enriquecidos para maximizar el impacto y la participación en [documentación de Adobe Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
+El correo electrónico sigue siendo uno de los canales más potentes y flexibles para interactuar con los usuarios más allá de la aplicación o el sitio web. Tanto si va a enviar contenido personalizado, anuncios o mensajes promocionales, el correo electrónico le proporciona un control total sobre el mensaje y la audiencia. Aprenda a configurar y utilizar el canal de correo electrónico al máximo: personalizando el contenido, dirigiéndose a segmentos de usuarios específicos e incorporando elementos multimedia enriquecidos para maximizar el impacto y la participación en [documentación de Adobe Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
 
 
 
@@ -25,10 +25,10 @@ El correo electrónico sigue siendo uno de los canales más potentes y flexibles
 
 >[!TAB Documentación del canal de correo electrónico]
 
-Para obtener más información sobre el canal de correo electrónico, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
+Para obtener más información sobre el canal de correo electrónico, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
 
 
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target=_blank}
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/emails/email){target=_blank}
 
 
 >[!TAB Creación de envío de correo electrónico]
@@ -65,7 +65,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
 
 The key steps to send an email are as follows:
 
