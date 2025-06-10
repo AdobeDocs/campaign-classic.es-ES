@@ -10,7 +10,7 @@ exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 source-git-commit: 6e83067cef2b08b5bee37610bfef515714756ada
 workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ Cada carpeta del árbol de navegación de Explorer tiene asociados derechos de a
 
 >[!NOTE]
 >
->Para obtener más información sobre los permisos en las carpetas, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}.
+>Para obtener más información sobre permisos en carpetas, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}.
 
 
 ## Carpetas y vistas {#folders-and-views}
