@@ -6,9 +6,9 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 1e88021c9209bd23c3c949380f553473e890a9ce
+source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2569'
 ht-degree: 99%
 
 ---
@@ -125,9 +125,8 @@ ht-degree: 99%
       + [Definición de la audiencia correcta](delivery/using/define-the-right-audience.md)
       + [Comprobación antes de enviar](delivery/using/check-before-sending.md)
       + [Seguimiento y monitorización](delivery/using/track-and-monitor.md)
+   + [Envío de correos electrónicos ](delivery/using/about-email-channel.md)
    + Envío de correos electrónicos  {#sending-emails}
-      + [Empezar con correos electrónicos](delivery/using/about-email-channel.md)
-      + [Envío con el servidor de correo mejorado](delivery/using/sending-with-enhanced-mta.md)
       + [Crear un envío de correo electrónico](delivery/using/creating-an-email-delivery.md)
       + [Definición del contenido del correo electrónico](delivery/using/defining-the-email-content.md)
       + [Definición del contenido interactivo](delivery/using/defining-interactive-content.md)
@@ -827,6 +826,7 @@ ht-degree: 99%
    + [Procedimiento de reversión](migration/using/about-rollback.md)
 + Notas técnicas {#technotes}
    + [Recomendaciones de tamaño de hardware](technotes/using/hardware-sizing.md)
+   + [Envío con el servidor de correo mejorado](delivery/using/sending-with-enhanced-mta.md)
    + [Actividad de flujo de trabajo de SMS entrante para infraestructura intermediaria](technotes/using/inbound-sms-wf.md)
    + Actualización a IMS{#ims}
       + [Transición a Adobe IMS](technotes/using/ac-ims.md)
