@@ -7,10 +7,10 @@ feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '203'
-ht-degree: 100%
+source-git-commit: 471018f09e5a14635fcce07aeca1e2cf48d9144f
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 84%
 
 ---
 
@@ -26,8 +26,22 @@ Esta herramienta combina todas las posibilidades de consultas de Adobe Campaign.
 
 Las consultas se crean utilizando campos de la tabla seleccionada o utilizando una fórmula.
 
->[!NOTE]
->
->Para obtener más información sobre consultas y cómo crearlas, consulte la [documentación de la versión 8 de Campaign](../../workflow/using/query.md).
+>[!BEGINTABS]
+
+>[!TAB Documentación de consultas]
+
+Para obtener más información acerca de las consultas, consulte la [documentación de Campaign v8.](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+
+
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+
+
+>[!TAB Crear una consulta]
+
+Conozca los pasos clave relacionados con la creación de consultas en la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}.
+
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
+
+>[!ENDTABS]
 
 ![Captura de pantalla que muestra un ejemplo de una consulta.](assets/query_recipients_4.png)

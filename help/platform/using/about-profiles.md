@@ -6,10 +6,10 @@ feature: Profiles, Audiences
 role: User, Data Architect
 level: Beginner
 exl-id: 54f1ad6c-54b0-4448-8c38-806dd75c1dae
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '234'
-ht-degree: 100%
+source-git-commit: 471018f09e5a14635fcce07aeca1e2cf48d9144f
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 73%
 
 ---
 
@@ -28,6 +28,31 @@ En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que 
 >[!NOTE]
 >
 >Para obtener más información sobre los perfiles, cómo crearlos y editarlos, consulte la documentación detallada en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}.
+
+>[!BEGINTABS]
+
+>[!TAB Documentación de perfiles]
+
+Para obtener más información sobre los perfiles, cómo crearlos y editarlos, consulte la documentación detallada en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}.
+
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/gs-audiences){target=_blank}
+
+>[!TAB Crear y editar perfiles]
+
+Obtenga información sobre cómo editar, administrar y agregar perfiles en la documentación de Campaign v8:
+
+* [Agregar perfiles](https://experienceleague.adobe.com/es/docs/campaign-classic/using/getting-started/profile-management/adding-profiles){target=_blank}: Conozca los pasos clave para agregar y crear nuevos perfiles.
+* [Editar perfiles](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/view-profiles?lang=en#_blank){target=_blank}: vea y edite perfiles existentes.
+* [Administrar perfiles](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views?lang=en#_blank){target=_blank}: Acceda a sus perfiles existentes y administre los suyos mediante la herramienta de administración de carpetas.
+
+>[!TAB Importar/exportar perfiles]
+
+Obtenga información sobre cómo importar y exportar perfiles y datos en la documentación de Campaign v8:
+
+* [Importar perfiles](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/add-profiles/import-profiles){target=_blank}: puede importar perfiles mediante flujos de trabajo.
+* [Importar/exportar datos](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/import){target=_blank}: Obtenga información sobre cómo importar o exportar datos y perfiles mediante importaciones/exportaciones genéricas.
+
+>[!ENDTABS]
 
 <!--
 ## Profile types {#profile-types}
@@ -96,9 +121,9 @@ The general layout of the Adobe Campaign explorer is presented in [this page](..
 
 An active profile is a profile that customer has attempted to communicate with during the past 12 months via any channel.
 
-According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-You can monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es){target="_blank"}.
+You can monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
 
 The following guardrails and limitations apply:
 
@@ -114,9 +139,9 @@ Learn how to access profile data, sort and filter profiles and manually create a
 
 This video also explains the compliance of Adobe Campaign Classic with General Data Protection Regulations. 
 
->[!VIDEO](https://video.tv.adobe.com/v/326752?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
 **See also**
 
