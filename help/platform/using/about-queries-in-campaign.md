@@ -30,17 +30,17 @@ Las consultas se crean utilizando campos de la tabla seleccionada o utilizando u
 
 >[!TAB Documentación de consultas]
 
-Para obtener más información acerca de las consultas, consulte la [documentación de Campaign v8.](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+Para obtener más información acerca de las consultas, consulte la [documentación de Campaign v8.](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
 
 
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
 
 
 >[!TAB Crear una consulta]
 
-Conozca los pasos clave relacionados con la creación de consultas en la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}.
+Conozca los pasos clave relacionados con la creación de consultas en la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}.
 
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
 
 >[!ENDTABS]
 
