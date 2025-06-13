@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 source-git-commit: 6e83067cef2b08b5bee37610bfef515714756ada
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Para distinguir vistas de carpetas, el nombre de cada vista se muestra en un col
 
 >[!IMPORTANT]
 >
->Las carpetas listas para usar no deben marcarse como vistas.
+>Las carpetas predeterminadas no deben marcarse como vistas.
 
 
 En el ejemplo siguiente, se muestra cómo crear nuevas carpetas para mostrar datos específicos:
@@ -65,11 +65,11 @@ En el ejemplo siguiente, se muestra cómo crear nuevas carpetas para mostrar dat
 1. Cree una nueva carpeta **[!UICONTROL Deliveries]** y asígnele el nombre **entregas Francia**.
 1. Haga clic con el botón derecho en esta carpeta y seleccione **[!UICONTROL Properties...]**.
 
-   ![Captura de pantalla que muestra un clic derecho en las propiedades](assets/s_ncs_user_add_folder_exple.png)
+   ![Captura de pantalla que muestra un clic con el botón derecho en las propiedades](assets/s_ncs_user_add_folder_exple.png)
 
-1. En la pestaña **[!UICONTROL Restriction]**, seleccione **[!UICONTROL This folder is a view]**. Eso hace que se muestren todas las entregas de la base de datos.
+1. En la pestaña **[!UICONTROL Restriction]**, seleccione **[!UICONTROL This folder is a view]**. Eso hace que se muestren todos los envíos de la base de datos.
 
-   ![Pantalla que muestra la casilla de verificación](assets/s_ncs_user_add_folder_exple01.png)
+   ![Pantalla que muestra la selección de la casilla de vista](assets/s_ncs_user_add_folder_exple01.png)
 
 1. Defina los criterios del filtro de entregas desde el editor de consultas en la sección central de la ventana: esto muestra las campañas correspondientes al filtro definido.
 
@@ -81,7 +81,7 @@ En el ejemplo siguiente, se muestra cómo crear nuevas carpetas para mostrar dat
 
 ![Captura de pantalla que muestra las diferentes condiciones de filtro](assets/s_ncs_user_add_folder_exple00.png)
 
-Las siguientes entregas se muestran en la vista:
+Los siguientes envíos se muestran en la vista:
 
 ![](assets/s_ncs_user_add_folder_exple02.png)
 
