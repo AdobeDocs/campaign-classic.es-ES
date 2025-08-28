@@ -3,8 +3,10 @@ product: campaign
 title: 'Nota técnica: Actualizaciones del sistema de Adobe Campaign'
 description: Actualización del sistema de Adobe Campaign
 feature: Technote, Upgrade
+hide: true
+hidefromtoc: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 4%
@@ -15,7 +17,7 @@ ht-degree: 4%
 
 La infraestructura de Campaign se basa en sistemas de terceros que deben actualizarse regularmente con las últimas versiones y correcciones. Estas actualizaciones son obligatorias para garantizar la continuidad del servicio y proteger los entornos de Campaign de los riesgos de seguridad. Además, se requiere una actualización de Campaign para garantizar la compatibilidad con los cambios del sistema de terceros.
 
-Como **cliente de Cloud Service hospedados o administrados**, Adobe le informa sobre estas actualizaciones cuando son necesarias. Se le pedirá que actualice sus entornos de acuerdo con las recomendaciones para garantizar el cumplimiento.
+Como **cliente de Cloud Services hospedado o administrado**, Adobe le informa sobre estas actualizaciones cuando son necesarias. Se le pedirá que actualice sus entornos de acuerdo con las recomendaciones para garantizar el cumplimiento.
 
 Como **cliente On-Premise o híbrido**, Adobe le recomienda encarecidamente que actualice su sistema y las versiones de Campaign según el mismo calendario.
 
@@ -23,7 +25,7 @@ Por razones de seguridad, debe [instalar la última compilación de Campaign](#a
 
 >[!NOTE]
 >
->Si tiene alguna pregunta sobre estos cambios, comuníquese con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Consulte también las [preguntas frecuentes sobre la actualización de la compilación](../../platform/using/faq-build-upgrade.md).
+>Si tiene alguna pregunta sobre estos cambios, comuníquese con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Consulte también las [preguntas frecuentes sobre la actualización de la compilación](../../platform/using/faq-build-upgrade.md).
 >
 
 ## Actualización de compilación de Campaign {#ac-upgrade}
@@ -34,7 +36,7 @@ Si se ve afectado por la [actualización del sistema operativo](#os-upgrade) y/o
 
 **¿Cómo realizar la actualización?**
 
-* Como cliente de Cloud Service alojados o administrados, Adobe se pondrá en contacto con usted y actualizará la versión de Campaign.
+* Como cliente de Cloud Services alojados o administrados, Adobe se pondrá en contacto con usted y actualizará la versión de Campaign.
 * Como cliente híbrido, Adobe le informará de las fechas de actualización de la compilación programadas para su entorno de intermediario. También debe actualizar el entorno de marketing a esa misma versión.
 * Como cliente On-Premise, se le solicita que actualice sus entornos de Campaign a la última versión 7.3.2.
 
@@ -47,7 +49,7 @@ Si está ejecutando Campaign en un sistema operativo Debian, para beneficiarse d
 
 **¿Cómo realizar la actualización?**
 
-* Como cliente de Cloud Service alojados o administrados, Adobe se pondrá en contacto con usted y actualizará su entorno.
+* Como cliente de Cloud Services alojados o administrados, Adobe se pondrá en contacto con usted y actualizará su entorno.
 * Como cliente híbrido, Adobe le informará de las fechas de actualización programadas para su entorno de intermediario. Si su entorno de marketing también se está ejecutando en Debian, debe actualizarlo a Debian 11 también.
 * Como cliente on-premise, se le solicita que actualice sus entornos a Debian 11.
 
@@ -59,7 +61,7 @@ Si el sistema de base de datos de Campaign es PostgreSQL, para beneficiarse de l
 
 **¿Cómo realizar la actualización?**
 
-* Como cliente de Cloud Service alojados o administrados, Adobe se pondrá en contacto con usted y actualizará su sistema de base de datos de PostgreSQL 11 a PostgreSQL 14.
+* Como cliente de Cloud Services alojados o administrados, Adobe se pondrá en contacto con usted y actualizará su sistema de base de datos de PostgreSQL 11 a PostgreSQL 14.
 * Como cliente híbrido, si el sistema de base de datos de marketing es PostgreSQL, debe actualizarlo a PostgreSQL 14.
 * Como cliente On-Premise, se le solicita que actualice su sistema de base de datos a PostgreSQL 14.
 

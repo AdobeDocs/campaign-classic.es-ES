@@ -5,11 +5,13 @@ description: Más información sobre las actualizaciones de Campaign Classic 202
 feature: Release Notes
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '2337'
-ht-degree: 100%
+source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
+workflow-type: tm+mt
+source-wordcount: '2336'
+ht-degree: 99%
 
 ---
 
@@ -37,7 +39,7 @@ A partir de esta versión, los vínculos de seguimiento en correos electrónicos
 ### Parches {#release-7-3-5-patches}
 
 * Se ha corregido un problema que se producía al utilizar datos de una base de datos de Google Big Query y al actualizar datos en una base de datos de Oracle: todas las claves se establecían en `0` en la tabla temporal del flujo de trabajo. (NEO-65091)
-* Se ha corregido un problema que ocasionaba que fallara una ejecución de flujo de trabajo cuando se combinaban dos consultas en una base de datos de Google Big Query en una actividad de flujo de trabajo de **Union**. (NEO-63705)
+* Se ha corregido un problema que ocasionaba que fallara una ejecución de flujo de trabajo cuando se combinaban dos consultas en una base de datos de Google Big Query en una actividad de flujo de trabajo **Union**. (NEO-63705)
 * Se ha corregido un problema que consistía en la solicitud al usuario de volverse a autenticar al hacer clic en el botón `Back` en un informe de campaña. (NEO-65087)
 * Se ha corregido un error en el flujo de trabajo para la limpieza de base de datos que se producía cuando se eliminaba un envío antes que las pruebas de envío. (NEO-48114)
 * Se ha corregido un problema al conectarse a la consola del cliente: las actualizaciones recientes sobre la verificación TLS provocaban un error de conexión. (NEO-50488)
@@ -79,7 +81,7 @@ _7 de septiembre de 2023_
 * La cuenta externa de BigQuery se ha mejorado con las nuevas opciones utilizadas para configurar el SDK de GCloud. (NEO-63879) [Más información](../../installation/using/configure-fda-google-big-query.md#google-external)
 * Una nueva sección de `cusHeader` se ha añadido en el archivo de configuración del servidor (serverConf.xml). Permite añadir encabezados personalizados al cargar un archivo desde un servidor externo. (NEO-58339) [Más información](../../installation/using/the-server-configuration-file.md#cusheaders).
 * Se ha mejorado la administración del registro de seguimiento para evitar ID negativos para lastMsgId. Se ha cambiado de int32 a int64. (NEO-52290)
-* El flujo de trabajo Intermediario (estadísticas de envío) se ha añadido de forma predeterminada. Este nuevo flujo de trabajo sincroniza los datos estadísticos de envío (nms:deliveryStat) desde el mid a la instancia de marketing. (NEO-36802)
+* El flujo de trabajo Intermediario (estadísticas de envío) se ha añadido de forma predeterminada. Este nuevo flujo de trabajo sincroniza los datos estadísticos de entrega (nms:deliveryStat) desde el mid a la instancia de marketing. (NEO-36802)
 
 ### Parches {#release-7-3-4-patches}
 

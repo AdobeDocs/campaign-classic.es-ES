@@ -5,11 +5,13 @@ description: Más información sobre las actualizaciones de Campaign Classic 202
 feature: Release Notes
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 28490323-41d0-4d61-b309-6892fb826d21
-source-git-commit: 668cee663890fafe27f86f2afd3752f7e2ab347a
+source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 100%
+source-wordcount: '2099'
+ht-degree: 99%
 
 ---
 
@@ -145,7 +147,7 @@ Adobe Campaign ahora es compatible con Windows Server 2019. Consulte la [Matriz 
 **Otros cambios**
 
 * Tras su desuso, las actividades de acción Microsoft CRM, Salesforce, Oracle CRM bajo demanda se han eliminado de la interfaz. Para configurar la sincronización de datos entre Adobe Campaign y un sistema CRM, puede utilizar la actividad del conector de CRM. [Más información](../../workflow/using/crm-connector.md)
-* El campo **[!UICONTROL Encrypted identifier]** se ha añadido al esquema del visitante (nms:visitante). Este campo se calcula y se utiliza para aplicaciones web. Esto se aplica cuando el canal de línea está configurado en la instancia intermediaria.
+* El campo **[!UICONTROL Encrypted identifier]** se ha agregado al esquema del visitante (nms:visitor). Este campo se calcula y se utiliza para aplicaciones web. Esto se aplica cuando el canal de línea está configurado en la instancia intermediaria.
 * Ahora, las fuentes de datos CRM se pueden usar con la actividad **Cambiar fuente de datos**.
 * Se ha añadido una nueva opción en las propiedades de la **Gestión de errores** de las actividades de flujo de trabajo: la opción **Anular por error** detendrá automáticamente el flujo de trabajo. No podrá reiniciarlo posteriormente (NEO-29661). [Más información](../../workflow/using/advanced-parameters.md#in-case-of-errors)
 * Ahora se utiliza una secuencia dedicada para generar las claves principales de la tabla nmsGroup, que se utiliza para crear grupos estadísticos de destinatarios. Anteriormente, se utilizaba la secuencia xtknewId. (NEO-30832)
@@ -161,7 +163,7 @@ Adobe Campaign ahora es compatible con Windows Server 2019. Consulte la [Matriz 
 * Se ha corregido un problema que podía mostrar mensajes de error de scripts al intentar crear y configurar informes (NEO-38393).
 * Se ha corregido un problema que podría provocar que el flujo de trabajo de seguimiento falle en Oracle debido a que los altos volúmenes de indicadores de entrega se actualizan simultáneamente (NEO-39653).
 * Se ha corregido un problema que podía impedir que se enviara un envío debido a un error que se producía al ejecutar una tipología de control (NEO-39833).
-* Se ha corregido un problema en las páginas de aterrizaje que podía impedir que los caracteres especiales se mostraran correctamente en las páginas HTML de las respuestas de encuestas en línea (NEO-39438).
+* Se ha corregido un problema en las páginas de destino que podía impedir que los caracteres especiales se mostraran correctamente en las páginas HTML de las respuestas de encuestas en línea (NEO-39438).
 * Se ha corregido un problema que podía impedir que la consola de Campaign Classic funcionara al hacer clic con el botón derecho en cualquiera de las carpetas desde la pestaña Explorer (NEO-38884).
 * Se ha corregido un error al usar una plantilla de envíos creada anteriormente y vinculada a una cuenta de Web Analytics en una nueva entrega en la que faltaba la configuración de Web Analytics. (NEO-28666)
 * Se ha corregido un problema que podía impedir que previsualizara los envíos móviles adjuntos a un flujo de trabajo.

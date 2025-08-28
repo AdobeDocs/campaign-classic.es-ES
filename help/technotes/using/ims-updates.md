@@ -3,8 +3,10 @@ product: campaign
 title: 'Nota técnica: Actualice su entorno para conectarse a Adobe Campaign con IMS'
 description: 'Campaign: actualizaciones de IMS'
 feature: Technote, Upgrade
+hide: true
+hidefromtoc: true
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 6%
@@ -19,15 +21,15 @@ El 30 de junio de 2021 se realizaron cambios en las funcionalidades de inicio de
 
 ## ¿Qué ha cambiado?
 
-El servicio Identity Management de Adobe (IMS) dejó de admitir versiones antiguas de Internet Explorer el **30 de junio de 2021**. [Más información](https://helpx.adobe.com/es/x-productkb/global/update-operating-system-and-browser.html).
+El servicio Adobe Identity Management (IMS) dejó de admitir versiones antiguas de Internet Explorer el **30 de junio de 2021**. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
 
-Adobe desea conservar la funcionalidad de IMS para todos los clientes a partir del 30 de junio de 2021. IMS forma parte del marco de seguridad que permite a los usuarios iniciar sesión en la consola del cliente, por lo tanto en Adobe Campaign.
+Adobe quiere conservar la funcionalidad de IMS para todos los clientes a partir del 30 de junio de 2021. IMS forma parte del marco de seguridad que permite a los usuarios iniciar sesión en la consola del cliente, por lo tanto en Adobe Campaign.
 
 Para conservar esta funcionalidad, los clientes deben actualizar la consola de cliente en cada equipo de los usuarios y asegurarse de que la última actualización de su [versión de Windows](../../rn/using/compatibility-matrix.md#ClientConsoleoperatingsystems), con **Internet Explorer 11** integrado, esté instalada en cada equipo de los usuarios.
 
 ## ¿Se ha visto afectado?
 
-Si se está conectando a Campaign [a través de un Adobe ID](../../integrations/using/about-adobe-id.md), a través del Servicio Identity Management de Adobe (IMS) y ejecuta una versión de Campaign anterior a las que se enumeran a continuación, se verá afectado.
+Si se está conectando a Campaign [a través de un Adobe ID](../../integrations/using/about-adobe-id.md), a través del servicio Adobe Identity Management (IMS) y ejecuta una versión de Campaign anterior a las que se enumeran a continuación, se verá afectado.
 
 Si ya ha actualizado pero utiliza una versión antigua de Microsoft Internet Explorer, debe actualizar a Internet Explorer 11.
 
@@ -76,7 +78,7 @@ El siguiente mensaje de advertencia es visible para los usuarios si necesitan ac
 
 ![](../../integrations/using/assets/do-not-localize/errorMsg.png)
 
-Si aparece esta advertencia, asegúrese de instalar las actualizaciones más recientes del sistema operativo que está utilizando. [Más información](https://helpx.adobe.com/es/x-productkb/global/update-operating-system-and-browser.html)
+Si aparece esta advertencia, asegúrese de instalar las actualizaciones más recientes del sistema operativo que está utilizando. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
 Si no actualizó la versión de Internet Explorer, verá el siguiente mensaje y ya no podrá conectarse a Adobe Campaign:
 
@@ -93,5 +95,5 @@ Si no actualizó la versión de Internet Explorer, verá el siguiente mensaje y 
 * [Preguntas frecuentes sobre la actualización de versiones](../../platform/using/faq-build-upgrade.md)
 * [Hacer que la nueva consola de cliente esté disponible para los usuarios](../../installation/using/client-console-availability-for-windows.md)
 * [Instalación de la consola del cliente de Campaign](../../installation/using/installing-the-client-console.md)
-* [Distribución de software de Adobe de acceso](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es)
-* [Descargar compilación del Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
+* [Acceder a la distribución de software de Adobe](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es)
+* [Descargar compilación de Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
