@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 28490323-41d0-4d61-b309-6892fb826d21
 source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2099'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Consulte la [Matriz de compatibilidades de Campaign](../../rn/using/compatibilit
 
 **Mejoras**
 
-* Tras el fin de vida útil de Microsoft Internet Explorer 11, el motor de renderización del HTML para Adobe Services (página de inicio de sesión) en la consola de cliente ahora utiliza Edge Chromium. Tenga en cuenta que Microsoft Internet Explorer 11 sigue siendo el motor de renderización del HTML para los paneles de la consola del cliente.  Además, ahora se requiere la instalación del tiempo de ejecución de Microsoft Edge Webview 2 para cualquier instalación de la consola del cliente (desde la versión de Campaign Classic 7.3). [Más información](../../installation/using/installing-the-client-console.md)
+* Tras el fin de vida útil de Microsoft Internet Explorer 11, el motor de renderización del HTML para Adobe Services (página de inicio de sesión) en la consola de cliente ahora utiliza Edge Chromium. Tenga en cuenta que Microsoft Internet Explorer 11 sigue siendo el motor de renderización del HTML para los paneles de control de la consola del cliente.  Además, ahora se requiere la instalación del tiempo de ejecución de Microsoft Edge Webview 2 para cualquier instalación de la consola del cliente (desde la versión de Campaign Classic 7.3). [Más información](../../installation/using/installing-the-client-console.md)
 * Se ha mejorado la administración de conexiones de base de datos en Adobe Campaign para optimizar la estabilidad.
 * La autenticación OAuth 2.0 de Microsoft Exchange Online para POP3 ahora es compatible con Campaign. [Más información](../../installation/using/external-accounts.md#bounce-mails-external-account)
 * Se han corregido varios problemas al utilizar una actividad de flujo de trabajo de enriquecimiento con datos externos. (NEO-38069)
@@ -147,7 +147,7 @@ Adobe Campaign ahora es compatible con Windows Server 2019. Consulte la [Matriz 
 **Otros cambios**
 
 * Tras su desuso, las actividades de acción Microsoft CRM, Salesforce, Oracle CRM bajo demanda se han eliminado de la interfaz. Para configurar la sincronización de datos entre Adobe Campaign y un sistema CRM, puede utilizar la actividad del conector de CRM. [Más información](../../workflow/using/crm-connector.md)
-* El campo **[!UICONTROL Encrypted identifier]** se ha agregado al esquema del visitante (nms:visitor). Este campo se calcula y se utiliza para aplicaciones web. Esto se aplica cuando el canal de línea está configurado en la instancia intermediaria.
+* Se ha añadido el campo **[!UICONTROL Encrypted identifier]** al esquema de visitantes (nms:visitor). Este campo se calcula y se utiliza para aplicaciones web. Esto se aplica cuando el canal de línea está configurado en la instancia intermediaria.
 * Ahora, las fuentes de datos CRM se pueden usar con la actividad **Cambiar fuente de datos**.
 * Se ha añadido una nueva opción en las propiedades de la **Gestión de errores** de las actividades de flujo de trabajo: la opción **Anular por error** detendrá automáticamente el flujo de trabajo. No podrá reiniciarlo posteriormente (NEO-29661). [Más información](../../workflow/using/advanced-parameters.md#in-case-of-errors)
 * Ahora se utiliza una secuencia dedicada para generar las claves principales de la tabla nmsGroup, que se utiliza para crear grupos estadísticos de destinatarios. Anteriormente, se utilizaba la secuencia xtknewId. (NEO-30832)

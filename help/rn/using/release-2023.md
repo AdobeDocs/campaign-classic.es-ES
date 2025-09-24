@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
 source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2336'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ _7 de septiembre de 2023_
 * La cuenta externa de BigQuery se ha mejorado con las nuevas opciones utilizadas para configurar el SDK de GCloud. (NEO-63879) [Más información](../../installation/using/configure-fda-google-big-query.md#google-external)
 * Una nueva sección de `cusHeader` se ha añadido en el archivo de configuración del servidor (serverConf.xml). Permite añadir encabezados personalizados al cargar un archivo desde un servidor externo. (NEO-58339) [Más información](../../installation/using/the-server-configuration-file.md#cusheaders).
 * Se ha mejorado la administración del registro de seguimiento para evitar ID negativos para lastMsgId. Se ha cambiado de int32 a int64. (NEO-52290)
-* El flujo de trabajo Intermediario (estadísticas de envío) se ha añadido de forma predeterminada. Este nuevo flujo de trabajo sincroniza los datos estadísticos de entrega (nms:deliveryStat) desde el mid a la instancia de marketing. (NEO-36802)
+* El flujo de trabajo Intermediario (estadísticas de envío) se ha añadido de forma predeterminada. Este nuevo flujo de trabajo sincroniza los datos estadísticos de envío (nms:deliveryStat) desde el intermediario a la instancia de marketing. (NEO-36802)
 
 ### Parches {#release-7-3-4-patches}
 
@@ -171,7 +171,7 @@ _21 de noviembre de 2022_
 
 * Adobe Campaign ahora es compatible con PostgreSQL 14. Para obtener más información, consulte esta [nota técnica](../../technotes/using/tech-stack-upgrade.md).
 
-* Tras el fin de la vida útil de Microsoft Internet Explorer 11, el motor de renderización de HTML para los paneles de la consola del cliente utiliza ahora Microsoft Edge Chromium. (NEO-20741)
+* Tras el fin de la vida útil de Microsoft Internet Explorer 11, el motor de renderización de HTML para los paneles de control de la consola del cliente utiliza ahora Microsoft Edge Chromium. (NEO-20741)
 
 Obtenga más información en la [Matriz de compatibilidad de Campaign](../../rn/using/compatibility-matrix.md#RDBMSservers).
 
@@ -198,7 +198,7 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](depre
 
 <!--* Web logs have been improved: `logonEscalation` warnings are now only displayed for users with admin privileges. (NEO-47167)-->
 * Para evitar errores, el flujo de trabajo **Recopilación de datos para el servicio HeatMap** (collectDataHeatMapService) ahora se detiene de forma predeterminada. (NEO-33959)
-* Se han implementado varias mejoras para optimizar el uso de la CPU para el panel de campañas. (NEO-46417)
+* Se han implementado varias mejoras para optimizar el uso de la CPU para el panel de control de campañas. (NEO-46417)
 * Para evitar bloqueos, se ha eliminado el método loadLibraryDebug JS. (NEO-46968)
 * Las referencias restantes a la biblioteca log4j se han eliminado de la instalación de Campaign en Windows. (NEO-44851)
 
@@ -209,7 +209,7 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](depre
 * Se ha corregido un problema al restablecer la aprobación de contenido en un ENVÍO de correo electrónico, que impedía la nueva aprobación. (NEO-44259)
 * Se ha corregido un problema que podía impedir que se mostrara el botón **Aprobación de envío**. (NEO-47547)
 * Se ha corregido un problema de rendimiento en la pestaña HTML de un envío que se podía producir en código HTML extenso. (NEO-47440)
-* Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de entregas en la instancia MID, cuando la opción `FeatureFlag_GZIP_Compression` estaba activada. (NEO-49183)
+* Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de entregas en la instancia MID, cuando la opción `FeatureFlag_GZIP_Compression` estaba habilitada. (NEO-49183)
 * Se ha corregido un problema que impedía enviar notificaciones de aplicaciones móviles de iOS desde una instancia de ejecución al usar la autenticación basada en token. (NEO-45961)
 * Se ha corregido un problema con el flujo de trabajo **Actualizar la entregabilidad** (deliverabilityUpdate) que se bloqueaba cuando tenía que sincronizar demasiados broadlogs. (NEO-48287)
 * Se ha corregido un problema con el tipo de eventos que bloqueaba el flujo de trabajo **Sincronización del centro de mensajes** (mcSynch).

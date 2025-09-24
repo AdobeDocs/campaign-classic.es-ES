@@ -7,7 +7,7 @@ user-guide-description: Documentación de producto para Adobe Campaign Classic v
 sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2569'
 ht-degree: 100%
 
@@ -122,11 +122,11 @@ ht-degree: 100%
       + [Optimización de las envíos](delivery/using/optimize-delivery.md)
       + [Uso de plantillas](delivery/using/use-templates.md)
       + [Creación de contenido personalizado](delivery/using/design-and-personalize.md)
-      + [Definición de la audiencia correcta](delivery/using/define-the-right-audience.md)
+      + [Definición del público correcto](delivery/using/define-the-right-audience.md)
       + [Comprobación antes de enviar](delivery/using/check-before-sending.md)
       + [Seguimiento y monitorización](delivery/using/track-and-monitor.md)
-   + [Envío de correos electrónicos ](delivery/using/about-email-channel.md)
-   + Envío de correos electrónicos  {#sending-emails}
+   + [Envío de correos electrónicos](delivery/using/about-email-channel.md)
+   + Envío de correos electrónicos {#sending-emails}
       + [Crear un envío de correo electrónico](delivery/using/creating-an-email-delivery.md)
       + [Definición del contenido del correo electrónico](delivery/using/defining-the-email-content.md)
       + [Definición del contenido interactivo](delivery/using/defining-interactive-content.md)
@@ -160,7 +160,7 @@ ht-degree: 100%
    + Envío de correo directo  {#sending-direct-mail}
       + [Acerca del canal de correo directo](delivery/using/about-direct-mail-channel.md)
       + [Crear un envío de correo directo](delivery/using/creating-a-direct-mail-delivery.md)
-      + [Definición del contenido de correo postal](delivery/using/defining-the-direct-mail-content.md)
+      + [Definición del contenido de correo directo](delivery/using/defining-the-direct-mail-content.md)
       + [Validación](delivery/using/validating.md)
    + Uso de plantillas de envío {#using-delivery-templates}
       + [Trabajo con plantillas de envío](delivery/using/about-templates.md)
@@ -202,7 +202,7 @@ ht-degree: 100%
    + Monitorización de los envíos {#monitoring-deliveries}
       + [Introducción a la monitorización de envíos](delivery/using/about-delivery-monitoring.md)
       + [Acceso a la lista de envíos](delivery/using/list-of-deliveries.md)
-      + [Tablero de envíos](delivery/using/delivery-dashboard.md)
+      + [Panel de control de envíos](delivery/using/delivery-dashboard.md)
       + [Prácticas recomendadas sobre el rendimiento de los envíos](delivery/using/delivery-performances.md)
       + [Solución de problemas de envío](delivery/using/delivery-troubleshooting.md)
       + [Estados de los envíos](delivery/using/delivery-statuses.md)
@@ -247,7 +247,7 @@ ht-degree: 100%
       + [Introducción a las campañas de marketing](campaign/using/setting-up-marketing-campaigns.md)
       + [Creación y configuración de plantillas](campaign/using/marketing-campaign-templates.md)
       + [Agregar envíos](campaign/using/marketing-campaign-deliveries.md)
-      + [Selección de la audiencia](campaign/using/marketing-campaign-target.md)
+      + [Selección del público](campaign/using/marketing-campaign-target.md)
       + [Administración de documentos y recursos](campaign/using/marketing-campaign-assets.md)
       + [Configuración y administración de aprobaciones](campaign/using/marketing-campaign-approval.md)
       + [Monitorización de campañas](campaign/using/marketing-campaign-monitoring.md)
@@ -328,7 +328,7 @@ ht-degree: 100%
       + [Interfaz del editor de contenido](web/using/content-editor-interface.md)
       + [Editar contenido](web/using/editing-content.md)
       + [Recomendaciones para la edición de contenido](web/using/content-editing-best-practices.md)
-      + [Creación de una página de aterrizaje](web/using/creating-a-landing-page.md)
+      + [Creación de una página de destino](web/using/creating-a-landing-page.md)
       + [Caso práctico: Crear un envío de correo electrónico](web/using/use-case-creating-an-email-delivery.md)
    + Formularios web {#web-forms}
       + [Introducción a los formularios web](web/using/about-web-forms.md)
@@ -363,17 +363,17 @@ ht-degree: 100%
       + [Solución de problemas de canalización](integrations/using/pipeline-troubleshooting.md)
    + Fuentes y destinos de Adobe Experience Platform  {#aep-sources-destinations}
       + [Trabajo con fuentes y destinos](integrations/using/get-started-sources-destinations.md)
-      + [Ingesta de audiencias de Adobe Experience Platform en Campaign](integrations/using/ingest-aep-data.md)
+      + [Ingesta de públicos de Adobe Experience Platform en Campaign](integrations/using/ingest-aep-data.md)
       + [Exportación de datos de Campaign a Adobe Experience Platform](integrations/using/export-campaign-data.md)
    + Conector de Adobe Analytics{#analytics-connector}
       + [Introducción al conector de Adobe Analytics](integrations/using/gs-aa.md)
       + [Aprovisionamiento del Conector de Adobe Analytics](integrations/using/adobe-analytics-provisioning.md)
-   + Uso compartido de audiencias {#audience-sharing}
-      + [Uso compartido de audiencias con  [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+   + Uso compartido de públicos {#audience-sharing}
+      + [Uso compartido de públicos con  [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
       + [Envío de una solicitud a Adobe](integrations/using/submitting-request-to-adobe.md)
-      + [Configuración de la integración de audiencias compartidas en  [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
+      + [Configuración de la integración de públicos compartidos en  [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
       + [Solución de problemas](integrations/using/troubleshooting.md)
-      + [Importación y exportación de audiencias](integrations/using/importing-and-exporting-audiences.md)
+      + [Importación y exportación de públicos](integrations/using/importing-and-exporting-audiences.md)
    + Uso compartido de recursos {#asset-sharing}
       + [Uso compartido de recursos con  [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
       + [Configuración del acceso a  [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
@@ -389,7 +389,7 @@ ht-degree: 100%
    + Conector ACS {#acs-connector}
       + [Introducción a  [!DNL ACS Connector]](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [Sincronización de perfiles](integrations/using/synchronizing-profiles.md)
-      + [Sincronización de audiencias](integrations/using/synchronizing-audiences.md)
+      + [Sincronización de públicos](integrations/using/synchronizing-audiences.md)
       + [Sincronización de aplicaciones web](integrations/using/synchronizing-web-applications.md)
       + [Resolución de problemas con  [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
 + [Automatización con flujos de trabajo](workflow/using/about-workflow-automation.md)
@@ -495,7 +495,7 @@ ht-degree: 100%
       + [Realización de computación agregada](workflow/using/performing-aggregate-computing.md)
       + [Realización de consultas mediante la administración de agrupación](workflow/using/querying-using-grouping-management.md)
       + [Realización de consultas con una relación de varios a varios](workflow/using/querying-using-many-to-many-relationship.md)
-      + [Adición de un campo calculado de tipo de lista desglosada](workflow/using/adding-enumeration-type-calculated-field.md)
+      + [Adición de un campo calculado de tipo Enumeración](workflow/using/adding-enumeration-type-calculated-field.md)
       + [Creación de un filtro](workflow/using/creating-a-filter.md)
       + [Filtro de destinatarios duplicados](workflow/using/filtering-duplicated-recipients.md)
    + Monitorización de flujos de trabajo {#monitoring-workflows}
@@ -755,7 +755,7 @@ ht-degree: 100%
          + [Condición](configuration/using/schema/condition.md)
          + [Índice de base de datos](configuration/using/schema/db-index.md)
          + [Elemento](configuration/using/schema/element.md)
-         + [Lista desglosada](configuration/using/schema/enumeration.md)
+         + [Enumeración](configuration/using/schema/enumeration.md)
          + [Ayuda](configuration/using/schema/help.md)
          + [Unirse](configuration/using/schema/join.md)
          + [Clave](configuration/using/schema/key.md)
@@ -826,7 +826,7 @@ ht-degree: 100%
    + [Procedimiento de reversión](migration/using/about-rollback.md)
 + Notas técnicas {#technotes}
    + [Recomendaciones de tamaño de hardware](technotes/using/hardware-sizing.md)
-   + [Envío con el servidor de correo mejorado](delivery/using/sending-with-enhanced-mta.md)
+   + [Envío con el servidor de MTA mejorado](delivery/using/sending-with-enhanced-mta.md)
    + [Actividad de flujo de trabajo de SMS entrante para infraestructura intermediaria](technotes/using/inbound-sms-wf.md)
    + Actualización a IMS{#ims}
       + [Transición a Adobe IMS](technotes/using/ac-ims.md)

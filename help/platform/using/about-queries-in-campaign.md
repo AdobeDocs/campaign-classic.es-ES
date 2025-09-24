@@ -8,9 +8,9 @@ role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
 source-git-commit: 471018f09e5a14635fcce07aeca1e2cf48d9144f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -30,18 +30,18 @@ Las consultas se crean utilizando campos de la tabla seleccionada o utilizando u
 
 >[!TAB Documentación de consultas]
 
-Para obtener más información acerca de las consultas, consulte la [documentación de Campaign v8.](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+Para obtener más información sobre las consultas, consulte la [documentación de la versión 8 de Campaign.](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
 
 
 [![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
 
 
->[!TAB Crear una consulta]
+>[!TAB Creación de una consulta]
 
-Conozca los pasos clave relacionados con la creación de consultas en la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}.
+Conozca los pasos clave relacionados con la creación de consultas en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}.
 
 [![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
 
 >[!ENDTABS]
 
-![Captura de pantalla que muestra un ejemplo de una consulta.](assets/query_recipients_4.png)
+![Captura de pantalla que muestra el ejemplo de una consulta.](assets/query_recipients_4.png)
