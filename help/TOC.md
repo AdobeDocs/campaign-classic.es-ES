@@ -6,9 +6,9 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
-workflow-type: ht
-source-wordcount: '2569'
+source-git-commit: faed7f54dc72937b24ee1ece80d17150a513fa39
+workflow-type: tm+mt
+source-wordcount: '2565'
 ht-degree: 100%
 
 ---
@@ -37,6 +37,7 @@ ht-degree: 100%
          + [Introducción a la IU de Campaign](platform/using/adobe-campaign-workspace.md)
          + [Uso de Campaign Explorer](platform/using/adobe-campaign-explorer.md)
          + [Examen y personalización de listas](platform/using/adobe-campaign-ui-lists.md)
+         + [Enumeraciones](platform/using/managing-enumerations.md)
       + [Conectores de Campaign](platform/using/about-connectors.md)
       + Preguntas frecuentes {#faq}
          + [Preguntas clave](platform/using/common-questions.md)
@@ -99,9 +100,6 @@ ht-degree: 100%
       + [Creación y administración de grupos](platform/using/access-management-groups.md)
       + [Uso de derechos asignados para configurar permisos](platform/using/access-management-named-rights.md)
       + [Administración del acceso a las carpetas](platform/using/access-management-folders.md)
-   + Paquetes de datos y enumeraciones  {#administration-basics}
-      + [Paquetes de datos](platform/using/working-with-data-packages.md)
-      + [Enumeraciones](platform/using/managing-enumerations.md)
    + Conectores CRM {#connectors}
       + [Introducción a los conectores CRM](platform/using/crm-connectors.md)
       + [Conexión con Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
@@ -738,6 +736,7 @@ ht-degree: 100%
          + [Comportamiento de JSP](production/using/jsp-behavior.md)
          + [Localización de la versión de Tomcat](production/using/locate-tomcat-version.md)
 + Guía para desarrolladores {#configuring-campaign-classic}
+   + [Paquetes de datos](platform/using/working-with-data-packages.md)
    + Modelo de datos {#data-model}
       + [Acerca del modelo de datos](configuration/using/about-data-model.md)
       + [Descripción del modelo de datos](configuration/using/data-model-description.md)
