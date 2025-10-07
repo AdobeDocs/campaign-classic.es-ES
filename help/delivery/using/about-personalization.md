@@ -29,7 +29,7 @@ Los mensajes enviados por Adobe Campaign pueden personalizarse de varias formas 
 
 Con Adobe Campaign, personalice las entregas para enviar mensajes que coincidan con el perfil y los intereses de cada destinatario.
 
-Personalization le ayuda a hacer que sus mensajes sean más relevantes y atractivos. Puede utilizar los datos del destinatario para adaptar el contenido, añadir campos dinámicos o mostrar diferente información en función de las condiciones. Aprenda a configurar y utilizar funciones de personalización en los envíos en [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html){target=_blank}.
+Personalization le ayuda a hacer que sus mensajes sean más relevantes y atractivos. Puede utilizar los datos del destinatario para adaptar el contenido, añadir campos dinámicos o mostrar diferente información en función de las condiciones. Aprenda a configurar y utilizar funciones de personalización en los envíos en [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=es){target=_blank}.
 
 Como parte de la iniciativa de promoción de la versión 8 de Campaign, se ha reorganizado la documentación de Campaign Classic. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de la versión 8 de Campaign.
 
@@ -37,10 +37,10 @@ Como parte de la iniciativa de promoción de la versión 8 de Campaign, se ha re
 
 >[!TAB Documentación de personalización de contenido]
 
-Para obtener más información acerca de la personalización de contenido, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html){target=_blank}.
+Para obtener más información acerca de la personalización de contenido, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=es){target=_blank}.
 
 
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html){target=_blank}
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=es){target=_blank}
 
 
 >[!TAB Creación de envío de correo electrónico]
@@ -77,7 +77,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
 
 The key steps to send an email are as follows:
 
