@@ -5,9 +5,11 @@ description: Aprenda a añadir contenido condicional
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Personalization, Multilingual Messages
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
+source-git-commit: a1e9fec0e9c85bf25b79e24a7432dfb45bd1a0cb
+workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 100%
 
@@ -111,6 +113,6 @@ En el siguiente ejemplo, puede aprender a crear un correo electrónico multiling
 
 Aprenda a añadir contenido condicional a un envío con el ejemplo de una newsletter multilingüe.
 
->[!VIDEO](https://video.tv.adobe.com/v/27471?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

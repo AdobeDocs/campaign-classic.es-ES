@@ -5,11 +5,13 @@ description: Aprenda a utilizar bloques de personalización
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Personalization
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+source-git-commit: a1e9fec0e9c85bf25b79e24a7432dfb45bd1a0cb
+workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -111,7 +113,7 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
 
   >[!NOTE]
   >
-  >Este bloque se puede utilizar en envíos dirigidos solamente a visitantes.
+  >Este bloque se puede utilizar en envíos segmentados solamente a visitantes.
 
 * **[!UICONTROL Registration confirmation]**: inserta un vínculo que permite confirmar la suscripción.
 * **[!UICONTROL Social network sharing links]** : inserta botones que permiten al destinatario compartir un vínculo al contenido de la página espejo con el cliente de correo electrónico, Facebook, X (anteriormente conocido como Twitter) y LinkedIn (consulte [Marketing viral: reenviar a un amigo](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
@@ -138,12 +140,12 @@ Para crear un bloque personalizado, vaya a Explorer y aplique los pasos siguient
 
      ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * Introduzca el contenido (en HTML, texto, JavaScript, etc.) de los bloques de personalización y haga clic en **[!UICONTROL Save]**.
+   * Introduzca el contenido (en HTML, texto, JavaScript, etc.) de los bloques personalizados y haga clic en **[!UICONTROL Save]**.
 
 ## Tutorial en vídeo {#personalization-blocks-video}
 
 Descubra cómo crear bloques de contenido dinámico y cómo utilizarlos para personalizar el contenido del envío de su correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/27461?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

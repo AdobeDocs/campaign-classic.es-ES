@@ -5,9 +5,11 @@ description: Aprenda a utilizar los campos de personalización
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Personalization
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 67fd9a67-cb05-46cd-acd5-e42fde6f4d4f
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+source-git-commit: a1e9fec0e9c85bf25b79e24a7432dfb45bd1a0cb
+workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 100%
 
@@ -140,6 +142,6 @@ Al añadir el esquema de objeto, puede seleccionar los campos que desea añadir 
 
 Obtenga información sobre cómo agregar un campo de personalización a la línea de asunto y el contenido de un envío de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/27466?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
