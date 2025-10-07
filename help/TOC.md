@@ -6,10 +6,10 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: faed7f54dc72937b24ee1ece80d17150a513fa39
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
 workflow-type: tm+mt
-source-wordcount: '2565'
-ht-degree: 100%
+source-wordcount: '2561'
+ht-degree: 99%
 
 ---
 
@@ -144,8 +144,8 @@ ht-degree: 100%
       + [Creación de un SMS](delivery/using/sms-create.md)
       + [Migración al conector genérico SMPP extendido](delivery/using/unsupported-connector-migration.md)
    + [Envío de mensajes de LINE](delivery/using/line-channel.md)
+   + [Envío de notificaciones push ](delivery/using/about-mobile-app-channel.md)
    + Envío de notificaciones push  {#sending-push-notifications}
-      + [Introducción al canal de aplicaciones móviles](delivery/using/about-mobile-app-channel.md)
       + [Integración del SDK de Campaign en la aplicación móvil](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configuración de la aplicación móvil{#configure-the-mobile-app}
          + [Introducción a la configuración de la aplicación](delivery/using/get-started-app-config.md)
@@ -155,8 +155,8 @@ ht-degree: 100%
          + [Creación de un mensaje push para iOS](delivery/using/create-notifications-ios.md)
          + [Creación de un mensaje push para Android](delivery/using/create-notifications-android.md)
       + [Solución de problemas](delivery/using/troubleshooting.md)
+   + [Envío de correos directos](delivery/using/about-direct-mail-channel.md)
    + Envío de correo directo  {#sending-direct-mail}
-      + [Acerca del canal de correo directo](delivery/using/about-direct-mail-channel.md)
       + [Crear un envío de correo directo](delivery/using/creating-a-direct-mail-delivery.md)
       + [Definición del contenido de correo directo](delivery/using/defining-the-direct-mail-content.md)
       + [Validación](delivery/using/validating.md)

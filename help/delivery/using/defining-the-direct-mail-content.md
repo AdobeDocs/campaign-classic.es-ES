@@ -5,15 +5,17 @@ description: Aprenda a definir el contenido de correo directo
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Direct Mail
 role: User
+hide: true
+hidefromtoc: true
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
+workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
 
 ---
 
-# Definición del contenido de correo postal{#defining-the-direct-mail-content}
+# Definición del contenido de correo directo{#defining-the-direct-mail-content}
 
 ## Archivo de extracción {#extraction-file}
 
@@ -23,7 +25,7 @@ De forma predeterminada, el archivo de extracción se crea y se almacena en el s
 
 ![](assets/s_ncs_user_mail_delivery_local_file.png)
 
-Para una entrega de correo postal, el contenido de la extracción se define en el vínculo **[!UICONTROL Edit the extraction file format...]**.
+Para una entrega de correo directo, el contenido de la extracción se define en el vínculo **[!UICONTROL Edit the extraction file format...]**.
 
 ![](assets/s_ncs_user_mail_delivery_format_link.png)
 

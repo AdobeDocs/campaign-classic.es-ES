@@ -5,8 +5,8 @@ description: Esta sección proporciona información general específica del cana
 feature: Email
 role: User
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
-source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
-workflow-type: ht
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -19,8 +19,6 @@ Con Adobe Campaign, cree envíos de correo electrónico para enviar correos elec
 El correo electrónico sigue siendo uno de los canales más potentes y flexibles para interactuar con los usuarios más allá de la aplicación o el sitio web. Tanto si va a enviar contenido personalizado, anuncios o mensajes promocionales, el correo electrónico le proporciona pleno control sobre el mensaje y el público. Aprenda a configurar y utilizar el canal de correo electrónico al máximo: personalizando el contenido, segmentándose a grupos de usuarios específicos e incorporando elementos multimedia enriquecidos para maximizar el impacto y la participación, todo ello en la [documentación de Adobe Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
 
 Como parte de la iniciativa de promoción de la versión 8 de Campaign, se ha reorganizado la documentación de Campaign Classic. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de la versión 8 de Campaign.
-
-
 
 
 >[!BEGINTABS]
@@ -67,7 +65,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 The key steps to send an email are as follows:
 

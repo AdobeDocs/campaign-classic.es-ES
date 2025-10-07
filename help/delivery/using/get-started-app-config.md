@@ -5,9 +5,11 @@ description: Obtenga información sobre cómo iniciar la configuración de la ap
 feature: Push
 role: User, Developer
 level: Intermediate, Experienced
+hide: true
+hidefromtoc: true
 exl-id: 95bc07cc-8837-4511-81bc-05fad28191c9
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
+source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 
