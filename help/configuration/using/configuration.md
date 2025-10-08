@@ -5,9 +5,9 @@ feature: Application Settings
 description: Obtenga información sobre cómo configurar el árbol de navegación del explorador de Campaign
 role: Data Engineer, Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Como usuario experto, puede agregar carpetas en el árbol del explorador y personalizarlo.
 
-Obtenga más información acerca del explorador de campañas y la jerarquía de navegación [en esta sección](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
+Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 Los tipos de carpetas usados por la lista de navegación se describen en un documento XML que obedece a la gramática del esquema **xtk:navtree**.
 
@@ -50,7 +50,7 @@ La declaración de tipos de archivo está estructurada en el documento con los s
 
 ## Comandos globales {#global-commands}
 
-Un comando global permite iniciar una acción. SOAP Esta acción puede ser un formulario de entrada o una llamada a la función de la llamada de.
+Un comando global permite iniciar una acción. Esta acción puede ser un formulario de entrada o una llamada de SOAP.
 
 Los comandos globales son accesibles desde el menú principal **[!UICONTROL Tools]**.
 
@@ -82,7 +82,7 @@ La descripción de un comando global se especifica en el elemento **`<command>`*
 * **name**: nombre interno del comando: el nombre debe ser especificado y único
 * **label**: etiqueta del comando.
 * **desc**: descripción visible desde la barra de estado de la pantalla principal.
-* **formulario**: formulario a lanzar: el valor que se va a introducir es la clave de identificación del formulario de entrada (por ejemplo: &quot;cus:destinatario&quot;)
+* **formulario**: formulario que se va a iniciar: el valor que se va a escribir es la clave de identificación del formulario de entrada (por ejemplo: &quot;cus:recipient&quot;)
 * **rights**: lista de derechos asignados (separados por una coma) que permiten el acceso a este comando. Se puede acceder a la lista de derechos disponibles desde la carpeta **[!UICONTROL Administration > Access management > Named rights]**.
 * **promptLabel**: muestra un cuadro de confirmación antes de la ejecución del comando.
 
@@ -92,7 +92,7 @@ Los comandos se muestran en el mismo orden en que se declaran en el documento XM
 
 Un separador de comandos permite mostrar una barra de separación entre los comandos. Se identifica con el valor **&#39;-&#39;** contenido en la etiqueta de comando.
 
-SOAP La presencia opcional de la etiqueta **`<soapcall>`** con sus parámetros de entrada define la llamada de un método de que se va a ejecutar. SOAP Para obtener más información sobre la API de, consulte [Documentación de Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es).
+La presencia opcional de la etiqueta **`<soapcall>`** con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre la API de SOAP, consulte [Documentación de Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es).
 
 El contexto del formulario se puede actualizar en la inicialización desde la etiqueta **`<enter>`**. Para obtener más información sobre esta etiqueta, consulte la documentación sobre los formularios de entrada.
 
@@ -122,7 +122,7 @@ El contexto del formulario se puede actualizar en la inicialización desde la et
   </command>
   ```
 
-* SOAP Ejecución de un método de:
+* Ejecución de un método SOAP:
 
   ```
   <command name="cmd3" label="Example 3" promptLabel="Do you really want to execute the command?">
@@ -225,7 +225,7 @@ El filtrado y la ordenación se pueden aplicar cuando se carga la lista:
 
 ### Comandos de acceso directo {#shortcut-commands}
 
-Un comando de acceso directo permite iniciar una acción al seleccionar la lista. SOAP La acción puede ser un formulario de entrada o una llamada a la función de llamada a la cuenta de.
+Un comando de acceso directo permite iniciar una acción al seleccionar la lista. La acción puede ser un formulario de entrada o una llamada de SOAP.
 
 Se puede acceder a los comandos desde el menú **[!UICONTROL Action]** de la lista o desde el botón de menú asociado.
 
@@ -251,7 +251,7 @@ La descripción de un comando se especifica en el elemento **`<command>`** con l
 * **name**: nombre interno del comando: el nombre debe ser especificado y único.
 * **label**: etiqueta del comando.
 * **desc**: descripción visible desde la barra de estado de la pantalla principal.
-* **formulario**: formulario a lanzar: el valor que se va a introducir es la clave de identificación del formulario de entrada (por ejemplo, &quot;cus:destinatario&quot;).
+* **formulario**: formulario que se va a iniciar: el valor que se va a escribir es la clave de identificación del formulario de entrada (por ejemplo: &quot;cus:recipient&quot;).
 * **rights**: lista de derechos asignados (separados por una coma) que permiten el acceso a este comando. Se puede acceder a la lista de derechos disponibles desde la carpeta **[!UICONTROL Administration > Access management > Named rights]**.
 * **promptLabel**: muestra un cuadro de confirmación antes de la ejecución del comando
 * **monoSelection**: fuerza la selección mono (selección múltiple de forma predeterminada).
@@ -265,7 +265,7 @@ Los comandos se muestran en el mismo orden en que se declaran en el documento XM
 
 Un separador de comandos permite mostrar una barra de separación entre los comandos. Se identifica con el valor **&#39;-&#39;** contenido en la etiqueta de comando.
 
-SOAP La presencia opcional de la etiqueta **`<soapcall>`** con sus parámetros de entrada define la llamada de un método de que se va a ejecutar. SOAP Para obtener más información sobre las API de, consulte [Documentación de Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es).
+La presencia opcional de la etiqueta **`<soapcall>`** con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre las API de SOAP, consulte [Documentación de Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es).
 
 El contexto del formulario se puede actualizar en la inicialización mediante la etiqueta **`<enter>`**. Para obtener más información sobre esta etiqueta, consulte la documentación del formulario de entrada.
 

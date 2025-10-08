@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
-source-git-commit: 7b71cac6f4c2fc2e8d30683130adb27eff757b73
-workflow-type: ht
-source-wordcount: '903'
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+workflow-type: tm+mt
+source-wordcount: '894'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Aligned with this naming, Campaign has 3 types of upgrades:
 1. Patch Upgrades - A patch upgrade includes fixes only (ex: 8.5.1 to 8.5.2)
 -->
 
-## Estados de las versiones {#rn-statuses}
+## Estados de la versión {#rn-statuses}
 
 Cada nueva versión viene con un estado que se identifica con un color en las [Notas de la versión](latest-release.md).
 
@@ -152,7 +152,6 @@ Un equipo de representantes del Servicio de atención al cliente, gerentes de pr
 * [Buscar la versión de Campaign](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version).
 * [Ayuda y asistencia](../../support.md)
 * [Versiones del Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es)
-* [Últimas actualizaciones de la documentación](../../rn/using/documentation-updates.md)
 * [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md)
 * [Preguntas frecuentes sobre la actualización de versiones](../../platform/using/faq-build-upgrade.md)
 

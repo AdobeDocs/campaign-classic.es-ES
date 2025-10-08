@@ -6,10 +6,10 @@ feature: Application Settings
 role: Data Engineer, Developer
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 4%
+source-wordcount: '297'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,7 @@ La creación de un nuevo formulario permite ver y editar los datos de la tabla d
 >El nombre del formulario debe ser idéntico al nombre del esquema al que hace referencia.
 
 1. Vaya al nodo **Administration > Configuration > Input forms** del explorador.
-1. Crear un nuevo archivo **xtk:form** de tipo **form**.
+1. Crear un nuevo archivo de **xtk:form** tipo **formulario**.
 1. Describa todos los campos y la monitorización que necesite en función de la plantilla de tabla.
 
    >[!NOTE]
@@ -65,10 +65,6 @@ La creación de un nuevo formulario permite ver y editar los datos de la tabla d
 1. Vaya al nodo **[!UICONTROL Administration>Configuration>Navigation hierarchies]**.
 1. Crear un nuevo documento **xtk:navtree** de tipo **navtree**.
 1. Describa todos los campos y la monitorización que necesite en función de la plantilla de tabla.
-
-   >[!NOTE]
-   >
-   >Para obtener más información sobre los archivos de tipo **navtree**, consulte [esta página](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy).
 
    En el ejemplo actual, el archivo **navtree** debe basarse en el esquema **cus:individual** y, por lo tanto, tener el siguiente formulario:
 

@@ -8,10 +8,10 @@ audience: integrations
 content-type: reference
 level: Intermediate, Experienced
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '1206'
-ht-degree: 100%
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+workflow-type: tm+mt
+source-wordcount: '1200'
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,7 @@ Actualmente, no hay forma de tener diferentes colas para entornos separados como
 Los registros como logInfo() se dirigen al registro [!DNL pipelined]. Los errores como logError() se escriben en el registro [!DNL pipelined] y hacen que el evento se coloque en una cola de reintentos. En este caso, debe comprobar el registro de canalización.
 Los mensajes de error se vuelven a intentar varias veces en la duración establecida en las opciones [!DNL pipelined].
 
-Para fines de depuración y monitorización, los datos de desencadenador completos se escriben en la tabla de desencadenadores del campo &quot;data&quot; en formato XML. De forma alternativa, el logInfo() que contenga los datos desencadenadores tiene el mismo propósito.
+Para fines de depuración y monitorización, los datos de activador completos se escriben en la tabla de activadores del campo &quot;data&quot; en formato XML. De forma alternativa, el logInfo() que contenga los datos activadores tiene el mismo propósito.
 
 ### Análisis de los datos {#data-parsing}
 
@@ -205,8 +205,8 @@ Este es un ejemplo de código de esquema para esta tabla:
 
 | Atributo | Tipo | Etiqueta | Descripción |
 |:-:|:-:|:-:|:-:|
-| pipelineEventId | Largo | Clave principal | La clave primaria interna del activador. |
-| datos | Nota | Activar datos | El contenido completo de los datos desencadenadores en formato XML. Para fines de depuración y auditoría. |
+| pipelineEventId | Largo | Clave principal | La clave principal interna del activador. |
+| datos | Nota | Activar datos | El contenido completo de los datos activadores en formato XML. Para fines de depuración y auditoría. |
 | triggerType | Cadena 50 | TriggerType | Nombre del activador. Identifica el comportamiento del cliente en el sitio web. |
 | shopper_id | Cadena 32 | shopper_id | Identificador interno del comprador. Definido por el flujo de trabajo de reconciliación. Si es cero, significa que el cliente es desconocido en Campaign. |
 | shopper_key | Largo | shopper_key | El Identificador externo del comprador según Analytics. |
@@ -220,7 +220,7 @@ Los eventos se pueden mostrar con un formulario sencillo basado en el esquema de
 
 >[!NOTE]
 >
->El nodo Evento de canalización no está integrado y debe añadirse, así como el formulario relacionado debe crearse en Campaign. Estas operaciones están restringidas únicamente a usuarios expertos. Para obtener más información, consulte estas secciones: [Jerarquía de navegación](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarchy) y [Edición de formularios](../../configuration/using/editing-forms.md).
+>El nodo Evento de canalización no está integrado y debe añadirse, así como el formulario relacionado debe crearse en Campaign. Estas operaciones están restringidas únicamente a usuarios expertos. Para obtener más información, consulte [Edición de formularios](../../configuration/using/editing-forms.md).
 
 ![](assets/triggers_7.png)
 
@@ -245,5 +245,5 @@ Los activadores se procesan dentro de la hora. El volumen puede ser de aproximad
 
 ### Flujo de trabajo de la campaña {#campaign-workflow}
 
-El flujo de trabajo de la campaña de desencadenadores suele ser similar al de otras campañas recurrentes que se han utilizado.
+El flujo de trabajo de la campaña de activadores suele ser similar al de otras campañas recurrentes que se han utilizado.
 Por ejemplo, puede establecer un inicio con una consulta en los activadores que buscan eventos específicos durante el último día. Ese destinatario se utiliza para enviar el correo electrónico. Los enriquecimientos o datos pueden provenir del activador. Marketing puede utilizarla de forma segura, ya que no requiere ninguna configuración.

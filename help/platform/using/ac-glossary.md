@@ -6,10 +6,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
-workflow-type: ht
-source-wordcount: '5959'
-ht-degree: 100%
+source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+workflow-type: tm+mt
+source-wordcount: '6002'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Más información sobre las [Pruebas A/B](../../delivery/using/get-started-a-b-t
 
 +++**Administración de acceso**
 
-La administración de acceso permite a los administradores asignar acceso y permisos a los usuarios de Adobe Campaign. Los permisos incluyen la capacidad de ver o usar funciones de Adobe Campaign, como ejecutar flujos de trabajo, definir esquemas y administrar audiencias.
+La administración de acceso permite a los administradores asignar acceso y permisos a los usuarios de Adobe Campaign. Los permisos incluyen la capacidad de ver o usar funciones de Adobe Campaign, como ejecutar flujos de trabajo, definir esquemas y administrar públicos.
 
 Más información sobre la [Administración de acceso](access-management.md).
 +++
@@ -65,11 +65,11 @@ La actividad Aprobación local es una actividad de flujo de trabajo que se utili
 Más información sobre la [Actividad de aprobación local](../../workflow/using/local-approval.md).
 +++
 
-+++**Audiencia**
++++**Público**
 
-Una audiencia es el conjunto resultante de perfiles que cumplen los criterios de una definición del filtro, según las reglas y atributos.
+Un público es el conjunto resultante de perfiles que cumplen los criterios de una definición del filtro, según las reglas y atributos.
 
-Más información sobre las [Audiencias](../../campaign/using/marketing-campaign-target.md).
+Más información sobre las [Públicos](../../campaign/using/marketing-campaign-target.md).
 +++
 
 +++**Pista de auditoría**
@@ -140,7 +140,7 @@ Más información sobre la [Aprobación de contenido](../../campaign/using/marke
 
 +++**Grupos de control**
 
-Utilice los grupos de control para medir el impacto de sus campañas al excluir una parte de su audiencia. Los operadores pueden comparar el comportamiento de la población objetivo que recibió el mensaje con el comportamiento de los contactos no destinatarios. En función de los registros de envío, los operadores también pueden marcar como objetivo un grupo de control en campañas futuras.
+Utilice los grupos de control para medir el impacto de sus campañas al excluir una parte de su público. Los operadores pueden comparar el comportamiento de la población objetivo que recibió el mensaje con el comportamiento de los contactos no destinatarios. En función de los registros de envío, los operadores también pueden marcar como objetivo un grupo de control en campañas futuras.
 
 Más información sobre los [Grupos de control](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
 +++
@@ -205,7 +205,7 @@ Más información sobre la [Capacidad de entrega](../../delivery/using/about-del
 
 +++**Envío**
 
-Un envío es un elemento de comunicación de marketing específico que se envía a una audiencia a través de un canal específico (correo electrónico, SMS, notificación push, etc.). También conocido como &quot;toque&quot; en la terminología de marketing.
+Un envío es un elemento de comunicación de marketing específico que se envía a un público a través de un canal específico (correo electrónico, SMS, notificación push, etc.). También conocido como &quot;toque&quot; en la terminología de marketing.
 
 Más información acerca de los [Envíos](../../delivery/using/communication-channels.md).
 +++
@@ -240,7 +240,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 *Contexto: Correo directo*
 
-Una descripción del envío es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creados por la compañía y para una campaña determinada. Se utiliza en el contexto de los envíos por correo directo.
+Una descripción de envío es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creados por la compañía y para una campaña determinada. Se utiliza en el contexto de los envíos por correo directo.
 
 Más información sobre el [Correo directo](../../delivery/using/about-direct-mail-channel.md).
 +++
@@ -263,7 +263,7 @@ Más información sobre el [Análisis descriptivo](../../reporting/using/about-d
 
 *Contexto: Marketing distribuido*
 
-El complemento de marketing distribuido ofrece a los operadores de Campaign un espacio de trabajo colaborativo para implementar campañas entre entidades centrales (sedes centrales, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **lista de paquetes de Campaign**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
+El complemento de marketing distribuido ofrece a los operadores de Campaign un espacio de trabajo colaborativo para implementar campañas entre entidades centrales (sedes centrales, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **lista de paquetes de campañas**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
 
 Más información sobre el [Marketing distribuido](../../distributed/using/about-distributed-marketing.md)
 +++
@@ -296,7 +296,7 @@ E4X es la versión de Javascript que se utiliza en Adobe Campaign Classic. A vec
 
 *Contexto: Interacción de campaña*
 
-Las reglas de elegibilidad son restricciones aplicadas a un entorno, categoría u oferta relacionadas con el periodo de validez, el destinatario y el peso. Permiten garantizar que una oferta está en línea con el contacto objetivo. En el entorno de las ofertas, las reglas de elegibilidad incluyen reglas de presentación aplicadas a las ofertas y al destinatario. En las categorías, las reglas de elegibilidad permiten limitar la validez de la categoría en el tiempo, definir los temas de la aplicación y determinar el destinatario. También pueden definir un peso multiplicador durante un periodo determinado. Esto permite a los operadores compartir las reglas para ofertas en otras categorías y simplificar así la administración. En las ofertas, las reglas de elegibilidad permiten a los operadores limitar la validez de las ofertas en el tiempo y determinar el destinatario.
+Las reglas de elegibilidad son restricciones aplicadas a un entorno, categoría u oferta relacionadas con el periodo de validez, el destinatario y el peso. Permiten garantizar a los operadores que una oferta está en línea con el contacto objetivo. En el entorno de las ofertas, las reglas de elegibilidad incluyen reglas de presentación aplicadas a las ofertas y al destinatario. En las categorías, las reglas de elegibilidad permiten a los operadores limitar la validez de la categoría en el tiempo, definir los temas de la aplicación y determinar el destinatario. También pueden definir un peso multiplicador durante un periodo determinado. Esto permite a los operadores compartir las reglas para ofertas en otras categorías y simplificar así la administración. En las ofertas, las reglas de elegibilidad permiten a los operadores limitar la validez de las ofertas en el tiempo y determinar el destinatario.
 
 Más información sobre las [Reglas de elegibilidad](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -344,14 +344,16 @@ Más información sobre la [Actividad de enriquecimiento](../../workflow/using/e
 
 Una enumeración es un tipo de datos definido en esquemas o a nivel de plataforma que define los valores de entrada válidos para un campo. Las enumeraciones aparecen en la interfaz de usuario y en los generadores de consultas como listas de selección.
 
-Más información sobre las [Enumeraciones](../../platform/using/managing-enumerations.md).
+Obtenga más información sobre cómo **trabajar con listas desglosadas** en la [documentación de la versión 8 de Adobe Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 +++
 
 +++**Vista de Explorer**
 
 La vista de Explorer es una visualización jerárquica de las carpetas que contienen datos y artefactos de Adobe Campaign. Tenga en cuenta que el sistema de carpetas de Adobe Campaign no funciona como una vista de árbol típica, ya que cada carpeta contiene datos de un tipo específico, como envíos, flujos de trabajo u ofertas.
 
-Más información sobre la [Vista de Explorer](../../platform/using/adobe-campaign-explorer.md).
+
+Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+
 +++
 
 +++**Cuentas externas**
@@ -397,14 +399,15 @@ Más información sobre el [Filtrado de dimensión](../../workflow/using/buildin
 
 Una carpeta es un elemento de vista de Explorer que contiene registros de base de datos de un tipo de datos específico. La excepción es el tipo de carpeta genérica que se utiliza como elemento organizador y que no contiene ningún dato en sí, solo otras carpetas.
 
-Más información sobre las [Carpetas](../../platform/using/adobe-campaign-explorer.md).
+Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+
 +++
 
 +++**Vista de carpeta**
 
 La vista de carpeta es un tipo especial de carpeta Explorer que se utiliza para mostrar todos los registros de un tipo de datos seleccionado, independientemente de la carpeta a la que pertenezca. Las vistas de carpetas se utilizan como herramienta administrativa para administrar datos particionados o datos que se distribuyen entre muchas carpetas.
 
-Más información sobre la [Vista de carpeta](../../platform/using/adobe-campaign-explorer.md).
+Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 +++
 
 +++**Forms**
@@ -557,7 +560,8 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 El árbol de navegación es la navegación principal en la vista de Explorer de Adobe Campaign. El árbol de navegación funciona como un explorador de archivos (por ejemplo, el Explorador de Windows). Las carpetas pueden contener subcarpetas. Al seleccionar un nodo, se muestra la vista correspondiente al nodo. La vista mostrada es una lista asociada con un esquema y un formulario de entrada para editar la línea seleccionada. Puede personalizar el árbol de navegación y definir permisos en las carpetas.
 
-Más información sobre el [Árbol de navegación](../../platform/using/adobe-campaign-explorer.md#about-navigation-hierarch).
+Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+
 +++
 
 +++**Objetivos**
@@ -594,7 +598,7 @@ Más información sobre la [Interacción](../../interaction/using/interaction-an
 
 *Contexto: Interacción de campaña*
 
-El **Entorno de diseño** de la oferta es el entorno en el que los operadores crean ofertas, definen reglas de tipología y seleccionan el esquema que desean que sea objetivo de las ofertas. El entorno también define la tabla para almacenar las propuestas de ofertas generadas. De forma predeterminada, el complemento de interacción incluye un entorno de **diseño** y un entorno **en directo** relacionado con él. Ambos entornos están preconfigurados para seleccionar la tabla de destinatarios predeterminada.
+El **Entorno de diseño** de la oferta es el entorno en el que los operadores crean ofertas, definen reglas de tipología y seleccionan el esquema que desean que sea objetivo de las ofertas. El entorno también define la tabla para almacenar las propuestas de ofertas generadas. De forma predeterminada, el complemento de interacción incluye un entorno de **diseño** y un entorno **en directo** relacionado con él. Ambos entornos están preconfigurados para seleccionar la tabla de destinatarios integrada.
 
 Más información sobre los [Entornos de diseño de oferta](../../interaction/using/fundamental-principles.md).
 +++
@@ -639,7 +643,7 @@ Más información sobre los [Entornos de oferta en directo](../../interaction/us
 
 *Contexto: Interacción de campaña*
 
-Las reglas de presentación de ofertas son reglas de tipología a las que se hace referencia en el entorno de la oferta, que permiten excluir algunas ofertas, teniendo en cuenta el historial de propuestas del destinatario.
+Las reglas de presentación de ofertas son reglas de tipología a las que se hace referencia en el entorno de la oferta, que permiten a los operadores excluir algunas ofertas, teniendo en cuenta el historial de propuestas del destinatario.
 
 Más información sobre las [Reglas de presentación de ofertas](../../interaction/using/managing-offer-presentation.md#presentation-rules-overview).
 +++
@@ -875,7 +879,7 @@ Más información sobre los [Esquemas](../../configuration/using/about-schema-re
 
 +++**Extensión de los esquemas**
 
-La extensión de los esquemas permite personalizar los esquemas predeterminados para adaptarlos mejor a sus casos de uso empresariales. Por ejemplo, puede agregar el campo &quot;Fidelidad&quot; a la tabla Destinatario.
+La extensión de los esquemas permite personalizar los esquemas predeterminados para adaptarlos mejor a sus casos de uso empresariales. Por ejemplo, puede agregar el campo &quot;Lealtad&quot; a la tabla Destinatario.
 
 Más información sobre la [Extensión de los esquemas](../../configuration/using/extending-a-schema.md).
 +++
