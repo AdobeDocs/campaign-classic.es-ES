@@ -9,7 +9,7 @@ topic-tags: profile-management
 exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 hide: true
 hidefromtoc: true
-source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
+source-git-commit: d3a603bbb70dc63e72b6eed87a6503e155aff54e
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 82%
@@ -31,6 +31,7 @@ Cada nodo coincide con una carpeta. Los datos de cada carpeta deben considerarse
 >[!NOTE]
 >
 > * Para mostrar la lista de todos los destinatarios de la base de datos, debe crear una vista. Obtenga más información en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
+>
 > * Para obtener más información sobre cómo administrar los perfiles, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
 
