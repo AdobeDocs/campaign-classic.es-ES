@@ -1,20 +1,21 @@
 ---
 product: campaign
 title: Opciones de ayuda y asistencia de Campaign Classic
-description: ¿Necesita asistencia con el Campaign Classic? ¡Está en el lugar correcto!
+description: ¿Necesita asistencia con Campaign Classic? ¡Está en el lugar correcto!
 feature: Troubleshooting
 hidefromtoc: true
+hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: fd5e4bbc87a48f029a09b14ab1d927b9afe4ac52
+source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 68%
+source-wordcount: '653'
+ht-degree: 72%
 
 ---
 
 # Opciones de ayuda y asistencia de Campaign Classic {#help-support-options}
 
-¿Necesita asistencia con el Campaign Classic? ¡Está en el lugar correcto!
+¿Necesita asistencia con Campaign Classic? ¡Está en el lugar correcto!
 
 Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomendadas, los recursos en línea y el portal de asistencia. También puede unirse a la comunidad de Campaign, preguntar a los expertos o registrar un problema.
 
@@ -68,7 +69,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <li><a href="platform/using/import-export-workflows.md">Importación de datos con flujos de trabajo</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">Envío de mensajes en varias olas</a></li>
         <li><a href="delivery/using/defining-the-email-content.md">Diseño del contenido del correo electrónico</a></li>
-        <li><a href="delivery/using/delivery-best-practices.md">Prácticas recomendadas de entregas</a></li>
+        <li><a href="delivery/using/delivery-best-practices.md">Prácticas recomendadas para envíos</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -133,11 +134,11 @@ Obtenga información sobre cómo administrar la configuración de las instancias
 
 <img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-El nuevo sistema de tickets se ha iniciado a través de [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}. Este nuevo sistema requiere nuevas cuentas individuales para cada usuario con los permisos correctos. Si no puede iniciar sesión con su Adobe ID, solicite acceso a través de Experience League y el equipo de Atención al cliente lo ayudará lo antes posible. [Más información](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html)
+El nuevo sistema de tickets se ha iniciado a través de [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}. Este nuevo sistema requiere nuevas cuentas individuales para cada usuario con los permisos correctos. Si no puede iniciar sesión con su Adobe ID, solicite acceso a través de Experience League y el equipo de Servicio de atención al cliente le ayudará lo antes posible. [Más información](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html)
 
 ### ¡Consulte a los expertos!
 
-Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){_blank}.
+Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
 
 ### Acceso al Centro de descargas de Campaign
 
@@ -147,4 +148,4 @@ Como administrador de Campaign, vaya a [esta página](https://experience.adobe.c
 
 La creación de un caso le permite ponerse en contacto con el equipo de Asistencia al cliente de Adobe en relación con cualquier problema que tenga con sus productos de Adobe. Para ayudarle a resolver sus problemas, Adobe Admin Console le permitirá hablar con Asistencia al cliente de Adobe.
 
-Para registrar un problema o iniciar una sesión de chat en ese nuevo sistema, conéctate a [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}. Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html){_blank}.
+Para registrar un problema o iniciar una sesión de chat en el nuevo sistema, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/overview){_blank}. Siga el procedimiento detallado descrito en [esta página](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html){_blank}.

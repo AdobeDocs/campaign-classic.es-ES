@@ -6,9 +6,9 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
+source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2567'
 ht-degree: 97%
 
 ---
@@ -87,10 +87,9 @@ ht-degree: 97%
       + [Filtrado de opciones](platform/using/filtering-options.md)
       + [Creación de filtros](platform/using/creating-filters.md)
       + [Ejemplo de uso](platform/using/use-case.md)
-   + Creación de consultas {#creating-queries}
-      + [Acerca de las consultas en Campaign](platform/using/about-queries-in-campaign.md)
-      + [Pasos para crear una consulta](platform/using/steps-to-create-a-query.md)
-      + [Definición de condiciones de filtro](platform/using/defining-filter-conditions.md)
+   + [Creación de consultas en Campaign](platform/using/about-queries-in-campaign.md)
+   + [Pasos para crear una consulta: OCULTO](platform/using/steps-to-create-a-query.md)
+   + [Definición de condiciones de filtro: OCULTO](platform/using/defining-filter-conditions.md)
    + Permisos {#permissions}
       + [Introducción a los permisos](platform/using/access-management.md)
       + [Creación y administración de operadores](platform/using/access-management-operators.md)
@@ -102,7 +101,7 @@ ht-degree: 97%
       + [Conexión con Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
       + [Conexión con Salesforce.com](platform/using/crm-sfdc.md)
       + [Sincronización de datos con el CRM](platform/using/crm-data-sync.md)
-   + [Opciones de ayuda y asistencia](support.md)
+   + [Opciones de ayuda y asistencia - OCULTO](support.md)
 + Creación y envío de mensajes  {#sending-messages}
    + [Introducción a los mensajes](delivery/using/communication-channels.md)
    + [Configuración del envío](delivery/using/delivery-settings.md)
@@ -141,7 +140,7 @@ ht-degree: 97%
       + [Creación de un SMS](delivery/using/sms-create.md)
       + [Migración al conector genérico SMPP extendido](delivery/using/unsupported-connector-migration.md)
    + [Envío de mensajes de LINE](delivery/using/line-channel.md)
-   + [Envío de notificaciones push &#x200B;](delivery/using/about-mobile-app-channel.md)
+   + [Envío de notificaciones push ](delivery/using/about-mobile-app-channel.md)
    + Envío de notificaciones push  {#sending-push-notifications}
       + [Integración del SDK de Campaign en la aplicación móvil](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configuración de la aplicación móvil{#configure-the-mobile-app}
@@ -376,7 +375,7 @@ ht-degree: 97%
    + Adobe Experience Manager {#adobe-experience-manager}
       + [Uso de  [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuración de la integración](integrations/using/configuring-the-integration.md)
-      + [Creación de una newsletter de  [!DNL Experience Manager] &#x200B;](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [Creación de una newsletter de  [!DNL Experience Manager] ](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
       + [Uso de  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuración de la integración con  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)

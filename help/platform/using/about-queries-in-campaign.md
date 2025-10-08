@@ -7,41 +7,45 @@ feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: 471018f09e5a14635fcce07aeca1e2cf48d9144f
-workflow-type: ht
-source-wordcount: '222'
-ht-degree: 100%
+source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 12%
 
 ---
 
 # Introducción a las consultas{#about-queries-in-campaign}
 
+La herramienta de consulta está disponible en varios niveles de la aplicación y se puede utilizar para definir poblaciones objetivo, segmentar clientes, extraer y filtrar registros de seguimiento, crear filtros, etc.
 
+Proporciona un asistente dedicado (el editor de consultas genérico) accesible desde el menú **[!UICONTROL Tools > Generic query editor...]**. Este editor permite a las consultas de base de datos extraer, organizar, agrupar y ordenar información. Por ejemplo, puede recuperar los destinatarios que hicieron clic más de n veces en un vínculo del boletín durante un periodo determinado.
 
-La herramienta de consulta de Adobe Campaign se encuentra en varios niveles del software: para crear una población objetivo, segmentar clientes, extraer y filtrar logs de seguimiento, crear filtros, etc.
+El editor de consultas genérico centraliza todas las funcionalidades de consulta. Permite la creación y el almacenamiento de filtros de restricción, que luego se pueden reutilizar en otros contextos, como el cuadro de consulta de un flujo de trabajo de objetivos.
 
-La herramienta de consulta de Adobe Campaign le permite consultar una base de datos utilizando un asistente dedicado: el editor de consultas genérico. Se accede a través del menú **[!UICONTROL Tools > Generic query editor...]**. Permite extraer información almacenada en una base de datos y organizar, agrupar, ordenar, etc. Por ejemplo, el usuario puede recuperar los destinatarios que han hecho clic un determinado número de veces en el vínculo de un boletín durante un periodo determinado. Esta herramienta le permite recopilar, ordenar y mostrar los resultados según sus necesidades.
+![Acceda al editor de consultas y seleccione una tabla](assets/query_editor_nveau_21.png)
 
-Esta herramienta combina todas las posibilidades de consultas de Adobe Campaign. Por ejemplo, le permite crear y guardar filtros de restricción. Esto significa que un filtro de usuario creado en el editor de consultas genérico se puede utilizar en el cuadro de consulta de un flujo de trabajo de objetivos, etc.
-
-Las consultas se crean utilizando campos de la tabla seleccionada o utilizando una fórmula.
 
 >[!BEGINTABS]
 
->[!TAB Documentación de consultas]
+>[!TAB Consultar la base de datos]
 
-Para obtener más información sobre las consultas, consulte la [documentación de la versión 8 de Campaign.](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
-
-
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/activities){target=_blank}
+Los pasos para crear una consulta se detallan en **[Documentación de la versión 8 de Campaign (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**
 
 
->[!TAB Creación de una consulta]
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
 
-Conozca los pasos clave relacionados con la creación de consultas en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}.
+
+>[!TAB Agregar una consulta en un flujo de trabajo]
+
+Conozca los pasos clave relacionados con la creación de consultas en el contexto de un flujo de trabajo en la **[documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}**
 
 [![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target=_blank}
 
+>[!TAB Condiciones de filtro]
+
+Para diseñar la consulta, debe seleccionar las condiciones de filtrado en el editor de consultas. Las funcionalidades disponibles y los casos de uso se detallan en la **[documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**
+
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
+
 >[!ENDTABS]
 
-![Captura de pantalla que muestra el ejemplo de una consulta.](assets/query_recipients_4.png)

@@ -7,8 +7,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 audience: platform
 content-type: reference
 topic-tags: creating-queries
+hide: true
+hidefromtoc: true
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
 workflow-type: tm+mt
 source-wordcount: '3304'
 ht-degree: 100%
@@ -131,8 +133,8 @@ Haga clic en **[!UICONTROL And]** (de forma predeterminada) y seleccione en la l
 
 ![](assets/query_condition_modif_01.png)
 
-* **[!UICONTROL And]**: añade una condición y activa el sobrefiltrado.
-* **[!UICONTROL Or]**: añade una condición y activa el sobrefiltrado.
+* **[!UICONTROL And]**: añade una condición y habilita el sobrefiltrado.
+* **[!UICONTROL Or]**: añade una condición y habilita el sobrefiltrado.
 
   El siguiente ejemplo permite encontrar destinatarios cuyo dominio de correo electrónico contiene “orange.co.uk” o cuyo código de envío comienza por “NW”.
 
@@ -205,7 +207,7 @@ Las distintas categorías de campos:
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_47.png" /> </td> 
    <td> Campo sencillo<br /> </td> 
-   <td> Correo electrónico, sexo, etc.<br /> </td> 
+   <td> Correo electrónico, género, etc.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_48.png" /> </td> 
