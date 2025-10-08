@@ -6,10 +6,10 @@ feature: Workflows
 hide: true
 hidefromtoc: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
+source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
 workflow-type: tm+mt
-source-wordcount: '2019'
-ht-degree: 99%
+source-wordcount: '2020'
+ht-degree: 97%
 
 ---
 
@@ -97,7 +97,7 @@ El “log” muestra la lista de mensajes de ejecución relacionados con las act
 
 ## Depuración de registros {#purging-the-logs}
 
-El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]**&#x200B;**[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](starting-a-workflow.md).
+El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]****[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](starting-a-workflow.md).
 
 ![](assets/purge_historique.png)
 
@@ -271,7 +271,7 @@ Para ello:
 
 1. Haga clic derecho en la carpeta donde desee añadir la vista.
 1. En **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**, seleccione la vista que desee añadir.
-1. Una vez añadida la carpeta al árbol, asegúrese de configurarla como una vista para que muestre todos los flujos de trabajo, independientemente de la carpeta de origen. Para obtener más información sobre cómo configurar las vistas, consulte [esta sección](../../platform/using/access-management-folders.md).
+1. Una vez añadida la carpeta al árbol, asegúrese de configurarla como una vista para que muestre todos los flujos de trabajo, independientemente de la carpeta de origen. Para obtener más información sobre cómo configurar vistas, consulte [esta sección](../../platform/using/about-adobe-campaign-classic.md).
 
 Además de estas vistas, puede configurar carpetas de filtros que le permitan filtrar la lista de flujos de trabajo según su estado de ejecución. Para ello:
 

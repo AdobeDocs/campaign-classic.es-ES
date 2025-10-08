@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '693'
-ht-degree: 100%
+source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
+workflow-type: tm+mt
+source-wordcount: '697'
+ht-degree: 97%
 
 ---
 
@@ -57,7 +57,7 @@ Una vez recopilados, los eventos se desglosan, por flujos de trabajo técnicos, 
 
 >[!NOTE]
 >
->En las instancias de ejecución, las carpetas **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** no deben configurarse como vistas, ya que esto podría provocar problemas con el derecho de acceso. Para obtener más información sobre la configuración de una carpeta como vista, consulte [esta sección](../../platform/using/access-management-folders.md).
+>En las instancias de ejecución, las carpetas **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** no deben configurarse como vistas, ya que esto podría provocar problemas con el derecho de acceso. Para obtener más información sobre la configuración de una carpeta como vista, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
 ## Enrutamiento hacia una plantilla {#routing-towards-a-template}
 
