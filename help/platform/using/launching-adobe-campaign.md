@@ -63,7 +63,7 @@ Puede acceder a la configuración de conexión del servidor a través del víncu
 
 ![](assets/s_ncs_user_connections_management.png)
 
-Aprenda a configurar conexiones en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target=_blank}.
+Aprenda a configurar conexiones en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/connect#create-your-connection){target=_blank}.
 
 ## Operadores y permisos {#operators-and-permissions}
 
