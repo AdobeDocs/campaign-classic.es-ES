@@ -3,17 +3,16 @@ product: campaign
 title: Ejemplo de uso
 description: Ejemplo de uso
 feature: Subscriptions, Email, Data Management
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: filtering-data
 exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
 hide: true
 hidefromtoc: true
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '266'
-ht-degree: 100%
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 92%
 
 ---
 
@@ -48,7 +47,8 @@ Siga estos pasos:
 
    ![](assets/s_ncs_user_filter_view_schema.png)
 
-   Puede acceder a estos campos para definir las condiciones de filtro en el cuerpo del editor de filtros. Un filtro de aplicación se define exactamente igual que un filtro avanzado. Consulte [Creación de un filtro avanzado](../../platform/using/creating-filters.md#creating-an-advanced-filter).
+   Puede acceder a estos campos para definir las condiciones de filtro en el cuerpo del editor de filtros. Un filtro de aplicación se define exactamente igual que un filtro avanzado. Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+
 
 1. Crear un nuevo filtro de suscripciones para mostrar solo las suscripciones con un formato de correo electrónico no definido:
 

@@ -6,10 +6,10 @@ feature: Workflows
 hide: true
 hidefromtoc: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '2018'
-ht-degree: 100%
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
+workflow-type: tm+mt
+source-wordcount: '2019'
+ht-degree: 99%
 
 ---
 
@@ -147,11 +147,11 @@ Para obtener más información sobre la resolución de problemas de ejecución d
 
 ## Procesamiento de errores {#processing-errors}
 
-En cuanto a las actividades, la opción **[!UICONTROL Process errors]** muestra una transición específica que se activa si se genera un error. En este caso, el flujo de trabajo no se abre en modo de error y la ejecución continúa.
+En cuanto a las actividades, la opción **[!UICONTROL Process errors]** muestra una transición específica que se habilita si se genera un error. En este caso, el flujo de trabajo no se abre en modo de error y la ejecución continúa.
 
 Los errores que se tienen en cuenta son los errores del sistema de archivos (el archivo no se puede mover, no se puede acceder a un directorio, etc.).
 
-Esta opción no procesa los errores relacionados con la configuración de la actividad, es decir, valores no válidos. Los errores relacionados con una configuración defectuosa no activan esta transición (el directorio no existe, etc.).
+Esta opción no procesa los errores relacionados con la configuración de la actividad, es decir, valores no válidos. Los errores relacionados con una configuración defectuosa no habilitan esta transición (el directorio no existe, etc.).
 
 Si un flujo de trabajo está en pausa (manual o automáticamente después de un error), el botón **[!UICONTROL Start]** reinicia la ejecución del flujo de trabajo en la que se detuvo. La actividad errónea (o actividad pausada) se vuelve a ejecutar. Las actividades anteriores no se vuelven a ejecutar.
 
@@ -281,7 +281,4 @@ Además de estas vistas, puede configurar carpetas de filtros que le permitan fi
 
 ![](assets/workflow-monitoring-filter.png)
 
-Para obtener más información, consulte estas secciones:
-
-* [Creación de filtros avanzados](../../platform/using/creating-filters.md#creating-an-advanced-filter)
-* [Almacenamiento de filtros](../../platform/using/creating-filters.md#saving-a-filter)
+Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.

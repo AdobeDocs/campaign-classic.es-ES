@@ -5,10 +5,10 @@ description: Traducción de un formulario web
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 100%
+source-wordcount: '1549'
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ Para unidades de caracteres que no se hayan traducido nunca, el campo **[!UICONT
 
 ### Filtrado de cadenas {#filtering-strings}
 
-De forma predeterminada, se muestra cada idioma de traducción de la aplicación web. Existen dos filtros predeterminados: idioma y estado. Haga clic en el botón **[!UICONTROL Filters]** y, a continuación, haga clic en **[!UICONTROL By language or status]** para mostrar los cuadros desplegables coincidentes. También puede crear un filtro avanzado. Para obtener más información, consulte [esta página](../../platform/using/creating-filters.md#creating-an-advanced-filter).
+De forma predeterminada, se muestra cada idioma de traducción de la aplicación web. Existen dos filtros predeterminados: idioma y estado. Haga clic en el botón **[!UICONTROL Filters]** y, a continuación, haga clic en **[!UICONTROL By language or status]** para mostrar los cuadros desplegables coincidentes. También puede crear un filtro avanzado. Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
 ![](assets/s_ncs_admin_survey_trad_tab_en.png)
 

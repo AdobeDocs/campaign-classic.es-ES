@@ -6,10 +6,10 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
 workflow-type: tm+mt
-source-wordcount: '2567'
-ht-degree: 97%
+source-wordcount: '2570'
+ht-degree: 96%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 97%
    + [Examen y personalización de listas: OCULTO](platform/using/adobe-campaign-ui-lists.md)
    + [Enumeraciones: OCULTAS](platform/using/managing-enumerations.md)
    + [Conectores de Campaign](platform/using/about-connectors.md)
+   + [Creación de consultas en Campaign](platform/using/about-queries-in-campaign.md)
    + Preguntas frecuentes {#faq}
       + [Preguntas clave](platform/using/common-questions.md)
       + [Conceptos globales](platform/using/faq-key-concepts.md)
@@ -84,10 +85,9 @@ ht-degree: 97%
          + [Prácticas recomendadas de importación y exportación](platform/using/import-export-best-practices.md)
          + [Prácticas recomendadas y solución de problemas del servidor SFTP](platform/using/sftp-server-usage.md)
    + Filtrado de datos {#filtering-data}
-      + [Filtrado de opciones](platform/using/filtering-options.md)
-      + [Creación de filtros](platform/using/creating-filters.md)
-      + [Ejemplo de uso](platform/using/use-case.md)
-   + [Creación de consultas en Campaign](platform/using/about-queries-in-campaign.md)
+      + [Opciones de filtrado: OCULTAS](platform/using/filtering-options.md)
+      + [Crear filtros: OCULTOS](platform/using/creating-filters.md)
+      + [Caso de uso: Oculto](platform/using/use-case.md)
    + [Pasos para crear una consulta: OCULTO](platform/using/steps-to-create-a-query.md)
    + [Definición de condiciones de filtro: OCULTO](platform/using/defining-filter-conditions.md)
    + Permisos {#permissions}
@@ -140,7 +140,7 @@ ht-degree: 97%
       + [Creación de un SMS](delivery/using/sms-create.md)
       + [Migración al conector genérico SMPP extendido](delivery/using/unsupported-connector-migration.md)
    + [Envío de mensajes de LINE](delivery/using/line-channel.md)
-   + [Envío de notificaciones push &#x200B;](delivery/using/about-mobile-app-channel.md)
+   + [Envío de notificaciones push ](delivery/using/about-mobile-app-channel.md)
    + Envío de notificaciones push  {#sending-push-notifications}
       + [Integración del SDK de Campaign en la aplicación móvil](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configuración de la aplicación móvil{#configure-the-mobile-app}
@@ -375,7 +375,7 @@ ht-degree: 97%
    + Adobe Experience Manager {#adobe-experience-manager}
       + [Uso de  [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuración de la integración](integrations/using/configuring-the-integration.md)
-      + [Creación de una newsletter de  [!DNL Experience Manager] &#x200B;](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [Creación de una newsletter de  [!DNL Experience Manager] ](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
       + [Uso de  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuración de la integración con  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)

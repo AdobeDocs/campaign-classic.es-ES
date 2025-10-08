@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 8e308a9f-14a4-4a25-9fd0-8d4bdbcf74ce
-source-git-commit: ec774cc10a69a694b3c2bf5a6f662afd12a1435a
-workflow-type: ht
-source-wordcount: '564'
-ht-degree: 100%
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 96%
 
 ---
 
@@ -87,6 +87,7 @@ A continuación, debe asegurarse de que nunca vende a terceros la información p
 
    ![](assets/privacy-ccpa-6.png)
 
-1. Puede hacer clic en la columna para ordenar los destinatarios según la información de exclusión. También puede crear un filtro para mostrar solo los destinatarios que han optado por excluirse. Para obtener más información sobre la creación de filtros, consulte [esta sección](../../platform/using/creating-filters.md).
+1. Puede hacer clic en la columna para ordenar los destinatarios según la información de exclusión. También puede crear un filtro para mostrar solo los destinatarios que han optado por excluirse. Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+
 
    ![](assets/privacy-ccpa-7.png)

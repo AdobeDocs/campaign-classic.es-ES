@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '1729'
-ht-degree: 100%
+source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
+workflow-type: tm+mt
+source-wordcount: '1730'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Para cada entrega, se pueden definir varios tipos de poblaciones destinatarias:
 
-* **Audiencia principal**: perfiles que recibirán mensajes. [Obtenga más información](steps-defining-the-target-population.md#selecting-the-main-target)
+* **Público principal**: perfiles que recibirán mensajes. [Obtenga más información](steps-defining-the-target-population.md#selecting-the-main-target)
 * **Prueba**: destinatarios de mensajes de prueba implicados en el ciclo de validación. [Obtenga más información](steps-defining-the-target-population.md#defining-a-specific-proof-target)
 * **Direcciones semilla**: destinatarios que estén fuera del objetivo de la entrega, pero que reciban la entrega (solo en el contexto de una campaña de marketing). [Obtenga más información](about-seed-addresses.md)
 * **Grupos de control**: población que no recibe la entrega, se utiliza para realizar el seguimiento del comportamiento y el impacto de la campaña (solo en el contexto de una campaña de marketing). [Más información](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
@@ -34,7 +34,7 @@ Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
 
    ![](assets/s_ncs_user_wizard_email02a.png)
 
-1. Seleccione la asignación de destino en la lista desplegable **[!UICONTROL Target mapping]**. La asignación de destino predeterminada de Adobe Campaign es **[!UICONTROL Recipients]**, según el esquema **nms:destinatario** .
+1. Seleccione la asignación de destino en la lista desplegable **[!UICONTROL Target mapping]**. La asignación de destino predeterminada de Adobe Campaign es **[!UICONTROL Recipients]**, según el esquema **nms:recipient**.
 
    Están disponibles otros destinos de mapeo, y algunos pueden relacionarse con la configuración específica.[Más información](#select-a-target-mapping).
 
@@ -48,7 +48,7 @@ Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
 
    Los siguientes tipos de objetivos se ofrecen de forma predeterminada:
 
-   * **[!UICONTROL Filtering conditions]**: esta opción permite definir una consulta y mostrar el resultado. El método para definir consultas se muestra en [esta sección](../../platform/using/creating-filters.md#creating-an-advanced-filter).
+   * **[!UICONTROL Filtering conditions]**: esta opción permite definir una consulta y mostrar el resultado. Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
    * **[!UICONTROL Subscribers of an information service]**: esta opción permite seleccionar un boletín informativo al que se deben suscribir los destinatarios para ser objetivos de la entrega que se está creando.
 
      ![](assets/s_ncs_user_wizard_email02c.png)
@@ -72,7 +72,7 @@ Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
    * **[!UICONTROL Recipients included in a folder]**: esta opción permite establecer como objetivo a los perfiles contenidos en una carpeta específica del árbol.
    * **[!UICONTROL A recipient]**: esta opción permite seleccionar un destinatario específico de los perfiles de la base de datos.
    * **[!UICONTROL A list of recipients]**: esta opción permite establecer como objetivo una lista de destinatarios. Las listas se muestran en [esta sección](../../platform/using/creating-and-managing-lists.md).
-   * **[!UICONTROL User filters]**: esta opción permite acceder a los filtros preconfigurados para utilizarlos como criterios de filtrado para los perfiles de la base de datos. Los filtros preconfigurados se muestran en [esta sección](../../platform/using/creating-filters.md#saving-a-filter).
+   * **[!UICONTROL User filters]**: esta opción permite acceder a los filtros preconfigurados para utilizarlos como criterios de filtrado para los perfiles de la base de datos. Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
    * La opción **[!UICONTROL Exclude recipients corresponding to this segment]** permite dirigirse a los destinatarios que no cumplan con los criterios de objetivo definidos. Para utilizar esta opción, seleccione el cuadro apropiado y, a continuación, aplique los objetivos, según lo definido anteriormente, para excluir los perfiles resultantes.
 
      ![](assets/s_ncs_user_wizard_email02g.png)
@@ -117,7 +117,7 @@ Puede elegir excluir las direcciones que han alcanzado un determinado número de
 
 >[!NOTE]
 >
->Si dos destinatarios tienen el mismo nombre, apellido, código postal o ciudad en una entrega de correo postal, se produce un error doble y no se tiene en cuenta el duplicado.
+>Si dos destinatarios tienen el mismo nombre, apellido, código postal o ciudad en una entrega de correo directo, se produce un error doble y no se tiene en cuenta el duplicado.
 
 La pestaña **[!UICONTROL Exclusions]** se utiliza para limitar el número de mensajes.
 
@@ -169,7 +169,7 @@ La prueba es un mensaje especial que permite probar una entrega antes de enviarl
 Para seleccionar el destino de las pruebas, siga los siguientes pasos:
 
 1. Haga clic en el vínculo **[!UICONTROL To]**.
-1. Seleccione la pestaña **[!UICONTROL Target of the proofs]**.
+1. Haga clic en la pestaña **[!UICONTROL Target of the proofs]**.
 1. Haga clic en el campo **[!UICONTROL Targeting mode]** para elegir el método que desee aplicar: **[!UICONTROL Definition of a specific proof target]**, **[!UICONTROL Substitution of the address]**, **[!UICONTROL Seed addresses]** o **[!UICONTROL Specific target and seed addresses]**.
 
 >[!NOTE]
@@ -230,7 +230,7 @@ Asimismo, consulte:
 
 ## Selección de una asignación de destino {#select-a-target-mapping}
 
-De forma predeterminada, las plantillas de envío tienen como destino **[!UICONTROL Recipients]**. El destino de mapeo utiliza los campos de la tabla **nms:recipient.** Adobe Campaign ofrece otros destinos de mapeo para las entregas, que puede usar según sus necesidades.
+De forma predeterminada, las plantillas de envío tienen como destino **[!UICONTROL Recipients]**. Por lo tanto, su asignación de destino utiliza los campos de la tabla **nms:recipient**. Adobe Campaign ofrece otros destinos de mapeo para las entregas, que puede usar según sus necesidades.
 
 ![](assets/delivery_select_mapping.png)
 
@@ -251,6 +251,6 @@ Estos mapeos son los siguientes:
 
 En este vídeo aprenderá a añadir semillas y pruebas a un correo electrónico existente y a enviarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/35551?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
