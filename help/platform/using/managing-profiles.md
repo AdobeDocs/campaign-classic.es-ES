@@ -31,7 +31,6 @@ Cada nodo coincide con una carpeta. Los datos de cada carpeta deben considerarse
 >[!NOTE]
 >
 > * Para mostrar la lista de todos los destinatarios de la base de datos, debe crear una vista. Obtenga más información en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
-
 > * Para obtener más información sobre cómo administrar los perfiles, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
 
