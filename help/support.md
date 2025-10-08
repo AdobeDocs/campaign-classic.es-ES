@@ -138,7 +138,7 @@ El nuevo sistema de tickets se ha iniciado a través de [Adobe Admin Console](ht
 
 ### ¡Consulte a los expertos!
 
-Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
+Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){_blank}.
 
 ### Acceso al Centro de descargas de Campaign
 
