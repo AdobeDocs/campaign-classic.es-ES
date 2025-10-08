@@ -72,7 +72,7 @@ Para crear una nueva instancia, siga los pasos a continuación:
 
 1. En la lista desplegable **[!UICONTROL Language]**, seleccione **idioma de instancia**: inglés (EE.UU.), inglés (Reino Unido), francés o japonés.
 
-   Las diferencias entre el inglés de EE. UU. y el inglés de Reino Unido se describen en la [documentación de Campaign v8 (consola)] (.https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui).
+   Las diferencias entre el inglés de EE. UU. y el inglés de Reino Unido se describen en la [documentación de Campaign v8 (consola)] (.https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui).
 
    >[!CAUTION]
    >
