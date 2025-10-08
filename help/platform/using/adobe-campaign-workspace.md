@@ -137,4 +137,4 @@ Obtenga más información sobre cómo **trabajar con listas desglosadas** en la 
 
 Este vídeo presenta el espacio de trabajo de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/39532?quality=12&captions=spa)
