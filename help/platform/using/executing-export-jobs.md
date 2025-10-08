@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ Seleccione un formato de salida para el archivo de exportación. Se pueden utili
 * En el caso de los archivos de formato **[!UICONTROL Text]**, seleccione los delimitadores para separar las columnas (tabulaciones, comas, punto y coma o personalizado) y las cadenas (comillas simples o dobles, o ninguna).
 * Para **[!UICONTROL text]** y **[!UICONTROL CSV]**, puede seleccionar la opción **[!UICONTROL Use first lines as column titles]**.
 * Indique el formato de fecha y el formato de número. Para hacer esto, haga clic en el botón **[!UICONTROL Edit]** en el campo correspondiente y use el editor.
-* En los campos que contienen valores numéricos, puede seleccionar **[!UICONTROL Export labels instead of internal values of enumerations]**. Por ejemplo, el título se puede almacenar en el formulario **1=Mr.**, **2=Miss**, **3=Mrs.**. Si se selecciona esta opción, se exportan **Mr.**, **Miss** y **Mrs.**
+* En los campos que contienen valores enumerados, puede seleccionar **[!UICONTROL Export labels instead of internal values of enumerations]**. Por ejemplo, el título se puede almacenar en el formulario **1=Mr.**, **2=Miss**, **3=Mrs.**. Si se selecciona esta opción, se exportan **Mr.**, **Miss** y **Mrs.**
 
 ## Paso 4: Selección de datos {#step-4---data-selection}
 
@@ -85,7 +85,7 @@ Seleccione los campos que desea exportar. Para ello:
 
    ![](assets/s_ncs_user_export_wizard04.png)
 
-1. Haga clic en el botón **[!UICONTROL Add]** para llamar a las funciones. Para obtener más información, consulte [Lista de funciones](../../platform/using/defining-filter-conditions.md#list-of-functions).
+1. Haga clic en el botón **[!UICONTROL Add]** para llamar a las funciones. Para obtener más información, consulte [Lista de funciones](../../platform/using/about-queries-in-campaign.md).
 
 ## Paso 5: Orden de las columnas {#step-5---sorting-columns}
 

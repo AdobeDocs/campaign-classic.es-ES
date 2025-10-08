@@ -6,10 +6,10 @@ feature: Query Editor, Workflows
 hide: true
 hidefromtoc: true
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '256'
-ht-degree: 100%
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ En este ejemplo, se desea ejecutar una consulta para buscar todos los dominios d
 
 * ¿Qué tabla se debe seleccionar?
 
-  La tabla de destinatario (nms:recipient).
+  La tabla de destinatarios (nms:recipient)
 
 * ¿Campos que se van a seleccionar en las columnas de salida?
 
@@ -33,13 +33,13 @@ En este ejemplo, se desea ejecutar una consulta para buscar todos los dominios d
 
 Para crear este ejemplo, aplique los pasos siguientes:
 
-1. Abra **[!UICONTROL Generic query editor]** y seleccione la tabla de destinatarios (**nms:recipient**).
+1. Abra **[!UICONTROL Generic query editor]** y elija la tabla de destinatarios (**nms:recipient**).
 
    ![](assets/query_editor_02.png)
 
 1. En la ventana **[!UICONTROL Data to extract]**, seleccione los campos **[!UICONTROL Email domain]** y **[!UICONTROL Primary key]**. Ejecute un recuento en el campo **[!UICONTROL Primary key]**.
 
-   Para obtener más información sobre el recuento de claves principales, consulte [esta sección](../../platform/using/defining-filter-conditions.md#building-expressions).
+   Para obtener más información sobre el recuento de claves principales, consulte [esta sección](../../platform/using/about-queries-in-campaign.md).
 
 1. Marque la casilla **[!UICONTROL Handle groupings (GROUP BY + HAVING)]**.
 
@@ -52,7 +52,7 @@ Para crear este ejemplo, aplique los pasos siguientes:
 1. En **[!UICONTROL Data filtering]**, seleccione **[!UICONTROL Filtering conditions]**. Vaya a la ventana **[!UICONTROL Target elements]** y haga clic en **[!UICONTROL Next]**.
 1. En la ventana **[!UICONTROL Data grouping]**, seleccione la opción **[!UICONTROL Email domain]** haciendo clic en **[!UICONTROL Add]**.
 
-   Esta ventana de agrupamiento de datos solo se muestra si se ha marcado la casilla **[!UICONTROL Handle groupings (GROUP BY + HAVING]**.
+   Esta ventana de agrupación de datos solo se muestra si se ha marcado la casilla **[!UICONTROL Handle groupings (GROUP BY + HAVING])**.
 
    ![](assets/query_editor_blocklist_04.png)
 

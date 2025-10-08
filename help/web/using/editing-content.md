@@ -5,10 +5,10 @@ description: Edición de contenido
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 100%
+source-wordcount: '1226'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ Para añadir una condición de visibilidad, seleccione un bloque e introduzca la
 
 >[!NOTE]
 >
->La edición de expresiones avanzadas se muestra en [esta página](../../platform/using/defining-filter-conditions.md#list-of-functions).
+>La edición de expresiones avanzadas se muestra en [esta página](../../platform/using/about-queries-in-campaign.md).
 
 ![](assets/dce_popup_visibilitycondition.png)
 
@@ -60,7 +60,7 @@ Puede vincular campos de base de datos con la zona de entrada, el botón de opci
 
 La zona de entrada de **campo** permite seleccionar un campo de base de datos para vincularlo al campo de formulario.
 
-De forma predeterminada, los campos ofrecidos son los que se encuentran en la tabla **nms:recipient**.
+De manera predeterminada, los campos ofrecidos son los de la tabla **nms:recipient**.
 
 ![](assets/dce_field_selection.png)
 
@@ -247,7 +247,7 @@ La opción **Campo personalizado** del icono de inserción permite añadir un ca
 
 De forma predeterminada, los campos que se ofrecen proceden de la tabla **[!UICONTROL Recipient]**. Si es necesario, puede editar las propiedades de la aplicación web para seleccionar otra tabla.
 
-El nombre del campo aparece en el editor resaltado en amarillo. Se reemplaza por el perfil del destinatario objetivo cuando se genere la personalización (por ejemplo, al previsualizar una página de aterrizaje).
+El nombre del campo aparece en el editor resaltado en amarillo. Se reemplaza por el perfil del destinatario objetivo cuando se genere la personalización (por ejemplo, al previsualizar una página de destino).
 
 Se presenta un ejemplo en la sección [Inserción de un campo de personalización](creating-a-landing-page.md#inserting-a-personalization-field).
 

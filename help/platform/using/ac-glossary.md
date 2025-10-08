@@ -6,7 +6,7 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
 workflow-type: tm+mt
 source-wordcount: '6002'
 ht-degree: 99%
@@ -272,7 +272,7 @@ Más información sobre el [Marketing distribuido](../../distributed/using/about
 
 La distribución de valores es una herramienta que muestra la distribución de los valores para un atributo de esquema que existen actualmente en la base de datos. Esto le ayuda a determinar qué valores están disponibles, sus recuentos y porcentajes, y a evitar problemas con las mayúsculas y minúsculas, y la ortografía de los valores al crear una consulta o expresión.
 
-Más información sobre la [Distribución de valores](../../platform/using/defining-filter-conditions.md#selecting-data-to-extract)
+Más información sobre la [Distribución de valores](../../platform/using/about-queries-in-campaign.md)
 +++
 
 +++**Delegación de dominios**
@@ -352,7 +352,7 @@ Obtenga más información sobre cómo **trabajar con listas desglosadas** en la 
 La vista de Explorer es una visualización jerárquica de las carpetas que contienen datos y artefactos de Adobe Campaign. Tenga en cuenta que el sistema de carpetas de Adobe Campaign no funciona como una vista de árbol típica, ya que cada carpeta contiene datos de un tipo específico, como envíos, flujos de trabajo u ofertas.
 
 
-Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 +++
 
@@ -399,7 +399,7 @@ Más información sobre el [Filtrado de dimensión](../../workflow/using/buildin
 
 Una carpeta es un elemento de vista de Explorer que contiene registros de base de datos de un tipo de datos específico. La excepción es el tipo de carpeta genérica que se utiliza como elemento organizador y que no contiene ningún dato en sí, solo otras carpetas.
 
-Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 +++
 
@@ -407,7 +407,7 @@ Obtenga más información acerca de la interfaz de usuario de Campaign en [Docum
 
 La vista de carpeta es un tipo especial de carpeta Explorer que se utiliza para mostrar todos los registros de un tipo de datos seleccionado, independientemente de la carpeta a la que pertenezca. Las vistas de carpetas se utilizan como herramienta administrativa para administrar datos particionados o datos que se distribuyen entre muchas carpetas.
 
-Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 +++
 
 +++**Forms**
@@ -560,7 +560,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 El árbol de navegación es la navegación principal en la vista de Explorer de Adobe Campaign. El árbol de navegación funciona como un explorador de archivos (por ejemplo, el Explorador de Windows). Las carpetas pueden contener subcarpetas. Al seleccionar un nodo, se muestra la vista correspondiente al nodo. La vista mostrada es una lista asociada con un esquema y un formulario de entrada para editar la línea seleccionada. Puede personalizar el árbol de navegación y definir permisos en las carpetas.
 
-Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 +++
 

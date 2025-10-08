@@ -6,10 +6,10 @@ feature: Workflows, Targeting Activity, Query Editor
 hide: true
 hidefromtoc: true
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '1631'
-ht-degree: 100%
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+workflow-type: tm+mt
+source-wordcount: '1630'
+ht-degree: 98%
 
 ---
 
@@ -54,9 +54,9 @@ El enlace **[!UICONTROL Edit query...]** permite definir el tipo de objetivo, la
 
 1. Si ha seleccionado **[!UICONTROL Filtering conditions]** en el paso 1 o si utiliza la opción **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]**, debe añadir manualmente los criterios de filtrado.
 
-   También puede agregar condiciones de agrupación de datos marcando el cuadro correspondiente. Para ello, la dimensión del filtro debe ser diferente a la dimensión de objetivos de la consulta. Para obtener más información sobre la agrupación, consulte esta [sección](querying-using-grouping-management.md).
+   También puede agregar condiciones de agrupación de datos marcando el cuadro correspondiente. Para ello, la dimensión del filtro debe ser diferente a la dimensión de segmentación de la consulta. Para obtener más información sobre la agrupación, consulte esta [sección](querying-using-grouping-management.md).
 
-   También puede agregar más criterios utilizando el generador de expresiones y combinándolo con las opciones lógicas AND, OR y EXCEPT. Puede obtener una vista previa de **[!UICONTROL Corresponding SQL query...]** para la combinación de criterios. Consulte esta [sección](../../platform/using/defining-filter-conditions.md#building-expressions) para obtener más información.
+   También puede agregar más criterios utilizando el generador de expresiones y combinándolo con las opciones lógicas AND, OR y EXCEPT. Puede obtener una vista previa de **[!UICONTROL Corresponding SQL query...]** para la combinación de criterios. Consulte esta [sección](../../platform/using/about-queries-in-campaign.md) para obtener más información.
 
    Guarde el filtro si desea volver a utilizarlo más tarde.
 
@@ -197,7 +197,7 @@ La sección siguiente ofrece prácticas recomendadas para optimizar las consulta
 * Tenga cuidado con funciones como `Lower(...)`. Cuando se utiliza la función Lower, no se utiliza Index.
 * Compruebe las consultas utilizando la instrucción “like” o las instrucciones “upper” o “lower” cuidadosamente. Aplique “Upper” en la entrada del usuario, no en el campo de la base de datos.
 
-  Para obtener más información sobre las funciones, consulte [esta sección](../../platform/using/defining-filter-conditions.md#list-of-functions).
+  Para obtener más información sobre las funciones, consulte [esta sección](../../platform/using/about-queries-in-campaign.md).
 
 ### Filtrado de dimensiones {#filtering-dimensions}
 

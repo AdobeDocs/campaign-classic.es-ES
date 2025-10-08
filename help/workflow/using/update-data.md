@@ -6,10 +6,10 @@ feature: Workflows, Targeting Activity, Data Management
 hide: true
 hidefromtoc: true
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '852'
-ht-degree: 100%
+source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -102,7 +102,7 @@ La actualización de datos y la combinación de colecciones le permite actualiza
 
 1. Seleccione las colecciones que se van a mover al registro principal y los campos que se van a actualizar.
 
-   Introduzca las reglas que se aplican a estas una vez que se identifiquen uno o varios registros secundarios. Para ello, puede utilizar el generador de expresiones. Para obtener más información, consulte [esta sección](../../platform/using/defining-filter-conditions.md#building-expressions). Por ejemplo, si especifica que es el valor actualizado más recientemente de todos los registros que se deben conservar.
+   Introduzca las reglas que se aplican a estas una vez que se identifiquen uno o varios registros secundarios. Para ello, puede utilizar el generador de expresiones. Para obtener más información, consulte [esta sección](../../platform/using/about-queries-in-campaign.md). Por ejemplo, si especifica que es el valor actualizado más recientemente de todos los registros que se deben conservar.
 
    A continuación introduzca las condiciones para tener en cuenta la regla.
 
