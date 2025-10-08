@@ -7,10 +7,10 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
-source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
+source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 86%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Estos procedimientos solo se aplican a los operadores que se conectan a Campaign con autenticación nativa. Para la autenticación de IMS de Adobe, consulte [esta documentación](https://helpx.adobe.com/es/enterprise/using/user-groups.html).
+>Estos procedimientos solo se aplican a los operadores que se conectan a Campaign con la autenticación nativa heredada. A partir de la versión 7.3.1 de Campaign Classic, todos los operadores deben utilizar [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"} para conectarse a Campaign. [Más información](../../technotes/using/migrate-users-to-ims.md)
+>
+>Al conectarse a Campaign con su Adobe ID, la siguiente sección ya no se aplica. Obtenga información sobre cómo configurar permisos con Adobe IMS en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=es){target="_blank"}.
 
 Los grupos de operadores se crean mediante el nodo **[!UICONTROL Administration > Access management > Operator groups]** del árbol.
 
@@ -65,7 +67,7 @@ Los grupos de operadores predeterminados son:
 
 1. **[!UICONTROL Campaign managers]**
 
-   Los operadores de este grupo pueden administrar las campañas de marketing: permite acceder a los objetos vinculados a campañas (planes, programas, flujos de trabajo, presupuestos, etc.) en el marco de **[!UICONTROL Campaign]** (módulo Adobe Campaign opcional).
+   Los operadores de este grupo pueden administrar las campañas de marketing: permite acceder a los objetos vinculados a campañas (planes, programas, flujos de trabajo, presupuestos, etc.) dentro del marco de **[!UICONTROL Campaign]** (módulo opcional de Adobe Campaign).
 
    Este grupo contiene los siguientes derechos asignados:
 
@@ -82,7 +84,7 @@ Los grupos de operadores predeterminados son:
 
 1. **[!UICONTROL Access to reports]**
 
-   Este grupo está reservado para operadores externos, con el fin de habilitar los iconos Informe, Programación y Foro en el panel de campañas para un operador específico.
+   Este grupo está reservado para operadores externos, con el fin de habilitar los iconos Informe, Programación y Foro en el panel de control de campañas para un operador específico.
 
 1. **[!UICONTROL Workflow execution]**
 

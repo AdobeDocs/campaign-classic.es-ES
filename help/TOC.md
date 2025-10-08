@@ -6,9 +6,9 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
+source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2574'
 ht-degree: 96%
 
 ---
@@ -92,10 +92,11 @@ ht-degree: 96%
    + [Definición de condiciones de filtro: OCULTO](platform/using/defining-filter-conditions.md)
    + Permisos {#permissions}
       + [Introducción a los permisos](platform/using/access-management.md)
-      + [Creación y administración de operadores](platform/using/access-management-operators.md)
-      + [Creación y administración de grupos](platform/using/access-management-groups.md)
+      + Autenticación nativa (heredada) {#native}
+         + [Creación y administración de operadores](platform/using/access-management-operators.md)
+         + [Creación y administración de grupos](platform/using/access-management-groups.md)
       + [Uso de derechos asignados para configurar permisos](platform/using/access-management-named-rights.md)
-      + [Administración del acceso a las carpetas](platform/using/access-management-folders.md)
+      + [Administrar el acceso a las carpetas: OCULTO](platform/using/access-management-folders.md)
    + Conectores CRM {#connectors}
       + [Introducción a los conectores CRM](platform/using/crm-connectors.md)
       + [Conexión con Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
@@ -140,7 +141,7 @@ ht-degree: 96%
       + [Creación de un SMS](delivery/using/sms-create.md)
       + [Migración al conector genérico SMPP extendido](delivery/using/unsupported-connector-migration.md)
    + [Envío de mensajes de LINE](delivery/using/line-channel.md)
-   + [Envío de notificaciones push &#x200B;](delivery/using/about-mobile-app-channel.md)
+   + [Envío de notificaciones push ](delivery/using/about-mobile-app-channel.md)
    + Envío de notificaciones push  {#sending-push-notifications}
       + [Integración del SDK de Campaign en la aplicación móvil](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configuración de la aplicación móvil{#configure-the-mobile-app}
@@ -375,7 +376,7 @@ ht-degree: 96%
    + Adobe Experience Manager {#adobe-experience-manager}
       + [Uso de  [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuración de la integración](integrations/using/configuring-the-integration.md)
-      + [Creación de una newsletter de  [!DNL Experience Manager] &#x200B;](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [Creación de una newsletter de  [!DNL Experience Manager] ](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
       + [Uso de  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuración de la integración con  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)

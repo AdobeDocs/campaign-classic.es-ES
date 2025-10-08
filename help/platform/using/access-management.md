@@ -5,10 +5,10 @@ description: Obtenga información sobre cómo conceder acceso a las funciones de
 badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
-source-git-commit: b27b85b126e002c0ea8b5d71da1ed60e1e817980
-workflow-type: ht
-source-wordcount: '202'
-ht-degree: 100%
+source-git-commit: 34f875f583dd81c2229b66f3344f23965532e802
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 64%
 
 ---
 
@@ -34,17 +34,28 @@ Adobe Campaign le permite definir y administrar los derechos asignados a los dis
 
 >[!TAB Documentación de permisos]
 
-Para obtener más información sobre los permisos en Adobe Campaign, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=es#_blank){target=_blank}.
+Para obtener más información sobre los **permisos de Adobe Campaign**, consulte la **[documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=es#_blank){target=_blank}**.
 
 [![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=es#_blank){target=_blank}
 
->[!TAB Administrar acceso a carpetas]
 
-Para obtener más información sobre el acceso a las carpetas y cómo gestionarlas, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/folder-permissions?lang=es#_blank){target=_blank}.
+>[!TAB Administrar permisos en carpetas]
 
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)]([![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/gs-permissions?lang=en#_blank){target=_blank}){target=_blank}
+Para obtener información sobre cómo definir **permisos en las carpetas**, consulte la **[documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}**.
+
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target=_blank}
+
+
+>[!TAB Autenticación nativa]
+
+La autenticación nativa con inicio de sesión/contraseña todavía está disponible en Campaign v7. Sin embargo, para reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomienda encarecidamente [migrar el modo de autenticación del usuario final](../../technotes/using/ac-ims.md) desde la autenticación nativa con inicio de sesión/contraseña a Adobe Identity Management System (IMS). Tenga en cuenta que en la versión 8 de Campaign, no se permite la conexión con un usuario/contraseña (también conocida como autenticación nativa).
+
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](../../technotes/using/ac-ims.md)
+
 
 >[!ENDTABS]
+
+
 
 <!--
 The permissions apply to operator profiles or operator groups.
@@ -59,8 +70,8 @@ There are two types of permissions you can grant to a user:
 
 >[!NOTE]
 >
-> * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/es/campaign/kb/acc-security.html).
-> * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
+> * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html).
+> * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
 
 Learn how to grant access and set up permissions in these sections:
 
