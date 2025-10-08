@@ -6,9 +6,9 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
+source-git-commit: d78fe2e0fd85ba9c23e709a3f30a135cee411230
 workflow-type: tm+mt
-source-wordcount: '2559'
+source-wordcount: '2557'
 ht-degree: 99%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 99%
 + Introducción {#getting-started}
    + [Introducción a Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
    + [Lanzamiento de Adobe Campaign](platform/using/launching-adobe-campaign.md)
-   + [Introducción a la IU de Campaign](platform/using/adobe-campaign-workspace.md)
+   + [IU de Discover Campaign](platform/using/adobe-campaign-workspace.md)
    + [Uso del explorador de Campaign: OCULTO](platform/using/adobe-campaign-explorer.md)
    + [Examen y personalización de listas: OCULTO](platform/using/adobe-campaign-ui-lists.md)
    + [Enumeraciones: OCULTAS](platform/using/managing-enumerations.md)
@@ -141,7 +141,7 @@ ht-degree: 99%
       + [Creación de un SMS](delivery/using/sms-create.md)
       + [Migración al conector genérico SMPP extendido](delivery/using/unsupported-connector-migration.md)
    + [Envío de mensajes de LINE](delivery/using/line-channel.md)
-   + [Envío de notificaciones push &#x200B;](delivery/using/about-mobile-app-channel.md)
+   + [Envío de notificaciones push ](delivery/using/about-mobile-app-channel.md)
    + Envío de notificaciones push  {#sending-push-notifications}
       + [Integración del SDK de Campaign en la aplicación móvil](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configuración de la aplicación móvil{#configure-the-mobile-app}
@@ -376,7 +376,7 @@ ht-degree: 99%
    + Adobe Experience Manager {#adobe-experience-manager}
       + [Uso de  [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuración de la integración](integrations/using/configuring-the-integration.md)
-      + [Creación de una newsletter de  [!DNL Experience Manager] &#x200B;](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [Creación de una newsletter de  [!DNL Experience Manager] ](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
       + [Uso de  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuración de la integración con  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)

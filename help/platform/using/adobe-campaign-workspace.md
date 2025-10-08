@@ -6,14 +6,14 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
+source-git-commit: d78fe2e0fd85ba9c23e709a3f30a135cee411230
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 92%
 
 ---
 
-# Espacio de trabajo de Adobe Campaign{#adobe-campaign-workspace}
+# Espacio de trabajo de Adobe Campaign {#adobe-campaign-workspace}
 
 ## Explore la interfaz de Adobe Campaign {#about-adobe-campaign-interface}
 
@@ -59,7 +59,7 @@ Puede elegir entre cinco idiomas diferentes:
 * Alemán
 * Japonés
 
-El idioma elegido para la instancia de Adobe Campaign Classic puede afectar los formatos de fecha y hora. Para obtener más información, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+El idioma elegido para la instancia de Adobe Campaign Classic puede afectar los formatos de fecha y hora. Para obtener más información, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 Para obtener más información sobre cómo crear una instancia, consulte esta [página](../../installation/using/creating-an-instance-and-logging-on.md).
 
@@ -110,7 +110,7 @@ Es posible acceder a Adobe Campaign Explorer mediante el icono de la barra de he
 
 Para obtener más información sobre el explorador de Adobe Campaign, consulte estas páginas en la documentación de Campaign v8 (consola):
 
-* [Descripción general de la interfaz de usuario de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
+* [Descripción general de la interfaz de usuario de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
 * [Configuración de la interfaz de usuario de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
@@ -137,4 +137,4 @@ Obtenga más información sobre cómo **trabajar con listas desglosadas** en la 
 
 Este vídeo presenta el espacio de trabajo de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39532?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
