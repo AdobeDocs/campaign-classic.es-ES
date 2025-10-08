@@ -169,7 +169,7 @@ si el idioma es el primer o único parámetro de la dirección URL. Por ejemplo:
 &lang=xx
 ```
 
-si hay otros parámetros antes del idioma en la dirección URL. Por ejemplo: **https://myserver/webApp/APP34?status=1&amp;lang=en**
+si hay otros parámetros antes del idioma en la dirección URL. Por ejemplo: **https://myserver/webApp/APP34?status=1&lang=en**
 
 A continuación se enumeran los idiomas y diccionarios de traducción disponibles de forma predeterminada.
 
@@ -430,7 +430,7 @@ Puede añadir **?lang=es** o **?lang=de** para mostrarlo en español o alemán.
 >[!NOTE]
 >
 >Si ya se han añadido otros parámetros a esta aplicación web, añada **&amp;lang=**.\
->Por ejemplo: **https://myserver/webApp/APP34?status=1&amp;lang=en**
+>Por ejemplo: **https://myserver/webApp/APP34?status=1&lang=en**
 
 ## Configuración avanzada de traducción {#advanced-translation-configuration}
 
