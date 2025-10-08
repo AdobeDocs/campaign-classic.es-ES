@@ -7,9 +7,9 @@ feature: Campaigns, Templates
 hide: true
 hidefromtoc: true
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
-source-wordcount: '1128'
+source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
+workflow-type: tm+mt
+source-wordcount: '1131'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Todas las campañas de marketing se basan en una plantilla que almacena las cara
 >
 >El árbol se muestra al hacer clic en el icono **[!UICONTROL Explorer]** de la página de inicio.
 
-Se proporciona una plantilla para crear una campaña sin ninguna configuración específica definida. Puede crear y configurar las plantillas de campañas y luego crear campañas a partir de estas plantillas.
+Se proporciona una plantilla integrada para crear una campaña sin ninguna configuración específica definida. Puede crear y configurar las plantillas de campañas y luego crear campañas a partir de estas plantillas.
 
 ![](assets/do-not-localize/how-to-video.png) Para obtener más información sobre la creación de campañas, vea [este vídeo](../../campaign/using/marketing-campaign-deliveries.md#create-email-video).
 
@@ -70,13 +70,13 @@ El vínculo **[!UICONTROL Advanced campaign settings...]** permite habilitar y d
 
 Si no se selecciona una función, los elementos correspondientes del proceso (menús, iconos, opciones, pestañas, subpestañas, etc.) no aparecen en la interfaz de la plantilla ni en las campañas basadas en esta plantilla. Las pestañas a la izquierda de los detalles de la campaña generalmente coinciden con los procesos seleccionados en la plantilla. Por ejemplo: si no se selecciona **Expenses and Objectives**, la pestaña correspondiente **[!UICONTROL Budget]** no se muestra en las campañas basadas en esta plantilla.
 
-Además, los accesos directos a las ventanas de configuración se añaden al panel de campañas. Cuando una funcionalidad está habilitada, un vínculo directo le permite acceder a ella desde el panel de campañas.
+Además, los accesos directos a las ventanas de configuración se añaden al panel de control de campañas. Cuando una funcionalidad está habilitada, un vínculo directo le permite acceder a ella desde el panel de control de campañas.
 
 Por ejemplo, con la configuración siguiente:
 
 ![](assets/s_ncs_user_op_template_tab1.4.png)
 
-Los siguientes vínculos se muestran en el panel de campañas (no se encuentra el vínculo **[!UICONTROL Add a task]**):
+Los siguientes vínculos se muestran en el panel de control de campañas (no se encuentra el vínculo **[!UICONTROL Add a task]**):
 
 ![](assets/s_ncs_user_op_template_tab1.3ex.png)
 
@@ -157,7 +157,7 @@ Cuando crea una plantilla de campaña, debe introducir la siguiente información
 
   >[!NOTE]
   >
-  >Para obtener más información sobre las enumeraciones, consulte la sección [Introducción](../../platform/using/managing-enumerations.md).
+  >Obtenga más información sobre cómo **trabajar con listas desglosadas** en la [documentación de la versión 8 de Adobe Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 * Seleccione el **tipo de campaña**: única, recurrente o periódica. De manera predeterminada, las plantillas de campaña se aplican a las campañas únicas. Las campañas recurrentes y periódicas se detallan en [esta sección](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
 * Especifique la duración de la campaña, es decir, el número de días durante los que se desarrolla la campaña. Al crear una campaña basada en esta plantilla, las fechas de inicio y finalización de la campaña se rellenan automáticamente.

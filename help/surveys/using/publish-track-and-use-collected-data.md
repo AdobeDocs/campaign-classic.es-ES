@@ -5,9 +5,9 @@ description: Descubra cómo publicar, rastrear y utilizar datos recopilados en u
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '855'
 ht-degree: 98%
 
 ---
@@ -22,9 +22,9 @@ Cuando se haya creado, configurado y publicado el formulario, puede publicarlo e
 >
 >El ciclo de vida de una encuesta en Adobe Campaign, así como sus modos de publicación y envío, son similares a los de los formularios web: estos se detallan en [esta sección](../../web/using/about-web-forms.md).
 
-## Tablero de encuesta {#survey-dashboard}
+## Panel de control de encuesta {#survey-dashboard}
 
-Cada encuesta tiene su propio panel que le permite ver su estado, descripción, dirección URL pública y programación de disponibilidad. También le permite ver los informes disponibles. [Más información](#reports-on-surveys).
+Cada encuesta tiene su propio panel de control que le permite ver su estado, descripción, dirección URL pública y programación de disponibilidad. También le permite ver los informes disponibles. [Más información](#reports-on-surveys).
 
 La URL pública de la encuesta se muestra en el tablero:
 
@@ -54,7 +54,7 @@ Para obtener más información sobre los parámetros de URL, consulte [esta pág
 
 ### Informes sobre las encuestas {#reports-on-surveys}
 
-La pestaña del panel le permite acceder a los informes sobre las encuestas. Haga clic en el nombre del informe para verlo.
+La pestaña del panel de control le permite acceder a los informes sobre las encuestas. Haga clic en el nombre del informe para verlo.
 
 ![](assets/s_ncs_admin_survey_report_doc.png)
 
@@ -110,7 +110,7 @@ Las respuestas a una encuesta se pueden exportar a un archivo externo para su pr
 
    >[!NOTE]
    >
-   >En la sección[&#128279;](../../platform/using/about-generic-imports-exports.md) de , se describen las exportaciones de datos y las fases de su configuración.
+   >En la sección](../../platform/using/about-generic-imports-exports.md) de [, se describen las exportaciones de datos y las fases de su configuración.
 
 ## Uso de los datos recopilados {#using-the-collected-data}
 
@@ -162,4 +162,4 @@ Edite el cuadro de división para configurarlo:
 
 ## Estandarización de datos {#standardizing-data}
 
-Se pueden configurar procesos de estandarización en Adobe Campaign para los datos recopilados mediante alias. Esto permite estandarizar los datos almacenados en la base de datos: para ello, defina un alias en la lista desglosada que contenga la información relevante. [Más información](../../platform/using/managing-enumerations.md#about-enumerations)
+Se pueden configurar procesos de estandarización en Adobe Campaign para los datos recopilados mediante alias. Esto permite estandarizar los datos almacenados en la base de datos: para ello, defina un alias en la lista desglosada que contenga la información relevante. Obtenga más información sobre cómo **trabajar con listas desglosadas** en la [documentación de la versión 8 de Adobe Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.

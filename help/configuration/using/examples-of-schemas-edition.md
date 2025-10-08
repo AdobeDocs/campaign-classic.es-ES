@@ -5,10 +5,10 @@ description: Ejemplos de la edición de esquemas
 feature: Schema Extension
 role: Data Engineer, Developer
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 2%
+source-wordcount: '671'
+ht-degree: 5%
 
 ---
 
@@ -222,7 +222,7 @@ Creando el esquema de tabla de desbordamiento (**cus:overflow**):
 
 >[!NOTE]
 >
->La clave principal de la tabla de desbordamiento es el vínculo a la tabla que se va a ampliar (esquema &quot;nms:recipient&quot; en el ejemplo).
+>La clave principal de la tabla de desbordamiento es el vínculo a la tabla que se va a ampliar (esquema &quot;nms:recipient&quot; en nuestro ejemplo).
 
 El script SQL de creación de tabla es el siguiente:
 
@@ -335,8 +335,9 @@ La interfaz de usuario no mostrará un vínculo sino un campo. Cuando los usuari
 
 ## Temas relacionados
 
-* [Uso de enumeraciones](../../platform/using/managing-enumerations.md)
+* Obtenga más información sobre cómo **trabajar con listas desglosadas** en la [documentación de la versión 8 de Adobe Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 * [Introducción a los esquemas de Campaign](../../configuration/using/about-schema-edition.md)
 
 * [Actualización de la estructura de la base de datos](../../configuration/using/updating-the-database-structure.md)
+
