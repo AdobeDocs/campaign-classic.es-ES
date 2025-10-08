@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Monitoring, Deliverability
 role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '2987'
-ht-degree: 100%
+source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
+workflow-type: tm+mt
+source-wordcount: '2984'
+ht-degree: 99%
 
 ---
 
@@ -41,8 +41,7 @@ La cuarentena y la inclusión en la lista de bloqueados no se aplican al mismo o
 
 * Al incluirse en la **lista de bloqueados**, no obstante, el **perfil** ya no se tendrá en cuenta en las entregas, por ejemplo, tras una baja (exclusión) de un canal determinado. Por ejemplo, si un perfil incluido en la lista de bloqueados del canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán de la entrega.
 
-  Puede comprobar si un perfil está en la lista de bloqueados de uno o más canales en la sección **[!UICONTROL No longer contact]** de la pestaña **[!UICONTROL General]** del perfil. Consulte [esta sección](../../platform/using/editing-a-profile.md#general-tab).
-
+  Puede comprobar si un perfil se encuentra en la lista de bloqueados de la para uno o más canales en la sección **[!UICONTROL No longer contact]** de la pestaña **[!UICONTROL General]** del perfil.
 >[!NOTE]
 >
 >La cuarentena incluye el estado **[!UICONTROL Denylisted]**, que se aplica cuando los destinatarios informan el mensaje como correo no deseado o responden a un mensaje SMS con la palabra clave como “DETENER”. En ese caso, la dirección o el número de teléfono del perfil se envían a cuarentena con el estado **[!UICONTROL Denylisted]**. Para obtener más información sobre la administración de SMS de detención, consulte [esta sección](../../delivery/using/sms-send.md#processing-inbound-messages).
@@ -167,7 +166,7 @@ A continuación se muestran las directrices recomendadas para esta consulta:
    * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS AM` o después
    * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS PM` o antes 
 
-* Para entornos de Campaign Classic v7 con información de respuesta de rechazo SMTP en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
+* Para instancias de Campaign Classic v7 con información de respuesta de rechazo SMTP en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
    * **El texto del error (texto de cuarentena)** contiene “550-5.1.1” Y **El texto del error (texto de cuarentena)** contiene “support.ISP.com”
 
@@ -490,7 +489,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
    <td> No<br /> </td> 
   </tr>
     <tr> 
-   <td> Autenticación: audiencia de ámbito de OAuth o token de ID no válida proporcionada<br /> </td> 
+   <td> Autenticación: público de ámbito de OAuth o token de ID no válida proporcionada<br /> </td> 
    <td> Fallo<br /> </td> 
    <td> unauthorized_client</td> 
    <td> Ignorado</td> 

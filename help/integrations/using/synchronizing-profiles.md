@@ -6,10 +6,10 @@ feature: ACS Connector
 hide: true
 hidefromtoc: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 100%
+source-wordcount: '1155'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ El conector ACS duplica los datos de Campaign v7 a Campaign Standard. Los datos 
 
 * **Add new recipients**: Cree un destinatario nuevo en Campaign v7 y confirme que el perfil correspondiente se haya duplicado en Campaign Standard. Consulte [Creación de un destinatario nuevo](#creating-a-new-recipient).
 * **Actualización de destinatarios**: edite un destinatario nuevo en Campaign v7 y vea el perfil correspondiente en Campaign Standard para confirmar que la actualización se haya duplicado. Consulte [Edición de un destinatario](#editing-a-recipient).
-* **Creación de un flujo de trabajo en Campaign Standard**: cree un flujo de trabajo en Campaign Standard que incluya una consulta con una audiencia o perfiles duplicados de Campaign v7. Consulte [Creación de un flujo de trabajo](#creating-a-workflow).
+* **Creación de un flujo de trabajo en Campaign Standard**: cree un flujo de trabajo en Campaign Standard que incluya una consulta con un público o perfiles duplicados de Campaign v7. Consulte [Creación de un flujo de trabajo](#creating-a-workflow).
 * **Creación de una entrega en Campaign Standard**: siga el flujo de trabajo hasta la finalización para realizar una entrega. Consulte [Creación de una entrega](#creating-a-delivery).
 * **Verify the unsubscription link**: Utilice una aplicación web de Campaign v7 para asegurarse de que la selección del destinatario de darse de baja de un servicio se envíe a la base de datos de Campaign v7. La opción de dejar de recibir el servicio se duplica en Campaign Standard. Consulte [Modificación del vínculo de baja](#changing-the-unsubscription-link).
 
@@ -43,7 +43,7 @@ Cuando un destinatario hace clic en el vínculo de baja de suscripción en un me
 
 ## Creación de un destinatario nuevo {#creating-a-new-recipient}
 
-1. Cree un destinatario nuevo en Campaign v7 para la duplicación en Campaign Standard. Introduzca la mayor cantidad de información posible, incluidos el apellido, el nombre, la dirección de correo electrónico y la dirección postal del destinatario. No obstante, no seleccione **[!UICONTROL Salutation]**, ya que este se añade en la siguiente sección, [Edición de un destinatario](#editing-a-recipient). Para obtener más información, consulte [Adición de destinatarios](../../platform/using/adding-profiles.md).
+1. Cree un destinatario nuevo en Campaign v7 para la duplicación en Campaign Standard. Introduzca la mayor cantidad de información posible, incluidos el apellido, el nombre, la dirección de correo electrónico y la dirección postal del destinatario. Sin embargo, no elija **[!UICONTROL Salutation]**, ya que se agregará en la siguiente sección, [Editar un destinatario](#editing-a-recipient).
 
    ![](assets/acs_connect_profile_sync_01.png)
 
@@ -57,7 +57,7 @@ Cuando un destinatario hace clic en el vínculo de baja de suscripción en un me
 
 Los pasos siguientes para cambiar un único punto de datos proporcionan un ejemplo sencillo de cómo Campaign v7 se convierte en la base de datos primaria para Campaign Standard cuando se utiliza la duplicación de datos. Modificar o eliminar los datos duplicados en Campaign v7 tiene el mismo efecto en los datos correspondientes de Campaign Standard.
 
-1. Elija el destinatario recién creado en [Creación de un nuevo destinatario](#creating-a-new-recipient) y edite el nombre del destinatario. Por ejemplo, seleccione un **[!UICONTROL Salutation]** para el destinatario (por ejemplo, Sr. o Sra.). Para obtener más información, consulte [Edición de un perfil](../../platform/using/editing-a-profile.md).
+1. Elija el destinatario recién creado de [Crear un destinatario nuevo](#creating-a-new-recipient) y edite el nombre del destinatario. Por ejemplo, elija un **[!UICONTROL Salutation]** para el destinatario (por ejemplo, Sr. o Sra.).
 
    ![](assets/acs_connect_profile_sync_03.png)
 
@@ -137,7 +137,7 @@ Siga los pasos a continuación para añadir una entrega de correo electrónico a
 
    ![](assets/acs_connect_profile_sync_14.png)
 
-1. Haga clic en el icono de la carpeta para seleccionar la página de aterrizaje.
+1. Haga clic en el icono de la carpeta para seleccionar la página de destino.
 
    ![](assets/acs_connect_profile_sync_15.png)
 
@@ -170,7 +170,7 @@ Siga las instrucciones de [Creación de un flujo de trabajo](#creating-a-workflo
 
    ![](assets/acs_connect_profile_sync_21.png)
 
-1. Los datos del destinatario en Campaign v7 se actualizan para reflejar que el usuario se ha dado de baja de la suscripción. Confirme que la casilla **[!UICONTROL No longer contact (by any channel)]** esté seleccionada para el destinatario. Para obtener información sobre cómo ver un destinatario en Campaign v7, consulte [Edición de un perfil](../../platform/using/editing-a-profile.md).
+1. Los datos del destinatario en Campaign v7 se actualizan para reflejar que el usuario se ha dado de baja de la suscripción. Confirme que la casilla **[!UICONTROL No longer contact (by any channel)]** esté seleccionada para el destinatario.
 
    ![](assets/acs_connect_profile_sync_22.png)
 

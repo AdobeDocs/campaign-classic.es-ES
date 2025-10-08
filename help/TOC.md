@@ -6,10 +6,10 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: d78fe2e0fd85ba9c23e709a3f30a135cee411230
+source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
 workflow-type: tm+mt
-source-wordcount: '2557'
-ht-degree: 99%
+source-wordcount: '2566'
+ht-degree: 97%
 
 ---
 
@@ -60,12 +60,12 @@ ht-degree: 99%
       + [Exclusión para la venta de información personal](platform/using/privacy-requests-ccpa.md)
    + Administración de perfiles {#profile-management}
       + [Acerca de los perfiles](platform/using/about-profiles.md)
-      + [Editar un perfil](platform/using/editing-a-profile.md)
-      + [Adición de perfiles](platform/using/adding-profiles.md)
-      + [Administración de perfiles](platform/using/managing-profiles.md)
+      + [Edición de un perfil: OCULTO](platform/using/editing-a-profile.md)
+      + [Añadir perfiles: OCULTO](platform/using/adding-profiles.md)
+      + [Administración de perfiles: OCULTO](platform/using/managing-profiles.md)
       + [Actualización de datos](platform/using/updating-data.md)
-      + [Importación y exportación de perfiles](platform/using/exporting-and-importing-profiles.md)
-   + [Creación y administración de listas](platform/using/creating-and-managing-lists.md)
+      + [Importación y exportación de perfiles: OCULTO](platform/using/exporting-and-importing-profiles.md)
+      + [Creación y administración de listas](platform/using/creating-and-managing-lists.md)
    + Importación y exportación de datos  {#importing-and-exporting-data}
       + [Introducción a la importación y exportación de datos](platform/using/get-started-data-import-export.md)
       + [Uso de flujos de trabajo para importar y exportar datos](platform/using/import-export-workflows.md)
@@ -141,7 +141,7 @@ ht-degree: 99%
       + [Creación de un SMS](delivery/using/sms-create.md)
       + [Migración al conector genérico SMPP extendido](delivery/using/unsupported-connector-migration.md)
    + [Envío de mensajes de LINE](delivery/using/line-channel.md)
-   + [Envío de notificaciones push &#x200B;](delivery/using/about-mobile-app-channel.md)
+   + [Envío de notificaciones push ](delivery/using/about-mobile-app-channel.md)
    + Envío de notificaciones push  {#sending-push-notifications}
       + [Integración del SDK de Campaign en la aplicación móvil](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configuración de la aplicación móvil{#configure-the-mobile-app}
@@ -376,17 +376,17 @@ ht-degree: 99%
    + Adobe Experience Manager {#adobe-experience-manager}
       + [Uso de  [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuración de la integración](integrations/using/configuring-the-integration.md)
-      + [Creación de una newsletter de  [!DNL Experience Manager] &#x200B;](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [Creación de una newsletter de  [!DNL Experience Manager] ](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
       + [Uso de  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuración de la integración con  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
       + [Inserción de una imagen dinámica](integrations/using/inserting-a-dynamic-image.md)
    + Conector ACS {#acs-connector}
-      + [Introducción a  [!DNL ACS Connector]](integrations/using/acs-connector-principles-and-data-cycle.md)
-      + [Sincronización de perfiles](integrations/using/synchronizing-profiles.md)
-      + [Sincronización de públicos](integrations/using/synchronizing-audiences.md)
-      + [Sincronización de aplicaciones web](integrations/using/synchronizing-web-applications.md)
-      + [Resolución de problemas con  [!DNL ACS Connector]](integrations/using/troubleshooting-the-acs-connector.md)
+      + [Introducción a  [!DNL ACS Connector] : OCULTO](integrations/using/acs-connector-principles-and-data-cycle.md)
+      + [Sincronización de perfiles: OCULTO](integrations/using/synchronizing-profiles.md)
+      + [Sincronización de audiencias: OCULTO](integrations/using/synchronizing-audiences.md)
+      + [Sincronización de aplicaciones web: OCULTO](integrations/using/synchronizing-web-applications.md)
+      + [Solucionar problemas de  [!DNL ACS Connector] : OCULTO](integrations/using/troubleshooting-the-acs-connector.md)
 + [Automatización con flujos de trabajo](workflow/using/about-workflow-automation.md)
 + Automatización con flujos de trabajo {#automating-with-workflows}
    + Introducción a los flujos de trabajo {#introduction}

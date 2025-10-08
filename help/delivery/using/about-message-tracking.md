@@ -6,9 +6,9 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Monitoring, Email
 role: User
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '684'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 Gracias a sus funciones de seguimiento, Adobe Campaign le permite realizar un seguimiento de los mensajes enviados y comprobar el comportamiento de los destinatarios: aperturas de mensajes, clics en vínculos, bajas, etc.
 
-Esta información se recupera en la pestaña **[!UICONTROL Tracking]** del perfil de cada destinatario de la entrega. Esta pestaña presenta todos los vínculos de URL rastreados y seleccionados por el destinatario seleccionado de la lista. Esta es la acumulación de todas las direcciones URL rastreadas en las entregas que aún están presentes en la pantalla de envío. La lista se puede configurar y normalmente contiene: la dirección URL donde se hizo clic, la fecha y la hora del clic y el documento en el que se encontró la URL. Para obtener más información, consulte [esta sección](../../platform/using/editing-a-profile.md#tracking-tab).
+Esta información se recupera en la pestaña **[!UICONTROL Tracking]** del perfil de cada destinatario de la entrega. Esta pestaña presenta todos los vínculos de URL rastreados y seleccionados por el destinatario seleccionado de la lista. Esta es la acumulación de todas las direcciones URL rastreadas en las entregas que aún están presentes en la pantalla de envío. La lista se puede configurar y normalmente contiene: la dirección URL donde se hizo clic, la fecha y la hora del clic y el documento en el que se encontró la URL.
 
-El **panel de envío** es fundamental para monitorizar los envíos y los problemas que se puedan detectar durante el envío de mensajes. Para obtener más información, consulte [esta sección](delivery-dashboard.md).
+El **panel de control de envío** es fundamental para monitorizar los envíos y los problemas que se puedan detectar durante el envío de mensajes. Para obtener más información, consulte [esta sección](delivery-dashboard.md).
 
 El siguiente diagrama muestra las etapas del diálogo entre el usuario y los distintos servidores.
 
