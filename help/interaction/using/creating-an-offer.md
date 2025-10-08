@@ -7,8 +7,8 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
+source-git-commit: 192505e1c4d387de55ca18b578b837d237cc0607
+workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 100%
 
@@ -46,9 +46,9 @@ Para crear una oferta, aplique los pasos siguientes:
 
 En la pestaña **[!UICONTROL Eligibility]**, defina el periodo de validez y de presentación de la oferta, los filtros que se desea aplicar al objetivo y a la ponderación de la oferta.
 
-### Definición del periodo de elegibilidad de una oferta {#defining-the-eligibility-period-of-an-offer}
+### Definición del periodo de idoneidad de una oferta {#defining-the-eligibility-period-of-an-offer}
 
-Para definir el periodo de elegibilidad de la oferta, utilice las listas desplegables y seleccione una fecha de inicio y de finalización en el calendario.
+Para definir el periodo de idoneidad de la oferta, utilice las listas desplegables y seleccione una fecha de inicio y de finalización en el calendario.
 
 ![](assets/offer_eligibility_create_002.png)
 
@@ -58,7 +58,7 @@ Fuera de estas fechas, el motor de interacción no selecciona la oferta. Si tamb
 
 Se puede aplicar filtros al objetivo de oferta.
 
-Para ello, haga clic en el vínculo **[!UICONTROL Edit query]** y seleccione el filtro que desea aplicar. (Consulte [esta sección](../../platform/using/steps-to-create-a-query.md#step-4---filter-data)).
+Para ello, haga clic en el vínculo **[!UICONTROL Edit query]** y seleccione el filtro que desea aplicar. Consulte [esta sección](../../platform/using/about-adobe-campaign-classic.md).
 
 ![](assets/offer_eligibility_create_003.png)
 
@@ -112,9 +112,9 @@ Para crear una ponderación en una oferta, siga los siguientes pasos:
    >
    >Si un objetivo es apto para múltiples pesos para una oferta seleccionada, el motor mantiene el mejor peso (más alto). Al llamar al motor de oferta, se selecciona una oferta por un máximo de una vez por contacto.
 
-### Resumen de las reglas de idoneidad para la oferta {#a-summary-of-offer-eligibility-rules}
+### Resumen de las reglas de elegibilidad para la oferta {#a-summary-of-offer-eligibility-rules}
 
-Una vez completada la configuración, se encontrará disponible un resumen de las reglas de elegibilidad en el panel de ofertas.
+Una vez completada la configuración, se encontrará disponible un resumen de las reglas de elegibilidad en el panel de control de ofertas.
 
 Para visualizarlo, haga clic en el vínculo **[!UICONTROL Schedule and eligibility rules]**.
 
@@ -162,7 +162,7 @@ Para visualizarlo, haga clic en el vínculo **[!UICONTROL Schedule and eligibili
 
 Tan pronto como se haya configurado el contenido de la oferta, obtiene una vista previa de la oferta tal y como aparece para su destinatario. Para ello:
 
-1. Seleccione la pestaña **[!UICONTROL Preview]**.
+1. Haga clic en la pestaña **[!UICONTROL Preview]**.
 
    ![](assets/offer_preview_create_001.png)
 

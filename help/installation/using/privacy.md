@@ -4,7 +4,7 @@ title: Personalización y privacidad
 description: Conozca las prácticas recomendadas de seguridad para la privacidad y personalización
 feature: Installation, Privacy, Privacy Tools, URL Personalization
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 192505e1c4d387de55ca18b578b837d237cc0607
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 11%
@@ -25,7 +25,7 @@ Al añadir enlaces personalizados al contenido, evite siempre cualquier personal
 
 ### Recomendación
 
-Para validar y asegurarse de que no está usando lo anterior, ejecute una consulta en la tabla de URL de seguimiento a través de [Editor de consultas genérico de Campaign](../../platform/using/steps-to-create-a-query.md) o cree un flujo de trabajo con criterios de filtro en la [actividad de consulta](../../workflow/using/query.md).
+Para validar y asegurarse de que no está usando lo anterior, ejecute una consulta en la tabla de URL de seguimiento a través de [Editor de consultas genérico de Campaign](../../platform/using/about-queries-in-campaign.md) o cree un flujo de trabajo con criterios de filtro en la [actividad de consulta](../../workflow/using/query.md).
 
 Ejemplo:
 
@@ -54,7 +54,7 @@ Además, se puede utilizar una mejora para deshabilitar las direcciones URL gene
 
 Si está ejecutando la versión 19.1.4, puede experimentar problemas con los envíos de notificaciones push mediante vínculos de seguimiento o con los envíos que utilizan etiquetas de anclaje. Si es así, le recomendamos que deshabilite la firma de URL.
 
-Como cliente híbrido, Cloud Service administrados o alojado en Campaign, debe ponerse en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para que se deshabilite la firma de URL.
+Como cliente híbrido, de Managed Cloud Services o alojado en Campaign, debe ponerse en contacto con el [Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html) para que se deshabilite la firma de URL.
 
 Si está ejecutando Campaign en una arquitectura híbrida, antes de habilitar la firma URL, asegúrese de que la instancia intermediaria alojada se haya actualizado de la siguiente manera:
 
@@ -151,7 +151,7 @@ Para realizar esto, siga los pasos a continuación:
    >
    >Puede reemplazar `$(loginId) = 0 or $(login) = 'admin'` por `hasNamedRight('admin')` para permitir que todos los usuarios con derechos de administrador vean estas contraseñas.
 
-## Páginas de Protect con API
+## Proteger páginas con API
 
 Recomendamos encarecidamente a los clientes locales que protejan las páginas que puedan contener información personal (PI), como páginas espejo, aplicaciones web, etc.
 
