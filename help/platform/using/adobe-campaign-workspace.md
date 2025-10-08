@@ -6,10 +6,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+source-git-commit: 67c4fa449e12b04dab4673bffdc5c2c8b541db69
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 82%
+source-wordcount: '959'
+ht-degree: 73%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 82%
 
 ## Explore la interfaz de Adobe Campaign {#about-adobe-campaign-interface}
 
-Una vez que esté conectado a la base de datos, accederá a la página principal de Adobe Campaign, que es un panel de control compuesto por vínculos y accesos directos que permiten acceder a las funcionalidades, según la instalación y las configuraciones de la plataforma general.
+Una vez que esté conectado a la base de datos, accederá a la página principal de Adobe Campaign. Esta página es su tablero: se compone de vínculos y accesos directos que le permiten acceder a las funcionalidades, según la instalación y las configuraciones de la plataforma general.
 
-Desde la sección central de la página principal, puede utilizar vínculos para acceder al portal de documentación en línea de Campaign, al foro y al sitio web de soporte técnico.
+Desde la sección central de la página principal, puede utilizar vínculos para acceder al portal de documentación de Campaign, a la comunidad y al sitio web del Servicio de atención al cliente de Adobe.
 
 ![](assets/d_ncs_user_interface_home.png)
 
@@ -51,7 +51,7 @@ El idioma se selecciona al instalar la instancia de Adobe Campaign Classic.
 
 ![](assets/language.png)
 
-Puede elegir entre cinco idiomas diferentes:
+Puede elegir entre estos idiomas:
 
 * Inglés (RU)
 * Inglés (EE. UU.)
@@ -59,7 +59,7 @@ Puede elegir entre cinco idiomas diferentes:
 * Alemán
 * Japonés
 
-El idioma elegido para la instancia de Adobe Campaign Classic puede afectar los formatos de fecha y hora. Para obtener más información, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+El idioma elegido para la instancia de Adobe Campaign Classic puede afectar los formatos de fecha y hora. Para obtener más información, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 Para obtener más información sobre cómo crear una instancia, consulte esta [página](../../installation/using/creating-an-instance-and-logging-on.md).
 
@@ -110,7 +110,7 @@ Es posible acceder a Adobe Campaign Explorer mediante el icono de la barra de he
 
 Para obtener más información sobre el explorador de Adobe Campaign, consulte estas páginas en la documentación de Campaign v8 (consola):
 
-* [Descripción general de la interfaz de usuario de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
+* [Descripción general de la interfaz de usuario de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
 * [Configuración de la interfaz de usuario de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
@@ -123,18 +123,14 @@ El filtrado de datos es el proceso de reducir un conjunto de datos a solo los re
 
 Al navegar por Campaign, los datos se muestran en listas. Puede aplicar filtros integrados para acceder rápidamente a un subconjunto definido, como direcciones en cuarentena, destinatarios sin objetivo o registros dentro de un intervalo de edad o fecha de creación específicos. Además, puede crear filtros personalizados, guardarlos para usarlos en el futuro y compartirlos con otros usuarios de Campaign.
 
->[!NOTE]
->
->Para aprender a acceder, diseñar y compartir filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
+Aprenda a **acceder, diseñar y compartir filtros** en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
 
 ## Trabajo con listas {#manage-and-customize-lists}
 
 En la consola del cliente de Campaign, los datos se muestran en listas. Puede adaptar estas listas a sus necesidades. Por ejemplo, puede añadir columnas, filtrar datos, contar registros, y guardar y compartir su configuración.
 
->[!NOTE]
->
->Para aprender a administrar y personalizar listas, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
+Aprenda a **administrar y personalizar listas** en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
 
 ## Administración de enumeraciones{#managing-enumerations}
 
@@ -142,10 +138,10 @@ Una lista desglosada (también denominada lista detallada) es una lista predefin
 
 Cuando se definen, los valores se muestran en una lista desplegable. Puede seleccionar un valor directamente o introducirlo mediante una entrada predictiva, que sugiere y completa entradas coincidentes. Algunos campos incluyen listas desglosadas predefinidas y se pueden crear listas desglosadas adicionales si es necesario.
 
-Obtenga más información sobre cómo **trabajar con listas desglosadas** en la [documentación de la versión 8 de Adobe Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+Obtenga más información sobre cómo **trabajar con enumeraciones** en la [documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 ## Tutorial en vídeo {#video}
 
 Este vídeo presenta el espacio de trabajo de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39532?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
