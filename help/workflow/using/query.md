@@ -188,9 +188,9 @@ La sección siguiente ofrece prácticas recomendadas para optimizar las consulta
 
   Para obtener más información, consulte estas secciones en función de la versión de Campaign:
 
-  ![](assets/do-not-localize/v7.jpeg)[Documentación de Campaign v7](../../configuration/using/database-mapping.md)
+  ![](assets/do-not-localize/v7.jpeg) [Documentación de Campaign v7](../../configuration/using/database-mapping.md)
 
-  ![](assets/do-not-localize/v8.png)[Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=es)
+  ![](assets/do-not-localize/v8.png) [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=es)
 
 ### Funciones {#functions}
 
