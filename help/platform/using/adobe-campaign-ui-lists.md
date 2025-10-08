@@ -4,10 +4,12 @@ title: Administración y personalización de listas
 description: Aprenda a examinar y configurar listas
 feature: Audiences, Data Management
 exl-id: 21656cc2-15a1-4156-8897-ea4fe3e9b97f
-source-git-commit: f43b15e61fb286a612f057d8d3bf5a1ff6ecb253
-workflow-type: ht
+hide: true
+hidefromtoc: true
+source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 100%
+ht-degree: 72%
 
 ---
 

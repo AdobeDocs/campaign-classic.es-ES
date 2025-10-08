@@ -5,9 +5,11 @@ description: Esta página enumera todas las nuevas funciones y las actualizacion
 feature: Release Notes
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
-workflow-type: ht
+source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+workflow-type: tm+mt
 source-wordcount: '3864'
 ht-degree: 100%
 
@@ -23,18 +25,18 @@ Consulte las [Notas de la versión de Adobe Campaign Classic](../../rn/using/lat
 
 ### Marzo de 2025 {#march-2025}
 
-Como parte de una iniciativa de promoción de la versión 8 de Campaign, hemos reorganizado el conjunto de documentación de Campaign Classic. En la versión 7.4.2 lanzamos el primer hito. Las siguientes guías se han reemplazado con páginas de aterrizaje, incluidos los vínculos a la documentación de la versión 8:
+Como parte de una iniciativa de promoción de la versión 8 de Campaign, hemos reorganizado el conjunto de documentación de Campaign Classic. En la versión 7.4.2 lanzamos el primer hito. Las siguientes guías se han reemplazado con páginas de destino, incluidos los vínculos a la documentación de la versión 8:
 
-* Orquestación de campañas de marketing: esta guía se ha reemplazado por una [página de aterrizaje](../../campaign/using/about-marketing-campaigns.md).
+* Orquestación de campañas de marketing: esta guía se ha reemplazado por una [página de destino](../../campaign/using/about-marketing-campaigns.md).
 * Gestor de recursos de marketing: esta guía se ha eliminado.
 * Marketing distribuido: esta guía se ha eliminado.
-* Automatización con flujos de trabajo: esta guía se ha reemplazado por una [página de aterrizaje](../../workflow/using/about-workflow-automation.md)
+* Automatización con flujos de trabajo: esta guía se ha reemplazado por una [página de destino](../../workflow/using/about-workflow-automation.md)
 
 ## 2024
 
 ### Septiembre de 2024 {#sept-2024}
 
-Los estados de las versiones se han reducido y simplificado. [Más información](rn-overview.md)
+Los estados de la versión se han reducido y simplificado. [Más información](rn-overview.md)
 
 Se ha actualizado la instalación de los paquetes Linux de la versión 7.4.1. [Más información](../../installation/using/installing-packages-with-linux.md)
 
@@ -258,11 +260,11 @@ El [capítulo de administración de permisos](../../platform/using/access-manage
 Aprenda a crear y administrar sus campañas a través de estas nuevas páginas:
 * [Creación y configuración de plantillas de campaña](../../campaign/using/marketing-campaign-templates.md)
 * [Entregas de campañas de marketing](../../campaign/using/marketing-campaign-deliveries.md)
-* [Selección de la audiencia de las campañas](../../campaign/using/marketing-campaign-target.md)
+* [Selección del público de las campañas](../../campaign/using/marketing-campaign-target.md)
 * [Administración de documentos asociados](../../campaign/using/marketing-campaign-assets.md)
 * [Configuración y administración del proceso de aprobación](../../campaign/using/marketing-campaign-approval.md)
 
-Se ha añadido información en la sección de la actividad **[!UICONTROL Advanced JavaScript]** sobre cómo utilizar el método task.setCompleted() para finalizar la tarea e impedir futuras recuperaciones. [Más información](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
+Se ha añadido información en la sección de la actividad **[!UICONTROL Advanced JavaScript]** sobre cómo utilizar el método task.setCompleted() para terminar la tarea e impedir futuras recuperaciones. [Más información](../../workflow/using/sql-code-and-javascript-code.md#adv-js-code-desc)
 
 La sección [Entrega](../../delivery/using/about-deliverability.md) se ha actualizado y ahora incluye vínculos a la nueva [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es). Toda la información genérica relacionada con la capacidad de envío que se puede aplicar a varias soluciones de Adobe se ha trasladado al [Apéndice de la Guía de prácticas recomendadas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=es#additional-resources).
 
@@ -306,7 +308,7 @@ Conozca cómo averiguar la versión actual del servlet web integrado de Tomcat u
 
 La lista de flujos de trabajo técnicos con sus paquetes asociados se ha mejorado y centralizado en una sola página. [Puede obtener más información](../../workflow/using/about-technical-workflows.md)
 
-La sección de solución de problemas de la guía de **Supervisión** se ha reorganizado y mejorado con una página de aterrizaje. [Obtenga más información](../../production/using/troubleshooting.md).
+La sección de solución de problemas de la guía de **Supervisión** se ha reorganizado y mejorado con una página de destino. [Obtenga más información](../../production/using/troubleshooting.md).
 
 Hay una nueva sección de **Importación y exportación de datos** disponible con nuevas páginas relacionadas con flujos de trabajo, compresión de datos, cifrado y prácticas recomendadas de importación. [Puede obtener más información](../../platform/using/get-started-data-import-export.md)
 
@@ -399,7 +401,7 @@ Se ha añadido una nota sobre el uso de datos adicionales con direcciones semill
 
 Conozca las prácticas recomendadas relacionadas con el diseño de envíos y el envío con Campaign en una sección dedicada. [Más información](../../delivery/using/delivery-best-practices.md)
 
-Se ha mejorado la página de aterrizaje de prácticas recomendadas sobre la capacidad de entrega para facilitar el acceso a las subsecciones. [Más información](../../delivery/using/about-deliverability.md)
+Se ha mejorado la página de destino de prácticas recomendadas sobre la capacidad de entrega para facilitar el acceso a las subsecciones. [Más información](../../delivery/using/about-deliverability.md)
 
 Los vídeos de procedimientos ya están disponibles para los siguientes temas:
 

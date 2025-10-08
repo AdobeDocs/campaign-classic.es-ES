@@ -7,15 +7,16 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f91d69a4-b794-40f0-b450-de862d7333e2
-source-git-commit: 22aa5f76541e6ff1612907ab0b34f0ac468fb9a6
-workflow-type: ht
+hide: true
+hidefromtoc: true
+source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 100%
+ht-degree: 59%
 
 ---
 
-# Uso de Adobe Campaign Explorer {#using-adobe-campaign-explorer}
-
+# Uso de Adobe Campaign Explorer
 
 
 Es posible acceder a Adobe Campaign Explorer mediante el icono de la barra de herramientas. Le permite acceder a todas las funcionalidades de Adobe Campaign, a las pantallas de configuración y a una vista más detallada de algunos de los elementos de la plataforma.
