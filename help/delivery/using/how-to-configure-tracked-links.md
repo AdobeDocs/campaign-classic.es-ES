@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Monitoring
 role: User, Developer
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '583'
-ht-degree: 100%
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
+workflow-type: tm+mt
+source-wordcount: '594'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ En este ejemplo, la dirección URL https://www.adobe.com va seguida de un punto 
 * [https://www.adobe.com];
 * {https://www.adobe.com};
 
-El seguimiento de mensajes está activado de forma predeterminada. Para personalizar cómo se realiza el seguimiento de las direcciones URL, siga los pasos a continuación:
+El seguimiento de mensajes está habilitado de forma predeterminada. Para personalizar cómo se realiza el seguimiento de las direcciones URL, siga los pasos a continuación:
 
 1. Seleccione la opción **[!UICONTROL Display URLs]** en la sección inferior del asistente de envíos, bajo el contenido del mensaje.
 
@@ -72,4 +72,4 @@ El seguimiento de mensajes está activado de forma predeterminada. Para personal
    * **[!UICONTROL Opt-out]**: considera esta URL como una URL de exclusión o de baja.
    * **[!UICONTROL Mirror page]**: considera esta URL como una URL de página espejo.
 
-1. Además, puede seleccionar una categoría para cada URL rastreada en la lista desplegable de la columna **[!UICONTROL Category]**. Estas categorías pueden mostrarse en los informes, como en **[!UICONTROL URLs and click streams]** (consulte [esta sección](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)). Las categorías se definen en una lista desglosada específica: **[!UICONTROL urlCategory]** (consulte [Administración de enumeraciones](../../platform/using/managing-enumerations.md)).
+1. Además, puede seleccionar una categoría para cada URL rastreada en la lista desplegable de la columna **[!UICONTROL Category]**. Estas categorías pueden mostrarse en los informes, como en **[!UICONTROL URLs and click streams]** (consulte [esta sección](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)). Las categorías se definen en una enumeración específica. Obtenga más información sobre cómo **trabajar con listas desglosadas** en la [documentación de la versión 8 de Adobe Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.

@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 7%
+source-wordcount: '484'
+ht-degree: 10%
 
 ---
 
@@ -63,7 +63,7 @@ Consulte también [Optimización de envío de correo electrónico](../../install
 
 >[!IMPORTANT]
 >
->La configuración de afinidad debe ser coherente de un servidor a otro. Le recomendamos que se ponga en contacto con el Adobe de para obtener información sobre la configuración de afinidad, ya que los cambios de configuración deben replicarse en todos los servidores de aplicaciones que ejecuten el MTA.
+>La configuración de afinidad debe ser coherente de un servidor a otro. Le recomendamos que se ponga en contacto con Adobe para configurar la afinidad, ya que los cambios de configuración deben replicarse en todos los servidores de aplicaciones que ejecuten el MTA.
 
 Puede mejorar el tráfico SMTP saliente mediante afinidades con direcciones IP.
 
@@ -88,7 +88,8 @@ Para ello, siga los siguientes pasos:
 
    >[!NOTE]
    >
-   >Las enumeraciones se detallan en [este documento](../../platform/using/managing-enumerations.md).
+   >Obtenga más información sobre cómo **trabajar con listas desglosadas** en la [documentación de la versión 8 de Adobe Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+
 
    A continuación, puede seleccionar la afinidad que desea utilizar, como se muestra a continuación para las tipologías:
 

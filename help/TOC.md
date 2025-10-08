@@ -6,7 +6,7 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
 workflow-type: tm+mt
 source-wordcount: '2559'
 ht-degree: 99%
@@ -39,16 +39,16 @@ ht-degree: 99%
    + [Conectores de Campaign](platform/using/about-connectors.md)
    + Preguntas frecuentes {#faq}
       + [Preguntas clave](platform/using/common-questions.md)
-         + [Conceptos globales](platform/using/faq-key-concepts.md)
-         + [Actualización de compilación](platform/using/faq-build-upgrade.md)
-         + [Privacidad](platform/using/privacy-faq.md)
-         + [Públicos](platform/using/faq-audiences.md)
-         + [Diseño de mensajes](platform/using/faq-designing.md)
-         + [Envío de mensajes](platform/using/faq-messages.md)
-         + [Flujos de trabajo](platform/using/faq-workflows.md)
-         + [Configuración](platform/using/faq-campaign-config.md)
-         + [Informes](platform/using/faq-reporting.md)
-         + [Desarrollo](platform/using/faq-developers.md)
+      + [Conceptos globales](platform/using/faq-key-concepts.md)
+      + [Actualización de compilación](platform/using/faq-build-upgrade.md)
+      + [Privacidad](platform/using/privacy-faq.md)
+      + [Públicos](platform/using/faq-audiences.md)
+      + [Diseño de mensajes](platform/using/faq-designing.md)
+      + [Envío de mensajes](platform/using/faq-messages.md)
+      + [Flujos de trabajo](platform/using/faq-workflows.md)
+      + [Configuración](platform/using/faq-campaign-config.md)
+      + [Informes](platform/using/faq-reporting.md)
+      + [Desarrollo](platform/using/faq-developers.md)
    + [Glosario](platform/using/ac-glossary.md)
    + Privacidad {#privacy}
       + [Privacidad y consentimiento](platform/using/privacy-and-recommendations.md)
@@ -141,7 +141,7 @@ ht-degree: 99%
       + [Creación de un SMS](delivery/using/sms-create.md)
       + [Migración al conector genérico SMPP extendido](delivery/using/unsupported-connector-migration.md)
    + [Envío de mensajes de LINE](delivery/using/line-channel.md)
-   + [Envío de notificaciones push &#x200B;](delivery/using/about-mobile-app-channel.md)
+   + [Envío de notificaciones push ](delivery/using/about-mobile-app-channel.md)
    + Envío de notificaciones push  {#sending-push-notifications}
       + [Integración del SDK de Campaign en la aplicación móvil](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configuración de la aplicación móvil{#configure-the-mobile-app}
@@ -376,7 +376,7 @@ ht-degree: 99%
    + Adobe Experience Manager {#adobe-experience-manager}
       + [Uso de  [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuración de la integración](integrations/using/configuring-the-integration.md)
-      + [Creación de una newsletter de  [!DNL Experience Manager] &#x200B;](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [Creación de una newsletter de  [!DNL Experience Manager] ](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
       + [Uso de  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuración de la integración con  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)

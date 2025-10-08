@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 05909ea6-2c93-42ff-9142-1dd14fa6fdec
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '2973'
-ht-degree: 100%
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
+workflow-type: tm+mt
+source-wordcount: '2983'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,8 @@ El enlace **[!UICONTROL Advanced parameters]** permite acceder a las siguientes 
 
    * **[!UICONTROL Do not update enumerations]**
 
-     Seleccione esta opción para evitar enriquecer la lista de valores numéricos en la base de datos. Consulte [Administración de enumeraciones](../../platform/using/managing-enumerations.md).
+     Seleccione esta opción para evitar enriquecer la lista de valores enumerados en la base de datos. Obtenga más información sobre cómo **trabajar con listas desglosadas** en la [documentación de la versión 8 de Adobe Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+
 
 * **[!UICONTROL Variables]** Ficha
 
@@ -165,7 +166,7 @@ Existen cuatro tipos de campos calculados:
 * **[!UICONTROL Fixed string]**: el valor del campo calculado es el mismo para todas las líneas del archivo de origen. Permite establecer el valor de un campo de los registros insertados o actualizados. Por ejemplo, puede establecer un marcador en “sí” para todos los registros importados.
 * **[!UICONTROL String with JavaScript tags]**: el valor del campo calculado es una cadena de caracteres que contiene comandos de JavaScript.
 * **[!UICONTROL JavaScript expression]**: el valor del campo calculado es el resultado de la evaluación de una función de JavaScript. El valor devuelto puede ser un número, una fecha, etc.
-* **[!UICONTROL Enumeration]**: el valor del campo se atribuye de acuerdo con un valor contenido en el archivo de origen. El editor permite especificar la columna de origen e introducir la lista de valores numéricos, como en el siguiente ejemplo:
+* **[!UICONTROL Enumeration]**: el valor del campo se atribuye de acuerdo con un valor contenido en el archivo de origen. El editor permite especificar la columna de origen e introducir la lista de valores de enumeración, como en el siguiente ejemplo:
 
   ![](assets/s_ncs_user_import_wizard03_3.png)
 
@@ -223,7 +224,7 @@ Evite elegir un campo que pueda modificarse durante la importación; si esto ocu
 >
 >Por lo tanto, la reconciliación solo se realiza en esta carpeta (a no ser que no se haya seleccionado ninguna carpeta).
 
-### Anulación de duplicación {#deduplication}
+### Deduplicación {#deduplication}
 
 >[!NOTE]
 >
@@ -283,7 +284,7 @@ El siguiente paso del asistente de importación le permite seleccionar o crear l
 
 >[!NOTE]
 >
->Este paso aparece solo cuando se importan destinatarios y cuando se utiliza la tabla de destinatarios predeterminada de Adobe Campaign (**nms:destinatario**).
+>Este paso aparece solo cuando se importan destinatarios y cuando se utiliza la tabla de destinatarios predeterminada de Adobe Campaign (**nms:recipient**).
 
 * Haga clic en los enlaces **[!UICONTROL Edit]** para seleccionar la carpeta, la lista o el servicio al que desee asociar o suscribir a los destinatarios.
 

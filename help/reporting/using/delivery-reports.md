@@ -5,10 +5,10 @@ description: Informes de envío
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Reporting, Monitoring
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '1461'
-ht-degree: 100%
+source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
+workflow-type: tm+mt
+source-wordcount: '1467'
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ Se puede realizar un seguimiento de la ejecución de los envíos a través de di
    * **[!UICONTROL Tracking statistics]**: consulte las [Estadísticas de seguimiento](#tracking-statistics)
    * **[!UICONTROL URLs and click streams]**: consulte [Direcciones URL y flujos de clics](#urls-and-click-streams).
    * **[!UICONTROL Tracking indicators]**: consulte [Seguimiento de indicadores](#tracking-indicators).
-   * **[!UICONTROL Non-deliverables and bounces]**: consulte [No entregables y devoluciones](../../reporting/using/global-reports.md#non-deliverables-and-bounces).
+   * **[!UICONTROL Non-deliverables and bounces]**: consulte [Rechazos y correos que no se pueden entregar](../../reporting/using/global-reports.md#non-deliverables-and-bounces).
    * **[!UICONTROL User activities]**: consulte [Actividades de usuario](../../reporting/using/global-reports.md#user-activities).
    * **[!UICONTROL Delivery summary]**: consulte [Resumen de entregas](#delivery-summary).
    * **[!UICONTROL Subscription tracking]**: consulte [Seguimiento de suscripciones](../../reporting/using/global-reports.md#subscription-tracking).
@@ -86,7 +86,7 @@ Esta tabla de valores muestra el desglose de envíos, aperturas, clics y reaccio
 
 >[!NOTE]
 >
->Los nombres de dominio mostrados en este informe se definen en la lista desglosada utilizada al nivel de cubo. Para cambiar, añadir o quitar dominios predeterminados, edite la lista desglosada **[!UICONTROL Domains]** y modifique los valores y alias. Para obtener más información, consulte [esta sección](../../platform/using/managing-enumerations.md). La categoría **[!UICONTROL Others]** incluye nombres de dominio que no pertenecen a ningún valor de la lista desglosada.
+>Los nombres de dominio mostrados en este informe se definen en la lista desglosada utilizada al nivel de cubo. Para cambiar, añadir o quitar dominios predeterminados, edite la lista desglosada **[!UICONTROL Domains]** y modifique los valores y alias. Obtenga más información sobre cómo **trabajar con enumeraciones** en [documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}. La categoría **[!UICONTROL Others]** incluye nombres de dominio que no pertenecen a ningún valor de la lista desglosada.
 
 **[!UICONTROL 4. Generated click streams]**
 
