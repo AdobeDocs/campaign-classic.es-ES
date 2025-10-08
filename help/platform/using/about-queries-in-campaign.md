@@ -28,10 +28,10 @@ El editor de consultas genérico centraliza todas las funcionalidades de consult
 
 >[!TAB Consultar la base de datos]
 
-Los pasos para crear una consulta se detallan en **[Documentación de la versión 8 de Campaign (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**
+Los pasos para crear una consulta se detallan en **[Documentación de la versión 8 de Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**
 
 
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
 
 
 >[!TAB Agregar una consulta en un flujo de trabajo]
@@ -42,9 +42,9 @@ Conozca los pasos clave relacionados con la creación de consultas en el context
 
 >[!TAB Condiciones de filtro]
 
-Para diseñar la consulta, debe seleccionar las condiciones de filtrado en el editor de consultas. Las funcionalidades disponibles y los casos de uso se detallan en la **[documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**
+Para diseñar la consulta, debe seleccionar las condiciones de filtrado en el editor de consultas. Las funcionalidades disponibles y los casos de uso se detallan en la **[documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**
 
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
 
 >[!ENDTABS]
 
