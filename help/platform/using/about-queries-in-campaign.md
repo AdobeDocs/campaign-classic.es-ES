@@ -2,15 +2,14 @@
 product: campaign
 title: Acerca de las consultas en Campaign
 description: Acerca de las consultas en Campaign
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Query Editor
 role: User, Data Architect
 level: Beginner
 exl-id: 2db1034d-cad6-4fb0-8646-dd9099080ab0
-source-git-commit: 11c81e4f04b978381d3803e2b60e23ed791eee44
+source-git-commit: 0bbe3bd199c664d30513a0c50203248d703451cd
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,10 +28,10 @@ El editor de consultas genérico centraliza todas las funcionalidades de consult
 
 >[!TAB Consultar la base de datos]
 
-Los pasos para crear una consulta se detallan en **[Documentación de la versión 8 de Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**
+Los pasos para crear una consulta se detallan en **[Documentación de la versión 8 de Campaign (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}**
 
 
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target=_blank}
 
 
 >[!TAB Agregar una consulta en un flujo de trabajo]
@@ -43,9 +42,9 @@ Conozca los pasos clave relacionados con la creación de consultas en el context
 
 >[!TAB Condiciones de filtro]
 
-Para diseñar la consulta, debe seleccionar las condiciones de filtrado en el editor de consultas. Las funcionalidades disponibles y los casos de uso se detallan en la **[documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**
+Para diseñar la consulta, debe seleccionar las condiciones de filtrado en el editor de consultas. Las funcionalidades disponibles y los casos de uso se detallan en la **[documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}**
 
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/filter-conditions){target=_blank}
 
 >[!ENDTABS]
 
