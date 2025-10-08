@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Como usuario experto, puede agregar carpetas en el árbol del explorador y personalizarlo.
 
-Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 Los tipos de carpetas usados por la lista de navegación se describen en un documento XML que obedece a la gramática del esquema **xtk:navtree**.
 
