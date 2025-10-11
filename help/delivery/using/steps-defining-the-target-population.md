@@ -48,7 +48,7 @@ Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
 
    Los siguientes tipos de objetivos se ofrecen de forma predeterminada:
 
-   * **[!UICONTROL Filtering conditions]**: esta opción permite definir una consulta y mostrar el resultado. Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+   * **[!UICONTROL Filtering conditions]**: esta opción permite definir una consulta y mostrar el resultado. Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
    * **[!UICONTROL Subscribers of an information service]**: esta opción permite seleccionar un boletín informativo al que se deben suscribir los destinatarios para ser objetivos de la entrega que se está creando.
 
      ![](assets/s_ncs_user_wizard_email02c.png)
@@ -72,7 +72,7 @@ Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
    * **[!UICONTROL Recipients included in a folder]**: esta opción permite establecer como objetivo a los perfiles contenidos en una carpeta específica del árbol.
    * **[!UICONTROL A recipient]**: esta opción permite seleccionar un destinatario específico de los perfiles de la base de datos.
    * **[!UICONTROL A list of recipients]**: esta opción permite establecer como objetivo una lista de destinatarios. Las listas se muestran en [esta sección](../../platform/using/creating-and-managing-lists.md).
-   * **[!UICONTROL User filters]**: esta opción permite acceder a los filtros preconfigurados para utilizarlos como criterios de filtrado para los perfiles de la base de datos. Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+   * **[!UICONTROL User filters]**: esta opción permite acceder a los filtros preconfigurados para utilizarlos como criterios de filtrado para los perfiles de la base de datos. Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
    * La opción **[!UICONTROL Exclude recipients corresponding to this segment]** permite dirigirse a los destinatarios que no cumplan con los criterios de objetivo definidos. Para utilizar esta opción, seleccione el cuadro apropiado y, a continuación, aplique los objetivos, según lo definido anteriormente, para excluir los perfiles resultantes.
 
      ![](assets/s_ncs_user_wizard_email02g.png)

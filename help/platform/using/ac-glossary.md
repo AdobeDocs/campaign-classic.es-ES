@@ -794,7 +794,7 @@ Más información sobre los [Planes](../../campaign/using/setting-up-marketing-c
 
 Los filtros predefinidos son consultas que se han guardado para su reutilización. El uso de filtros predefinidos aumenta la productividad (porque sólo se crean una vez), ayuda a generar coherencia (porque todos los expertos en marketing pueden utilizarlos) y disminuye las habilidades que se requieren del experto en marketing, ya que pueden utilizar código o lógica que a lo mejor no podrían crear ellos mismos. 
 
-Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 +++
 
 <!--

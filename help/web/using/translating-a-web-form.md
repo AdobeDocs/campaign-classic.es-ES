@@ -70,7 +70,7 @@ Para unidades de caracteres que no se hayan traducido nunca, el campo **[!UICONT
 
 ### Filtrado de cadenas {#filtering-strings}
 
-De forma predeterminada, se muestra cada idioma de traducción de la aplicación web. Existen dos filtros predeterminados: idioma y estado. Haga clic en el botón **[!UICONTROL Filters]** y, a continuación, haga clic en **[!UICONTROL By language or status]** para mostrar los cuadros desplegables coincidentes. También puede crear un filtro avanzado. Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+De forma predeterminada, se muestra cada idioma de traducción de la aplicación web. Existen dos filtros predeterminados: idioma y estado. Haga clic en el botón **[!UICONTROL Filters]** y, a continuación, haga clic en **[!UICONTROL By language or status]** para mostrar los cuadros desplegables coincidentes. También puede crear un filtro avanzado. Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
 ![](assets/s_ncs_admin_survey_trad_tab_en.png)
 
