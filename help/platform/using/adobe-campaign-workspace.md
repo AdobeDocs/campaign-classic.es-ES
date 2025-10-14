@@ -144,4 +144,4 @@ Obtenga más información sobre cómo **trabajar con enumeraciones** en la [docu
 
 Este vídeo presenta el espacio de trabajo de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/39532?quality=12&captions=spa)
