@@ -20,7 +20,7 @@ Las entregas se pueden crear a través del tablero de la campaña, un flujo de t
 
 Cuando se crean a partir de una campaña, las entregas se vincularán a esta campaña y se consolidarán en el nivel de la campaña.
 
-![](assets/do-not-localize/how-to-video.png)[Descubra esta función en vídeo](#create-email-video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#create-email-video)
 
 ## Creación de entregas {#creating-deliveries}
 

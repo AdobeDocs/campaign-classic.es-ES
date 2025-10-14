@@ -36,7 +36,7 @@ Para ello, siga los siguientes pasos:
 1. [Inserción de la oferta dinámica en un correo electrónico](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
 1. [Creación de ofertas de redireccionamiento](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
 1. [Crear públicos](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
-1. [Creación de una actividad de segmentación de experiencias ](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
+1. [Creación de una actividad de segmentación de experiencias &#x200B;](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
 1. [Vista previa y envío del correo electrónico](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
 ## Inserción de la oferta dinámica en un correo electrónico {#inserting-dynamic-offer}
