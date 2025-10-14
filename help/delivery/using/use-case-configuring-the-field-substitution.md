@@ -5,10 +5,10 @@ description: 'Caso de uso: configuración de la sustitución de campos'
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 100%
+source-wordcount: '456'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Para utilizar la sustitución de campos aleatoria debe tener:
 
 ## Creación de una entrega {#step-1---creating-a-delivery}
 
-Los pasos para crear una entrega se detallan en la sección [Creación de una entrega por correo electrónico](creating-an-email-delivery.md).
+Los pasos para crear una entrega se detallan en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=es){target="_blank"}.
 
 En este ejemplo, el administrador de entregas ha creado la newsletter.
 
@@ -62,7 +62,7 @@ Para que esta modificación del esquema de datos pueda verse en el **formulario 
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. Configure la lista de envío y las direcciones semilla. Consulte [Identificación de poblaciones objetivo](steps-defining-the-target-population.md).
+1. Configure la lista de envío y las direcciones semilla. Consulte [Identificación de poblaciones destinatarias](steps-defining-the-target-population.md).
 
    En este ejemplo, el usuario selecciona a los usuarios cuyo **género literario favorito** sea ciencia ficción como población objetivo principal.
 

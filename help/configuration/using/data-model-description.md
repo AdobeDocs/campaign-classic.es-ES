@@ -5,9 +5,9 @@ description: Este documento describe el modelo de datos de Adobe Campaign
 feature: Data Model
 role: Data Engineer, Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2354'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ Es la tabla predeterminada utilizada para los **destinatarios de los envíos**. 
 
 El campo iFolderId es la clave externa que vincula al destinatario con su carpeta de ejecución. Para obtener más información, consulte [XtkFolder](#XtkFolder).
 
-El campo sCountryCode es el código ISO 3166-1 Alpha 2 (2 caracteres) del país asociado al destinatario. Este campo es en realidad una clave externa en la tabla de referencia de país (NmsCountry), que contiene las etiquetas de país y otros datos de código de país. Si el país no está rellenado, se almacena el valor &quot;XX&quot; (y se utiliza en lugar de un registro de ID cero).
+El campo sCountryCode es el código ISO 3166-1 de Alpha 2 (2 caracteres) del país asociado al destinatario. Este campo es en realidad una clave externa en la tabla de referencia de país (NmsCountry), que contiene las etiquetas de país y otros datos de código de país. Si el país no está rellenado, se almacena el valor &quot;XX&quot; (y se utiliza en lugar de un registro de ID cero).
 
 Para obtener más información sobre la tabla de destinatarios, vea [esta sección](../../configuration/using/about-data-model.md#default-recipient-table).
 
@@ -113,7 +113,7 @@ Este conjunto de tablas está vinculado al módulo **Delivery**, que permite sup
 
 ## Administración de campañas {#campaign-management}
 
-Este conjunto de tablas está enlazado al módulo **Campañas de marketing**, que permite definir, optimizar, ejecutar y analizar las comunicaciones y las campañas de marketing. Para obtener más información, consulte [Acerca de las campañas de marketing](../../campaign/using/designing-marketing-campaigns.md).
+Este conjunto de tablas está enlazado al módulo **Campañas de marketing**, que permite definir, optimizar, ejecutar y analizar las comunicaciones y las campañas de marketing. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}.
 
 ![](assets/data-model_campaign.png)
 
@@ -129,7 +129,8 @@ Este conjunto de tablas está enlazado al módulo **Campañas de marketing**, qu
 
 ## Coherencia de comunicación {#communication-consistency}
 
-Este conjunto de tablas está enlazado al módulo **Campaign Optimization**, que permite controlar, filtrar y monitorizar las entregas. Para obtener más información, consulte [Acerca de las tipologías de campaña](../../campaign-opt/using/about-campaign-typologies.md).
+Este conjunto de tablas está enlazado al módulo **Campaign Optimization**, que permite controlar, filtrar y monitorizar las entregas. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=es){target="_blank"}.
+
 
 ![](assets/data-model_typology.png)
 
@@ -154,7 +155,7 @@ Esta tabla contiene información significativa almacenada en XML, como:
 **Contexto de ejecución (información almacenada en XML)**
 
 El contexto de ejecución rellena las tablas y campos que se deben tener en cuenta para el cálculo de la medición, a saber:
-* El esquema de almacenamiento del registro de reacción nms:remaMatchRcp.
+* Esquema de almacenamiento del registro de reacción nms:remaMatchRcp.
 * El esquema de tabla de transacción (compras por ejemplo).
 * El esquema de consulta, que le permite definir la tabla de inicio de las condiciones de hipótesis.
 * Los vínculos a personas, que le permiten identificar a la persona en función del esquema de consulta.
@@ -266,6 +267,6 @@ Este conjunto de tablas está enlazado al módulo **Administración de redes soc
 
 * **NmsVisitor**: Esta tabla coincide con el esquema **nms:visitor**. Contiene información sobre los visitantes.
 * **NmsVisitorSub**: Esta tabla coincide con el esquema **nms:visitorSub**. Permite vincular a un visitante a los servicios a los que se ha suscrito (X o Facebook).
-* **NmsFriendShipRel**: Esta tabla coincide con el esquema **nms:friendRel**. Permite vincular visitantes con sus amigos en el contexto del servicio de Facebook.
+* **NmsFriendShipRel**: Esta tabla coincide con el esquema **nms:friendshipRel**. Permite vincular visitantes con sus amigos en el contexto del servicio de Facebook.
 * **NmsVisitorInterestRel**: Esta tabla coincide con el esquema **nms:visitorInterestRel**. Permite vincular los visitantes y sus intereses.
 * **NmsInterest**: Esta tabla coincide con el esquema **nms:interest**. Contiene la lista de intereses de cada visitante.

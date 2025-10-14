@@ -8,17 +8,17 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 100%
+source-wordcount: '709'
+ht-degree: 91%
 
 ---
 
 
 # Descompresión o descifrado de un archivo {#unzipping-or-decrypting-a-file-before-processing}
 
-Adobe Campaign permite importar archivos comprimidos o encriptados. Antes de que se puedan leer en una actividad [Data loading (file)](../../workflow/using/data-loading-file.md), puede definir un procesamiento previo para descomprimir o desencriptar el archivo.
+Adobe Campaign permite importar archivos comprimidos o cifrados. Antes de que se puedan leer en una actividad [Carga de datos (archivo)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}), puede definir un procesamiento previo para descomprimir o descifrar el archivo.
 
 >[!IMPORTANT]
 >
@@ -51,8 +51,8 @@ A continuación se muestra un ejemplo en el caso de uso.
 
 **Temas relacionados:**
 
-* [Actividad de carga de datos (archivos)](../../workflow/using/data-loading-file.md).
-* [Compresión o cifrado de un archivo](../../workflow/using/how-to-use-workflow-data.md#zipping-or-encrypting-a-file).
+* [Actividad de carga de datos (archivos)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}.
+* [Compresión o cifrado de un archivo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}.
 
 ## Caso de uso: importación de datos cifrados con una clave generada por el Panel de control {#use-case-gpg-decrypt}
 
@@ -71,7 +71,7 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 1. En el sistema externo, utilice la clave pública descargada del Panel de control para cifrar los datos que se van a importar a Campaign Classic.
 
-1. En Campaign Classic, cree un flujo de trabajo para importar los datos cifrados y desencriptarlos con la clave privada que se ha instalado mediante el Panel de control. Para ello, crearemos un flujo de trabajo de la siguiente manera:
+1. En Campaign Classic, cree un flujo de trabajo para importar los datos cifrados y descifrarlos con la clave privada que se ha instalado mediante el Panel de control. Para ello, crearemos un flujo de trabajo de la siguiente manera:
 
    ![](assets/gpg_import_workflow.png)
 
@@ -82,9 +82,10 @@ Los pasos para realizar este caso de uso son los siguientes:
 
    ![](assets/gpg_key_transfer.png)
 
-   Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/file-transfer.md).
+   Los conceptos globales sobre cómo configurar la actividad están disponibles en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
-1. Abra la actividad **[!UICONTROL Data loading (file)]** y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/data-loading-file.md).
+
+1. Abra la actividad **[!UICONTROL Data loading (file)]** y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html){target="_blank"}.
 
    Añada una fase de preprocesamiento a la actividad para descifrar los datos entrantes. Para ello, seleccione la opción **[!UICONTROL Pre-process the file]** y, luego, seleccione **[!UICONTROL Decrypt]** de la lista desplegable **[!UICONTROL Command]**:
 
@@ -106,6 +107,6 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 Este vídeo muestra cómo utilizar una clave GPG para descifrar datos.
 
->[!VIDEO](https://video.tv.adobe.com/v/41361?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

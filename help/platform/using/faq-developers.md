@@ -8,10 +8,10 @@ content-type: reference
 level: Intermediate, Experienced
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '509'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Como solución abierta, Adobe Campaign está listo para la personalización y el
 
 ## ¿Qué es el modelo de datos de Campaign? {#what-is-the-campaign-data-model}
 
-El modelo de datos conceptuales de la base de datos de Adobe Campaign consta de un conjunto de tablas integradas y su interacción. La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada esquema. Para obtener más información sobre Adobe Campaign, [consulte esta sección](../../configuration/using/about-schema-edition.md).
+El modelo de datos conceptuales de la base de datos de Adobe Campaign consta de un conjunto de tablas integradas y su interacción. La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada esquema. Para obtener más información sobre los esquemas de Adobe Campaign, [consulte esta sección](../../configuration/using/about-schema-edition.md).
 
 [Haga clic aquí para obtener más información sobre el modelo de datos de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/about-data-model.html?lang=es).
 
@@ -55,7 +55,7 @@ Puede consultar la base de datos de Campaign utilizando el editor de consultas g
 
 Las consultas se crean utilizando campos de la tabla seleccionada o utilizando una fórmula. [En esta página](../../platform/using/about-queries-in-campaign.md) se describen los principios principales para crear una consulta en la base de datos de Campaign.
 
-[Haga clic aquí](../../workflow/using/query.md) para descubrir el editor de consultas de Campaign.
+Obtenga información acerca de consultas en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 ## ¿Cómo puedo importar un paquete de datos?  {#how-can-i-import-a-data-package-}
 

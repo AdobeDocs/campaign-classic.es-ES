@@ -4,7 +4,7 @@ title: Protección de privacidad de correo en la aplicación Mail de Apple
 feature: Technote, Privacy, Privacy Tools
 description: Descubra cómo sus campañas podrían verse afectadas por la función Protección de privacidad de correo de Apple
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '2064'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Adobe Campaign permite utilizar píxeles de seguimiento para rastrear las apertu
 
 ## ¿Qué acciones debo realizar?
 
-La nueva función de Apple es la forma de lo que está por venir en el sector en términos de protección de la privacidad del correo electrónico. Le recomendamos encarecidamente que siga las recomendaciones del Adobe.
+La nueva función de Apple es la forma de lo que está por venir en el sector en términos de protección de la privacidad del correo electrónico. Le recomendamos encarecidamente que siga las recomendaciones de Adobe.
 
 ### Evaluación del impacto en los déclencheur de la campaña
 
@@ -94,7 +94,7 @@ En este ejemplo, un experto en marketing desea enviar una oferta de recompensa a
 
   ![](assets/identify-email-open-tracking-2.png)
 
-* Puede utilizar un filtro predefinido. [Más información](../../workflow/using/creating-a-filter.md).
+* Puede utilizar un filtro predefinido. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
 
   ![](assets/identify-email-open-tracking-3.png)
 
@@ -131,7 +131,7 @@ Este ejemplo muestra una implementación personalizada en un solo flujo de traba
 
 >[!IMPORTANT]
 >
->El paquete se proporciona solo como ejemplo y no es compatible con el Adobe como función de producto.
+>El paquete se proporciona solo como ejemplo y Adobe no lo admite como función de producto.
 >
 >Es posible que tenga que adaptar el código de ejemplo a la implementación de la campaña.
 >
@@ -260,7 +260,7 @@ El flujo de trabajo incluye estos pasos detallados:
 
    ![](assets/identify-email-open-tracking-20.png)
 
-   Si la lista no está vacía, se inserta en una tabla de HTML para las notificaciones por correo electrónico.
+   Si la lista no está vacía, se inserta en una tabla de HTML para notificaciones por correo electrónico.
 
    ![](assets/identify-email-open-tracking-21.png)
 
@@ -295,7 +295,7 @@ El flujo de trabajo incluye estos pasos detallados:
    instance.vars.workflowList = sWorkflowList;
    ```
 
-1. La tabla HTML se agrega a la plantilla de notificación.
+1. La tabla de HTML se agrega a la plantilla de notificaciones.
 
    ```js
    <%= instance.vars.workflowLIst%>
@@ -364,7 +364,7 @@ Puede enriquecer estos datos con información útil de esquemas vinculados:
 
 | Esquema | Contenido |
 | --- | --- |
-| nms:Destinatario | Detalles relacionados con los perfiles |
+| nms:Recipient | Detalles relacionados con los perfiles |
 | nms:Delivery | Información sobre el mensaje al que reaccionó el usuario |
 
 Puede exportar el resultado a una solución de almacenamiento externo compatible con Adobe Campaign:

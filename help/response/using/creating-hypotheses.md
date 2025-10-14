@@ -8,10 +8,10 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: e0b3bc9f-5e81-463f-a59e-cd972a47109b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 100%
+source-wordcount: '1025'
+ht-degree: 98%
 
 ---
 
@@ -138,7 +138,7 @@ Crear una hipótesis sobre una propuesta de oferta es similar a crear una hipót
 
    ![](assets/response_hypothesis_instance_offer_007.png)
 
-   Si la opción **[!UICONTROL Update offer proposition status]** se activó en la plantilla de hipótesis, el estado de la propuesta de oferta cambia automáticamente, por lo tanto proporciona comentarios sobre el impacto de la campaña (para obtener más información, consulte [Transacciones](hypothesis-templates.md#transactions)).
+   Si la opción **[!UICONTROL Update offer proposition status]** se habilitó en la plantilla de hipótesis, el estado de la propuesta de oferta cambia automáticamente, por lo tanto proporciona comentarios sobre el impacto de la campaña (para obtener más información, consulte [Transacciones](hypothesis-templates.md#transactions)).
 
 ## Ejemplo: Creación de una hipótesis vinculada a una entrega {#example--creating-a-hypothesis-linked-to-a-delivery}
 
@@ -146,9 +146,9 @@ En este ejemplo, queremos crear una hipótesis vinculada a una entrega. Esta hip
 
 Luego, afinaremos la consulta heredada del modelo para hacer una hipótesis sobre un artículo específico de la tabla de compras.
 
-1. Cree una campaña y una entrega. [Más información](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign)
+1. Cree una campaña y una entrega. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es){target=_blank}.
 
-   En nuestro ejemplo, utilizaremos una entrega de correo postal.
+   En nuestro ejemplo, utilizaremos una entrega de correo directo.
 
 1. Configurar una dirección semilla: la plantilla de hipótesis creada anteriormente se configuró para tener en cuenta un grupo de control en los resultados de la reacción.
 
@@ -156,7 +156,7 @@ Luego, afinaremos la consulta heredada del modelo para hacer una hipótesis sobr
 
    >[!NOTE]
    >
-   >Para obtener más información, consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+   >Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target="_blank"}.
 
 1. Abra el **[!UICONTROL Direct mail delivery]** y haga clic en el icono **[!UICONTROL Delivery measurement]** y, a continuación, haga clic en **[!UICONTROL Add]**.
 
@@ -178,7 +178,7 @@ Luego, afinaremos la consulta heredada del modelo para hacer una hipótesis sobr
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. Inicie el flujo de trabajo de objetivos y ejecute las comprobaciones necesarias hasta que finalice la campaña. [Más información](../../campaign/using/marketing-campaign-deliveries.md#starting-a-delivery)
+1. Inicie el flujo de trabajo de objetivos y ejecute las comprobaciones necesarias hasta que finalice la campaña. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery){target=_blank}.
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 

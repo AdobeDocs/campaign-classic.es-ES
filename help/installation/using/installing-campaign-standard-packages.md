@@ -5,9 +5,9 @@ description: Obtenga información sobre cómo instalar paquetes integrados de Ca
 feature: Installation, Application Settings
 badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1270'
 ht-degree: 10%
 
 ---
@@ -28,7 +28,7 @@ Los paquetes integrados contienen un conjunto de funciones que se pueden instala
 >
 >Una vez instalado un paquete, no se puede desinstalar.
 >
->Como cliente alojado o híbrido, póngase en contacto con el Adobe para que implemente un nuevo paquete integrado.
+>Como cliente alojado o híbrido, póngase en contacto con Adobe para que implemente un nuevo paquete integrado.
 
 Para instalar un paquete integrado:
 
@@ -66,12 +66,12 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Campañas de marketing (Campaign)<br /> </td> 
-   <td> Define, optimiza, ejecuta y analiza las comunicaciones y las campañas de marketing. <a href="../../campaign/using/designing-marketing-campaigns.md">Más información</a><br /> </td> 
+   <td> Define, optimiza, ejecuta y analiza las comunicaciones y las campañas de marketing. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html" target="_blank">Más información</a><br /> </td> 
    <td> Marketing</td>
   </tr> 
   <tr> 
    <td> Recursos de mercadotecnia (MRM)<br /> </td> 
-   <td> Controla las acciones de marketing de forma cooperativa mediante la administración y el seguimiento de las tareas, los presupuestos y los recursos de marketing. <a href="../../mrm/using/about-marketing-resource-management.md">Más información</a> <br /> </td> 
+   <td> Controla las acciones de marketing de forma cooperativa mediante la administración y el seguimiento de las tareas, los presupuestos y los recursos de marketing. <a href="https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=es" target="_blank">Más información</a> <br /> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
@@ -157,12 +157,12 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Acceso a datos externos (acceso de datos federado)<br /> </td> 
-   <td> Proporciona la opción Acceso de datos federados (FDA) para procesar la información almacenada en una o más bases de datos externas, de modo que pueda acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.  Opcional. <a href="../../workflow/using/accessing-an-external-database-fda.md">Más información</a> <br /> </td> 
+   <td> Proporciona la opción Acceso de datos federados (FDA) para procesar la información almacenada en una o más bases de datos externas, de modo que pueda acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.  Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank">Más información</a> <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
   <tr> 
    <td> Campaign Optimization (Optimización de la campaña)<br /> </td> 
-   <td> Controla, filtra y supervisa la entrega de mensajes para que se ajusten mejor a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la empresa. Opcional. <a href="../../campaign-opt/using/about-campaign-typologies.md">Más información</a> <br /> </td> 
+   <td> Controla, filtra y supervisa la entrega de mensajes para que se ajusten mejor a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la empresa. Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=es" target="_blank">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -182,7 +182,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Marketing central/local (Marketing distribuido)<br /> </td> 
-   <td> Implementa campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). Opcional. <a href="../../distributed/using/about-distributed-marketing.md">Más información</a><br /> </td> 
+   <td> Implementa campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=es" target="_blank">Más información</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 
@@ -196,8 +196,8 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
    <td> Marketing </td> 
   </tr> 
   <tr> 
-   <td> AEM Integración de<br /> </td> 
-   <td> Le permite administrar el contenido de los envíos de correos electrónicos y los formularios directamente en Adobe Experience Manager AEM para beneficiarse de las funcionalidades de edición de contenido y de las capacidades de envío de Adobe Campaign, que se encuentran en la fase de publicación de contenido en la que se realiza el envío de los mensajes de forma remota. <a href="../../integrations/using/about-adobe-experience-manager.md">Más información</a> <br /> </td> 
+   <td> Integración de AEM<br /> </td> 
+   <td> Permite administrar el contenido de los envíos de correos electrónicos y los formularios directamente en Adobe Experience Manager para beneficiarse de las funcionalidades de edición de contenido de AEM, así como de las capacidades de envío de Adobe Campaign. <a href="../../integrations/using/about-adobe-experience-manager.md">Más información</a> <br /> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
@@ -227,7 +227,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Compatibilidad con AMP<br /> </td> 
-   <td> Permite utilizar la nueva AMP interactiva para el formato de correo electrónico y enviar correos electrónicos dinámicos. Opcional. <a href="../../delivery/using/defining-interactive-content.md">Más información</a> <br /> </td> 
+   <td> Permite utilizar la nueva AMP interactiva para el formato de correo electrónico y enviar correos electrónicos dinámicos. Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=es" target="_blank">Más información</a> <br /> </td> 
    <td> Todos </td> 
   </tr> 
   <tr> 

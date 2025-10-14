@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 98%
+source-wordcount: '950'
+ht-degree: 97%
 
 ---
 
@@ -95,7 +95,7 @@ Seleccione el orden de las columnas.
 
 ## Paso 6: Condiciones de filtro {#step-6---filter-conditions-}
 
-Puede añadir condiciones de filtro para evitar la exportación de todos los datos. La configuración de este filtro es la misma que el direccionamiento de destinatarios en el asistente de envíos. Consulte [esta página](../../delivery/using/steps-defining-the-target-population.md).
+Puede añadir condiciones de filtro para evitar la exportación de todos los datos. La configuración de este filtro es la misma que el direccionamiento de destinatarios en el asistente de envíos. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#target-population){target="_blank"}.
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 

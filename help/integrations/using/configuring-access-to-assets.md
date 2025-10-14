@@ -8,10 +8,10 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
-source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 100%
+source-wordcount: '499'
+ht-degree: 98%
 
 ---
 
@@ -35,9 +35,9 @@ En esta sección se detallan los pasos de configuración necesarios en Adobe Cam
 Para utilizar la integración entre Adobe Campaign y Experience Cloud Assets, debe contar con:
 
 * Una organización de Adobe Experience Cloud.
-* El modo de autentificación Adobe IMS está activado
+* El modo de autentificación Adobe IMS está habilitado
 
-Para activar la conexión entre Adobe Campaign y Adobe Experience Cloud, configure la conexión mediante IMS (servicio de conexión con Adobe ID). Esta configuración se detalla en el documento de [Conexión mediante una Adobe ID. ](../../integrations/using/about-adobe-id.md) Requiere:
+Para habilitar la conexión entre Adobe Campaign y Adobe Experience Cloud, configure la conexión mediante IMS (servicio de conexión con Adobe ID). Esta configuración se detalla en el documento de [Conexión mediante una Adobe ID. ](../../integrations/using/about-adobe-id.md) Requiere:
 
 * Instale el paquete **[!UICONTROL Integration with the Adobe Experience Cloud]**.
 * Configuración de una cuenta externa de Adobe Experience Cloud.
@@ -62,7 +62,7 @@ Aprenda a integrar Adobe Campaign y Adobe Experience Manager consultando la [doc
 
 Una vez configurada esta integración, se puede configurar una nueva plantilla de distribución en Adobe Campaign para utilizar la biblioteca de AEM Assets. Para realizar esto, siga los pasos a continuación:
 
-1. Cree una nueva plantilla de distribución o duplique una existente. Para obtener más información sobre plantillas de envío, consulte [esta página](../../delivery/using/about-templates.md).
+1. Cree una nueva plantilla de distribución o duplique una existente. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}.
 1. Edite las **propiedades** de esta plantilla.
 1. En la pestaña **[!UICONTROL Advanced]**, configure **[!UICONTROL Content editing mode]** en **DCE**.
 1. Seleccione la **[!UICONTROL AEM account]** externa que necesita utilizar para acceder a la biblioteca de AEM Assets.

@@ -4,10 +4,10 @@ title: Directrices de monitorización
 description: Descubra las directrices y las prácticas recomendadas para supervisar los procesos e instancias de Campaign
 feature: Monitoring
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 22%
+source-wordcount: '758'
+ht-degree: 21%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 22%
 
 
 
-## Panel de monitorización de instancias {#instance-monitoring-dashboard}
+## Panel de control de monitorización de instancias {#instance-monitoring-dashboard}
 
-La pestaña **[!UICONTROL Monitoring]**, a la que se puede acceder desde la página de inicio del Campaign Classic, es el punto de entrada principal para ayudarle a monitorizar su instancia.
+La pestaña **[!UICONTROL Monitoring]**, a la que se puede acceder desde la página principal de Campaign Classic, es el punto de entrada principal para ayudarle a supervisar su instancia.
 
 Proporciona un tablero de lo que está ocurriendo en su instancia: su estado (versión de compilación, paquetes instalados, etc.), indicadores del sistema, registros, flujos de trabajo que se están ejecutando actualmente, estado de los últimos envíos enviados, etc.
 
@@ -25,12 +25,12 @@ Encontrará información detallada [aquí](../../production/using/monitoring-pro
 
 ![](assets/monitoring_tab.png)
 
-## Monitorización de procesos de Campaign Classic {#monitoring-campaign-classic-processes}
+## Supervisión de procesos de Campaign Classic {#monitoring-campaign-classic-processes}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-instance">Monitorización de la instancia</a></p></td>
 <td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#monitoring-workflows">Monitorización de flujos de trabajo</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Monitorización de las entregas</a></p></td>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Monitorización de los envíos</a></p></td>
 <td><img src="assets/do-not-localize/icon_database.svg" width="60px"><p><a href="#monitoring-database">Monitorización de la base de datos</a></p></td></tr>
 </table>
 
@@ -64,7 +64,7 @@ El Panel de control de Campaign le permite administrar varias configuraciones de
 
 **Mapa de calor del flujo de trabajo**
 
-El mapa de calor del flujo de trabajo proporciona una representación visual de todos los flujos de trabajo que se ejecutan en la instancia. Permite monitorizar fácilmente la carga de la instancia y planificar los flujos de trabajo en consecuencia. [Haga clic aquí](../../workflow/using/heatmap.md) para obtener más información.
+El mapa de calor del flujo de trabajo proporciona una representación visual de todos los flujos de trabajo que se ejecutan en la instancia. Permite monitorizar fácilmente la carga de la instancia y planificar los flujos de trabajo en consecuencia. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=es){target="_blank"}.
 
 **Pista de auditoría**
 
@@ -76,13 +76,13 @@ Se pueden realizar acciones específicas al encontrar problemas con la ejecució
 
 **Supervisión del estado del flujo de trabajo**
 
-Además del mapa de calor, puede crear un flujo de trabajo que le permitirá monitorizar el estado de un conjunto de flujos de trabajo y enviar mensajes recurrentes a los supervisores. [Haga clic aquí](../../workflow/using/supervising-workflows.md) para obtener más información.
+Además del mapa de calor, puede crear un flujo de trabajo que le permitirá monitorizar el estado de un conjunto de flujos de trabajo y enviar mensajes recurrentes a los supervisores. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html){target="_blank"}.
 
 **Directrices generales**
 
 Las siguientes directrices y prácticas recomendadas al utilizar flujos de trabajo pueden ayudar a mejorar el rendimiento. Para obtener más información, consulte estas secciones:
-* [Prácticas recomendadas al utilizar flujos de trabajo](../../workflow/using/workflow-best-practices.md)
-* [Control de la ejecución del flujo de trabajo](../../workflow/using/monitoring-workflow-execution.md)
+* [Prácticas recomendadas al utilizar flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
+* [Control de la ejecución del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
 
 ### Seguimiento de entregas {#monitoring-deliveries}
 
@@ -94,7 +94,7 @@ Los informes SMTP muestran las estadísticas de envío y los errores SMTP por do
 
 **Prácticas recomendadas**
 
-Las [prácticas recomendadas para la entrega y el diseño de entregas](../../delivery/using/delivery-best-practices.md) pueden ayudarle a mejorar su rendimiento.
+Consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=es){target="_blank"} para obtener más información sobre las prácticas recomendadas para la entrega y el diseño de envíos con el fin de mejorar el rendimiento.
 
 **Solución de problemas del envío**
 Se pueden realizar acciones específicas al encontrar problemas con las entregas:
@@ -127,13 +127,13 @@ Se recomienda realizar el mantenimiento de la base de datos de forma regular par
 
 El backup es esencial para evitar la pérdida de datos en caso de problemas (ya sean físicos o relacionados con el sistema) en una máquina. [Haga clic aquí](../../production/using/backup.md) para obtener más información. El procedimiento de restauración se describe en [esta sección](../../production/using/restoration.md).
 
-## Principios técnicos del Campaign Classic {#campaign-classic-technical-principles}
+## Principios técnicos de Campaign Classic {#campaign-classic-technical-principles}
 
-Los recursos técnicos están disponibles en la documentación del Campaign Classic. Le recomendamos que se familiarice con estos temas antes de realizar cualquier operación técnica en su instancia.
+Los recursos técnicos están disponibles en la documentación de Campaign Classic. Le recomendamos que se familiarice con estos temas antes de realizar cualquier operación técnica en su instancia.
 
 **Modelos y capacidades de alojamiento**
 
-* [modelos de alojamiento de Campaign Classic](../../installation/using/hosting-models.md)
+* [Modelos de alojamiento de Campaign Classic](../../installation/using/hosting-models.md)
 * [Funcionalidades del modelo de alojamiento](../../installation/using/capability-matrix.md)
 
 **Configuración del servidor**
@@ -147,9 +147,9 @@ Los recursos técnicos están disponibles en la documentación del Campaign Clas
 
 **Principios generales**
 
-* [arquitectura de Campaign Classic](../../production/using/general-architecture.md)
+* [Arquitectura de Campaign Classic](../../production/using/general-architecture.md)
 * [Módulos de Campaign Classic](../../production/using/operating-principle.md)
-* [Opciones del Campaign Classic](../../installation/using/configuring-campaign-options.md)
+* [Opciones de Campaign Classic](../../installation/using/configuring-campaign-options.md)
 * [Cómo configurar el inicio automático de los módulos](../../production/using/administration.md)
 * [Principio de configuración de Campaign](../../production/using/configuration-principle.md)
 * [Procedimientos de resolución de problemas](../../production/using/performance-and-throughput-issues.md)

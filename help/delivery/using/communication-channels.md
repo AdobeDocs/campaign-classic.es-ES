@@ -5,10 +5,10 @@ description: Cree entregas para enviar mensajes personalizados en diferentes can
 feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
-source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 98%
+source-wordcount: '947'
+ht-degree: 91%
 
 ---
 
@@ -18,9 +18,7 @@ Con Adobe Campaign, puede enviar campañas de canales múltiples, incluidos corr
 
 Las funciones principales incluyen establecimiento de objetivos, definición y personalización de mensajes, ejecución de comunicaciones y los informes operativos asociados.
 
-Como parte de la iniciativa de promoción de la versión 8 de Campaign, se ha reorganizado la documentación de Campaign Classic. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de la versión 8 de Campaign.
-
-
+Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Las funciones comunes ahora están disponibles exclusivamente en el conjunto de documentación de Campaign v8.
 
 >[!BEGINTABS]
 
@@ -34,12 +32,12 @@ Para obtener más información sobre los canales de comunicación, consulte la [
 
 >[!TAB Contenido y público de envío]
 
-Aprenda los pasos clave relacionados con la creación de envíos, el contenido y el público en la documentación de la versión 8 de Campaign:
+Conozca los pasos clave relacionados con la creación de envíos, contenido y audiencia **en la documentación de Campaign v8**:
 
 * [Crear el envío](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#create-the-delivery){target="_blank"}: aprenda a crear un envío único con un solo paso.
 * [Definir el contenido](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#content-of-the-delivery){target="_blank"}: configure el contenido de envío específico para cada canal.
 * [Especificar el público](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#target-population){target="_blank"}: defina varios tipos de público destinatario: público principal, público destinatario de prueba, direcciones semilla y grupos de control.
-* [Trabajar con plantillas de envío](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=es){target="_blank"}: Aprenda a definir plantillas para facilitar la creación de envíos.
+* [Trabajar con plantillas de envío](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}: Aprenda a definir plantillas para facilitar la creación de envíos.
 
 
 
@@ -47,7 +45,7 @@ Aprenda los pasos clave relacionados con la creación de envíos, el contenido y
 
 >[!TAB Validación y envío de la entrega]
 
-Consulte estas páginas para obtener información sobre la validación de entregas, el envío y las prácticas recomendadas en la documentación de la versión 8 de Campaign:
+Consulte estas páginas para obtener información sobre la validación de entregas, los envíos y las prácticas recomendadas **en la documentación de Campaign v8**:
 
 * [Validar el envío](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#validate-the-delivery){target="_blank"}: aprenda a validar el envío antes de enviarlo al público destinatario principal.
 * [Enviar la entrega](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#configuring-and-sending-the-delivery){target="_blank"}: configure las opciones de envío y defina cómo enviar los mensajes.
@@ -104,7 +102,7 @@ En el caso de instalaciones on-premise e instalaciones hospedadas/híbridas que 
 
 ![](assets/s_ncs_user_wizard_retry_param.png)
 
-De manera predeterminada, se programan cinco reintentos para el primer día de la entrega con un intervalo mínimo de una hora distribuidos durante las 24 horas del día. Después de ello, se programa un reintento por día hasta la fecha límite de entrega, que se define en la pestaña **[!UICONTROL Validity]**. Consulte [Definición del período de validez](#defining-validity-period).
+De manera predeterminada, se programan cinco reintentos para el primer día de la entrega con un intervalo mínimo de una hora distribuidos durante las 24 horas del día. Después de ello, se programa un reintento por día hasta la fecha límite de entrega, que se define en la pestaña **[!UICONTROL Validity]**. Consulte la sección siguiente.
 
 **Definición del período de validez**
 
@@ -130,7 +128,7 @@ Una vez iniciada la entrega, se pueden enviar los mensajes (y los reintentos) ha
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >

@@ -1,24 +1,24 @@
 ---
 product: campaign
-title: Preguntas frecuentes sobre perfiles y audiencias
+title: Preguntas frecuentes sobre perfiles y públicos
 description: Preguntas frecuentes sobre Campaign Classic
 feature: Audiences, Troubleshooting
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: ba8bf610-cbac-41e9-8b6e-130deb8b97e2
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 82%
 
 ---
 
-# Preguntas frecuentes sobre perfiles y audiencias {#audiences-faq}
+# Preguntas frecuentes sobre perfiles y públicos {#audiences-faq}
 
 
 
-Aprenda a segmentar un grupo de población y a administrar las audiencias en Adobe Campaign.
+Aprenda a segmentar un grupo de población y a administrar los públicos en Adobe Campaign.
 
 ## ¿Cómo se crean los destinatarios?  {#how-to-create-recipients-}
 
@@ -30,10 +30,9 @@ Descubra casos de uso fáciles para [importar perfiles](../../platform/using/imp
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/profile-management/importing-profiles.html?lang=es)
 
-## ¿Cómo puedo definir el público objetivo de una campaña de marketing?  {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
+## ¿Cómo puedo definir la población destinataria de una campaña de marketing?  {#how-can-i-define-the-target-population-of-a-marketing-campaign-}
 
-Puede [utilizar flujos de trabajo para crear la población objetivo](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow) de una campaña de marketing.
-
+Puede utilizar flujos de trabajo para crear la población objetivo de una campaña de marketing. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#build-the-main-target-in-a-workflow.html){target="_blank"}.
 
 ## ¿Cómo puedo crear una lista de perfiles?  {#how-can-i-create-a-list-of-profiles-}
 
@@ -47,7 +46,7 @@ Una lista es un conjunto estático de destinatarios en los que se puede centrar 
 
 Puede utilizar un flujo de trabajo para excluir el duplicado del destino de una entrega para evitar que el mismo mensaje se envíe a un destinatario varias veces.
 
-[Haga clic aquí para obtener más información](../../workflow/using/deduplication.md#example--identify-the-duplicates-before-a-delivery) con un ejemplo.
+Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}.
 
 ## ¿Cómo se identifican y se segmentan los suscriptores a un newsletter?  {#how-to-identify-and-target-subscribers-to-a-newsletter-}
 
@@ -55,4 +54,4 @@ Descubra la gestión de suscripciones en Campaign y aprenda a [enviar un mensaje
 
 ## ¿Cuál es la práctica recomendada para excluir perfiles de una población objetivo?  {#what-is-the-best-practice-to-exclude-profiles-from-a-target-population-}
 
-Consulte [esta página](../../workflow/using/read-list.md) para obtener más información sobre cómo excluir una lista de perfiles de la población objetivo.
+Aprenda a excluir una lista de perfiles de su población objetivo en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html){target="_blank"}.

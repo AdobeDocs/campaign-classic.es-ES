@@ -6,19 +6,20 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Email, Push
 role: User, Data Engineer
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: 287d1bf60b39e9e2b389701097995dbea962dec9
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '454'
+ht-degree: 93%
 
 ---
 
 # Personalización de la lista de emoticonos {#customize-emoticons}
 
-La lista de emoticonos que se muestra en el elemento emergente se rige por una lista desglosada que permite mostrar valores en una lista para restringir las opciones que el usuario tiene para un campo determinado.
+La lista de emoticonos que se muestra en la ventana emergente se rige por una enumeración que permite mostrar valores en una lista para restringir las opciones que el usuario tiene para un campo determinado.
 El orden de lista de emoticonos se puede personalizar y también se pueden añadir otros emoticonos a la lista.
 
-Tenga en cuenta que los emoticonos solo están disponibles para correo electrónico y notificaciones push. Para obtener más información, consulte esta [página](defining-the-email-content.md#inserting-emoticons).
+Tenga en cuenta que los emoticonos solo están disponibles para correo electrónico y notificaciones push. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#inserting-emoticons){target="_blank"}.
+
 
 ## Adición de un nuevo emoticono {#add-new-emoticon}
 
@@ -28,11 +29,11 @@ Tenga en cuenta que los emoticonos solo están disponibles para correo electrón
 
 1. Elija el nuevo emoticono que desee añadir desde esta [página](https://unicode.org/emoji/charts/full-emoji-list.html). Recuerde que debe ser compatible con las distintas plataformas, como el explorador y el sistema operativo.
 
-1. En el **[!UICONTROL Explorer]**, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Enumerations]** y haga clic en la lista desglosada predeterminada **[!UICONTROL Emoticon list]**.
+1. En el **[!UICONTROL Explorer]**, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Enumerations]** y haga clic en la enumeración predeterminada **[!UICONTROL Emoticon list]**.
 
    >[!NOTE]
    >
-   >Solo un administrador de la consola de Adobe Campaign Classic puede administrar las listas desglosadas predeterminadas.
+   >Solo un administrador de la consola de Adobe Campaign Classic puede administrar las enumeraciones predeterminadas.
 
    ![](assets/emoticon_1.png)
 
@@ -54,15 +55,15 @@ El nuevo emoticono se coloca automáticamente en la tienda.
 
 1. Elija en la lista desplegable **[!UICONTROL Display order]** el orden en que se va a mostrar el nuevo emoticono. Recuerde que al seleccionar un orden de visualización ya asignado, el emoticono existente se moverá automáticamente a la tienda.
 
-   <br>En este ejemplo, elegimos el número de orden de visualización 61, lo que significa que si una entrada ya tenía este orden, automáticamente se mueve a la tienda y la nueva entrada ocupará su lugar en la lista desglosada.
+   <br>En este ejemplo, elegimos el número de orden de visualización 61, lo que significa que si una entrada ya tenía este orden, automáticamente se mueve a la tienda y la nueva entrada ocupará su lugar en la enumeración.
 
    ![](assets/emoticon_2.png)
 
-1. El nuevo emoticono se ha añadido a la lista desglosada predeterminada **[!UICONTROL Insert emoticon list]**. Puede cambiar su **[!UICONTROL Display order]** en cualquier momento o moverlo a la tienda si ya no lo necesita.
+1. El nuevo emoticono se ha añadido a la enumeración predeterminada **[!UICONTROL Insert emoticon list]**. Puede cambiar su **[!UICONTROL Display order]** en cualquier momento o moverlo a la tienda si ya no lo necesita.
 
 1. Para que los cambios se tengan en cuenta, desconéctese y vuelva a conectarse desde Adobe Campaign Classic. Si el nuevo emoticono aún no aparece en la ventana emergente **[!UICONTROL Insert emoticon]**, es posible que tenga que borrar la caché. Para obtener más información, consulte [esta sección](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
 
-1. El nuevo emoticono ahora se encuentra en los envíos de la ventana emergente **[!UICONTROL Insert emoticon]** en la posición 61, que se configuró en los pasos anteriores. Para obtener más información sobre cómo utilizar emoticonos en los envíos, consulte esta [página](defining-the-email-content.md#inserting-emoticons).
+1. El nuevo emoticono ahora se encuentra en los envíos de la ventana emergente **[!UICONTROL Insert emoticon]** en la posición 61, que se configuró en los pasos anteriores. Para obtener más información sobre cómo usar emoticonos en las entregas, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#inserting-emoticons){target="_blank"}.
 
    ![](assets/emoticon_4.png)
 

@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: A/B Testing
 role: User
 exl-id: 6adf2e75-63b1-44ad-8925-03beb3bc0bdd
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 83%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 En esta sección, se explica cómo crear un flujo de trabajo para realizar pruebas A/B.
 
-1. Cree un nuevo flujo de trabajo y, luego, configure una actividad [Query](../../workflow/using/query.md) para segmentar la población deseada.
+1. Cree un nuevo flujo de trabajo y, a continuación, configure una actividad Query para segmentar la población deseada. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
-1. Añada una actividad [Split](../../workflow/using/split.md) para dividir la población objetivo en varios subconjuntos.
+1. Añada una actividad Split para dividir la población objetivo en varios subconjuntos. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"}.
 
 1. Abra la actividad y configure cada subconjunto según sus necesidades. Para obtener más información sobre cómo configurar una actividad **[!UICONTROL Split]**, consulte [esta sección](../../workflow/using/split.md).
 

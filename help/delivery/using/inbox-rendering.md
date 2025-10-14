@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Procesamiento de la bandeja de entrada en Campaign
-description: Obtenga información sobre cómo capturar las renderizaciones de correo electrónico y ponerlas a disposición en un informe dedicado
+description: Obtenga información sobre cómo capturar las representaciones de correo electrónico y ponerlas a disposición en un informe dedicado
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 9b93603a076b007d66aad52b05e560e17e316eeb
-workflow-type: ht
-source-wordcount: '854'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '863'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Los clientes móviles, de mensajería y de correo web disponibles para **Renderi
 
 >[!NOTE]
 >
->No es necesario renderizar la bandeja de entrada para probar la personalización en los envíos. La personalización puede comprobarse con las herramientas de Adobe Campaign como **[!UICONTROL Preview]** y [Pruebas](steps-validating-the-delivery.md#sending-a-proof).
+>No es necesario renderizar la bandeja de entrada para probar la personalización en los envíos. Personalization se puede comprobar con herramientas de Adobe Campaign como **[!UICONTROL Preview]** y pruebas. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
 
 ## Activación del procesamiento de la bandeja de entrada {#activating-inbox-rendering}
 
@@ -107,7 +107,7 @@ Para obtener más información sobre la creación, el diseño y la segmentación
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   Se envía una prueba. Se puede acceder a las miniaturas de renderización de esa prueba unos minutos después de enviar los mensajes de correo electrónico. Para obtener más información la entrega de pruebas, consulte [esta sección](steps-validating-the-delivery.md#sending-a-proof).
+   Se envía una prueba. Se puede acceder a las miniaturas de renderización de esa prueba unos minutos después de enviar los mensajes de correo electrónico. Para obtener más información sobre cómo enviar pruebas, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
 
 1. Una vez enviada, la prueba aparece en la lista de envío. Haga doble clic en ella.
 

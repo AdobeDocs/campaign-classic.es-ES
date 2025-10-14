@@ -7,10 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
-source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
-workflow-type: ht
-source-wordcount: '1043'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1044'
+ht-degree: 96%
 
 ---
 
@@ -32,14 +32,14 @@ La actividad de descripción de entrega, disponible en los flujos de trabajo de 
 1. En un flujo de trabajo, añada una actividad de descripción de la entrega antes de añadir una de entrega.
 1. En la actividad del esquema de entrega, especifique el que desee utilizar.
 
-   Para obtener más información sobre la descripción de envíos específicos, consulte la guía [Campaign - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+   Para obtener más información sobre esquemas de entrega específicos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html){target="_blank"}.
 
 1. Rellene los campos disponibles en función de la entrega.
 1. Hay dos casos posibles:
 
    * Si desea acceder al motor de oferta, marque la casilla **[!UICONTROL Restrict the number of propositions selected]**. Especifique el espacio de oferta y el número de propuestas que se presentarán en la entrega.
 
-     El motor de oferta tendrá en cuenta las normas de idoneidad y las consideraciones de oferta.
+     El motor de oferta tendrá en cuenta las reglas de elegibilidad y las consideraciones de oferta.
 
    * Si no selecciona la casilla, todas las ofertas del esquema de entrega se presentarán sin recurrir al motor de oferta.
 
@@ -55,7 +55,7 @@ La actividad de enriquecimiento permite añadir ofertas o vínculos a ofertas pa
 
 >[!NOTE]
 >
->Para obtener más información sobre la actividad de enriquecimiento, consulte la documentación correspondiente en la [guía sobre flujos de trabajo](../../workflow/using/enrichment.md).
+>Para obtener más información sobre la actividad de enriquecimiento, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}.
 
 Por ejemplo, puede ampliar los datos de una consulta al destinatario antes de una entrega.
 
@@ -68,7 +68,7 @@ Existen dos métodos para especificar propuestas de oferta.
 
 ### Especificación de una oferta o acceso al motor de ofertas {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
-Después de configurar la consulta (consulte la [guía sobre flujos de trabajo](../../workflow/using/query.md)).
+Después de configurar la consulta (consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}):
 
 1. Añada y abra una actividad de enriquecimiento.
 1. En la pestaña **[!UICONTROL Enrichment]**, seleccione **[!UICONTROL Add data]**.

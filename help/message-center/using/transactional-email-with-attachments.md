@@ -4,10 +4,10 @@ title: Envío de correos electrónicos transaccionales con archivos adjuntos
 description: Aprenda a enviar correos electrónicos transaccionales con archivos adjuntos individuales o personalizados mediante Adobe Campaign
 feature: Transactional Messaging, Message Center
 exl-id: 755d2364-f6c4-4943-97e8-3ed52a0f2665
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 100%
+source-wordcount: '667'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ El propósito de este caso de uso es añadir archivos adjuntos de los correos el
 
 ## Pasos clave {#key-steps}
 
-En este escenario, veremos cómo enviar correos electrónicos de transacciones con archivos adjuntos individuales o personalizados. Los archivos adjuntos no se precargan en el servidor de mensajería transaccional, sino que se generan sobre la marcha.
+En este escenario, veremos cómo enviar correos electrónicos transaccionales con archivos adjuntos individuales o personalizados. Los archivos adjuntos no se precargan en el servidor de mensajería transaccional, sino que se generan sobre la marcha.
 
 Al capturar las interacciones o los detalles del cliente, es posible que necesite volver a enviar esta información al cliente al final del proceso, por ejemplo, en un archivo PDF adjunto a un correo electrónico.
 
@@ -35,7 +35,7 @@ En este caso, los archivos adjuntos no se generan previamente sino que se añade
 
 * Esto también permite personalizar el contenido del archivo adjunto.
 * Si el archivo adjunto está asociado con una transacción (como en el ejemplo descrito anteriormente), puede contener datos dinámicos que se generan durante el proceso del cliente.
-* Al adjuntar archivos PDF, se optimiza la seguridad, ya que se puede codificar y enviarlos a través de HTTPS.
+* Al adjuntar archivos PDF, se optimiza la seguridad, ya que se puede cifrar y enviarlos a través de HTTPS.
 
 ## Recommendations y protecciones {#important-notes}
 
@@ -64,7 +64,7 @@ El diagrama siguiente muestra los diferentes pasos para implementar este escenar
 
 Para añadir archivos adjuntos de correo electrónico sobre la marcha a un mensaje transaccional, siga los pasos a continuación:
 
-1. Primero, diseñe el archivo adjunto. Para obtener más información, consulte [esta sección](../../delivery/using/attaching-files.md#attach-a-personalized-file).
+1. Primero, diseñe el archivo adjunto. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html#attach-a-personalized-file){target="_blank"}.
 
    Esto permite adjuntar archivos a un correo electrónico, incluso si no están hospedados en la instancia de ejecución.
 

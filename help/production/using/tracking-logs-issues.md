@@ -7,10 +7,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: 58656aa1-aa95-451f-80b8-9e2d28223056
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 13%
+source-wordcount: '71'
+ht-degree: 14%
 
 ---
 
@@ -22,9 +22,9 @@ Puede haber varias razones para que los registros de seguimiento no se reenvíen
 
 * **¿Tiene errores el flujo de trabajo** Tracking **?**
 
-  Consulte [Supervisión de flujos de trabajo técnicos](../../workflow/using/monitoring-technical-workflows.md).
+Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=es){target="_blank"}.
 
-  ![](assets/tracking_scheduled_task.png)
+![](assets/tracking_scheduled_task.png)
 
 * **¿Se está ejecutando el módulo** trackinglogd **en el servidor?**
 

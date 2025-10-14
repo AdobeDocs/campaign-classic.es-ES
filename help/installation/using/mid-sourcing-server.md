@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: b500b2cbf68fd46bd84ddbfa71cf9431c6b60060
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1006'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ La instalación de un servidor intermediario sigue el mismo proceso que la insta
 
 >[!CAUTION]
 >
->Una vez que se haya configurado el servidor intermediario y se hayan ejecutado [flujos de trabajo de sincronización](../../workflow/using/about-technical-workflows.md) por primera vez, asegúrese de no actualizar el nombre interno de las cuentas externas intermediarias.
+>Una vez que se haya configurado el servidor intermediario y se hayan ejecutado [flujos de trabajo de sincronización](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"} por primera vez, asegúrese de no actualizar el nombre interno de las cuentas externas intermediarias.
 
 ## Pasos para instalar y configurar una instancia {#steps-for-installing-and-configuring-an-instance}
 
@@ -125,7 +125,7 @@ Es posible que varias instancias de envío compartan una instancia de intermedia
 
    ![](assets/mid_recette_user_restrictions.png)
 
-1. Reinicie el módulo web con el siguiente comando: **&#x200B; web**.
+1. Reinicie el módulo web con el siguiente comando: ** web**.
 
 Debe cambiar la configuración del servidor intermediario en el archivo serverConf.xml. La línea siguiente se debe agregar a la sección &quot;Management of affinities with IP addresses&quot;, en la línea existente:
 
@@ -139,9 +139,9 @@ El atributo &quot;@name&quot; debe respetar las siguientes reglas:
 
 &quot;marketing_account_operator_name&quot; hace referencia al nombre interno de la cuenta intermediaria declarada en la instancia intermediaria.
 
-&#39;affinity_name&#39; se relaciona con el nombre arbitrario dado a la afinidad. Este nombre debe ser único. Los caracteres autorizados son `[a-z]` `[A-Z]` `[0-9]`. El objetivo es declarar un grupo de direcciones IP públicas.
+&#39;affinity_name&#39; se relaciona con el nombre arbitrario dado a la afinidad. Este nombre debe ser único. Los caracteres autorizados son `[a-z]``[A-Z]``[0-9]`. El objetivo es declarar un grupo de direcciones IP públicas.
 
-&#39;affinity_group&#39; relaciona la subafinidad declarada en la asignación de destino utilizada en cada uno de los envíos. La última parte, incluido el &#39;.&#39; se ignora si no hay subafinidad. Los caracteres autorizados son `[a-z]` `[A-Z]` `[0-9]`.
+&#39;affinity_group&#39; relaciona la subafinidad declarada en la asignación de destino utilizada en cada uno de los envíos. La última parte, incluido el &#39;.&#39; se ignora si no hay subafinidad. Los caracteres autorizados son `[a-z]``[A-Z]``[0-9]`.
 
 Debe detener y reiniciar el servidor para que se tenga en cuenta la modificación.
 

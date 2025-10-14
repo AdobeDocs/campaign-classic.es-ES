@@ -7,10 +7,10 @@ feature: Campaigns, Resource Management, Cross Channel Orchestration
 hide: true
 hidefromtoc: true
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
-source-wordcount: '1485'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1491'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Para crear una entrega vinculada a una campaña, haga clic en el vínculo **[!UI
 
 ![](assets/campaign_op_add_delivery.png)
 
-Las configuraciones sugeridas se adecúan a los diferentes tipos de envío: correo postal, correo electrónico, canales móviles. [Más información](../../delivery/using/steps-about-delivery-creation-steps.md).
+Las configuraciones sugeridas se adecúan a los diferentes tipos de envío: correo directo, correo electrónico, canales móviles. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
 
 ## Inicio de una entrega {#starting-a-delivery}
 
@@ -46,7 +46,7 @@ Una vez concedidas todas las solicitudes de aprobación, el estado de entrega ca
 
 ![](assets/s_ncs_user_edit_del_to_start_from_del.png)
 
-La información también aparece en el panel de campañas. El enlace **[!UICONTROL Confirm delivery]** le permite iniciar la entrega.
+La información también aparece en el panel de control de campañas. El enlace **[!UICONTROL Confirm delivery]** le permite iniciar la entrega.
 
 ![](assets/s_ncs_user_edit_del_to_start.png)
 
@@ -54,11 +54,11 @@ Un mensaje de confirmación le permite asegurar esta acción.
 
 ### Inicio de una entrega sin conexión {#starting-an-offline-delivery}
 
-Una vez concedidas todas las aprobaciones, el estado de entrega cambia a **[!UICONTROL Pending extraction]**. Los archivos de extracción se crean mediante un flujo de trabajo especial que, en una configuración predeterminada, se inicia automáticamente cuando una entrega de correo directo está pendiente de extracción. Cuando un proceso está en curso, se muestra en el panel y se puede editar a través de su enlace.
+Una vez concedidas todas las aprobaciones, el estado de entrega cambia a **[!UICONTROL Pending extraction]**. Los archivos de extracción se crean mediante un flujo de trabajo especial que, en una configuración predeterminada, se inicia automáticamente cuando una entrega de correo directo está pendiente de extracción. Cuando un proceso está en curso, se muestra en el panel de control y se puede editar a través de su enlace.
 
 >[!NOTE]
 >
->Los flujos de trabajo técnicos relacionados con el paquete de Campaign se presentan en [Lista de flujos de trabajo técnicos](../../workflow/using/about-technical-workflows.md).
+>Los flujos de trabajo técnicos relacionados con el paquete de campaña se presentan en [Lista de flujos de trabajo técnicos](../../workflow/using/about-technical-workflows.md).
 
 **Paso 1: Aprobación de archivos**
 
@@ -72,7 +72,7 @@ Para obtener más información sobre esto, consulte [Aprobación de un archivo d
 
   >[!NOTE]
   >
-  >Este paso solo está disponible si la entrega y la aprobación de las pruebas se han activado en la ventana de aprobaciones.
+  >Este paso solo está disponible si la entrega y la aprobación de las pruebas se han habilitado en la ventana de aprobaciones.
 
 ![](assets/s_ncs_user_file_valid_select_BAT.png)
 
@@ -135,14 +135,14 @@ Los documentos se pueden asociar en el nivel de campaña (documentos contextuale
 
 La pestaña **[!UICONTROL Documents]** contiene:
 
-* Lista de todos los documentos necesarios para el contenido (plantilla, imágenes, etc.) que Adobe Campaign puede descargar localmente con los derechos adecuados,
+* Lista de todos los documentos necesarios para el contenido (plantilla, imágenes, etc.) que los operadores de Adobe Campaign pueden descargar localmente con los derechos adecuados,
 * Documentos que contienen información para el enrutador, si los hay.
 
 Los documentos están vinculados al programa o a la campaña a través de la pestaña **[!UICONTROL Edit > Documents]**.
 
 ![](assets/s_ncs_user_op_add_document.png)
 
-También puede agregar un documento a una campaña a través del enlace que aparece en su panel.
+También puede agregar un documento a una campaña a través del enlace que aparece en su panel de control.
 
 ![](assets/add_a_document_in_op.png)
 
@@ -150,7 +150,7 @@ Haga clic en el icono **[!UICONTROL Details]** para ver el contenido de un archi
 
 ![](assets/s_ncs_user_op_add_document_details.png)
 
-En el panel, los documentos asociados a la campaña se agrupan en la sección **[!UICONTROL Document(s)]**, como en el siguiente ejemplo:
+En el panel de control, los documentos asociados a la campaña se agrupan en la sección **[!UICONTROL Document(s)]**, como en el siguiente ejemplo:
 
 ![](assets/s_ncs_user_op_edit_document.png)
 
@@ -198,7 +198,7 @@ Una descripción puede contener elementos y campos de personalización, recursos
 
   ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
-* Los recursos son recursos de marketing generados en el panel de recursos de marketing, al que se accede mediante el vínculo **[!UICONTROL Resources]** en la pestaña **[!UICONTROL Campaigns]**.
+* Los recursos son recursos de marketing generados en el panel de control de recursos de marketing, al que se accede mediante el vínculo **[!UICONTROL Resources]** en la pestaña **[!UICONTROL Campaigns]**.
 
   ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
@@ -238,6 +238,6 @@ El modelo de exportación debe estar asociado al proveedor de servicios seleccio
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/27490?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

@@ -7,10 +7,10 @@ audience: interaction
 content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '803'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Para presentar una oferta durante una campaña de marketing, simplemente cree un
 
 ![](assets/offer_delivery_009.png)
 
-Obtenga más información sobre los envíos de correo postal [en esta sección](../../delivery/using/about-direct-mail-channel.md). Obtenga más información acerca de las campañas de marketing [en esta sección](../../campaign/using/setting-up-marketing-campaigns.md).
+Obtenga más información sobre los envíos de correo directo [en esta sección](../../delivery/using/about-direct-mail-channel.md). Obtenga más información acerca de las campañas de marketing en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es){target=_blank}.
 
 ### Pasos principales para insertar una oferta en una entrega {#main-steps-for-inserting-an-offer-into-a-delivery}
 
@@ -90,7 +90,7 @@ El envío se puede personalizar utilizando los campos de la oferta o, en el caso
 
 También se pueden presentar ofertas en una entrega utilizando la descripción de la entrega.
 
-Para obtener más información sobre la descripción de las entregas, consulte la guía [Campaign - MRM](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
+Para obtener más información sobre los esquemas de entrega, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html){target="_blank"}.
 
 1. Cree una nueva campaña o acceda a una campaña existente.
 1. Acceda a la descripción del envío a través de la pestaña **[!UICONTROL Edit]** > **[!UICONTROL Documents]** de la campaña.
@@ -98,7 +98,7 @@ Para obtener más información sobre la descripción de las entregas, consulte l
 
    ![](assets/int_compo_offre1.png)
 
-1. Cree una entrega que tenga acceso a la descripción del mismo (por ejemplo, una entrega de correo postal).
+1. Cree una entrega que tenga acceso a la descripción del mismo (por ejemplo, una entrega de correo directo).
 1. Para editar el envío, haga clic en **[!UICONTROL Select a delivery outline]**.
 
    >[!NOTE]
@@ -111,7 +111,7 @@ Para obtener más información sobre la descripción de las entregas, consulte l
 
    ![](assets/int_compo_offre3.png)
 
-1. Añada las propuestas al cuerpo de la entrega mediante los campos de personalización (para más información, consulte la sección [Insertar una propuesta de oferta en una entrega](#inserting-an-offer-proposition-into-a-delivery)), o en el caso de una entrega de correo postal, editando el formato del archivo extraíble.
+1. Añada las propuestas al cuerpo de la entrega mediante los campos de personalización (para más información, consulte la sección [Insertar una propuesta de oferta en una entrega](#inserting-an-offer-proposition-into-a-delivery)), o en el caso de una entrega de correo directo, editando el formato del archivo extraíble.
 
    Las propuestas se seleccionan entre las ofertas especificadas en la descripción de la entrega.
 

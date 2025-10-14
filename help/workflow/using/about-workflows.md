@@ -1,80 +1,105 @@
 ---
 product: campaign
 title: Acerca de los flujos de trabajo
-description: Automatice los procesos con flujos de trabajo, administre datos y audiencias, envíe mensajes, y mucho más
+description: Automatice los procesos con flujos de trabajo, administre datos y públicos, envíe mensajes, y mucho más
 feature: Workflows, Data Management
-hide: true
-hidefromtoc: true
-exl-id: 51be6b90-2a7a-4757-9754-d16c540a87ff
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '650'
-ht-degree: 100%
+exl-id: 024a7344-9376-4ff3-926a-003148229f9f
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 9%
 
 ---
 
-# Introducción a los flujos de trabajo{#gs-workflows}
+# Automatización con flujos de trabajo {#gs-workflows}
+
+Los flujos de trabajo de Adobe Campaign permiten a su equipo optimizar y automatizar los procesos empresariales de extremo a extremo en toda la plataforma. Con una interfaz gráfica intuitiva, puede diseñar y administrar flujos de trabajo que coordinan tareas como la segmentación de datos, la ejecución de campañas, la administración de archivos e incluso las aprobaciones de usuarios, todo en un solo lugar.
+
+Por ejemplo, puede automatizar un proceso para recuperar un archivo de un servidor remoto, extraer su contenido y cargar sin problemas los datos en el servidor de Adobe Campaign, lo que reduce el esfuerzo manual y aumenta la eficacia operativa. El motor de flujo de trabajo garantiza que cada paso se ejecute de forma fiable y que se rastree para obtener visibilidad y control.
+
+>[!BEGINTABS]
+
+>[!TAB Documentación del flujo de trabajo]
+
+Para obtener más información sobre la administración de flujos de trabajo, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es){target=_blank}.
+
+
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es){target=_blank}
+
+
+>[!TAB Vínculos útiles]
+
+Conozca los pasos clave relacionados con la administración de flujos de trabajo en la documentación de Campaign v8:
+
+* [Actividades de flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=es){target=_blank}: una actividad es una plantilla de tarea. Los flujos de trabajo incluyen direccionamiento, control de flujo, acciones y actividades de evento.
+
+* [Crear un flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=es){target=_blank}: Aprenda a crear y ejecutar flujos de trabajo técnicos, de campañas y de segmentación.
+
+* [Prácticas recomendadas](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target=_blank}: Conozca las directrices para optimizar el rendimiento de los flujos de trabajo de Campaign, mejorar el diseño de los flujos de trabajo y definir la configuración correcta.
+
+* [Supervisar flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target=_blank}: aprenda a monitorizar la ejecución del flujo de trabajo para asegurarse de que todo se ejecuta correctamente.
+
+* [Casos de uso del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/workflow-use-cases.html){target=_blank}: Conozca los contextos en los que se pueden utilizar los flujos de trabajo y cómo implementarlos a través de casos de uso de extremo a extremo.
+
+
+>[!ENDTABS]
 
 
 
-## Acerca de los flujos de trabajo{#about-workflows}
 
-Adobe Campaign incluye un módulo de flujos de trabajo que permite organizar la gama completa de procesos y tareas en los distintos módulos del servidor de aplicaciones. Este entorno gráfico completo permite diseñar procesos, incluso la segmentación, la ejecución de campañas, el procesamiento de archivos, la participación humana, etc. El motor de flujo de trabajo se ejecuta y rastrea estos procesos.
 
-Se puede utilizar un flujo de trabajo, por ejemplo, para descargar un archivo de un servidor, descomprimirlo y, a continuación, importar registros de la base de datos de Adobe Campaign.
+<!--
 
-Un flujo de trabajo también puede incluir uno o varios operadores por notificar o que pueden realizar acciones y aprobar procesos. De este modo, es posible crear una acción de envío, asignar una tarea a uno o varios operadores para trabajar en el contenido, especificar objetivos y verificar pruebas antes de iniciar la entrega.
+Adobe Campaign uses workflows to:
 
-Los flujos de trabajo se producen en varios contextos y etapas del proceso de administración de campañas.
+* Carry out targeting campaigns. [Learn more](building-a-workflow.md#implementation-steps-)
+* Build campaigns: for each campaign, the **[!UICONTROL Workflow]** tab lets you build the target and create the deliveries. [Learn more](building-a-workflow.md#campaign-workflows)
+* Perform technical processes: cleanup, collecting tracking information or provisional calculations. [Learn more](building-a-workflow.md#technical-workflows)
 
-Adobe Campaign utiliza flujos de trabajo para:
+A workflow can mean both a process definition (the workflow model, which is a representation of what is supposed to happen) and an instance of this process (a workflow instance, which is a representation of what is actually happening).
 
-* Llevar a cabo las campañas de objetivos. [Más información](building-a-workflow.md#implementation-steps-)
-* Generar campañas: para cada campaña, la pestaña **[!UICONTROL Workflow]** permite crear el objetivo y las entregas. [Más información](building-a-workflow.md#campaign-workflows)
-* Realizar procesos técnicos: limpieza, recopilación de información de seguimiento o cálculos provisionales. [Más información](building-a-workflow.md#technical-workflows)
-
-Un flujo de trabajo puede significar una definición de proceso (el modelo de flujo de trabajo, que es una representación de lo que se supone que debe ocurrir) y una instancia de este proceso (una instancia de flujo de trabajo, que es una representación de lo que realmente sucede).
-
-La plantilla de flujo de trabajo describe las diversas tareas que se realizan y cómo se relacionan entre sí. Las plantillas de tareas se denominan actividades y se representan mediante iconos. Se vinculan entre sí mediante transiciones.
+The workflow template describes the various tasks to be performed and how they are linked together. The task templates are called activities and are represented by icons. They are linked together by transitions.
 
 ![](assets/example1.png)
 
-Cada flujo de trabajo contiene:
+Each workflow contains:
 
 * **[!UICONTROL Activities]**
 
-  Una actividad describe una plantilla de tarea. Las distintas actividades disponibles se representan en el diagrama mediante iconos. Cada tipo tiene propiedades comunes y propiedades específicas. Por ejemplo, mientras que todas las actividades tienen un nombre y una etiqueta, solo la actividad **[!UICONTROL Approval]** tiene una asignación.
+  An activity describes a task template. The various activities available are represented on the diagram by icons. Each type has common properties and specific properties. For example, while all activities have a name and label, only the **[!UICONTROL Approval]** activity has an assignment.
 
-  En un diagrama de flujo de trabajo, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o una acción recurrente (periódica).
+  In a workflow diagram, a given activity can produce multiple tasks, in particular when there is a loop or recurrent (periodic) actions.
 
-  Todas las actividades de flujo de trabajo se enumeran en [esta sección](about-activities.md), incluidos los ejemplos de uso y las muestras.
+  All workflow activities are listed in [this section](about-activities.md), including use cases and samples.
 
 * **[!UICONTROL Transitions]**
 
-  Las transiciones permiten vincular actividades y definir su secuencia. Una transición vincula una actividad de origen a una actividad de destino. Existen varios tipos de transiciones que dependen de la actividad de origen. Algunas transiciones tienen parámetros adicionales, como una duración, una condición o un filtro.
+  Transitions enable you to link activities and to define their sequence. A transition links a source activity to a destination activity. There are several sorts of transitions, which depend on the source activity. Some transitions have additional parameters such as a duration, a condition or a filter.
 
-  Una transición que no está vinculada a una actividad de destino aparece en color naranja, y la cabeza de la flecha se muestra como un diamante.
+  A transition which is not linked to a destination activity is colored orange and the arrow head is shown as a diamond.
 
   >[!NOTE]
   >
-  >Se puede ejecutar igualmente un flujo de trabajo que contenga transiciones no finalizadas: se genera un mensaje de advertencia y el flujo de trabajo se pausa una vez que llega a la transición, pero no genera un error. Por lo tanto, es posible iniciar un flujo de trabajo sin que haya terminado y añadirlo a medida que avanza
+  >A workflow containing unterminated transitions can still be executed: a warning message will be generated and the workflow will pause once it reaches the transition but it will not generate an error. It is thus possible to start a workflow without it being finished and to add to it as you go along.
 
-  Para obtener más información sobre la creación de flujos de trabajo, consulte [esta sección](building-a-workflow.md).
+  For more information about how to build a workflow, refer to [this section](building-a-workflow.md).
 
 * **[!UICONTROL Worktables]**
 
-  La tabla de trabajo contiene toda la información que transmite la transición. Cada flujo de trabajo utiliza varias tablas de trabajo. Los datos transmitidos en estas tablas pueden acelerarse y utilizarse en todo el ciclo de vida del flujo de trabajo, siempre y cuando no se depure. De hecho, las tablas innecesarias se depuran cada vez que se desactiva el flujo de trabajo y posiblemente durante la ejecución de los flujos de trabajo más grandes para evitar sobrecargar el servidor.
+  The worktable contains all the information carried by the transition. Each workflow uses several worktables. The data conveyed in these tables can be accelerated and used throughout the workflow's life cycle, as long as it is not purged. Indeed, unneeded tables are purged each time the workflow is passivated, and possibly during the execution of the largest workflows to avoid overloading the server.
 
-  Para obtener más información sobre los datos y las tablas de flujos de trabajo, consulte [esta sección](how-to-use-workflow-data.md).
+  Learn more on workflow data and tables in [this section](how-to-use-workflow-data.md).
 
-## Principios fundamentales y prácticas recomendadas{#principles-workflows}
+## Key principles and best practices{#principles-workflows}
 
-Consulte estas secciones para ver instrucciones y prácticas recomendadas para automatizar procesos con flujos de trabajo:
+Refer to these sections to find guidance and best practices to automate processes with workflows:
 
-* Obtenga más información sobre las actividades de flujo de trabajo en [esta página](how-to-use-workflow-data.md).
-* Obtenga información sobre cómo crear un flujo de trabajo en [esta sección](building-a-workflow.md).
-* Descubra cómo utilizar flujos de trabajo para importar datos en Campaign en [esta sección](../../platform/using/import-export-workflows.md).
-* Las prácticas recomendadas sobre los flujos de trabajo se detallan en [esta página](workflow-best-practices.md).
-* Encontrará instrucciones sobre la ejecución de flujos de trabajo en [esta sección](starting-a-workflow.md).
-* Obtenga información sobre cómo monitorizar flujos de trabajo en [esta página](monitoring-workflow-execution.md).
-* Obtenga información sobre cómo conceder acceso a los usuarios para que utilicen flujos de trabajo en [esta página](managing-rights.md).
+* Learn more about workflow activities in [this page](how-to-use-workflow-data.md).
+* Learn how to build a workflow in [this section](building-a-workflow.md).
+* Discover how to use workflows to import data in Campaign in [this section](../../platform/using/import-export-workflows.md).
+* Workflow best practices are detailed in [this page](workflow-best-practices.md).
+* Find guidance about workflow execution in [this section](starting-a-workflow.md).
+* Learn how to monitor workflows in [this page](monitoring-workflow-execution.md).
+* Learn how to grant access to users to use workflows in [this page](managing-rights.md).
+
+-->

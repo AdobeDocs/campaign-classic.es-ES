@@ -8,10 +8,10 @@ audience: integrations
 content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 100%
+source-wordcount: '822'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ En Adobe Campaign, hay dos formas de insertar una imagen dinámica desde Target 
 
 * La URL de **[!UICONTROL Default image]**: Esta es la imagen que se muestra cuando no se cumple ninguna de las condiciones. También puede seleccionar una imagen de su biblioteca de activos.
 * **[!UICONTROL Target location]**: Introduzca un nombre para la ubicación de su oferta dinámica. Debe seleccionar esta ubicación en la actividad de Target.
-* **[!UICONTROL Landing Page]**: Si desea que la imagen predeterminada se redirija a una página de aterrizaje predeterminada. Esta URL es opcional y solo para aquellos casos en que la imagen predeterminada se muestra en el mensaje de correo electrónico final.
+* **[!UICONTROL Landing Page]**: Si desea que la imagen predeterminada se redirija a una página de destino predeterminada. Esta URL es opcional y solo para aquellos casos en que la imagen predeterminada se muestra en el mensaje de correo electrónico final.
 * **[!UICONTROL Additional decision parameters]**: especifique la asignación entre los campos definidos en los segmentos de Adobe Target y los campos de Adobe Campaign. Los campos de Adobe Campaign utilizados deben haberse especificado en el “rawbox”. En el ejemplo, añadimos el campo País.
 
 Si utiliza permisos de empresa en la configuración de Adobe Target, añada la propiedad correspondiente en este campo. Obtenga más información sobre los permisos de empresa de Target en [esta página](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=es).
@@ -86,19 +86,19 @@ En este caso, necesitamos dos ofertas de redirección, la tercera (la predetermi
 
 ## Crear públicos {#audiences-target}
 
-En Target, debe crear las dos audiencias en las que se clasifican las personas que visitan la oferta para enviarles los diferentes contenidos. Para cada audiencia, añada una regla para definir quién puede ver la oferta.
+En Target, debe crear los dos públicos en los que se clasifican las personas que visitan la oferta para enviarles los diferentes contenidos. Para cada público, añada una regla para definir quién puede ver la oferta.
 
 1. Para crear una nueva audiencia en Target, en la pestaña **[!UICONTROL Audiences]**, haga clic en **[!UICONTROL Create Audience]**.
 
    ![](assets/audiences_1.png)
 
-1. Añada un nombre a su audiencia.
+1. Añada un nombre a su público.
 
    ![](assets/audiences_2.png)
 
 1. Haga clic en **[!UICONTROL Add a rule]** y seleccione una categoría. La regla utiliza criterios específicos para dirigirse a los visitantes. Puede restringir las reglas añadiendo condiciones o creando nuevas reglas en otras categorías.
 
-1. Siga el mismo procedimiento para las audiencias restantes.
+1. Siga el mismo procedimiento para los públicos restantes.
 
 ## Creación de una actividad de segmentación de experiencias  {#creating-targeting-activity}
 
@@ -112,11 +112,11 @@ En Target, es necesario crear una actividad de segmentación de experiencias, de
 
 1. Seleccione **[!UICONTROL Form]** como **[!UICONTROL Experience Composer]**.
 
-1. Haga clic en el botón **[!UICONTROL Change audience]** para elegir una audiencia.
+1. Haga clic en el botón **[!UICONTROL Change audience]** para elegir un público.
 
    ![](assets/target_10_2.png)
 
-1. Seleccione la audiencia que se creó en los pasos anteriores.
+1. Seleccione el público que se creó en los pasos anteriores.
 
    ![](assets/target_10_3.png)
 
@@ -124,7 +124,7 @@ En Target, es necesario crear una actividad de segmentación de experiencias, de
 
 ### Definición de la ubicación y el contenido {#defining-location-content}
 
-Añada un contenido para cada audiencia:
+Añada un contenido para cada público:
 
 1. Seleccione el nombre de la ubicación que eligió al insertar la oferta dinámica en Adobe Campaign.
 
@@ -154,7 +154,7 @@ La sección **[!UICONTROL Reporting Settings]** permite seleccionar una acción 
 
 ## Vista previa y envío del correo electrónico {#preview-send-email}
 
-En Adobe Campaign, ahora puede previsualizar el correo electrónico y probar su renderizado en distintos destinatarios. Observe que la imagen cambia según las diferentes experiencias creadas. Para obtener más información sobre la creación de correos electrónicos, consulte esta [página](../../delivery/using/defining-the-email-content.md).
+En Adobe Campaign, ahora puede previsualizar el correo electrónico y probar su renderizado en distintos destinatarios. Observe que la imagen cambia según las diferentes experiencias creadas. Para obtener más información sobre la creación de correos electrónicos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es){target="_blank"}.
 
 Ya está listo para enviar su correo electrónico, incluida una oferta dinámica de Target.
 

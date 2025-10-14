@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: f0d884ae-0789-4ad9-a8fa-adeffbb560ea
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 100%
+source-wordcount: '839'
+ht-degree: 94%
 
 ---
 
@@ -57,7 +57,7 @@ Se trata de un conjunto de derechos y restricciones que autorizan o deniegan:
 
 Adobe Campaign ofrece un conjunto de herramientas que le ayudan a cumplir con la privacidad de RGPD y CCPA.
 
-Consulte [este documento](privacy-and-recommendations.md) para comprender las herramientas y las funcionalidades que proporciona Adobe Campaign, así como las prácticas recomendadas, para ayudarle a cumplir con el GDPR al utilizar nuestro servicio. Los pasos de implementación para Campaign Classic se describen en [este artículo](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html).
+Consulte [este documento](privacy-and-recommendations.md) para comprender las herramientas y las funcionalidades que proporciona Adobe Campaign, así como las prácticas recomendadas, para ayudarle a cumplir con el RGPD al utilizar nuestro servicio. Los pasos de implementación para Campaign Classic se describen en [este artículo](https://helpx.adobe.com/es/campaign/kb/acc-privacy.html).
 
 ## ¿Cuáles son los conceptos de la interfaz de usuario de Campaign que debería conocer? {#what-are-campaign-user-interface-concepts-i-should-know-}
 
@@ -65,11 +65,11 @@ Lea [esta sección](../../platform/using/adobe-campaign-workspace.md) para obten
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra en espacio de trabajo de Campaign en vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/exploring-the-adobe-campaign-classic-user-interface.html?lang=es)
 
-## ¿Cómo puedo seleccionar la audiencia de mis mensajes? {#how-can-i-select-the-target-population-of-my-messages-}
+## ¿Cómo puedo seleccionar el público de mis mensajes? {#how-can-i-select-the-target-population-of-my-messages-}
 
-Con Adobe Campaign, puede utilizar diferentes estrategias para crear audiencias y seleccionar destinatarios objetivo.
+Con Adobe Campaign, puede utilizar diferentes estrategias para crear públicos y seleccionar destinatarios objetivo.
 
-[Haga clic aquí para obtener más información](../../delivery/using/steps-defining-the-target-population.md).
+Haga clic aquí para obtener más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#target-population){target="_blank"}.
 
 ## ¿Qué es un flujo de trabajo? {#what-is-a-workflow-}
 
@@ -79,7 +79,7 @@ Se puede utilizar un flujo de trabajo, por ejemplo, para descargar un archivo de
 
 Un flujo de trabajo también puede incluir uno o varios operadores por notificar o que pueden realizar acciones y aprobar procesos. De este modo, es posible crear una acción de envío, asignar una tarea a uno o varios operadores para trabajar en el contenido, especificar objetivos y verificar pruebas antes de iniciar la entrega.
 
-[Haga clic aquí para obtener más información](../../workflow/using/about-workflows.md) sobre los flujos de trabajo. También puede leer las [prácticas recomendadas de flujo de trabajo](../../workflow/using/building-a-workflow.md).
+[Haga clic aquí para obtener más información](../../workflow/using/about-workflows.md) sobre los flujos de trabajo. También puede leer las prácticas recomendadas de flujo de trabajo en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=es){target="_blank"}.
 
 ## ¿Cómo se crea y se envía un primer correo electrónico? {#how-to-create-and-send-a-first-email-}
 
@@ -93,13 +93,13 @@ Aprenda a configurar su plataforma y enviar mensajes SMS [en esta sección](../.
 
 ## ¿Cómo se envían notificaciones push? {#how-to-send-push-notifications-}
 
-Aprenda a utilizar Adobe Campaign para [enviar una notificación automática personalizada](../../delivery/using/create-notifications-ios.md) a dispositivos iOS y Android a través de aplicaciones.
+Aprenda a utilizar Adobe Campaign para enviar una notificación push personalizada en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html){target="_blank"}.
 
 ## ¿Cómo se diseña y comparte una encuesta en línea? {#how-to-design-and-share-an-online-survey-}
 
 Aprenda a [crear una encuesta en línea](../../surveys/using/getting-started-with-surveys.md) con los pasos clave para diseñarla y publicarla con Campaign Classic.
 
-## ¿Cómo se crea la página de aterrizaje? {#how-to-create-landing-page-}
+## ¿Cómo se crea la página de destino? {#how-to-create-landing-page-}
 
 Puede utilizar el editor de contenido digital de Adobe Campaign para diseñar una página de destino y definir la asignación con campos de base de datos.
 

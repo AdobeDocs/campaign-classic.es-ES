@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Landing Pages, Email Design
 role: User
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 100%
+source-wordcount: '261'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ El módulo Adobe Campaign Content Manager es un [paquete integrado](../../instal
 
 >[!NOTE]
 >
->Esta sección hace referencia al módulo de Administración de contenido. Para obtener más información sobre el diseño de contenido de envíos por correo electrónico, consulte [esta sección](defining-the-email-content.md).
+>Esta sección hace referencia al módulo de Administración de contenido. Para obtener más información sobre cómo diseñar contenido de envíos de correo electrónico, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es){target="_blank"}.
 
 El módulo de Administración de contenido incorpora el grupo de trabajo, el flujo de trabajo y la funcionalidad de adición de contenido. Esto permite dar formato automáticamente a un mensaje: correo electrónico, correo, SMS, web, etc.
 
@@ -31,7 +31,7 @@ El uso del gestor de contenido en una entrega permite ofrecer campos de entrada 
 >
 >Todos los cambios realizados en la hoja de estilo se implementan al nivel de la entrega según las plantillas de contenido utilizadas.
 
-El gestor de contenido ofrece las siguientes ventajas:
+La administración de contenido ofrece las siguientes ventajas:
 
 * Edición de mensajes estructurada mediante interfaces de entrada.
 * Separación del contenido de datos y cómo se presenta (generado en formato XML).

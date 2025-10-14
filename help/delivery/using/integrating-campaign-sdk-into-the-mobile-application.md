@@ -7,10 +7,10 @@ role: User, Developer
 hide: true
 hidefromtoc: true
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: 81b47231b027a189bc8b9029b7d48939734d08ed
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 100%
+source-wordcount: '983'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ A continuación se muestran los pasos de integración para el SDK de Campaign.
 
   A partir de la versión 1.0.26 del SDK, este permiso ya no se utiliza.
 
-* **En iOS**: los archivos **libNeolaneSDK.a** y **Neolane_SDK.h** deben estar vinculados al proyecto. A partir de la versión 1.0.24 del SDK, la opción **ENABLE_BITCODE** está activada.
+* **En iOS**: los archivos **libNeolaneSDK.a** y **Neolane_SDK.h** deben estar vinculados al proyecto. A partir de la versión 1.0.24 del SDK, la opción **ENABLE_BITCODE** está habilitada.
 
   >[!NOTE]
   >
@@ -64,7 +64,7 @@ Para integrar el SDK de Campaign en la aplicación móvil, el administrador func
 
   >[!NOTE]
   >
-  >Esta clave de integración se introduce en la consola de Adobe Campaign, en la pestaña **[!UICONTROL Information]** del servicio dedicado a la aplicación móvil. Consulte [Configuración de la aplicación móvil en Adobe Campaign](configuring-the-mobile-application.md).
+  >Esta clave de integración se introduce en la consola de Adobe Campaign, en la pestaña **[!UICONTROL Information]** del servicio dedicado a la aplicación móvil. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"}.
 
 * **Una URL de seguimiento**: coincide con la dirección del servidor de rastreo de Adobe Campaign.
 * **Una URL de marketing**: para habilitar la recopilación de suscripciones.

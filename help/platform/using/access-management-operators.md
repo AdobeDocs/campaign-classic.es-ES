@@ -7,10 +7,10 @@ feature: Access Management, Permissions
 role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
-source-git-commit: a5bbd2e6c102a8afa4cd5931b77b0c83705a7bfa
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 96%
+source-wordcount: '1237'
+ht-degree: 95%
 
 ---
 
@@ -56,7 +56,7 @@ Para crear un operador nuevo y conceder permisos, siga los pasos a continuación
 
 1. Especifique los **[!UICONTROL Identification parameters]** del usuario: su nombre de inicio de sesión, contraseña y nombre. El operador utiliza el nombre de inicio de sesión y la contraseña para iniciar sesión en Adobe Campaign. Una vez que el usuario ha iniciado sesión, puede cambiar su contraseña mediante el menú **[!UICONTROL Tools > Change password]**. El correo electrónico del operador es esencial, ya que permite que el operador reciba notificaciones, por ejemplo, cuando se procesan las aprobaciones.
 
-   Esta sección también permite vincular un operador a una entidad organizativa. Para obtener más información, consulte [esta página](../../distributed/using/about-distributed-marketing.md).
+   Esta sección también permite vincular un operador a una entidad organizativa. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=es){target="_blank"}.
 
 1. Seleccione los permisos otorgados al operador en la sección **[!UICONTROL Operator access rights]**.
 

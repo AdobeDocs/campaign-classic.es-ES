@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 3%
@@ -24,13 +24,13 @@ Sin embargo, Adobe Campaign no administra los archivos archivados. Esto permite 
 
 Para ello, los archivos .eml correspondientes a los correos electrónicos enviados se transfieren a un servidor remoto, como un servidor de correo electrónico SMTP. El destino de archivado es una dirección de correo electrónico CCO (invisible para los destinatarios de la entrega) que debe especificar.
 
-## Recommendations y limitaciones {#recommendations-and-limitations}
+## Recomendaciones y limitaciones {#recommendations-and-limitations}
 
 * La capacidad CCO del correo electrónico es opcional. Compruebe el acuerdo de licencia.
-* Para **arquitecturas hospedadas e híbridas**, póngase en contacto con su administrador de cuentas para activarlo. La dirección de correo electrónico de CCO que elija se debe proporcionar al equipo de Adobe, que la configurará por usted.
+* Para **arquitecturas hospedadas e híbridas**, póngase en contacto con su administrador de cuentas para activarlo. La dirección de correo electrónico CCO que elija se debe proporcionar al equipo de Adobe, que la configurará por usted.
 * Para **instalaciones in situ**, siga las directrices que se indican a continuación para activarlo; consulte las secciones [Activación del CCO del correo electrónico (local)](#activating-email-archiving--on-premise-) y [Configuración de la dirección de correo electrónico del CCO (local)](#configuring-the-bcc-email-address--on-premise-).
 * Solo puede utilizar una dirección de correo electrónico CCO.
-* Una vez configurado el correo electrónico CCO, asegúrese de que la función esté habilitada en la plantilla de envíos o en la entrega a través de la opción **[!UICONTROL Email BCC]**. Para obtener más información, consulte [esta sección](../../delivery/using/sending-messages.md#archiving-emails).
+* Una vez configurado el correo electrónico CCO, asegúrese de que la función esté habilitada en la plantilla de envíos o en la entrega a través de la opción **[!UICONTROL Email BCC]**. consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 * Solo se tienen en cuenta los correos electrónicos enviados correctamente, no las devoluciones.
 * El sistema de archivado de correo electrónico cambió con Adobe Campaign 17.2 (compilación 8795). Si ya estaba utilizando el archivado de correo electrónico, debe actualizar manualmente al nuevo sistema de CCO de correo electrónico. Para obtener más información sobre esto, consulte la sección [Traslado al nuevo CCO de correo electrónico](#updated-email-archiving-system--bcc-).
 
@@ -134,7 +134,7 @@ En el archivo **config-`<instance name>.xml`**, utilice los siguientes parámetr
 <!--
 ## Moving to the new Email BCC {#updated-email-archiving-system--bcc-}
 
-[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Applies to on-premise and hybrid deployments only"}
+[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"}
 
 >[!IMPORTANT]
 >
@@ -157,7 +157,7 @@ Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]*
    * Si comparte un servidor de correo con varios clientes y uno de ellos tiene esta opción activada, este cliente accederá a todos los correos electrónicos de los demás clientes que compartan el mismo servidor de correo. Para evitar una situación de este tipo, utilice un servidor de correo diferente para cada cliente.
    * Si utiliza el mismo MTA en varias instancias (desarrollo, prueba, prod) para un solo cliente, los mensajes enviados desde las tres instancias se duplicarán mediante la opción dataLogPath.
 
-* **Correos electrónicos por conexión**: el archivado de correo electrónico CCO funciona abriendo una conexión e intentando enviar todos los mensajes de correo electrónico a través de esa conexión. El Adobe recomienda consultar con su contacto técnico interno la cantidad de correos electrónicos aceptados en una conexión determinada. El aumento de este número puede tener un gran impacto en el rendimiento de las CCO.
+* **Correos electrónicos por conexión**: el archivado de correo electrónico CCO funciona abriendo una conexión e intentando enviar todos los mensajes de correo electrónico a través de esa conexión. Adobe recomienda consultar con su contacto técnico interno el número de correos electrónicos aceptados en una conexión determinada. El aumento de este número puede tener un gran impacto en el rendimiento de las CCO.
 * **IP de envío de CCO**: actualmente, los correos electrónicos de CCO no se envían a través de los proxies de MTA normales. En su lugar, se abre una conexión directa desde el servidor MTA al servidor de correo electrónico de destino. Esto significa que es posible que tenga que agregar direcciones IP adicionales a la lista de permitidos de la red, según la configuración del servidor de correo electrónico.
 
 <!--## Email BCC with Enhanced MTA {#email-bcc-with-enhanced-mta}

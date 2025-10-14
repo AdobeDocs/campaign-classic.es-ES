@@ -8,10 +8,10 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1243'
-ht-degree: 4%
+source-wordcount: '1235'
+ht-degree: 3%
 
 ---
 
@@ -84,7 +84,7 @@ Para ayudarle a configurar planes de mantenimiento, en esta sección se enumeran
 
 >[!IMPORTANT]
 >
->Adobe recomienda no ejecutar VACUUM FULL en las configuraciones de base de datos alojadas en Campaign Adobe. El mantenimiento sugerido es una guía solo para instalaciones ON-PREMISE. Para implementaciones y esquemas de tablas personalizadas, utilice VACUUM FULL bajo su propia responsabilidad, ya que VACUUM, sin supervisión, puede bloquear exclusivamente las tablas causando consultas estancadas y, en algunos casos, bloquear toda la base de datos.
+>Adobe recomienda encarecidamente no ejecutar VACUUM FULL en las configuraciones de base de datos alojadas en Adobe de Campaign. El mantenimiento sugerido es una guía solo para instalaciones ON-PREMISE. Para implementaciones y esquemas de tablas personalizadas, utilice VACUUM FULL bajo su propia responsabilidad, ya que VACUUM, sin supervisión, puede bloquear exclusivamente las tablas causando consultas estancadas y, en algunos casos, bloquear toda la base de datos.
 
 En PostgreSQL, puede utilizar estas palabras clave típicas:
 
@@ -141,11 +141,11 @@ VACUUM (FULL, ANALYZE, VERBOSE) nmsmirrorpageinfo;
 
 >[!NOTE]
 >
->* Adobe recomienda comenzar con tablas más pequeñas: de esta manera, si el proceso falla en tablas grandes (donde el riesgo de fallo es mayor), al menos parte del mantenimiento se ha completado.
->* El Adobe recomienda agregar las tablas específicas al modelo de datos, que pueden estar sujetas a actualizaciones significativas. Este puede ser el caso de **NmsRecipient** si tiene flujos de replicación de datos diarios grandes.
+>* Adobe recomienda empezar con tablas más pequeñas: de este modo, si el proceso falla en tablas grandes (donde el riesgo de fallo es mayor), al menos parte del mantenimiento se ha completado.
+>* Adobe recomienda agregar las tablas específicas al modelo de datos, que pueden estar sujetas a actualizaciones significativas. Este puede ser el caso de **NmsRecipient** si tiene flujos de replicación de datos diarios grandes.
 >* La instrucción VACUUM bloqueará la tabla, lo que pone en pausa algunos procesos mientras se realiza el mantenimiento.
->* Para tablas muy grandes (normalmente superiores a 5 Gb), la instrucción VACUUM FULL puede volverse bastante ineficiente y tardar mucho tiempo. El Adobe no recomienda usarlo para la tabla **YyyNmsBroadLogXxx**.
->* Esta operación de mantenimiento se puede implementar mediante un flujo de trabajo de Adobe Campaign, con una actividad **[!UICONTROL SQL]**. Para obtener más información, consulte [esta sección](../../workflow/using/architecture.md). Asegúrese de programar el mantenimiento para un tiempo de actividad bajo que no entre en conflicto con la ventana de copia de seguridad.
+>* Para tablas muy grandes (normalmente superiores a 5 Gb), la instrucción VACUUM FULL puede volverse bastante ineficiente y tardar mucho tiempo. Adobe no recomienda usarlo para la tabla **YyyNmsBroadLogXxx**.
+>* Esta operación de mantenimiento se puede implementar mediante un flujo de trabajo de Adobe Campaign, con una actividad **[!UICONTROL SQL]**. Asegúrese de programar el mantenimiento para un tiempo de actividad bajo que no entre en conflicto con la ventana de copia de seguridad.
 >
 
 ### Reconstrucción de una base de datos {#rebuilding-a-database}
@@ -157,7 +157,7 @@ PostgreSQL no proporciona una manera fácil de realizar una regeneración de tab
 
 A continuación, se muestra un ejemplo de desfragmentación de tabla mediante funciones específicas para generar el DDL necesario. El siguiente SQL le permite crear dos nuevas funciones: **GenRebuildTablePart1** y **GenRebuildTablePart2**, que se pueden usar para generar el DDL necesario para volver a crear una tabla.
 
-* La primera función permite crear una tabla de trabajo (**&#x200B; _tmp** aquí) que es una copia de la tabla original.
+* La primera función permite crear una tabla de trabajo (** _tmp** aquí) que es una copia de la tabla original.
 * A continuación, la segunda función elimina la tabla original y cambia el nombre de la tabla de trabajo y sus índices.
 * El uso de dos funciones en lugar de una significa que si la primera falla, no se corre el riesgo de eliminar la tabla original.
 

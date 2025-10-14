@@ -6,10 +6,10 @@ feature: Overview
 role: User, Data Architect
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '6010'
-ht-degree: 98%
+source-wordcount: '6184'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,8 @@ Learn more about [ACS Connector](../../integrations/using/acs-connector-principl
 
 Una actividad es un elemento de paleta que se agrega a un flujo de trabajo para definir una funcionalidad de ejecución. La actividad es un contenedor que ejecuta una tarea. En un flujo de trabajo, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o una acción recurrente (periódica).
 
-Más información sobre las [Actividades de flujo de trabajo](../../workflow/using/about-activities.md).
+Obtenga más información acerca de las actividades de flujo de trabajo en la [documentación de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities
+.html){target="_blank"}.
 +++
 
 +++**Perfil activo**
@@ -62,14 +63,13 @@ Más información sobre los [Perfiles activos](../../platform/using/about-profil
 
 La actividad Aprobación local es una actividad de flujo de trabajo que se utiliza para configurar un proceso de aprobación de envíos antes de que se envíen los mensajes.
 
-Más información sobre la [Actividad de aprobación local](../../workflow/using/local-approval.md).
 +++
 
 +++**Público**
 
 Un público es el conjunto resultante de perfiles que cumplen los criterios de una definición del filtro, según las reglas y atributos.
 
-Más información sobre las [Públicos](../../campaign/using/marketing-campaign-target.md).
+Obtenga más información acerca de las audiencias en la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=es){target="_blank"}.
 +++
 
 +++**Pista de auditoría**
@@ -102,7 +102,7 @@ Más información sobre la [Interacción](../../interaction/using/interaction-an
 
 Campaign es una interfaz para coordinar, definir y ejecutar campañas de marketing. Las campañas pueden contener uno o más flujos de trabajo, envíos, documentos y otros puntos de datos relacionados en una sola interfaz fácil de usar.
 
-Más información sobre [Campañas](../../campaign/using/designing-marketing-campaigns.md).
+Obtenga más información acerca de las campañas en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}.
 +++
 
 <!--
@@ -135,14 +135,15 @@ Más información sobre la [Consola del cliente](../../platform/using/adobe-camp
 
 La aprobación de contenido es el proceso por el cual un Operador o un grupo de Operadores independientes aprueban el contenido de un envío antes de que se pueda enviar.
 
-Más información sobre la [Aprobación de contenido](../../campaign/using/marketing-campaign-approval.md).
+Obtenga más información acerca de la aprobación de contenido en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=es){target="_blank"}.
+
 +++
 
 +++**Grupos de control**
 
 Utilice los grupos de control para medir el impacto de sus campañas al excluir una parte de su público. Los operadores pueden comparar el comportamiento de la población objetivo que recibió el mensaje con el comportamiento de los contactos no destinatarios. En función de los registros de envío, los operadores también pueden marcar como objetivo un grupo de control en campañas futuras.
 
-Más información sobre los [Grupos de control](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+Obtenga más información acerca de los grupos de control en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target="_blank"}.
 +++
 
 +++**Panel de control**
@@ -214,7 +215,7 @@ Más información acerca de los [Envíos](../../delivery/using/communication-cha
 
 El análisis de envíos es la preparación del envío. Este proceso combina el contenido con los datos de perfil del destinatario para generar el correo electrónico personalizado que recibe el destinatario. La lógica del análisis de envíos puede excluir destinatarios del público objetivo o detener el envío por completo, según la lógica definida. Este proceso también incluye la evaluación de la lógica del contenido dinámico y la inserción de ofertas específicas para el perfil de destinatario individual.
 
-Más información sobre el [Análisis de envío](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+Obtenga más información acerca del análisis de envíos en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
 +++
 
 +++**Logs de entrega**
@@ -265,7 +266,7 @@ Más información sobre el [Análisis descriptivo](../../reporting/using/about-d
 
 El complemento de marketing distribuido ofrece a los operadores de Campaign un espacio de trabajo colaborativo para implementar campañas entre entidades centrales (sedes centrales, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **lista de paquetes de campañas**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
 
-Más información sobre el [Marketing distribuido](../../distributed/using/about-distributed-marketing.md)
+Obtenga más información acerca del marketing distribuido en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=es){target="_blank"}.
 +++
 
 +++**Distribución de valores**
@@ -314,7 +315,7 @@ Más información sobre la [Interacción](../../interaction/using/interaction-an
 
 La capacidad CCO del correo electrónico envía una copia exacta en formato EML de un correo electrónico enviado correspondiente, que se guarda en una dirección de correo electrónico CCO dedicada donde el remitente puede procesar y archivar los correos electrónicos en un sistema externo.
 
-Más información sobre el [CCO del correo electrónico](../../delivery/using/email-parameters.md#email-bcc).
+Obtenga más información sobre el correo electrónico CCO en la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 +++
 
 <!--
@@ -337,7 +338,7 @@ An engine call is a server call that starts real-time processing on server side 
 
 La actividad de enriquecimiento es una actividad de flujo de trabajo avanzada que permite a los operadores enriquecer los datos de la tabla de trabajo generados que se procesarán en el flujo de trabajo. La actividad se utiliza generalmente después de actividades de segmentación o después de importar un archivo, y antes de actividades que permiten el uso de datos de objetivo. Los enriquecimientos pueden transformar los datos de transición de entrada y configurar la actividad para completar la transición de salida con datos mejorados. Permite al operador combinar datos procedentes de varios conjuntos o crear vínculos a un recurso temporal.
 
-Más información sobre la [Actividad de enriquecimiento](../../workflow/using/enrichment.md).
+Obtenga más información acerca de la actividad Enrichment en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}.
 +++
 
 +++**Enumeraciones**
@@ -352,7 +353,7 @@ Obtenga más información sobre cómo **trabajar con listas desglosadas** en la 
 La vista de Explorer es una visualización jerárquica de las carpetas que contienen datos y artefactos de Adobe Campaign. Tenga en cuenta que el sistema de carpetas de Adobe Campaign no funciona como una vista de árbol típica, ya que cada carpeta contiene datos de un tipo específico, como envíos, flujos de trabajo u ofertas.
 
 
-Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 +++
 
@@ -369,7 +370,7 @@ Más información sobre las [Cuentas externas](../../installation/using/external
 
 La administración de fatiga le ayuda a controlar la frecuencia y la cantidad de mensajes para evitar saturar a los destinatarios y, a menudo, se aplica usando reglas de tipología.
 
-Más información sobre la [Administración de fatiga](../../campaign-opt/using/pressure-rules.md).
+Obtenga más información acerca de la administración de la fatiga en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=es){target="_blank"}.
 +++
 
 +++**Acceso de datos federado (FDA)**
@@ -385,21 +386,21 @@ Más información sobre el [Acceso de datos federado](../../installation/using/a
 
 La aprobación de extracción de archivos es el proceso por el que un Operador o grupo de Operadores independiente tiene que aprobar el contenido y la configuración de un archivo extraído antes de enviarlo a un proveedor externo, por ejemplo, para enviarlo por correo directo.
 
-Más información sobre la [Aprobación de extracción de archivos](../../delivery/using/validating.md).
+Obtenga más información acerca de la aprobación de extracción de archivos en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#validating){target="_blank"}.
 +++
 
 +++**Dimensión de filtrado**
 
 La dimensión de filtrado es el esquema que contiene los datos o atributos utilizados por una consulta para filtrar las filas deseadas. El esquema dimensión de filtrado debe estar directamente vinculado a la dimensión de segmentación definida para permitir que Adobe Campaign cruce la unión de las bases de datos y devuelva las filas de participantes.
 
-Más información sobre el [Filtrado de dimensión](../../workflow/using/building-a-workflow.md#targeting-and-filtering-dimensions).
+Obtenga más información acerca de la dimensión de filtrado en la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=es#targeting-and-filtering-dimensions){target="_blank"}.
 +++
 
 +++**Carpeta**
 
 Una carpeta es un elemento de vista de Explorer que contiene registros de base de datos de un tipo de datos específico. La excepción es el tipo de carpeta genérica que se utiliza como elemento organizador y que no contiene ningún dato en sí, solo otras carpetas.
 
-Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 +++
 
@@ -407,7 +408,7 @@ Obtenga más información acerca de la interfaz de usuario de Campaign en [Docum
 
 La vista de carpeta es un tipo especial de carpeta Explorer que se utiliza para mostrar todos los registros de un tipo de datos seleccionado, independientemente de la carpeta a la que pertenezca. Las vistas de carpetas se utilizan como herramienta administrativa para administrar datos particionados o datos que se distribuyen entre muchas carpetas.
 
-Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 +++
 
 +++**Forms**
@@ -431,7 +432,7 @@ Learn more about [Generated SQL queries](../../platform/using/steps-to-create-a-
 
 El mapa de calor de Campaign es una tabla que muestra la información de ejecución del flujo de trabajo durante un periodo de 24 horas. Muestra la distribución de los flujos de trabajo durante el periodo por hora y por intervalos de 5 minutos. El mapa de calor se utiliza para evaluar la carga del servidor y determinar las actividades de flujo de trabajo que consumen la mayoría de los recursos.
 
-Más información sobre el [Mapa de calor](../../workflow/using/heatmap.md).
+Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=es){target="_blank"}.
 +++
 
 +++**Implementación híbrida**
@@ -521,7 +522,7 @@ Más información sobre la [Caché local](../../platform/using/faq-campaign-conf
 
 El módulo **Administración de recursos de marketing (MRM)** de Adobe Campaign permite controlar las acciones de marketing de forma cooperativa mediante la administración completa y el seguimiento en tiempo real de las tareas, los presupuestos y los recursos de marketing implicados. Los operadores de Adobe Campaign pueden coordinar sus acciones y aprobar su progreso en todas las etapas a través de procesos de validación completos y herramientas de seguimiento adecuadas: creación de informes, seguimiento de aprobaciones, notificaciones, foros de debate, etc.
 
-Más información sobre la [MRM](../../mrm/using/about-marketing-resource-management.md).
+Obtenga más información acerca de MRM en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=es){target="_blank"}.
 +++
 
 <!--
@@ -560,7 +561,7 @@ Learn more about [Navigation Bar](../../platform/using/adobe-campaign-workspace.
 
 El árbol de navegación es la navegación principal en la vista de Explorer de Adobe Campaign. El árbol de navegación funciona como un explorador de archivos (por ejemplo, el Explorador de Windows). Las carpetas pueden contener subcarpetas. Al seleccionar un nodo, se muestra la vista correspondiente al nodo. La vista mostrada es una lista asociada con un esquema y un formulario de entrada para editar la línea seleccionada. Puede personalizar el árbol de navegación y definir permisos en las carpetas.
 
-Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 +++
 
@@ -570,7 +571,7 @@ Obtenga más información acerca de la interfaz de usuario de Campaign en [Docum
 
 Dentro de la campaña, el programa o el plan, los operadores pueden establecer una lista de objetivos. Estos son valores cuantificados que se deben alcanzar. Al final de la campaña, el programa o el plan, el módulo MRM permite a los operadores comparar los objetivos y resultados en informes dedicados.
 
-Más información sobre los [Objetivos](../../mrm/using/creating-and-managing-tasks.md#expenses-and-revenues).
+Obtenga más información acerca de los objetivos en la [documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html#expenses-and-revenues){target=_blank}.
 +++
 
 +++**Catálogo de ofertas**
@@ -752,7 +753,7 @@ Más información sobre la [Exportación/importación de paquetes](../../platfor
 
 La paleta del flujo de trabajo muestra las actividades disponibles que se pueden añadir a un flujo de trabajo. Este componente se muestra en formato de pestañas con actividades de flujo de trabajo agrupadas lógicamente por su uso. Las actividades disponibles en la paleta están determinadas por los complementos que se han instalado en la instancia de Campaign y por el contexto que muestra el flujo de trabajo.
 
-Más información sobre la [Paleta](../../workflow/using/building-a-workflow.md#adding-and-linking-activities).
+Obtenga más información acerca de la paleta en la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#add-and-link-activities){target="_blank"}.
 +++
 
 +++**Monitorización del rendimiento**
@@ -787,14 +788,14 @@ Más información sobre las [Variables de personalización](../../delivery/using
 
 Un plan es un tipo de carpeta que se utiliza para organizar actividades de marketing en base a un calendario. Las carpetas de plan de la vista de Explorer definen unidades basadas en el tiempo, como un año, un trimestre o un mes. Las carpetas de plan se pueden anidar y pueden contener otras carpetas de plan, carpetas de programa o campañas.
 
-Más información sobre los [Planes](../../campaign/using/setting-up-marketing-campaigns.md).
+Obtenga más información acerca de los planes en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es){target=_blank}.
 +++
 
 +++**Filtros predefinidos**
 
 Los filtros predefinidos son consultas que se han guardado para su reutilización. El uso de filtros predefinidos aumenta la productividad (porque sólo se crean una vez), ayuda a generar coherencia (porque todos los expertos en marketing pueden utilizarlos) y disminuye las habilidades que se requieren del experto en marketing, ya que pueden utilizar código o lógica que a lo mejor no podrían crear ellos mismos. 
 
-Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 +++
 
 <!--
@@ -825,7 +826,7 @@ Más información sobre los [Perfiles](../../platform/using/about-profiles.md).
 
 Las carpetas de los programas y subprogramas organizan las actividades de marketing en torno a un objetivo empresarial, como la lealtad, la adquisición o la venta cruzada. También pueden representar períodos fiscales o tácticas de campaña, como eventos o boletines informativos. Cada programa contiene campañas vinculadas a un calendario, que proporciona una vista general.
 
-Más información sobre los [Programas](../../campaign/using/setting-up-marketing-campaigns.md).
+Obtenga más información acerca de los programas en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es){target=_blank}.
 +++
 
 +++**Recursos públicos**
@@ -919,7 +920,7 @@ Más información sobre la [Administración SFTP](https://experienceleague.adobe
 
 La actividad del flujo de trabajo de los servicios de suscripción permite crear o eliminar una suscripción a un servicio informativo para la población especificada en la transición.
 
-Más información sobre la [Actividad Servicios de suscripción](../../workflow/using/subscription-services.md).
+Obtenga más información acerca de la actividad Servicios de suscripción en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html){target="_blank"}.
 +++
 
 +++**Aprobación del destino**
@@ -928,35 +929,36 @@ Más información sobre la [Actividad Servicios de suscripción](../../workflow/
 
 La aprobación del destino es el proceso de hacer que un operador o un grupo de operadores apruebe el objetivo final de un envío (después de que la fase de análisis haya generado el objetivo) antes de que se pueda realizar el envío.
 
-Más información sobre la [Aprobación del destino](../../workflow/using/local-approval.md).
+Obtenga más información acerca de la actividad de aprobación de Target en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/approval.html){target="_blank"}.
 +++
 
 +++**Datos de destinatario**
 
 Los datos de destino son los datos almacenados en la tabla de trabajo (transición) de un flujo de trabajo. Estos datos están disponibles dentro del envío para personalizar el contenido del envío o para definir la lógica de los elementos dinámicos del envío.
 
-Más información sobre los [Datos de destinatario](../../workflow/using/data-life-cycle.md#target-data).
+Obtenga más información acerca de los datos de destino en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html#target-data){target="_blank"}.
 +++
 
 +++**Asignación de destino**
 
 La asignación de destino es la asignación de canales de envío a un tipo de datos específico. Las asignaciones de destino definen cómo los distintos canales de envío vinculan los campos de datos de un esquema. Define cómo Campaign envía a ese tipo de datos utilizando un campo o expresión específicos.
 
-Más información sobre la [Asignación de destino](../../delivery/using/steps-defining-the-target-population.md#select-a-target-mapping).
+Obtenga más información acerca de la asignación de destino en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es){target="_blank"}.
 +++
 
 +++**Actividades de segmentación**
 
 Las actividades de segmentación son actividades de flujo de trabajo específicas para el direccionamiento, la manipulación de datos de población y el filtrado de actividades. Estas actividades permiten a los operadores crear uno o más objetivos definiendo conjuntos y dividiendo o combinando estos conjuntos mediante operaciones de intersección, unión o exclusión.
 
-Más información sobre las [Actividades de segmentación](../../workflow/using/about-targeting-activities.md).
+Obtenga más información acerca de las actividades de segmentación en la [documentación de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities
+.html){target="_blank"}.
 +++
 
 +++**Dimensión de segmentación**
 
 La dimensión de segmentación es el tipo de datos que genera (devuelve) una consulta u otras actividades de flujo de trabajo. Tenga en cuenta que Adobe Campaign solo devuelve la clave principal de las filas de la base de datos de los participantes, independientemente de la consulta utilizada para obtenerlas.
 
-Más información sobre la [Dimensión de segmentación](../../workflow/using/targeting-data.md).
+Obtenga más información acerca de la dimensión de segmentación en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"}.
 +++
 
 +++**Actividad de la tarea**
@@ -965,7 +967,7 @@ Más información sobre la [Dimensión de segmentación](../../workflow/using/ta
 
 La actividad de la tarea del flujo de trabajo incorpora la acción humana en la lógica de un flujo de trabajo. Puede especificar dos situaciones: la primera se lleva a cabo si la tarea se completa y la segunda si la tarea no se completa. Los casos de uso habituales son para incorporar acciones sin conexión a una campaña o para acciones personalizadas como aprobaciones.
 
-Más información sobre la [Actividad de la tarea](../../workflow/using/task.md).
+Obtenga más información acerca de la actividad de tareas en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=es){target="_blank"}.
 +++
 
 <!--
@@ -1022,7 +1024,7 @@ Más información sobre la [Mensajería transaccional](../../message-center/usin
 
 Las campañas activadas son campañas que se ejecutan cuando se recibe una solicitud de API en un flujo de trabajo. Las llamadas a la API se consumen mediante una actividad de señal en el flujo de trabajo que inicia la ejecución del flujo de trabajo.
 
-Más información sobre las [Campañas activadas](../../workflow/using/external-signal.md).
+Obtenga más información acerca de las campañas activadas en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/external-signal.html){target="_blank"}.
 +++
 
 <!--
@@ -1041,7 +1043,7 @@ Learn more about [Triggers](../../workflow/using/about-workflows.md).
 
 Una tipología es una agrupación de reglas de tipología que se aplican a la fase de análisis de un envío. Una tipología de campaña puede contener varias reglas de tipología, pero un envío solo puede hacer referencia a una tipología.
 
-Más información sobre las [Tipologías](../../campaign-opt/using/about-campaign-typologies.md#typologies).
+Obtenga más información acerca de las tipologías en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=es){target="_blank"}.
 +++
 
 +++**Reglas de tipología**
@@ -1050,7 +1052,7 @@ Más información sobre las [Tipologías](../../campaign-opt/using/about-campaig
 
 Las reglas de tipología son reglas empresariales que se implementan como parte de la fase de análisis del envío. Las reglas de tipología son comprobaciones del contenido del envío (reglas de control), del destinatario del envío (reglas de filtrado) u otra lógica (reglas de presión) que aplican requisitos empresariales. Las reglas son elementos granulares que se pueden incluir en una o más tipologías.
 
-Más información sobre las [Reglas de tipología](../../campaign-opt/using/about-campaign-typologies.md#typology-rules).
+Obtenga más información acerca de las reglas de tipología en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=es){target="_blank"}.
 +++
 
 ## U - Z {#sec-6}
@@ -1082,7 +1084,7 @@ Más información sobre los [Flujos de trabajo](../../workflow/using/about-workf
 
 El historial de flujo de trabajo es el registro de ejecución paso a paso de un flujo de trabajo. Contiene el historial o la pista de auditoría del flujo de trabajo. Se utiliza con fines de desarrollo, solución de problemas o depuración.
 
-Más información sobre el [Historial de flujo de trabajo](../../workflow/using/monitoring-workflow-execution.md).
+Obtenga más información acerca del historial de flujo de trabajo en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}.
 +++
 
 +++**Tabla de trabajo**

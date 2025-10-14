@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 94%
 
 ---
 
@@ -100,7 +100,7 @@ Con las direcciones semilla, también se puede mostrar el procesamiento del mens
 
 Puede probar la entrega de mensajes enviando una prueba a una dirección semilla creada anteriormente.
 
-El envío de una prueba implica realizar el mismo proceso que para una [entrega normal](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof). Sin embargo, con la mensajería transaccional, debe llevar a cabo las siguientes operaciones de antemano:
+El envío de una prueba implica realizar el mismo proceso que para una entrega normal. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}. Sin embargo, con la mensajería transaccional, debe llevar a cabo las siguientes operaciones de antemano:
 
 * Cree una o más [direcciones semilla](#managing-seed-addresses-in-transactional-messages) con [datos de personalización](#personalization-data).
 * [Creación del contenido del mensaje](../../message-center/using/creating-the-message-template.md#creating-message-content).
@@ -117,7 +117,7 @@ Para enviar la prueba:
 
    ![](assets/messagecenter_send_proof_002.png)
 
-Se puede acceder a las pruebas en cada plantilla a través de la pestaña **[!UICONTROL Audit]**. Para obtener más información sobre esto, consulte [Envío de una prueba](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+Se puede acceder a las pruebas en cada plantilla a través de la pestaña **[!UICONTROL Audit]**. Para obtener más información al respecto, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
 
 ![](assets/messagecenter_send_proof_003.png)
 

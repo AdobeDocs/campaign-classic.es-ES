@@ -7,10 +7,10 @@ feature: Campaigns, Cross Channel Orchestration
 hide: true
 hidefromtoc: true
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
-source-wordcount: '1199'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1202'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ El bloque **[!UICONTROL Browsing]** de la pestaña **[!UICONTROL Campaigns]** of
 >
 >Para obtener más información sobre el funcionamiento general de Adobe Campaign, los permisos y las funcionalidades de administración de perfiles, consulte [esta sección](../../platform/using/adobe-campaign-workspace.md).
 >
->En [esta sección](../../delivery/using/steps-about-delivery-creation-steps.md) se describen todas las funcionalidades relacionadas con canales y envíos.
+>Todas las funcionalidades relacionadas con canales y envíos se detallan en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
 
 ### Calendario de Campaign {#campaign-calendar}
 
@@ -100,11 +100,11 @@ Se puede acceder a las campañas a través del calendario de campañas, de la pe
 
 ### Control de una campaña {#controlling-a-campaign}
 
-#### Tablero {#dashboard}
+#### Panel de control {#dashboard}
 
-Para cada campaña, los trabajos, recursos y envíos están centralizados en una sola pantalla, el panel, que permite administrar las acciones de marketing en colaboración con otros usuarios.
+Para cada campaña, los trabajos, recursos y envíos están centralizados en una sola pantalla, el panel de control, que permite administrar las acciones de marketing en colaboración con otros usuarios.
 
-El panel de una campaña se utiliza como interfaz de control. Accede a las principales fases de creación y gestión de campañas directamente: envíos, extracción de archivos, notificaciones, presupuestos, etc.
+El panel de control de una campaña se utiliza como interfaz de control. Accede a las principales fases de creación y gestión de campañas directamente: envíos, extracción de archivos, notificaciones, presupuestos, etc.
 
 ![](assets/s_ncs_user_op_board_start_del.png)
 

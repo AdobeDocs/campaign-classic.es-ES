@@ -8,10 +8,10 @@ audience: campaign
 content-type: reference
 topic-tags: response-manager
 exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 100%
+source-wordcount: '1390'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Para crear una plantilla de hipótesis, aplique los siguientes pasos:
    >Este periodo se determina a partir de la fecha de contacto.
 
 1. En la pestaña **[!UICONTROL Transactions]**, especifique las tablas y los campos necesarios para el cálculo de hipótesis. [Más información](#transactions)
-1. Si la plantilla está configurada para hipótesis de **[!UICONTROL Offer]**, puede activar la opción **[!UICONTROL Update offer proposition status]**: en este caso, seleccione el estado de la propuesta de oferta que desea cambiar.
+1. Si la plantilla está configurada para hipótesis de **[!UICONTROL Offer]**, puede habilitar la opción **[!UICONTROL Update offer proposition status]**: en este caso, seleccione el estado de la propuesta de oferta que desea cambiar.
 1. Especifique el ámbito de la aplicación de hipótesis. [Más información](#hypothesis-perimeter)
 1. Si es necesario, utilice una secuencia de comandos para completar el filtrado. [Más información](#hypothesis-perimeter)
 
@@ -65,7 +65,7 @@ La pestaña plantilla **[!UICONTROL General]** le permite especificar las opcion
   >
   >Si la plantilla está configurada para tener un grupo de control en cuenta pero no se define ningún grupo en la entrega, los resultados se basarán únicamente en los destinatarios seleccionados.
 
-  Para obtener más información sobre la definición y configuración de un grupo de control, consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+  Para obtener más información sobre la definición y configuración de un grupo de control, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target=_blank}.
 
 * **[!UICONTROL Channel]**: puede elegir un canal específico o hacer que la plantilla de hipótesis esté disponible para todos los canales de la consola de Adobe Campaign seleccionando **[!UICONTROL All channels]** en la lista desplegable. Si configura la plantilla para un canal específico, le permite filtrar automáticamente los envíos por canal al crear la hipótesis. [Más información](creating-hypotheses.md)
 
@@ -185,7 +185,7 @@ Una vez que haya definido la tabla de transacciones y los campos a los que se re
 
 ## Ejemplo: Creación de una plantilla de hipótesis para una entrega {#example--creating-a-hypothesis-template-on-a-delivery}
 
-En este ejemplo, vamos a crear una plantilla de hipótesis para una entrega de correo postal. La tabla de transacciones (**Purchases** en nuestro ejemplo) en la que se basarán las hipótesis contiene líneas de compra vinculadas a artículos o productos. Queremos configurar nuestro modelo para crear hipótesis sobre artículos o productos en la tabla de compras.
+En este ejemplo, vamos a crear una plantilla de hipótesis para una entrega de correo directo. La tabla de transacciones (**Purchases** en nuestro ejemplo) en la que se basarán las hipótesis contiene líneas de compra vinculadas a artículos o productos. Queremos configurar nuestro modelo para crear hipótesis sobre artículos o productos en la tabla de compras.
 
 1. En Adobe Campaign Explorer, vaya al directorio **[!UICONTROL Resources > Templates > Hypothesis templates]**.
 1. Haga clic en **[!UICONTROL New]** para crear una plantilla.

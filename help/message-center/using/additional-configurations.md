@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '793'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '798'
+ht-degree: 96%
 
 ---
 
@@ -120,7 +120,7 @@ En las instancias de ejecución, siga los pasos a continuación:
    >
    >Obtenga información sobre cómo crear una cuenta externa de tipo instancia de ejecución en [esta sección](../../message-center/using/configuring-instances.md#control-instance).
 
-1. Amplíe el esquema nms:extAccount para añadir la URL de seguimiento:
+1. Amplíe el esquema nms:extAccount para agregar la dirección URL de seguimiento:
 
    ```
    <attribute advanced="true" desc="URL of the tracking servers" label="Tracking server URL"
@@ -169,6 +169,6 @@ Para realizar esto, siga los pasos a continuación:
 
 1. Cree una cuenta externa por marca con el mismo nombre interno que se define en la [instancia de ejecución](#execution-instance) (paso 1).
 
-1. Cree una [plantilla de envíos](../../delivery/using/about-templates.md) por cada marca.
+1. Cree una plantilla de envíos por marca. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}.
 
 1. En las **[!UICONTROL Properties]** de la plantilla de envíos, configure el enrutamiento en la cuenta externa de la marca.

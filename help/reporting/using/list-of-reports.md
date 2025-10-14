@@ -5,10 +5,10 @@ description: Lista de informes
 badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Reporting, Monitoring
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 100%
+source-wordcount: '1020'
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
   </tr> 
   <tr> 
    <td> Errores y rechazos (errors)<br /> </td> 
-   <td> Rechazos y no entregables por motivo y por dominio.<br /> </td> 
+   <td> Rechazos y correos que no se pueden entregar por motivo y por dominio.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
@@ -123,7 +123,7 @@ Los informes sobre campañas hacen referencia a los datos de la tabla **nms:oper
 
 Los informes integrados proporcionados por Adobe Campaign se pueden encontrar en la siguiente tabla.
 
-Para más información sobre el contenido de estos informes, consulte [esta sección](../../campaign/using/designing-marketing-campaigns.md).
+Para obtener más información sobre el contenido de estos informes, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}.
 
 <table> 
  <tbody> 
@@ -145,7 +145,7 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
   </tr> 
   <tr> 
    <td> Errores y rechazos (operationErrors)<br /> </td> 
-   <td> Rechazos y no entregables por motivo y dominio, dependen de Campaign.<br /> </td> 
+   <td> Rechazos y correos que no se pueden entregar por motivo y dominio, dependen de Campaign.<br /> </td> 
   </tr> 
   <tr> 
    <td> Exploración de las líneas de coste (budgetExplorerOperation)<br /> </td> 
@@ -219,7 +219,7 @@ Para obtener más información sobre el contenido de estos informes, consulte la
 
 Los informes integrados proporcionados por Adobe Campaign se pueden encontrar en la siguiente tabla.
 
-Para más información sobre el contenido de estos informes, consulte [esta sección](../../campaign/using/designing-marketing-campaigns.md).
+Para obtener más información sobre el contenido de estos informes, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}.
 
 <table> 
  <tbody> 
@@ -310,7 +310,7 @@ Para obtener más información sobre el contenido de estos informes, consulte la
 
 ## Informes de aplicaciones Web {#reports-on-web-applications}
 
-Los informes de aplicaciones Web hacen referencia a los datos de la tabla **nms:WebApp**.
+Los informes de aplicaciones web hacen referencia a los datos de la tabla **nms:WebApp**.
 
 Los informes integrados proporcionados por Adobe Campaign se pueden encontrar en la siguiente tabla.
 
@@ -339,7 +339,7 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
 
 ## Otros informes de ootb {#other-ootb-reports}
 
-También se incluyen los siguientes informes. Para más información al respecto, consulte el documento sobre la funcionalidad a la hacen referencia.
+También se incluyen los siguientes informes integrados. Para más información al respecto, consulte el documento sobre la funcionalidad a la hacen referencia.
 
 <table> 
  <tbody> 

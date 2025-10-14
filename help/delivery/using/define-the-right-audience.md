@@ -1,27 +1,27 @@
 ---
 product: campaign
-title: Definición de la audiencia correcta
-description: Conozca las prácticas recomendadas al seleccionar su audiencia
+title: Definición del público correcto
+description: Conozca las prácticas recomendadas al seleccionar su público
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Audiences
 role: User
 hide: true
 hidefromtoc: true
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '496'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 90%
 
 ---
 
-# Definición de la audiencia correcta {#define-the-right-audience}
+# Definición del público correcto {#define-the-right-audience}
 
 La población objetivo es clave: cree sus listas con cuidado, pruebe sus correos electrónicos con clientes de correo electrónico y dispositivos móviles populares, y asegúrese de que sus listas de correos electrónicos estén actualizadas (sin direcciones desconocidas u obsoletas). También puede enviar pruebas que ayuden a configurar un ciclo de validación completo.
 
-Aprenda más sobre las poblaciones objetivo [en esta sección](steps-defining-the-target-population.md)
+Obtenga más información acerca de las poblaciones objetivo en esta sección en la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
 
-## Selección de la audiencia de destino correcta {#target-the-right-audience}
+## Selección del público destinatario correcto {#target-the-right-audience}
 
 Cuando tenga preparado el contenido, debe definir cuidadosamente quién recibirá el mensaje.
 
@@ -33,13 +33,13 @@ En Campaign Classic, de forma predeterminada, las plantillas de envíos se dirig
 
 Por ejemplo, puede enviar a visitantes cuyos perfiles se hayan recopilado a través de redes sociales o a visitantes suscritos a un servicio informativo.
 
-Estas asignaciones se presentan [en esta sección](steps-defining-the-target-population.md#select-a-target-mapping).
+Estas asignaciones se presentan en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=es){target="_blank"}.
 
 También puede crear y utilizar una asignación de destino personalizada. Para obtener más información, consulte [esta sección](../../configuration/using/target-mapping.md).
 
 ## Destinatarios externos {#external-recipients}
 
-Puede enviar a destinatarios que estén almacenados en un archivo externo en lugar de guardarlos en la base de datos. Obtenga más información [en esta sección](steps-defining-the-target-population.md#selecting-external-recipients).
+Puede enviar a destinatarios que estén almacenados en un archivo externo en lugar de guardarlos en la base de datos. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#selecting-external-recipients){target="_blank"}.
 
 ## Envíos a suscriptores {#send-to-subscribers}
 
@@ -50,7 +50,7 @@ Para enviar mensajes a los suscriptores de una newsletter, puede enviar directam
 
 Para probar el envío, utilice pruebas antes de enviar al destinatario principal.
 
-Asegúrese de seleccionar los destinatarios de prueba adecuados, ya que validan el formulario y el contenido del mensaje. Los pasos para definir los destinatarios de prueba se presentan [en esta sección](steps-defining-the-target-population.md#selecting-the-proof-target).
+Asegúrese de seleccionar los destinatarios de prueba adecuados, ya que validan el formulario y el contenido del mensaje. Los pasos para definir los destinatarios de prueba se presentan en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#select-the-proof-target){target="_blank"}.
 
 Las direcciones semilla se utilizan para dirigirse a los destinatarios que no coinciden con los criterios de destino definidos para probar un envío antes de enviarlo al destinatario principal. Se muestran [en esta sección](about-seed-addresses.md).
 
@@ -66,7 +66,7 @@ Las direcciones duplicadas protegen su reputación de envío y garantizan una bu
 
 **Temas relacionados:**
 
-* [Actividad de anulación de duplicación](../../workflow/using/deduplication.md).
+* [Actividad de deduplicación](../../workflow/using/deduplication.md).
 * [Caso de uso: Uso de la funcionalidad de combinación de la actividad de anulación de duplicación](../../workflow/using/deduplication-merge.md)
 
 ## Indexación de direcciones de correo electrónico {#index-addresses}

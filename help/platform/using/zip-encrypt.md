@@ -8,16 +8,16 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '520'
+ht-degree: 92%
 
 ---
 
 # Compresión o cifrado de un archivo {#zipping-or-encrypting-a-file}
 
-Adobe Campaign permite exportar archivos comprimidos o cifrados. Al definir una exportación a través de una actividad **[!UICONTROL Data extraction (file)]**, puede definir un posprocesamiento para comprimir o encriptar el archivo.
+Adobe Campaign permite exportar archivos comprimidos o cifrados. Al definir una exportación a través de una actividad **[!UICONTROL Data extraction (file)]**, puede definir un posprocesamiento para comprimir o cifrar el archivo.
 
 Para poder hacerlo:
 
@@ -36,11 +36,11 @@ A continuación, puede utilizar comandos o código en la pestaña **[!UICONTROL 
 **Temas relacionados:**
 
 * [Descomprimir o descifrar un archivo antes de procesarlo](../../platform/using/unzip-decrypt.md)
-* [Actividad de extracción de datos (archivo)](../../workflow/using/extraction-file.md).
+* [Actividad de extracción de datos (archivo)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}
 
 ## Caso de uso: cifrado y exportación de datos con una clave instalada en el Panel de control {#use-case-gpg-encrypt}
 
-En este caso de uso, crearemos un flujo de trabajo para codificar y exportar los datos con una clave instalada en el Panel de control.
+En este caso de uso, crearemos un flujo de trabajo para cifrar y exportar los datos con una clave instalada en el Panel de control.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#video)
 
@@ -54,12 +54,12 @@ Los pasos para realizar este caso de uso son los siguientes:
 
    * **[!UICONTROL Query]** actividad: En este ejemplo, queremos ejecutar una consulta para un destinatario de los datos de la base de datos que queremos exportar.
    * **[!UICONTROL Data extraction (file)]** actividad: extrae los datos en un archivo.
-   * **[!UICONTROL JavaScript code]** actividad: codifica los datos que se van a extraer.
+   * **[!UICONTROL JavaScript code]** actividad: cifra los datos que se van a extraer.
    * **[!UICONTROL File transfer]** actividad: envía los datos a un origen externo (en este ejemplo, un servidor SFTP).
 
-1. Configure la actividad **[!UICONTROL Query]** para destinatario de los datos deseados de la base de datos. Para obtener más información, consulte [esta sección](../../workflow/using/query.md).
+1. Configure la actividad **[!UICONTROL Query]** para destinatario de los datos deseados de la base de datos. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
-1. Abra la actividad **[!UICONTROL Data extraction (file)]** y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/extraction-file.md).
+1. Abra la actividad **[!UICONTROL Data extraction (file)]** y configúrela según sus necesidades. Los conceptos globales sobre cómo configurar la actividad están disponibles en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html){target="_blank"}.
 
    ![](assets/gpg-data-extraction.png)
 
@@ -81,7 +81,7 @@ Los pasos para realizar este caso de uso son los siguientes:
 
    ![](assets/gpg-script.png)
 
-1. Abra la actividad **[!UICONTROL File transfer]** y especifique el servidor SFTP al que desea enviar el archivo. Los conceptos globales sobre cómo configurar la actividad están disponibles en [esta sección](../../workflow/using/file-transfer.md).
+1. Abra la actividad **[!UICONTROL File transfer]** y especifique el servidor SFTP al que desea enviar el archivo. Los conceptos globales sobre cómo configurar la actividad están disponibles en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
    ![](assets/gpg-file-transfer.png)
 
@@ -91,6 +91,6 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 Este vídeo muestra cómo utilizar una clave GPG para cifrar datos y también está disponible en
 
->[!VIDEO](https://video.tv.adobe.com/v/41330?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

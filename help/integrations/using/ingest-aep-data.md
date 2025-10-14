@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Ingesta de segmentos de Adobe Experience Platform en Campaign
-description: Aprenda a introducir audiencias de Adobe Experience Platform en Campaign Classic
+description: Aprenda a introducir públicos de Adobe Experience Platform en Campaign Classic
 feature: Experience Platform Integration
 audience: integrations
 content-type: reference
 exl-id: 6db8a653-b649-402c-8814-24826edadba7
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '299'
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ Ahora puede configurar un flujo de trabajo de Campaign Classic para introducir e
 
 Una vez configurado Campaign Classic como destino, debe crear un flujo de trabajo dedicado para importar el archivo que ha exportado Adobe Experience Platform.
 
-Para ello, debe añadir y configurar una actividad **[!UICONTROL File transfer]**. Para obtener más información sobre cómo configurar esta actividad, consulte [esta sección](../../workflow/using/file-transfer.md).
+Para ello, debe añadir y configurar una actividad **[!UICONTROL File transfer]**. Para obtener más información sobre cómo configurar esta actividad, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
 ![](assets/rtcdp-file-transfer.png)
 

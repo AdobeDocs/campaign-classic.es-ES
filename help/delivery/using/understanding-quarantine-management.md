@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Monitoring, Deliverability
 role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
-source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '2984'
-ht-degree: 99%
+source-wordcount: '3008'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Algunos proveedores de acceso a Internet consideran automáticamente los correos
 
 Además, la cuarentena reduce el coste de entrega de los SMS mediante la exclusión en las entregas de los números de teléfono incorrectos.
 
-Para obtener más información sobre las prácticas recomendadas para proteger y optimizar las entregas, consulte [esta página](delivery-best-practices.md).
+Para obtener más información sobre las prácticas recomendadas para proteger y optimizar las entregas, consulte esta página en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=es){target="_blank"}.
 
 ### Cuarentena frente a la inclusión en la lista de bloqueados {#quarantine-vs-denylist}
 
@@ -117,14 +117,14 @@ En la lista de direcciones en cuarentena (consulte [Identificación de direccion
 
 A diferencia de los errores en el hardware, los de software no envían inmediatamente una dirección a la cuarentena, sino que se suman a un contador de errores.
 
-Los reintentos se realizarán durante la [duración de la entrega](../../delivery/using/steps-sending-the-delivery.md#defining-validity-period). Cuando el contador de errores alcanza el umbral de límite, la dirección se pone en cuarentena. Para obtener más información, consulte [Reintentos tras un fallo temporal de entrega](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+Los reintentos se realizarán durante la duración de la entrega. Ver esta [página](communication-channels.md) en **Envío de entregas** > **Definir el período de validez**. Cuando el contador de errores alcanza el umbral de límite, la dirección se pone en cuarentena. Para obtener más información, consulte [Reintentos tras un fallo temporal de entrega](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 El contador de errores se reinicia si el último error significativo se produjo hace más de 10 días. El estado de la dirección cambia a **válido** y se elimina de la lista de cuarentena mediante el flujo de trabajo de [Limpieza de la base de datos](../../production/using/database-cleanup-workflow.md).
 
 
 Para instalaciones alojadas o híbridas, si ha actualizado al [MTA mejorado](sending-with-enhanced-mta.md), el número máximo de reintentos que se deben realizar en caso de estados **[!UICONTROL Erroneous]** y el retardo mínimo entre reintentos ahora se basan en el rendimiento histórico y actual de una IP en un dominio determinado.
 
-Para las instalaciones locales y alojadas/híbridas que utilizan el MTA de Campaign heredado, puede modificar el número de errores y el período entre dos errores. Para ello, cambie la configuración correspondiente en el [asistente de implementación](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**) o [en el nivel de entrega](../../delivery/using/steps-sending-the-delivery.md#configuring-retries).
+Para las instalaciones locales y alojadas/híbridas que utilizan el MTA de Campaign heredado, puede modificar el número de errores y el período entre dos errores. Para ello, cambie la configuración correspondiente en el [asistente de implementación](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**) o en el nivel de entrega. Ver esta [página](communication-channels.md) en **Envío de entregas** > **Configurar reintentos**.
 
 
 ## Quitar una dirección de la cuarentena {#removing-a-quarantined-address}

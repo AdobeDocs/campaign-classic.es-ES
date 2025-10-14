@@ -8,10 +8,10 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '3389'
-ht-degree: 4%
+source-wordcount: '3397'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Las configuraciones del lado del servidor solo se pueden realizar mediante el Adobe para implementaciones alojadas por el Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
+>Adobe solo puede realizar configuraciones del lado del servidor para implementaciones alojadas en Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
 
 ## asistente de implementación {#deployment-assistant}
 
@@ -79,13 +79,12 @@ Estos parámetros se pueden sobrecargar en las plantillas de envío e individual
 Indique los siguientes parámetros:
 
 * **[!UICONTROL Sender name]** : escriba el nombre del remitente.
-* **[!UICONTROL Sender address]** : escriba la dirección de correo electrónico del remitente. Al enviar correos electrónicos desde Adobe Campaign, el buzón de **Dirección del remitente** no se supervisa y los usuarios de marketing no pueden acceder a este buzón. Adobe Campaign tampoco ofrece la capacidad de responder automáticamente o reenviar automáticamente los correos electrónicos recibidos en este buzón. Obtenga más información acerca de las prácticas recomendadas de entrega [en esta documentación](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html?lang=es){_blank}.
+* **[!UICONTROL Sender address]** : escriba la dirección de correo electrónico del remitente. Al enviar correos electrónicos desde Adobe Campaign, el buzón de **Dirección del remitente** no se supervisa y los usuarios de marketing no pueden acceder a este buzón. Adobe Campaign tampoco ofrece la capacidad de responder automáticamente o reenviar automáticamente los correos electrónicos recibidos en este buzón. Obtenga más información acerca de las prácticas recomendadas de entrega [en esta documentación](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html){_blank}.
 
 * **[!UICONTROL Reply address text]**: escriba el nombre usado cuando el destinatario hace clic en el botón **[!UICONTROL Reply]**.
 * **[!UICONTROL Reply address]** : escriba la dirección de correo electrónico que se usará cuando el destinatario haga clic en el botón **[!UICONTROL Reply]** en el software de cliente de correo electrónico. El propósito del campo **Dirección de respuesta** es cuando desea que el destinatario responda a una dirección diferente a la **Dirección del remitente**.  Esta dirección debe ser una dirección de correo electrónico válida, vinculada a un buzón supervisado y alojada por el cliente.  Podría ser un buzón de soporte técnico, por ejemplo, `customer-care@customer.com`, donde se lean y respondan los correos electrónicos.
 
-* **[!UICONTROL Error address]** : escriba la dirección de correo electrónico de los mensajes con errores. Esta es la dirección técnica utilizada para gestionar el correo rechazado, incluidos los correos electrónicos recibidos por el servidor de Adobe Campaign debido a direcciones de destino inexistentes. Esta dirección debe ser una dirección de correo electrónico válida, vinculada a un buzón supervisado y alojada por el cliente. Podría ser un buzón de rechazos, por ejemplo, `errors@customer.com`. Esta dirección se puede cambiar para una entrega o en las plantillas de entrega, desde la pestaña **SMTP** de las propiedades de la entrega/plantilla de entrega. [Más información](../../delivery/using/email-parameters.md#managing-bounce-emails-managing-bounce-emails).
-
+* **[!UICONTROL Error address]** : escriba la dirección de correo electrónico de los mensajes con errores. Esta es la dirección técnica utilizada para gestionar el correo rechazado, incluidos los correos electrónicos recibidos por el servidor de Adobe Campaign debido a direcciones de destino inexistentes. Esta dirección debe ser una dirección de correo electrónico válida, vinculada a un buzón supervisado y alojada por el cliente. Podría ser un buzón de rechazos, por ejemplo, `errors@customer.com`. Esta dirección se puede cambiar para una entrega o en las plantillas de entrega, desde la pestaña **SMTP** de las propiedades de la entrega/plantilla de entrega. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html#managing-bounce-emails){target="_blank"}.
 
 Además, puede especificar las **máscaras** autorizadas para la dirección del remitente y la dirección de error. Si es necesario, estas máscaras se pueden separar con comas. Esta configuración es opcional. Cuando se introducen campos, Adobe Campaign comprueba en el momento de la entrega (durante el análisis, si la dirección no incluye ninguna variable) que las direcciones son válidas. Este modo operativo garantiza que no se utilicen direcciones que puedan almacenar en déclencheur los problemas de envío. Las direcciones de envío deben configurarse en el servidor de envío.
 
@@ -176,7 +175,7 @@ Las devoluciones sin procesar no se muestran en la interfaz de Adobe Campaign. S
 
 >[!IMPORTANT]
 >
->Para reenviar correos electrónicos rechazados sin procesar, Adobe solo recomienda rellenar el campo **[!UICONTROL Address for errors]**. Sin embargo, asegúrese de comprobar regularmente la dirección que utiliza, ya que esto podría suponer una carga pesada en el servidor de correo. Póngase en contacto con su administrador de cuentas para obtener más información.
+>Para reenviar correos electrónicos rechazados sin procesar, Adobe recomienda rellenar únicamente el campo **[!UICONTROL Address for errors]**. Sin embargo, asegúrese de comprobar regularmente la dirección que utiliza, ya que esto podría suponer una carga pesada en el servidor de correo. Póngase en contacto con su administrador de cuentas para obtener más información.
 
 ## Configuración de seguimiento {#tracking-configuration}
 
@@ -277,7 +276,7 @@ En la ventana anterior, un mensaje confirma el registro en el nivel de servidor 
 
 ![](assets/s_ncs_install_deployment_wiz_tracking_ok.png)
 
-Los parámetros vinculados a las búsquedas de URL **no se deben modificar** para una instalación estándar. Para todos los demás parámetros, póngase en contacto con el Adobe.
+Los parámetros vinculados a las búsquedas de URL **no se deben modificar** para una instalación estándar. Para todos los demás parámetros, póngase en contacto con Adobe.
 
 ## Parámetros de canal móvil {#mobile-channel-parameters}
 
@@ -342,7 +341,7 @@ Utilice esta página para rellenar las direcciones URL del servidor para:
 1. Acceder al servidor de aplicaciones para recursos no expuestos en la web: formularios, intranet, páginas de confirmación.
 1. Acceda a las páginas espejo de los envíos.
 
-   Una página espejo es una página dinámica que muestra el contenido del correo electrónico. Se accede a él a través de un vínculo insertado en el mensaje enviado al destinatario y puede contener elementos personalizados. La página espejo ofrece al destinatario la posibilidad de leer el mensaje en un navegador de Internet en lugar del software de correo electrónico, independientemente del formato de entrega (texto o HTML). Sin embargo, las páginas espejo solo se generan para una entrega determinada si se ha definido el contenido HTML requerido.
+   Una página espejo es una página dinámica que muestra el contenido del correo electrónico. Se accede a él a través de un vínculo insertado en el mensaje enviado al destinatario y puede contener elementos personalizados. La página espejo ofrece al destinatario la posibilidad de leer el mensaje en un navegador de Internet en lugar del software de correo electrónico, independientemente del formato de entrega (texto o HTML). Sin embargo, las páginas espejo solo se generan para una entrega determinada si se ha definido el contenido de HTML requerido.
 
 Adobe Campaign permite diferenciar estas tres direcciones URL para distribuir la carga en varias plataformas.
 
@@ -383,7 +382,7 @@ En una entrega, puede utilizar imágenes almacenadas en la biblioteca de recurso
 
   Este valor se puede sobrescribir en cada envío.
 
-* Para los recursos públicos, la dirección URL **https://** server **/res/** instance **&#x200B;**&#x200B;donde **instance**&#x200B;es el nombre de la instancia de seguimiento.
+* Para los recursos públicos, la dirección URL **https://** server **/res/** instance ****donde **instance**es el nombre de la instancia de seguimiento.
 
 ### Detección de imagen de entrega {#delivery-image-detection}
 
@@ -395,7 +394,7 @@ El campo **Máscaras de URL** le permite especificar la lista de máscaras de UR
 
 Puede especificar varias máscaras de URL utilizando una coma para separar cada una de ellas.
 
-* Para obtener información sobre cómo usar y administrar imágenes en correos electrónicos, consulte [esta sección](../../delivery/using/defining-the-email-content.md#adding-images).
+* Para obtener información sobre cómo usar y administrar imágenes en correos electrónicos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}.
 * En el asistente de envío, las imágenes a las que se llama desde estas direcciones URL tienen el estado &quot;Ignorado&quot;.
 
 ### Modos de publicación {#publication-modes}

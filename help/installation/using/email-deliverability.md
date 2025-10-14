@@ -8,9 +8,9 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '3094'
+source-wordcount: '3096'
 ht-degree: 13%
 
 ---
@@ -25,11 +25,11 @@ La siguiente sección proporciona una descripción general de la configuración 
 
 >[!NOTE]
 >
->Algunas configuraciones solo se pueden realizar por Adobe para implementaciones alojadas por Adobe, por ejemplo, para acceder a los archivos de configuración del servidor y de la instancia. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
+>Algunas configuraciones solo las puede realizar Adobe para implementaciones alojadas en Adobe, por ejemplo, para acceder a los archivos de configuración del servidor y de la instancia. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
 
 Para obtener más información sobre los conceptos y las prácticas recomendadas relacionadas con la capacidad de entrega con Adobe Campaign, consulte esta [sección](../../delivery/using/about-deliverability.md).
 
-Para profundizar en lo que es la capacidad de entrega, incluidas todas las recomendaciones técnicas sobre el envío y la recepción eficientes de correos electrónicos por parte de una plataforma de Adobe, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
+Para profundizar en lo que es la capacidad de entrega, incluidas todas las recomendaciones técnicas relativas al envío y la recepción eficientes de correos electrónicos por parte de una plataforma de Adobe, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
 
 ## Principio de funcionamiento {#operating-principle}
 
@@ -192,7 +192,7 @@ user:~ user$ host -t a mta6.am0.yahoodns.net
                 mta6.am0.yahoodns.net has address 66.196.118.33
 ```
 
-4 de estas 8 direcciones IP ya se utilizan en mta5 (98.136.216.26, 98.138.112.38, 63.250.192.46 y 98.136.217.203). Este registro permite al usuario utilizar 4 direcciones IP nuevas. El tercer registro MX hace lo mismo.
+4 de estas 8 direcciones IP ya se usan en mta5 (98.136.216.26, 98.138.112.38, 63.250.192.46 y 98.136.217.203). Este registro permite al usuario utilizar 4 direcciones IP nuevas. El tercer registro MX hace lo mismo.
 
 En total, tenemos 16 direcciones IP remotas. En combinación con nuestras 2 IP públicas locales, tenemos 32 rutas para llegar a los servidores de correo de yahoo.com.
 
@@ -316,22 +316,22 @@ Puede definir el formato de los mensajes enviados, de modo que el contenido most
 
 Para ello, vaya al documento **[!UICONTROL Management of email formats]**, que se encuentra en **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]** > **[!UICONTROL Mail rule sets]**.
 
-Este documento contiene una lista de todos los dominios predefinidos que corresponden a los formatos japoneses administrados por Adobe Campaign. Para obtener más información, consulte [este documento](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
+Este documento contiene una lista de todos los dominios predefinidos que corresponden a los formatos japoneses administrados por Adobe Campaign. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=es){target="_blank"}.
 
 ![](assets/mail_rule_sets.png)
 
 El parámetro **MIME structure** (Multipurpose Internet Mail Extensions) permite definir la estructura de mensajes que se enviará a los distintos clientes de correo. Hay tres opciones disponibles:
 
-* **Multipart**: el mensaje se envía en formato de texto o de HTML. Si no se acepta el formato de HTML, el mensaje se podrá mostrar en formato de texto.
+* **Multipart**: el mensaje se envía en formato de texto o HTML. Si no se acepta el formato HTML, el mensaje se podrá mostrar en formato de texto.
 
   De manera predeterminada, la estructura multipart es **multipart/alternative**, pero se convierte automáticamente en **multipart/related** cuando se agrega una imagen al mensaje. Algunos proveedores esperan el formato **multipart/related** de forma predeterminada, la opción **[!UICONTROL Force multipart/related]** impone este formato incluso si no hay ninguna imagen adjunta.
 
-* **HTML**: se envía un mensaje de solo HTML. Si no se acepta el formato de HTML, no se muestra el mensaje.
+* **HTML**: se envía un mensaje solo de HTML. Si no se acepta el formato HTML, no se muestra el mensaje.
 * **Texto**: se envía un mensaje en formato de solo texto. La ventaja de los mensajes de formato de texto es su tamaño muy pequeño.
 
 Si la opción **[!UICONTROL Image inclusion]** está habilitada, estas se muestran directamente en el cuerpo del correo electrónico. Las imágenes se cargan y los vínculos URL se sustituyen por su contenido.
 
-El mercado japonés usa esta opción especialmente para **Deco-mail**, **Decore Mail** o **Decoration Mail**. Para obtener más información, consulte [este documento](../../delivery/using/defining-the-email-content.md#sending-emails-on-japanese-mobiles).
+El mercado japonés usa esta opción especialmente para **Deco-mail**, **Decore Mail** o **Decoration Mail**. Para obtener más información, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=es){target="_blank"}.
 
 >[!IMPORTANT]
 >

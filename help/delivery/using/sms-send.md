@@ -5,10 +5,10 @@ description: Obtenga información sobre cómo enviar, monitorizar y rastrear SMS
 feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
 source-wordcount: '887'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -81,8 +81,6 @@ El módulo **nlserver sms** consulta al enrutador SMS a intervalos regulares. Es
   > * Una cuenta SMS solo se puede vincular a una cuenta externa única para garantizar que los informes de estado se atribuyen a la cuenta correcta
 
 * **Baja**: los destinatarios que deseen dejar de recibir envíos SMS pueden devolver un mensaje que contenga la palabra STOP. Si su proveedor lo permite en los términos del contrato, puede recuperar mensajes mediante la actividad de flujo de trabajo de los **SMS de entrada** y, a continuación, crear una consulta para activar la opción **No volver a ponerse en contacto con este destinatario** para los destinatarios correspondientes.
-
-  Consulte la guía [Flujos de trabajo](../../workflow/using/architecture.md).
 
 ## Esquema InSMS {#insms-schema}
 
@@ -167,6 +165,6 @@ El nombre del remitente para este tipo de mensaje es un breve código que suele 
 
 >[!IMPORTANT]
 >
->Estos tipos de mensajes automáticos no conservan un historial. Por lo tanto, no aparecen en el panel de envío. [Más información](delivery-dashboard.md).
+>Estos tipos de mensajes automáticos no conservan un historial. Por lo tanto, no aparecen en el panel de control de envío. [Más información](delivery-dashboard.md).
 >
->Estos mensajes no se tienen en cuenta en las reglas de presión comercial. [Más información](../../campaign-opt/using/pressure-rules.md).
+>Estos mensajes no se tienen en cuenta en las reglas de presión comercial. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=es){target="_blank"}.

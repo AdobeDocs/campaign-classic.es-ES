@@ -8,10 +8,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 46212929-fd2d-44a2-897e-35f98e88af36
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '1958'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1961'
+ht-degree: 99%
 
 ---
 
@@ -115,15 +115,15 @@ Los mensajes se envían en formato HTML o texto de forma predeterminada, según 
 
 Adobe Campaign le permite probar el nuevo formato [AMP interactivo para correo electrónico](https://amp.dev/es/about/email/), que permite enviar correos electrónicos dinámicos en ciertas condiciones.
 
-Para obtener más información, consulte [esta sección](defining-interactive-content.md).
+Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=es){target="_blank"}.
 
 ## Uso de la administración de contenido {#using-content-management}
 
-Puede definir el contenido del envío mediante los formularios de administración de contenido directamente en el asistente de envíos. Para ello, debe hacer referencia a la plantilla de publicación de la gestión de contenido que se va a utilizar, en la pestaña **[!UICONTROL Advanced]** de las propiedades de entrega.
+Puede definir el contenido del envío mediante los formularios de administración de contenido directamente en el asistente de envíos. Para ello, debe hacer referencia a la plantilla de publicación de la administración de contenido que se va a utilizar, en la pestaña **[!UICONTROL Advanced]** de las propiedades de entrega.
 
 ![](assets/s_ncs_content_in_delivery.png)
 
-Una pestaña adicional permite introducir contenido que se integra y formatea automáticamente según las reglas de gestión de contenido.
+Una pestaña adicional permite introducir contenido que se integra y formatea automáticamente según las reglas de administración de contenido.
 
 ![](assets/s_ncs_content_in_delivery_edition_tab.png)
 
@@ -162,7 +162,7 @@ Las imágenes pueden ser:
 * Una imagen local o una imagen obtenida desde un servidor
 * Una imagen almacenada en la biblioteca de recursos públicos de Adobe Campaign
 
-  Los recursos públicos son accesibles a través del nodo **[!UICONTROL Resources > Online]** de la jerarquía de Adobe Campaign. Se agrupan en una biblioteca y se pueden incluir en mensajes de correo electrónico, pero también se pueden utilizar para campañas o tareas, o para la gestión de contenido.
+  Los recursos públicos son accesibles a través del nodo **[!UICONTROL Resources > Online]** de la jerarquía de Adobe Campaign. Se agrupan en una biblioteca y se pueden incluir en mensajes de correo electrónico, pero también se pueden utilizar para campañas o tareas, o para la administración de contenido.
 
 * Un recurso compartido con Adobe Experience Cloud. Consulte [esta sección](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
 

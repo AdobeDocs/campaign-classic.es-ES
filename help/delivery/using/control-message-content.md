@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
-workflow-type: ht
-source-wordcount: '748'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '760'
+ht-degree: 92%
 
 ---
 
@@ -22,14 +22,14 @@ Siga los principios que se enumeran a continuación al diseñar el contenido del
 * [Dirección del remitente](#sender-address): la dirección debe identificar explícitamente al remitente. El dominio debe ser propiedad del remitente y estar registrado por él. El registro de dominios no debe privatizarse.
 * [Personalización](#personalization): la personalización del contenido y la definición de una hora de envío por destinatario aumentan las posibilidades de que se abra el mensaje.
 * Imágenes y texto: respete una proporción de texto/imagen adecuada (por ejemplo, 60 % de texto y 40 % de imágenes).
-* [Vínculo de baja de suscripción](#opt-out) y página de aterrizaje: el vínculo de baja es esencial. Debe ser visible y válido, y el formulario debe ser funcional.
+* [Vínculo de baja de suscripción](#opt-out) y página de destino: el vínculo de baja es esencial. Debe ser visible y válido, y el formulario debe ser funcional.
 * Vista previa: utilice las herramientas que ofrece Adobe Campaign para comprobar y optimizar el contenido del correo electrónico ([Renderización de bandeja de entrada](#message-responsiveness), [SpamAssassin](#spamassassin)).
 
 Para obtener sugerencias adicionales para optimizar la capacidad de entrega al diseñar contenido, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=es).
 
 >[!NOTE]
 >
->Para obtener más información sobre la edición del contenido del correo electrónico, consulte [Definición del contenido del correo electrónico](defining-the-email-content.md).
+>Para obtener más información sobre cómo editar el contenido del correo electrónico, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es){target="_blank"}.
 
 ## Dirección del remitente {#sender-address}
 
@@ -37,7 +37,7 @@ Algunos ISP verifican la validez de la dirección del remitente (**[!UICONTROL F
 
 Debe asegurarse de proporcionar una dirección correcta en el nivel de instancia (menú **[!UICONTROL Tools > Advanced > deployment wizard...]**) o en los escenarios más utilizados.
 
-Para obtener más información sobre esto, consulte [esta página](defining-the-email-content.md).
+Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es){target="_blank"}.
 
 ## Personalización {#personalization}
 
@@ -47,7 +47,7 @@ Para obtener más información sobre el uso de los campos de personalización en
 
 ## Formulario y vínculo de no participación {#opt-out}
 
-De forma predeterminada, cuando se analiza el mensaje, una [regla de tipología](steps-validating-the-delivery.md#validation-process-with-typologies) comprueba si se ha incluido un vínculo de no participación y genera una advertencia si falta. Puede cambiar esta regla para que se produzca un error en lugar de una simple advertencia y evitar que una entrega salga sin este vínculo.
+De forma predeterminada, cuando se analiza el mensaje, una regla de tipología comprueba si se ha incluido un vínculo de exclusión y genera una advertencia si falta. Puede cambiar esta regla para que se produzca un error en lugar de una simple advertencia y evitar que una entrega salga sin este vínculo. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
 
 Debe comprobar que el vínculo de exclusión funciona correctamente antes de cada envío. Por ejemplo, al enviar la prueba, asegúrese de que el vínculo sea válido, de que el formulario esté en línea y de que al validarlo se cambie el valor del campo **[!UICONTROL No longer contact this recipient]** a **[!UICONTROL Yes]**. Debe realizar esta comprobación sistemáticamente porque siempre puede haber errores humanos al introducir el vínculo o al cambiar el formulario.
 

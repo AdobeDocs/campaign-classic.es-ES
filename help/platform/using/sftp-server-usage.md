@@ -8,10 +8,10 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
-workflow-type: ht
-source-wordcount: '1075'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1076'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Para evitar estos problemas, Adobe recomienda seguir las prácticas recomendadas
 
 >[!NOTE]
 >
->* Puede monitorizar el almacenamiento del servidor SFTP con el [Panel de control de Campaign Classic](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=es){target="_blank"}.
+>* Puede supervisar el almacenamiento del servidor SFTP con el [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=es){target="_blank"} de Campaign Classic.
 >
 >* Todos los usuarios administradores pueden acceder al Panel de control. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel){target="_blank"}.
 >
@@ -132,7 +132,7 @@ Este error indica que el nombre de dominio del servidor FTP no se pudo resolver 
 
 1. Solucionar problemas **de registros de sesión**:
 
-   1. En el flujo de trabajo, haga clic con el botón doble en la actividad de [transferencia de archivos](../../workflow/using/file-transfer.md).
+   1. En el flujo de trabajo, haga clic con el botón doble en la actividad de [transferencia de archivos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
    1. Vaya a la pestaña **[!UICONTROL File Transfer]** y haga clic en **[!UICONTROL Advanced Parameters]**.
    1. Marque la opción **[!UICONTROL Display the session logs]**.
 

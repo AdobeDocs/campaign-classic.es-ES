@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1784'
-ht-degree: 57%
+source-wordcount: '1791'
+ht-degree: 54%
 
 ---
 
@@ -47,7 +47,7 @@ La cuenta externa se crea y se agrega a la lista de cuentas externas.
 
 ### Correos rechazados {#bounce-mails-external-account}
 
-La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Para obtener más información sobre esta cuenta externa, consulte esta [página](../../workflow/using/inbound-emails.md).
+La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Para obtener más información sobre esta cuenta externa, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}.
 
 Todos los servidores configurados para el acceso POP3 pueden utilizarse para recibir el correo electrónico devuelto.
 
@@ -77,7 +77,7 @@ Para configurar la cuenta externa **[!UICONTROL Bounce mails (defaultPopAccount)
 
 * **[!UICONTROL Function]**
 
-  SOAP Correo electrónico entrante o enrutador de
+  Correo electrónico entrante o enrutador de SOAP
 
 >[!IMPORTANT]
 >
@@ -119,14 +119,13 @@ Se pueden configurar los siguientes canales:
 * [Correo directo](../../delivery/using/about-direct-mail-channel.md)
 * [Agencia](../../delivery/using/communication-channels.md#other-channels)
 * [X (anteriormente conocido como Twitter)](../../social/using/about-social-marketing.md)
-* [Canal de iOS](../../delivery/using/configuring-the-mobile-application.md)
-* [Canal de Android](../../delivery/using/configuring-the-mobile-application-android.md)
+* [Canales de iOS y Android](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"}
 
 ### Enrutamiento de correo electrónico {#email-routing-external-account}
 
 La cuenta externa de enrutamiento de correo electrónico se proporciona de forma predeterminada y se adapta a la configuración.
 
-Como cliente on-premise/híbrido, puede crear nuevas cuentas externas de enrutamiento o actualizar parámetros, tal como se describe a continuación. Esta configuración está reservada para usuarios expertos y puede afectar a la capacidad de envío. Para cualquier pregunta, póngase en contacto con el Servicio de atención al cliente de Adobe o con su representante del Adobe.
+Como cliente on-premise/híbrido, puede crear nuevas cuentas externas de enrutamiento o actualizar parámetros, tal como se describe a continuación. Esta configuración está reservada para usuarios expertos y puede afectar a la capacidad de envío. Para cualquier pregunta, póngase en contacto con el Servicio de atención al cliente de Adobe o con su representante de Adobe.
 
 * Puede usar un tipo de enrutamiento de **intermediario**, **externo** o **envío masivo**.
 
@@ -160,7 +159,7 @@ Para obtener más información sobre esta configuración, consulte esta [página
 
 ### FTP {#ftp-external-account}
 
-La cuenta externa de FTP permite configurar y probar el acceso a un servidor fuera de Adobe Campaign. Para configurar conexiones con sistemas externos como servidores FTP 898 utilizados para transferencias de archivos, puede crear sus propias cuentas externas. Para obtener más información, consulte [esta página](../../workflow/using/file-transfer.md).
+La cuenta externa de FTP permite configurar y probar el acceso a un servidor fuera de Adobe Campaign. Para configurar conexiones con sistemas externos como servidores FTP 898 utilizados para transferencias de archivos, puede crear sus propias cuentas externas. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
 Especifique en esta cuenta externa la dirección y las credenciales utilizadas para establecer la conexión con el servidor FTP.
 
@@ -190,7 +189,7 @@ Para saber dónde ubicar estas credenciales, consulte esta [página](https://hel
 
 ### SFTP {#sftp-external-account}
 
-La cuenta externa SFTP permite configurar y probar el acceso a un servidor fuera de Adobe Campaign. Para configurar conexiones con sistemas externos como SFTP utilizados para transferencias de archivos, puede crear cuentas externas propias. Para obtener más información, consulte [esta página](../../workflow/using/file-transfer.md).
+La cuenta externa SFTP permite configurar y probar el acceso a un servidor fuera de Adobe Campaign. Para configurar conexiones con sistemas externos como SFTP utilizados para transferencias de archivos, puede crear cuentas externas propias. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
 ![](assets/ext_account_4.png)
 
@@ -229,10 +228,10 @@ Las bases de datos externas compatibles con Campaign se enumeran en la [matriz d
 
 Las opciones de configuración de cuenta externa dependen del motor de la base de datos. Obtenga más información en las siguientes secciones:
 
-* Configurar el acceso a [Verticas analytics](../../installation/using/configure-fda-vertica.md)
+* Configurar el acceso a [Vertica Analytics](../../installation/using/configure-fda-vertica.md)
 * Configurar el acceso a [Snowflake](../../installation/using/configure-fda-snowflake.md)
 * Configurar el acceso a [Google BigQuery](../../installation/using/configure-fda-google-big-query.md)
-* Configurar el acceso a [Azure synapse](../../installation/using/configure-fda-synapse.md)
+* Configurar el acceso a [Azure Synapse](../../installation/using/configure-fda-synapse.md)
 * Configurar el acceso a [Hadoop](../../installation/using/configure-fda-hadoop.md)
 * Configurar el acceso a [Oracle](../../installation/using/configure-fda-oracle.md)
 * Configurar el acceso a [Netezza](../../installation/using/configure-fda-netezza.md)
@@ -242,7 +241,7 @@ Las opciones de configuración de cuenta externa dependen del motor de la base d
 * Configurar el acceso a [Teradata](../../installation/using/configure-fda-teradata.md)
 
 
-## Adobe Integración de soluciones Cuentas externas
+## Cuentas externas de integración de soluciones de Adobe
 
 ### Adobe Experience Cloud {#adobe-experience-cloud-external-account}
 
@@ -398,11 +397,11 @@ Para configurar la cuenta externa de Salesforce CRM para que funcione con Adobe 
 
 * **[!UICONTROL Client identifier]**
 
-  Para saber dónde encontrar el identificador de cliente, consulte esta [página](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
+  Para saber dónde encontrar el identificador de cliente, consulte esta [página](https://help.salesforce.com/articleView?id=000205876&type=1).
 
 * **[!UICONTROL Security token]**
 
-  Para saber dónde encontrar el token de seguridad, consulte esta [página](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
+  Para saber dónde encontrar el token de seguridad, consulte esta [página](https://help.salesforce.com/articleView?id=000205876&type=1).
 
 * **[!UICONTROL API version]**
 
@@ -416,7 +415,7 @@ Para obtener más información sobre esta configuración, consulte esta [página
 
 ### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-El conector de Amazon Simple Storage Service (S3) se puede utilizar para importar o exportar datos a Adobe Campaign. Se puede configurar en una actividad de flujo de trabajo. Para obtener más información, consulte [esta página](../../workflow/using/file-transfer.md).
+El conector de Amazon Simple Storage Service (S3) se puede utilizar para importar o exportar datos a Adobe Campaign. Se puede configurar en una actividad de flujo de trabajo. consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
 ![](assets/ext_account_3.png)
 
@@ -442,13 +441,13 @@ Al configurar esta nueva cuenta externa, debe proporcionar los siguientes detall
 
   Para obtener más información sobre la región AWS, consulte esta [página](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
 
-* La casilla de verificación **[!UICONTROL Use server side encryption]** permite almacenar el archivo en modo codificado S3.
+* La casilla de verificación **[!UICONTROL Use server side encryption]** permite almacenar el archivo en modo cifrado S3.
 
 Para saber dónde encontrar el ID de clave de acceso y la clave de acceso secreta, consulte la [documentación](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) de los servicios web de Amazon.
 
 ### Azure Blob Storage {#azure-blob-external-account}
 
-La cuenta externa **Azure Blob storage** se puede usar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo **[!UICONTROL Transfer file]**. Para obtener más información, consulte [esta sección](../../workflow/using/file-transfer.md).
+La cuenta externa **Azure Blob storage** se puede usar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo **[!UICONTROL Transfer file]**. consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
 ![](assets/ext_account_23.png)
 

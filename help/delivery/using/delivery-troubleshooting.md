@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Monitoring, Deliverability, Troubleshooting
 role: User
 exl-id: 37b1d7fb-7ceb-4647-9aac-c8a80495c5bf
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 100%
+source-wordcount: '809'
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,7 @@ Además, debe asegurarse de seguir las optimizaciones y la lista de comprobació
 **Temas relacionados:**
 
 * [Estados de entrega](delivery-statuses.md)
-* [Tablero de entregas](delivery-dashboard.md)
+* [Panel de control de entregas](delivery-dashboard.md)
 * [Comprensión de los errores de entrega](understanding-delivery-failures.md)
 
 ## Entregas lentas {#slow-deliveries}
@@ -31,7 +31,7 @@ Tras hacer clic en el botón **[!UICONTROL Send]**, la entrega parece tardar má
 
 * Es posible que algunos proveedores de correo electrónico hayan agregado sus direcciones IP a una lista de bloqueados. En este caso, compruebe sus broadlogs y consulte [esta sección](about-deliverability.md).
 
-* Su entrega puede ser demasiado grande como para procesarlo rápidamente, como puede ser el caso de una alta personalización de JavaScript o si su entrega pesa más de 60 kB. Consulte las [prácticas recomendadas relacionadas con las entregas](delivery-best-practices.md) de Adobe Campaign para obtener más información sobre las directrices de contenido.
+* Su entrega puede ser demasiado grande como para procesarlo rápidamente, como puede ser el caso de una alta personalización de JavaScript o si su entrega pesa más de 60 kB. Consulte las [prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=es){target="_blank"} de Adobe Campaign v8.  para obtener más información sobre las directrices de contenido.
 
 * Es posible que se haya activado una restricción dentro del MTA de Adobe Campaign. Esto se debe a:
 
@@ -45,7 +45,7 @@ Tras hacer clic en el botón **[!UICONTROL Send]**, la entrega parece tardar má
 
 Si las entregas no se ejecutan en la fecha programada exacta, puede deberse a una diferencia entre las zonas horarias de los servidores. La instancia de intermediario y la instancia de producción pueden estar en diferentes zonas horarias.
 
-Por ejemplo, si la instancia de intermediario se encuentra en el huso horario de Brisbane y la instancia de producción está en el huso horario de Darwin, ambas zonas horarias están separadas por media hora, por lo que en el registro de auditoría puede claramente que si la entrega está programado para su producción a las 11:56, la misma entrega programada de intermediario se produciría a las 12:26, lo que supone una diferencia de media hora.
+Por ejemplo, si la instancia de mid-sourcing se encuentra en el huso horario de Brisbane y la instancia de producción está en el huso horario de Darwin, ambas zonas horarias están separadas por media hora, por lo que en el registro de auditoría puede claramente que si la entrega está programado para su producción a las 11:56, la misma entrega programada de mid-sourcing se produciría a las 12:26, lo que supone una diferencia de media hora.
 
 ## Estado de error {#failed-status}
 
@@ -73,7 +73,7 @@ Los registros de entregas son esenciales para saber por qué ha fallado una entr
 
   Para resolver esto, recomendamos realizar una limpieza y reindexar la base de datos. Para obtener más información sobre el mantenimiento de la base de datos, consulte [esta sección](../../production/using/recommendations.md).
 
-  También debe reiniciar todos los flujos de trabajo con una actividad programada y todos los flujos de trabajo en estado fallido. Consulte [esta sección](../../workflow/using/scheduler.md).
+  También debe reiniciar todos los flujos de trabajo con una actividad programada y todos los flujos de trabajo en estado fallido. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}.
 
 * Cuando una entrega falla, el siguiente error puede aparecer en los “logs” de envío:
 
@@ -83,7 +83,7 @@ Los registros de entregas son esenciales para saber por qué ha fallado una entr
 
   Normalmente, este error significa que existe un campo o un bloque personalizado dentro del correo electrónico que tiene más de un valor para el destinatario. Se está utilizando un bloque personalizado que está recuperando más de un registro para un destinatario determinado.
 
-  Para resolver esto, compruebe los datos personalizados utilizados y, a continuación, compruebe el objetivo de los destinatarios que tengan más de una entrada para cualquiera de esos campos. También puede utilizar una actividad **[!UICONTROL Deduplication]** en el flujo de trabajo de objetivos antes de la actividad de entrega para comprobar que solo hay un campo de personalización a la vez. Para obtener más información sobre la deduplicación, consulte [esta sección](../../workflow/using/deduplication.md).
+  Para resolver esto, compruebe los datos personalizados utilizados y, a continuación, compruebe el objetivo de los destinatarios que tengan más de una entrada para cualquiera de esos campos. También puede utilizar una actividad **[!UICONTROL Deduplication]** en el flujo de trabajo de objetivos antes de la actividad de entrega para comprobar que solo hay un campo de personalización a la vez. Para obtener más información sobre la deduplicación, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}.
 
 * Algunos envíos pueden fallar con un error que indica “inaccesible”:
 

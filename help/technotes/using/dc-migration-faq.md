@@ -6,9 +6,9 @@ feature: Technote, Upgrade
 role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2226'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,7 @@ Adobe retira del servicio el centro de datos heredado: las instancias de Campaig
 
 A continuación se muestra un conjunto de preguntas comunes sobre este proyecto, el impacto en los entornos de Campaign y otros recursos útiles.
 
-Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support).
+Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
 
 ## Impacto de la infraestructura
 
@@ -51,7 +51,7 @@ A continuación se enumeran los efectos globales en la base de datos e infraestr
 
 * **¿Cuál es el plan para abordar cualquier problema posterior a la migración?**
 
-  Se realizarán pruebas exhaustivas antes de que se migraran los sistemas de producción. Sin embargo, en caso de problemas, [el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support) seguirá siendo el principal punto de contacto. El Adobe ha creado un equipo de expertos para proporcionar asistencia avanzada, si es necesario.
+  Se realizarán pruebas exhaustivas antes de que se migraran los sistemas de producción. Sin embargo, en caso de problemas, el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) seguirá siendo el principal punto de contacto. Adobe ha creado un equipo de expertos para proporcionar asistencia avanzada, si es necesario.
 
 ## Impacto de la capacidad de entrega
 
@@ -95,9 +95,9 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 
 * **¿Cuál es el plan para el calentamiento de IP?**
 
-  En primer lugar, la Capacidad de entrega de Adobe evaluará el estado de entrega de la plataforma y recomendará un plan para el cambio a las nuevas IP
+  En primer lugar, Adobe Delivery evaluará el estado de entrega de la plataforma y recomendará un plan para el cambio a las nuevas IP
 
-  No se requiere calentamiento después de la migración. Podría ser una excepción y, en ese caso, [el Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support) se pondrá en contacto con los clientes.
+  No se requiere calentamiento después de la migración. Podría ser una excepción y, en ese caso, el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) se pondrá en contacto con los clientes.
 
   Sin embargo, el plan es hacer que esta operación sea transparente para el negocio, a diferencia de la mejora inicial que se realiza durante el lanzamiento.
 
@@ -110,8 +110,8 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 * **¿Cuál debería ser el impacto con nuestro subdominio delegado que usamos para personalizar nuestra comunicación?**
 
   Los subdominios utilizados para la comunicación de marketing siguen siendo los mismos. Sin embargo, según la implementación, es necesario realizar acciones en el lado del cliente:
-   * En caso de delegación de subdominios al Adobe (predeterminado), el Adobe se encarga de todos los cambios y garantiza una transición sin problemas.
-   * En caso de configuración de CNAME (excepción), se solicita al cliente que implemente los cambios en coordinación con el Adobe.
+   * En caso de delegación de subdominios a Adobe (predeterminado), Adobe se encarga de todos los cambios y garantiza una transición sin problemas.
+   * En caso de configuración de CNAME (excepción), se solicita al cliente que implemente los cambios en coordinación con Adobe.
 
 ## Impacto en la configuración y la conectividad
 
@@ -137,11 +137,11 @@ A continuación se enumeran los efectos globales en la configuración, conectivi
 
   Sí. Las integraciones de terceros como, por ejemplo, los proveedores de SMS, deben agregar nuevas direcciones IP de servidores de aplicaciones Adobe Campaign a la lista de permitidos.
 
-* **¿Afectará la migración a la conectividad con Adobe Analytics mediante el conector de Genesis? ¿Qué sucede si se agregan direcciones IP de Campaign a la lista de permitidos del lado de Adobe Analytics?**
+* **¿Afectará la migración a la conectividad con Adobe Analytics mediante el conector Genesis? ¿Qué sucede si se agregan direcciones IP de Campaign a la lista de permitidos del lado de Adobe Analytics?**
 
   Las direcciones IP de los servidores de aplicaciones de Adobe Campaign cambiarán. Este paso será gestionado por el Servicio de atención al cliente de Adobe después de la migración.
 
-* **¿Afectará la migración a la conectividad con otras soluciones de Adobe AEM (, Target, etc.)?**
+* **¿Afectará la migración a la conectividad con otras soluciones de Adobe (AEM, Target, etc.)?**
 
   Las integraciones son una combinación de direcciones IP declaradas en la configuración de cuenta de la lista de permitidos y el servicio web. Esto se contabilizará y será propiedad del Servicio de atención al cliente de Adobe.
 
@@ -173,7 +173,7 @@ A continuación se enumeran los efectos globales en la configuración, conectivi
 
   Puede cambiar según la nueva ubicación de los servidores. Sin embargo, el cliente podrá conservar su huso horario actual.
 
-  [Más información](../../workflow/using/managing-time-zones.md) acerca de la administración de huso horario en Adobe Campaign Classic v7.
+  Obtenga más información acerca de la administración de huso horario en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/managing-time-zones.html){target="_blank"}.
 
 
 ## Seguridad y permisos
@@ -194,7 +194,7 @@ A continuación se enumeran los efectos en los permisos, certificados y acceso a
 
 * **¿Necesitamos solicitar nuevas claves de acceso STP al cliente?**
 
-  No, el Adobe copiará las claves de acceso SFTP como en el nuevo servidor.
+  No, Adobe copiará las claves de acceso SFTP como en el nuevo servidor.
 
 * **¿Cómo se administran los permisos de SFTP?**
 

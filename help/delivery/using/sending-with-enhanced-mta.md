@@ -5,10 +5,10 @@ description: Obtenga información acerca del ámbito y las características espe
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
-workflow-type: ht
-source-wordcount: '1368'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1380'
+ht-degree: 97%
 
 ---
 
@@ -121,7 +121,7 @@ Para obtener más información sobre el rendimiento del envío, consulte [esta s
 
 Campaign ya no utiliza la configuración de reintentos en la entrega. Los reintentos de rebote suave y el periodo entre ellos están determinados por el servidor de correo mejorado en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
 
-Para obtener más información sobre los reintentos, consulte [esta sección](steps-sending-the-delivery.md#configuring-retries).
+Para obtener más información sobre los reintentos, consulte esta [página](communication-channels.md) en **Envío de entregas** > **Configurar reintentos**.
 
 ### Período de validez
 
@@ -131,7 +131,7 @@ Por ejemplo, si el período de validez se establece en el valor predeterminado d
 
 Una vez que un mensaje ha estado en la cola del servidor de correo mejorado durante 3,5 días y no se ha podido entregar, se agotará el tiempo de espera y su estado se actualizará de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** en los registros de envío.
 
-Para obtener más información sobre el período de validez, consulte [esta sección](steps-sending-the-delivery.md#defining-validity-period).
+Para obtener más información sobre el período de validez, consulte esta [página](communication-channels.md) en **Envío de entregas** > **Definir el período de validez**.
 
 ### Firma DKIM
 
@@ -140,7 +140,7 @@ Para obtener más información sobre DKIM, consulte la [Guía de prácticas reco
 
 ### Sistema de informes de éxito de envío
 
-En la vista **[!UICONTROL Summary]** de un [panel](delivery-dashboard.md)de envío de correo electrónico, el porcentaje de **[!UICONTROL Success]** empieza en el 100 % y luego desciende progresivamente a lo largo del [período de validez](steps-sending-the-delivery.md#defining-validity-period)del envío, a medida que se informan los rebotes suaves y duros desde el servidor de correo mejorado a Campaign.
+En la vista **[!UICONTROL Summary]** de un [panel](delivery-dashboard.md)de envío de correo electrónico, el porcentaje de **[!UICONTROL Success]** empieza en el 100 % y luego desciende progresivamente a lo largo del [período de validez](communication-channels.md)del envío, a medida que se informan los rebotes suaves y duros desde el servidor de correo mejorado a Campaign.
 
 De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](delivery-dashboard.md#delivery-logs-and-history) en cuanto se transmiten correctamente desde Campaign al servidor de correo mejorado. Permanecen en ese estado a menos que un [rebote](understanding-delivery-failures.md#delivery-failure-types-and-reasons) de ese mensaje se comunique desde el servidor de correo mejorado a Campaign, o hasta que esto ocurra.
 

@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Workflows
 role: User
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 100%
+source-wordcount: '1201'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 La creación, edición y publicación de contenido puede automatizarse mediante un flujo de trabajo configurado a través de la interfaz de cliente de Adobe Campaign.
 
-Se accede a la actividad de **Gestión de contenido** a través de la barra de herramientas **[!UICONTROL Tools]** del diagrama de flujo de trabajo.
+Se accede a la actividad de **Administración de contenido** a través de la barra de herramientas **[!UICONTROL Tools]** del diagrama de flujo de trabajo.
 
 Las propiedades de actividad se dividen en cuatro pasos:
 
@@ -82,7 +82,7 @@ El siguiente ejemplo automatiza la creación y la entrega de un bloque de conten
 
 ![](assets/d_ncs_content_workflow2.png)
 
-El contenido se configura mediante la actividad “Gestión de contenido”:
+El contenido se configura mediante la actividad “Administración de contenido”:
 
 ![](assets/d_ncs_content_workflow3.png)
 
@@ -101,7 +101,7 @@ El contenido se rellena automáticamente mediante una fuente XML procedente de l
 </book>
 ```
 
-El formato de datos no coincide con el esquema de datos introducido en la plantilla de publicación (**cus:book** en nuestro ejemplo); el elemento **`<section>`** debe reemplazarse con el elemento **`<chapter>`**. Necesitamos aplicar la hoja de estilo “cus:book-workflow.xsl” para realizar los cambios necesarios.
+El formato de datos no coincide con el esquema de datos especificado en la plantilla de publicación (**cus:book** en nuestro ejemplo); el elemento **`<section>`** debe reemplazarse por el elemento **`<chapter>`**. Necesitamos aplicar la hoja de estilo &quot;cus:book-workflow.xsl&quot; para realizar los cambios necesarios.
 
 Código fuente de la hoja de estilo XSLT utilizada:
 
@@ -164,7 +164,7 @@ En este ejemplo se crea un bloque de contenido y se inicia la publicación de ar
 
 ![](assets/d_ncs_content_workflow5.png)
 
-La primera tarea **Content management** crea un entorno de contenido.
+La primera tarea de **Administración de contenido** crea un entorno de contenido.
 
 ![](assets/d_ncs_content_workflow6.png)
 
@@ -214,11 +214,13 @@ La acción final de la actividad es la preparación y el inicio de la entrega.
 
 ### Importación de contenido desde FTP {#importing-content-from-ftp}
 
-Si el contenido de su entrega está disponible en un archivo HTML ubicado en servidores FTP o SFTP, puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte [este ejemplo](../../workflow/using/loading-delivery-content.md).
+Si el contenido de su entrega está disponible en un archivo HTML ubicado en servidores FTP o SFTP, puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
+
 
 ### Importación de contenido desde el conector Amazon Simple Storage Service (S3)  {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
-Si el contenido de su entrega está ubicado en bloques de Amazon Simple Storage Service (S3), puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte [este ejemplo](../../workflow/using/loading-delivery-content.md).
+Si el contenido de su entrega está ubicado en bloques de Amazon Simple Storage Service (S3), puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
+
 
 ## Actualización semiautomática {#semi-automatic-update}
 
@@ -250,7 +252,7 @@ El método **GetAndTransform** debe declararse en el elemento **`<enter>`** de l
 
 La salida actualiza el contenido en función de la ruta introducida en el último parámetro.
 
-**Para ilustrar este ejemplo, comenzamos desde el esquema “cus:book”**.
+**Ejemplo**: Para ilustrar este ejemplo, comenzamos desde el esquema &quot;cus:book&quot;.
 
 Se añade un formulario semiautomático de entrada de control de edición de actualizaciones:
 
@@ -270,6 +272,6 @@ Se añade un formulario semiautomático de entrada de control de edición de act
 
 El área de edición permite introducir el nombre del archivo que se va a recuperar. La dirección URL se construye a partir de este nombre, por ejemplo: https://myserver.adobe.com/incomin/data.xml
 
-El formato de los datos que se van a recuperar es el mismo que en el ejemplo 1 de automatización del flujo de trabajo. Se puede utilizar la hoja de estilo “cus:book-workflow.xsl” vista en ese ejemplo.
+El formato de los datos que se van a recuperar es el mismo que en el ejemplo 1 de automatización del flujo de trabajo. Utilizaremos la hoja de estilo &quot;cus:book-workflow.xsl&quot; vista en este ejemplo.
 
 El resultado de la ejecución del trabajo actualiza la instancia de contenido desde la ruta “.”.

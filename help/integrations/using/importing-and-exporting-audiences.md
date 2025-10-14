@@ -1,26 +1,26 @@
 ---
 product: campaign
-title: Importación y exportación de audiencias
-description: Importación y exportación de audiencias
+title: Importación y exportación de públicos
+description: Importación y exportación de públicos
 feature: Audiences
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: c2293fc5-c9ba-4a73-8f39-fa7cdd06e8dd
-source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 92%
 
 ---
 
 
-# Importación y exportación de audiencias{#importing-and-exporting-audiences}
+# Importación y exportación de públicos{#importing-and-exporting-audiences}
 
 
 
-## Importación de una audiencia {#importing-an-audience}
+## Importación de un público {#importing-an-audience}
 
 Se pueden importar públicos o segmentos de Audience Manager a Adobe Campaign mediante las listas de destinatarios.
 
@@ -29,8 +29,8 @@ Se pueden importar públicos o segmentos de Audience Manager a Adobe Campaign me
 
    ![](assets/aam_import_audience.png)
 
-1. En la ventana que se abre, haga clic en **[!UICONTROL Select a shared audience]** para ir a la lista de audiencias y segmentos compartidos disponibles en las otras soluciones de Adobe Experience Cloud.
-1. Seleccione una audiencia y confirme. La información de la audiencia se completa automáticamente.
+1. En la ventana que se abre, haga clic en **[!UICONTROL Select a shared audience]** para ir a la lista de públicos y segmentos compartidos disponibles en las otras soluciones de Adobe Experience Cloud.
+1. Seleccione un público y confirme. La información del público se completa automáticamente.
 
    Tenga en cuenta que para poder importar la audiencia compartida, debe asignarse a usted el producto **[!UICONTROL Audience library]** en la consola de administración y ser administrador en Audience Manager. Para obtener más información, consulte [documentación de la consola de administración](https://helpx.adobe.com/es/enterprise/admin-guide.html).
 
@@ -40,9 +40,9 @@ Se pueden importar públicos o segmentos de Audience Manager a Adobe Campaign me
 
    ![](assets/aam_import_audience_2.png)
 
-1. Guarde la audiencia.
+1. Guarde el público.
 
-La audiencia se importa mediante un flujo de trabajo técnico. La lista importada contiene elementos que se pueden reconciliar mediante la fuente de datos AMC. Los elementos no reconocidos por Adobe Campaign no se importan.
+El público se importa mediante un flujo de trabajo técnico. La lista importada contiene elementos que se pueden reconciliar mediante la fuente de datos AMC. Los elementos no reconocidos por Adobe Campaign no se importan.
 
 El proceso de importación tarda en sincronizarse entre 24 y 36 horas cuando los segmentos se importan directamente desde Audience Manager. Después de este periodo, puede encontrar y utilizar el nuevo público en Adobe Campaign.
 
@@ -50,13 +50,13 @@ El proceso de importación tarda en sincronizarse entre 24 y 36 horas cuando los
 >
 >Si se están importando públicos de Adobe Analytics a Adobe Campaign, dichos públicos deben compartirse primero en Audience Manager. Este proceso tarda de 12 a 24 horas, que se deben añadir a la sincronización de 24 a 36 horas con Campaign.
 >
->En ese caso específico, el tiempo que tarda en compartirse la audiencia puede alcanzar las 60 horas. Para obtener más información sobre el uso compartido de públicos de Adobe Analytics en Audicence Manager, consulte la [documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es){target="_blank"}.
+>En ese caso específico, el tiempo que tarda en compartirse el público puede alcanzar las 60 horas. Para obtener más información sobre cómo compartir audiencias de Adobe Analytics en Audience Manager, consulte [Documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=es){target="_blank"}.
 
-Los datos de audiencias se sustituyen por completo cada vez que se sincronizan. Solo se pueden importar segmentos. No se admiten datos granulares, lo que incluye pares de valor clave, características y reglas.
+Los datos de públicos se sustituyen por completo cada vez que se sincronizan. Solo se pueden importar segmentos. No se admiten datos granulares, lo que incluye pares de valor clave, características y reglas.
 
 ## Exportación de un público {#exporting-an-audience}
 
-Se puede exportar un público de Adobe Campaign a Audience Manager mediante un flujo de trabajo. Los procesos para crear y utilizar un flujo de trabajo se describen en [este documento](../../workflow/using/building-a-workflow.md). Los públicos exportados se guardan como segmentos:
+Se puede exportar un público de Adobe Campaign a Audience Manager mediante un flujo de trabajo. Los procesos para crear y usar un flujo de trabajo se detallan en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=es){target="_blank"}. Los públicos exportados se guardan como segmentos:
 
 1. Cree un nuevo flujo de trabajo de objetivos.
 1. Mediante las distintas actividades disponibles, establezca como objetivo un conjunto de destinatarios.
@@ -64,11 +64,11 @@ Se puede exportar un público de Adobe Campaign a Audience Manager mediante un f
 
    ![](assets/aam_export_example.png)
 
-1. Defina la audiencia que desea exportar mediante la opción **[!UICONTROL Select a shared audience]**. En la ventana que se abre, puede seleccionar una audiencia existente o crear una nueva.
+1. Defina el público que desea exportar mediante la opción **[!UICONTROL Select a shared audience]**. En la ventana que se abre, puede seleccionar un público existente o crear uno nuevo.
 
-   Si selecciona una audiencia existente, solo se añaden los registros nuevos a la audiencia.
+   Si selecciona un público existente, solo se añaden los registros nuevos al público.
 
-   Para exportar la lista de destinatarios en una audiencia nueva, complete el campo **[!UICONTROL Segment name]** y haga clic en **[!UICONTROL Create]** antes de seleccionar la audiencia recién creada.
+   Para exportar la lista de destinatarios en un público nuevo, complete el campo **[!UICONTROL Segment name]** y haga clic en **[!UICONTROL Create]** antes de seleccionar el público recién creado.
 
    Complete la operación haciendo clic en el símbolo de aprobación situado en la parte superior derecha de la ventana y luego en el botón **[!UICONTROL OK]**.
 
@@ -76,12 +76,12 @@ Se puede exportar un público de Adobe Campaign a Audience Manager mediante un f
 
    ![](assets/aam_export_audience_activity.png)
 
-1. Guarde la audiencia.
+1. Guarde el público.
 
-A continuación, se exporta la audiencia. La actividad de guardar la audiencia tiene dos transiciones salientes. La transición principal contiene los destinatarios exportados correctamente. La transición adicional contiene los destinatarios que no pueden asignarse a una ID de visitante o a una ID declarada.
+A continuación, se exporta el público. La actividad de guardar el público tiene dos transiciones salientes. La transición principal contiene los destinatarios exportados correctamente. La transición adicional contiene los destinatarios que no pueden asignarse a una ID de visitante o a una ID declarada.
 
-La sincronización entre soluciones tarda entre 24 y 36 horas. Después de este periodo, podrá encontrar el nuevo público y reutilizarlo en otras soluciones de Adobe Experience Cloud. Para obtener más información sobre el uso de un público compartido de Adobe Campaign consulte esta [documentación](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/create){target="_blank"}.
+La sincronización entre soluciones tarda entre 24 y 36 horas. Después de este periodo, podrá encontrar el nuevo público y reutilizarlo en otras soluciones de Adobe Experience Cloud. Para obtener más información sobre cómo usar una audiencia compartida de Adobe Campaign, consulte esta [documentación](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/create){target="_blank"}.
 
 >[!NOTE]
 >
->Para poder reconciliarlos, los registros deben tener una Adobe Experience Cloud ID (“ID de visitante” o “ID declarada”). Los registros sin Adobe Experience Cloud ID se omiten al exportar e importar audiencias.
+>Para poder reconciliarlos, los registros deben tener una Adobe Experience Cloud ID (“ID de visitante” o “ID declarada”). Los registros sin Adobe Experience Cloud ID se omiten al exportar e importar públicos.

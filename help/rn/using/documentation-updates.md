@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '3864'
-ht-degree: 100%
+source-wordcount: '3865'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Como parte de una iniciativa de promoción de la versión 8 de Campaign, hemos r
 * Orquestación de campañas de marketing: esta guía se ha reemplazado por una [página de destino](../../campaign/using/about-marketing-campaigns.md).
 * Gestor de recursos de marketing: esta guía se ha eliminado.
 * Marketing distribuido: esta guía se ha eliminado.
-* Automatización con flujos de trabajo: esta guía se ha reemplazado por una [página de destino](../../workflow/using/about-workflow-automation.md)
+* Automatización con flujos de trabajo: esta guía se ha reemplazado por una [página de destino](../../workflow/using/about-workflows.md)
 
 ## 2024
 
@@ -419,7 +419,7 @@ Los vídeos de procedimientos ya están disponibles para los siguientes temas:
 
 * [Personalización de correos electrónicos mediante campos de personalización](../../delivery/using/personalization-fields.md)
 
-* [Administración de semillas y pruebas en un correo electrónico](../../delivery/using/steps-defining-the-target-population.md)
+* [Cómo administrar semillas y pruebas en un correo electrónico](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#target-population){target="_blank"}.
 
 * [Configuración de un envío recurrente](../../workflow/using/recurring-delivery.md)
 

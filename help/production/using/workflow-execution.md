@@ -8,10 +8,10 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
-source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 14%
+source-wordcount: '652'
+ht-degree: 12%
 
 ---
 
@@ -24,9 +24,9 @@ La sección siguiente presenta información sobre problemas comunes relacionados
 Para obtener más información sobre los flujos de trabajo, consulte estas secciones:
 
 * [Acerca de los flujos de trabajo](../../workflow/using/about-workflows.md)
-* [Inicio de un flujo de trabajo](../../workflow/using/starting-a-workflow.md)
-* [Ciclo de vida del flujo de trabajo](../../workflow/using/workflow-life-cycle.md)
-* [Prácticas recomendadas al utilizar flujos de trabajo](../../workflow/using/workflow-best-practices.md)
+* [Iniciando un flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=es){target="_blank"}.
+* [Ciclo de vida del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es){target="_blank"}.
+* [Prácticas recomendadas al utilizar flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}.
 
 ## Iniciar lo antes posible en las campañas {#start-as-soon-as-possible-in-campaigns}
 
@@ -34,9 +34,9 @@ En algunos casos, los flujos de trabajo ejecutados desde una campaña no se inic
 
 Puede haber varias causas para este problema. Siga los pasos a continuación para resolverlo:
 
-1. Compruebe el estado del flujo de trabajo técnico [**[!UICONTROL operationMgt]**](../../workflow/using/about-technical-workflows.md). Este flujo de trabajo administra los trabajos o flujos de trabajo dentro de una campaña. Si falla, el resultado será que los flujos de trabajo no se inicien ni se detengan. Reinícielo para reanudar la ejecución de los flujos de trabajo de campaña.
+1. Comprobar el estado del flujo de trabajo técnico [**[!UICONTROL operationMgt]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}. Este flujo de trabajo administra los trabajos o flujos de trabajo dentro de una campaña. Si falla, el resultado será que los flujos de trabajo no se inicien ni se detengan. Reinícielo para reanudar la ejecución de los flujos de trabajo de campaña.
 
-   Para obtener más información sobre la supervisión de flujos de trabajo técnicos, consulte [esta página](../../workflow/using/monitoring-technical-workflows.md).
+   Para obtener más información sobre la monitorización de flujos de trabajo técnicos, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=es){target="_blank"}.
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ Puede haber varias causas para este problema. Siga los pasos a continuación par
 
    Si el flujo de trabajo sigue fallando, compruebe el registro de auditoría para ver si hay algún error específico, solucione los problemas correspondientes y reinicie el flujo de trabajo de nuevo.
 
-1. Compruebe el estado del módulo **[!UICONTROL wfserver]** en la ficha **[!UICONTROL Monitoring]**, a la que se puede acceder desde la página principal del Campaign Classic (consulte [Monitorización de procesos](../../production/using/monitoring-processes.md)). Este proceso es responsable de ejecutar todos los flujos de trabajo.
+1. Compruebe el estado del módulo **[!UICONTROL wfserver]** en la ficha **[!UICONTROL Monitoring]**, a la que se puede acceder desde la página principal de Campaign Classic (consulte [Monitorización de procesos](../../production/using/monitoring-processes.md)). Este proceso es responsable de ejecutar todos los flujos de trabajo.
 
    Un usuario administrador también puede comprobar que el módulo **wfserver@`<instance>`** se inicie en el servidor de aplicaciones principal mediante el comando siguiente.
 
@@ -73,13 +73,13 @@ Puede haber varias causas para este problema. Siga los pasos a continuación par
 
    Para resolver este problema, detenga los flujos de trabajo no deseados y elimine los envíos fallidos. Si se ha alcanzado el umbral, esto permite la ejecución de nuevos procesos.
 
-   Para comprobar el número de flujos de trabajo que se están ejecutando en su instancia, se recomienda utilizar las vistas predefinidas, a las que se puede acceder de forma predeterminada en la carpeta **[!UICONTROL Administration]** / **[!UICONTROL Audit]**. Para obtener más información, consulte [esta página](../../workflow/using/monitoring-workflow-execution.md#filtering-workflows-status).
+   Para comprobar el número de flujos de trabajo que se están ejecutando en su instancia, se recomienda utilizar las vistas predefinidas, a las que se puede acceder de forma predeterminada en la carpeta **[!UICONTROL Administration]** / **[!UICONTROL Audit]**. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}.
 
    >[!IMPORTANT]
    >
    >Si se aumenta el umbral de opción **[!UICONTROL NmsOperation_LimitConcurrency]** se pueden producir problemas de rendimiento en la instancia. En cualquier caso, no lo haga por su cuenta y póngase en contacto con su contacto de Adobe Campaign.
 
-Para obtener más información sobre cómo monitorizar los flujos de trabajo, consulte [esta sección](../../workflow/using/monitoring-workflow-execution.md).
+Para obtener más información sobre cómo monitorizar sus flujos de trabajo, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}.
 
 ## Inicio en curso {#start-in-progress}
 
@@ -87,7 +87,7 @@ Si los flujos de trabajo no se están ejecutando y su estado es **Iniciar en cur
 
 Para comprobar esto e iniciar el módulo si es necesario, aplique los siguientes pasos:
 
-1. Compruebe el estado del módulo **[!UICONTROL wfserver]** en la ficha **[!UICONTROL Monitoring]**, a la que se puede acceder desde la página principal del Campaign Classic (consulte [Monitorización de procesos](../../production/using/monitoring-processes.md)).
+1. Compruebe el estado del módulo **[!UICONTROL wfserver]** en la ficha **[!UICONTROL Monitoring]**, a la que se puede acceder desde la página principal de Campaign Classic (consulte [Monitorización de procesos](../../production/using/monitoring-processes.md)).
 
    Un usuario administrador también puede comprobar que el módulo **wfserver@`<instance>`** se inicie en el servidor de aplicaciones principal mediante el comando siguiente.
 
@@ -118,6 +118,6 @@ Para comprobar esto e iniciar el módulo si es necesario, aplique los siguientes
 
 Si un flujo de trabajo falla, realice los siguientes pasos:
 
-1. Compruebe el historial de flujo de trabajo. Para obtener más información, consulte las secciones [Supervisión de la ejecución del flujo de trabajo](../../workflow/using/monitoring-workflow-execution.md) y [Visualización de registros](../../workflow/using/monitoring-workflow-execution.md#displaying-logs).
-1. Monitorización de flujos de trabajo técnicos. Para obtener más información, consulte [esta sección](../../workflow/using/monitoring-technical-workflows.md).
+1. Compruebe el historial de flujo de trabajo. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}.
+1. Monitorización de flujos de trabajo técnicos. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=es){target="_blank"}.
 1. Busque errores en las actividades de flujo de trabajo individuales.

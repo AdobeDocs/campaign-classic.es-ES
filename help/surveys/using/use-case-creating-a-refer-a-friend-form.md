@@ -5,10 +5,10 @@ description: Obtenga información sobre los pasos para crear un formulario “re
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 100%
+source-wordcount: '630'
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ Para configurar y crear el bloque de recomendación, siga estos pasos:
 
    >[!NOTE]
    >
-   >Si el destinatario no ha dado su consentimiento, no puede almacenarlas con los destinatarios de la base de datos. Se almacenan temporalmente en la tabla **visitante** (**nms:visitor**) diseñada para las campañas de marketing viral. Esta tabla se purga periódicamente gracias a las operaciones de **limpieza**.
+   >Si el destinatario no ha dado su consentimiento, no puede almacenarlas con los destinatarios de la base de datos. Se almacenarán temporalmente en la tabla **visitor** (**nms:visitor**) diseñada para campañas de marketing viral. Esta tabla se purga periódicamente gracias a las operaciones de **limpieza**.
    >
    >En este ejemplo, queremos dirigirnos a los destinatarios para sugerirles que participen en la competición recomendada por el remitente del reenvío. Sin embargo, en este mensaje también deseamos ofrecerles una suscripción a uno de nuestros servicios de información. Si se suscriben, se los puede almacenar en la base de datos.
 
@@ -88,7 +88,7 @@ Para configurar y crear el bloque de recomendación, siga estos pasos:
 
    >[!NOTE]
    >
-   >Consulte [esta página](../../delivery/using/about-templates.md) para obtener más información sobre las plantillas de envío.
+   >Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"} para obtener más información sobre las plantillas de envío.
 
 1. Cree la segunda secuencia de comandos para enviar los mensajes de suscripción.
 

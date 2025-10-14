@@ -7,18 +7,18 @@ audience: integrations
 content-type: reference
 topic-tags: asset-sharing
 exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 100%
+source-wordcount: '220'
+ht-degree: 99%
 
 ---
 
 # Inserción de un activo compartido{#inserting-a-shared-asset}
 
-Los activos compartidos desde Adobe Experience Cloud se pueden utilizar en los mensajes de correo electrónico y páginas de aterrizaje de la siguiente manera:
+Los activos compartidos desde Adobe Experience Cloud se pueden utilizar en los mensajes de correo electrónico y páginas de destino de la siguiente manera:
 
-1. Cree un nuevo correo electrónico o una nueva página de aterrizaje.
+1. Cree un nuevo correo electrónico o una nueva página de destino.
 
    Si utiliza recursos de la biblioteca de recursos de Adobe Experience Manager, utilice una plantilla de envío creada al [configurar la integración](../../integrations/using/configuring-access-to-assets.md#integrating-with-aem-assets).
 
@@ -26,7 +26,7 @@ Los activos compartidos desde Adobe Experience Cloud se pueden utilizar en los m
 
 1. En la ventana de edición, seleccione la opción para añadir una imagen:
 
-   * Si está utilizando el [modo de edición estándar](../../delivery/using/defining-the-email-content.md#adding-images), seleccione **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**.
+   * Si está utilizando el [modo de edición estándar](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}, seleccione **[!UICONTROL Image]** > **[!UICONTROL Select a shared asset]**.
 
      ![](assets/dam_insert_image_standard.png)
 

@@ -1,26 +1,26 @@
 ---
 product: campaign
-title: Tablero de entregas
+title: Panel de control de entregas
 description: Obtenga más información acerca de cómo utilizar el tablero de entregas para monitorizar las entregas
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring
 role: User, Data Engineer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '1186'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '1193'
+ht-degree: 98%
 
 ---
 
-# Tablero de entregas {#delivery-dashboard}
+# Panel de control de entregas {#delivery-dashboard}
 
 
-El **panel de entregas** es fundamental para controlar las entregas y los problemas que puedan ser detectados durante la entrega de mensajes.
+El **panel de control de entregas** es fundamental para controlar las entregas y los problemas que puedan ser detectados durante la entrega de mensajes.
 
 Permite recuperar información de una entrega y editarla si es necesario. Tenga en cuenta que el contenido de las pestañas no se puede cambiar una vez realizada la entrega.
 
-A continuación, se muestra la información que puede monitorizar en las distintas pestañas disponibles en el panel:
+A continuación, se muestra la información que puede monitorizar en las distintas pestañas disponibles en el panel de control:
 
 * [Resumen de entregas](#delivery-summary)
 * [Informes de envío](#delivery-reports)
@@ -35,7 +35,7 @@ A continuación, se muestra la información que puede monitorizar en las distint
 
 * [Comprensión de los errores de entrega](understanding-delivery-failures.md)
 * [Comprensión de la gestión de la cuarentena](understanding-quarantine-management.md)
-* [Prácticas recomendadas de entregas](delivery-best-practices.md)
+* [Prácticas recomendadas sobre entregas](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=es){target="_blank"}
 * [Administración de entregas](about-deliverability.md)
 
 ## Resumen de entregas {#delivery-summary}
@@ -64,7 +64,7 @@ Para una entrega, puede mostrar, por ejemplo, solo los destinatarios con una ent
 
 El enlace **[!UICONTROL Display the mirror page for this message...]** permite ver la página espejo del contenido de la entrega seleccionado en la lista en una nueva ventana.
 
-La página espejo solo está disponible para las entregas para los que se ha definido contenido HTML. Para obtener más información, consulte [Generación de la página espejo](sending-messages.md#generating-the-mirror-page).
+La página espejo solo está disponible para las entregas para los que se ha definido contenido HTML. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=es){target="_blank"}.
 
 ![](assets/s_ncs_user_wizard_miror_page_link.png)
 
@@ -98,7 +98,7 @@ La pestaña **[!UICONTROL Audit]** contiene el registro de entregas y todos los 
 
 El botón **[!UICONTROL Refresh]** permite actualizar los datos. Utilice el botón **[!UICONTROL Filters]** para definir un filtro en los datos.
 
-Los iconos especiales permiten identificar errores o advertencias. Consulte [Análisis de la entrega](steps-validating-the-delivery.md#analyzing-the-delivery).
+Los iconos especiales permiten identificar errores o advertencias. Consulte esta sección en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
 
 La subpestaña **[!UICONTROL Proofs]** permite ver la lista de pruebas que se han enviado.
 
@@ -106,9 +106,9 @@ La subpestaña **[!UICONTROL Proofs]** permite ver la lista de pruebas que se ha
 
 Puede modificar la información mostrada en esta ventana (y la de las pestañas **[!UICONTROL Delivery]** y **[!UICONTROL Tracking]**) seleccionando las columnas que desea mostrar. Para ello, haga clic en el icono **[!UICONTROL Configure list]** situado en la esquina inferior derecha. Para obtener más información sobre la configuración de listas, consulte [esta sección](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
 
-## Sincronización del panel de entregas {#delivery-dashboard-synchronization}
+## Sincronización del panel de control de entregas {#delivery-dashboard-synchronization}
 
-En el panel de entregas, se recomienda comprobar los mensajes procesados y los registros de entregas para asegurarse de que su entrega se haya realizado correctamente.
+En el panel de control de entregas, se recomienda comprobar los mensajes procesados y los registros de entregas para asegurarse de que su entrega se haya realizado correctamente.
 
 Algunos indicadores o estados pueden ser incorrectos o no estar actualizados; esto puede resolverse con las soluciones siguientes:
 
@@ -120,7 +120,7 @@ Algunos indicadores o estados pueden ser incorrectos o no estar actualizados; es
 
 * Si el contador de entregas no está actualizado para las implementaciones intermediarias, compruebe que se esté ejecutando el flujo de trabajo técnico **[!UICONTROL Mid-Sourcing (Delivery counters)]**. Para obtener más información, consulte [esta página](../../installation/using/mid-sourcing-deployment.md).
 
-También puede rastrear las entregas con diferentes informes a través del panel de entrega. Para obtener más información, consulte [esta sección](../../reporting/using/delivery-reports.md).
+También puede rastrear las entregas con diferentes informes a través del panel de control de entrega. Para obtener más información, consulte [esta sección](../../reporting/using/delivery-reports.md).
 
 ## Ejemplo de uso: añadir a los registros direcciones IP de los remitentes {#use-case}
 

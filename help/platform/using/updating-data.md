@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '717'
-ht-degree: 100%
+source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Los datos vinculados al perfil de un destinatario se pueden actualizar de forma 
 
 ## Configuración de una actualización automática {#setting-up-an-automatic-update}
 
-Se puede configurar una actualización automática mediante un flujo de trabajo. Para obtener más información, consulte [esta sección](../../workflow/using/update-data.md).
+Se puede configurar una actualización automática mediante un flujo de trabajo. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}.
 
 ## Realización de una actualización masiva {#performing-a-mass-update}
 
@@ -99,7 +99,7 @@ Se puede exportar el contenido de una lista. Para configurar y ejecutar la expor
 
 ## Suscripción a un servicio {#subscribing-to-a-service}
 
-En la mayoría de los casos, los destinatarios se suscriben a un boletín a través de una página de aterrizaje dedicada, como se explica en [esta sección](../../delivery/using/managing-subscriptions.md). Sin embargo, los perfiles de los destinatarios filtrados se pueden suscribir a un servicio (informativo o viral) manualmente. Para ello:
+En la mayoría de los casos, los destinatarios se suscriben a un boletín a través de una página de destino dedicada, como se explica en [esta sección](../../delivery/using/managing-subscriptions.md). Sin embargo, los perfiles de los destinatarios filtrados se pueden suscribir a un servicio (informativo o viral) manualmente. Para ello:
 
 1. Seleccione los destinatarios que desee suscribir y haga clic con el botón derecho.
 1. Seleccione **[!UICONTROL Actions > Subscribe selection to a service]**.
