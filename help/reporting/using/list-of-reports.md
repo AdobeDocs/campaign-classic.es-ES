@@ -123,7 +123,7 @@ Los informes sobre campañas hacen referencia a los datos de la tabla **nms:oper
 
 Los informes integrados proporcionados por Adobe Campaign se pueden encontrar en la siguiente tabla.
 
-Para obtener más información sobre el contenido de estos informes, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}.
+Para obtener más información sobre el contenido de estos informes, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=es){target=_blank}.
 
 <table> 
  <tbody> 
@@ -219,7 +219,7 @@ Para obtener más información sobre el contenido de estos informes, consulte la
 
 Los informes integrados proporcionados por Adobe Campaign se pueden encontrar en la siguiente tabla.
 
-Para obtener más información sobre el contenido de estos informes, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}.
+Para obtener más información sobre el contenido de estos informes, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=es){target=_blank}.
 
 <table> 
  <tbody> 

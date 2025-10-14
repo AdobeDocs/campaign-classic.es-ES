@@ -32,7 +32,7 @@ La limpieza de la base de datos se configura en dos niveles: en el programador d
 
 >[!NOTE]
 >
->Para obtener más información sobre el planificador, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}.
+>Para obtener más información sobre el planificador, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=es){target="_blank"}.
 
 De manera predeterminada, el flujo de trabajo **[!UICONTROL Database cleanup]** está configurado para iniciarse a diario a las 4 a. m. El planificador permite cambiar la frecuencia de activación del flujo de trabajo. Las frecuencias disponibles son las siguientes:
 

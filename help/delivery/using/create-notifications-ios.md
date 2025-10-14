@@ -16,7 +16,7 @@ ht-degree: 96%
 
 # Creación de notificaciones para iOS{#create-notifications-ios}
 
-En esta sección se detallan los elementos específicos para la entrega de notificaciones en iOS. Los conceptos globales sobre la creación de envíos se presentan en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
+En esta sección se detallan los elementos específicos para la entrega de notificaciones en iOS. Los conceptos globales sobre la creación de envíos se presentan en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}.
 
 Comience creando una nueva entrega.
 
@@ -34,7 +34,7 @@ Para crear una notificación push para dispositivos iOS, siga los pasos a contin
 
    >[!NOTE]
    >
-   >El proceso detallado al seleccionar la población objetivo de una entrega se presenta en esta sección en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#target-population.){target="_blank"}.
+   >El proceso detallado al seleccionar la población objetivo de una entrega se presenta en esta sección en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#target-population.){target="_blank"}.
    >
    >Para obtener más información sobre el uso de los campos de personalización, consulte [esta sección](about-personalization.md).
    >

@@ -25,11 +25,11 @@ Al añadir enlaces personalizados al contenido, evite siempre cualquier personal
 
 ### Recomendación
 
-Para validar y asegurarse de que no está utilizando lo anterior, ejecute una consulta en la tabla de URL de seguimiento a través de [Editor de consultas genérico de Campaign](../../platform/using/about-queries-in-campaign.md) o cree un flujo de trabajo con criterios de filtro en la actividad de consulta. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+Para validar y asegurarse de que no está utilizando lo anterior, ejecute una consulta en la tabla de URL de seguimiento a través de [Editor de consultas genérico de Campaign](../../platform/using/about-queries-in-campaign.md) o cree un flujo de trabajo con criterios de filtro en la actividad de consulta. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=es){target="_blank"}.
 
 Ejemplo:
 
-1. Cree un flujo de trabajo y agregue una actividad **Query**. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+1. Cree un flujo de trabajo y agregue una actividad **Query**. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=es){target="_blank"}.
 
 1. Abra la actividad **Query** y cree un filtro en la tabla `nmsTrackingUrl` de la siguiente manera:
 

@@ -37,7 +37,7 @@ Conozca los pasos clave relacionados con la creación de envíos, contenido y au
 * [Crear el envío](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#create-the-delivery){target="_blank"}: aprenda a crear un envío único con un solo paso.
 * [Definir el contenido](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#content-of-the-delivery){target="_blank"}: configure el contenido de envío específico para cada canal.
 * [Especificar el público](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#target-population){target="_blank"}: defina varios tipos de público destinatario: público principal, público destinatario de prueba, direcciones semilla y grupos de control.
-* [Trabajar con plantillas de envío](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}: Aprenda a definir plantillas para facilitar la creación de envíos.
+* [Trabajar con plantillas de envío](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=es){target="_blank"}: Aprenda a definir plantillas para facilitar la creación de envíos.
 
 
 
@@ -128,7 +128,7 @@ Una vez iniciada la entrega, se pueden enviar los mensajes (y los reintentos) ha
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}. 
 
 >[!NOTE]
 >

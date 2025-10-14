@@ -154,7 +154,7 @@ Para realizar esto, siga los pasos a continuación:
 
 ## Modificación de la plantilla de envíos {#changing-the-delivery-template}
 
-Adobe Campaign ofrece una plantilla de envíos móvil ubicada en el nodo **[!UICONTROL Resources > Templates > Delivery templates]**. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}.
+Adobe Campaign ofrece una plantilla de envíos móvil ubicada en el nodo **[!UICONTROL Resources > Templates > Delivery templates]**. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=es){target="_blank"}.
 
 Para enviar mensajes a través del canal SMS, debe crear una plantilla que incluya una referencia al conector del canal.
 

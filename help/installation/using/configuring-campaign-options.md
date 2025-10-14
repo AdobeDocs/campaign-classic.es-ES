@@ -57,7 +57,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** le permite configur
   </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> Permite al operador a cargo de la entrega confirmar la entrega, si se designa un operador o grupo de operadores específico para iniciar una entrega en las propiedades de la entrega.</p><p> Para ello, active la opción introduciendo "1" como valor. Para desactivar esta opción, escriba "0".</p><p> El proceso de confirmación de envío funcionará de forma predeterminada: solo el operador o grupo de operadores designados para la entrega en las propiedades de envío (o un administrador) puede confirmar y llevar a cabo la entrega. Consulte <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery" target="_blank">esta sección</a>.</p> </td>
+   <td><p> Permite al operador a cargo de la entrega confirmar la entrega, si se designa un operador o grupo de operadores específico para iniciar una entrega en las propiedades de la entrega.</p><p> Para ello, active la opción introduciendo "1" como valor. Para desactivar esta opción, escriba "0".</p><p> El proceso de confirmación de envío funcionará de forma predeterminada: solo el operador o grupo de operadores designados para la entrega en las propiedades de envío (o un administrador) puede confirmar y llevar a cabo la entrega. Consulte <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=es#start-a-delivery" target="_blank">esta sección</a>.</p> </td>
 
 <tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
@@ -209,7 +209,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** le permite configur
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>El flujo de trabajo técnico <span class="uicontrol"><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html" target="_blank">operationMgt</a></span> utiliza esta opción al contar el número de envíos en ejecución.</p>Permite definir el número de días por encima de los cuales las entregas con estado incoherente se excluirán del recuento de entregas en ejecución.</p><p>De forma predeterminada, el valor se establece en "7", lo que significa que se excluirán las entregas incoherentes de más de 7 días.</p></td> 
+   <td><p>El flujo de trabajo técnico <span class="uicontrol"><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=es" target="_blank">operationMgt</a></span> utiliza esta opción al contar el número de envíos en ejecución.</p>Permite definir el número de días por encima de los cuales las entregas con estado incoherente se excluirán del recuento de entregas en ejecución.</p><p>De forma predeterminada, el valor se establece en "7", lo que significa que se excluirán las entregas incoherentes de más de 7 días.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -365,7 +365,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** le permite configur
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
-   <td> Permite supervisar la ejecución del flujo de trabajo técnico <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html" target="_blank">operationMgt</a>. Cuando se activa (valor "1"), la información de ejecución se registra en los registros de auditoría del flujo de trabajo.<br /> </td> 
+   <td> Permite supervisar la ejecución del flujo de trabajo técnico <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=es" target="_blank">operationMgt</a>. Cuando se activa (valor "1"), la información de ejecución se registra en los registros de auditoría del flujo de trabajo.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 

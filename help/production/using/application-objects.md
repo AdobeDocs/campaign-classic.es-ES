@@ -40,7 +40,7 @@ Este método también resalta a los usuarios que crean demasiados objetos.
 
 ## Envíos {#deliveries}
 
-Debe haber menos de 1000 envíos en la instancia en cualquier momento. Tener muchos envíos consume espacio en la base de datos y crea problemas. Una instancia que crea más de 10 envíos por día debe comprobarse con los requisitos comerciales. Considere utilizar envíos continuos para crear menos envíos. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/continuous-delivery.html){target="_blank"}.
+Debe haber menos de 1000 envíos en la instancia en cualquier momento. Tener muchos envíos consume espacio en la base de datos y crea problemas. Una instancia que crea más de 10 envíos por día debe comprobarse con los requisitos comerciales. Considere utilizar envíos continuos para crear menos envíos. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/continuous-delivery.html?lang=es){target="_blank"}.
 
 Las entregas de más de dos años deben purgarse de la instancia.
 
@@ -48,14 +48,14 @@ Las entregas de más de dos años deben purgarse de la instancia.
 
 El número de archivos en el disco del servidor de aplicaciones no debe aumentar indefinidamente.
 
-Los flujos de trabajo de importación crean archivos y, por lo tanto, provocan expansión de disco. Esto se puede evitar usando la actividad estándar [Recolector de archivos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-collector.html){target="_blank"}. El recolector de archivos mueve los archivos a una carpeta temporal y los purga automáticamente.
+Los flujos de trabajo de importación crean archivos y, por lo tanto, provocan expansión de disco. Esto se puede evitar usando la actividad estándar [Recolector de archivos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-collector.html?lang=es){target="_blank"}. El recolector de archivos mueve los archivos a una carpeta temporal y los purga automáticamente.
 
 Si un flujo de trabajo importa archivos y no utiliza las funciones estándar, debe purgarse para mantener el espacio en disco al mínimo.
 
 ## Datos transaccionales y registros {#transactional-data-and-logs}
 
-Cada flujo de trabajo que importa datos en Adobe Campaign hace que el tamaño de la base de datos aumente. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html){target="_blank"}.
+Cada flujo de trabajo que importa datos en Adobe Campaign hace que el tamaño de la base de datos aumente. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=es){target="_blank"}.
 
-Compruebe que los flujos de trabajo de limpieza o depuración se estén ejecutando y purguen los registros de forma eficaz. Se deben purgar todos los datos transaccionales y los registros. La tarea de limpieza depura solo las tablas estándar: seguimiento y registros generales. Flujos de trabajo específicos deben depurar tablas específicas. consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}.
+Compruebe que los flujos de trabajo de limpieza o depuración se estén ejecutando y purguen los registros de forma eficaz. Se deben purgar todos los datos transaccionales y los registros. La tarea de limpieza depura solo las tablas estándar: seguimiento y registros generales. Flujos de trabajo específicos deben depurar tablas específicas. consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=es){target="_blank"}.
 
 Compruebe los datos transaccionales de caducidad comprobando la fecha de creación más antigua de los registros.

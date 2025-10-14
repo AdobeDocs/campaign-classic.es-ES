@@ -54,7 +54,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <ul>
         <li><a href="production/using/performance-and-throughput-issues.md">Problemas de rendimiento y producción</a></li>
         <li><a href="delivery/using/delivery-performances.md">Rendimiento de envíos</a></li>
-        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html" target="_blank">Optimización del rendimiento del flujo de trabajo</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=es" target="_blank">Optimización del rendimiento del flujo de trabajo</a></li>
         <li><a href="workflow/using/monitoring-workflow-execution.md">Solución de problemas de ejecución de flujo</a></li>
         <li><a href="platform/using/sftp-server-usage.md">Uso del servidor SFTP</a></li>
         <li><a href="delivery/using/understanding-delivery-failures.md">Comprender los errores de envío</a></li>
@@ -62,7 +62,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
     </td>
    <td valign="top">
         <ul>
-        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html" target="_blank">Prácticas recomendadas de flujo de trabajo</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=es" target="_blank">Prácticas recomendadas de flujo de trabajo</a></li>
         <li><a href="workflow/using/monitoring-technical-workflows.md">Monitorización técnica del flujo de trabajo</a></li>
         <li><a href="delivery/using/about-message-tracking.md">Comprensión de la administración del seguimiento</a></li>
         <li><a href="production/using/monitoring-guidelines.md">Herramientas de monitorización de Discover</a></li>
@@ -138,7 +138,7 @@ El nuevo sistema de tickets se ha iniciado a través de [Adobe Admin Console](ht
 
 ### ¡Consulte a los expertos!
 
-Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
+Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){_blank}.
 
 ### Acceso al Centro de descargas de Campaign
 

@@ -51,7 +51,7 @@ Además de la sección de la [Guía de prácticas recomendadas de entrega de Ado
 
 Campaign permite configurar los procesos de aprobación para las etapas principales de la campaña de marketing en modo de colaboración. Para cada campaña, puede aprobar el objetivo de envío, los contenidos y los costes. Los operadores de Adobe Campaign responsables de la aprobación pueden recibir notificaciones por correo electrónico y aceptar o rechazar la aprobación a través de la consola o de una conexión web.
 
-Descubra cómo implementar la aprobación de su contenido de envío en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html#review-and-approve-deliveries){target="_blank"}.
+Descubra cómo implementar la aprobación de su contenido de envío en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=es#review-and-approve-deliveries){target="_blank"}.
 
 ## ¿Cómo puedo acceder a los datos almacenados en una base de datos externa?  {#how-can-i-access-data-stored-in-an-external-database-}
 

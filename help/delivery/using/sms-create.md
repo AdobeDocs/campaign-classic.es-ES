@@ -22,7 +22,7 @@ Para diseñar una entrega de SMS nuevo, siga los pasos a continuación:
 
 >[!NOTE]
 >
->Los conceptos globales sobre la creación de envíos se presentan en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
+>Los conceptos globales sobre la creación de envíos se presentan en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}.
 
 1. Cree un nuevo envío, por ejemplo, desde el panel de control Envío.
 1. Seleccione la plantilla de envíos **Enviado a móviles (NetSize)** creada anteriormente. Para obtener más información, consulte la sección [Modificación de la plantilla de entrega](sms-set-up.md#changing-the-delivery-template).

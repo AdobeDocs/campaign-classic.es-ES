@@ -76,13 +76,13 @@ Se pueden realizar acciones específicas al encontrar problemas con la ejecució
 
 **Supervisión del estado del flujo de trabajo**
 
-Además del mapa de calor, puede crear un flujo de trabajo que le permitirá monitorizar el estado de un conjunto de flujos de trabajo y enviar mensajes recurrentes a los supervisores. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html){target="_blank"}.
+Además del mapa de calor, puede crear un flujo de trabajo que le permitirá monitorizar el estado de un conjunto de flujos de trabajo y enviar mensajes recurrentes a los supervisores. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html?lang=es){target="_blank"}.
 
 **Directrices generales**
 
 Las siguientes directrices y prácticas recomendadas al utilizar flujos de trabajo pueden ayudar a mejorar el rendimiento. Para obtener más información, consulte estas secciones:
-* [Prácticas recomendadas al utilizar flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
-* [Control de la ejecución del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html){target="_blank"}
+* [Prácticas recomendadas al utilizar flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=es){target="_blank"}
+* [Control de la ejecución del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=es){target="_blank"}
 
 ### Seguimiento de entregas {#monitoring-deliveries}
 

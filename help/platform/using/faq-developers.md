@@ -55,7 +55,7 @@ Puede consultar la base de datos de Campaign utilizando el editor de consultas g
 
 Las consultas se crean utilizando campos de la tabla seleccionada o utilizando una fórmula. [En esta página](../../platform/using/about-queries-in-campaign.md) se describen los principios principales para crear una consulta en la base de datos de Campaign.
 
-Obtenga información acerca de consultas en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+Obtenga información acerca de consultas en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=es){target="_blank"}.
 
 ## ¿Cómo puedo importar un paquete de datos?  {#how-can-i-import-a-data-package-}
 

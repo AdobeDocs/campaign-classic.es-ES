@@ -24,7 +24,7 @@ Los datos vinculados al perfil de un destinatario se pueden actualizar de forma 
 
 ## Configuración de una actualización automática {#setting-up-an-automatic-update}
 
-Se puede configurar una actualización automática mediante un flujo de trabajo. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}.
+Se puede configurar una actualización automática mediante un flujo de trabajo. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=es){target="_blank"}.
 
 ## Realización de una actualización masiva {#performing-a-mass-update}
 

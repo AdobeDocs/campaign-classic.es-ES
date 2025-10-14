@@ -20,7 +20,7 @@ Para crear un nuevo envío de correo electrónico, siga los pasos siguientes:
 
 >[!NOTE]
 >
->Los conceptos globales sobre la creación de envíos se presentan en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}.
+>Los conceptos globales sobre la creación de envíos se presentan en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}.
 
 1. Cree un nuevo envío, por ejemplo, desde el panel de control Envío.
 1. Seleccione la plantilla de envío **Envío de correo electrónico (correo)** o cualquier plantilla de envío de correo electrónico que haya creado. Para obtener más información sobre plantillas de envío, consulte [esta sección](about-templates.md).

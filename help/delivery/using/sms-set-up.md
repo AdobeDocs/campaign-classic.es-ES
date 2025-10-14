@@ -353,7 +353,7 @@ Los pasos para configurar una cuenta externa mediante el conector SMPP genérico
 
 ## Modificación de la plantilla de envíos {#changing-the-delivery-template}
 
-Adobe Campaign proporciona una plantilla para las entregas a móviles. Esta plantilla está disponible en el nodo **[!UICONTROL Resources > Templates > Delivery templates]**. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}.
+Adobe Campaign proporciona una plantilla para las entregas a móviles. Esta plantilla está disponible en el nodo **[!UICONTROL Resources > Templates > Delivery templates]**. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=es){target="_blank"}.
 
 Para realizar envíos a través del canal SMS, debe crear una plantilla en la que se haga referencia al conector de canal.
 

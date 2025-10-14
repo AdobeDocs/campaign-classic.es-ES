@@ -169,6 +169,6 @@ Para realizar esto, siga los pasos a continuación:
 
 1. Cree una cuenta externa por marca con el mismo nombre interno que se define en la [instancia de ejecución](#execution-instance) (paso 1).
 
-1. Cree una plantilla de envíos por marca. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}.
+1. Cree una plantilla de envíos por marca. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=es){target="_blank"}.
 
 1. En las **[!UICONTROL Properties]** de la plantilla de envíos, configure el enrutamiento en la cuenta externa de la marca.

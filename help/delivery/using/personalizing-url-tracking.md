@@ -19,7 +19,7 @@ Es posible acceder a la configuración avanzada de seguimiento de mensajes media
 
 >[!NOTE]
 >
->La administración de imágenes en correos electrónicos también se configura en esta ventana. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}.
+>La administración de imágenes en correos electrónicos también se configura en esta ventana. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es#adding-images){target="_blank"}.
 
 ![](assets/s_ncs_user_email_del_tracking_ico.png)
 

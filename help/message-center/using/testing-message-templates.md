@@ -100,7 +100,7 @@ Con las direcciones semilla, también se puede mostrar el procesamiento del mens
 
 Puede probar la entrega de mensajes enviando una prueba a una dirección semilla creada anteriormente.
 
-El envío de una prueba implica realizar el mismo proceso que para una entrega normal. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}. Sin embargo, con la mensajería transaccional, debe llevar a cabo las siguientes operaciones de antemano:
+El envío de una prueba implica realizar el mismo proceso que para una entrega normal. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=es){target="_blank"}. Sin embargo, con la mensajería transaccional, debe llevar a cabo las siguientes operaciones de antemano:
 
 * Cree una o más [direcciones semilla](#managing-seed-addresses-in-transactional-messages) con [datos de personalización](#personalization-data).
 * [Creación del contenido del mensaje](../../message-center/using/creating-the-message-template.md#creating-message-content).
@@ -117,7 +117,7 @@ Para enviar la prueba:
 
    ![](assets/messagecenter_send_proof_002.png)
 
-Se puede acceder a las pruebas en cada plantilla a través de la pestaña **[!UICONTROL Audit]**. Para obtener más información al respecto, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
+Se puede acceder a las pruebas en cada plantilla a través de la pestaña **[!UICONTROL Audit]**. Para obtener más información al respecto, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=es){target="_blank"}.
 
 ![](assets/messagecenter_send_proof_003.png)
 

@@ -437,7 +437,7 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 
 La última versión en tiempo de ejecución de Microsoft Edge WebView2 es obligatoria en la consola del cliente de Campaign.
 
-Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download).
+Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es).
 
 
 ## SDK móvil {#MobileSDK}
@@ -472,7 +472,7 @@ El SDK de Campaign está [obsoleto](deprecated-features.md) a partir de Campaign
 
 ## Exploradores {#Browsers}
 
-Los siguientes exploradores, en su versión más reciente, son compatibles con Campaign para el acceso web. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#use-the-web-interface-){target=_blank}.
+Los siguientes exploradores, en su versión más reciente, son compatibles con Campaign para el acceso web. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=es#use-the-web-interface-){target=_blank}.
 
 * Google Chrome
 * Microsoft Edge

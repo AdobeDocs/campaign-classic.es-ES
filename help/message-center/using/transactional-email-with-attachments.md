@@ -64,7 +64,7 @@ El diagrama siguiente muestra los diferentes pasos para implementar este escenar
 
 Para añadir archivos adjuntos de correo electrónico sobre la marcha a un mensaje transaccional, siga los pasos a continuación:
 
-1. Primero, diseñe el archivo adjunto. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html#attach-a-personalized-file){target="_blank"}.
+1. Primero, diseñe el archivo adjunto. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=es#attach-a-personalized-file){target="_blank"}.
 
    Esto permite adjuntar archivos a un correo electrónico, incluso si no están hospedados en la instancia de ejecución.
 

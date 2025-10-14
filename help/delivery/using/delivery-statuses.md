@@ -93,7 +93,7 @@ Para aprender a optimizar la entrega de los correos electrónicos de Adobe Campa
 
 Después de confirmar la entrega, puede ver que el estado del mismo es **[!UICONTROL Pending]**. Este estado significa que el proceso de ejecución está esperando a que estén disponibles algunos recursos.
 
-El estado **[!UICONTROL Pending]** puede significar en primer lugar que la entrega se ha programado y está pendiente hasta la fecha determinada. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#schedule-delivery-sending){target="_blank"}
+El estado **[!UICONTROL Pending]** puede significar en primer lugar que la entrega se ha programado y está pendiente hasta la fecha determinada. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=es#schedule-delivery-sending){target="_blank"}
 
 Si la entrega no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, puede deberse a uno de los siguientes motivos:
 

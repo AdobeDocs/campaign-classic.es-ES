@@ -37,7 +37,7 @@ Obtenga información sobre cómo monitorizar la ejecución del flujo de trabajo 
 
 Puede realizar una actualización masiva, combinar e insertar en los datos de la base de datos.
 
-Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html){target="_blank"}.
+Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/update-data.html?lang=es){target="_blank"}.
 
 ## ¿Cómo se pueden aprovechar las funcionalidades de administración de datos? {#how-can-i-leverage-data-management-capabilities-}
 
@@ -47,7 +47,7 @@ En Adobe Campaign, puede aprovechar un conjunto de actividades para resolver pro
 * Mantener y transmitir cálculos de búfer, especialmente durante las fases de construcción de objetivos o para la administración de bases de datos.
 * Acceso a bases externas (opcional): Bases de datos heterogéneas tomadas en cuenta durante el proceso de selección de objetivos.
 
-Aprenda a diseñar un destino complejo y a trabajar en las actividades de flujo de trabajo de administración de datos combinados en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"}.
+Aprenda a diseñar un destino complejo y a trabajar en las actividades de flujo de trabajo de administración de datos combinados en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=es){target="_blank"}.
 
 ## ¿Se puede automatizar la entrega de mensajes personalizados? {#can-i-automate-personalized-messages-sending-}
 
@@ -55,7 +55,7 @@ Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/d
 
 ## ¿Cómo se puede dividir un público en subconjuntos con un flujo de trabajo? {#how-can-i-split-an-audience-in-subsets-with-a-workflow-}
 
-Aprenda a dividir un destino en varios subconjuntos en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html){target="_blank"}.
+Aprenda a dividir un destino en varios subconjuntos en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=es){target="_blank"}.
 
 ## ¿Cómo se pueden actualizar los datos de destinatario de un archivo externo? {#how-can-i-update-recipient-data-from-an-external-file-}
 
@@ -65,4 +65,4 @@ Puede modificar ciertos campos de una tabla en Campaign con valores de un archiv
 
 ## ¿Cómo se pueden identificar y segmentar nuevos destinatarios? {#how-can-i-identify-and-target-new-recipients-}
 
-Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html){target="_blank"} para aprender a utilizar las inclusiones con el fin de identificar automáticamente los últimos destinatarios agregados en la base de datos y enviarles un mensaje de bienvenida.
+Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html?lang=es){target="_blank"} para aprender a utilizar las inclusiones con el fin de identificar automáticamente los últimos destinatarios agregados en la base de datos y enviarles un mensaje de bienvenida.

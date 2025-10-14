@@ -88,7 +88,7 @@ Para configurar y crear el bloque de recomendación, siga estos pasos:
 
    >[!NOTE]
    >
-   >Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"} para obtener más información sobre las plantillas de envío.
+   >Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=es){target="_blank"} para obtener más información sobre las plantillas de envío.
 
 1. Cree la segunda secuencia de comandos para enviar los mensajes de suscripción.
 

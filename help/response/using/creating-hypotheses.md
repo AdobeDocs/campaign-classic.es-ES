@@ -156,7 +156,7 @@ Luego, afinaremos la consulta heredada del modelo para hacer una hipótesis sobr
 
    >[!NOTE]
    >
-   >Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html#add-a-control-group){target="_blank"}.
+   >Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=es#add-a-control-group){target="_blank"}.
 
 1. Abra el **[!UICONTROL Direct mail delivery]** y haga clic en el icono **[!UICONTROL Delivery measurement]** y, a continuación, haga clic en **[!UICONTROL Add]**.
 
@@ -178,7 +178,7 @@ Luego, afinaremos la consulta heredada del modelo para hacer una hipótesis sobr
 
    ![](assets/response_hypothesis_delivery_example_008.png)
 
-1. Inicie el flujo de trabajo de objetivos y ejecute las comprobaciones necesarias hasta que finalice la campaña. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html#start-a-delivery){target=_blank}.
+1. Inicie el flujo de trabajo de objetivos y ejecute las comprobaciones necesarias hasta que finalice la campaña. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=es#start-a-delivery){target=_blank}.
 
    ![](assets/response_hypothesis_delivery_example_009.png)
 

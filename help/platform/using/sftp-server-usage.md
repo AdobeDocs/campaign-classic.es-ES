@@ -132,7 +132,7 @@ Este error indica que el nombre de dominio del servidor FTP no se pudo resolver 
 
 1. Solucionar problemas **de registros de sesión**:
 
-   1. En el flujo de trabajo, haga clic con el botón doble en la actividad de [transferencia de archivos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
+   1. En el flujo de trabajo, haga clic con el botón doble en la actividad de [transferencia de archivos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=es){target="_blank"}.
    1. Vaya a la pestaña **[!UICONTROL File Transfer]** y haga clic en **[!UICONTROL Advanced Parameters]**.
    1. Marque la opción **[!UICONTROL Display the session logs]**.
 

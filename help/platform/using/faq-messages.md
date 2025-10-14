@@ -26,13 +26,13 @@ Aprenda a realizar pasos de prueba y validación antes de enviar mensajes en Ado
 
 El análisis de envíos es la fase durante la cual se calcula la población objetivo y se prepara el contenido de entrega. Una vez finalizada, la entrega está listo para realizarse. Consulte los registros para asegurarse de que todo es correcto.
 
-Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
+Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=es){target="_blank"}.
 
 ### ¿Por qué debería generar pruebas? {#why-should-i-create-proofs-}
 
 Adobe recomienda encarecidamente crear mensajes de prueba para probar la entrega en un grupo de aprobación antes de enviarlo al objetivo principal. A continuación, puede validar los parámetros de contenido, personalización y envío de mensajes.
 
-Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
+Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=es){target="_blank"}.
 
 ### ¿Cómo se utilizan las direcciones semilla en Adobe Campaign? {#how-to-use-seed-addresses-in-adobe-campaign-}
 
@@ -49,7 +49,7 @@ Estas son sus ventajas:
 
 Para detectar posibles errores en la configuración del mensaje, Adobe recomienda configurar un ciclo de validación de entrega. Asegúrese de que el contenido se aprueba con la frecuencia necesaria al enviar pruebas a los destinatarios de prueba. Se debe enviar una prueba cada vez que se realiza un cambio para aprobar el contenido.
 
-Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
+Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=es){target="_blank"}.
 
 ### ¿Qué es una regla de tipología? {#what-is-a-typology-rule-}
 
@@ -63,19 +63,19 @@ Aprenda a enviar mensajes en varios canales con Adobe Campaign.
 
 ### ¿Cómo puedo enviar correos electrónicos en cadena?  {#how-can-i-send-emails-in-waves-}
 
-Antes de enviar un mensaje a una población grande, puede configurar oleadas para dividir los mensajes en varios lotes y equilibrar la carga. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#sending-using-multiple-waves){target="_blank"}.
+Antes de enviar un mensaje a una población grande, puede configurar oleadas para dividir los mensajes en varios lotes y equilibrar la carga. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=es#sending-using-multiple-waves){target="_blank"}.
 
 ### ¿Cuáles son los pasos clave para crear un correo electrónico en Campaign? {#which-are-the-key-steps-to-create-an-email-in-campaign-}
 
 Una vez que la entrega de correo electrónico se haya creado y validado, puede enviarlo. Puede decidir enviar el correo electrónico al objetivo principal inmediatamente o programar una entrega para una fecha posterior. Si es necesario, antes de que esto suceda, también puede estimar la población objetivo.
 
-Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}.
+Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=es){target="_blank"}.
 
 ### ¿Cómo se puede programar una entrega? {#how-to-schedule-a-delivery-}
 
 Puede retrasar la entrega de mensajes para programar su fecha o administrar la presión de ventas y evitar solicitar en exceso a una población.
 
-Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html#schedule-delivery-sending){target="_blank"}.
+Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=es#schedule-delivery-sending){target="_blank"}.
 
 ### ¿Se puede añadir un archivo adjunto a los correos electrónicos? {#can-i-add-an-attachment-to-emails-}
 

@@ -59,7 +59,7 @@ Al configurar, diseñar y probar el mensaje, asegúrese de seguir las prácticas
 * [Prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=es){target="_blank"}.
 * [Control del contenido de correo electrónico](control-message-content.md)
 * [Procesamiento de la bandeja de entrada](inbox-rendering.md)
-* [Envío de una prueba](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html){target="_blank"}
+* [Envío de una prueba](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=es){target="_blank"}
 
 ### Verificación del consentimiento mediante la doble inclusión {#double-opt-in}
 

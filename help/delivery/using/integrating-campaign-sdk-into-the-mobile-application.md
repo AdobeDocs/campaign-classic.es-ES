@@ -64,7 +64,7 @@ Para integrar el SDK de Campaign en la aplicación móvil, el administrador func
 
   >[!NOTE]
   >
-  >Esta clave de integración se introduce en la consola de Adobe Campaign, en la pestaña **[!UICONTROL Information]** del servicio dedicado a la aplicación móvil. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"}.
+  >Esta clave de integración se introduce en la consola de Adobe Campaign, en la pestaña **[!UICONTROL Information]** del servicio dedicado a la aplicación móvil. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=es){target="_blank"}.
 
 * **Una URL de seguimiento**: coincide con la dirección del servidor de rastreo de Adobe Campaign.
 * **Una URL de marketing**: para habilitar la recopilación de suscripciones.

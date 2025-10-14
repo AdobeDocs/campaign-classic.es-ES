@@ -20,7 +20,7 @@ Además de los [informes integrados](../../reporting/using/about-campaign-built-
 
 Adobe Campaign no es una herramienta de sistema de informes especializada: los informes creados en Adobe Campaign principalmente le permiten ver los datos añadidos. Los informes de Adobe Campaign, dedicados a analizar y representar los datos, no están diseñados para exportaciones de bases de datos.
 
-Para exportar datos de la base de datos de Adobe Campaign, debe crear un flujo de trabajo y utilizar una actividad de exportación de datos. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html){target="_blank"}.
+Para exportar datos de la base de datos de Adobe Campaign, debe crear un flujo de trabajo y utilizar una actividad de exportación de datos. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=es){target="_blank"}.
 
 Adobe Campaign proporciona varias herramientas de sistema de informes:
 

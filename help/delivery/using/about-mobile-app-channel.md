@@ -24,29 +24,29 @@ Como parte de la transición de Campaign v7 a v8, el conjunto de documentación 
 
 >[!TAB Documentación del canal push]
 
-Para obtener más información sobre el canal de notificaciones push, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html){target=_blank}.
+Para obtener más información sobre el canal de notificaciones push, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=es){target=_blank}.
 
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html){target=_blank}
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=es){target=_blank}
 
 
 >[!TAB Creación de envíos push]
 
 Conozca los pasos clave relacionados con la creación de envíos push **en la documentación de Campaign v8**:
 
-* [Crear una notificación push](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html#push-create){target="_blank"}: Obtenga información acerca de los diferentes pasos necesarios para crear una entrega push.
-* [Envíe y supervise la notificación push](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html#push-test){target="_blank"}: Obtenga información sobre cómo validar, enviar y rastrear sus envíos.
-* [Diseñe una entrega de notificaciones push enriquecidas de Android](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android.html){target="_blank"}: Aprenda a crear y configurar notificaciones push enriquecidas para dispositivos Android.
-* [Diseñe una entrega push enriquecida de iOS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios.html){target="_blank"}: Aprenda a diseñar y configurar notificaciones push enriquecidas para dispositivos iOS en Adobe Campaign v8.
+* [Crear una notificación push](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=es#push-create){target="_blank"}: Obtenga información acerca de los diferentes pasos necesarios para crear una entrega push.
+* [Envíe y supervise la notificación push](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=es#push-test){target="_blank"}: Obtenga información sobre cómo validar, enviar y rastrear sus envíos.
+* [Diseñe una entrega de notificaciones push enriquecidas de Android](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android.html?lang=es){target="_blank"}: Aprenda a crear y configurar notificaciones push enriquecidas para dispositivos Android.
+* [Diseñe una entrega push enriquecida de iOS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios.html?lang=es){target="_blank"}: Aprenda a diseñar y configurar notificaciones push enriquecidas para dispositivos iOS en Adobe Campaign v8.
 
 
 >[!TAB Parámetros push]
 
 Consulte estas páginas para obtener más información sobre los parámetros push **en la documentación de Campaign v8**:
 
-* [Requisitos previos de configuración](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html#before-starting){target="_blank"}: Aprenda a configurar permisos y a configurar su aplicación.
-* [Configurar la propiedad de Launch](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html#launch-property){target="_blank"}: Obtenga información sobre cómo configurar una propiedad de etiquetas móviles en la recopilación de datos de Adobe Experience Platform para habilitar las notificaciones push.
-* [Configurar servicios push en Mobile Services](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html#push-service){target="_blank"}: configure los servicios push de iOS y Android en Adobe para habilitar las notificaciones push dirigidas a los usuarios de su aplicación móvil.
-* [Configure la extensión en su propiedad móvil](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html#configure-extension){target="_blank"}: Integre la extensión de Campaign en su propiedad móvil para habilitar las notificaciones push y administrar las interacciones del usuario de forma eficaz.
+* [Requisitos previos de configuración](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=es#before-starting){target="_blank"}: Aprenda a configurar permisos y a configurar su aplicación.
+* [Configurar la propiedad de Launch](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=es#launch-property){target="_blank"}: Obtenga información sobre cómo configurar una propiedad de etiquetas móviles en la recopilación de datos de Adobe Experience Platform para habilitar las notificaciones push.
+* [Configurar servicios push en Mobile Services](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=es#push-service){target="_blank"}: configure los servicios push de iOS y Android en Adobe para habilitar las notificaciones push dirigidas a los usuarios de su aplicación móvil.
+* [Configure la extensión en su propiedad móvil](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=es#configure-extension){target="_blank"}: Integre la extensión de Campaign en su propiedad móvil para habilitar las notificaciones push y administrar las interacciones del usuario de forma eficaz.
 
 >[!ENDTABS]
 
@@ -85,7 +85,7 @@ Los pasos de instalación son estos:
 
 1. **[!UICONTROL Close]** la ventana de instalación.
 
-Una vez completado este paso, puede configurar las aplicaciones de Android y iOS. Consulte la [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html){target="_blank"} de Campaign v8.
+Una vez completado este paso, puede configurar las aplicaciones de Android y iOS. Consulte la [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=es){target="_blank"} de Campaign v8.
 
 +++
 
@@ -104,6 +104,6 @@ Conector HTTP/2: se debe permitir la comunicación con los siguientes servidores
 
 >[!NOTE]
 >
->Para obtener más información sobre los dos conectores, consulte la [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html){target="_blank"} de Campaign v8.
+>Para obtener más información sobre los dos conectores, consulte la [documentación](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=es){target="_blank"} de Campaign v8.
 
 +++

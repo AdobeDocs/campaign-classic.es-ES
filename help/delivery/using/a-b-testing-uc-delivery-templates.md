@@ -15,7 +15,7 @@ ht-degree: 92%
 
 # Prueba A/B: creación de plantillas de envío {#step-3--creating-two-delivery-templates}
 
-Ahora, queremos crear dos plantillas de envío. Se hará referencia a cada plantilla en una actividad **[!UICONTROL Email delivery]** vinculada a la actividad **[!UICONTROL Split]**. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html){target="_blank"}.
+Ahora, queremos crear dos plantillas de envío. Se hará referencia a cada plantilla en una actividad **[!UICONTROL Email delivery]** vinculada a la actividad **[!UICONTROL Split]**. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=es){target="_blank"}.
 
 1. Examine la carpeta **[!UICONTROL Resources > Delivery template]**.
 1. Duplique la plantilla de entrega **[!UICONTROL Email]**.

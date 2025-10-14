@@ -35,4 +35,4 @@ Los pasos clave al crear una entrega son los siguientes:
 
 >[!NOTE]
 >
->Los pasos descritos en este capítulo suponen que todos los destinatarios objetivo y sus perfiles se almacenan en la base de datos, excepto en el caso de envíos externos (consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html#selecting-external-recipients){target="_blank"}.
+>Los pasos descritos en este capítulo suponen que todos los destinatarios objetivo y sus perfiles se almacenan en la base de datos, excepto en el caso de envíos externos (consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#selecting-external-recipients){target="_blank"}.

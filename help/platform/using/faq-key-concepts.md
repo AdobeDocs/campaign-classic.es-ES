@@ -93,7 +93,7 @@ Aprenda a configurar su plataforma y enviar mensajes SMS [en esta sección](../.
 
 ## ¿Cómo se envían notificaciones push? {#how-to-send-push-notifications-}
 
-Aprenda a utilizar Adobe Campaign para enviar una notificación push personalizada en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html){target="_blank"}.
+Aprenda a utilizar Adobe Campaign para enviar una notificación push personalizada en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=es){target="_blank"}.
 
 ## ¿Cómo se diseña y comparte una encuesta en línea? {#how-to-design-and-share-an-online-survey-}
 

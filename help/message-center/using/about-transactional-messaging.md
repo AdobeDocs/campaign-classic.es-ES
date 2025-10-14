@@ -88,6 +88,6 @@ Una vez que haya diseñado y publicado la plantilla de mensaje transaccional, si
 ## Temas relacionados {#related-topics}
 
 * [Introducción a los canales de comunicación](../../delivery/using/communication-channels.md)
-* [Pasos clave de creación de entregas](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}
+* [Pasos clave de creación de entregas](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}
 * [Arquitectura de la mensajería transaccional](../../message-center/using/transactional-messaging-architecture.md)
 * [Acceso a los informes de mensajería transaccional](../../message-center/using/about-transactional-messaging-reports.md)

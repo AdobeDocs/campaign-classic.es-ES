@@ -73,7 +73,7 @@ Los registros de entregas son esenciales para saber por qué ha fallado una entr
 
   Para resolver esto, recomendamos realizar una limpieza y reindexar la base de datos. Para obtener más información sobre el mantenimiento de la base de datos, consulte [esta sección](../../production/using/recommendations.md).
 
-  También debe reiniciar todos los flujos de trabajo con una actividad programada y todos los flujos de trabajo en estado fallido. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}.
+  También debe reiniciar todos los flujos de trabajo con una actividad programada y todos los flujos de trabajo en estado fallido. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=es){target="_blank"}.
 
 * Cuando una entrega falla, el siguiente error puede aparecer en los “logs” de envío:
 
@@ -83,7 +83,7 @@ Los registros de entregas son esenciales para saber por qué ha fallado una entr
 
   Normalmente, este error significa que existe un campo o un bloque personalizado dentro del correo electrónico que tiene más de un valor para el destinatario. Se está utilizando un bloque personalizado que está recuperando más de un registro para un destinatario determinado.
 
-  Para resolver esto, compruebe los datos personalizados utilizados y, a continuación, compruebe el objetivo de los destinatarios que tengan más de una entrada para cualquiera de esos campos. También puede utilizar una actividad **[!UICONTROL Deduplication]** en el flujo de trabajo de objetivos antes de la actividad de entrega para comprobar que solo hay un campo de personalización a la vez. Para obtener más información sobre la deduplicación, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html){target="_blank"}.
+  Para resolver esto, compruebe los datos personalizados utilizados y, a continuación, compruebe el objetivo de los destinatarios que tengan más de una entrada para cualquiera de esos campos. También puede utilizar una actividad **[!UICONTROL Deduplication]** en el flujo de trabajo de objetivos antes de la actividad de entrega para comprobar que solo hay un campo de personalización a la vez. Para obtener más información sobre la deduplicación, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=es){target="_blank"}.
 
 * Algunos envíos pueden fallar con un error que indica “inaccesible”:
 

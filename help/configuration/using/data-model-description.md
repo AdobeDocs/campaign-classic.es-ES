@@ -113,7 +113,7 @@ Este conjunto de tablas está vinculado al módulo **Delivery**, que permite sup
 
 ## Administración de campañas {#campaign-management}
 
-Este conjunto de tablas está enlazado al módulo **Campañas de marketing**, que permite definir, optimizar, ejecutar y analizar las comunicaciones y las campañas de marketing. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html){target=_blank}.
+Este conjunto de tablas está enlazado al módulo **Campañas de marketing**, que permite definir, optimizar, ejecutar y analizar las comunicaciones y las campañas de marketing. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=es){target=_blank}.
 
 ![](assets/data-model_campaign.png)
 

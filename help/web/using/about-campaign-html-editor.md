@@ -52,7 +52,7 @@ Para crear un **envío de correo electrónico**, debe hacer lo siguiente:
 1. Creación de un envío a partir de una plantilla de DCE: [Más información](use-case-creating-an-email-delivery.md)
 1. Seleccione un contenido existente o cree contenido desde una [plantilla estándar](template-management.md)
 1. Editar y configurar contenido en línea
-1. Realice la entrega: obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}
+1. Realice la entrega: obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}
 
 >[!NOTE]
 >

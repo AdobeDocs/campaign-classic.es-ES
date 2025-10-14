@@ -17,7 +17,7 @@ ht-degree: 97%
 
 # Creación de contenido personalizado {#build-personalized-content}
 
-Al diseñar el contenido del mensaje, trate de evitar problemas comunes que podrían impedir la ejecución del envío. La mayoría de las veces, los posibles errores están relacionados con la [personalización](about-personalization.md), el [formato](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"} y las [imágenes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}.
+Al diseñar el contenido del mensaje, trate de evitar problemas comunes que podrían impedir la ejecución del envío. La mayoría de las veces, los posibles errores están relacionados con la [personalización](about-personalization.md), el [formato](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es#message-content){target="_blank"} y las [imágenes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es#adding-images){target="_blank"}.
 
 ## Optimización de la personalización {#optimize-personalization}
 
@@ -58,7 +58,7 @@ Cuando cree sus correos electrónicos, tenga en cuenta las optimizaciones genera
 
 ### Línea de asunto
 
-Obtenga información acerca de la línea de asunto en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#sender){target="_blank"} para mejorar las tasas de apertura:
+Obtenga información acerca de la línea de asunto en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es#sender){target="_blank"} para mejorar las tasas de apertura:
 
 * Evite los asuntos demasiado largos. Utilice un máximo de 50 caracteres
 
@@ -151,7 +151,7 @@ Para que sean accesibles desde el exterior, las imágenes utilizadas en los mens
 
 * Puede comprobar si la configuración de la instancia habilita la administración de recursos públicos. [Más información](../../installation/using/deploying-an-instance.md#managing-public-resources)
 
-* Desde el asistente de envíos, puede importar una página HTML que contenga imágenes o insertar imágenes directamente utilizando el editor HTML mediante el icono **[!UICONTROL Image]**. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#adding-images){target="_blank"}.
+* Desde el asistente de envíos, puede importar una página HTML que contenga imágenes o insertar imágenes directamente utilizando el editor HTML mediante el icono **[!UICONTROL Image]**. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es#adding-images){target="_blank"}.
 
 * Si las imágenes no se muestran, compruebe que estén disponibles en el servidor. Para ello, haga clic en la pestaña Origen del envío. Busque las imágenes, y copie y pegue la dirección URL de cada imagen en un navegador web. Si no se muestran las imágenes, póngase en contacto con el administrador de TI o con el proveedor de terceros que proporcione el contenido de envío.
 
@@ -159,6 +159,6 @@ Para que sean accesibles desde el exterior, las imágenes utilizadas en los mens
 
 Adobe recomienda previsualizar el mensaje para comprobar su personalización y cómo verán los destinatarios su entrega.
 
-* En el asistente de envíos, la subpestaña **[!UICONTROL Preview]** permite ver el renderizado de cada contenido para un destinatario. Los campos personalizados y los elementos condicionales del contenido se sustituyen por la información correspondiente del perfil seleccionado. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html#message-content){target="_blank"}.
+* En el asistente de envíos, la subpestaña **[!UICONTROL Preview]** permite ver el renderizado de cada contenido para un destinatario. Los campos personalizados y los elementos condicionales del contenido se sustituyen por la información correspondiente del perfil seleccionado. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es#message-content){target="_blank"}.
 
 * Durante cada previsualización se realiza una comprobación automática del contenido no deseado. En la subpestaña **[!UICONTROL Preview]**, marque la puntuación de spam [SpamAssassin](spamassassin.md).  Haga clic en **[!UICONTROL More...]** para obtener más información sobre la advertencia.  Antes de hacerlo, asegúrese de que SpamAssassin está correctamente instalado y configurado en el servidor de aplicaciones de Adobe Campaign. [Más información](../../installation/using/configuring-spamassassin.md)

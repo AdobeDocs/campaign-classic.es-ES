@@ -98,7 +98,7 @@ La pestaña **[!UICONTROL Audit]** contiene el registro de entregas y todos los 
 
 El botón **[!UICONTROL Refresh]** permite actualizar los datos. Utilice el botón **[!UICONTROL Filters]** para definir un filtro en los datos.
 
-Los iconos especiales permiten identificar errores o advertencias. Consulte esta sección en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html){target="_blank"}.
+Los iconos especiales permiten identificar errores o advertencias. Consulte esta sección en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=es){target="_blank"}.
 
 La subpestaña **[!UICONTROL Proofs]** permite ver la lista de pruebas que se han enviado.
 
