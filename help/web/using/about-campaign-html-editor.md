@@ -5,10 +5,10 @@ description: Introducción al DCE de Campaign
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: f5d65e89-6b18-482b-97d8-11ab94f6775e
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 95%
+source-wordcount: '276'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ Con el editor de contenido digital puede insertar y dar formato a elementos de p
 
 >[!NOTE]
 >
->Si necesita agregar un código JavaScript del lado del servidor, utilice bloques de personalización. [Más información](../../delivery/using/personalization-blocks.md).
+>Si necesita agregar un código JavaScript del lado del servidor, utilice bloques de personalización. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -52,7 +52,7 @@ Para crear un **envío de correo electrónico**, debe hacer lo siguiente:
 1. Creación de un envío a partir de una plantilla de DCE: [Más información](use-case-creating-an-email-delivery.md)
 1. Seleccione un contenido existente o cree contenido desde una [plantilla estándar](template-management.md)
 1. Editar y configurar contenido en línea
-1. Realice la entrega: obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}
+1. Realice la entrega: obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}
 
 >[!NOTE]
 >

@@ -6,9 +6,9 @@ title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: '2744'
 ht-degree: 72%
 
 ---
@@ -141,7 +141,7 @@ ht-degree: 72%
       + [Creación de un SMS: OCULTO](delivery/using/sms-create.md)
       + [Migración al conector genérico SMPP extendido](delivery/using/unsupported-connector-migration.md)
    + [Envío de mensajes de LINE](delivery/using/line-channel.md)
-   + [Envío de notificaciones push &#x200B;](delivery/using/about-mobile-app-channel.md)
+   + [Envío de notificaciones push ](delivery/using/about-mobile-app-channel.md)
    + Envío de notificaciones push  {#sending-push-notifications}
       + [Integración del SDK de Campaign en la aplicación móvil](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configuración de la aplicación móvil{#configure-the-mobile-app}
@@ -164,11 +164,11 @@ ht-degree: 72%
       + [Creación de un envío a partir de una plantilla: OCULTO](delivery/using/creating-a-delivery-from-a-template.md)
    + Personalizar los envíos  {#personalizing-deliveries}
       + [Acerca de la personalización](delivery/using/about-personalization.md)
-      + [Campos de personalización](delivery/using/personalization-fields.md)
-      + [Bloques de personalización](delivery/using/personalization-blocks.md)
-      + [Contenido condicional](delivery/using/conditional-content.md)
-      + [Cupones personalizados](delivery/using/personalized-coupons.md)
-      + [Generación de documentos PDF personalizados](delivery/using/generating-personalized-pdf-documents.md)
+      + [Campos de personalización: OCULTOS](delivery/using/personalization-fields.md)
+      + [Bloques de personalización: OCULTOS](delivery/using/personalization-blocks.md)
+      + [Contenido condicional: OCULTO](delivery/using/conditional-content.md)
+      + [Cupones personalizados - OCULTOS](delivery/using/personalized-coupons.md)
+      + [Generación de documentos personalizados de PDF: OCULTO](delivery/using/generating-personalized-pdf-documents.md)
       + [Personalización de la lista de emoticonos](delivery/using/customizing-emoticon-list.md)
    + Uso de direcciones semilla  {#using-seed-addresses}
       + [Acerca de las direcciones semilla](delivery/using/about-seed-addresses.md)
@@ -376,7 +376,7 @@ ht-degree: 72%
    + Adobe Experience Manager {#adobe-experience-manager}
       + [Uso de  [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuración de la integración](integrations/using/configuring-the-integration.md)
-      + [Creación de una newsletter de  [!DNL Experience Manager] &#x200B;](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [Creación de una newsletter de  [!DNL Experience Manager] ](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
       + [Uso de  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuración de la integración con  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)

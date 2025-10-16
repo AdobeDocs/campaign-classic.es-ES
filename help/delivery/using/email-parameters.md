@@ -7,10 +7,10 @@ role: User, Developer, Data Engineer
 hide: true
 hidefromtoc: true
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
-workflow-type: ht
-source-wordcount: '903'
-ht-degree: 100%
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
+workflow-type: tm+mt
+source-wordcount: '905'
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ Al crear un nuevo envío o una plantilla de envíos, el correo electrónico CCO 
 
 >[!NOTE]
 >
->Si utiliza el correo electrónico CCO con [MTA mejorado](sending-with-enhanced-mta.md), esta opción se activa automáticamente para todos los envíos.
+>Si utiliza el correo electrónico CCO con [MTA mejorado](sending-with-enhanced-mta.md), esta opción se habilita automáticamente para todos los envíos.
 
 Para habilitar el correo electrónico CCO para una plantilla de envíos de correo electrónico, siga los pasos a continuación:
 
@@ -82,7 +82,7 @@ Seleccione el formato del correo electrónico en la sección inferior de la vent
 
 La página espejo es una página HTML accesible en línea mediante un navegador web. Su contenido es idéntico al del correo electrónico.
 
-De forma predeterminada, la página espejo se genera si el vínculo se inserta en el contenido del correo. Para obtener más información sobre cómo personalizar la inserción de bloques, consulte [Bloques de personalización](personalization-blocks.md).
+De forma predeterminada, la página espejo se genera si el vínculo se inserta en el contenido del correo. Para obtener más información sobre cómo personalizar la inserción de bloques, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 
 En las propiedades de la entrega, el campo **[!UICONTROL Mode]** de la pestaña **[!UICONTROL Validity]** permite modificar el modo de generación de esta página.
 
@@ -128,7 +128,7 @@ Para obtener más información sobre la gestión de correo rechazado, consulte [
 
 Es posible añadir encabezados SMTP a las entregas. Para ello, utilice la sección correspondiente en la pestaña **[!UICONTROL SMTP]** de la entrega.
 
-La secuencia de comandos introducida en esta ventana debe hacer referencia a un encabezado por línea en el siguiente formulario **name:value**.
+La secuencia de comandos introducida en esta ventana debe hacer referencia a un encabezado por línea en el siguiente formulario: **name:value**.
 
 Los valores se codifican automáticamente si es necesario.
 

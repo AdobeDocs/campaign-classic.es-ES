@@ -5,8 +5,10 @@ description: Obtenga información sobre cómo generar documentos PDF personaliza
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Personalization
 role: User
+hide: true
+hidefromtoc: true
 exl-id: e5239d99-256b-412b-be20-f64f822da9c3
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 97%

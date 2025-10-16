@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 4%
+source-wordcount: '743'
+ht-degree: 5%
 
 ---
 
@@ -85,7 +85,7 @@ Además del modelo de seguridad basado en carpetas, puede utilizar derechos asig
   </sysFilter>
   ```
 
-* SOAP También puede proteger algunas acciones (método de) definidas en esquemas. Solo tiene que establecer el atributo de acceso con el correspondiente derecho de nombre como valor.
+* También puede proteger algunas acciones (método SOAP) definidas en esquemas. Solo tiene que establecer el atributo de acceso con el correspondiente derecho de nombre como valor.
 
   ```
   <method name="grantVIPAccess" access="myNewRole">
@@ -119,7 +119,7 @@ La forma general de añadir un captcha en el DCE es crear un bloque de personali
 
 1. Use el tipo de contenido **[!UICONTROL Web application]** y marque **[!UICONTROL Visible in the customization menus]**.
 
-   Para obtener más información, consulte [esta página](../../delivery/using/personalization-blocks.md).
+   Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
 
    Este es un ejemplo de **captcha de campaña**:
 
@@ -176,7 +176,7 @@ La forma general de añadir un captcha en el DCE es crear un bloque de personali
 
 >[!IMPORTANT]
 >
->Para integrar reCAPTCHA, debe agregar JavaScript del lado del cliente en el HTML (en `<head>...</head>`):
+>Para integrar reCAPTCHA, debe agregar JavaScript del lado del cliente en HTML (en `<head>...</head>`):
 >
 >`<script src="https://www.google.com/recaptcha/api.js" async defer></script>`
 

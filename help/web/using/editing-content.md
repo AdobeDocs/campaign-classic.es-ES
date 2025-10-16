@@ -5,10 +5,10 @@ description: Edición de contenido
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
+source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 99%
+source-wordcount: '1229'
+ht-degree: 97%
 
 ---
 
@@ -259,4 +259,4 @@ La opción **Bloque personalizado** permite insertar bloques dinámicos y person
 
 Una vez insertado, el nombre del bloque personalizado aparece en el editor resaltado en amarillo. Se adapta automáticamente al perfil de destinatario cuando se genera la personalización.
 
-Para obtener más información sobre los bloques de personalización integrados y cómo definirlos, consulte [esta página](../../delivery/using/personalization-blocks.md).
+Para obtener más información sobre los bloques de personalización integrados y cómo definirlos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
