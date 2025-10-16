@@ -259,4 +259,4 @@ La opción **Bloque personalizado** permite insertar bloques dinámicos y person
 
 Una vez insertado, el nombre del bloque personalizado aparece en el editor resaltado en amarillo. Se adapta automáticamente al perfil de destinatario cuando se genera la personalización.
 
-Para obtener más información sobre los bloques de personalización integrados y cómo definirlos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
+Para obtener más información sobre los bloques de personalización integrados y cómo definirlos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=es){target="_blank"}.

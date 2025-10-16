@@ -28,7 +28,7 @@ Si un usuario final opta por no participar en el seguimiento de conductas median
 
 Para que se muestre dentro de las aplicaciones web o de las páginas de destino, es necesario configurar el banner.
 
-Adobe Campaign incluye un banner de muestra que debe adaptar a sus necesidades. Esta versión del banner aparece como un bloque personalizado ubicado en la carpeta del modelo de contenido. consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.
+Adobe Campaign incluye un banner de muestra que debe adaptar a sus necesidades. Esta versión del banner aparece como un bloque personalizado ubicado en la carpeta del modelo de contenido. consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=es){target="_blank"}.
 
 >[!IMPORTANT]
 >
