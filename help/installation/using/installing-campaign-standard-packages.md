@@ -172,7 +172,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Administración de cupones<br /> </td> 
-   <td> Crea un conjunto de cupones para añadirlos a próximas ofertas de marketing. Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html" target="_blank">Más información</a> <br /> </td> 
+   <td> Crea un conjunto de cupones para añadirlos a próximas ofertas de marketing. Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=es" target="_blank">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
