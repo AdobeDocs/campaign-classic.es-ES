@@ -212,7 +212,7 @@ Se ha añadido una nota sobre la integración entre Campaign y AEM Assets que se
 
 ## Julio de 2021 {#july-2021}
 
-[La versión 21.1.3 de Campaign ](../../rn/using/latest-release.md#release-21-1-3-build-9330)se ha trasladado a General Availability (GA).
+[La versión 21.1.3 de Campaign &#x200B;](../../rn/using/latest-release.md#release-21-1-3-build-9330)se ha trasladado a General Availability (GA).
 
 
 ## Junio de 2021 {#june-2021}
@@ -440,7 +440,7 @@ La sección de la actividad **[!UICONTROL AND-join]** se ha enriquecido con info
 
 Se ha añadido un caso de uso sobre cómo actualizar automáticamente una lista mediante una consulta incremental de los casos de uso del flujo de trabajo. [Más información](../../workflow/using/about-workflow-use-cases.md)
 
-Las [notas de la versión](../../rn/using/latest-release.md) se han reorganizado: se ha añadido una [página de información general](../../rn/using/latest-release.md) con información sobre los estados de las versiones, el proceso de actualización, las recomendaciones y los vínculos importantes. También se ha añadido una página dedicada a las versiones [[!DNL Gold Standard] ](../../rn/using/gold-standard.md) y se ha integrado la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
+Las [notas de la versión](../../rn/using/latest-release.md) se han reorganizado: se ha añadido una [página de información general](../../rn/using/latest-release.md) con información sobre los estados de las versiones, el proceso de actualización, las recomendaciones y los vínculos importantes. También se ha añadido una página dedicada a las versiones [[!DNL Gold Standard] &#x200B;](../../rn/using/gold-standard.md) y se ha integrado la [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md).
 
 Se ha añadido una nueva sección con directrices relacionadas con la supervisión de Campaign Classic. [Más información](../../production/using/monitoring-guidelines.md)
 
