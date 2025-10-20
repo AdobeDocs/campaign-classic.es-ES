@@ -43,8 +43,8 @@ Conozca los pasos clave relacionados con la creación de envíos de correo elect
 
 Consulte estas páginas para aprender a validar y enviar su envío de correo postal **en la documentación de Campaign v8**:
 
-* [Validar el envío](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#creating-a-direct-mail-delivery#validating){target="_blank"}: aprenda a comprobar el resultado del análisis y el contenido del archivo de salida.
-* [Realizar el envío](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html#creating-a-direct-mail-delivery#start-delivery){target="_blank"}: aprenda a realizar el envío de correo directo generando el archivo de extracción.
+* [Validar el envío](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=es#creating-a-direct-mail-delivery?lang=es#validating){target="_blank"}: aprenda a comprobar el resultado del análisis y el contenido del archivo de salida.
+* [Realizar el envío](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=es#creating-a-direct-mail-delivery?lang=es#start-delivery){target="_blank"}: aprenda a realizar el envío de correo directo generando el archivo de extracción.
 
 
 

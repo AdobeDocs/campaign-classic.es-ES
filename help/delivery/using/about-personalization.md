@@ -35,18 +35,18 @@ Para obtener más información sobre la personalización de contenido, consulte 
 
 Conozca los pasos clave relacionados con el contenido condicional y la personalización **en la documentación de Campaign v8**:
 
-* [Datos de Personalization](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-data.html){target="_blank"}: Aprenda a utilizar diferentes fuentes de datos para personalizar los envíos.
-* [Campos de personalización](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html){target="_blank"}: Aprenda a insertar y utilizar campos de personalización para que cada destinatario vea sus propios datos en el asunto o el cuerpo del mensaje.
-* [Bloques de personalización](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}: Aprenda a utilizar bloques de personalización para insertar contenido dinámico y condicional en los mensajes en función de los datos del destinatario.
-* [Contenido condicional](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/conditions.html){target="_blank"}: Aprenda a insertar contenido condicional basado en los valores de los campos de destinatario.
+* [Datos de Personalization](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-data.html?lang=es){target="_blank"}: Aprenda a utilizar diferentes fuentes de datos para personalizar los envíos.
+* [Campos de personalización](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-fields.html?lang=es){target="_blank"}: Aprenda a insertar y utilizar campos de personalización para que cada destinatario vea sus propios datos en el asunto o el cuerpo del mensaje.
+* [Bloques de personalización](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=es){target="_blank"}: Aprenda a utilizar bloques de personalización para insertar contenido dinámico y condicional en los mensajes en función de los datos del destinatario.
+* [Contenido condicional](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/conditions.html?lang=es){target="_blank"}: Aprenda a insertar contenido condicional basado en los valores de los campos de destinatario.
 
 >[!TAB Cupones, documentos PDF y emoticonos]
 
 Consulte estas páginas para obtener más información sobre la personalización de cupones, documentos de PDF y emoticonos **en la documentación de Campaign v8**:
 
 * [Cupones personalizados](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/ppersonalized-coupons.html){target="_blank"}: Aprenda a crear y asignar cupones personalizados o anónimos en sus envíos de correo electrónico.
-* [Generar documentos personalizados de PDF](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/generating-personalized-pdf-documents.html){target="_blank"}: aprenda a generar archivos adjuntos de PDF con contenido personalizado para cada destinatario.
-* [Personalizar la lista de emoticonos](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/customizing-emoticon-list.html){target="_blank"}: Aprenda a agregar y administrar emoticonos para mejorar los mensajes de correo electrónico.
+* [Generar documentos personalizados de PDF](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/generating-personalized-pdf-documents.html?lang=es){target="_blank"}: aprenda a generar archivos adjuntos de PDF con contenido personalizado para cada destinatario.
+* [Personalizar la lista de emoticonos](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/customizing-emoticon-list.html?lang=es){target="_blank"}: Aprenda a agregar y administrar emoticonos para mejorar los mensajes de correo electrónico.
 
 >[!ENDTABS]
 
@@ -61,7 +61,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
 
 The key steps to send an email are as follows:
 

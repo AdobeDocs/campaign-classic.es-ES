@@ -43,7 +43,7 @@ Mientras que con el acceso web, las opciones permiten principalmente la visualiz
 
 ![Desde un explorador, el mismo operador solo puede ver y cancelar la campaña.](assets/operation_from_web.png)
 
-Obtenga más información acerca del uso de la interfaz web en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#use-the-web-interface-){target=_blank}.
+Obtenga más información acerca del uso de la interfaz web en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=es#use-the-web-interface-){target=_blank}.
 
 ### Idiomas {#languages}
 
