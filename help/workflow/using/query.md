@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1630'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -163,7 +163,7 @@ En el siguiente ejemplo, la consulta busca identificar hombres de entre 18 y 30 
 * esquema
 * recCount
 
-Este conjunto de tres valores identifica la población objetivo de la consulta. **[!UICONTROL tableName]** es el nombre de la tabla que registra los identificadores de destinatario, **[!UICONTROL schema]** es el esquema de la población (normalmente nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
+Este conjunto de tres valores identifica la población objetivo de la consulta. **[!UICONTROL tableName]** es el nombre de la tabla que registra los identificadores de destinatario, **[!UICONTROL schema]** es el esquema de la población (normalmente, nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
 
 Este valor es el esquema de la tabla de trabajo. Este parámetro es válido para todas las transiciones con **[!UICONTROL tableName]** y **[!UICONTROL schema]**.
 
@@ -188,9 +188,9 @@ La sección siguiente ofrece prácticas recomendadas para optimizar las consulta
 
   Para obtener más información, consulte estas secciones en función de la versión de Campaign:
 
-  ![](assets/do-not-localize/v7.jpeg) [Documentación de Campaign v7](../../configuration/using/database-mapping.md)
+  ![](assets/do-not-localize/v7.jpeg)[Documentación de Campaign v7](../../configuration/using/database-mapping.md)
 
-  ![](assets/do-not-localize/v8.png) [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=es)
+  ![](assets/do-not-localize/v8.png)[Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=es)
 
 ### Funciones {#functions}
 

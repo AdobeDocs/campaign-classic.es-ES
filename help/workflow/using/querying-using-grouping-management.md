@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
 source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ En este ejemplo, se desea ejecutar una consulta para buscar todos los dominios d
 
 * ¿Qué tabla se debe seleccionar?
 
-  La tabla de destinatarios (nms:recipient)
+  La tabla del destinatario (nms:recipient)
 
 * ¿Campos que se van a seleccionar en las columnas de salida?
 
@@ -33,7 +33,7 @@ En este ejemplo, se desea ejecutar una consulta para buscar todos los dominios d
 
 Para crear este ejemplo, aplique los pasos siguientes:
 
-1. Abra **[!UICONTROL Generic query editor]** y elija la tabla de destinatarios (**nms:recipient**).
+1. Abra el **[!UICONTROL Generic query editor]** y seleccione la tabla de destinatarios (**nms:recipient**).
 
    ![](assets/query_editor_02.png)
 

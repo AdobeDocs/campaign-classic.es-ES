@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
 source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1237'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -185,7 +185,7 @@ En el árbol de todas las instancias de ejecución, cree una carpeta por cada op
 
 Para utilizar varias instancias de control, esta configuración debe realizarse en TODAS las instancias de ejecución.
 
-1. Cree una carpeta por operador en el nodo **[!UICONTROL Administration > Production > Message Center]** : **Folder 1** y **Folder 2**. Obtenga más información acerca de carpetas y vistas en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
+1. Cree una carpeta por operador en el nodo **[!UICONTROL Administration > Production > Message Center]** : **Folder 1** y **Folder 2**. Obtenga más información sobre carpetas y vistas en la [documentación de la versión 8 de Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
    ![](assets/messagecenter_multi_control_3.png)
 

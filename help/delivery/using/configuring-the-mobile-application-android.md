@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Para elegir el conector que desea utilizar, siga estos pasos:
 
    >[!NOTE]
    >
-   > También puede configurarlo de la siguiente manera: https://localhost:8080/nms/jsp/androidPushConnector.js, pero le recomendamos que utilice la versión 2 del conector.
+   > También puede configurarlo de la siguiente manera: https://localhost:8080/nms/jsp/androidPushConnector.js, pero se recomienda utilizar la versión 2 del conector.
 
    ![](assets/nmac_connectors3.png)
 
@@ -71,7 +71,7 @@ Para elegir el conector que desea utilizar, siga estos pasos:
 
    >[!NOTE]
    >
-   >La asignación de destino predeterminada **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** está vinculada a la tabla de destinatarios. Si desea utilizar una asignación de destinatario diferente, debe crear una nueva asignación de destino e introducirla en el campo **[!UICONTROL Target mapping]** del servicio. Para obtener más información sobre la creación de asignación de destino, consulte [esta sección](../../configuration/using/about-custom-recipient-table.md).
+   >La asignación de destino predeterminada **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** está relacionada con la tabla de destinatarios. Si desea utilizar una asignación de destinatario diferente, debe crear una nueva e introducirla en el campo **[!UICONTROL Target mapping]** del servicio. Para obtener más información sobre la creación de asignación de destino, consulte [esta sección](../../configuration/using/about-custom-recipient-table.md).
 
    ![](assets/nmac_ios.png)
 
@@ -105,7 +105,7 @@ Después de crear el servicio, debe crear la aplicación de Android:
 
 1. Haga clic en **[!UICONTROL Finish]**, luego en **[!UICONTROL Save]**. La aplicación de Android ya está lista para su uso en Campaign Classic.
 
-De manera predeterminada, Adobe Campaign guarda una clave en el campo **[!UICONTROL User identifier]** (@userKey) de la tabla **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]**. Esta clave permite vincular una suscripción a un destinatario. Para recopilar datos adicionales (como una clave de reconciliación compleja), es necesario aplicar la siguiente configuración:
+De forma predeterminada, Adobe Campaign guarda una clave en el campo **[!UICONTROL User identifier]** (@userKey) de la tabla **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]**. Esta clave permite vincular una suscripción a un destinatario. Para recopilar datos adicionales (como una clave de reconciliación compleja), es necesario aplicar la siguiente configuración:
 
 ### Configure la versión de la API{#select-api-version}
 

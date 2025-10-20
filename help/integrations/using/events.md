@@ -9,9 +9,9 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 13717b3b-d34a-40bc-9c9e-dcf578fc516e
 source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1200'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ La canalización utiliza una función de JavaScript para procesar cada mensaje. 
 
 Se configura en la opción **[!UICONTROL NmsPipeline_Config]** bajo el atributo &quot;JSConnector&quot;. Se llama a este JavaScript cada vez que se recibe un evento. Está dirigido por el proceso [!DNL pipelined].
 
-El archivo de JavaScript de muestra es cus:triggers.js.
+El archivo de JavaScript de muestra es cus:triggers.js
 
 ### Función JavaScript {#function-js}
 

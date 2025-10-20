@@ -7,9 +7,9 @@ feature: Monitoring
 role: User, Developer
 exl-id: ed88e1d6-c0d5-4a85-9f3e-be670f4bcc10
 source-git-commit: 28279c6ec0eab7f914cf6107cd1ec1cebd05113d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '594'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -72,4 +72,4 @@ El seguimiento de mensajes está habilitado de forma predeterminada. Para person
    * **[!UICONTROL Opt-out]**: considera esta URL como una URL de exclusión o de baja.
    * **[!UICONTROL Mirror page]**: considera esta URL como una URL de página espejo.
 
-1. Además, puede seleccionar una categoría para cada URL rastreada en la lista desplegable de la columna **[!UICONTROL Category]**. Estas categorías pueden mostrarse en los informes, como en **[!UICONTROL URLs and click streams]** (consulte [esta sección](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)). Las categorías se definen en una enumeración específica. Obtenga más información sobre cómo **trabajar con listas desglosadas** en la [documentación de la versión 8 de Adobe Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+1. Además, puede seleccionar una categoría para cada URL rastreada en la lista desplegable de la columna **[!UICONTROL Category]**. Estas categorías pueden mostrarse en los informes, como en **[!UICONTROL URLs and click streams]** (consulte [esta sección](../../reporting/using/reports-on-deliveries.md#urls-and-click-streams)). Las categorías se definen en una lista desglosada específica. Obtenga más información sobre cómo **trabajar con listas desglosadas** en la [documentación de la versión 8 de Adobe Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.

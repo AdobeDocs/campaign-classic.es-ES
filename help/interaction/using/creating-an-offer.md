@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
 source-git-commit: 192505e1c4d387de55ca18b578b837d237cc0607
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '807'
 ht-degree: 100%
 
@@ -160,7 +160,7 @@ Para visualizarlo, haga clic en el vínculo **[!UICONTROL Schedule and eligibili
 
 ## Previsualización de la oferta {#previewing-the-offer}
 
-Tan pronto como se haya configurado el contenido de la oferta, obtiene una vista previa de la oferta tal y como aparece para su destinatario. Para ello:
+Tan pronto como se haya configurado el contenido de la oferta, obtiene una vista previa de la oferta tal y como aparece para su destinatario. Para ello, haga lo siguiente:
 
 1. Haga clic en la pestaña **[!UICONTROL Preview]**.
 

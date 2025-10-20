@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2020'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ El “log” muestra la lista de mensajes de ejecución relacionados con las act
 
 ## Depuración de registros {#purging-the-logs}
 
-El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]**&#x200B;**[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](starting-a-workflow.md).
+El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]****[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](starting-a-workflow.md).
 
 ![](assets/purge_historique.png)
 
@@ -271,9 +271,9 @@ Para ello:
 
 1. Haga clic derecho en la carpeta donde desee añadir la vista.
 1. En **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**, seleccione la vista que desee añadir.
-1. Una vez añadida la carpeta al árbol, asegúrese de configurarla como una vista para que muestre todos los flujos de trabajo, independientemente de la carpeta de origen. Para obtener más información sobre cómo configurar vistas, consulte [esta sección](../../platform/using/about-adobe-campaign-classic.md).
+1. Una vez añadida la carpeta al árbol, asegúrese de configurarla como una vista para que muestre todos los flujos de trabajo, independientemente de la carpeta de origen. Para obtener más información sobre cómo configurar las vistas, consulte [esta sección](../../platform/using/about-adobe-campaign-classic.md).
 
-Además de estas vistas, puede configurar carpetas de filtros que le permitan filtrar la lista de flujos de trabajo según su estado de ejecución. Para ello:
+Además de estas vistas, puede configurar carpetas de filtros que le permitan filtrar la lista de flujos de trabajo según su estado de ejecución. Para ello, haga lo siguiente:
 
 1. Acceda a una carpeta de tipo de flujo de trabajo y seleccione el menú **[!UICONTROL Filters]** / **[!UICONTROL Advanced filter]**.
 1. Configure el filtro para que el campo **[!UICONTROL @status]** del flujo de trabajo sea igual al estado que elija.
@@ -281,4 +281,4 @@ Además de estas vistas, puede configurar carpetas de filtros que le permitan fi
 
 ![](assets/workflow-monitoring-filter.png)
 
-Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+Para obtener más información sobre los filtros, consulte la [documentación de la versión 8 de Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.

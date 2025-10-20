@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '588'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Ya está configurado el conector de iOS. Puede crear su servicio.
 
    >[!NOTE]
    >
-   >La asignación de destino predeterminada **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** está vinculada a la tabla de destinatarios. Si desea utilizar una asignación de destinatario diferente, debe crear una nueva asignación de destino e introducirla en el campo **[!UICONTROL Target mapping]** del servicio. Para obtener más información sobre la creación de asignación de destinatario, consulte la [guía de configuración](../../configuration/using/about-custom-recipient-table.md).
+   >La asignación de destino predeterminada **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** está relacionada con la tabla de destinatarios. Si desea utilizar una asignación de destinatario diferente, debe crear una nueva asignación de destino e introducirla en el campo **[!UICONTROL Target mapping]** del servicio. Para obtener más información sobre la creación de asignación de destinatario, consulte la [guía de configuración](../../configuration/using/about-custom-recipient-table.md).
 
    ![](assets/nmac_ios.png)
 
@@ -87,7 +87,7 @@ En el siguiente ejemplo, se añaden **mediaURl** y **mediaExt** para crear notif
 
    ![](assets/nmac_ios_3.png)
 
-1. La ficha **[!UICONTROL Subscription parameters]** le permite definir la asignación con una extensión del esquema **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]**.
+1. La pestaña **[!UICONTROL Subscription parameters]** permite definir la asignación con una extensión del esquema **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]**.
 
    >[!NOTE]
    >

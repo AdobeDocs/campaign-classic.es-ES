@@ -6,9 +6,9 @@ hide: true
 hidefromtoc: true
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
 source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ El filtrado de datos es el proceso de seleccionar una parte más pequeña del co
 
 Cuando navega por el árbol de Adobe Campaign (en el menú **[!UICONTROL Explorer]** de la página principal), los datos contenidos en la base de datos se muestran en listas. Estas listas se pueden configurar para mostrar solo los datos necesarios para el operador. Se pueden realizar acciones sobre los datos filtrados. La configuración del filtro permite seleccionar datos de una lista **[!UICONTROL dynamically]**. Al modificar los datos, los datos filtrados se actualizan.
 
-Obtenga más información sobre **Filtros y cómo usarlos** en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}.
+Obtenga más información sobre **Filtros y cómo usarlos** en la [documentación de la versión 8 de Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}.
 
 
 <!--

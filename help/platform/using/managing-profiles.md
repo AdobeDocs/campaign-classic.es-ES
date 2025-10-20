@@ -10,9 +10,9 @@ exl-id: e1d0556a-6f30-4863-9025-eb9c1b8b53d3
 hide: true
 hidefromtoc: true
 source-git-commit: d3a603bbb70dc63e72b6eed87a6503e155aff54e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Cada nodo coincide con una carpeta. Los datos de cada carpeta deben considerarse
 
 >[!NOTE]
 >
-> * Para mostrar la lista de todos los destinatarios de la base de datos, debe crear una vista. Obtenga más información en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
+> * Para mostrar la lista de todos los destinatarios de la base de datos, debe crear una vista. Obtenga más información en la [documentación de la versión 8 de Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 >
-> * Para obtener más información sobre cómo administrar los perfiles, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
+> * Para obtener más información sobre cómo administrar los perfiles, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
 
 <!--

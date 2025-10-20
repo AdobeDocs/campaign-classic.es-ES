@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
 source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1155'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Cuando un destinatario hace clic en el vínculo de baja de suscripción en un me
 
 ## Creación de un destinatario nuevo {#creating-a-new-recipient}
 
-1. Cree un destinatario nuevo en Campaign v7 para la duplicación en Campaign Standard. Introduzca la mayor cantidad de información posible, incluidos el apellido, el nombre, la dirección de correo electrónico y la dirección postal del destinatario. Sin embargo, no elija **[!UICONTROL Salutation]**, ya que se agregará en la siguiente sección, [Editar un destinatario](#editing-a-recipient).
+1. Cree un destinatario nuevo en Campaign v7 para la duplicación en Campaign Standard. Introduzca la mayor cantidad de información posible, incluidos el apellido, el nombre, la dirección de correo electrónico y la dirección postal del destinatario. No obstante, no seleccione **[!UICONTROL Salutation]**, ya que se añadirá en la siguiente sección, [Edición de un destinatario](#editing-a-recipient).
 
    ![](assets/acs_connect_profile_sync_01.png)
 
@@ -57,7 +57,7 @@ Cuando un destinatario hace clic en el vínculo de baja de suscripción en un me
 
 Los pasos siguientes para cambiar un único punto de datos proporcionan un ejemplo sencillo de cómo Campaign v7 se convierte en la base de datos primaria para Campaign Standard cuando se utiliza la duplicación de datos. Modificar o eliminar los datos duplicados en Campaign v7 tiene el mismo efecto en los datos correspondientes de Campaign Standard.
 
-1. Elija el destinatario recién creado de [Crear un destinatario nuevo](#creating-a-new-recipient) y edite el nombre del destinatario. Por ejemplo, elija un **[!UICONTROL Salutation]** para el destinatario (por ejemplo, Sr. o Sra.).
+1. Elija el destinatario recién creado en [Creación de un nuevo destinatario](#creating-a-new-recipient) y edite el nombre del destinatario. Por ejemplo, seleccione un **[!UICONTROL Salutation]** para el destinatario (por ejemplo, Sr. o Sra.).
 
    ![](assets/acs_connect_profile_sync_03.png)
 

@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 4d9c5b24-83a2-4495-a56c-5bc376d69703
 source-git-commit: b4059e43d98643f0f8b5b3f68f03e10b755e8ba3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -32,18 +32,18 @@ La ventana de conexión de la consola del cliente le permite seleccionar o confi
 
 ## Conexión a Adobe Campaign {#connecting-to-adobe-campaign}
 
-### Conexión con su Adobe ID
+### Conexión mediante el Adobe ID
 
-Los usuarios de Campaign se conectan a la consola de Adobe Campaign mediante su Adobe ID a través del sistema de administración de identidades (IMS) de Adobe. Pueden utilizar el mismo ID en todas las soluciones de Adobe. Cada conexión se guarda cuando se utiliza Adobe Campaign con otras soluciones. Obtenga más información acerca de Adobe IMS [en esta página](https://helpx.adobe.com/es/enterprise/using/identity.html).
+Los usuarios de Campaign se conectan a la consola de Adobe Campaign mediante su Adobe ID a través del sistema de administración de identidades (IMS) de Adobe. Pueden utilizar el mismo ID en todas las soluciones de Adobe. Cada conexión se guarda cuando se utiliza Adobe Campaign con otras soluciones. Obtenga más información sobre Adobe IMS en [esta página](https://helpx.adobe.com/es/enterprise/using/identity.html).
 
-Para configurar la conexión de Campaign Classic v7 con el servicio Adobe Identity Management (IMS), consulte [esta página](../../integrations/using/about-adobe-id.md).
+Para configurar la conexión de Campaign Classic v7 con el servicio de administración de identidades (IMS) de Adobe, consulte [esta página](../../integrations/using/about-adobe-id.md).
 
 Una vez completada la configuración, aprenda a conectarse a Campaign con su Adobe ID en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/connect){target=_blank}.
 
 
-### Conectar con un inicio de sesión o una contraseña
+### Conexión con un inicio de sesión o una contraseña
 
-También puede conectarse con un nombre de usuario y contraseña específicos. Esta conexión se conoce como &quot;Autenticación nativa&quot; de Campaign:
+También puede conectarse con un nombre de usuario y contraseña específicos. Esta conexión se conoce como &#39;Autenticación nativa&#39; de Campaign:
 
 1. Introduzca el identificador de la cuenta del operador en el campo de **[!UICONTROL Login]**.
 
