@@ -41,7 +41,7 @@ La cuarentena y la inclusión en la lista de bloqueados no se aplican al mismo o
 
 * Al incluirse en la **lista de bloqueados**, no obstante, el **perfil** ya no se tendrá en cuenta en las entregas, por ejemplo, tras una baja (exclusión) de un canal determinado. Por ejemplo, si un perfil incluido en la lista de bloqueados del canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán de la entrega.
 
-  Puede comprobar si un perfil se encuentra en la lista de bloqueados de la para uno o más canales en la sección **[!UICONTROL No longer contact]** de la pestaña **[!UICONTROL General]** del perfil.
+  Puede comprobar si un perfil está en la lista de bloqueados de uno o más canales en la sección **[!UICONTROL No longer contact]** de la pestaña **[!UICONTROL General]** del perfil.
 >[!NOTE]
 >
 >La cuarentena incluye el estado **[!UICONTROL Denylisted]**, que se aplica cuando los destinatarios informan el mensaje como correo no deseado o responden a un mensaje SMS con la palabra clave como “DETENER”. En ese caso, la dirección o el número de teléfono del perfil se envían a cuarentena con el estado **[!UICONTROL Denylisted]**. Para obtener más información sobre la administración de SMS de detención, consulte [esta sección](../../delivery/using/sms-send.md#processing-inbound-messages).

@@ -6,7 +6,7 @@ exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
       <br/>
-      <strong>Perfiles y audiencias</strong><br/> <a href="platform/using/creating-and-managing-lists.md">Crear listas</a> - <a href="delivery/using/about-services-and-subscriptions.md">Servicios y suscripciones</a> - <a href="platform/using/privacy-management.md">Privacidad y consentimiento</a>
+      <strong>Perfiles y públicos</strong><br/> <a href="platform/using/creating-and-managing-lists.md">Crear listas</a> - <a href="delivery/using/about-services-and-subscriptions.md">Servicios y suscripciones</a> - <a href="platform/using/privacy-management.md">Privacidad y consentimiento</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">

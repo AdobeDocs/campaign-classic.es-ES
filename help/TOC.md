@@ -9,7 +9,7 @@ type: Documentation
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
 source-wordcount: '2744'
-ht-degree: 72%
+ht-degree: 75%
 
 ---
 
@@ -23,19 +23,19 @@ ht-degree: 72%
    + Versiones anteriores {#previous-releases}
       + [2024](rn/using/release-2024.md)
       + [2023](rn/using/release-2023.md)
-      + [2022 - OCULTO](rn/using/release-2022.md)
+      + [2022: OCULTO](rn/using/release-2022.md)
       + [2021: OCULTO](rn/using/release-2021.md)
       + [[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
    + [Funciones obsoletas](rn/using/deprecated-features.md)
    + [Matriz de compatibilidad](rn/using/compatibility-matrix.md)
-   + [Actualizaciones de la documentación: OCULTAS](rn/using/documentation-updates.md)
+   + [Actualizaciones de la documentación: OCULTO](rn/using/documentation-updates.md)
 + Introducción {#getting-started}
    + [Introducción a Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
    + [Lanzamiento de Adobe Campaign](platform/using/launching-adobe-campaign.md)
-   + [IU de Discover Campaign](platform/using/adobe-campaign-workspace.md)
-   + [Uso del explorador de Campaign: OCULTO](platform/using/adobe-campaign-explorer.md)
+   + [Descubrimiento de la interfaz de usuario de Campaign](platform/using/adobe-campaign-workspace.md)
+   + [Uso de Campaign Explorer: OCULTO](platform/using/adobe-campaign-explorer.md)
    + [Examen y personalización de listas: OCULTO](platform/using/adobe-campaign-ui-lists.md)
-   + [Enumeraciones: OCULTAS](platform/using/managing-enumerations.md)
+   + [Listas desglosadas: OCULTO](platform/using/managing-enumerations.md)
    + [Conectores de Campaign](platform/using/about-connectors.md)
    + [Creación de consultas en Campaign](platform/using/about-queries-in-campaign.md)
    + Preguntas frecuentes {#faq}
@@ -85,9 +85,9 @@ ht-degree: 72%
          + [Prácticas recomendadas de importación y exportación](platform/using/import-export-best-practices.md)
          + [Prácticas recomendadas y solución de problemas del servidor SFTP](platform/using/sftp-server-usage.md)
    + Filtrado de datos {#filtering-data}
-      + [Opciones de filtrado: OCULTAS](platform/using/filtering-options.md)
-      + [Crear filtros: OCULTOS](platform/using/creating-filters.md)
-      + [Caso de uso: Oculto](platform/using/use-case.md)
+      + [Opciones de filtrado: OCULTO](platform/using/filtering-options.md)
+      + [Creación de filtros: OCULTO](platform/using/creating-filters.md)
+      + [Caso de uso: OCULTO](platform/using/use-case.md)
    + [Pasos para crear una consulta: OCULTO](platform/using/steps-to-create-a-query.md)
    + [Definición de condiciones de filtro: OCULTO](platform/using/defining-filter-conditions.md)
    + Permisos {#permissions}
@@ -96,13 +96,13 @@ ht-degree: 72%
          + [Creación y administración de operadores](platform/using/access-management-operators.md)
          + [Creación y administración de grupos](platform/using/access-management-groups.md)
       + [Uso de derechos asignados para configurar permisos](platform/using/access-management-named-rights.md)
-      + [Administrar el acceso a las carpetas: OCULTO](platform/using/access-management-folders.md)
+      + [Administración del acceso a las carpetas: OCULTO](platform/using/access-management-folders.md)
    + Conectores CRM {#connectors}
       + [Introducción a los conectores CRM](platform/using/crm-connectors.md)
       + [Conexión con Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
       + [Conexión con Salesforce.com](platform/using/crm-sfdc.md)
       + [Sincronización de datos con el CRM](platform/using/crm-data-sync.md)
-   + [Opciones de ayuda y asistencia - OCULTO](support.md)
+   + [Opciones de ayuda y asistencia: OCULTO](support.md)
 + Creación y envío de mensajes  {#sending-messages}
    + [Introducción a los mensajes](delivery/using/communication-channels.md)
    + [Configuración de envío: OCULTO](delivery/using/delivery-settings.md)
@@ -141,7 +141,7 @@ ht-degree: 72%
       + [Creación de un SMS: OCULTO](delivery/using/sms-create.md)
       + [Migración al conector genérico SMPP extendido](delivery/using/unsupported-connector-migration.md)
    + [Envío de mensajes de LINE](delivery/using/line-channel.md)
-   + [Envío de notificaciones push &#x200B;](delivery/using/about-mobile-app-channel.md)
+   + [Envío de notificaciones push ](delivery/using/about-mobile-app-channel.md)
    + Envío de notificaciones push  {#sending-push-notifications}
       + [Integración del SDK de Campaign en la aplicación móvil](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configuración de la aplicación móvil{#configure-the-mobile-app}
@@ -152,7 +152,7 @@ ht-degree: 72%
          + [Crear un mensaje push para iOS: OCULTO](delivery/using/create-notifications-ios.md)
          + [Crear un mensaje push para Android: OCULTO](delivery/using/create-notifications-android.md)
       + [Solución de problemas - OCULTO](delivery/using/troubleshooting.md)
-   + [Envío de correos directos](delivery/using/about-direct-mail-channel.md)
+   + [Envío de correos directos ](delivery/using/about-direct-mail-channel.md)
    + Envío de correo directo  {#sending-direct-mail}
       + [Creación de un envío de correo postal: OCULTO](delivery/using/creating-a-direct-mail-delivery.md)
       + [Definición del contenido de correo postal: OCULTO](delivery/using/defining-the-direct-mail-content.md)
@@ -376,7 +376,7 @@ ht-degree: 72%
    + Adobe Experience Manager {#adobe-experience-manager}
       + [Uso de  [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuración de la integración](integrations/using/configuring-the-integration.md)
-      + [Creación de una newsletter de  [!DNL Experience Manager] &#x200B;](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [Creación de una newsletter de  [!DNL Experience Manager] ](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
       + [Uso de  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuración de la integración con  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
@@ -384,9 +384,9 @@ ht-degree: 72%
    + Conector ACS {#acs-connector}
       + [Introducción a  [!DNL ACS Connector] : OCULTO](integrations/using/acs-connector-principles-and-data-cycle.md)
       + [Sincronización de perfiles: OCULTO](integrations/using/synchronizing-profiles.md)
-      + [Sincronización de audiencias: OCULTO](integrations/using/synchronizing-audiences.md)
+      + [Sincronización de públicos: OCULTO](integrations/using/synchronizing-audiences.md)
       + [Sincronización de aplicaciones web: OCULTO](integrations/using/synchronizing-web-applications.md)
-      + [Solucionar problemas de  [!DNL ACS Connector] : OCULTO](integrations/using/troubleshooting-the-acs-connector.md)
+      + [Solución de problemas de  [!DNL ACS Connector] : OCULTO](integrations/using/troubleshooting-the-acs-connector.md)
 + [Automatización con flujos de trabajo](workflow/using/about-workflows.md)
 + Automatización con flujos de trabajo {#automating-with-workflows}
    + Introducción a los flujos de trabajo {#introduction}

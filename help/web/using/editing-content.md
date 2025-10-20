@@ -8,7 +8,7 @@ exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
 source-wordcount: '1229'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,7 @@ Puede vincular campos de base de datos con la zona de entrada, el botón de opci
 
 La zona de entrada de **campo** permite seleccionar un campo de base de datos para vincularlo al campo de formulario.
 
-De manera predeterminada, los campos ofrecidos son los de la tabla **nms:recipient**.
+De forma predeterminada, los campos que se ofrecen son los que se encuentran en la tabla **nms:recipient**.
 
 ![](assets/dce_field_selection.png)
 
@@ -70,7 +70,7 @@ La opción **Campo requerido** permite autorizar la aprobación de la página ú
 
 De hecho, si la plantilla utilizada no contiene un valor de forma predeterminada, debe completarla en el editor.
 
-Para ello:
+Para ello, haga lo siguiente:
 
 * Haga clic en el icono **[!UICONTROL Edit]**.
 
@@ -259,4 +259,4 @@ La opción **Bloque personalizado** permite insertar bloques dinámicos y person
 
 Una vez insertado, el nombre del bloque personalizado aparece en el editor resaltado en amarillo. Se adapta automáticamente al perfil de destinatario cuando se genera la personalización.
 
-Para obtener más información sobre los bloques de personalización integrados y cómo definirlos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=es){target="_blank"}.
+Para obtener más información sobre los bloques de personalización integrados y cómo definirlos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html){target="_blank"}.

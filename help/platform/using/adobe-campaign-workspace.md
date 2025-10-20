@@ -9,7 +9,7 @@ exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 72%
+ht-degree: 98%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 72%
 
 ## Explore la interfaz de Adobe Campaign {#about-adobe-campaign-interface}
 
-Una vez que esté conectado a la base de datos, accederá a la página principal de Adobe Campaign. Esta página es su tablero: se compone de vínculos y accesos directos que le permiten acceder a las funcionalidades, según la instalación y las configuraciones de la plataforma general.
+Una vez que esté conectado a la base de datos, acceda a la página de inicio de Adobe Campaign. Esta página es su panel: se compone de vínculos y accesos directos que le permiten acceder a las funcionalidades, según la instalación y las configuraciones de la plataforma general.
 
-Desde la sección central de la página principal, puede utilizar vínculos para acceder al portal de documentación de Campaign, a la comunidad y al sitio web del Servicio de atención al cliente de Adobe.
+Desde la sección central de la página de inicio, puede utilizar vínculos para acceder al portal de documentación de Campaign, a la comunidad y al sitio web del servicio de atención al cliente.
 
 ![](assets/d_ncs_user_interface_home.png)
 
@@ -43,7 +43,7 @@ Mientras que con el acceso web, las opciones permiten principalmente la visualiz
 
 ![Desde un explorador, el mismo operador solo puede ver y cancelar la campaña.](assets/operation_from_web.png)
 
-Obtenga más información acerca del uso de la interfaz web en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=es#use-the-web-interface-){target=_blank}.
+Obtenga más información acerca del uso de la interfaz web en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#use-the-web-interface-){target=_blank}.
 
 ### Idiomas {#languages}
 
@@ -110,16 +110,16 @@ Es posible acceder a Adobe Campaign Explorer mediante el icono de la barra de he
 
 Para obtener más información sobre el explorador de Adobe Campaign, consulte estas páginas en la **documentación de Campaign v8 (consola)**:
 
-* [Descripción general de la interfaz de usuario de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
+* [Información general sobre la interfaz de usuario de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
 * [Configuración de la interfaz de usuario de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
-* [Administrar carpetas y vistas en el explorador](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
+* [Administre carpetas y vistas en el explorador](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}.
 
 
 ## Filtrado de datos {#filters}
 
-El filtrado de datos es el proceso de reducir un conjunto de datos a solo los registros que coinciden con criterios específicos. Este subconjunto se puede utilizar para acciones segmentadas (como actualizaciones o creación de audiencias) o para análisis.
+El filtrado de datos es el proceso de reducir un conjunto de datos a solo los registros que cumplen criterios específicos. A continuación, este subconjunto se puede utilizar para acciones segmentadas (como por ejemplo, actualizaciones o creación de públicos) o para el análisis.
 
 Al navegar por Campaign, los datos se muestran en listas. Puede aplicar filtros integrados para acceder rápidamente a un subconjunto definido, como direcciones en cuarentena, destinatarios sin objetivo o registros dentro de un intervalo de edad o fecha de creación específicos. Además, puede crear filtros personalizados, guardarlos para usarlos en el futuro y compartirlos con otros usuarios de Campaign.
 
@@ -130,7 +130,7 @@ Aprenda a **acceder, diseñar y compartir filtros** en la [documentación de Cam
 
 En la consola del cliente de Campaign, los datos se muestran en listas. Puede adaptar estas listas a sus necesidades. Por ejemplo, puede añadir columnas, filtrar datos, contar registros, y guardar y compartir su configuración.
 
-Aprenda a **administrar y personalizar listas** en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
+Obtenga información sobre cómo **administrar y personalizar listas** en la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/ui-settings#customize-lists){target=_blank}.
 
 ## Administración de enumeraciones{#managing-enumerations}
 
@@ -138,10 +138,10 @@ Una lista desglosada (también denominada lista detallada) es una lista predefin
 
 Cuando se definen, los valores se muestran en una lista desplegable. Puede seleccionar un valor directamente o introducirlo mediante una entrada predictiva, que sugiere y completa entradas coincidentes. Algunos campos incluyen listas desglosadas predefinidas y se pueden crear listas desglosadas adicionales si es necesario.
 
-Obtenga más información sobre cómo **trabajar con enumeraciones** en la [documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+Obtenga más información sobre cómo **trabajar con listas desglosadas** en la [documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
 ## Tutorial en vídeo {#video}
 
 Este vídeo presenta el espacio de trabajo de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39532?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

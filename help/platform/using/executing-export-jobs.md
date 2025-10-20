@@ -11,7 +11,7 @@ exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 Los trabajos de exportación permiten acceder a la base de datos y extraer datos de ella: contactos, clientes, listas, segmentos, etc.
 
-Por ejemplo: puede resultar útil utilizar datos de seguimiento de campañas (historial de seguimiento, etc.) en una hoja de cálculo. Los datos de salida pueden estar en formato txt, CSV, TAB o formato XML.
+Por ejemplo: puede ser práctico utilizar datos de seguimiento de campañas (el historial de seguimiento, etc.) en una hoja de cálculo. Los datos de salida pueden estar en formato TXT, CSV, TAB o XML.
 
 El asistente de exportación permite configurar una exportación, definir sus opciones e iniciar la ejecución. Es una serie de pantallas cuyo contenido depende del tipo de exportación (simple o múltiple) y de los derechos del operador.
 
@@ -78,7 +78,7 @@ Seleccione un formato de salida para el archivo de exportación. Se pueden utili
 
 ## Paso 4: Selección de datos {#step-4---data-selection}
 
-Seleccione los campos que desea exportar. Para ello:
+Seleccione los campos que desea exportar. Para ello, haga lo siguiente:
 
 1. Haga doble clic en los campos deseados en la lista **[!UICONTROL Available fields]** para añadirlos a la sección **[!UICONTROL Output columns]**.
 1. Utilice las flechas de la derecha de la lista para definir el orden de los campos en el archivo de salida.
