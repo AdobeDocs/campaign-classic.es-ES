@@ -104,7 +104,7 @@ Esta sección describe una solución para configurar el seguimiento y las direcc
 
 ### Nota de compatibilidad {#compatibility-note}
 
-Esta configuración de promoción de la marca heredada no es compatible con el nuevo modelo [promoción de la marca centralizada](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} introducido en Campaign v8.
+Esta configuración de promoción de la marca heredada no es compatible con el nuevo modelo [promoción de la marca centralizada](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html?lang=es){target="_blank"} introducido en Campaign v8.
 
 Si el entorno existente utiliza esta configuración heredada, no se puede migrar directamente al nuevo modelo de promoción de la marca centralizada. Se requiere una reimplementación completa de la configuración de marca para adoptar el nuevo sistema.
 
