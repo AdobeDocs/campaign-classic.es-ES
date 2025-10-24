@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: bba3f23637dd67a1557203c5ed1b93a6cb044870
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 96%
+source-wordcount: '850'
+ht-degree: 90%
 
 ---
 
@@ -101,6 +101,12 @@ Si modifica la programación del flujo de trabajo de archivado, también debe ca
 ## Configuración de marcas múltiples {#configuring-multibranding}
 
 Esta sección describe una solución para configurar el seguimiento y las direcciones URL de las páginas espejo por marca para los mensajes transaccionales en Adobe Campaign.
+
+### Nota de compatibilidad {#compatibility-note}
+
+Esta configuración de promoción de la marca heredada no es compatible con el nuevo modelo [promoción de la marca centralizada](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/branding/branding-gs.html){target="_blank"} introducido en Campaign v8.
+
+Si el entorno existente utiliza esta configuración heredada, no se puede migrar directamente al nuevo modelo de promoción de la marca centralizada. Se requiere una reimplementación completa de la configuración de marca para adoptar el nuevo sistema.
 
 ### Requisitos previos {#prerequisites}
 
