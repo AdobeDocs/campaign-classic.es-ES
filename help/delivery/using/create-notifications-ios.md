@@ -8,17 +8,17 @@ hide: true
 hidefromtoc: true
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '980'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Creación de notificaciones para iOS{#create-notifications-ios}
 
-En esta sección se detallan los elementos específicos para la entrega de notificaciones en iOS. Los conceptos globales sobre la creación de envíos se presentan en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}.
+En esta sección se detallan los elementos específicos para la entrega de notificaciones en iOS. En la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"} se exponen conceptos globales sobre la creación de envíos.
 
-Comience creando una nueva entrega.
+Comience creando un nuevo envío.
 
 ![](assets/nmac_delivery_1.png)
 
@@ -34,7 +34,7 @@ Para crear una notificación push para dispositivos iOS, siga los pasos a contin
 
    >[!NOTE]
    >
-   >El proceso detallado al seleccionar la población objetivo de una entrega se presenta en esta sección en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#target-population.){target="_blank"}.
+   >El proceso detallado al seleccionar la población destinataria de un envío se expone en esta sección en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#target-population.){target="_blank"}.
    >
    >Para obtener más información sobre el uso de los campos de personalización, consulte [esta sección](about-personalization.md).
    >

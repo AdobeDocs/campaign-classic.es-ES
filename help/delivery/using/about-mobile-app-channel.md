@@ -6,9 +6,9 @@ feature: Push
 role: User
 exl-id: c3b0406f-f652-42f4-ad0d-23fb719cd1b6
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Con Adobe Campaign, cree envíos de notificaciones push para enviar mensajes per
 
 Las notificaciones push le permiten atraer a usuarios en iOS y Android en tiempo real. Ya sea para enviar actualizaciones, anuncios o promociones, puede controlar el contenido, el tiempo y la segmentación. Aprenda a configurar y utilizar el canal push, administrar suscripciones, integrarse con los APN y FCM y personalizar mensajes en la [documentación de la versión 8 de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Las funciones comunes ahora están disponibles exclusivamente en el conjunto de documentación de Campaign v8.
+Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8.
 
 >[!BEGINTABS]
 
@@ -31,7 +31,7 @@ Para obtener más información sobre el canal de notificaciones push, consulte l
 
 >[!TAB Creación de envíos push]
 
-Conozca los pasos clave relacionados con la creación de envíos push **en la documentación de Campaign v8**:
+Conozca los pasos clave relacionados con la creación de envíos push en **la documentación de la versión 8 de Campaign**:
 
 * [Crear una notificación push](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=es#push-create){target="_blank"}: obtenga información sobre los diferentes pasos necesarios para crear un envío push.
 * [Enviar y monitorizar la notificación push](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push.html?lang=es#push-test){target="_blank"}: obtenga información sobre cómo validar, enviar y rastrear sus envíos.
@@ -41,7 +41,7 @@ Conozca los pasos clave relacionados con la creación de envíos push **en la do
 
 >[!TAB Parámetros de push]
 
-Consulte estas páginas para obtener más información sobre los parámetros push **en la documentación de Campaign v8**:
+Consulte estas páginas para obtener más información sobre los parámetros de push **en la documentación de Campaign v8**:
 
 * [Requisitos previos de configuración](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=es#before-starting){target="_blank"}: aprenda a configurar permisos y a configurar su aplicación.
 * [Configurar la propiedad de inicio](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=es#launch-property){target="_blank"}: obtenga información sobre cómo configurar una propiedad de etiquetas móviles en la recopilación de datos de Adobe Experience Platform para habilitar las notificaciones push.

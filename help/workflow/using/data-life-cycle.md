@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Esto permite utilizar datos recopilados mediante una lista o basados en las resp
 
 Los elementos personalizados de tipo **[!UICONTROL Target extension]** (targetData) no están disponibles para flujos de trabajo de objetivos. El objetivo de la entrega debe generarse en el flujo de trabajo y especificarse en la transición entrante de la entrega.
 
-Si desea crear pruebas de entrega, el objetivo de la prueba debe crearse en función del modo **[!UICONTROL Address substitution]** para poder introducir los datos personalizados. Para obtener más información, consulte esta sección en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#target-population){target="_blank"}.
+Si desea crear pruebas de entrega, el objetivo de la prueba debe crearse en función del modo **[!UICONTROL Address substitution]** para poder introducir los datos personalizados. Para obtener más información, consulte esta sección en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#target-population){target="_blank"}.
 
 En el siguiente ejemplo, recopilamos una lista de información sobre los clientes para utilizar en un correo electrónico personalizado.
 

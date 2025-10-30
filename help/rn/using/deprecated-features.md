@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1658'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
     <tr>
   <td>Informe de monitorización de la capacidad de envío técnico<br></td>
    <td><p>El informe de monitorización de la capacidad de entrega técnica ya no está disponible. Ya no se utiliza en la versión 21.1.3 de Campaign.</p>
-   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>
@@ -98,8 +98,8 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    <td><p>Tras el fin de la vida útil del Flash Player de Adobe, el informe Medición y el motor de renderización Gráfico ya no están disponibles. <a href="../../reporting/using/creating-a-new-report.md">Más información</a></p>
   </tr>
   <tr>  
-   <td>canal de fax<br></td>
-   <td><p>A partir de la versión 21.1.3 de Campaign, el canal de fax ya no está disponible. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es" target="_blank">Obtenga más información en la documentación de Campaign v8</a></p>
+   <td>Canal de fax<br></td>
+   <td><p>A partir de la versión 21.1.3 de Campaign, el canal de fax ya no está disponible. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es" target="_blank">Obtenga más información en la documentación de la versión 8 de Campaign</a></p>
   </tr>
   <tr>
   <td>Dominio de Demdex<br></td>
@@ -137,7 +137,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
   <tr> 
    <td>API decryptString</td>
    <td><p>A partir de la versión 18.6 de Campaign y por motivos de seguridad, la API <em>decryptString</em> ya no está disponible de forma predeterminada en las nuevas instalaciones.</p> 
-   <p>En el contexto de una actualización posterior a la versión 18.6 (y versiones posteriores), esta API ya no se activa y se ha sustituido por la función <em>decryptPassword. </em> <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?lang=es&hl=decrypt">Más información</a></p></td>
+   <p>En el contexto de una actualización posterior a la versión 18.6 (y versiones posteriores), esta API ya no se activa y se ha sustituido por la función <em>decryptPassword. </em> <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?hl=decrypt">Más información</a></p></td>
   </tr> 
    <tr> 
    <td>Canal móvil: mensajes push de MMS y WAP</td>

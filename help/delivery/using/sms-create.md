@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 94%
 
 ## Selección del canal de entrega {#selecting-the-delivery-channel}
 
-Para diseñar una entrega de SMS nuevo, siga los pasos a continuación:
+Para diseñar un envío de SMS nuevo, siga los pasos a continuación:
 
 >[!NOTE]
 >
->Los conceptos globales sobre la creación de envíos se presentan en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}.
+>En la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"} se exponen conceptos globales sobre la creación de envíos.
 
-1. Cree un nuevo envío, por ejemplo, desde el panel de control Envío.
+1. Cree un nuevo envío, por ejemplo, en el panel de control de envíos.
 1. Seleccione la plantilla de envíos **Enviado a móviles (NetSize)** creada anteriormente. Para obtener más información, consulte la sección [Modificación de la plantilla de entrega](sms-set-up.md#changing-the-delivery-template).
 
    ![](assets/s_user_mobile_wizard.png)
 
-1. Identifique su entrega con una etiqueta, un código y una descripción. Para obtener más información, consulte esta sección en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#create-the-delivery){target="_blank"}.
+1. Identifique su envío con una etiqueta, un código y una descripción. Para obtener más información al respecto, consulte esta sección en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#create-the-delivery){target="_blank"}.
 1. Haga clic en **[!UICONTROL Continue]** para confirmar esta información y mostrar la ventana de configuración de mensajes.
 
 ## Definición del contenido del SMS {#defining-the-sms-content}

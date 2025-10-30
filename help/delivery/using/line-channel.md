@@ -6,9 +6,9 @@ feature: Line App
 role: User
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Con Adobe Campaign, utilice el canal LINE para enviar mensajes enriquecidos y at
 
 Aprenda a configurar el canal LINE, crear el envío final, definir el tipo de contenido y monitorizar el rendimiento del envío en la [documentación de la versión 8 de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/line.md){target=_blank}.
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Las funciones comunes ahora están disponibles exclusivamente en el conjunto de documentación de Campaign v8.
+Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8.
 
 >[!BEGINTABS]
 
@@ -45,7 +45,7 @@ Consulte estas páginas para obtener más información sobre cómo crear el env�
 
 >[!TAB Configuración de canal LINE]
 
-Conozca los pasos clave relacionados con la configuración del canal LINE **en la documentación de Campaign v8**:
+Conozca los pasos clave relacionados con la configuración de canal LINE **en la documentación de la versión 8 de Campaign**:
 
 * [Configurar el servicio LINE](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/line.md#configure-line-service){target="_blank"}: aprenda a configurar un servicio LINE para conectar su instancia de Campaign a su cuenta oficial de LINE.
 * [Configurar la cuenta externa](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/line.md#configure-line-external){target="_blank"}: aprenda a configurar una cuenta externa de LINE para que Adobe Campaign pueda enviar mensajes a través de sus credenciales de LINE.

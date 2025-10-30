@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: 'Caso de uso: selección de direcciones semilla según ciertos criterios'
-description: 'Caso de uso: selección de direcciones semilla según ciertos criterios'
+title: 'Caso de uso: seleccionar direcciones semilla según determinados criterios'
+description: 'Caso de uso: seleccionar direcciones semilla según determinados criterios'
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '850'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Caso de uso: selección de direcciones semilla según ciertos criterios{#use-case-selecting-seed-addresses-on-criteria}
+# Caso de uso: seleccionar direcciones semilla según determinados criterios{#use-case-selecting-seed-addresses-on-criteria}
 
 
 En el marco de trabajo de una entrega o de una campaña, el vínculo **[!UICONTROL Edit the dynamic condition...]** permite elegir las direcciones semilla basándose en criterios de selección específicos.
@@ -30,7 +30,7 @@ Para utilizar la condición dinámica, se debe contar con:
 
 ## Paso 1: Creación de una entrega {#step-1---creating-a-delivery}
 
-Los pasos para crear una entrega se detallan en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=es){target="_blank"}.
+Los pasos para crear un envío se describen en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=es){target="_blank"}.
 
 En este ejemplo, el administrador de entregas ha creado el boletín informativo y ha seleccionado los destinatarios.
 

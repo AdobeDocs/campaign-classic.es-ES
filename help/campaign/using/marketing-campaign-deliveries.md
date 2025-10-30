@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1491'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Las entregas se pueden crear a través del tablero de la campaña, un flujo de t
 
 Cuando se crean a partir de una campaña, las entregas se vincularán a esta campaña y se consolidarán en el nivel de la campaña.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[Descubra esta función en vídeo](#create-email-video)
 
 ## Creación de entregas {#creating-deliveries}
 
@@ -28,7 +28,7 @@ Para crear una entrega vinculada a una campaña, haga clic en el vínculo **[!UI
 
 ![](assets/campaign_op_add_delivery.png)
 
-Las configuraciones sugeridas se adecúan a los diferentes tipos de envío: correo directo, correo electrónico, canales móviles. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}.
+Las configuraciones sugeridas se adecúan a los diferentes tipos de envío: correo directo, correo electrónico, canales móviles. Obtenga más información en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}.
 
 ## Inicio de una entrega {#starting-a-delivery}
 
@@ -238,6 +238,6 @@ El modelo de exportación debe estar asociado al proveedor de servicios seleccio
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/27490?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

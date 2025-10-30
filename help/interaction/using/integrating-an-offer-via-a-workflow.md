@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ La actividad de descripción de entrega, disponible en los flujos de trabajo de 
 1. En un flujo de trabajo, añada una actividad de descripción de la entrega antes de añadir una de entrega.
 1. En la actividad del esquema de entrega, especifique el que desee utilizar.
 
-   Para obtener más información sobre esquemas de entrega específicos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html){target="_blank"}.
+   Para obtener más información sobre cómo especificar las descripciones de los envíos, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html?lang=es){target="_blank"}.
 
 1. Rellene los campos disponibles en función de la entrega.
 1. Hay dos casos posibles:
@@ -51,7 +51,7 @@ La actividad de descripción de entrega, disponible en los flujos de trabajo de 
 
 ## Enriquecimiento {#enrichment}
 
-La actividad de enriquecimiento permite añadir ofertas o vínculos a ofertas para los destinatarios de la entrega.
+La actividad de enriquecimiento permite añadir ofertas o vínculos a ofertas para los destinatarios del envío.
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ También puede hacer referencia a un vínculo de oferta en una actividad de enri
 
 Para ello, utilice el proceso siguiente:
 
-1. En la pestaña **[!UICONTROL Enrichment]** de la actividad, seleccione **[!UICONTROL Add data]**.
+1.  En la pestaña **[!UICONTROL Enrichment]** de la actividad, seleccione **[!UICONTROL Add data]**.
 1. En la ventana donde se elige el tipo de datos a añadir, seleccione **[!UICONTROL A link]**.
 1. Seleccione el tipo de vínculo que desea establecer y su destino. En este caso, el destino es el esquema de oferta.
 

@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: 'Caso de uso: configuración de la sustitución de campos'
-description: 'Caso de uso: configuración de la sustitución de campos'
+title: 'Caso de uso: configurar la sustitución de campos'
+description: 'Caso de uso: configurar la sustitución de campos'
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Caso de uso: configuración de la sustitución de campos{#use-case-configuring-the-field-substitution}
+# Caso de uso: configurar la sustitución de campos{#use-case-configuring-the-field-substitution}
 
 
 
@@ -33,7 +33,7 @@ Para utilizar la sustitución de campos aleatoria debe tener:
 
 ## Creación de una entrega {#step-1---creating-a-delivery}
 
-Los pasos para crear una entrega se detallan en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=es){target="_blank"}.
+Los pasos para crear un envío se describen en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=es){target="_blank"}.
 
 En este ejemplo, el administrador de entregas ha creado la newsletter.
 

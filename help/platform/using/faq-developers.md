@@ -9,9 +9,9 @@ level: Intermediate, Experienced
 topic-tags: starting-with-adobe-campaign
 exl-id: 20552812-5c58-4d48-9636-d5135197685d
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Como solución abierta, Adobe Campaign está listo para la personalización y el
 
 El modelo de datos conceptuales de la base de datos de Adobe Campaign consta de un conjunto de tablas integradas y su interacción. La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada esquema. Para obtener más información sobre los esquemas de Adobe Campaign, [consulte esta sección](../../configuration/using/about-schema-edition.md).
 
-[Haga clic aquí para obtener más información sobre el modelo de datos de Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/about-data-model.html?lang=es).
+[Haga clic aquí para obtener más información sobre el modelo de datos de Campaign](https://helpx.adobe.com/campaign/kb/acc-datamodel.html).
 
 Las prácticas recomendadas se enumeran [en este artículo](../../configuration/using/data-model-best-practices.md).
 
@@ -55,7 +55,7 @@ Puede consultar la base de datos de Campaign utilizando el editor de consultas g
 
 Las consultas se crean utilizando campos de la tabla seleccionada o utilizando una fórmula. [En esta página](../../platform/using/about-queries-in-campaign.md) se describen los principios principales para crear una consulta en la base de datos de Campaign.
 
-Obtenga información acerca de consultas en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=es){target="_blank"}.
+Obtenga información sobre consultas en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=es){target="_blank"}.
 
 ## ¿Cómo puedo importar un paquete de datos?  {#how-can-i-import-a-data-package-}
 

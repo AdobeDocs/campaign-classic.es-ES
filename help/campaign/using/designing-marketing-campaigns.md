@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Además, el módulo **Marketing Resource Management (MRM)** permite controlar la
 >[!NOTE]
 >
 >Para obtener más información sobre las funcionalidades principales de Adobe Campaign, consulte [esta sección](../../platform/using/about-adobe-campaign-classic.md).\
->Las capacidades relacionadas con la segmentación de públicos objetivo, la personalización y entrega de mensajes en los distintos canales se describen en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}.
+>En la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"} se describen las funcionalidades relacionadas con la segmentación de la población, la personalización y envío de mensajes en los diversos canales.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra los conceptos clave de las campañas de marketing en vídeo](#video)
 
@@ -68,6 +68,6 @@ Los siguientes conceptos son esenciales para conocer mejor Campaign:
 
 Este vídeo presenta los conceptos clave de las campañas de marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/326574?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

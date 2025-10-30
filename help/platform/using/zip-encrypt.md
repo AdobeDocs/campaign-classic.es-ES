@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -91,6 +91,6 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 Este vídeo muestra cómo utilizar una clave GPG para cifrar datos y también está disponible en
 
->[!VIDEO](https://video.tv.adobe.com/v/41330?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

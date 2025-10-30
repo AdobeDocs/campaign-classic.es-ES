@@ -6,9 +6,9 @@ badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic 
 feature: Reporting, Monitoring
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -123,7 +123,7 @@ Los informes sobre campañas hacen referencia a los datos de la tabla **nms:oper
 
 Los informes integrados proporcionados por Adobe Campaign se pueden encontrar en la siguiente tabla.
 
-Para obtener más información sobre el contenido de estos informes, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=es){target=_blank}.
+Para obtener más información sobre el contenido de estos informes, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=es){target=_blank}.
 
 <table> 
  <tbody> 
@@ -180,7 +180,7 @@ Para obtener más información sobre el contenido de estos informes, consulte la
 
 ## Informes sobre servicios {#reports-on-services}
 
-Los informes sobre servicios hacen referencia a los datos de la tabla **nms:service**.
+Los informes sobre servicios se refieren a los datos de la tabla **nms:service**.
 
 Los informes integrados proporcionados por Adobe Campaign se pueden encontrar en la siguiente tabla.
 
@@ -219,7 +219,7 @@ Para obtener más información sobre el contenido de estos informes, consulte la
 
 Los informes integrados proporcionados por Adobe Campaign se pueden encontrar en la siguiente tabla.
 
-Para obtener más información sobre el contenido de estos informes, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=es){target=_blank}.
+Para obtener más información sobre el contenido de estos informes, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=es){target=_blank}.
 
 <table> 
  <tbody> 
@@ -273,7 +273,7 @@ Para obtener más información sobre el contenido de estos informes, consulte la
 
 ## Informes sobre simulaciones {#reports-on-simulations}
 
-Los informes sobre simulaciones hacen referencia a los datos de la tabla **nms:simulation**.
+Los informes sobre simulaciones se refieren a los datos de la tabla **nms:simulation**.
 
 Los informes integrados proporcionados por Adobe Campaign se pueden encontrar en la siguiente tabla.
 

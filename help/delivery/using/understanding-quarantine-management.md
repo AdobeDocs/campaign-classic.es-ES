@@ -7,9 +7,9 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: cfd8f5c9-f368-4a31-a1e2-1d77ceae5ced
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3008'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Los perfiles cuyas direcciones de correo electrónico o número de teléfono est
 
 Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como no deseados si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser incluido en la lista de bloqueados de bloqueados por estos proveedores.
 
-Además, la cuarentena reduce el coste de entrega de los SMS mediante la exclusión en las entregas de los números de teléfono incorrectos.
+Además, la cuarentena reduce el coste de envío de los SMS mediante la exclusión en los envíos de los números de teléfono incorrectos.
 
-Para obtener más información sobre las prácticas recomendadas para proteger y optimizar las entregas, consulte esta página en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=es){target="_blank"}.
+Para obtener más información sobre las prácticas recomendadas para proteger y optimizar los envíos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=es){target="_blank"}.
 
 ### Cuarentena frente a la inclusión en la lista de bloqueados {#quarantine-vs-denylist}
 
@@ -117,14 +117,14 @@ En la lista de direcciones en cuarentena (consulte [Identificación de direccion
 
 A diferencia de los errores en el hardware, los de software no envían inmediatamente una dirección a la cuarentena, sino que se suman a un contador de errores.
 
-Los reintentos se realizarán durante la duración de la entrega. Ver esta [página](communication-channels.md) en **Envío de entregas** > **Definir el período de validez**. Cuando el contador de errores alcanza el umbral de límite, la dirección se pone en cuarentena. Para obtener más información, consulte [Reintentos tras un fallo temporal de entrega](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+Los reintentos se realizarán durante el tiempo de duración del envío. Consulte esta [página](communication-channels.md) en **Envío de la entrega** > **Definir el período de validez**. Cuando el contador de errores alcanza el umbral de límite, la dirección se pone en cuarentena. Para obtener más información, consulte [Reintentos tras un fallo temporal de entrega](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 El contador de errores se reinicia si el último error significativo se produjo hace más de 10 días. El estado de la dirección cambia a **válido** y se elimina de la lista de cuarentena mediante el flujo de trabajo de [Limpieza de la base de datos](../../production/using/database-cleanup-workflow.md).
 
 
 Para instalaciones alojadas o híbridas, si ha actualizado al [MTA mejorado](sending-with-enhanced-mta.md), el número máximo de reintentos que se deben realizar en caso de estados **[!UICONTROL Erroneous]** y el retardo mínimo entre reintentos ahora se basan en el rendimiento histórico y actual de una IP en un dominio determinado.
 
-Para las instalaciones locales y alojadas/híbridas que utilizan el MTA de Campaign heredado, puede modificar el número de errores y el período entre dos errores. Para ello, cambie la configuración correspondiente en el [asistente de implementación](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**) o en el nivel de entrega. Ver esta [página](communication-channels.md) en **Envío de entregas** > **Configurar reintentos**.
+Para las instalaciones locales y alojadas/híbridas que utilizan el MTA de Campaign heredado, puede modificar el número de errores y el período entre dos errores. Para ello, cambie la configuración correspondiente en el [asistente de implementación](../../installation/using/deploying-an-instance.md) (**[!UICONTROL Email channel]** > **[!UICONTROL Advanced parameters]**) o a nivel del envío. Consulte esta [página](communication-channels.md) en **Envío de la entrega** > **Configurar reintentos**.
 
 
 ## Quitar una dirección de la cuarentena {#removing-a-quarantined-address}
@@ -576,7 +576,7 @@ Antes de que se clasifique un nuevo tipo de error, el motivo del error se establ
 >
 >Los tipos de errores y los motivos del error son los mismos que para los correos electrónicos. Consulte [Tipos y motivos de errores de entrega](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
->Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla de clasificación de registros de entregas.
+>Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla Calificación del registro de envío.
 
 Ejemplo de mensaje generado:
 
@@ -603,6 +603,6 @@ SR Generic DELIVRD 000|#MESSAGE#
 
   De manera predeterminada, la regex extrae el campo **err:** tal y como se define en la sección **Apéndice B** de la **especificación de SMPP 3.4**.
 
-* Todo lo que aparece después del símbolo de barra vertical (|) se muestra solo en la columna **[!UICONTROL First text]** de la tabla **[!UICONTROL Delivery log qualification]**. Este contenido siempre se sustituye por **#MESSAGE#** después de normalizar el mensaje. Este proceso evita tener varias entradas para errores similares y funciona igual que para los correos electrónicos. Para obtener más información, consulte [Cualificación de correo rechazado](understanding-delivery-failures.md#bounce-mail-qualification).
+* Todo lo que aparece después del símbolo de barra vertical (|) se muestra solo en la columna **[!UICONTROL First text]** de la tabla **[!UICONTROL Delivery log qualification]**. Este contenido siempre se sustituye por **#MESSAGE#** después de normalizar el mensaje. Este proceso evita tener varias entradas para errores similares y funciona igual que para los correos electrónicos. Para obtener más información, consulte [Calificación de correo rechazado](understanding-delivery-failures.md#bounce-mail-qualification).
 
 El conector genérico extendido SMPP aplica un método heurístico para buscar valores predeterminados coherentes: si el estado comienza con **DELIV**, se considera un éxito porque coincide con los estados comunes utilizados por la mayoría de los proveedores **DELIVRD** o **DELIVERED.** Cualquier otro estado conlleva un error grave.

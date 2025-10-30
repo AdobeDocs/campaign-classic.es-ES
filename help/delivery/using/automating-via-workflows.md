@@ -7,9 +7,9 @@ feature: Workflows
 role: User
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ El contenido se rellena automáticamente mediante una fuente XML procedente de l
 </book>
 ```
 
-El formato de datos no coincide con el esquema de datos especificado en la plantilla de publicación (**cus:book** en nuestro ejemplo); el elemento **`<section>`** debe reemplazarse por el elemento **`<chapter>`**. Necesitamos aplicar la hoja de estilo &quot;cus:book-workflow.xsl&quot; para realizar los cambios necesarios.
+El formato de datos no coincide con el esquema de datos introducido en la plantilla de publicación (**cus:book** en nuestro ejemplo); el elemento **`<section>`** debe reemplazarse por el elemento **`<chapter>`**. Necesitamos aplicar la hoja de estilo &quot;cus:book-workflow.xsl&quot; para realizar los cambios necesarios.
 
 Código fuente de la hoja de estilo XSLT utilizada:
 
@@ -214,7 +214,7 @@ La acción final de la actividad es la preparación y el inicio de la entrega.
 
 ### Importación de contenido desde FTP {#importing-content-from-ftp}
 
-Si el contenido de su entrega está disponible en un archivo HTML ubicado en servidores FTP o SFTP, puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=es){target="_blank"}.
+Si el contenido de su entrega está disponible en un archivo HTML ubicado en los servidores FTP o SFTP, puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=es){target="_blank"}.
 
 
 ### Importación de contenido desde el conector Amazon Simple Storage Service (S3)  {#importing-content-from-amazon-simple-storage-service--s3--connector}
@@ -252,7 +252,7 @@ El método **GetAndTransform** debe declararse en el elemento **`<enter>`** de l
 
 La salida actualiza el contenido en función de la ruta introducida en el último parámetro.
 
-**Ejemplo**: Para ilustrar este ejemplo, comenzamos desde el esquema &quot;cus:book&quot;.
+**Ejemplo**: para ilustrar este ejemplo, comenzaremos desde el esquema &quot;cus:book&quot;.
 
 Se añade un formulario semiautomático de entrada de control de edición de actualizaciones:
 
@@ -272,6 +272,6 @@ Se añade un formulario semiautomático de entrada de control de edición de act
 
 El área de edición permite introducir el nombre del archivo que se va a recuperar. La dirección URL se construye a partir de este nombre, por ejemplo: https://myserver.adobe.com/incomin/data.xml
 
-El formato de los datos que se van a recuperar es el mismo que en el ejemplo 1 de automatización del flujo de trabajo. Utilizaremos la hoja de estilo &quot;cus:book-workflow.xsl&quot; vista en este ejemplo.
+El formato de los datos que se van a recuperar es el mismo que en el ejemplo 1 de automatización del flujo de trabajo. Utilizaremos la hoja de estilo &quot;cus:book-workflow.xsl&quot; que se muestra en ese ejemplo.
 
 El resultado de la ejecución del trabajo actualiza la instancia de contenido desde la ruta “.”.

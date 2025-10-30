@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '807'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Para presentar una oferta durante una campaña de marketing, simplemente cree un
 
 ![](assets/offer_delivery_009.png)
 
-Obtenga más información sobre los envíos de correo directo [en esta sección](../../delivery/using/about-direct-mail-channel.md). Obtenga más información acerca de las campañas de marketing en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es){target=_blank}.
+Obtenga más información sobre los envíos de correo directo [en esta sección](../../delivery/using/about-direct-mail-channel.md). Obtenga más información sobre las campañas de marketing en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es){target=_blank}.
 
 ### Pasos principales para insertar una oferta en una entrega {#main-steps-for-inserting-an-offer-into-a-delivery}
 
@@ -88,9 +88,9 @@ El envío se puede personalizar utilizando los campos de la oferta o, en el caso
 
 ## Entrega con descripción del envío {#delivering-with-delivery-outlines}
 
-También se pueden presentar ofertas en una entrega utilizando la descripción de la entrega.
+También se pueden presentar ofertas en un envío utilizando la descripción del envío.
 
-Para obtener más información sobre los esquemas de entrega, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html){target="_blank"}.
+Para obtener más información sobre las descripciones de los envíos, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-assets#delivery-outlines.html?lang=es){target="_blank"}.
 
 1. Cree una nueva campaña o acceda a una campaña existente.
 1. Acceda a la descripción del envío a través de la pestaña **[!UICONTROL Edit]** > **[!UICONTROL Documents]** de la campaña.

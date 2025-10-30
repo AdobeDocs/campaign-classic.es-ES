@@ -6,9 +6,9 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Web Apps
 exl-id: 4bff6b55-3335-433e-a2ff-5d8c83e8f0d3
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Si un usuario final opta por no participar en el seguimiento de conductas median
 
 Para que se muestre dentro de las aplicaciones web o de las páginas de destino, es necesario configurar el banner.
 
-Adobe Campaign incluye un banner de muestra que debe adaptar a sus necesidades. Esta versión del banner aparece como un bloque personalizado ubicado en la carpeta del modelo de contenido. consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=es){target="_blank"}.
+Adobe Campaign incluye un banner de muestra que debe adaptar a sus necesidades. Esta versión del banner aparece como un bloque personalizado ubicado en la carpeta del modelo de contenido. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=es){target="_blank"}.
 
 >[!IMPORTANT]
 >
@@ -83,7 +83,7 @@ Las API de cliente disponibles para personalizar el banner son:
 * **NL.ClientWebTracking.forbid()**: Establece el valor de la cookie de exclusión para prohibir el seguimiento web. El seguimiento web necesita la entrada de un usuario para prohibirlo.
 * **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**: Cierra el banner de la cookie de exclusión cuando el usuario ha hecho clic en el botón Aceptar o Rechazar. (durante la fase de propagación del evento de clic).
 
-  bannerDomElt {DOMElement}: el elemento DOM raíz del banner de la cookie que debe eliminarse.
+  bannerDomElt {DOMElement} el elemento DOM raíz del banner de la cookie que debe eliminarse.
 
 * **NL.ClientWebTracking.hasUserPrefs()**: devuelve el valor verdadero si el usuario ha elegido sus preferencias de seguimiento web.
 * **NL.ClientWebTracking.getUserPrefs()**: Devuelve el valor de cookie de exclusión que define las preferencias del usuario.
@@ -92,7 +92,7 @@ Si tiene que escribir una JSSP, las API de servidor están disponibles:
 
 * **NL.ServerWebTracking.generateOptOutBanner(escapeJs)**: Genera el marcado para el banner de exclusión que se inserta en la página de JSSP.
 
-  **escapeJs{Boolean}**: verdadero cuando se debe escapar el marcado generado para utilizarlo en JavaScript.
+  **escapeJs{Boolean}**: verdadero cuando el marcado generado debe ser de escape para utilizarse en JavaScript.
 
   Devuelve el HTML del marcado del banner de exclusión que debe publicarse en la página.
 
@@ -108,7 +108,7 @@ Si tiene que escribir una JSSP, las API de servidor están disponibles:
 
   Renderiza el marcado del banner de exclusión al insertarlo en la página JSSP. Se denomina igual que en Jssp entre &lt;% %>
 
-  **escapeJs{Boolean}**: verdadero cuando se debe escapar el marcado generado para utilizarlo en JavaScript
+  **escapeJs{Boolean}**: verdadero cuando el marcado generado debe ser de escape para utilizarse en JavaScript.
 
 Ejemplo de JSSP:
 

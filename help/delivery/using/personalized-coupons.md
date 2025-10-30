@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Añadir cupones a las entregas puede proporcionar aumentar el valor de los produ
 
 >[!AVAILABILITY]
 >
->La administración de cupones no está disponible en Campaign v8 en el contexto de una implementación de Enterprise (FDAC). Obtenga más información en [Documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
+>La administración de cupones no está disponible en Campaign v8 en el contexto de una implementación de Enterprise (FDAC). Más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}.
 
 La administración de cupones se basa en un paquete que debe instalarse. Para confirmar que tiene instalado el administrador de cupones, marque **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
 
@@ -152,7 +152,7 @@ Para confirmar que la entrega se realizó correctamente:
 
 >[!NOTE]
 >
->De manera predeterminada, el módulo de administración de cupones usa una tabla **nms:recipient**. [Más información](../../configuration/using/about-data-model.md#default-recipient-table).
+>De forma predeterminada, el módulo de administración de cupones utiliza una tabla **nms:recipient**. [Más información](../../configuration/using/about-data-model.md#default-recipient-table).
 >
 >Aprenda a utilizar una tabla de destinatarios personalizada [en esta página](../../configuration/using/about-custom-recipient-table.md).
 

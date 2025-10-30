@@ -7,9 +7,9 @@ feature: Monitoring
 role: User, Data Engineer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1193'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,8 +35,8 @@ A continuación, se muestra la información que puede monitorizar en las distint
 
 * [Comprensión de los errores de entrega](understanding-delivery-failures.md)
 * [Comprensión de la gestión de la cuarentena](understanding-quarantine-management.md)
-* [Prácticas recomendadas sobre entregas](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=es){target="_blank"}
-* [Administración de entregas](about-deliverability.md)
+* [Prácticas recomendadas sobre los envíos](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=es){target="_blank"}
+* [Administración de entregabilidad](about-deliverability.md)
 
 ## Resumen de entregas {#delivery-summary}
 
@@ -64,7 +64,7 @@ Para una entrega, puede mostrar, por ejemplo, solo los destinatarios con una ent
 
 El enlace **[!UICONTROL Display the mirror page for this message...]** permite ver la página espejo del contenido de la entrega seleccionado en la lista en una nueva ventana.
 
-La página espejo solo está disponible para las entregas para los que se ha definido contenido HTML. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=es){target="_blank"}.
+La página espejo solo está disponible para los envíos para los que se ha definido contenido HTML. Para obtener más información, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=es){target="_blank"}.
 
 ![](assets/s_ncs_user_wizard_miror_page_link.png)
 

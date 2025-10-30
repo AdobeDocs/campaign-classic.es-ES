@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 7fc24ef2-b021-440b-b1f2-8c77e2425328
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '761'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Aprenda a enviar mensajes en varios canales con Adobe Campaign.
 
 ### ¿Cómo puedo enviar correos electrónicos en cadena?  {#how-can-i-send-emails-in-waves-}
 
-Antes de enviar un mensaje a una población grande, puede configurar oleadas para dividir los mensajes en varios lotes y equilibrar la carga. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=es#sending-using-multiple-waves){target="_blank"}.
+Antes de realizar un envío a una población grande, puede configurar olas para dividir mensajes en varios lotes y equilibrar la carga. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=es#sending-using-multiple-waves){target="_blank"}.
 
 ### ¿Cuáles son los pasos clave para crear un correo electrónico en Campaign? {#which-are-the-key-steps-to-create-an-email-in-campaign-}
 
@@ -73,7 +73,7 @@ Obtenga más información en la [documentación de Campaign v8](https://experien
 
 ### ¿Cómo se puede programar una entrega? {#how-to-schedule-a-delivery-}
 
-Puede retrasar la entrega de mensajes para programar su fecha o administrar la presión de ventas y evitar solicitar en exceso a una población.
+Puede retrasar el envío de mensajes para programar su fecha o administrar la presión de venta y evitar solicitar en exceso a una población.
 
 Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/configure-and-send.html?lang=es#schedule-delivery-sending){target="_blank"}.
 
@@ -81,7 +81,7 @@ Obtenga más información en la [documentación de Campaign v8](https://experien
 
 Con Campaign Classic, puede añadir archivos adjuntos personalizados a sus correos electrónicos.
 
-Obtenga más información acerca de los archivos adjuntos de los correos electrónicos en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=es){target="_blank"}.
+Obtenga más información sobre los archivos adjuntos del correo electrónico en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=es){target="_blank"}.
 
 ## Seguimiento de mensajes y medición de su impacto {#track-your-messages-and-measure-their-impact}
 

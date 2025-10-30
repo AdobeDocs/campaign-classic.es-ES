@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1307'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Cuando cree sus correos electrónicos, tenga en cuenta las optimizaciones genera
 
 ### Línea de asunto
 
-Obtenga información acerca de la línea de asunto en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es#sender){target="_blank"} para mejorar las tasas de apertura:
+Obtenga información sobre la línea de asunto en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es#sender){target="_blank"} para mejorar las tasas de apertura:
 
 * Evite los asuntos demasiado largos. Utilice un máximo de 50 caracteres
 
@@ -159,6 +159,6 @@ Para que sean accesibles desde el exterior, las imágenes utilizadas en los mens
 
 Adobe recomienda previsualizar el mensaje para comprobar su personalización y cómo verán los destinatarios su entrega.
 
-* En el asistente de envíos, la subpestaña **[!UICONTROL Preview]** permite ver el renderizado de cada contenido para un destinatario. Los campos personalizados y los elementos condicionales del contenido se sustituyen por la información correspondiente del perfil seleccionado. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es#message-content){target="_blank"}.
+* En el asistente de envíos, la subpestaña **[!UICONTROL Preview]** permite ver el renderizado de cada contenido para un destinatario. Los campos de personalización y los elementos condicionales del contenido se sustituyen por la información correspondiente del perfil seleccionado. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es#message-content){target="_blank"}.
 
 * Durante cada previsualización se realiza una comprobación automática del contenido no deseado. En la subpestaña **[!UICONTROL Preview]**, marque la puntuación de spam [SpamAssassin](spamassassin.md).  Haga clic en **[!UICONTROL More...]** para obtener más información sobre la advertencia.  Antes de hacerlo, asegúrese de que SpamAssassin está correctamente instalado y configurado en el servidor de aplicaciones de Adobe Campaign. [Más información](../../installation/using/configuring-spamassassin.md)

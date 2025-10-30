@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 9f1b0974-f8bd-430f-88fe-9c09b0074d3b
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '493'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 ¿Necesita ayuda para trabajar con Campaign Classic? Lea las 10 preguntas más frecuentes a continuación y otras preguntas frecuentes de esa página. También puede realizar lo siguiente:
 
 * [Ver vídeos de tutoriales](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es)
-* ¿No encuentra la respuesta? [Preguntar a un experto](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es)
+* ¿No encuentra la respuesta? [Preguntar a un experto](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 * ¿Necesita asistencia? [Consulte las opciones de ayuda y asistencia técnica de Campaign](../../support.md)
 
 ## &#x200B;1. ¿Cómo puedo actualizar Campaign a la versión más reciente? {#how-can-i-upgrade-campaign-to-the-latest-version-}
@@ -52,7 +52,7 @@ Adobe Campaign incluye un conjunto de paneles de control y herramientas para mon
 
 ## &#x200B;5. ¿Puedo supervisar la ejecución del flujo de trabajo? {#can-i-monitor-workflow-execution}
 
-Obtenga información sobre cómo monitorizar la ejecución del flujo de trabajo de Campaign en la [documentación de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution
+Obtenga información sobre cómo monitorizar la ejecución del flujo de trabajo de Campaign en la [documentación de la versión 8 de Campaign]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution
 .html){target="_blank"}.
 
 ## &#x200B;6. ¿Cómo puedo conectarme a Campaign Classic? {#how-can-i-connect-to-campaign-classic-}
