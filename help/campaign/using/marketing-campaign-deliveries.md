@@ -238,6 +238,6 @@ El modelo de exportación debe estar asociado al proveedor de servicios seleccio
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27490?captions=spa&quality=12)
 
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
