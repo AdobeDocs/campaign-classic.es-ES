@@ -108,17 +108,17 @@ La siguiente tabla proporciona una lista de parámetros especiales admitidos por
 
 * Recopilación de datos de volumen empresarial
 
-  **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
+  **https://myserver.adobe.com/r/4567?tagid=command&amount=100&article=2l**
 
 * Especificación de un campo para buscar el destinatario
 
-  **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
+  **https://myserver.adobe.com/r/2353?tagid=home&rcpid=saccount%3D10**
 
   Se envía a la página de inicio un destinatario cuyo número de cuenta sea 10.
 
 * Uso de una entrega predeterminada
 
-  **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
+  **https://myserver.adobe.com/r/2456?tagid=home&jobid=e6**
 
   Se envía un destinatario a la página principal. Esta información se almacena en la entrega con el identificador 230 (e6 en la base de datos 16) a menos que se envíe con esta consulta una cookie de sesión que contenga un identificador de entrega.
 
