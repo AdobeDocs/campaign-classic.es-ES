@@ -6,10 +6,10 @@ feature: Workflows, Targeting Activity
 hide: true
 hidefromtoc: true
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '1115'
-ht-degree: 100%
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
+source-wordcount: '1114'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ La deduplicación elimina los duplicados de los resultados de las actividades en
 La actividad **[!UICONTROL Deduplication]** se utiliza para eliminar filas duplicadas de un conjunto de datos. Por ejemplo, los registros que se muestran a continuación pueden considerarse duplicados, ya que tienen la misma dirección de correo electrónico y el mismo teléfono móvil o fijo.
 
 | Fecha de la última modificación | Nombre | Apellidos | Correo electrónico | Teléfono móvil | Teléfono |
------|------------|-----------|-------|--------------|------
+|-----|------------|-----------|-------|--------------|------|
 | 03/02/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 | 19/5/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 | 22/07/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
@@ -30,7 +30,7 @@ La actividad **[!UICONTROL Deduplication]** se utiliza para eliminar filas dupli
 La actividad **[!UICONTROL Deduplication]** puede mantener una fila entera como registro único después de identificar duplicados. Por ejemplo, en el caso de uso anterior, si la actividad está configurada para mantener solo el registro con el **[!UICONTROL Date]** más antiguo, el resultado sería:
 
 | Fecha | Nombre | Apellidos | Correo electrónico | Teléfono móvil | Teléfono |
------|----------|------------|-------|--------------|------
+|-----|----------|------------|-------|--------------|------|
 | 03/02/2020 | Bob | Tisner | bob@mycompany.com | 444-444-4444 | 888-888-8888 |
 
 El registro principal seleccionado reenviará los datos sin combinar los datos de campo con otros datos relevantes en las filas duplicadas.
@@ -38,7 +38,7 @@ El registro principal seleccionado reenviará los datos sin combinar los datos d
 Complemento:
 
 | Fecha | Nombre | Apellidos | Correo electrónico | Teléfono móvil | Teléfono |
------|------------|-----------|-------|--------------|------
+|-----|------------|-----------|-------|--------------|------|
 | 19/05/2020 | Robert | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 | 22/07/2020 | Bobby | Tisner | bob@mycompany.com | 444-444-4444 | 777-777-7777 |
 
@@ -175,6 +175,6 @@ Cada evento entrante debe especificar un objetivo definido por estos parámetros
 * esquema
 * recCount
 
-Este conjunto de tres valores identifica el objetivo resultante de la deduplicación. **[!UICONTROL tableName]** es el nombre de la tabla que guarda los identificadores objetivo, **[!UICONTROL schema]** es el esquema de la población (normalmente nms:recipient) y **[!UICONTROL recCount]** es el número de elementos en la tabla.
+Este conjunto de tres valores identifica el objetivo resultante de la deduplicación. **[!UICONTROL tableName]** es el nombre de la tabla que guarda los identificadores de destinatario, **[!UICONTROL schema]** es el esquema de la población (normalmente nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
 
 La transición asociada al complemento tiene los mismos parámetros.

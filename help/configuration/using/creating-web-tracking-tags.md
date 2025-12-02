@@ -3,9 +3,9 @@ product: campaign
 title: Creación de etiquetas de seguimiento web
 description: Obtenga información sobre cómo crear etiquetas de seguimiento web
 feature: Application Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -25,12 +25,12 @@ Este método permite definir manualmente las páginas de las que se debe realiza
 
 ![](assets/d_ncs_integration_webtracking_screen.png)
 
-Para generar el código de HTML que se va a insertar en la página:
+Para generar el código HTML que se va a insertar en la página:
 
 * Introduzca la etiqueta de la etiqueta: se muestra en los registros de seguimiento,
 * Indique la dirección URL de origen: este campo tiene fines informativos y permite indicar la página rastreada (opcional).
 * Si es necesario, introduzca un periodo de validez,
-* Haga clic en **[!UICONTROL Generate]** código de HTML.
+* Haga clic en **[!UICONTROL Generate]** código HTML.
 
 A continuación, copie el código generado y péguelo en la página para realizar el seguimiento.
 

@@ -4,10 +4,10 @@ title: Panel de control de entregas
 description: Obtenga más información acerca de cómo utilizar el tablero de entregas para monitorizar las entregas
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring
-role: User, Data Engineer
+role: User, Developer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 100%
 
@@ -138,7 +138,7 @@ Para agregar **publicID** a sus registros de entregas, primero debe extender el 
 
    Para obtener más información sobre las extensiones de esquema, consulte [esta página](../../configuration/using/extending-a-schema.md).
 
-1. Seleccione **[!UICONTROL broadLogRcp]** para ampliar los registros de entregas de destinatario (nms) y definir un área de nombres personalizada. En este caso será &quot;cus&quot;:
+1. Seleccione **[!UICONTROL broadLogRcp]** para ampliar los registros de entregas de destinatario (nms) y definir un espacio de nombres personalizado. En este caso será &quot;cus&quot;:
 
    ![](assets/schema-parameters.png)
 

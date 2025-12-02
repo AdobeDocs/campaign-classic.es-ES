@@ -3,13 +3,13 @@ product: campaign
 title: Modelos de alojamiento
 description: Descubra los modelos de alojamiento de Campaign
 feature: Installation, Architecture, Deployment
-role: Architect
+role: Developer
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
-source-git-commit: a38d53f4b37aadbc53446b5e399af2eae56c12af
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,15 +21,15 @@ Adobe Campaign ofrece una selección de tres modelos de alojamiento, que proporc
 
 >[!NOTE]
 >
->En los entornos alojados en Adobe, los pasos principales de instalación y configuración solo se pueden realizar mediante Adobe, como configurar el servidor y personalizar los archivos de configuración de instancia. Para obtener más información sobre las principales diferencias entre los modos de implementación, consulte [esta página](../../installation/using/capability-matrix.md).
+>Para entornos alojados en Adobe, los pasos principales de instalación y configuración solo los puede realizar Adobe, como configurar el servidor y personalizar los archivos de configuración de instancia. Para obtener más información sobre las principales diferencias entre los modos de implementación, consulte [esta página](../../installation/using/capability-matrix.md).
 
 ## Managed Services/Alojado
 
-Adobe Campaign se puede implementar de forma as a Managed Service: todos los componentes de Adobe Campaign, incluida la interfaz de usuario, el motor de administración de la ejecución y la base de datos de Campaign del cliente, están totalmente alojados por Adobe, incluida la ejecución por correo electrónico, las páginas espejo, el servidor de seguimiento y los componentes web externos, como la cancelación de la suscripción de la página/centro de preferencias y páginas de aterrizaje.
+Adobe Campaign se puede implementar en as a Managed Service: todos los componentes de Adobe Campaign, incluida la interfaz de usuario, el motor de administración de la ejecución y la base de datos de Campaign del cliente, están totalmente alojados en Adobe, incluida la ejecución de correo electrónico, las páginas espejo, el servidor de seguimiento y los componentes web externos, como la cancelación de suscripción de la página/centro de preferencias y las páginas de aterrizaje.
 
 ![](assets/deployment_hosted.png)
 
-Como cliente alojado, la mayoría de los pasos de instalación y configuración se realizan por Adobe. Puede acceder a las siguientes secciones para personalizar la implementación:
+Como cliente alojado, la mayoría de los pasos de instalación y configuración los realiza Adobe. Puede acceder a las siguientes secciones para personalizar la implementación:
 
 * Configure el seguimiento y las direcciones URL de las páginas espejo por marca. Para mensajes transaccionales, consulte [esta sección](../../message-center/using/additional-configurations.md#configuring-multibranding).
 * Instale la consola de cliente: consulte [esta sección](../../installation/using/installing-the-client-console.md).
@@ -55,11 +55,11 @@ Como cliente On-Premise, antes de empezar a implementar Campaign Classic, debe c
 
 ## Híbrido
 
-Cuando se implementa como modelo híbrido, el software de la solución Adobe Campaign reside en las instalaciones del cliente y la administración de la ejecución se proporciona como servicio en la nube por Adobe. La instancia de marketing de Adobe Campaign se instala dentro del cortafuegos de un cliente, por lo que la información de identificación personal (PII) permanece interna y solo se envían a la nube los datos necesarios para personalizar los correos electrónicos para su ejecución por correo electrónico. La instancia de ejecución, alojada en la nube, recibe las solicitudes de la instancia On-Premise para enviar correos electrónicos. Esta instancia personaliza todos los correos electrónicos y los envía. No se almacenan datos de ningún tipo de forma permanente en la nube.
+Cuando se implementa como modelo híbrido, el software de la solución Adobe Campaign reside en las instalaciones del cliente, y Adobe proporciona la administración de la ejecución como servicio en la nube. La instancia de marketing de Adobe Campaign se instala dentro del cortafuegos de un cliente, por lo que la información de identificación personal (PII) permanece interna y solo se envían a la nube los datos necesarios para personalizar los correos electrónicos para su ejecución por correo electrónico. La instancia de ejecución, alojada en la nube, recibe las solicitudes de la instancia On-Premise para enviar correos electrónicos. Esta instancia personaliza todos los correos electrónicos y los envía. No se almacenan datos de ningún tipo de forma permanente en la nube.
 
 ![](assets/deployment_hybrid.png)
 
-Como cliente híbrido, la mayoría de los pasos de instalación y configuración se realizan por Adobe. Puede acceder a las siguientes secciones para personalizar la implementación:
+Como cliente híbrido, la mayoría de los pasos de instalación y configuración los realiza Adobe. Puede acceder a las siguientes secciones para personalizar la implementación:
 
 * Configurar mensajes transaccionales: consulte [esta sección](../../message-center/using/transactional-messaging-architecture.md).
 * Configure el seguimiento y las direcciones URL de las páginas espejo por marca. Para mensajes transaccionales, consulte [esta sección](../../message-center/using/additional-configurations.md#configuring-multibranding).

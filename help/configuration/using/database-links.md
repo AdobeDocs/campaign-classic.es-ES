@@ -3,11 +3,11 @@ product: campaign
 title: Asignación de base de datos
 description: Asignación de base de datos
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: e05dcd81-bbca-4767-8da3-ea064f7f6c8e
-source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '924'
 ht-degree: 2%
 
 ---
@@ -112,7 +112,7 @@ La definición del vínculo se complementa con los campos que conforman la unió
 
 La clave externa se agrega automáticamente en un elemento que utiliza las mismas características que el campo asociado en la tabla de destino, con la siguiente convención de nombres: nombre del esquema de destino seguido del nombre del campo asociado (&quot;company-id&quot; en nuestro ejemplo).
 
-Esquema extendido del destinatario (&quot;cus:company&quot;):
+Esquema extendido del destino (&quot;cus:company&quot;):
 
 ```sql
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
@@ -133,7 +133,7 @@ Esquema extendido del destinatario (&quot;cus:company&quot;):
 </schema>
 ```
 
-Se ha añadido un vínculo inverso a la tabla &quot;cus:recipient&quot; con los siguientes parámetros:
+Se agregó un vínculo inverso a la tabla &quot;cus:recipient&quot; con los siguientes parámetros:
 
 * **name**: se deduce automáticamente del nombre del esquema de origen (se puede forzar con el atributo &quot;revLink&quot; en la definición del vínculo en el esquema de origen)
 * **revLink**: nombre del vínculo inverso

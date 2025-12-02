@@ -3,9 +3,9 @@ product: campaign
 title: Estructura de un esquema de datos
 description: Estructura de un esquema de datos
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 exl-id: 86036f2f-ec7c-413e-b1e1-10a71a06cd6d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 10%
@@ -22,4 +22,4 @@ Como estándar, los campos se muestran primero (Activo, Activado, etc.) y en ord
 
 Las claves principales se identifican con una clave roja y las claves externas con una clave amarilla.
 
-Los vínculos se distinguen gráficamente en función de si pertenecen a la tabla. Las que comienzan desde la tabla, es decir, que tienen la clave externa en la tabla, se muestran primero (Información de correo electrónico, Carpeta, País). Vínculos de recopilación &quot;Invertir&quot; (suscripción, pedidos, etc.) se muestran al final.
+Los vínculos se distinguen gráficamente en función de si pertenecen a la tabla. Las que comienzan desde la tabla, es decir, que tienen la clave externa en la tabla, se muestran primero (Información de correo electrónico, Carpeta, País). Los vínculos de recopilación &quot;Invertir&quot; (Suscripción, Pedidos, etc.) se muestran al final.

@@ -3,13 +3,13 @@ product: campaign
 title: Explicación de la estructura de esquemas en Adobe Campaign
 description: Estructura del esquema
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 audience: configuration
 content-type: reference
 level: Intermediate, Experienced
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '1511'
 ht-degree: 11%
@@ -65,7 +65,7 @@ Para un(a) `<srcschema>`, la estructura es la siguiente:
 </srcSchema>
 ```
 
-El documento XML de un esquema de datos debe contener **`<srcschema>`** el elemento raíz con los atributos **name** y **namespace** para rellenar el nombre del esquema y su área de nombres.
+El documento XML de un esquema de datos debe contener **`<srcschema>`** el elemento raíz con los atributos **name** y **namespace** para rellenar el nombre del esquema y su espacio de nombres.
 
 ```sql
 <srcSchema name="schema_name" namespace="namespace">
@@ -135,7 +135,7 @@ Se aplican las siguientes reglas:
 
 El tipo de datos se ingresa mediante el atributo **type** en los elementos **`<attribute>`** y **`<element>`**.
 
-Hay disponible una lista detallada en la descripción del elemento [`<attribute>` &#x200B;](../../configuration/using/schema/attribute.md) y el elemento [`<element>` &#x200B;](../../configuration/using/schema/element.md).
+Hay disponible una lista detallada en la descripción del elemento [`<attribute>` ](../../configuration/using/schema/attribute.md) y el elemento [`<element>` ](../../configuration/using/schema/element.md).
 
 Cuando este atributo no se rellena, **string** es el tipo de datos predeterminado a menos que el elemento contenga elementos secundarios. Si es así, solo se usa para estructurar los elementos jerárquicamente (**`<location>`** elemento en nuestro ejemplo).
 

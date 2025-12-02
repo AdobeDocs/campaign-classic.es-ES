@@ -3,9 +3,9 @@ product: campaign
 title: Detección de direcciones URL de seguimiento
 description: Obtenga más información acerca del patrón recomendado para rastrear direcciones URL
 feature: Monitoring
-role: User, Developer, Data Engineer
+role: User, Developer
 exl-id: 7611d6a1-6c55-4ba3-b905-58426c944991
-source-git-commit: 28638e76bf286f253bc7efd02db848b571ad88c4
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%

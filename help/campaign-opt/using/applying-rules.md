@@ -2,13 +2,13 @@
 product: campaign
 title: Aplicación de reglas de tipología
 description: Aprenda a aplicar reglas de tipología
-role: User, Data Engineer
+role: User, Developer
 feature: Typology Rules, Campaigns
 hide: true
 hidefromtoc: true
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ A continuación, utilice el editor de consultas para definir las condiciones de 
 
 La mediación se vuelve a ejecutar automáticamente cada noche a través del flujo de trabajo de limpieza de la base de datos. Sin embargo, los valores se pueden guardar más allá de este periodo.
 
-De hecho, algunos cálculos utilizan valores que no cambian diariamente. Por lo tanto, sería irrelevante recalcular los datos todos los días y sobrecargar la base de datos para nada. Por ejemplo, si un proceso enriquece la base de datos de marketing con puntuaciones de tendencia de los clientes y adquiere información cada semana, no es necesario recalcular los datos basados en estos valores todos los días.
+De hecho, algunos cálculos utilizan valores que no cambian diariamente. Por lo tanto, sería irrelevante recalcular los datos todos los días y sobrecargar la base de datos para nada. Por ejemplo, si un proceso enriquece la base de datos de marketing con puntuaciones de tendencia de los clientes y compra información cada semana, no es necesario recalcular los datos basados en estos valores todos los días.
 
 Para hacerlo, el campo **[!UICONTROL Frequency]** en la pestaña **[!UICONTROL General]** permite definir un periodo máximo durante el cual se guarda el objetivo. De forma predeterminada, el valor **0** indica que el cálculo sigue siendo válido hasta la siguiente ejecución de mediación diaria.
 
@@ -78,7 +78,7 @@ En el modo de operación estándar, las reglas se aplican en la siguiente secuen
 1. Reglas de control, si se aplican al principio del objetivo.
 1. Reglas de filtrado:
 
-   * Reglas de aplicación nativas para la clasificación de direcciones: dirección definida/dirección no verificada/dirección en lista de bloqueados/dirección en cuarentena/calidad de la dirección.
+   * Reglas de aplicación nativas para la calificación de direcciones: dirección definida/dirección no verificada/dirección en lista de bloqueados/dirección en cuarentena/calidad de la dirección.
    * Reglas de filtrado definidas por el usuario.
    * Deduplicación sobre la dirección o el identificador (se aplica si es necesario).
 

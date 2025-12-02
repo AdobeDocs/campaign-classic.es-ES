@@ -3,9 +3,9 @@ product: campaign
 title: Adición de funciones SQL adicionales
 description: Obtenga información sobre cómo definir funciones SQL adicionales
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 0%
@@ -122,7 +122,7 @@ El campo **@name** hace referencia al nombre de la función y &quot;args&quot; e
 * Finalmente, el elemento **providerPart** proporciona la implementación de la función.
 
    * El atributo **provider** es obligatorio, especifica los sistemas de base de datos para los que se proporciona la implementación. Como se muestra en el ejemplo, cuando la sintaxis de las expresiones o las funciones subyacentes son diferentes, se pueden proporcionar implementaciones alternativas según la base de datos.
-   * El atributo **@body** contiene la implementación de la función. Tenga en cuenta: esta implementación debe ser una expresión, en lenguaje de base de datos (no un bloque de código). Según las bases de datos, las expresiones pueden ser subconsultas (&quot;(seleccione la columna de la tabla donde...)&quot;) que devuelvan un solo valor. Por ejemplo, este es el caso en Oracle (la consulta debe escribirse entre corchetes).
+   * El atributo **@body** contiene la implementación de la función. Tenga en cuenta: esta implementación debe ser una expresión, en lenguaje de base de datos (no un bloque de código). Según las bases de datos, las expresiones pueden ser subconsultas (&quot;(seleccione la columna de la tabla donde...)&quot;) que devuelvan un solo valor. Por ejemplo, este es el caso de Oracle (la consulta debe escribirse entre corchetes).
 
   >[!NOTE]
   >

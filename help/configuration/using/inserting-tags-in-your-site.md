@@ -3,9 +3,9 @@ product: campaign
 title: Insertar etiquetas de seguimiento web en el sitio
 description: Obtenga información sobre cómo insertar etiquetas de seguimiento web en el sitio
 feature: Configuration
-role: Data Engineer, Developer
+role: Developer
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Método simple {#simple-method}
 
-Este método consiste en enviar una llamada HTTP al servidor de redirección insertando una etiqueta de HTML **`<img>`** en el código fuente del HTML de la página web que desea rastrear.
+Este método consiste en enviar una llamada HTTP al servidor de redirección insertando una etiqueta HTML **`<img>`** en el código fuente de HTML de la página web que desea rastrear.
 
 >[!IMPORTANT]
 >

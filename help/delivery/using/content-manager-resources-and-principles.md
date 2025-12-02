@@ -4,9 +4,9 @@ title: Recursos y principios del gestor de contenido
 description: Recursos y principio del gestor de contenido
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Templates
-role: User, Developer, Data Engineer
+role: User, Developer
 exl-id: ade3f1d1-2235-4148-9b6f-721d3f521a15
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
@@ -33,4 +33,4 @@ Se requieren los siguientes recursos para la configuración del contenido:
 * Plantillas JavaScript: formato de documentos de salida con lenguaje JavaScript. Para obtener más información, consulte [Plantillas de publicación](publication-templates.md).
 * Códigos JavaScript: Códigos JavaScript para la adición de datos. Para obtener más información, consulte [Acumulador](publication-templates.md#aggregator).
 * Plantillas de publicación: definición de plantillas de publicación. Para obtener más información, consulte [Plantillas de publicación](publication-templates.md).
-* Contenido: ejemplos de contenido para crear y publicar. Para más información, consulte [Uso de una plantilla de contenido](using-a-content-template.md).
+* Contenido: instancias de contenido para crear y publicar. Para más información, consulte [Uso de una plantilla de contenido](using-a-content-template.md).

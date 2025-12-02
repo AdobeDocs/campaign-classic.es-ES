@@ -2,21 +2,21 @@
 product: campaign
 title: Reglas de filtrado
 description: Aprenda a trabajar con reglas de filtrado en Adobe Campaign
-role: User, Data Engineer
+role: User, Developer
 feature: Typology Rules, Campaigns
 hide: true
 hidefromtoc: true
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
-source-wordcount: '510'
-ht-degree: 100%
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
+source-wordcount: '509'
+ht-degree: 98%
 
 ---
 
 # Reglas de filtrado{#filtering-rules}
 
-Las reglas de filtrado permiten definir los mensajes que deben excluirse según los criterios definidos en una consulta. Estas reglas están vinculadas a una dimensión objetivo.
+Las reglas de filtrado permiten definir los mensajes que deben excluirse según los criterios definidos en una consulta. Estas reglas están vinculadas a una dimensión de segmentación.
 
 Las reglas de filtrado se pueden vincular a otros tipos de reglas (control, presión, etc.) en tipologías o agrupadas en una tipología dedicada de **filtrado.** Para obtener más información sobre esto, consulte [Creación y uso de una tipología de filtrado](#creating-and-using-a-filtering-typology).
 
@@ -85,7 +85,7 @@ También puede vincular reglas de filtrado directamente mediante esta pestaña, 
 
 ## Reglas de exclusión de envío predeterminadas {#default-deliverability-exclusion-rules}
 
-Hay dos reglas de filtrado disponibles de forma predeterminada: **[!UICONTROL Exclude addresses]** ( **[!UICONTROL addressExclusions]** ) y **[!UICONTROL Exclude domains]** ( **[!UICONTROL domainExclusions]** ). Durante el análisis del correo electrónico, estas reglas comparan las direcciones de correo de los destinatarios con las direcciones o nombres de dominio prohibidos incluidos en una lista de supresión global encriptada que se administra en la instancia de envío. Si se encuentra una coincidencia, el mensaje no se envía a ese destinatario.
+Hay dos reglas de filtrado disponibles de forma predeterminada: **[!UICONTROL Exclude addresses]** ( **[!UICONTROL addressExclusions]** ) y **[!UICONTROL Exclude domains]** ( **[!UICONTROL domainExclusions]** ). Durante el análisis del correo electrónico, estas reglas comparan las direcciones de correo de los destinatarios con las direcciones o nombres de dominio prohibidos incluidos en una lista de supresión global cifrada que se administra en la instancia de envío. Si se encuentra una coincidencia, el mensaje no se envía a ese destinatario.
 
 El objetivo de esto es evitar que se incluya el servicio en una lista de bloqueados de actividad maliciosa, especialmente a través de Spamtrap. Por ejemplo, si se utiliza un Spamtrap para suscribirse a través de uno de sus formularios web, se envía un mensaje de correo electrónico de confirmación automáticamente a ese Spamtrap y esto hace que incluya su dirección lista de bloqueados automáticamente.
 

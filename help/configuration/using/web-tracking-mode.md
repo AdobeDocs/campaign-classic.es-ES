@@ -3,11 +3,11 @@ product: campaign
 title: Modo de seguimiento web
 description: Obtenga información sobre cómo seleccionar el modo de seguimiento web
 feature: Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '680'
 ht-degree: 1%
 
 ---

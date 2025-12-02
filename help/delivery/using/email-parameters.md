@@ -3,12 +3,12 @@ product: campaign
 title: Parámetros de correo electrónico
 description: Obtenga información acerca de las opciones y la configuración específicas de la entrega por correo electrónico
 feature: Email
-role: User, Developer, Data Engineer
+role: User, Developer
 hide: true
 hidefromtoc: true
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 100%
 

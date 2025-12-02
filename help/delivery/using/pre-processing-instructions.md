@@ -4,12 +4,12 @@ title: Instrucciones de preprocesamiento para direcciones URL rastreadas
 description: Obtenga más información acerca de las instrucciones de preprocesamiento que se utilizarán para crear secuencias de comandos de la dirección URL de un correo electrónico que se seguirá rastreando
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring
-role: User, Data Engineer, Developer
+role: User, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '653'
-ht-degree: 100%
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
+source-wordcount: '651'
+ht-degree: 94%
 
 ---
 
@@ -101,7 +101,7 @@ Para la personalización del correo electrónico, el objeto de envío es accesib
 
 **Precaución**
 
-Si utiliza la siguiente instrucción para las entregas enviadas mediante intermediario, el campo personalizado **@myCustomField** debe añadirse al esquema nms:delivery en las plataformas de marketing y de intermediario:
+Si usa la siguiente instrucción para las entregas enviadas mediante intermediario, el campo personalizado **@myCustomField** debe agregarse al esquema nms:delivery en las plataformas de marketing y de intermediario:
 
 ```
 <%@ value object="delivery" xpath="@myCustomField" %>

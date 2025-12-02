@@ -3,11 +3,11 @@ product: campaign
 title: API orientadas a empresa
 description: API orientadas a empresa
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '618'
 ht-degree: 2%
 
 ---
@@ -27,9 +27,9 @@ Las API empresariales son específicas para cada tipo de objeto. Tienen un efect
    * inicio de un flujo de trabajo,
    * verificación de procesos, etc.
 
-     SOAP Consulte [métodos de en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
+     Consulte [Métodos SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
 
-* Gestión de contenido
+* Administración de contenido
 * Administración de suscripciones, consulte [Suscribirse (nms:subscription)](#subscribe--nms-subscription-) y [Cancelar suscripción (nms:subscription)](#unsubscribe--nms-subscription-).
 * Procesos de datos: importaciones y exportaciones.
 
@@ -37,7 +37,7 @@ Esta sección detalla el uso de los servicios &quot;Suscribirse&quot;, &quot;Can
 
 >[!IMPORTANT]
 >
->SOAP [La documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es) contiene información adicional sobre las llamadas a la aplicación y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
+>[La documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es) contiene información adicional sobre las llamadas de SOAP y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
 
 ## Suscribirse (nms:subscription) {#subscribe--nms-subscription-}
 
@@ -62,7 +62,7 @@ Descripción del método &quot;subscribe&quot; en el esquema &quot;nms:subscript
 </method>
 ```
 
-La definición de la clave de reconciliación debe introducirse mediante el atributo _&#x200B;**key** en el elemento `<recipient>` del documento XML. El contenido de este atributo es una lista XPath separada por comas.
+La definición de la clave de reconciliación debe introducirse mediante el atributo _**key** en el elemento `<recipient>` del documento XML. El contenido de este atributo es una lista XPath separada por comas.
 
 Esta llamada no devuelve ningún dato, excepto errores.
 
@@ -80,7 +80,7 @@ Actualización del destinatario y de la suscripción.
 <recipient _key="email, [folder-id]" email= "john.doe@adobe.com" folder-id="1305" firstName="John" lastName="Doe"/>
 ```
 
-### SOAP Ejemplo de mensajes de {#example-of-soap-messages}
+### Ejemplo de mensajes de SOAP {#example-of-soap-messages}
 
 * Consulta:
 
@@ -143,7 +143,7 @@ Si el destinatario no está presente en la base de datos o no está suscrito al 
 
 Esta llamada no devuelve ningún dato, excepto errores.
 
-### SOAP Ejemplo de mensajes de {#example-of-soap-messages-1}
+### Ejemplo de mensajes de SOAP {#example-of-soap-messages-1}
 
 Consulta:
 
@@ -198,7 +198,7 @@ Descripción del método en su esquema:
 
 Se debe crear una plantilla de envíos desde la consola del cliente de Adobe Campaign. Contiene los parámetros comunes a todas las entregas (dirección del remitente o duración de validez del mensaje).
 
-El documento XML de entrada es un fragmento de plantilla de envíos que obedece a la estructura del esquema &quot;nms:delivery&quot;. Contiene todos los datos adicionales que no se hayan podido definir estáticamente en la plantilla de envíos (por ejemplo, lista de destinatarios objetivo).
+El documento XML de entrada es un fragmento de plantilla de envío que obedece a la estructura del esquema &quot;nms:delivery&quot;. Contiene todos los datos adicionales que no se hayan podido definir estáticamente en la plantilla de envíos (por ejemplo, lista de destinatarios objetivo).
 
 Esta llamada no devuelve ningún dato, excepto errores.
 

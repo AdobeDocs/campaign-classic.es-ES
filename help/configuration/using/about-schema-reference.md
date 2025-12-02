@@ -3,13 +3,13 @@ product: campaign
 title: Introducción a los esquemas en Adobe Campaign
 description: Aprenda a trabajar con esquemas y a ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign
 feature: Schema Extension
-role: Data Engineer, Developer
+role: Developer
 level: Intermediate, Experienced
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 1%
+source-wordcount: '368'
+ht-degree: 2%
 
 ---
 

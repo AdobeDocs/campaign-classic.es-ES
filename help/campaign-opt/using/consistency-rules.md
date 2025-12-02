@@ -2,13 +2,13 @@
 product: campaign
 title: Reglas de coherencia
 description: Aprenda a trabajar con reglas de coherencia en Adobe Campaign
-role: User, Data Engineer
+role: User, Developer
 feature: Typology Rules, Campaigns
 hide: true
 hidefromtoc: true
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Antes de enviar mensajes, debe asegurarse de que su organización tiene la capac
 
 Para ello, debe crear reglas de tipología de **[!UICONTROL Capacity]**.
 
-En el siguiente ejemplo, creamos una regla de tipología para una campaña de fidelización telefónica. Restringimos el número de mensajes a 20 por día, es decir, la capacidad de procesamiento diaria de un centro de llamadas. Una vez aplicada la regla a dos envíos, podemos monitorizar el consumo mediante registros.
+En el siguiente ejemplo, creamos una regla de tipología para una campaña de lealtad telefónica. Restringimos el número de mensajes a 20 por día, es decir, la capacidad de procesamiento diaria de un centro de llamadas. Una vez aplicada la regla a dos envíos, podemos monitorizar el consumo mediante registros.
 
 Para diseñar una regla de capacidad nueva, siga los pasos a continuación:
 

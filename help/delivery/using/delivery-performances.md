@@ -4,9 +4,9 @@ title: Prácticas recomendadas sobre el rendimiento de los envíos
 description: Obtenga más información sobre el rendimiento de los envíos y las prácticas recomendadas
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability
-role: User, Data Engineer
+role: User, Developer
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Recomendamos seguir las directrices que se indican a continuación para garantiz
 
 **Temas relacionados:**
 
-* [Tablero de entregas](delivery-dashboard.md)
+* [Panel de control de entregas](delivery-dashboard.md)
 * [Solución de problemas de entrega](delivery-troubleshooting.md)
 * [Acerca de la capacidad de entrega](about-deliverability.md)
 

@@ -2,13 +2,13 @@
 product: campaign
 title: Ampliación de un esquema
 description: Obtenga información sobre cómo ampliar un esquema
-role: Data Engineer, Developer
+role: Developer
 feature: Schema Extension
 exl-id: 6e3e666d-6ab3-4346-93ca-fb0155a4660d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 9%
+source-wordcount: '302'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 >
 >Algunos esquemas integrados no deben ampliarse: principalmente aquellos para los que se definen las siguientes configuraciones:\
 >**dataSource=&quot;file&quot;** y **mappingType=&quot;xmlFile&quot;**.\
->No se deben ampliar los siguientes esquemas: **xtk:entityBackupNew**, **xtk:entityBackupOriginal**, **xtk:entityOriginal**, **xtk:form**, **xtk:srcSchema**, **ncm:publishing**, **nl:monitoring**, **nms:calendar**, **nms:remoteTracking&lbrace;1** nms:userAgentRules **,** xtk:builder **,** xtk:connections **,** xtk:dbInit **,** xtk:funcList **,** xtk:fusion **,** xtk: jst **,** xtk:navtree **&#x200B;**&#x200B;xtk:queryDef **,** xtk:resourceMenu **,** xtk:schema **,** xtk:scriptContext **,** xtk:session **,** xtk:sqlSchema **,** xtk:strings **.**
+>No se deben ampliar los siguientes esquemas: **xtk:entityBackupNew**, **xtk:entityBackupOriginal**, **xtk:entityOriginal**, **xtk:form**, **xtk:srcSchema**, **ncm:publishing**, **nl:monitoring**, **nms:calendar**, **nms:remoteTracking**, **nms:userAgentRules**, **xtk:builder**, **xtk:connections**, **xtk:dbInit**, **xtk:funcList**, **xtk:fusion**, **xtk: jst**, **xtk:navtree**, **xtk:queryDef**, **xtk:resourceMenu**, **xtk:schema**, **xtk:scriptContext**, **xtk:session**, **xtk:sqlSchema**, **xtk:strings**.
 >Esta lista no es exhaustiva.
 
 Existen dos métodos para ampliar un esquema existente:

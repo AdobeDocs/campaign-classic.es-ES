@@ -3,10 +3,10 @@ product: campaign
 title: Configuración y protocolo del conector SMS
 description: Obtenga más información sobre el conector de SMS y cómo configurarlo
 feature: SMS
-role: Developer, Data Engineer
+role: Developer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
-source-git-commit: 41296a0acaee93d31874bf58287e51085c6c1261
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '8457'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Los proveedores de SMPP a veces pueden desviarse de la especificación oficial, 
 
 Al enviar SMS masivos a través de un proveedor de SMS, se encontrará con tres tipos diferentes de SMS:
 
-* **SMS MT (móvil finalizado)**: un SMS emitido por Adobe Campaign hacia los teléfonos móviles a través del proveedor de SMPP.
+* **SMS MT (móvil terminado)**: un SMS emitido por Adobe Campaign hacia los teléfonos móviles a través del proveedor de SMPP.
 
 * **SMS MO (móvil original)**: un SMS que un móvil envía a Adobe Campaign a través del proveedor de SMPP.
 
@@ -416,7 +416,7 @@ Para Adobe Campaign Classic, puede haber un número diferente de conexiones de r
 
 * **Conexiones del transmisor = Número de conexiones secundarias MTA * número de procesos secundarios MTA * número de MTA (si se establece la respuesta automática) * número de conexiones secundarias MTA**
 
-Como se ha sugerido anteriormente, el proceso SMS de Adobe Campaign Classic abre más conexiones de transmisores si la respuesta automática está activada. Estas conexiones adicionales se utilizan para enviar las respuestas automáticas.
+Como se ha sugerido anteriormente, el proceso SMS de Adobe Campaign Classic abre más conexiones de transmisores si la respuesta automática está habilitada. Estas conexiones adicionales se utilizan para enviar las respuestas automáticas.
 
 * **Conexiones del receptor = Número de conexiones secundarias MTA**
 
@@ -687,7 +687,7 @@ Esto indica el formato del ID capturado por la regex `Extraction` del ID en el S
 
 Si se selecciona, el contenido de los campos opcionales se anexará al texto procesado por las expresiones regulares anteriores. El texto tendrá el formato `0xTAG:VALUE`, `0xTAG` siendo el valor hexadecimal de 4 dígitos de la etiqueta en mayúsculas, p. ej.: `0x002E`.
 
-Por ejemplo, es posible que desee capturar el ID en el campo `receipted_message_id`. Para ello, active esta casilla de verificación y el siguiente texto se agrega al estado:
+Por ejemplo, es posible que desee capturar el ID en el campo `receipted_message_id`. Para ello, habilite esta casilla de verificación y el siguiente texto se agrega al estado:
 
 ```
 0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739
@@ -737,7 +737,7 @@ La columna **Acción adicional** proporciona una acción adicional cuando tanto 
 
 >[!IMPORTANT]
 >
->La configuración del número de teléfono completo de envío afecta al comportamiento del mecanismo de cuarentena de respuesta automática: si el número de teléfono de envío completo no está marcado, el número de teléfono puesto en cuarentena estará marcado con un signo más (&quot;+&quot;) para que sea compatible con el formato de número de teléfono internacional.
+>La configuración del número de teléfono completo de envío afecta al comportamiento del mecanismo de cuarentena de respuesta automática: si el número de teléfono de envío completo no está marcado, el número de teléfono puesto en cuarentena tendrá un signo más (&quot;+&quot;) como prefijo para que sea compatible con el formato de número de teléfono internacional.
 
 Todas las entradas de la tabla se procesan en el orden especificado, hasta que una regla coincida. Si varias reglas coinciden con un MO, solo se aplicará la regla superior.
 
@@ -895,4 +895,4 @@ Aunque el SMS se haya enviado correctamente, póngase en contacto con el proveed
 
 ### Deshabilite los seguimientos detallados del SMPP {#disable-verbose}
 
-Una vez completadas todas las comprobaciones, lo último que debe hacer es **Deshabilitar los seguimientos detallados del SMPP** para no generar demasiados registros. Puede volver a activarlos para solucionar los problemas incluso en sistemas de producción.
+Una vez completadas todas las comprobaciones, lo último que debe hacer es **Deshabilitar los seguimientos detallados del SMPP** para no generar demasiados registros. Puede volver a habilitarlos para solucionar los problemas incluso en sistemas de producción.

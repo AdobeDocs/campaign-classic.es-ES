@@ -3,11 +3,11 @@ product: campaign
 title: Acerca de la edición de esquema
 description: Introducción a la edición de esquemas
 feature: Schema Extension
-role: Data Engineer, Developer
+role: Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1005'
 ht-degree: 9%
 
 ---
@@ -20,11 +20,11 @@ Adobe Campaign emplea esquemas de datos para:
 * Definir vínculos entre los diferentes objetos de datos dentro de la aplicación de Campaign.
 * Definir y describir los campos individuales incluidos en cada objeto.
 
-Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/about-data-model.html?lang=es).
+Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta sección](https://helpx.adobe.com/campaign/kb/acc-datamodel.html).
 
 ## Ampliación o creación de esquemas {#extending-or-creating-schemas}
 
-Para añadir un campo, un índice u otro elemento a uno de los esquemas de datos principales en Campaign, como la tabla de destinatarios (nms:recipient), debe ampliar ese esquema. Para obtener más información, consulte la sección [Ampliación de un esquema](../../configuration/using/extending-a-schema.md).
+Para agregar un campo, índice u otro elemento a uno de los esquemas de datos principales en Campaign, como la tabla de destinatarios (nms:recipient), debe ampliar ese esquema. Para obtener más información, consulte la sección [Ampliación de un esquema](../../configuration/using/extending-a-schema.md).
 
 Para añadir un tipo de datos completamente nuevo que no existe de forma predeterminada en Adobe Campaign (por ejemplo, una tabla de contratos), puede crear un esquema personalizado directamente. Para obtener más información, consulte la sección [Esquemas de datos](../../configuration/using/data-schemas.md).
 

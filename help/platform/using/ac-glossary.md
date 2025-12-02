@@ -3,11 +3,11 @@ product: campaign
 title: Glosario de Adobe Campaign
 description: Glosario de Adobe Campaign
 feature: Overview
-role: User, Data Architect
+role: User, Developer
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '6197'
 ht-degree: 100%
 
@@ -248,7 +248,7 @@ Más información sobre el [Correo directo](../../delivery/using/about-direct-ma
 
 +++**Asistente de implementación**
 
-El asistente de implementación define los parámetros de la instancia de Campaign, como el espcio de nombres predeterminado, la programación de limpieza de la base de datos, los períodos de retención de datos y otra configuración técnica.
+El asistente de implementación define los parámetros de la instancia de Campaign, como el espacio de nombres predeterminado, la programación de limpieza de la base de datos, los períodos de retención de datos y otra configuración técnica.
 
 Más información sobre el [Asistente de implementación](../../installation/using/deploying-an-instance.md#deployment-assistant).
 +++
@@ -540,11 +540,11 @@ Los derechos de acceso granulares a la base de datos que se utilizan para defini
 Más información sobre los [Derechos asignados](../../platform/using/access-management-named-rights.md).
 +++
 
-+++**Área de nombres**
++++Espacio de nombres ****
 
 El espacio de nombres es una partición que separa los tipos de datos del cliente de los tipos de datos nativos de Adobe Campaign en el modelo de datos. También se utiliza para facilitar la migración de definiciones de una instancia a otra, como mover un esquema o plantilla de la instancia de desarrollo a la instancia de producción.
 
-Más información sobre el [Área de nombres](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
+Más información sobre el [Espacio de nombres](../../configuration/using/about-schema-reference.md#identification-of-a-schema).
 +++
 
 <!--

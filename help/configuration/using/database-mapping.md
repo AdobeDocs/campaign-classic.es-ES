@@ -3,12 +3,12 @@ product: campaign
 title: Asignación de base de datos
 description: Asignación de base de datos
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
-source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -98,7 +98,7 @@ Para rellenar un campo en XML, debe agregar el atributo **xml** con el valor &qu
   <element name="description" xml="true" type="html" label="Description"/>
   ```
 
-  El tipo &quot;html&quot; permite almacenar el contenido del HTML en una etiqueta CDATA y mostrar una comprobación especial de edición del HTML en la interfaz de cliente de Adobe Campaign.
+  El tipo &quot;html&quot; permite almacenar el contenido de HTML en una etiqueta CDATA y mostrar una comprobación especial de edición de HTML en la interfaz de cliente de Adobe Campaign.
 
 Utilice campos XML para añadir nuevos campos sin modificar la estructura física de la base de datos. Otra ventaja es que utiliza menos recursos (tamaño asignado a campos SQL, límite en el número de campos por tabla, etc.). Sin embargo, tenga en cuenta que no puede indexar ni filtrar un campo XML.
 

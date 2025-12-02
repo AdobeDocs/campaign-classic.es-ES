@@ -3,12 +3,12 @@ product: campaign
 title: Configuración del árbol de navegación de Campaign Explorer
 feature: Application Settings
 description: Obtenga información sobre cómo configurar el árbol de navegación del explorador de Campaign
-role: Data Engineer, Developer
+role: Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
-source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Como usuario experto, puede agregar carpetas en el árbol del explorador y personalizarlo.
 
-Obtenga más información acerca de la interfaz de usuario de Campaign en [Documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+Obtenga más información sobre la interfaz de usuario de Campaign en la [documentación de Adobe Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 Los tipos de carpetas usados por la lista de navegación se describen en un documento XML que obedece a la gramática del esquema **xtk:navtree**.
 

@@ -4,12 +4,12 @@ title: Formato
 description: Formato
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Email Design
-role: User, Developer, Data Engineer
+role: User, Developer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: ht
-source-wordcount: '1451'
-ht-degree: 100%
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
+source-wordcount: '1446'
+ht-degree: 94%
 
 ---
 
@@ -21,11 +21,11 @@ Una plantilla JavaScript es un documento HTML o de texto que incluye un código 
 
 ### Identificación de una plantilla JavaScript {#identification-of-a-javascript-template}
 
-Una plantilla JavaScript se identifica con su nombre y área de nombres igual que los esquemas y formularios. No obstante, se recomienda añadir la opción **.js** al nombre de la plantilla.
+Una plantilla JavaScript se identifica con su nombre y espacio de nombres igual que los esquemas y formularios. No obstante, se recomienda añadir la opción **.js** al nombre de la plantilla.
 
 ### Estructura de una plantilla JavaScript {#structure-of-a-javascript-template}
 
-Ejemplo de una plantilla de formato HTML de JavaScript basada en el esquema “cus:book”:
+Ejemplo de una plantilla de formato de JavaScript HTML basada en el esquema &quot;cus:book&quot;:
 
 ```
 <html>
@@ -185,7 +185,7 @@ Para generar la vista previa del documento de salida en cualquier momento, selec
 
 ### Ejemplo de cómo crear y utilizar una plantilla JavaScript {#example-of-how-to-create-and-use-a-javascript-template}
 
-A continuación puede consultar la configuración necesaria para implementar la siguiente gestión de contenido mediante una plantilla JavaScript:
+A continuación puede consultar la configuración necesaria para implementar la siguiente administración de contenido mediante una plantilla JavaScript:
 
 ![](assets/d_ncs_content_sample_1.png)
 
@@ -230,7 +230,7 @@ Este ejemplo comprende los siguientes pasos:
    </srcSchema>
    ```
 
-1. Cree el formulario relacionado de tipo **[!UICONTROL Content management]** (**neo:news**).
+1. Crear el formulario **[!UICONTROL Content management]** vinculado (**neo:news**)
 
    ```
    <form _cs="News (neo)" entitySchema="xtk:form"  img="xtk:form.png" label="News"  name="news" namespace="neo" type="contentForm" xtkschema="xtk:form">
@@ -374,13 +374,13 @@ Esta transformación está a su vez en XML en un documento conocido como hoja de
 
 ### Identificación de una hoja de estilo {#identifying-a-stylesheet}
 
-Una hoja de estilo se identifica por su nombre y área de nombres, al igual que los esquemas y formularios. No obstante, se recomienda añadir la extensión **.xsl** al nombre de la hoja de estilo.
+Una hoja de estilo se identifica por su nombre y espacio de nombres, al igual que los esquemas y formularios. No obstante, se recomienda añadir la extensión **.xsl** al nombre de la hoja de estilo.
 
-La clave de identificación de una hoja de estilo es una cadena formada por el área de nombres y el nombre separados por dos puntos; por ejemplo:**cus:book.xsl**.
+La clave de identificación de una hoja de estilo es una cadena formada por el área de nombres y el nombre separados por dos puntos; por ejemplo: **cus:book.xsl**.
 
 ### Estructura de una hoja de estilo {#structure-of-a-stylesheet}
 
-Ejemplo de una hoja de estilo de formato HTML basada en el esquema de ejemplo “cus:book”:
+Ejemplo de una hoja de estilo de formato HTML basada en el esquema de ejemplo &quot;cus:book&quot;:
 
 ```
 <?xml version="1.0" encoding="ISO-8859-1" ?>
@@ -409,9 +409,9 @@ Una hoja de estilo es un documento XML que sigue las siguientes reglas:
 * los valores de los atributos están entre comillas,
 * un elemento debe tener un marcador de apertura y uno de cierre,
 * reemplace los caracteres “&lt;” o “&amp;” por las entidades **&#39;&lt;&#39;** o **&#39;&amp;&#39;**,
-* cada elemento XSL debe utilizar el área de nombres **xsl**.
+* cada elemento XSL debe utilizar el espacio de nombres **xsl**.
 
-Una hoja de estilo debe comenzar con el marcador del elemento raíz XSL **`<xsl:stylesheet>`** y terminar con el marcador **`</xsl:stylesheet>`**. El área de nombres XSL debe definirse en el marcador de apertura de la siguiente manera:
+Una hoja de estilo debe comenzar con el marcador del elemento raíz XSL **`<xsl:stylesheet>`** y terminar con el marcador **`</xsl:stylesheet>`**. El espacio de nombres XSL debe definirse en el marcador de apertura de la siguiente manera:
 
 ```
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
@@ -444,7 +444,7 @@ Las siguientes instrucciones describen la configuración de la hoja de estilo pa
 
 De forma predeterminada, el procesador XSLT busca la **template** que se aplica al nodo raíz o principal del documento XML de entrada. La construcción del documento de salida comienza con esta **template**.
 
-En nuestro ejemplo, se genera una página HTML a partir del esquema “cus:book” mostrando el nombre del libro y la lista de capítulos.
+En nuestro ejemplo, se genera una página de HTML a partir del esquema &quot;cus:book&quot; mostrando el nombre del libro y la lista de capítulos.
 
 >[!NOTE]
 >
@@ -495,7 +495,7 @@ La directiva **`<xsl:include>`** indica el nombre de la hoja de estilo que se va
 
 >[!NOTE]
 >
->El nombre del área de nombres no se debe introducir en la referencia de la hoja de estilo que desea incluir. Como estándar, esta hoja de estilo se crea con el área de nombres del usuario.
+>El nombre del espacio de nombres no se debe introducir en la referencia de la hoja de estilo que desea incluir. Como estándar, esta hoja de estilo se crea con el espacio de nombres del usuario.
 
 ### Edición de una hoja de estilo {#editing-a-stylesheet}
 
@@ -542,7 +542,7 @@ Ejemplo de cómo utilizar la opción de colocación de la imagen y su uso con un
 
 También puede utilizar **[!UICONTROL Public resources]** para declarar imágenes y cargarlas en el servidor, según la configuración de instancia introducida en el asistente de implementación.
 
-A continuación, puede llamar a estas imágenes en el contenido. Para ello, utilice la siguiente sintaxis en el esquema de gestión de contenido:
+A continuación, puede llamar a estas imágenes en el contenido. Para ello, utilice la siguiente sintaxis en el esquema de administración de contenido:
 
 ```
 <element label="Image" name="image" target="xtk:fileRes" type="link"/>

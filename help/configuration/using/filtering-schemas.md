@@ -3,11 +3,11 @@ product: campaign
 title: Filtrado de esquemas
 description: Filtrado de esquemas
 feature: Custom Resources
-role: Data Engineer, Developer
+role: Developer
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -60,20 +60,20 @@ Estos filtros se introducen en el nivel principal **element** de los esquemas y,
 >
 >Si no se especifica ningún filtro, todos los operadores tendrán permisos de lectura y escritura en el esquema.
 
-## Esquemas integrados de Protect {#protecting-built-in-schemas}
+## Protección de esquemas integrados {#protecting-built-in-schemas}
 
 De forma predeterminada, solo se puede acceder a los esquemas integrados con permisos de ESCRITURA para operadores con derechos de ADMINISTRACIÓN:
 
-* ncm:publicar
-* nl:monitorización
-* nms:calendario
+* ncm:publishing
+* nl:monitoring
+* nms:calendar
 * xtk:builder
-* xtk:conexiones
+* xtk:connections
 * xtk:dbInit
 * xtk:entityBackupNew
 * xtk:entityBackupOriginal
 * xtk:entityOriginal
-* xtk:formulario
+* xtk:form
 * xtk:funcList
 * xtk:fusion
 * xtk:image

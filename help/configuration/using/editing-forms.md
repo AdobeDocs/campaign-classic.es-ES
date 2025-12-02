@@ -3,10 +3,10 @@ product: campaign
 title: Editar formularios
 description: Editar formularios
 feature: Configuration
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 24604dc9-f675-4e37-a848-f1911be84f3e
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '1707'
 ht-degree: 3%
@@ -491,7 +491,7 @@ Obtenga más información sobre [campos de expresión](form-structure.md#express
 
 ### Validar valores
 
-Puede utilizar llamadas a JavaScript SOAP para validar datos de formulario desde la consola de. Utilice estas llamadas para realizar validaciones complejas, por ejemplo, para comparar un valor con una lista de valores autorizados. [Más información](form-structure.md#soap-methods).
+Puede utilizar llamadas de JavaScript SOAP para validar datos de formulario desde la consola. Utilice estas llamadas para realizar validaciones complejas, por ejemplo, para comparar un valor con una lista de valores autorizados. [Más información](form-structure.md#soap-methods).
 
 1. Cree una función de validación en un archivo JS.
 
@@ -515,7 +515,7 @@ Puede utilizar llamadas a JavaScript SOAP para validar datos de formulario desde
 
 1. En el formulario, agregue el elemento `<soapCall>` al elemento `<leave>`.
 
-   SOAP En este ejemplo, se usa una llamada de para validar la cadena `@valueToCheck`:
+   En este ejemplo, se utiliza una llamada de SOAP para validar la cadena `@valueToCheck`:
 
    ```xml
    <form name="recipient" (…)>
@@ -548,4 +548,4 @@ Este ejemplo muestra cómo puede realizar llamadas de servicio desde formularios
 </enter>
 ```
 
-En este ejemplo, la entrada es un ID, que es una clave principal. SOAP Cuando los usuarios rellenan el formulario de este ID, se realiza una llamada a la cuenta de la aplicación con este ID como parámetro de entrada. El resultado es un booleano escrito en este campo: `/tmp/@count`. Puede utilizar este booleano dentro del formulario. Más información sobre [contexto de formulario](form-structure.md#context-of-forms).
+En este ejemplo, la entrada es un ID, que es una clave principal. Cuando los usuarios rellenan el formulario de este ID, se realiza una llamada de SOAP con este ID como parámetro de entrada. El resultado es un booleano escrito en este campo: `/tmp/@count`. Puede utilizar este booleano dentro del formulario. Más información sobre [contexto de formulario](form-structure.md#context-of-forms).

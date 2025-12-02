@@ -3,11 +3,11 @@ product: campaign
 title: Administración de claves en esquemas de datos
 description: Comprensión de la administración de claves en esquemas de datos
 feature: Configuration, Instance Settings
-role: Data Engineer, Developer
+role: Developer
 exl-id: faf63c8f-9d10-43c1-a990-91361594af9f
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '617'
 ht-degree: 6%
 
 ---

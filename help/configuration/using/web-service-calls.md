@@ -3,11 +3,11 @@ product: campaign
 title: Llamadas al servicio web
 description: Llamadas al servicio web
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '918'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## Información general {#general-information}
 
-Todos los métodos API se presentan en forma de servicios web. Esto permite administrar todas las funciones de Adobe Campaign SOAP a través de llamadas de, que son el punto de entrada nativo del servidor de aplicaciones de Adobe Campaign. La propia consola de Adobe Campaign SOAP solo utiliza llamadas de.
+Todos los métodos API se presentan en forma de servicios web. Esto permite administrar todas las funciones de Adobe Campaign a través de llamadas de SOAP, que son el punto de entrada nativo del servidor de aplicaciones de Adobe Campaign. La propia consola de Adobe Campaign solo utiliza llamadas de SOAP.
 
 Los servicios web permiten crear muchas aplicaciones a partir de un sistema de terceros:
 
@@ -45,7 +45,7 @@ Se describe un servicio web en la gramática de los esquemas de datos y está di
 
 Aquí tenemos un ejemplo de la definición del método denominado **GenerateForm**.
 
-La descripción del servicio comienza con el elemento `<method>`. La lista de parámetros del método se completó desde el elemento `<parameters>`. Cada parámetro se especifica mediante un nombre, un tipo (Boolean, string, DOMElement, etc.) y una descripción. SOAP El atributo &quot;inout&quot; con el valor &quot;out&quot; permite especificar que el parámetro &quot;result&quot; se encuentra en la salida de la llamada de la llamada de la línea de comandos de la llamada de salida.
+La descripción del servicio comienza con el elemento `<method>`. La lista de parámetros del método se completó desde el elemento `<parameters>`. Cada parámetro se especifica mediante un nombre, un tipo (booleano, cadena, DOMElement, etc.) y una descripción. El atributo &quot;inout&quot; con el valor &quot;out&quot; permite especificar que el parámetro &quot;result&quot; se encuentra en la salida de la llamada de SOAP.
 
 La presencia del atributo &quot;static&quot; (con el valor &quot;true&quot;) describe este método como static, lo que significa que se deben declarar todos los parámetros del método.
 
@@ -64,7 +64,7 @@ Ejemplo del método &quot;ExecuteQuery&quot; de tipo &quot;const&quot; del esque
 </method>
 ```
 
-El parámetro de entrada de este método es un documento XML con formato del esquema &quot;xtk:queryDef&quot;.
+El parámetro de entrada de este método es un documento XML con el formato del esquema &quot;xtk:queryDef&quot;.
 
 ## Descripción del servicio web: WSDL {#web-service-description--wsdl}
 
@@ -154,7 +154,7 @@ El `<porttype>` asocia los mensajes en la operación &quot;ExecuteQuery&quot; de
 
 #### Enlace {#binding}
 
-SOAP La parte `<binding>` especifica el protocolo de comunicación de la ( `<soap:binding>` ), el transporte de datos en HTTP (valor del atributo &quot;transport&quot;) y el formato de datos para la operación &quot;ExecuteQuery&quot;. SOAP El cuerpo del sobre de la contiene los segmentos de mensaje directamente sin transformación.
+La parte `<binding>` especifica el protocolo de comunicación de SOAP ( `<soap:binding>` ), el transporte de datos en HTTP (valor del atributo &quot;transport&quot;) y el formato de datos para la operación &quot;ExecuteQuery&quot;. El cuerpo del sobre de SOAP contiene los segmentos de mensaje directamente sin transformación.
 
 ```
 <binding name="queryDefMethodsSoap" type="tns:queryDefMethodsSoap">
@@ -226,12 +226,12 @@ Cuando se accede a través de la consola, es:
 * transmitido en la respuesta de inicio de sesión (en el encabezado HTTP)
 * se utiliza en cada consulta (en el encabezado HTTP)
 
-Desde un POST y un GET HTTP:
+Desde un POST y GET HTTP:
 
 * el servidor completa los vínculos con el token
 * el servidor agrega un campo oculto a los formularios
 
-SOAP Desde una llamada a la:
+Desde una llamada de SOAP:
 
 * se añade a los encabezados de llamada
 

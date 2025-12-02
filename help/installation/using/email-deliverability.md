@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '3096'
 ht-degree: 13%
@@ -135,7 +135,7 @@ De forma predeterminada, el servidor de estadísticas escucha en el puerto 7777.
 
 >[!IMPORTANT]
 >
->En el caso de instalaciones alojadas o híbridas, si se ha actualizado al [servidor de correo mejorado](../../delivery/using/sending-with-enhanced-mta.md), ya no se utilizan las reglas de rendimiento de envíos **[!UICONTROL MX management]**. El servidor de correo mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica de correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
+>En el caso de instalaciones alojadas o híbridas, si se ha actualizado al [servidor de correo mejorado](../../delivery/using/sending-with-enhanced-mta.md), ya no se utilizan las reglas de rendimiento de envíos **[!UICONTROL MX management]**. El servidor de correo mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica del correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
 
 ### Acerca de las reglas MX {#about-mx-rules}
 
@@ -316,7 +316,7 @@ Puede definir el formato de los mensajes enviados, de modo que el contenido most
 
 Para ello, vaya al documento **[!UICONTROL Management of email formats]**, que se encuentra en **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Non deliverables management]** > **[!UICONTROL Mail rule sets]**.
 
-Este documento contiene una lista de todos los dominios predefinidos que corresponden a los formatos japoneses administrados por Adobe Campaign. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=es){target="_blank"}.
+Este documento contiene una lista de todos los dominios predefinidos que corresponden a los formatos japoneses administrados por Adobe Campaign. Para obtener más información, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=es){target="_blank"}.
 
 ![](assets/mail_rule_sets.png)
 
@@ -395,14 +395,14 @@ Los parámetros son los siguientes:
 
 En el ejemplo anterior, con condiciones normales, las direcciones se distribuyen de la siguiente manera:
 
-    * &quot;1&quot;: 5 / (5+5+1) = 45%
-    * &quot;2&quot;: 5 / (5+5+1) = 45%
-    * &quot;3&quot;: 1 / (5+5+1) = 10%
+* &quot;1&quot;: 5 / (5+5+1) = 45 %
+* &quot;2&quot;: 5 / (5+5+1) = 45 %
+* &quot;3&quot;: 1 / (5+5+1) = 10 %
 
 Si, por ejemplo, la primera dirección no se puede utilizar hacia un MX determinado, los mensajes se enviarán de la siguiente manera:
 
-    * &quot;2&quot;: 5 / (5+1) = 83%
-    * &quot;3&quot;: 1 / (5+1) = 17%
+* &quot;2&quot;: 5 / (5+1) = 83 %
+* &quot;3&quot;: 1 / (5+1) = 17 %
 
 * **includeDomains**: permite reservar esta dirección IP para los mensajes de correo electrónico que pertenecen a un dominio específico. Esta es una lista de máscaras que pueden contener uno o más caracteres comodín (&#39;&#42;&#39;). Si no se especifica el atributo, todos los dominios pueden utilizar esta dirección IP.
 

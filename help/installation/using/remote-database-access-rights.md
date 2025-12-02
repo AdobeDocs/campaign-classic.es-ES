@@ -7,10 +7,10 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
-source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 98%
+source-wordcount: '922'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ En primer lugar, para que el usuario pueda llevar a cabo operaciones en una base
 
 1. Seleccione el nodo **[!UICONTROL Administration > Access Management > Named Rights]** en Adobe Campaign Explorer.
 1. Cree un nuevo derecho especificando la etiqueta elegida.
-1. El campo **[!UICONTROL Name]** debe tener el siguiente formato **user:base@server**, donde:
+1. El campo **[!UICONTROL Name]** debe tener el siguiente formato **usuario:base@server**, donde:
 
    * **user** corresponde al nombre del usuario en la base de datos externa.
    * **base** corresponde al nombre de la base de datos externa.
@@ -75,5 +75,5 @@ El administrador de la base de datos debe hacer coincidir estos derechos con los
 | **Monitoreo de las ejecuciones** | No se requiere ningún privilegio para utilizar la instrucción EXPLAIN | Privilegio SELECT | Solo un administrador del sistema puede ejecutar sp_showplan. | No se requiere ningún privilegio para utilizar la instrucción EXPLAIN | No se requiere ningún privilegio para utilizar la instrucción EXPLAIN |
 | **Escritura de datos** | Privilegios INSERT y UPDATE | Privilegios INSERT y UPDATE | Permisos INSERT y UPDATE | Privilegios INSERT y UPDATE | Privilegios INSERT y UPDATE |
 | **Carga de datos en tablas** | Privilegios SELECT e INSERT para utilizar respectivamente las instrucciones COPY TO y COPY FROM | Privilegio FILE | Sea el propietario de la tabla o del permiso ALTER. Según la opción -gl, LOAD TABLE solo se puede realizar si el usuario tiene la autoridad de DBA. | Privilegios SELECT e INSERT | Privilegios SELECT e INSERT |
-| **Acceso a los datos del cliente** | Privilegio SELECT | Permiso SELECT | Privilegio SELECT | Privilegio SELECT |
+| **Acceso a los datos del cliente** | Privilegio SELECT | Permiso SELECT | Privilegio SELECT | Privilegio SELECT |  |
 | **Acceso a metadatos** | Privilegio de SHOW | Privilegio SELECT | No se requiere permiso para utilizar la instrucción DESCRIBE. | No se requiere ningún privilegio para usar el comando “\d table”. | No se requiere ningún privilegio para utilizar el comando SHOW. |

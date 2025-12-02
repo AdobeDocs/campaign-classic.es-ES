@@ -5,10 +5,10 @@ description: Obtenga información acerca del ámbito y las características espe
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '1380'
-ht-degree: 100%
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
+source-wordcount: '1379'
+ht-degree: 99%
 
 ---
 
@@ -161,6 +161,5 @@ En la tabla siguiente se muestran los diferentes pasos del proceso de envío con
 | El mensaje se retransmite correctamente desde Campaign al servidor de correo mejorado | El porcentaje de **[!UICONTROL Success]** comienza en 100 % | Enviado |
 | Los mensajes de devolución dura se informan desde el servidor de correo mejorado | El porcentaje de **[!UICONTROL Success]** baja en consecuencia | Error |
 | Los mensajes de devolución suave se informan desde el servidor de correo mejorado | No hay cambios en el porcentaje de **[!UICONTROL Success]** | Enviado |
-| Los reintentos de mensajes de devolución suave se realizan correctamente | No hay cambios en el porcentaje de **[!UICONTROL Success]** | Enviado | El porcentaje de **[!UICONTROL Success]** sube en consecuencia | Enviado |
+| Los reintentos de mensajes de devolución suave se realizan correctamente | Sin cambios en el porcentaje **[!UICONTROL Success]** \|  **[!UICONTROL Success]** porcentaje de aumento en consecuencia | Enviado |
 | Error en los reintentos de mensajes de devolución suave | El porcentaje de **[!UICONTROL Success]** baja en consecuencia | Error |
-

@@ -3,11 +3,11 @@ product: campaign
 title: Métodos SOAP en JavaScript
 feature: Configuration, Instance Settings
 description: Métodos SOAP en JavaScript
-role: Data Engineer, Developer
+role: Developer
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '134'
 ht-degree: 9%
 
 ---
@@ -18,9 +18,9 @@ Este es el JavaScript ejecutado en el servidor de Adobe Campaign.
 
 ## Métodos estáticos {#static-methods}
 
-SOAP Se accede a los métodos de la estática invocando un método en el objeto que representa el esquema. Los esquemas son propiedades de objetos &quot;namespace&quot;. Estas áreas de nombres son variables globales, por lo que, por ejemplo, las variables xtk o nms representan las áreas de nombres correspondientes
+Se accede a los métodos de SOAP estáticos invocando un método en el objeto que representa el esquema. Los esquemas son propiedades de objetos &quot;namespace&quot;. Estas áreas de nombres son variables globales, por lo que, por ejemplo, las variables xtk o nms representan las áreas de nombres correspondientes
 
-En el ejemplo siguiente se invoca el método PostEvent estático del esquema xtk:workflow:
+El ejemplo siguiente invoca el método PostEvent estático del esquema xtk:workflow:
 
 ```
 xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false) 
@@ -28,9 +28,9 @@ xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false)
 
 ## Métodos no estáticos {#non-static-methods}
 
-SOAP Para utilizar métodos de no estáticos, primero es necesario recuperar una entidad utilizando los métodos &quot;get&quot; o &quot;create&quot; en los esquemas correspondientes.
+Para utilizar métodos SOAP no estáticos, primero es necesario recuperar una entidad utilizando los métodos &quot;get&quot; o &quot;create&quot; en los esquemas correspondientes.
 
-En el ejemplo siguiente se invoca el método ExecuteQuery del esquema &quot;xtk:queryDef&quot;:
+El ejemplo siguiente invoca el método ExecuteQuery del esquema &quot;xtk:queryDef&quot;:
 
 ```
 var query = xtk.queryDef.create(

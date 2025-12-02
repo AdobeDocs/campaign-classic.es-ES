@@ -2,14 +2,14 @@
 product: campaign
 title: Direcciones semilla
 description: Direcciones semilla
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Seed Address
 level: Intermediate, Experienced
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
-source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '326'
 ht-degree: 12%
 
 ---
@@ -26,7 +26,7 @@ Para obtener más información sobre el uso de las direcciones semilla, consulte
 
 ## Implementación {#implementation}
 
-El esquema **nms:seedMember** y el formulario vinculado que vienen de forma predeterminada están pensados para ampliarse para la configuración del cliente, a fin de hacer referencia a todos los campos necesarios. La definición del esquema contiene comentarios que detallan su modo de configuración.
+El esquema **nms:seedMember** y el formulario vinculado que vienen predeterminados están pensados para ampliarse para la configuración del cliente, a fin de hacer referencia a todos los campos necesarios. La definición del esquema contiene comentarios que detallan su modo de configuración.
 
 Definición del esquema ampliado de la tabla de destinatarios:
 

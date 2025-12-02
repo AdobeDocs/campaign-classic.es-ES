@@ -3,9 +3,9 @@ product: campaign
 title: Introducción al modelo de datos de Campaign Classic
 description: Aprenda a ampliar el modelo de datos de Campaign, editar esquemas, utilizar API y mucho más
 feature: Data Model, Configuration
-role: Data Engineer, Developer
+role: Developer
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 6%
@@ -108,7 +108,7 @@ Las ventajas de utilizar una tabla de destinatarios personalizada son las siguie
 
 Obtenga más información acerca del modelo de datos de Campaign en estas secciones:
 
-* **Descripción de las tablas principales**: para obtener más información sobre la descripción del modelo de datos predeterminado del Campaign Classic, consulte [esta sección](../../configuration/using/data-model-description.md).
+* **Descripción de las tablas principales**: para obtener más información sobre la descripción predeterminada del modelo de datos de Campaign Classic, consulte [esta sección](../../configuration/using/data-model-description.md).
 
 * **Descripción completa de cada tabla**: para obtener acceso a la descripción completa de cada tabla, vaya a **[!UICONTROL Admin > Configuration > Data schemas]**, seleccione un recurso de la lista y haga clic en la ficha **[!UICONTROL Documentation]**.
 

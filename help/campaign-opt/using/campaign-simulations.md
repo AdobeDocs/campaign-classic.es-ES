@@ -2,13 +2,13 @@
 product: campaign
 title: Simulaciones en Campaign
 description: Introducción a las simulaciones de Campaign
-role: User, Data Engineer
+role: User, Developer
 feature: Campaigns
 hide: true
 hidefromtoc: true
 exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
 source-wordcount: '1245'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ La pestaña **[!UICONTROL General]** de la simulación permite introducir los aj
 
 Una vez definido el ámbito de simulación, puede ejecutarlo.
 
-Para ello, abra el panel de simulación y haga clic en **[!UICONTROL Start simulation]**.
+Para ello, abra el panel de control de simulación y haga clic en **[!UICONTROL Start simulation]**.
 
 ![](assets/simu_campaign_opti_start.png)
 
@@ -160,11 +160,11 @@ Los siguientes informes se ofrecen de forma predeterminada:
 >
 >Puede crear nuevos informes y agregarlos a los ofrecidos. Para obtener más información, consulte [esta sección](../../reporting/using/about-adobe-campaign-reporting-tools.md).
 
-Para acceder a los informes, haga clic en el vínculo **[!UICONTROL Reports]** de la simulación de destinatarios a través de su panel.
+Para acceder a los informes, haga clic en el vínculo **[!UICONTROL Reports]** de la simulación de destinatarios a través de su panel de control.
 
 ![](assets/campaign_opt_reporting_edit_from_board.png)
 
-También puede editar informes mediante el vínculo **[!UICONTROL Reports]** al que se puede acceder desde el panel de simulación.
+También puede editar informes mediante el vínculo **[!UICONTROL Reports]** al que se puede acceder desde el panel de control de simulación.
 
 ### Comparación de simulaciones {#comparing-simulations-}
 
@@ -227,6 +227,6 @@ La superposición de destinatarios de la entrega indica que han estado presentes
 
 >[!NOTE]
 >
->Esta subpestaña solo se muestra si se ha activado la opción **[!UICONTROL Generate target recovery statistics]**.
+>Esta subpestaña solo se muestra si se ha habilitado la opción **[!UICONTROL Generate target recovery statistics]**.
 
 La información sobre los ejes de creación de informes se puede procesar en los informes de análisis de exclusión creados en la subpestaña **[!UICONTROL Exploring exclusions]**. Para obtener más información, consulte [Exploración de resultados](#exploring-results).

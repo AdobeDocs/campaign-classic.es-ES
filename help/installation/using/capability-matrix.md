@@ -4,7 +4,7 @@ title: Matriz de capacidades on-premise, híbrida y alojada de Campaign
 description: Conozca las principales diferencias entre las implementaciones alojadas y locales
 feature: Installation, Architecture
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 32%
@@ -17,7 +17,7 @@ ht-degree: 32%
 
 Adobe Campaign Classic incluye un conjunto de módulos y opciones. La disponibilidad de estos módulos y su uso pueden depender del tipo de implementación de la instalación. Este artículo comparte algunos detalles sobre las principales diferencias entre determinadas funciones entre implementaciones totalmente alojadas (Managed Services) y locales.
 
-Esta página muestra las principales diferencias entre implementaciones alojadas (Managed Services) y locales. Las especificidades de las implementaciones híbridas dependen de los elementos alojados por el Adobe y alojados en sus instalaciones.
+Esta página muestra las principales diferencias entre implementaciones alojadas (Managed Services) y locales. Las características específicas de las implementaciones híbridas dependen de los elementos alojados por Adobe y alojados en sus instalaciones.
 
 Los diferentes modelos de alojamiento se introdujeron [en esta sección](../../installation/using/hosting-models.md).
 
@@ -51,7 +51,7 @@ Adobe Campaign proporciona la opción **Acceso de datos federado** (FDA) para pr
 **Consulte también**
 
 * [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md)
-* [Notas de la versión &#x200B;](../../rn/using/latest-release.md)
+* [Notas de la versión ](../../rn/using/latest-release.md)
 * [Actualizaciones de Campaign Classic](../../rn/using/rn-overview.md)
 * [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md)
 * [Versiones de [!DNL Gold Standard]](../../rn/using/gold-standard.md)

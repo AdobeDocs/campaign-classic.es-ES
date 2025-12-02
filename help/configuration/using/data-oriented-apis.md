@@ -3,11 +3,11 @@ product: campaign
 title: API orientadas a datos
 description: API orientadas a datos
 feature: API
-role: Data Engineer, Developer
+role: Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
-source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1796'
 ht-degree: 0%
 
 ---
@@ -306,7 +306,7 @@ Esta sintaxis simplifica la consulta cuando se utilizan más de dos datos en la 
   </where>
   ```
 
-  Para recuperar los campos de la carpeta desde el esquema &quot;nms:recipient&quot;:
+  Para recuperar los campos de la carpeta del esquema &quot;nms:recipient&quot;:
 
   ```xml
   <select>
@@ -391,7 +391,7 @@ Para evitar enlazar un parámetro, el atributo &quot;noSqlBind&quot; debe rellen
 
 El parámetro de retorno es un documento XML con el formato del esquema asociado a la consulta.
 
-Ejemplo de una devolución desde el esquema &quot;nms:recipient&quot; en una operación &quot;get&quot;:
+Ejemplo de un retorno del esquema &quot;nms:recipient&quot; en una operación &quot;get&quot;:
 
 ```
 <recipient email="john.doe@adobe.com" lastName"Doe" firstName="John"/>
@@ -442,7 +442,7 @@ En lugar de:
 </recipient>
 ```
 
-### SOAP Ejemplo de mensajes de {#example-of-soap-messages}
+### Ejemplo de mensajes de SOAP {#example-of-soap-messages}
 
 * Consulta:
 
@@ -575,7 +575,7 @@ Asociar la carpeta con un destinatario en función de su nombre interno (@name).
 
 Los atributos &quot;_key&quot; y &quot;_operation&quot; se pueden introducir en un elemento enlazado. El comportamiento en este elemento es el mismo que en el elemento principal del esquema de entrada.
 
-La definición de la clave de la entidad principal (&quot;nms:recipient&quot;) consta de un campo de una tabla vinculada (elemento `<folder>` esquema &quot;xtk:folder&quot;) y el correo electrónico.
+La definición de la clave de la entidad principal (&quot;nms:recipient&quot;) consiste en un campo de una tabla vinculada (elemento `<folder>` esquema &quot;xtk:folder&quot;) y el correo electrónico.
 
 >[!NOTE]
 >
@@ -583,7 +583,7 @@ La definición de la clave de la entidad principal (&quot;nms:recipient&quot;) c
 
 #### Ejemplo 2 {#example-2}
 
-Actualización de la empresa (tabla vinculada en el esquema &quot;cus:company&quot;) desde un destinatario:
+Actualización de la compañía (tabla vinculada en el esquema &quot;cus:company&quot;) desde un destinatario:
 
 ```xml
 <recipient _key="[folder/@name], @email" email="john.doe@adobe.net" lastName="Doe" firstName="John" xtkschema="nms:recipient">
@@ -593,7 +593,7 @@ Actualización de la empresa (tabla vinculada en el esquema &quot;cus:company&qu
 
 #### Ejemplo 3 {#example-3}
 
-Añadir un destinatario a un grupo con la tabla de relación de grupos (&quot;nms:rcpGrpRel&quot;):
+Agregar un destinatario a un grupo con la tabla de relación de grupos (&quot;nms:rcpGrpRel&quot;):
 
 ```xml
 <recipient _key="@email" email="martin.ledger@adobe.net" xtkschema="nms:recipient">
@@ -605,13 +605,13 @@ Añadir un destinatario a un grupo con la tabla de relación de grupos (&quot;nm
 
 >[!NOTE]
 >
->La definición de la clave no se especifica en el elemento `<rcpgroup>` porque se define una clave implícita basada en el nombre del grupo en el esquema &quot;nms:group&quot;.
+>La definición de la clave no se especifica en el elemento `<rcpgroup>` porque se define una clave implícita basada en el nombre de grupo en el esquema &quot;nms:group&quot;.
 
 ### Elementos de colección XML {#xml-collection-elements}
 
 De forma predeterminada, todos los elementos de colección deben rellenarse para actualizar los elementos de colección XML. Los datos de la base de datos se reemplazarán con los datos del documento de entrada. Si el documento contiene solo los elementos que se van a actualizar, debe rellenar el atributo &quot;_operation&quot; en todos los elementos de recopilación que se van a actualizar para forzar una combinación con los datos XML de la base de datos.
 
-### SOAP Ejemplo de mensajes de {#example-of-soap-messages-1}
+### Ejemplo de mensajes de SOAP {#example-of-soap-messages-1}
 
 * Consulta:
 

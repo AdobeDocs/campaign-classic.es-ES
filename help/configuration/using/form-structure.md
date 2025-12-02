@@ -3,12 +3,12 @@ product: campaign
 title: Estructura del formulario
 description: Estructura del formulario
 feature: Application Settings
-role: Data Engineer, Developer
+role: Developer
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2394'
 ht-degree: 5%
 
 ---
@@ -277,7 +277,7 @@ El icono **[!UICONTROL Modify the link]** (carpeta) inicia un formulario de sele
 
 ![](assets/d_ncs_integration_form_exemple10.png)
 
-El icono **[!UICONTROL Edit link]** (lupa) inicia el formulario de edición del elemento vinculado. El formulario utilizado se deduce de forma predeterminada en la clave del esquema de destino. El atributo **form** le permite forzar el nombre del formulario de edición (por ejemplo, &quot;cus:company2&quot;).
+El icono **[!UICONTROL Edit link]** (lupa) inicia el formulario de edición del elemento vinculado. El formulario utilizado se deduce de forma predeterminada en la clave del esquema de destino. El atributo **form** le permite forzar el nombre del formulario de edición (por ejemplo: &quot;cus:company2&quot;).
 
 Puede restringir la selección de elementos de destino agregando el elemento **`<sysfilter>`** de la definición del vínculo en el formulario de entrada:
 
@@ -378,7 +378,7 @@ Ejemplo de una tabla de relaciones en un esquema:
 </srcSchema>
 ```
 
-Para nuestro ejemplo, empezamos con el formulario de entrada del esquema &quot;cus:recipient&quot;. La lista debe mostrar las asociaciones con suscripciones a servicios y debe permitirle agregar una suscripción seleccionando un servicio existente.
+Para nuestro ejemplo, comenzamos con el formulario de entrada del esquema &quot;cus:recipient&quot;. La lista debe mostrar las asociaciones con suscripciones a servicios y debe permitirle agregar una suscripción seleccionando un servicio existente.
 
 ![](assets/d_ncs_integration_form_exemple12.png)
 
@@ -519,7 +519,7 @@ Una casilla de verificación refleja un estado booleano (seleccionado o no). De 
 
 ![](assets/d_ncs_integration_form_exemple20.png)
 
-## Lista desglosada {#enumeration}
+## Enumeración {#enumeration}
 
 <!-- to be completed -->
 
@@ -638,7 +638,7 @@ El botón **[!UICONTROL Finish]** guarda los datos introducidos y cierra el form
 
 ### Métodos SOAP {#soap-methods}
 
-SOAP Se puede iniciar la ejecución del método de desde una etiqueta **`<leave>`** rellenada al final de una página.
+Se puede iniciar la ejecución del método SOAP desde una etiqueta **`<leave>`** rellenada al final de una página.
 
 La etiqueta **`<soapcall>`** contiene la llamada para el método con los siguientes parámetros de entrada:
 

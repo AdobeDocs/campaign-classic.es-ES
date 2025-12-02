@@ -4,12 +4,12 @@ title: Enriquecimiento de contenido
 description: Enriquecimiento de contenido
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Data Management
-role: User, Developer, Data Engineer
+role: User, Developer
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '670'
-ht-degree: 100%
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 87%
 
 ---
 
@@ -67,7 +67,7 @@ Los vínculos permiten recuperar datos externos vinculados al contenido.
 
 Hay dos tipos de datos vinculados:
 
-* Vínculos de contenido: modo nativo de gestión del contenido. El contenido del vínculo se integra automáticamente en el documento de salida XML.
+* Vínculos de contenido: modo nativo de administración de contenido. El contenido del vínculo se integra automáticamente en el documento de salida XML.
 * Los vínculos a listas externas proporcionan acceso a las demás listas de la base de datos con la limitación de recuperar los datos del vínculo seleccionado mediante un acumulador.
 
 ### Vinculación a un esquema de contenido {#link-to-a-content-schema}
@@ -78,7 +78,7 @@ En el esquema de datos, se define un vínculo de contenido de la siguiente maner
 <element expandSchemaTarget="cus:chapter" label="Main chapter" name="mainChapter" type="string"/>
 ```
 
-La definición del vínculo se rellena en un **tipo** string **`<element>`**, y el atributo **expandSchemaTarget** hace referencia al esquema de destino (“cus:chapter” en el ejemplo). El esquema de referencia debe ser de contenido.
+La definición del vínculo se rellena en una **cadena** de tipo **`<element>`**, y el atributo **expandSchemaTarget** hace referencia al esquema de destino (&quot;cus:chapter&quot; en nuestro ejemplo). El esquema de referencia debe ser de contenido.
 
 El contenido del elemento de destino enriquece el elemento de vínculo, es decir, el elemento **`<chapter>`** en el esquema de ejemplo:
 
@@ -136,13 +136,13 @@ Se declara un vínculo a una tabla externa en el esquema de datos de la siguient
 <element label="Main contact" name="mainContact" target="nms:recipient" type="link"/>
 ```
 
-La definición del vínculo se rellena en un **tipo** vínculo **`<element>`** y el atributo **target** hace referencia al esquema de destino (“nms:destinatario” en el ejemplo).
+La definición del vínculo se rellena en un **vínculo** de tipo **`<element>`**, y el atributo **target** hace referencia al esquema de destino (&quot;nms:recipient&quot; en nuestro ejemplo).
 
 Por norma, los vínculos deben declararse del elemento principal del esquema de datos.
 
 **Compute string** y la clave del elemento de destino enriquecen los atributos **`<name>-id`** y **`<name>-cs`** en el elemento principal.
 
-En nuestro ejemplo, el vínculo se rellena en el esquema “cus:book”, el contenido de los datos del vínculo se incluye en los atributos “mainContact-id” y “mainContact-cs”:
+En nuestro ejemplo, el vínculo se rellena en el esquema &quot;cus:book&quot;, el contenido de los datos del vínculo se incluye en los atributos &quot;mainContact-id&quot; y &quot;mainContact-cs&quot;:
 
 ```
 <book computeString="Content management" date="2006/06/08" id="6106" language="en" mainContact-cs="John Doe (john.doe@adobe.com)" mainContact-id="3012" name="Content management" xtkschema="cus:book">

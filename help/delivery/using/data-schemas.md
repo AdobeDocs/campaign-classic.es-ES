@@ -4,12 +4,12 @@ title: Uso de esquemas de datos en Campaign
 description: Aprenda a utilizar esquemas de datos en Campaign
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Data Model
-role: User, Developer, Data Engineer
+role: User, Developer
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 100%
+source-wordcount: '566'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Para obtener más información sobre la creación y la configuración de esquema
 
 ## Estructura del esquema {#schema-structure}
 
-El documento XML de un esquema de datos debe contener **`<srcschema>`** el elemento raíz con los atributos **name** y **namespace** para rellenar el nombre del esquema y su área de nombres.
+El documento XML de un esquema de datos debe contener **`<srcschema>`** el elemento raíz con los atributos **name** y **namespace** para rellenar el nombre del esquema y su espacio de nombres.
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -31,7 +31,7 @@ El documento XML de un esquema de datos debe contener **`<srcschema>`** el eleme
 
 El punto de entrada del esquema es el elemento principal. Es fácil de identificar porque tiene el mismo nombre que el esquema y debe ser el elemento secundario del elemento raíz. La descripción del contenido comienza con este elemento.
 
-En un esquema de gestión de contenido, el elemento principal se representa mediante la siguiente línea:
+En un esquema de administración de contenido, el elemento principal se representa mediante la siguiente línea:
 
 ```
 <element name="book" template="ncm:content" xmlChildren="true">
@@ -73,7 +73,7 @@ A continuación, se muestra un ejemplo de esquema de administración de contenid
 
 Se pueden utilizar varias propiedades para enriquecer los elementos **`<element>`** y **`<attribute>`** del esquema de datos.
 
-Las propiedades principales utilizadas en la gestión de contenido son las siguientes:
+Las propiedades principales utilizadas en la administración de contenido son las siguientes:
 
 * **label**: descripción breve.
 * **desc**: descripción larga.
@@ -175,4 +175,4 @@ Cuando se guarda el esquema de origen, la generación del esquema ampliado se in
 
 >[!NOTE]
 >
->El control de edición **Name** permite introducir la clave del esquema, formado por el nombre y el área de nombres. Los atributos **name** y **namespace** del elemento raíz del esquema se actualizan automáticamente en el campo de edición XML del esquema.
+>El control de edición **Name** permite introducir la clave del esquema, formado por el nombre y el espacio de nombres. Los atributos **name** y **namespace** del elemento raíz del esquema se actualizan automáticamente en el campo de edición XML del esquema.

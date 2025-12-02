@@ -3,10 +3,10 @@ product: campaign
 title: Acerca de la tabla de destinatarios personalizada
 description: Acerca de la tabla de destinatarios personalizada
 feature: Configuration, Custom Resources
-role: User, Data Engineer, Developer
+role: User, Developer
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 3%
@@ -32,7 +32,7 @@ Esta funcionalidad permite a Adobe Campaign procesar datos de una base de datos 
 
 En esta sección se describen los puntos clave que permiten asignar tablas existentes en Adobe Campaign y la configuración que se debe aplicar para ejecutar envíos basados en cualquier tabla. Por último, se describe cómo proporcionar a los usuarios interfaces de consulta tan prácticas como las disponibles con la tabla de destinatarios integrada. Para comprender el material presentado en esta sección, se requiere un buen conocimiento de los principios de diseño de pantalla y esquema.
 
-## Recommendations y limitaciones {#recommendations-and-limitations}
+## Recomendaciones y limitaciones {#recommendations-and-limitations}
 
 El uso de una tabla de destinatarios personalizada tiene las siguientes limitaciones:
 

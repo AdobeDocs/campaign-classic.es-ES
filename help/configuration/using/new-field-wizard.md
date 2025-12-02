@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: Nuevo asistente de campo
-description: Nuevo asistente de campo
+title: Asistente de nuevo campo
+description: Asistente de nuevo campo
 feature: Schema Extension
-role: Data Engineer, Developer
+role: Developer
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
-source-git-commit: ec774cc10a69a694b3c2bf5a6f662afd12a1435a
+source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 4%
 
 ---
 
-# Nuevo asistente de campo{#new-field-wizard}
+# Asistente de nuevo campo{#new-field-wizard}
 
 
 Un asistente accesible a través de **[!UICONTROL Tools > Advanced > Add new fields]** le permite agregar uno o más campos a una tabla de la base de datos.
@@ -35,7 +35,7 @@ Las pantallas del asistente contienen los siguientes pasos:
 
 1. Para confirmar los cambios, haga clic en el botón **[!UICONTROL Finish]**.
 
-Se crea automáticamente un archivo de extensión, llamado &quot;cus:recipient&quot; en nuestro ejemplo, y se ejecuta la secuencia de comandos SQL correspondiente:
+Se crea automáticamente un archivo de extensión, denominado &quot;cus:recipient&quot; en nuestro ejemplo, y se ejecuta el script SQL correspondiente:
 
 ```
 <srcSchema extendedSchema="nms:recipient" label="Recipients" name="recipient"  namespace="cus">  
