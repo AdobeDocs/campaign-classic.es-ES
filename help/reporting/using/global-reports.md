@@ -5,10 +5,10 @@ description: Informes globales
 badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic v7"
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: 2186b8a30449cb023cb07305ba64d53f2c8adab1
 workflow-type: tm+mt
 source-wordcount: '2292'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ Para mostrar los informes, haga clic en el nombre de cada uno. Los siguientes in
 * **[!UICONTROL Operating systems]**: consulte [Sistemas operativos](#operating-systems).
 * **[!UICONTROL URLs and click streams]**: consulte [Direcciones URL y flujos de clics](../../reporting/using/delivery-reports.md#urls-and-click-streams).
 * **[!UICONTROL Tracking indicators]**: consulte [Seguimiento de indicadores](../../reporting/using/delivery-reports.md#tracking-indicators).
-* **[!UICONTROL Non-deliverables and bounces]**: consulte [No entregables y devoluciones](#non-deliverables-and-bounces).
+* **[!UICONTROL Non-deliverables and bounces]**: consulte [Rechazos y correos que no se pueden entregar](#non-deliverables-and-bounces).
 * **[!UICONTROL User activities]**: consulte [Actividades de usuario](#user-activities).
 * **[!UICONTROL Subscription tracking]**: consulte [Seguimiento de suscripciones](#subscription-tracking).
 * **[!UICONTROL Delivery summary]**: consulte [Resumen de entregas](../../reporting/using/delivery-reports.md#delivery-summary).
@@ -70,9 +70,9 @@ Estas son las opciones disponibles:
 * **[!UICONTROL Clicks]** : Número total de clics en los vínculos de los envíos. No se tienen en cuenta los clics en los vínculos de baja de suscripción ni en las páginas espejo.
 * **[!UICONTROL Transactions]** : Número total de transacciones después de recibir un mensaje. Para que se pueda tener en cuenta una transacción, debe insertarse una etiqueta de seguimiento web de tipo de transacción en la página web correspondiente. La configuración de seguimiento web se muestra en [esta sección](../../configuration/using/about-web-tracking.md).
 
-## Rechazos y no entregables {#non-deliverables-and-bounces}
+## Rechazos y correos que no se pueden entregar {#non-deliverables-and-bounces}
 
-Este informe muestra el desglose de no entregables, así como un desglose de rechazos por dominio de Internet.
+Este informe muestra el desglose de correos que no se pueden entregar, así como un desglose de rechazos por dominio de Internet.
 
 **[!UICONTROL Number of messages processed]** representa el número total de mensajes procesados por el servidor de entrega. Este valor es inferior al número de mensajes que se desea enviar cuando se han detenido o pausado algunas entregas (antes de que el servidor los procese).
 
@@ -82,9 +82,9 @@ Este informe muestra el desglose de no entregables, así como un desglose de rec
 
 >[!NOTE]
 >
->Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de la cuarentena, consulte [Administración de cuarentena](../../delivery/using/understanding-quarantine-management.md).
+>Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de la cuarentena, consulte [Administración de cuarentena](../../delivery/using/delivery-failures-quarantine.md).
 
-La primera sección de este informe muestra el desglose de no entregables en forma de tabla de valores y de gráfico.
+La primera sección de este informe muestra el desglose de correos que no se pueden entregar en forma de tabla de valores y de gráfico.
 
 Para cada tipo de error, se cuenta con:
 
@@ -167,9 +167,9 @@ La tabla de valores utiliza los indicadores siguientes:
 
 ### Difusión en redes sociales {#sharing-to-social-networks}
 
-El marketing viral permite que los destinatarios de los envíos compartan información con sus redes de contactos: pueden añadir un vínculo a su perfil de Facebook, X (anteriormente conocido como Twitter), etc., o enviar un mensaje a un amigo.  Cada difusión y cada acceso a la información compartida se rastrea dentro de la entrega. Para obtener más información sobre marketing viral, consulte [esta sección](../../delivery/using/viral-and-social-marketing.md).
+El marketing viral permite que los destinatarios de las entregas compartan información con sus redes de contactos: pueden añadir un vínculo a su perfil (Facebook, X, anteriormente conocido como Twitter, etc.) o enviar un mensaje a un amigo. Cada difusión y cada acceso a la información compartida se rastrea dentro de la entrega. Para obtener más información sobre marketing viral, consulte [esta sección](../../delivery/using/viral-and-social-marketing.md).
 
-Este informe muestra el desglose de mensajes compartidos y abiertos por red social (Facebook, X, etc.)  o por correo electrónico.
+Este informe muestra el desglose de mensajes compartidos y abiertos por red social (Facebook, X, etc.) y por correo electrónico.
 
 ![](assets/s_ncs_user_social_report.png)
 
@@ -202,7 +202,7 @@ Esta sección incluye dos gráficos que representan el desglose de actividades d
 
 ## Estadísticas de actividades de difusión {#statistics-on-sharing-activities}
 
-Este informe muestra la evolución de las difusiones en redes sociales como Facebook, X (anteriormente conocido como Twitter), correo electrónico, etc. en el tiempo.
+Este informe muestra la evolución de las difusiones en redes sociales (Facebook, X, anteriormente conocido como Twitter, correo electrónico, etc.) en el tiempo.
 
 Para obtener más información sobre marketing viral, consulte [esta sección](../../delivery/using/viral-and-social-marketing.md).
 
@@ -259,7 +259,7 @@ Este informe permite monitorizar las suscripciones a los servicios de informaci�
 
 ![](assets/s_ncs_user_services_report.png)
 
-Se puede visualizar para una suscripción haciendo clic en el nodo **[!UICONTROL Profiles and targets > Services and subscriptions]** de la página principal o de Explorer. Seleccione la suscripción deseada y, a continuación, haga clic en la pestaña **[!UICONTROL Reports]**. El informe **[!UICONTROL Subscriptions tracking]** está disponible de forma predeterminada. Permite ver las tendencias de suscripción y de bajas de suscripción y la tasa de fidelidad durante un periodo. Se puede configurar la representación de estos datos a través de la lista desplegable. Haga clic en **[!UICONTROL Refresh]** para validar la configuración seleccionada.
+Se puede visualizar para una suscripción haciendo clic en el nodo **[!UICONTROL Profiles and targets > Services and subscriptions]** de la página principal o de Explorer. Seleccione la suscripción deseada y, a continuación, haga clic en la pestaña **[!UICONTROL Reports]**. El informe **[!UICONTROL Subscriptions tracking]** está disponible de forma predeterminada. Permite ver las tendencias de suscripción y de bajas de suscripción y la tasa de lealtad durante un periodo. Se puede configurar la representación de estos datos a través de la lista desplegable. Haga clic en **[!UICONTROL Refresh]** para validar la configuración seleccionada.
 
 Para obtener más información, consulte [esta página](../../delivery/using/managing-subscriptions.md).
 
@@ -273,7 +273,7 @@ La tabla de valores utiliza los indicadores siguientes:
 * **[!UICONTROL Subscriptions]** : Número de suscripciones durante el periodo correspondiente.
 * **[!UICONTROL Unsubscriptions]** : Número de bajas de suscripción durante el periodo correspondiente.
 * **[!UICONTROL Evolution]** : Número de bajas de suscripción menos el número de suscripciones. La tasa se calcula en función del número total de suscriptores.
-* **[!UICONTROL Loyalty]** : Tasa de fidelidad de los suscriptores durante el periodo correspondiente.
+* **[!UICONTROL Loyalty]** : Tasa de lealtad de los suscriptores durante el periodo correspondiente.
 
 **[!UICONTROL Subscription evolution curves]**
 
@@ -294,7 +294,7 @@ Se utilizan los siguientes indicadores:
 
   >[!NOTE]
   >
-  >Para obtener más información sobre los rechazos graves y leves, consulte [Administración de cuarentena](../../delivery/using/understanding-quarantine-management.md).
+  >Para obtener más información sobre los rechazos graves y leves, consulte [Administración de cuarentena](../../delivery/using/delivery-failures-quarantine.md).
 
 * **[!UICONTROL Opens]** : porcentaje del número de destinatarios objetivo que abrieron un mensaje al menos una vez comparado con el número de mensajes procesados correctamente.
 * **[!UICONTROL Clicks]** : porcentaje del número de personas que hizo clic en un envío al menos una vez comparado con el número de mensajes procesados correctamente.
