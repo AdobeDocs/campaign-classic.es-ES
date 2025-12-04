@@ -8,7 +8,7 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '3397'
 ht-degree: 5%
@@ -79,12 +79,12 @@ Estos parámetros se pueden sobrecargar en las plantillas de envío e individual
 Indique los siguientes parámetros:
 
 * **[!UICONTROL Sender name]** : escriba el nombre del remitente.
-* **[!UICONTROL Sender address]** : escriba la dirección de correo electrónico del remitente. Al enviar correos electrónicos desde Adobe Campaign, el buzón de **Dirección del remitente** no se supervisa y los usuarios de marketing no pueden acceder a este buzón. Adobe Campaign tampoco ofrece la capacidad de responder automáticamente o reenviar automáticamente los correos electrónicos recibidos en este buzón. Obtenga más información acerca de las prácticas recomendadas de entrega [en esta documentación](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html?lang=es){_blank}.
+* **[!UICONTROL Sender address]** : escriba la dirección de correo electrónico del remitente. Al enviar correos electrónicos desde Adobe Campaign, el buzón de **Dirección del remitente** no se supervisa y los usuarios de marketing no pueden acceder a este buzón. Adobe Campaign tampoco ofrece la capacidad de responder automáticamente o reenviar automáticamente los correos electrónicos recibidos en este buzón. Obtenga más información acerca de las prácticas recomendadas de entrega [en esta documentación](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform.html){_blank}.
 
 * **[!UICONTROL Reply address text]**: escriba el nombre usado cuando el destinatario hace clic en el botón **[!UICONTROL Reply]**.
 * **[!UICONTROL Reply address]** : escriba la dirección de correo electrónico que se usará cuando el destinatario haga clic en el botón **[!UICONTROL Reply]** en el software de cliente de correo electrónico. El propósito del campo **Dirección de respuesta** es cuando desea que el destinatario responda a una dirección diferente a la **Dirección del remitente**.  Esta dirección debe ser una dirección de correo electrónico válida, vinculada a un buzón supervisado y alojada por el cliente.  Podría ser un buzón de soporte técnico, por ejemplo, `customer-care@customer.com`, donde se lean y respondan los correos electrónicos.
 
-* **[!UICONTROL Error address]** : escriba la dirección de correo electrónico de los mensajes con errores. Esta es la dirección técnica utilizada para gestionar el correo rechazado, incluidos los correos electrónicos recibidos por el servidor de Adobe Campaign debido a direcciones de destino inexistentes. Esta dirección debe ser una dirección de correo electrónico válida, vinculada a un buzón supervisado y alojada por el cliente. Podría ser un buzón de rechazos, por ejemplo, `errors@customer.com`. Esta dirección se puede cambiar para una entrega o en las plantillas de entrega, desde la pestaña **SMTP** de las propiedades de la entrega/plantilla de entrega. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html?lang=es#managing-bounce-emails){target="_blank"}.
+* **[!UICONTROL Error address]** : escriba la dirección de correo electrónico de los mensajes con errores. Esta es la dirección técnica utilizada para gestionar el correo rechazado, incluidos los correos electrónicos recibidos por el servidor de Adobe Campaign debido a direcciones de destino inexistentes. Esta dirección debe ser una dirección de correo electrónico válida, vinculada a un buzón supervisado y alojada por el cliente. Podría ser un buzón de rechazos, por ejemplo, `errors@customer.com`. Esta dirección se puede cambiar para una entrega o en las plantillas de entrega, desde la pestaña **SMTP** de las propiedades de la entrega/plantilla de entrega. Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html#managing-bounce-emails){target="_blank"}.
 
 Además, puede especificar las **máscaras** autorizadas para la dirección del remitente y la dirección de error. Si es necesario, estas máscaras se pueden separar con comas. Esta configuración es opcional. Cuando se introducen campos, Adobe Campaign comprueba en el momento de la entrega (durante el análisis, si la dirección no incluye ninguna variable) que las direcciones son válidas. Este modo operativo garantiza que no se utilicen direcciones que puedan almacenar en déclencheur los problemas de envío. Las direcciones de envío deben configurarse en el servidor de envío.
 
@@ -165,7 +165,7 @@ Una vez especificada la configuración POP, haga clic en **Probar** para asegura
 
 ### Correos rechazados sin procesar {#unprocessed-bounce-mails}
 
-Adobe Campaign gestiona automáticamente las devoluciones aplicando las reglas enumeradas en el nodo **Administration > Campaign Management > Non deliverables Management > Delivery log qualification**. Para obtener más información, consulte [Administración de correos rechazados](../../delivery/using/understanding-delivery-failures.md#bounce-mail-management).
+Adobe Campaign gestiona automáticamente las devoluciones aplicando las reglas enumeradas en el nodo **Administration > Campaign Management > Non deliverables Management > Delivery log qualification**. Para obtener más información, consulte [Administración de correos rechazados](../../delivery/using/delivery-failures-quarantine.md#bounce-mail-management).
 
 Las devoluciones sin procesar no se muestran en la interfaz de Adobe Campaign. Se eliminan automáticamente a menos que se transfieran a un buzón de correo de terceros mediante los siguientes campos:
 
@@ -382,7 +382,7 @@ En una entrega, puede utilizar imágenes almacenadas en la biblioteca de recurso
 
   Este valor se puede sobrescribir en cada envío.
 
-* Para los recursos públicos, la dirección URL **https://** server **/res/** instance **&#x200B;**&#x200B;donde **instance**&#x200B;es el nombre de la instancia de seguimiento.
+* Para los recursos públicos, la dirección URL **https://** server **/res/** instance ****donde **instance**es el nombre de la instancia de seguimiento.
 
 ### Detección de imagen de entrega {#delivery-image-detection}
 

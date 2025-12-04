@@ -5,7 +5,7 @@ description: Obtenga información acerca del ámbito y las características espe
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 93%
@@ -105,7 +105,7 @@ Las calificaciones de rechazo de la tabla **[!UICONTROL Delivery log qualificati
 >
 >El servidor de correo mejorado califica el rebote SMTP y devuelve esa calificación a Campaign en forma de código de rechazo asignado a un motivo y una calificación de Campaign.
 
-Para obtener más información sobre la calificación de correo rechazado, consulte [esta sección](understanding-delivery-failures.md#bounce-mail-qualification).
+Para obtener más información sobre la calificación de correo rechazado, consulte [esta sección](delivery-failures-quarantine.md#bounce-mail-qualification).
 
 ### Envío
 
@@ -142,11 +142,11 @@ Para obtener más información sobre DKIM, consulte la [Guía de prácticas reco
 
 En la vista **[!UICONTROL Summary]** de un envío de correo electrónico [panel](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}, el porcentaje de **[!UICONTROL Success]** comienza en el 100 % y luego desciende progresivamente a lo largo del envío [periodo de validez](communication-channels.md), a medida que se informan los rebotes suaves y duros desde el servidor de correo mejorado a Campaign.
 
-De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"} en cuanto se transmiten correctamente desde Campaign al servidor de correo mejorado. Permanecen en ese estado a menos que un [rebote](understanding-delivery-failures.md#delivery-failure-types-and-reasons) para ese mensaje se comunique desde el servidor de correo mejorado a Campaign, o hasta que esto ocurra.
+De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"} en cuanto se transmiten correctamente desde Campaign al servidor de correo mejorado. Permanecen en ese estado a menos que un [rebote](delivery-failures-quarantine.md#delivery-failure-types-and-reasons) para ese mensaje se comunique desde el servidor de correo mejorado a Campaign, o hasta que esto ocurra.
 
 Cuando se generan informes de los mensajes de rebote duro desde el servidor de correo mejorado, su estado cambia de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** y el porcentaje de **[!UICONTROL Success]** disminuye en consecuencia.
 
-Cuando se generan informes de los mensajes de rebote suave desde el servidor de correo mejorado, siguen mostrándose como **[!UICONTROL Sent]** y el porcentaje de **[!UICONTROL Success]** todavía no se actualiza. A continuación, la entrega de los mensajes de rebote suave se [reintenta](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) durante todo el período de validez del envío:
+Cuando se generan informes de los mensajes de rebote suave desde el servidor de correo mejorado, siguen mostrándose como **[!UICONTROL Sent]** y el porcentaje de **[!UICONTROL Success]** todavía no se actualiza. A continuación, la entrega de los mensajes de rebote suave se [reintenta](delivery-failures-quarantine.md#retries-after-a-delivery-temporary-failure) durante todo el período de validez del envío:
 
 * Si un reintento se realiza correctamente antes del final del período de validez, el estado del mensaje permanece como **[!UICONTROL Sent]** y el porcentaje de **[!UICONTROL Success]** permanece sin cambios.
 

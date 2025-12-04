@@ -6,7 +6,7 @@ feature: Troubleshooting
 hidefromtoc: true
 hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 70%
@@ -51,14 +51,14 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=es" target="_blank">Optimización del rendimiento del flujo de trabajo</a></li>
         <li><a href="workflow/using/monitoring-workflow-execution.md">Solución de problemas de ejecución de flujo</a></li>
         <li><a href="platform/using/sftp-server-usage.md">Uso del servidor SFTP</a></li>
-        <li><a href="delivery/using/understanding-delivery-failures.md">Comprender los errores de envío</a></li>
+        <li><a href="delivery/using/delivery-failures-quarantine.md">Comprender los errores de envío</a></li>
         </ul>
     </td>
    <td valign="top">
         <ul>
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=es" target="_blank">Prácticas recomendadas de flujo de trabajo</a></li>
         <li><a href="workflow/using/monitoring-technical-workflows.md">Monitorización técnica del flujo de trabajo</a></li>
-        <li><a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Comprensión de la administración del seguimiento</a></li>
+        <li><a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Comprensión de la administración del seguimiento</a></li>
         <li><a href="production/using/monitoring-guidelines.md">Herramientas de monitorización de Discover</a></li>
         <li><a href="platform/using/import-export-workflows.md">Importación de datos con flujos de trabajo</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">Envío de mensajes en varias olas</a></li>
@@ -71,7 +71,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <li><a href="production/using/build-upgrade.md">Actualice a la última versión</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">Preguntas frecuentes sobre la actualización de versiones</a></li>
         <li><a href="delivery/using/about-delivery-monitoring.md">Monitorización de una entrega</a></li>
-        <li><a href="delivery/using/understanding-quarantine-management.md">Comprensión de la administración de cuarentenas</a></li>
+        <li><a href="delivery/using/delivery-failures-quarantine.md">Comprensión de la administración de cuarentenas</a></li>
         <li><a href="installation/using/get-started-security-privacy.md">Lista de comprobación de seguridad y privacidad</a></li>
         <li><a href="platform/using/privacy-management.md">Administración de privacidad y consentimientos</a></li>
         <li><a href="platform/using/about-queries-in-campaign.md">Diseño de una consulta</a></li>
@@ -103,7 +103,7 @@ El Panel de control está disponible directamente en Adobe Experience Cloud. Sol
 
 ### Preguntas frecuentes sobre el Panel de control
 
-[Haga clic aquí &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es) para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
+[Haga clic aquí ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es) para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
 
 ### Administración de SFTP
 
@@ -132,7 +132,7 @@ El nuevo sistema de tickets se ha iniciado a través de [Adobe Admin Console](ht
 
 ### ¡Consulte a los expertos!
 
-Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){_blank}.
+Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
 
 ### Acceso al Centro de descargas de Campaign
 

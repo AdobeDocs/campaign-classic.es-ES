@@ -7,9 +7,9 @@ feature: Deliverability
 hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -32,9 +32,9 @@ Tenga en cuenta que si se observan rechazos de aplazamiento con el mensaje “45
 
 >[!NOTE]
 >
->Puede consultar el panel del estado de Apple System en [esta página](https://www.apple.com/es/support/systemstatus/){_blank}.
+>Puede consultar el panel de control del estado de Apple System en [esta página](https://www.apple.com/es/support/systemstatus/){_blank}.
 >
->Puede consultar el Tablero de estado de Google Workspace en [esta página](https://www.google.com/appsstatus#hl=en&amp;v=status){_blank}.
+>Puede consultar el Panel de control de estado de Google Workspace en [esta página](https://www.google.com/appsstatus#hl=en&v=status){_blank}.
 >
 
 ## Impacto{#update-bounce-impact}
@@ -71,5 +71,5 @@ En función del periodo de tiempo del problema y la ISP, se indican a continuaci
 Una vez que tenga la lista de destinatarios afectados, puede aplicarles un estado **[!UICONTROL Valid]** para que el flujo de trabajo **[!UICONTROL Database cleanup]** los elimine de la lista de cuarentena, o simplemente elimínelos de la tabla.
 
 **Temas relacionados:**
-* [Comprensión de los errores de entrega](understanding-delivery-failures.md)
-* [Clasificación del correo rechazado](understanding-delivery-failures.md#bounce-mail-qualification)
+* [Comprensión de los errores de entrega](delivery-failures-quarantine.md)
+* [Calificación del correo rechazado](delivery-failures-quarantine.md#bounce-mail-qualification)

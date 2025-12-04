@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: additional-configurations
 hidefromtoc: true
 exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '823'
 ht-degree: 3%
 
 ---
@@ -64,7 +64,7 @@ Adobe Campaign administra este proceso con una coincidencia entre un tipo de err
 
 >[!NOTE]
 >
->Para obtener más información sobre los tipos y motivos de errores de entrega, consulte esta [sección](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>Para obtener más información sobre los tipos y motivos de errores de entrega, consulte esta [sección](../../delivery/using/delivery-failures-quarantine.md#delivery-failure-types-and-reasons).
 
 ## Instancia de entrega {#deliveratbility-env}
 
@@ -90,5 +90,5 @@ El modo personalizado es para clientes avanzados que desean establecer sus propi
 **Temas relacionados:**
 * [Configuración MX](../../installation/using/email-deliverability.md#mx-configuration)
 * [Configuración técnica de correo electrónico](../../installation/using/email-deliverability.md)
-* [Comprensión de los errores de entrega](../../delivery/using/understanding-delivery-failures.md)
-* [Campaign Classic - Recommendations técnico](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=es)
+* [Comprensión de los errores de entrega](../../delivery/using/delivery-failures-quarantine.md)
+* [Campaign Classic - Recomendaciones técnicas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html)

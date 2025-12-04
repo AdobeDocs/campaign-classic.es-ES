@@ -5,8 +5,8 @@ description: Canal de aplicaciones móviles
 hide: true
 hidefromtoc: true
 feature: Workflows
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **Mo
   <tr> 
    <td> <span class="uicontrol">Administración de exclusión de NMAC</span> <br /> </td> 
    <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> Este flujo de trabajo actualiza las bajas de las notificaciones en los dispositivos móviles. Se activa cada 6 horas entre la medianoche y la 1 a. m. Para obtener más detalles, consulte esta <a href="../../delivery/using/understanding-quarantine-management.md#push-notification-quarantines">sección</a>.<br /> </td> 
+   <td> Este flujo de trabajo actualiza las bajas de las notificaciones en los dispositivos móviles. Se activa cada 6 horas entre la medianoche y la 1 a. m. Para obtener más detalles, consulte esta <a href="../../delivery/using/delivery-failures-quarantine.md#push-notification-quarantines">sección</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,7 +7,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '1518'
 ht-degree: 99%
@@ -61,7 +61,7 @@ A continuación, puede cerrar el asistente de envíos y realizar un seguimiento 
 Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Para obtener más información, consulte estas secciones:
 
 * [Monitorización de una entrega](about-delivery-monitoring.md)
-* [Comprensión de los errores de entrega](understanding-delivery-failures.md)
+* [Comprensión de los errores de entrega](delivery-failures-quarantine.md)
 * [Acerca del seguimiento de mensajes](about-message-tracking.md)
 
 ## Programación de los envíos de entregas {#scheduling-the-delivery-sending}
@@ -171,7 +171,7 @@ Los siguientes dos ejemplos son los casos más comunes para usar varias olas.
 
 ## Configuración de reintentos {#configuring-retries}
 
-Para los mensajes que no se hayan enviado temporalmente debido a un error **leve** o **ignorado**, se realiza un reintento automático. Los tipos y motivos del error de entrega se presentan en esta [sección](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Para los mensajes que no se hayan enviado temporalmente debido a un error **leve** o **ignorado**, se realiza un reintento automático. Los tipos y motivos del error de entrega se presentan en esta [sección](delivery-failures-quarantine.md#delivery-failure-types-and-reasons).
 
 >[!IMPORTANT]
 >

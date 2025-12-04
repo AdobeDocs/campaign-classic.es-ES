@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 3%
@@ -30,7 +30,7 @@ Para ello, los archivos .eml correspondientes a los correos electrónicos enviad
 * Para **arquitecturas hospedadas e híbridas**, póngase en contacto con su administrador de cuentas para activarlo. La dirección de correo electrónico CCO que elija se debe proporcionar al equipo de Adobe, que la configurará por usted.
 * Para **instalaciones in situ**, siga las directrices que se indican a continuación para activarlo; consulte las secciones [Activación del CCO del correo electrónico (local)](#activating-email-archiving--on-premise-) y [Configuración de la dirección de correo electrónico del CCO (local)](#configuring-the-bcc-email-address--on-premise-).
 * Solo puede utilizar una dirección de correo electrónico CCO.
-* Una vez configurado el correo electrónico CCO, asegúrese de que la función esté habilitada en la plantilla de envíos o en la entrega a través de la opción **[!UICONTROL Email BCC]**. consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
+* Una vez configurado el correo electrónico CCO, asegúrese de que la función esté habilitada en la plantilla de envíos o en la entrega a través de la opción **[!UICONTROL Email BCC]**. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=es){target="_blank"}.
 * Solo se tienen en cuenta los correos electrónicos enviados correctamente, no las devoluciones.
 * El sistema de archivado de correo electrónico cambió con Adobe Campaign 17.2 (compilación 8795). Si ya estaba utilizando el archivado de correo electrónico, debe actualizar manualmente al nuevo sistema de CCO de correo electrónico. Para obtener más información sobre esto, consulte la sección [Traslado al nuevo CCO de correo electrónico](#updated-email-archiving-system--bcc-).
 
@@ -134,7 +134,7 @@ En el archivo **config-`<instance name>.xml`**, utilice los siguientes parámetr
 <!--
 ## Moving to the new Email BCC {#updated-email-archiving-system--bcc-}
 
-[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Applies to on-premise and hybrid deployments only"}
+[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"}
 
 >[!IMPORTANT]
 >
@@ -184,6 +184,6 @@ Consequently, make sure:
 
 ### Limitations
 
-* Email BCC with Enhanced MTA delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. For more on bounces, see [Understanding delivery failures](../../delivery/using/understanding-delivery-failures.md).
+* Email BCC with Enhanced MTA delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. For more on bounces, see [Understanding delivery failures](../../delivery/using/delivery-failures-quarantine.md).
 
 * There is no reporting available on the delivery status of the emails sent to the BCC email address.-->

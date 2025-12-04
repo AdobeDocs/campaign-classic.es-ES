@@ -7,8 +7,8 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: d0ed7be7-3147-4cb8-9ce7-ea51602e9048
-source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
-workflow-type: ht
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+workflow-type: tm+mt
 source-wordcount: '1730'
 ht-degree: 100%
 
@@ -149,7 +149,7 @@ Estas son las opciones disponibles:
 
   >[!NOTE]
   >
-  >Para obtener más información acerca de la administración de cuarentena, consulte [Explicación de la administración de cuarentena](understanding-quarantine-management.md).
+  >Para obtener más información acerca de la administración de cuarentena, consulte [Explicación de la administración de cuarentena](delivery-failures-quarantine.md).
 
 * **[!UICONTROL Limit delivery]** a un número determinado de mensajes. Esta opción permite introducir el número máximo de mensajes a enviar. Si el contenido del objetivo supera el número de mensajes indicados, se le aplica una selección aleatoria.
 
@@ -251,6 +251,6 @@ Estos mapeos son los siguientes:
 
 En este vídeo aprenderá a añadir semillas y pruebas a un correo electrónico existente y a enviarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/35551?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

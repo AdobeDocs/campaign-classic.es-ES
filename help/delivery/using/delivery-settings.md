@@ -7,16 +7,16 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 66250817-f829-4b8b-92dd-2daa92a97fe0
-source-git-commit: d3d731c64cb5a430de6adac3aeb326f74134c436
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
 # Configuración del envío {#about-delivery-settings}
 
-Las siguientes configuraciones son específicas de Campaign Classic. Para ver otras configuraciones de entrega, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=es){target="_blank"}.
+Los siguientes ajustes son específicos de Campaign Classic. Para obtener más información, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=es){target="_blank"}.
 
 ## Análisis de envíos {#delivery-analysis}
 
@@ -53,7 +53,7 @@ Si una entrega es demasiado grande, es mejor asignarle una prioridad baja para e
 
 ### Configuración de reintentos {#configuring-retries}
 
-Para los mensajes que no se hayan enviado temporalmente debido a un error **leve** o **ignorado**, se realiza un reintento automático. Los tipos y motivos del error de entrega se presentan en esta [sección](understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+Para los mensajes que no se hayan enviado temporalmente debido a un error **leve** o **ignorado**, se realiza un reintento automático. Los tipos y motivos del error de entrega se presentan en esta [sección](delivery-failures-quarantine.md#delivery-failure-types-and-reasons).
 
 >[!IMPORTANT]
 >

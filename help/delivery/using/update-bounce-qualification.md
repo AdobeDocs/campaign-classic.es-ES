@@ -5,14 +5,14 @@ description: Obtenga información sobre cómo actualizar la calificación de dev
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Actualizar devoluciones graves incorrectas después de la interrupción de Apple {#update-bounce-qualification.md}
+# Actualizar devoluciones graves incorrectas tras la interrupción de Apple {#update-bounce-qualification.md}
 
 ## Contexto
 
@@ -22,7 +22,7 @@ Este problema ocurrió el 26 de abril, desde las 07:00 h a las 13:00 h EST.
 
 >[!NOTE]
 >
->Puede consultar el panel del estado de Apple System en [esta página](https://www.apple.com/es/support/systemstatus/).
+>Puede consultar el panel de control del estado de Apple System en [esta página](https://www.apple.com/es/support/systemstatus/).
 
 En caso de interrupción de un ISP, los correos electrónicos enviados a través de Campaign no se pueden enviar correctamente a su destinatario: estos correos electrónicos se marcarán erróneamente como devoluciones.
 
@@ -56,5 +56,5 @@ En función del periodo de tiempo del problema, se indican a continuación las d
 Una vez que tenga la lista de destinatarios afectados, puede aplicarles un estado **[!UICONTROL Valid]** para que el flujo de trabajo **[!UICONTROL Database cleanup]** los elimine de la lista de cuarentena, o simplemente elimínelos de la tabla.
 
 **Temas relacionados:**
-* [Comprensión de los errores de entrega](understanding-delivery-failures.md)
-* [Clasificación del correo rechazado](understanding-delivery-failures.md#bounce-mail-qualification)
+* [Comprensión de los errores de entrega](delivery-failures-quarantine.md)
+* [Calificación del correo rechazado](delivery-failures-quarantine.md#bounce-mail-qualification)
