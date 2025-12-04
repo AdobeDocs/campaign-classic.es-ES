@@ -6,10 +6,10 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: 17ac1e0d68d2945b01aecc7c45fc5be7e6bd38af
 workflow-type: tm+mt
-source-wordcount: '6197'
-ht-degree: 100%
+source-wordcount: '6204'
+ht-degree: 99%
 
 ---
 
@@ -511,7 +511,7 @@ Más información sobre las [Listas](../../platform/using/creating-and-managing-
 
 La caché local es la información que se almacena localmente en el equipo del operador. La consola utiliza la información en caché para reducir el tráfico necesario al servidor y mejorar el rendimiento. La limpieza periódica de la caché local (en el menú Archivo) actualiza la información almacenada y mejora el rendimiento y la estabilidad.
 
-Más información sobre la [Caché local](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
+Más información sobre la [Caché local](../../platform/using/faq-campaign-classic-v7.md#how-do-i-clear-console-cache).
 +++
 
 ## M - P {#sec-4}
@@ -1009,7 +1009,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 
 El flujo de trabajo técnico de seguimiento recupera los datos de seguimiento una vez que se ha enviado el envío y se ha activado el seguimiento. Estos datos se encuentran en la pestaña Seguimiento del envío. Puede encontrar información sobre las aperturas y los clics en un correo electrónico u otras interacciones con un mensaje recibido por el destinatario.
 
-Más información sobre los [Registros de seguimiento](../../delivery/using/accessing-the-tracking-logs.md).
+Obtenga más información acerca de [Registros de seguimiento en la versión 8 de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"} o [seguimiento específico de la versión 7](../../delivery/using/about-message-tracking.md).
 +++
 
 +++**Mensajería transaccional**

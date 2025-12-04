@@ -1,21 +1,26 @@
 ---
 product: campaign
 title: Preguntas frecuentes sobre la actualización de versiones
-description: Preguntas frecuentes relacionadas con las actualizaciones de las compilaciones de Campaign
+description: Preguntas frecuentes relacionadas con las actualizaciones de la versión 7 de Campaign Classic
 feature: Upgrade, Troubleshooting
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: f39dc6077a7ddc3fb9b53d4082c08e65e7683f10
+source-git-commit: 295e3596d9291cbcc55e2d264309141526c3806b
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 100%
+source-wordcount: '2066'
+ht-degree: 97%
 
 ---
 
 # Preguntas frecuentes sobre la actualización de versiones {#build-upgrade-faq}
 
+Estas preguntas frecuentes responden a preguntas sobre las actualizaciones de las versiones 7 de Campaign Classic, especialmente en implementaciones locales e híbridas.
+
+>[!NOTE]
+>
+>Para obtener respuestas completas a preguntas comunes de Campaign sobre flujos de trabajo, envíos, audiencias y mucho más, consulte las [Preguntas frecuentes completas de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}.
 
 Adobe Campaign se actualiza periódicamente. Si conoce nuestras [Notas de la versión](../../rn/using/rn-overview.md) publicadas, probablemente sea consciente de que se lanza un promedio anual de dos o tres versiones menores repletas de nuevas funciones, mejoras y correcciones. Además, lanzamos versiones periódicamente solamente con correcciones acumulativas. Esta cadencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y, por supuesto, mejorar su experiencia con nuestro producto.
 
@@ -80,7 +85,7 @@ El tiempo necesario para realizar una actualización de compilación depende de 
 
 La actualización de la compilación es un proceso de dos pasos:
 
-1. Preparación del sistema para la actualización: teniendo en cuenta las particularidades de su entorno, esta fase conduce esencialmente a una actualización completa en un entorno sin producción. Una vez que el entorno actualizado esté bien desde un punto de vista técnico y funcional, puede producirse la fase 2. Esta primera fase, según los factores mencionados, puede durar de unos días a un par de semanas.
+1. Preparación del sistema para la actualización: teniendo en cuenta las particularidades de su entorno, esta fase conduce esencialmente a una actualización completa en un entorno que no es de producción. Una vez que el entorno actualizado esté bien desde un punto de vista técnico y funcional, puede producirse la fase 2. Esta primera fase, según los factores mencionados, puede durar de unos días a un par de semanas.
 
 1. Es la actualización misma, donde se actualiza el entorno de producción. Esta fase se realiza generalmente en unas pocas horas. En el caso de entornos muy complejos, debe esperarse un tiempo de inactividad más largo. Si algo va mal, se define una estrategia de reversión que se puede ejecutar.
 

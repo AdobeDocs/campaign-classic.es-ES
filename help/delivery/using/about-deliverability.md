@@ -6,10 +6,10 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Deliverability
 role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '656'
-ht-degree: 100%
+source-git-commit: b2b188ee3f202c247ceac1f59a49b7ad1771d537
+workflow-type: tm+mt
+source-wordcount: '663'
+ht-degree: 97%
 
 ---
 
@@ -79,9 +79,8 @@ Algunos proveedores de acceso a Internet consideran automáticamente los correos
 
 Para obtener más información, consulte las siguientes secciones:
 
-* [Comprensión de los errores de entrega](understanding-delivery-failures.md)
-* [Comprensión de la administración de cuarentenas](understanding-quarantine-management.md)
-* [Cuarentena frente a lista de bloqueados](understanding-quarantine-management.md#quarantine-vs-denylist)
+* [Comprender los errores de entrega](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Documentación de Campaign v8: guía completa)
+* [Comprender la administración de cuarentena](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentación de Campaign v8: guía completa)
 
 ### Uso de herramientas de supervisión y creación de informes
 
@@ -91,6 +90,5 @@ Adobe Campaign le permite comprobar el rendimiento de sus entregas a través de 
 
 Para obtener más información, consulte las siguientes secciones:
 
-* [Monitorización de la capacidad de entrega](monitoring-deliverability.md)
 * [Introducción a la monitorización de entregas](about-delivery-monitoring.md)
 * [Introducción a los informes integrados de Campaign](../../reporting/using/about-campaign-built-in-reports.md)

@@ -4,7 +4,7 @@ title: Matriz de capacidades on-premise, híbrida y alojada de Campaign
 description: Conozca las principales diferencias entre las implementaciones alojadas y locales
 feature: Installation, Architecture
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: 8b38d825aa9b0595226a444e0e463362468d51b3
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 32%
@@ -35,7 +35,7 @@ Los diferentes modelos de alojamiento se introdujeron [en esta sección](../../i
 | Comprimir/descomprimir archivos | Bajo demanda | Disponible | Disponible | [Más información](../../platform/using/unzip-decrypt.md) |
 | Delegación de nombres de dominio | Bajo demanda | Bajo demanda | No disponible | [Más información](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es) |
 | Instalación de SpamAssassin | Bajo demanda | Disponible | Disponible | [Más información](../../delivery/using/spamassassin.md) |
-| Acceso a informes de entrega | Disponible | Bajo demanda | Disponible | [Más información](../../delivery/using/monitoring-deliverability.md) |
+| Acceso a informes de entrega | Disponible | Bajo demanda | Disponible | [Más información](../../delivery/using/about-delivery-monitoring.md#deliverability-monitoring) |
 | Configuración de la autenticación LDAP | No disponible | Disponible | Disponible | [Más información](../../installation/using/connecting-through-ldap.md) |
 
 
@@ -51,7 +51,7 @@ Adobe Campaign proporciona la opción **Acceso de datos federado** (FDA) para pr
 **Consulte también**
 
 * [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md)
-* [Notas de la versión &#x200B;](../../rn/using/latest-release.md)
+* [Notas de la versión ](../../rn/using/latest-release.md)
 * [Actualizaciones de Campaign Classic](../../rn/using/rn-overview.md)
 * [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md)
 * [Versiones de [!DNL Gold Standard]](../../rn/using/gold-standard.md)

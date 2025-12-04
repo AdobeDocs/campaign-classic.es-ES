@@ -2,55 +2,61 @@
 product: campaign
 title: Prácticas recomendadas sobre el rendimiento de los envíos
 description: Obtenga más información sobre el rendimiento de los envíos y las prácticas recomendadas
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Deliverability
 role: User, Developer
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: eac670cd4e7371ca386cee5f1735dc201bf5410a
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 100%
+source-wordcount: '362'
+ht-degree: 6%
 
 ---
 
 # Prácticas recomendadas sobre el rendimiento de los envíos {#delivery-performances}
 
-Recomendamos seguir las directrices que se indican a continuación para garantizar que sus entregas, así como las comprobaciones que se realizan en caso de que surjan problemas con estas, se llevan a cabo correctamente.
+>[!NOTE]
+>
+>Encontrará instrucciones detalladas sobre el rendimiento de las entregas y las prácticas recomendadas en la página [Prácticas recomendadas de entrega de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices). Este contenido se aplica tanto a los usuarios de Campaign Classic v7 como a los de Campaign v8.
+>
+>Esta página documenta **configuraciones de rendimiento específicas de Campaign Classic v7** para implementaciones híbridas y locales.
 
-**Temas relacionados:**
+Para obtener prácticas recomendadas completas sobre el rendimiento de entrega, la optimización de la plataforma, la administración de cuarentena, el mantenimiento de la base de datos y las recomendaciones de programación, consulte la [documentación de prácticas recomendadas de entrega de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}.
 
-* [Panel de control de entregas](delivery-dashboard.md)
-* [Solución de problemas de entrega](delivery-troubleshooting.md)
-* [Acerca de la capacidad de entrega](about-deliverability.md)
+## Ajuste del rendimiento {#best-practices-performance}
 
-## Prácticas recomendadas para el rendimiento {#best-practices-performance}
+Para **implementaciones híbridas/locales de Campaign Classic v7**, las siguientes optimizaciones de infraestructura y base de datos pueden mejorar el rendimiento de la entrega:
 
-* Evite mantener las entregas en estado de error en la instancia, ya que esto mantiene tablas temporales e influye en el rendimiento.
+### Optimización de base de datos
 
-* Elimine las entregas que ya no sean necesarios.
+**Direcciones de índice** para optimizar el rendimiento de las consultas SQL utilizadas en la aplicación. Se puede declarar un índice a partir del elemento principal del esquema de datos. Esta optimización requiere acceso directo a la base de datos y personalización de esquemas disponible en implementaciones locales.
 
-* Destinatarios inactivos en los últimos 12 meses que se deben eliminar de la base de datos para mantener la calidad de la dirección.
+### Ajuste de infraestructura
 
-* Evite programar entregas grandes al mismo tiempo. Hay un lapso de 5 a 10 minutos para distribuir la carga de manera uniforme en el sistema. Coordine la programación de las entregas con los demás miembros de su equipo para garantizar el mejor rendimiento. Cuando el servidor de marketing gestiona muchas tareas diferentes al mismo tiempo, puede ralentizar el rendimiento.
-
-* Mantenga el tamaño de sus correos electrónicos lo más bajo posible. El tamaño máximo recomendado de un correo electrónico es de unos 35 KB. El tamaño de una entrega por correo electrónico genera una cierta cantidad de volumen en los servidores de entrega.
-
-* Las entregas grandes, como las entregas a más de un millón de destinatarios, necesitan espacio en las colas de entrega. Esto por sí solo no es un problema para el servidor, pero cuando se combina con docenas de entregas grandes que se realizan al mismo tiempo, puede provocar un retraso en la entrega.
-
-* La personalización en correos electrónicos extrae datos de la base de datos de cada destinatario. Si hay muchos elementos de personalización, esto aumenta la cantidad de datos necesarios para preparar la entrega.
-
-* Direcciones de índice. Para optimizar el rendimiento de las consultas SQL utilizadas en la aplicación, se puede declarar un índice a partir del elemento principal del esquema de datos.
+**Configuración de envíos grandes**: los envíos a más de un millón de destinatarios necesitan espacio en las colas de envío. Para instalaciones on-premise, los elementos secundarios de MTA se pueden configurar para gestionar tamaños de lote personalizados. Póngase en contacto con el administrador del sistema para ajustar esta configuración en función de la capacidad de la infraestructura.
 
 >[!NOTE]
 >
->Los ISP desactivarían las direcciones después de un periodo de inactividad. Los mensajes rechazados se envían a los remitentes para informarles sobre este nuevo estado.
+>Adobe administra la optimización de la infraestructura y la configuración de MTA para los usuarios de Cloud Services administrados de Campaign v8. Consulte las [prácticas recomendadas de entrega de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} para obtener recomendaciones de rendimiento aplicables a su implementación.
 
-## Lista de comprobación de problemas de rendimiento {#performance-issues}
+## Mantenimiento de la base de datos {#performance-issues}
 
-Si el rendimiento de la entrega no es bueno, puede comprobar:
+Para **implementaciones híbridas/locales de Campaign Classic v7**, el mantenimiento de la plataforma y la base de datos afecta directamente el rendimiento de entrega.
 
-* **El tamaño de la entrega**: Las entregas grandes pueden tardar más en completarse. Los elementos MTA secundarios se configuran para gestionar un tamaño predeterminado que funciona con la mayoría de las instancias, pero es necesario comprobar si las entregas son constantemente lentos.
-* **El destinatario de la entrega**: El rendimiento de las entregas se puede ver afectado por errores de rechazos leves que se gestionan según la configuración de reintento. Cuanto mayor sea el número de errores, más necesarios son los reintentos de entrega.
-* **La carga de la plataforma general**: Cuando se envían varias entregas de gran tamaño, la plataforma general se puede ver afectada. También puede comprobar los problemas de reputación de la IP y de capacidad de entrega. Para obtener más información, consulte [esta sección](about-deliverability.md) y la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
+Las tareas de mantenimiento regulares incluyen:
 
-El mantenimiento de la plataforma y de la base de datos también puede afectar el rendimiento de las entregas. Para obtener más información, consulte [esta página](../../production/using/database-performances.md).
+**Limpieza de la base de datos**: utilice el flujo de trabajo de limpieza de la base de datos para quitar los registros de envío antiguos, los datos de seguimiento y las tablas temporales. Un mantenimiento deficiente de la base de datos puede ralentizar la preparación y el envío.
+
+**Supervisión del rendimiento de la base de datos**: supervise el rendimiento de las consultas, la fragmentación de índices y las estadísticas de tablas. Para obtener instrucciones detalladas, consulte [esta página](../../production/using/database-performances.md).
+
+**Supervisión técnica del flujo de trabajo**: Asegúrese de que todos los flujos de trabajo técnicos (especialmente los flujos de trabajo de limpieza, seguimiento y actualización de la capacidad de envío) se ejecuten correctamente sin errores.
+
+>[!NOTE]
+>
+>Adobe supervisa y administra el mantenimiento de la base de datos y los flujos de trabajo técnicos de los usuarios de Cloud Services administrados de Campaign v8. Céntrese en la monitorización específica de la entrega como se describe en [Documentación de entregas del Monitor de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"}.
+
+## Temas relacionados
+
+* [Prácticas recomendadas de envío](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (documentación de Campaign v8)
+* [Monitorice su capacidad de entrega](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"} (documentación de Campaign v8)
+* [Solución de problemas de envío](delivery-troubleshooting.md)
+* [Rendimiento de la base de datos](../../production/using/database-performances.md) (v7 híbrido/local)

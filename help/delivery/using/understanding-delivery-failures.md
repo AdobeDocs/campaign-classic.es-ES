@@ -2,236 +2,48 @@
 product: campaign
 title: Comprensión de los errores de entrega
 description: Aprenda a comprender los errores de entrega
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '2578'
-ht-degree: 100%
+source-git-commit: eac670cd4e7371ca386cee5f1735dc201bf5410a
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 48%
 
 ---
 
 # Comprensión de los errores de entrega{#understanding-delivery-failures}
 
-## Acerca de los errores de entrega {#about-delivery-failures}
+>[!NOTE]
+>
+>Encontrará instrucciones detalladas para comprender los errores de entrega en la página [Campaign v8, Comprensión de los errores de entrega](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures). Este contenido se aplica tanto a los usuarios de Campaign Classic v7 como a los de Campaign v8 y cubre lo siguiente:
+>
+>* Tipos y motivos de errores de entrega (grave, leve, ignorado)
+>* Errores sincrónicos y asíncronos
+>* Calificación del correo rechazado
+>* Tipos de error de correo electrónico, notificaciones push y SMS
+>* Administración de reintentos y períodos de validez
+>* Solución de problemas de envíos comunes
+>
+>Esta página documenta **la configuración específica de Campaign Classic v7** para la administración de correo de rebote en implementaciones híbridas y locales.
 
-Cuando un mensaje (correo electrónico, SMS, notificación inmediata) no se puede enviar a un perfil, el servidor remoto envía automáticamente un mensaje de error que recoge la plataforma de Adobe Campaign para determinar si la dirección de correo electrónico o el número de teléfono deben ponerse en cuarentena. Consulte [Administración de correos rechazados](#bounce-mail-management).
+Para obtener conceptos comunes sobre errores de entrega, tipos de error e instrucciones para la solución de problemas, consulte la [documentación de Campaign v8 Understanding delivery failures](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}.
+
+## Configuración de correo rechazado {#v7-bounce-mail-config}
+
+Las siguientes opciones de configuración están disponibles para **implementaciones híbridas/on-premise de Campaign Classic v7** para administrar el procesamiento de correos rechazados.
+
+### Configuración del buzón de rechazos {#bounce-mailbox-configuration}
+
+Para instalaciones on-premise, la configuración del buzón de rechazos se detalla en [esta sección](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
+
+La plataforma Adobe Campaign recopila los mensajes de error asíncronos a través del buzón de rechazos y los califica el proceso inMail para enriquecer la lista de reglas de gestión de correo electrónico.
 
 >[!NOTE]
 >
->Los mensajes de error de **correo electrónico** (o “devoluciones”) están calificados por el MTA mejorado (devoluciones sincrónicas) o por el proceso de inMail (devoluciones asincrónicas).
->
->**Los mensajes de error de SMS (o “SR”, de “informe de estado”) se clasifican mediante el proceso MTA.**
+>Para los usuarios de Cloud Services administrados de Campaign v8, la configuración del buzón de rechazos la realiza y administra Adobe. No se requiere ninguna configuración.
 
-Una vez enviado un mensaje, los registros de envío permiten ver el estado de envío de cada perfil y el tipo y el motivo de error asociado.
-
-Los mensajes también se pueden excluir durante la preparación de la entrega si una dirección está en cuarentena o si un perfil está en la lista de bloqueados. Los mensajes excluidos se muestran en el panel de control de entrega.
-
-**Temas relacionados:**
-
-* [Registros de entrega e historial](delivery-dashboard.md#delivery-logs-and-history)
-* [Estado de error](delivery-performances.md#failed-status)
-* [Tipos y motivos de errores de entrega](#delivery-failure-types-and-reasons)
-
-## Tipos y motivos de errores de entrega {#delivery-failure-types-and-reasons}
-
-Existen tres tipos de error cuando falla un mensaje. Cada tipo de error determina si una dirección se envía a cuarentena. Para obtener más información, consulte [Condiciones para enviar una dirección a cuarentena](understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).
-
-* **Hard**: Un error “grave” indica una dirección no válida. Esto implica un mensaje de error que indica explícitamente que la dirección no es válida, como: “Usuario desconocido”.
-* **Soft**: Podría tratarse de un error temporal o uno que no se pudiera categorizar, como: “Dominio no válido” o “Buzón lleno”.
-* **Ignored**: Se trata de un error temporal, como “Fuera de la oficina”, o un error técnico, por ejemplo, si el tipo de remitente es “Administrador de correo”.
-
-Los posibles motivos de un error de entrega son:
-
-<table> 
- <tbody> 
-  <tr> 
-   <td> Etiqueta de error </td> 
-   <td> Tipo de error </td> 
-   <td> Valor técnico </td> 
-   <td> Descripción </td> 
-  </tr> 
-  <tr> 
-   <td> Cuenta deshabilitada </td> 
-   <td> Leve/Grave </td> 
-   <td> 4 </td> 
-   <td> La cuenta vinculada a la dirección no está activa. Cuando el proveedor de acceso a Internet (IAP) detecta un periodo de inactividad prolongado, puede cerrar la cuenta del usuario. A partir de ese momento no se pueden realizar entregas a la cuenta de usuario. Si la cuenta está temporalmente desactivada debido a seis meses de inactividad y todavía se puede activar, se asigna el estado “con errores” y se prueba de nuevo la cuenta hasta que el contador de errores alcance 5. Si el error indica que la cuenta está desactivada de forma permanente, se envía directamente a Cuarentena.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Dirección en cuarentena </td> 
-   <td> Grave </td> 
-   <td> 9 </td> 
-   <td> La dirección se envió a cuarentena.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Dirección no especificada </td> 
-   <td> Grave </td> 
-   <td> 7 </td> 
-   <td> No se proporciona ninguna dirección para el destinatario.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Dirección de baja calidad </td> 
-   <td> Ignorado </td> 
-   <td> 14 </td> 
-   <td> El índice de calidad de esta dirección es demasiado bajo.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Dirección incluida en la lista de bloqueados </td> 
-   <td> Grave </td> 
-   <td> 8 </td> 
-   <td> La dirección se agregó a la lista de bloqueados al momento del envío. Este estado se utiliza para importar datos de listas externas y sistemas externos a la lista de cuarentena de Adobe Campaign.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Dirección de control </td> 
-   <td> Ignorado </td> 
-   <td> 127 </td> 
-   <td> La dirección del destinatario forma parte del grupo de control.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Duplicada </td> 
-   <td> Ignorado </td> 
-   <td> 10 </td> 
-   <td> La dirección del destinatario ya se encontraba en esta entrega.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Error ignorado </td> 
-   <td> Ignorado </td> 
-   <td> 25 </td> 
-   <td> La dirección está incluida en la lista de permitidos. Por lo tanto, el error se ignora y se envía un correo electrónico.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Excluido tras la mediación </td> 
-   <td> Ignorado </td> 
-   <td> 12 </td> 
-   <td> El destinatario se ha excluido mediante las reglas de tipología de campaña de tipo “mediación”.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Excluido por una regla SQL </td> 
-   <td> Ignorado </td> 
-   <td> 11 </td> 
-   <td> El destinatario se ha excluido mediante una regla de tipología de campaña de tipo “SQL”.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Dominio inválido </td> 
-   <td> Leve </td> 
-   <td> 2 </td> 
-   <td> El dominio de la dirección del correo electrónico es incorrecto o ya no existe. Este perfil se vuelve a seleccionar hasta que el recuento de errores llegue a 5. Después de esto, el registro se pone en estado de cuarentena y no se realiza ningún reintento.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Buzón de correo lleno </td> 
-   <td> Leve </td> 
-   <td> 5 </td> 
-   <td> El buzón de este usuario está lleno y no puede aceptar más mensajes. Este perfil se vuelve a seleccionar hasta que el recuento de errores llegue a 5. Después de esto, el registro se pone en estado de cuarentena y no se realiza ningún reintento.<br /> Este tipo de error se administra mediante un proceso de limpieza; la dirección se establece en un estado válido después de 30 días.<br /> Advertencia: para que la dirección se elimine automáticamente de la lista de direcciones en cuarentena, debe iniciarse el flujo de trabajo técnico de limpieza de bases de datos.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Sin conexión </td> 
-   <td> Ignorado </td> 
-   <td> 6 </td> 
-   <td> El teléfono móvil del destinatario está apagado o no está conectado a la red cuando al enviar el mensaje.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Sin definir </td> 
-   <td> Sin definir </td> 
-   <td> 0 </td> 
-   <td> La dirección está en fase de calificación porque aún no se han incrementado los errores. Este tipo de error se produce cuando el servidor envía un nuevo mensaje de error: puede tratarse de un error aislado; sin embargo, si vuelve a producirse, el contador de errores aumenta, lo que advierte a los equipos técnicos. Entonces pueden realizar análisis de mensajes y clasificar este error a través del nodo <span class="uicontrol">Administration</span>, <span class="uicontrol">Campaign Management</span>, <span class="uicontrol">Non deliverables Management</span> en la estructura del árbol.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> No reúne los requisitos para las ofertas </td> 
-   <td> Ignorado </td> 
-   <td> 16 </td> 
-   <td> El destinatario no reunía los requisitos para las ofertas de la entrega.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Rechazado </td> 
-   <td> Leve/Grave </td> 
-   <td> 20 </td> 
-   <td> La dirección se ha enviado a cuarentena debido a un comentario de seguridad que informa de correo no deseado. Según el error, se vuelve a intentar enviar un correo a la dirección hasta que el contador de errores alcance 5 o se envía directamente a cuarentena.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Destinatarios de tamaño limitado </td> 
-   <td> Ignorado </td> 
-   <td> 17 </td> 
-   <td> Se ha alcanzado el tamaño máximo de entrega para el destinatario.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Dirección no autorizada </td> 
-   <td> Ignorado </td> 
-   <td> 15 </td> 
-   <td> La dirección postal no se ha clasificado.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Inaccesible </td> 
-   <td> Leve/Grave </td> 
-   <td> 3 </td> 
-   <td> Se ha producido un error en la cadena de entrega de mensajes. Podría ser un incidente en la retransmisión SMTP, un dominio que está temporalmente inaccesible, etc. Según el error, se vuelve a intentar enviar un correo a la dirección hasta que el contador de errores alcance 5 o se envía directamente a cuarentena.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Usuario desconocido </td> 
-   <td> Grave </td> 
-   <td> 1 </td> 
-   <td> La dirección no existe. No se intenta realizar entregas adicionales para este perfil.<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Reintentos tras un fallo temporal de entrega {#retries-after-a-delivery-temporary-failure}
-
-Si un mensaje falla debido a un error **leve** o **ignorado** temporal, los reintentos se realizan durante la duración de la entrega.
-
->[!NOTE]
->
->Los mensajes no enviados temporalmente solo pueden estar relacionados con un error **Soft** o **Ignored**, pero no con un error **Hard** (consulte [Tipos y motivos de error de entrega](#delivery-failure-types-and-reasons)).
-
->[!IMPORTANT]
->
->En el caso de instalaciones hospedadas o híbridas, si ha actualizado al [servidor de correo mejorado](sending-with-enhanced-mta.md), la configuración de reintentos del envío ya no se utiliza en Campaign. Los reintentos de rechazo temporal y el periodo de tiempo entre ellos están determinados por el servidor de correo mejorado en función del tipo y la gravedad de las respuestas de rechazo procedentes del dominio de correo electrónico del mensaje.
-
-En las instalaciones on-premise y las instalaciones hospedadas/híbridas que utilizan el servidor de correo de Campaign heredado, para modificar la duración de un envío, vaya a los parámetros avanzados del envío o la plantilla de envío y especifique la duración deseada en el campo correspondiente. Consulte esta [página](communication-channels.md) en **Envío de la entrega** > **Definir el período de validez**. 
-
-La configuración predeterminada permite cinco intentos en intervalos de una hora, seguidos de un reintento diario durante cuatro días. El número de reintentos se puede cambiar a nivel global (póngase en contacto con el administrador técnico de Adobe) o para cada entrega o plantilla de envíos. Consulte esta [página](communication-channels.md) en **Envío de la entrega** > **Configurar reintentos**.
-
-## Errores sincrónicos y asíncronos {#synchronous-and-asynchronous-errors}
-
-Un mensaje puede fallar inmediatamente (error sincrónico), o más tarde, después de enviarlo (error asíncrono).
-
-* Error sincrónico: el servidor de correo remoto contactado mediante el servidor de entrega de Adobe Campaign devuelve inmediatamente un mensaje de error y la entrega no puede enviarse al servidor del perfil. Adobe Campaign clasifica cada error para determinar si las direcciones de correo electrónico implicadas deben estar en cuarentena o no. Consulte [Calificación de correo rechazado](#bounce-mail-qualification).
-* Error asíncrono: el servidor receptor reenvía más tarde un correo electrónico de rechazo o una SR. Este correo se carga en un buzón técnico que la aplicación utiliza para etiquetar mensajes con un error. Pueden producirse errores asíncronos hasta una semana después de mandar la entrega.
-
-  >[!NOTE]
-  >
-  >La configuración del buzón de rechazos se detalla en [esta sección](../../installation/using/deploying-an-instance.md#managing-bounced-emails).
-
-  El [bucle de comentarios](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops) funciona como los correos electrónicos rechazados. Cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo en Adobe Campaign para bloquear todas las entregas a este usuario. Los mensajes enviados a los usuarios que han clasificado un correo electrónico como no deseado se redireccionan automáticamente a una bandeja de correo creada específicamente para este fin. Las direcciones de estos usuarios se incluyen en la lista de bloqueados aunque no hayan hecho clic en el vínculo de baja. Las direcciones se incluyen en la lista de bloqueados en la tabla de cuarentena (**NmsAddress**) en vez de en la tabla de destinatarios (**NmsRecipient**).
-
-  >[!NOTE]
-  >
-  >La administración de quejas se detalla en la sección [Administración de entregas](about-deliverability.md).
-
-## Gestión de correos rechazados {#bounce-mail-management}
-
-La plataforma Adobe Campaign permite administrar los errores de envío de los correos electrónicos a través de la funcionalidad de correos rechazados.
-
-Cuando un correo electrónico no puede enviarse a un destinatario, el servidor de mensajería remoto envía automáticamente un mensaje de error (correo rechazado) a una bandeja de entrada técnica diseñada para este fin.
-
-En el caso de instalaciones on-premise e instalaciones alojadas/híbridas que utilizan el servidor de correo de Campaign heredado, la plataforma Adobe Campaign recopila los mensajes de error y los califica el proceso inMail para enriquecer la lista de reglas de gestión de correo electrónico.
-
->[!IMPORTANT]
->
->En el caso de instalaciones alojadas o híbridas, si ha actualizado al [servidor de correo mejorado](sending-with-enhanced-mta.md), la mayoría de las reglas de gestión de correo electrónico ya no se utilizan. Para obtener más información, consulte [esta sección](#email-management-rules).
-
-### Calificación del correo rechazado {#bounce-mail-qualification}
-
->[!IMPORTANT]
->
->Para instalaciones hospedadas o híbridas, si ha actualizado al [servidor de correo mejorado](sending-with-enhanced-mta.md):
->
->* Las calificaciones de rechazo de la tabla **[!UICONTROL Delivery log qualification]** ya no se utilizan para los mensajes de error de envío **síncronos**. El servidor de correo mejorado determina el tipo de rechazo y la calificación, y envía esa información a Campaign.
->
->* Las devoluciones **asíncronas** siguen siendo calificadas por el proceso inMail a través de las reglas de **[!UICONTROL Inbound email]** . Para obtener más información, consulte [Reglas de gestión de correo electrónico](#email-management-rules).
->
->* En el caso de instancias que utilicen el servidor de correo mejorado **sin Webhooks/**, las reglas de **[!UICONTROL Inbound email]** también se utilizan para procesar los correos electrónicos rechazados síncronos procedentes del servidor de correo mejorado, utilizando la misma dirección de correo electrónico que para los correos electrónicos rechazados asíncronos.
+### Administración de cualificación de correo rechazado {#bounce-mail-qualification-management}
 
 En el caso de instalaciones on-premise e instalaciones alojadas/híbridas que utilizan el servidor de correo de Campaign heredado, cuando se produce un error en el envío de un correo electrónico, el servidor de envío de Adobe Campaign recibe un mensaje de error del servidor de mensajería o del servidor DNS remoto. La lista de errores se compone de cadenas de caracteres incluidas en el mensaje rechazado por el servidor remoto. Los tipos y los motivos del error se asignan a cada mensaje.
 
@@ -253,9 +65,9 @@ Este proceso permite reunir todos los errores del mismo tipo y evitar entradas m
 
 Los correos electrónicos rechazados pueden tener el siguiente estado de calificación:
 
-* **[!UICONTROL To qualify]**: no se ha podido clasificar el correo rechazado. Se debe asignar la calificación al equipo de entregas para garantizar una capacidad de entrega eficiente de la plataforma. Siempre que no esté clasificado, no se usa el correo rechazado para enriquecer la lista de reglas de gestión de correo electrónico.
-* **[!UICONTROL Keep]**: el correo rechazado fue clasificado y el flujo de trabajo de **Refresh for deliverability** lo usa para compararlo con las reglas de gestión de correo electrónico existentes y enriquecer la lista.
-* **[!UICONTROL Ignore]** : el correo rechazado es ignorado por el MTA de Campaign, lo que significa que esta devolución nunca hará que la dirección del destinatario se ponga en cuarentena. El flujo de trabajo de **actualización para la entrega** no lo usará y no se enviará a las instancias de cliente.
+* **[!UICONTROL To qualify]**: no se pudo calificar el correo rechazado. Se debe asignar la calificación al equipo de entregas para garantizar una capacidad de entrega eficiente de la plataforma. Siempre que no esté clasificado, no se usa el correo rechazado para enriquecer la lista de reglas de gestión de correo electrónico.
+* **[!UICONTROL Keep]**: el correo rechazado se ha clasificado y el flujo de trabajo **Actualizar la entrega** lo usará para compararlo con las reglas de gestión de correo electrónico existentes y enriquecer la lista.
+* **[!UICONTROL Ignore]**: el MTA de Campaign ignora el correo rechazado, lo que significa que esta devolución nunca hará que la dirección del destinatario se ponga en cuarentena. El flujo de trabajo de **actualización para la entrega** no lo usará y no se enviará a las instancias de cliente.
 
 ![](assets/deliverability_qualif_status.png)
 
@@ -263,11 +75,7 @@ Los correos electrónicos rechazados pueden tener el siguiente estado de calific
 >
 >En caso de una interrupción de un ISP, los correos electrónicos enviados a través de Campaign se marcan erróneamente como rechazos. Para corregir esto, debe actualizar la calificación de devoluciones. Para obtener más información, consulte [esta página](update-bounce-qualification.md).
 
-### Reglas de gestión de correo electrónico {#email-management-rules}
-
->[!IMPORTANT]
->
->En el caso de instalaciones alojadas o híbridas, si ha actualizado al [servidor de correo mejorado](sending-with-enhanced-mta.md), la mayoría de las reglas de gestión de correo electrónico ya no se utilizan. Para obtener más información, consulte las secciones que siguen.
+### Configuración de reglas de gestión de correo electrónico {#email-management-rules}
 
 Se accede a las reglas de correo a través del nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]**. Las reglas de administración de correo electrónico se muestran en la parte inferior de la ventana.
 
@@ -277,58 +85,64 @@ Se accede a las reglas de correo a través del nodo **[!UICONTROL Administration
 >
 >Los parámetros predeterminados de la plataforma se configuran en el asistente de implementación. Para obtener más información, consulte [esta sección](../../installation/using/deploying-an-instance.md).
 
-Las reglas predeterminadas son las siguientes.
+Las reglas predeterminadas son las siguientes:
 
 >[!IMPORTANT]
 >
->* El servidor de entrega (MTA) debe reiniciarse si los parámetros se han modificado.
+>* El servidor de entrega (MTA) debe reiniciarse si se han cambiado los parámetros.
 >* La modificación o creación de reglas de administración solo es para usuarios expertos.
 
 #### Correo electrónico entrante {#inbound-email}
 
-<!--
-STATEMENT ONLY TRUE with Momentum and EFS+:
-For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](sending-with-enhanced-mta.md), and if your instance has **Webhooks** functionality, the **[!UICONTROL Inbound email]** rules are no longer used for synchronous delivery failure error messages. For more on this, see [this section](#bounce-mail-qualification).
+Estas reglas contienen las cadenas que pueden devolver los servidores remotos y que permiten calificar el error (**Grave**, **leve** o **ignorado**).
 
-For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, these rules contain the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).-->
-
-Estas reglas de **[!UICONTROL Inbound email]** contienen la lista de cadenas de caracteres que pueden devolver los servidores remotos y que le permiten clasificar el error (**Devuelto no válido**, **Devuelto no entregado** o **Ignorado**).
-
-Cuando un mensaje de correo electrónico falla, el servidor remoto devuelve un mensaje de rechazo a la dirección especificada en los [parámetros de la plataforma](../../installation/using/deploying-an-instance.md). Adobe Campaign compara el contenido de cada mensaje de rechazo con las cadenas de la lista de reglas y, a continuación, lo asigna a uno de los tres [tipos de error](#delivery-failure-types-and-reasons).
+Cuando un mensaje de correo electrónico falla, el servidor remoto devuelve un mensaje de rechazo a la dirección especificada en los parámetros de la plataforma. Adobe Campaign compara el contenido de cada mensaje de rechazo con las cadenas de la lista de reglas y, a continuación, lo asigna a uno de los tres tipos de error.
 
 >[!NOTE]
 >
 >El usuario puede crear sus propias reglas. Al importar un paquete y al actualizar datos mediante el flujo de trabajo **Refresh for deliverability**, se sobrescriben las reglas creadas por el usuario.
 
-Para obtener más información sobre la calificación de correo rechazado, consulte [esta sección](#bounce-mail-qualification).
+Para obtener más información sobre la calificación de correo rechazado, consulte [esta sección](#bounce-mail-qualification-management).
 
 #### Administración de dominios {#domain-management}
 
->[!IMPORTANT]
->
->En el caso de instalaciones alojadas o híbridas, si ha actualizado al [servidor de correo mejorado](sending-with-enhanced-mta.md), las reglas de **[!UICONTROL Domain management]** ya no se utilizan. La firma de autenticación por correo electrónico de **DKIM (DomainKeys Identified Mail)** se realiza mediante el MTA mejorado para todos los mensajes con todos los dominios. No se firma con **el ID del remitente**, **DomainKeys** o **S/MIME** a menos que se especifique lo contrario en el nivel de MTA mejorado.
-
-Para instalaciones on-premise e instalaciones hospedadas/híbridas que utilizan el servidor de correo de Campaign heredado, el servidor de mensajería de Adobe Campaign aplica una sola regla de **administración de dominios** a todos los dominios.
+Para instalaciones on-premise, el MTA aplica una sola regla de **Administración de dominios** a todos los dominios.
 
 <!--![](assets/tech_quarant_domain_rules_02.png)-->
 
 * Se puede elegir si activar o no determinadas normas de identificación y claves de cifrado para comprobar el nombre del dominio como, por ejemplo, **ID de remitente**, **DomainKeys**, **DKIM** y **S/MIME**.
-* **SMTP relay**: permite configurar la dirección IP y el puerto de un servidor de transmisión para un dominio determinado. Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#smtp-relay).
+* Los parámetros **SMTP relay** permiten configurar la dirección IP y el puerto de un servidor de transmisión para un dominio determinado. Para obtener más información, consulte [esta sección](../../installation/using/configuring-campaign-server.md#smtp-relay).
 
-Si los mensajes se muestran en Outlook con **[!UICONTROL on behalf of]** en la dirección del remitente, asegúrese de no firmar los mensajes de correo electrónico con el **ID del remitente**, que es el estándar de autenticación de correo electrónico propietario obsoleto de Microsoft. Si la opción **[!UICONTROL Sender ID]** está habilitada, desmarque la casilla correspondiente y póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). La capacidad de envío no se ve afectada.
+Si sus mensajes muestran **[!UICONTROL on behalf of]** en la dirección del remitente, asegúrese de no firmar correos electrónicos con **ID de remitente**, que es el estándar de autenticación de correo electrónico propietario obsoleto de Microsoft. Si la opción **[!UICONTROL Sender ID]** está habilitada, desmarque la casilla correspondiente y póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). La capacidad de envío no se ve afectada.
 
-#### Administración MX {#mx-management}
+#### Administración de MX {#mx-management}
 
->[!IMPORTANT]
+Para las instalaciones on-premise, se utilizan reglas de administración MX para regular el flujo de correos electrónicos salientes para un dominio específico.
+
+<!--![](assets/tech_quarant_domain_rules_01.png)-->
+
+Estas reglas están disponibles en el asistente de implementación y se pueden personalizar:
+
+* **[!UICONTROL MX Management]**: esta regla se usa para controlar el flujo de correos electrónicos salientes para un dominio. Realiza muestras de los mensajes rechazados y bloquea la entrega a donde corresponda.
+
+* **[!UICONTROL Period]**: lapso de tiempo durante el cual se limitan o bloquean los mensajes.
+
+* **[!UICONTROL Limit]**: el número máximo de mensajes permitidos por período de tiempo.
+
+* **[!UICONTROL Type]**: tipo de error (grave, leve o omitido) utilizado para determinar el comportamiento de envío. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} para ver las definiciones de tipo de error.
+
+Para obtener más información sobre gestión MX, consulte [esta sección](../../installation/using/email-deliverability.md#about-mx-rules).
+
+>[!NOTE]
 >
->En el caso de instalaciones alojadas o híbridas, si se ha actualizado al [servidor de correo mejorado](sending-with-enhanced-mta.md), ya no se utilizan las reglas de rendimiento de envíos **[!UICONTROL MX management]**. El servidor de correo mejorado utiliza sus propias reglas MX que le permiten personalizar el rendimiento por dominio en función de su propia reputación histórica del correo electrónico y de los comentarios en tiempo real procedentes de los dominios a los que envía correos electrónicos.
+>Para los usuarios de Cloud Services administrados de Campaign v8, las reglas MX y la administración de flujo de correo electrónico son administradas por Adobe como parte de la infraestructura administrada. Póngase en contacto con el Servicio de atención al cliente de Adobe si necesita ajustar la configuración MX para casos de uso específicos.
 
-Para instalaciones on-premise e instalaciones alojadas/híbridas que utilicen el servidor de correo de Campaign heredado:
+## Temas relacionados
 
-* Las reglas de administración MX se utilizan para regular el flujo de correos electrónicos salientes para un dominio específico. Realizan muestras de los mensajes de rechazo y bloquean la entrega a donde corresponda.
-
-* El servidor de mensajería de Adobe Campaign aplica reglas específicas a los dominios y, a continuación, las reglas para el caso general representado por un asterisco en la lista de reglas.
-
-* Para configurar las reglas de administración MX, simplemente configure un umbral y seleccione ciertos parámetros SMTP. Un **umbral** es un límite calculado como un porcentaje de error por encima del cual se bloquean todos los mensajes dirigidos a un dominio específico. Por ejemplo, en el caso general, para un mínimo de 300 mensajes, la entrega de correos electrónicos se bloquea durante tres horas si la tasa de error alcanza el 90 %.
-
-Para obtener más información sobre gestión MX, consulte [esta sección](../../installation/using/email-deliverability.md#mx-configuration).
+* [Comprender los errores de entrega](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Documentación de Campaign v8)
+* [Estados de entrega](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (documentación de Campaign v8)
+* [Administración de cuarentena](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentación de Campaign v8)
+* [Configuración de cuarentena](understanding-quarantine-management.md) (v7 híbrido/local)
+* [Actualizar calificación de devoluciones](update-bounce-qualification.md) (v7 híbrido/local)
+* [Configuración de envío de correo electrónico](../../installation/using/email-deliverability.md) (v7 híbrido/local)
+* [Implementación de una instancia](../../installation/using/deploying-an-instance.md#managing-bounced-emails) (v7 híbrida/local)

@@ -6,10 +6,10 @@ feature: Troubleshooting
 hidefromtoc: true
 hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 85bafbac26b5f127499f35f373e96ecfd12b1db8
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 72%
+source-wordcount: '631'
+ht-degree: 70%
 
 ---
 
@@ -33,21 +33,15 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
 
 ### Preguntas frecuentes
 
-¿Cómo actualizar a una nueva versión? ¿Cómo monitorizar la ejecución del flujo de trabajo? ¿Qué es el flujo de trabajo para limpieza de bases de datos? [Lea las 10 preguntas principales](platform/using/common-questions.md).
-
 <table>
     <tr><td><strong>Preguntas y respuestas sobre temas</strong></td><td><strong>Problemas comunes</strong></td><td><strong>Prácticas recomendadas</strong></td><td><strong>Instrucciones</strong></td></tr>
     <tr>
     <td valign="top">
         <ul>
-        <li><a href="platform/using/faq-key-concepts.md">Conceptos clave</a></li>
-        <li><a href="platform/using/faq-campaign-config.md">Configuración de campaña</a></li>
-        <li><a href="platform/using/faq-reporting.md">Creación de informes</a></li>
+        <li><a href="platform/using/faq-campaign-classic-v7.md">Preguntas frecuentes sobre Campaign Classic v7</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">Actualización de compilación</a></li>
-        <li><a href="platform/using/faq-messages.md">Prueba, envío y seguimiento de mensajes</a></li>
-        <li><a href="platform/using/faq-workflows.md">Flujos de trabajo</a></li>
-        <li><a href="platform/using/faq-developers.md">Desarrolladores</a></li>
-        <li><a href="delivery/using/monitoring-deliverability.md">Entrega</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html" target="_blank">Preguntas frecuentes completas sobre Campaign v8</a></li>
+        <li><a href="delivery/using/about-delivery-monitoring.md">Monitorización de envíos</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -109,7 +103,7 @@ El Panel de control está disponible directamente en Adobe Experience Cloud. Sol
 
 ### Preguntas frecuentes sobre el Panel de control
 
-[Haga clic aquí &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es) para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
+[Haga clic aquí ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es) para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
 
 ### Administración de SFTP
 
@@ -138,7 +132,7 @@ El nuevo sistema de tickets se ha iniciado a través de [Adobe Admin Console](ht
 
 ### ¡Consulte a los expertos!
 
-Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){_blank}.
+Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
 
 ### Acceso al Centro de descargas de Campaign
 

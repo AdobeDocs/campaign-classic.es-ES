@@ -8,7 +8,7 @@ role: User, Developer
 hide: true
 hidefromtoc: true
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: 17ac1e0d68d2945b01aecc7c45fc5be7e6bd38af
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
@@ -63,7 +63,7 @@ El nuevo emoticono se coloca automáticamente en la tienda.
 
 1. El nuevo emoticono se ha añadido a la enumeración predeterminada **[!UICONTROL Insert emoticon list]**. Puede cambiar su **[!UICONTROL Display order]** en cualquier momento o moverlo a la tienda si ya no lo necesita.
 
-1. Para que los cambios se tengan en cuenta, desconéctese y vuelva a conectarse desde Adobe Campaign Classic. Si el nuevo emoticono aún no aparece en la ventana emergente **[!UICONTROL Insert emoticon]**, es posible que tenga que borrar la caché. Para obtener más información, consulte [esta sección](../../platform/using/faq-campaign-config.md#perform-soft-cache-clear).
+1. Para que los cambios se tengan en cuenta, desconéctese y vuelva a conectarse desde Adobe Campaign Classic. Si el nuevo emoticono aún no aparece en la ventana emergente **[!UICONTROL Insert emoticon]**, es posible que tenga que borrar la caché. Para obtener más información, consulte [esta sección](../../platform/using/faq-campaign-classic-v7.md#how-do-i-clear-console-cache).
 
 1. El nuevo emoticono ahora se encuentra en los envíos de la ventana emergente **[!UICONTROL Insert emoticon]** en la posición 61, que se configuró en los pasos anteriores. Para obtener más información sobre cómo utilizar emoticonos en los envíos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es#inserting-emoticons){target="_blank"}.
 
