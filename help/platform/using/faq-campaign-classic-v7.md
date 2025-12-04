@@ -33,7 +33,7 @@ Cada modelo de implementación tiene diferentes capacidades y responsabilidades 
 
 [Haga clic aquí para obtener más información](../../installation/using/hosting-models.md) acerca de los modelos de alojamiento y sus diferencias.
 
-**Nota:** Campaign v8 está disponible exclusivamente como Cloud Services administrados. [Más información sobre la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html?lang=es){target="_blank"}.
+**Nota:** Campaign v8 está disponible exclusivamente como Cloud Services administrados. [Más información sobre la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}.
 
 ### ¿Cuáles son las diferencias entre trabajar de forma local y en un entorno alojado? {#what-are-the-differences-when-working-on-premise-vs-in-a-hosted-environment}
 
@@ -60,7 +60,7 @@ La migración a Adobe Managed Services ofrece una escalabilidad y seguridad mejo
 
 **Introducción:** Póngase en contacto con su representante de Adobe para evaluar su entorno y desarrollar un plan de migración detallado con Adobe Professional Services.
 
-Más información sobre [migrar a Managed Services](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605?profile.language=es){target="_blank"}.
+Más información sobre [migrar a Managed Services](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"}.
 
 ## Actualizaciones de compilación (Campaign Classic v7) {#build-upgrades-v7}
 
@@ -214,7 +214,7 @@ Consulte las [**Preguntas frecuentes completas sobre la versión 8 de Campaign**
 
 **Comunidad y soporte técnico:**
 
-* [Foros de la comunidad Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){target="_blank"}
+* [Foros de la comunidad Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 * [Soporte de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 * [Panel de control de Campaign (clientes alojados)](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target="_blank"}
 
@@ -240,7 +240,7 @@ La versión 8 de Campaign es la plataforma estratégica de Adobe, ideal para org
 
 Más información:
 
-* [Información general de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html?lang=es){target="_blank"}
+* [Información general de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}
 * [Transición de Campaign Classic v7 a v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/v7-to-v8.html){target="_blank"}
 * [Preguntas frecuentes completas sobre Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}
 

@@ -6,9 +6,9 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 17ac1e0d68d2945b01aecc7c45fc5be7e6bd38af
+source-git-commit: 8a2a3239c08521765592491a6fe88c94d9db0640
 workflow-type: tm+mt
-source-wordcount: '6204'
+source-wordcount: '6201'
 ht-degree: 99%
 
 ---
@@ -540,7 +540,7 @@ Los derechos de acceso granulares a la base de datos que se utilizan para defini
 Más información sobre los [Derechos asignados](../../platform/using/access-management-named-rights.md).
 +++
 
-+++Espacio de nombres **&#x200B;**
++++Espacio de nombres ****
 
 El espacio de nombres es una partición que separa los tipos de datos del cliente de los tipos de datos nativos de Adobe Campaign en el modelo de datos. También se utiliza para facilitar la migración de definiciones de una instancia a otra, como mover un esquema o plantilla de la instancia de desarrollo a la instancia de producción.
 
@@ -1009,7 +1009,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 
 El flujo de trabajo técnico de seguimiento recupera los datos de seguimiento una vez que se ha enviado el envío y se ha activado el seguimiento. Estos datos se encuentran en la pestaña Seguimiento del envío. Puede encontrar información sobre las aperturas y los clics en un correo electrónico u otras interacciones con un mensaje recibido por el destinatario.
 
-Obtenga más información acerca de [Registros de seguimiento en la versión 8 de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"} o [seguimiento específico de la versión 7](../../delivery/using/about-message-tracking.md).
+Obtenga más información sobre [Registros de seguimiento en la versión 8 de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"}.
 +++
 
 +++**Mensajería transaccional**
