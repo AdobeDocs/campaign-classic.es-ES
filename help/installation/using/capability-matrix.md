@@ -51,7 +51,7 @@ Adobe Campaign proporciona la opción **Acceso de datos federado** (FDA) para pr
 **Consulte también**
 
 * [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md)
-* [Notas de la versión ](../../rn/using/latest-release.md)
+* [Notas de la versión &#x200B;](../../rn/using/latest-release.md)
 * [Actualizaciones de Campaign Classic](../../rn/using/rn-overview.md)
 * [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md)
 * [Versiones de [!DNL Gold Standard]](../../rn/using/gold-standard.md)

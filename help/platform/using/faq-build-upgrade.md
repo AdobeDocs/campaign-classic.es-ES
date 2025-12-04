@@ -110,7 +110,7 @@ Actualice su conocimiento en cuanto a los flujos de trabajo y los envíos de rut
 
 Identifique los tiempos de bajo volumen o bajo tráfico que sean ideales para las ventanas de mantenimiento, ya que producirán el menor impacto comercial.
 
-Revise nuestra [lista de comprobación de actualización de compilaciones ](#check-list) a continuación, así como sus planes de prueba, y asegúrese de que los recursos que pueden realizar estas pruebas estén disponibles entre 24 y 48 horas tras la finalización de una actualización.
+Revise nuestra [lista de comprobación de actualización de compilaciones &#x200B;](#check-list) a continuación, así como sus planes de prueba, y asegúrese de que los recursos que pueden realizar estas pruebas estén disponibles entre 24 y 48 horas tras la finalización de una actualización.
 
 Para obtener más información, [consulte esta sección](../../production/using/build-upgrade.md).
 
@@ -166,7 +166,7 @@ Consulte la [lista de comprobación de actualización de compilaciones](#check-l
 
 Los entornos de desarrollo y de fase se actualizan de forma secuencial o conjunta, pero se necesita una firma antes de actualizar la instancia de producción. Esto permite a cada cliente realizar pruebas exhaustivas antes de cerrar sesión en cualquier cambio en la producción.
 
-Consulte la [lista de comprobación de actualización de compilaciones ](#check-list)más abajo. Los clientes deben ejecutar pruebas similares y todas las que puedan necesitar para el entorno.
+Consulte la [lista de comprobación de actualización de compilaciones &#x200B;](#check-list)más abajo. Los clientes deben ejecutar pruebas similares y todas las que puedan necesitar para el entorno.
 
 ## ¿Con qué frecuencia debo realizar una actualización de compilación?
 
