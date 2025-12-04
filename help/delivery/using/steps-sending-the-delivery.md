@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '1517'
-ht-degree: 100%
+source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+workflow-type: tm+mt
+source-wordcount: '1518'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Antes de realizar el envío, se pueden definir los parámetros de envío en las 
   >
   >Cuando se crea la entrega duplicando una existente, este parámetro se restablece.
 
-* **[!UICONTROL Send using multiple waves]**: utilice esta opción para enviar los mensajes en lotes, en lugar de a toda la audiencia a la vez. [Más información](#sending-using-multiple-waves).
+* **[!UICONTROL Send using multiple waves]**: utilice esta opción para enviar los mensajes en lotes, en lugar de a todo el público a la vez. [Más información](#sending-using-multiple-waves).
 
 * **[!UICONTROL Test SMTP delivery]**: utilice esta opción para probar el envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía. Para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando RCPT TO del servidor de correo saliente (SMTP) y cierra la conexión antes del comando DATA del SMTP.
 
@@ -143,7 +143,7 @@ Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configu
    >
    >Al configurar las últimas olas, se debe dejar un margen suficiente para realizar reintentos. Consulte [esta sección](steps-sending-the-delivery.md#configuring-retries).
 
-1. Para supervisar sus envíos, vaya a los “logs” de entrega. Consulte [esta página](delivery-dashboard.md#delivery-logs-and-history).
+1. Para supervisar sus envíos, vaya a los “logs” de entrega. Consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
 
    Se pueden ver los envíos que ya se han realizado en las olas procesadas (estado **[!UICONTROL Sent]**) y las que se envían en las olas restantes (estado **[!UICONTROL Pending]**).
 

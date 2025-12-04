@@ -6,9 +6,9 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 8a2a3239c08521765592491a6fe88c94d9db0640
+source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
 workflow-type: tm+mt
-source-wordcount: '6201'
+source-wordcount: '6202'
 ht-degree: 99%
 
 ---
@@ -222,7 +222,7 @@ Obtenga más información sobre el análisis del envío en la [documentación de
 
 Los logs de entrega contienen información generada al enviar un mensaje. Estos registros muestran el detalle del envío, qué mensaje se ha preparado, ignorado, enviado o ha fallado. Se puede acceder a ellos directamente desde el tablero de envíos.
 
-Más información sobre los [Logs de entrega](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
+Más información sobre los [Logs de entrega](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
 +++
 
 <!--
@@ -540,7 +540,7 @@ Los derechos de acceso granulares a la base de datos que se utilizan para defini
 Más información sobre los [Derechos asignados](../../platform/using/access-management-named-rights.md).
 +++
 
-+++Espacio de nombres **&#x200B;**
++++Espacio de nombres ****
 
 El espacio de nombres es una partición que separa los tipos de datos del cliente de los tipos de datos nativos de Adobe Campaign en el modelo de datos. También se utiliza para facilitar la migración de definiciones de una instancia a otra, como mover un esquema o plantilla de la instancia de desarrollo a la instancia de producción.
 

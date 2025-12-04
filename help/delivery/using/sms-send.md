@@ -5,10 +5,10 @@ description: Obtenga información sobre cómo enviar, monitorizar y rastrear SMS
 feature: SMS
 role: User
 exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '887'
-ht-degree: 100%
+source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+workflow-type: tm+mt
+source-wordcount: '888'
+ht-degree: 99%
 
 ---
 
@@ -165,6 +165,6 @@ El nombre del remitente para este tipo de mensaje es un breve código que suele 
 
 >[!IMPORTANT]
 >
->Estos tipos de mensajes automáticos no conservan un historial. Por lo tanto, no aparecen en el panel de control de envío. [Más información](delivery-dashboard.md).
+>Estos tipos de mensajes automáticos no conservan un historial. Por lo tanto, no aparecen en el panel de control de envío. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 >
 >Estos mensajes no se tienen en cuenta en las reglas de presión comercial. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=es){target="_blank"}.
