@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '144'
-ht-degree: 100%
+source-git-commit: 8a2a3239c08521765592491a6fe88c94d9db0640
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ Los pasos clave al crear una entrega son los siguientes:
 
 1. **Realizar la entrega** [Más información](steps-sending-the-delivery.md)
 
-1. **Supervisar la entrega** (seguimiento, cuarentena, informes, etc.). Para obtener más información, consulte las secciones de [supervisión de envíos](about-delivery-monitoring.md) y [seguimiento de envíos](about-message-tracking.md).
+1. **Supervisar la entrega** (seguimiento, cuarentena, informes, etc.). Para obtener más información, consulte las secciones [Supervisión de entregas](about-delivery-monitoring.md) y [Seguimiento de mensajes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}.
 
 >[!NOTE]
 >
