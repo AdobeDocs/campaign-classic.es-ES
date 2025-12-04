@@ -140,9 +140,9 @@ Para obtener más información sobre DKIM, consulte la [Guía de prácticas reco
 
 ### Sistema de informes de éxito de envío
 
-En la vista **[!UICONTROL Summary]** de un envío de correo electrónico [panel](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}, el porcentaje de **[!UICONTROL Success]** comienza en el 100 % y luego desciende progresivamente a lo largo del envío [periodo de validez](communication-channels.md), a medida que se informan los rebotes suaves y duros desde el servidor de correo mejorado a Campaign.
+En la vista **[!UICONTROL Summary]** de un envío de correo electrónico [panel](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}, el porcentaje de **[!UICONTROL Success]** comienza en el 100 % y luego desciende progresivamente a lo largo del envío [periodo de validez](communication-channels.md), a medida que se informan los rebotes suaves y duros desde el servidor de correo mejorado a Campaign.
 
-De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"} en cuanto se transmiten correctamente desde Campaign al servidor de correo mejorado. Permanecen en ese estado a menos que un [rebote](delivery-failures-quarantine.md#delivery-failure-types-and-reasons) para ese mensaje se comunique desde el servidor de correo mejorado a Campaign, o hasta que esto ocurra.
+De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"} en cuanto se transmiten correctamente desde Campaign al servidor de correo mejorado. Permanecen en ese estado a menos que un [rebote](delivery-failures-quarantine.md#delivery-failure-types-and-reasons) para ese mensaje se comunique desde el servidor de correo mejorado a Campaign, o hasta que esto ocurra.
 
 Cuando se generan informes de los mensajes de rebote duro desde el servidor de correo mejorado, su estado cambia de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** y el porcentaje de **[!UICONTROL Success]** disminuye en consecuencia.
 

@@ -165,6 +165,6 @@ El nombre del remitente para este tipo de mensaje es un breve código que suele 
 
 >[!IMPORTANT]
 >
->Estos tipos de mensajes automáticos no conservan un historial. Por lo tanto, no aparecen en el panel de control de envío. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
+>Estos tipos de mensajes automáticos no conservan un historial. Por lo tanto, no aparecen en el panel de control de envío. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 >
 >Estos mensajes no se tienen en cuenta en las reglas de presión comercial. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=es){target="_blank"}.

@@ -91,4 +91,4 @@ El modo personalizado es para clientes avanzados que desean establecer sus propi
 * [Configuración MX](../../installation/using/email-deliverability.md#mx-configuration)
 * [Configuración técnica de correo electrónico](../../installation/using/email-deliverability.md)
 * [Comprensión de los errores de entrega](../../delivery/using/delivery-failures-quarantine.md)
-* [Campaign Classic - Recomendaciones técnicas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html)
+* [Campaign Classic - Recomendaciones técnicas](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=es)
