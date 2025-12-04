@@ -540,7 +540,7 @@ Los derechos de acceso granulares a la base de datos que se utilizan para defini
 Más información sobre los [Derechos asignados](../../platform/using/access-management-named-rights.md).
 +++
 
-+++Espacio de nombres ****
++++Espacio de nombres **&#x200B;**
 
 El espacio de nombres es una partición que separa los tipos de datos del cliente de los tipos de datos nativos de Adobe Campaign en el modelo de datos. También se utiliza para facilitar la migración de definiciones de una instancia a otra, como mover un esquema o plantilla de la instancia de desarrollo a la instancia de producción.
 
