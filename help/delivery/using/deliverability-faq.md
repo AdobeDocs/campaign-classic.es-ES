@@ -5,8 +5,8 @@ description: Descubra los puntos clave que debe comprobar al administrar la entr
 feature: Deliverability, Troubleshooting
 role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
-source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
-workflow-type: ht
+source-git-commit: 0c639cc8b9636c190c868980ab5182a0eccb5f74
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -49,13 +49,13 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
    * El estado **[!UICONTROL Quarantined]** es el resultado de un rechazo suave o fuerte.
 
-  Para obtener más información, consulte [esta sección](understanding-quarantine-management.md#quarantine-vs-denylist).
+  Para obtener más información, consulte [esta sección](delivery-failures-quarantine.md#quarantine-vs-denylist).
 
 * **¿Qué significan las diferentes razones de error de cuarentena?**
 
   Estas son 10 razones posibles: no definido, usuario desconocido, dominio inválido, incluida en la lista de bloqueados, rechazado, error omitido, inaccesible, cuenta deshabilitada, buzón lleno, sin conexión.
 
-  Para obtener más información, consulte [Comprensión de la administración de cuarentena](understanding-quarantine-management.md).
+  Para obtener más información, consulte [Comprensión de la administración de cuarentena](delivery-failures-quarantine.md).
 
 ## Eliminación de la lista de bloqueados {#remove-from-denylist}
 

@@ -8,8 +8,8 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
-workflow-type: ht
+source-git-commit: 0c639cc8b9636c190c868980ab5182a0eccb5f74
+workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ Al comenzar a enviar correos electrónicos en una nueva plataforma, puede utiliz
 
 * Los destinatarios cuyas direcciones están en cuarentena se excluyen de forma predeterminada durante el análisis de envío: no están segmentados. Esto acelera las entregas, ya que la tasa de error afecta significativamente a la velocidad de entrega. Una dirección de correo electrónico se puede poner en cuarentena, por ejemplo, cuando el buzón está lleno o si la dirección no existe. [Más información](#identifying-quarantined-addresses-for-a-delivery)
 
-* Adobe Campaign administra las direcciones erróneas según el tipo de error devuelto. Para obtener más información, consulte [esta sección](understanding-quarantine-management.md).
+* Adobe Campaign administra las direcciones erróneas según el tipo de error devuelto. Para obtener más información, consulte [esta sección](delivery-failures-quarantine.md).
 
 
 * Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como no deseados si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser incluido en la lista de bloqueados de bloqueados por estos proveedores.
