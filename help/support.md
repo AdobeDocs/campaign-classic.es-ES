@@ -6,7 +6,7 @@ feature: Troubleshooting
 hidefromtoc: true
 hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 8a2a3239c08521765592491a6fe88c94d9db0640
+source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 70%
@@ -47,7 +47,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
     <td valign="top">
         <ul>
         <li><a href="production/using/performance-and-throughput-issues.md">Problemas de rendimiento y producción</a></li>
-        <li><a href="delivery/using/delivery-performances.md">Rendimiento de envíos</a></li>
+        <li><a href="delivery/using/delivery-performance-troubleshooting.md">Rendimiento de envíos</a></li>
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=es" target="_blank">Optimización del rendimiento del flujo de trabajo</a></li>
         <li><a href="workflow/using/monitoring-workflow-execution.md">Solución de problemas de ejecución de flujo</a></li>
         <li><a href="platform/using/sftp-server-usage.md">Uso del servidor SFTP</a></li>
@@ -103,7 +103,7 @@ El Panel de control está disponible directamente en Adobe Experience Cloud. Sol
 
 ### Preguntas frecuentes sobre el Panel de control
 
-[Haga clic aquí &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es) para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
+[Haga clic aquí ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es) para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
 
 ### Administración de SFTP
 
@@ -132,7 +132,7 @@ El nuevo sistema de tickets se ha iniciado a través de [Adobe Admin Console](ht
 
 ### ¡Consulte a los expertos!
 
-Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){_blank}.
+Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
 
 ### Acceso al Centro de descargas de Campaign
 

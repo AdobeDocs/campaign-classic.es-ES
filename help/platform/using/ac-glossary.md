@@ -6,7 +6,7 @@ feature: Overview
 role: User, Developer
 level: Beginner
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
 workflow-type: tm+mt
 source-wordcount: '6202'
 ht-degree: 99%
@@ -482,7 +482,7 @@ Más información sobre la [Interacción entrante](../../interaction/using/about
 
 La renderización de la bandeja de entrada es la generación de previsualizaciones de correo electrónico, que garantiza que el mensaje se muestre a los destinatarios de una forma óptima en una gran variedad de clientes, correos web y dispositivos. Adobe Campaign aprovecha Litmus, que permite a los creadores de contenido de correo electrónico previsualizar el contenido de sus mensajes en más de 70 procesadores de correo electrónico, como la bandeja de entrada de Gmail o el cliente de correo de Apple.
 
-Más información sobre la [Renderización de la bandeja de entrada](../../delivery/using/delivery-dashboard.md#delivery-rendering).
+Más información sobre la [Renderización de la bandeja de entrada](../../delivery/using/inbox-rendering.md).
 +++
 
 +++**Configuraciones de instancia**
@@ -540,7 +540,7 @@ Los derechos de acceso granulares a la base de datos que se utilizan para defini
 Más información sobre los [Derechos asignados](../../platform/using/access-management-named-rights.md).
 +++
 
-+++Espacio de nombres **&#x200B;**
++++Espacio de nombres ****
 
 El espacio de nombres es una partición que separa los tipos de datos del cliente de los tipos de datos nativos de Adobe Campaign en el modelo de datos. También se utiliza para facilitar la migración de definiciones de una instancia a otra, como mover un esquema o plantilla de la instancia de desarrollo a la instancia de producción.
 

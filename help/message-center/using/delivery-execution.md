@@ -7,10 +7,10 @@ audience: message-center
 content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '233'
-ht-degree: 100%
+source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 99%
 
 ---
 
@@ -40,7 +40,7 @@ De forma predeterminada, se clasifican en subcarpetas por mes de envío. Este or
 
 ## Supervisión de mensajes transaccionales {#transactional-message-monitoring}
 
-Para supervisar los mensajes transaccionales, compruebe los [registros de envío](../../delivery/using/delivery-dashboard.md#delivery-logs-and-history).
+Para supervisar los mensajes transaccionales, compruebe los [registros de envío](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
 
 Los envíos transaccionales enviados desde la instancia de ejecución se sincronizan con la instancia de control a través de un flujo de trabajo técnico (**[!UICONTROL Message Center execution instance]**) que se ejecuta cada hora.
 

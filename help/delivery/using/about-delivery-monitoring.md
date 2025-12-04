@@ -5,7 +5,7 @@ description: Obtenga más información acerca de las funciones de monitorizació
 feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
 workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 60%
@@ -86,7 +86,7 @@ Se pueden realizar acciones específicas al encontrar problemas con las entregas
 
 * [Problemas de entregas](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problemas de visualización de imágenes](../../production/using/image-display-issues.md)
-* [Problemas de rendimiento de envíos](delivery-performances.md)
+* [Problemas de rendimiento de envíos](delivery-performance-troubleshooting.md)
 * [Problemas de archivos temporales](../../production/using/temporary-files.md): *solo clientes in situ*
 
 ## Monitorización de entregas
