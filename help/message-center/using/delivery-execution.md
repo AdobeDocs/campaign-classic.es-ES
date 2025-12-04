@@ -40,7 +40,7 @@ De forma predeterminada, se clasifican en subcarpetas por mes de envío. Este or
 
 ## Supervisión de mensajes transaccionales {#transactional-message-monitoring}
 
-Para supervisar los mensajes transaccionales, compruebe los [registros de envío](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
+Para supervisar los mensajes transaccionales, compruebe los [registros de envío](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
 
 Los envíos transaccionales enviados desde la instancia de ejecución se sincronizan con la instancia de control a través de un flujo de trabajo técnico (**[!UICONTROL Message Center execution instance]**) que se ejecuta cada hora.
 
