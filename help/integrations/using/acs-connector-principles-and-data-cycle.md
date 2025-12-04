@@ -310,7 +310,7 @@ Con la implementación básica, se replican los campos de destinatarios predeter
 
    ![](assets/acs_connect_implementation_7.png)
 
-1. Abra el flujo de trabajo de replicación de perfiles específico (no la plantilla, sino la propia instancia del flujo de trabajo). Modifique las actividades **[!UICONTROL Query]** y **[!UICONTROL Update data]** para incluir estos campos. Consulte Flujos de trabajo técnicos y de replicación.[](#technical-and-replication-workflows)
+1. Abra el flujo de trabajo de replicación de perfiles específico (no la plantilla, sino la propia instancia del flujo de trabajo). Modifique las actividades **[!UICONTROL Query]** y **[!UICONTROL Update data]** para incluir estos campos. Consulte Flujos de trabajo técnicos y de replicación.[&#128279;](#technical-and-replication-workflows)
 
    ![](assets/acs_connect_implementation_8.png)
 
@@ -329,4 +329,4 @@ Con la implementación básica, se duplica la tabla de destinatarios ya existent
    ![](assets/acs_connect_implementation_10.png)
 
 1. Si la administración de derechos se basa en carpetas, vaya a **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]** y defina un grupo de seguridad para las carpetas asociadas a las tablas personalizadas. Consulte [Conversión de derechos](#rights-conversion).
-1. Utilice el flujo de trabajo **[!UICONTROL New replication]** (no la plantilla, sino la propia instancia del flujo de trabajo) para incluir la tabla personalizada y los campos que desea duplicar. Consulte Flujos de trabajo técnicos y de replicación.[](#technical-and-replication-workflows)
+1. Utilice el flujo de trabajo **[!UICONTROL New replication]** (no la plantilla, sino la propia instancia del flujo de trabajo) para incluir la tabla personalizada y los campos que desea duplicar. Consulte Flujos de trabajo técnicos y de replicación.[&#128279;](#technical-and-replication-workflows)
