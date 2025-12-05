@@ -6,8 +6,8 @@ feature: Workflows, Targeting Activity, Query Editor
 hide: true
 hidefromtoc: true
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
-workflow-type: ht
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+workflow-type: tm+mt
 source-wordcount: '1630'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ El enlace **[!UICONTROL Edit query...]** permite definir el tipo de objetivo, la
 
    También puede agregar condiciones de agrupación de datos marcando el cuadro correspondiente. Para ello, la dimensión del filtro debe ser diferente a la dimensión de segmentación de la consulta. Para obtener más información sobre la agrupación, consulte esta [sección](querying-using-grouping-management.md).
 
-   También puede agregar más criterios utilizando el generador de expresiones y combinándolo con las opciones lógicas AND, OR y EXCEPT. Puede obtener una vista previa de **[!UICONTROL Corresponding SQL query...]** para la combinación de criterios. Consulte esta [sección](../../platform/using/about-queries-in-campaign.md) para obtener más información.
+   También puede agregar más criterios utilizando el generador de expresiones y combinándolo con las opciones lógicas AND, OR y EXCEPT. Puede obtener una vista previa de **[!UICONTROL Corresponding SQL query...]** para la combinación de criterios. Consulte esta [sección](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign) para obtener más información.
 
    Guarde el filtro si desea volver a utilizarlo más tarde.
 
@@ -197,7 +197,7 @@ La sección siguiente ofrece prácticas recomendadas para optimizar las consulta
 * Tenga cuidado con funciones como `Lower(...)`. Cuando se utiliza la función Lower, no se utiliza Index.
 * Compruebe las consultas utilizando la instrucción “like” o las instrucciones “upper” o “lower” cuidadosamente. Aplique “Upper” en la entrada del usuario, no en el campo de la base de datos.
 
-  Para obtener más información sobre las funciones, consulte [esta sección](../../platform/using/about-queries-in-campaign.md).
+  Para obtener más información sobre las funciones, consulte [esta sección](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
 ### Filtrado de dimensiones {#filtering-dimensions}
 

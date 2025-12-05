@@ -9,8 +9,8 @@ level: Beginner
 exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 hide: true
 hidefromtoc: true
-source-git-commit: b27b85b126e002c0ea8b5d71da1ed60e1e817980
-workflow-type: ht
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ En el ejemplo siguiente, se muestra cómo crear nuevas carpetas para mostrar dat
 
    >[!NOTE]
    >
-   >El editor de consultas se muestra en [esta sección](../../platform/using/about-queries-in-campaign.md).
+   >El editor de consultas se muestra en [esta sección](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
    Con las siguientes condiciones de filtro:
 

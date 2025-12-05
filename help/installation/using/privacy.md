@@ -4,10 +4,10 @@ title: Personalización y privacidad
 description: Conozca las prácticas recomendadas de seguridad para la privacidad y personalización
 feature: Installation, Privacy, Privacy Tools, URL Personalization
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ Al añadir enlaces personalizados al contenido, evite siempre cualquier personal
 
 ### Recomendación
 
-Para validar y asegurarse de que no está utilizando lo anterior, ejecute una consulta en la tabla de URL de seguimiento a través de [Editor de consultas genérico de Campaign](../../platform/using/about-queries-in-campaign.md) o cree un flujo de trabajo con criterios de filtro en la actividad de consulta. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=es){target="_blank"}.
+Para validar y asegurarse de que no está utilizando lo anterior, ejecute una consulta en la tabla de URL de seguimiento a través de [Editor de consultas genérico de Campaign](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign) o cree un flujo de trabajo con criterios de filtro en la actividad de consulta. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=es){target="_blank"}.
 
 Ejemplo:
 

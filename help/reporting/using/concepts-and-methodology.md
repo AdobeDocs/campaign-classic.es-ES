@@ -7,10 +7,10 @@ badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic 
 hide: true
 hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '1506'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ En general, hay tres tipos de agrupamiento disponibles:
 1. De forma dinámica, dependiendo de los valores de una enumeración: solo se muestran los valores contenidos en la enumeración; los demás valores se agrupan en “Otros”. Para obtener más información, consulte [Administración dinámica de grupos](#dynamically-managing-bins).
 1. Uso de intervalos de valores; todos los demás se agrupan. Por ejemplo, de 18 a 25 años de edad, de 26 a 59 años de edad y el resto. Para obtener más información, consulte [Creación de intervalos de calores](#creating-value-ranges).
 
-Para activar el agrupamiento, marque la casilla adecuada al crear la dimensión.
+Para habilitar el agrupamiento, marque la casilla adecuada al crear la dimensión.
 
 ![](assets/s_advuser_cube_class_00.png)
 
@@ -52,7 +52,7 @@ En el siguiente ejemplo, los idiomas se agrupan en tres categorías: inglés/ale
 
 Puede utilizar una máscara SQL para combinar varios valores en un filtro. Para ello, en la columna **[!UICONTROL Yes]**, marque **[!UICONTROL Use an SQL mask]** e introduzca el filtro SQL que desea aplicar en la columna **[!UICONTROL Value or expression]**.
 
-En el ejemplo siguiente, todos los dominios de correo electrónico que empiezan por **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.), o por **ymail** (ymail.com, ymail.eu, etc.) se agruparán bajo la etiqueta **YAHOO!**, así como las direcciones con el dominio **rocketmail.com**.
+En el ejemplo siguiente, todos los dominios de correo electrónico que comienzan con **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.) o con **ymail** (ymail.com, ymail.eu, etc.) se agrupan en la etiqueta **YAHOO!**, así como las direcciones con el dominio **rocketmail.com**.
 
 ![](assets/s_advuser_cube_class_03b.png)
 
@@ -67,7 +67,7 @@ Para crear este tipo de agrupamiento de valores, siga los pasos siguientes:
 
    ![](assets/s_advuser_cube_class_04.png)
 
-   Siempre que se actualizan los valores de la lista desglosada, los grupos coincidentes se adaptan automáticamente.
+   Siempre que se actualizan los valores de la enumeración, los grupos coincidentes se adaptan automáticamente.
 
 ### Creación de rangos de valores {#creating-value-ranges}
 
@@ -153,7 +153,7 @@ Para crear un nuevo acumulado, siga los siguientes pasos:
    * La actividad **[!UICONTROL Scheduler]** permite definir la frecuencia de las actualizaciones del cálculo. El planificador se detalla en [esta sección](../../workflow/using/scheduler.md).
    * La actividad **[!UICONTROL Aggregate update]** permite seleccionar el modo de actualización que desea aplicar: completo o parcial.
 
-     De forma predeterminada, se lleva a cabo una actualización completa durante cada cálculo. Para activar una actualización parcial, seleccione la opción correspondiente y defina las condiciones de actualización.
+     De forma predeterminada, se lleva a cabo una actualización completa durante cada cálculo. Para habilitar una actualización parcial, seleccione la opción correspondiente y defina las condiciones de actualización.
 
      ![](assets/s_advuser_cube_agregate_05.png)
 
@@ -171,7 +171,7 @@ Para definir una nueva medida, siga los siguientes pasos:
 
 1. Si es necesario, y dependiendo el operador, elija la expresión correspondiente a la operación.
 
-   El botón **[!UICONTROL Advanced selection]** permite crear fórmulas de cálculo complejas. Para obtener más información, consulte [esta sección](../../platform/using/about-queries-in-campaign.md).
+   El botón **[!UICONTROL Advanced selection]** permite crear fórmulas de cálculo complejas. Para obtener más información, consulte [esta sección](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
    ![](assets/s_advuser_cube_create_a_measure_01.png)
 
@@ -221,7 +221,7 @@ En cada medida, se puede definir la unidad y el formato que se va a aplicar.
 
 Una vez configurado el informe, puede guardarlo y compartirlo con otros operadores.
 
-Para ello, haga clic en el icono **[!UICONTROL Show the report properties]** y active la opción **[!UICONTROL Share this report]**.
+Para ello, haga clic en el icono **[!UICONTROL Show the report properties]** y habilite la opción **[!UICONTROL Share this report]**.
 
 ![](assets/cube_share_option.png)
 
@@ -235,7 +235,7 @@ Para confirmar estos cambios, debe guardar el informe.
 
 Es posible crear filtros para ver una sección de los datos.
 
-Para ello:
+Para ello, haga lo siguiente:
 
 1. Haga clic en el icono **[!UICONTROL Add a filter]**.
 
