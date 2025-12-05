@@ -58,7 +58,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <ul>
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=es" target="_blank">Prácticas recomendadas de flujo de trabajo</a></li>
         <li><a href="workflow/using/monitoring-technical-workflows.md">Monitorización técnica del flujo de trabajo</a></li>
-        <li><a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Comprensión de la administración del seguimiento</a></li>
+        <li><a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Comprensión de la administración del seguimiento</a></li>
         <li><a href="production/using/monitoring-guidelines.md">Herramientas de monitorización de Discover</a></li>
         <li><a href="platform/using/import-export-workflows.md">Importación de datos con flujos de trabajo</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">Envío de mensajes en varias olas</a></li>
@@ -132,7 +132,7 @@ El nuevo sistema de tickets se ha iniciado a través de [Adobe Admin Console](ht
 
 ### ¡Consulte a los expertos!
 
-Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
+Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){_blank}.
 
 ### Acceso al Centro de descargas de Campaign
 
