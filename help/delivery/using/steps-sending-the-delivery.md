@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+source-git-commit: 2e3a14c97706a873f0791ef83708d704d2eed6c3
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 99%
+source-wordcount: '1531'
+ht-degree: 98%
 
 ---
 
@@ -143,7 +143,7 @@ Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configu
    >
    >Al configurar las últimas olas, se debe dejar un margen suficiente para realizar reintentos. Consulte [esta sección](steps-sending-the-delivery.md#configuring-retries).
 
-1. Para supervisar sus envíos, vaya a los “logs” de entrega. Consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
+1. Para supervisar sus envíos, vaya a los “logs” de entrega. Consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
 
    Se pueden ver los envíos que ya se han realizado en las olas procesadas (estado **[!UICONTROL Sent]**) y las que se envían en las olas restantes (estado **[!UICONTROL Pending]**).
 
@@ -199,4 +199,4 @@ Una vez iniciada la entrega, se pueden enviar los mensajes (y los reintentos) ha
 
 * **Límite de validez de los recursos**: El campo **[!UICONTROL Validity limit]** se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
 
-  Los valores de este campo se pueden expresar en las unidades enumeradas en [esta sección](../../platform/using/adobe-campaign-workspace.md#default-units).
+  Los valores de este campo se pueden expresar en las siguientes unidades: **s** para segundos, **m** para minutos, **h** para horas, **d** para días (predeterminado), **y** para años.
