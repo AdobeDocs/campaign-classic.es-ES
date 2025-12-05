@@ -143,7 +143,7 @@ Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configu
    >
    >Al configurar las últimas olas, se debe dejar un margen suficiente para realizar reintentos. Consulte [esta sección](steps-sending-the-delivery.md#configuring-retries).
 
-1. Para supervisar sus envíos, vaya a los “logs” de entrega. Consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
+1. Para supervisar sus envíos, vaya a los “logs” de entrega. Consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
 
    Se pueden ver los envíos que ya se han realizado en las olas procesadas (estado **[!UICONTROL Sent]**) y las que se envían en las olas restantes (estado **[!UICONTROL Pending]**).
 
