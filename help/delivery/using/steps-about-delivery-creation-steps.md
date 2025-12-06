@@ -31,7 +31,7 @@ Los pasos clave al crear una entrega son los siguientes:
 
 1. **Realizar la entrega** [Más información](steps-sending-the-delivery.md)
 
-1. **Supervisar la entrega** (seguimiento, cuarentena, informes, etc.). Para obtener más información, consulte las secciones [Supervisión de entregas](about-delivery-monitoring.md) y [Seguimiento de mensajes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}.
+1. **Supervisar la entrega** (seguimiento, cuarentena, informes, etc.). Para obtener más información, consulte las secciones [Supervisión de entregas](about-delivery-monitoring.md) y [Seguimiento de mensajes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}.
 
 >[!NOTE]
 >

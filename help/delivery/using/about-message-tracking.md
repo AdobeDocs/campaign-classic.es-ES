@@ -16,12 +16,12 @@ ht-degree: 64%
 
 >[!IMPORTANT]
 >
->Para obtener **instrucciones generales de seguimiento** que se aplican tanto a Campaign Classic v7 como a Campaign v8, consulte la [documentación de seguimiento de mensajes de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}:
+>Para obtener **instrucciones generales de seguimiento** que se aplican tanto a Campaign Classic v7 como a Campaign v8, consulte la [documentación de seguimiento de mensajes de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}:
 >
->* [Configurar vínculos rastreados](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}
->* [Configuración de las opciones de seguimiento de URL](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"}
->* [Rastrear vínculos personalizados](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
->* [Registros de seguimiento de acceso](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
+>* [Configurar vínculos rastreados](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}
+>* [Configuración de las opciones de seguimiento de URL](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"}
+>* [Rastrear vínculos personalizados](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
+>* [Registros de seguimiento de acceso](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
 >* [Seguimiento de pruebas](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/testing-tracking){target="_blank"}
 >* [Informes de seguimiento](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/reporting/delivery-reports#tracking-indicators){target="_blank"}
 >
@@ -82,7 +82,7 @@ La exclusión del seguimiento de aplicaciones web le permite detener el seguimie
 
 Las siguientes sugerencias para la solución de problemas se aplican a **implementaciones híbridas/locales de Campaign Classic v7**. Parte de la información también se puede aplicar a las implementaciones locales de Campaign v8. Para Managed Cloud Services de Campaign v8, póngase en contacto con su representante de Adobe para obtener ayuda.
 
-Para ver los pasos básicos de solución de problemas de seguimiento en Campaign v8, consulte [Seguimiento de solución de problemas en la documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking-logs#troubleshooting){target="_blank"}.
+Para ver los pasos básicos de solución de problemas de seguimiento en Campaign v8, consulte [Seguimiento de solución de problemas en la documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking-logs#troubleshooting){target="_blank"}.
 
 ### Comprobaciones básicas {#basic-checks}
 

@@ -79,8 +79,8 @@ Algunos proveedores de acceso a Internet consideran automáticamente los correos
 
 Para obtener más información, consulte las siguientes secciones:
 
-* [Comprender los errores de entrega](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Documentación de Campaign v8: guía completa)
-* [Comprender la administración de cuarentena](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentación de Campaign v8: guía completa)
+* [Comprender los errores de entrega](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Documentación de Campaign v8: guía completa)
+* [Comprender la administración de cuarentena](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentación de Campaign v8: guía completa)
 
 ### Uso de herramientas de supervisión y creación de informes
 
