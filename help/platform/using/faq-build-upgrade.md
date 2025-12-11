@@ -1,26 +1,26 @@
 ---
 product: campaign
 title: Preguntas frecuentes sobre la actualización de versiones
-description: Preguntas frecuentes relacionadas con las actualizaciones de la versión 7 de Campaign Classic
+description: Preguntas frecuentes relacionadas con las actualizaciones de las compilaciones de Campaign Classic v7
 feature: Upgrade, Troubleshooting
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: 295e3596d9291cbcc55e2d264309141526c3806b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2066'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Preguntas frecuentes sobre la actualización de versiones {#build-upgrade-faq}
 
-Estas preguntas frecuentes responden a preguntas sobre las actualizaciones de las versiones 7 de Campaign Classic, especialmente en implementaciones locales e híbridas.
+Estas preguntas frecuentes responden a preguntas sobre las actualizaciones de la versión 7 de Campaign Classic, especialmente en implementaciones locales e híbridas.
 
 >[!NOTE]
 >
->Para obtener respuestas completas a preguntas comunes de Campaign sobre flujos de trabajo, envíos, audiencias y mucho más, consulte las [Preguntas frecuentes completas de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}.
+>Para obtener respuestas completas a preguntas comunes de Campaign sobre flujos de trabajo, envíos, públicos y mucho más, consulte las [Preguntas frecuentes completas de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=es){target="_blank"}.
 
 Adobe Campaign se actualiza periódicamente. Si conoce nuestras [Notas de la versión](../../rn/using/rn-overview.md) publicadas, probablemente sea consciente de que se lanza un promedio anual de dos o tres versiones menores repletas de nuevas funciones, mejoras y correcciones. Además, lanzamos versiones periódicamente solamente con correcciones acumulativas. Esta cadencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y, por supuesto, mejorar su experiencia con nuestro producto.
 
@@ -110,7 +110,7 @@ Actualice su conocimiento en cuanto a los flujos de trabajo y los envíos de rut
 
 Identifique los tiempos de bajo volumen o bajo tráfico que sean ideales para las ventanas de mantenimiento, ya que producirán el menor impacto comercial.
 
-Revise nuestra [lista de comprobación de actualización de compilaciones &#x200B;](#check-list) a continuación, así como sus planes de prueba, y asegúrese de que los recursos que pueden realizar estas pruebas estén disponibles entre 24 y 48 horas tras la finalización de una actualización.
+Revise nuestra [lista de comprobación de actualización de compilaciones ](#check-list) a continuación, así como sus planes de prueba, y asegúrese de que los recursos que pueden realizar estas pruebas estén disponibles entre 24 y 48 horas tras la finalización de una actualización.
 
 Para obtener más información, [consulte esta sección](../../production/using/build-upgrade.md).
 
@@ -166,7 +166,7 @@ Consulte la [lista de comprobación de actualización de compilaciones](#check-l
 
 Los entornos de desarrollo y de fase se actualizan de forma secuencial o conjunta, pero se necesita una firma antes de actualizar la instancia de producción. Esto permite a cada cliente realizar pruebas exhaustivas antes de cerrar sesión en cualquier cambio en la producción.
 
-Consulte la [lista de comprobación de actualización de compilaciones &#x200B;](#check-list)más abajo. Los clientes deben ejecutar pruebas similares y todas las que puedan necesitar para el entorno.
+Consulte la [lista de comprobación de actualización de compilaciones ](#check-list)más abajo. Los clientes deben ejecutar pruebas similares y todas las que puedan necesitar para el entorno.
 
 ## ¿Con qué frecuencia debo realizar una actualización de compilación?
 

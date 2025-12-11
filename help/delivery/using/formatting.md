@@ -7,9 +7,9 @@ feature: Email Design
 role: User, Developer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1446'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Una plantilla JavaScript se identifica con su nombre y espacio de nombres igual 
 
 ### Estructura de una plantilla JavaScript {#structure-of-a-javascript-template}
 
-Ejemplo de una plantilla de formato de JavaScript HTML basada en el esquema &quot;cus:book&quot;:
+Ejemplo de una plantilla de formato HTML de JavaScript basada en el esquema &quot;cus:book&quot;:
 
 ```
 <html>
@@ -230,7 +230,7 @@ Este ejemplo comprende los siguientes pasos:
    </srcSchema>
    ```
 
-1. Crear el formulario **[!UICONTROL Content management]** vinculado (**neo:news**)
+1. Cree el formulario relacionado de tipo **[!UICONTROL Content management]** (**neo:news**).
 
    ```
    <form _cs="News (neo)" entitySchema="xtk:form"  img="xtk:form.png" label="News"  name="news" namespace="neo" type="contentForm" xtkschema="xtk:form">
@@ -376,7 +376,7 @@ Esta transformación está a su vez en XML en un documento conocido como hoja de
 
 Una hoja de estilo se identifica por su nombre y espacio de nombres, al igual que los esquemas y formularios. No obstante, se recomienda añadir la extensión **.xsl** al nombre de la hoja de estilo.
 
-La clave de identificación de una hoja de estilo es una cadena formada por el área de nombres y el nombre separados por dos puntos; por ejemplo: **cus:book.xsl**.
+La clave de identificación de una hoja de estilo es una cadena formada por el espacio de nombres y el nombre separados por dos puntos; por ejemplo:**cus:book.xsl**.
 
 ### Estructura de una hoja de estilo {#structure-of-a-stylesheet}
 
@@ -444,7 +444,7 @@ Las siguientes instrucciones describen la configuración de la hoja de estilo pa
 
 De forma predeterminada, el procesador XSLT busca la **template** que se aplica al nodo raíz o principal del documento XML de entrada. La construcción del documento de salida comienza con esta **template**.
 
-En nuestro ejemplo, se genera una página de HTML a partir del esquema &quot;cus:book&quot; mostrando el nombre del libro y la lista de capítulos.
+En nuestro ejemplo, se genera una página HTML a partir del esquema &quot;cus:book&quot; mostrando el nombre del libro y la lista de capítulos.
 
 >[!NOTE]
 >

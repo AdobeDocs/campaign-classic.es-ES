@@ -7,9 +7,9 @@ feature: Monitoring
 role: User, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Para la personalización del correo electrónico, el objeto de envío es accesib
 
 **Precaución**
 
-Si usa la siguiente instrucción para las entregas enviadas mediante intermediario, el campo personalizado **@myCustomField** debe agregarse al esquema nms:delivery en las plataformas de marketing y de intermediario:
+Si utiliza la siguiente instrucción para los envíos mediante intermediario, el campo personalizado **@myCustomField** debe añadirse al esquema nms:delivery en las plataformas de marketing y de intermediario:
 
 ```
 <%@ value object="delivery" xpath="@myCustomField" %>

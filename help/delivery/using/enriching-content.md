@@ -7,9 +7,9 @@ feature: Data Management
 role: User, Developer
 exl-id: a4472a7c-a16b-4d10-a8ca-f74ca5f62de4
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ En el esquema de datos, se define un vínculo de contenido de la siguiente maner
 <element expandSchemaTarget="cus:chapter" label="Main chapter" name="mainChapter" type="string"/>
 ```
 
-La definición del vínculo se rellena en una **cadena** de tipo **`<element>`**, y el atributo **expandSchemaTarget** hace referencia al esquema de destino (&quot;cus:chapter&quot; en nuestro ejemplo). El esquema de referencia debe ser de contenido.
+La definición del vínculo se rellena en una **string**-type **`<element>`**, y el atributo **expandSchemaTarget** hace referencia al esquema de destino (“cus:chapter” en nuestro ejemplo). El esquema de referencia debe ser de contenido.
 
 El contenido del elemento de destino enriquece el elemento de vínculo, es decir, el elemento **`<chapter>`** en el esquema de ejemplo:
 
@@ -136,13 +136,13 @@ Se declara un vínculo a una tabla externa en el esquema de datos de la siguient
 <element label="Main contact" name="mainContact" target="nms:recipient" type="link"/>
 ```
 
-La definición del vínculo se rellena en un **vínculo** de tipo **`<element>`**, y el atributo **target** hace referencia al esquema de destino (&quot;nms:recipient&quot; en nuestro ejemplo).
+La definición del vínculo se rellena en un **vínculo** tipo **`<element>`**, y el atributo **público destinatario** hace referencia al esquema de destino (“nms:recipient” en nuestro ejemplo).
 
 Por norma, los vínculos deben declararse del elemento principal del esquema de datos.
 
 **Compute string** y la clave del elemento de destino enriquecen los atributos **`<name>-id`** y **`<name>-cs`** en el elemento principal.
 
-En nuestro ejemplo, el vínculo se rellena en el esquema &quot;cus:book&quot;, el contenido de los datos del vínculo se incluye en los atributos &quot;mainContact-id&quot; y &quot;mainContact-cs&quot;:
+En nuestro ejemplo, el vínculo se rellena en el esquema &quot;cus:book&quot;, el contenido de los datos del vínculo se incluye en los atributos “mainContact-id” y “mainContact-cs”:
 
 ```
 <book computeString="Content management" date="2006/06/08" id="6106" language="en" mainContact-cs="John Doe (john.doe@adobe.com)" mainContact-id="3012" name="Content management" xtkschema="cus:book">

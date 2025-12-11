@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
 source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Tenga en cuenta que si se observan rechazos de aplazamiento con el mensaje “45
 
 >[!NOTE]
 >
->Puede consultar el panel de control del estado de Apple System en [esta página](https://www.apple.com/es/support/systemstatus/){_blank}.
+>Puede consultar el panel de control de estado de Apple System en [esta página](https://www.apple.com/es/support/systemstatus/){_blank}.
 >
 >Puede consultar el Panel de control de estado de Google Workspace en [esta página](https://www.google.com/appsstatus#hl=en&v=status){_blank}.
 >

@@ -7,9 +7,9 @@ feature: Seed Address
 role: User, Developer
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign también permite crear plantillas de las direcciones semilla que 
 Para crear direcciones semilla, avance con los siguientes pasos:
 
 1. Haga clic en el botón **[!UICONTROL New]** situado encima de las direcciones semilla.
-1. Introduzca los datos relacionados con la dirección en los campos correspondientes de la pestaña **[!UICONTROL Recipient]**. Los campos disponibles corresponden a los campos estándar de los perfiles de los destinatarios de la entrega (tabla nms:recipient): nombre, nombre, correo electrónico, etc.
+1. Introduzca los datos relacionados con la dirección en los campos correspondientes de la pestaña **[!UICONTROL Recipient]**. Los campos disponibles corresponden a los datos fundamentales del perfil de los destinatarios del envío (tabla nms:recipient): nombre, apellido, correo electrónico, etc.
 
    >[!NOTE]
    >

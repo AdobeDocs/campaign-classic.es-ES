@@ -6,9 +6,9 @@ feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1381'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -140,9 +140,9 @@ Para obtener más información sobre DKIM, consulte la [Guía de prácticas reco
 
 ### Sistema de informes de éxito de envío
 
-En la vista **[!UICONTROL Summary]** de un envío de correo electrónico [panel](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}, el porcentaje de **[!UICONTROL Success]** comienza en el 100 % y luego desciende progresivamente a lo largo del envío [periodo de validez](communication-channels.md), a medida que se informan los rebotes suaves y duros desde el servidor de correo mejorado a Campaign.
+En la vista **[!UICONTROL Summary]** de un [panel](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}de envío de correo electrónico, el porcentaje de **[!UICONTROL Success]** empieza en 100 % y luego desciende progresivamente a lo largo del [período de validez](communication-channels.md) de la entrega, a medida que se informan los rebotes suaves y duros desde el MTA mejorado a Campaign.
 
-De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"} en cuanto se transmiten correctamente desde Campaign al servidor de correo mejorado. Permanecen en ese estado a menos que un [rebote](delivery-failures-quarantine.md#delivery-failure-types-and-reasons) para ese mensaje se comunique desde el servidor de correo mejorado a Campaign, o hasta que esto ocurra.
+De hecho, todos los mensajes se muestran como **[!UICONTROL Sent]** en los [registros de envío](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"} en cuanto se transmiten correctamente desde Campaign al MTA mejorado. Permanecen en ese estado a menos que un [rebote](delivery-failures-quarantine.md#delivery-failure-types-and-reasons) de ese mensaje se comunique desde el MTA mejorado a Campaign, o hasta que esto ocurra.
 
 Cuando se generan informes de los mensajes de rebote duro desde el servidor de correo mejorado, su estado cambia de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** y el porcentaje de **[!UICONTROL Success]** disminuye en consecuencia.
 
@@ -161,5 +161,5 @@ En la tabla siguiente se muestran los diferentes pasos del proceso de envío con
 | El mensaje se retransmite correctamente desde Campaign al servidor de correo mejorado | El porcentaje de **[!UICONTROL Success]** comienza en 100 % | Enviado |
 | Los mensajes de devolución dura se informan desde el servidor de correo mejorado | El porcentaje de **[!UICONTROL Success]** baja en consecuencia | Error |
 | Los mensajes de devolución suave se informan desde el servidor de correo mejorado | No hay cambios en el porcentaje de **[!UICONTROL Success]** | Enviado |
-| Los reintentos de mensajes de devolución suave se realizan correctamente | Sin cambios en el porcentaje **[!UICONTROL Success]** \|  **[!UICONTROL Success]** porcentaje de aumento en consecuencia | Enviado |
+| Los reintentos de mensajes de devolución suave se realizan correctamente | Sin cambios en el porcentaje de **[!UICONTROL Success]** \|  el porcentaje de **[!UICONTROL Success]** se aumenta en consecuencia | Enviado |
 | Error en los reintentos de mensajes de devolución suave | El porcentaje de **[!UICONTROL Success]** baja en consecuencia | Error |

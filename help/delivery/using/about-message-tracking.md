@@ -6,9 +6,9 @@ feature: Monitoring, Email
 role: User
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
 source-git-commit: ba53107ce06c0484070cbe0943ba439d33d5f710
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1267'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -20,22 +20,22 @@ ht-degree: 64%
 >
 >* [Configurar vínculos rastreados](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}
 >* [Configuración de las opciones de seguimiento de URL](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"}
->* [Rastrear vínculos personalizados](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
->* [Registros de seguimiento de acceso](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
->* [Seguimiento de pruebas](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/testing-tracking){target="_blank"}
->* [Informes de seguimiento](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/reporting/delivery-reports#tracking-indicators){target="_blank"}
+>* [Seguimiento de vínculos personalizados ](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
+>* [Acceso a los registros de seguimiento](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
+>* [Seguimiento de pruebas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/testing-tracking){target="_blank"}
+>* [Seguimiento de informes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/reporting/delivery-reports#tracking-indicators){target="_blank"}
 >
 >**Esta página solo documenta las características de seguimiento específicas de Campaign Classic v7**, principalmente para implementaciones híbridas y locales.
 
-## Funciones de seguimiento
+## Características de seguimiento
 
-### Configuración de seguimiento {#configure-tracking}
+### Configuración del seguimiento {#configure-tracking}
 
-Para Campaign Classic v7 **implementaciones híbridas/locales**, debe configurar el seguimiento en el nivel de instancia antes de utilizarlo.
+Para **implementaciones híbridas/locales** de la versión 7 de Campaign Classic, debe configurar el seguimiento en el nivel de instancia antes de utilizarlo.
 
 >[!NOTE]
 >
->Para Cloud Services administrados de Campaign v8, la configuración de seguimiento la realiza Adobe.
+>Para Managed Cloud Services de Campaign v8, la configuración de seguimiento la realiza Adobe.
 
 **Principio de funcionamiento**
 
@@ -46,19 +46,19 @@ En Campaign, hay dos tipos de seguimiento:
 * **Seguimiento web**: este modo permite rastrear las visitas a las páginas de tu sitio web
 * **Seguimiento de mensajes**: este modo permite rastrear los envíos de mensajes y el comportamiento de los destinatarios
 
-El modo de seguimiento se selecciona durante la instalación. Para las instalaciones on-premise, la configuración de seguimiento debe definirse en el nivel de instancia. [Obtenga más información](../../installation/using/deploying-an-instance.md#operating-principle)
+El modo de seguimiento se selecciona durante la instalación. Para instalaciones locales, la configuración de seguimiento debe definirse en el nivel de instancia. [Obtenga más información](../../installation/using/deploying-an-instance.md#operating-principle)
 
 **Servidor de seguimiento**
 
 Para configurar el seguimiento, la instancia debe declararse y registrarse en los servidores de seguimiento. El servidor de seguimiento se utiliza para registrar y recuperar información sobre las direcciones URL en las que hacen clic los destinatarios.
 
-Para las instalaciones on-premise, el servidor de seguimiento suele ser un servidor web que ejecuta la aplicación web de Adobe Campaign. La URL del servidor de seguimiento debe definirse en la configuración de la instancia. [Obtenga más información](../../installation/using/deploying-an-instance.md#tracking-server)
+Para instalaciones locales, el servidor de seguimiento suele ser un servidor web que ejecuta la aplicación web de Adobe Campaign. La URL del servidor de seguimiento debe definirse en la configuración de la instancia. [Obtenga más información](../../installation/using/deploying-an-instance.md#tracking-server)
 
 **Guardado del seguimiento**
 
 Una vez configurado el seguimiento y completadas las direcciones URL, se debe registrar el servidor de seguimiento. El registro permite a Adobe Campaign guardar información de seguimiento y proporcionar informes y estadísticas sobre las actividades rastreadas.
 
-Para las instalaciones on-premise, la información de seguimiento se almacena en la base de datos y se recupera a través de flujos de trabajo técnicos. El flujo de trabajo técnico **Tracking** procesa y almacena los datos de seguimiento recopilados del servidor de redirección. [Más información](../../installation/using/deploying-an-instance.md#saving-tracking)
+Para instalaciones locales, la información de seguimiento se almacena en la base de datos y se recupera a través de flujos de trabajo técnicos. El flujo de trabajo técnico de **seguimiento** procesa y almacena los datos de seguimiento recopilados del servidor de redirección. [Más información](../../installation/using/deploying-an-instance.md#saving-tracking)
 
 ### Seguimiento de aplicaciones web {#web-application-tracking}
 
@@ -66,7 +66,7 @@ Para las instalaciones on-premise, la información de seguimiento se almacena en
 
 >[!NOTE]
 >
->**El seguimiento de aplicaciones web es específico de Campaign Classic v7** y no está disponible en Campaign v8.
+>**El seguimiento de aplicaciones web es específico de la versión 7 de Campaign Classic** y no está disponible en la versión 8 de Campaign.
 
 **Seguimiento de una aplicación web**
 
@@ -86,15 +86,15 @@ Para ver los pasos básicos de solución de problemas de seguimiento en Campaign
 
 ### Comprobaciones básicas {#basic-checks}
 
-**Compruebe que el proceso trackinglogd se esté ejecutando**
+**Compruebe que el proceso trackinglogd se está ejecutando**
 
-Este proceso lee la memoria compartida de IIS/servidor web y escribe los registros de redirección.
+Este proceso lee la memoria compartida del IIS/servidor web y escribe los registros de redirección.
 
-Puede acceder a ella desde la página principal seleccionando la pestaña Supervisión en la instancia. También puede ejecutar el siguiente comando en la instancia: `<user>@<instance>:~$ nlserver pdump`
+Puede acceder a ella desde la página principal seleccionando la pestaña Monitorización en la instancia. También puede ejecutar el siguiente comando en la instancia: `<user>@<instance>:~$ nlserver pdump`
 
 Si el proceso trackinglogd no aparece en la lista, inícielo con el siguiente comando en la instancia: `<user>@<instance>:~$ nlserver start trackinglogd`
 
-**Compruebe que el flujo de trabajo técnico de seguimiento se haya estado ejecutando recientemente**
+**Compruebe que el flujo de trabajo técnico de seguimiento se ha estado ejecutando recientemente**
 
 Puede localizar el flujo de trabajo técnico de seguimiento en las carpetas Administración > Producción > Flujos de trabajo técnicos.
 
@@ -197,7 +197,7 @@ Al intentar acceder a los vínculos de seguimiento, aparece el siguiente mensaje
 
 +++
 
-+++Actualización de la opción NmsTracking_Pointer
++++Actualizando la opción NmsTracking_Pointer
 
 Siga estos pasos al actualizar la opción NmsTracking_Pointer:
 
@@ -310,10 +310,10 @@ En Adobe Campaign Classic, se supone que una asignación de destino es única en
 
 No es posible utilizar varios esquemas de segmentación con el mismo esquema de registro de seguimiento, ya que el flujo de trabajo de seguimiento no podrá reconciliar los datos con el ID de segmentación.
 
-Si no desea utilizar la asignación de destino predeterminada con nms:recipient, le recomendamos los siguientes métodos:
+Si no desea utilizar la asignación de destinatario predeterminada con nms:recipient, le recomendamos los siguientes métodos:
 
-* Si desea utilizar la dimensión de segmentación personalizada, debe crear un esquema broadLog/trackingLog personalizado con nms:broadlog como plantilla (por ejemplo: nms:broadLogRcp, nms:broadLogSvc, etc.).
+* Si desea utilizar la dimensión de segmentación personalizada, debe crear un esquema de broadLog/trackingLog personalizado con nms::broadlog como plantilla (por ejemplo: nms:broadLogRcp, nms:broadLogSvc, etc.).
 
-* Si desea utilizar OOB trackingLogRcp/broadLogRcp, la dimensión de segmentación debe ser nms:recipient y la dimensión de filtrado puede ser un esquema personalizado.
+* Si desea utilizar OOB trackingLogRcp/broadLogRcp, la dimensión de segmentación debe ser nms::recipient y la dimensión de filtrado puede ser un esquema personalizado.
 
 +++

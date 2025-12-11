@@ -6,13 +6,13 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '450'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Actualizar devoluciones graves incorrectas tras la interrupción de Apple {#update-bounce-qualification.md}
+# Actualizar devoluciones graves incorrectas después de la interrupción de Apple {#update-bounce-qualification.md}
 
 ## Contexto
 

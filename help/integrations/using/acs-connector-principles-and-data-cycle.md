@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
 source-git-commit: 2186b8a30449cb023cb07305ba64d53f2c8adab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2034'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -148,13 +148,13 @@ Los siguientes flujos de trabajo de replicación están disponibles como plantil
 * **[!UICONTROL `[ACS] Landing pages replication`]** (newLandingPageReplication): este flujo de trabajo incremental replica las aplicaciones web seleccionadas en Campaign Standard. Las aplicaciones web de Campaign v7 aparecen como páginas de destino en Campaign Standard. Consulte el caso de uso [Sincronización de aplicaciones web](../../integrations/using/synchronizing-web-applications.md).
 * **[!UICONTROL `[ACS] New replication`]** (newReplication): este flujo de trabajo incremental es un ejemplo que puede utilizarse para replicar una tabla personalizada. Consulte [Implementación avanzada](#advanced-implementation).
 * **[!UICONTROL `[ACS] Delivery-message replication`]** (newDlvMsgQualification): este flujo de trabajo incremental duplica los mensajes de entrega de Campaign Standard a Campaign v7.
-* **[!UICONTROL `[ACS] Profile delivery log replication`]** (newRcpDeliveryLogReplication): este flujo de trabajo incremental replica las ID de entrega, los “broadlogs” de correo electrónico y los “logs” de seguimiento de correo electrónico desde Campaign Standard hasta Campaign v7. Solo tiene en cuenta las entregas de cuentas realizados desde Campaign Standard a los perfiles que forman parte de la tabla nms:recipients de Campaign v7.
+* **[!UICONTROL `[ACS] Profile delivery log replication`]** (newRcpDeliveryLogReplication): este flujo de trabajo incremental replica las ID de entrega, los “broadlogs” de correo electrónico y los “logs” de seguimiento de correo electrónico desde Campaign Standard hasta Campaign v7. Solo tiene en cuenta los envíos de cuentas realizadas desde Campaign Standard a los perfiles que forman parte de la tabla nms:recipients en la versión 7 de Campaign.
 
   >[!NOTE]
   >
   > En caso de que se utilicen instancias tanto de Campaign Classic como de Campaign Standard para enviar correos electrónicos con direcciones URL rastreadas, puede ocurrir un problema con los identificadores de etiqueta de URL duplicados durante la sincronización. Para evitar que esto ocurra, actualice la actividad **Actualizar las direcciones URL de seguimiento** (writerTrackingUrls) en el flujo de trabajo y añada el prefijo “ACS” a la expresión de origen @tagId.
 
-* **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication): este flujo de trabajo incremental replica las ID de entrega, los “broadlogs” de correo electrónico y los “logs” de seguimiento de correo electrónico desde Campaign Standard hasta Campaign v7. Solo tiene en cuenta las entregas de cuentas realizados desde Campaign Standard a los perfiles que forman parte de una tabla específica (para definir, que no sea nms:recipients) de Campaign v7.
+* **[!UICONTROL `[ACS] New delivery log replication`]** (newRcpDeliveryLogReplication): este flujo de trabajo incremental replica las ID de envío, los “broadlogs” de correo electrónico y los “logs” de seguimiento de correo electrónico desde Campaign Standard hasta la versión 7 de Campaign. Solo tiene en cuenta los envíos de cuentas realizadas desde Campaign Standard hacia los perfiles que forman parte de una tabla específica (para definir, que no sea nms:recipients) de Campaign v7.
 
 ### Campos de destinatario predeterminados {#default-recipient-fields}
 
@@ -310,7 +310,7 @@ Con la implementación básica, se replican los campos de destinatarios predeter
 
    ![](assets/acs_connect_implementation_7.png)
 
-1. Abra el flujo de trabajo de replicación de perfiles específico (no la plantilla, sino la propia instancia del flujo de trabajo). Modifique las actividades **[!UICONTROL Query]** y **[!UICONTROL Update data]** para incluir estos campos. Consulte Flujos de trabajo técnicos y de replicación.[&#128279;](#technical-and-replication-workflows)
+1. Abra el flujo de trabajo de replicación de perfiles específico (no la plantilla, sino la propia instancia del flujo de trabajo). Modifique las actividades **[!UICONTROL Query]** y **[!UICONTROL Update data]** para incluir estos campos. Consulte Flujos de trabajo técnicos y de replicación.[](#technical-and-replication-workflows)
 
    ![](assets/acs_connect_implementation_8.png)
 
@@ -329,4 +329,4 @@ Con la implementación básica, se duplica la tabla de destinatarios ya existent
    ![](assets/acs_connect_implementation_10.png)
 
 1. Si la administración de derechos se basa en carpetas, vaya a **[!UICONTROL Administration > ACS Connector > Rights management > Folder mapping]** y defina un grupo de seguridad para las carpetas asociadas a las tablas personalizadas. Consulte [Conversión de derechos](#rights-conversion).
-1. Utilice el flujo de trabajo **[!UICONTROL New replication]** (no la plantilla, sino la propia instancia del flujo de trabajo) para incluir la tabla personalizada y los campos que desea duplicar. Consulte Flujos de trabajo técnicos y de replicación.[&#128279;](#technical-and-replication-workflows)
+1. Utilice el flujo de trabajo **[!UICONTROL New replication]** (no la plantilla, sino la propia instancia del flujo de trabajo) para incluir la tabla personalizada y los campos que desea duplicar. Consulte Flujos de trabajo técnicos y de replicación.[](#technical-and-replication-workflows)
