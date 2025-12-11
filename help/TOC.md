@@ -131,18 +131,18 @@ ht-degree: 99%
       + [Crear un SMS: OCULTO](delivery/using/sms-create.md)
       + [Migración al conector genérico SMPP extendido](delivery/using/unsupported-connector-migration.md)
    + [Envío de mensajes de LINE](delivery/using/line-channel.md)
-   + [Envío de notificaciones push &#x200B;](delivery/using/about-mobile-app-channel.md)
+   + [Envío de notificaciones push ](delivery/using/about-mobile-app-channel.md)
    + Envío de notificaciones push  {#sending-push-notifications}
       + [Integración del SDK de Campaign en la aplicación móvil](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configuración de la aplicación móvil{#configure-the-mobile-app}
          + [Introducción a la configuración de aplicaciones: OCULTO](delivery/using/get-started-app-config.md)
-         + [Pasos de configuración para iOS: OCULTO &#x200B;](delivery/using/configuring-the-mobile-application.md)
+         + [Pasos de configuración para iOS: OCULTO ](delivery/using/configuring-the-mobile-application.md)
          + [Pasos de configuración para Android: OCULTO](delivery/using/configuring-the-mobile-application-android.md)
       + Crear una notificación push{#create-a-push-msg}
          + [Crear un mensaje push para iOS: OCULTO](delivery/using/create-notifications-ios.md)
          + [Crear un mensaje push para Android: OCULTO](delivery/using/create-notifications-android.md)
       + [Solución de problemas: OCULTO](delivery/using/troubleshooting.md)
-   + [Envío de correos directos &#x200B;](delivery/using/about-direct-mail-channel.md)
+   + [Envío de correos directos ](delivery/using/about-direct-mail-channel.md)
    + Envío de correo directo  {#sending-direct-mail}
       + [Crear un envío de correo directo: OCULTO](delivery/using/creating-a-direct-mail-delivery.md)
       + [Definir el contenido de correo directo: OCULTO](delivery/using/defining-the-direct-mail-content.md)
@@ -185,11 +185,11 @@ ht-degree: 99%
       + [Administración de las suscripciones](delivery/using/managing-subscriptions.md)
       + [Marketing viral y social](delivery/using/viral-and-social-marketing.md)
    + Monitorización de los envíos {#monitoring-deliveries}
-      + [Monitorización del rendimiento de entrega](delivery/using/about-delivery-monitoring.md)
+      + [Monitorización del rendimiento de la entrega](delivery/using/about-delivery-monitoring.md)
       + [Seguimiento de mensajes](delivery/using/about-message-tracking.md)
-      + [Rendimiento de entrega y solución de problemas](delivery/using/delivery-performance-troubleshooting.md)
-      + [Errores de envío y administración de cuarentena](delivery/using/delivery-failures-quarantine.md)
-      + [Avanzado: personalizar registros de envío](delivery/using/customize-delivery-logs.md)
+      + [Rendimiento de la entrega y solución de problemas](delivery/using/delivery-performance-troubleshooting.md)
+      + [Errores de la entrega y administración de cuarentena](delivery/using/delivery-failures-quarantine.md)
+      + [Avanzado: personalizar registros de entrega](delivery/using/customize-delivery-logs.md)
    + Administración de la entregabilidad {#deliverability-management}
       + [¿Qué es la entregabilidad?](delivery/using/about-deliverability.md)
       + [Contenido de mensajes de control](delivery/using/control-message-content.md)
@@ -351,7 +351,7 @@ ht-degree: 99%
    + Adobe Experience Manager {#adobe-experience-manager}
       + [Uso de  [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuración de la integración](integrations/using/configuring-the-integration.md)
-      + [Creación de una newsletter de  [!DNL Experience Manager] &#x200B;](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [Creación de una newsletter de  [!DNL Experience Manager] ](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
       + [Uso de  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuración de la integración con  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
