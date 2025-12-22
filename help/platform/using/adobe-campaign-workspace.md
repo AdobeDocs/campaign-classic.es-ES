@@ -7,9 +7,9 @@ role: Developer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1166'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -106,7 +106,7 @@ Por ejemplo, en la página de entrega, utilice el botón **[!UICONTROL Create]**
 
 ## Uso de Adobe Campaign Explorer {#using-adobe-campaign-explorer}
 
-Es posible acceder a Adobe Campaign Explorer mediante el icono de la barra de herramientas. Permite acceder a todas las funcionalidades de Adobe Campaign, a las pantallas de configuración y a una vista más detallada de algunos de los elementos de la plataforma.
+Es posible acceder a Adobe Campaign Explorer mediante el icono de la barra de herramientas. Le permite acceder a todas las funcionalidades de Adobe Campaign, a las pantallas de configuración y a una vista más detallada de algunos de los elementos de la plataforma.
 
 Para obtener más información sobre el explorador de Adobe Campaign, consulte estas páginas en la **documentación de Campaign v8 (consola)**:
 
@@ -114,7 +114,7 @@ Para obtener más información sobre el explorador de Adobe Campaign, consulte e
 
 * [Configuración de la interfaz de usuario de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
-* [Administrar carpetas y vistas en el explorador](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}
+* [Administración de carpetas y vistas en el explorador](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}
 
 
 ## Trabajo con datos {#work-with-data}
@@ -183,4 +183,4 @@ Obtenga más información sobre cómo **trabajar con listas desglosadas** en la 
 
 Este vídeo presenta el espacio de trabajo de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39532?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

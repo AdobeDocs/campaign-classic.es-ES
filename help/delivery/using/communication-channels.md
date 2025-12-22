@@ -6,9 +6,9 @@ feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: 2e3a14c97706a873f0791ef83708d704d2eed6c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '960'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ Una vez iniciada la entrega, se pueden enviar los mensajes (y los reintentos) ha
 
 * **Límite de validez de los recursos**: El campo **[!UICONTROL Validity limit]** se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
 
-  Los valores de este campo se pueden expresar en las siguientes unidades: **s** para segundos, **m** para minutos, **h** para horas, **d** para días (predeterminado), **y** para años.
+  Los valores de este campo se pueden expresar en las siguientes unidades: **s** para segundos, **m** para minutos, **h** para horas, **d** para días (predeterminado) y **y** para años.
 
 +++
 
@@ -128,7 +128,7 @@ Una vez iniciada la entrega, se pueden enviar los mensajes (y los reintentos) ha
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >

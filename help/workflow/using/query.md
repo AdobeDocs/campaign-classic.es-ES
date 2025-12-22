@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1630'
 ht-degree: 100%
 
@@ -153,7 +153,7 @@ En el siguiente ejemplo, la consulta busca identificar hombres de entre 18 y 30 
    ![](assets/query_example_preview.png)
 
 1. Guarde los filtros de manera que pueda utilizarlos de nuevo en una fecha posterior haciendo clic en **[!UICONTROL Finish]** > **[!UICONTROL OK]**.
-1. Siga editando el flujo de trabajo añadiendo otras actividades. Una vez que se haya iniciado y haya finalizado el paso anterior, se mostrará el número de destinatarios encontrados. Puede ver más detalles con el menú emergente del ratón (haga clic con el botón derecho en la transición > **[!UICONTROL Display the target...]**).
+1. Siga editando el flujo de trabajo añadiendo otras actividades. Una vez que se haya iniciado y haya finalizado el paso de consulta anterior, se mostrará el número de destinatarios encontrados. Puede ver más detalles con el menú emergente del ratón (haga clic con el botón derecho en la transición > **[!UICONTROL Display the target...]**).
 
    ![](assets/query_example_result.png)
 

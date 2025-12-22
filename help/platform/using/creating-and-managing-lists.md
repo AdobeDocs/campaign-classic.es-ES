@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '89'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Las listas se crean y administran mediante el vínculo **[!UICONTROL Lists]** en
 
 >[!NOTE]
 >
->Para obtener más información sobre las listas y cómo crearlas y administrarlas, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target=_blank}.
+>Para obtener más información sobre las listas y cómo crearlas y administrarlas, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target=_blank}.
 
 <!--
 Two types of lists are available in Adobe Campaign:
@@ -139,14 +139,14 @@ A list is a static set of recipients that can be targeted in delivery actions or
 
 Learn how to create an audience by configuring a list of recipients from the Explorer.
 
->[!VIDEO](https://video.tv.adobe.com/v/27504?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
 ### How use a workflow to create a list of recipients {#create-list-in-a-wf-video}
 
 Learn how create a workflow in order to target recipients and how to make it recurring before using the list in an email target.
 
->[!VIDEO](https://video.tv.adobe.com/v/27495?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
 -->
