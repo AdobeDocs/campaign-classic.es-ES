@@ -11,7 +11,7 @@ ht-degree: 7%
 **Generado**: 13-01-2026\
 **Archivos totales**: 111
 
----
+&#x200B;---
 
 ## Resumen de 📈
 
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 **🎯Impacto de la reorganización**: 67 archivos que eliminar (reducción del 60 %)
 
----
+&#x200B;---
 
 ## 📋 análisis de archivo completo
 
@@ -44,7 +44,7 @@ ht-degree: 7%
 
 **Resumen**: 7 DELETE, 0 MANTENER, 0 MOVER, 1 REVISIÓN
 
----
+&#x200B;---
 
 ### 📧 correo electrónico (18 archivos)
 
@@ -64,7 +64,7 @@ ht-degree: 7%
 
 **Resumen**: 16 DELETE, 0 KEEP, 0 MOVE, 2 REVIEW
 
----
+&#x200B;---
 
 ### 📱 SMS (7 archivos)
 
@@ -80,7 +80,7 @@ ht-degree: 7%
 
 **Resumen**: 5 DELETE, 1 MANTENER, 0 MOVER, 1 REVISIÓN
 
----
+&#x200B;---
 
 ### 🔔 notificaciones push (9 archivos)
 
@@ -95,7 +95,7 @@ ht-degree: 7%
 
 **Resumen**: 8 DELETE, 0 MANTENER, 0 MOVER, 1 REVISIÓN
 
----
+&#x200B;---
 
 ### 📮 correo postal (4 archivos)
 
@@ -108,7 +108,7 @@ ht-degree: 7%
 
 **Resumen**: 4 DELETE, 0 MANTENER, 0 MOVER, 0 REVISAR
 
----
+&#x200B;---
 
 ### 🎯 Personalization (8 archivos)
 
@@ -123,7 +123,7 @@ ht-degree: 7%
 
 **Resumen**: 6 DELETE, 1 MANTENER, 0 MOVER, 1 REVISIÓN
 
----
+&#x200B;---
 
 ### 📋 plantillas y semillas (6 archivos)
 
@@ -136,7 +136,7 @@ ht-degree: 7%
 
 **Resumen**: 6 DELETE, 0 KEEP, 0 MOVE, 0 REVIEW
 
----
+&#x200B;---
 
 ### Supervisión de 📊 (14 archivos)
 
@@ -149,7 +149,7 @@ ht-degree: 7%
 
 **Resumen**: 12 DELETE, 0 MANTENER, 1 MOVER, 1 REVISAR
 
----
+&#x200B;---
 
 ### 🔧 resolución de problemas (9 archivos)
 
@@ -163,7 +163,7 @@ ht-degree: 7%
 
 **Resumen**: 4 DELETE, 2 MANTENER, 2 MOVER, 1 RESEÑA
 
----
+&#x200B;---
 
 ### Entrega de 📬 (8 archivos)
 
@@ -176,7 +176,7 @@ ht-degree: 7%
 
 **Resumen**: 4 DELETE, 3 MANTENER, 0 MOVER, 1 REVISIÓN
 
----
+&#x200B;---
 
 ## ✅ debe mantener: funciones específicas de la versión 7
 
@@ -190,7 +190,7 @@ ht-degree: 7%
 | `monitoring-deliverability.md` | Herramientas de monitorización on-premise | &quot;Las herramientas de monitorización de capacidad de envío on-premise son específicas de Campaign v7&quot; |
 | ... | *(14 archivos más específicos de la versión 7)* | Varios distintivos solo de la versión 7 |
 
----
+&#x200B;---
 
 ## 🗑️ ganancias rápidas: seguro de eliminar ahora
 
@@ -223,7 +223,7 @@ ht-degree: 7%
 
 **Total**: **67 archivos** se pueden eliminar inmediatamente
 
----
+&#x200B;---
 
 ## ➡️ contenido que migrar primero
 
@@ -240,7 +240,7 @@ ht-degree: 7%
 
 **Proceso**: Migrar contenido → Actualizar v8 → Eliminar de v7
 
----
+&#x200B;---
 
 ## Se requiere revisión manual de 🔍
 
@@ -253,36 +253,22 @@ ht-degree: 7%
 | `sending-emails-on-japanese-mobiles.md` | 0 % | Específico de Japón, comprobar relevancia | Verificar si aún es necesario |
 | ... | *(15 más)* | Varias coincidencias parciales | Comparación manual |
 
----
+&#x200B;---
 
 ## 🎯 plan de ejecución
 
-### Semana 1: Eliminaciones rápidas
-- [ ] Eliminar archivos de correo electrónico (16)
-- [ ] Eliminar archivos SMS (5)
-- [ ] Eliminar archivos push (8)
-- [ ] Eliminar archivos de correo postal (4)
-- [ ] Eliminar archivos de plantillas (6)
-- [ ] Eliminar archivos de supervisión (12)
-- **Total**: 51 archivos eliminados
+### Semana 1: Eliminaciones rápidas- [ ] Eliminar archivos de correo electrónico (16)- [ ] Eliminar archivos SMS (5)- [ ] Eliminar archivos push (8)- [ ] Eliminar archivos de correo postal (4)- [ ] Eliminar archivos de plantillas (6)- [ ] Eliminar archivos de supervisión (12)- **Total**: 51 archivos eliminados
 
-### Semana 2: Migración de contenido
-- [ ] Migrar sugerencias para la solución de problemas (2 archivos)
-- [ ] prácticas recomendadas de migración (3 archivos)
-- [ ] Migrar patrones avanzados (3 archivos)
-- [ ] Eliminar tras la migración (8 archivos en total)
+### Semana 2: Migración de contenido- [ ] Migrar sugerencias para la solución de problemas (2 archivos)- [ ] prácticas recomendadas de migración (3 archivos)- [ ] Migrar patrones avanzados (3 archivos)- [ ] Eliminar tras la migración (8 archivos en total)
 
-### Semana 3: Insignias y revisión
-- [ ] archivos específicos de Badge v7 (18 archivos)
-- [ ] Revisar coincidencias parciales (18 archivos)
-- [ ] Tomar decisiones finales
+### Semana 3: Insignias y revisión- [ ] archivos específicos de Badge v7 (18 archivos)- [ ] Revisar coincidencias parciales (18 archivos)- [ ] Tomar decisiones finales
 
----
+&#x200B;---
 
 **Cronología estimada**: 3 semanas\
 **Resultado esperado**: 111 → 44 archivos (reducción del 60 %)
 
----
+&#x200B;---
 
 **Última actualización**: 13-01-2026\
 **Siguiente acción**: ejecutar eliminaciones de la semana 1

@@ -9,7 +9,7 @@ ht-degree: 0%
 
 **2 mensajes para analizar y reorganizar la documentación v7 → v8**
 
----
+&#x200B;---
 
 ## 📁 archivos
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 | `PROMPT-1-OVERVIEW-ALL-FOLDERS.md` | Vue d&#39;ensemble de TOUS les folders v7 | `v7-reorganization-overview.md` |
 | `PROMPT-2-DETAILED-FOLDER.md` | Analizar detalles de la carpeta UN avec % match | `[folder]-detailed-analysis.md` |
 
----
+&#x200B;---
 
 ## Utilización de 🚀
 
@@ -45,7 +45,7 @@ open PROMPT-1-OVERVIEW-ALL-FOLDERS.md
 
 **Cola**: ~50-60 páginas de Markdown
 
----
+&#x200B;---
 
 ### 2️⃣ Analizar carpeta de documentos
 
@@ -78,7 +78,7 @@ open PROMPT-2-DETAILED-FOLDER.md
 
 **Cola**: ~30-40 páginas Markdown
 
----
+&#x200B;---
 
 ## 📊 Ejemplo de salida
 
@@ -117,66 +117,35 @@ open PROMPT-2-DETAILED-FOLDER.md
 ...
 ```
 
----
+&#x200B;---
 
 ## 🎯 flujo de trabajo recomendado
 
-### Semaine 1 : Vue d&#39;ensemble
-1. Ejecutor **Mensaje 1** → Obtenedor `v7-reorganization-overview.md`
-2. Identifier les folders priority
-3. Colaborador con partes interesadas
+### Semaine 1 : Vue d&#39;ensemble1. Ejecutor **Mensaje 1** → Obtenedor `v7-reorganization-overview.md`2. Identifier les folders priority3. Colaborador con partes interesadas
 
-### Semaine 2-4 : Analizar detalles
-1. Vierta la carpeta chaque priority :
-   - Ejecutor **Mensaje 2**
-   - Obtenedor `[folder]-detailed-analysis.md`
-   - Valider les décisions
-   - Comenzar menos acciones
+### Semaine 2-4 : Analizar detalles1. Vierta la carpeta chaque priority :   - Ejecutor **Mensaje 2**   - Obtenedor `[folder]-detailed-analysis.md`   - Valider les décisions   - Comenzar menos acciones
 
-### Semaine 5+ : Ejecución
-1. Supprimer les fichiers identifiés (DELETE)
-2. Badger les fichiers v7-only (KEEP)
-3. Migrer le contu manquant (MOVE)
-4. Revisor menos ambigüedades (REVIEW)
+### Semaine 5+ : Ejecución1. Supprimer les fichiers identifiés (DELETE)2. Badger les fichiers v7-only (KEEP)3. Migrer le contu manquant (MOVE)4. Revisor menos ambigüedades (REVIEW)
 
----
+&#x200B;---
 
 ## 💡 sugerencias
 
-### Vierta menos indicaciones
-- ✅ Copier/coller l&#39;intégralité du prompt
-- ✅ Nuevo formato de modificador pas
-- ✅ adaptador de búsqueda le chemin du folder (indicador 2)
+### Vierta menos indicaciones- ✅ Copier/coller l&#39;intégralité du prompt- ✅ Nuevo formato de modificador pas- ✅ adaptador de búsqueda le chemin du folder (indicador 2)
 
-### Vierta menos salidas
-- 📝 salida en Markdown (pasa a HTML)
-- 🔗 automaticas de ligas cliquables
-- ✅ casillas de verificación para seguimiento
-- 📊 estadísticas y porcentajes
-- 🎨 Emojis e iconos
+### Vierta menos salidas- 📝 salida en Markdown (pasa a HTML)- 🔗 automaticas de ligas cliquables- ✅ casillas de verificación para seguimiento- 📊 estadísticas y porcentajes- 🎨 Emojis e iconos
 
-### Verter l&#39;analyze
-- 🎯 carpeta de inicio por les gros (envío, flujo de trabajo)
-- ⚡ ganadores menos rápidos (coincidencia del 95 al 100%)
-- 🔍 Manuales del revisor menos ambigüedades de mayúsculas y minúsculas (&lt;70% de coincidencia)
-- ✅ Validador avec SME avant suppression masivo
+### Verter l&#39;analyze- 🎯 carpeta de inicio por les gros (envío, flujo de trabajo)- ⚡ ganadores menos rápidos (coincidencia del 95 al 100%)- 🔍 Manuales del revisor menos ambigüedades de mayúsculas y minúsculas (&lt;70% de coincidencia)- ✅ Validador avec SME avant suppression masivo
 
----
+&#x200B;---
 
 ## ⚠️ importante
 
-### Avant de supprimer
-1. ✅ Verificador l&#39;équivalent v8
-2. ✅ modificador qu&#39;il n&#39;y a pas de contenu v7 específico
-3. ✅ métrica en el día `redirects.csv`
-4. ✅ Valider avec un expert (para los premiers)
+### Avant de supprimer1. ✅ Verificador l&#39;équivalent v82. ✅ modificador qu&#39;il n&#39;y a pas de contenu v7 específico3. ✅ métrica en el día `redirects.csv`4. ✅ Valider avec un expert (para los premiers)
 
-### Verter los archivos solo v7
-1. ✅ Ajouter un badge au début du fichier
-2. ✅ Expliquer pourquoi c&#39;est v7-only
-3. ✅ Lien vers menos limitaciones v8
+### Verter los archivos solo v71. ✅ Ajouter un badge au début du fichier2. ✅ Expliquer pourquoi c&#39;est v7-only3. ✅ Lien vers menos limitaciones v8
 
----
+&#x200B;---
 
 ## Compatibilidad con 🆘
 
@@ -185,7 +154,7 @@ open PROMPT-2-DETAILED-FOLDER.md
 - Salida trop larga → Demander un currículum
 - Besoin d&#39;aide → Ping l&#39;équipe doc
 
----
+&#x200B;---
 
 **Dernière mise à jour**: 13-01-2026
 

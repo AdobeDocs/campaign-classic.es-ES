@@ -9,7 +9,7 @@ ht-degree: 0%
 
 **Copie y pegue todo este mensaje en Cursor/ChatGPT para analizar cualquier carpeta v7**
 
----
+&#x200B;---
 
 ## 📋 EL SÍMBOLO DEL SISTEMA (COPIE DESDE AQUÍ) ⬇️
 
@@ -187,57 +187,27 @@ Generate a complete Markdown report with this structure:
 Generate the complete Markdown report now.
 ```
 
----
+&#x200B;---
 
 ## 🎯 INSTRUCCIONES DE DEMOSTRACIÓN
 
-### Paso 1: Mostrar el indicador
-1. Abrir este archivo (`DEMO-PROMPT-STANDALONE.md`)
-2. Desplácese hasta la sección &quot;EL MENSAJE&quot;.
-3. Diga: *&quot;Este es nuestro mensaje de análisis automatizado&quot;*
+### Paso 1: Mostrar el indicador1. Abrir este archivo (`DEMO-PROMPT-STANDALONE.md`)2. Desplácese hasta la sección &quot;EL MENSAJE&quot;.3. Diga: *&quot;Este es nuestro mensaje de análisis automatizado&quot;*
 
-### Paso 2: Copiar el indicador
-1. Seleccione todo, desde &quot;# Campaign v7 Documentation Analysis&quot; hasta el final
-2. Copiar al portapapeles
-3. Diga: *&quot;Acabo de copiar todo el mensaje...&quot;*
+### Paso 2: Copiar el indicador1. Seleccione todo, desde &quot;# Campaign v7 Documentation Analysis&quot; hasta el final2. Copiar al portapapeles3. Diga: *&quot;Acabo de copiar todo el mensaje...&quot;*
 
-### Paso 3: Pegar y ejecutar
-1. Abrir cursor
-2. Pegar el mensaje
-3. Diga: *&quot;...y péguelo en el cursor&quot;*
-4. Pulse Intro
+### Paso 3: Pegar y ejecutar1. Abrir cursor2. Pegar el mensaje3. Diga: *&quot;...y péguelo en el cursor&quot;*4. Pulse Intro
 
-### Paso 4: Mostrar resultados
-1. Esperar generación (~30-60 segundos)
-2. Desplazarse por el informe generado
-3. Resaltar secciones clave:
-   - 📊 estadísticas de resumen
-   - 📋 tabla Archivo por archivo
-   - ✅ debe conservar la sección
-   - 🗑️ victorias rápidas
-   - 🎯 plan de ejecución
+### Paso 4: Mostrar resultados1. Esperar generación (~30-60 segundos)2. Desplazarse por el informe generado3. Resaltar secciones clave:   - 📊 estadísticas de resumen   - 📋 tabla Archivo por archivo   - ✅ debe conservar la sección   - 🗑️ victorias rápidas   - 🎯 plan de ejecución
 
-### Paso 5: Momento &quot;Wow&quot;
-1. Mostrar vista previa de markdown
-2. Señale lo siguiente:
-   - *&quot;111 archivos analizados automáticamente&quot;*
-   - *&quot;Se pueden eliminar 67 archivos (reducción del 60 %)&quot;*
-   - *&quot;18 archivos específicos de la versión 7 identificados&quot;*
-   - *&quot;Completar plan de ejecución con escalas de tiempo&quot;*
+### Paso 5: Momento &quot;Wow&quot;1. Mostrar vista previa de markdown2. Señale lo siguiente:   - *&quot;111 archivos analizados automáticamente&quot;*   - *&quot;Se pueden eliminar 67 archivos (reducción del 60 %)&quot;*   - *&quot;18 archivos específicos de la versión 7 identificados&quot;*   - *&quot;Completar plan de ejecución con escalas de tiempo&quot;*
 
----
+&#x200B;---
 
 ## 💡 SUGERENCIAS DE DEMOSTRACIÓN
 
-### Convertir en interactivo
-**Preguntar a la audiencia**: *&quot;¿Qué carpeta debemos analizar?&quot;*
-- envío ✅ (111 archivos - impresionante)
-- flujo de trabajo ✅ (121 archivos, incluso más grande)
-- web ✅ (26 archivos: demostración rápida)
-- informar sobre ✅ (32 archivos - rápido)
+### Convertir en interactivo&#x200B;**Preguntar a la audiencia**: *&quot;¿Qué carpeta debemos analizar?&quot;*- envío ✅ (111 archivos - impresionante)- flujo de trabajo ✅ (121 archivos, incluso más grande)- web ✅ (26 archivos: demostración rápida)- informar sobre ✅ (32 archivos - rápido)
 
-### Personalización sobre la marcha
-**Mostrar flexibilidad**: cambie la ruta de la carpeta en el mensaje:
+### Personalización sobre la marcha&#x200B;**Mostrar flexibilidad**: cambie la ruta de la carpeta en el mensaje:
 
 ```
 /help/workflow/using/  → Analyze workflows
@@ -245,19 +215,13 @@ Generate the complete Markdown report now.
 /help/platform/using/  → Analyze platform
 ```
 
-### Resaltar características clave
-1. **Automatización**: *&quot;No se necesita trabajo manual&quot;*
-2. **Precisión**: *&quot;Utiliza la documentación de la versión 8 para la comparación&quot;*
-3. **Procesable**: *&quot;Plan listo para ejecutarse con casillas de verificación&quot;*
-4. **Inteligente**: *&quot;Identifica automáticamente las características específicas de la versión 7&quot;*
+### Resaltar características clave1. **Automatización**: *&quot;No se necesita trabajo manual&quot;*2. **Precisión**: *&quot;Utiliza la documentación de la versión 8 para la comparación&quot;*3. **Procesable**: *&quot;Plan listo para ejecutarse con casillas de verificación&quot;*4. **Inteligente**: *&quot;Identifica automáticamente las características específicas de la versión 7&quot;*
 
-### Comparación de tiempo
-**Antes de**: *&quot;Análisis manual = 2-3 días por carpeta&quot;*\
-**Después**: *&quot;Análisis automatizado = 30 segundos por carpeta&quot;*
+### Comparación de tiempo&#x200B;**Antes de**: *&quot;Análisis manual = 2-3 días por carpeta&quot;*\**Después**: *&quot;Análisis automatizado = 30 segundos por carpeta&quot;*
 
 **ROI**: *&quot;21 carpetas × 2 días = 42 días → 15 minutos&quot;*
 
----
+&#x200B;---
 
 ## 📊 PREVISUALIZACIÓN DE SALIDA ESPERADA
 
@@ -304,7 +268,7 @@ Week 2: Badge 18 files
 Week 3: Review 18 files
 ```
 
----
+&#x200B;---
 
 ## 🎬 SCRIPT DE DEMOSTRACIÓN
 
@@ -336,7 +300,7 @@ Week 3: Review 18 files
 **Cerrar**:
 > &quot;Este mismo proceso funciona para las 21 carpetas. Lo que antes tomaba 6 semanas ahora toma 15 minutos&quot;.
 
----
+&#x200B;---
 
 ## 🚀 LISTO PARA LA DEMOSTRACIÓN
 

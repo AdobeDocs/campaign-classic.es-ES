@@ -11,7 +11,7 @@ ht-degree: 24%
 **Carpetas totales**: 21\
 **Archivos totales**: ~1,500
 
----
+&#x200B;---
 
 ## 📈 resumen ejecutivo
 
@@ -25,7 +25,7 @@ ht-degree: 24%
 
 **🎯Reducción estimada**: 60-75% (1.500 → 400-600 archivos)
 
----
+&#x200B;---
 
 ## 📁 análisis de carpeta por prioridad
 
@@ -41,7 +41,7 @@ ht-degree: 24%
 | 📂 `/migration/` | 8 | Migración v6.1 → v7 | Específico de v7 | ✅ MANTENER TODO |
 | **TOTAL** | **108** | **7%** | - | **Insignia como solo v7** |
 
----
+&#x200B;---
 
 ### Prioridad 2 de 🔴: DELETE del 60 al 70 % (alta duplicación)
 
@@ -54,7 +54,7 @@ ht-degree: 24%
 | 📂 `/campaign/` | 11 | 2 (18 %) | 7 (64 %) | 1 (9 %) | 1 (9 %) | Administración de Campaign en la versión 8 |
 | **TOTAL** | **336** | **59** | **190** | **28** | **59** | **Alto potencial de reducción** |
 
----
+&#x200B;---
 
 ### 🟡 Prioridad 3: 30-50% MIXTA - Se Necesita Análisis Detallado
 
@@ -68,7 +68,7 @@ ht-degree: 24%
 | 📂 `/message-center/` | 16 | 60 % | 30 % | Mensajería transaccional |
 | **TOTAL** | **230** | **~55%** | **~25%** | **Requiere revisión carpeta por carpeta** |
 
----
+&#x200B;---
 
 ## 🎯 victorias rápidas: semana 1
 
@@ -89,7 +89,7 @@ ht-degree: 24%
 - ✅ `query.md` (flujo de trabajo) → `campaign/v8/automation/workflow/query`
 - ✅ `about-workflows.md` → `campaign/v8/automation/workflow`
 
----
+&#x200B;---
 
 ## 📋 desglose detallado de carpetas
 
@@ -121,7 +121,7 @@ ht-degree: 24%
 - 🗑️ `creating-an-email-delivery.md` → 95% en `campaign-web/v8/email/create-email`
 - 🗑️ `sms-channel.md` → 90% en `campaign-web/v8/msg/send-sms`
 
----
+&#x200B;---
 
 ### 📂 flujo de trabajo (`/help/workflow/using/`) - 121 archivos
 
@@ -148,7 +148,7 @@ ht-degree: 24%
 - 🗑️ `split.md` → 95% en `campaign/v8/automation/workflow/split`
 - 🗑️ `enrichment.md` → 95% en `campaign/v8/automation/workflow/enrichment`
 
----
+&#x200B;---
 
 ### Instalación de 📂 (`/help/installation/using/`): 75 archivos
 
@@ -165,7 +165,7 @@ ht-degree: 24%
 
 **Motivo**: la versión 8 es solo de nube, todos los documentos de configuración locales son específicos de la versión 7.
 
----
+&#x200B;---
 
 ### 📂 web (`/help/web/using/`): 26 archivos
 
@@ -179,40 +179,19 @@ ht-degree: 24%
 
 **Motivo**: la versión 7 tiene un marco de trabajo de aplicaciones web completo y la versión 8 ha simplificado las páginas de destino.
 
----
+&#x200B;---
 
 ## ✅ plan de acción
 
-### Semana 1: Eliminaciones de alto impacto
-- [ ] `/delivery/`: eliminar 67 archivos (correo electrónico, SMS, conceptos básicos de inserción)
-- [ ] `/workflow/`: eliminar 60 archivos (actividades comunes)
-- [ ] `/reporting/`: eliminar 22 archivos (informes estándar)
-- [ ] `/platform/`: eliminar 34 archivos (características comunes)
-- [ ] `/campaign/`: eliminar 7 archivos (administración de campañas)
-- **Total**: 190 archivos eliminados (reducción del 13%)
+### Semana 1: Eliminaciones de alto impacto- [ ] `/delivery/`: eliminar 67 archivos (correo electrónico, SMS, conceptos básicos de inserción)- [ ] `/workflow/`: eliminar 60 archivos (actividades comunes)- [ ] `/reporting/`: eliminar 22 archivos (informes estándar)- [ ] `/platform/`: eliminar 34 archivos (características comunes)- [ ] `/campaign/`: eliminar 7 archivos (administración de campañas)- **Total**: 190 archivos eliminados (reducción del 13%)
 
-### Semana 2: Distintivos específicos de la versión 7
-- [ ] `/installation/`: distintivo 71 archivos como &quot;v7 solo local&quot;
-- [ ] `/mrm/`: insignia 5 archivos como &quot;No disponible en FDAC v8&quot;
-- [ ] `/surveys/`: distintivo 8 archivos como &quot;No disponible en FDAC v8&quot;
-- [ ] `/distributed/`: archivos de la insignia 7 como &quot;No disponible en FDAC de la versión 8&quot;
-- [ ] `/web/`: distintivo 24 archivos como &quot;aplicaciones web v7&quot;
-- **Total**: 115 archivos marcados
+### Semana 2: Distintivos específicos de la versión 7- [ ] `/installation/`: distintivo 71 archivos como &quot;v7 solo local&quot;- [ ] `/mrm/`: insignia 5 archivos como &quot;No disponible en FDAC v8&quot;- [ ] `/surveys/`: distintivo 8 archivos como &quot;No disponible en FDAC v8&quot;- [ ] `/distributed/`: archivos de la insignia 7 como &quot;No disponible en FDAC de la versión 8&quot;- [ ] `/web/`: distintivo 24 archivos como &quot;aplicaciones web v7&quot;- **Total**: 115 archivos marcados
 
-### Semana 3: Migración de contenido
-- [ ] Migrar sugerencias de solución de problemas de `/delivery/` a v8
-- [ ]: migrar las prácticas recomendadas del flujo de trabajo a la versión 8
-- [ ] Migrar patrones avanzados de `/platform/` a v8
-- **Total**: 40 archivos migrados y eliminados
+### Semana 3: Migración de contenido- [ ] Migrar sugerencias de solución de problemas de `/delivery/` a v8- [ ]: migrar las prácticas recomendadas del flujo de trabajo a la versión 8- [ ] Migrar patrones avanzados de `/platform/` a v8- **Total**: 40 archivos migrados y eliminados
 
-### Semana 4: Revisión manual
-- [ ] revisar `/configuration/` contenido mixto
-- [ ] revisar la disponibilidad del conector `/integrations/`
-- [ ] revisar `/interaction/` cobertura de motor de ofertas
-- [ ] revisar el estado de la característica `/response/`
-- **Total**: 50 archivos revisados y decididos
+### Semana 4: Revisión manual- [ ] revisar `/configuration/` contenido mixto- [ ] revisar la disponibilidad del conector `/integrations/`- [ ] revisar `/interaction/` cobertura de motor de ofertas- [ ] revisar el estado de la característica `/response/`- **Total**: 50 archivos revisados y decididos
 
----
+&#x200B;---
 
 ## 📊 resultados esperados
 
@@ -228,7 +207,7 @@ ht-degree: 24%
 
 **Objetivo final**: 1.500 → 400-600 archivos (reducción del 60-73%)
 
----
+&#x200B;---
 
 ## 🎯 métricas de éxito
 
@@ -240,7 +219,7 @@ ht-degree: 24%
 | Vínculos rotos | 0 | ⏳ pendientes |
 | Aprobación de partes interesadas | ✅ | ⏳ pendientes |
 
----
+&#x200B;---
 
 **Última actualización**: 13-01-2026\
 **Próxima revisión**: Después de la ejecución de la semana 1

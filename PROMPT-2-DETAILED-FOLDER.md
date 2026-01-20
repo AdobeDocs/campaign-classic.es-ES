@@ -9,7 +9,7 @@ ht-degree: 0%
 
 **Género y relación Markdown détaillé pour UN folder avec % de match**
 
----
+&#x200B;---
 
 ## 📋 PETICIÓN DE DATOS DE COPIADORA
 
@@ -465,7 +465,7 @@ Include:
 Make all links clickable (v7 files + Experience League URLs).
 ```
 
----
+&#x200B;---
 
 ## USO
 
@@ -475,12 +475,13 @@ Make all links clickable (v7 files + Experience League URLs).
    ```
    📁 **Analyze**: /Users/.../help/[YOUR-FOLDER]/using/
    ```
+
 3. **Pegar en el cursor**
 4. **Ejecutar análisis**
 5. **Obtener informe completo de Markdown**
 6. **Guardar como**: `[folder]-detailed-analysis.md`
 
----
+&#x200B;---
 
 ## EJEMPLOS DE CARPETAS
 
@@ -490,7 +491,7 @@ Pruebe con:
 - `/help/platform/using/` (61 archivos)
 - `/help/web/using/` (26 archivos)
 
----
+&#x200B;---
 
 ## PREVISUALIZACIÓN DE SALIDA
 
