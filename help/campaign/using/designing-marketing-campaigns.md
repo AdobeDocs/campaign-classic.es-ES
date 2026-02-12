@@ -68,6 +68,6 @@ Los siguientes conceptos son esenciales para conocer mejor Campaign:
 
 Este vídeo presenta los conceptos clave de las campañas de marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/326574?captions=spa&quality=12)
 
 Hay disponibles [!DNL Campaign Classic]más vídeos de procedimientos para [&#x200B; aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
