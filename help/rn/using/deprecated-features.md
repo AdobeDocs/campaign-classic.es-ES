@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '1658'
-ht-degree: 100%
+source-git-commit: 66387e2e008051901fe3385f571d7fe798829100
+workflow-type: tm+mt
+source-wordcount: '1675'
+ht-degree: 98%
 
 ---
 
@@ -83,7 +83,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
     <tr>
   <td>Informe de monitorización de la capacidad de envío técnico<br></td>
    <td><p>El informe de monitorización de la capacidad de entrega técnica ya no está disponible. Ya no se utiliza en la versión 21.1.3 de Campaign.</p>
-   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>
@@ -137,7 +137,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
   <tr> 
    <td>API decryptString</td>
    <td><p>A partir de la versión 18.6 de Campaign y por motivos de seguridad, la API <em>decryptString</em> ya no está disponible de forma predeterminada en las nuevas instalaciones.</p> 
-   <p>En el contexto de una actualización posterior a la versión 18.6 (y versiones posteriores), esta API ya no se activa y se ha sustituido por la función <em>decryptPassword. </em> <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?lang=es&hl=decrypt">Más información</a></p></td>
+   <p>En el contexto de una actualización posterior a la versión 18.6 (y versiones posteriores), esta API ya no se activa y se ha sustituido por la función <em>decryptPassword. </em> <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?hl=decrypt">Más información</a></p></td>
   </tr> 
    <tr> 
    <td>Canal móvil: mensajes push de MMS y WAP</td>
@@ -171,6 +171,8 @@ La consola del cliente de Adobe Campaign Classic ya no se puede ejecutar en los 
 >A partir de la versión 20.1 de Campaign, la consola de cliente de 32 bits de Campaign Classic ya no es compatible con las versiones más recientes de Campaign. Debe utilizar la consola de cliente de 64 bits.
 
 ### Sistemas operativos {#o-s-eol}
+
+* A partir de la versión 7.3.4, Adobe Campaign deja de ser compatible con Red Hat Enterprise Linux (RHEL) 7.
 
 * A partir de la versión 7.3.1, Adobe Campaign deja de ser compatible con Windows 8 y Windows Server 2012.
 

@@ -6,9 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
-source-git-commit: 9d5519bf66baace9b3ccf5275727a44cb58f4795
+source-git-commit: 66387e2e008051901fe3385f571d7fe798829100
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '870'
 ht-degree: 99%
 
 ---
@@ -37,11 +37,14 @@ Como cliente On-Premise/híbrido, debe instalar Adobe Campaign en uno de los sis
 <p>Debian</p>
 </td>
 <td>
+<p>13</p>
+<p>12</p>
 <p>11</p>
 </td>
 <td>
+<p>7.4.3</p>
+<p>7.4.3</p>
 <p>Versión 7.3</p>
-<p></p>
 </td>
 </tr>
 <tr>
@@ -51,11 +54,9 @@ Como cliente On-Premise/híbrido, debe instalar Adobe Campaign en uno de los sis
 <td>
 <p>9.x</p>
 <p>8.x</p>
-<p>7.x</p>
 </td>
 <td>
 <p>Versión 7.4</p>
-<p></p>
 <p></p>
 </td>
 </tr>
@@ -189,6 +190,7 @@ Como cliente On-Premise/híbrido, debe instalar y configurar una de las bases de
 <p>PostgreSQL</p>
 </td>
 <td>
+<p>17.x</p>
 <p>16.x</p>
 <p>15.x</p>
 <p>14.x</p>
@@ -197,6 +199,7 @@ Como cliente On-Premise/híbrido, debe instalar y configurar una de las bases de
 <p>11.x</p>
 </td>
 <td>
+<p>Versión 7.4.3</p>
 <p>Versión 7.4.1</p>
 <p>Versión 7.4.1</p>
 <p>Versión 7.3.2</p>
@@ -288,11 +291,13 @@ Los entornos **Managed Services** (alojados), **Híbrido** y **On-Premise** pued
 <tr>
 <td>PostgreSQL</td>
 <td>
+<p>17.x</p>
 <p>14.x</p>
 <p>13.x</p>
 <p>12.x</p>
 <p>11.x</p>
 </td>
+<p>Versión 7.4.3</p>
 <td>Versión 7.0 19.1.4</td>
 </tr>
 <tr>
@@ -441,7 +446,7 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 
 La última versión en tiempo de ejecución de Microsoft Edge WebView2 es obligatoria en la consola del cliente de Campaign.
 
-Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es).
+Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download).
 
 
 ## SDK móvil {#MobileSDK}
