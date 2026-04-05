@@ -4,8 +4,8 @@ title: Arquitectura de la mensajería transaccional
 description: En esta sección se describe la arquitectura de mensajería transaccional de Adobe Campaign Classic y los canales disponibles para enviar mensajes transaccionales
 feature: Transactional Messaging, Message Center, Architecture
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 100%
 
@@ -91,7 +91,8 @@ Si ha iniciado un proyecto de mensajería transaccional en el canal de correo el
 
    ![](assets/messagecenter_install_channel.png)
 
-<!--## Transactional messages and inbound Interaction {#transactional-messages-and-inbound-interaction}
+<!--
+## Transactional messages and inbound Interaction {#transactional-messages-and-inbound-interaction}
 
 When combined with the Inbound Interaction module, transactional messaging enables you to insert a marketing offer dedicated to the recipient into the message.
 
@@ -124,7 +125,9 @@ Create your delivery templates the way you would for an email campaign:
 * Add the offer to your transactional message template.
 * Check the preview, send a proof and publish the template.
 
-You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](../../interaction/using/creating-offer-spaces.md).-->
+You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](../../interaction/using/creating-offer-spaces.md).
+
+-->
 
 ### Notificaciones push transaccionales {#transactional-messaging-and-push-notifications}
 
@@ -213,7 +216,7 @@ A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** >
 
    * **[!UICONTROL Label]** y **[!UICONTROL Internal name]**: cambie el nombre de la cuenta externa según sea necesario.
    * **[!UICONTROL Type]**: Seleccione **[!UICONTROL External database]**.
-   * La casilla “Activada” debe estar seleccionada.
+   * La casilla “Habilitada” debe estar seleccionada.
 
    De la categoría **[!UICONTROL Connection]**:
 
@@ -229,7 +232,7 @@ A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** >
 
    * **[!UICONTROL Label]** y **[!UICONTROL Internal name]**: cambie el nombre de la cuenta externa según sea necesario.
    * **[!UICONTROL Type]**: Seleccione **[!UICONTROL Execution instance]**.
-   * La casilla “Activada” debe estar seleccionada.
+   * La casilla “Habilitada” debe estar seleccionada.
 
    Desde la categoría **[!UICONTROL Connection]**:
 

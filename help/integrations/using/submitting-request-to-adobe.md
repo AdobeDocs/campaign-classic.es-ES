@@ -8,10 +8,10 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
-source-git-commit: 7b4fbefe0f6bd26ee9260d15e8303f716af7ac96
-workflow-type: ht
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 100%
+ht-degree: 82%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 >Como usuario de la versión 7, para poder continuar, asegúrese de que Adobe Identity Management System (IMS) esté habilitado en su sistema. [Más información](../../integrations/using/about-adobe-id.md).
 
-Una vez habilitado Adobe Identity Management Service (IMS) de su organización, puede solicitar el aprovisionamiento de la integración de [Experience Cloud Audience](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/overview){target="_blank"}con Campaign. Para ello, póngase en contacto con su representante de Adobe y proporcione la siguiente información:
+Una vez que el servicio Adobe Identity Management (IMS) esté habilitado para su organización, puede solicitar a Campaign que proporcione la integración de [Experience Cloud Audience](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/overview){target="_blank"}. Para ello, póngase en contacto con su representante de Adobe y proporcione la siguiente información:
 
 <table> 
  <tbody> 
@@ -41,10 +41,12 @@ Una vez habilitado Adobe Identity Management Service (IMS) de su organización, 
    <td> <strong>Entorno</strong><br /> </td> 
    <td> Ejemplo: Producción </td> 
   </tr> 
-  <!--tr> 
+  <!--
+  tr> 
    <td> <strong>AAM or People Service</strong><br /> </td> 
    <td> Example: Adobe Audience Manager. Make sure to mention whether or not you own Audience Manager license.</td> 
-  </tr--> 
+  </tr
+  --> 
   <tr> 
    <td> <strong>ID declarada o ID de visitante</strong><br /> </td> 
    <td> Ejemplo: ID declarado </td> 

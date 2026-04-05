@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: ht
-source-wordcount: '6202'
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+workflow-type: tm+mt
+source-wordcount: '6200'
 ht-degree: 100%
 
 ---
@@ -288,7 +288,8 @@ Más información sobre la [Delegación de dominios](https://experienceleague.ad
 ## E - H {#sec-2}
 
 <!--
-----DEPRECATED------>
+----DEPRECATED----
+-->
 +++**E4X**
 
 E4X es la versión de Javascript que se utiliza en Adobe Campaign Classic. A veces denominada ECMAScript, es una extensión de JavaScript que permite combinar datos primitivos de JavaScript y XML en el mismo código. Tenga en cuenta que E4X tiene la clasificación de idioma obsoleto.
@@ -1021,7 +1022,7 @@ La mensajería transaccional es un módulo de Campaign diseñado para administra
 Más información sobre la [Mensajería transaccional](../../message-center/using/about-transactional-messaging.md).
 +++
 
-&lt;!------- ¿¿ES ÚTIL AQUÍ??----->
+<!-- USEFUL HERE?? -->
 +++**Campañas activadas**
 
 Las campañas activadas son campañas que se ejecutan cuando se recibe una solicitud de API en un flujo de trabajo. Las llamadas a la API se consumen mediante una actividad de señal en el flujo de trabajo que inicia la ejecución del flujo de trabajo.

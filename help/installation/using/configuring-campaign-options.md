@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
 source-wordcount: '3834'
 ht-degree: 1%
@@ -209,7 +209,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** le permite configur
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_DeliveryPreparationWindow</span> <br /> </td> 
-   <td><p>El flujo de trabajo técnico <span class="uicontrol"><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=es" target="_blank">operationMgt</a></span> utiliza esta opción al contar el número de envíos en ejecución.</p>Permite definir el número de días por encima de los cuales las entregas con estado incoherente se excluirán del recuento de entregas en ejecución.</p><p>De forma predeterminada, el valor se establece en "7", lo que significa que se excluirán las entregas incoherentes de más de 7 días.</p></td> 
+   <td><p>El flujo de trabajo técnico <span class="uicontrol"><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html" target="_blank">operationMgt</a></span> utiliza esta opción al contar el número de envíos en ejecución.</p>Permite definir el número de días por encima de los cuales las entregas con estado incoherente se excluirán del recuento de entregas en ejecución.</p><p>De forma predeterminada, el valor se establece en "7", lo que significa que se excluirán las entregas incoherentes de más de 7 días.</p></td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsPaper_SenderLine1</span> <br /> </td> 
@@ -270,7 +270,8 @@ El nodo **[!UICONTROL Administration / Platform / Options]** le permite configur
  </tbody> 
 </table>
 
-<!--<tr> 
+<!--
+<tr> 
    <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
    <td> BCC email address for Momentum to send a raw copy of the sent emails. <br /> </td> 
   </tr>
@@ -365,7 +366,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** le permite configur
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_OperationMgtDebug</span> <br /> </td> 
-   <td> Permite supervisar la ejecución del flujo de trabajo técnico <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=es" target="_blank">operationMgt</a>. Cuando se activa (valor "1"), la información de ejecución se registra en los registros de auditoría del flujo de trabajo.<br /> </td> 
+   <td> Permite supervisar la ejecución del flujo de trabajo técnico <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html" target="_blank">operationMgt</a>. Cuando se activa (valor "1"), la información de ejecución se registra en los registros de auditoría del flujo de trabajo.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsOperation_TimeRange</span> <br /> </td> 
@@ -629,7 +630,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** le permite configur
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_AzureDw</span> <br /> </td> 
-   <td> Opciones del conector SQL Datawarehouse de Azure.<br /> </td> 
+   <td> Opciones del conector Azure SQL Datawarehouse.<br /> </td> 
   </tr>
    <tr> 
    <td> <span class="uicontrol">WdbcKillSessionPolicy</span> <br /> </td> 

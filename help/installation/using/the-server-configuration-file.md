@@ -7,9 +7,9 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '8067'
+source-wordcount: '8066'
 ht-degree: 5%
 
 ---
@@ -20,13 +20,13 @@ La configuración general de Adobe Campaign se define en el archivo **serverConf
 
 >[!NOTE]
 >
->Las configuraciones del lado del servidor solo se pueden realizar mediante el Adobe para implementaciones alojadas por el Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md). Los pasos de instalación y configuración para los modelos hospedados e híbridos se presentan en esta [sección](../../installation/using/hosting-models.md).
+>Adobe solo puede realizar configuraciones del lado del servidor para implementaciones alojadas en Adobe. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md). Los pasos de instalación y configuración para los modelos hospedados e híbridos se presentan en esta [sección](../../installation/using/hosting-models.md).
 
 Los primeros parámetros están dentro del nodo **shared**. Están relacionados con la instancia de. Son potencialmente utilizados por todos los comandos nlserver (nlserver web, nlserver wfserver, etc.). Las otras secciones están relacionadas con un subcomando nlserver específico.
 
 **Parámetros compartidos**
 
-* [authentication](#authentication)
+* [autenticación](#authentication)
 * [dataStore](#datastore)
 * [dnsConfig](#dnsconfig)
 * [exec](#exec)
@@ -61,7 +61,7 @@ Los primeros parámetros están dentro del nodo **shared**. Están relacionados 
 * [web](#web)
 * [wfserver](#wfserver)
 
-## authentication {#authentication}
+## autenticación {#authentication}
 
 Estos son los diferentes parámetros del nodo **authentication**:
 
@@ -270,7 +270,7 @@ Estos son los diferentes parámetros del nodo **dataStore > proxyAdjust**. Las d
  </tbody> 
 </table>
 
-### dataSource {#datasource}
+### Fuente de datos {#datasource}
 
 Estos son los diferentes parámetros del nodo **dataStore > dataSource**.
 
@@ -410,7 +410,7 @@ En el nodo **dataStore > dataSource > pool**, configure los parámetros del grup
   </tr> 
   <tr> 
    <td> maxCnx<br /> </td> 
-   <td> Número máximo de conexiones permitidas antes de rechazar una nueva conexión. Ver esta <a href="https://helpx.adobe.com/es/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">nota técnica</a>.<br /> </td> 
+   <td> Número máximo de conexiones permitidas antes de rechazar una nueva conexión. Ver esta <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">nota técnica</a>.<br /> </td> 
    <td> Corto<br /> </td> 
   </tr> 
   <tr> 
@@ -1625,9 +1625,9 @@ Estos son los diferentes parámetros del nodo **mta**. Esta es la configuración
    <td> statServerAddress<br /> </td> 
    <td> Dirección del servidor de estadísticas de envío, dada como 
     &lt;dns o ip&gt; 
-      <code>&lbrack;</code>: 
+      <code>[</code>: 
      &lt;port&gt; 
-       <code>&rbrack;</code>. Consulte 
+       <code>]</code>. Consulte 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">Coordenadas del servidor de estadísticas</a>. 
       <br /> 
      </td> 
@@ -1640,12 +1640,14 @@ Estos son los diferentes parámetros del nodo **mta**. Esta es la configuración
    <td> Booleano<br /> </td> 
    <td> true <br /> </td> 
   </tr> 
-  <!--tr> 
+  <!--
+  tr> 
    <td> statServerVersion<br /> </td> 
    <td> Protocol version used: communication protocol version (1 for a v5.11 and 6.0.2 server, 2 for a v6.1 server).<br /> </td> 
    <td> String<br /> </td> 
    <td> If undefined, the latest version is used. <br /> </td> 
-  </tr--> 
+  </tr
+  --> 
   <tr> 
    <td> useMomentum<br /> </td> 
    <td> Si se establece como "true", la instancia está usando el <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">MTA mejorado</a>.<br /> </td> 
@@ -1856,7 +1858,7 @@ Para obtener más información, consulte [Optimización de envío de correo elec
   </tr> 
   <tr> 
    <td> soapConnectorTimeoutSec<br /> </td> 
-   <td> SOAP Tiempo de espera (en segundos) tras el cual se abandona la conexión de un conector de envío a un conector de envío.<br /> </td> 
+   <td> Tiempo de espera (en segundos) tras el cual se abandona una conexión SOAP para un conector de envío.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -2897,7 +2899,7 @@ Para obtener más información, consulte esta [sección](configuring-campaign-se
   </tr> 
   <tr> 
    <td> maxDeliveryQueueSize<br /> </td> 
-   <td> SOAP Tamaño de la cola para llamadas a SubmitDelivery: número máximo de llamadas a SubmitDelivery que se pueden poner en cola.<br /> </td> 
+   <td> Tamaño de la cola para llamadas a SubmitDelivery: número máximo de llamadas a SOAP SubmitDelivery que se pueden poner en cola.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 50<br /> </td> 
   </tr> 
@@ -2933,7 +2935,7 @@ Para obtener más información, consulte esta [sección](configuring-campaign-se
   </tr> 
   <tr> 
    <td> startSoapRouterInModule<br /> </td> 
-   <td> SOAP Iniciar el enrutador de la interfaz de usuario en modo de módulo.<br /> </td> 
+   <td> Inicie el enrutador de SOAP en modo de módulo.<br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -2974,7 +2976,7 @@ Estos son los diferentes parámetros del nodo **web > jsp**. Esta es la configur
   </tr> 
   <tr> 
    <td> soapRouter<br /> </td> 
-   <td> SOAP URL del enrutador de la dirección de correo electrónico (http://myserver/xxx, http://jni o mailto:xxx).<br /> </td> 
+   <td> URL del enrutador de SOAP (http://myserver/xxx, http://jni o mailto:xxx).<br /> </td> 
    <td> Cadena<br /> </td> 
    <td> 'http://jni'<br /> </td> 
   </tr> 
@@ -3311,7 +3313,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
    <td> P3PCompactPolicy<br /> </td> 
    <td> Valor que describe la directiva utilizada para las cookies permanentes (compatible con el formato de directiva compacta P3P). <br /> </td> 
    <td> Cadena<br /> </td> 
-   <td> DSP 'CAO COR CURa DEVa TAIa OUR BUS IND UNI COM NAV'<br /> </td> 
+   <td> 'CAO DSP COR CURa DEVa TAIa OUR BUS IND UNI COM NAV'<br /> </td> 
   </tr> 
   <tr> 
    <td> cookieDomain<br /> </td> 

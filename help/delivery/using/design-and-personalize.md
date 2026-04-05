@@ -8,9 +8,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '1307'
+source-git-commit: 0d8cef312371192ee97f88eb33276df9d7fb11f6
+workflow-type: tm+mt
+source-wordcount: '1304'
 ht-degree: 100%
 
 ---
@@ -32,11 +32,13 @@ Asegúrese de que el contenido del mensaje esté diseñado correctamente para ev
 
 El uso incorrecto de parámetros en bloques de personalización puede ser un problema. Por ejemplo: las variables en JavaScript deben usarse de la siguiente manera:
 
-    &lt;%
-    
-    var brand = &quot;xxx&quot;
-    
+```
+    <%
+
+    var brand = "xxx"
+
     %>
+```
 
 Para obtener más información acerca de los bloques personalizados, consulte [esta sección](personalization-blocks.md).
 

@@ -9,10 +9,10 @@ topic-tags: configuration
 hide: true
 hidefromtoc: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: 349c3dfd936527e50d7d3e03aa3408b395502da0
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '2558'
-ht-degree: 0%
+source-wordcount: '2517'
+ht-degree: 1%
 
 ---
 
@@ -53,13 +53,13 @@ Si se produce un error **ORA 01805** durante la posactualización, significa que
    select * from v$timezone_file
    ```
 
-   Los archivos de huso horario generalmente se encuentran en la carpeta **ORACLE_HOME/oracore/zoneinfo/**.
+   Los archivos de zona horaria generalmente se encuentran en la carpeta **ORACLE_HOME/oracore/zoneinfo/**.
 
 1. Asegúrese de que los archivos de zona horaria sean idénticos en ambos servidores.
 
 Para obtener más información, visite: [https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004).
 
-Una desalineación de zona horaria entre el cliente y el servidor también puede causar algunos retrasos. Por este motivo, se recomienda utilizar la misma versión de la biblioteca de Oracle en los lados del cliente y del servidor, ya que ambos husos horarios deben ser iguales.
+Una desalineación de zona horaria entre el cliente y el servidor también puede causar algunos retrasos. Por este motivo, se recomienda utilizar la misma versión de la biblioteca Oracle en los lados del cliente y del servidor, ya que ambos husos horarios deben ser iguales.
 
 Para comprobar si ambos lados están en las mismas zonas horarias:
 
@@ -119,16 +119,16 @@ nlserver config -internalpassword
 
 Se han modificado ciertos esquemas predeterminados y ahora, de forma predeterminada, solo se puede acceder a ellos con acceso de escritura para operadores con el permiso **admin**:
 
-* ncm:publicar
-* nl:monitorización
-* nms:calendario
+* ncm:publishing
+* nl:monitoring
+* nms:calendar
 * xtk:builder
-* xtk:conexiones
+* xtk:connections
 * xtk:dbInit
 * xtk:entityBackupNew
 * xtk:entityBackupOriginal
 * xtk:entityOriginal
-* xtk:formulario
+* xtk:form
 * xtk:funcList
 * xtk:fusion
 * xtk:image
@@ -152,7 +152,7 @@ Se han modificado ciertos esquemas predeterminados y ahora, de forma predetermin
 
 ### Parámetro Sessiontoken {#sessiontoken-parameter}
 
-En la versión 5, el parámetro **sessiontoken** funcionaba en ambos lados del cliente (lista de pantallas de tipo de información general, editor de vínculos, etc.) y del lado del servidor (aplicaciones web, informes, jsp, jsp, etc.). En la versión 7, solo funciona en el servidor. Si desea volver a la funcionalidad completa como en la versión 5, debe modificar los vínculos con este parámetro y pasar a través de la página de conexión:
+En la versión 5, el parámetro **sessiontoken** funcionaba tanto en el lado del cliente (lista de pantallas de tipo de información general, editor de vínculos, etc.) como en el lado del servidor (aplicaciones web, informes, jsp, jssp, etc.). En la versión 7, solo funciona en el servidor. Si desea volver a la funcionalidad completa como en la versión 5, debe modificar los vínculos con este parámetro y pasar a través de la página de conexión:
 
 Ejemplo de vínculo:
 
@@ -253,7 +253,7 @@ Para reforzar la seguridad de las instancias, se ha introducido una nueva sintax
 * Aggregates: la nueva sintaxis es &quot;aggregate function(collection)&quot;
 * Filtrando por combinación: la nueva sintaxis es `[schemaName:alias:xPath]`
 
-Se ha modificado el esquema queryDef (xtk:queryDef):
+Se modificó el esquema queryDef (xtk:queryDef):
 
 * hay un nuevo elemento `<subQuery>` disponible para reemplazar el elemento SELECT incluido en SQLData
 * se introducen dos nuevos valores, &quot;IN&quot; y &quot;NOT IN&quot; para el atributo @setOperator
@@ -623,11 +623,12 @@ Todos los informes estándar utilizan actualmente el motor de renderización v6.
 
 ### Informes personalizados {#personalized-reports}
 
-<!--If you want to have the blue banner from v7 (allowing you access to the tabs), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
+<!--
+If you want to have the blue banner from v7 (allowing you access to the tabs), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
 
 ![](assets/migration_reports_1.png)
 -->
-Si desea beneficiarse de las nuevas funcionalidades de informes, debe volver a publicar los informes. En este caso, compruebe todos los scripts y cámbielos si es necesario. En cuanto a la exportación de PDF, si ha añadido una secuencia de comandos específica para Open Office, esto ya no funcionará con el nuevo motor de exportación de PDF (PhantomJS).
+Si desea beneficiarse de las nuevas funcionalidades de informes, debe volver a publicar los informes. En este caso, compruebe todos los scripts y cámbielos si es necesario. En cuanto a la exportación de PDF, si ha añadido un script específico para Open Office, este ya no funcionará con el nuevo motor de exportación de PDF (PhantomJS).
 
 ## Aplicaciones web {#web-applications}
 

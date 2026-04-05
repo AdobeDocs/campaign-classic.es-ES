@@ -5,7 +5,7 @@ description: Este documento describe el modelo de datos de Adobe Campaign
 feature: Data Model
 role: Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 2%
@@ -238,7 +238,8 @@ Esta tabla coincide con el esquema **nms:rtEvent**. Contiene una definición de 
 
 Esta tabla coincide con el esquema **nms:batchEvent**. Contiene la definición de eventos por lote.
 
-<!--## Microsites Module {#microsites-module}
+<!--
+## Microsites Module {#microsites-module}
 
 This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](../../web/using/about-web-applications.md).
 
@@ -246,7 +247,8 @@ This set of tables is linked to the **Web applications** functionality, which al
 
 * **NmsTrackingUrl**: This table matches the **nms:trackingUrl** schema.
 
-* **NmsPurl**: This table matches the **nms:purl** schema.-->
+* **NmsPurl**: This table matches the **nms:purl** schema.
+-->
 
 ## Módulo NMAC {#nmac-module}
 

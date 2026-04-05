@@ -5,8 +5,8 @@ description: Publicación de un formulario web
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Puede utilizar los siguientes métodos de identificación:
 
 * **[!UICONTROL Adobe Campaign Encryption]**
 
-  Este método de encriptado utiliza el identificador (ID) cifrado de Adobe Campaign. Este método solamente se aplica a un objeto de Adobe Campaign y la ID encriptada solo se puede generar mediante la plataforma de Adobe Campaign.
+  Este método de encriptado utiliza el identificador (ID) cifrado de Adobe Campaign. Este método solamente se aplica a un objeto de Adobe Campaign y la ID cifrada solo se puede generar mediante la plataforma de Adobe Campaign.
 
   Al utilizar este método, es necesario adaptar la URL del formulario para enviar a la dirección de correo electrónico añadiendo el parámetro **`<%=escapeUrl(recipient.cryptedId) %>`**. Para obtener más información, consulte [Envío de un formulario por correo electrónico](#delivering-a-form-via-email).
 
@@ -32,7 +32,7 @@ Puede utilizar los siguientes métodos de identificación:
 
   ![](assets/s_ncs_admin_survey_preload_methods_001.png)
 
-  Este método de encriptado utiliza un identificador (ID) proporcionado externamente, vinculado a una clave compartida por Adobe Campaign y el proveedor externo. El campo **[!UICONTROL Des key]** permite introducir esta clave de encriptado.
+  Este método de cifrado utiliza un identificador (ID) proporcionado externamente, vinculado a una clave compartida por Adobe Campaign y el proveedor externo. El campo **[!UICONTROL Des key]** permite introducir esta clave de cifrado.
 
 * **[!UICONTROL List of fields]**
 
@@ -44,11 +44,11 @@ Puede utilizar los siguientes métodos de identificación:
 
   >[!CAUTION]
   >
-  >Los datos de los campos seleccionados no están encriptados. No se debe proporcionar en un formulario encriptado, ya que Adobe Campaign no puede descifrarlo si la opción **[!UICONTROL Field list]** está seleccionada.
+  >Los datos de los campos seleccionados no están cifrados. No se debe proporcionar en un formulario encriptado, ya que Adobe Campaign no puede descifrarlo si la opción **[!UICONTROL Field list]** está seleccionada.
 
   En el ejemplo siguiente, la precarga del perfil se basa en la dirección de correo electrónico.
 
-  La dirección URL puede incluir la dirección de correo electrónico sin encriptar, en cuyo caso los usuarios tienen acceso directo a las páginas que les afectan.
+  La dirección URL puede incluir la dirección de correo electrónico sin cifrar, en cuyo caso los usuarios tienen acceso directo a las páginas que les afectan.
 
   ![](assets/s_ncs_admin_survey_preload_methods_003.png)
 
@@ -60,7 +60,7 @@ Puede utilizar los siguientes métodos de identificación:
   >
   >Si se especifican varios campos en la lista, los datos de **TODOS LOS CAMPOS** deben coincidir con los datos almacenados en la base de datos para que se actualice el perfil. De lo contrario, se crea un perfil nuevo.
   > 
-  >Esta función es especialmente útil para aplicaciones web, pero no se recomienda para formularios públicos. La opción de control de acceso seleccionada debe ser “Activar control de acceso”.
+  >Esta función es especialmente útil para aplicaciones web, pero no se recomienda para formularios públicos. La opción de control de acceso seleccionada debe ser “Habilitar control de acceso”.
 
 La opción **[!UICONTROL Skip preloading if no ID]** debe estar seleccionada si no desea actualizar los perfiles. En este caso, cada perfil introducido se añade a la base de datos después de la aprobación del formulario. Esta opción se utiliza, por ejemplo, cuando se publica el formulario en un sitio web.
 
@@ -146,7 +146,7 @@ Cuando envía una invitación por correo electrónico, puede utilizar la opción
 <a href="https://server/webApp/APP264?&id=<%=escapeUrl(recipient.cryptedId) %>">
 ```
 
-En este caso, la clave de reconciliación para el almacenamiento de datos debe ser el identificador encriptado del destinatario. Para obtener más información, consulte [Precarga de los datos del formulario](#pre-loading-the-form-data).
+En este caso, la clave de reconciliación para el almacenamiento de datos debe ser el identificador cifrado del destinatario. Para obtener más información, consulte [Precarga de los datos del formulario](#pre-loading-the-form-data).
 
 En este caso, es necesario marcar la opción **[!UICONTROL Update the preloaded record]** en la casilla de registro. Para obtener más información, consulte [Guardado de respuestas de formularios web](web-forms-answers.md#saving-web-forms-answers).
 
@@ -196,6 +196,7 @@ Obtenga más información sobre los distintos estados de un formulario web en [e
   >
   >Puede comprobar la versión más reciente de su formulario web mediante la pestaña **[!UICONTROL Preview]**.
 
-<!--For RN:
+<!--
+For RN:
 * Now, when a web form has the **Pending publication** status, it must be published before it becomes **Online** and accessible through the web form URL in a web browser. [Read more](../../web/using/publishing-a-web-form.md#life-cycle-of-a-form)
 -->

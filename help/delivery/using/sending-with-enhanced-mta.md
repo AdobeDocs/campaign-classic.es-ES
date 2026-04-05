@@ -5,10 +5,10 @@ description: Obtenga información acerca del ámbito y las características espe
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: ht
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+workflow-type: tm+mt
 source-wordcount: '1381'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,8 @@ Momentum representa una tecnología de MTA innovadora y de alto rendimiento que 
 
 **¿Cuáles son los beneficios?**
 
-* Los clientes de Adobe Campaign que utilizan el servidor de correo mejorado han experimentado un <!--300%-->aumento masivo en la velocidad de rendimiento general y una <!--90%+-->reducción significativa de las devoluciones suaves.
+* Los clientes de Adobe Campaign que utilizan el servidor de correo mejorado han experimentado un <!--300%-->aumento masivo en la velocidad de rendimiento general y una reducción significativa de las devoluciones suaves.
+  <!--90%+-->
 * El servidor de correo mejorado utiliza la tecnología MTA más reciente para proporcionarle las velocidades de rendimiento óptimas para sus envíos de correos electrónicos.
 * Al adaptarse instantánea y automáticamente a los comentarios que recibe, también garantiza envíos de correos electrónicos más precisos e inteligentes con los datos de envío en tiempo real.
 

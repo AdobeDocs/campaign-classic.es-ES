@@ -7,7 +7,7 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
-source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
 source-wordcount: '1211'
 ht-degree: 3%
@@ -95,7 +95,8 @@ Una vez definida la ruta de la carpeta local, agregue y edite los siguientes ele
 * **archivingType**: estrategia de archivado para usar. El único valor posible es **1**. Las copias sin procesar de los correos electrónicos enviados se guardan en formato .eml en la carpeta **dataLogPath** y se envían a la dirección de correo electrónico de la CCO a través de SMTP. Una vez que las copias de correo electrónico se envían a la dirección de CCO, el nombre del archivo de almacenamiento se convierte en **`<deliveryid>-<broadlogid>-sent-archived.eml`** y el archivo se mueve a la carpeta **dataLogPath/archived**. La ruta del archivo de correo electrónico archivado enviado y CCO es entonces **`<datalogpath>archivesYYYY-MM-DDHHh<deliveryid>- <broadlogid>-sent-archived.eml`**.
 
   <!--
-  **0**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder (default value). An archiving copy of the **`<deliveryid>-<broadlogid>-sent.eml`** file is saved to the **dataLogPath/archives** folder. The sent email file path becomes **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.-->
+  **0**: raw copies of sent emails are saved in .eml format to the **dataLogPath** folder (default value). An archiving copy of the **`<deliveryid>-<broadlogid>-sent.eml`** file is saved to the **dataLogPath/archives** folder. The sent email file path becomes **`<datalogpath>archivesYYYY-MM-DDHHh <deliveryid>-<broadlogid>-sent.eml`**.
+  -->
 
 * **expirationDelay**: número de días que se conservan los archivos .eml para el archivado. Tras ese retraso, se moverán automáticamente a la carpeta **dataLogPath/archived** para su compresión. De forma predeterminada, los archivos .eml caducan al cabo de dos días.
 * **purgeArchivesDelay**: el número de días que se guardan los archivos en la carpeta **dataLogPath/`<archives>`**. Después de ese período, se eliminan de forma permanente. La depuración comienza cuando se inicia el MTA. De forma predeterminada, se realiza cada siete días.
@@ -134,7 +135,7 @@ En el archivo **config-`<instance name>.xml`**, utilice los siguientes parámetr
 <!--
 ## Moving to the new Email BCC {#updated-email-archiving-system--bcc-}
 
-[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Applies to on-premise and hybrid deployments only"}
+[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"}
 
 >[!IMPORTANT]
 >
@@ -160,7 +161,8 @@ Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]*
 * **Correos electrónicos por conexión**: el archivado de correo electrónico CCO funciona abriendo una conexión e intentando enviar todos los mensajes de correo electrónico a través de esa conexión. Adobe recomienda consultar con su contacto técnico interno el número de correos electrónicos aceptados en una conexión determinada. El aumento de este número puede tener un gran impacto en el rendimiento de las CCO.
 * **IP de envío de CCO**: actualmente, los correos electrónicos de CCO no se envían a través de los proxies de MTA normales. En su lugar, se abre una conexión directa desde el servidor MTA al servidor de correo electrónico de destino. Esto significa que es posible que tenga que agregar direcciones IP adicionales a la lista de permitidos de la red, según la configuración del servidor de correo electrónico.
 
-<!--## Email BCC with Enhanced MTA {#email-bcc-with-enhanced-mta}
+<!--
+## Email BCC with Enhanced MTA {#email-bcc-with-enhanced-mta}
 
 For **hosted and hybrid architectures**, if you have the latest instance of Adobe Campaign, or if you have upgraded to the Enhanced MTA and using Adobe Campaign 19.2 or later, you can use Email BCC with Enhanced MTA, which is more reliable, efficient, and has lower latency.
 
@@ -186,4 +188,6 @@ Consequently, make sure:
 
 * Email BCC with Enhanced MTA delivers to the BCC email address before delivering to the recipients, which can result in BCC messages being sent even though the original deliveries may have bounced. For more on bounces, see [Understanding delivery failures](../../delivery/using/delivery-failures-quarantine.md).
 
-* There is no reporting available on the delivery status of the emails sent to the BCC email address.-->
+* There is no reporting available on the delivery status of the emails sent to the BCC email address.
+
+-->

@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo migrar los operadores técnicos de
 feature: Technote
 role: Admin
 exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
-source-git-commit: af811b2df325efcaee38a967252b6952e67680d1
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
 source-wordcount: '1775'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Migración de los operadores técnicos de Campaign a Adobe Developer Console {#migrate-tech-users-to-ims}
 
-Como parte del esfuerzo por reforzar la seguridad y el proceso de autenticación, a partir de la versión 7.3.5 de Campaign Classic, se está mejorando el proceso de autenticación en Campaign Classic. Los operadores técnicos deberían usar el [Sistema Identity Management de Adobe (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"} para conectarse a Campaign. Obtenga más información acerca del nuevo proceso de autenticación de servidor a servidor en [Documentación de Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}. **Adobe recomienda realizar esta migración en la versión 7 para poder migrar sin problemas a la versión 8 de Campaign.**
+Como parte del esfuerzo por reforzar la seguridad y el proceso de autenticación, a partir de la versión 7.3.5 de Campaign Classic, se está mejorando el proceso de autenticación en Campaign Classic. Los operadores técnicos deberían usar [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"} para conectarse a Campaign. Obtenga más información acerca del nuevo proceso de autenticación de servidor a servidor en [Documentación de Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}. **Adobe recomienda realizar esta migración en la versión 7 para poder migrar sin problemas a la versión 8 de Campaign.**
 
 Un operador técnico es un perfil de usuario de Campaign que se ha creado explícitamente para la integración de API. Este artículo detalla los pasos necesarios para migrar un operador técnico a una cuenta técnica a través de la consola de Adobe Developer.
 
@@ -21,7 +21,7 @@ Un operador técnico es un perfil de usuario de Campaign que se ha creado explí
 
 Si realiza llamadas de API desde un sistema externo a Campaign a la instancia de Campaign Marketing o a la instancia de Real-Time Message Center, Adobe recomienda migrar los operadores técnicos a cuentas técnicas a través de Adobe Developer Console, como se detalla a continuación.
 
-Este cambio es aplicable a partir de la versión 7.3.5 del Campaign Classic (y las [últimas versiones compatibles con la migración IMS](ac-ims.md#ims-versions)) y es **obligatorio** para pasar a la versión 8 de Adobe Campaign.
+Este cambio es aplicable a partir de la versión 7.3.5 de Campaign Classic (y las últimas [versiones compatibles con la migración IMS](ac-ims.md#ims-versions)) y es **obligatorio** para pasar a la versión 8 de Adobe Campaign.
 
 ## Proceso de migración {#ims-migration-procedure}
 
@@ -46,9 +46,9 @@ A continuación se ofrece una descripción general de los pasos:
 
   `campaign - <your campaign marketing instance> - messagecenter`
 
-  Si ya ha estado utilizando la autenticación basada en IMS para el acceso de los usuarios a Campaign, los perfiles de producto necesarios para las llamadas de API ya deben existir dentro del Admin Console. Si utiliza un grupo de operadores personalizado en Campaign para las llamadas de API a la instancia de Marketing, debe crear ese perfil de producto dentro del Admin Console.
+  Si ya ha estado utilizando la autenticación basada en IMS para el acceso de los usuarios a Campaign, los perfiles de producto necesarios para las llamadas de API ya deberían existir en Admin Console. Si utiliza un grupo de operadores personalizado en Campaign para las llamadas de API a la instancia de Marketing, debe crear ese perfil de producto en Admin Console.
 
-  Para otros casos, debe ponerse en contacto con el administrador de transición de Adobe (para usuarios de Managed Services) o con el servicio de atención al cliente de Adobe (para otros usuarios alojados), de modo que los equipos técnicos de Adobe puedan migrar los grupos de operadores existentes y los derechos asignados a los perfiles de producto dentro del Admin Console.
+  Para otros casos, debe ponerse en contacto con el administrador de transición de Adobe (para usuarios de Managed Services) o con el servicio de atención al cliente de Adobe (para otros usuarios alojados), de modo que los equipos técnicos de Adobe puedan migrar los grupos de operadores existentes y los derechos asignados a los perfiles de producto dentro de Admin Console.
 
 * Clientes on-premise e híbridos de Campaign
 
@@ -56,7 +56,7 @@ A continuación se ofrece una descripción general de los pasos:
 
   `campaign - <your campaign instance> - messagecenter`
 
-  Si ya ha estado utilizando la autenticación basada en IMS para el acceso de los usuarios a Campaign, los perfiles de producto necesarios para las llamadas de API ya deben existir dentro del Admin Console. Si utiliza un grupo de operadores personalizado en Campaign para las llamadas de API a la instancia de Marketing, debe crear ese perfil de producto dentro del Admin Console.
+  Si ya ha estado utilizando la autenticación basada en IMS para el acceso de los usuarios a Campaign, los perfiles de producto necesarios para las llamadas de API ya deberían existir en Admin Console. Si utiliza un grupo de operadores personalizado en Campaign para las llamadas de API a la instancia de Marketing, debe crear ese perfil de producto en Admin Console.
 
   Puede obtener más información sobre los perfiles de producto en la consola de Adobe en [Documentación de Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}
 
@@ -70,7 +70,8 @@ Puede utilizar cualquier proyecto creado anteriormente por usted o puede crear u
 <!--
 For this migration, you must add below APIs in your project: **I/O Management API** and **Adobe Campaign**.
 
-![](assets/do-not-localize/ims-products-and-services.png)-->
+![](assets/do-not-localize/ims-products-and-services.png)
+-->
 
 Para crear un nuevo proyecto, haz clic en **Crear nuevo proyecto** desde la pantalla principal de Adobe Developer Console.
 
@@ -100,7 +101,8 @@ En la pantalla **Configurar API**, seleccione el tipo de autenticación necesari
 <!--
 Once your project is created in the Adobe Developer Console, add an API that uses Server-to-Server authentication. Learn how to set up the OAuth Server-to-Server credential in [Adobe Developer Console documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
 
-When the API has been successfully connected, you can access the newly generated credentials including Client ID and Client Secret, as well as generate an access token.-->
+When the API has been successfully connected, you can access the newly generated credentials including Client ID and Client Secret, as well as generate an access token.
+-->
 
 ### Paso 4: Selección de los perfiles de producto {#ims-migration-step-4}
 
@@ -121,7 +123,9 @@ You can now add your Campaign product profile to the project, as detailed below:
     ![](assets/do-not-localize/ims-edit-api.png)
 
 1. Assign all the relevant Product Profiles to the API, for example 'messagecenter', and save your changes.
-1. Browse to the **Credential details** tab of your project, and copy the **Technical Account Email** value.-->
+1. Browse to the **Credential details** tab of your project, and copy the **Technical Account Email** value.
+
+-->
 
 ### Paso 5: Añadir la API de administración de E/S al proyecto {#ims-migration-step-5}
 
@@ -160,7 +164,7 @@ Ahora debe actualizar todas las integraciones de API que realizan llamadas a Ado
 
 Para obtener más información sobre los pasos de integración de API, consulte los ejemplos de código que aparecen a continuación.
 
-Cuando utilice la autenticación de Adobe Identity Management System (IMS), para generar un archivo WSDL, debe agregar la Autorización: Portador &lt;IMS_Technical_Token_Token> en la llamada de postman:
+Cuando utilice la autenticación de Adobe Identity Management System (IMS), para generar un archivo WSDL, debe agregar Autorización: Portador &lt;IMS_Technical_Token_Token> en la llamada de postman:
 
 ```
 curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent' \--header 'Authorization: Bearer <Technical account access token>'
@@ -168,7 +172,7 @@ curl --location --request POST 'https://<instance_url>/nl/jsp/schemawsdl.jsp?sch
 
 >[!BEGINTABS]
 
->[!TAB SOAP Llamada de]
+>[!TAB Llamada de SOAP]
 
 ```
 curl --location --request POST 'https://<instance_name>.campaign.adobe.com/nl/jsp/soaprouter.jsp' \
@@ -395,7 +399,7 @@ response = requests.post(url, headers=headers, data=xml_data)
 
 Para obtener más información, consulte [Documentación de autenticación de Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
-SOAP A continuación, se muestran ejemplos de llamadas de que muestran las llamadas de migración antes y después de para los sistemas de terceros.
+A continuación se muestran llamadas de SOAP de ejemplo que muestran las llamadas de migración antes y después de para los sistemas de terceros.
 
 Una vez completado y validado el proceso de migración, las llamadas Soap se actualizan de la siguiente manera:
 
@@ -450,7 +454,7 @@ Una vez completado y validado el proceso de migración, las llamadas Soap se act
 
 ### Paso 9: (opcional) Actualización del operador de cuenta técnica en la consola del cliente de Campaign {#ims-migration-step-9}
 
-Este paso es opcional y solo está disponible dentro de las instancias de Marketing, no dentro de ninguna instancia del Centro de mensajes. Si se han definido permisos de carpeta específicos o derechos asignados para el operador técnico, no a través de los grupos de operadores asignados. Ahora deberá actualizar el usuario de la cuenta técnica recién creada en el Admin Console para conceder los permisos de carpeta o los derechos asignados necesarios.
+Este paso es opcional y solo está disponible dentro de las instancias de Marketing, no dentro de ninguna instancia del Centro de mensajes. Si se han definido permisos de carpeta específicos o derechos asignados para el operador técnico, no a través de los grupos de operadores asignados. Ahora deberá actualizar el usuario de la cuenta técnica recién creada en Admin Console para conceder los permisos de carpeta o los derechos asignados necesarios.
 
 Tenga en cuenta que el usuario de cuenta técnica NO existirá en Adobe Campaign hasta que se realice al menos una llamada de API a la instancia de Campaign, momento en el que IMS creará el usuario dentro de Campaign. Si no puede localizar a los usuarios técnicos en Campaign, asegúrese de que ha podido enviar correctamente una llamada de API como se describe [en el paso 7](#ims-migration-step-7).
 
@@ -492,5 +496,5 @@ Para ello, inicie sesión en la consola del cliente de Campaign, navegue hasta *
 >* [Migración de usuarios finales a IMS](migrate-users-to-ims.md)
 >* [Actualizar la interfaz de Campaign después de la migración a IMS](impact-ims-migration.md)
 >* [Últimas notas de la versión de Adobe Campaign Classic v7](../../rn/using/latest-release.md)
->* [Qué es el sistema Identity Management de Adobe (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}
+>* [Qué es Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}
 

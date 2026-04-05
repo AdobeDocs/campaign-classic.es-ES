@@ -8,8 +8,8 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
 
@@ -33,8 +33,10 @@ Una vez creado y configurado el correo electrónico, puede enviarlo al destinata
 >El proceso completo para validar un envío se describe en [esta sección](steps-validating-the-delivery.md). Los pasos detallados para configurar y enviar un envío se presentan en [esta sección](steps-sending-the-delivery.md).
 
 Las siguientes secciones detallan los ajustes y las configuraciones específicas para enviar correos electrónicos:
-<!--* [Generating the mirror page](generating-mirror-page.md)
-* [Email BCC](email-bcc.md)-->
+<!--
+* [Generating the mirror page](generating-mirror-page.md)
+* [Email BCC](email-bcc.md)
+-->
 * [Parámetros de correo electrónico](email-parameters.md)
 * [Envío de correos con el MTA mejorado](sending-with-enhanced-mta.md)
 * [Envío de correos electrónicos en móviles japoneses](sending-emails-on-japanese-mobiles.md)
