@@ -47,7 +47,7 @@ La cuenta externa se crea y se agrega a la lista de cuentas externas.
 
 ### Correos rechazados {#bounce-mails-external-account}
 
-La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Para obtener más información sobre esta cuenta externa, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}.
+La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Para obtener más información sobre esta cuenta externa, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=es){target="_blank"}.
 
 Todos los servidores configurados para el acceso POP3 pueden utilizarse para recibir el correo electrónico devuelto.
 
