@@ -4,10 +4,9 @@ title: Señal externa
 description: Descubra más información sobre la actividad del flujo de trabajo Señal externa
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
 
@@ -29,8 +28,8 @@ Puede configurar esta actividad para definir eventos si no se recibe ninguna se�
 
 La configuración de la caducidad se detalla en [Caducidad](defining-approvals.md).
 
-El campo **Delay** permite especificar un retraso del vencimiento en las unidades que elija. Consulte [Espera](wait.md).
+El campo **Delay** permite especificar un retraso de la caducidad en las unidades que elija. Consulte [Espera](wait.md).
 
-Cada línea representa un tipo de vencimiento y coincide con una transición.
+Cada línea representa un tipo de caducidad y coincide con una transición.
 
 ![](assets/external_sign_diag.png)

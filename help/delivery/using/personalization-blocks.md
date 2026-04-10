@@ -6,10 +6,9 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Personalization
 role: User
 hide: true
-hidefromtoc: true
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
-source-git-commit: a1e9fec0e9c85bf25b79e24a7432dfb45bd1a0cb
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 100%
 
@@ -146,6 +145,6 @@ Para crear un bloque personalizado, vaya a Explorer y aplique los pasos siguient
 
 Descubra cómo crear bloques de contenido dinámico y cómo utilizarlos para personalizar el contenido del envío de su correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/27461?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

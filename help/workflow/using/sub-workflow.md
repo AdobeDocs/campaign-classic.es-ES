@@ -4,11 +4,10 @@ title: Subflujo de trabajo
 description: Descubra más información sobre la actividad del subflujo de trabajo
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '419'
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
@@ -74,6 +73,6 @@ Cada evento entrante debe especificar un objetivo definido por estos parámetros
 * esquema
 * recCount
 
-Este conjunto de tres valores identifica la población objetivo de la consulta. **[!UICONTROL tableName]** es el nombre de la tabla que registra los identificadores de destinatario, **[!UICONTROL schema]** es el esquema de la población (normalmente nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
+Este conjunto de tres valores identifica la población objetivo de la consulta. **[!UICONTROL tableName]** es el nombre de la tabla que registra los identificadores de destinatario, **[!UICONTROL schema]** es el esquema de la población (normalmente, nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
 
 * targetSchema: Este valor es el esquema de la tabla de trabajo. Este parámetro es válido para todas las transiciones con **[!UICONTROL tableName]** y **[!UICONTROL schema]**.

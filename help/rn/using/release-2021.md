@@ -5,12 +5,11 @@ description: Más información sobre las actualizaciones de Campaign Classic 202
 feature: Release Notes
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '2584'
-ht-degree: 100%
+source-wordcount: '2579'
+ht-degree: 97%
 
 ---
 
@@ -50,7 +49,7 @@ _7 de septiembre de 2021_
 
 * Tras finalizar su vida útil, se ha eliminado Flash de todas las funciones y componentes de Campaign relacionados y se ha sustituido por HTML5. Se ha eliminado el tipo de gráfico **Medición**. (NEO-30330) [Más información](../../reporting/using/creating-a-chart.md)
 * Al instalar la consola del cliente en Windows, el instalador ahora comprueba si hay un nodo de registro principal y crea uno si falta. Esto evita posibles problemas al iniciar la consola. (NEO-34854)
-* La función de firma de seguimiento se ha mejorado para evitar errores vinculados a la forma en que las herramientas de terceros (clientes de correo electrónico, navegadores de Internet, etc.) gestionan los caracteres especiales. Los parámetros de URL ahora están codificados.
+* La función de firma de seguimiento se ha mejorado para evitar errores vinculados a la forma en que las herramientas de terceros (clientes de correo electrónico, exploradores de Internet, etc.) gestionan los caracteres especiales. Los parámetros de URL ahora están codificados.
 
 **Otros cambios**
 

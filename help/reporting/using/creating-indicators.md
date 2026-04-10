@@ -4,9 +4,8 @@ title: Creación de indicadores
 description: Creación de indicadores
 feature: Reporting, Monitoring
 hide: true
-hidefromtoc: true
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 100%
@@ -80,7 +79,7 @@ Haga clic en el botón **[!UICONTROL Add]** para crear una nueva dimensión y lu
 
   ![](assets/s_advuser_cube_wz_08.png)
 
-  Puede activar el agrupamiento para facilitar la lectura de la información y vincular los valores a una enumeración.
+  Puede habilitar el agrupamiento para facilitar la lectura de la información y vincular los valores a una enumeración.
 
   ![](assets/s_advuser_cube_wz_09.png)
 

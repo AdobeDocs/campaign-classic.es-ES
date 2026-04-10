@@ -5,10 +5,9 @@ description: Obtenga más información sobre los documentos de campañas de mark
 role: User
 feature: Campaigns
 hide: true
-hidefromtoc: true
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ Puede asociar varios documentos a una campaña: informes, fotos, páginas web, d
 >
 >Esta capacidad está reservada para documentos y recursos pequeños.
 
-En una campaña también se puede hacer referencia a otros elementos, como cupones promocionales, ofertas especiales relacionadas con una marca o tienda específica, etc. Cuando estos elementos se incluyen en una descripción, pueden asociarse con una entrega de correo postal. Consulte [Asociación y estructuración de recursos vinculados a través de una descripción de entrega](#associating-and-structuring-resources-linked-via-a-delivery-outline).
+En una campaña también se puede hacer referencia a otros elementos, como cupones promocionales, ofertas especiales relacionadas con una marca o tienda específica, etc. Cuando estos elementos se incluyen en una descripción, pueden asociarse con una entrega de correo directo. Consulte [Asociación y estructuración de recursos vinculados a través de una descripción de entrega](#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 >[!NOTE]
 >
@@ -34,14 +33,14 @@ Los documentos se pueden asociar en el nivel de campaña (documentos contextuale
 
 La pestaña **[!UICONTROL Documents]** contiene:
 
-* Lista de todos los documentos necesarios para el contenido (plantilla, imágenes, etc.) que Adobe Campaign puede descargar localmente con los derechos adecuados,
+* Lista de todos los documentos necesarios para el contenido (plantilla, imágenes, etc.) que los operadores de Adobe Campaign pueden descargar localmente con los derechos adecuados,
 * Documentos que contienen información para el enrutador, si los hay.
 
 Los documentos están vinculados al programa o a la campaña a través de la pestaña **[!UICONTROL Edit > Documents]**.
 
 ![](assets/s_ncs_user_op_add_document.png)
 
-También puede agregar un documento a una campaña a través del enlace que aparece en su panel.
+También puede agregar un documento a una campaña a través del enlace que aparece en su panel de control.
 
 ![](assets/add_a_document_in_op.png)
 
@@ -49,7 +48,7 @@ Haga clic en el icono **[!UICONTROL Details]** para ver el contenido de un archi
 
 ![](assets/s_ncs_user_op_add_document_details.png)
 
-En el panel, los documentos asociados a la campaña se agrupan en la sección **[!UICONTROL Document(s)]**, como en el siguiente ejemplo:
+En el panel de control, los documentos asociados a la campaña se agrupan en la sección **[!UICONTROL Document(s)]**, como en el siguiente ejemplo:
 
 ![](assets/s_ncs_user_op_edit_document.png)
 
@@ -61,7 +60,7 @@ También pueden editarse y modificarse desde esta vista.
 >
 >Las descripciones de los envíos se utilizan principalmente en el contexto de las campañas de correo directo.
 
-Una descripción de rnvío significa un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creados por la compañía y para una campaña determinada.
+Una descripción de envío significa un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creados por la compañía y para una campaña determinada.
 
 Estos elementos se agrupan en descripciones de envío y cada descripción de envío concreta se asocia a un envío; se hace referencia en el archivo de extracción enviado al **proveedor de servicios** para que se asocie al envío. Por ejemplo, puede crear una descripción de envío que haga referencia a una filial y a los folletos de marketing que utiliza.
 
@@ -97,7 +96,7 @@ Una descripción puede contener elementos y campos de personalización, recursos
 
   ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
-* Los recursos son recursos de marketing generados en el panel de recursos de marketing, al que se accede mediante el vínculo **[!UICONTROL Resources]** de la pestaña **[!UICONTROL Campaigns]**.
+* Los recursos son recursos de marketing generados en el panel de control de recursos de marketing, al que se accede mediante el vínculo **[!UICONTROL Resources]** de la pestaña **[!UICONTROL Campaigns]**.
 
   ![](assets/s_ncs_user_mkg_resource_ovv.png)
 

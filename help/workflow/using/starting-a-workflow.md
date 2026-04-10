@@ -4,10 +4,9 @@ title: Inicio de un flujo de trabajo
 description: Obtenga información sobre cómo iniciar un flujo de trabajo y descubra acciones de flujos de trabajo en la barra de herramientas y el menú que aparece al hacer clic con el botón derecho
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 100%
 
@@ -83,7 +82,7 @@ Los botones de la barra de herramientas se encuentran en esta [sección](../../c
 
 * **[!UICONTROL Start in simulation mode]**
 
-  Esta opción permite iniciar el flujo de trabajo en modo de simulación, distinto del modo real. Esto significa que, cuando se activa este modo, solo se ejecutan las actividades que no afectan a la base de datos o al sistema de archivos (por ejemplo **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.). Las actividades que sí tienen impacto (por ejemplo **[!UICONTROL Export]**, **[!UICONTROL Import]**, etc.), así como las que están después de ellas (en la misma rama), no se ejecutan.
+  Esta opción permite iniciar el flujo de trabajo en modo de simulación, distinto del modo real. Esto significa que, cuando se habilita este modo, solo se ejecutan las actividades que no afectan a la base de datos o al sistema de archivos (por ejemplo **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.). Las actividades que sí tienen impacto (por ejemplo **[!UICONTROL Export]**, **[!UICONTROL Import]**, etc.), así como las que están después de ellas (en la misma rama), no se ejecutan.
 
 * **[!UICONTROL Execute pending tasks now]**
 

@@ -5,9 +5,8 @@ description: Obtenga información sobre cómo conectar Campaign y Salesforce
 feature: Salesforce Integration
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
 hide: true
-hidefromtoc: true
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
@@ -27,7 +26,7 @@ Para configurar el conector CRM para Salesforce, siga los pasos a continuación:
 
 1. Cree una nueva cuenta externa a través del nodo **[!UICONTROL Administration > Platform > External accounts]** del árbol de Adobe Campaign.
 1. Seleccione **[!UICONTROL Salesforce.com]**.
-1. Introduzca la configuración para activar la conexión.
+1. Introduzca la configuración para habilitar la conexión.
 
    ![](assets/ext_account_17.png)
 
@@ -40,10 +39,10 @@ Cuenta utilizada para iniciar sesión en Salesforce CRM.
 Contraseña utilizada para iniciar sesión en Salesforce CRM.
 
    * **[!UICONTROL Client identifier]**
-Para saber dónde encontrar el identificador de cliente, consulte esta [página](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
+Para saber dónde encontrar el identificador de cliente, consulte esta [página](https://help.salesforce.com/articleView?id=000205876&type=1).
 
    * **[!UICONTROL Security token]**
-Para saber dónde encontrar el token de seguridad, consulte esta [página](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
+Para saber dónde encontrar el token de seguridad, consulte esta [página](https://help.salesforce.com/articleView?id=000205876&type=1).
 
    * **[!UICONTROL API version]**
 Seleccione la versión de la API.
@@ -63,7 +62,7 @@ Seleccione la versión de la API.
 
 1. Una vez creado el esquema, puede sincronizar las enumeraciones automáticamente con Adobe Campaign a través de Salesforce.
 
-   Para ello, haga clic en el enlace **[!UICONTROL Synchronizing enumerations...]** y seleccione la lista desglosada de Adobe Campaign que coincida con la de Salesforce.
+   Para ello, haga clic en el enlace **[!UICONTROL Synchronizing enumerations...]** y seleccione la enumeración de Adobe Campaign que coincida con la de Salesforce.
 
 
 

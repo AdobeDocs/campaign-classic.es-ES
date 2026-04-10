@@ -4,9 +4,8 @@ title: 'Nota técnica: Actualizaciones de configuración de Adobe Campaign'
 description: Actualizaciones de configuración de Adobe Campaign
 feature: Technote, Upgrade
 hide: true
-hidefromtoc: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
-source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 10%
@@ -23,7 +22,7 @@ Como **cliente alojado o de Managed Services**, Adobe le informará de las actua
 
 Como **cliente On-Premise o híbrido**, debe actualizar su implementación a intervalos regulares en línea con las últimas compilaciones publicadas.
 
-Por motivos de seguridad, ahora debe actualizar a una de las versiones enumeradas a continuación. Además de los pasos de actualización estándar, se deben realizar algunas tareas manuales para asegurarse de que su entorno sea seguro y esté listo para los próximos cambios de sistemas de Adobe o de terceros.
+Por motivos de seguridad, ahora debe actualizar a una de las versiones enumeradas a continuación. Además de los pasos de actualización estándar, se deben realizar algunas tareas manuales para asegurarse de que su entorno sea seguro y esté listo para los próximos cambios de Adobe o de sistemas de terceros.
 
 >[!NOTE]
 >
@@ -51,9 +50,9 @@ Aprenda a comprobar su versión [en esta sección](../../platform/using/launchin
 
 Debe actualizar a una de las compilaciones más nuevas enumeradas anteriormente.
 
-* Como cliente híbrido, Adobe le informará de las fechas de actualización programadas para las instancias de intermediario. Adobe recomienda encarecidamente que actualice también la instancia de marketing.
+* Como cliente híbrido, Adobe le informará de las fechas de actualización programadas para las instancias de intermediario. Adobe recomienda encarecidamente que actualice la instancia de marketing también.
 
-  La nueva versión es compatible con la versión anterior de Campaign Classic 17.9, pero Adobe recomienda encarecidamente una actualización en todas las instancias para abordar las vulnerabilidades de seguridad
+  La nueva versión es compatible con la versión 17.9 de Campaign Classic, pero Adobe recomienda encarecidamente una actualización en todas las instancias para abordar las vulnerabilidades de seguridad
 
 * Como cliente On-Premise, se le solicita que actualice las instancias de marketing e intermediarias a la última versión.
 
@@ -71,15 +70,15 @@ Las **versiones de consola disponibles** a continuación se deben instalar para 
 * Versión 19.2.4 de Campaign.
 * Versión 19.1.8 de Campaign.
 
-## Actualización del sistema Identity Management de Adobe (IMS)
+## Actualización del sistema Adobe Identity Management (IMS)
 
-El servicio de identidad de Adobe (IMS) dejará de admitir versiones antiguas de Internet Explorer a partir del **30 de junio de 2021**. [Más información](https://helpx.adobe.com/es/x-productkb/global/update-operating-system-and-browser.html).
+El servicio de identidad de Adobe (IMS) dejará de admitir versiones antiguas de Internet Explorer a partir del **30 de junio de 2021**. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
 
 Se requiere una actualización de la consola del cliente de Campaign para garantizar la compatibilidad con Adobe IMS.
 
 **¿Se ha visto afectado?**
 
-Si se está conectando a Campaign [a través de un Adobe ID](../../integrations/using/about-adobe-id.md), a través del Servicio Identity Management de Adobe (IMS), la actualización a una de las nuevas versiones que se enumeran a continuación es obligatoria:
+Si se está conectando a Campaign [a través de un Adobe ID](../../integrations/using/about-adobe-id.md), a través del servicio Adobe Identity Management (IMS), la actualización a una de las nuevas versiones que se enumeran a continuación es obligatoria:
 
 * Gold Standard 11. [Más información](../../rn/using/gold-standard.md)
 * Versión 21.1.1 de Campaign. [Más información](../../rn/using/latest-release.md)
@@ -104,13 +103,13 @@ Una vez actualizadas todas las instancias, la consola de cliente también debe a
 
 * [Aprenda a instalar la consola del cliente de Campaign](../../installation/using/installing-the-client-console.md).
 
-## Integración con Déclencheur de Experience Cloud {#acc-triggers-updates}
+## Integración con Experience Cloud Déclencheur {#acc-triggers-updates}
 
-El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de Déclencheur, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, se ha trasladado al Adobe I/O. El modo de autenticación oAuth heredado con Campaign [se ha retirado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) el **septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta el **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el Servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md#step-optional) a Adobe.
+El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de Déclencheur, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, se ha trasladado a Adobe I/O. El modo de autenticación oAuth heredado con Campaign [se ha retirado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) el **septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta el **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el Servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md#step-optional) a Adobe.
 
 **¿Se ha visto afectado?**
 
-Si las instancias se ejecutan en una versión **anterior a Campaign 19.1.8, 20.2.4, Gold Standard 11**, entonces está usando una versión anterior de la integración de Déclencheur mediante autenticación oAuth: **debe actualizar a una versión más reciente y pasar al Adobe I/O**.
+Si las instancias se ejecutan en una versión **anterior a Campaign 19.1.8, 20.2.4, Gold Standard 11**, entonces está usando una versión anterior de la integración de Déclencheur mediante autenticación oAuth: **debe actualizar a una versión más reciente y pasar a Adobe I/O**.
 
 Es obligatorio actualizar a una de las nuevas versiones que se enumeran a continuación:
 
@@ -127,7 +126,7 @@ Una vez que las instancias se hayan actualizado a una versión más reciente, to
 
 Además, en el caso de entornos híbridos, los clientes deben asegurarse de que la canalización esté configurada en una instancia intermediaria. [Más información](../../integrations/using/configuring-pipeline.md).
 
-[Más información sobre cómo migrar al Adobe I/O](../../integrations/using/about-triggers.md#implement).
+[Más información sobre cómo migrar a Adobe I/O](../../integrations/using/about-triggers.md#implement).
 
 ## Actualizaciones de APNS {#acc-apns-updates}
 
@@ -169,5 +168,5 @@ Como cliente on-premise/híbrido, debe actualizar su configuración para garanti
 
 * [Actualice su entorno](../../production/using/build-upgrade.md)
 * [Preguntas frecuentes sobre la actualización de versiones](../../platform/using/faq-build-upgrade.md)
-* [Descargar compilación del Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
+* [Descargar compilación de Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
 * [Hacer que la nueva consola de cliente esté disponible para los usuarios](../../installation/using/client-console-availability-for-windows.md)

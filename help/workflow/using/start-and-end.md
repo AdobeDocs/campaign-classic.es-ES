@@ -4,10 +4,9 @@ title: Inicio y final (Start y End)
 description: Descubra más información sobre las actividades de flujo de trabajo de Inicio y final (Start y End)
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 56dfbaf3-93de-4ade-b4ad-9b54d239c7a5
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 100%
 
@@ -31,6 +30,6 @@ Las actividades **[!UICONTROL Start]** y **[!UICONTROL End]** permiten marcar de
 
   ![](assets/s_user_segmentation_end.png)
 
-  Los datos de la tabla de trabajo se eliminan automáticamente cuando se activa la actividad final. Si no es necesario y para evitar cargas innecesarias, puede optar por deshabilitar la transición en la última salida de actividad. Por ejemplo, en una salida de envío, si no hay ningún proceso programado, anule la selección de la opción correspondiente como se muestra a continuación:
+  Los datos de la tabla de trabajo se eliminan automáticamente cuando se habilita la actividad final. Si no es necesario y para evitar cargas innecesarias, puede optar por deshabilitar la transición en la última salida de actividad. Por ejemplo, en una salida de envío, si no hay ningún proceso programado, anule la selección de la opción correspondiente como se muestra a continuación:
 
   ![](assets/s_advuser_delivery_option_no_output.png)

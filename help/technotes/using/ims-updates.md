@@ -4,9 +4,8 @@ title: 'Nota técnica: Actualice su entorno para conectarse a Adobe Campaign con
 description: 'Campaign: actualizaciones de IMS'
 feature: Technote, Upgrade
 hide: true
-hidefromtoc: true
 exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
-source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 6%
@@ -21,7 +20,7 @@ El 30 de junio de 2021 se realizaron cambios en las funcionalidades de inicio de
 
 ## ¿Qué ha cambiado?
 
-El servicio Adobe Identity Management (IMS) dejó de admitir versiones antiguas de Internet Explorer el **30 de junio de 2021**. [Más información](https://helpx.adobe.com/es/x-productkb/global/update-operating-system-and-browser.html).
+El servicio Adobe Identity Management (IMS) dejó de admitir versiones antiguas de Internet Explorer el **30 de junio de 2021**. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
 
 Adobe quiere conservar la funcionalidad de IMS para todos los clientes a partir del 30 de junio de 2021. IMS forma parte del marco de seguridad que permite a los usuarios iniciar sesión en la consola del cliente, por lo tanto en Adobe Campaign.
 
@@ -78,7 +77,7 @@ El siguiente mensaje de advertencia es visible para los usuarios si necesitan ac
 
 ![](../../integrations/using/assets/do-not-localize/errorMsg.png)
 
-Si aparece esta advertencia, asegúrese de instalar las actualizaciones más recientes del sistema operativo que está utilizando. [Más información](https://helpx.adobe.com/es/x-productkb/global/update-operating-system-and-browser.html)
+Si aparece esta advertencia, asegúrese de instalar las actualizaciones más recientes del sistema operativo que está utilizando. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
 Si no actualizó la versión de Internet Explorer, verá el siguiente mensaje y ya no podrá conectarse a Adobe Campaign:
 

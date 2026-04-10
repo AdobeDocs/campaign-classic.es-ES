@@ -6,11 +6,10 @@ feature: Resource Management
 audience: campaign
 content-type: reference
 hide: true
-hidefromtoc: true
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-source-git-commit: 942edcf028207eab2ea583949ebc99ab61539ea0
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '2488'
 ht-degree: 100%
 
@@ -236,7 +235,7 @@ Creemos una campaña con:
 
 1. Cree un proveedor de servicios y una plantilla de servicio con su estructura de coste del nodo **[!UICONTROL Administration > Campaigns]**. Para obtener más información sobre esto, consulte [Creación de un proveedor de servicios y sus categorías de costes](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
-   Para los envíos de correo postal, cree las categorías de coste **[!UICONTROL Envelopes]** (tipos 114 x 229 y 162 x 229), **[!UICONTROL Postage]** y **[!UICONTROL Print]** (tipos A3 y A4). A continuación, cree las siguientes estructuras de coste:
+   Para los envíos de correo directo, cree las categorías de coste **[!UICONTROL Envelopes]** (tipos 114 x 229 y 162 x 229), **[!UICONTROL Postage]** y **[!UICONTROL Print]** (tipos A3 y A4). A continuación, cree las siguientes estructuras de coste:
 
    ![](assets/s_user_cost_mgmt_sample_2.png)
 
@@ -288,7 +287,7 @@ Creemos una campaña con:
 
    ![](assets/s_user_cost_mgmt_sample_10.png)
 
-1. Si la aprobación del presupuesto está habilitada para esta campaña, apruebe el presupuesto desde el panel. Puede comprobar la aprobación de las categorías de coste.
+1. Si la aprobación del presupuesto está habilitada para esta campaña, apruebe el presupuesto desde el panel de control. Puede comprobar la aprobación de las categorías de coste.
 
    ![](assets/s_user_cost_mgmt_sample_10b.png)
 
@@ -304,7 +303,7 @@ Al editar el coste calculado, puede comprobar el desglose del coste y el estado 
 
 #### Paso 5: Creación de tareas {#step-5---creating-tasks}
 
-A esta campaña, añadiremos las dos tareas para las que se crearon las estructuras de coste anteriormente (consulte [Paso 2: Configuración del proveedor de servicios y definir las estructuras de coste](#step-2---configuring-the-service-provider-and-defining-the-cost-structures)). Para ello, en el panel de campañas, haga clic en el botón **[!UICONTROL Add a task]**. Asigne un nombre a la tarea y haga clic en **[!UICONTROL Save]**.
+A esta campaña, añadiremos las dos tareas para las que se crearon las estructuras de coste anteriormente (consulte [Paso 2: Configuración del proveedor de servicios y definir las estructuras de coste](#step-2---configuring-the-service-provider-and-defining-the-cost-structures)). Para ello, en el panel de control de campañas, haga clic en el botón **[!UICONTROL Add a task]**. Asigne un nombre a la tarea y haga clic en **[!UICONTROL Save]**.
 
 1. La tarea se agrega entonces a la lista. Debe editarla para configurarla.
 
@@ -336,7 +335,7 @@ Cuando se configura la campaña, su estado se puede actualizar a **[!UICONTROL S
 
 #### Aprobación del presupuesto {#budget-approval}
 
-Cuando se activa la aprobación, un vínculo especial permite aprobar el presupuesto desde el panel de campañas. Este vínculo se muestra cuando se ha iniciado el flujo de trabajo de objetivos, y requiere la aprobación de la entrega de correo directo.
+Cuando se activa la aprobación, un vínculo especial permite aprobar el presupuesto desde el panel de control de campañas. Este vínculo se muestra cuando se ha iniciado el flujo de trabajo de objetivos, y requiere la aprobación de la entrega de correo directo.
 
 ![](assets/s_user_cost_mgmt_sample_19.png)
 

@@ -4,10 +4,9 @@ title: Servicios de suscripción
 description: Descubra más información sobre la actividad del flujo de trabajo Servicios de suscripción
 feature: Workflows, Targeting Activity, Subscription Services Activity
 hide: true
-hidefromtoc: true
 exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
 
@@ -28,7 +27,7 @@ Para configurarlo, edite la actividad e introduzca la etiqueta, luego seleccione
 
    Por lo general, la suscripción de un objetivo a un servicio de información marca el final del flujo de trabajo de objetivos, por lo que la opción no está activada de forma predeterminada.
 
-1. Haga clic en **[!UICONTROL Subscription]** o en **[!UICONTROL Unsubscription]** si desea suscribirse o darse de baja al servicio de información seleccionado.
+1. Haga clic en **[!UICONTROL Subscription]** o en **[!UICONTROL Unsubscription]** si desea suscribirse o darse de baja del servicio de información seleccionado de la población especificada.
 1. Seleccione **[!UICONTROL Send a confirmation message]** para notificar a los destinatarios que se han suscrito o dado de baja de un servicio.
 
    El contenido de este mensaje se especifica en la plantilla de envío asociada al servicio de información. Para obtener más información, consulte [esta sección](../../delivery/using/managing-subscriptions.md).

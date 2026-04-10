@@ -4,12 +4,11 @@ title: Consulta de la tabla de destinatarios
 description: Obtenga información sobre cómo consultar la tabla de destinatarios.
 feature: Query Editor, Workflows
 hide: true
-hidefromtoc: true
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '392'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +20,7 @@ En este ejemplo, se desea recuperar los nombres y correos electrónicos de los d
 
 * ¿Qué tabla se debe seleccionar?
 
-  La tabla de destinatario (nms:recipient).
+  La tabla del destinatario (nms:recipient)
 
 * Campos que se desea seleccionar como columnas de salida
 
@@ -37,7 +36,7 @@ En este ejemplo, se desea recuperar los nombres y correos electrónicos de los d
 
 Para crear este ejemplo, aplique los pasos siguientes:
 
-1. Haga clic en **[!UICONTROL Tools > Generic query editor...]** y seleccione la tabla **Destinatarios** (**nms:recipient**). A continuación, haga clic en **[!UICONTROL Next]**.
+1. Haga clic en **[!UICONTROL Tools > Generic query editor...]** y elija la tabla **Destinatarios** (**nms:recipient**). A continuación, haga clic en **[!UICONTROL Next]**.
 1. Elija **[!UICONTROL Last name]**, **[!UICONTROL First name]**, **[!UICONTROL Email]**, **[!UICONTROL City]** y **[!UICONTROL Account number]**. Estos campos se añaden a **[!UICONTROL Output columns]**. A continuación, haga clic en **[!UICONTROL Next]**.
 
    ![](assets/query_editor_03.png)
@@ -53,7 +52,7 @@ Para crear este ejemplo, aplique los pasos siguientes:
 
    ![](assets/query_editor_05.png)
 
-1. Si es necesario, haga clic en el botón **[!UICONTROL Distribution of values]** para ver una distribución en función del dominio de correo electrónico de los posibles clientes. Hay un porcentaje disponible para cada dominio de correo electrónico de la base de datos. Los dominios que no sean “orange.co.uk” se muestran hasta que se aplique el filtro.
+1. Si es necesario, haga clic en el botón **[!UICONTROL Distribution of values]** para ver una distribución en función del dominio de correo electrónico de los clientes potenciales. Hay un porcentaje disponible para cada dominio de correo electrónico de la base de datos. Los dominios que no sean “orange.co.uk” se muestran hasta que se aplique el filtro.
 
    En la parte inferior de la ventana se muestra un resumen de la consulta: **Email domain equal to “orange.co.uk”**.
 

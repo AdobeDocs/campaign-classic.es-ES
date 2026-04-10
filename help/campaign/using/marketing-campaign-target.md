@@ -1,24 +1,23 @@
 ---
 product: campaign
-title: Audiencia objetivo de la campaña de marketing
-description: Aprenda a definir la audiencia de las campañas de marketing
+title: Público destinatario de la campaña de marketing
+description: Aprenda a definir el público de las campañas de marketing
 role: User
 feature: Campaigns, Audiences
 hide: true
-hidefromtoc: true
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 100%
 
 ---
 
-# Selección de la audiencia de las campañas {#marketing-campaign-deliveries}
+# Selección del público de las campañas {#marketing-campaign-deliveries}
 
 En una campaña de marketing, puede definir lo siguiente por envío:
 
-* Audiencia: obtenga más información sobre la [Creación de la audiencia en un flujo de trabajo](#building-the-main-target-in-a-workflow) y [Selección de la población objetivo](#selecting-the-target-population).
+* Público: obtenga más información sobre la [Creación del público en un flujo de trabajo](#building-the-main-target-in-a-workflow) y [Selección de la población objetivo](#selecting-the-target-population).
 * Un grupo de control: obtenga más información en [esta sección](#defining-a-control-group).
 * Direcciones semilla: obtenga más información en [esta sección](../../delivery/using/about-seed-addresses.md).
 
@@ -40,7 +39,7 @@ Puede importar una población a una lista y luego establecer como objetivo esta 
 
 ![](assets/s_user_target_group_next.png)
 
-## Creación de la audiencia en un flujo de trabajo de campaña {#building-the-main-target-in-a-workflow}
+## Creación del público en un flujo de trabajo de campaña {#building-the-main-target-in-a-workflow}
 
 El objetivo principal de una entrega también se puede definir en el flujo de trabajo de campaña: este entorno gráfico permite crear un objetivo utilizando consultas, pruebas y operadores: unión, deduplicación, uso compartido, etc.
 
@@ -50,7 +49,7 @@ El objetivo principal de una entrega también se puede definir en el flujo de tr
 
 ### Creación del flujo de trabajo {#creating-a-targeting-workflow}
 
-El objetivo se puede crear mediante una combinación de condiciones de filtrado en una secuencia gráfica de un flujo de trabajo. Puede crear poblaciones y subpoblaciones según lo necesite. Para mostrar el editor de flujo de trabajo, haga clic en la pestaña **[!UICONTROL Targeting and workflows]** del panel de campañas.
+El objetivo se puede crear mediante una combinación de condiciones de filtrado en una secuencia gráfica de un flujo de trabajo. Puede crear poblaciones y subpoblaciones según lo necesite. Para mostrar el editor de flujo de trabajo, haga clic en la pestaña **[!UICONTROL Targeting and workflows]** del panel de control de campañas.
 
 ![](assets/s_ncs_user_edit_op_wf_link.png)
 
@@ -165,7 +164,7 @@ Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la
 
   En Explorer, seleccione **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** para acceder y utilizar cada flujo de trabajo de campaña.
 
-  Puede detener el flujo de trabajo de forma incondicional haciendo clic en el icono **[!UICONTROL Actions]** y seleccionando Interrupción **[!UICONTROL Unconditional]**. Esta acción finaliza el flujo de trabajo de la campaña.
+  Puede detener el flujo de trabajo de forma incondicional haciendo clic en el icono **[!UICONTROL Actions]** y seleccionando Interrupción **[!UICONTROL Unconditional]**. Esta acción termina el flujo de trabajo de la campaña.
 
   ![](assets/s_user_segmentation_stop_unconditional.png)
 
@@ -246,6 +245,6 @@ Puede definir una nueva población para utilizarla como grupo de control. Puede 
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/27490?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

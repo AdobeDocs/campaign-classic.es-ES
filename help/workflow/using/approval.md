@@ -4,10 +4,9 @@ title: Aprobación
 description: Aprobación
 feature: Workflows, Approvals
 hide: true
-hidefromtoc: true
 exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 100%
 
@@ -39,7 +38,7 @@ Si es necesario, puede asignar la tarea de aprobación a un solo operador o a un
 
 En caso de una sola aprobación, la transición correspondiente a la opción de operador se activa y la tarea finaliza: los demás operadores no pueden responder.
 
-En caso de varias aprobaciones, se activan las transiciones correspondientes a la opción de cada operador. La tarea finaliza cuando han respondido todos los operadores del grupo o si ha caducado la tarea.
+En caso de varias aprobaciones, se habilitan las transiciones correspondientes a la opción de cada operador. La tarea finaliza cuando han respondido todos los operadores del grupo o si ha caducado la tarea.
 
 Esta actividad no bloquea el procesamiento y el flujo de trabajo puede realizar otras tareas mientras espera una respuesta.
 

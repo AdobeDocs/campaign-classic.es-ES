@@ -4,10 +4,9 @@ title: Datos de objetivos
 description: Descubra más información sobre los datos de objetivos en un flujo de trabajo
 feature: Query Editor, Data Management, Workflows
 hide: true
-hidefromtoc: true
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1919'
 ht-degree: 100%
 
@@ -131,9 +130,9 @@ Esta actividad de intersección se detalla en la sección [Intersección](inters
 
 ### Exclusión de una población (exclusión) {#excluding-a-population--exclusion-}
 
-La actividad de exclusión permite excluir los elementos de un objetivo desde una población objetivo diferente. La dimensión objetivo de salida de esta actividad es la del conjunto principal.
+La actividad de exclusión permite excluir los elementos de un objetivo desde una población objetivo diferente. La dimensión de segmentación de salida de esta actividad es la del conjunto principal.
 
-Si es necesario, se pueden manipular las tablas entrantes. De hecho, para excluir un objetivo de otra dimensión, se debe devolver este objetivo a la misma dimensión objetivo que el objetivo principal. Para ello, haga clic en el botón **[!UICONTROL Add]** y especifique las condiciones del cambio de dimensión.
+Si es necesario, se pueden manipular las tablas entrantes. De hecho, para excluir un objetivo de otra dimensión, se debe devolver este objetivo a la misma dimensión de segmentación que la segmentación principal. Para ello, haga clic en el botón **[!UICONTROL Add]** y especifique las condiciones del cambio de dimensión.
 
 La reconciliación de datos se lleva a cabo mediante un identificador, un eje de cambio o una unión. Hay un ejemplo disponible en [Uso de datos de una lista: Lista de lectura](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list).
 
@@ -141,7 +140,7 @@ La reconciliación de datos se lleva a cabo mediante un identificador, un eje de
 
 ### Creación de subconjuntos con la actividad División {#creating-subsets-using-the-split-activity}
 
-La actividad **[!UICONTROL Split]** es una actividad estándar que permite crear tantos conjuntos como sea necesario mediante una o varias dimensiones de filtro, así como una transición de salida por subgrupo o una transición única.
+La actividad **[!UICONTROL Split]** es una actividad estándar que permite crear tantos conjuntos como sea necesario mediante una o varias dimensiones de filtro, así como una transición de salida por subconjunto o una transición única.
 
 Los datos adicionales transmitidos por la transición entrante se pueden utilizar en los criterios de filtrado.
 
@@ -149,7 +148,7 @@ Para configurarlo, primero debe seleccionar unos criterios:
 
 1. En el flujo de trabajo, arrastre y suelte una actividad **[!UICONTROL Split]**.
 1. En la pestaña **[!UICONTROL General]**, seleccione la opción que desee: **[!UICONTROL Use data from the target and additional data]**, **[!UICONTROL Use the additional data only]** o **[!UICONTROL Use external data]**.
-1. Si la opción **[!UICONTROL Use data from the target and additional data]** está seleccionada, la dimensión de destino permite utilizar todos los datos transmitidos por la transición entrante.
+1. Si la opción **[!UICONTROL Use data from the target and additional data]** está seleccionada, la dimensión de segmentación permite utilizar todos los datos transmitidos por la transición entrante.
 
    ![](assets/split-general-tab-options.png)
 
@@ -242,7 +241,7 @@ En Adobe Campaign, la gestión de datos combina un conjunto de actividades para 
 Para implementar estas operaciones, Adobe Campaign ofrece:
 
 * Actividades de recopilación de datos: [File transfer](file-transfer.md), [Data loading (file)](data-loading-file.md), [Data loading (RDBMS)](data-loading-rdbms.md), [Update data](update-data.md). Este primer paso de recopilación de datos prepara los datos para permitir que se procesen en otras actividades. Es necesario monitorizar varios parámetros para garantizar que el flujo de trabajo se ejecuta correctamente y proporciona los resultados esperados. Por ejemplo, al importar datos, la clave principal (Pkey) de estos datos debe ser exclusiva para cada registro.
-* Actividades de establecimiento de objetivos enriquecidas con opciones de administración de datos: [Query](query.md), [Union](union.md), [Intersection](intersection.md), [Split](split.md). Esto permite configurar una unión o una intersección entre los datos de distintas dimensiones de destino, siempre y cuando sea posible la reconciliación de los mismos.
+* Actividades de establecimiento de objetivos enriquecidas con opciones de administración de datos: [Query](query.md), [Union](union.md), [Intersection](intersection.md), [Split](split.md). Esto permite configurar una unión o una intersección entre los datos de distintas dimensiones de segmentación, siempre y cuando sea posible la reconciliación de los mismos.
 * Actividades de transformación de datos: [Enrichment](enrichment.md), [Change dimension](change-dimension.md).
 
 >[!CAUTION]
@@ -253,10 +252,10 @@ Para implementar estas operaciones, Adobe Campaign ofrece:
 
 ### Enriquecimiento y modificación de datos {#enriching-and-modifying-data}
 
-Además de la dimensión de destino, la dimensión de filtrado permite especificar la naturaleza de los datos recopilados. Consulte [Segmentación y filtrado de dimensiones](building-a-workflow.md#targeting-and-filtering-dimensions).
+Además de la dimensión de segmentación, la dimensión de filtrado permite especificar la naturaleza de los datos recopilados. Consulte [Segmentación y filtrado de dimensiones](building-a-workflow.md#targeting-and-filtering-dimensions).
 
 Los datos identificados y recopilados se pueden enriquecer, añadir y manipular para optimizar la construcción de objetivos. Para ello, además de las actividades de manipulación de datos detalladas en la sección [Segmentar datos](#segmenting-data), utilice lo siguiente:
 
 * La actividad **[!UICONTROL Enrichment]** permite añadir rápidamente columnas a un esquema, así como añadir información a ciertos elementos. Se detalla en la sección [Enrichment](enrichment.md) del repositorio de actividades.
 * La actividad **[!UICONTROL Edit schema]** permite modificar la estructura de un esquema. Se detalla en la sección [Edit schema](edit-schema.md) del repositorio de actividades.
-* La actividad **[!UICONTROL Change dimension]** permite cambiar la dimensión objetivo durante el ciclo de construcción del mismo. Se detalla en la sección [Change dimension](change-dimension.md).
+* La actividad **[!UICONTROL Change dimension]** permite cambiar la dimensión de segmentación durante el ciclo de construcción del mismo. Se detalla en la sección [Change dimension](change-dimension.md).

@@ -4,10 +4,9 @@ title: Agrupamiento de archivos
 description: Descubra más información sobre la actividad del flujo de trabajo Recolector de ficheros
 feature: Workflows, Data Management
 hide: true
-hidefromtoc: true
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
@@ -41,9 +40,9 @@ La primera pestaña de la actividad **[!UICONTROL File collector]** permite sele
 
    * **[!UICONTROL Stop as soon as a file has been processed]**
 
-     Si esta opción está activada, la tarea finaliza después de la recepción del primer archivo. Si hay varios archivos correspondientes al filtro en el directorio, solo se tendrá en cuenta uno. Esta opción garantiza que solo se envíe un evento. El archivo tenido en cuenta es la primero en la lista en orden alfabético.
+     Si esta opción está habilitada, la tarea finaliza después de la recepción del primer archivo. Si hay varios archivos correspondientes al filtro en el directorio, solo se tendrá en cuenta uno. Esta opción garantiza que solo se envíe un evento. El archivo tenido en cuenta es la primero en la lista en orden alfabético.
 
-     Para una actividad no programada, si no se encuentra ningún archivo que coincida con el filtro en el directorio especificado y si la opción **[!UICONTROL Process file nonexistence]** no está activada, se generará un error.
+     Para una actividad no programada, si no se encuentra ningún archivo que coincida con el filtro en el directorio especificado y si la opción **[!UICONTROL Process file nonexistence]** no está habilitada, se generará un error.
 
    * **[!UICONTROL Execution schedule]**
 

@@ -4,10 +4,9 @@ title: Enriquecimiento de correo electrónico con campos de datos personalizados
 description: Descubra cómo enriquecer correos electrónicos con campos de datos personalizados
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 100%
 
@@ -76,7 +75,7 @@ Ahora necesita configurar su actividad **[!UICONTROL Enrichment]**:
 
    ![](assets/uc_enrichment_11.png)
 
-1. A continuación, para crear el campo de fecha personalizado **Fecha de fin de validez**, que abarca la semana después del cumpleaños, se debe agregar la **[!UICONTROL Expression]**: `AddDays([target/@birthDate], 7)`.
+1. A continuación, para crear el campo de fecha personalizado **Validity end date**, que abarca la semana después del cumpleaños, se debe añadir la **[!UICONTROL Expression]**: `AddDays([target/@birthDate], 7)`.
 
    Se puede añadir una etiqueta a la expresión.
 

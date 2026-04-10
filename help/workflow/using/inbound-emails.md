@@ -4,10 +4,9 @@ title: Correos electrónicos entrantes
 description: Descubra más información sobre la actividad del flujo de trabajo Correos electrónicos entrantes
 feature: Workflows, Channels Activity
 hide: true
-hidefromtoc: true
 exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
 
@@ -27,7 +26,7 @@ La primera pestaña de la actividad **Inbound Emails** permite introducir los pa
 
    * **[!UICONTROL Use an external account]**
 
-     Cuando esta opción está activada, se puede seleccionar una cuenta POP3 externa en lugar de introducir los parámetros de conexión. El campo **[!UICONTROL External account]** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Este campo solo está visible si está activada la opción “Usar una cuenta externa”.
+     Cuando esta opción está activada, se puede seleccionar una cuenta POP3 externa en lugar de introducir los parámetros de conexión. El campo **[!UICONTROL External account]** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Este campo solo está visible si está habilitada la opción “Usar una cuenta externa”.
 
      Si no se selecciona esta opción, se deberán especificar los siguientes parámetros:
 

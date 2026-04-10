@@ -4,10 +4,9 @@ title: Uso de la actividad de aprobación local
 description: Descubra más información sobre cómo utilizar la actividad de aprobación local
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 100%
 
@@ -21,7 +20,7 @@ La actividad **[!UICONTROL Local approval]** integrada en un flujo de trabajo de
 
 >[!CAUTION]
 >
->Para utilizar esta función, es necesario adquirir el módulo Distributed Marketing, que es una opción de Campaign. Compruebe el acuerdo de licencia.
+>Para utilizar esta función, es necesario comprar el módulo Distributed Marketing, que es una opción de Campaign. Compruebe el acuerdo de licencia.
 
 Para configurar este caso de uso, se ha creado el siguiente flujo de trabajo de objetivo:
 

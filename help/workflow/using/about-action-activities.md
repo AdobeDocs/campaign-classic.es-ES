@@ -4,10 +4,9 @@ title: Acerca de las actividades de acción
 description: Acerca de las actividades de acción
 feature: Workflows, Data Management
 hide: true
-hidefromtoc: true
 exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
 
@@ -22,11 +21,11 @@ ht-degree: 100%
 * **Continuous delivery**: permite iniciar una entrega desde el escenario especificado en la actividad. Consulte la sección [Envío continuo](continuous-delivery.md).
 * **Recurring delivery**: permite configurar una instancia de plantilla de envío dentro de una campaña. Consulte [Envío recurrente](recurring-delivery.md).
 * **Cross-channel deliveries**: permite configurar una entrega en el canal correspondiente. Consulte la sección [Envíos multicanal](cross-channel-deliveries.md).
-* **Local approval**: permite realizar aprobaciones y dirigir notificaciones en un contexto de marketing distribuido (módulo opcional). Consulte [Aprobación local](local-approval.md).
+* **Local approval**: permite realizar aprobaciones y segmentar notificaciones en un contexto de marketing distribuido (módulo opcional). Consulte [Aprobación local](local-approval.md).
 * **Data loading (RDBMS)**: permite acceder a una base de datos externa para obtener datos. Consulte la sección [Carga de datos (RDBMS)](data-loading-rdbms.md).
 * **Loading (SOAP)**: permite recopilar datos mediante una llamada SOAP. Consulte [Carga (SOAP)](loading-soap.md).
 * **Data loading (file)**: permite acceder a un origen de datos externo para utilizar sus datos. Consulte la sección [Carga de datos (archivo)](data-loading-file.md).
-* **Content management**: permite crear o personalizar contenidos. Consulte la sección [Administración de contenido](content-management.md).
+* **Administración de contenido**: permite crear o personalizar contenidos. Consulte la sección [Administración de contenido](content-management.md).
 * **Extraction (file)**: permite extraer datos de una tabla en un archivo. Consulte la sección [Extracción (archivo)](extraction-file.md).
 * **SQL code and JavaScript code**: ejecuta el script SQL o JavaScript especificado en la actividad. Consulte [Código SQL y código JavaScript](sql-code-and-javascript-code.md).
 * **SQL Data Management**: permite escribir sus propias consultas SQL para crear y rellenar tablas de trabajo. Consulte [Administración de datos SQL](sql-data-management.md).

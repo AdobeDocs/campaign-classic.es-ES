@@ -4,12 +4,11 @@ title: Plantillas y secuencias de comandos de JavaScript
 description: Plantillas y secuencias de comandos de JavaScript
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '1247'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '1243'
+ht-degree: 97%
 
 ---
 

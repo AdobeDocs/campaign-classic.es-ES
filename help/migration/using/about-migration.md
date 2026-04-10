@@ -1,15 +1,14 @@
 ---
 product: campaign
-title: Migración al Campaign Classic
-description: Obtenga información sobre cómo migrar al Campaign Classic desde una versión anterior de Campaign
+title: Migración a Campaign Classic
+description: Obtenga información sobre cómo migrar a Campaign Classic desde una versión anterior de Campaign
 feature: Upgrade
 audience: migration
 content-type: reference
 topic-tags: migration-overview
 hide: true
-hidefromtoc: true
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 2%
@@ -22,7 +21,7 @@ ht-degree: 2%
 
 Este documento detalla los requisitos previos para una migración y los pasos para una migración a Adobe Campaign Classic v7. Los pasos y la configuración opcional dependen de la configuración.
 
-El proceso migratorio debe llevarse a cabo con cautela, sus impactos deben ser plenamente considerados de antemano y el procedimiento debe llevarse a cabo con rigor. Solo debe ser realizado por un usuario experto. Recomendamos encarecidamente que se ponga en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) antes de iniciar cualquier procedimiento de migración.
+El proceso migratorio debe llevarse a cabo con cautela, sus impactos deben ser plenamente considerados de antemano y el procedimiento debe llevarse a cabo con rigor. Solo debe ser realizado por un usuario experto. Se recomienda encarecidamente ponerse en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) antes de iniciar cualquier procedimiento de migración.
 
 La migración debe probarse previamente en el entorno de prueba/fase para asegurarse de que se ejecuta sin problemas y sin errores. La migración del entorno de producción solo debe realizarse una vez que el entorno de prueba migrado esté completamente validado.
 

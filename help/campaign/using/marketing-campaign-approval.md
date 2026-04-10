@@ -6,9 +6,8 @@ language: en
 role: User
 feature: Approvals, Campaigns
 hide: true
-hidefromtoc: true
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: df014d3f3029a61176e5117e27f3d2e8228fc407
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '2665'
 ht-degree: 78%

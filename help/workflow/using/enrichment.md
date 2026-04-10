@@ -4,10 +4,9 @@ title: Enriquecimiento
 description: Descubra más información sobre la actividad del flujo de trabajo Enriquecimiento
 feature: Workflows, Enrichment Activity, Targeting Activity
 hide: true
-hidefromtoc: true
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 100%
 
@@ -62,7 +61,7 @@ Utilice la actividad **[!UICONTROL Enrichment]** para añadir columnas a una tab
 
 La configuración de columnas adicionales se detalla en [Añadir datos](query.md#adding-data).
 
-El campo **[!UICONTROL Primary set]** permite seleccionar la transición entrante: los datos de la tabla de resultados de esta actividad se ampliarán.
+El campo **[!UICONTROL Primary set]** permite seleccionar la transición entrante: los datos de la tabla de trabajo de esta actividad se ampliarán.
 
 Haga clic en el vínculo **[!UICONTROL Add data]** y seleccione el tipo de datos que desee añadir. La lista de tipos de datos ofrecidos depende de los módulos y las opciones instalados en la plataforma. En una configuración básica, siempre se pueden agregar datos vinculados a la dimensión de filtrado y al vínculo.
 
@@ -76,7 +75,7 @@ Haga clic con el botón derecho en la transición entrante de la actividad desar
 
 ![](assets/enrichment_content_before.png)
 
-La tabla de resultados contiene el esquema asociado y los siguientes datos:
+La tabla de trabajo contiene el esquema asociado y los siguientes datos:
 
 ![](assets/enrichment_content_before_a.png)
 
@@ -92,7 +91,7 @@ El esquema coincidente también se ha enriquecido.
 
 ## Gestión de datos adicionales {#managing-additional-data}
 
-Desmarque la opción **[!UICONTROL Keep all additional data from the main set]** si no desea conservar los datos adicionales definidos previamente. En este caso, solo las columnas adicionales seleccionadas en la actividad de enriquecimiento se añadirán a la tabla de resultados saliente. La información adicional añadida a las actividades anteriores no se guardará.
+Desmarque la opción **[!UICONTROL Keep all additional data from the main set]** si no desea conservar los datos adicionales definidos previamente. En este caso, solo las columnas adicionales seleccionadas en la actividad de enriquecimiento se añadirán a la tabla de trabajo saliente. La información adicional añadida a las actividades anteriores no se guardará.
 
 ![](assets/enrichment_edit_without_additional.png)
 
@@ -121,11 +120,11 @@ Para ello, siga los siguientes pasos:
    83TY2;SWITZERLAND;mike@gmail.com
    ```
 
-1. Edite la actividad de enriquecimiento y haga clic en el vínculo **Add data...** para establecer un vínculo con la lista del país.
+1. Edite la actividad de enriquecimiento y haga clic en el vínculo **Add data...** para establecer un vínculo con la tabla del país.
 
    ![](assets/enrichment_edit_after_file_box.png)
 
-1. Seleccione la opción **[!UICONTROL Link definition]** y haga clic en el botón **[!UICONTROL Next]**. Especifique el tipo de vínculo que se va a crear. En este ejemplo, se desea reconciliar el país del destinatario del archivo con un país en la lista de países disponibles de la lista de la base de datos. Elija la opción **[!UICONTROL Define a link by searching for a reference among several options]**. Seleccione la lista del país en el campo **[!UICONTROL Target schema]**.
+1. Seleccione la opción **[!UICONTROL Link definition]** y haga clic en el botón **[!UICONTROL Next]**. Especifique el tipo de vínculo que se va a crear. En este ejemplo, se desea reconciliar el país del destinatario del archivo con un país en la lista de países disponibles de la tabla de la base de datos. Elija la opción **[!UICONTROL Define a link by searching for a reference among several options]**. Seleccione la lista del país en el campo **[!UICONTROL Target schema]**.
 
    ![](assets/enrichment_add_a_link_select_option4.png)
 
@@ -133,13 +132,13 @@ Para ello, siga los siguientes pasos:
 
    ![](assets/enrichment_add_a_link_select_join.png)
 
-En la salida de esta actividad de enriquecimiento, el esquema temporal contendrá el vínculo a la lista del país:
+En la salida de esta actividad de enriquecimiento, el esquema temporal contendrá el vínculo a la tabla del país:
 
 ![](assets/enrichment_external_link_schema.png)
 
 ## Reconciliación de datos {#data-reconciliation}
 
-La actividad de enriquecimiento se puede utilizar para configurar la reconciliación de datos, incluso una vez cargada la información en la base de datos. En este caso, la pestaña **[!UICONTROL Reconciliation]** permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla de resultados.
+La actividad de enriquecimiento se puede utilizar para configurar la reconciliación de datos, incluso una vez cargada la información en la base de datos. En este caso, la pestaña **[!UICONTROL Reconciliation]** permite definir el vínculo entre los datos de la base de datos de Adobe Campaign y los de la tabla de trabajo.
 
 Seleccione la opción **[!UICONTROL Identify the targeting document based on work data]**, especifique el esquema al que desee añadir un vínculo y defina las condiciones del vínculo: para ello, seleccione los campos a reconciliar en los datos de trabajo (**[!UICONTROL Source expression]**) y en la dimensión de segmentación (**[!UICONTROL Destination expression]**).
 

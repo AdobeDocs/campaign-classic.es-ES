@@ -4,10 +4,9 @@ title: Propiedades del flujo de trabajo
 description: Descubra más información sobre las propiedades del flujo de trabajo de la campaña
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 100%
 
@@ -51,13 +50,13 @@ Esta sección solo aparece en los flujos de trabajo de la campaña.
 
   Esta funcionalidad se reserva únicamente a los usuarios avanzados. Afecta a los flujos de trabajo que incluyen actividades de objetivos (consulta, unión, intersección, etc.). Cuando se activa esta opción, las consultas SQL enviadas a la base de datos durante la ejecución del flujo de trabajo se muestran en Adobe Campaign: esto significa que puede revisarlas para optimizar consultas o diagnosticar problemas.
 
-  Las consultas se muestran en una pestaña **[!UICONTROL SQL logs]** que se añade al flujo de trabajo (excepto a los flujos de trabajo de la campaña) y a la actividad **[!UICONTROL Properties]** cuando la opción está activada. La pestaña **[!UICONTROL Audit]** también incluye consultas SQL.
+  Las consultas se muestran en una pestaña **[!UICONTROL SQL logs]** que se añade al flujo de trabajo (excepto a los flujos de trabajo de la campaña) y a la actividad **[!UICONTROL Properties]** cuando la opción está habilitada. La pestaña **[!UICONTROL Audit]** también incluye consultas SQL.
 
   ![](assets/wf_tab_log_sql.png)
 
 * **[!UICONTROL Execute in the engine]**
 
-  Esta opción solo puede utilizarse para tareas de depuración, nunca de producción. Cuando está activada, el flujo de trabajo tiene prioridad y el resto de flujos de trabajo se detienen hasta que este haya terminado.
+  Esta opción solo puede utilizarse para tareas de depuración, nunca de producción. Cuando está habilitada, el flujo de trabajo tiene prioridad y el resto de flujos de trabajo se detienen hasta que este haya terminado.
 
 ### Administración de errores {#error-management}
 

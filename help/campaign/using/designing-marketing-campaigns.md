@@ -5,9 +5,8 @@ description: Defina, optimice, ejecute y analice campañas de marketing
 role: User
 feature: Campaigns
 hide: true
-hidefromtoc: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: df014d3f3029a61176e5117e27f3d2e8228fc407
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 80%
@@ -70,6 +69,6 @@ Los siguientes conceptos son esenciales para conocer mejor Campaign:
 
 Este vídeo presenta los conceptos clave de las campañas de marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/326574?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
-Hay disponibles [!DNL Campaign Classic]más vídeos de procedimientos para [&#x200B; aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
+Hay disponibles [!DNL Campaign Classic]más vídeos de procedimientos para [ aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

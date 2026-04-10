@@ -5,10 +5,9 @@ description: Proveedores, stock y presupuestos
 role: User
 feature: Budget Management, Campaigns
 hide: true
-hidefromtoc: true
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1918'
 ht-degree: 100%
 
@@ -230,7 +229,7 @@ Cuando cree una existencia, haga clic en la pestaña **[!UICONTROL Stock lines]*
 
 ![](assets/s_ncs_user_stocks_display_line.png)
 
-Una vez creado el inventario, haga clic en él para editar y utilizar su panel para crear y ver líneas de stock.
+Una vez creado el inventario, haga clic en él para editar y utilizar su panel de control para crear y ver líneas de stock.
 
 Haga clic en el botón **[!UICONTROL Create]** para definir los parámetros de stock.
 

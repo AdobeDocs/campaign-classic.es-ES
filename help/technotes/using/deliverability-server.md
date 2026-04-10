@@ -4,29 +4,28 @@ title: Actualización del nuevo servidor de envío
 description: Obtenga información sobre cómo actualizar al nuevo servidor de envío de Campaign
 feature: Technote, Deliverability
 hide: true
-hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: c42d4022587846081442a39d03546c0ef335c7a0
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '986'
+ht-degree: 16%
 
 ---
 
 # Actualización del nuevo servidor de envío {#acc-deliverability}
 
-A partir de la versión [v7.2.2](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign depende de un nuevo servidor de entrega que ofrece alta disponibilidad y soluciona problemas de cumplimiento de seguridad. Campaign Classic ahora sincroniza las reglas de envío, los broadlogs y la dirección de supresión desde y hacia el nuevo servidor de envío. El antiguo servidor de capacidad de entrega se desactivará el 31 de agosto de 2022.
+A partir de la versión [v7.2.2](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign depende de un nuevo servidor de entrega que ofrece alta disponibilidad y soluciona problemas de cumplimiento de seguridad. Campaign Classic ahora sincroniza las reglas de entrega, los broadlogs y la dirección de supresión desde y hacia el nuevo servidor de entrega. El antiguo servidor de capacidad de entrega se desactivará el 31 de agosto de 2022.
 
-Como cliente Campaign Classic, debe implementar el nuevo servidor de capacidad de entrega **antes del 31 de agosto de 2022**.
+Como cliente de Campaign Classic, debe implementar el nuevo servidor de capacidad de entrega **antes del 31 de agosto de 2022**.
 
 >[!NOTE]
 >
->Para obtener más información sobre estos cambios, consulta las [preguntas frecuentes](#faq) o ponte en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}.
+>Para obtener más información sobre estos cambios, consulta las [preguntas frecuentes](#faq) o comunícate con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}.
 >
 
 ## ¿Qué ha cambiado?{#acc-deliverability-changes}
 
-El Adobe está retirando los centros de datos más antiguos por motivos de cumplimiento de la seguridad. Los clientes de Adobe Campaign Classic deben migrar al nuevo servicio de capacidad de entrega, alojado en Amazon Web Service (AWS).
+Adobe está retirando los centros de datos más antiguos por motivos de cumplimiento de la seguridad. Los clientes de Adobe Campaign Classic deben migrar al nuevo servicio de capacidad de entrega, alojado en Amazon Web Service (AWS).
 
 Este nuevo servidor garantiza una alta disponibilidad (99.9)&#x200B; y proporciona puntos de conexión seguros y autenticados para permitir que los servidores de campaña recuperen los datos necesarios: en lugar de conectarse a la base de datos para cada solicitud, el nuevo servidor de capacidad de entrega almacena en caché los datos para servir las solicitudes siempre que sea posible. Este mecanismo mejora el tiempo de respuesta&#x200B;
 
@@ -38,7 +37,7 @@ Todos los clientes se verán afectados y deberán actualizar a [Campaign v7.2.2]
 
 Como **cliente alojado**, Adobe trabajará con usted para actualizar sus instancias a la versión más reciente y crear el proyecto en Adobe Developer Console.
 
-Como **cliente on-premise/híbrido**, debe actualizar a [Campaign v7.2.2](../../rn/using/latest-release.md#release-7-2-2) (o más) para beneficiarse del nuevo servidor de entrega. Una vez que todas las instancias se hayan actualizado, debe [implementar la nueva integración](#implementation-steps) en el servidor de envío de Adobe y garantizar una transición sin problemas.
+Como **cliente on-premise/híbrido**, debe actualizar a [Campaign v7.2.2](../../rn/using/latest-release.md#release-7-2-2) (o más) para beneficiarse del nuevo servidor de entrega. Una vez que todas las instancias se hayan actualizado, debe [implementar la nueva integración](#implementation-steps) en el servidor de entrega de Adobe y garantizar una transición sin problemas.
 
 ## Pasos de implementación {#implementation-steps}
 
@@ -46,7 +45,7 @@ Como **cliente on-premise/híbrido**, debe actualizar a [Campaign v7.2.2](../../
 >
 >Estos pasos solo deben llevarse a cabo para implementaciones híbridas y locales.
 
-Como parte de la nueva integración del servidor de entrega, Campaign debe comunicarse con Adobe Shared Services a través de una autenticación basada en Identity Management Service (IMS). La forma preferida es utilizar el token de puerta de enlace basado en Adobe Developer (también llamado token de cuenta técnica o JWT de E/S de Adobe).
+Como parte de la nueva integración del servidor de entrega, Campaign debe comunicarse con Adobe Shared Services a través de una autenticación basada en Identity Management Service (IMS). La forma preferida es utilizar el token de puerta de enlace basado en Adobe Developer (también llamado token de cuenta técnica o JWT de Adobe IO).
 
 >[!AVAILABILITY]
 >
@@ -65,17 +64,17 @@ Antes de iniciar la implementación, compruebe la configuración de la instancia
 1. Compruebe que el valor de la opción `DmRendering_cuid` esté rellenado.
 
    * Si la opción está rellenada, puede iniciar la implementación.
-   * Si no se rellena ningún valor, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} para obtener su CUID.
+   * Si no se rellena ningún valor, comuníquese con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} para obtener su CUID.
 
-   Esta opción debe rellenarse en todas las instancias de Campaign (MKT, MID, RT, EXEC) con el valor correcto. Como cliente híbrido, póngase en contacto con Adobe para que establezca la opción en las instancias MID, RT y EXEC.
+   Esta opción debe rellenarse en todas las instancias de Campaign (MKT, MID, RT, EXEC) con el valor correcto. Como cliente híbrido, póngase en contacto con Adobe para que establezca la opción en sus instancias MID, RT y EXEC.
 
 Como cliente On-Premise, también debe comprobar que haya una campaña **[!UICONTROL Product profile]** disponible para su organización. Para realizar esto, siga los pasos a continuación:
 
-1. Como administrador, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}.
+1. Conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/){_blank} como administrador.
 1. Acceda a la sección **Productos y servicios** y verifique que **Adobe Campaign** aparezca en la lista.
-Si no puede ver **Adobe Campaign**, comuníquese con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} para que se lo agreguen.
+Si no puede ver **Adobe Campaign**, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} para que se lo agreguen.
 1. Haga clic en **Adobe Campaign** y seleccione su organización.
-   **Precaución**: Si tiene más de una organización, asegúrese de seleccionar la correcta. Obtenga más información acerca de las organizaciones [en esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es#ims-org-id){_blank}.
+   **Precaución**: Si tiene más de una organización, asegúrese de seleccionar la correcta. Obtenga más información acerca de las organizaciones [en esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
 
 1. Compruebe que existe un **[!UICONTROL Product profile]**. Si no es así, créela. No se requiere permiso para este **[!UICONTROL Product profile]**.
 
@@ -101,7 +100,7 @@ Para comprobar que la integración se ha realizado correctamente, siga los pasos
 
 1. Abra la consola del cliente e inicie sesión en Adobe Campaign.
 1. Vaya a **Administración > Producción > Flujos de trabajo técnicos**.
-1. Reinicie el flujo de trabajo **Actualizar la entrega** (deliverabilityUpdate). Esto debe realizarse en todas las instancias de Campaign (MKT, MID, RT, EXEC). Como cliente híbrido, póngase en contacto con el Adobe de para que se reinicie el flujo de trabajo en las instancias MID, RT y EXEC.
+1. Reinicie el flujo de trabajo **Actualizar la entrega** (deliverabilityUpdate). Esto debe realizarse en todas las instancias de Campaign (MKT, MID, RT, EXEC). Como cliente híbrido, póngase en contacto con Adobe para que reinicie el flujo de trabajo en las instancias MID, RT y EXEC.
 1. Comprobar registros: el flujo de trabajo se debe ejecutar sin errores.
 
 >[!CAUTION]

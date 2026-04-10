@@ -3,10 +3,9 @@ product: campaign
 title: Entregas
 description: Descubra más información sobre los flujos de trabajo Entregas
 hide: true
-hidefromtoc: true
 feature: Workflows
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 100%
 
@@ -44,7 +43,7 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **En
   <tr> 
    <td> <span class="uicontrol">Actualizar la entrega</span> <br /> </td> 
    <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
-   <td> Este flujo de trabajo le permite crear la lista de reglas de los atributos del correo rechazado, así como la lista de dominios y los MX de la plataforma. Este flujo de trabajo solo funciona si el puerto HTTPS está abierto. Estas listas no se actualizan a menos que se instale el módulo Deliverability.<br /> </td> 
+   <td> Este flujo de trabajo le permite crear la lista de reglas de las calificaciones del correo rechazado, así como la lista de dominios y los MX de la plataforma. Este flujo de trabajo solo funciona si el puerto HTTPS está abierto. Estas listas no se actualizan a menos que se instale el módulo Deliverability.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Database cleanup</span> <br /> </td> 

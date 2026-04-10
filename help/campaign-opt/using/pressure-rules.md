@@ -5,10 +5,9 @@ description: Aprenda a trabajar con reglas de presión en Adobe Campaign
 role: User, Developer
 feature: Fatigue Management, Typology Rules, Campaigns
 hide: true
-hidefromtoc: true
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '3335'
 ht-degree: 100%
 
@@ -217,7 +216,7 @@ Si este número supera el umbral, se aplican las reglas de mediación definidas 
 
 ### Adaptación del umbral según el criterio {#adapting-the-threshold-based-on-criterion}
 
-Queremos crear una regla de tipología para evitar la entrega de más de cuatro mensajes por semana a los clientes y de más de dos mensajes por semana a los posibles clientes.
+Queremos crear una regla de tipología para evitar la entrega de más de cuatro mensajes por semana a los clientes y de más de dos mensajes por semana a los clientes potenciales.
 
 Para identificar clientes y clientes potenciales, utilice el campo **[!UICONTROL Status]**, que contiene 0 para los clientes potenciales y 1 para los clientes.
 

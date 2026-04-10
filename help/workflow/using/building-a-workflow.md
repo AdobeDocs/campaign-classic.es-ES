@@ -4,10 +4,9 @@ title: Creación de un flujo de trabajo
 description: Descubra cómo generar un flujo de trabajo
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 100%
 
@@ -155,11 +154,11 @@ Los resultados de todos los enriquecimientos y todas las gestiones realizadas du
 
 ### Establecimiento de objetivos y filtrado de dimensiones {#targeting-and-filtering-dimensions}
 
-Durante las operaciones de segmentación de datos, la clave de establecimiento de objetivos se asigna a una dimensión de filtrado. La dimensión objetivo permite definir la población objetivo de la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. La dimensión de filtrado permite seleccionar la población en función de determinados criterios: titulares de contrato, suscriptores a boletines, etc.
+Durante las operaciones de segmentación de datos, la clave de establecimiento de objetivos se asigna a una dimensión de filtrado. La dimensión de segmentación permite definir la población objetivo de la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. La dimensión de filtrado permite seleccionar la población en función de determinados criterios: titulares de contrato, suscriptores a boletines, etc.
 
 Por ejemplo, para seleccionar clientes que han tenido una póliza de seguro de vida durante más de 5 años, seleccione la siguiente dimensión de segmentación: **Clients** y la siguiente dimensión de filtrado: **Contract holder**. Después, puede definir las condiciones de filtrado dentro de la actividad de consulta.
 
-Durante la fase de selección de la dimensión objetivo, solo se ofrecen en la interfaz las dimensiones de filtrado compatibles.
+Durante la fase de selección de la dimensión de segmentación, solo se ofrecen en la interfaz las dimensiones de filtrado compatibles.
 
 Estas dos dimensiones deben estar vinculadas. Por lo tanto, el contenido de la lista **[!UICONTROL Filtering dimension]** depende de la dimensión de segmentación especificada en el primer campo.
 
@@ -179,7 +178,7 @@ Para cada campaña se pueden crear flujos de trabajo que se ejecutan desde la pe
 
 Esta pestaña contiene las mismas actividades para todos los flujos de trabajo. [Más información](#implementation-steps-)
 
-Además de las campañas de destino, los flujos de trabajo de la campaña permiten crear y configurar envíos de principio a fin para todos los canales disponibles. Una vez creados en el flujo de trabajo, estos envíos están disponibles en el panel de la campaña. [Más información](../../campaign/using/marketing-campaign-deliveries.md)
+Además de las campañas de destino, los flujos de trabajo de la campaña permiten crear y configurar envíos de principio a fin para todos los canales disponibles. Una vez creados en el flujo de trabajo, estos envíos están disponibles en el panel de control de la campaña. [Más información](../../campaign/using/marketing-campaign-deliveries.md)
 
 Todos los flujos de trabajo de campaña están centralizados en el nodo **[!UICONTROL Administration > Production > Objects created automatically > Campaign workflows]**.
 

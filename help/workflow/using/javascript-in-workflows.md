@@ -4,10 +4,9 @@ title: Ejemplos de código JavaScript en flujos de trabajo
 description: Estos ejemplos muestran cómo se puede utilizar código JavaScript en un flujo de trabajo
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1695'
 ht-degree: 100%
 
@@ -47,7 +46,7 @@ Para probar estos ejemplos, siga estos pasos:
 
 Para escribir en la base de datos, puede utilizar el método estático `Write` en el esquema `xtk:session`:
 
-1. Componga una solicitud de escritura en XML.
+1. Redacte una solicitud de escritura en XML.
 
 1. Escriba el registro:
 
@@ -58,7 +57,7 @@ Para escribir en la base de datos, puede utilizar el método estático `Write` e
 
    1. Pase el código XML como argumento para la solicitud de escritura.
 
-### Paso 1: componer una solicitud de escritura
+### Paso 1: redactar una solicitud de escritura
 
 Puede añadir, actualizar y eliminar registros.
 
@@ -149,11 +148,11 @@ Este vídeo muestra cómo escribir en la base de datos:
 
 Para consultar la base de datos, puede utilizar el método de instancia no estático `xtk:queryDef`:
 
-1. Componga una consulta en XML.
+1. Redacte una consulta en XML.
 1. Cree un objeto de consulta.
 1. Ejecute la consulta.
 
-### Paso 1: componer una consulta
+### Paso 1: redactar una consulta
 
 Especifique el código XML para una entidad `queryDef`.
 
@@ -239,7 +238,7 @@ var query = xtk.queryDef.create(
     </queryDef>)
 ```
 
-Prefije el método `create(`*`content`*`)` con el esquema de la entidad que se va a crear.
+Use el esquema de la entidad que se va a crear como prefijo del método `create(`*`content`*`)`.
 
 El argumento *`content`* es de cadena y opcional. Este argumento contiene el código XML que describe la entidad.
 

@@ -4,10 +4,9 @@ title: Envío de un correo electrónico de cumpleaños
 description: Descubra más información sobre cómo enviar un correo electrónico de cumpleaños con un flujo de trabajo
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
 
@@ -130,7 +129,7 @@ La selección de los destinatarios cuyo cumpleaños corresponde a la fecha actua
 
 La actividad **[!UICONTROL Test]** permite comprobar si es un año bisiesto o no y si la fecha actual es el 1 de marzo.
 
-Si se verifica la prueba (el año no es un año bisiesto: no hay 29 de febrero y la fecha actual es de hecho 1 de marzo), la transición **[!UICONTROL True]** se activa y los destinatarios nacidos el 29 de febrero se añadirán a la entrega del 1 de marzo. En caso contrario, la transición **[!UICONTROL False]** se activa y solo los destinatarios nacidos en la fecha actual reciben la entrega.
+Si se verifica la prueba (el año no es un año bisiesto: no hay 29 de febrero y la fecha actual es de hecho 1 de marzo), la transición **[!UICONTROL True]** se habilita y los destinatarios nacidos el 29 de febrero se añadirán a la entrega del 1 de marzo. En caso contrario, la transición **[!UICONTROL False]** se habilita y solo los destinatarios nacidos en la fecha actual reciben la entrega.
 
 Copie y pegue el código siguiente en la sección **[!UICONTROL Initialization script]** de la pestaña **[!UICONTROL Advanced]**.
 
@@ -204,7 +203,7 @@ Añada una actividad de **Entrega recurrente** basada en la plantilla de correo 
 
 >[!CAUTION]
 >
->Para que se ejecuten los flujos de trabajo, se deben iniciar los flujos de trabajo técnicos relacionados con el paquete de Campaign. Para obtener más información sobre esto, consulte la sección [Lista de flujos de trabajo técnicos](about-technical-workflows.md).
+>Para que se ejecuten los flujos de trabajo, se deben iniciar los flujos de trabajo técnicos relacionados con el paquete de campaña. Para obtener más información sobre esto, consulte la sección [Lista de flujos de trabajo técnicos](about-technical-workflows.md).
 >
 >Si los pasos de aprobación están habilitados para la campaña, las entregas solo se realizan una vez que estén confirmados los pasos. Para obtener más información sobre esto, consulte la sección [Elección de los procesos que se van a aprobar](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved) .
 

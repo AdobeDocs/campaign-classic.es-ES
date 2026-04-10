@@ -4,10 +4,9 @@ title: Acerca de los casos de uso de flujos de trabajo
 description: Obtenga más información sobre los casos de uso que puede realizar con los flujos de trabajo de Campaign Classic
 feature: Workflows, Data Management
 hide: true
-hidefromtoc: true
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
 
@@ -65,7 +64,7 @@ Le ayudarán a descubrir los diferentes contextos en los que se pueden utilizar 
 * [Realización de computación agregada](performing-aggregate-computing.md)
 * [Realización de consultas mediante la administración de agrupación](querying-using-grouping-management.md)
 * [Realización de consultas con una relación de varios a varios](querying-using-many-to-many-relationship.md)
-* [Adición de un campo calculado de tipo de lista desglosada](adding-enumeration-type-calculated-field.md)
+* [Adición de un campo calculado de tipo Enumeración](adding-enumeration-type-calculated-field.md)
 * [Creación de filtros](creating-a-filter.md)
 * [Filtrado de destinatarios duplicados](filtering-duplicated-recipients.md)
 * [Llamada a una variable de instancia en una consulta](javascript-scripts-and-templates.md#calling-an-instance-variable-in-a-query)

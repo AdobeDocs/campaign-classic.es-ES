@@ -5,12 +5,11 @@ description: Descubra la configuración específica de entrega de la versión 7
 feature: Channel Configuration
 role: User
 hide: true
-hidefromtoc: true
 exl-id: 66250817-f829-4b8b-92dd-2daa92a97fe0
-source-git-commit: 2e3a14c97706a873f0791ef83708d704d2eed6c3
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '709'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -81,4 +80,4 @@ Una vez iniciada la entrega, se pueden enviar los mensajes (y los reintentos) ha
 
 * **Límite de validez de los recursos**: El campo **[!UICONTROL Validity limit]** se utiliza para los recursos cargados, principalmente para la página espejo y las imágenes. Los recursos de esta página son válidos durante un tiempo limitado (para ahorrar espacio en el disco).
 
-  Los valores de este campo se pueden expresar en las siguientes unidades: **s** para segundos, **m** para minutos, **h** para horas, **d** para días (predeterminado), **y** para años.
+  Los valores de este campo se pueden expresar en las siguientes unidades: **s** para segundos, **m** para minutos, **h** para horas, **d** para días (predeterminado) y **y** para años.

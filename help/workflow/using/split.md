@@ -4,11 +4,10 @@ title: División
 description: Descubra más información sobre la actividad del flujo de trabajo División
 feature: Workflows, Targeting Activity
 hide: true
-hidefromtoc: true
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '1971'
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '1970'
 ht-degree: 100%
 
 ---
@@ -133,7 +132,7 @@ Para ver un ejemplo de la actividad **[!UICONTROL Local approval]** con una plan
 
 >[!IMPORTANT]
 >
->Para utilizar esta función, es necesario adquirir el módulo Distributed Marketing, que es una opción de Campaign. Compruebe el acuerdo de licencia.
+>Para utilizar esta función, es necesario comprar el módulo Distributed Marketing, que es una opción de Campaign. Compruebe el acuerdo de licencia.
 
 La plantilla de distribución de datos permite limitar el número de registros usando una lista de valores de agrupación. Para crear una plantilla de distribución de datos, siga los siguientes pasos:
 
@@ -148,7 +147,7 @@ La plantilla de distribución de datos permite limitar el número de registros u
    Se deben introducir los campos siguientes:
 
    * **[!UICONTROL Label]**: etiqueta para la plantilla de distribución.
-   * **[!UICONTROL Targeting dimension]**: introduzca la dimensión objetivo a la que se aplicará la distribución de datos, **[!UICONTROL Recipient]** por ejemplo. Este esquema siempre debe ser compatible con los datos utilizados en el flujo de trabajo de segmentación.
+   * **[!UICONTROL Targeting dimension]**: introduzca la dimensión de segmentación a la que se aplicará la distribución de datos, **[!UICONTROL Recipient]** por ejemplo. Este esquema siempre debe ser compatible con los datos utilizados en el flujo de trabajo de segmentación.
    * **[!UICONTROL Distribution field]**: seleccione un campo mediante la dimensión de segmentación. Por ejemplo, si selecciona el campo **[!UICONTROL Email domain]**, la lista de destinatarios se desglosará por dominio.
    * **[!UICONTROL Distribution type]**: seleccione la forma en que se desglosará el valor de limitación del objetivo en la ficha **[!UICONTROL Distribution]**: **[!UICONTROL Percentage]** o **[!UICONTROL Set]**.
    * **[!UICONTROL Assignment type]**: seleccione el tipo de asignación de distribución de datos. Puede elegir entre asignación por grupo u operador o asignación por entidad local. La asignación por entidad local se utiliza en **Distributed Marketing**. Para obtener más información, consulte esta [sección](../../distributed/using/about-distributed-marketing.md).
@@ -236,6 +235,6 @@ Cada evento entrante debe especificar un objetivo definido por estos parámetros
 * esquema
 * recCount
 
-Este conjunto de tres valores identifica el destino resultante de la exclusión. **[!UICONTROL tableName]** es el nombre de la tabla que registra los identificadores de destinatario, **[!UICONTROL schema]** es el esquema de la población (normalmente nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
+Este conjunto de tres valores identifica el destino resultante de la exclusión. **[!UICONTROL tableName]** es el nombre de la tabla que registra los identificadores de destinatario, **[!UICONTROL schema]** es el esquema de la población (normalmente, nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
 
 La transición asociada al complemento tiene los mismos parámetros.

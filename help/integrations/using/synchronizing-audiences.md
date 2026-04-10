@@ -1,23 +1,22 @@
 ---
 product: campaign
-title: Sincronización de audiencias
-description: Obtenga información sobre cómo sincronizar audiencias con el conector ACS
+title: Sincronización de públicos
+description: Obtenga información sobre cómo sincronizar públicos con el conector ACS
 feature: ACS Connector
 hide: true
-hidefromtoc: true
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 100%
+source-wordcount: '1109'
+ht-degree: 98%
 
 ---
 
-# Sincronización de audiencias{#synchronizing-audiences}
+# Sincronización de públicos{#synchronizing-audiences}
 
 
 
-Puede crear una lista refinada mediante las funciones avanzadas de Campaign v7 y compartir esta lista directamente como una audiencia, en tiempo real y sin fisuras con Campaign Standard (incluidos los datos adicionales). El usuario de Campaign Standard puede consumir la audiencia en Adobe Campaign Standard.
+Puede crear una lista refinada mediante las funciones avanzadas de Campaign v7 y compartir esta lista directamente como un público, en tiempo real y sin fisuras con Campaign Standard (incluidos los datos adicionales). El usuario de Campaign Standard puede consumir el público en Adobe Campaign Standard.
 
 Los objetivos complejos que impliquen datos adicionales no duplicados en Campaign Standard solo se pueden lograr con Campaign v7.
 
@@ -34,7 +33,7 @@ Este ejemplo de uso muestra cómo preparar el objetivo de su entrega en Campaign
 Para lograr esto, es necesario lo siguiente:
 
 * Los destinatarios almacenados en la base de datos de Campaign v7 y sincronizarlos con Campaign Standard. Consulte la sección [Sincronización de perfiles](../../integrations/using/synchronizing-profiles.md).
-* Datos adicionales, como suscripciones o transacciones, almacenados en las tablas relacionadas con nms:recipients en la base de datos de Campaign v7. Estos datos pueden proceder de esquemas OOB o tablas personalizadas de Campaign v7. De forma predeterminada no están disponibles en Campaign Standard, ya que no están sincronizados.
+* Datos adicionales, como suscripciones o transacciones, almacenados en tablas relacionadas con nms:recipients en la base de datos de Campaign v7. Estos datos pueden proceder de esquemas OOB o tablas personalizadas de Campaign v7. De forma predeterminada no están disponibles en Campaign Standard, ya que no están sincronizados.
 * El derecho para ejecutar los flujos de trabajo en Campaign v7 y Campaign Standard.
 * El derecho para crear y ejecutar una entrega en Campaign Standard.
 
@@ -48,7 +47,7 @@ Una vez definidos el objetivo y los datos adicionales, es posible guardarlo como
 >
 >Este es un ejemplo. Según sus necesidades, puede simplemente crear una consulta con una lista de destinatarios y compartirla con ACS sin más procesamiento. También puede utilizar otras actividades de gestión de datos para preparar el objetivo final.
 
-Para obtener la audiencia final y sus datos adicionales:
+Para obtener el público final y sus datos adicionales:
 
 1. Cree un nuevo de flujo de trabajo desde **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]**.
 1. Añada una actividad de **[!UICONTROL Query]** y seleccione los destinatarios a los que desea enviar el correo electrónico final. Por ejemplo, todos los destinatarios de entre 18 y 30 años que viven en Francia.
@@ -94,7 +93,7 @@ Para obtener la audiencia final y sus datos adicionales:
 
 ## Uso compartido del destinatario con Campaign Standard {#share-the-target-with-campaign-standard}
 
-Una vez definido el público objetivo, puede compartirlo con ACS a través de una actividad de **[!UICONTROL List update]**.
+Una vez definida la población destinataria, puede compartirla con ACS a través de una actividad de **[!UICONTROL List update]**.
 
 1. En el flujo de trabajo creado anteriormente, añada una actividad **[!UICONTROL List update]** y especifique la lista que desea actualizar o crear.
 
@@ -106,26 +105,26 @@ Una vez definido el público objetivo, puede compartirlo con ACS a través de un
 
 1. Guarde y ejecute el flujo de trabajo.
 
-   El objetivo y sus datos adicionales se guardan en una lista de Campaign v7 y se comparten inmediatamente como una audiencia de lista en Campaign Standard. Solo los perfiles que se hayan duplicado se comparten con ACS.
+   El objetivo y sus datos adicionales se guardan en una lista de Campaign v7 y se comparten inmediatamente como un público de lista en Campaign Standard. Solo los perfiles que se hayan duplicado se comparten con ACS.
 
 Si se produce un error en la actividad **[!UICONTROL List update]**, significa que la sincronización con Campaign Standard puede haber fallado. Para poder ver más detalles sobre qué ha fallado, vaya a **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Process]** > **[!UICONTROL Diagnosis]**. Esta carpeta contiene los flujos de trabajo de sincronización activados por la ejecución de la actividad **[!UICONTROL List update]**. Consulte la sección [Solución de problemas del conector ACS](../../integrations/using/troubleshooting-the-acs-connector.md).
 
 ## Recuperación de los datos en Campaign Standard y uso en una entrega {#retrieve-the-data-in-campaign-standard-and-use-it-in-a-delivery}
 
-Una vez que el flujo de trabajo de objetivo se ejecuta en Campaign v7, puede encontrar la audiencia de lista en modo de solo lectura desde el menú **[!UICONTROL Audiences]** de Campaign Standard.
+Una vez que el flujo de trabajo de segmentación se ejecuta en Campaign v7, puede encontrar el público de lista en modo de solo lectura desde el menú **[!UICONTROL Audiences]** de Campaign Standard.
 
 ![](assets/acs_connect_deliveryworkflow_audience.png)
 
-Mediante la creación de un flujo de trabajo de entrega en Campaign Standard, es posible utilizar esta audiencia, así como los datos adicionales que contiene, en una entrega.
+Mediante la creación de un flujo de trabajo de entrega en Campaign Standard, es posible utilizar este público, así como los datos adicionales que contiene, en una entrega.
 
 1. Cree un nuevo flujo de trabajo a través del menú **[!UICONTROL Marketing activities]**.
-1. Añada una actividad **[!UICONTROL Read audience]** y seleccione la audiencia que ha compartido previamente desde Campaign v7.
+1. Añada una actividad **[!UICONTROL Read audience]** y seleccione el público que ha compartido previamente desde Campaign v7.
 
-   Esta actividad se utiliza para recuperar los datos de la audiencia seleccionada. También puede aplicar un **[!UICONTROL Source Filtering]** adicional si lo necesita utilizando la pestaña correspondiente de esta actividad.
+   Esta actividad se utiliza para recuperar los datos del público seleccionado. También puede aplicar un **[!UICONTROL Source Filtering]** adicional si lo necesita utilizando la pestaña correspondiente de esta actividad.
 
 1. Añada una actividad **[!UICONTROL Email delivery]** y configúrela como cualquier otra [actividad de entrega de correo electrónico](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/channel-activities/email-delivery.html?lang=es).
 1. Abra el contenido de la entrega.
-1. Añada un campo personalizado. En la ventana emergente, busque el nodo **[!UICONTROL Additional data (targetData)]**. Este nodo contiene los datos adicionales de la audiencia que se calcularon en el flujo de trabajo inicial de objetivo. Puede utilizarlos como cualquier otro campo personalizado.
+1. Añada un campo personalizado. En la ventana emergente, busque el nodo **[!UICONTROL Additional data (targetData)]**. Este nodo contiene los datos adicionales del público que se calcularon en el flujo de trabajo inicial de segmentación. Puede utilizarlos como cualquier otro campo personalizado.
 
    Para este ejemplo, el dato adicional proveniente del flujo de trabajo de objetivo original es el número de envíos a cada destinatario en los últimos 365 días. El alias de NBdeliveries especificado en el flujo de trabajo de objetivo se puede ver aquí.
 
@@ -142,7 +141,7 @@ Mediante la creación de un flujo de trabajo de entrega en Campaign Standard, es
 Una vez que la entrega y el contenido estén listos, realice la entrega:
 
 1. Ejecute el flujo de trabajo de entrega. Este paso prepara la entrega del correo electrónico.
-1. En el panel de entrega, confirme manualmente que la entrega se puede realizar.
+1. En el panel de control de entrega, confirme manualmente que la entrega se puede realizar.
 1. Monitorice los informes y “logs” de entrega
 
    * **En Campaign Standard**: Aceda a [informes](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html?lang=es) y [registros](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=es) relacionados a la entrega como para cualquier entrega.

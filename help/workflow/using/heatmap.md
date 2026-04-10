@@ -4,12 +4,11 @@ title: Mapa de calor del flujo de trabajo de Campaign
 description: Monitorice los flujos de trabajo con el mapa de calor del flujo de trabajo
 feature: Workflows, Heatmap
 hide: true
-hidefromtoc: true
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '1138'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '1137'
+ht-degree: 98%
 
 ---
 
@@ -99,7 +98,7 @@ Cada fila representa una hora del día y cada celda representa 5 minutos de esa 
 
 La cuadrícula muestra todos los flujos de trabajo que se ejecutan al mismo tiempo para cada uno de estos períodos de 5 minutos.
 
-En el ejemplo siguiente, entre las 8:00 y las 8:05 de la mañana, se están ejecutando tres flujos de trabajo (independientemente de su duración individual):
+En el ejemplo siguiente, entre las 8:00 y las 8:00, se están ejecutando tres flujos de trabajo (independientemente de su duración individual)::05am
 
 ![](assets/wkf_monitoring_ex_8am.png)
 

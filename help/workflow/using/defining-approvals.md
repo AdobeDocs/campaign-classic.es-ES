@@ -4,10 +4,9 @@ title: Definición de aprobaciones
 description: Las aprobaciones permiten a los operadores tomar las decisiones que rigen los flujos de trabajo o confirmar su ejecución continuada
 feature: Approvals
 hide: true
-hidefromtoc: true
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
 
@@ -66,7 +65,7 @@ Los grupos de operadores para las aprobaciones deben designarse como roles o fun
 
 ## Caducidades {#expirations}
 
-Las caducidades son transiciones específicas que se utilizan en diferentes clases de actividades y, en particular, en las autorizaciones. Puede utilizar un vencimiento para desencadenar una acción después de un tiempo determinado sin respuesta. También puede utilizarse, por ejemplo, para continuar el flujo de trabajo y asignar una aprobación a otro grupo.
+Las caducidades son transiciones específicas que se utilizan en diferentes clases de actividades y, en particular, en las autorizaciones. Puede utilizar una caducidad para desencadenar una acción después de un tiempo determinado sin respuesta. También puede utilizarse, por ejemplo, para continuar el flujo de trabajo y asignar una aprobación a otro grupo.
 
 La segunda pestaña de las propiedades de aprobación de actividad permite definir una o varias caducidades. De hecho, puede definir varios tipos de caducidad.
 

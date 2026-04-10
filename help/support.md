@@ -3,13 +3,12 @@ product: campaign
 title: Opciones de ayuda y asistencia de Campaign Classic
 description: ¿Necesita asistencia con Campaign Classic? ¡Está en el lugar correcto!
 feature: Troubleshooting
-hidefromtoc: true
 hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
@@ -40,8 +39,8 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <ul>
         <li><a href="platform/using/faq-campaign-classic-v7.md">Preguntas frecuentes sobre Campaign Classic v7</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">Actualización de compilación</a></li>
-        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html" target="_blank">Preguntas frecuentes completas sobre Campaign v8</a></li>
-        <li><a href="delivery/using/about-delivery-monitoring.md">Monitorización de envíos</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=es" target="_blank">Preguntas frecuentes completas sobre Campaign v8</a></li>
+        <li><a href="delivery/using/about-delivery-monitoring.md">Monitorización de entrega</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -103,7 +102,7 @@ El Panel de control está disponible directamente en Adobe Experience Cloud. Sol
 
 ### Preguntas frecuentes sobre el Panel de control
 
-[Haga clic aquí &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es) para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
+[Haga clic aquí ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es) para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
 
 ### Administración de SFTP
 
@@ -132,7 +131,7 @@ El nuevo sistema de tickets se ha iniciado a través de [Adobe Admin Console](ht
 
 ### ¡Consulte a los expertos!
 
-Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){_blank}.
+Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
 
 ### Acceso al Centro de descargas de Campaign
 

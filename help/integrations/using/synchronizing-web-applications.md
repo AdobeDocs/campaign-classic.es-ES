@@ -4,9 +4,8 @@ title: Sincronización de aplicaciones web
 description: Obtenga información sobre cómo sincronizar aplicaciones web con el conector ACS
 feature: ACS Connector
 hide: true
-hidefromtoc: true
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 100%
@@ -60,7 +59,7 @@ En Campaign v7 se han creado los siguientes objetos:
 
 ## Replicación de los datos {#replicating-the-data}
 
-Para poder duplicar los datos necesarios entre Campaign v7 y Campaign Standard, hay disponibles varias plantillas de flujo de trabajo de duplicación. El flujo de trabajo de **[!UICONTROL Profiles replication]** duplica automáticamente todos los destinatarios de Campaign v7 a Campaign Standard. Consulte [Flujos de trabajo técnicos y de duplicación](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows). El flujo de trabajo **[!UICONTROL Landing pages replication]** permite la duplicación de las aplicaciones web que deseamos utilizar en Campaign Standard.
+Para poder replicar los datos necesarios entre Campaign v7 y Campaign Standard hay disponibles varias plantillas de flujo de trabajo de replicación. El flujo de trabajo de **[!UICONTROL Profiles replication]** duplica automáticamente todos los destinatarios de Campaign v7 a Campaign Standard. Consulte [Flujos de trabajo técnicos y de replicación](../../integrations/using/acs-connector-principles-and-data-cycle.md#technical-and-replication-workflows). El flujo de trabajo **[!UICONTROL Landing pages replication]** permite la replicación de las aplicaciones web que deseamos utilizar en Campaign Standard.
 
 ![](assets/acs_connect_lp_1.png)
 
@@ -78,7 +77,7 @@ Para comprobar que los datos se hayan duplicado correctamente, siga estos pasos 
 
    ![](assets/acs_connect_lp_9.png)
 
-1. Haga clic en el logotipo de **[!UICONTROL Adobe Campaign]** en la esquina superior izquierda, luego seleccione **Perfiles y audiencias > Servicios** y compruebe que el servicio del boletín informativo también se encuentra allí.
+1. Haga clic en el logotipo de **[!UICONTROL Adobe Campaign]** en la esquina superior izquierda, luego seleccione **Perfiles y públicos > Servicios** y compruebe que el servicio del boletín informativo también se encuentra allí.
 
    ![](assets/acs_connect_lp_10.png)
 
@@ -88,7 +87,7 @@ En esta parte, se muestra cómo incluir en un correo electrónico de Campaign St
 
 Los pasos para crear, diseñar y enviar el correo electrónico son los mismos que para un correo electrónico clásico. Consulte la documentación de [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=es).
 
-1. Cree un nuevo correo electrónico y seleccione uno o más perfiles duplicados como audiencia.
+1. Cree un nuevo correo electrónico y seleccione uno o más perfiles duplicados como público.
 1. Edite el contenido e inserte un **[!UICONTROL Link to a landing page]**.
 
    ![](assets/acs_connect_lp_12.png)
@@ -122,7 +121,7 @@ Cuando el destinatario actualiza sus datos desde la aplicación web, Adobe Campa
 
    ![](assets/acs_connect_lp_18.png)
 
-1. Espere unos minutos para que se ejecute el flujo de trabajo de duplicación de perfiles.
+1. Espere unos minutos para que se ejecute el flujo de trabajo de replicación de perfiles.
 1. En Campaign Standard, acceda a su perfil de destinatario para comprobar que los datos actualizados se hayan duplicado correctamente desde Campaign v7.
 
    ![](assets/acs_connect_lp_19.png)

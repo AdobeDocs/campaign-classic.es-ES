@@ -4,10 +4,9 @@ title: Gestión de datos SQL
 description: Descubra más información sobre la actividad del flujo de trabajo Gestión de datos SQL
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 100%
 
@@ -29,7 +28,7 @@ Antes de configurar la actividad, asegúrese de que se cumplan los siguientes re
 
   ![](assets/do-not-localize/v7.jpeg)[Documentación de Campaign v7](../../installation/using/about-fda.md)
 
-  ![](assets/do-not-localize/v8.png)[Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=es)
+  ![](assets/do-not-localize/v8.png)[Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
 
 * El esquema de salida debe existir en la base de datos y estar vinculado a una base de datos de FDA.
 * El operador que ejecute el flujo de trabajo debe tener los derechos asignados de la **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]**. [Más información](../../platform/using/access-management-named-rights.md).

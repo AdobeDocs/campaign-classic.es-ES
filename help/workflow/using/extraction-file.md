@@ -4,9 +4,8 @@ title: Extracción de datos (archivo)
 description: Descubra más información sobre la actividad del flujo de trabajo Extracción de datos (archivo).
 feature: Workflows, Data Management Activity
 hide: true
-hidefromtoc: true
 exl-id: 06eafedd-6386-498f-a80d-7f57ddcccad6
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 96%
@@ -30,7 +29,7 @@ Para configurar la extracción de datos, siga estos pasos:
 
    ![](assets/s_advuser_extract_file_param.png)
 
-   La opción **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** añade un paso adicional para filtrar el resultado final del acumulado, por ejemplo, en un tipo de orden de compra determinado, clientes que hayan hecho una orden más de 10 veces, etc.
+   La opción **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** añade un paso adicional para filtrar el resultado final del acumulado, por ejemplo, en un tipo de pedido determinado, clientes que hayan hecho un pedido más de 10 veces, etc.
 
 1. Si es necesario, puede añadir nuevas columnas al archivo de salida, como, por ejemplo, calcular o procesar resultados. Para hacer esto, haga clic en el icono **[!UICONTROL Add]**.
 

@@ -4,10 +4,9 @@ title: Introducción al conector ACS
 description: Principios y ciclo de datos del conector ACS
 feature: ACS Connector
 hide: true
-hidefromtoc: true
 exl-id: 689b6117-5143-4f85-8582-2c74cae72ca2
-source-git-commit: 2186b8a30449cb023cb07305ba64d53f2c8adab1
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '2034'
 ht-degree: 100%
 
@@ -96,8 +95,8 @@ Para obtener instrucciones sobre cómo realizar una entrega en Campaign Standard
 Se puede acceder fácilmente a los perfiles duplicados para las entregas, pero tienen ciertas limitaciones en Campaign Standard. Revise los siguientes elementos para descubrir la mejor manera de gestionarlos.
 
 * **Perfiles de solo lectura para Campaign Standard**: Los perfiles replicados son de solo lectura en Campaign Standard. Sin embargo, puede editar los destinatarios en Campaign v7 y las modificaciones se actualizan automáticamente en Campaign Standard gracias al conector ACS.
-* **Perfiles creados en Campaign Standard**: ACS Connector replica los datos de los destinatarios en una dirección, desde Campaign v7 hasta Campaign Standard. Por lo tanto, los perfiles que se crean en Campaign Standard no se duplican en Campaign v7.
-* **Datos básicos del destinatario para Campaign Standard**: ACS Connector replica los datos del destinatario que son adecuados para Campaign Standard. Incluye nombres de destinatarios, direcciones, direcciones de correo electrónico, números de teléfono móvil, números de teléfono fijo y otros datos de contacto relevantes. Si los campos de destinatario adicionales y tablas de objetivos personalizadas disponibles en Campaign v7 son esenciales para el flujo de trabajo, póngase en contacto con su consultor de Adobe.
+* **Perfiles creados en Campaign Standard**: Conector ACS replica los datos de los destinatarios en una dirección, desde Campaign v7 hasta Campaign Standard. Por lo tanto, los perfiles que se crean en Campaign Standard no se duplican en Campaign v7.
+* **Datos básicos del destinatario para Campaign Standard**: Conector ACS replica los datos del destinatario que son adecuados para Campaign Standard. Incluye nombres de destinatarios, direcciones, direcciones de correo electrónico, números de teléfono móvil, números de teléfono fijo y otros datos de contacto relevantes. Si los campos de destinatario adicionales y tablas de objetivos personalizadas disponibles en Campaign v7 son esenciales para el flujo de trabajo, póngase en contacto con su consultor de Adobe.
 * **Importing quarantined profiles**: Las listas de perfiles que no desean que se pongan en contacto con ellos se pueden importar en Campaign v7 o Campaign Standard como perfiles en cuarentena. El estado de los perfiles se incluye en la sincronización de cuarentena entre las aplicaciones y no se utilizan en las entregas.
 * **Unsubscribe to a service in Campaign Standard**: La opción de dar de baja la suscripción a una entrega no se sincroniza de Campaign Standard a Campaign v7. Sin embargo, se puede configurar una entrega de Campaign Standard para dirigir su vínculo de baja de suscripción a Campaign v7. El perfil de un destinatario que hace clic en el vínculo de baja de suscripción se actualiza en Campaign v7 y los datos se duplican en Campaign Standard. Consulte [Modificación del vínculo de baja](../../integrations/using/synchronizing-profiles.md#changing-the-unsubscription-link).
 * Solo los broadlogs de correo electrónico y los registros de seguimiento se duplican de Campaign Standard a Campaign v7.
@@ -108,7 +107,7 @@ La facturación no se ve afectada por su aplicación seleccionada para realizar 
 
 ## Implementación {#implementation}
 
-Existen dos tipos de implementación para ACS Connector. El equipo de consultoría de Adobe Campaign siempre se encarga de la aplicación de ambos.
+Existen dos tipos de implementación para Conector ACS. El equipo de consultoría de Adobe Campaign siempre se encarga de la aplicación de ambos.
 
 >[!IMPORTANT]
 >
@@ -124,7 +123,7 @@ La **implementación avanzada** le permite realizar ejemplos de uso más complej
 
 Para utilizar la función, es necesario instalar el paquete **[!UICONTROL ACS Connector]**. Siempre realizan esta tarea el administrador técnico de Adobe o el consultor.
 
-Todos los elementos técnicos relacionados con ACS Connector están disponibles en el nodo **[!UICONTROL Administration > ACS Connector]** de Explorer.
+Todos los elementos técnicos relacionados con Conector ACS están disponibles en el nodo **[!UICONTROL Administration > ACS Connector]** de Explorer.
 
 ### Flujos de trabajo técnicos y de replicación {#technical-and-replication-workflows}
 

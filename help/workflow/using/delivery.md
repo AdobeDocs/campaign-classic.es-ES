@@ -4,12 +4,11 @@ title: Entrega
 description: Descubra más información sobre la actividad del flujo de trabajo de tipo Entrega
 feature: Workflows, Channels Activity
 hide: true
-hidefromtoc: true
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '917'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '916'
+ht-degree: 96%
 
 ---
 
@@ -162,7 +161,7 @@ Cada evento entrante debe especificar un objetivo definido por estos parámetros
 * esquema
 * recCount
 
-Este conjunto de tres valores identifica el objetivo resultante de la entrega. **[!UICONTROL tableName]** es el nombre de la tabla que memoriza los identificadores del objetivo; **[!UICONTROL schema]** es el esquema de la población (normalmente nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
+Este conjunto de tres valores identifica el objetivo resultante de la entrega. **[!UICONTROL tableName]** es el nombre de la tabla que memoriza los identificadores del destino, **[!UICONTROL schema]** es el esquema de la población (normalmente nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
 
 La transición asociada al complemento tiene los mismos parámetros.
 

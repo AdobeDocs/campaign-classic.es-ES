@@ -5,12 +5,11 @@ description: Creación e identificación de la entrega
 feature: Channel Configuration
 role: User
 hide: true
-hidefromtoc: true
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,5 +51,5 @@ El contenido de la entrega está listo para configurarse. La definición del con
 
 * [Definición del contenido del correo electrónico](defining-the-email-content.md)
 * [Definición del contenido del SMS](sms-create.md#defining-the-sms-content)
-* [Definición del contenido de correo postal](defining-the-direct-mail-content.md)
+* [Definición del contenido de correo directo](defining-the-direct-mail-content.md)
 * [Notificaciones push](about-mobile-app-channel.md)

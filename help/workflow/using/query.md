@@ -4,10 +4,9 @@ title: Consulta
 description: Descubra más información sobre la actividad del flujo de trabajo Consulta
 feature: Workflows, Targeting Activity, Query Editor
 hide: true
-hidefromtoc: true
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
-source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1630'
 ht-degree: 100%
 

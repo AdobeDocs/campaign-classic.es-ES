@@ -4,19 +4,18 @@ title: Selección de una asignación de destino
 description: Obtenga información sobre cómo asignar destinos
 feature: Delivery Templates
 hide: true
-hidefromtoc: true
 role: User
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
-source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
-workflow-type: ht
-source-wordcount: '184'
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '177'
 ht-degree: 100%
 
 ---
 
 # Selección de una asignación de destino{#selecting-a-target-mapping}
 
-De forma predeterminada, las plantillas de envío tienen como destino **[!UICONTROL Recipients]**. El destino de mapeo utiliza los campos de la tabla **nms:recipient.** Adobe Campaign ofrece otros destinos de mapeo para las entregas, que puede usar según sus necesidades.
+De forma predeterminada, las plantillas de envío tienen como destino **[!UICONTROL Recipients]**. Por consiguiente, la asignación de destinatario utiliza los campos de la tabla **nms:recipient**. Adobe Campaign ofrece otros destinos de mapeo para las entregas, que puede usar según sus necesidades.
 
 ![](assets/delivery_select_mapping.png)
 
