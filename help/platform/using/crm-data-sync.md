@@ -5,9 +5,8 @@ description: Administrar datos entre Campaign y su CRM
 feature: Microsoft CRM Integration, Salesforce Integration
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 hide: true
-hidefromtoc: true
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 100%
 
@@ -168,7 +167,7 @@ Para una exportación, aplique la configuración siguiente en la actividad **[!U
 
    >[!IMPORTANT]
    >
-   >La función de exportación de la actividad **[!UICONTROL CRM Connector]** puede insertar o actualizar campos en el lado del CRM. Para activar las actualizaciones de campo en el CRM, debe especificar la clave principal de la tabla remota. Si falta la clave, se insertan los datos (en lugar de actualizarse).
+   >La función de exportación de la actividad **[!UICONTROL CRM Connector]** puede insertar o actualizar campos en el lado del CRM. Para habilitar las actualizaciones de campo en el CRM, debe especificar la clave principal de la tabla remota. Si falta la clave, se insertan los datos (en lugar de actualizarse).
 
 1. Marque **[!UICONTROL Export in Batches]** si necesita exportaciones más rápidas.
 
@@ -226,7 +225,7 @@ Los rechazos se recopilan junto con el código de error y el mensaje relacionado
 
 >[!NOTE]
 >
->Incluso cuando la opción **[!UICONTROL Process rejects]** no está activada, se genera una advertencia para cada columna rechazada con un código de error y un mensaje.
+>Incluso cuando la opción **[!UICONTROL Process rejects]** no está habilitada, se genera una advertencia para cada columna rechazada con un código de error y un mensaje.
 
 La transición de salida **[!UICONTROL Reject]** permite acceder al esquema de salida que contiene las columnas específicas de los mensajes de error y los códigos. Para Salesforce.com, esta columna es **errorSymbol** (símbolo de error, distinto del código de error), **errorMessage** (descripción del contexto del error).
 

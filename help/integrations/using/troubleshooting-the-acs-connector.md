@@ -7,12 +7,11 @@ audience: integrations
 content-type: reference
 topic-tags: acs-connector
 hide: true
-hidefromtoc: true
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 100%
+source-wordcount: '869'
+ht-degree: 93%
 
 ---
 
@@ -40,7 +39,7 @@ Según su implementación, puede enfrentarse a varios problemas comunes.
   </tr> 
   <tr> 
    <td> lista<br /> </td> 
-   <td> audiencia<br /> </td> 
+   <td> público<br /> </td> 
   </tr> 
   <tr> 
    <td> flujos de trabajo de campaña, flujos de trabajo de objetivo<br /> </td> 
@@ -52,7 +51,7 @@ Según su implementación, puede enfrentarse a varios problemas comunes.
   </tr> 
   <tr> 
    <td> aplicaciones web<br /> </td> 
-   <td> páginas de aterrizaje<br /> </td> 
+   <td> páginas de destino<br /> </td> 
   </tr> 
   <tr> 
    <td> extensión de esquema y tabla personalizada<br /> </td> 
@@ -79,19 +78,19 @@ Según su implementación, puede enfrentarse a varios problemas comunes.
 
   Para asegurarse de que el campo que se desea utilizar está disponible, se puede comprobar la definición del recurso de perfil desde **[!UICONTROL Administration > Development > Diagnosis > Data schemas]**.
 
-  Además, todos los datos adjuntos a los destinatarios y almacenados en tablas relacionadas con nms:recipients no se sincronizan de manera predeterminada en Campaign Standard.
+  Además, todos los datos adjuntos a los destinatarios y almacenados en tablas relacionadas con nms:recipients no se sincronizan de forma predeterminada en Campaign Standard.
 
-  Para poder utilizar aún los datos relacionados, se puede establecer la segmentación en Campaign v7 y añadir datos adicionales como se explica en la sección [Sincronizar audiencias](../../integrations/using/synchronizing-audiences.md) o puede comunicarse con el consultor para explorar las posibilidades de personalización.
+  Para poder utilizar aún los datos relacionados, se puede establecer los objetivos en Campaign v7 y añadir datos adicionales como se explica en la sección [Sincronizar públicos](../../integrations/using/synchronizing-audiences.md) o puede comunicarse con el consultor para explorar las posibilidades de personalización.
 
-* **Estoy utilizando otra dimensión de perfil distinta de la nms:recipient predeterminada en Campaign v7, ¿cómo puedo sincronizarla con Campaign Standard?**
+* **Estoy usando otra dimensión de perfil distinta a la nms:recipient predeterminada en Campaign v7, ¿cómo puedo sincronizarla con Campaign Standard?**
 
   Standard Campaign utiliza un recurso de objetivo único que se denomina **perfiles**. La implementación básica de la funcionalidad Campaign Standard Connect proporciona una asignación predeterminada entre los destinatarios de Campaign v7 y los perfiles de Campaign Standard.
 
   Si utiliza otra dimensión de perfil en Campaign v7 o utiliza varias, debe asignarlas todas con los perfiles de Campaign Standard. Póngase en contacto con el consultor para solucionar esta necesidad concreta.
 
-* **Deseo compartir una lista de perfiles con Campaign Standard a través de un flujo de trabajo, pero no puedo encontrar mi audiencia en Campaign Standard**.
+* **Deseo compartir una lista de perfiles con Campaign Standard a través de un flujo de trabajo, pero no puedo encontrar mi público en Campaign Standard**.
 
-  Se pueden encontrar las audiencias en el menú **[!UICONTROL Audiences]** en Campaign Standard. Tienen la etiqueta especificada en la actividad **[!UICONTROL List update]** del flujo de trabajo de Campaign v7. Están sujetos a la asignación de carpetas definida durante la implementación.
+  Se pueden encontrar los públicos en el menú **[!UICONTROL Audiences]** en Campaign Standard. Tienen la etiqueta especificada en la actividad **[!UICONTROL List update]** del flujo de trabajo de Campaign v7. Están sujetos a la asignación de carpetas definida durante la implementación.
 
   Lo primero que debe comprobar es si el flujo de trabajo ha finalizado sin errores. Si observa un error en la actividad **[!UICONTROL List update]**, significa que la sincronización con Campaign Standard puede haber fallado. Para poder ver más detalles sobre qué ha fallado, vaya a **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Process]** > **[!UICONTROL Diagnosis]**. Esta carpeta contiene los flujos de trabajo de sincronización activados por la ejecución de la actividad **[!UICONTROL List update]**.
 
@@ -99,7 +98,7 @@ Según su implementación, puede enfrentarse a varios problemas comunes.
 
   Tenga en cuenta que los perfiles de los destinatarios de la lista deben haberse sincronizado con Campaign Standard antes de la ejecución del flujo de trabajo. Una vez compartidos con Campaign Standard, los destinatarios de la lista se reconcilian con los perfiles de Campaign Standard, lo cual significa que deben existir allí. Se omiten los destinatarios de la lista que no se puedan reconciliar con los perfiles en Campaign Standard.
 
-  Si comparte una lista de perfiles y ninguno está sincronizado con Campaign Standard, se crea una audiencia de consulta vacía en Campaign Standard que no se puede utilizar.
+  Si comparte una lista de perfiles y ninguno está sincronizado con Campaign Standard, se crea un público de consulta vacía en Campaign Standard que no se puede utilizar.
 
 * **He recibido una notificación que me dice que hay un flujo de trabajo de sincronización en estado de error. ¿Qué debo hacer?**
 
@@ -112,7 +111,7 @@ Según su implementación, puede enfrentarse a varios problemas comunes.
 
   Primero debe sincronizar los grupos de seguridad en **[!UICONTROL Administration > ACS Connector > Rights management > Security groups]**. Esta acción comprueba los grupos de seguridad disponibles en Campaign Standard. Una vez sincronizados, puede encontrar los grupos de seguridad al configurar la asignación de carpetas.
 
-* **No puedo editar un perfil, una audiencia o una página de destino en Campaign Standard. ¿Qué significa?**
+* **No puedo editar un perfil, un público o una página objetivo en Campaign Standard. ¿Qué significa?**
 
   Los recursos sincronizados desde Campaign v7 se encuentran en modo de solo lectura en Campaign Standard para garantizar la coherencia de los datos. Si necesita editar uno de estos elementos, puede hacerlo en Campaign v7 y luego duplicar el cambio en Campaign Standard.
 

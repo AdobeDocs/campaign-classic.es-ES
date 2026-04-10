@@ -6,11 +6,10 @@ feature: Resource Management
 audience: campaign
 content-type: reference
 hide: true
-hidefromtoc: true
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
-source-git-commit: 942edcf028207eab2ea583949ebc99ab61539ea0
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 100%
 
@@ -26,7 +25,7 @@ Los operadores pueden suscribirse a un foro para recibir un correo electrónico 
 
 ## Acceso a un foro {#accessing-a-forum}
 
-Para visitar el foro de una campaña, un operador, etc., vaya a su panel y haga clic en el vínculo **[!UICONTROL Forum]** en la esquina superior derecha. Este vínculo también informa sobre la cantidad total de mensajes en el foro.
+Para visitar el foro de una campaña, un operador, etc., vaya a su panel de control y haga clic en el vínculo **[!UICONTROL Forum]** en la esquina superior derecha. Este vínculo también informa sobre la cantidad total de mensajes en el foro.
 
 ![](assets/mrm_forum_access_link.png)
 
@@ -77,7 +76,7 @@ Puede enviar un mensaje al foro de un operador si, por ejemplo, el mensaje no es
 
 Para acceder al foro de un operador:
 
-* Si tiene los derechos necesarios para acceder al nodo de Explorer **[!UICONTROL Administration > Access management > Operators]**, abra el panel del operador deseado y haga clic en el vínculo **[!UICONTROL Forum]** situado en la esquina superior derecha.
+* Si tiene los derechos necesarios para acceder al nodo de Explorer **[!UICONTROL Administration > Access management > Operators]**, abra el panel de control del operador deseado y haga clic en el vínculo **[!UICONTROL Forum]** situado en la esquina superior derecha.
 * Si no es así, busque el nombre del operador en Adobe Campaign (en un mensaje publicado en el foro por este operador, correspondiente a una tarea asignada a él) y haga clic en él para acceder a su tablero. También puede pedir al administrador que cree una vista de la carpeta del operador.
 
 ## Suscripción a un foro {#subscribing-to-a-forum}
@@ -94,11 +93,11 @@ La suscripción a un foro le permite seguir las conversaciones. Recibe una notif
 
   ![](assets/mrm_forum_unsubscribe.png)
 
-* Su panel personal enumera los foros a los que está suscrito. Haga clic en el vínculo **[!UICONTROL Subscription to discussion forums]** para mostrar la lista y luego haga clic en el elemento que le interese para acceder al foro correspondiente.
+* Su panel de control personal enumera los foros a los que está suscrito. Haga clic en el vínculo **[!UICONTROL Subscription to discussion forums]** para mostrar la lista y luego haga clic en el elemento que le interese para acceder al foro correspondiente.
 
   ![](assets/platform_dashboard_operator_subscr_forums.png)
 
-  Para obtener más información acerca de los paneles personales, consulte [esta sección](../../platform/using/access-management-operators.md).
+  Para obtener más información acerca de los paneles de control personales, consulte [esta sección](../../platform/using/access-management-operators.md).
 
 * Para ver quién está suscrito a un foro, haga clic en el vínculo **[!UICONTROL List of subscribers to this discussion forum]** situado encima de la lista de mensajes.
 

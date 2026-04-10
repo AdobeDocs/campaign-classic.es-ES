@@ -4,10 +4,9 @@ title: Creación de una lista de resumen
 description: Creación de una lista de resumen
 feature: Workflows, Data Management
 hide: true
-hidefromtoc: true
 exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 100%
 
@@ -116,10 +115,10 @@ Los datos de la tabla de trabajo del flujo de trabajo después de este enriqueci
 
 Este paso detalla cómo escribir los datos importados y enriquecidos en la tabla “Purchases”. Para ello, se debe utilizar una actividad **Update data**.
 
-Se debe llevar a cabo una reconciliación entre los datos de la tabla de trabajo del flujo de trabajo y del entorno de segmentación de **Purchases** antes de actualizar los datos en la tabla **Purchases**.
+Se debe llevar a cabo una reconciliación entre los datos de la tabla de trabajo del flujo de trabajo y de la dimensión de segmentación de **Purchases** antes de actualizar los datos en la tabla **Purchases**.
 
 1. En la actividad de enriquecimiento, haga clic en la pestaña **[!UICONTROL Reconciliation]**.
-1. Seleccione el entorno de segmentación, el esquema “Purchases” en este caso.
+1. Seleccione la dimensión de segmentación, el esquema “Purchases” en este caso.
 1. Seleccione una “Source expression” para los datos de la tabla de flujo de trabajo (el campo “storeName” en este caso).
 1. Seleccione una “Destination expression” para los datos de la tabla “Purchases” (el campo “storename” en este caso).
 1. Marque la opción **[!UICONTROL Keep unreconciled data coming from the work table]**.
@@ -167,7 +166,7 @@ Para preparar la lista de resumen, se debe agregar campos desde “Purchases” 
 
    ![](assets/uc2_enrich_enrich7.png)
 
-1. Seleccione la pestaña **[!UICONTROL Properties]**.
+1. Haga clic en la pestaña **[!UICONTROL Properties]**.
 1. Cambie el segundo vínculo para crear solo una línea.
 
    ![](assets/uc2_enrich_enrich8.png)

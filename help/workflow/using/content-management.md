@@ -1,27 +1,26 @@
 ---
 product: campaign
-title: Gestión de contenido
-description: Gestión de contenido
+title: Administración de contenido
+description: Administración de contenido
 feature: Workflows, Data Management
 hide: true
-hidefromtoc: true
 exl-id: eb92a7c7-edfa-4062-b473-6d8b50d35e5f
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 100%
 
 ---
 
-# Gestión de contenido{#content-management}
+# Administración de contenido{#content-management}
 
 
 
-Una actividad de **Content management** (gestión de contenido) permite crear y manipular contenidos y generar archivos basados en este contenido. Este contenido se puede entregar a través de la actividad “Envío”.
+Una actividad de **Administración de contenido** permite crear y manipular contenidos y generar archivos basados en este contenido. Este contenido se puede entregar a través de la actividad “Envío”.
 
 >[!CAUTION]
 >
->El Gestor de contenido es un módulo opcional de Adobe Campaign. Compruebe el acuerdo de licencia.
+>La Administración de contenido es un módulo opcional de Adobe Campaign. Compruebe el acuerdo de licencia.
 
 Las propiedades de la actividad se dividen en tres pasos:
 
@@ -31,13 +30,13 @@ Las propiedades de la actividad se dividen en tres pasos:
 
   ![](assets/content_mgmt_edit.png)
 
-  Para obtener más información sobre la configuración y el uso del Gestor de contenidos en Adobe Campaign, consulte esta [sección](../../delivery/using/about-content-management.md).
+  Para obtener más información sobre la configuración y el uso de la Administración de contenido en Adobe Campaign, consulte esta [sección](../../delivery/using/about-content-management.md).
 
 1. **Content**
 
    * **[!UICONTROL Specified in the transition]**
 
-     Esta opción permite utilizar el contenido especificado en la transición, es decir, el evento que activa el Gestor de contenido debe contener una variable **[!UICONTROL contentId]**. Esta variable puede haber sido configurada por un gestor de contenido anterior o por cualquier script.
+     Esta opción permite utilizar el contenido especificado en la transición, es decir, el evento que activa la administración de contenido debe contener una variable **[!UICONTROL contentId]**. Esta variable puede haber sido configurada por un administrador de contenido anterior o por cualquier script.
 
    * **[!UICONTROL Explicit]**
 
@@ -89,7 +88,7 @@ Las propiedades de la actividad se dividen en tres pasos:
 
 * contentId
 
-Identificador del contenido que se va a utilizar si la opción **[!UICONTROL Specified in the transition]** está activada.
+Identificador del contenido que se va a utilizar si la opción **[!UICONTROL Specified in the transition]** está habilitada.
 
 ## Parámetros de salida {#output-parameters}
 

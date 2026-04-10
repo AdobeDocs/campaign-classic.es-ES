@@ -4,12 +4,11 @@ title: Realización de la computación agregada
 description: Aprenda a realizar computación agregada en consultas.
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '231'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 98%
 
 ---
 
@@ -17,11 +16,11 @@ ht-degree: 100%
 
 
 
-En este ejemplo, se desea contar el número de destinatarios que residen en Londres, según el sexo.
+En este ejemplo, se desea contar el número de destinatarios que residen en Londres, según el género.
 
 * ¿Qué tabla se debe seleccionar?
 
-  La tabla de destinatario (**nms:recipient**).
+  La tabla de destinatarios (**nms:recipient**)
 
 * ¿Qué campos se deben seleccionar en la columna de salida?
 
@@ -49,6 +48,6 @@ Para crear este ejemplo, aplique los pasos siguientes:
 1. En la ventana **[!UICONTROL Data formatting]**, haga clic en **[!UICONTROL Next]**: no se requiere formato para este ejemplo.
 1. En la ventana de vista previa, haga clic en **[!UICONTROL Launch data preview]**.
 
-   Existen tres valores distintos para cada clasificación por sexo: **2** para las mujeres, **1** para los hombres y **0** cuando se desconoce el sexo. En este ejemplo, la lista contiene 10 mujeres, 16 hombres y 2 personas cuyo sexo no se conoce.
+   Existen tres valores distintos para cada clasificación por género: **2** para las mujeres, **1** para los hombres y **0** cuando se desconoce el género. En este ejemplo, la lista contiene 10 mujeres, 16 hombres y 2 personas cuyo género no se conoce.
 
    ![](assets/query_editor_agregat_04.png)

@@ -4,10 +4,9 @@ title: Flujos de trabajo Integración con las soluciones de Adobe Experience Clo
 description: Descubra más información sobre los Flujos de trabajo Integración con las soluciones de Adobe Experience Cloud
 feature: Workflows, Audiences
 hide: true
-hidefromtoc: true
 topic-tags: technical-workflows
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
 
@@ -30,12 +29,12 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **In
   <tr> 
    <td> <span class="uicontrol">Importar audiencias desde Adobe Experience Cloud</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
-   <td> Este flujo de trabajo permite importar audiencias y segmentos de distintas soluciones de Adobe Experience Cloud en Adobe Campaign.<br /> </td> 
+   <td> Este flujo de trabajo permite importar públicos y segmentos de distintas soluciones de Adobe Experience Cloud en Adobe Campaign.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Exportar audiencias a Adobe Experience Cloud</span> <br /> </td> 
    <td> <span class="uicontrol">exportSharedAudience</span> <br /> </td> 
-   <td> Este flujo de trabajo exporta audiencias como audiencias o segmentos compartidos. Estas audiencias pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza.<br /> </td> 
+   <td> Este flujo de trabajo exporta públicos como públicos o segmentos compartidos. Estos públicos pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

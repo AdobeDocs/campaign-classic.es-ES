@@ -4,10 +4,9 @@ title: Creación de una campaña local
 description: Creación de una campaña local
 feature: Distributed Marketing
 hide: true
-hidefromtoc: true
 exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
-source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 100%
 
@@ -270,7 +269,7 @@ Para solicitar una campaña:
 
    Para obtener más información, consulte la sección [Proceso de aprobación](#approval-process).
 
-1. El operador local recibe una notificación cuando la campaña está disponible: la disponibilidad de la campaña puede encontrarse en la lista de paquetes de campañas en la pestaña **Campañas**. La campaña entonces se puede utilizar. Para obtener más información, consulte [Acceso a campañas](accessing-campaigns.md).
+1. El operador local recibe una notificación cuando la campaña está disponible: la disponibilidad de la campaña puede encontrarse en la lista de paquetes de campañas en la pestaña **Campaign**. La campaña entonces se puede utilizar. Para obtener más información, consulte [Acceso a campañas](accessing-campaigns.md).
 
    La opción **[!UICONTROL Start targeting with order approval]** permite que la entidad local ejecute la campaña en cuanto se apruebe la solicitud.
 
@@ -330,7 +329,7 @@ La información se muestra en la lista de página de paquetes de campañas o en 
 
 ![](assets/mkg_dist_do_not_valid_view.png)
 
-Pueden ver el comentario relacionado en la pestaña **[!UICONTROL Edit]** del paquete de la campaña.
+Pueden ver el comentario relacionado en la pestaña **[!UICONTROL Edit]** del paquete de campaña.
 
 ![](assets/mkg_dist_do_not_valid_tab.png)
 
@@ -346,7 +345,7 @@ Para cada entidad local, se seleccionan los revisores para la aprobación de sol
 
 ### Cancelación de una solicitud {#canceling-an-order}
 
-La agencia central puede cancelar una solicitud utilizando el botón **[!UICONTROL Delete]** situado en el panel de solicitudes.
+La agencia central puede cancelar una solicitud utilizando el botón **[!UICONTROL Delete]** situado en el panel de control de solicitudes.
 
 ![](assets/mkg_dist_local_op_cancel.png)
 

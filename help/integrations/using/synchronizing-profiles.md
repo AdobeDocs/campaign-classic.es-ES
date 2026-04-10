@@ -4,10 +4,9 @@ title: Sincronización de perfiles
 description: Obtenga información sobre cómo sincronizar perfiles con el conector ACS
 feature: ACS Connector
 hide: true
-hidefromtoc: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
-source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 100%
 
@@ -43,7 +42,7 @@ Cuando un destinatario hace clic en el vínculo de baja de suscripción en un me
 
 ## Creación de un destinatario nuevo {#creating-a-new-recipient}
 
-1. Cree un destinatario nuevo en Campaign v7 para la duplicación en Campaign Standard. Introduzca la mayor cantidad de información posible, incluidos el apellido, el nombre, la dirección de correo electrónico y la dirección postal del destinatario. No obstante, no seleccione **[!UICONTROL Salutation]**, ya que se añadirá en la siguiente sección, [Edición de un destinatario](#editing-a-recipient).
+1. Cree un destinatario nuevo en Campaign v7 para la replicación en Campaign Standard. Introduzca la mayor cantidad de información posible, incluidos el apellido, el nombre, la dirección de correo electrónico y la dirección postal del destinatario. No obstante, no seleccione **[!UICONTROL Salutation]**, ya que se añadirá en la siguiente sección, [Edición de un destinatario](#editing-a-recipient).
 
    ![](assets/acs_connect_profile_sync_01.png)
 
@@ -51,11 +50,11 @@ Cuando un destinatario hace clic en el vínculo de baja de suscripción en un me
 
    ![](assets/acs_connect_profile_sync_02.png)
 
-   De forma predeterminada, la duplicación periódica del conector ACS se produce una vez cada 15 minutos. Para obtener más información, consulte [Duplicación de datos](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication).
+   De forma predeterminada, la replicación periódica del conector ACS se produce una vez cada 15 minutos. Para obtener más información, consulte [Replicación de datos](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication).
 
 ## Edición de un destinatario  {#editing-a-recipient}
 
-Los pasos siguientes para cambiar un único punto de datos proporcionan un ejemplo sencillo de cómo Campaign v7 se convierte en la base de datos primaria para Campaign Standard cuando se utiliza la duplicación de datos. Modificar o eliminar los datos duplicados en Campaign v7 tiene el mismo efecto en los datos correspondientes de Campaign Standard.
+Los pasos siguientes para cambiar un único punto de datos proporcionan un ejemplo sencillo de cómo Campaign v7 se convierte en la base de datos primaria para Campaign Standard cuando se utiliza la replicación de datos. Modificar o eliminar los datos duplicados en Campaign v7 tiene el mismo efecto en los datos correspondientes de Campaign Standard.
 
 1. Elija el destinatario recién creado en [Creación de un nuevo destinatario](#creating-a-new-recipient) y edite el nombre del destinatario. Por ejemplo, seleccione un **[!UICONTROL Salutation]** para el destinatario (por ejemplo, Sr. o Sra.).
 
@@ -65,7 +64,7 @@ Los pasos siguientes para cambiar un único punto de datos proporcionan un ejemp
 
    ![](assets/acs_connect_profile_sync_04.png)
 
-   De forma predeterminada, la duplicación periódica del conector ACS se produce una vez cada 15 minutos. Para obtener más información, consulte [Duplicación de datos](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication).
+   De forma predeterminada, la replicación periódica del conector ACS se produce una vez cada 15 minutos. Para obtener más información, consulte [Replicación de datos](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication).
 
 ## Creación de un flujo de trabajo {#creating-a-workflow}
 
@@ -87,7 +86,7 @@ Para obtener más información e instrucciones completas sobre los flujos de tra
    * Arrastre **[!UICONTROL Profiles]** al espacio de trabajo. Utilice el menú desplegable de campos para elegir **[!UICONTROL Is external resource]** y buscar perfiles duplicados desde Campaign v7.
    * Arrastre otros parámetros de consulta para segmentar más los perfiles duplicados.
 
-## Creación de una entrega {#creating-a-delivery}
+## Creación de un envío {#creating-a-delivery}
 
 >[!NOTE]
 >

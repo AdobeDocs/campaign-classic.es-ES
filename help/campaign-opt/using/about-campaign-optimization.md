@@ -5,12 +5,11 @@ description: Acerca de las tipologías de campaña
 role: User, Developer
 feature: Typology Rules, Campaigns
 hide: true
-hidefromtoc: true
 exl-id: b500bde4-6c81-4420-b1bf-e8eff1c53877
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +23,7 @@ Según la oferta, Campaign Optimization puede estar incluido o ser un complement
 
 >[!NOTE]
 >
->Para obtener más información sobre la optimización de campañas para Adobe Campaign y cómo utilizarla, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=es){target=_blank}.
+>Para obtener más información acerca de la optimización de la campaña para Adobe Campaign y cómo usarla, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=es){target=_blank}.
 
 <!--
 

@@ -4,10 +4,9 @@ title: Actualización de listas
 description: Actualización de listas
 feature: Workflows, Targeting Activity
 hide: true
-hidefromtoc: true
 exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
 
@@ -31,7 +30,7 @@ Si la lista ya existe, los destinatarios se añaden al contenido existente, a no
 
 Si desea que la lista creada o actualizada utilice una lista distinta a la del destinatario, marque la opción **[!UICONTROL Create or use a list with its own table]**.
 
-Para utilizar la opción, dichas tablas específicas deben haberse configurado en el entorno de Adobe Campaign.
+Para utilizar la opción, dichas tablas específicas deben haberse configurado en su instancia de Adobe Campaign.
 
 Por lo general, guardar un destino en una lista indica el final de un flujo de trabajo. De forma predeterminada, la actividad **[!UICONTROL List update]** no tiene una transición saliente. Marque la opción **[!UICONTROL Generate an outbound transition]** para agregar una.
 

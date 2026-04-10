@@ -1,34 +1,33 @@
 ---
 product: campaign
-title: Adición de un campo calculado de tipo Lista desglosada
-description: Aprenda cómo añadir un campo calculado de tipo Lista desglosada
+title: Adición de un campo calculado de tipo Enumeración
+description: Aprenda cómo añadir un campo calculado de tipo Enumeración
 audience: workflow
 content-type: reference
 topic-tags: use-cases
 feature: Workflows, Data Management
 hide: true
-hidefromtoc: true
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '437'
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
 
-# Adición de un campo calculado de tipo Lista desglosada {#adding-an-enumeration-type-calculated-field}
+# Adición de un campo calculado de tipo Enumeración {#adding-an-enumeration-type-calculated-field}
 
 
 
-Aquí se desea crear una consulta con un campo calculado de tipo **[!UICONTROL Enumerations]**. Este campo genera una columna adicional en la ventana de vista previa de datos. Esta columna especifica los valores numéricos devueltos como resultado de cada destinatario (0, 1 y 2). Se asigna un sexo a cada valor de la nueva columna: “Hombre” para “1”, “Mujer” para “2” o “No indicado” si el valor es igual a “0”.
+Aquí se desea crear una consulta con un campo calculado de tipo **[!UICONTROL Enumerations]**. Este campo genera una columna adicional en la ventana de vista previa de datos. Esta columna especifica los valores numéricos devueltos como resultado de cada destinatario (0, 1 y 2). Se asigna un género a cada valor de la nueva columna: “Hombre” para “1”, “Mujer” para “2” o “No indicado” si el valor es igual a “0”.
 
 * ¿Qué tabla se debe seleccionar?
 
-  La tabla de destinatario (nms:recipient).
+  La tabla del destinatario (nms:recipient)
 
 * ¿Campos que se desea seleccionar en la columna de salida?
 
-  Apellidos, Nombre, Sexo
+  Apellidos, Nombre, Género
 
 * ¿Con qué criterios se va a filtrar la información?
 
@@ -57,11 +56,11 @@ Siga estos pasos:
 
    ![](assets/query_editor_nveau_76.png)
 
-   Defina los valores de **Origen** y **Destino**: el valor de destino facilita la lectura del resultado de la consulta. Esta consulta debe devolver el sexo del destinatario y el resultado será 0, 1 o 2.
+   Defina los valores de **Origen** y **Destino**: el valor de destino facilita la lectura del resultado de la consulta. Esta consulta debe devolver el género del destinatario y el resultado será 0, 1 o 2.
 
    Para que se introduzca cada línea “origen-destino”, en **[!UICONTROL Add]**, haga clic en **[!UICONTROL List of enumeration values]**:
 
-   * En la columna **[!UICONTROL Source]**, introduzca el valor de origen de cada sexo (0, 1, 2) en una nueva línea.
+   * En la columna **[!UICONTROL Source]**, introduzca el valor de origen de cada género (0, 1, 2) en una nueva línea.
    * En la columna **[!UICONTROL Destination]**, introduzca los valores: “No indicado” para la línea “0”, “Hombre” para la línea “1” y “Mujer” para la línea “2”.
 
    Seleccione la función **[!UICONTROL Keep the source value]**.
@@ -85,6 +84,6 @@ Siga estos pasos:
 
    ![](assets/query_editor_nveau_79.png)
 
-   Tomemos otro ejemplo y digamos que el valor de la enumeración “2” no se ingresó. Seleccione la función **[!UICONTROL Generate an error and reject the line]**: todos los destinatarios de sexo “2” generarán anomalías y el resto de la información de la línea (nombre y apellido, etc.) no se exportará. Se muestra un registro de error en el campo **[!UICONTROL Logs generated during export]** de la ventana de vista previa de datos. Este registro indica que no se ha introducido el valor de enumeración “2”.
+   Tomemos otro ejemplo y digamos que el valor de la enumeración “2” no se ingresó. Seleccione la función **[!UICONTROL Generate an error and reject the line]**: todos los destinatarios de género “2” generarán anomalías y el resto de la información de la línea (nombre y apellido, etc.) no se exportará. Se muestra un registro de error en el campo **[!UICONTROL Logs generated during export]** de la ventana de vista previa de datos. Este registro indica que no se ha introducido el valor de enumeración “2”.
 
    ![](assets/query_editor_nveau_80.png)

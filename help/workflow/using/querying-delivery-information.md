@@ -4,10 +4,9 @@ title: Consulta de información de entrega
 description: Obtenga información sobre cómo consultar la información de entrega.
 feature: Query Editor, Workflows
 hide: true
-hidefromtoc: true
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 100%
 
@@ -39,7 +38,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
    ![](assets/query_editor_tracklog_05.png)
 
-1. En la ventana **[!UICONTROL Data to extract]**, se desea crear un acumulado para recopilar información. Para ello, añada la clave primaria (ubicada encima del elemento **[!UICONTROL Recipient tracking logs]** principal): el recuento de registros de seguimiento se realiza en este campo **[!UICONTROL Primary key]**. La expresión editada es **[!UICONTROL x=count(primary key)]**. Vincula la suma de diversos registros de seguimiento a una sola dirección de correo electrónico.
+1. En la ventana **[!UICONTROL Data to extract]**, se desea crear un acumulado para recopilar información. Para ello, añada la clave principal (ubicada encima del elemento **[!UICONTROL Recipient tracking logs]** principal): el recuento de registros de seguimiento se realiza en este campo **[!UICONTROL Primary key]**. La expresión editada es **[!UICONTROL x=count(primary key)]**. Vincula la suma de diversos registros de seguimiento a una sola dirección de correo electrónico.
 
    Para ello:
 

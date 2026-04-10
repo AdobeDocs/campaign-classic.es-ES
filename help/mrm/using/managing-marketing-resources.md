@@ -6,11 +6,10 @@ feature: Resource Management
 audience: campaign
 content-type: reference
 hide: true
-hidefromtoc: true
 topic-tags: tasks--resources-and-budgets
 exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
-source-git-commit: 942edcf028207eab2ea583949ebc99ab61539ea0
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 100%
 
@@ -67,7 +66,7 @@ Puede modificar y actualizar un recurso de marketing y, si fuera necesario, info
 
 ### Bloqueo/desbloqueo de un recurso {#locking-unlocking-a-resource}
 
-Una vez creados, los recursos están disponibles en el panel de recursos de marketing y los operadores pueden editarlos y modificarlos.
+Una vez creados, los recursos están disponibles en el panel de control de recursos de marketing y los operadores pueden editarlos y modificarlos.
 
 Cuando un operador desea trabajar con un recurso, es preferible bloquearlo antes de iniciar el trabajo para evitar que otros operadores lo modifiquen al mismo tiempo. A continuación, el recurso se reserva; permanece accesible, pero el resto de operadores no lo pueden publicar ni actualizar en el servidor.
 
@@ -79,7 +78,7 @@ La pestaña **[!UICONTROL Tracking]** indica el nombre del operador que ha bloqu
 
 ![](assets/s_ncs_user_mkg_resource_locked_date.png)
 
-Para bloquear un recurso, haga clic en el recurso y después en el botón **[!UICONTROL Lock]** en el panel del recurso.
+Para bloquear un recurso, haga clic en el recurso y después en el botón **[!UICONTROL Lock]** en el panel de control del recurso.
 
 ![](assets/s_ncs_user_mkg_resource_lock.png)
 
@@ -91,7 +90,7 @@ Esta información le permite informar a otros operadores de Adobe Campaign de la
 
 Cuando el recurso se ha actualizado, se desbloquea automáticamente y se pone a disposición de todos los operadores.
 
-Si es necesario, también puede desbloquearlo manualmente desde el panel.
+Si es necesario, también puede desbloquearlo manualmente desde el panel de control.
 
 >[!NOTE]
 >
@@ -113,9 +112,9 @@ La pestaña **[!UICONTROL History]** muestra las transferencias de archivos real
 
 ### Proceso de aprobación {#approval-process}
 
-La fecha de disponibilidad prevista se muestra en los detalles del recurso si dicha fecha se especificó en la pestaña **[!UICONTROL Tracking]**. Una vez que llegue esta fecha, puede ejecutar el proceso de aprobación mediante el botón **[!UICONTROL Submit for approval]** del panel de recursos. El estado del recurso cambia a **[!UICONTROL Approval in progress]**.
+La fecha de disponibilidad prevista se muestra en los detalles del recurso si dicha fecha se especificó en la pestaña **[!UICONTROL Tracking]**. Una vez que llegue esta fecha, puede ejecutar el proceso de aprobación mediante el botón **[!UICONTROL Submit for approval]** del panel de control de recursos. El estado del recurso cambia a **[!UICONTROL Approval in progress]**.
 
-Se puede aprobar un recurso mediante el botón **[!UICONTROL Approve resource]** en su panel.
+Se puede aprobar un recurso mediante el botón **[!UICONTROL Approve resource]** en su panel de control.
 
 ![](assets/s_ncs_user_task_valid_date.png)
 
@@ -137,7 +136,7 @@ La pestaña **[!UICONTROL Tracking]** permite a todos los operadores rastrear la
 
 Cuando se aprueba, el recurso de marketing debe publicarse. El proceso de publicación debe estar sujeto a una implementación específica según los requisitos de la empresa. Esto significa que los recursos se pueden publicar en una extranet o en cualquier otro servidor, se puede enviar información específica a un proveedor de servicios externos, etc.
 
-Para publicar un recurso, haga clic en el botón **[!UICONTROL Publish]** en el área de edición del panel de recursos de marketing.
+Para publicar un recurso, haga clic en el botón **[!UICONTROL Publish]** en el área de edición del panel de control de recursos de marketing.
 
 ![](assets/s_ncs_user_mkg_resource_available.png)
 
@@ -166,7 +165,7 @@ Los recursos de marketing se pueden asociar a las campañas, siempre y cuando es
 >
 >Para obtener más información sobre cómo crear y configurar plantillas de campaña, consulte [Plantillas de campaña](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
-Haga clic en la pestaña **[!UICONTROL Documents > Resources]** en el panel de campañas y luego haga clic en **[!UICONTROL Add]** para seleccionar el recurso que desee.
+Haga clic en la pestaña **[!UICONTROL Documents > Resources]** en el panel de control de campañas y luego haga clic en **[!UICONTROL Add]** para seleccionar el recurso que desee.
 
 ![](assets/s_ncs_user_mkg_resource_ref.png)
 
@@ -178,7 +177,7 @@ Haga clic en **[!UICONTROL OK]** para añadir el recurso a la lista de recursos 
 
 El botón **[!UICONTROL Details]** permite editarlo y verlo.
 
-Los recursos añadidos se muestran en el panel. También pueden editarse desde allí.
+Los recursos añadidos se muestran en el panel de control. También pueden editarse desde allí.
 
 ### Adición de un recurso de marketing a una descripción del envío {#adding-a-marketing-resource-to-a-delivery-outline}
 
@@ -214,7 +213,7 @@ Si no es suficiente, se envía una advertencia a los operadores correspondientes
 
 ## Funciones avanzadas {#advanced-functions}
 
-El panel de control de marketing permite realizar operaciones de los tipos habituales: agregar, editar, bloquear/desbloquear, aprobar, publicar. Puede crear otros tipos de recursos de marketing y acceder a funciones avanzadas a través del árbol de Adobe Campaign. Para ello, haga clic en **[!UICONTROL Explorer]** en la página principal de Adobe Campaign.
+El panel de control de recursos de marketing permite realizar operaciones de los tipos habituales: agregar, editar, bloquear/desbloquear, aprobar, publicar. Puede crear otros tipos de recursos de marketing y acceder a funciones avanzadas a través del árbol de Adobe Campaign. Para ello, haga clic en **[!UICONTROL Explorer]** en la página principal de Adobe Campaign.
 
 De forma predeterminada, los recursos de marketing se almacenan en el nodo **[!UICONTROL MRM > Marketing resources]** del árbol.
 

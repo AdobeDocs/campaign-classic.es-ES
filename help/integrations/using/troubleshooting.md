@@ -8,9 +8,8 @@ audience: integrations
 content-type: reference
 topic-tags: audience-sharing
 hide: true
-hidefromtoc: true
 exl-id: 61bb184e-affa-430c-8571-56e911cd5a3d
-source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 100%
@@ -27,8 +26,8 @@ En caso de error, debe asegurarse de que los siguientes elementos estén correct
 
   En **[!UICONTROL Administration > Platform > External accounts]**, asegúrese de que las siguientes cuentas externas SFTP están configuradas correctamente. Su consultor debe configurar en Adobe Experience Cloud los servidores SFTP mencionados.
 
-   * **[!UICONTROL importSharedAudience]** : Cuenta SFTP específica para la importación de audiencias.
-   * **[!UICONTROL exportSharedAudience]** : Cuenta SFTP específica para la exportación de audiencias.
+   * **[!UICONTROL importSharedAudience]** : Cuenta SFTP específica para la importación de públicos.
+   * **[!UICONTROL exportSharedAudience]** : Cuenta SFTP específica para la exportación de públicos.
 
 * **Fuente de datos AMC**
 

@@ -5,10 +5,9 @@ description: Obtenga información sobre cómo crear y ejecutar campañas de mark
 role: User
 feature: Campaigns, Cross Channel Orchestration, Programs
 hide: true
-hidefromtoc: true
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1248'
 ht-degree: 100%
 
@@ -24,7 +23,7 @@ Para crear una campaña de marketing:
 
 1. Crear una campaña: descubra las campañas y sus características; etiqueta, tipo, fechas de inicio y finalización, presupuesto, recursos asociados, administradores y participantes. [Más información](#creating-a-campaign).
 
-1. Defina las poblaciones objetivo: cree un flujo de trabajo con consultas de direccionamiento. [Más información](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population).
+1. Defina las poblaciones destinatarias: cree un flujo de trabajo con consultas de direccionamiento. [Más información](../../campaign/using/marketing-campaign-deliveries.md#selecting-the-target-population).
 
 1. Cree entregas: seleccione los canales y defina el contenido que desee enviar. [Más información](../../campaign/using/marketing-campaign-deliveries.md#creating-deliveries).
 
@@ -60,7 +59,7 @@ Para configurar la jerarquía de carpetas para planes y programas de marketing:
 
 ### Adición de una campaña {#adding-a-campaign}
 
-Puede crear una campaña a través de la lista de campañas. Para mostrar esta vista, seleccione el menú **[!UICONTROL Campaigns]** en el panel **[!UICONTROL Campaigns]**.
+Puede crear una campaña a través de la lista de campañas. Para mostrar esta vista, seleccione el menú **[!UICONTROL Campaigns]** en el panel de control **[!UICONTROL Campaigns]**.
 
 ![](assets/s_ncs_user_add_an_op_from_list.png)
 
@@ -94,11 +93,11 @@ Para abrir y configurar una campaña, selecciónela en la programación y haga c
 
 ![](assets/s_ncs_user_new_op_edit.png)
 
-Esto le lleva al panel de campañas.
+Esto le lleva al panel de control de campañas.
 
 ## Campañas recurrentes y periódicas {#recurring-and-periodic-campaigns}
 
-Una campaña recurrente es una campaña basada en una plantilla específica, cuyos flujos de trabajo están configurados para ejecutarse según una programación asociada. Por lo tanto, los flujos de trabajo son recurrentes dentro de una campaña. El objetivo se duplica en cada ejecución y se rastrean los distintos procesos y la ubicación de destino. También se pueden ejecutar objetivos futuros por adelantado, mediante el periodo de cobertura durante la creación automática de flujos de trabajo, para iniciar simulaciones con cálculo de objetivos.
+Una campaña recurrente es una campaña basada en una plantilla específica, cuyos flujos de trabajo están configurados para ejecutarse según una programación asociada. Por lo tanto, los flujos de trabajo son recurrentes dentro de una campaña. El objetivo se duplica en cada ejecución y se rastrean los distintos procesos y las poblaciones destinatarias. También se pueden ejecutar objetivos futuros por adelantado, mediante el periodo de cobertura durante la creación automática de flujos de trabajo, para iniciar simulaciones con cálculo de objetivos.
 
 Una campaña periódica es una campaña creada automáticamente según la programación de ejecución de su plantilla.
 
@@ -224,6 +223,6 @@ Todas las campañas periódicas contienen los mismos elementos. Una vez creada, 
 
 Este vídeo muestra cómo crear planes, programas y campañas de marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/326558?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/326558?captions=spa&quality=12)
 
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

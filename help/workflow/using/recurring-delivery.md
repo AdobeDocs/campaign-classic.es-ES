@@ -4,10 +4,9 @@ title: Entrega recurrente
 description: Descubra más información sobre la actividad del flujo de trabajo Entrega recurrente
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 
@@ -43,7 +42,7 @@ Un **envío recurrente** creará una nueva instancia de envío cada vez que se e
 
 ![Entrega recurrente](assets/delivery_recurring.jpg)
 
-Si desea detener la ejecución de una entrega recurrente, debe cancelar completamente la campaña o detener el flujo de trabajo que la ejecuta. Al detener la entrega desde el panel de Campaign, solo se detendrá la ocurrencia de la entrega: las siguientes instancias de la entrega recurrente se seguirán creando en cada ejecución del flujo de trabajo.
+Si desea detener la ejecución de una entrega recurrente, debe cancelar completamente la campaña o detener el flujo de trabajo que la ejecuta. Al detener la entrega desde el panel de control de Campaign, solo se detendrá la ocurrencia de la entrega: las siguientes instancias de la entrega recurrente se seguirán creando en cada ejecución del flujo de trabajo.
 
 >[!NOTE]
 >
@@ -55,6 +54,6 @@ Si desea detener la ejecución de una entrega recurrente, debe cancelar completa
 
 En este vídeo se explica cómo configurar un envío recurrente y una actividad de planificador.
 
->[!VIDEO](https://video.tv.adobe.com/v/27509?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27509?captions=spa&quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

@@ -5,10 +5,9 @@ description: Descubra cómo integrar el SDK de Campaign en su aplicación móvil
 feature: Mobile SDK Integration, Push
 role: User, Developer
 hide: true
-hidefromtoc: true
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 100%
 
@@ -376,7 +375,7 @@ El **estado** permite saber si un registro se ha realizado correctamente o si se
   </tr>
   <tr> 
    <td> ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty <br /> </td>
-   <td> El nombre de anfitrión del servidor de marketing ACC está vacío o no se ha definido.<br /> </td>
+   <td> El nombre de host del servidor de marketing ACC está vacío o no se ha definido.<br /> </td>
    <td> VACÍO<br /> </td>
   </tr>
   <tr> 

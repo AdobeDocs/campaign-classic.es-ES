@@ -4,10 +4,9 @@ title: Creación de una campaña colaborativa
 description: Aprenda a crear una campaña colaborativa
 feature: Distributed Marketing
 hide: true
-hidefromtoc: true
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
-source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 100%
 
@@ -61,7 +60,7 @@ Una vez aprobada la solicitud de una campaña **Collaborative campaign (by campa
 
 La entidad local ejecuta la campaña secundaria. La entidad central ejecuta la campaña principal.
 
-La entidad central puede ver todas las campañas secundarias relacionadas con una **Collaborative Campaign (by campaign)** desde este panel (a través del vínculo **[!UICONTROL List of associated campaigns]**).
+La entidad central puede ver todas las campañas secundarias relacionadas con una **Collaborative Campaign (by campaign)** desde este panel de control (a través del vínculo **[!UICONTROL List of associated campaigns]**).
 
 ![](assets/mkg_dist_mutual_op_by_op.png)
 
@@ -157,7 +156,7 @@ La configuración de las notificaciones es idéntica a las notificaciones de una
 
 ## Solicitud de una campaña {#ordering-a-campaign}
 
-Cuando se añade una campaña colaborativa a la lista de paquetes de campaña, se notifica a las entidades locales pertenecientes a la audiencia definida por la entidad central (**Collaborative campaigns (by target approval)** no tienen un público predefinido). El mensaje enviado contiene un vínculo que le permite registrarse en la campaña, como se muestra a continuación:
+Cuando se añade una campaña colaborativa a la lista de paquetes de campañas, se notifica a las entidades locales pertenecientes a la audiencia definida por la entidad central (**Collaborative campaigns (by target approval)** no tienen un público predefinido). El mensaje enviado contiene un vínculo que le permite registrarse en la campaña, como se muestra a continuación:
 
 ![](assets/mkg_dist_mutual_op_notification.png)
 

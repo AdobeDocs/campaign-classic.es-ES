@@ -4,12 +4,11 @@ title: Introducción al marketing distribuido
 description: Introducción al marketing distribuido
 feature: Distributed Marketing
 hide: true
-hidefromtoc: true
 exl-id: c166409b-e040-491e-840a-a41310935d75
-source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 

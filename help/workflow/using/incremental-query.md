@@ -4,11 +4,10 @@ title: Consulta incremental
 description: Descubra más información sobre la actividad del flujo de trabajo Consulta incremental
 feature: Workflows, Targeting Activity
 hide: true
-hidefromtoc: true
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '356'
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '355'
 ht-degree: 100%
 
 ---
@@ -67,4 +66,4 @@ Para ello:
 * esquema
 * recCount
 
-Este conjunto de tres valores identifica la población objetivo de la consulta. **[!UICONTROL tableName]** es el nombre de la tabla que registra los identificadores de destinatario, **[!UICONTROL schema]** es el esquema de la población (normalmente nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
+Este conjunto de tres valores identifica la población objetivo de la consulta. **[!UICONTROL tableName]** es el nombre de la tabla que registra los identificadores de destinatario, **[!UICONTROL schema]** es el esquema de la población (normalmente, nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.

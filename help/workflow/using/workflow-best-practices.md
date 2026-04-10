@@ -4,10 +4,9 @@ title: Prácticas recomendadas con flujos de trabajo
 description: Descubra las prácticas recomendadas del flujo de trabajo Campaña
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 100%
 
@@ -57,7 +56,7 @@ Para aprender a purgar los registros, consulte esta [documentación](starting-a-
 
 ### Ejecutar en la opción de motor {#execute-in-the-engine-option}
 
-En la ventana **[!UICONTROL Workflow properties]**, evite seleccionar la opción **[!UICONTROL Execute in the engine]**. Cuando esta opción está activada, el flujo de trabajo tiene prioridad y el motor de flujos de trabajo detiene todo el resto de flujos de trabajo hasta que este haya terminado.
+En la ventana **[!UICONTROL Workflow properties]**, evite seleccionar la opción **[!UICONTROL Execute in the engine]**. Cuando esta opción está habilitada, el flujo de trabajo tiene prioridad y el motor de flujos de trabajo detiene todo el resto de flujos de trabajo hasta que este haya terminado.
 
 ![](assets/wf-execute-in-engine.png)
 

@@ -5,9 +5,8 @@ description: Obtenga información sobre cómo conectar Campaign y Microsoft Dyna
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 hide: true
-hidefromtoc: true
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 100%
 
@@ -99,7 +98,7 @@ El **Identificador de clave de certificado (customKeyIdentifier)** y el **ID de 
 1. Vaya a **Azure Active Directory > Registros de aplicación** y seleccione la aplicación que se creó anteriormente.
 1. Haga clic en **Configuración** en la parte superior izquierda.
 1. En **Permisos requeridos**, haga clic en **Añadir** y, luego, en **Seleccionar una API > Dynamics CRM en línea**.
-1. A continuación, haga clic en **Seleccionar**, active la casilla **Acceder a Dynamics 365 como usuarios de la organización** y haga clic en **Seleccionar**.
+1. A continuación, haga clic en **Seleccionar**, habilite la casilla **Acceder a Dynamics 365 como usuarios de la organización** y haga clic en **Seleccionar**.
 1. A continuación, desde la aplicación, seleccione el **Manifiesto** en el menú **Administrar**.
 
 1. En el editor **Manifiesto**, establezca la propiedad `allowPublicClient` de `null` en `true` y haga clic en **Guardar**.
@@ -211,7 +210,7 @@ Para Microsoft Dynamics 365, los tipos de atributos admitidos o no admitidos se 
 | Tipos básicos: booleano, datetime, decimal, flotante, doble, entero, bigint, cadena | Sí |
 | Dinero (como doble) | Sí |
 | memo, entityname, primarykey, uniqueidentifier (como cadenas) | Sí |
-| Estado, lista de selección (almacenamos los valores posibles en listas desglosadas), estado (cadena) | Sí |
+| Estado, lista de selección (almacenamos los valores posibles en enumeraciones), estado (cadena) | Sí |
 | propietario (como cadena) | Sí |
 | Búsqueda (solo búsquedas de referencia de entidad única) | Sí |
 | cliente | No |
