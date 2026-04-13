@@ -6,7 +6,7 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Direct Mail
 hide: true
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
