@@ -5,10 +5,10 @@ description: Motor de oferta
 feature: Workflows, Interaction
 hide: true
 exl-id: 8db4b04f-7754-4a49-ab72-afc916888ebb
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '136'
+ht-degree: 100%
 
 ---
 

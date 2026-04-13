@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo actualizar al nuevo servidor de en
 feature: Technote, Deliverability
 hide: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 16%
@@ -74,7 +74,7 @@ Como cliente On-Premise, también debe comprobar que haya una campaña **[!UICON
 1. Acceda a la sección **Productos y servicios** y verifique que **Adobe Campaign** aparezca en la lista.
 Si no puede ver **Adobe Campaign**, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} para que se lo agreguen.
 1. Haga clic en **Adobe Campaign** y seleccione su organización.
-   **Precaución**: Si tiene más de una organización, asegúrese de seleccionar la correcta. Obtenga más información acerca de las organizaciones [en esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es#ims-org-id){_blank}.
+   **Precaución**: Si tiene más de una organización, asegúrese de seleccionar la correcta. Obtenga más información acerca de las organizaciones [en esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
 
 1. Compruebe que existe un **[!UICONTROL Product profile]**. Si no es así, créela. No se requiere permiso para este **[!UICONTROL Product profile]**.
 

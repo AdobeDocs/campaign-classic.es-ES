@@ -6,7 +6,7 @@ role: User
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 hide: true
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 100%
@@ -237,6 +237,6 @@ El modelo de exportación debe estar asociado al proveedor de servicios seleccio
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/27490?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
