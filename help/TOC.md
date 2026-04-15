@@ -7,9 +7,9 @@ user-guide-title: Guía de Campaign Classic v7
 user-guide-description: Documentación de producto para Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 4cae5fdb2b78f446f84352046b523d8862e9060c
 workflow-type: tm+mt
-source-wordcount: '2683'
+source-wordcount: '2684'
 ht-degree: 68%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 68%
    + Versiones anteriores {#previous-releases}
       + [2025](rn/using/release-2025.md)
       + [2024](rn/using/release-2024.md)
-      + {hide-from-toc}[2023](rn/using/release-2023.md)
+      + {hide-from-toc}[2023: OCULTO](rn/using/release-2023.md)
       + {hide-from-toc}[2022: OCULTO](rn/using/release-2022.md)
       + {hide-from-toc}[2021: OCULTO](rn/using/release-2021.md)
       + {hide-from-toc}[[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
@@ -132,7 +132,7 @@ ht-degree: 68%
       + {hide-from-toc}[Crear un SMS - OCULTO](delivery/using/sms-create.md)
       + {hide-from-toc}[Migrar al conector genérico SMPP extendido](delivery/using/unsupported-connector-migration.md)
    + [Envío de mensajes de LINE](delivery/using/line-channel.md)
-   + [Envío de notificaciones push &#x200B;](delivery/using/about-mobile-app-channel.md)
+   + [Envío de notificaciones push ](delivery/using/about-mobile-app-channel.md)
    + Envío de notificaciones push  {#sending-push-notifications}
       + {hide-from-toc}[Integrar Campaign SDK en la aplicación móvil](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configuración de la aplicación móvil{#configure-the-mobile-app}
@@ -143,7 +143,7 @@ ht-degree: 68%
          + {hide-from-toc}[Crear un mensaje push para iOS - OCULTO](delivery/using/create-notifications-ios.md)
          + {hide-from-toc}[Crear un mensaje push para Android - OCULTO](delivery/using/create-notifications-android.md)
       + {hide-from-toc}[Solución de problemas - OCULTO](delivery/using/troubleshooting.md)
-   + [Envío de correos directos &#x200B;](delivery/using/about-direct-mail-channel.md)
+   + [Envío de correos directos ](delivery/using/about-direct-mail-channel.md)
    + Envío de correo directo  {#sending-direct-mail}
       + {hide-from-toc}[Crear un envío de correo postal - OCULTO](delivery/using/creating-a-direct-mail-delivery.md)
       + {hide-from-toc}[Definir el contenido de correo postal - OCULTO](delivery/using/defining-the-direct-mail-content.md)
@@ -352,7 +352,7 @@ ht-degree: 68%
    + Adobe Experience Manager {#adobe-experience-manager}
       + [Uso de  [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
       + [Configuración de la integración](integrations/using/configuring-the-integration.md)
-      + [Creación de una newsletter de  [!DNL Experience Manager] &#x200B;](integrations/using/creating-an-experience-manager-newsletter.md)
+      + [Creación de una newsletter de  [!DNL Experience Manager] ](integrations/using/creating-an-experience-manager-newsletter.md)
    + Adobe Target {#adobe-target}
       + [Uso de  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
       + [Configuración de la integración con  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
