@@ -8,10 +8,10 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+source-git-commit: f7f88eac33921f60dfe72ce2200132c5ac6acf49
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '501'
+ht-degree: 87%
 
 ---
 
@@ -83,3 +83,16 @@ Reinicie el servidor si se realizan cambios en la configuración anterior en la 
 * El usuario no puede acceder a la página de inicio de sesión de Adobe ID:
 
   Consulte los pasos anteriores para comprobar la configuración del ámbito.
+
+**Problemas de caché de WebView2**
+
+Si tiene problemas al iniciar sesión en **[!UICONTROL Client Console]** con su Adobe ID, intente borrar la caché local de WebView2. En la mayoría de los casos, esto resuelve el problema. Siga estos pasos:
+
+1. Cierre **[!UICONTROL Client Console]** y detenga cualquier proceso de `nlclient` en ejecución.
+
+1. Eliminar todas las carpetas `webview2` y `webview2Cache` de las siguientes ubicaciones:
+
+   * `C:\ProgramData\Neolane\NL_5\nlclient\`
+   * `C:\Users\<username>\AppData\Roaming\Neolane\NL_5\nlclient\`
+
+1. Reinicie **[!UICONTROL Client Console]** e inicie sesión con su Adobe ID. Las carpetas de caché se volverán a crear automáticamente en el siguiente inicio.
