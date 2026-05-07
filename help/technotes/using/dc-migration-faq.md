@@ -21,7 +21,7 @@ Adobe retira del servicio el centro de datos heredado: las instancias de Campaig
 
 A continuación se muestra un conjunto de preguntas comunes sobre este proyecto, el impacto en los entornos de Campaign y otros recursos útiles.
 
-Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
+Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support).
 
 ## Impacto de la infraestructura
 
@@ -51,7 +51,7 @@ A continuación se enumeran los efectos globales en la base de datos e infraestr
 
 * **¿Cuál es el plan para abordar cualquier problema posterior a la migración?**
 
-  Se realizarán pruebas exhaustivas antes de que se migraran los sistemas de producción. Sin embargo, en caso de problemas, el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) seguirá siendo el principal punto de contacto. Adobe ha creado un equipo de expertos para proporcionar asistencia avanzada, si es necesario.
+  Se realizarán pruebas exhaustivas antes de que se migraran los sistemas de producción. Sin embargo, en caso de problemas, el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support) seguirá siendo el principal punto de contacto. Adobe ha creado un equipo de expertos para proporcionar asistencia avanzada, si es necesario.
 
 ## Impacto de la capacidad de entrega
 
@@ -97,7 +97,7 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 
   En primer lugar, Adobe Delivery evaluará el estado de entrega de la plataforma y recomendará un plan para el cambio a las nuevas IP
 
-  No se requiere calentamiento después de la migración. Podría ser una excepción y, en ese caso, el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) se pondrá en contacto con los clientes.
+  No se requiere calentamiento después de la migración. Podría ser una excepción y, en ese caso, el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support) se pondrá en contacto con los clientes.
 
   Sin embargo, el plan es hacer que esta operación sea transparente para el negocio, a diferencia de la mejora inicial que se realiza durante el lanzamiento.
 
@@ -173,7 +173,7 @@ A continuación se enumeran los efectos globales en la configuración, conectivi
 
   Puede cambiar según la nueva ubicación de los servidores. Sin embargo, el cliente podrá conservar su huso horario actual.
 
-  Obtenga más información acerca de la administración de huso horario en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/managing-time-zones.html){target="_blank"}.
+  Obtenga más información acerca de la administración de huso horario en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/managing-time-zones.html?lang=es){target="_blank"}.
 
 
 ## Seguridad y permisos

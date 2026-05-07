@@ -410,7 +410,7 @@ En el nodo **dataStore > dataSource > pool**, configure los parámetros del grup
   </tr> 
   <tr> 
    <td> maxCnx<br /> </td> 
-   <td> Número máximo de conexiones permitidas antes de rechazar una nueva conexión. Ver esta <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">nota técnica</a>.<br /> </td> 
+   <td> Número máximo de conexiones permitidas antes de rechazar una nueva conexión. Ver esta <a href="https://helpx.adobe.com/es/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">nota técnica</a>.<br /> </td> 
    <td> Corto<br /> </td> 
   </tr> 
   <tr> 

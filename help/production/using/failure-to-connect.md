@@ -60,7 +60,7 @@ Si no obtiene este resultado, compruebe en la configuración del servidor web qu
 </tr>
 <tr>
 <td>Compruebe la configuración general de las zonas de seguridad.</td>
-<td>Para obtener más información sobre la configuración de zonas de seguridad, consulte <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html#configuring-campaign-server"/>esta sección.</a></td>
+<td>Para obtener más información sobre la configuración de zonas de seguridad, consulte <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=es#configuring-campaign-server"/>esta sección.</a></td>
 </tr>
 <tr>
 <td>El comando nlserver pdump devuelve <b>No hay tareas</b></td>

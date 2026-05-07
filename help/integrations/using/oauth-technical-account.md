@@ -48,7 +48,7 @@ Para crear la cuenta técnica de OAuth para nuevas integraciones, siga estos pas
 
 1. Seleccione el vínculo **[!UICONTROL Product profile]** a su proyecto.
 
-   Puede crear uno nuevo si es necesario. [Más información](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)
+   Puede crear uno nuevo si es necesario. [Más información](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html)
 
 1. A continuación, haga clic en **[!UICONTROL Save Configured API]**.
 
