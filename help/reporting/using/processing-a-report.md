@@ -6,8 +6,8 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Reporting, Monitoring
 exl-id: d133efec-33e1-4711-a90f-e40385059386
 source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
-workflow-type: ht
-source-wordcount: '831'
+workflow-type: tm+mt
+source-wordcount: '845'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ Sus nombres se muestran en el informe.
 
 ![](assets/s_ncs_advuser_report_display_07.png)
 
-Sin embargo, si desmarca la etiqueta y la opción de visualizar el subtotal, no se muestran en el informe. El nombre aparece en un globo de texto cuando pasa el cursor sobre una celda de la tabla.
+Sin embargo, si desmarca la etiqueta y la opción de visualizar el subtotal, no se muestran en el informe. El nombre aparece en un globo de texto cuando pasa el puntero por encima de una celda de la tabla.
 
 ![](assets/s_ncs_advuser_report_display_08.png)
 

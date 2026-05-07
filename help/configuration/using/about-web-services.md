@@ -7,8 +7,8 @@ role: Developer
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 3%
+source-wordcount: '665'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Las API de Adobe Campaign se utilizan en JavaScript dentro de la aplicación y e
 >[!IMPORTANT]
 >
 >La cantidad de llamadas al motor autorizadas por día varía según el contrato de licencia. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-classic---product-description.html).\
->Hay disponible una lista de todas las API, con su descripción completa, en [esta documentación dedicada]&#x200B;(https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es.
+>Hay disponible una lista de todas las API, con su descripción completa, en [esta documentación dedicada]&#x200B;(https://experienceleague.adobe.com/developer/campaign-api/api/index.html.
 
 ## Requisitos previos {#prerequisites}
 

@@ -6,7 +6,7 @@ feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
 source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
 workflow-type: tm+mt
-source-wordcount: '4005'
+source-wordcount: '4078'
 ht-degree: 1%
 
 ---
@@ -146,7 +146,7 @@ Cuando se crea una tabla personalizada en Adobe Campaign con una clave principal
 
 De forma predeterminada, una secuencia personalizada tendrá valores que oscilan entre +1.000 y +2,1BB. Técnicamente, es posible obtener una gama completa de 4BB habilitando identificadores negativos. Esto debe utilizarse con cuidado y se perderá un ID al pasar de números negativos a positivos: Adobe Campaign suele ignorar el registro 0 en las consultas SQL generadas.
 
-Para obtener más información sobre el agotamiento de secuencias, vea [este vídeo](https://helpx.adobe.com/es/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
+Para obtener más información sobre el agotamiento de secuencias, vea [este vídeo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
 ## Índices {#indexes}
 
@@ -223,7 +223,7 @@ De forma predeterminada, Adobe Campaign crea un vínculo con la clave principal 
 
 Se añade un índice a los atributos utilizados en un vínculo.
 
-El   Los vínculos creados por y modificados por última vez están presentes en muchas tablas. Es posible deshabilitar el índice utilizando el atributo noDbIndex en el vínculo si la empresa no utiliza esta información.
+Los vínculos creado por y modificado por última vez están presentes en muchas tablas. Es posible deshabilitar el índice utilizando el atributo noDbIndex en el vínculo si la empresa no utiliza esta información.
 
 ### Cardinalidad {#cardinality}
 

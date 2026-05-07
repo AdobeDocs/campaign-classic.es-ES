@@ -9,7 +9,7 @@ content-type: reference
 exl-id: 54ee88b2-e646-4fb9-abec-957f0096f15f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '556'
 ht-degree: 100%
 
 ---
@@ -117,9 +117,9 @@ Para comprobar si la opción **[!UICONTROL AEMResourceTypeFilter]** está config
 
 Siga los pasos a continuación para iniciar la configuración en Adobe Experience Manager:
 
-1. Configure **duplicación** para que se duplique desde la instancia de creación de AEM a la instancia de publicación AEM.
+1. Configure **replicación** para que se replique desde la instancia de creación de AEM a la instancia de publicación AEM.
 
-   Para aprender a configurar la duplicación, consulte la [documentación](https://helpx.adobe.com/es/experience-manager/6-5/sites/deploying/using/replication.html) de Adobe Experience Manager.
+   Para aprender a configurar la replicación, consulte la [documentación](https://helpx.adobe.com/es/experience-manager/6-5/sites/deploying/using/replication.html) de Adobe Experience Manager.
 
 1. Para conectar Adobe Experience Manager a Adobe Campaign, configure un **Cloud Service** específico.
 

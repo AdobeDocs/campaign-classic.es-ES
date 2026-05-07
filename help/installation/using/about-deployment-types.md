@@ -9,7 +9,7 @@ topic-tags: deployment-types-
 exl-id: 08628efb-9186-4b67-9431-310d4bc276b4
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '137'
 ht-degree: 6%
 
 ---
@@ -24,6 +24,6 @@ En caso de una configuración en varios equipos, no tiene que utilizar el mismo 
 
 >[!NOTE]
 >
->Los pasos de configuración de la instalación principal solo se pueden realizar mediante el Adobe para implementaciones alojadas por el Adobe, por ejemplo, para configurar los archivos de configuración del servidor y de la instancia.
+>Los pasos de configuración de instalación principales solo los puede realizar Adobe para implementaciones alojadas en Adobe, por ejemplo, para configurar los archivos de configuración del servidor y de la instancia.
 >
 >Para obtener más información sobre las principales diferencias entre implementaciones, consulte la sección [Modelos de alojamiento](../../installation/using/hosting-models.md) o [Diferencias de características para implementaciones alojadas y locales](../../installation/using/capability-matrix.md).

@@ -10,8 +10,8 @@ topic-tags: additional-configurations
 exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 2%
+source-wordcount: '1511'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ Los operadores están vinculados a una zona de seguridad desde su perfil en la c
 >
 >Como cliente de **hosted**, si puede acceder al [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es), puede usar la interfaz de autoservicio Security Zone. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es)
 >
->Otros clientes de **híbrido/alojado** deben ponerse en contacto con el equipo de soporte de Adobe para agregar la IP a la lista de permitidos.
+>Otros clientes **híbridos/alojados** deben ponerse en contacto con el equipo de soporte de Adobe para agregar la IP a la lista de permitidos.
 >
 
 ## Creación de zonas de seguridad {#creating-security-zones}

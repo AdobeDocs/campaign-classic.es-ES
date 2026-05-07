@@ -10,15 +10,15 @@ topic-tags: installing-campaign-in-linux-
 exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
 source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 4%
+source-wordcount: '589'
+ht-degree: 7%
 
 ---
 
 # Integración en un servidor web para Linux {#integration-into-a-web-server-for-linux}
 
 
-Adobe Campaign SOAP incluye Apache Tomcat, que actúa como punto de entrada en el servidor de aplicaciones a través de HTTP (y el servidor de correo electrónico) (y el servidor de correo electrónico).
+Adobe Campaign incluye Apache Tomcat, que actúa como punto de entrada en el servidor de aplicaciones a través de HTTP (y SOAP).
 
 Puede utilizar este servidor Tomcat integrado para servir solicitudes HTTP.
 

@@ -6,8 +6,8 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '456'
+workflow-type: tm+mt
+source-wordcount: '465'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Esta sustitución le permite ahorrar tiempo al crear la entrega: en lugar de añ
 
 ## Contexto {#context}
 
-En este ejemplo de uso, **Mi biblioteca en línea** quiere enviar un descuento a sus clientes en función de su género literario favorito.
+En este ejemplo de uso, el sitio **Mi biblioteca en línea** quiere enviar un descuento a sus clientes en función de su género literario favorito.
 
 El administrador de la entrega ha integrado un campo personalizado vinculado con el género favorito en su correo electrónico. El objetivo es utilizar algunas direcciones semilla: estas tienen el campo de personalización en su tabla, pero no se guarda ningún valor en él.
 
@@ -31,7 +31,7 @@ Para utilizar la sustitución de campos aleatoria debe tener:
 * una entrega con uno o varios campos personalizados,
 * direcciones semilla cuyo **esquema de datos** se modifique según los campos personalizados utilizados en la entrega.
 
-## Creación de una entrega {#step-1---creating-a-delivery}
+## Creación de un envío {#step-1---creating-a-delivery}
 
 Los pasos para crear un envío se describen en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email.html?lang=es){target="_blank"}.
 

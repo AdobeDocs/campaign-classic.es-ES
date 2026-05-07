@@ -24,10 +24,10 @@ Están disponibles los siguientes tipos de informe:
 * Informes de envíos, consulte [Informes de envíos](../../reporting/using/delivery-reports.md).
 * Informes acumulados, consulte [Informes acumulados](../../reporting/using/cumulative-reports.md).
 
-Puede acceder a los informes desde la página principal de la consola del cliente, el panel de informes o la lista de envíos. El modo de visualización de un informe depende de su contexto. La lista de informes principales está disponible en la página principal y le permite acceder rápidamente a los datos de envío. La lista se puede modificar para adaptarla a las necesidades. Consulte [esta sección](../../reporting/using/about-reports-creation-in-campaign.md) para obtener más información.
+Puede acceder a los informes desde la página principal de la consola del cliente, el panel de control de informes o la lista de envíos. El modo de visualización de un informe depende de su contexto. La lista de informes principales está disponible en la página principal y le permite acceder rápidamente a los datos de envío. La lista se puede modificar para adaptarla a las necesidades. Consulte [esta sección](../../reporting/using/about-reports-creation-in-campaign.md) para obtener más información.
 
 
-Hay disponible un campo de búsqueda a través del panel de informes para acceder rápidamente a uno de los informes de la lista.
+Hay disponible un campo de búsqueda a través del panel de control de informes para acceder rápidamente a uno de los informes de la lista.
 
 ![](assets/s_ncs_user_report_searchfield.png)
 

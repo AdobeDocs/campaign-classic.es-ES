@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Configuración de la integración de audiencias compartidas en Adobe Campaign
-description: Obtenga información sobre cómo configurar la integración de audiencias compartidas
+title: Configuración de la integración de públicos compartidos en Adobe Campaign
+description: Obtenga información sobre cómo configurar la integración de públicos compartidos
 feature: Audiences
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 audience: integrations
@@ -10,12 +10,12 @@ topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '617'
 ht-degree: 100%
 
 ---
 
-# Configuración de la integración de audiencias compartidas en Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
+# Configuración de la integración de públicos compartidos en Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
 
 
 Una vez enviada esta solicitud, Adobe procede a suministrarle la integración y a ponerse en contacto con usted para proporcionarle los detalles y la información necesarios para finalizar la configuración:
@@ -40,8 +40,8 @@ En primer lugar, se deben configurar o verificar las cuentas externas en Adobe C
 1. Haga clic en el icono **[!UICONTROL Explorer]**.
 1. Vaya a **[!UICONTROL Administration > Platform > External accounts]**. Las cuentas SFTP mencionadas deberían estar ya configuradas por Adobe, y se le debe haber comunicado la información necesaria.
 
-   * **[!UICONTROL importSharedAudience]**: cuenta específica para la importación de audiencias.
-   * **[!UICONTROL exportSharedAudience]**: cuenta específica para la exportación de audiencias.
+   * **[!UICONTROL importSharedAudience]**: cuenta específica para la importación de públicos.
+   * **[!UICONTROL exportSharedAudience]**: cuenta específica para la exportación de públicos.
 
    ![](assets/aam_config_1.png)
 

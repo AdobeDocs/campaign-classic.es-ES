@@ -10,8 +10,8 @@ topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 4%
+source-wordcount: '530'
+ht-degree: 9%
 
 ---
 
@@ -33,7 +33,7 @@ La administración del módulo se realiza mediante la herramienta de línea de c
 
 La sintaxis general de la herramienta **nlserver** es la siguiente:
 
-**nlserver `<command>` `<command arguments>`**
+**nlserver `<command>``<command arguments>`**
 
 Para obtener la lista de módulos disponibles, use el comando **nlserver**.
 
@@ -50,7 +50,7 @@ Los módulos disponibles se detallan en la tabla siguiente:
 | importar | Importing to command line: permite enviar a la línea de comandos un modelo de importación creado en la consola del cliente de Adobe Campaign. |
 | inMail | Analizador de correo entrante |
 | installsetup | Disponibilidad del archivo de instalación del cliente |
-| javascript | Ejecución de scripts de JavaScript SOAP con acceso a API de. |
+| javascript | Ejecución de scripts de JavaScript con acceso a las API de SOAP. |
 | trabajo | Procesamiento de línea de comandos |
 | fusionar | Combinación de formularios |
 | midSourcing | Recuperación de información de envío en modo intermediario |
@@ -63,8 +63,8 @@ Los módulos disponibles se detallan en la tabla siguiente:
 | runwf | Ejecución de una instancia de flujo de trabajo |
 | parada | Apagado completo del sistema |
 | sms | Procesamiento de notificaciones SMS |
-| sql | Ejecución de script SQL |
-| start | Inicios adicionales |
+| sql | Nombre del script SQL |
+| iniciar | Inicios adicionales |
 | estadísticas | Mantiene estadísticas de conexión MTA |
 | parada | Apagado parcial del sistema |
 | submitda | Envío de una acción de envío |
@@ -72,7 +72,7 @@ Los módulos disponibles se detallan en la tabla siguiente:
 | seguimiento | Consolidación y recuperación de registros de seguimiento |
 | trackinglogd | Seguimiento de la escritura y depuración del registro del servidor |
 | perro guardián | Instancia de inicio y monitorización |
-| web | SOAP Servidor de aplicaciones (HTTP y) |
+| web | Servidor de aplicaciones (HTTP y SOAP) |
 | wfserver | Servidor de flujo de trabajo |
 
 >[!IMPORTANT]

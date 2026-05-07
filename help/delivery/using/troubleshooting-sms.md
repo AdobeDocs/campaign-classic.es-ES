@@ -6,9 +6,9 @@ feature: SMS, Troubleshooting
 role: User
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
 source-git-commit: f660dcbb111e73f12737d96ebf9be2aeccbca8ee
-workflow-type: ht
-source-wordcount: '3044'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '3072'
+ht-degree: 96%
 
 ---
 
@@ -96,13 +96,13 @@ Una conexión se considera inestable si se produce alguna de las siguientes situ
 
 * `enquire_link` agota el tiempo de espera, ya sea en el lado de Adobe Campaign o en el del proveedor. Puede ver `ENQUIRE_LINK_RESP` con un código de error distinto de cero en ese caso.
 
-* Hay muchas `BIND PDU`. No debe haber más de unas pocas durante un día, según la cantidad de conexiones. Más de una PDU BIND por hora debería llamar su atención.
+* Hay un montón de `BIND PDU`. No debe haber más de unas pocas durante un día, según el número de conexiones. Más de una PDU BIND por hora debería llamar su atención.
 
 Para solucionar los problemas de estabilidad de la conexión:
 
 * Las conexiones inestables rara vez son la causa principal, a menudo es el resultado de otro problema que desencadena una desconexión. La prioridad es encontrar la causa raíz.
 
-* Habilite seguimientos detallados del SMPP. Los necesitará para ver que está ocurriendo cuando la conexión re reinicie. 
+* Habilite seguimientos detallados del SMPP. Los necesitará para ver que está ocurriendo cuando la conexión re reinicie.
 
 * Si el proveedor envía `BIND PDU`, algo podría estar mal. Pregunte al proveedor por qué se envía `UNBING`.
 
@@ -122,9 +122,9 @@ Para solucionar los problemas de estabilidad de la conexión:
 
 * Compruebe que el MTA procesa realmente el mensaje. Si no es así, podría no ser un problema de SMS.
 
-* Compruebe que el conector SMS está vinculado con el equipo del proveedor. Pídale información al proveedor para asegurarse de que todos los sistemas se comunican correctamente. Consulte `BIND_TRANSMITTER` y `BIND_TRANSCEIVER PDU` para obtener información sobre el proceso de vinculación. Es posible que deba habilitar los seguimientos del SMPP para la correcta resolución de problemas.
+* Compruebe que el conector SMS está vinculado con el equipo del proveedor. Pídale comentarios al proveedor para asegurarse de que todos los sistemas se comunican correctamente. Consulte `BIND_TRANSMITTER` y `BIND_TRANSCEIVER PDU` para obtener información sobre el proceso de vinculación. Es posible que deba habilitar los seguimientos del SMPP para la correcta resolución de problemas.
 
-* Con los seguimientos del SMPP activados, compruebe que `SUBMIT_SM PDU` contiene la información correcta.
+* Con los seguimientos del SMPP habilitados, compruebe que `SUBMIT_SM PDU` contiene la información correcta.
 
 * Compruebe que el proveedor responde con un `SUBMIT_SM_RESP PDU` con un valor &quot;OK&quot; (código 0). Asegúrese de que la PDU llega con un retraso razonable: cualquier valor superior a 1 segundo debe ser consultado con el proveedor, normalmente llega en menos de 100 ms.
 
@@ -146,7 +146,7 @@ Reducción de la cantidad de duplicados cuando hay un reintento:
 
 ## Problema al procesar SR (recibos de entrega) {#issue-process-SR}
 
-* Necesitará los seguimientos del SMPP activados para realizar cualquier tipo de resolución de problemas de SR.
+* Necesitará los seguimientos del SMPP habilitados para realizar cualquier tipo de resolución de problemas de SR.
 
 * Compruebe que el `DELIVER_SM PDU` proviene del proveedor y que está bien formado.
 
@@ -216,7 +216,7 @@ Envíe diferentes tipos de caracteres especiales al realizar pruebas. Por ejempl
 
 Siempre que busque ayuda sobre un problema de SMS, ya sea abriendo una entrada de asistencia en Adobe Campaign, al proveedor de SMS o cualquier tipo de comunicación sobre el tema, necesitará incluir la siguiente información para asegurarse de que esté debidamente clasificado. Los problemas debidamente clasificados son la clave para que se resuelvan más rápido.
 
-* **Active los** mensajes SMPP detallados cuando aparezca el problema. La mayoría de los problemas de SMS son imposibles de resolver sin esto.
+* **Habilite los** mensajes SMPP detallados cuando aparezca el problema. La mayoría de los problemas de SMS son imposibles de resolver sin esto.
 
 * Si el problema está relacionado con el tráfico de SMS, póngase en contacto primero con el proveedor. Su plataforma es más adecuada para un diagnóstico eficiente de los problemas de tráfico SMS en tiempo real.
 
@@ -266,11 +266,11 @@ En algunos casos, no es necesario capturar el tráfico de red. Estas son las sit
 
 * Errores que no implican tráfico SMPP real: Preparación de envíos, problemas de API de centros de mensajes, problemas de flujo de trabajo, etc.
 
-## Activación de los seguimientos del SMPP {#enabling-smpp-traces}
+## Habilitación de los seguimientos del SMPP {#enabling-smpp-traces}
 
 El nuevo conector admite el registro extendido mediante seguimientos: SMPP. Los seguimientos aparecen en el registro MTA, no en la salida estándar.
 
-**Activación por cuenta externa (método preferido)**
+**Habilitación por cuenta externa (método preferido)**
 
 1. En la **Cuenta externa**, marque **Habilitar los seguimientos detallados del SMPP en el archivo de registro**.
 1. Espere 10 minutos para que el servidor vuelva a cargar las cuentas externas.
@@ -315,14 +315,14 @@ El resultado debe ser el siguiente:
 
 Para aclarar las diferencias entre los estados **Enviado**, **Enviado al proveedor** y **Recibido en el móvil**, consulte las definiciones que se detallan a continuación:
 
-* **Recibido en el móvil**: 
-El mensaje se ha entregado correctamente al dispositivo del usuario, con confirmación proporcionada por el envío MT (móvil finalizado) y un informe de estado (SR).
+* **Recibido en el móvil**:
+El mensaje se ha entregado correctamente al dispositivo del usuario, con confirmación proporcionada por la entrega móvil finalizado (MT) y un informe de estado (SR).
 
-* **Enviado**: 
-El mensaje se ha procesado a través del paso MT (Móvil finalizado), pero aún no se ha recibido un informe de estado (SR) que confirme el envío al dispositivo móvil.
+* **Enviado**:
+El mensaje se procesó correctamente a través del paso Mobile Terminated (MT), pero aún no se ha recibido un informe de estado (SR) que confirme la entrega al dispositivo móvil.
 
 * **Enviado al proveedor**:
-El mensaje se ha enviado al proveedor mediante `SUBMIT_SM command`, pero no se ha recibido ninguna confirmación de `SUBMIT_SM_RESP` del proveedor.
+El mensaje se envió al proveedor mediante el `SUBMIT_SM command`, pero no se recibió ninguna confirmación de `SUBMIT_SM_RESP` del proveedor.
 
 Es posible que los mensajes permanezcan en el estado **Enviado** porque la transición a **Recibido** depende de un informe de estado (SR) del dispositivo del usuario. Si el usuario tiene una recepción celular deficiente u otros problemas de conectividad, es posible que no reciba el mensaje inmediatamente. En estos casos, es responsabilidad del proveedor reintentar el envío o explicar por qué no se generó ningún SR. Si el proveedor identifica alguna discrepancia, debe asegurarse de que el comportamiento de Campaign sea coherente con las expectativas.
 

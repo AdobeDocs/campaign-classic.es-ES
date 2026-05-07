@@ -10,8 +10,8 @@ topic-tags: troubleshooting
 exl-id: dbd50178-0a16-46ed-bfad-47beb3c2a420
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 10%
+source-wordcount: '288'
+ht-degree: 16%
 
 ---
 
@@ -26,7 +26,7 @@ Esta es una lista de módulos afectados por problemas frecuentes:
   <tr> 
    <th> Módulo </th> 
    <th> Ámbito de ejecución </th> 
-   <th> Resolución de problemas </th> 
+   <th> Solución de problemas </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -77,7 +77,7 @@ Esta es una lista de módulos afectados por problemas frecuentes:
   </tr> 
   <tr> 
    <td> web </td> 
-   <td> SOAP Servidor de aplicaciones (HTTP y)<br /> </td> 
+   <td> Servidor de aplicaciones (HTTP y SOAP)<br /> </td> 
    <td> Compruebe este módulo si la consola y las conexiones web no funcionan y almacene en déclencheur un <strong>error de tipo xtk:session</strong><br /> </td> 
   </tr> 
   <tr> 

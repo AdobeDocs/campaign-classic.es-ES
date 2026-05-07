@@ -8,8 +8,8 @@ role: User, Developer
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 100%
+source-wordcount: '843'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Los formularios se describen en [esta sección](../../configuration/using/identi
 
 ## Estructura del formulario {#form-structure}
 
-El documento XML de un formulario de entrada debe contener el elemento raíz **`<form>`** con los atributos **name** y **namespace** para rellenar, respectivamente, el nombre del formulario y su área de nombres.
+El documento XML de un formulario de entrada debe contener el elemento raíz **`<form>`** con los atributos **name** y **namespace** para rellenar, respectivamente, el nombre del formulario y su espacio de nombres.
 
 ```xml
 <form name="form_name" namespace="name_space">
@@ -29,9 +29,9 @@ El documento XML de un formulario de entrada debe contener el elemento raíz **`
 </form>
 ```
 
-De forma predeterminada, un formulario está asociado al esquema de datos con el mismo nombre y área de nombres. Para asociar un formulario con otro nombre, introduzca la clave de esquema en el atributo **entity-schema** del elemento **`<form>`**.
+De forma predeterminada, un formulario está asociado al esquema de datos con el mismo nombre y espacio de nombres. Para asociar un formulario con otro nombre, introduzca la clave de esquema en el atributo **entity-schema** del elemento **`<form>`**.
 
-Para mostrar la estructura de un formulario de entrada, se describe una interfaz basada en el ejemplo de esquema “cus:book”:
+Para ilustrar la estructura de un formulario de entrada, se describe una interfaz basada en el esquema de ejemplo &quot;cus:book&quot;:
 
 ![](assets/d_ncs_content_form1.png)
 

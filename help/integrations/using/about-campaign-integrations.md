@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 topic-tags: campaign-integrations
 exl-id: ceb584da-bc97-4b71-9499-59df5e6d10c3
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '700'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '740'
+ht-degree: 94%
 
 ---
 
@@ -37,11 +37,11 @@ Se detalla la administración de la organización y los vínculos de las cuentas
 
 ## Administración de cookies e identidades {#id-and-cookies}
 
-Cuando se instala Adobe Campaign o se integra una instalación existente con Adobe Experience Cloud, se activa el [Servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/id-service/using/home){_blank}. Este servicio reemplaza la cookie permanente que utiliza principalmente Adobe Campaign para las funciones de seguimiento.
+Cuando se instala Adobe Campaign o se integra una instalación existente con Adobe Experience Cloud, se habilita el [Servicio de identidad de Adobe Experience Cloud](https://experienceleague.adobe.com/es/docs/id-service/using/home){_blank}. Este servicio reemplaza la cookie permanente que utiliza principalmente Adobe Campaign para las funciones de seguimiento.
 
 El Servicio de identidad de Adobe Experience Cloud (servicio de ID) proporciona un ID universal y persistente que identifica sus visitantes en todas las soluciones de Experience Cloud.
 
-Se asigna una ID único de visitante a los destinatarios que generen registros de seguimiento. Esta ID se guarda en el campo **[!UICONTROL Requester UUID (@sourceID)]** de la tabla **[!UICONTROL nms:trackingLogRcp]**. **Por lo tanto, ya no se pueden utilizar los datos de seguimiento de los destinatarios existentes antes de implementar el servicio de ID de visitante**.
+Se asigna un ID de visitante único a los destinatarios que generen registros de seguimiento. Esta ID se guarda en el campo **[!UICONTROL Requester UUID (@sourceID)]** de la tabla **[!UICONTROL nms:trackingLogRcp]**. **Por lo tanto, ya no se pueden utilizar los datos de seguimiento de los destinatarios existentes antes de implementar el servicio de ID de visitante**.
 
 Las otras soluciones de Adobe Experience Cloud reconocen, por consiguiente, el ID con el mismo CNAME. [Más información](https://experienceleague.adobe.com/es/docs/id-service/using/reference/analytics-reference/cname){_blank}.
 
@@ -63,7 +63,7 @@ La siguiente tabla permite acceder a la documentación de integración de Experi
   </tr> 
   <tr> 
    <td> <strong>Adobe Identity Management System (IMS), Adobe ID</strong><br /> </td> 
-   <td> Configure Adobe IMS para conectarse a Adobe Campaign con el mismo Adobe ID que para las demás soluciones de Adobe Experience Cloud.<br /> Se debe utilizar un Adobe ID para iniciar sesión con el objetivo de utilizar determinadas funcionalidades vinculadas a las integraciones de Adobe Experience Cloud.<br /> <p><a href="../../integrations/using/about-adobe-id.md">Obtenga más información</a> sobre la implementación de la Adobe ID con Adobe Campaign.</p><br /> </td> 
+   <td> Configure Adobe IMS para que se conecte a Adobe Campaign con el mismo Adobe ID que para las otras soluciones de Adobe Experience Cloud.<br /> Se debe usar un Adobe ID para iniciar sesión con el fin de utilizar ciertas funcionalidades vinculadas a las integraciones de Adobe Experience Cloud.<br /> <p><a href="../../integrations/using/about-adobe-id.md">Obtenga más información</a> sobre la implementación de la Adobe ID con Adobe Campaign.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Experience Manager</strong><br /> </td> 
@@ -79,11 +79,11 @@ La siguiente tabla permite acceder a la documentación de integración de Experi
   </tr> 
   <tr> 
    <td> <strong>Recursos</strong><br /> </td> 
-   <td> Configure esta integración para insertar recursos de la biblioteca de Adobe Experience Cloud en correos electrónicos y páginas de aterrizaje creados en Adobe Campaign.<br /> <p><a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-experience-cloud-assets">Más información</a> sobre la integración de Adobe Campaign y Assets</p><br /> </td> 
+   <td> Configure esta integración para insertar recursos de la biblioteca de Adobe Experience Cloud en correos electrónicos y páginas de destino creados en Adobe Campaign.<br /> <p><a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-experience-cloud-assets">Más información</a> sobre la integración de Adobe Campaign y Assets</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AEM Assets</strong><br /> </td> 
-   <td> Configure esta integración para insertar recursos de su biblioteca de <strong>AEM Assets</strong> en correos electrónicos y páginas de aterrizaje creados en Adobe Campaign.<br /> <p><a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-aem-assets">Obtenga más información</a> sobre la integración de Adobe Campaign con AEM Assets.</p><br /> </td> 
+   <td> Configure esta integración para insertar recursos de su biblioteca de <strong>AEM Assets</strong> en correos electrónicos y páginas de destino creados en Adobe Campaign.<br /> <p><a href="../../integrations/using/configuring-access-to-assets.md#integrating-with-aem-assets">Obtenga más información</a> sobre la integración de Adobe Campaign con AEM Assets.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Activadores de Experience Cloud</strong><br /> </td> 

@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: Errores de envío y administración de cuarentena
+title: Errores de la entrega y administración de cuarentena
 description: Obtenga información sobre cómo comprender los errores de entrega y administrar las cuarentenas en Campaign Classic v7
 feature: Monitoring, Deliverability
 role: User
 exl-id: 86c7169a-2c71-4c43-8a1a-f39871b29856
 source-git-commit: 2ebae2b84741bf26dd44c872702dbf3b0ebfc453
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 33%
+source-wordcount: '1695'
+ht-degree: 37%
 
 ---
 
-# Errores de envío y administración de cuarentena {#delivery-failures-quarantine}
+# Errores de la entrega y administración de cuarentena {#delivery-failures-quarantine}
 
 >[!NOTE]
 >
@@ -207,7 +207,7 @@ Para obtener información detallada sobre los escenarios de cuarentena de SMS y 
 
 * [Comprender los errores de entrega](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (Documentación de Campaign v8)
 * [Administración de cuarentena](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentación de Campaign v8)
-* [Prácticas recomendadas de envío](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (documentación de Campaign v8)
+* [Prácticas recomendadas de envío](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (documentación de Campaign v8)
 * [Estados de entrega](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (documentación de Campaign v8)
 * [Flujo de trabajo de limpieza de la base de datos](../../production/using/database-cleanup-workflow.md) (v7 híbrido/local)
 * [Configurar reintentos de entrega](communication-channels.md) (v7 híbrido/local)

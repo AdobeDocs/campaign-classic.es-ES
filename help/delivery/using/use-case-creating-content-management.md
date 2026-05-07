@@ -8,7 +8,7 @@ exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1192'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Un esquema de datos es un documento XML asociado al contenido. Describe la estru
 >
 >Para obtener más información sobre la creación y configuración de esquemas de datos en Adobe Campaign, consulte [esta sección](../../configuration/using/about-schema-edition.md).
 >
->Los elementos de configuración específicos para la gestión de contenido se describen en [Esquemas de datos](data-schemas.md).
+>Los elementos de configuración específicos para la administración de contenido se describen en [Esquemas de datos](data-schemas.md).
 
 Para crear un esquema de datos, aplique los pasos siguientes:
 
@@ -165,7 +165,7 @@ El esquema contiene la siguiente información:
 
 El formulario de entrada permite editar una instancia de contenido a través de una interfaz de entrada desde la consola del cliente de Adobe Campaign.
 
-La descripción de un formulario es un documento XML estructurado que observa la gramática del esquema del formulario “xtk:form”.
+La descripción de un formulario es un documento XML estructurado que observa la gramática del esquema del formulario &quot;xtk:form&quot;.
 
 >[!NOTE]
 >
@@ -173,7 +173,7 @@ La descripción de un formulario es un documento XML estructurado que observa la
 >
 >Los elementos de configuración específicos para la administración de contenido se describen en [Formularios de entrada](input-forms.md).
 
-Para crear un formulario de entrada de la gestión de contenido, siga estos pasos:
+Para crear un formulario de entrada de la administración de contenido, siga estos pasos:
 
 1. En Adobe Campaign Explorer, seleccione el nodo **[!UICONTROL Administration > Configuration > Input forms]**.
 
@@ -229,7 +229,7 @@ Para utilizar una plantilla JavaScript en Adobe Campaign, siga los siguientes pa
 
    Haga clic en el icono **[!UICONTROL New]** situado encima de la lista de plantillas.
 
-1. Introduzca un nombre de plantilla y seleccione el esquema que ha creado para el gestor de contenido.
+1. Introduzca un nombre de plantilla y seleccione el esquema que ha creado para la administración de contenido.
 1. Importe el contenido establecido que desea mostrar en el mensaje.
 
    Añada los elementos variables respetando la sintaxis detallada en [Plantillas de JavaScript](formatting.md#javascript-templates).
@@ -390,7 +390,7 @@ Para crear contenido directamente en los envíos, aplique los pasos siguientes:
 
    ![](assets/s_ncs_content_in_delivery.png)
 
-   Se añade una pestaña adicional al asistente de envíos para definir el contenido a través del formulario del gestor de contenido.
+   Se añade una pestaña adicional al asistente de envíos para definir el contenido a través del formulario de administración de contenido.
 
 1. Introduzca la información variable del boletín informativo.
 

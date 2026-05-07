@@ -10,8 +10,8 @@ topic-tags: additional-configurations
 exl-id: 6fe8da3b-57b9-4a69-8602-a03993630b27
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 31%
+source-wordcount: '380'
+ht-degree: 33%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 31%
 
 
 
-La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) a través de instancias de Campaign Classic es limitada. Son direcciones URL que permiten que las instancias funcionen correctamente.
+La lista predeterminada de direcciones URL a las que pueden llamar los códigos JavaScript (flujos de trabajo, etc.) por las instancias de Campaign Classic es limitada. Son direcciones URL que permiten que las instancias funcionen correctamente.
 
 De forma predeterminada, las instancias no pueden conectarse a direcciones URL externas. Sin embargo, es posible añadir algunas direcciones URL externas a la lista de direcciones URL autorizadas para que la instancia pueda conectarse a ellas. Esto le permite conectar las instancias de Campaign a sistemas externos como, por ejemplo, servidores SFTP o sitios web para habilitar la transferencia de datos o archivos.
 
@@ -29,7 +29,7 @@ De forma predeterminada, las instancias no pueden conectarse a direcciones URL e
 >
 >Como cliente de **hosted**, si puede acceder al [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es), puede usar la interfaz de autoservicio de permisos de URL. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=es)
 >
->Otros clientes de **híbrido/alojado** deben ponerse en contacto con el equipo de soporte de Adobe para agregar la IP a la lista de permitidos.
+>Otros clientes **híbridos/alojados** deben ponerse en contacto con el equipo de soporte de Adobe para agregar la IP a la lista de permitidos.
 >
 
 Para implementaciones **Hybrid** y **On-Premise**, el administrador debe hacer referencia a un nuevo **urlPermission** en el archivo **serverConf.xml**.
@@ -57,7 +57,7 @@ Hay tres modos de protección de conexión disponibles:
 
 Para obtener más información, consulte estas secciones:
 
-* [Documentación del Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
+* [documentación del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
 * [Modelos de alojamiento](hosting-models.md)
 * [Configuración del servidor de Campaign](configuring-campaign-server.md)
 * [Parámetros del archivo de configuración del servidor Campaign](the-server-configuration-file.md)

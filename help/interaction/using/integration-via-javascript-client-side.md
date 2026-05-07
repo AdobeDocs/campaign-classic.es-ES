@@ -10,7 +10,7 @@ exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
 source-git-commit: 349c3dfd936527e50d7d3e03aa3408b395502da0
 workflow-type: tm+mt
 source-wordcount: '1139'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -52,8 +52,8 @@ Los siguientes casos de uso detallan las posibles opciones para integrar ofertas
 
    La página HTML debe incluir un
 
-   elemento con un atributo @id con el valor del nombre interno del espacio de oferta creado (“espacio de nombre i_internal”). La oferta se insertará en este 
-elemento mediante interacción.
+   elemento con un atributo @id con el valor del nombre interno del espacio de oferta creado (“espacio de nombre i_internal”). La oferta se insertará en esto
+Elemento por interacción.
 
    En este ejemplo, el atributo @id recibe el valor “i_SPC12”, donde “SPC12” es el nombre interno del espacio de oferta creado anteriormente:
 
@@ -174,7 +174,7 @@ El nodo XML devuelto tiene el siguiente aspecto:
 </propositions>
 ```
 
-El siguiente caso de uso detalla las configuraciones que se deben realizar en Adobe Campaign para activar el modo XML y mostrar el resultado de la llamada al motor en la página HTML.
+El siguiente caso de uso detalla las configuraciones que se deben realizar en Adobe Campaign para habilitar el modo XML y mostrar el resultado de la llamada al motor en la página HTML.
 
 1. **Creación de un entorno y un espacio de oferta**
 

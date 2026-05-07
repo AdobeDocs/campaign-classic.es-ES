@@ -7,7 +7,7 @@ feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: c1eccb48-59bf-412f-9c18-9cda2a022096
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '571'
 ht-degree: 100%
 
 ---
@@ -85,7 +85,7 @@ La sección superior del editor muestra mensajes relacionados con el estado del 
 * La aplicación web está en línea. Vuelva a publicar para aplicar cualquier cambio.
 * El contenido de la página no funciona. Debe incluir un formulario HTML (`<form>`)
 * Hay “n” zonas o botones de entrada para configurar.
-* Para activar la transición a la página siguiente, se debe vincular la acción “Página siguiente” a un botón o a un vínculo de la página actual.
+* Para habilitar la transición a la página siguiente, se debe vincular la acción “Página siguiente” a un botón o a un vínculo de la página actual.
 
 ### Lista de mensajes al editar una entrega {#list-of-messages-when-editing-a-delivery}
 

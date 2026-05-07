@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '822'
+workflow-type: tm+mt
+source-wordcount: '854'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Para ello, siga los siguientes pasos:
 1. [Inserción de la oferta dinámica en un correo electrónico](../../integrations/using/inserting-a-dynamic-image.md#inserting-dynamic-offer)
 1. [Creación de ofertas de redireccionamiento](../../integrations/using/inserting-a-dynamic-image.md#create-redirect-offers)
 1. [Crear públicos](../../integrations/using/inserting-a-dynamic-image.md#audiences-target)
-1. [Creación de una actividad de segmentación de experiencias ](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
+1. [Creación de una actividad de segmentación de experiencias](../../integrations/using/inserting-a-dynamic-image.md#creating-targeting-activity)
 1. [Vista previa y envío del correo electrónico](../../integrations/using/inserting-a-dynamic-image.md#preview-send-email)
 
 ## Inserción de la oferta dinámica en un correo electrónico {#inserting-dynamic-offer}
@@ -100,7 +100,7 @@ En Target, debe crear los dos públicos en los que se clasifican las personas qu
 
 1. Siga el mismo procedimiento para los públicos restantes.
 
-## Creación de una actividad de segmentación de experiencias  {#creating-targeting-activity}
+## Creación de una actividad de segmentación de experiencias {#creating-targeting-activity}
 
 En Target, es necesario crear una actividad de segmentación de experiencias, definir las diferentes experiencias y asociarlas a las ofertas correspondientes.
 

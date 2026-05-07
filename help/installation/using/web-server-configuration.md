@@ -9,8 +9,8 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
 source-git-commit: dba90a154e08400ae6ab6478623a50d48d72207c
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 2%
+source-wordcount: '332'
+ht-degree: 1%
 
 ---
 
@@ -81,5 +81,5 @@ A continuación, encontrará algunas de las prácticas recomendadas principales 
 
 Temas relacionados:
 
-* [Resumen del cumplimiento de Adobe Marketing Cloud](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
-* [Información general sobre la seguridad de Adobe Campaign](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/overview#security)
+* [Resumen del cumplimiento de Adobe Marketing Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
+* [Información general sobre seguridad de Adobe Campaign](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#security)

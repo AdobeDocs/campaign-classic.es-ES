@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Una vez remitidos los envíos de prueba, se puede comprobar los destinatarios a los que se han enviado y si se han abierto o no.
 
-* Para saber cuáles fueron los destinatarios objetivo, abra una entrega a través del panel de campañas y haga clic en la pestaña **[!UICONTROL Delivery]**.
+* Para saber cuáles fueron los destinatarios objetivo, abra una entrega a través del panel de control de campañas y haga clic en la pestaña **[!UICONTROL Delivery]**.
 
   ![](assets/use_case_abtesting_analysis_001.png)
 

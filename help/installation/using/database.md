@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Recommendations de Campaign Classic Database
+title: Recomendaciones de Campaign Classic Database
 description: Recomendaciones de base de datos
 feature: Installation, Instance Settings
 badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
@@ -10,8 +10,8 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: 8a0426c1-9e8d-4053-bc2b-6a550e2eed2f
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 6%
+source-wordcount: '310'
+ht-degree: 11%
 
 ---
 
@@ -47,7 +47,7 @@ Las DLL de acceso se encuentran en el sitio web de Microsoft.
 
 Los parámetros **NLS_NCHAR_CHARACTERSET** y **NLS_CHARACTERSET** deben configurarse correctamente para que la base de datos funcione en Unicode o ANSI.
 
-Adobe Campaign utiliza la codificación de Oracle predeterminada. El uso de otra codificación puede provocar problemas de compatibilidad con el déclencheur: en este caso, póngase en contacto con el servicio de asistencia técnica.
+Adobe Campaign utiliza la codificación Oracle predeterminada. El uso de otra codificación puede provocar problemas de compatibilidad con el déclencheur: en este caso, póngase en contacto con el servicio de asistencia técnica.
 
 Para obtener más información sobre la codificación, use el siguiente comando **sqlplus**:
 

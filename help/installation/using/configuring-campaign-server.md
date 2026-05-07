@@ -10,8 +10,8 @@ topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 2%
+source-wordcount: '1630'
+ht-degree: 5%
 
 ---
 
@@ -25,17 +25,17 @@ En este capítulo se detallan las configuraciones del lado del servidor que se p
 
 Estos procedimientos están restringidos a **implementaciones locales**/**híbridas** y requieren permisos de administración.
 
-Para implementaciones de **hosted**, la configuración del lado del servidor solo se puede configurar por Adobe. Sin embargo, algunas opciones se pueden configurar en [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es), como la administración de listas de permitidos IP o los permisos de URL. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es).
+Para implementaciones de **hosted**, solo Adobe puede configurar los ajustes del lado del servidor. Sin embargo, algunas opciones se pueden configurar en [Panel de control de Campaign de campaña](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es), como la administración de listas de permitidos IP o los permisos de URL. [Más información](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es).
 
 Para obtener más información, consulte estas secciones:
 
-* [Documentación del Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
+* [documentación del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
 * [Modelos de alojamiento](../../installation/using/hosting-models.md)
-* [Campaign Classic Matriz de funciones locales y alojadas](../../installation/using/capability-matrix.md)
+* [Matriz de funciones On-Premise y alojadas de Campaign Classic](../../installation/using/capability-matrix.md)
 
 ## Archivos de configuración
 
-Los archivos de configuración del Campaign Classic se almacenan en la carpeta **conf** de la carpeta de instalación de Adobe Campaign. La configuración se distribuye en dos archivos:
+Los archivos de configuración de Campaign Classic se almacenan en la carpeta **conf** de la carpeta de instalación de Adobe Campaign. La configuración se distribuye en dos archivos:
 
 * **serverConf.xml**: configuración general para todas las instancias. Este archivo combina los parámetros técnicos del servidor de Adobe Campaign: todos los instancias los comparten. La descripción de algunos de estos parámetros se detalla a continuación. Los diferentes nodos y parámetros y se enumeran en esta [sección](../../installation/using/the-server-configuration-file.md).
 * **config-`<instance>`.xml** (donde **instance** es el nombre de la instancia): configuración específica de la instancia. Si comparte el servidor entre varias instancias, introduzca los parámetros específicos de cada instancia en el archivo correspondiente.
@@ -156,7 +156,7 @@ Para páginas JSP, la configuración predeterminada es:
 
 Adobe Campaign utiliza las siguientes páginas JSP:
 
-* SOAP /nl/jsp/**soaprouter.jsp**: consola de cliente y conexiones de servicios web (API de servicio web),
+* /nl/jsp/**soaprouter.jsp**: consola de cliente y conexiones de servicios web (API de SOAP),
 * /nl/jsp/**m.jsp**: páginas espejo,
 * /nl/jsp/**logon.jsp**: acceso basado en web a informes e implementación de la consola de cliente,
 * /nl/jsp/**s.jsp** : Usando marketing viral (patrocinio y redes sociales).
@@ -257,7 +257,7 @@ Este usuario debe añadirse a la lista de usuarios del operador Adobe Campaign &
 
 ## Seguimiento redundante {#redundant-tracking}
 
-SOAP Cuando se utilizan varios servidores para la redirección, deben poder comunicarse entre sí a través de llamadas de para compartir información de las direcciones URL que se van a redirigir. En el momento del inicio de la entrega, es posible que no todos los servidores de redirección estén disponibles; por lo tanto, es posible que no tengan el mismo nivel de información.
+Cuando se utilizan varios servidores para la redirección, deben poder comunicarse entre sí a través de llamadas de SOAP para compartir información de las direcciones URL que se van a redirigir. En el momento del inicio de la entrega, es posible que no todos los servidores de redirección estén disponibles; por lo tanto, es posible que no tengan el mismo nivel de información.
 
 >[!NOTE]
 >

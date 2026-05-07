@@ -7,7 +7,7 @@ feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '755'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Para crear un nuevo envío, coloque el cursor en la pestaña **Campaigns** y hag
 
 ## Paso 2: Selección de una plantilla {#step-2---selecting-a-template}
 
-Seleccione una plantilla de envío y asigne un nombre a la entrega. Este nombre solo está visible para los usuarios de la consola de Adobe Campaign y no para los destinatarios. Sin embargo, este título se muestra en la lista de envíos. Haga clic en **[!UICONTROL Continue]**.
+Seleccione una plantilla de envío y asigne un nombre a la entrega. Este nombre solo está visible para los usuarios de la consola de Adobe Campaign y no para los destinatarios. Sin embargo, este título se muestra en la lista de envíos. Haga clic **[!UICONTROL Continue]**.
 
 ![](assets/dce_delivery_model.png)
 

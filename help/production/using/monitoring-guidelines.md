@@ -6,8 +6,8 @@ feature: Monitoring
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
 source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 23%
+source-wordcount: '835'
+ht-degree: 28%
 
 ---
 
@@ -76,7 +76,7 @@ Se pueden realizar acciones específicas al encontrar problemas con la ejecució
 
 **Supervisión del estado del flujo de trabajo**
 
-Además del mapa de calor, puede crear un flujo de trabajo que le permitirá monitorizar el estado de un conjunto de flujos de trabajo y enviar mensajes recurrentes a los supervisores. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html?lang=es){target="_blank"}.
+Además del mapa de calor, puede crear un flujo de trabajo que le permitirá monitorizar el estado de un conjunto de flujos de trabajo y enviar mensajes recurrentes a los supervisores. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html){target="_blank"}.
 
 **Directrices generales**
 

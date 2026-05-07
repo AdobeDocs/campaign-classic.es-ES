@@ -6,8 +6,8 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Web Forms, Landing Pages
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '2373'
+workflow-type: tm+mt
+source-wordcount: '2397'
 ht-degree: 100%
 
 ---
@@ -83,7 +83,7 @@ Se pueden insertar cinco tipos diferentes de campos de texto en una página de f
 
   >[!CAUTION]
   >
-  >Las contraseñas se almacenan sin encriptar en la base de datos.
+  >Las contraseñas se almacenan sin cifrar en la base de datos.
 
 * **Texto multilínea**: permite al usuario introducir texto en varias líneas.
 

@@ -6,9 +6,9 @@ feature: Deliverability, Troubleshooting
 role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
 source-git-commit: 0c639cc8b9636c190c868980ab5182a0eccb5f74
-workflow-type: ht
-source-wordcount: '648'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ Si el problema persiste, póngase en contacto con los servicios comerciales o de
 
   Para comprobar si su dirección IP está en la lista de bloqueados, puede utilizar varios sitios web para verificarla, como:
    * [MX Toolbox](https://mxtoolbox.com/)
-   * [¿Cuál es mi dirección IP?](https://whatismyipaddress.com)
+   * [Cuál es mi dirección IP](https://whatismyipaddress.com)
 
   Generalmente, el resultado de la comprobación de la dirección IP muestra una lista que contiene los detalles de la lista de bloqueados y el nombre del sitio web que bloqueó la dirección IP.
 

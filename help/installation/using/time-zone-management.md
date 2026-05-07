@@ -10,8 +10,8 @@ topic-tags: additional-configurations
 exl-id: e5ed96cc-3fc7-4af4-a29e-5a4c81f4fe39
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 2%
+source-wordcount: '981'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ## Principio de funcionamiento {#operating-principle}
 
-Adobe Campaign permite expresar las fechas en función de su huso horario, lo que permite a los usuarios internacionales trabajar en todo el mundo en diferentes husos horarios. Cada país que utilice la misma instancia puede administrar la ejecución de campañas, el seguimiento, el archivado, etc. según la hora local.
+Adobe Campaign permite expresar las fechas en función de su huso horario, lo que permite a los usuarios internacionales trabajar en todo el mundo en diferentes husos horarios. Cada país que utilice la misma instancia puede administrar la ejecución de campañas, el seguimiento, el archivado, etc. en función de la hora local.
 
 Para permitir el uso de la plataforma Adobe Campaign a escala internacional, todas las fechas utilizadas por los sistemas deben poder vincularse a una zona horaria. Por lo tanto, una fecha cuya zona horaria se conozca puede importarse en cualquier otra zona horaria o independientemente de esta.
 
@@ -70,7 +70,7 @@ Marque la opción **[!UICONTROL UTC database (date fields with time zone)]** par
 
 >[!IMPORTANT]
 >
->Si usa **Oracle**, los archivos de huso horario (.dat) de las capas de cliente de Oracle deben ser compatibles con los archivos de husos horarios instalados en el servidor.
+>Si usa **Oracle**, los archivos de zona horaria (.dat) de las capas de cliente de Oracle deben ser compatibles con los archivos de zona horaria instalados en el servidor.
 
 Si la base de datos no es UTC, puede seleccionar una de las zonas horarias ofrecidas en la lista desplegable. También puede utilizar la zona horaria del servidor o seleccionar la opción UTC (Hora Universal Coordinada).
 
@@ -102,6 +102,6 @@ Ejemplo de valores posibles:
 
   Estos valores se toman de la base de datos tz (Olson). Para obtener más información, consulte [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
 
-## base de datos de oracle y zona horaria del servidor
+## Base de datos de Oracle y zona horaria del servidor
 
 Para la base de datos principal, Campaign utiliza la zona horaria del servidor para establecer la zona horaria de sesión en la conexión de base de datos. La opción &quot;WdbcTimeZone&quot; no tiene ningún impacto. Por lo tanto, la zona horaria del servidor debe coincidir con la de la base de datos principal utilizada por Campaign. Si no puede cambiar la zona horaria del servidor, la utilizada por Campaign puede anularse configurando la variable de entorno TZ en customer.sh.

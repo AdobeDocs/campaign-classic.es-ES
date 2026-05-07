@@ -10,8 +10,8 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 2%
+source-wordcount: '725'
+ht-degree: 5%
 
 ---
 
@@ -137,7 +137,7 @@ Para el cliente enriquecido de Adobe Campaign (**nlclient**), los puertos siguie
   <tr> 
    <td><p> 80/tcp (http)</p><p>443/tcp (https)</p><br /> </td> 
    <td> Servidor de aplicaciones <br /> </td> 
-   <td> SOAP Tráfico de (HTTP).<br /> </td> 
+   <td> Tráfico de SOAP (HTTP).<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -234,11 +234,11 @@ La integración entre Adobe Campaign y Adobe Experience Manager requiere la aper
   </tr> 
   <tr> 
    <td> 80<br /> </td> 
-   <td> AEM conexión de la a Adobe Campaign<br /> </td> 
+   <td> Conexión de AEM con Adobe Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td><p> 4502</p><p> 4503</p><br /> </td> 
-   <td> Conexión de Adobe Campaign AEM a las instancias de "creación" y "publicación" de la. AEM Los puertos que se van a abrir pueden diferir de los puertos predeterminados, según la configuración de la aplicación de la que se haya hecho la configuración de la aplicación.<br /> </td> 
+   <td> Conexión de Adobe Campaign a las instancias de creación y publicación de AEM. Los puertos que se van a abrir pueden diferir de los puertos predeterminados, según la configuración de AEM.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

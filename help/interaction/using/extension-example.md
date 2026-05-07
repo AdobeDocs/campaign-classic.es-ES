@@ -10,8 +10,8 @@ topic-tags: advanced-parameters
 exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 79%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 
 
-En el caso de un contacto entrante (centro de llamadas o sitio web), las ofertas más relevantes se sugieren a un contacto determinado mediante un conjunto de reglas de idoneidad. Para enriquecer los criterios de idoneidad de las ofertas, amplíe el esquema **de nms:interaction**.
+En el caso de un contacto entrante (centro de llamadas o sitio web), las ofertas más relevantes se sugieren a un contacto determinado mediante un conjunto de reglas de elegibilidad. Para enriquecer los criterios de idoneidad de sus ofertas, amplíe el esquema **nms:interaction**.
 
-* Para añadir un nuevo contexto de interacción, amplíe el esquema **nms:interaction** y cree todos los elementos **attribute** que sean necesarios en el esquema.
+* Para agregar un nuevo contexto de interacción, amplíe el esquema **nms:interaction** y cree tantos elementos **attribute** como sea necesario en el esquema.
 
   En el siguiente ejemplo, los criterios añadidos son el código de país y la última página visitada.
 

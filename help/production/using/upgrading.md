@@ -10,8 +10,8 @@ topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 source-git-commit: 0da7fb912a909af222d796652efba4b30e39dc1c
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 3%
+source-wordcount: '1281'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ Antes de iniciar el proceso de actualización, determine y confirme a qué versi
 
 >[!IMPORTANT]
 >
->* El Adobe recomienda encarecidamente realizar una copia de seguridad de la base de datos en cada instancia antes de actualizar. Para obtener más información, consulte [esta sección](../../production/using/backup.md).
+>* Adobe recomienda encarecidamente realizar una copia de seguridad de la base de datos en cada instancia antes de actualizar. Para obtener más información, consulte [esta sección](../../production/using/backup.md).
 >* Para realizar una actualización, asegúrese de que tiene la capacidad y los permisos para acceder a instancias y registros.
 >* Lea [esta sección](../../installation/using/general-architecture.md) y el capítulo [actualización de compilación](https://helpx.adobe.com/es/campaign/kb/acc-build-upgrade.html) antes de comenzar.
 >

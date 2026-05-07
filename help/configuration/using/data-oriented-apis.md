@@ -7,7 +7,7 @@ role: Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1803'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ La estructura del documento XML de la consulta se describe en el esquema &quot;x
 </queryDef>
 ```
 
-Se puede definir una subconsulta ( `<subquery>` ) en un elemento `<condition> `. La sintaxis de un   `<subquery> `   se basa en la sintaxis de un    `<querydef>`.
+Se puede definir una subconsulta ( `<subquery>` ) en un elemento `<condition> `. La sintaxis de un elemento `<subquery> ` se basa en la sintaxis de un elemento `<querydef>`.
 
 Ejemplo de `<subquery>  : </subquery>`
 

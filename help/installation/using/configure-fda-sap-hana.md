@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Configuración de acceso a SAP HANA
-description: Obtenga información sobre cómo configurar el acceso al SAP HANA en FDA
+description: Obtenga información sobre cómo configurar el acceso a SAP HANA en FDA
 feature: Installation, Federated Data Access
 audience: platform
 content-type: reference
@@ -18,12 +18,12 @@ ht-degree: 67%
 
 
 
-Utilice la opción [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) de Campaign para procesar la información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso al SAP HANA.
+Utilice la opción [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) de Campaign para procesar la información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso a SAP HANA.
 
 1. Configurar [base de datos de SAP HANA](#sap-config)
-1. Configuración del SAP HANA [cuenta externa](#sap-external) en Campaign
+1. Configurar la [cuenta externa](#sap-external) de SAP HANA en Campaign
 
-## controladores de SAP HANA {#sap-config}
+## Controladores de SAP HANA {#sap-config}
 
 La conexión a una base de datos externa de SAP HANA en FDA requiere determinadas configuraciones adicionales en el servidor de Adobe Campaign:
 

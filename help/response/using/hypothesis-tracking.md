@@ -10,7 +10,7 @@ topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '468'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 
 
-El resultado de los cálculos de hipótesis está disponible en varios niveles de la plataforma Adobe Campaign: los indicadores calculados por hipótesis y las reacciones de las poblaciones objetivo se pueden ver a través de la hipótesis real, así como en los informes de hipótesis disponibles a través de campañas y envíos.
+El resultado de los cálculos de hipótesis está disponible en varios niveles de la plataforma Adobe Campaign: los indicadores calculados por hipótesis y las reacciones de las poblaciones destinatarias se pueden ver a través de la hipótesis real, así como en los informes de hipótesis disponibles a través de campañas y envíos.
 
 ## Resultados de hipótesis {#hypothesis-results}
 

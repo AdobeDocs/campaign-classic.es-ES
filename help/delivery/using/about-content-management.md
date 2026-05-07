@@ -7,9 +7,9 @@ feature: Landing Pages, Email Design
 role: User
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '261'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ La administración de contenido ofrece las siguientes ventajas:
 
 * Edición de mensajes estructurada mediante interfaces de entrada.
 * Separación del contenido de datos y cómo se presenta (generado en formato XML).
-* Generación de documentos en varios formatos (HTML, TXT, XML, etc.) basados en hojas de estilo para garantizar la compatibilidad con cartas gráficas.
+* Generación de documentos en varios formatos (html, txt, XML, etc.) basado en hojas de estilo para garantizar el cumplimiento de las cartas gráficas,
 * Recuperación y agregación automática de flujos de contenido externos.
 * Colaboración con flujo de trabajo de validación y verificación de datos.
 

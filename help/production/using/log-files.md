@@ -10,8 +10,8 @@ topic-tags: production-procedures
 exl-id: c9d427da-6965-4945-90f0-d0770701d55e
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 5%
+source-wordcount: '470'
+ht-degree: 8%
 
 ---
 
@@ -37,7 +37,7 @@ Los archivos de registro de varias instancias se enumeran en la siguiente tabla:
 
 | Archivo | Descripción |
 |---|---|
-| web.log | SOAP Registros del módulo web (consola de cliente, informes, API de, etc.) |
+| web.log | Registros del módulo web (consola de cliente, informes, API de SOAP, etc.) |
 | webmdl.log | Registros del módulo de redirección |
 | watchdog.log | Registros del módulo de monitorización de procesos de Adobe Campaign |
 | trackinglogd.log | “Logs” de seguimiento |

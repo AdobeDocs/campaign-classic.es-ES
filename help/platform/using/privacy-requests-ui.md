@@ -9,7 +9,7 @@ topic-tags: starting-with-adobe-campaign
 exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '781'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ La interfaz de **Adobe Campaign** le permite crear sus solicitudes de privacidad
 
    ![](assets/privacy-request-new.png)
 
-1. Seleccione **[!UICONTROL Regulation]** (GDPR, CCPA, PDPA o LGPD), **[!UICONTROL Request type]** (Acceso o Eliminar), seleccione un **[!UICONTROL Namespace]** e introduzca la **[!UICONTROL Reconciliation value]**. Si utiliza el correo electrónico como área de nombres, escriba el correo electrónico del sujeto de datos.
+1. Seleccione **[!UICONTROL Regulation]** (RGPD, CCPA, PDPA o LGPD), **[!UICONTROL Request type]** (Acceso o Eliminar), seleccione un **[!UICONTROL Namespace]** e introduzca la **[!UICONTROL Reconciliation value]**. Si utiliza el correo electrónico como espacio de nombres, escriba el correo electrónico del sujeto de datos.
 
    ![](assets/privacy-request-properties.png)
 
@@ -85,7 +85,7 @@ Estos son los distintos estados de las solicitudes de privacidad:
 
 El **procesamiento en 2 pasos** está activado de forma predeterminada. Cuando se crea una nueva solicitud de eliminación con este modo, Adobe Campaign siempre realiza primero una solicitud de acceso. Esto le permite comprobar los datos antes de confirmar la eliminación.
 
-Puede cambiar este modo desde la pantalla de edición de solicitud de privacidad. Haga clic en **[!UICONTROL Advanced settings]**.
+Puede cambiar este modo desde la pantalla de edición de solicitud de privacidad. Haga clic **[!UICONTROL Advanced settings]**.
 
 ![](assets/privacy-request-advanced-settings.png)
 

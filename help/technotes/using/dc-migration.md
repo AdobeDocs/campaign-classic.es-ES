@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 48%
+source-wordcount: '1557'
+ht-degree: 47%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 48%
 
 ## Contexto
 
-Como valioso cliente de Adobe Campaign Classic, estamos comprometidos a proporcionarle la mejor experiencia y el mayor valor posibles. A lo largo de los años, nos hemos dado cuenta del valor y la fiabilidad de alojar a nuestros clientes en la nube.  Como parte de nuestra [Iniciativa de actualización anual](../../rn/using/rn-overview.md#yearly-upgrade), estamos trasladando a todos nuestros clientes a Adobe Managed Services (Nube pública en AWS) para que proporcionen servicios mejores y más confiables.
+Como valioso cliente de Adobe Campaign Classic, estamos comprometidos a proporcionarle la mejor experiencia y el mayor valor posibles. A lo largo de los años, nos hemos dado cuenta del valor y la fiabilidad de alojar a nuestros clientes en la nube.  Como parte de nuestra [Iniciativa de actualización anual](../../rn/using/rn-overview.md#yearly-upgrade), estamos trasladando a todos nuestros clientes a Adobe Managed Services (Nube pública en AWS) para brindar servicios mejores y más confiables.
 
 Este programa tiene tres objetivos principales:
 
@@ -30,14 +30,14 @@ Este programa tiene tres objetivos principales:
 ### Glosario
 
 * **Actualización de compilación**: cuando el software de Adobe Campaign Classic se actualiza al último número de compilación segura, pero permanece en el mismo nivel de compilación principal/menor. Por ejemplo: Campaign 7 versión 20.2.3 compilación 9182 a Campaign 7 versión 21.2.5 compilación 9188. [Más información](../../platform/using/faq-build-upgrade.md).
-* **MID/RT** - Servidores de ejecución de mensajes alojados en Adobe Cloud (MID para campañas por lotes y RT para mensajes unitarios en tiempo real)
+* **MID/RT**: servidores de ejecución de mensajes alojados en Adobe Cloud (MID para campañas por lotes y RT para mensajes unitarios en tiempo real)
 * **Programa de actualización anual**: este programa proporciona seguridad mejorada, soporte mejorado, mantenimiento y estabilidad mejorados. También facilita las futuras actualizaciones y proporciona acceso a nuevas funciones en Campaign.  [Más información](../../rn/using/rn-overview.md#yearly-upgrade).
 * **AWS** - Amazon Web Service (nube pública de Amazon)
 * **SFTP** - Protocolo seguro de transferencia de archivos. [Más información](../../platform/using/sftp-server-usage.md).
 
 
 >[!NOTE]
->La migración de Campaign Classic v7 a la nube pública afecta a los clientes que solo utilizan **Managed Services de Adobe**.
+>La migración de Campaign Classic v7 a la nube pública afecta a los clientes que solo usan **Adobe Managed Services**.
 
 
 ## Ventajas
@@ -45,7 +45,7 @@ Este programa tiene tres objetivos principales:
 **Seguridad**
 
 * Últimas correcciones de seguridad
-* Cifrado de datos en reposo 
+* Cifrado de datos en reposo
 * Autenticación mejorada (IMS)
 
 **Infraestructura**
@@ -78,7 +78,7 @@ Este programa tiene tres objetivos principales:
 
 Para comenzar como es debido, las cuentas que requieran esta migración recibirán un mensaje de Adobe por correo electrónico con una cronología y acceso a la documentación. Esta notificación le indica que se ha programado la migración de su cuenta.
 
-Se puede iniciar una migración [abriendo un nuevo ticket de soporte al Servicio de atención al cliente](https://experienceleague.adobe.com/es?support-solution=Campaign#support). Utilice la línea de asunto &quot;Migrar a AWS&quot;.
+Se puede iniciar una migración [abriendo un nuevo ticket de soporte al Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support). Utilice la línea de asunto &quot;Migrar a AWS&quot;.
 
 ### ¿Es obligatoria esta migración?
 
@@ -156,13 +156,13 @@ Esto significa que el cambio será transparente para los usuarios y las implemen
 
 **IP de envío de correo electrónico**
 
-En primer lugar, la Capacidad de entrega de Adobe evaluará el estado de entrega de la plataforma y recomendará un plan para el cambio a las nuevas IP.
+En primer lugar, Adobe Delivery evaluará el estado de entrega de la plataforma y recomendará un plan para el cambio a las nuevas IP.
 
-El Adobe proporcionará el mismo número de IP en el nuevo centro de datos.
+Adobe proporcionará el mismo número de IP en el nuevo centro de datos.
 
 La ampliación de nuevas direcciones IP puede comenzar en cuanto se aprovisionan las nuevas.
 
-**Limpieza de aplicaciones**
+**Limpieza de aplicación**
 La transferencia de datos entre centros de datos se encuentra en la ruta crítica del tiempo de inactividad.
 
 Los datos se almacenan de dos maneras:

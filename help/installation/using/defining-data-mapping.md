@@ -21,7 +21,7 @@ Para ello, una vez que se haya creado el esquema de la tabla externa, debe crear
 
 Para ello, siga los siguientes pasos:
 
-1. Cree una nueva asignación de envíos y elija la dimensión de objetivo, como por ejemplo el esquema que acaba de crear.
+1. Cree una nueva asignación de envíos y elija la dimensión de segmentación, como por ejemplo el esquema que acaba de crear.
 
    ![](assets/wf_new_mapping_create_fda.png)
 

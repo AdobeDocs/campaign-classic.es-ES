@@ -9,8 +9,8 @@ hide: true
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1774'
-ht-degree: 100%
+source-wordcount: '2018'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ _27 de agosto de 2021_
 
 La versión 9032@99a3894 incluye las siguientes correcciones:
 
-* La función de firma de seguimiento se ha mejorado para evitar errores vinculados a la forma en que las herramientas de terceros (clientes de correo electrónico, exploradores de Internet, etc.) gestionan los caracteres especiales. Los parámetros de URL ahora están codificados.
+* La función de firma de seguimiento se ha mejorado para evitar errores vinculados a la forma en que las herramientas de terceros (clientes de correo electrónico, navegadores de Internet, etc.) tratan los caracteres especiales. Los parámetros de URL ahora están codificados.
 * Se ha corregido un problema con los selectores de fechas que podría provocar que una consola muestre un mensaje de error de bloqueador. (NEO-36345)
 
 ### [!DNL Gold Standard] 11 liberación{#gs-11}
@@ -85,9 +85,6 @@ La versión 9032@d3b452f incluye las siguientes mejoras y correcciones:
 
 * Se ha corregido un problema de seguridad para reforzar la protección contra los problemas de falsificación de solicitudes del lado del servidor (SSRF). (NEO-27777)
 
-
-
-
 * Se ha corregido un problema que podía provocar errores en los flujos de trabajo al ejecutar una actividad de **Enriquecimiento**. (NEO-17338)
 
 ### [!DNL Gold Standard] 10 liberación{#gs-10}
@@ -121,10 +118,6 @@ Las siguientes correcciones están relacionadas con el mecanismo de seguridad de
 * Se ha corregido un problema que impedía que el funcionamiento del seguimiento de direcciones URL mediante fragmentos en parámetros de personalización (etiquetas de anclaje con signo de almohadilla). (NEO-25774)
 * Se ha corregido un problema con el servicio de antiphishing. (NEO-25283)
 * Se ha corregido un problema de seguimiento al usar fórmulas de seguimiento personalizadas específicas. (NEO-25277)
-
-
-
-
 
 ### [!DNL Gold Standard] 8 liberación{#gs-8}
 

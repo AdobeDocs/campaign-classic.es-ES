@@ -10,7 +10,7 @@ topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '633'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Una vez finalizado el contenido de la oferta, es necesario aprobarla para que se duplique en el entorno en vivo y se distribuya. La aprobación se refiere al contenido de la oferta y sus requisitos.
 
-El banner del panel de oferta indica si la oferta debe ir a través del ciclo de aprobación o no.
+El banner del panel de control de oferta indica si la oferta debe ir a través del ciclo de aprobación o no.
 
 ![](assets/offer_validate_001.png)
 
@@ -47,7 +47,7 @@ Para aprobar el contenido de la oferta, siga estos pasos:
 
    ![](assets/offer_validate_003.png)
 
-   Una vez aprobado el contenido de la oferta, la información se actualiza en la tabla del panel de ofertas.
+   Una vez aprobado el contenido de la oferta, la información se actualiza en la tabla del panel de control de ofertas.
 
    ![](assets/offer_validate_004.png)
 
@@ -57,7 +57,7 @@ Para aprobar el contenido de la oferta, siga estos pasos:
 
 ## Aprobación de los requisitos para la oferta {#approving-offer-eligibility}
 
-La aprobación de los requisitos de oferta implica aceptar o rechazar los pesos de la oferta y las reglas de idoneidad también configuradas en la oferta o heredadas de las reglas creadas en la categoría principal.
+La aprobación de los requisitos de oferta implica aceptar o rechazar los pesos de la oferta y las reglas de elegibilidad también configuradas en la oferta o heredadas de las reglas creadas en la categoría principal.
 
 >[!IMPORTANT]
 >
@@ -71,7 +71,7 @@ La aprobación de los requisitos de oferta implica aceptar o rechazar los pesos 
 
   ![](assets/offer_validate_007.png)
 
-  Los distintos estados se actualizan en el panel de ofertas.
+  Los distintos estados se actualizan en el panel de control de ofertas.
 
   ![](assets/offer_validate_006.png)
 
@@ -83,7 +83,7 @@ La aprobación de los requisitos de oferta implica aceptar o rechazar los pesos 
 
   ![](assets/offer_validate_009.png)
 
-  Los distintos estados se actualizan en el panel de ofertas.
+  Los distintos estados se actualizan en el panel de control de ofertas.
 
   ![](assets/offer_validate_010.png)
 
@@ -101,7 +101,7 @@ El seguimiento de la aprobación está disponible en el tablero de ofertas. Haga
 
 Una vez lanzada la aprobación, puede ser relanzada. Para ello, siga estas instrucciones:
 
-1. Haga clic **[!UICONTROL Content approved]** en el panel de ofertas.
+1. Haga clic **[!UICONTROL Content approved]** en el panel de control de ofertas.
 1. En la ventana **[!UICONTROL Edit]** que aparece, seleccione la aprobación para reiniciar y, a continuación, haga clic en **[!UICONTROL Re-initialize approval to submit it again]**.
 1. Confirme haciendo clic en **[!UICONTROL Ok]**.
 
@@ -111,11 +111,11 @@ Una vez lanzada la aprobación, puede ser relanzada. Para ello, siga estas instr
 
 Una vez que el contenido y la idoneidad de una oferta se hayan aprobado, la oferta se publica mediante un flujo de trabajo que se ejecuta automáticamente para cada oferta cuyo ciclo de aprobación haya finalizado. El flujo de trabajo de **[!UICONTROL Offer notification]** también se ejecuta cada hora para sincronizar (si es necesario) los espacios y las categorías que contiene el catálogo de ofertas desde el entorno de diseño al entorno en vivo.
 
-El panel de la oferta disponible en el entorno de diseño contiene información sobre la publicación, incluido el nombre de la oferta coincidente del entorno en directo.
+El panel de control de la oferta disponible en el entorno de diseño contiene información sobre la publicación, incluido el nombre de la oferta coincidente del entorno en directo.
 
 ![](assets/offer_golive_001.png)
 
-Para mostrar la oferta disponible en el entorno en directo, haga clic en la etiqueta de oferta: la oferta en directo tiene un panel que contiene toda la información relevante.
+Para mostrar la oferta disponible en el entorno en directo, haga clic en la etiqueta de oferta: la oferta en directo tiene un panel de control que contiene toda la información relevante.
 
 ![](assets/offer_golive_002.png)
 
@@ -123,7 +123,7 @@ Para mostrar la oferta disponible en el entorno en directo, haga clic en la etiq
 
 Una vez aprobada la oferta, puede desactivarla.
 
-Para ello, vaya al panel de una oferta en línea o de una oferta esperando para conectarse y, a continuación, haga clic en **[!UICONTROL Disable offer]**.
+Para ello, vaya al panel de control de una oferta en línea o de una oferta esperando para conectarse y, a continuación, haga clic en **[!UICONTROL Disable offer]**.
 
 También puede deshabilitar directamente una categoría si accede a la pestaña **[!UICONTROL Eligibility]** y activa la casilla **[!UICONTROL Enabled]**.
 

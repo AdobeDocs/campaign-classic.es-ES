@@ -9,8 +9,8 @@ hide: true
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 100%
+source-wordcount: '894'
+ht-degree: 98%
 
 ---
 
@@ -139,12 +139,12 @@ Para crear un bloque personalizado, vaya a Explorer y aplique los pasos siguient
 
      ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * Introduzca el contenido (en HTML, texto, JavaScript, etc.) del bloque o bloques de personalización y haga clic en **[!UICONTROL Save]**
+   * Introduzca el contenido (en HTML, texto, JavaScript, etc.) de los bloques personalizados y haga clic en **[!UICONTROL Save]**.
 
 ## Tutorial en vídeo {#personalization-blocks-video}
 
 Descubra cómo crear bloques de contenido dinámico y cómo utilizarlos para personalizar el contenido del envío de su correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/27461?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

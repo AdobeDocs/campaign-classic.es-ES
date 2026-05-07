@@ -9,7 +9,7 @@ topic-tags: interaction-overview
 exl-id: 9e199b7c-9307-4797-bf86-7940388555bc
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1109'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ A continuación, se presenta la definición de los principales elementos de inte
   >Los espacios deben definirse en las especificaciones y no deben modificarse durante el proyecto.
 
 * **Offer catalog**: conjunto de ofertas definidas en Adobe Campaign que se puede seleccionar durante una interacción. El catálogo se organiza de forma jerárquica con cada nodo correspondiente a una categoría.
-* **Category**: una carpeta relacionada con el catálogo de ofertas en un entorno, que organiza las ofertas según la naturaleza, la fecha de idoneidad y el tema de la aplicación. Una categoría puede contener subcategorías que heredan todas las características de la categoría principal. Las reglas de idoneidad se pueden definir para una categoría a fin de compartirlas en varias ofertas.
+* **Category**: una carpeta relacionada con el catálogo de ofertas en un entorno, que organiza las ofertas según la naturaleza, la fecha de idoneidad y el tema de la aplicación. Una categoría puede contener subcategorías que heredan todas las características de la categoría principal. Las reglas de elegibilidad se pueden definir para una categoría a fin de compartirlas en varias ofertas.
 * **Application themes**: las palabras clave definidas en la categoría permiten filtrar ofertas cuando se presentan en un canal entrante o saliente y restringen la selección de ofertas a una o dos categorías.
 
   >[!NOTE]
@@ -43,11 +43,11 @@ A continuación, se presenta la definición de los principales elementos de inte
 
 * **Eligibility rules**: restricciones aplicadas a un entorno, categoría u oferta sobre el periodo de validez, el destinatario y el peso Permiten garantizar que una oferta está en línea con el contacto de destino.
 
-  En los entornos, las reglas de idoneidad incluyen reglas de presentación aplicadas a las ofertas y a los destinatarios.
+  En los entornos, las reglas de elegibilidad incluyen reglas de presentación aplicadas a las ofertas y a las personas objetivo.
 
-  En las categorías, las reglas de idoneidad permiten limitar la validez de la categoría en el tiempo, definir los temas de la aplicación y determinar los destinatarios. También pueden recibir un peso multiplicador durante un periodo determinado. Esto le permite compartir las reglas para las ofertas en otras categorías y simplificar así la administración.
+  En las categorías, las reglas de elegibilidad permiten limitar la validez de la categoría en el tiempo, definir los temas de la aplicación y determinar las personas objetivo. También pueden recibir un peso multiplicador durante un periodo determinado. Esto le permite compartir las reglas para las ofertas en otras categorías y simplificar así la administración.
 
-  En las ofertas, las reglas de idoneidad permiten limitar la validez de las ofertas en el tiempo y determinar los destinatarios.
+  En las ofertas, las reglas de elegibilidad permiten limitar la validez de las ofertas en el tiempo y determinar las personas objetivo.
 
 * **Arbitrage**: seleccionar ofertas que se mostrarán en un entorno (ofertas elegibles). El principio de arbitraje clasifica las ofertas por prioridad según los criterios definidos en las categorías, ofertas y ofertas de contexto.
 * **Contact**: un contacto de una interacción entrante. Durante el procesamiento de visualización del motor, el contacto se asocia a una dimensión de segmentación. Hay dos tipos de contactos:
@@ -59,7 +59,7 @@ A continuación, se presenta la definición de los principales elementos de inte
      >
      >Los contactos no identificados y anónimos se atribuyen a la dimensión de segmentación del visitante.
 
-* **Outbound interaction**: visualizar el motor de interacción desde una lista de contactos (utilizada para enviar correos electrónicos, correo postal, etc.). Se aplican las mismas reglas y procesos a cada contacto. Este tipo de interacción se procesa generalmente en modo por lotes.
+* **Outbound interaction**: visualizar el motor de interacción desde una lista de contactos (utilizada para enviar correos electrónicos, correo directo, etc.). Se aplican las mismas reglas y procesos a cada contacto. Este tipo de interacción se procesa generalmente en modo por lotes.
 * **Inbound interaction**: interacción después de una llamada entrante generada por la acción de un contacto en el canal. Este tipo de interacción se procesa generalmente en modo unitario.
 * **Batch mode**: el modo por lotes permite seleccionar la mejor oferta para un conjunto de contactos. Las reglas de idoneidad/priorización se aplican a todos los contactos del conjunto. Este modo se utiliza generalmente para interacciones salientes.
 * **Unitary mode**: se procesa un solo contacto cada vez. Este modo se utiliza generalmente para interacciones entrantes y mensajes transaccionales.

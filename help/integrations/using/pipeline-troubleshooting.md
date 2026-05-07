@@ -9,8 +9,8 @@ content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 100%
+source-wordcount: '722'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ La configuración del ID de organización no es válida.
 
 1. Compruebe que el ID de la organización (ImsOrgId) esté establecido en serverConf.xml.
 1. Compruebe si un ID de organización vacío en el archivo de configuración de instancia puede anular el predeterminado. Si es así, elimínelo.
-1. Compruebe que el ID de organización sea correcto. Para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}
+1. Compruebe que el ID de organización sea correcto. Para encontrar su identificador de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}
 
 **La canalización produce el error &quot;clave no válida&quot;**
 
@@ -75,7 +75,7 @@ Este mensaje de error significa que la autenticación se configura con el OAuth 
 
 Cuando el [!DNL pipelined] proceso se está ejecutando y no se recuperan los activadores:
 
-1. Asegúrese de que el activador este activo en Analytics y generando eventos.
+1. Asegúrese de que el activador esté activo en Analytics y generando eventos.
 1. Asegúrese de que el [!DNL pipelined] proceso se esté ejecutando.
 1. Busque errores en el [!DNL pipelined] registro.
 1. Busque errores en la página de estado [!DNL pipelined]. Activador descartado, fallas del activador fracasos deben estar en cero.

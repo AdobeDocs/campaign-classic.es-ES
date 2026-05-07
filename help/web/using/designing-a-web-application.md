@@ -7,7 +7,7 @@ feature: Web Apps
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '296'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ También puede seleccionar el tipo de tabla en el menú desplegable.
 
 La interfaz de Adobe Campaign utiliza muchas aplicaciones web para acceder, gestionar e interactuar con destinatarios, envíos, campañas, inventarios, etc.
 
-Se visualizan en la interfaz en forma de paneles con una sola página.
+Se visualizan en la interfaz en forma de paneles de control con una sola página.
 
 Las aplicaciones web listas para su uso se almacenan en el nodo **[!UICONTROL Administration > Configuration > Web applications]**.
 

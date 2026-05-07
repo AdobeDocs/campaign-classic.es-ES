@@ -7,8 +7,8 @@ badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://expe
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 10%
+source-wordcount: '1381'
+ht-degree: 14%
 
 ---
 
@@ -159,7 +159,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Acceso a datos externos (acceso de datos federado)<br /> </td> 
-   <td> Proporciona la opción Acceso de datos federados (FDA) para procesar la información almacenada en una o más bases de datos externas, de modo que pueda acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.  Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html?lang=es" target="_blank">Más información</a> <br /> </td> 
+   <td> Proporciona la opción Acceso de datos federados (FDA) para procesar la información almacenada en una o más bases de datos externas, de modo que pueda acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.  Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank">Más información</a> <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
   <tr> 
@@ -174,7 +174,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Administración de cupones<br /> </td> 
-   <td> Crea un conjunto de cupones para añadirlos a próximas ofertas de marketing. Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=es" target="_blank">Más información</a> <br /> </td> 
+   <td> Crea un conjunto de cupones para añadirlos a próximas ofertas de marketing. Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html" target="_blank">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -184,7 +184,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Marketing central/local (Marketing distribuido)<br /> </td> 
-   <td> Implementa campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=es" target="_blank">Más información</a><br /> </td> 
+   <td> Implementa campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=es" target="_blank">Más información</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 
@@ -242,7 +242,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
 
 ### Paquete de Message Center {#message-center-package}
 
-Debe instalar los canales de entrega (correo electrónico, canal móvil, canal de aplicación móvil, LINE, etc.) antes de instalar la mensajería transaccional (paquete del centro de mensajes). Si ha iniciado un proyecto de centro de mensajes solo de correo electrónico y necesita agregar un canal nuevo posteriormente, debe seguir estos pasos:
+Debe instalar canales de entrega (correo electrónico, canal móvil, canal de aplicación móvil, LINE, etc.) antes de instalar la mensajería transaccional (paquete del centro de mensajes). Si ha iniciado un proyecto de centro de mensajes solo de correo electrónico y necesita agregar un canal nuevo posteriormente, debe seguir estos pasos:
 
 1. Instale el nuevo canal, por ejemplo el **canal móvil**, mediante el asistente de importación de paquetes (**[!UICONTROL Tools > Advanced > Import package > Adobe Campaign package]**).
 1. Importe el archivo ( **[!UICONTROL Tools > Advanced > Import package > File]**) y seleccione:

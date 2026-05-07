@@ -10,8 +10,8 @@ topic-tags: installing-campaign-in-windows-
 exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 7%
+source-wordcount: '359'
+ht-degree: 12%
 
 ---
 
@@ -46,7 +46,7 @@ Aprenda a instalar la consola [en esta sección](../../installation/using/instal
 
 ## Proponer a los usuarios finales que actualicen su consola de cliente
 
-Una vez que la consola esté disponible en la carpeta del servidor de Campaign, se invita a los usuarios a descargar la última versión de la consola del cliente en una ventana de solicitud dedicada. El Adobe recomienda dejar la opción **[!UICONTROL No longer ask this question]** sin seleccionar para asegurarse de que se avisa a todos los usuarios cuando hay una nueva versión de la consola disponible.
+Una vez que la consola esté disponible en la carpeta del servidor de Campaign, se invita a los usuarios a descargar la última versión de la consola del cliente en una ventana de solicitud dedicada. Adobe recomienda dejar la opción **[!UICONTROL No longer ask this question]** sin seleccionar para asegurarse de que se avisa a todos los usuarios cuando hay una nueva versión de la consola disponible.
 
 Si selecciona esta opción y decide no descargar la versión más reciente, no se informará a ningún otro usuario de las nuevas versiones disponibles.
 

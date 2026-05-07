@@ -8,8 +8,8 @@ hide: true
 exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 100%
+source-wordcount: '1511'
+ht-degree: 89%
 
 ---
 
@@ -134,7 +134,7 @@ Los documentos se pueden asociar en el nivel de campaña (documentos contextuale
 
 La pestaña **[!UICONTROL Documents]** contiene:
 
-* Lista de todos los documentos necesarios para el contenido (plantilla, imágenes, etc.) que los operadores de Adobe Campaign pueden descargar localmente con los derechos adecuados,
+* La lista de todos los documentos necesarios para el contenido (plantilla, imágenes, etc.) que los operadores de Adobe Campaign pueden descargar localmente con los derechos adecuados,
 * Documentos que contienen información para el enrutador, si los hay.
 
 Los documentos están vinculados al programa o a la campaña a través de la pestaña **[!UICONTROL Edit > Documents]**.
@@ -161,7 +161,7 @@ También pueden editarse y modificarse desde esta vista.
 >
 >Las descripciones de los envíos se utilizan principalmente en el contexto de las campañas de correo directo.
 
-Una descripción de la entrega denota un conjunto estructurado de elementos (documentos, ramas, tiendas, cupones promocionales, etc.) creados en la empresa y en una campaña determinada.
+Una descripción de la entrega denota un conjunto estructurado de elementos (documentos, ramas, tiendas, cupones promocionales, etc.) creado en la empresa y para una campaña en particular.
 
 Estos elementos se agrupan en descripciones de envío y cada descripción de envío concreta se asocia a una entrega; se hace referencia en el archivo de extracción enviado al **proveedor de servicios** para que se asocie al envío. Por ejemplo, puede crear una descripción de envío que haga referencia a una filial y a los folletos de marketing que utiliza.
 
@@ -189,7 +189,7 @@ Después, haga clic **[!UICONTROL Add a delivery outline]** y cree la jerarquía
 Una descripción puede contener elementos y campos de personalización, recursos y ofertas:
 
 * Los elementos pueden ser documentos físicos, por ejemplo, a los que se hace referencia y que se describen aquí y se adjuntan al envío.
-* Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en los envíos para un objetivo específico (ofertas de bienvenida, descuentos, etc.). Esos valores se crean en Adobe Campaign y se importan a la descripción mediante el vínculo **[!UICONTROL Import personalization fields...]**.
+* Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en envíos para un objetivo específico (oferta de bienvenida, descuento, etc.) Se crean en Adobe Campaign y se importan en el esquema mediante el vínculo **[!UICONTROL Import personalization fields...]**.
 
   ![](assets/s_ncs_user_op_add_composition_field.png)
 
@@ -197,7 +197,7 @@ Una descripción puede contener elementos y campos de personalización, recursos
 
   ![](assets/s_ncs_user_op_add_composition_field_button.png)
 
-* Los recursos son recursos de marketing generados en el panel de control de recursos de marketing, al que se accede mediante el vínculo **[!UICONTROL Resources]** en la pestaña **[!UICONTROL Campaigns]**.
+* Los recursos son recursos de marketing generados en el panel de control de recursos de marketing, al que se accede mediante el vínculo **[!UICONTROL Resources]** de la pestaña **[!UICONTROL Campaigns]**.
 
   ![](assets/s_ncs_user_mkg_resource_ovv.png)
 
@@ -221,7 +221,7 @@ La pestaña **[!UICONTROL Summary]** de la entrega también muestra esta informa
 
 #### Resultado de la extracción {#extraction-result}
 
-En el archivo extraído y enviado al proveedor de servicios, el nombre de la descripción y, en este caso, sus características (coste, descripción, etc.) se añaden al contenido de la plantilla de exportación asociada con el proveedor de servicios.
+En el archivo extraído y enviado al proveedor de servicios, el nombre de la descripción y, en su caso, sus características (coste, descripción, etc.) se añaden al contenido de según la información de la plantilla de exportación asociada al proveedor de servicios.
 
 En el siguiente ejemplo, la etiqueta, el coste estimado y la descripción asociada con la entrega se añaden al archivo de extracción.
 
@@ -237,6 +237,6 @@ El modelo de exportación debe estar asociado al proveedor de servicios seleccio
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/27490?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

@@ -9,8 +9,8 @@ hide: true
 exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 100%
+source-wordcount: '922'
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,7 @@ Antes de iniciar los pasos siguientes, asegúrese de saber el tipo de cupón que
 
    **[!UICONTROL Anonymous coupons]** : Un cupón anónimo es idéntico para todos los destinatarios. Confirme que ha seleccionado Anónimo en el menú **Coupon type** y haga clic en **Save** para generar el cupón.
 
-   **[!UICONTROL Individual coupons]**: Un cupón individual puede personalizarse aún más con códigos de cupones adicionales. Por ejemplo, se crea un cupón individual para una venta en un almacén de equipación deportiva. Sin embargo, la lista de destinatarios es larga y no comparten el mismo entusiasmo por un único deporte. Se puede añadir nombres de código para el cupón individual en función de un deporte (por ejemplo, fútbol, fútbol americano, béisbol, etc.) y enviar cada código a los destinatarios correspondientes.
+   **[!UICONTROL Individual coupons]**: Un cupón individual puede personalizarse aún más con códigos de cupones adicionales. Por ejemplo, se crea un cupón individual para una venta en un almacén de equipación deportiva. Sin embargo, la lista de destinatarios es larga y no comparten el mismo entusiasmo por un único deporte. Puede añadir nombres de código para el cupón individual en función de un deporte (por ejemplo, fútbol, fútbol americano, béisbol, etc.) y enviar cada código a los destinatarios correspondientes.
 
    1. Al elegir Individual, aparece una pestaña nueva, Cupones, en la esquina inferior izquierda. Vaya a la pestaña **[!UICONTROL Coupons]** y haga clic en **[!UICONTROL Add]**.
    1. Introduzca un código único para el cupón individual cuando lo solicite la ventana emergente.
@@ -79,7 +79,7 @@ Los valores de **[!UICONTROL channel]**, **[!UICONTROL status]** y **[!UICONTROL
 En el siguiente ejemplo, la entrega se crea desde la página principal. Para obtener instrucciones detalladas sobre la creación de una entrega, consulte [esta sección](about-email-channel.md). También puede añadir un cupón a una entrega en un flujo de trabajo.
 
 1. Vaya a **[!UICONTROL Campaigns]** y elija **[!UICONTROL Deliveries]**.
-1. Haga clic en **[!UICONTROL Create]**.
+1. Haga clic **[!UICONTROL Create]**.
 
    ![](assets/deliv_coup_04.png)
 
@@ -132,7 +132,7 @@ En el siguiente ejemplo, la entrega se crea desde la página principal. Para obt
 
    ![](assets/deliv_coup_15.png)
 
-1. Haga clic en **[!UICONTROL Analyze]**. Si el registro de análisis confirma que hay suficientes cupones para todos los destinatarios, haga clic en **[!UICONTROL Confirm delivery]** para enviarlo.
+1. Haga clic **[!UICONTROL Analyze]**. Si el registro de análisis confirma que hay suficientes cupones para todos los destinatarios, haga clic en **[!UICONTROL Confirm delivery]** para enviarlo.
 
    ![](assets/deliv_coup_16.png)
 

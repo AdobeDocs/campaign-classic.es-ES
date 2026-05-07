@@ -9,8 +9,8 @@ hide: true
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 100%
+source-wordcount: '1390'
+ht-degree: 98%
 
 ---
 
@@ -126,7 +126,7 @@ El diseño interactivo garantiza que un correo electrónico se represente de for
 
 * Utilice el modo de vista previa y envíe pruebas para probar el diseño en tantos dispositivos como sea posible
 
-* El módulo del editor de contenido digital (DCE) de Adobe Campaign Classic incluye algunas plantillas con formato de diseño interactivo para móviles a través de **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. 
+* El módulo del editor de contenido digital (DCE) de Adobe Campaign Classic incluye algunas plantillas con formato de diseño interactivo para móviles a través de **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**.
 
 ## Administración de imágenes {#manage-images}
 

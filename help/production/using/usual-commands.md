@@ -10,8 +10,8 @@ topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
 source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 6%
+source-wordcount: '458'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ Esta sección enumera los comandos habituales en Adobe Campaign.
 
 El comando **nlserver** es el comando de entrada para toda la aplicación de Adobe Campaign.
 
-Este comando tiene la siguiente sintaxis: **nlserver &#x200B;**`<command>`**&#x200B;**`<arguments>`**&#x200B;**
+Este comando tiene la siguiente sintaxis: **nlserver **`<command>`****`<arguments>`****
 
 El parámetro **`<command>`** corresponde al módulo.
 
@@ -172,6 +172,6 @@ Este es un ejemplo para MSSQL:
 nlserver config -setdblogin:mssql:<login>/"<password>"@<server> -instance:<instance_name> 
 ```
 
-* login (p. ej. account:user) y server se pueden encontrar en el nodo dataSource del archivo config-&lt;instance_name>.xml.
+* inicio de sesión (p. ej. cuenta:user) y servidor se encuentran en el nodo dataSource del archivo config-&lt;instance_name>.xml.
 * La contraseña debe ir entre comillas &quot;&quot;.
 

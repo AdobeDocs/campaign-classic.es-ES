@@ -8,8 +8,8 @@ hide: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 100%
+source-wordcount: '1510'
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ En el siguiente ejemplo, los idiomas se agrupan en tres categorías: inglés/ale
 
 Puede utilizar una máscara SQL para combinar varios valores en un filtro. Para ello, en la columna **[!UICONTROL Yes]**, marque **[!UICONTROL Use an SQL mask]** e introduzca el filtro SQL que desea aplicar en la columna **[!UICONTROL Value or expression]**.
 
-En el ejemplo siguiente, todos los dominios de correo electrónico que comienzan con **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.) o con **ymail** (ymail.com, ymail.eu, etc.) se agrupan en la etiqueta **YAHOO!**, así como las direcciones con el dominio **rocketmail.com**.
+En el ejemplo siguiente, todos los dominios de correo electrónico que comienzan con **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.) o con **ymail** (ymail.com, ymail.eu, etc.) se agruparán con la etiqueta **YAHOO!**, así como direcciones con el dominio **rocketmail.com**.
 
 ![](assets/s_advuser_cube_class_03b.png)
 
@@ -186,7 +186,7 @@ Se puede configurar la visualización de las medidas en la tabla según sus nece
 
 * la secuencia de visualización de las medidas (consulte [Secuencia de visualización](#display-sequence)),
 * la información que se desea mostrar u ocultar en el informe (consulte [Configuración de la visualización](#configuring-the-display)),
-* qué medidas mostrar: porcentaje, total, número de decimales, etc. (consulte [Modificación del tipo de medida mostrada](#changing-the-type-of-measure-displayed)).
+* qué medidas mostrar: porcentaje, total, número de decimales, etc. (consulte [Cambiar el tipo de medida mostrada](#changing-the-type-of-measure-displayed)).
 
 ### Secuencia de visualización {#display-sequence}
 

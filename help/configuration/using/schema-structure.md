@@ -11,7 +11,7 @@ topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1519'
 ht-degree: 11%
 
 ---
@@ -135,7 +135,7 @@ Se aplican las siguientes reglas:
 
 El tipo de datos se ingresa mediante el atributo **type** en los elementos **`<attribute>`** y **`<element>`**.
 
-Hay disponible una lista detallada en la descripción del elemento [`<attribute>` &#x200B;](../../configuration/using/schema/attribute.md) y el elemento [`<element>` &#x200B;](../../configuration/using/schema/element.md).
+Hay disponible una lista detallada en la descripción del elemento [`<attribute>` ](../../configuration/using/schema/attribute.md) y el elemento [`<element>` ](../../configuration/using/schema/element.md).
 
 Cuando este atributo no se rellena, **string** es el tipo de datos predeterminado a menos que el elemento contenga elementos secundarios. Si es así, solo se usa para estructurar los elementos jerárquicamente (**`<location>`** elemento en nuestro ejemplo).
 
@@ -310,7 +310,7 @@ El valor debe ser una expresión compatible con el lenguaje XPath. Para obtener 
   >
   >En la consola del cliente de Adobe Campaign, vaya a la carpeta **[!UICONTROL Administration > Counters]** del Explorador para administrar los contadores.
 
-Para vincular un valor predeterminado a un campo, puede usar `<default>` o `<sqldefault>`   field.
+Para vincular un valor predeterminado a un campo, puede utilizar el campo `<default>` o `<sqldefault>`.
 
 `<default>` : permite rellenar previamente el campo con un valor predeterminado al crear entidades. El valor no será un valor SQL predeterminado.
 

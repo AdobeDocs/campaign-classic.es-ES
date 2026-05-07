@@ -10,8 +10,8 @@ topic-tags: troubleshooting
 exl-id: b5aa5663-1902-4f50-9202-783e73a28838
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 12%
+source-wordcount: '762'
+ht-degree: 26%
 
 ---
 
@@ -34,7 +34,7 @@ En algunos casos, los flujos de trabajo ejecutados desde una campaña no se inic
 
 Puede haber varias causas para este problema. Siga los pasos a continuación para resolverlo:
 
-1. Comprobar el estado del flujo de trabajo técnico [**[!UICONTROL operationMgt]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=es){target="_blank"}. Este flujo de trabajo administra los trabajos o flujos de trabajo dentro de una campaña. Si falla, el resultado será que los flujos de trabajo no se inicien ni se detengan. Reinícielo para reanudar la ejecución de los flujos de trabajo de campaña.
+1. Comprobar el estado del flujo de trabajo técnico [**[!UICONTROL operationMgt]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}. Este flujo de trabajo administra los trabajos o flujos de trabajo dentro de una campaña. Si falla, el resultado será que los flujos de trabajo no se inicien ni se detengan. Reinícielo para reanudar la ejecución de los flujos de trabajo de campaña.
 
    Para obtener más información sobre la monitorización de flujos de trabajo técnicos, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=es){target="_blank"}.
 
@@ -73,7 +73,7 @@ Puede haber varias causas para este problema. Siga los pasos a continuación par
 
    Para resolver este problema, detenga los flujos de trabajo no deseados y elimine los envíos fallidos. Si se ha alcanzado el umbral, esto permite la ejecución de nuevos procesos.
 
-   Para comprobar el número de flujos de trabajo que se están ejecutando en su instancia, se recomienda utilizar las vistas predefinidas, a las que se puede acceder de forma predeterminada en la carpeta **[!UICONTROL Administration]** / **[!UICONTROL Audit]**. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=es){target="_blank"}.
+   Para comprobar el número de flujos de trabajo que se están ejecutando en su instancia, se recomienda utilizar las vistas predefinidas, a las que se puede acceder de forma predeterminada en la carpeta **[!UICONTROL Administration]** / **[!UICONTROL Audit]**. Para obtener más información, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=es){target="_blank"}.
 
    >[!IMPORTANT]
    >
@@ -118,6 +118,6 @@ Para comprobar esto e iniciar el módulo si es necesario, aplique los siguientes
 
 Si un flujo de trabajo falla, realice los siguientes pasos:
 
-1. Compruebe el historial de flujo de trabajo. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=es){target="_blank"}.
+1. Compruebe el historial de flujo de trabajo. Para obtener más información, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=es){target="_blank"}.
 1. Monitorización de flujos de trabajo técnicos. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=es){target="_blank"}.
 1. Busque errores en las actividades de flujo de trabajo individuales.

@@ -9,8 +9,8 @@ hide: true
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '6200'
-ht-degree: 100%
+source-wordcount: '6654'
+ht-degree: 97%
 
 ---
 
@@ -47,8 +47,8 @@ Learn more about [ACS Connector](../../integrations/using/acs-connector-principl
 
 Una actividad es un elemento de paleta que se agrega a un flujo de trabajo para definir una funcionalidad de ejecución. La actividad es un contenedor que ejecuta una tarea. En un flujo de trabajo, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o una acción recurrente (periódica).
 
-Obtenga más información sobre las actividades de flujo de trabajo en la [documentación de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities
-.html?lang=es){target="_blank"}.
+Obtenga más información acerca de las actividades de flujo de trabajo en la [documentación de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities
+.html){target="_blank"}.
 +++
 
 +++**Perfil activo**
@@ -120,7 +120,7 @@ Learn more about [Interaction](../../interaction/using/interaction-and-offer-man
 
 +++**Canal**
 
-Un canal es un medio a través del cual se envía una comunicación. Los canales integrados en Adobe Campaign son el correo electrónico, los SMS, el correo directo, las notificaciones push, LINE y X (anteriormente conocido como Twitter).  Se pueden implementar canales personalizados para los requisitos de canal no estándar.
+Un canal es un medio a través del cual se envía una comunicación. Los canales integrados en Adobe Campaign son el correo electrónico, los SMS, el correo directo, las notificaciones push, LINE y X (anteriormente conocido como Twitter). Se pueden implementar canales personalizados para los requisitos de canal no estándar.
 
 Más información sobre los [Canales](../../delivery/using/communication-channels.md).
 +++
@@ -242,7 +242,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 *Contexto: Correo directo*
 
-Una descripción de envío es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creados por la compañía y para una campaña determinada. Se utiliza en el contexto de los envíos por correo directo.
+Una descripción del envío es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creado por la compañía y para una campaña en particular. Se utiliza en el contexto de los envíos por correo directo.
 
 Más información sobre el [Correo directo](../../delivery/using/about-direct-mail-channel.md).
 +++
@@ -265,7 +265,7 @@ Más información sobre el [Análisis descriptivo](../../reporting/using/about-d
 
 *Contexto: Marketing distribuido*
 
-El complemento de marketing distribuido ofrece a los operadores de Campaign un espacio de trabajo colaborativo para implementar campañas entre entidades centrales (sedes centrales, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **lista de paquetes de campañas**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
+El complemento de marketing distribuido ofrece a los operadores de Campaign un espacio de trabajo colaborativo para implementar campañas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **lista de paquetes de campañas**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
 
 Obtenga más información sobre el marketing distribuido en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=es){target="_blank"}.
 +++
@@ -279,7 +279,8 @@ Más información sobre la [Distribución de valores](../../platform/using/adobe
 
 +++**Delegación de dominios**
 
-La configuración de subdominios le permite configurar una subsección del dominio (técnicamente una “zona DNS”) para utilizarla con Adobe Campaign. La delegación de dominios permite que Adobe controle y mantenga todos los aspectos de DNS necesarios para enviar, procesar y rastrear campañas por correo electrónico.
+La configuración de subdominios le permite configurar una subsección del dominio (técnicamente una “zona DNS”) para utilizarla con Adobe Campaign.
+La delegación de dominios permite que Adobe controle y mantenga todos los aspectos de DNS necesarios para enviar, procesar y rastrear campañas por correo electrónico.
 
 Más información sobre la [Delegación de dominios](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es)
 +++
@@ -682,7 +683,7 @@ Más información sobre la [Interacción](../../interaction/using/interaction-an
 
 *Contexto: Interacción de campaña*
 
-Una simulación de oferta permite a los operadores probar la distribución de ofertas en un ámbito definido (fecha del envío, segmento de destinatario, número de ofertas, tema, etc.) antes de enviarlas realmente. Se puede utilizar para ajustar las prioridades de oferta y las reglas de elegibilidad a fin de maximizar la eficacia de la oferta.
+Una simulación de oferta permite a los operadores probar la distribución de ofertas en un ámbito definido (fecha de entrega, segmento de destinatario, número de ofertas, tema, etc.) antes de enviar las ofertas. Se puede utilizar para ajustar las prioridades de oferta y las reglas de elegibilidad a fin de maximizar la eficacia de la oferta.
 
 Más información sobre las [Simulaciones de ofertas](../../interaction/using/about-offers-simulation.md).
 +++
@@ -795,7 +796,7 @@ Obtenga más información sobre los planes en la [documentación de Campaign v8]
 
 +++**Filtros predefinidos**
 
-Los filtros predefinidos son consultas que se han guardado para su reutilización. El uso de filtros predefinidos aumenta la productividad (porque sólo se crean una vez), ayuda a generar coherencia (porque todos los expertos en marketing pueden utilizarlos) y disminuye las habilidades que se requieren del experto en marketing, ya que pueden utilizar código o lógica que a lo mejor no podrían crear ellos mismos. 
+Los filtros predefinidos son consultas que se han guardado para su reutilización. El uso de filtros predefinidos aumenta la productividad (porque sólo se crean una vez), ayuda a generar coherencia (porque todos los expertos en marketing pueden utilizarlos) y disminuye las habilidades que se requieren del experto en marketing, ya que pueden utilizar código o lógica que a lo mejor no podrían crear ellos mismos.
 
 Para obtener más información sobre los filtros, consulte la [documentación de Campaign v8 (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 +++
@@ -851,7 +852,7 @@ Más información sobre las [Notificaciones push](../../delivery/using/about-mob
 
 +++**Destinatario**
 
-En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS, etc.) a los clientes. Los datos de destinatario almacenados en la base de datos permiten filtrar el público objetivo y añadir datos de personalización. Normalmente, se trata de información personal, de contacto, demográfica y transaccional, pero podría ser cualquier tipo de información que admita marketing y análisis.
+En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS, etc.) a sus clientes. Los datos de destinatario almacenados en la base de datos permiten filtrar el público objetivo y añadir datos de personalización. Normalmente, se trata de información personal, de contacto, demográfica y transaccional, pero podría ser cualquier tipo de información que admita marketing y análisis.
 
 Más información sobre el [Destinatario](../../configuration/using/about-data-model.md).
 +++
@@ -952,8 +953,8 @@ Obtenga más información sobre las asignaciones de destinatario en la [document
 
 Las actividades de segmentación son actividades de flujo de trabajo específicas para el direccionamiento, la manipulación de datos de población y el filtrado de actividades. Estas actividades permiten a los operadores crear uno o más objetivos definiendo conjuntos y dividiendo o combinando estos conjuntos mediante operaciones de intersección, unión o exclusión.
 
-Obtenga más información sobre las actividades de segmentación en la [documentación de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities
-.html?lang=es){target="_blank"}.
+Obtenga más información acerca de las actividades de segmentación en la [documentación de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities
+.html){target="_blank"}.
 +++
 
 +++**Dimensión de segmentación**

@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: advanced-parameters
 exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '1014'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1016'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ Para poder admitir la escalabilidad y proporcionar un servicio de 24 horas al d�
 
 ## Sincronización de propuestas {#proposition-synchronization}
 
-La sincronización de ofertas se lleva a cabo mediante paquetes. En instancias de ejecución, todos los objetos de catálogo están prefijados con el nombre de cuenta externo. Esto significa que se pueden admitir varias instancias de control (instancias de desarrollo y producción por ejemplo) en una misma instancia de ejecución.
+La sincronización de ofertas se lleva a cabo mediante paquetes. En instancias de ejecución, todos los objetos de catálogo tienen como prefijo el nombre de cuenta externo. Esto significa que se pueden admitir varias instancias de control (instancias de desarrollo y producción por ejemplo) en una misma instancia de ejecución.
 
 >[!IMPORTANT]
 >
@@ -57,15 +57,15 @@ Se crea un flujo de trabajo para cada entorno y cuenta externa para la sincroniz
 
 ## Configuración de paquetes {#packages-configuration}
 
-Las extensiones de esquema directamente vinculadas a **interaction** (ofertas, propuestas, destinatarios, etc.) deben implementarse en las instancias de ejecución.
+Cualquier extensión de esquema vinculada directamente a **Interaction** (ofertas, propuestas, destinatarios, etc.) debe implementarse en las instancias de ejecución.
 
 El paquete de interacción debe estar instalado en todas las instancias (control y ejecución). Hay dos paquetes adicionales disponibles: un paquete que se va a instalar en las instancias de control y otro que se va a instalar en cada instancia de ejecución.
 
 >[!NOTE]
 >
->Al instalar el paquete, los campos de tipo **long** de la tabla **nms:proposition**, como el ID de la propuesta, se convierten en campos de tipo **int64.** Esta tipo de datos se detalla en [esta sección](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
+>Al instalar el paquete, los campos de tipo **long** de la tabla **nms:proposition**, como el identificador de la propuesta, se convierten en campos de tipo **int64**. Esta tipo de datos se detalla en [esta sección](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
 
-La duración de la retención de datos debe configurarse en cada instancia (a través de la ventana **[!UICONTROL Data purge]** en el asistente de implementación). En instancias de ejecución, este periodo debe corresponder a la profundidad histórica necesaria para las reglas de tipología (punto de deslizamiento) y para las reglas de idoneidad que se van a calcular.
+La duración de la retención de datos debe configurarse en cada instancia (a través de la ventana **[!UICONTROL Data purge]** en el asistente de implementación). En instancias de ejecución, este periodo debe corresponder a la profundidad histórica necesaria para las reglas de tipología (punto de deslizamiento) y para las reglas de elegibilidad que se van a calcular.
 
 En las instancias de control:
 

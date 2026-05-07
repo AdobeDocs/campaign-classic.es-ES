@@ -154,7 +154,7 @@ El propósito de este segundo enriquecimiento es crear un agregado en el esquema
 
    ![](assets/uc2_enrich_enrich10.png)
 
-1. Haga clic en **[!UICONTROL Next]**.
+1. Haga clic **[!UICONTROL Next]**.
 1. Agregue la siguiente expresión para calcular el total de compra para cada contacto:&quot;Sum(@prodprice)&quot;.
 
    ![](assets/uc2_enrich_enrich6.png)

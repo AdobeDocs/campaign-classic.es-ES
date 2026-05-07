@@ -7,8 +7,8 @@ feature: Audiences
 exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 100%
+source-wordcount: '91'
+ht-degree: 92%
 
 ---
 
@@ -24,4 +24,4 @@ En este caso, para añadir direcciones sembradas al envío, introduzca los campo
 
 ![](assets/s_ncs_user_seedlist_add_new_tab.png)
 
-La extensión del esquema **nms:seedMember** se encuentra en [esta sección](../../configuration/using/seed-addresses.md).
+La extensión de esquema **nms:seedMember** es [esta sección](../../configuration/using/seed-addresses.md).

@@ -9,7 +9,7 @@ topic-tags: updating-adobe-campaign
 exl-id: 3e39a0d2-ff7e-4233-82bb-2b360f696a33
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '194'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ En esta sección se presenta el procedimiento que se debe aplicar para actualiza
 >[!NOTE]
 >
 >Para las instancias de servicios alojados/administrados, debe coordinarse con el administrador de Adobe.\
->En el caso de instancias locales, puede obtener asistencia de los consultores de Adobe.
+>En las instancias locales, puede obtener asistencia de los consultores de Adobe.
 
 La actualización debe aplicarse a todos los servidores donde esté instalado Adobe Campaign.
 

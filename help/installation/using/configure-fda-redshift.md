@@ -9,7 +9,7 @@ topic-tags: connectors
 exl-id: ef2b98bd-441e-4e59-bb41-4e835e250663
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '253'
 ht-degree: 26%
 
 ---
@@ -57,7 +57,7 @@ Para configurar [!DNL Amazon Redshift] en Linux, siga los pasos a continuación:
      ./redshift_odbc-setup.sh
    ```
 
-1. Después de instalar los controladores ODBC, debe reiniciar el Campaign Classic. Para ello, ejecute el siguiente comando:
+1. Después de instalar los controladores ODBC, debe reiniciar Campaign Classic. Para ello, ejecute el siguiente comando:
 
    ```
    systemctl stop nlserver.service
@@ -72,7 +72,7 @@ La cuenta externa [!DNL Amazon Redshift] le permite conectar la instancia de Cam
 
 1. En Campaign Classic, configure la cuenta externa [!DNL Amazon Redshift]. En **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL External accounts]**.
 
-1. Haga clic **[!UICONTROL New]**.
+1. Haga clic en **[!UICONTROL New]**.
 
 1. Seleccione **[!UICONTROL External database]** como **[!UICONTROL Type]** de su cuenta externa.
 
@@ -94,4 +94,4 @@ La cuenta externa [!DNL Amazon Redshift] le permite conectar la instancia de Cam
 
    ![](assets/amazon_redshift.png)
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.

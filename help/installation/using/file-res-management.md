@@ -10,8 +10,8 @@ topic-tags: initial-configuration
 exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 2%
+source-wordcount: '675'
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,7 @@ El valor predeterminado de este atributo es **.+** y le permite cargar cualquier
 
 Para limitar los posibles formatos, reemplace el valor del atributo por una expresión regular java válida. Puede introducir varios valores separándolos con una coma.
 
-Por ejemplo: **uploadWhiteList=&quot;.&#42;.png,.&#42;.jpg&quot;** le permitirá cargar formatos PNG y de JPG en el servidor. No se aceptan otros formatos.
+Por ejemplo: **uploadWhiteList=&quot;.&#42;.png,.&#42;.jpg&quot;** le permitirá cargar formatos PNG y JPG en el servidor. No se aceptan otros formatos.
 
 También puede evitar que se carguen archivos importantes configurando el servidor web. [Más información](web-server-configuration.md)
 

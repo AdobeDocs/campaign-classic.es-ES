@@ -7,7 +7,7 @@ feature: Web Forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '999'
 ht-degree: 100%
 
 ---
@@ -145,7 +145,7 @@ En la ventana de selección de campos, se puede elegir entre los siguientes dato
 
 ![](assets/s_ncs_admin_survey_condition_select.png)
 
-* El directorio principal contiene los parámetros del contexto del formulario. Los parámetros predeterminados son el identificador (que coincide con el identificador encriptado del destinatario), idioma y origen.
+* El directorio principal contiene los parámetros del contexto del formulario. Los parámetros predeterminados son el identificador (que coincide con el identificador cifrado del destinatario), idioma y origen.
 
   Para obtener más información, consulte [esta página](defining-web-forms-properties.md#form-url-parameters).
 

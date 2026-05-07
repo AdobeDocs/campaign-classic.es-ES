@@ -9,8 +9,8 @@ topic-tags: starting-with-adobe-campaign
 exl-id: a93bac61-f615-4178-bc12-0f056e48687d
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 91%
 
 ---
 
@@ -70,7 +70,7 @@ En primer lugar, debe realizar la autenticación mediante la API:
 
 A continuación, invoque la API de privacidad:
 
-1. Descargue el WSDL a través de esta URL: **`<server url>`/nl/jsp/schemawsdl.jsp?schema=nms:privacyRequest**.
+1. Descargue el WSDL a través de esta dirección URL: **`<server url>`/nl/jsp/schemawsdl.jsp?schema=nms:privacyRequest**.
 
 1. Utilice **[!UICONTROL CreateRequestByName]** para crear una solicitud de privacidad específica.
 
@@ -80,8 +80,8 @@ A continuación, invoque la API de privacidad:
 
    Para que pueda realizar los pasos anteriores, tenga en cuenta lo siguiente:
 
-   * Puede utilizar **queryDef** en el esquema **nms:gdprRequest** para comprobar el estado de la solicitud de acceso.
-   * Puede utilizar **queryDef** en el esquema **nms:gdprRequestData** para obtener el resultado de la solicitud de acceso.
+   * Puede usar un **queryDef** en el esquema **nms:gdprRequest** para comprobar el estado de la solicitud de acceso.
+   * Puede usar un **queryDef** en el esquema **nms:gdprRequestData** para obtener el resultado de la solicitud de acceso.
    * Para poder descargar el archivo XML desde **&quot;$(serverUrl)&#39;/nms/gdpr.jssp?id=&#39;@id&quot;**, debe iniciar sesión y acceder desde una IP incluida en la lista de permitidos. Para ello, cree una aplicación web que le permita acceder al archivo generado por JSSP.
 
 ## Invocación de la API desde un JS {#invoking-api-from-js}

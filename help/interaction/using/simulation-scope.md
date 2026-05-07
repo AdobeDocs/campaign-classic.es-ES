@@ -28,7 +28,7 @@ Los siguientes campos son obligatorios:
 * Entorno o categoría de la oferta.
 * Espacio de ofertas.
 * Fecha de contacto. No se tienen en cuenta las ofertas no válidas en la fecha de contacto.
-* Público destinatario.
+* Población destinataria.
 
   Si no se configura un filtro de destino, se tiene en cuenta toda la lista de destinatarios.
 

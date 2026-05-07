@@ -6,7 +6,7 @@ feature: Technote
 exl-id: 154dee7a-a1e9-40a2-bfa5-3641382d0574
 source-git-commit: b6d64f66d287dba79be5eddec48ee852c2c7740c
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 2%
 
 ---
@@ -115,7 +115,7 @@ El descifrado se realiza mediante la función decryptString.
 
 Disponible en:
 
-* Gestión de contenido
+* Administración de contenido
 * Propiedades de envío
 * Envío del mensaje
 * Regla de tipología

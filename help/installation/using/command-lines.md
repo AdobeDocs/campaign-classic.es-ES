@@ -9,7 +9,7 @@ topic-tags: appendices
 exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
 source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 
 
-Las siguientes líneas de comandos requieren la capacidad de acceder al servidor de aplicaciones. Para implementaciones alojadas por el Adobe, estos comandos solo se pueden ejecutar por el Adobe.
+Las siguientes líneas de comandos requieren la capacidad de acceder al servidor de aplicaciones. Para implementaciones alojadas en Adobe, estos comandos solo se pueden ejecutar en Adobe.
 
 ## Creación de una instancia {#creating-an-instance}
 
@@ -30,7 +30,7 @@ nlserver config -addinstance:instance/masques DNS[/lang]
 
 (donde **eng** y **fra** son valores posibles para el parámetro `[lang]`)
 
-El comando **nlserver config -addinstance:instance1/demo&#42;/eng** le permite crear una instancia denominada **instance1** en inglés con la demostración de máscara DNS&#42;.
+El comando **nlserver config -addinstance:instance1/demo&#42;/eng** le permite crear una instancia llamada **instance1** en inglés con la máscara DNS demo&#42;.
 
 ## Declarar una base de datos {#declaring-a-database}
 

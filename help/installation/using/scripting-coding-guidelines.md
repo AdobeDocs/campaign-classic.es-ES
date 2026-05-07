@@ -9,8 +9,8 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 5%
+source-wordcount: '773'
+ht-degree: 7%
 
 ---
 
@@ -61,7 +61,7 @@ Si utiliza entradas del usuario para generar filtros en consultas o instruccione
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)
-* NL.JS.escape(data)
+* NL.JS.escape(datos)
 * NL.XML.escapeAttribute(data)
 
 ## Protección del nuevo modelo de datos
@@ -119,7 +119,7 @@ La forma general de añadir un captcha en el DCE es crear un bloque de personali
 
 1. Use el tipo de contenido **[!UICONTROL Web application]** y marque **[!UICONTROL Visible in the customization menus]**.
 
-   Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=es){target="_blank"}.
+   Para obtener más información, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=es){target="_blank"}.
 
    Este es un ejemplo de **captcha de campaña**:
 

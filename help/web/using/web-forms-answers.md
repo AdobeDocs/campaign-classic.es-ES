@@ -6,9 +6,9 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Web Forms
 exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '869'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '875'
+ht-degree: 99%
 
 ---
 
@@ -39,7 +39,7 @@ Para guardar la información en un campo existente de la base de datos, haga cli
 
 >[!NOTE]
 >
->El documento de referencia predeterminado es el esquema **nms:recipient.** Para verla o elegir una nuevo, seleccione el formulario en la lista y haga clic en el botón **[!UICONTROL Properties]**.
+>El documento de referencia predeterminado es el esquema **nms:recipient**. Para verla o elegir una nuevo, seleccione el formulario en la lista y haga clic en el botón **[!UICONTROL Properties]**.
 
 ### Almacenamiento de datos en una variable local {#storing-data-in-a-local-variable}
 
@@ -117,7 +117,7 @@ Este cuadro se puede utilizar de dos formas:
 
 * Si se accede al formulario web a través de un vínculo enviado en un correo electrónico y si el usuario que accede a la aplicación ya está en la base de datos, se puede seleccionar la opción **[!UICONTROL Update the preloaded record]**. Para obtener más información, consulte [Envío de un formulario por correo electrónico](publishing-a-web-form.md#delivering-a-form-via-email).
 
-  En este caso, Adobe Campaign utiliza la clave principal encriptada del perfil de usuario, un identificador único asignado a cada perfil mediante Adobe Campaign. Se debe configurar la información para precargarla mediante el cuadro de precarga. Para obtener más información, consulte [Precarga de los datos del formulario](publishing-a-web-form.md#pre-loading-the-form-data).
+  En este caso, Adobe Campaign utiliza la clave principal cifrada del perfil de usuario, un identificador único asignado a cada perfil mediante Adobe Campaign. Se debe configurar la información para precargarla mediante el cuadro de precarga. Para obtener más información, consulte [Precarga de los datos del formulario](publishing-a-web-form.md#pre-loading-the-form-data).
 
   >[!CAUTION]
   >

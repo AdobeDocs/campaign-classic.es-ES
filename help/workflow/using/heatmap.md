@@ -7,7 +7,7 @@ hide: true
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1147'
 ht-degree: 98%
 
 ---
@@ -77,7 +77,7 @@ El uso del mapa de calor del flujo de trabajo requiere comprender bien los sigui
 1. También puede filtrar por el **[!UICONTROL Workflow type]**:
 
    * **[!UICONTROL Technical]**: Solo se muestran los flujos de trabajo [técnicos](building-a-workflow.md#technical-workflows) listos para usar y los flujos de trabajo [de administración de datos](targeting-data.md#data-management).
-   * **[!UICONTROL Marketing]** : Solo se muestran los flujos de trabajo vinculados a una campaña de marketing, conocidos como flujos de trabajo [de &#x200B;](building-a-workflow.md#campaign-workflows)campaña.
+   * **[!UICONTROL Marketing]** : Solo se muestran los flujos de trabajo vinculados a una campaña de marketing, conocidos como flujos de trabajo [de ](building-a-workflow.md#campaign-workflows)campaña.
 
 1. Para buscar un flujo de trabajo específico por su nombre, también puede utilizar el campo **[!UICONTROL Workflow name filter]**.
 

@@ -6,8 +6,8 @@ feature: Installation, Instance Settings, Federated Data Access
 exl-id: 8702499b-1700-4d1f-a0e0-f7a9dfb4b88f
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 47%
+source-wordcount: '189'
+ht-degree: 46%
 
 ---
 
@@ -27,7 +27,7 @@ Para crear un esquema en una base de datos externa:
 
 1. En el campo **[!UICONTROL Table name]**, elija la tabla que contiene los datos que se van a recopilar.
 
-   Con Snowflake, puede seleccionar aquí sus vistas si se han concedido los privilegios correctos al usuario de la base de datos. Tenga en cuenta que cuando utilice vistas, Adobe Campaign no podrá generar automáticamente el esquema XML, tendrá que crearlo usted mismo. Para obtener más información sobre las vistas, consulte [Documentación del Snowflake](https://docs.snowflake.com/en/user-guide/views-introduction.html).
+   Con Snowflake, puede seleccionar aquí sus vistas si se han concedido los privilegios correctos al usuario de la base de datos. Tenga en cuenta que cuando utilice vistas, Adobe Campaign no podrá generar automáticamente el esquema XML, tendrá que crearlo usted mismo. Para obtener más información, consulte [Documentación de Snowflake](https://docs.snowflake.com/en/user-guide/views-introduction.html).
 
    ![](assets/wf_new_schema_select_table_fda.png)
 

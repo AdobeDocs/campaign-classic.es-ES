@@ -6,9 +6,9 @@ feature: SMS
 role: Developer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '8457'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '8524'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ Un SMS lleva más información que texto. Aquí hay una lista de lo que puede en
 
 ## Protocolo SMPP {#smpp-protocol}
 
-Adobe Campaign Classic admite la versión 3.4 del protocolo SMPP. Este es un protocolo muy extendido que permite enviar SMS a un proveedor (SMSC) y recibir SMS, así como recibos. Para obtener más información, consulte la [documentación de SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+Adobe Campaign Classic es compatible con la versión 3.4 del protocolo SMPP. Se trata de un protocolo muy extendido que permite enviar SMS a un proveedor (SMSC) y recibir SMS, así como recibos. Para obtener más información, consulte la [documentación de SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
 El equipo de red en el lado del proveedor de servicios SMS suele conocerse como SMSC.
 
@@ -513,7 +513,7 @@ Ejemplo de una transmisión con una ventana máxima de 4:
 ![](assets/do-not-localize/sms_protocol_2.png)
 
 La ventana ayuda a aumentar el rendimiento cuando el vínculo de red tiene una latencia alta.  El valor de la ventana debe ser al menos el número de SMS/s multiplicado por la latencia del vínculo
-en segundos, de modo que el conector nunca está esperando un `SUBMIT_SM_RESP` antes de enviar el siguiente mensaje.
+en segundos, de modo que el conector nunca está esperando a `SUBMIT_SM_RESP` antes de enviar el siguiente mensaje.
 Si la ventana es demasiado grande, puede enviar más mensajes de duplicado en caso de problemas de conexión. Además, la mayoría de los proveedores tienen un límite muy estricto para la ventana y rechazan los mensajes que sobrepasan el límite.
 
 Calcular la fórmula óptima de la ventana de envío:
@@ -671,7 +671,7 @@ Indica el formato del ID devuelto en el campo `message_id` del `SUBMIT_SM_RESP P
 
 * **Número decimal** : Se espera que el ID sea un número decimal en formato ASCII. Cuando se utiliza este ajuste, se eliminan los espacios iniciales y finales y los ceros al inicio.
 
-* **Número hexadecimal**: Se espera que el ID sea un número hexadecimal en formato ASCII, sin 0x inicial ni h final. El ID se convierte a continuación en un número decimal antes de almacenarse en la base de datos.
+* **Número hexadecimal**: Se espera que el identificador sea un número hexadecimal en formato ASCII, sin 0x inicial ni h final. A continuación, el ID se convierte en un número decimal antes de almacenarse en la base de datos.
 
 * **Cadena hexadecimal**: Se espera que el ID sea un texto con codificación ASCII que es en sí mismo una cadena de bytes codificados como hexadecimales. P. ej.: en la PDU encontrará `0x34 0x31 0x34 0x32 0x34 0x33`, que se traduce como ASCII &quot;414243&quot;. A continuación, esta cadena se descodifica como una cadena hexadecimal de bytes y se obtiene &quot;ABC&quot; como resultado: almacenará el ID &quot;ABC&quot; en la base de datos.
 
@@ -834,16 +834,16 @@ Incluso si no puede comprobar los registros usted mismo, será más fácil para 
 
 ### Prueba de SMS {#test}
 
-* **Envíe SMS con todo tipo de caracteres**
-Si necesita enviar un SMS con caracteres que no sean GSM o ASCII, intente enviar algunos mensajes con tantos caracteres diferentes como sea posible. Si configura una tabla de asignación de caracteres personalizada, envíe al menos un SMS para todos los valores `data_coding` posibles.
+* **Enviar SMS con todo tipo de caracteres**
+Si necesita enviar SMS con caracteres que no sean GSM o ASCII, intente enviar algunos mensajes con tantos caracteres diferentes como sea posible. Si configura una tabla de asignación de caracteres personalizada, envíe al menos un SMS para todos los valores `data_coding` posibles.
 
-* **Verifique que SR se procesa correctamente**
+* **Compruebe que SR se procesa correctamente**
 El SMS debe marcarse como recibido en el registro de envíos. El registro de envíos debe tener el siguiente aspecto:
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Compruebe que ha cambiado el nombre del proveedor de envío. El registro de envíos nunca debe contener **SR genérico** en entornos de producción.
 
-* **Compruebe que se procesan los MO**
-Si necesita procesar los MO (respuestas automáticas, almacenamiento de los MO en la base de datos, etc.), intente realizar algunas pruebas. Envíe algunos SMS para cada una de las palabras clave de respuesta automática y compruebe si la respuesta es lo suficientemente rápida, no más de unos segundos.
+* **Comprobar que se procesan los MO**
+Si necesita procesar MO (respuestas automáticas, almacenar MO en la base de datos, etc.) intente realizar algunas pruebas. Envíe algunos SMS para cada una de las palabras clave de respuesta automática y compruebe si la respuesta es lo suficientemente rápida, no más de unos segundos.
 Compruebe en el registro que Adobe Campaign responde con `DELIVER_SM_RESP` correctamente (command_status=0).
 
 ### Compruebe las PDU {#check-pdus}
@@ -856,7 +856,7 @@ Este paso es necesario cuando se conecta a un proveedor que no estaba conectado 
 
 Verifique que `BIND_* PDUs` se envíen correctamente. Lo más importante que hay que comprobar es que el proveedor siempre devuelve `BIND_*_RESP PDUs` (command_status = 0) correctamente.
 
-Compruebe que no hay demasiadas `BIND_* PDU`. Si hay demasiados, podría indicar que la conexión es inestable. Consulte la sección [Problemas con conexiones inestables](sms-protocol.md#issues-unstable-connection) para obtener más información.
+Compruebe que no hay demasiados `BIND_* PDU`. Si hay demasiados, podría indicar que la conexión es inestable. Consulte la sección [Problemas con conexiones inestables](sms-protocol.md#issues-unstable-connection) para obtener más información.
 
 #### ENQUIRE_LINK {#enquire-link-pdus}
 

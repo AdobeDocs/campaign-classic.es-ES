@@ -8,8 +8,8 @@ hide: true
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 100%
+source-wordcount: '1924'
+ht-degree: 96%
 
 ---
 
@@ -62,7 +62,7 @@ Debe asociar las plantillas de servicio con cada proveedor de servicios. En esta
 >
 >Para más información, consulte [Definición de la estructura de costes](#defining-the-cost-structure).
 
-Una categoría de coste es una entidad que contiene un conjunto de costes apto para un tipo de entrega (correo electrónico, correo directo, etc.) o para una tarea. Las categorías de coste se agrupan en las plantillas de servicios asociadas a los proveedores de servicios. Cada proveedor de servicios puede hacer referencia a una o más plantillas de servicio.
+Una categoría de coste es una entidad que contiene un conjunto de costes apto para un tipo de entrega (correo electrónico, correo postal, etc.) o para una tarea. Las categorías de coste se agrupan en las plantillas de servicios asociadas a los proveedores de servicios. Cada proveedor de servicios puede hacer referencia a una o más plantillas de servicio.
 
 Para crear una plantilla de servicio y definir su contenido, aplique los siguientes pasos:
 
@@ -159,7 +159,7 @@ Para ello, haga clic en la pestaña **[!UICONTROL Processes]** para configurar l
 
 Los servicios están asociados a campañas a través de entregas o tareas. Los proveedores de servicios están vinculados a plantillas de entrega para ofrecer sus servicios en las entregas creados mediante esta plantilla.
 
-Cuando se selecciona un servicio, las categorías de coste correspondientes al tipo de entrega (correo electrónico, correo directo, etc.) se indican automáticamente en la tabla central junto con las opciones de procesamiento definidas.
+Cuando se selecciona un servicio, las categorías de coste correspondientes al tipo de entrega (correo directo, correo electrónico, etc.) se indican automáticamente en la tabla central junto con las opciones de procesamiento definidas.
 
 >[!NOTE]
 >

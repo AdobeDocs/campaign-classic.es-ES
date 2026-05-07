@@ -7,8 +7,8 @@ feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 100%
+source-wordcount: '547'
+ht-degree: 83%
 
 ---
 
@@ -24,7 +24,7 @@ La ventana de edición de DCE se desglosa en tres secciones diferentes. Permiten
 
 1. La sección **superior** es un área de visualización para mensajes al usuario. Estos mensajes indican el estado de la aplicación web o de la entrega que se está creando, así como advertencias y mensajes de error relacionados con el contenido. Para obtener más información, consulte [Estados de contenido HTML](content-editing-best-practices.md#html-content-statuses).
 1. La sección a la **izquierda** de la ventana es el área para editar contenido. Desde esta área, el usuario puede interactuar directamente con el contenido mediante la barra de herramientas emergente: insertar un vínculo en una imagen, cambiar la fuente, eliminar un campo, etc. Para obtener más información, consulte [Edición de formularios](editing-content.md#editing-forms).
-1. La sección a la **derecha** de la ventana es el área del panel de control. Esta área agrupa las distintas opciones del editor, especialmente aquellas relacionadas con la configuración del encabezado de página y las opciones generales de un bloque: añadir un borde, relacionar un campo de base de datos con una zona de entrada, acceder a las propiedades de página web, etc. Para obtener más información, consulte las secciones [Opciones globales](#global-options) y [Edición de contenido](editing-content.md).
+1. La sección a la **derecha** de la ventana es el área del panel de control. Esta área agrupa las distintas opciones del editor, especialmente las relacionadas con la configuración del encabezado de página y las opciones generales de un bloque: añadir un borde, vincular un campo de base de datos con una zona de entrada, acceder a las propiedades de página web, etc. Para obtener más información, consulte las secciones [Opciones globales](#global-options) y [Edición de contenido](editing-content.md).
 
 ## Opciones globales {#global-options}
 

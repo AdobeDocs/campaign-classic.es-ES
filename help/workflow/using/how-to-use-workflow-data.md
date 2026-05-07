@@ -7,8 +7,8 @@ hide: true
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '410'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## Actualización de la base de datos {#updating-the-database}
 
-Todos los datos recopilados pueden utilizarse para actualizar la base de datos o en las entregas. Por ejemplo, puede enriquecer las opciones de personalización del contenido del mensaje (incluir el número de los contratos en el mensaje, especificar el carro de la compra medio en el último año, etc.) o detallar la población objetivo (enviar un mensaje a los cotitulares del contrato, segmentar los 1000 mejores suscriptores de los servicios en línea, etc.). Estos datos también se pueden exportar o archivar en una lista.
+Todos los datos recopilados pueden utilizarse para actualizar la base de datos o en las entregas. Por ejemplo, puede enriquecer las posibilidades de personalización del contenido del mensaje (incluir el número de contratos en el mensaje, especificar el carro de compras promedio durante el último año, etc.) o indique la población objetivo (envíe un mensaje a los cotitulares del contrato, diríjase a los 1000 mejores suscriptores de los servicios en línea, etc.). Estos datos también se pueden exportar o archivar en una lista.
 
 ### Listas y actualizaciones directas {#lists-and-direct-updates}
 

@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 985cf088-7546-4875-8e11-cafe5bd3e323
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 29%
+source-wordcount: '209'
+ht-degree: 27%
 
 ---
 
@@ -21,18 +21,18 @@ El Conector de Adobe Analytics permite que Adobe Campaign y Adobe Analytics inte
 
 Antes de empezar a trabajar con el conector Adobe Campaign-Adobe Analytics, tenga en cuenta las siguientes protecciones y requisitos previos.
 
-* Para esta integración, es necesario conectarse a Campaign con el sistema Identity Management de Adobe (IMS). [Más información](../../integrations/using/about-adobe-id.md).
+* Para esta integración, es necesario conectarse a Campaign con Adobe Identity Management System (IMS). [Más información](../../integrations/using/about-adobe-id.md).
 
 * El conector de Adobe Analytics no es compatible con mensajes transaccionales (Centro de mensajería).
 
 * El complemento del conector de Web Analytics debe instalarse en su entorno, a través del paquete dedicado.
 
    * Para implementaciones híbridas y locales, asegúrese de seguir los pasos de aprovisionamiento detallados en esta [página](adobe-analytics-provisioning.md).
-   * Como usuario de Hoster o Cloud Service administrados, póngase en contacto con el Adobe de para conectar Campaign con los servicios y las soluciones de Adobe Experience Cloud.
+   * Como usuario de Hoster o Managed Cloud Services, póngase en contacto con Adobe para conectar Campaign con los servicios y las soluciones de Adobe Experience Cloud.
 
 
 ## Configuración y uso {#adobe-analytics-connector-usage}
 
 Para habilitar esta integración, debe crear su cuenta técnica de Adobe como se detalla en [esta página](oauth-technical-account.md).
 
-Aprenda a trabajar con Adobe Campaign y Adobe Analytics en [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}.
+Aprenda a trabajar con Adobe Campaign y Adobe Analytics en [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}.

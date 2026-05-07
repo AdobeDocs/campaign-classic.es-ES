@@ -10,7 +10,7 @@ topic-tags: case-study
 exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ En nuestra base de datos, existe una categoría de ofertas de viajes a África. 
 
    ![](assets/offer_delivery_example_005.png)
 
-1. Cierre la ventana de administración de ofertas y cree el contenido de su envío.
+1. Cierre la ventana de Gestión de ofertas y cree el contenido de su envío.
 
    ![](assets/offer_delivery_example_006.png)
 

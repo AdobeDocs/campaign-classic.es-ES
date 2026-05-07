@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Configuración del acceso a Sybase IQ
-description: Obtenga información sobre cómo configurar el acceso a la Sybase IQ en FDA
+description: Obtenga información sobre cómo configurar el acceso a Sybase IQ en FDA
 feature: Installation, Federated Data Access
 audience: platform
 content-type: reference
@@ -9,7 +9,7 @@ topic-tags: connectors
 exl-id: 0fdf8259-5cab-4a9d-adb3-6c55ec5c8851
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '314'
 ht-degree: 66%
 
 ---
@@ -18,12 +18,12 @@ ht-degree: 66%
 
 
 
-Utilice la opción **Acceso de datos federado** (FDA) de Campaign para procesar la información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso a la Sybase IQ.
+Utilice la opción **Acceso de datos federado** (FDA) de Campaign para procesar la información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso a Sybase IQ.
 
 1. Configurar [base de datos de Sybase IQ](#configuring-sybase)
-1. Configuración de la Sybase IQ [cuenta externa](#sybase-external) en Campaign
+1. Configurar la [cuenta externa](#sybase-external) de Sybase IQ en Campaign
 
-## configuración de sybase IQ {#configuring-sybase}
+## Configuración de Sybase IQ {#configuring-sybase}
 
 La conexión a una base de datos externa de Sybase IQ en FDA requiere ciertas configuraciones adicionales en el servidor de Adobe Campaign.
 
@@ -67,7 +67,7 @@ La conexión a una base de datos externa de Sybase IQ en FDA requiere ciertas co
    * Si utiliza un archivo customer.sh para declarar la ruta: añada la ruta /opt/sybase/IQ-16_0/lib64 para la variable LD_LIBRARY_PATH.
    * En caso contrario, utilice un comando Unix.
 
-## Sybase IQ cuenta externa {#sybase-external}
+## Cuenta externa de Sybase IQ {#sybase-external}
 
 La cuenta externa Sybase IQ permite conectar la instancia de Campaign a la base de datos externa Sybase IQ.
 

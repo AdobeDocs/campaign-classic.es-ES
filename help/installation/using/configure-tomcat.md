@@ -10,14 +10,14 @@ topic-tags: initial-configuration
 exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 4%
+source-wordcount: '352'
+ht-degree: 9%
 
 ---
 
 # Configuración de Apache Tomcat {#configuring-tomcat}
 
-Adobe Campaign SOAP usa un servlet web **incrustado llamado Apache Tomcat** para procesar solicitudes HTTP/HTTPS entre la aplicación y cualquier interfaz externa (incluida la consola de cliente, vínculos de URL rastreados, llamadas de la y otros). A menudo hay un servidor web externo (generalmente IIS o Apache) delante de esto para cualquier instancia de Adobe Campaign externa.
+Adobe Campaign usa un servlet web **incrustado llamado Apache Tomcat** para procesar solicitudes HTTP/HTTPS entre la aplicación y cualquier interfaz externa (incluida la consola de cliente, vínculos de URL rastreados, llamadas de SOAP y otras). A menudo hay un servidor web externo (generalmente IIS o Apache) delante de esto para cualquier instancia de Adobe Campaign externa.
 
 Obtenga más información sobre Tomcat en Campaign y cómo localizar su versión de Tomcat en [esta página](../../production/using/locate-tomcat-version.md).
 

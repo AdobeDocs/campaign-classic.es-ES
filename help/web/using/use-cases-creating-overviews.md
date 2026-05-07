@@ -8,8 +8,8 @@ level: Intermediate, Experienced
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 98%
+source-wordcount: '959'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ En el siguiente ejemplo, se crean aplicaciones web de tipo “descripción gener
    ![](assets/s_ncs_configuration_webapp_rendering.png)
 
 1. Abra la actividad **[!UICONTROL Page]** de la aplicación web y abra una lista (**[!UICONTROL Static element > List]**).
-1. En la pestaña **[!UICONTROL Data]** de la lista, seleccione el tipo de documento **[!UICONTROL Web applications]** y las columnas de salida **[!UICONTROL Creation date]**&#x200B;**[!UICONTROL Label]**, y **[!UICONTROL Type of application]**.
+1. En la pestaña **[!UICONTROL Data]** de la lista, seleccione el tipo de documento **[!UICONTROL Web applications]** y las columnas de salida **[!UICONTROL Creation date]****[!UICONTROL Label]**, y **[!UICONTROL Type of application]**.
 1. En la subpestaña **[!UICONTROL Filter]**, cree el siguiente filtro, tal y como se muestra a continuación, para visualizar las aplicaciones web y excluir las plantillas de la vista.
 
    ![](assets/s_ncs_configuration_webapp_filter.png)
@@ -95,7 +95,7 @@ En una descripción general, tiene la opción de acceder a los datos según su u
    >
    >**nms:webApp** coincide con el esquema de la aplicación web.
    >
-   >**nms:newWebApp** coincide con el nuevo asistente de creación de aplicaciones web.
+   >**nms:newWebApp** coincide con el nuevo asistente para la creación de aplicaciones web.
 
 1. Seleccione esta opción para visualizar la URL en la misma ventana.
 1. Agregue el icono de la aplicación Web en el campo de imagen: **/nms/img/webApp.png**.
@@ -117,7 +117,7 @@ Al configurar una lista en la descripción general, puede elegir visualizar deta
 
    ![](assets/s_ncs_configuration_webapp_detail.png)
 
-1. En la pestaña **[!UICONTROL Data]**, añada las columnas **[!UICONTROL Internal name]**&#x200B;**[!UICONTROL Primary key]**, y **[!UICONTROL Description]** y seleccione la opción **[!UICONTROL Hidden field]** para cada una de ellas.
+1. En la pestaña **[!UICONTROL Data]**, añada las columnas **[!UICONTROL Internal name]****[!UICONTROL Primary key]**, y **[!UICONTROL Description]** y seleccione la opción **[!UICONTROL Hidden field]** para cada una de ellas.
 
    ![](assets/s_ncs_configuration_webapp_detail002.png)
 

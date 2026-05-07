@@ -7,7 +7,7 @@ role: Developer
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '923'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ Se describe un servicio web en la gramática de los esquemas de datos y está di
 
 Aquí tenemos un ejemplo de la definición del método denominado **GenerateForm**.
 
-La descripción del servicio comienza con el elemento `<method>`. La lista de parámetros del método se completó desde el elemento `<parameters>`. Cada parámetro se especifica mediante un nombre, un tipo (booleano, cadena, DOMElement, etc.) y una descripción. El atributo &quot;inout&quot; con el valor &quot;out&quot; permite especificar que el parámetro &quot;result&quot; se encuentra en la salida de la llamada de SOAP.
+La descripción del servicio comienza con el elemento `<method>`. La lista de parámetros del método se completó desde el elemento `<parameters>`. Cada parámetro se especifica mediante un nombre, un tipo (Boolean, string, DOMElement, etc.) y una descripción. El atributo &quot;inout&quot; con el valor &quot;out&quot; permite especificar que el parámetro &quot;result&quot; se encuentra en la salida de la llamada de SOAP.
 
 La presencia del atributo &quot;static&quot; (con el valor &quot;true&quot;) describe este método como static, lo que significa que se deben declarar todos los parámetros del método.
 
@@ -215,7 +215,7 @@ El token de seguridad tiene las siguientes características:
 * se almacena en la consola de Adobe Campaign
 * cuando se accede a través de la web:
 
-   * se almacena en un documento.__securityToken, propiedad
+   * se almacena en una propiedad document.__securityToken
    * las direcciones URL de la página se actualizan para actualizar el token de seguridad
    * los formularios también se actualizan mediante un campo oculto que contiene el token
 

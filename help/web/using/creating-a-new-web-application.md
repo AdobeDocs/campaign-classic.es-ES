@@ -7,7 +7,7 @@ feature: Web Apps
 exl-id: 5ccf5a21-48aa-4c0d-8cc8-457eb07d9f74
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '372'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Esta plantilla determina el tipo de aplicación web. Puede crear:
 
    Adobe Campaign permite crear aplicaciones web para presentarlas en una plataforma web o una extranet, por ejemplo. Esto permite editar datos y registrar la información en Adobe Campaign. En este caso, puede limitar el acceso a únicamente usuarios autenticados (mediante control de acceso) y configurar la precarga de datos en función de diversos criterios. Para obtener más información, consulte [esta sección](about-web-applications.md).
 
-1. Páginas de aterrizaje
+1. Páginas de destino
 
    Una página de destino es una página HTML cuyo contenido está disponible en un sitio web y que permite a los usuarios introducir información que se almacena en el perfil de la base de datos de Adobe Campaign. El contenido de este tipo de página se suele crear mediante una agencia web especializada antes de importarse en Adobe Campaign para su publicación, gestión y seguimiento. Para obtener más información, consulte [esta página](creating-a-landing-page.md).
 

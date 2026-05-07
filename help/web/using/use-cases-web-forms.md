@@ -7,8 +7,8 @@ feature: Web Forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 100%
+source-wordcount: '978'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## Creación de un formulario de suscripción con doble inclusión {#create-a-subscription--form-with-double-opt-in}
 
-Al ofrecer servicios de información, es necesario que los destinatarios se suscriban para recibir todas las comunicaciones vinculadas. Para evitar comunicaciones incorrectas y asegurarse de que el destinatario se ha suscrito intencionadamente, se recomienda enviar una solicitud de confirmación de suscripción para crear una adhesión doble. Así, la suscripción solo es efectiva una vez que el usuario hace clic en el vínculo incluido en el mensaje de confirmación.
+Al ofrecer servicios de información, es necesario que los destinatarios se suscriban para recibir todas las comunicaciones vinculadas. Para evitar comunicaciones incorrectas y asegurarse de que el destinatario se haya suscrito intencionadamente, se recomienda enviar una solicitud de confirmación de suscripción para crear una inclusión doble. La suscripción solo es efectiva una vez que el usuario hace clic en el vínculo incluido en el mensaje de confirmación.
 
 Este ejemplo se basa en el siguiente supuesto:
 

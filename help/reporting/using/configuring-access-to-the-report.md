@@ -6,9 +6,9 @@ feature: Reporting, Monitoring
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '769'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '770'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ Defina el contexto de visualización del informe en la plataforma de Adobe Campa
 
 ### Tipo de selección {#selection-type}
 
-El acceso al informe se puede limitar a un contexto específico o a un espacio de ofertas como, por ejemplo, una entrega, un destinatario, una selección de destinatarios, etc. Este acceso se configura en la sección **[!UICONTROL Selection type]** de la pestaña **[!UICONTROL Display]**.
+El acceso al informe se puede limitar a un contexto específico o a un espacio de ofertas como, por ejemplo, una entrega, un destinatario, una selección de destinatarios, etc. Este acceso está configurado en la sección **[!UICONTROL Selection type]** de la ficha **[!UICONTROL Display]**.
 
 ![](assets/s_ncs_advuser_report_visibility_4.png)
 
@@ -48,7 +48,7 @@ En el siguiente ejemplo, el informe se muestra si el canal de campaña principal
 
 ![](assets/s_ncs_advuser_report_visibility_6.png)
 
-Esto significa que si el canal principal de la campaña es correo postal, el informe no aparece disponible en los informes de campaña.
+Esto significa que si el canal principal de la campaña es correo directo, el informe no aparece disponible en los informes de campaña.
 
 ### Autorización de acceso {#access-authorization}
 

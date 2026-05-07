@@ -5,7 +5,7 @@ description: Pasos de implementación del módulo de interacción de Campaign
 feature: Interaction, Offers
 exl-id: 82b88ab7-6a95-4bb3-b8b3-abea0fdd4ca0
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 1. Creación de perfiles de usuario. Para obtener más información, consulte [Perfiles de operadores](../../interaction/using/operator-profiles.md).
 1. Creación de un entorno de oferta mediante la dimensión de segmentación. Para obtener más información, consulte [Creación de un entorno de ofertas](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
-1. Creación de reglas tipológicas para cada entorno. Para obtener más información, consulte [Creación y referencia de una regla de presentación de ofertas](../../interaction/using/managing-offer-presentation.md#creating-and-referencing-an-offer-presentation-rule). 
+1. Creación de reglas tipológicas para cada entorno. Para obtener más información, consulte [Creación y referencia de una regla de presentación de ofertas](../../interaction/using/managing-offer-presentation.md#creating-and-referencing-an-offer-presentation-rule).
 1. Creación de espacios de oferta para cada entorno y configuración de funciones de renderización. Para obtener más información, consulte [Creación de espacios de ofertas](../../interaction/using/creating-offer-spaces.md).
 
    >[!NOTE]

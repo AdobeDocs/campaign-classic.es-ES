@@ -6,8 +6,8 @@ feature: Installation, Privacy, Privacy Tools, URL Personalization
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 13%
+source-wordcount: '896'
+ht-degree: 16%
 
 ---
 

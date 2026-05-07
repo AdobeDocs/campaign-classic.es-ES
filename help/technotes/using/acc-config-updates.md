@@ -7,8 +7,8 @@ hide: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 10%
+source-wordcount: '1178'
+ht-degree: 14%
 
 ---
 
@@ -72,7 +72,7 @@ Las **versiones de consola disponibles** a continuación se deben instalar para 
 
 ## Actualización del sistema Adobe Identity Management (IMS)
 
-El servicio de identidad de Adobe (IMS) dejará de admitir versiones antiguas de Internet Explorer a partir del **30 de junio de 2021**. [Más información](https://helpx.adobe.com/es/x-productkb/global/update-operating-system-and-browser.html).
+El servicio de identidad de Adobe (IMS) dejará de admitir versiones antiguas de Internet Explorer a partir del **30 de junio de 2021**. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
 
 Se requiere una actualización de la consola del cliente de Campaign para garantizar la compatibilidad con Adobe IMS.
 
@@ -168,5 +168,5 @@ Como cliente on-premise/híbrido, debe actualizar su configuración para garanti
 
 * [Actualice su entorno](../../production/using/build-upgrade.md)
 * [Preguntas frecuentes sobre la actualización de versiones](../../platform/using/faq-build-upgrade.md)
-* [Descargar compilación de Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
+* [Descargar versión de Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
 * [Hacer que la nueva consola de cliente esté disponible para los usuarios](../../installation/using/client-console-availability-for-windows.md)

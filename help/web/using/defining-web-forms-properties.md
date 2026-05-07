@@ -7,7 +7,7 @@ feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
 source-git-commit: 1d4990917fea54e67ed23cd0771295de03a4f01a
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1379'
 ht-degree: 100%
 
 ---
@@ -132,7 +132,7 @@ El periodo de validez se ejecuta desde la fecha **[!UICONTROL Start]** hasta **[
 
 De forma predeterminada, el acceso a los formularios web se realiza en modo anónimo: todos los operadores que acceden al formulario tienen derechos de operador de WebApp.
 
-Puede activar el control de acceso para la visualización del formulario, por ejemplo, al enviar un formulario en un sitio de intranet para autenticar a los usuarios. Para ello, muestre la ventana **[!UICONTROL Properties]** del formulario correspondiente y haga clic en la opción **[!UICONTROL Enable access control]** como se muestra a continuación:
+Puede habilitar el control de acceso para la visualización del formulario, por ejemplo, al enviar un formulario en un sitio de intranet para autenticar a los usuarios. Para ello, muestre la ventana **[!UICONTROL Properties]** del formulario correspondiente y haga clic en la opción **[!UICONTROL Enable access control]** como se muestra a continuación:
 
 ![](assets/s_ncs_admin_survey_access_ctrl.png)
 
@@ -148,7 +148,7 @@ La opción **[!UICONTROL Use a specific account]** permite limitar el permiso de
 
 ## Parámetros de URL del formulario {#form-url-parameters}
 
-Se pueden agregar parámetros adicionales en la dirección URL de un formulario para personalizar su contenido e inicializar un contexto (idioma, ID de destinatario encriptada, empresa, fórmula calculada almacenada en una variable, etc.). Esto permite dar acceso a un formulario a través de distintas direcciones URL y personalizar el contenido de la página según el valor de los parámetros mostrados en la dirección URL.
+Se pueden agregar parámetros adicionales en la dirección URL de un formulario para personalizar su contenido e inicializar un contexto (idioma, ID de destinatario cifrado, empresa, fórmula calculada almacenada en una variable, etc.). Esto permite dar acceso a un formulario a través de distintas direcciones URL y personalizar el contenido de la página según el valor de los parámetros mostrados en la dirección URL.
 
 De forma predeterminada, Adobe Campaign ofrece parámetros para previsualizar el formulario y comprobar errores. Se pueden crear nuevas configuraciones vinculadas al formulario que pueden utilizar los valores de un campo en la base de datos o de una variable local.
 
@@ -156,7 +156,7 @@ De forma predeterminada, Adobe Campaign ofrece parámetros para previsualizar el
 
 Los siguientes parámetros están disponibles de forma predeterminada:
 
-* **id** para indicar el identificador encriptado.
+* **id** para indicar el identificador cifrado.
 * **Divide** para cambiar el idioma de visualización.
 * **origin** para especificar el origen del encuestado.
 * **_uuid** permite la visualización de formularios antes de la publicación y el seguimiento de errores. Este parámetro es para uso interno (creación y depuración): cuando se accede al formulario web a través de esta dirección URL, los registros creados no se tienen en cuenta en el seguimiento (informes). Se fuerza el valor **[!UICONTROL Adobe Campaign]** en el origen.
@@ -173,7 +173,7 @@ Los siguientes parámetros están disponibles de forma predeterminada:
 
 ## Adición de parámetros {#adding-parameters}
 
- En la ventana Properties del formulario, se pueden añadir parámetros a través de la pestaña **[!UICONTROL Parameters...]**. Pueden hacerse obligatorios, como se muestra a continuación:
+En la ventana Properties del formulario, se pueden añadir parámetros a través de la pestaña **[!UICONTROL Parameters...]**. Pueden hacerse obligatorios, como se muestra a continuación:
 
 ![](assets/s_ncs_admin_survey_properties_param.png)
 
@@ -185,7 +185,7 @@ Después se puede añadir el estado del encuestado (0, 1 o cualquier otro valor)
 
    ![](assets/s_ncs_admin_survey_test_client.png)
 
-1. Página de inicio para los posibles clientes (**estado=0**):
+1. Página de inicio para los clientes potenciales (**estado=0**):
 
    ![](assets/s_ncs_admin_survey_test_prospect.png)
 

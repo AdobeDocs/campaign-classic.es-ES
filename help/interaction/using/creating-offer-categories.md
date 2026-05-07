@@ -9,7 +9,7 @@ topic-tags: managing-an-offer-catalog
 exl-id: ed97a1b5-c870-4b67-98b6-16adc316fd46
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '269'
 ht-degree: 100%
 
 ---
@@ -58,6 +58,6 @@ Para crear una categoría adicional, siga los siguientes pasos:
 
      ![](assets/offer_cat_create_006.png)
 
-Un resumen de las reglas de idoneidad está disponible en el panel de las ofertas incluidas en la categoría. Para visualizarlos, haga clic en el vínculo **[!UICONTROL Schedule and eligibility rules of the offer]**.
+Un resumen de las reglas de elegibilidad está disponible en el panel de control de las ofertas incluidas en la categoría. Para visualizarlos, haga clic en el vínculo **[!UICONTROL Schedule and eligibility rules of the offer]**.
 
 ![](assets/offer_create_006.png)

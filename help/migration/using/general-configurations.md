@@ -10,7 +10,7 @@ hide: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '2517'
+source-wordcount: '2546'
 ht-degree: 1%
 
 ---
@@ -151,7 +151,7 @@ Se han modificado ciertos esquemas predeterminados y ahora, de forma predetermin
 
 ### Parámetro Sessiontoken {#sessiontoken-parameter}
 
-En la versión 5, el parámetro **sessiontoken** funcionaba tanto en el lado del cliente (lista de pantallas de tipo de información general, editor de vínculos, etc.) como en el lado del servidor (aplicaciones web, informes, jsp, jssp, etc.). En la versión 7, solo funciona en el servidor. Si desea volver a la funcionalidad completa como en la versión 5, debe modificar los vínculos con este parámetro y pasar a través de la página de conexión:
+En la versión 5, el parámetro **sessiontoken** funcionaba en ambos lados del cliente (lista de pantallas de tipo de información general, editor de vínculos, etc.) y del lado del servidor (aplicaciones web, informes, jsp, jsp, etc.). En la versión 7, solo funciona en el servidor. Si desea volver a la funcionalidad completa como en la versión 5, debe modificar los vínculos con este parámetro y pasar a través de la página de conexión:
 
 Ejemplo de vínculo:
 
@@ -390,7 +390,7 @@ El alias es opcional
 
 **Sugerencias y trucos**
 
-En un elemento `<subQuery>`, para hacer referencia a un campo &quot;field&quot; del elemento principal `<queryDef>`   utilice la sintaxis siguiente: `[../@field]`
+En un elemento `<subQuery>`, para hacer referencia a un campo &quot;field&quot; del elemento principal `<queryDef>`, utilice la siguiente sintaxis: `[../@field]`
 
 Ejemplo:
 

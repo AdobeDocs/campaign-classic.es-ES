@@ -8,7 +8,7 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 exl-id: 68908664-3cf6-4a6c-a327-c7f059c27aa3
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '154'
 ht-degree: 9%
 
 ---

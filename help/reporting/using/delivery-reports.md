@@ -6,9 +6,9 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Reporting, Monitoring
 exl-id: 74feb13f-0994-4a6a-ae4f-2538b07cc9c0
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '1470'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1496'
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ Se puede realizar un seguimiento de la ejecución de los envíos a través de di
    De manera predeterminada, están disponibles los siguientes informes:
 
    * **[!UICONTROL Delivery throughput]**: consulte [Rendimiento de entrega](../../reporting/using/global-reports.md#delivery-throughput).
-   * **[!UICONTROL Sharing to social networks]**: consulte [Uso compartido en redes sociales](../../reporting/using/global-reports.md#sharing-to-social-networks).
+   * **[!UICONTROL Sharing to social networks]**: consulte [Difusión en redes sociales](../../reporting/using/global-reports.md#sharing-to-social-networks).
    * **[!UICONTROL Statistics on sharing activities]**: consulte [Estadísticas sobre actividades de uso compartido](../../reporting/using/global-reports.md#statistics-on-sharing-activities).
    * **[!UICONTROL Hot clicks]**: consulte [Clics activos](#hot-clicks).
    * **[!UICONTROL Tracking statistics]**: consulte las [Estadísticas de seguimiento](#tracking-statistics)
@@ -158,7 +158,7 @@ Este informe proporciona toda la información principal sobre la entrega.
 Esta sección tiene dos indicadores:
 
 * **[!UICONTROL Initial population]** : Número total de destinatarios a quienes se realizó la entrega.
-* **[!UICONTROL Messages rejected by the rule]** : número de direcciones ignoradas durante el análisis al aplicar las reglas de tipología: dirección no disponible, en cuarentena, en lista de bloqueados, etc. Para obtener más información sobre las reglas de tipología, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=es){target="_blank"}.
+* **[!UICONTROL Messages rejected by the rule]** : número de direcciones omitidas durante el análisis al aplicar reglas de tipología: dirección no disponible, en cuarentena, en lista de bloqueados de la, etc. Para obtener más información sobre las reglas de tipología, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=es){target="_blank"}.
 
 **[!UICONTROL Causes of exclusion]**
 

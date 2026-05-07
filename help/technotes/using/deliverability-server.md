@@ -7,8 +7,8 @@ hide: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 16%
+source-wordcount: '1052'
+ht-degree: 17%
 
 ---
 
@@ -49,7 +49,7 @@ Como parte de la nueva integración del servidor de entrega, Campaign debe comun
 
 >[!AVAILABILITY]
 >
-> Adobe va a declarar la credencial Cuenta de servicio (JWT) como obsoleta, las integraciones de Campaign con aplicaciones y soluciones de Adobe ahora dependen de la credencial OAuth de servidor a servidor. </br>
+> La credencial de cuenta de servicio (JWT) está en desuso en Adobe. Las integraciones de Campaign con soluciones y aplicaciones de Adobe ahora deben depender de la credencial de servidor a servidor OAuth. </br>
 >
 > * Si ha implementado integraciones de entrada con Campaign, debe migrar su Cuenta técnica como se detalla en [esta documentación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Las [credenciales de la cuenta de servicio (JWT) existentes](../../integrations/using/oauth-technical-account.md) seguirán funcionando hasta el 27 de enero de 2025. </br>
 >
@@ -74,7 +74,7 @@ Como cliente On-Premise, también debe comprobar que haya una campaña **[!UICON
 1. Acceda a la sección **Productos y servicios** y verifique que **Adobe Campaign** aparezca en la lista.
 Si no puede ver **Adobe Campaign**, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} para que se lo agreguen.
 1. Haga clic en **Adobe Campaign** y seleccione su organización.
-   **Precaución**: Si tiene más de una organización, asegúrese de seleccionar la correcta. Obtenga más información acerca de las organizaciones [en esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es#ims-org-id){_blank}.
+   **Precaución**: Si tiene más de una organización, asegúrese de seleccionar la correcta. Obtenga más información acerca de las organizaciones [en esta página](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#ims-org-id){_blank}.
 
 1. Compruebe que existe un **[!UICONTROL Product profile]**. Si no es así, créela. No se requiere permiso para este **[!UICONTROL Product profile]**.
 

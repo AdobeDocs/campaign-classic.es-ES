@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
 source-git-commit: 192505e1c4d387de55ca18b578b837d237cc0607
-workflow-type: ht
-source-wordcount: '807'
+workflow-type: tm+mt
+source-wordcount: '809'
 ht-degree: 100%
 
 ---
@@ -80,7 +80,7 @@ Por ejemplo, una oferta puede tener una ponderación de A para los contactos de 
 
 Para crear una ponderación en una oferta, siga los siguientes pasos:
 
-1. Haga clic en **[!UICONTROL Add]**.
+1. Haga clic **[!UICONTROL Add]**.
 
    ![](assets/offer_weight_create_001.png)
 

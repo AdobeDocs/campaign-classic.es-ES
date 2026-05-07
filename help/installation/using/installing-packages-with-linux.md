@@ -10,8 +10,8 @@ topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 source-git-commit: ab38c7fd45513c6f7a8ecf7ef8601f0b5a4b5757
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 2%
+source-wordcount: '1145'
+ht-degree: 4%
 
 ---
 
@@ -54,7 +54,7 @@ Para instalar Adobe Campaign en un sistema operativo RPM (RHEL, CentOS), siga es
    yum install nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
-   El archivo rpm depende de paquetes que se pueden encontrar en las distribuciones de CentOS/Red Hat. Si no desea utilizar algunas de estas dependencias (por ejemplo, si desea utilizar el JDK de Oracle en lugar de OpenJDK), es posible que tenga que utilizar la opción &quot;nodeps&quot; de rpm:
+   El archivo rpm depende de paquetes que se pueden encontrar en las distribuciones de CentOS/Red Hat. Si no desea utilizar algunas de estas dependencias (por ejemplo, si desea utilizar Oracle JDK en lugar de OpenJDK), es posible que tenga que utilizar la opción &quot;nodeps&quot; de rpm:
 
    ```sql
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
@@ -204,9 +204,9 @@ systemctl stop nlserver
 systemctl start nlserver
 ```
 
-### Cliente de oracle en Linux {#oracle-client-in-linux}
+### Cliente de Oracle en Linux {#oracle-client-in-linux}
 
-Cuando se utiliza el Oracle con Adobe Campaign, es necesario configurar las capas de cliente de Oracle en Linux.
+Cuando utilice Oracle con Adobe Campaign, debe configurar las capas de cliente de Oracle en Linux.
 
 * Usar el cliente completo
 * Definición de TNS

@@ -6,9 +6,9 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Reporting, Monitoring
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
-workflow-type: ht
-source-wordcount: '2512'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2523'
+ht-degree: 99%
 
 ---
 
@@ -111,7 +111,7 @@ Utilice la entrada de menú **[!UICONTROL Expression]** para seleccionar los val
 
   Para ello, utilice el mismo proceso que para insertar un campo en la base de datos, pero no seleccione una expresión. Introduzca la etiqueta en el campo **[!UICONTROL Label]**. Se muestra tal cual.
 
-* Cálculo de un acumulado (un promedio, una suma, etc.) para mostrarlo en la celda.
+* Cálculo de un acumulado (un promedio, una suma, etc.) y mostrarlo en la celda.
 
   Para ello, utilice la entrada de menú **[!UICONTROL Aggregates]** y seleccione la campaña deseada.
 
@@ -303,7 +303,7 @@ En este paso, configuramos la primera página del informe. Para ello, siga los s
 
    ![](assets/s_advuser_report_listgroup_0112.png)
 
-1. En la sección inferior de la ventana, haga clic en **[!UICONTROL Add]** y especifique la ruta **`/vars/selectedDelivery`** y la expresión **[!UICONTROL @deliveryId]** que coincida con el alias de la clave primaria de la entrega definida en la consulta creada anteriormente. Esta fórmula permite acceder a la entrega seleccionada.
+1. En la sección inferior de la ventana, haga clic en **[!UICONTROL Add]** y especifique la ruta **`/vars/selectedDelivery`** y la expresión **[!UICONTROL @deliveryId]** que coincida con el alias de la clave principal de la entrega definida en la consulta creada anteriormente. Esta fórmula permite acceder a la entrega seleccionada.
 
    ![](assets/s_advuser_report_listgroup_010.png)
 

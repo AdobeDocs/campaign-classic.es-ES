@@ -7,8 +7,8 @@ hide: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 4%
+source-wordcount: '529'
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ Por razones de seguridad, debe [instalar la última compilación de Campaign](#a
 
 >[!NOTE]
 >
->Si tiene alguna pregunta sobre estos cambios, comuníquese con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Consulte también las [preguntas frecuentes sobre la actualización de la compilación](../../platform/using/faq-build-upgrade.md).
+>En caso de que tenga preguntas acerca de estos cambios, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Consulte también las [preguntas frecuentes sobre la actualización de la compilación](../../platform/using/faq-build-upgrade.md).
 >
 
 ## Actualización de compilación de Campaign {#ac-upgrade}
@@ -69,5 +69,5 @@ Si el sistema de base de datos de Campaign es PostgreSQL, para beneficiarse de l
 
 * [Actualice su entorno](../../production/using/build-upgrade.md)
 * [Preguntas frecuentes sobre la actualización de versiones](../../platform/using/faq-build-upgrade.md)
-* [Descargar la última versión de Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
+* [Descargue la última versión de Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html)
 * [Hacer que la nueva consola de cliente esté disponible para los usuarios](../../installation/using/client-console-availability-for-windows.md)
