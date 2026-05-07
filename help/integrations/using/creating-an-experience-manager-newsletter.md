@@ -9,7 +9,7 @@ content-type: reference
 exl-id: 9fa3ce08-3007-4c65-9841-bad339428b7c
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '288'
 ht-degree: 100%
 
 ---
@@ -82,4 +82,4 @@ El boletín ya está listo y sincronizado en Adobe Campaign.
 
    ![](assets/aem_uc_12.png)
 
-El correo electrónico está listo para enviarlo a su audiencia.
+El correo electrónico está listo para enviarlo a su público.

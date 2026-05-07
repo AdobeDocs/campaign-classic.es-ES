@@ -44,7 +44,7 @@ Para crear este ejemplo, aplique los pasos siguientes:
 
    ![](assets/query_editor_nveau_29.png)
 
-1. En la ventana **[!UICONTROL Sorting]**, ordene los dominios de correo electrónico en orden descendente. Para ello, seleccione **[!UICONTROL Yes]** en la columna **[!UICONTROL Descending sort]**. Haga clic en **[!UICONTROL Next]**.
+1. En la ventana **[!UICONTROL Sorting]**, ordene los dominios de correo electrónico en orden descendente. Para ello, seleccione **[!UICONTROL Yes]** en la columna **[!UICONTROL Descending sort]**. Haga clic **[!UICONTROL Next]**.
 
    ![](assets/query_editor_nveau_70.png)
 

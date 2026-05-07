@@ -10,8 +10,8 @@ topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 100%
+source-wordcount: '1010'
+ht-degree: 99%
 
 ---
 
@@ -73,7 +73,7 @@ Para importar nuevos perfiles de destinatario almacenados en un archivo de texto
 
 1. Reconciliación
 
-   * Diríjase a la tabla **Destinatarios (nms:recipient)**.
+   * Vaya a la tabla **Destinatarios (nms:recipient)**.
    * Seleccione la operación **[!UICONTROL Insertion]** y mantenga los valores predeterminados de los demás campos.
 
      ![](assets/s_ncs_user_import_example04_01.png)

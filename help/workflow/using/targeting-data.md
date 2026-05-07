@@ -7,8 +7,8 @@ hide: true
 exl-id: 74b82019-bdab-4442-84cf-5ad18d0db788
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1919'
-ht-degree: 100%
+source-wordcount: '1931'
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ En las actividades de tipo **[!UICONTROL Union]** o **[!UICONTROL Intersection]*
 
 ### Reconciliación con los datos adicionales {#reconciliation-with-additional-data}
 
-Durante las fases de reconciliación de datos (**[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc. actividades), puede seleccionar las columnas que se utilizarán para la reconciliación de datos en las columnas adicionales. Para ello, configure una reconciliación sobre una selección de columnas y especifique el conjunto principal. A continuación, seleccione las columnas en la columna inferior de la ventana, como se muestra en el siguiente ejemplo:
+Durante las fases de reconciliación de datos (**[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.), puede seleccionar las columnas que se utilizarán para la reconciliación de datos en las columnas adicionales. Para ello, configure una reconciliación sobre una selección de columnas y especifique el conjunto principal. A continuación, seleccione las columnas en la columna inferior de la ventana, como se muestra en el siguiente ejemplo:
 
 ![](assets/select-column-and-join.png)
 
@@ -158,7 +158,7 @@ Para configurarlo, primero debe seleccionar unos criterios:
 
    ![](assets/split-subset-config-all-data.png)
 
-   En **[!UICONTROL Split]** esta sección se describe un ejemplo de cómo utilizar las condiciones de filtrado en la actividad [](cross-channel-delivery-workflow.md) para segmentar el objetivo en diferentes poblaciones.
+   En **[!UICONTROL Split]** esta sección se describe un ejemplo de cómo utilizar las condiciones de filtrado en la actividad [&#128279;](cross-channel-delivery-workflow.md) para segmentar el objetivo en diferentes poblaciones.
 
    El campo **[!UICONTROL Label]** permite asignar un nombre al nuevo subconjunto, que coincide con la transición saliente.
 
@@ -178,9 +178,9 @@ Para configurarlo, primero debe seleccionar unos criterios:
 
    Para obtener más información, consulte estas secciones en función de la versión de Campaign:
 
-   ![](assets/do-not-localize/v7.jpeg)[Documentación de Campaign v7](../../installation/using/about-fda.md)
+   ![](assets/do-not-localize/v7.jpeg) [Documentación de Campaign v7](../../installation/using/about-fda.md)
 
-   ![](assets/do-not-localize/v8.png)[Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=es)
+   ![](assets/do-not-localize/v8.png) [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=es)
 
 A continuación, es preciso añadir nuevos subconjuntos:
 

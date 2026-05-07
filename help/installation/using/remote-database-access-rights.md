@@ -9,7 +9,7 @@ topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '923'
 ht-degree: 96%
 
 ---
@@ -66,7 +66,7 @@ El administrador de la base de datos debe hacer coincidir estos derechos con los
 
 |   | TeraData | InfiniDB | Sybase IQ/Sybase ASE | Netezza | AsterData |
 |:-:|:-:|:-:|:-:|:-:|:-:|
-| **Conexión a la base de datos remota** | Privilegio CONNECT | Creación de un usuario vinculado a un host remoto con TODOS LOS PRIVILEGIOS | No se requiere permiso para utilizar la instrucción CONNECT. | No se requiere ningún privilegio. | Privilegio CONNECT |
+| **Conexión a la base de datos remota** | Privilegio CONNECT | Creación de un usuario vinculado a un host remoto con TODOS LOS PRIVILEGIOS (ALL PRIVILEGES) | No se requiere permiso para utilizar la instrucción CONNECT. | No se requiere ningún privilegio. | Privilegio CONNECT |
 | **Creación de tablas** | Palabras clave CREATE TABLE o TABLE | Privilegio CREATE | Autoridad RESOURCE y permiso CREATE | Privilegio TABLE | Privilegio CREATE |
 | **Creación de índices** | Palabras clave CREATE INDEX o INDEX | Privilegio INDEX | Autoridad RESOURCE y permiso CREATE | Privilegio INDEX | Privilegio CREATE |
 | **Creación de funciones** | Palabras clave CREATE FUNCTION o FUNCTION | Privilegio CREATE ROUTINE | Autoridad RESOURCE o autoridad de DBA para funciones de Java | Privilegio FUNCTION | Privilegio CREATE FUNCTION |

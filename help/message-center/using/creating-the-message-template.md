@@ -6,8 +6,8 @@ feature: Transactional Messaging, Message Center, Templates
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 100%
+source-wordcount: '500'
+ht-degree: 97%
 
 ---
 
@@ -79,7 +79,7 @@ Para insertar etiquetas de personalización en el cuerpo de un mensaje de correo
 
    ![](assets/messagecenter_create_custo_002.png)
 
-1. Complete la etiqueta con la siguiente sintaxis: **element name**.@**attribute name** como se muestra a continuación.
+1. Complete la etiqueta con la siguiente sintaxis: **nombre del elemento**.@**nombre del atributo** como se muestra a continuación.
 
    ![](assets/messagecenter_create_custo_003.png)
 

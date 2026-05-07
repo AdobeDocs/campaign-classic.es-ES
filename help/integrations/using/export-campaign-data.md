@@ -7,9 +7,9 @@ audience: integrations
 content-type: reference
 exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '476'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 94%
 
 ---
 
@@ -49,7 +49,7 @@ A continuación, se enumeran los pasos principales para conectar su ubicación d
 
 1. En el menú **[!UICONTROL Sources]** de Adobe Experience Platform, cree una conexión con su ubicación de almacenamiento:
 
-   * [Creación de una conexión de origen de Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=es)
+   * [Crear una conexión de origen de Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=es)
    * [Conector de Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=es)
 
    >[!NOTE]

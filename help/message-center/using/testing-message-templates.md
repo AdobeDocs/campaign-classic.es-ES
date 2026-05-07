@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '568'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,7 @@ Para crear direcciones semilla en un mensaje transaccional, siga los pasos a con
 
    ![](assets/messagecenter_create_seedaddr_003.png)
 
-1. Introduzca el identificador externo: este campo opcional permite introducir una clave comercial (ID única, nombre + correo electrónico, etc.) que es común a todas las aplicaciones del sitio web y es utilizada para identificar los perfiles. Si este campo también está presente en la base de datos de marketing de Adobe Campaign, puede reconciliar un evento con un perfil de la base de datos.
+1. Introduzca el identificador externo: este campo opcional permite introducir una clave empresarial (ID única, nombre + correo electrónico, etc.) que es común a todas las aplicaciones del sitio web y se utiliza para identificar los perfiles. Si este campo también está presente en la base de datos de marketing de Adobe Campaign, puede reconciliar un evento con un perfil de la base de datos.
 
    ![](assets/messagecenter_create_seedaddr_003bis.png)
 
@@ -76,7 +76,7 @@ Esta información le permite personalizar el contenido del mensaje mediante etiq
 
    ![](assets/messagecenter_create_custo_001.png)
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
 ## Previsualización del mensaje transaccional {#transactional-message-preview}
 

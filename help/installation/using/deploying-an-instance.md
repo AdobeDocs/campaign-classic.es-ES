@@ -10,8 +10,8 @@ topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
 workflow-type: tm+mt
-source-wordcount: '3397'
-ht-degree: 5%
+source-wordcount: '3479'
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ Los pasos de configuración son los siguientes:
 1. [Parámetros generales](#general-parameters)
 1. [Parámetros de canal de correo electrónico](#email-channel-parameters)
 1. [Administración de correos electrónicos rechazados](#managing-bounced-emails)
-1. [Configuración de seguimiento](#tracking-configuration)
+1. [Configuración del seguimiento](#tracking-configuration)
 1. [Parámetros de canal móvil](#mobile-channel-parameters)
 1. [Configuración regional](#regional-settings)
 1. [Acceso desde Internet](#access-from-the-internet)
@@ -177,7 +177,7 @@ Las devoluciones sin procesar no se muestran en la interfaz de Adobe Campaign. S
 >
 >Para reenviar correos electrónicos rechazados sin procesar, Adobe recomienda rellenar únicamente el campo **[!UICONTROL Address for errors]**. Sin embargo, asegúrese de comprobar regularmente la dirección que utiliza, ya que esto podría suponer una carga pesada en el servidor de correo. Póngase en contacto con su administrador de cuentas para obtener más información.
 
-## Configuración de seguimiento {#tracking-configuration}
+## Configuración del seguimiento {#tracking-configuration}
 
 El siguiente paso permite configurar el seguimiento de la instancia. La instancia debe declararse y registrarse con los servidores de seguimiento.
 

@@ -7,7 +7,7 @@ feature: Email Design
 role: User
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '533'
 ht-degree: 100%
 
 ---

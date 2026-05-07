@@ -9,7 +9,7 @@ topic-tags: schema-reference
 exl-id: bc4329b4-d272-4d32-bdaa-290cb9912af4
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '459'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## Modelo de contenido {#content-model-14}
 
-srcSchema:==(atributo | createdBy | datos | elemento | enumeración | ayuda | interfaz | métodos | modifiedBy)
+srcSchema:==(atributo | createdBy | datos | elemento | enumeración | ayuda | interfaz | métodos | modificado por)
 
 ## Atributos {#attributes-14}
 
@@ -55,7 +55,7 @@ La presentación de esquemas está disponible en [Acerca de la referencia de esq
 * **createdBy-id (long)**: es el identificador del operador que creó el esquema.
 * **desc (cadena)**: descripción del esquema
 * **entitySchema (cadena)**: esquema básico en el que se basan la sintaxis y la aprobación (de forma predeterminada para Adobe Campaign: xtk:srcSchema). Al guardar el esquema actual, Adobe Campaign aprueba su gramática con el esquema declarado en el atributo @xtkschema.
-* **extendedSchema (string)**: recibe el nombre del esquema predeterminado en el cual se basa la extensión de esquema actual. El formato es &quot;área de nombres:nombre&quot;.
+* **extendedSchema (string)**: recibe el nombre del esquema predeterminado en el cual se basa la extensión de esquema actual. El formulario es &quot;namespace:name&quot;.
 * **img (cadena)**: icono vinculado al esquema (puede definirse en el asistente para la creación de esquemas).
 * **etiqueta (cadena)**: etiqueta de esquema.
 * **labelSingular (cadena)**: etiqueta (singular) para mostrar en la interfaz.

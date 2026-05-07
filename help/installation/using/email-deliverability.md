@@ -10,8 +10,8 @@ topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
 workflow-type: tm+mt
-source-wordcount: '3096'
-ht-degree: 13%
+source-wordcount: '3163'
+ht-degree: 15%
 
 ---
 
@@ -51,7 +51,7 @@ El módulo **mta** distribuye mensajes a sus módulos secundarios **mtachild**. 
 Los pasos son los siguientes:
 
 1. El **mta** selecciona los mensajes aptos y les asigna un **mtachild** disponible.
-1. **mtachild** carga toda la información necesaria para crear el mensaje (contenido, elementos de personalización, archivos adjuntos, imágenes, etc.) y reenvía el mensaje al **Administrador de tráfico de correo electrónico**.
+1. **mtachild** carga toda la información necesaria para crear el mensaje (contenido, elementos de personalización, archivos adjuntos, imágenes, etc.) y reenvía el mensaje a **Email Traffic Shaper**.
 1. Tan pronto como el formador de tráfico de correo electrónico reciba la autorización del servidor de estadísticas (**smtp stat**), el mensaje se enviará al destinatario.
 
 ![](assets/s_ncs_install_email_traffic_shaper.png)
@@ -105,7 +105,7 @@ Cuando se envía un mensaje, hay 3 resultados posibles:
 
 Los mensajes abandonados se devuelven a **mta** y ya no son administrados por **mtachild**.
 
-El **mta** decide el procedimiento para este mensaje (recuperación, abandono, cuarentena, etc.) según el código de respuesta y las reglas.
+El **mta** decide el procedimiento para este mensaje (recuperación, abandono, cuarentena, etc.) en función del código de respuesta y de las reglas.
 
 ### Mensaje pendiente {#message-pending}
 
@@ -395,14 +395,14 @@ Los parámetros son los siguientes:
 
 En el ejemplo anterior, con condiciones normales, las direcciones se distribuyen de la siguiente manera:
 
-* &quot;1&quot;: 5 / (5+5+1) = 45 %
-* &quot;2&quot;: 5 / (5+5+1) = 45 %
-* &quot;3&quot;: 1 / (5+5+1) = 10 %
+* &quot;1&quot;: 5 / (5+5+1) = 45%
+* &quot;2&quot;: 5 / (5+5+1) = 45%
+* &quot;3&quot;: 1 / (5+5+1) = 10%
 
 Si, por ejemplo, la primera dirección no se puede utilizar hacia un MX determinado, los mensajes se enviarán de la siguiente manera:
 
-* &quot;2&quot;: 5 / (5+1) = 83 %
-* &quot;3&quot;: 1 / (5+1) = 17 %
+* &quot;2&quot;: 5 / (5+1) = 83%
+* &quot;3&quot;: 1 / (5+1) = 17%
 
 * **includeDomains**: permite reservar esta dirección IP para los mensajes de correo electrónico que pertenecen a un dominio específico. Esta es una lista de máscaras que pueden contener uno o más caracteres comodín (&#39;&#42;&#39;). Si no se especifica el atributo, todos los dominios pueden utilizar esta dirección IP.
 
@@ -424,7 +424,7 @@ Este parámetro es muy importante y especialmente crítico si los mensajes no se
 
 Una vez alcanzado el umbral **maxWorkingSetMb** (256), el servidor de entrega detiene el envío de mensajes. El rendimiento disminuirá significativamente hasta que **mtachild** vuelva a iniciarse. Para evitar este problema, puede aumentar el umbral del parámetro **maxWorkingSetMb** o disminuir el umbral del parámetro **maxWaitingMessages**.
 
-El parámetro **maxWorkingSetMb** se calcula empíricamente multiplicando el número máximo de mensajes por el tamaño promedio del mensaje y el resultado por 2,5. Por ejemplo, si un mensaje tiene un tamaño promedio de 50 kB y el parámetro **maxWaitingMessages** equivale a 1.000, la memoria utilizada será de 125 MB como promedio.
+El parámetro **maxWorkingSetMb** se calcula empíricamente multiplicando el número máximo de mensajes por el tamaño promedio del mensaje y el resultado por 2,5. Por ejemplo, si un mensaje tiene un tamaño promedio de 50 kB y el parámetro **maxWaitingMessages** equivale a 1.000, la memoria utilizada será de 125 MB.
 
 ### Ajustar el número de equipos {#adjust-the-number-of-mtachild}
 

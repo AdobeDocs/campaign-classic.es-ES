@@ -7,8 +7,8 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: A/B Testing
 exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '96'
+workflow-type: tm+mt
+source-wordcount: '104'
 ht-degree: 100%
 
 ---

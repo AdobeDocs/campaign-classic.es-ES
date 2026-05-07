@@ -9,8 +9,8 @@ topic-tags: connectors
 exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 97%
+source-wordcount: '644'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 
 
-Para activar una conexión con la base de datos externa, debe indicar los parámetros de conexión, es decir, el origen de datos objetivo y el nombre de la tabla con los datos que sea necesario cargar.
+Para habilitar una conexión con la base de datos externa, debe indicar los parámetros de conexión, es decir, el origen de datos objetivo y el nombre de la tabla con los datos que sea necesario cargar.
 
 >[!CAUTION]
 >
@@ -28,7 +28,7 @@ Para activar una conexión con la base de datos externa, debe indicar los parám
 
 ## Creación de una conexión compartida {#creating-a-shared-connection}
 
-Para activar una conexión con una base de datos externa compartida, siempre y cuando esta conexión esté activa, se puede acceder a la base de datos a través de Adobe Campaign.
+Para habilitar una conexión con una base de datos externa compartida, siempre y cuando esta conexión esté activa, se puede acceder a la base de datos a través de Adobe Campaign.
 
 1. La configuración se debe definir previamente a través del nodo **[!UICONTROL Administration > Platform > External accounts]** node.
 1. Haga clic en el botón **[!UICONTROL New]** y seleccione el tipo **[!UICONTROL External database]**.
@@ -95,7 +95,7 @@ Por ejemplo, en la actividad de consulta, los pasos para crear una conexión per
 
 Puede proteger el acceso a una base de datos externa al configurar una cuenta externa de FDA.
 
-Para ello, añada “**:ssl**” después de la dirección del servidor y dirección del puerto utilizado. Por ejemplo: **192.168.0.52:4501:ssl**.
+Para ello, agregue &quot;**:ssl**&quot; después de la dirección del servidor y del puerto utilizado. Por ejemplo: **192.168.0.52:4501:ssl**.
 
 A continuación, los datos se envían mediante el protocolo SSL seguro.
 

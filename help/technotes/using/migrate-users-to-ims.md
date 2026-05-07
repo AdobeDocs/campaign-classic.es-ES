@@ -4,8 +4,8 @@ description: Obtenga información sobre cómo migrar operadores de Campaign a Ad
 exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
 source-git-commit: 02ecc0e6bb3bd361f512baeefc9e0f2271063387
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 2%
+source-wordcount: '1263'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ Este cambio es aplicable a partir de la versión 7.4.1 de Campaign Classic (y la
 >
 >**Impacto del acceso al Panel de control de Campaign**
 >
->Una vez que migre a los usuarios a IMS, tenga en cuenta que cualquier Perfil de producto de Adobe Admin Console que contenga la palabra &quot;admin&quot; en su nombre (como &quot;Administradores&quot;, &quot;admin&quot;, &quot;administradores&quot;, &quot;administrador de aprobación&quot;, etc.) concederá automáticamente acceso al Panel de control de Campaign de Campaign. Panel de control de Campaign es una herramienta de autoservicio que permite realizar cambios significativos en las instancias de Campaign.
+>Una vez migrados los usuarios a IMS, tenga en cuenta que cualquier Perfil de producto de Adobe Admin Console que contenga la palabra &quot;admin&quot; en su nombre (como &quot;Administradores&quot;, &quot;admin&quot;, &quot;administradores&quot;, &quot;administrador de aprobación&quot;, etc.) concederá automáticamente acceso al Panel de control de Campaign de Campaign. Panel de control de Campaign es una herramienta de autoservicio que permite realizar cambios significativos en las instancias de Campaign.
 >
 >Revise atentamente las convenciones de nomenclatura de Perfil de producto para asegurarse de que solo los usuarios autorizados tengan acceso al Panel de control de Campaign. Obtenga más información acerca de la administración de permisos de Panel de control de Campaign en la [documentación de Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es){target="_blank"}.
 

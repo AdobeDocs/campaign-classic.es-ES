@@ -11,7 +11,7 @@ hide: true
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '3307'
+source-wordcount: '3342'
 ht-degree: 100%
 
 ---
@@ -320,7 +320,7 @@ Siga estos pasos:
 
    Hay varios tipos de fórmulas disponibles: **[!UICONTROL Field only]**, **[!UICONTROL Aggregate]**, **[!UICONTROL Expression]**.
 
-   Seleccione **[!UICONTROL Process on an aggregate function]** y **[!UICONTROL Count]**. Haga clic en **[!UICONTROL Next]**.
+   Seleccione **[!UICONTROL Process on an aggregate function]** y **[!UICONTROL Count]**. Haga clic **[!UICONTROL Next]**.
 
    ![](assets/query_editor_nveau_54.png)
 

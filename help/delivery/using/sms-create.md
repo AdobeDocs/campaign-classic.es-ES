@@ -8,7 +8,7 @@ hide: true
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '465'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Para diseñar un envío de SMS nuevo, siga los pasos a continuación:
 
    ![](assets/s_user_mobile_wizard.png)
 
-1. Identifique su envío con una etiqueta, un código y una descripción. Para obtener más información al respecto, consulte esta sección en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#create-the-delivery){target="_blank"}.
+1. Identifique su envío con una etiqueta, un código y una descripción. Para obtener más información, consulte esta sección en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es#create-the-delivery){target="_blank"}.
 1. Haga clic en **[!UICONTROL Continue]** para confirmar esta información y mostrar la ventana de configuración de mensajes.
 
 ## Definición del contenido del SMS {#defining-the-sms-content}

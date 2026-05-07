@@ -9,7 +9,7 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '450'
 ht-degree: 17%
 
 ---
@@ -95,7 +95,7 @@ La configuración debe realizarse en todos los servidores. Los archivos de confi
 Se deben seguir varias prácticas recomendadas al configurar el servidor web (Apache/IIS):
 
 * Deshabilitar la versión y las cifras SSL antiguas
-* Quitar el método TRACE
+* Eliminación del método TRACE
 * Quitar el titular
 * Limitar el tamaño de la consulta para evitar que se carguen archivos importantes
 

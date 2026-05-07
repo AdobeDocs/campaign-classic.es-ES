@@ -8,8 +8,8 @@ level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 66387e2e008051901fe3385f571d7fe798829100
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 99%
+source-wordcount: '912'
+ht-degree: 95%
 
 ---
 
@@ -95,7 +95,7 @@ Como cliente On-Premise/híbrido, según su sistema operativo, deberá integrar 
 <p>Microsoft IIS</p>
 </td>
 <td>
-<p>10,0</p>
+<p>10.0</p>
 </td>
 </tr>
 <tr>
@@ -350,7 +350,7 @@ Los entornos **Híbrido** y **On-Premise** pueden conectar a Campaign con los si
 <p>19c</p>
 <p>18c</p>
 <p>12c</p>
-<p>11g </p>
+<p>11g</p>
 </td>
 <td>
 <p>Versión 7.4</p>
@@ -453,7 +453,7 @@ Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](http://www.
 
 Puede utilizar Campaign para [enviar notificaciones push](../../delivery/using/about-mobile-app-channel.md) a través del SDK móvil de Adobe Experience Platform configurando la extensión de Adobe Campaign en la interfaz de usuario de recopilación de datos.
 
-El SDK de Campaign está [obsoleto](deprecated-features.md) a partir de Campaign versión 7.4. Para garantizar una transición sin problemas de la implementación existente en el SDK móvil de AEP, puede seguir utilizándolo en los sistemas operativos que se enumeran a continuación<!--, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)-->.
+Campaign SDK está [en desuso](deprecated-features.md) a partir de la versión 7.4 de Campaign. Para garantizar una transición sin problemas de la implementación existente en AEP Mobile SDK, aún puede usarlo en los sistemas operativos que se enumeran a continuación<!--, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)-->.
 
 
 <table>

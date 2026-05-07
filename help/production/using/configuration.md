@@ -7,8 +7,8 @@ badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://expe
 exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 7%
+source-wordcount: '194'
+ht-degree: 17%
 
 ---
 

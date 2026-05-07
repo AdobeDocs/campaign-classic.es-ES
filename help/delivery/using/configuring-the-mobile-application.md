@@ -9,8 +9,8 @@ hide: true
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '600'
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,7 @@ Ya está configurado el conector de iOS. Puede crear su servicio.
 
 >[!CAUTION]
 >
->La aplicación debe estar configurada para acciones push ANTES de cualquier integración con el SDK de Adobe 
+>La aplicación debe estar configurada para acciones push ANTES de cualquier integración con el SDK de Adobe
 >
 >Si no es así, consulte [esta página](https://developer.apple.com/documentation/usernotifications).
 
@@ -96,7 +96,7 @@ En el siguiente ejemplo, se añaden **mediaURl** y **mediaExt** para crear notif
 
 1. Haga clic en **[!UICONTROL Next]** para comenzar a configurar la aplicación de desarrollo.
 
-1. Asegúrese de que se ha definido la misma **[!UICONTROL Integration key]** en Adobe Campaign y en el código de la aplicación a través del SDK. <!--For more on this, refer to [this page](integrating-campaign-sdk-into-the-mobile-application.md).-->Esta clave de integración, que es específica de cada aplicación, permite vincular la aplicación móvil con la plataforma de Adobe Campaign.
+1. Asegúrese de que se ha definido la misma **[!UICONTROL Integration key]** en Adobe Campaign y en el código de aplicación a través del SDK.<!--For more on this, refer to [this page](integrating-campaign-sdk-into-the-mobile-application.md).--> Esta clave de integración, específica de cada aplicación, permite vincular la aplicación móvil con la plataforma de Adobe Campaign.
 
    >[!NOTE]
    >

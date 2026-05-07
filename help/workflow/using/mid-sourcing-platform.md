@@ -6,7 +6,7 @@ hide: true
 feature: Workflows
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '56'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **Pl
   <tr> 
    <td> <span class="uicontrol">Indicadores de entregas</span> <br /> </td> 
    <td> <span class="uicontrol">deliveryIndicators</span> <br /> </td> 
-   <td> Este flujo de trabajo actualiza los indicadores de seguimiento de una entrega. De forma predeterminada, este flujo de trabajo se activa cada hora.<br /> </td> 
+   <td> Este flujo de trabajo actualiza los indicadores de seguimiento de un envío para un envío. De forma predeterminada, este flujo de trabajo se activa cada hora.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

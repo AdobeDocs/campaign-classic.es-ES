@@ -7,7 +7,7 @@ hide: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1192'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ Cuando un destinatario hace clic en el vínculo de baja de suscripción en un me
 
    De forma predeterminada, la replicación periódica del conector ACS se produce una vez cada 15 minutos. Para obtener más información, consulte [Replicación de datos](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication).
 
-## Edición de un destinatario  {#editing-a-recipient}
+## Edición de un destinatario {#editing-a-recipient}
 
 Los pasos siguientes para cambiar un único punto de datos proporcionan un ejemplo sencillo de cómo Campaign v7 se convierte en la base de datos primaria para Campaign Standard cuando se utiliza la replicación de datos. Modificar o eliminar los datos duplicados en Campaign v7 tiene el mismo efecto en los datos correspondientes de Campaign Standard.
 

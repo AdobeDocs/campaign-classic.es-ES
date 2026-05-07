@@ -10,7 +10,7 @@ topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '916'
 ht-degree: 100%
 
 ---
@@ -78,7 +78,7 @@ Además de las capacidades más recientes de **Derecho de acceso** y **Derecho a
 
 * [Gestión](#consent-management)de consentimiento: Funcionalidad de suscripción para la administración de preferencias
 * [Retención](#data-retention)de datos: períodos de retención de datos en todas las tablas de registro estándar, se pueden configurar períodos de retención adicionales con flujos de trabajo
-* [Gestión de derechos](#rights-management): acceso a los datos administrado mediante el derecho asignado 
+* [Gestión de derechos](#rights-management): acceso a los datos administrado mediante el derecho asignado
 
 ### Gestión de consentimiento {#consent-management}
 

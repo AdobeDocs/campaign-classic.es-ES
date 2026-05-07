@@ -7,8 +7,8 @@ role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: ht
-source-wordcount: '181'
+workflow-type: tm+mt
+source-wordcount: '208'
 ht-degree: 100%
 
 ---
@@ -112,4 +112,4 @@ Este vídeo presenta las funciones y características principales de Campaign Cl
 
 >[!VIDEO](https://video.tv.adobe.com/v/39516?captions=spa&quality=12)
 
-Puede encontrar disponibles más vídeos de procedimientos de Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
+Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

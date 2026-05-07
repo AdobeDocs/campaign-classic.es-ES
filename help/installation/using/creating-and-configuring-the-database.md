@@ -10,8 +10,8 @@ topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 2%
+source-wordcount: '1329'
+ht-degree: 3%
 
 ---
 
@@ -117,7 +117,7 @@ La ventana **[!UICONTROL Creation steps]** le permite mostrar y editar el script
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
-* Para un Oracle, Microsoft SQL Server o una base de datos PostgreSQL, el administrador también puede definir los **parámetros de almacenamiento** que se utilizarán al crear objetos de base de datos.
+* Para una base de datos Oracle, Microsoft SQL Server o PostgreSQL, el administrador también puede definir los **parámetros de almacenamiento** que se utilizarán al crear objetos de base de datos.
 
   Estos parámetros reciben los nombres de tablespace exactos (advertencia: distingue mayúsculas de minúsculas). Se almacenan respectivamente en el nodo **[!UICONTROL Administration > Platform > Options]** en las siguientes opciones (consulte [esta sección](../../installation/using/configuring-campaign-options.md#database)):
 
@@ -216,7 +216,7 @@ La ventana **[!UICONTROL Creation steps]** le permite mostrar y editar el script
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
-* Para las bases de datos Microsoft SQL Server o PostgreSQL, el Oracle puede definir los **parámetros de almacenamiento** que se utilizarán al crear objetos de base de datos.
+* Para las bases de datos Oracle, Microsoft SQL Server o PostgreSQL, el administrador puede definir los **parámetros de almacenamiento** que se utilizarán al crear objetos de base de datos.
 * Para una base de datos de Oracle, el usuario de Adobe Campaign debe tener acceso a las bibliotecas de Oracle, normalmente como miembro del grupo **oinstall**.
 * La opción **[!UICONTROL Set or change the administrator password]** permite introducir la contraseña vinculada al operador de Adobe Campaign con derechos de administrador.
 

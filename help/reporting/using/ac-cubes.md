@@ -6,8 +6,8 @@ feature: Reporting, Monitoring
 exl-id: 71d24f03-d41d-49bc-b9a5-8237902f7d6a
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 100%
+source-wordcount: '350'
+ht-degree: 96%
 
 ---
 
@@ -45,4 +45,4 @@ Utilice el módulo Campaign Marketing Analytics para lo siguiente:
 1. Crear una consulta con datos calculados y acumulados en un cubo.
 1. Identificar poblaciones y hacerles referencia en listas.
 
-Aprenda a crear y utilizar cubos en la [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=es){target="_blank"}.
+Aprenda a crear y utilizar cubos en [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=es){target="_blank"}.

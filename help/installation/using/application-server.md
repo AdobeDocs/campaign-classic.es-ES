@@ -10,8 +10,8 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 2%
+source-wordcount: '677'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ El generador de páginas web dinámicas utiliza la tecnología JSP. Para ello, s
 
 Primero debe instalar un JDK en los equipos en los que desea ejecutar el servidor de aplicaciones de Adobe Campaign (**nlserver web** process) porque incorpora un contenedor de servlet, Apache Tomcat, que se utiliza para generar páginas web dinámicas (informes, formularios web, etc.).
 
-La aplicación ha sido aprobada para el Kit de Desarrollo de Java (JDK) desarrollado por Oracle y para **OpenJDK**.
+La aplicación ha sido aprobada para el kit de desarrollo de Java (JDK) desarrollado por Oracle y para **OpenJDK**.
 
 Las versiones compatibles se detallan en Campaign [Compatibility matrix](../../rn/using/compatibility-matrix.md).
 
@@ -58,7 +58,7 @@ Al instalar y actualizar el kit de desarrollo de Java, aplique las siguientes re
 
 El kit de desarrollo de Java es específico de la plataforma: se necesitan instaladores independientes para cada sistema operativo.
 
-Para descargar el JDK, conéctese a [sitio web de Oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
+Para descargar el JDK, conéctese al [sitio web de Oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
 
 >[!CAUTION]
 >

@@ -8,8 +8,8 @@ level: Intermediate, Experienced
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 98%
+source-wordcount: '959'
+ht-degree: 96%
 
 ---
 
@@ -95,7 +95,7 @@ En una descripción general, tiene la opción de acceder a los datos según su u
    >
    >**nms:webApp** coincide con el esquema de la aplicación web.
    >
-   >**nms:newWebApp** coincide con el nuevo asistente de creación de aplicaciones web.
+   >**nms:newWebApp** coincide con el nuevo asistente para la creación de aplicaciones web.
 
 1. Seleccione esta opción para visualizar la URL en la misma ventana.
 1. Agregue el icono de la aplicación Web en el campo de imagen: **/nms/img/webApp.png**.

@@ -7,8 +7,8 @@ feature: Monitoring
 role: User, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '651'
+workflow-type: tm+mt
+source-wordcount: '664'
 ht-degree: 100%
 
 ---
@@ -80,7 +80,7 @@ El objeto puede ser:
 * **[!DNL xpath]**: xpath del campo.
 * **[!DNL index]** (opcional): si **[!DNL object]** es una matriz (para objetos de secuencia de comandos adicionales), índice de elementos en la matriz (empieza en 0).
 
-### Objeto de [!DNL delivery] {#delivery-object}
+### Objeto de [!DNL delivery] {#delivery-object}
 
 Para la personalización del correo electrónico, el objeto de envío es accesible de dos formas:
 
@@ -133,7 +133,7 @@ Por ejemplo:
 
 Esta instrucción permite la iteración en una matriz de objetos cargados en el envío para rastrear vínculos individuales relacionados con los objetos.
 
-Síntaxis:
+Sintaxis:
 
 ```
 <%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>

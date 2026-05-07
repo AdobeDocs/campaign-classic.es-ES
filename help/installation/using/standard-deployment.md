@@ -9,7 +9,7 @@ topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '844'
 ht-degree: 5%
 
 ---
@@ -52,7 +52,7 @@ Este tipo de configuración puede gestionar un gran número de destinatarios (de
 * Buzón de rechazos accesible a través de POP3,
 * Creación de dos alias DNS:
 
-   * VIP la primera expuesta al público para el seguimiento y señalamiento del equilibrador de carga en una dirección IP virtual () y que luego se distribuye a los dos servidores frontales,
+   * el primero expuesto al público para el seguimiento y que apunta al equilibrador de carga en una dirección IP virtual (VIP) y que luego se distribuye a los dos servidores frontales,
    * el segundo se expone a los usuarios internos para que accedan a él a través de la consola y que señala al mismo servidor de aplicaciones.
 
 * Firewall configurado para abrir STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 para Oracle, 5432 para PostgreSQL, etc.) puertos. Para obtener más información, consulte la sección [Acceso a la base de datos](../../installation/using/network-configuration.md#database-access).

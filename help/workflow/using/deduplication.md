@@ -7,7 +7,7 @@ hide: true
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1134'
 ht-degree: 100%
 
 ---
@@ -157,7 +157,7 @@ Para ello, siga estos pasos:
 
 1. Después de activar la funcionalidad, se agrega una pestaña **[!UICONTROL Merge]** a la actividad **[!UICONTROL Deduplication]**. Permite definir grupos de campos para combinar y sus reglas asociadas.
 
-   Para obtener más información al respecto, consulte el caso de uso detallado disponible en [esta sección](deduplication-merge.md). 
+   Para obtener más información al respecto, consulte el caso de uso detallado disponible en [esta sección](deduplication-merge.md).
 
    ![](assets/dedup3.png)
 

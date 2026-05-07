@@ -7,7 +7,7 @@ feature: Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '489'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Para recopilar las respuestas a la encuesta, realice los pasos siguientes:
 
 1. Cree un flujo de trabajo y añada una actividad **[!UICONTROL Answers to a survey]**. Para obtener más información sobre esta actividad, consulte [esta sección](../../surveys/using/publish-track-and-use-collected-data.md#using-the-collected-data).
 1. Edite la actividad y seleccione la encuesta cuyas respuestas desee analizar.
-1. Active la opción **[!UICONTROL Select all the answer data]** para recopilar toda la información.
+1. Habilite la opción **[!UICONTROL Select all the answer data]** para recopilar toda la información.
 
    ![](assets/reporting_usecase_1_01.png)
 

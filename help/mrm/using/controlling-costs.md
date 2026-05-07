@@ -10,8 +10,8 @@ topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '2488'
-ht-degree: 100%
+source-wordcount: '2489'
+ht-degree: 99%
 
 ---
 
@@ -192,7 +192,7 @@ Los costos se dividen en tres categorías:
 
 1. Coste calculado
 
-   El coste calculado depende del elemento en cuestión (campaña, entrega, tarea, etc.) y su estado (en proceso de edición, en curso, terminado). En cualquier caso, si se especifica el coste real, el coste calculado utiliza esa cantidad.
+   El coste calculado depende del elemento en cuestión (campaña, entrega, tarea, etc.) y su estado (en proceso de edición, en curso, finalizado). En cualquier caso, si se especifica el coste real, el coste calculado utiliza esa cantidad.
 
    Si no se indica el coste real, se aplican las siguientes reglas:
 

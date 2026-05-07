@@ -7,8 +7,8 @@ role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: ht
-source-wordcount: '89'
+workflow-type: tm+mt
+source-wordcount: '100'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 
 
-## ¿Qué es una lista?  {#about-lists-in-adobe-campaign}
+## ¿Qué es una lista? {#about-lists-in-adobe-campaign}
 
 Una lista es un conjunto estático de perfiles que puede centrarse en acciones de envío o actualizarse durante operaciones de importación o durante la ejecución del flujo de trabajo. Por ejemplo, una población extraída de la base de datos mediante una consulta puede proporcionar una lista.
 

@@ -10,7 +10,7 @@ topic-tags: managing-an-offer-catalog
 exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1013'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ La **[!UICONTROL Targeting dimension]** coincide con la tabla de destinatarios (
 
 >[!NOTE]
 >
->También se puede utilizar tablas no estándar. Si se desea utilizar una dimensión de objetivo específica, se debe crear tablas y un entorno dedicado utilizando la asignación de objetivo. Para obtener más información, consulte [Creación de un entorno de ofertas](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+>También se puede utilizar tablas no estándar. Si se desea utilizar una dimensión de segmentación específica, se debe crear tablas y un entorno dedicado utilizando la asignación de objetivo. Para obtener más información, consulte [Creación de un entorno de ofertas](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
 ### Periodo {#period}
 

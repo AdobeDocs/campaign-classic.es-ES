@@ -6,9 +6,9 @@ badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic 
 feature: Reporting, Monitoring
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '1020'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1024'
+ht-degree: 97%
 
 ---
 
@@ -339,7 +339,7 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
 
 ## Otros informes de ootb {#other-ootb-reports}
 
-También se incluyen los siguientes informes integrados. Para más información al respecto, consulte el documento sobre la funcionalidad a la hacen referencia.
+También se incluyen los siguientes informes. Para obtener más información, consulte el documento sobre la funcionalidad a la que se refieren.
 
 <table> 
  <tbody> 

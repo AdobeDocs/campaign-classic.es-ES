@@ -6,8 +6,8 @@ feature: Schema Extension
 exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 0%
+source-wordcount: '2035'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Modelo de contenido {#content-model-4}
 
-element:==(atributo) | compute-string | dbindex | predeterminado | elemento | ayuda | unirse | key | sysFilter | translatedDefault)
+element:==(atributo) | compute-string | dbindex | predeterminado | elemento | ayuda | unirse clave | | sysFilter | translatedDefault)
 
 ## Atributos {#attributes-4}
 
@@ -46,7 +46,7 @@ _operation (cadena), advanced (booleano), aggregate (cadena), applyIf (cadena), 
 Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
 
 * Raíz `<element>` : define el nombre de la tabla SQL que coincide con el esquema.
-* Estructura `<element>` : define un grupo de `<element>`   o   `<attribute>`    elementos.
+* Estructura `<element>` : define un grupo de `<element>` o `<attribute>` elementos.
 * Vínculo `<element>` : define un vínculo. Estos elementos deben incluir el atributo @type=link.
 * XML `<element>` : define un campo &quot;mData&quot; de tipo texto. Este elemento debe incluir el atributo @type=xml.
 
@@ -108,7 +108,7 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
 * **folderModel (string)**: define el tipo de carpeta que habilita el almacenamiento de entidades. Este atributo solo se define si &quot;@folderLink&quot; está presente.
 * **folderProcess (cadena)**: define el vínculo donde se almacenan las instancias del modelo de entidad. Este atributo solo se define si &quot;@folderLink&quot; está presente.
 * **fullLoad (booleano)**: este atributo fuerza la visualización de todos los registros de una tabla durante la selección de campos en un formulario.
-* **img (cadena)**: recibe la ruta de acceso de una imagen vinculada a un elemento. El valor de este atributo es del tipo &quot;área de nombres:nombre de imagen&quot;. Por ejemplo: img=&quot;cus:myImage.jpg&quot;. Físicamente, la imagen debe importarse al servidor de aplicaciones.
+* **img (cadena)**: recibe la ruta de acceso de una imagen vinculada a un elemento. El valor de este atributo es del tipo &quot;namespace:image name&quot;. Por ejemplo: img=&quot;cus:myImage.jpg&quot;. Físicamente, la imagen debe importarse al servidor de aplicaciones.
 * **integridad (cadena)**: integridad referencial de la ocurrencia de la tabla de origen hacia la tabla de destino.
 
   Los valores accesibles son:
@@ -189,7 +189,7 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
    * flotante
    * html
    * int64
-   * vincular
+   * vínculo
    * largo
    * nota
    * MNTOKEN

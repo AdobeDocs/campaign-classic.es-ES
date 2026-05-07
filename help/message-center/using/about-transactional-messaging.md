@@ -5,9 +5,9 @@ description: Obtenga más información sobre el principio operativo y los pasos 
 feature: Transactional Messaging, Message Center
 exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ Un mensaje transaccional es una comunicación individual y única que un proveed
 
 Las funcionalidades de mensajería transaccional están diseñadas para admitir la escalabilidad y proporcionar un servicio las 24 horas del día, los 7 días de la semana.
 
-* **¿Cuándo se espera?** Dado que este mensaje contiene información importante, el usuario espera que se envíe en tiempo real. Por lo tanto, el retraso entre el evento que se está activando y el mensaje que llega tiene que ser muy corto.
+* **¿Cuándo vence?** Dado que este mensaje contiene información importante, el usuario espera que se envíe en tiempo real. Por lo tanto, el retraso entre el evento que se está activando y el mensaje que llega tiene que ser muy corto.
 
 * **¿Por qué es importante?** Generalmente, un mensaje transaccional tiene altas tasas de apertura. Por lo tanto, debe diseñarse cuidadosamente, ya que puede tener un fuerte impacto en el comportamiento de los clientes, ya que define la relación con ellos.
 
@@ -88,6 +88,6 @@ Una vez que haya diseñado y publicado la plantilla de mensaje transaccional, si
 ## Temas relacionados {#related-topics}
 
 * [Introducción a los canales de comunicación](../../delivery/using/communication-channels.md)
-* [Pasos clave para la creación de envíos](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}
+* [Pasos clave de creación de entregas](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}
 * [Arquitectura de la mensajería transaccional](../../message-center/using/transactional-messaging-architecture.md)
 * [Acceso a los informes de mensajería transaccional](../../message-center/using/about-transactional-messaging-reports.md)

@@ -7,7 +7,7 @@ hide: true
 exl-id: cc29eec9-9c97-4d1b-9567-2581154d7b3f
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1284'
 ht-degree: 100%
 
 ---
@@ -119,7 +119,7 @@ Si no desea limitar la población de la consulta, no tiene que utilizar las acti
 
    ![](assets/local_validation_split_1bis.png)
 
-1. En la sección **[!UICONTROL Sort columns]**, añada el campo al que se aplica la ordenación. Aquí, se ha elegido el campo **[!UICONTROL Email]**. Haga clic en **[!UICONTROL Next]**.
+1. En la sección **[!UICONTROL Sort columns]**, añada el campo al que se aplica la ordenación. Aquí, se ha elegido el campo **[!UICONTROL Email]**. Haga clic **[!UICONTROL Next]**.
 
    ![](assets/local_validation_split_2.png)
 

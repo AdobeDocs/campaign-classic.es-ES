@@ -9,7 +9,7 @@ topic-tags: managing-environments
 exl-id: ba588591-5171-4c35-bc8c-3979274e21b2
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '101'
 ht-degree: 100%
 
 ---
@@ -26,4 +26,4 @@ En la gestión y el uso de ofertas se incluyen varios perfiles de usuario distin
 >
 >Es necesario llevar a cabo las siguientes configuraciones mediante un **technical administrator**.
 
-![](assets/do-not-localize/how-to-video.png) Vea este [vídeo](https://helpx.adobe.com/campaign/classic/how-to/architecture-of-acs-v6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com) para conocer la arquitectura de la interacción de Campaign y ver cómo funciona el motor de ofertas.
+![](assets/do-not-localize/how-to-video.png) Vea este [vídeo](https://helpx.adobe.com/campaign/classic/how-to/architecture-of-acs-v6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) para conocer la arquitectura de la interacción de Campaign y ver cómo funciona el motor de ofertas.

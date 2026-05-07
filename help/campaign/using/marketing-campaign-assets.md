@@ -8,8 +8,8 @@ hide: true
 exl-id: 891252b0-4700-4a2a-a632-63aad5ce75d7
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: '759'
+ht-degree: 74%
 
 ---
 
@@ -21,7 +21,7 @@ Puede asociar varios documentos a una campaña: informes, fotos, páginas web, d
 >
 >Esta capacidad está reservada para documentos y recursos pequeños.
 
-En una campaña también se puede hacer referencia a otros elementos, como cupones promocionales, ofertas especiales relacionadas con una marca o tienda específica, etc. Cuando estos elementos se incluyen en una descripción, pueden asociarse con una entrega de correo directo. Consulte [Asociación y estructuración de recursos vinculados a través de una descripción de entrega](#associating-and-structuring-resources-linked-via-a-delivery-outline).
+En una campaña también puede hacer referencia a otros elementos, como cupones promocionales, ofertas especiales relacionadas con una marca o tienda específica, etc. Cuando estos elementos se incluyen en una descripción, pueden asociarse con una entrega de correo directo. Consulte [Asociación y estructuración de recursos vinculados a través de una descripción de entrega](#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Los documentos se pueden asociar en el nivel de campaña (documentos contextuale
 
 La pestaña **[!UICONTROL Documents]** contiene:
 
-* Lista de todos los documentos necesarios para el contenido (plantilla, imágenes, etc.) que los operadores de Adobe Campaign pueden descargar localmente con los derechos adecuados,
+* La lista de todos los documentos necesarios para el contenido (plantilla, imágenes, etc.) que los operadores de Adobe Campaign pueden descargar localmente con los derechos adecuados,
 * Documentos que contienen información para el enrutador, si los hay.
 
 Los documentos están vinculados al programa o a la campaña a través de la pestaña **[!UICONTROL Edit > Documents]**.
@@ -60,7 +60,7 @@ También pueden editarse y modificarse desde esta vista.
 >
 >Las descripciones de los envíos se utilizan principalmente en el contexto de las campañas de correo directo.
 
-Una descripción de envío significa un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creados por la compañía y para una campaña determinada.
+Una descripción de la entrega denota un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creado por la compañía y para una campaña en particular.
 
 Estos elementos se agrupan en descripciones de envío y cada descripción de envío concreta se asocia a un envío; se hace referencia en el archivo de extracción enviado al **proveedor de servicios** para que se asocie al envío. Por ejemplo, puede crear una descripción de envío que haga referencia a una filial y a los folletos de marketing que utiliza.
 
@@ -88,7 +88,7 @@ Después, haga clic **[!UICONTROL Add a delivery outline]** y cree la jerarquía
 Una descripción puede contener elementos y campos de personalización, recursos y ofertas:
 
 * Los elementos pueden ser documentos físicos, por ejemplo, a los que se hace referencia y que se describen aquí y se adjuntan al envío.
-* Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en los envíos para un objetivo específico (ofertas de bienvenida, descuentos, etc.). Esos valores se crean en Adobe Campaign y se importan a la descripción mediante el vínculo **[!UICONTROL Import personalization fields...]**.
+* Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en envíos para un objetivo específico (oferta de bienvenida, descuento, etc.) Se crean en Adobe Campaign y se importan en el esquema mediante el vínculo **[!UICONTROL Import personalization fields...]**.
 
   ![](assets/s_ncs_user_op_add_composition_field.png)
 
@@ -120,7 +120,7 @@ La pestaña **[!UICONTROL Summary]** de la entrega también muestra esta informa
 
 ### Resultado de la extracción {#extraction-result}
 
-En el archivo extraído y enviado al proveedor de servicios, el nombre de la descripción y, en este caso, sus características (coste, descripción, etc.) se añaden al contenido de la plantilla de exportación asociada con el proveedor de servicios.
+En el archivo extraído y enviado al proveedor de servicios, el nombre de la descripción y, en su caso, sus características (coste, descripción, etc.) se añaden al contenido de según la información de la plantilla de exportación asociada al proveedor de servicios.
 
 En el siguiente ejemplo, la etiqueta, el coste estimado y la descripción asociada con la entrega se añaden al archivo de extracción.
 

@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Acerca de las direcciones semilla{#about-seed-addresses}
 
-Las direcciones semilla se utilizan para dirigirse a los destinatarios que no coinciden con los criterios de destino definidos. De este modo, los destinatarios que estén fuera del alcance de la entrega pueden recibirlo como lo haría cualquier otro destinatario.
+Las direcciones semilla se utilizan para dirigirse a los destinatarios que no coinciden con los criterios de destino definidos. De este modo, los destinatarios que estén fuera del alcance del envío pueden recibirlo como lo haría cualquier otro destinatario.
 
 Una de las razones principales para utilizarlas es **la protección de su lista de correo**. La inclusión de direcciones semilla en la lista de la campaña de correo le permite recibir una notificación si la está utilizando un tercero, ya que las direcciones que contiene reciben las entregas enviadas a la misma.
 
@@ -37,11 +37,11 @@ Las direcciones semilla se añaden al destino de las entregas mediante su import
 >
 >En esta sección se muestra un ejemplo de cómo ampliar la tabla de direcciones semilla: [Caso de uso: selección de direcciones semilla en función de criterios](use-case-selecting-seed-addresses-on-criteria.md).
 
-En las entregas por correo postal, las direcciones semilla se añaden durante la extracción y se mezclan en el documento de salida.
+En las entregas por correo directo, las direcciones semilla se añaden durante la extracción y se mezclan en el documento de salida.
 
 >[!IMPORTANT]
 >
->En las entregas por correo postal, el formato del archivo de extracción debe cumplir con las siguientes limitaciones:
+>En las entregas por correo directo, el formato del archivo de extracción debe cumplir con las siguientes limitaciones:
 >
 >* No se debe utilizar la opción **[!UICONTROL Handle groupings (GROUP BY+HAVING)]**.
 >* Si se extraen colecciones de datos, estos campos deben tener un valor vacío para las direcciones semilla, a menos que se seleccione la opción **[!UICONTROL Single row (expert user)]**. Para obtener más información, consulte [esta sección](../../platform/using/executing-export-jobs.md#step-7---data-formatting).

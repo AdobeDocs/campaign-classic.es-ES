@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # Referencia de esquema {#schema-reference}
 
-Al editar un esquema, hay disponible un sistema de aprobación basado en el esquema de origen (xtk:srcSchema). Algunos errores también se pueden detectar al actualizar la base de datos con el asistente &quot;Database structure update...&quot;.
+Al editar un esquema, hay disponible un sistema de aprobación basado en el esquema de origen (xtk:srcSchema). Algunos errores también se pueden detectar al actualizar la base de datos con la opción &quot;Database structure update...&quot; asistente.
 
 De forma predeterminada, en los esquemas de Adobe Campaign, todos los atributos de tipo booleano son &quot;false&quot;. Para activarlos, debe especificar el atributo en el esquema y establecer su valor en &quot;true&quot;.
 

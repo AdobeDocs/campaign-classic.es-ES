@@ -7,8 +7,8 @@ feature: Reporting, Monitoring
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
-source-wordcount: '3049'
-ht-degree: 100%
+source-wordcount: '3088'
+ht-degree: 93%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 Este informe se basa en la tabla **[!UICONTROL Consolidated tracking]** (nms:trackingStats). Esta tabla de acumulados se utiliza por motivos de rendimiento al mostrar los informes, en lugar de la tabla **[!UICONTROL Recipient tracking logs]** (nms:trackingLogRcp), y no se calcula en tiempo real. La tabla se genera unos minutos después de recuperar los “logs” de seguimiento. Si los indicadores están actualizados, los resultados son los mismos que para los indicadores del informe **indicadores de seguimiento.** El indicador @totalclicks expresa el número total de clics durante un periodo de 5 minutos.
 
-## Rechazos y no entregables {#non-deliverables-and-bounces-1}
+## Rechazos y correos que no se pueden entregar {#non-deliverables-and-bounces-1}
 
 **Desglose por tipo de error**
 
@@ -359,7 +359,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[
    <td> Nuevos contactos<br /> </td> 
    <td> @newContacts<br /> </td> 
    <td> Recuento de los visitantes vinculados a un destinatario.<br /> </td> 
-   <td> Fórmula: count(@id)<br /> Filter: @Recipi-id != 0<br /> </td> 
+   <td> Fórmula: count(@id)<br /> Filtro: @recipient-id != 0<br /> </td> 
   </tr> 
   <tr> 
    <td> Aperturas<br /> </td> 
@@ -485,9 +485,9 @@ Este informe se basa en la tabla **[!UICONTROL Services]** (nms:service).
    <td> Iif(number(@_subscription) &gt; number(@_unsubscription), '+', '')+format(@_subscription - @_unsubscription, 'number', '# ##0')+ Iif(@_subscriber&gt;0,' (' + format(100*percent(@_subscription - @_unsubscription, @_subscriber), 'number', '#,##0.00')+ '%)','')<br /> </td> 
   </tr> 
   <tr> 
-   <td> Fidelidad<br /> </td> 
+   <td> Lealtad<br /> </td> 
    <td> -<br /> </td> 
-   <td> Tasa de fidelidad del suscriptor para el periodo relacionado.<br /> </td> 
+   <td> Tasa de lealtad del suscriptor para el periodo relacionado.<br /> </td> 
    <td> 1-percent(@_unsubscription,@_subscriber+@_subscription-@_unsubscription)<br /> </td> 
   </tr> 
  </tbody> 
@@ -892,7 +892,7 @@ Este informe se basa en la tabla **[!UICONTROL Delivery and tracking statistics]
 
 ## Desglose de aperturas {#breakdown-of-opens-1}
 
-Este informe se basa en las tablas **Envíos** (nms:delivery) y **“Logs” de seguimiento** (nms:trackingLogRcp).
+Este informe se basa en las tablas **Deliveries** (nms:delivery) y **Tracking logs** (nms:trackingLogRcp).
 
 <table> 
  <thead> 
@@ -915,7 +915,7 @@ Este informe se basa en las tablas **Envíos** (nms:delivery) y **“Logs” de 
 
 ## Otros indicadores {#other-indicators}
 
-El indicador **Enviado** (@sent), al que se accede a través de **Envíos (nms:delivery) > Indicadores**, corresponde al número total de SMS enviados al proveedor de servicios. Este indicador solo se utiliza para envíos SMS y no debe utilizarse para otros tipos de envíos (no confundirlo con los indicadores **@success** y **@processed**).
+El indicador **Enviado** (@sent), al que se accede a través del nodo **Envíos (nms:delivery) > Indicadores**, corresponde al número total de SMS enviados al proveedor de servicios. Este indicador solo se utiliza para envíos SMS y no debe utilizarse para otros tipos de envíos (no confundirlo con los indicadores **@success** y **@processed**).
 
 ## Sincronización de indicadores {#indicator-synchronization}
 

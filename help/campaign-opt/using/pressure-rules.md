@@ -8,7 +8,7 @@ hide: true
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '3335'
+source-wordcount: '3362'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Las reglas de **presión** para administrar la fatiga de marketing pueden consis
 Las campañas se seleccionan según los umbrales definidos y el peso del mensaje.
 
 * Un umbral es la cantidad más alta de envíos autorizados para un destinatario determinado durante un periodo determinado. Puede ser fijo o variable. Se define o calcula en la configuración de reglas de tipología. Consulte [Número máximo de mensajes](#maximum-number-of-messages).
-* El peso del envío le permite identificar las entregas de mayor prioridad dentro del marco de la gestión de presión. Los mensajes con mayor peso son prioritarios. Consulte [Peso del mensaje](#message-weight).
+* El peso del envío le permite identificar las entregas de mayor prioridad dentro del marco de la gestión de presión. Los mensajes con mayor peso tienen prioridad. Consulte [Peso del mensaje](#message-weight).
 
 La mediación consiste en asegurarse de que las campañas programadas cuyo peso sea mayor que la campaña en curso no saturen los perfiles: si este es el caso, el perfil se excluye de la entrega.
 
@@ -319,7 +319,7 @@ Para ello, debe programar varios envíos con diferentes pesos para el mismo dest
 Primero, configure la regla de presión.
 
 1. Cree una regla de presión. Para más información, consulte [Creación de una regla de presión](#creating-a-pressure-rule).
-1. En la pestaña **[!UICONTROL General]** , seleccione la opción **[!UICONTROL Re-apply the rule at the start of personalization]** . 
+1. En la pestaña **[!UICONTROL General]** , seleccione la opción **[!UICONTROL Re-apply the rule at the start of personalization]** .
 
    ![](assets/campaign_opt_pressure_example_5.png)
 

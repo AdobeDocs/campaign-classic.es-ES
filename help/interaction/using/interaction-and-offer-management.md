@@ -5,8 +5,8 @@ description: Aprenda a enviar las mejores ofertas a sus contactos en función de
 feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
 source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
-workflow-type: ht
-source-wordcount: '268'
+workflow-type: tm+mt
+source-wordcount: '293'
 ht-degree: 100%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 100%
 
 La interacción permite responder en tiempo real durante una interacción con un contacto determinado (un cliente o destinatario) mediante la realización de una o varias ofertas adaptadas. Por ejemplo, estas pueden ser mensajes de comunicación sencillos, ofertas especiales sobre uno o varios productos o un servicio.
 
-Las ofertas se envían a los contactos a través de un contacto de entrada (sitio web o centro de llamadas) o de salida (envío de correo electrónico, correo postal o SMS dentro de una campaña de marketing).
+Las ofertas se envían a los contactos a través de un contacto de entrada (sitio web o centro de llamadas) o de salida (envío de correo electrónico, correo directo o SMS dentro de una campaña de marketing).
 
-Se puede crear un catálogo de ofertas que interactúe con los canales entrantes y salientes a fin de seleccionar la mejor oferta y enviarla a un contacto en un contexto determinado. La relevancia de la oferta para un destinatario se determina según las reglas de idoneidad. La selección de una oferta de entre un conjunto de ofertas relevantes se determina mediante reglas de prioridad. Las reglas de presentación de ofertas tienen en cuenta el historial de intercambio del contacto y ayudan a evitar que reciban la misma oferta varias veces.
+Se puede crear un catálogo de ofertas que interactúe con los canales entrantes y salientes a fin de seleccionar la mejor oferta y enviarla a un contacto en un contexto determinado. La relevancia de la oferta para un destinatario se determina según las reglas de elegibilidad. La selección de una oferta de entre un conjunto de ofertas relevantes se determina mediante reglas de prioridad. Las reglas de presentación de ofertas tienen en cuenta el historial de intercambio del contacto y ayudan a evitar que reciban la misma oferta varias veces.
 
-La interacción permite crear y gestionar un catálogo de ofertas y configurar las reglas de idoneidad y los temas de la aplicación vinculados a ellas. Según el canal elegido, el contenido de la oferta puede personalizarse gracias a las diversas funciones de renderización. Finalmente, puede utilizar el módulo de simulación para calcular el impacto de la presentación de una oferta.
+La interacción permite crear y gestionar un catálogo de ofertas y configurar las reglas de elegibilidad y los temas de la aplicación vinculados a ellas. Según el canal elegido, el contenido de la oferta puede personalizarse gracias a las diversas funciones de renderización. Finalmente, puede utilizar el módulo de simulación para calcular el impacto de la presentación de una oferta.
 
 ![](assets/Offermgt2.png)
 
-![](assets/do-not-localize/how-to-video.png) Para familiarizarse con la función de interacción y la terminología utilizada en Campaign Interaction, vea [este vídeo](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
+![](assets/do-not-localize/how-to-video.png) Para familiarizarse con la función de interacción y la terminología utilizada en Campaign Interaction, vea [este vídeo](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com).
 
 ## Temas relacionados
 

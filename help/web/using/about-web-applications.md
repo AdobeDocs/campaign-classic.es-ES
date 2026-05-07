@@ -6,9 +6,9 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '694'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 95%
 
 ---
 
@@ -48,7 +48,7 @@ Las aplicaciones web de Adobe Campaign proporcionan acceso a las siguientes func
 * La información se comprueba antes de la validación según el tipo de datos esperado (número, dirección de correo electrónico, fecha, etc.) y los campos obligatorios. Para obtener más información, consulte esta [página](form-rendering.md#defining-control-settings).
 * Invitaciones o notificaciones por correo electrónico. Para obtener más información, consulte [esta página](publishing-a-web-form.md#delivering-a-form-via-email).
 * Personalización de mensajes de error y de fin. Para obtener más información, consulte [esta página](defining-web-forms-properties.md#setting-up-an-error-page).
-* Uso de imágenes, vídeos, vínculos de hipertexto, captcha, etc. Para obtener más información, consulte [esta página](editing-content.md).
+* Uso de imágenes, vídeos, vínculos de hipertexto, captcha, etc. Para obtener más información, consulte esta [página](editing-content.md).
 * Seguimiento de las respuestas en tiempo real. Para obtener más información, consulte [esta página](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking).
 
 El módulo opcional de creación **Survey** ofrece las siguientes funcionalidades adicionales:

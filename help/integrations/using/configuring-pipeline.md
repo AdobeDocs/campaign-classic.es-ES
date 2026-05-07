@@ -9,9 +9,9 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '832'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Los parámetros de autenticación como el ID de cliente, la clave privada y el e
 
 La lista de activadores que se van a procesar se configura en una opción en formato JSON.
 
-Los activadores se utilizan para la segmentación mediante un flujo de trabajo de campaña que envía correos electrónicos. La campaña se configura de modo que un cliente que tenga ambos eventos desencadenadores reciba un correo electrónico.
+Los activadores se utilizan para la segmentación mediante un flujo de trabajo de campaña que envía correos electrónicos. La campaña se configura de modo que un cliente que tenga ambos eventos activadores reciba un correo electrónico.
 
 ## Requisitos previos {#prerequisites}
 
@@ -104,7 +104,7 @@ El servicio de canalización realiza un seguimiento de los mensajes recuperados 
 Para configurar la opción Canalización, debe seguir estas recomendaciones:
 
 * Añadir o editar activadores en **[!UICONTROL Triggers]**.
-* Asegúrese de que el JSON sea válido. 
+* Asegúrese de que el JSON sea válido.
 * El parámetro **Nombre** corresponde al ID del activador. El comodín &quot;*&quot; capturará todos los activadores.
 * El parámetro **Consumidor** corresponde al nombre de la instancia o aplicación que realiza la llamada.
 * el proceso `pipelined` también admite el tema “alias”.

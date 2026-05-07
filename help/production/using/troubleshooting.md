@@ -9,7 +9,7 @@ topic-tags: troubleshooting
 exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
 source-git-commit: 0c639cc8b9636c190c868980ab5182a0eccb5f74
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '220'
 ht-degree: 20%
 
 ---
@@ -39,14 +39,14 @@ Se pueden realizar acciones específicas cuando se tienen problemas con los env�
 
 [Problemas de rendimiento de envíos](../../delivery/using/delivery-performance-troubleshooting.md)
 
-## Uso de registros  {#working-with-logs}
+## Uso de registros {#working-with-logs}
 
 A continuación se ofrecen algunas sugerencias para mejorar su experiencia con los registros:
 
 * [Precisión de registro](../../production/using/log-precision.md)
 * [Seguimiento de problemas de registro](../../production/using/tracking-logs-issues.md)
 
-## Problemas con la base de datos  {#database-issues}
+## Problemas con la base de datos {#database-issues}
 
 Descubra cómo puede resolver problemas de rendimiento leyendo las siguientes secciones:
 

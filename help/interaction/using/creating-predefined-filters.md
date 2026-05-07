@@ -9,7 +9,7 @@ topic-tags: managing-environments
 exl-id: 399e9468-bf70-425d-af0b-72c29636b513
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '97'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 
 
-Los filtros predefinidos permiten crear reglas de idoneidad para la población de destino que se puede reutilizar fácilmente durante la creación de la oferta. Son específicos a cada entorno y toman en cuenta los parámetros de oferta.
+Los filtros predefinidos permiten crear reglas de elegibilidad para la población de destino que se puede reutilizar fácilmente durante la creación de la oferta. Son específicos a cada entorno y toman en cuenta los parámetros de oferta.
 
 Para crear un filtro, siga los siguientes pasos:
 
@@ -26,7 +26,7 @@ Para crear un filtro, siga los siguientes pasos:
 
    ![](assets/offer_filter_create_005.png)
 
-1. Haga clic en **[!UICONTROL New]**.
+1. Haga clic **[!UICONTROL New]**.
 
    ![](assets/offer_filter_create_001.png)
 

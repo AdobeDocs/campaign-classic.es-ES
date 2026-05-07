@@ -6,8 +6,8 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Surveys
 exl-id: 22e14b24-59ba-4a92-8ffb-f5336793d64f
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '939'
+workflow-type: tm+mt
+source-wordcount: '945'
 ht-degree: 100%
 
 ---
@@ -129,7 +129,7 @@ Haga clic en **[!UICONTROL OK]** para confirmar y luego haga clic en **[!UICONTR
 
 Para que los usuarios puedan acceder a las páginas HTML, la aplicación debe estar disponible. No debe estar en fase de edición, sino de producción. Para que una encuesta pase a producción, debe publicarla. Para ello:
 
-* Haga clic en el botón **[!UICONTROL Publish]** situado encima del panel de encuesta.
+* Haga clic en el botón **[!UICONTROL Publish]** situado encima del panel de control de encuesta.
 * Haga clic en **[!UICONTROL Start]** para iniciar la publicación y cerrar el asistente.
 
   ![](assets/s_ncs_admin_survey_start_publ.png)
@@ -140,7 +140,7 @@ Para que los usuarios puedan acceder a las páginas HTML, la aplicación debe es
 
 ## Paso 7: Compartir la encuesta en línea {#step-7---sharing-your-online-survey}
 
-Cuando esté en producción, se puede acceder a la encuesta en el servidor y se puede enviar. La dirección URL para acceder a la encuesta se muestra en el panel.
+Cuando esté en producción, se puede acceder a la encuesta en el servidor y se puede enviar. La dirección URL para acceder a la encuesta se muestra en el panel de control.
 
 ![](assets/survey_url_from_dashboard.png)
 

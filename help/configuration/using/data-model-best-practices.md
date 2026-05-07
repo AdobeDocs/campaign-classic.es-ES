@@ -6,7 +6,7 @@ feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
 source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
 workflow-type: tm+mt
-source-wordcount: '4005'
+source-wordcount: '4078'
 ht-degree: 1%
 
 ---
@@ -223,7 +223,7 @@ De forma predeterminada, Adobe Campaign crea un vínculo con la clave principal 
 
 Se añade un índice a los atributos utilizados en un vínculo.
 
-El   Los vínculos creados por y modificados por última vez están presentes en muchas tablas. Es posible deshabilitar el índice utilizando el atributo noDbIndex en el vínculo si la empresa no utiliza esta información.
+Los vínculos creado por y modificado por última vez están presentes en muchas tablas. Es posible deshabilitar el índice utilizando el atributo noDbIndex en el vínculo si la empresa no utiliza esta información.
 
 ### Cardinalidad {#cardinality}
 

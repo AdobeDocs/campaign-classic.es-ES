@@ -6,8 +6,8 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '850'
+workflow-type: tm+mt
+source-wordcount: '860'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Para crear un valor común como el de nuestro ejemplo (departamento de compras),
 Para obtener más información sobre las extensiones de esquema, consulte [esta sección](../../configuration/using/data-schemas.md).
 
 1. En el nodo **[!UICONTROL Administration > Configuration > Data schemas]**, haga clic en el icono **[!UICONTROL New]**.
-1. En la ventana **[!UICONTROL Creation of a data schema]**, seleccione la opción **[!UICONTROL Extension of a schema]** haciendo clic en **[!UICONTROL Next]**. 
+1. En la ventana **[!UICONTROL Creation of a data schema]**, seleccione la opción **[!UICONTROL Extension of a schema]** haciendo clic en **[!UICONTROL Next]**.
 
    ![](assets/dlv_seeds_usecase_09.png)
 
@@ -53,7 +53,7 @@ Para obtener más información sobre las extensiones de esquema, consulte [esta 
 
    ![](assets/dlv_seeds_usecase_10.png)
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 1. En la ventana de edición del esquema, copie las líneas situadas debajo y péguelas en el área indicada en la captura de pantalla.
 
    ```

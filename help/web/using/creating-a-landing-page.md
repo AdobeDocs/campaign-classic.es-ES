@@ -1,18 +1,18 @@
 ---
 product: campaign
-title: Creación de una página de aterrizaje
-description: Creación de una página de aterrizaje
+title: Creación de una página de destino
+description: Creación de una página de destino
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 100%
+source-wordcount: '739'
+ht-degree: 96%
 
 ---
 
-# Creación de una página de aterrizaje{#creating-a-landing-page}
+# Creación de una página de destino{#creating-a-landing-page}
 
 
 
@@ -33,7 +33,7 @@ Para crear una nueva aplicación web de tipo página de destino, siga estos paso
 
    ![](assets/dce_uc1_newlandingpage.png)
 
-1. Seleccione la pestaña **[!UICONTROL Edit]**.
+1. Haga clic en la pestaña **[!UICONTROL Edit]**.
 1. Elimine la actividad **End**.
 1. Añada una actividad **[!UICONTROL Page]** después de la actividad **[!UICONTROL Storage]**.
 1. Edite la actividad **Page 2** y, a continuación, en la pestaña **[!UICONTROL Activate outbound transitions]**, desactive la opción **[!UICONTROL Properties]**.
@@ -80,7 +80,7 @@ Para cargar la plantilla en la primera página, realice los pasos siguientes:
    >
    >Debe esperar hasta que reciba el siguiente mensaje antes de cerrar: **[!UICONTROL The external resources have been successfully published]**.
 
-1. Seleccione la pestaña **[!UICONTROL Properties]**.
+1. Haga clic en la pestaña **[!UICONTROL Properties]**.
 1. Escriba una **etiqueta** para cada página (por ejemplo: Página 1= Recopilar, Página 2=Gracias).
 
    ![](assets/dce_uc1_pagelabel.png)
@@ -89,7 +89,7 @@ Realice estos pasos para cada página insertada en la aplicación web.
 
 >[!CAUTION]
 >
->**El DCE ejecuta el código JavaScript para la página HTML cargada.** Errores de JavaScript en la plantilla HTML que pueden aparecer en la interfaz de Adobe Campaign. Estos errores no están relacionados con el editor. Para comprobar que no haya errores en los archivos importados, se recomienda probarlos en un explorador antes de importar los archivos al DCE.
+>**El DCE ejecuta el código JavaScript para la página HTML cargada.** Errores de JavaScript en la plantilla de HTML que pueden aparecer en la interfaz de Adobe Campaign. Estos errores no están relacionados con el editor. Para comprobar que no haya errores en los archivos importados, se recomienda probarlos en un explorador antes de importar los archivos al DCE.
 
 ## Paso 2: Configuración del contenido {#step-2---configuring-the-content}
 
@@ -125,7 +125,7 @@ Enlacemos los campos de la página a los de la base de datos para poder guardar 
 
 1. Repita este proceso para cada campo de la página.
 
-Puede hacer que un campo sea obligatorio: por ejemplo, haga clic en el campo **[!UICONTROL Email]** y active la opción **Mandatory**.
+Puede hacer que un campo sea obligatorio: por ejemplo, haga clic en el campo **[!UICONTROL Email]** y habilite la opción **Mandatory**.
 
 ![](assets/dce_uc1_fieldmandatory.png)
 
@@ -156,7 +156,7 @@ El campo de personalización aparece con fondo amarillo en el editor.
 
 ## Paso 3: Publicación de contenidos {#step-3---publishing-content}
 
-El contenido se publica desde el panel de aplicaciones web. Haga clic en el botón **[!UICONTROL Publish]** para ejecutarlo.
+El contenido se publica desde el panel de control de aplicaciones web. Haga clic en el botón **[!UICONTROL Publish]** para ejecutarlo.
 
 ![](assets/dce_uc1_pub_dashboard.png)
 
@@ -168,4 +168,4 @@ Durante la publicación se muestra un “log”. El sistema de publicación anal
 >
 >En el “log” de publicación, las advertencias y los errores se ordenan por actividad.
 
-El formulario ya está disponible: la dirección URL está disponible en el panel de aplicaciones y se puede enviar a los destinatarios.
+El formulario ya está disponible: la dirección URL está disponible en el panel de control de aplicaciones y se puede enviar a los destinatarios.

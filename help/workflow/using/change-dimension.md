@@ -7,8 +7,8 @@ hide: true
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Para configurar la actividad de la dimensión de cambio, siga los pasos siguient
 
    ![](assets/s_user_change_dimension_param1.png)
 
-1. Durante el cambio de dimensión, se pueden mantener todos los elementos o seleccionar los que desea conservar en la salida. En el ejemplo siguiente, el número máximo de duplicados se establece en 2.
+1. Durante el cambio de dimensión, se pueden mantener todos los elementos o seleccionar los que desea conservar en la salida. En el ejemplo siguiente, el máximo. el número de duplicados se establece en 2.
 
    ![](assets/s_user_change_dimension_limit.png)
 

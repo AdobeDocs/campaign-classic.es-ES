@@ -10,8 +10,8 @@ topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 3%
+source-wordcount: '1084'
+ht-degree: 5%
 
 ---
 
@@ -141,7 +141,7 @@ El atributo &quot;@name&quot; debe respetar las siguientes reglas:
 
 &#39;affinity_name&#39; se relaciona con el nombre arbitrario dado a la afinidad. Este nombre debe ser único. Los caracteres autorizados son `[a-z]` `[A-Z]` `[0-9]`. El objetivo es declarar un grupo de direcciones IP públicas.
 
-&#39;affinity_group&#39; relaciona la subafinidad declarada en la asignación de destino utilizada en cada uno de los envíos. La última parte, incluido el &#39;.&#39; se ignora si no hay subafinidad. Los caracteres autorizados son `[a-z]` `[A-Z]` `[0-9]`.
+&#39;affinity_group&#39; relaciona la subafinidad declarada en la asignación de destino utilizada en cada uno de los envíos. La última parte, incluido &quot;.&quot;, se omite si no hay subafinidad. Los caracteres autorizados son `[a-z]` `[A-Z]` `[0-9]`.
 
 Debe detener y reiniciar el servidor para que se tenga en cuenta la modificación.
 

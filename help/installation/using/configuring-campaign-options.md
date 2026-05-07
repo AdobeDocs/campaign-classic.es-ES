@@ -9,8 +9,8 @@ topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '3834'
-ht-degree: 1%
+source-wordcount: '3898'
+ht-degree: 3%
 
 ---
 
@@ -61,7 +61,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** le permite configur
 
 <tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
-   <td> Adobe Campaign utiliza una variable global "Nms_DefaultRcpSchema" para dialogar con la base de datos de destinatario predeterminada (nms:recipient).<br /> El valor de la opción debe corresponder al nombre del esquema que coincide con la tabla de destinatarios externa.<br /> </td> 
+   <td> Adobe Campaign utiliza una variable global "Nms_DefaultRcpSchema" para dialogar con la base de datos de destinatarios predeterminada (nms:recipient).<br /> El valor de opción debe corresponder al nombre del esquema que coincide con la tabla de destinatarios externa.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBilling_MainActionThreshold</span> <br /> </td> 
@@ -149,7 +149,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** le permite configur
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ExpOrganization</span> <br /> </td> 
-   <td> Nombre común del cliente. Se utiliza en algunos mensajes de advertencia mostrados a los destinatarios.<br /> "Está recibiendo este mensaje porque ha estado en contacto con `Organization` o una compañía afiliada. Para dejar de recibir mensajes de `Organization`<br /> </td> 
+   <td> Nombre común del cliente. Se utiliza en algunos mensajes de advertencia mostrados a los destinatarios.<br /> "Recibe este mensaje porque ha estado en contacto con `Organization` o una empresa afiliada. Para dejar de recibir mensajes de `Organization`<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
@@ -173,7 +173,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** le permite configur
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInmail_AllowlistEmails</span> <br /> </td> 
-   <td> Lista de direcciones de correo electrónico de reenvío autorizadas (desde el módulo de procesamiento de correo entrante). Las direcciones deben separarse con comas (o * para permitir todo). Por ejemplo: xyz@abc.com,pqr@abc.com.<br /> </td> 
+   <td> Lista de direcciones de correo electrónico de reenvío autorizadas (desde el módulo de procesamiento de correo entrante). Las direcciones deben separarse con comas (o * para permitir todo). E.g. xyz@abc.com,pqr@abc.com.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLine_AESKey</span> <br /> </td> 
@@ -197,7 +197,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** le permite configur
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
-   <td> Permite especificar un periodo máximo (expresado en horas) para limitar el número de registros recuperados cada vez que se ejecuta el flujo de trabajo de sincronización.</a>.<br /> </td> 
+   <td> Permite especificar un período máximo (expresado en horas) para limitar el número de registros recuperados cada vez que se ejecuta el flujo de trabajo de sincronización.</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span> <br /> </td> 
@@ -233,7 +233,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** le permite configur
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsServer_MirrorPageUrl</span> <br /> </td> 
-   <td> La dirección URL del servidor de página espejo (de forma predeterminada, debe ser idéntica a NmsTracking_ServerUrl).<br /> Es el valor predeterminado de los envíos por correo electrónico cuando la dirección URL no se especifica en la definición de enrutamiento.<br /> </td> 
+   <td> La dirección URL del servidor de página espejo (de forma predeterminada, debe ser idéntica a NmsTracking_ServerUrl).<br /> Es el valor predeterminado de los envíos de correo electrónico cuando la dirección URL no se especifica en la definición de enrutamiento.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span> <br /> </td> 
@@ -317,7 +317,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** le permite configur
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkImageUrl</span> <br /> </td> 
-   <td> Permite definir el servidor en el que se almacenan las imágenes utilizadas en los envíos para permitir que el explorador las obtenga.<br /> Para las versiones de compilación &lt;= 5098, usamos la dirección URL de las imágenes que se cargaron en la instancia.<br /> Para versiones de compilación &gt; 5098, usamos en su lugar la URL pública de la entrega o la URL de la opción <span class="uicontrol">XtkFileRes_Public_URL</span>.<br /> </td> 
+   <td> Permite definir el servidor en el que se almacenan las imágenes utilizadas en los envíos para permitir que el explorador las obtenga.<br /> Para las versiones de compilación &lt;= 5098, se utiliza la URL de las imágenes que se cargaron en la instancia.<br /> Para versiones de compilación &gt; 5098, usamos en su lugar la URL pública de la entrega o la URL de la opción <span class="uicontrol">XtkFileRes_Public_URL</span>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MediaInstance</span> <br /> </td> 
@@ -657,7 +657,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** le permite configur
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> Permite configurar una base de datos independiente para las tablas de trabajo en Microsoft SQL Server, con el fin de optimizar las copias de seguridad y la replicación. La opción corresponde al nombre de la base de datos temporal: si se especifica, las tablas de trabajo se escriben en esta base de datos. Ejemplo: 'tempdb.dbo.' (tenga en cuenta que el nombre debe terminar con un punto). <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">Más información</a> <br /> </td> 
+   <td> Permite configurar una base de datos independiente para las tablas de trabajo en Microsoft SQL Server, con el fin de optimizar las copias de seguridad y la replicación. La opción corresponde al nombre de la base de datos temporal: si se especifica, las tablas de trabajo se escriben en esta base de datos. Ejemplo: "tempdb.dbo." (tenga en cuenta que el nombre debe terminar con un punto). <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">Más información</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
@@ -693,7 +693,7 @@ El nodo **[!UICONTROL Administration / Platform / Options]** le permite configur
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NlMigration_KeepFolderStructure</span> <br /> </td> 
-   <td> Durante la migración, la estructura de árbol se reorganiza automáticamente en función de los estándares de la nueva versión.<br /> Esta opción le permite deshabilitar la migración automática del árbol de navegación. Si lo utiliza, después de la migración tendrá que eliminar las carpetas obsoletas, agregar las nuevas carpetas y ejecutar todas las comprobaciones necesarias.<br /> 
+   <td> Durante la migración, la estructura de árbol se reorganiza automáticamente según los estándares de la nueva versión.<br /> Esta opción le permite deshabilitar la migración automática del árbol de navegación. Si lo utiliza, después de la migración tendrá que eliminar las carpetas obsoletas, agregar las nuevas carpetas y ejecutar todas las comprobaciones necesarias.<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">Tipo de datos:</span> Entero</p> </li> 
      <li> <p> <span class="uicontrol">Valor (texto)</span> : 1 </p> </li> 
@@ -742,11 +742,11 @@ El nodo **[!UICONTROL Administration / Platform / Options]** le permite configur
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_EdgeServer</span> <br /> </td> 
-   <td> Servidor de Adobe Target utilizado para la integración. Esta opción está seleccionada de forma predeterminada. Este valor corresponde al Domain Server de Adobe Target, seguido del valor /m2. Por ejemplo: tt.omtrdc.net/m2.<br /> Ver <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">esta sección</a>.<br /> </td> 
+   <td> Servidor de Adobe Target utilizado para la integración. Esta opción está seleccionada de forma predeterminada. Este valor corresponde al Domain Server de Adobe Target, seguido del valor /m2. Por ejemplo: tt.omtrdc.net/m2.<br /> Consulte <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">esta sección</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_TenantName</span> <br /> </td> 
-   <td> Nombre de la organización Adobe Target. Este valor corresponde al nombre de Adobe Target Client.<br /> Ver <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">esta sección</a>.<br /> </td> 
+   <td> Nombre de la organización Adobe Target. Este valor corresponde al nombre de Adobe Target Client.<br /> Consulte <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">esta sección</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DataSourceId</span> <br /> </td> 

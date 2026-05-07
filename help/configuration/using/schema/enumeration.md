@@ -7,7 +7,7 @@ exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 ## Modelo de contenido {#content-model-5}
 
-enumeración:==(ayuda| value)
+enumeración:==(ayuda| valor)
 
 ## Atributos {#attributes-5}
 
@@ -67,7 +67,7 @@ Las enumeraciones se definen al principio de un esquema (antes de definir el ele
    * flotante
    * html
    * int64
-   * vincular
+   * vínculo
    * largo
    * nota
    * MNTOKEN

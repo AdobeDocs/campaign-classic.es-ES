@@ -10,8 +10,8 @@ topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## Requisitos previos {#prerequisites}
 
-* Debe tener un nombre e ID de organización de Adobe Experience Cloud. Para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}.
+* Debe tener un nombre e ID de organización de Adobe Experience Cloud. Para encontrar su identificador de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}.
 * Debe añadir usuarios en Experience Cloud. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es){_blank}.
 
 >[!NOTE]
@@ -55,6 +55,6 @@ Introduzca la siguiente información:
 
 * ID de organización: para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}.
 
-* Máscara de asociación: este campo permite definir la sintaxis que permite sincronizar los nombres de configuración en Enterprise Dashboard con los grupos de Adobe Campaign. Si utiliza la sintaxis &quot;Campaign - tenant_id - (.&#42;)&quot;, el grupo de seguridad creado en Adobe Campaign se vincula al nombre de la configuración “Campaign - tenant_id - internal_name” en Enterprise Dashboard.
+* Máscara de asociación: este campo permite definir la sintaxis que permite sincronizar los nombres de configuración en Enterprise Dashboard con los grupos de Adobe Campaign. Si utiliza la sintaxis &quot;Campaign - tenant_id - (.&#42;)&quot;, el grupo de seguridad creado en Adobe Campaign se vinculará al nombre de configuración &quot;Campaign - tenant_id - internal_name&quot; en Enterprise Dashboard.
 
 * La información de conexión de Adobe Experience Cloud, que es el nombre del inquilino de Adobe Experience Cloud.

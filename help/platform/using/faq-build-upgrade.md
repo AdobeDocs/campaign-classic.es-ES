@@ -9,8 +9,8 @@ topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 100%
+source-wordcount: '2105'
+ht-degree: 97%
 
 ---
 
@@ -111,7 +111,7 @@ Actualice su conocimiento en cuanto a los flujos de trabajo y los envíos de rut
 
 Identifique los tiempos de bajo volumen o bajo tráfico que sean ideales para las ventanas de mantenimiento, ya que producirán el menor impacto comercial.
 
-Revise nuestra [lista de comprobación de actualización de compilaciones ](#check-list) a continuación, así como sus planes de prueba, y asegúrese de que los recursos que pueden realizar estas pruebas estén disponibles entre 24 y 48 horas tras la finalización de una actualización.
+Revise nuestra [lista de comprobación de actualización de compilaciones &#x200B;](#check-list) a continuación, así como sus planes de prueba, y asegúrese de que los recursos que pueden realizar estas pruebas estén disponibles entre 24 y 48 horas tras la finalización de una actualización.
 
 Para obtener más información, [consulte esta sección](../../production/using/build-upgrade.md).
 
@@ -167,7 +167,7 @@ Consulte la [lista de comprobación de actualización de compilaciones](#check-l
 
 Los entornos de desarrollo y de fase se actualizan de forma secuencial o conjunta, pero se necesita una firma antes de actualizar la instancia de producción. Esto permite a cada cliente realizar pruebas exhaustivas antes de cerrar sesión en cualquier cambio en la producción.
 
-Consulte la [lista de comprobación de actualización de compilaciones ](#check-list)más abajo. Los clientes deben ejecutar pruebas similares y todas las que puedan necesitar para el entorno.
+Consulte la [lista de comprobación de actualización de compilaciones &#x200B;](#check-list)más abajo. Los clientes deben ejecutar pruebas similares y todas las que puedan necesitar para el entorno.
 
 ## ¿Con qué frecuencia debo realizar una actualización de compilación?
 
@@ -198,10 +198,11 @@ Obtenga más información en [Opciones de ayuda y asistencia para Campaign Class
 
 * ¿Puede iniciar sesión en el servidor? Compruebe que la consola del cliente de Campaign funciona sin que aparezcan errores o advertencias.
 * Asegúrese de utilizar la misma versión de la consola que la versión de compilación después de la actualización.
-* ¿Tiene aplicaciones web que insertan datos en la base de datos de Campaign? Si es así, ejecútelos y
+* ¿Tiene aplicaciones web que insertan datos en la base de datos de Campaign? Si es así, ejecute y.
 compruebe que pueden insertar nuevos registros a través de la API.
-* ¿Puede enviar una prueba de correo electrónico correctamente? Cree un nuevo envío con una plantilla conocida, envíelo a un destinatario de prueba, compruebe la personalización y el vínculo de cancelación de suscripción, y asegúrese de que las páginas espejo funcionen.
-* ¿Se están ejecutando todos los flujos de trabajo de ruta críticos? Compruebe los flujos de trabajo, abra el historial de flujo de trabajo y compruebe
+* ¿Puede enviar una prueba de correo electrónico correctamente? Cree una nueva entrega con una plantilla conocida y envíela a
+un destinatario de prueba, verificar la personalización, anular la suscripción a un vínculo o crear una página espejo, todo funciona.
+* ¿Se están ejecutando todos los flujos de trabajo de ruta críticos? Compruebe los flujos de trabajo, abra el historial de flujo de trabajo y verifique
 que no hay errores.
 * ¿Están todas las carpetas presentes, visibles y accesibles? Navegue por diferentes carpetas y verifique
 que todo el contenido se muestra y está presente.

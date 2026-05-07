@@ -26,6 +26,6 @@ A continuación, puede comprobar la estructura del esquema generado en las pesta
 >
 >Si necesita forzar la regeneración de todos los esquemas, por ejemplo para solucionar ciertos problemas de dependencia en los vínculos inversos, puede iniciar el siguiente comando desde el servidor de aplicaciones de Adobe Campaign:
 >
-> `nlserver config -postupgrade -instance:`&lt;nombre_instancia>` -force`
+> `nlserver config -postupgrade -instance:`&lt;instance_name>` -force`
 >
 >A continuación, debe reiniciar el servidor de aplicaciones de Adobe Campaign y desconectar/volver a conectar con la consola del cliente.

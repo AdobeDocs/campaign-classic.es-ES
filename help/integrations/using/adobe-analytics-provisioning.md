@@ -9,8 +9,8 @@ level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 source-git-commit: 84e6b2fad97f0ca5d6621cff4648e0be0bef7521
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 85%
+source-wordcount: '702'
+ht-degree: 81%
 
 ---
 
@@ -36,7 +36,7 @@ Para que esta integración funcione, debe crear un perfil de producto de Adobe A
 
 >[!AVAILABILITY]
 >
-> Adobe va a declarar la credencial Cuenta de servicio (JWT) como obsoleta, las integraciones de Campaign con aplicaciones y soluciones de Adobe ahora dependen de la credencial OAuth de servidor a servidor. </br>
+> La credencial de cuenta de servicio (JWT) está en desuso en Adobe. Las integraciones de Campaign con soluciones y aplicaciones de Adobe ahora deben depender de la credencial de servidor a servidor OAuth. </br>
 >
 > * Si ha implementado integraciones de entrada con Campaign, debe migrar su Cuenta técnica como se detalla en [esta documentación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Las [credenciales de la cuenta de servicio (JWT)](oauth-technical-account.md) existentes seguirán funcionando hasta el martes, 30 de junio de 2025.</br>
 >
@@ -54,7 +54,7 @@ Para obtener más información acerca de los perfiles de producto, consulte la [
 
    ![](assets/do-not-localize/triggers_1.png)
 
-1. Haga clic en **[!UICONTROL New Profile]**.
+1. Haga clic **[!UICONTROL New Profile]**.
 
    ![](assets/do-not-localize/triggers_2.png)
 

@@ -9,8 +9,8 @@ topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 23%
+source-wordcount: '509'
+ht-degree: 32%
 
 ---
 
@@ -32,7 +32,7 @@ En varias actividades de flujo de trabajo de Adobe Campaign, puede utilizar los 
 
 * **Filtrar por datos externos**: la actividad de consulta le permite agregar datos externos y utilizarlos en las configuraciones de filtro definidas. Para obtener más información, consulte la [Documentación de Campaign v8]https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=es){target="_blank"}.
 
-* **Crear subconjuntos**: la actividad Dividir le permite crear subconjuntos. Se pueden utilizar datos externos para definir los criterios de filtrado que se deben utilizar. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=es){target="_blank"}.
+* **Crear subconjuntos**: la actividad Dividir le permite crear subconjuntos. Puede utilizar datos externos para definir los criterios de filtrado que deben utilizarse. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=es){target="_blank"}.
 
 * **Cargar base de datos externa**: puede utilizar los datos externos en la actividad Carga de datos (RDBMS). Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-rdbms.html?lang=es){target="_blank"}.
 

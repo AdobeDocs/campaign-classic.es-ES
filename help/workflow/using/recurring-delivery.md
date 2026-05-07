@@ -7,7 +7,7 @@ hide: true
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Para ver un ejemplo de la actividad utilizada, consulte esta [sección](sending-
 
 ## Configuración de envíos recurrentes {#set-up-recurring-delivery}
 
-Un **envío recurrente** creará una nueva instancia de envío cada vez que se ejecute. Por ejemplo, si el flujo de trabajo está programado para ejecutarse una vez a la semana, el resultado serían 52 envíos al cabo de un año.  Esto también significa que el registro y los registros de seguimiento generales se separarán por cada instancia de envío.
+Un **envío recurrente** creará una nueva instancia de envío cada vez que se ejecute. Por ejemplo, si el flujo de trabajo está programado para ejecutarse una vez a la semana, el resultado serían 52 envíos al cabo de un año. Esto también significa que el registro y los registros de seguimiento generales se separarán por cada instancia de envío.
 
 ![Entrega recurrente](assets/delivery_recurring.jpg)
 

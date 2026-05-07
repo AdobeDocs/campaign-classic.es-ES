@@ -7,7 +7,7 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '283'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Están disponibles los siguientes tipos de informe:
 * Informes de envíos, consulte [Informes de envíos](../../reporting/using/delivery-reports.md).
 * Informes acumulados, consulte [Informes acumulados](../../reporting/using/cumulative-reports.md).
 
-Puede acceder a los informes desde la página principal de la consola del cliente, el panel de informes o la lista de envíos. El modo de visualización de un informe depende de su contexto. La lista de informes principales está disponible en la página principal y le permite acceder rápidamente a los datos de envío. La lista se puede modificar para adaptarla a las necesidades. Consulte [esta sección](../../reporting/using/about-reports-creation-in-campaign.md) para obtener más información.
+Puede acceder a los informes desde la página principal de la consola del cliente, el panel de control de informes o la lista de envíos. El modo de visualización de un informe depende de su contexto. La lista de informes principales está disponible en la página principal y le permite acceder rápidamente a los datos de envío. La lista se puede modificar para adaptarla a las necesidades. Consulte [esta sección](../../reporting/using/about-reports-creation-in-campaign.md) para obtener más información.
 
 Para acceder a los informes integrados de Campaign:
 
@@ -46,13 +46,13 @@ Para acceder a los informes integrados de Campaign:
 
    ![](assets/reporting_edit_a_report.png)
 
-1. El vínculo **[!UICONTROL Back]** en la parte superior de la pantalla le devuelve a la lista de informes.
+1. Haga clic en el vínculo **[!UICONTROL Back]** en la parte superior de la pantalla para volver a la lista de informes.
 
    ![](assets/reporting_back_button.png)
 
 En [esta sección](../../reporting/using/actions-on-reports.md) se detallan otras posibles acciones que se pueden realizar sobre un informe en proceso de edición.
 
-Se puede acceder a los informes que son específicos de una campaña o una entrega a través de sus respectivos paneles.
+Se puede acceder a los informes que son específicos de una campaña o una entrega a través de sus respectivos paneles de control.
 
 ![](assets/reporting_on_a_delivery.png)
 

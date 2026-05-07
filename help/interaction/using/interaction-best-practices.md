@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: interaction-overview
 exl-id: 98413cde-50c9-416c-8316-85837f724c27
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '1200'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1206'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ A continuación se enumeran algunas prácticas recomendadas sobre las reglas de 
 * Simplificar las reglas. La complejidad de las reglas afecta al rendimiento a medida que amplía la búsqueda. Una regla compleja es cualquier regla que tenga más de cinco condiciones.
 * Para aumentar el rendimiento, las reglas se pueden dividir en diferentes filtros predefinidos que se comparten en varias ofertas.
 * Coloque las reglas de la categoría de oferta más restrictivas en la posición más alta posible del árbol. En este caso, ponga en primer lugar el filtro para la mayoría de contactos, reduciendo el número de objetivo y evitará que se procesen más reglas.
-* Coloque las reglas más pesadas en términos de tiempo o procesamiento en la parte inferior del árbol. De este modo, estas reglas sólo se ejecutarán para los destinatarios restantes.
+* Coloque las reglas más pesadas en términos de tiempo o procesamiento en la parte inferior del árbol. De este modo, estas reglas sólo se ejecutarán para el público destinatario restante.
 * Comience en una categoría específica para evitar el escaneo del árbol completo.
 * Para ahorrar tiempo de procesamiento, precalcule se añade en lugar de crear reglas complejas con uniones. Para ello, intente almacenar los datos del cliente en una tabla de referencia que se pueda buscar en reglas de elegibilidad.
 * Utilice un número mínimo de ponderaciones para limitar el número de consultas.

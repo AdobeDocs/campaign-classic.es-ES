@@ -9,8 +9,8 @@ topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '8066'
-ht-degree: 5%
+source-wordcount: '8103'
+ht-degree: 8%
 
 ---
 
@@ -540,11 +540,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
 
 >[!NOTE]
 >
->Nota sobre **nameSevers**: de forma predeterminada, utiliza la red
->parámetros de la primera interfaz de red declarada en Windows
->no definido en UNIX. Define los servidores de nombres de dominio (DNS)
->utilizado por el MTA para obtener el Mail Exchanger declarado para
->un dominio.
+>Nota sobre **nameSevers**: de forma predeterminada, utiliza la red>parámetros de la primera interfaz de red declarada en Windows>no definido en UNIX. Define los servidores de nombres de dominio (DNS)>utilizado por el MTA para obtener el Mail Exchanger declarado para>un dominio.
 >
 >Si no se define este valor, el MTA busca esta información en la configuración de red del host. Si son posibles varios DNS, las distintas direcciones DNS deben estar separadas por una coma (por ejemplo: 212.155.207.1,212.155.207.2). Si el servidor de entrega tiene varias interfaces de red, la lista DNS utilizada por el MTA es la primera. En este caso, se recomienda especificar el parámetro **nameServer** para evitar cualquier ambigüedad.
 
@@ -1276,7 +1272,7 @@ Estos son los diferentes parámetros del nodo **inMail**. Esta es la configuraci
   </tr> 
   <tr> 
    <td> ignoreSize<br /> </td> 
-   <td> Ignore message size: se utiliza para ignorar el tamaño de un mensaje devuelto por los servidores POP3. En este caso, el módulo espera un '.' al final de los mensajes. <br /> </td> 
+   <td> Ignore message size: se utiliza para ignorar el tamaño de un mensaje devuelto por los servidores POP3. En este caso, el módulo espera "." al final de los mensajes. <br /> </td> 
    <td> Booleano<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1761,7 +1757,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
  <tbody> 
   <tr> 
    <td> dataBasePoolPeriodSec<br /> </td> 
-   <td> Frecuencia de sondeo de base de datos de los trabajos que se van a enviar. Este valor indica la frecuencia de sondeo de la base de datos (en segundos). Para obtener la lista de trabajos en espera de envío, el MTA sondea la base de datos de forma regular. Cuando no hay ningún trabajo en espera, el período de sondeo se define con este valor. De lo contrario, si se ha transferido un trabajo a un servidor secundario, esta duración de sondeo se reduce automáticamente a un segundo para que se pueda volver a procesar un nuevo trabajo lo antes posible, es decir, tan pronto como un servidor secundario esté disponible de nuevo. Esto no significa que la consulta de la base de datos se realice cada segundo hasta que un servidor secundario vuelva a estar disponible. De hecho, el acceso a una base de datos sólo se realiza cuando hay al menos un servidor secundario disponible.<br /> </td> 
+   <td> Frecuencia de sondeo de base de datos de los trabajos que se van a entregar. Este valor indica la frecuencia de sondeo de la base de datos (en segundos). Para obtener la lista de trabajos en espera de envío, el MTA sondea la base de datos de forma regular. Cuando no hay ningún trabajo en espera, el período de sondeo se define con este valor. De lo contrario, si se ha transferido un trabajo a un servidor secundario, esta duración de sondeo se reduce automáticamente a un segundo para que se pueda volver a procesar un nuevo trabajo lo antes posible, es decir, tan pronto como un servidor secundario esté disponible de nuevo. Esto no significa que la consulta de la base de datos se realice cada segundo hasta que un servidor secundario vuelva a estar disponible. De hecho, el acceso a una base de datos sólo se realiza cuando hay al menos un servidor secundario disponible.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
@@ -1828,7 +1824,7 @@ Para obtener más información, consulte [Optimización de envío de correo elec
   </tr> 
   <tr> 
    <td> maxAgeSec<br /> </td> 
-   <td> Tiempo máximo de retención de mensajes. Si no se pudo enviar un mensaje preparado debido al estrangulamiento o no se pudo conectar con el MTA de destino, el mensaje se abandona y se procesará en el siguiente reintento.<br /> </td> 
+   <td> Tiempo máximo de retención de mensaje. Si no se pudo enviar un mensaje preparado debido al estrangulamiento o no se pudo conectar con el MTA de destino, el mensaje se abandona y se procesará en el siguiente reintento.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -1897,7 +1893,7 @@ En el nodo **mta > secundario > smtp**, configure los siguientes parámetros. Es
   </tr> 
   <tr> 
    <td> diskTimeoutSec<br /> </td> 
-   <td> Tiempo de espera de sesión inactivo. Este parámetro solo se utiliza si la sesión se reutiliza para transmitir varios mensajes a un dominio determinado. Cuando el MTA ha completado la transmisión del mensaje, la sesión SMTP que ha utilizado no se cierra sistemáticamente. Si un mensaje está listo para enviarse para este mismo dominio, se reutilizará la misma sesión SMTP y por esta razón la sesión no se cierra automáticamente. El parámetro IdleSessionTimeout permite definir el tiempo durante el cual una sesión SMTP puede permanecer activa a la espera de otro mensaje. Una vez transcurrida la duración, la sesión se cierra automáticamente.<br /> </td> 
+   <td> Tiempo de apagado de sesión inactiva. Este parámetro solo se utiliza si la sesión se reutiliza para transmitir varios mensajes a un dominio determinado. Cuando el MTA ha completado la transmisión del mensaje, la sesión SMTP que ha utilizado no se cierra sistemáticamente. Si un mensaje está listo para enviarse para este mismo dominio, se reutilizará la misma sesión SMTP y por esta razón la sesión no se cierra automáticamente. El parámetro IdleSessionTimeout permite definir el tiempo durante el cual una sesión SMTP puede permanecer activa a la espera de otro mensaje. Una vez transcurrida la duración, la sesión se cierra automáticamente.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 

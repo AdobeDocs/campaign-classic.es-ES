@@ -9,8 +9,8 @@ topic-tags: unitary-interactions
 exl-id: 3eaef689-44fa-41b3-ade8-9fe447e165ec
 source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 94%
+source-wordcount: '326'
+ht-degree: 76%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 94%
 
 
 
-Los servicios web SOAP proporcionados para la administración de ofertas son diferentes de los utilizados en Adobe Campaign. Se puede acceder a ellos a través de la dirección URL de interacción descrita en la sección anterior y permiten presentar o actualizar ofertas para un contacto determinado.
+Los servicios web SOAP proporcionados para la gestión de ofertas son diferentes de los utilizados en Adobe Campaign. Se puede acceder a ellos a través de la dirección URL de interacción descrita en la sección anterior y permiten presentar o actualizar ofertas para un contacto determinado.
 
 ## Propuesta de oferta {#offer-proposition}
 
-Para una propuesta de oferta mediante SOAP, añada el comando **nms:proposition#Propose** seguido de los parámetros siguientes:
+Para una propuesta de oferta a través de SOAP, agregue el comando **nms:proposition#Propose** seguido de los siguientes parámetros:
 
 * **targetId**: clave principal del destinatario (puede ser una clave compuesta).
 * **maxCount**: especifica el número de propuestas de ofertas para el contacto.
-* **context**: permite añadir información contextual en el esquema de espacio. Si el esquema utilizado es **nms:interaction**, se debe añadir **`<empty>`**.
+* **context**: permite añadir información contextual en el esquema de espacio. Si el esquema usado es **nms:interaction**, se debe agregar **`<empty>`**.
 * **categories**: especifica las categorías a las que las ofertas deben pertenecer.
 * **themes**: especifica los tema a los que las ofertas deben pertenecer.
 * **uuid**: valor de la cookie permanente de Adobe Campaign (“uuid230”).
@@ -44,11 +44,11 @@ Como respuesta a la consulta, el servicio SOAP devuelve los siguientes parámetr
 
 ## Actualización de oferta {#offer-update}
 
-Añada el comando **nms:interaction#UpdateStatus** a la dirección URL, seguido de estos parámetros:
+Agregue el comando **nms:interaction#UpdateStatus** a la dirección URL, seguido de estos parámetros:
 
 * **proposition**: cadena de caracteres, contiene el ID de la propuesta dado como salida durante una propuesta de oferta. Consulte la [Propuesta de oferta](#offer-proposition).
-* **status**: tipo cadena, especifica el nuevo estado de la oferta. Los valores posibles se mencionan en la enumeración **propositionStatus**, en el esquema **nms:common.** Por ejemplo, de forma predeterminada, el número 3 corresponde al estado **Accepted**.
-* **context**: el elemento XML, permite añadir información contextual en el esquema de espacio. Si el esquema utilizado es **nms:interaction**, se debe añadir **`<empty>`**.
+* **status**: tipo cadena, especifica el nuevo estado de la oferta. Los valores posibles se enumeran en la enumeración **propositionStatus**, en el esquema **nms:common**. Por ejemplo, de forma predeterminada, el número 3 corresponde al estado **Accepted**.
+* **context**: el elemento XML, permite añadir información contextual en el esquema de espacio. Si el esquema usado es **nms:interaction**, se debe agregar **`<empty>`**.
 
 ## Ejemplo de uso de una llamada a SOAP {#example-using-a-soap-call}
 

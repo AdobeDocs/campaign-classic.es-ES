@@ -7,7 +7,7 @@ hide: true
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '683'
 ht-degree: 100%
 
 ---
@@ -83,7 +83,7 @@ Una vez identificado el objetivo y que se haya creado el primer envío, se debe 
 
    ![](assets/wkf_cross-channel_9.png)
 
-1. En la configuración del filtro, seleccione **[!UICONTROL Recipients who have not opened or clicked (email)]** en la lista desplegable **[!UICONTROL Behavior]** y seleccione el correo electrónico que incluye la oferta que desea enviar desde la lista de envío. Haga clic en **[!UICONTROL Finish]**.
+1. En la configuración del filtro, seleccione **[!UICONTROL Recipients who have not opened or clicked (email)]** en la lista desplegable **[!UICONTROL Behavior]** y seleccione el correo electrónico que incluye la oferta que desea enviar desde la lista de envío. Haga clic **[!UICONTROL Finish]**.
 
    ![](assets/wkf_cross-channel_10.png)
 

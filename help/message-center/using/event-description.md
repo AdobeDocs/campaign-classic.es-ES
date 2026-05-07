@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '749'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '758'
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ Dos métodos SOAP **PushEvent** o **PushEvents** están vinculados a los dos esq
 La ruta WSDL para acceder a ambos métodos es:
 
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** para acceder al esquema de tipo en tiempo real.
-* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** para acceder al esquema de tipo por lote.
+* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** para acceder al esquema de tipo por lotes.
 
 Para obtener más información sobre la generación de un archivo WSDL, consulte [esta sección](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
 
@@ -128,7 +128,7 @@ Se recomienda rellenar los atributos @wishedChannel y @emailFormat con valores n
 
 >[!NOTE]
 >
->Una descripción detallada de todos los atributos autorizados, así como sus valores, están disponibles en la descripción del esquema de datos **nms:rtEvent** y **nms:BatchEvent**.
+>Hay disponible una descripción detallada de todos los atributos autorizados, así como sus valores, en la descripción del esquema de datos **nms:rtEvent** y **nms:BatchEvent**.
 
 El elemento **`<ctx>`** contiene los datos del mensaje. Su contenido XML está abierto, lo que significa que se puede configurar según el contenido que se va a enviar.
 

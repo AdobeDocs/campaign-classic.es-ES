@@ -9,8 +9,8 @@ hide: true
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '2665'
-ht-degree: 78%
+source-wordcount: '2672'
+ht-degree: 76%
 
 ---
 
@@ -97,7 +97,7 @@ Seleccione **[!UICONTROL Accept]** o **[!UICONTROL Reject]** e introduzca un com
 
 ![Página de aprobación con aceptar o rechazar y comentario](assets/s_user_validation_save_target_validation.png)
 
-Haga clic en **[!UICONTROL Validate]**.
+Haga clic **[!UICONTROL Validate]**.
 
 >[!NOTE]
 >
@@ -353,7 +353,7 @@ Esta opción le permite definir a alguien a cargo de la edición de contenido, c
 
 #### Aprobación de contenido externo {#external-content-approval}
 
-Esta opción le permite definir un operador externo encargado de aprobar el procesamiento de la entrega, como coherencia de la comunicación de la marca, tasas, etc. Si se selecciona la opción **[!UICONTROL External content approval]** en la ventana de configuración de aprobación, se añaden varios pasos de aprobación entre la creación de la entrega y la entrega del correo electrónico de notificación a la persona responsable de la campaña:
+Esta opción le permite definir un operador externo encargado de aprobar el procesamiento de la entrega, como coherencia de la comunicación de la marca, tasas, etc. Si se selecciona la opción **[!UICONTROL External content approval]** en la ventana de configuración de aprobación, se añaden varios pasos de aprobación entre la aprobación del contenido y la entrega de la notificación a la persona responsable de la campaña:
 
 1. El administrador de contenido externo recibe un mensaje de correo electrónico de notificación que indica que el contenido se ha aprobado y se solicita la aprobación externa.
 1. El correo electrónico de notificación contiene vínculos a las pruebas enviadas, lo que le permite ver el procesamiento de la entrega, y un botón para aprobar o rechazar el contenido de la entrega.

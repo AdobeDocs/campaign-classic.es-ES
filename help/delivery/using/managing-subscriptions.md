@@ -7,9 +7,9 @@ feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: ht
-source-wordcount: '1106'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1122'
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,7 @@ Puede modificar las características de la suscripción de un destinatario.
 
 ![](assets/s_ncs_user_services_modify.png)
 
-En el tablero, haga clic en la pestaña **[!UICONTROL Reports]** para rastrear las suscripciones: cambios en los niveles de suscripción, número total de suscriptores, etc. Puede archivar informes y mirar los historiales desde esta pestaña.
+En el tablero, haga clic en la pestaña **[!UICONTROL Reports]** para rastrear las suscripciones: cambios en los niveles de suscripción, número total de suscriptores, etc. Puede archivar informes y ver los historiales desde esta pestaña.
 
 ## Adición y eliminación de suscriptores {#adding-and-deleting-subscribers}
 

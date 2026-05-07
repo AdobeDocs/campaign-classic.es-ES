@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '2097'
+workflow-type: tm+mt
+source-wordcount: '2102'
 ht-degree: 100%
 
 ---
@@ -86,7 +86,7 @@ Se obtiene una estructura de árbol que contiene el nuevo entorno:
 
 ### Creación de una categoría de oferta y un tema {#creating-an-offer-category-and-a-theme}
 
-1.  Dentro del entorno que acaba de crear, vaya al nodo **[!UICONTROL Offer catalog]**.
+1. Dentro del entorno que acaba de crear, vaya al nodo **[!UICONTROL Offer catalog]**.
 1. Haga clic con el botón derecho del ratón en el nodo **[!UICONTROL Offer catalog]** y seleccione **[!UICONTROL Create a new 'Offer category' folder]**.
 
    Asigne un nombre a la nueva categoría, por ejemplo, **Productos financieros**.
@@ -325,7 +325,7 @@ En este ejemplo, la identificación de los contactos tiene lugar gracias a la di
 
 Vamos a crear dos categorías independientes: la categoría **Mejor oferta** y la categoría **Socios**, cada una con dos ofertas personalizadas.
 
-1.  En el entorno identificado, vaya al nodo **[!UICONTROL Offer catalogs]**.
+1. En el entorno identificado, vaya al nodo **[!UICONTROL Offer catalogs]**.
 1. En el entorno anónimo, añada dos carpetas de **[!UICONTROL Offer category]** con las etiquetas **Mejor oferta** y **Socio**.
 
    ![](assets/offer_inbound_fallback_example_009.png)

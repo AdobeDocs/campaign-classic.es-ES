@@ -7,12 +7,12 @@ role: User, Developer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
 source-git-commit: 2ebae2b84741bf26dd44c872702dbf3b0ebfc453
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 63%
+source-wordcount: '552'
+ht-degree: 69%
 
 ---
 
-# Avanzado: personalizar registros de envío {#customize-delivery-logs}
+# Avanzado: personalizar registros de entrega {#customize-delivery-logs}
 
 >[!NOTE]
 >

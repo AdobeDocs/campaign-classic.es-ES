@@ -8,7 +8,7 @@ role: User
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 100%
 
   ![](assets/use_case_abtesting_createrecipients_003.png)
 
-## Configuración de la actividad División {#configuring-the-split-activity}
+## Configuración de la actividad división {#configuring-the-split-activity}
 
 Esta actividad permite crear varias poblaciones: la que recibe la entrega A, la que recibe la entrega B y la población restante. El uso de la selección aleatoria permite seleccionar solo parte de la población de cada entrega.
 

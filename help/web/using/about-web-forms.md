@@ -7,8 +7,8 @@ feature: Landing Pages, Web Forms
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ Seleccione la plantilla de formulario web (**[!UICONTROL newWebForm]** de forma 
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-Esto le lleva al panel del formulario.
+Esto le lleva al panel de control del formulario.
 
 ![](assets/webapp_empty_dashboard.png)
 
@@ -66,7 +66,7 @@ Para definir la configuración y el contenido del formulario web, realice los si
 
 ## Acerca del diseño de los formularios web {#about-web-forms-designing}
 
-Las páginas del formulario se crean mediante un editor específico que permite definir y configurar zonas de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido HTML, etc.). Pueden agruparse en contenedores y el diseño puede modificarse para adaptarse a sus necesidades (para más información, consulte).[](defining-web-forms-layout.md#creating-containers)
+Las páginas del formulario se crean mediante un editor específico que permite definir y configurar zonas de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido HTML, etc.). Pueden agruparse en contenedores y el diseño puede modificarse para adaptarse a sus necesidades (para más información, consulte).[&#128279;](defining-web-forms-layout.md#creating-containers)
 
 En las siguientes secciones se detalla cómo definir el contenido y el diseño de las pantallas del formulario:
 
@@ -78,7 +78,7 @@ En las siguientes secciones se detalla cómo definir el contenido y el diseño d
 >[!NOTE]
 >
 >* Durante el diseño de la página, puede ver la renderización final en la pestaña **[!UICONTROL Preview]**. Para ver los cambios, guarde el formulario primero. Todos los errores se muestran en la pestaña **[!UICONTROL Log]**.
->* Para asegurarse de que la visualización de página y el almacenamiento de la información se produzcan en la secuencia adecuada, active el modo de depuración en el formulario web. Para ello, vaya a la subpestaña **[!UICONTROL Preview]** y marque la casilla **[!UICONTROL Enable debug mode]**: todos los datos recopilados y los posibles errores de ejecución se muestran en la parte inferior de cada página.
+>* Para asegurarse de que la visualización de página y el almacenamiento de la información se produzcan en la secuencia adecuada, habilite el modo de depuración en el formulario web. Para ello, vaya a la subpestaña **[!UICONTROL Preview]** y marque la casilla **[!UICONTROL Enable debug mode]**: todos los datos recopilados y los posibles errores de ejecución se muestran en la parte inferior de cada página.
 >
 
 ### Uso de los iconos de la barra de herramientas {#using-the-icons-in-the-toolbar}

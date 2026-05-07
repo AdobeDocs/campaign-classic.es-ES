@@ -7,7 +7,7 @@ hide: true
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '399'
 ht-degree: 96%
 
 ---
@@ -79,7 +79,7 @@ Siga estos pasos:
 
    ![](assets/query_editor_nveau_40.png)
 
-   Haga clic en **[!UICONTROL OK]**. La ventana **[!UICONTROL Data formatting]** está configurada.
+   Haga clic **[!UICONTROL OK]**. La ventana **[!UICONTROL Data formatting]** está configurada.
 
    Para obtener más información sobre la adición de campos calculados, consulte esta sección.
 

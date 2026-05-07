@@ -9,7 +9,7 @@ topic-tags: advanced-parameters
 exl-id: e1d7d7c2-61e7-40d6-a8ce-69bc976f8c73
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '521'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ El vínculo **[!UICONTROL Dynamic offer]** se configura con la ponderación de o
 
 Este vínculo permite enriquecer el perfil del contacto (que ha cargado la consulta predeterminada) con datos adicionales de un sistema externo.
 
-Los datos recopilados deben insertarse en el nodo de datos de llamada (nodo interacción). El integrador debe haber ampliado el esquema de datos de llamada previamente para definir la estructura de los datos recopilados. El usuario puede acceder a estos datos del mismo modo que para los datos de llamadas estándar (a nivel de reglas de idoneidad y de personalización).
+Los datos recopilados deben insertarse en el nodo de datos de llamada (nodo interacción). El integrador debe haber ampliado el esquema de datos de llamada previamente para definir la estructura de los datos recopilados. El usuario puede acceder a estos datos del mismo modo que para los datos de llamadas estándar (a nivel de reglas de elegibilidad y de personalización).
 
 **Parámetros de entrada:**
 
@@ -118,7 +118,7 @@ return aReturnedProps;
 
 ## Oferta dinámica {#dynamic-offer}
 
-Este vínculo permite realizar una llamada a un motor externo para seleccionar una lista de productos vinculados a una oferta. Se configura en la oferta después de las reglas de idoneidad y antes de la aplicación de reglas de tipología.
+Este vínculo permite realizar una llamada a un motor externo para seleccionar una lista de productos vinculados a una oferta. Se configura en la oferta después de las reglas de elegibilidad y antes de la aplicación de reglas de tipología.
 
 Primero, el integrador debe ampliar el esquema **PropositionRcp** de propuestas con la información adicional del producto. Para especificar dónde se van a almacenar los datos, hay un vínculo **[!UICONTROL Proposition being processed]** disponible en la pestaña **[!UICONTROL Storage]** del espacio
 

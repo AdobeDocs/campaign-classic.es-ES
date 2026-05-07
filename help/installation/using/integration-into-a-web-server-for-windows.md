@@ -10,14 +10,14 @@ topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 4%
+source-wordcount: '753'
+ht-degree: 6%
 
 ---
 
 # Integración en un servidor web para Windows {#integration-into-a-web-server-for-windows}
 
-Adobe Campaign SOAP incluye Apache Tomcat, que actúa como punto de entrada en el servidor de aplicaciones a través de HTTP (y el servidor de correo electrónico) (y el servidor de correo electrónico).
+Adobe Campaign incluye Apache Tomcat, que actúa como punto de entrada en el servidor de aplicaciones a través de HTTP (y SOAP).
 
 Puede utilizar este servidor Tomcat integrado para servir solicitudes HTTP.
 
@@ -133,5 +133,5 @@ Por ejemplo, si utiliza una actividad de tipo **Carga de datos (archivo)** en un
 
 En este caso, debe aumentar este límite.
 
-Para obtener más información sobre esta opción de IIS de Microsoft, consulte la sección &quot;HowTo&quot; de la [documentación de Microsoft](https://learn.microsoft.com/en-us/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}.
+Para obtener más información sobre esta opción de IIS de Microsoft, consulte la sección &quot;Cómo...&quot; de la [documentación de Microsoft](https://learn.microsoft.com/en-us/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}.
 

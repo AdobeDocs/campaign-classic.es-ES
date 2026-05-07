@@ -7,8 +7,8 @@ audience: integrations
 content-type: reference
 exl-id: 8cee52c7-ea56-4701-8ebb-eb18afffea51
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '291'
+workflow-type: tm+mt
+source-wordcount: '313'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 ## Acerca de los orígenes y destinos
 
-Con Adobe Experience Platform, puede compartir datos entre Campaign Classic y la plataforma de datos del cliente en tiempo real de Adobe (RTCDP). Esto le permite dirigirse a las audiencias de Adobe Experience Platform en sus flujos de trabajo de Campaign y, a continuación, enviar los datos de la plataforma de datos del cliente en tiempo real de Adobe relacionados con estas audiencias, como envíos, aperturas y clics.
+Con Adobe Experience Platform, puede compartir datos entre Campaign Classic y la plataforma de datos del cliente en tiempo real de Adobe (RTCDP). Esto le permite dirigirse a los públicos de Adobe Experience Platform en sus flujos de trabajo de Campaign y, a continuación, enviar los datos de la plataforma de datos del cliente en tiempo real de Adobe relacionados con estos públicos, como envíos, aperturas y clics.
 
-* Con **Destinos**, introduzca audiencias de Adobe Experience Platform en Campaign Classic. Esto le permite activar los datos conocidos y desconocidos para sus campañas de marketing.
+* Con **Destinos**, introduzca públicos de Adobe Experience Platform en Campaign Classic. Esto le permite activar los datos conocidos y desconocidos para sus campañas de marketing.
 * Con **Orígenes**, exporte los datos de Campaign Classic (por ejemplo, envíos, aperturas, clics) a Adobe Experience Platform. Esto le permite centralizar los datos que recopila de orígenes diferentes en un solo lugar y utilizar las perspectivas obtenidas de él para hacer más.
 
 >[!IMPORTANT]
@@ -30,9 +30,9 @@ Con Adobe Experience Platform, puede compartir datos entre Campaign Classic y la
 
 Para obtener una descripción más detallada de la plataforma de datos del cliente en tiempo real de Adobe, los destinos y los orígenes, consulte estas páginas:
 
-* [Plataforma de datos del cliente en tiempo real de Adobe](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es)
-* [Documentación de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es)
-* [Documentación de orígenes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es)
+* [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es)
+* [Documentación sobre los destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es)
+* [Documentación sobre los orígenes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=es)
 
 ## Conectar Campaign Classic con Adobe Experience Platform
 

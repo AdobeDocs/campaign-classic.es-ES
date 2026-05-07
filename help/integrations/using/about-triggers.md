@@ -9,8 +9,8 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '398'
+workflow-type: tm+mt
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ Para implementar Campaign y los activadores de Experience Cloud, siga estos paso
 
 1. Añada las credenciales del proyecto OAuth en Adobe Campaign. [Más información](oauth-technical-account.md#add-credentials)
 
-1. Actualice el tipo de autenticación en el proyecto de Developer Console en el archivo de configuración **config-&lt; instance-name >.xml** como sigue:
+1. Actualice el tipo de autenticación en el proyecto de Developer Console en el archivo de configuración **config-&lt; nombre_instancia >.xml** como sigue:
 
    ```
    <pipelined ... authType="imsJwtToken"  ... />

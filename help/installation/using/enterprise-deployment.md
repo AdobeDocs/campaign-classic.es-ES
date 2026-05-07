@@ -9,7 +9,7 @@ topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1251'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,7 @@ Mayores costes de hardware y administración.
 ### Equipo recomendado {#recommended-equipment}
 
 * Servidores de aplicaciones: CPU de núcleo cuádruple a 2 GHz, 4 GB de RAM, RAID de software, disco duro SATA de 80 GB.
-* Servidores de redirección: CPU de núcleo cuádruple a 2 GHz, 4 GB de RAM, disco duro SATA de 80 GB RAID por software.
+* Servidores de redirección: CPU de núcleo cuádruple a 2 GHz, 4 GB de RAM, RAID de software, disco duro SATA de 80 GB.
 
 >[!NOTE]
 >
@@ -59,8 +59,8 @@ Mayores costes de hardware y administración.
 * Buzón de rechazos accesible a través de POP3,
 * Creación de dos alias DNS en el equilibrador de carga:
 
-   * VIP la primera expuesta al público para el seguimiento y señalamiento del equilibrador de carga en una dirección IP virtual () y que luego se distribuye a los dos servidores frontales,
-   * VIP el segundo expuesto a los usuarios internos para el acceso a través de la consola y que apunta a un equilibrador de carga en una dirección IP virtual () y que luego se distribuye a los dos servidores de aplicaciones.
+   * el primero expuesto al público para el seguimiento y que apunta al equilibrador de carga en una dirección IP virtual (VIP) y que luego se distribuye a los dos servidores frontales,
+   * el segundo expuesto a los usuarios internos para el acceso a través de la consola y que apunta a un equilibrador de carga en una dirección IP virtual (VIP) y que luego se distribuye a los dos servidores de aplicaciones.
 
 * Firewall configurado para abrir STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 para Oracle, 5432 para PostgreSQL, etc.) puertos. Para obtener más información, consulte la sección [Acceso a la base de datos](../../installation/using/network-configuration.md#database-access).
 

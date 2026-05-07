@@ -6,8 +6,8 @@ feature: Transactional Messaging, Message Center, Architecture
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 100%
+source-wordcount: '1104'
+ht-degree: 98%
 
 ---
 
@@ -73,7 +73,7 @@ El canal de correo electrónico está disponible de forma predeterminada. Para e
 
 >[!IMPORTANT]
 >
->La adición de un canal de entrega (canal móvil, canal de aplicación móvil, etc.) debe realizarse antes de instalar el paquete de mensajes transaccionales.
+>Adición de un canal de entrega (canal móvil, canal de aplicación móvil, etc.) debe realizarse antes de instalar el paquete de mensajes transaccionales.
 
 ### Adición de un canal de entrega {#adding-a-delivery-channel}
 
@@ -86,7 +86,7 @@ Si ha iniciado un proyecto de mensajería transaccional en el canal de correo el
 >Este procedimiento solo se aplica a los clientes que utilizan un servidor NLServer de Windows instalado en el mismo equipo en el que están trabajando.
 
 1. Instale el canal que necesita, por ejemplo, el **Canal móvil**, mediante el asistente de importación de paquetes (**[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]**).
-1. Realice una importación de archivos (**[!UICONTROL Tools > Advanced > Import package... > File]**) y seleccione el archivo **datakitnms **`[Your language]`**packagemessageCenter.xml**.
+1. Realice una importación de archivos (**[!UICONTROL Tools > Advanced > Import package... > File]**) y seleccione el archivo **datakitnms &#x200B;**`[Your language]`**packagemessageCenter.xml**.
 1. En **[!UICONTROL XML content of the data to import]**, conserve solo la plantilla de envíos que corresponde al canal añadido. Por ejemplo, si ha añadido el **canal móvil**, conserve solamente el elemento **entidades** que corresponda a **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). Si ha añadido el **canal de aplicación móvil**, mantenga únicamente el **mensaje transaccional de iOS** (iosTriggerMessage) y el **mensaje transaccional de Android** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
@@ -218,7 +218,7 @@ A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** >
    * **[!UICONTROL Type]**: Seleccione **[!UICONTROL External database]**.
    * La casilla “Habilitada” debe estar seleccionada.
 
-   De la categoría **[!UICONTROL Connection]**:
+   Desde la categoría **[!UICONTROL Connection]**:
 
    * **[!UICONTROL Type]**: Seleccione **[!UICONTROL HTTP relay to remote Database]**.
    * **[!UICONTROL Server]** : introduzca la URL del servidor de la campaña de la instancia de ejecución.
@@ -234,13 +234,13 @@ A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** >
    * **[!UICONTROL Type]**: Seleccione **[!UICONTROL Execution instance]**.
    * La casilla “Habilitada” debe estar seleccionada.
 
-   Desde la categoría **[!UICONTROL Connection]**:
+   De la categoría **[!UICONTROL Connection]**:
 
    * **[!UICONTROL URL]**: introduzca la URL de la instancia de ejecución.
    * **[!UICONTROL Account]**: introduzca la cuenta utilizada para acceder a la instancia de ejecución.
    * **[!UICONTROL Password]** : introduzca la contraseña de la cuenta utilizada para acceder a la instancia de ejecución.
 
-   Desde la categoría **[!UICONTROL Account connection method]**:
+   De la categoría **[!UICONTROL Account connection method]**:
 
    * **[!UICONTROL Method]**: Seleccione **[!UICONTROL Federated Data Access (FDA)]**.
    * **[!UICONTROL FDA account]** : seleccione su cuenta de FDA de la lista desplegable.

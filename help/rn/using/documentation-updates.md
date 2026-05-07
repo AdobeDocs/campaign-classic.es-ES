@@ -10,7 +10,7 @@ exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Como parte de una iniciativa de promoción de la versión 8 de Campaign, hemos r
 
 Los estados de la versión se han reducido y simplificado. [Más información](rn-overview.md)
 
-Se ha actualizado la instalación de los paquetes Linux de la versión 7.4.1. [Más información](../../installation/using/installing-packages-with-linux.md)
+La instalación de paquetes Linux se ha actualizado para la versión 7.4.1. [Más información](../../installation/using/installing-packages-with-linux.md)
 
 ### Junio de 2024 {#june-2024}
 
@@ -61,7 +61,7 @@ La sección de configuración de la aplicación móvil se ha actualizado para la
 
 Se ha añadido información sobre cómo se define el campo Dirección postal predeterminado para el correo directo y por qué es importante asegurarse de que las direcciones estén completas. [Más información](../../delivery/using/about-direct-mail-channel.md)
 
-Se ha añadido una nueva página sobre cómo configurar el canal SMS en Campaign en una infraestructura intermediaria.  [Más información](../../delivery/using/sms-set-up-mid.md)
+Se ha añadido una nueva página sobre cómo configurar el canal SMS en Campaign en una infraestructura intermediaria. [Más información](../../delivery/using/sms-set-up-mid.md)
 
 ## 2023
 

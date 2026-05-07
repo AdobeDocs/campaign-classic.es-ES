@@ -9,7 +9,7 @@ topic-tags: deployment-types-
 exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '380'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ La comunicación general entre servidores y procesos se realiza según el siguie
 ![](assets/s_ncs_install_midsourcing.png)
 
 * Los módulos de administración de ejecución y rechazos están desactivados en la instancia.
-* SOAP La aplicación está configurada para ejecutar mensajes en un servidor &quot;intermediario&quot; remoto que se gestiona mediante llamadas de (por HTTP o HTTPS).
+* La aplicación está configurada para ejecutar mensajes en un servidor &quot;intermediario&quot; remoto que se administra mediante llamadas de SOAP (a través de HTTP o HTTPS).
 
 ## Funciones {#features}
 

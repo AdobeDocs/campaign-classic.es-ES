@@ -7,8 +7,8 @@ feature: Workflows
 role: User
 exl-id: bc6ebf5d-cc21-4750-9713-2bf259e7d6bf
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '1201'
+workflow-type: tm+mt
+source-wordcount: '1229'
 ht-degree: 100%
 
 ---
@@ -217,7 +217,7 @@ La acción final de la actividad es la preparación y el inicio de la entrega.
 Si el contenido de su entrega está disponible en un archivo HTML ubicado en los servidores FTP o SFTP, puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=es){target="_blank"}.
 
 
-### Importación de contenido desde el conector Amazon Simple Storage Service (S3)  {#importing-content-from-amazon-simple-storage-service--s3--connector}
+### Importación de contenido desde el conector Amazon Simple Storage Service (S3) {#importing-content-from-amazon-simple-storage-service--s3--connector}
 
 Si el contenido de su entrega está ubicado en bloques de Amazon Simple Storage Service (S3), puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=es){target="_blank"}.
 

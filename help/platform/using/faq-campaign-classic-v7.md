@@ -6,10 +6,11 @@ feature: Overview, Troubleshooting
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-source-git-commit: 8d9bb9d2ff4450646bbf218804b8c8b4459b5a91
+exl-id: 89356b5a-d99c-43d1-892b-5a1d003e76cc
+source-git-commit: c1796e5f827b79f72a07eb07886d345d3b897f86
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 3%
+source-wordcount: '1517'
+ht-degree: 8%
 
 ---
 
@@ -41,7 +42,7 @@ Cada modelo de implementación tiene diferentes capacidades y responsabilidades 
 
 +++
 
-+++ ¿Cuáles son las diferencias entre trabajar On-Premise y en un entorno alojado?{#what-are-the-differences-when-working-on-premise-vs-in-a-hosted-environment}
++++ ¿Cuáles son las diferencias entre trabajar On-Premise y en un entorno alojado? {#what-are-the-differences-when-working-on-premise-vs-in-a-hosted-environment}
 
 Adobe Campaign Classic v7 incluye un conjunto de módulos y opciones. La disponibilidad de estos módulos y su configuración dependen del [tipo de implementación](../../installation/using/hosting-models.md) de la instalación: alojado (Managed Services), híbrido o local.
 
@@ -253,6 +254,6 @@ Consulte las [**Preguntas frecuentes completas sobre la versión 8 de Campaign**
 **Comunidad y soporte técnico:**
 
 * [Foros de la comunidad Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){target="_blank"}
-* [Soporte de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
+* [Asistencia de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
 +++

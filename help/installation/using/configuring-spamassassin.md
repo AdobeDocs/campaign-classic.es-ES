@@ -10,8 +10,8 @@ topic-tags: additional-configurations
 exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 1%
+source-wordcount: '1027'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Algunas configuraciones solo se pueden realizar mediante el Adobe para implementaciones alojadas por el Adobe. Por ejemplo, para acceder a los archivos de configuración del servidor y de la instancia. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
+>Algunas configuraciones solo las puede realizar Adobe para implementaciones alojadas en Adobe. Por ejemplo, para acceder a los archivos de configuración del servidor y de la instancia. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
 
 ## Información general {#overview}
 

@@ -94,7 +94,7 @@ La secuencia en la que se definen `<attribute>` elementos en un `<srcschema>` no
   Cuando se define una característica en un esquema, este debe tener una clave principal basada en un único campo (las claves compuestas no están autorizadas).
 
 * **featureDate (booleano)**: atributo vinculado al campo de características &quot;@feature&quot;. Si su valor es &quot;true&quot;, le permite averiguar cuándo se actualizó el valor por última vez.
-* **img (cadena)**: permite definir una ruta para una imagen vinculada a un campo (área de nombres + nombre de imagen) (ejemplo: img=&quot;cus:mypicture.jpg&quot;). Físicamente, la imagen debe importarse al servidor de aplicaciones.
+* **img (cadena)**: permite definir una ruta para una imagen vinculada a un campo (área de nombres + nombre de imagen)(ejemplo: img=&quot;cus:mypicture.jpg&quot;). Físicamente, la imagen debe importarse al servidor de aplicaciones.
 * **label (cadena)**: etiqueta vinculada al campo, destinada principalmente al usuario en la interfaz. Permite evitar restricciones de nomenclatura.
 * **length (string)**: max. número de caracteres para un valor del campo SQL de tipo &quot;cadena&quot;. Si no se especifica el atributo &quot;@length&quot;, Adobe Campaign crea automáticamente un campo de 255 caracteres.
 * **localizable (booleano)**: si está activado, este atributo indica a la herramienta de recopilación que recupere el valor del atributo &quot;@label&quot; para su traducción (uso interno).
@@ -145,7 +145,7 @@ La secuencia en la que se definen `<attribute>` elementos en un `<srcschema>` no
    * flotante
    * html
    * int64
-   * vincular
+   * vínculo
    * largo
    * nota
    * MNTOKEN

@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Configuración del acceso a Oracle
-description: Obtenga información sobre cómo configurar el acceso al Oracle en FDA
+description: Obtenga información sobre cómo configurar el acceso a Oracle en FDA
 feature: Installation, Federated Data Access
 audience: platform
 content-type: reference
@@ -9,8 +9,8 @@ topic-tags: connectors
 exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
 source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 71%
+source-wordcount: '347'
+ht-degree: 63%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 71%
 
 
 
-Utilice la opción [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) de Campaign para procesar la información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso al Oracle.
+Utilice la opción [Acceso de datos federado](../../installation/using/about-fda.md) (FDA) de Campaign para procesar la información almacenada en bases de datos externas. Siga los pasos a continuación para configurar el acceso a Oracle.
 
 1. Configurar Oracle en [Linux](#oracle-linux) o [Windows](#azure-windows)
-1. Configuración del Oracle [cuenta externa](#oracle-external) en Campaign
+1. Configurar la [cuenta externa](#oracle-external) de Oracle en Campaign
 
 ## Oracle en Linux {#oracle-linux}
 
@@ -71,13 +71,13 @@ La conexión a una base de datos externa de Oracle en FDA requiere ciertas confi
 
 1. Instale el cliente Oracle.
 
-1. En la carpeta C:\Oracle, cree un archivo **tnsnames.ora** con la definición de TNS.
+1. En la carpeta C:Oracle, cree un archivo **tnsnames.ora** que contenga su definición de TNS.
 
-1. Añada una variable de entorno TNS_ADMIN con C:\Oracle como valor y reinicie el equipo.
+1. Agregue una variable de entorno TNS_ADMIN con C:Oracle como valor y reinicie el equipo.
 
 1. En Campaign Classic, puede configurar la cuenta externa [!DNL Oracle]. Para obtener más información sobre cómo configurar su cuenta externa, consulte [esta sección](#oracle-external).
 
-## cuenta externa de oracle {#oracle-external}
+## Cuenta externa de Oracle {#oracle-external}
 
 La cuenta externa [!DNL Oracle] permite conectar la instancia de Campaign a la base de datos externa de Oracle.
 

@@ -6,9 +6,9 @@ feature: Reporting, Monitoring
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '347'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ Para exportar datos de la base de datos de Adobe Campaign, debe crear un flujo d
 
 Adobe Campaign proporciona varias herramientas de sistema de informes:
 
-1. **Built-in reports**: Adobe Campaign ofrece un conjunto de informes sobre envíos, campañas, actividades de plataforma, funcionalidades opcionales, etc. Estos informes están disponibles a través de las diversas funciones a las que se refieren. Pueden adaptarse a sus necesidades específicas.
+1. **Informes integrados**: Adobe Campaign ofrece un conjunto de informes sobre envíos, campañas, actividades de la plataforma, funcionalidades opcionales, etc. Estos informes están disponibles a través de las diversas funcionalidades a las que se refieren. Pueden adaptarse a sus necesidades específicas.
 
    Para obtener más información, consulte [esta sección](../../reporting/using/about-campaign-built-in-reports.md).
 

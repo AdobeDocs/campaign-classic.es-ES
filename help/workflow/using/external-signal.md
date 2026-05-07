@@ -8,7 +8,7 @@ exl-id: da84d3ff-1e64-45ef-bef0-da4a24d93461
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 La actividad **External signal** permite activar la ejecución de un conjunto de tareas en un flujo de trabajo a una programación.
 
-Cuando se activa una tarea de “Señal externa”, se pone en pausa indefinidamente o hasta el final del periodo especificado. La transición se activa mediante la llamada de SOAP **PostEvent(sessionToken, workflowId, activity, transition, parameters, complete).** El parámetro **[!UICONTROL complete]** permite finalizar la tarea, por lo que no reaccionará a las llamadas posteriores.
+Cuando se activa una tarea de “Señal externa”, se pone en pausa indefinidamente o hasta el final del periodo especificado. Su transición se activa mediante la llamada de SOAP **PostEvent(sessionToken, workflowId, activity, transition, parameters, complete).** El parámetro **[!UICONTROL complete]** permite finalizar la tarea, por lo que no reaccionará a las llamadas posteriores.
 
 Consulte la documentación en línea sobre las llamadas SOAP para obtener más información sobre la función PostEvent.
 

@@ -10,8 +10,8 @@ topic-tags: data-processing
 exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 3%
+source-wordcount: '1333'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Si no tiene acceso al servidor y a la base de datos (entornos alojados), no podrá realizar los procedimientos que se describen a continuación. Póngase en contacto con el Adobe.
+>Si no tiene acceso al servidor y a la base de datos (entornos alojados), no podrá realizar los procedimientos que se describen a continuación. Póngase en contacto con Adobe.
 
 El uso de Adobe Campaign requiere la instalación y configuración de uno o más entornos: desarrollo, prueba, preproducción, producción, etc.
 
@@ -37,7 +37,7 @@ Para ello, siga los siguientes pasos:
 
 1. Crear una copia de las bases de datos en todas las instancias del entorno de origen.
 1. Restaurar estas copias en todas las instancias del entorno de destino.
-1. Ejecute el script de cauterización **nms:congelaciónInstance.js** en el entorno de destino antes de iniciarlo.
+1. Ejecute el script de cauterización **nms:freezeInstance.js** en el entorno de destino antes de iniciarlo.
 
    Este proceso no afecta a los servidores ni a su configuración.
 
@@ -145,7 +145,7 @@ También puede comprobar que no hay procesos del sistema en ejecución.
 Para ello, utilice el proceso siguiente:
 
 * En Windows: abra el **Administrador de tareas** y compruebe que no haya procesos de **nlserver.exe**.
-* En Linux: ejecute **ps aux | comando grep nlserver** y compruebe que no haya procesos **nlserver**.
+* En Linux: ejecute **ps aux | grep nlserver** y compruebe que no haya **nlserver** procesos.
 
 ### Paso 4: Restauración de las bases de datos en el entorno de destino (dev) {#step-4---restore-the-databases-in-the-target-environment--dev-}
 

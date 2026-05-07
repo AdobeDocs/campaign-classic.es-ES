@@ -10,8 +10,8 @@ topic-tags: database-maintenance
 exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
 source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 1%
+source-wordcount: '1165'
+ht-degree: 3%
 
 ---
 
@@ -48,7 +48,7 @@ La siguiente lista contiene únicamente las tablas que están más sujetas a fra
    <td> NmsDeliveryPart<br /> </td> 
    <td> Medium<br /> </td> 
    <td> Inserciones, actualizaciones y eliminaciones<br /> </td> 
-   <td> Tabla de trabajo en la que se insertan los registros durante la preparación de la entrega. A continuación, se actualizan durante la entrega y, finalmente, se eliminan una vez finalizada la entrega.<br /> Esta tabla tiende a fragmentarse rápidamente aunque su tamaño medio sea bastante limitado.<br /> </td> 
+   <td> Tabla de trabajo en la que se insertan los registros durante la preparación de la entrega. Luego se actualizan durante la entrega y finalmente se eliminan una vez que se completa la entrega.<br /> Esta tabla tiende a fragmentarse rápidamente aunque su tamaño medio sea bastante limitado.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsMirrorPageInfo<br /> </td> 

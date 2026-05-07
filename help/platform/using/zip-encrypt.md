@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 99%
 
 ---
 

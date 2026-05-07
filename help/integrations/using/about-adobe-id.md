@@ -9,7 +9,7 @@ topic-tags: connecting-via-an-adobe-id
 exl-id: 8dad8fa9-674c-433c-af30-8c6d0aadf525
 source-git-commit: ffab91fc9fa7e60973fdda930239f5836671a341
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '194'
 ht-degree: 100%
 
 ---
@@ -52,4 +52,4 @@ Los usuarios de Campaign pueden conectarse a la consola de Adobe Campaign con su
 |---|---|
 | [Configuración de IMS](../../integrations/using/configuring-ims.md) | [Preguntas frecuentes sobre Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=es) |
 | [Implementación de IMS](../../integrations/using/implementing-ims.md) | [Gestión de acceso](../../platform/using/access-management.md) |
-| [Solución de problemas de IMS](../../integrations/using/ims-troubleshooting.md) | [Instalación de paquetes de Campaign](../../installation/using/installing-campaign-standard-packages.md) |
+| [Solución de problemas de IMS](../../integrations/using/ims-troubleshooting.md) | [Instalación de paquetes de campañas](../../installation/using/installing-campaign-standard-packages.md) |

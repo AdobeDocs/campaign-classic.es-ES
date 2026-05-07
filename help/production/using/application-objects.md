@@ -9,8 +9,8 @@ topic-tags: database-maintenance
 exl-id: fb4798d7-0a2c-455b-86b6-3dcb5fd25c82
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 1%
+source-wordcount: '523'
+ht-degree: 8%
 
 ---
 
@@ -40,7 +40,7 @@ Este método también resalta a los usuarios que crean demasiados objetos.
 
 ## Envíos {#deliveries}
 
-Debe haber menos de 1000 envíos en la instancia en cualquier momento. Tener muchos envíos consume espacio en la base de datos y crea problemas. Una instancia que crea más de 10 envíos por día debe comprobarse con los requisitos comerciales. Considere utilizar envíos continuos para crear menos envíos. Para obtener más información, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/continuous-delivery.html?lang=es){target="_blank"}.
+Debe haber menos de 1000 envíos en la instancia en cualquier momento. Tener muchos envíos consume espacio en la base de datos y crea problemas. Una instancia que crea más de 10 envíos por día debe comprobarse con los requisitos comerciales. Considere utilizar envíos continuos para crear menos envíos. Para obtener más información, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/continuous-delivery.html?lang=es){target="_blank"}.
 
 Las entregas de más de dos años deben purgarse de la instancia.
 
@@ -56,6 +56,6 @@ Si un flujo de trabajo importa archivos y no utiliza las funciones estándar, de
 
 Cada flujo de trabajo que importa datos en Adobe Campaign hace que el tamaño de la base de datos aumente. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=es){target="_blank"}.
 
-Compruebe que los flujos de trabajo de limpieza o depuración se estén ejecutando y purguen los registros de forma eficaz. Se deben purgar todos los datos transaccionales y los registros. La tarea de limpieza depura solo las tablas estándar: seguimiento y registros generales. Flujos de trabajo específicos deben depurar tablas específicas. consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=es){target="_blank"}.
+Compruebe que los flujos de trabajo de limpieza o depuración se estén ejecutando y purguen los registros de forma eficaz. Se deben purgar todos los datos transaccionales y los registros. La tarea de limpieza depura solo las tablas estándar: seguimiento y registros generales. Flujos de trabajo específicos deben depurar tablas específicas. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=es){target="_blank"}.
 
 Compruebe los datos transaccionales de caducidad comprobando la fecha de creación más antigua de los registros.

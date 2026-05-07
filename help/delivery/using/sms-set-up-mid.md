@@ -7,8 +7,8 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 6987cb5e-8821-4619-b0e4-f0fad3355bfb
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '982'
+workflow-type: tm+mt
+source-wordcount: '1008'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Para iniciar el proceso de configuración, debe crear un operador SMS en el serv
 
    ![](assets/sms_operator_mid_3.png)
 
-1. Especifique los **[!UICONTROL Identification parameters]** del usuario, incluidos su nombre de inicio de sesión, contraseña y nombre.  El nombre de inicio de sesión y la contraseña son necesarios para que el operador inicie sesión en Adobe Campaign de forma segura.
+1. Especifique los **[!UICONTROL Identification parameters]** del usuario, incluidos su nombre de inicio de sesión, contraseña y nombre. El nombre de inicio de sesión y la contraseña son necesarios para que el operador inicie sesión en Adobe Campaign de forma segura.
 
    Tenga en cuenta que el **[!UICONTROL Name (login)]** se utilizará más adelante para asignar un nombre a la cuenta externa SMPP en el servidor intermediario.
 
@@ -160,7 +160,7 @@ Para enviar mensajes a través del canal SMS, debe crear una plantilla que inclu
 
 Para conservar la plantilla de envíos nativa, recomendamos que la duplique y, a continuación, la configure.
 
-En el ejemplo siguiente, generamos una plantilla para facilitar el envío de mensajes a través de la cuenta SMPP creada anteriormente.  Para ello, haga lo siguiente:
+En el ejemplo siguiente, generamos una plantilla para facilitar el envío de mensajes a través de la cuenta SMPP creada anteriormente. Para ello, haga lo siguiente:
 
 1. En el nodo **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** del árbol, haga clic con el botón derecho en la plantilla **[!UICONTROL Send to mobiles]** y seleccione **[!UICONTROL Duplicate]**.
 

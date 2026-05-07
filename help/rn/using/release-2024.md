@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8e20391d-3628-4d0c-b413-c34e046ae810
 source-git-commit: bf45c8bcdd41e614f9be09bc0fd6385707159841
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '410'
+ht-degree: 94%
 
 ---
 
@@ -32,7 +32,7 @@ _18 de junio de 2024_
 
 La [matriz de compatibilidad para Adobe Campaign](compatibility-matrix.md) se ha actualizado con los cambios que se proporcionan con esta nueva versión y se enumeran a continuación.
 
-* Adobe Campaign ahora es compatible con **Microsoft Server 2022** como sistema operativo. 
+* Adobe Campaign ahora es compatible con **Microsoft Server 2022** como sistema operativo.
 * Adobe Campaign ahora es compatible con **RHEL 9** como sistema operativo.
 
   >[!CAUTION]
@@ -48,7 +48,7 @@ La [matriz de compatibilidad para Adobe Campaign](compatibility-matrix.md) se ha
 
   Mientras tanto, para garantizar la continuidad del servicio, Campaign v7.4 incluye:
 
-   * un nuevo SDK de Campaign 1.0.27 para iOS, compatible con iOS 16 y 17, y los últimos [requisitos de solicitud de privacidad de Apple iOS](https://developer.apple.com/news/?id=r1henawx){target="_blank"}.
+   * una nueva versión de Campaign SDK 1.0.27 para iOS, compatible con iOS 16 y 17, y los [requisitos más recientes de solicitud de privacidad de Apple iOS](https://developer.apple.com/news/?id=r1henawx){target="_blank"}.
    * un nuevo SDK de Campaign para Android 14.
 
 ### Otros cambios {#release-7-4-1-other}

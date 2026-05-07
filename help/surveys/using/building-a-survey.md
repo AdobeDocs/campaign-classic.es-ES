@@ -7,8 +7,8 @@ feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 100%
+source-wordcount: '798'
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ Seleccione la plantilla de encuesta (**[!UICONTROL newSurvey]** de forma predete
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-Las páginas del formulario se crean utilizando un editor especial que permite definir y configurar campos de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido HTML, etc.). Se pueden recopilar en “contenedores” y mostrar según los requisitos. [Más información](#adding-questions)).
+Las páginas del formulario se crean mediante un editor especial que permite definir y configurar campos de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido de HTML, etc.). Se pueden recopilar en “contenedores” y mostrar según los requisitos. [Más información](#adding-questions)).
 
 >[!NOTE]
 >

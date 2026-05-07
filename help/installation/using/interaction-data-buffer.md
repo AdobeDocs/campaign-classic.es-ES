@@ -9,7 +9,7 @@ topic-tags: additional-configurations
 exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '301'
 ht-degree: 14%
 
 ---
@@ -24,7 +24,7 @@ En Adobe Campaign, se ha incluido una **zona de búfer de datos** en el módulo 
 
 Solo afecta a la interacción entrante, ya sea mediante una llamada (con o sin datos de llamada) o mediante una actualización de estado (updateStatus).
 
-Para evitar una cola al escribir propuestas relacionadas con un destinatario, un nuevo proceso w genera una **zona de búfer de datos** que permite que las propuestas se **escriban de forma asincrónica**. Esta zona de búfer de datos se lee y se vacía periódicamente. El periodo predeterminado es de aproximadamente un segundo. Por lo tanto, la escritura de propuestas se agrupa.
+Para evitar una cola al escribir propuestas relacionadas con un destinatario, un nuevo proceso w genera una **zona de búfer de datos** que permite que las propuestas se **escriban de forma asincrónica**. Esta zona de búfer de datos se lee y se vacía periódicamente. El período predeterminado es de aproximadamente un segundo.Por lo tanto, la redacción de propuestas está agrupada.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ La zona de búfer de datos **configuration** se puede realizar en el archivo de 
 
 >[!CAUTION]
 >
->Algunas configuraciones solo se pueden realizar mediante el Adobe para implementaciones alojadas por el Adobe. Por ejemplo, para acceder a los archivos de configuración del servidor y de la instancia. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
+>Algunas configuraciones solo las puede realizar Adobe para implementaciones alojadas en Adobe. Por ejemplo, para acceder a los archivos de configuración del servidor y de la instancia. Para obtener más información sobre las diferentes implementaciones, consulte la sección [Modelos de alojamiento](../../installation/using/hosting-models.md) o [esta página](../../installation/using/capability-matrix.md).
 >
 >Cualquier cambio realizado en la configuración requiere el reinicio del servidor web (Apache:IIS) y de los procesos de Adobe Campaign.\
 >Después de configurar la zona de búfer de datos, asegúrese de que haya disponible una configuración de hardware adaptada. (cantidad de memoria presente).

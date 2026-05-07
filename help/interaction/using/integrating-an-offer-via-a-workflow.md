@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '1044'
+workflow-type: tm+mt
+source-wordcount: '1077'
 ht-degree: 100%
 
 ---
@@ -87,7 +87,7 @@ Después de configurar la consulta (consulte la [documentación de Campaign v8](
 
      ![](assets/int_enrichment_offer4.png)
 
-1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
+1. A continuación, configure una actividad de envío que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
 
    >[!NOTE]
    >
@@ -99,7 +99,7 @@ También puede hacer referencia a un vínculo de oferta en una actividad de enri
 
 Para ello, utilice el proceso siguiente:
 
-1.  En la pestaña **[!UICONTROL Enrichment]** de la actividad, seleccione **[!UICONTROL Add data]**.
+1. En la pestaña **[!UICONTROL Enrichment]** de la actividad, seleccione **[!UICONTROL Add data]**.
 1. En la ventana donde se elige el tipo de datos a añadir, seleccione **[!UICONTROL A link]**.
 1. Seleccione el tipo de vínculo que desea establecer y su destino. En este caso, el destino es el esquema de oferta.
 
@@ -109,7 +109,7 @@ Para ello, utilice el proceso siguiente:
 
    ![](assets/int_enrichment_link2.png)
 
-1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
+1. A continuación, configure una actividad de envío que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
 
    >[!NOTE]
    >
@@ -117,7 +117,7 @@ Para ello, utilice el proceso siguiente:
 
 ### Almacenamiento de calificaciones y consideraciones de oferta {#storing-offer-rankings-and-weights}
 
-De forma predeterminada, cuando se utiliza una actividad de **enriquecimiento** para entregar ofertas, sus calificaciones y sus consideraciones no se almacenan en la tabla de propuestas.
+De forma predeterminada, cuando se utiliza una actividad de **enriquecimiento** para entregar ofertas, sus calificaciones y sus consideraciones no se almacenan en la lista de propuestas.
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ De forma predeterminada, cuando se utiliza una actividad de **enriquecimiento** 
 
 Sin embargo, se puede almacenar esta información de la siguiente manera:
 
-1. Cree un recurso al motor de oferta en una actividad de enriquecimiento colocada después de una consulta y antes de una actividad de entrega. Consulte la sección [Especificación de una oferta o acceso al motor de ofertas](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine). 
+1. Cree una llamada al motor de oferta en una actividad de enriquecimiento colocada después de una consulta y antes de una actividad de entrega. Consulte la sección [Especificación de una oferta o acceso al motor de ofertas](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine).
 1. En la ventana principal de la actividad, seleccione **[!UICONTROL Edit additional data...]**
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -157,7 +157,7 @@ Después de configurar la consulta (consulte la [guía sobre flujos de trabajo](
 
    ![](assets/int_offerengine_activity1.png)
 
-1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
+1. A continuación, configure una actividad de envío que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
 
 ## Ofertas por celda {#offers-by-cell}
 
@@ -174,4 +174,4 @@ Para ello, utilice el proceso siguiente:
 
      ![](assets/int_offer_per_cell1.png)
 
-1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
+1. A continuación, configure una actividad de envío que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).

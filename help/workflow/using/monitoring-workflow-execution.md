@@ -7,7 +7,7 @@ hide: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2040'
 ht-degree: 100%
 
 ---
@@ -251,7 +251,7 @@ Estos periodos se pueden configurar mediante la opción NmsServer_PausedWorkflow
 
 Se notifica a los supervisores del flujo de trabajo. También reciben una notificación el creador y el último usuario que modificó el flujo de trabajo. Los administradores no reciben notificaciones.
 
-## Filtrado de flujos de trabajo según su estado{#filtering-workflows-status}
+## Filtrado de flujos de trabajo según su estado {#filtering-workflows-status}
 
 La interfaz de Campaign Classic permite monitorizar el estado de ejecución de todos los flujos de trabajo de la instancia mediante **vistas** predefinidas. Para acceder a estas vistas, abra el nodo **[!UICONTROL Administration]** / **[!UICONTROL Audit]** / **[!UICONTROL Workflows Status]**.
 

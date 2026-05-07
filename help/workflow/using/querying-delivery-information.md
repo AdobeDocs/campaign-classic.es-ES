@@ -7,7 +7,7 @@ hide: true
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1260'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
      ![](assets/query_editor_nveau_18.png)
 
-     Haga clic en **[!UICONTROL Next]**.
+     Haga clic **[!UICONTROL Next]**.
 
    * Seleccione el campo **[!UICONTROL Primary key (@id)]**. Se configura la columna de salida **[!UICONTROL count (primary key)]**.
 
@@ -82,7 +82,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
      Seleccione el operador **[!UICONTROL greater than]**. En la columna **[!UICONTROL Value]**, haga clic en **[!UICONTROL Edit expression]** y, en la ventana **[!UICONTROL Formula type]**, seleccione **[!UICONTROL Process on dates]**. Finalmente, en **[!UICONTROL Current date minus n days]**, escriba &quot;15&quot;.
 
-     Haga clic en **[!UICONTROL Finish]**.
+     Haga clic **[!UICONTROL Finish]**.
 
      ![](assets/query_editor_nveau_24.png)
 
@@ -90,7 +90,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
      Seleccione el operador **[!UICONTROL less than]**. En la columna **[!UICONTROL Value]**, haga clic en **[!UICONTROL Edit expression]**. Para el procesamiento de fechas, vaya a la ventana **[!UICONTROL Formula type]** y escriba “1” en **[!UICONTROL Current date minus n days]**.
 
-     Haga clic en **[!UICONTROL Finish]**.
+     Haga clic **[!UICONTROL Finish]**.
 
      ![](assets/query_editor_nveau_65.png)
 
@@ -98,7 +98,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
    * Haga clic en la función **[!UICONTROL Add]** para crear otra condición de filtrado. En la columna **[!UICONTROL Expression]**, haga clic en **[!UICONTROL Edit expression]**. En la ventana **[!UICONTROL Field to select]**, elija **[!UICONTROL Label]** en el nodo **[!UICONTROL Delivery]**.
 
-     Haga clic en **[!UICONTROL Finish]**.
+     Haga clic **[!UICONTROL Finish]**.
 
      ![](assets/query_editor_nveau_66.png)
 

@@ -10,8 +10,8 @@ topic-tags: troubleshooting
 exl-id: 3c793dc1-9654-4289-a3d2-30c3078fd848
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 5%
+source-wordcount: '417'
+ht-degree: 11%
 
 ---
 
@@ -43,7 +43,7 @@ Puede probar las siguientes pruebas y, si el error de conexión persiste, pónga
 </tr>
 <tr> 
 <td>¿Responde el servidor web?</td> 
-<td>Conéctese a la URL de acceso al servidor de Adobe Campaign mediante un explorador web: <b>http(s):// &lt;urlserver&gt;</b>. Si no responde, el servidor web se detiene en el equipo. Póngase en contacto con el administrador del sistema de la compañía host para reiniciar el servicio.</td>
+<td>Conéctese a la URL de acceso al servidor de Adobe Campaign usando un explorador web: <b>http(s):// &lt;urlserver&gt;</b>. Si no responde, el servidor web se detiene en el equipo. Póngase en contacto con el administrador del sistema de la compañía host para reiniciar el servicio.</td>
 </tr>
 <tr> 
 <td>¿Se ha integrado correctamente Adobe Campaign?</td> 

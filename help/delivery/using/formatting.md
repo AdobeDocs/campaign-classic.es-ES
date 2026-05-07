@@ -7,9 +7,9 @@ feature: Email Design
 role: User, Developer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '1446'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1460'
+ht-degree: 96%
 
 ---
 
@@ -66,10 +66,10 @@ Los atributos y elementos del contenido se representan como objetos JavaScript y
 
 **Ejemplo**:
 
-* **content.@name**: recupera el valor del atributo “name” del elemento principal.
-* **content.@`['name']`**: idéntico al **content.@name** sintaxis
+* **content.@name**: recupera el valor del atributo &quot;name&quot; del elemento principal
+* **content.@`['name']`**: idéntico a la sintaxis de **content.@name**
 * **content.chapter.length**: devuelve el número de elementos en el elemento de colección `<chapter`.
-* **content.chapter`[0]`.@name**: recupera el nombre del primer elemento `<chapter>`.
+* **content.chapter`[0]`.@name**: recupera el nombre del primer elemento `<chapter>`
 * **chapter.name()**: devuelve el nombre del elemento `<chapter>`.
 * **chapter.parent().name()**: devuelve el nombre del elemento principal de `<chapter>`
 
@@ -542,7 +542,7 @@ Ejemplo de cómo utilizar la opción de colocación de la imagen y su uso con un
 
 También puede utilizar **[!UICONTROL Public resources]** para declarar imágenes y cargarlas en el servidor, según la configuración de instancia introducida en el asistente de implementación.
 
-A continuación, puede llamar a estas imágenes en el contenido. Para ello, utilice la siguiente sintaxis en el esquema de administración de contenido:
+A continuación, puede llamar a estas imágenes en el contenido. para ello, utilice la siguiente sintaxis en el esquema de gestión de contenido:
 
 ```
 <element label="Image" name="image" target="xtk:fileRes" type="link"/>

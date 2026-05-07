@@ -7,8 +7,8 @@ hide: true
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 100%
+source-wordcount: '1647'
+ht-degree: 97%
 
 ---
 
@@ -81,7 +81,7 @@ Si no hay un módulo opcional instalado en la plataforma, este paso no se muestr
 
 Para agregar datos de la base de datos de Adobe Campaign:
 
-1. Seleccione el tipo de datos que desea añadir. Pueden ser datos de la dimensión o datos almacenados en tablas enlazadas.
+1. Seleccione el tipo de datos que desea agregar. Pueden ser datos que pertenezcan a la dimensión de filtrado o datos almacenados en tablas vinculadas.
 
    ![](assets/query_add_columns.png)
 
@@ -187,9 +187,9 @@ La sección siguiente ofrece prácticas recomendadas para optimizar las consulta
 
   Para obtener más información, consulte estas secciones en función de la versión de Campaign:
 
-  ![](assets/do-not-localize/v7.jpeg)[Documentación de Campaign v7](../../configuration/using/database-mapping.md)
+  ![](assets/do-not-localize/v7.jpeg) [Documentación de Campaign v7](../../configuration/using/database-mapping.md)
 
-  ![](assets/do-not-localize/v8.png)[Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=es)
+  ![](assets/do-not-localize/v8.png) [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=es)
 
 ### Funciones {#functions}
 

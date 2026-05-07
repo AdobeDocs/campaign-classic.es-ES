@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: event-processing
 exl-id: 3d85866a-6339-458c-807a-b267cce772b8
 source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
-workflow-type: ht
-source-wordcount: '697'
+workflow-type: tm+mt
+source-wordcount: '708'
 ht-degree: 100%
 
 ---

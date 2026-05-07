@@ -9,8 +9,8 @@ topic-tags: data-processing
 exl-id: 75d3a0af-9a14-4083-b1da-2c1b22f57cbe
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
 workflow-type: tm+mt
-source-wordcount: '2829'
-ht-degree: 0%
+source-wordcount: '2862'
+ht-degree: 1%
 
 ---
 
@@ -91,7 +91,7 @@ En la fecha y hora definidas en el programador de flujo de trabajo (consulte [El
 
 ### Listas para eliminar la limpieza {#lists-to-delete-cleanup}
 
-La primera tarea ejecutada por el flujo de trabajo **[!UICONTROL Database cleanup]** elimina todos los grupos con el **deleteStatus != 0** atributo de **NmsGroup**. También se eliminan los registros vinculados a estos grupos y que existen en otras tablas.
+La primera tarea ejecutada por el flujo de trabajo **[!UICONTROL Database cleanup]** elimina todos los grupos con el atributo **deleteStatus != 0** del **NmsGroup**. También se eliminan los registros vinculados a estos grupos y que existen en otras tablas.
 
 1. Las listas que se van a eliminar se recuperan mediante la siguiente consulta SQL:
 

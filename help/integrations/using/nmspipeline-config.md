@@ -8,7 +8,7 @@ audience: integrations
 content-type: reference
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
@@ -81,7 +81,7 @@ El parámetro &quot;Consumidor&quot; identifica la instancia como uno de estos c
 Añada o edite los activadores de Experience Cloud en la matriz “activadores”; no edite el resto.
 Asegúrese de que JSON sea válido con la ayuda de este [sitio web](https://jsonlint.com/).
 
-* &quot;nombre&quot; es el ID del desencadenador. Un comodín &quot;*&quot; captura todos los activadores.
+* &quot;nombre&quot; es el ID del activador. Un comodín &quot;*&quot; captura todos los activadores.
 * &quot;Consumidor&quot; es cualquier cadena única que identifica de forma exclusiva la instancia de nlserver. Normalmente puede ser el nombre de la instancia. Para varios entornos (dev/stage/prod), asegúrese de que sea único para cada uno de ellos para que cada instancia obtenga una copia del mensaje.
 * [!DNL Pipelined] también admite el tema &quot;alias&quot;.
 

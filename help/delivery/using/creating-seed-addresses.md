@@ -7,8 +7,8 @@ feature: Seed Address
 role: User, Developer
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '421'
+workflow-type: tm+mt
+source-wordcount: '426'
 ht-degree: 100%
 
 ---

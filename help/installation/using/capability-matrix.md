@@ -6,8 +6,8 @@ feature: Installation, Architecture
 exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 source-git-commit: 8b38d825aa9b0595226a444e0e463362468d51b3
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 32%
+source-wordcount: '323'
+ht-degree: 43%
 
 ---
 
@@ -41,7 +41,7 @@ Los diferentes modelos de alojamiento se introdujeron [en esta sección](../../i
 
 ## Acceso de datos federado{#fda}
 
-Adobe Campaign proporciona la opción **Acceso de datos federado** (FDA) para procesar la información almacenada en una o más bases de datos externas: puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign. [Más información](../../installation/using/about-fda.md)
+Adobe Campaign proporciona la opción **Acceso de Datos Federados** (FDA) para procesar la información almacenada en una o más bases de datos externas: puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign. [Más información](../../installation/using/about-fda.md)
 
 >[!CAUTION]
 >
@@ -51,7 +51,7 @@ Adobe Campaign proporciona la opción **Acceso de datos federado** (FDA) para pr
 **Consulte también**
 
 * [Matriz de compatibilidad](../../rn/using/compatibility-matrix.md)
-* [Notas de la versión &#x200B;](../../rn/using/latest-release.md)
+* [Notas de la versión](../../rn/using/latest-release.md)
 * [Actualizaciones de Campaign Classic](../../rn/using/rn-overview.md)
 * [Funciones obsoletas y eliminadas](../../rn/using/deprecated-features.md)
 * [Versiones de [!DNL Gold Standard]](../../rn/using/gold-standard.md)

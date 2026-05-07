@@ -9,8 +9,8 @@ hide: true
 exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 100%
+source-wordcount: '904'
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ Obtenga más información [en esta sección](inbox-rendering.md).
 
 ## Mensajes de prueba {#proof-messages}
 
-El envío de pruebas le permite comprobar el vínculo de no participación, la página espejo y cualquier otro vínculo, validar el mensaje, comprobar que se muestran las imágenes, detectar posibles errores, etc. También es posible que desee comprobar el diseño y el procesamiento en distintos dispositivos.
+El envío de pruebas le permite comprobar el vínculo de no participación, la página espejo y cualquier otro vínculo, validar el mensaje, comprobar que se muestran las imágenes, detectar posibles errores, etc. También es posible que desee comprobar el diseño y el procesamiento en diferentes dispositivos.
 
 Obtenga más información [en esta sección](steps-validating-the-delivery.md#sending-a-proof).
 

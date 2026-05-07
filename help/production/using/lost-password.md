@@ -10,8 +10,8 @@ topic-tags: troubleshooting
 exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
 source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 13%
+source-wordcount: '252'
+ht-degree: 22%
 
 ---
 
@@ -33,7 +33,7 @@ Si un operador de Adobe Campaign pierde su contraseña, puede cambiarla.
 
 >[!NOTE]
 >
->Este procedimiento solo se aplica a los operadores que se conectan a Campaign con autenticación nativa. Para la autenticación IMS de Adobe, consulte [esta documentación](https://helpx.adobe.com/ie/manage-account/using/change-or-reset-password.html){target="_blank"}.
+>Este procedimiento solo se aplica a los operadores que se conectan a Campaign con autenticación nativa. Para la autenticación de IMS de Adobe, consulte [esta documentación](https://helpx.adobe.com/ie/manage-account/using/change-or-reset-password.html){target="_blank"}.
 
 Para restablecer una contraseña de Campaign, siga los pasos a continuación:
 

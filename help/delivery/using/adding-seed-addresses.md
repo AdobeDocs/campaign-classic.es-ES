@@ -9,7 +9,7 @@ exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ Hay tres modos de inserción posibles:
 
 >[!NOTE]
 >
->Esta opción se usa cuando la tabla de destinatarios utilizada no es la tabla predeterminada **nms:recipient** y está utilizando la funcionalidad de renderización de la bandeja de entrada proporcionada con el módulo **[!UICONTROL Deliverability]** de Adobe Campaign.
+>Esta opción se usa cuando la tabla de destinatarios utilizada no es la tabla predeterminada **nms:recipient** y está usando la funcionalidad de procesamiento de la bandeja de entrada proporcionada con el módulo **[!UICONTROL Deliverability]** de Adobe Campaign.
 >
 >Para obtener más información, consulte [Uso de una tabla de destinatarios externa](using-an-external-recipient-table.md) y la documentación sobre la [Renderización de la bandeja de entrada](inbox-rendering.md).
 

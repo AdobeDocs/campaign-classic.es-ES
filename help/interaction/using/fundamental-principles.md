@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: general-operation
 exl-id: b13ecfc9-1723-42b2-ab30-d5637cc3d0dd
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Una oferta solo se implementa en los espacios de oferta seleccionados durante el
 
 Existen dos posibles tipos de interacciones: interacciones entrantes (iniciadas por un contacto) e interacciones salientes (iniciadas por el diseñador de la oferta).
 
-Estos dos tipos de interacciones se pueden llevar a cabo tanto en modo unitario (la oferta se determina para un único contacto) o en modo agrupado (la oferta se determina para un conjunto de contactos). Por lo general, las interacciones entrantes se realizan en modo unitario y las interacciones salientes se llevan a cabo en modo agrupado. Sin embargo, puede haber ciertas excepciones, por ejemplo, para los mensajes de transacción cuya interacción saliente se realiza en modo unitario (consulte [esta sección](../../message-center/using/about-transactional-messaging.md)).
+Estos dos tipos de interacciones se pueden llevar a cabo tanto en modo unitario (la oferta se determina para un único contacto) o en modo agrupado (la oferta se determina para un conjunto de contactos). Por lo general, las interacciones entrantes se realizan en modo unitario y las interacciones salientes se llevan a cabo en modo agrupado. Sin embargo, puede haber ciertas excepciones, por ejemplo, para los mensajes transaccionales cuya interacción saliente se realiza en modo unitario (consulte [esta sección](../../message-center/using/about-transactional-messaging.md)).
 
 En cuanto se puede, o se debe, presentar una oferta (según las configuraciones llevadas a cabo), el motor de oferta realiza la función de intermediario: calcula automáticamente la mejor oferta posible para un contacto entre las disponibles combinando los datos recibidos sobre dicho contacto y las diferentes reglas que se pueden aplicar según lo especificado en la propuesta.
 

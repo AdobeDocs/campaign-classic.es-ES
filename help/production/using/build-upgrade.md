@@ -10,8 +10,8 @@ topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '2324'
-ht-degree: 2%
+source-wordcount: '2422'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 En esta sección se proporciona una guía detallada sobre el proceso de actualización y los pasos para identificar y resolver conflictos.
 
-La mejora de la construcción debe llevarse a cabo con precaución, sus impactos deben ser considerados de antemano y el procedimiento debe completarse con un alto nivel de disciplina. Para garantizar que la actualización se realice correctamente, asegúrese de que solo los usuarios expertos realizan los pasos descritos a continuación. Además, le recomendamos encarecidamente que se ponga en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) antes de iniciar cualquier actualización.
+La mejora de la construcción debe llevarse a cabo con precaución, sus impactos deben ser considerados de antemano y el procedimiento debe completarse con un alto nivel de disciplina. Para garantizar que la actualización se realice correctamente, asegúrese de que solo los usuarios expertos realizan los pasos descritos a continuación. Además, le recomendamos encarecidamente que se ponga en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) antes de iniciar cualquier actualización.
 
 Se necesitan los siguientes requisitos previos:
 
@@ -31,7 +31,7 @@ Se necesitan los siguientes requisitos previos:
 
 Puede encontrar más información en estas secciones: [Actualizando Adobe Campaign](../../production/using/upgrading.md), [Migrando a una nueva versión](../../migration/using/about-migration.md).
 
-Para las instancias alojadas e híbridas, debe solicitar la actualización de la compilación al equipo de operaciones técnicas de Adobe. Para obtener más información, consulte la sección Preguntas más frecuentes en la parte inferior de esta página. Consulte también las [preguntas frecuentes sobre la actualización de la compilación](../../platform/using/faq-build-upgrade.md).
+Para instancias alojadas e híbridas, debe solicitar la actualización de la compilación al equipo de operaciones técnicas de Adobe. Para obtener más información, consulte la sección Preguntas más frecuentes en la parte inferior de esta página. Consulte también las [preguntas frecuentes sobre la actualización de la compilación](../../platform/using/faq-build-upgrade.md).
 
 ## Preparación de la actualización
 
@@ -52,8 +52,8 @@ El proceso de actualización de la compilación requiere los siguientes recursos
 Estos son los puntos clave sobre cómo planificar una actualización de compilación:
 
 1. Reserve al menos 2 horas para la actualización.
-1. Distribuya los datos de contacto para el Adobe y el personal del cliente.
-1. Para instancias alojadas: el personal del Adobe y del cliente coordinará el tiempo de la actualización y quién la ejecutará.
+1. Distribuya los datos de contacto de Adobe y del personal del cliente.
+1. Para instancias alojadas: el personal de Adobe y del cliente coordinará el tiempo de la actualización y quién se ejecutará.
 1. Para instancias locales: el personal del cliente gestiona todo el proceso. Si se necesita asistencia para probar flujos de trabajo personalizados y lógica de entrega, se deben incluir servicios de consultoría.
 1. Determine y confirme a qué versión de Adobe Campaign desea actualizar. Consulte las [notas de la versión de Adobe Campaign Classic](../../rn/using/rn-overview.md).
 1. Confirme la posesión de ejecutables de actualización.
@@ -62,7 +62,7 @@ Estos son los puntos clave sobre cómo planificar una actualización de compilac
 
 El proceso de actualización de la compilación requiere la participación de las siguientes personas:
 
-* arquitecto de Adobe: para las arquitecturas alojadas o híbridas, el arquitecto debe coordinarse con el servicio de atención al cliente de Adobe Campaign.
+* Arquitecto de Adobe: para arquitecturas alojadas o híbridas, el arquitecto debe coordinarse con el servicio de atención al cliente de Adobe Campaign.
 
 * Gestor de proyecto:
    * para instalaciones locales: el jefe de proyecto interno del cliente dirige la actualización y gestiona las pruebas del ciclo vital.
@@ -115,7 +115,7 @@ Para realizar esto, siga los pasos a continuación:
 
 1. Restaure estas copias en todas las instancias del entorno de destino.
 
-1. Ejecute el script de cauterización **nms:congelaciónInstance.js** en el entorno de destino antes de iniciarlo. Esto detendrá todos los procesos que interactúan con el exterior: registros, seguimiento, envíos, flujos de trabajo de campaña, etc.
+1. Ejecute el script de cauterización **nms:freezeInstance.js** en el entorno de destino antes de iniciarlo. Esto detendrá todos los procesos que interactúan con el exterior: registros, seguimiento, envíos, flujos de trabajo de campaña, etc.
 
    ```
    nlserverjavacsriptnms:freezeInstance.js–instance:<dev> -arg:run
@@ -208,7 +208,7 @@ Es necesario reiniciar los siguientes servicios:
 
 ### Actualización de consolas de cliente
 
-La consola de cliente debe tener la misma compilación como instancia de servidor.
+La consola de cliente debe estar en la misma compilación que la instancia de servidor.
 
 En el equipo donde está instalado el servidor de aplicaciones de Adobe Campaign (nlserverweb), descargue y copie el archivo:
 
@@ -242,7 +242,7 @@ Cuando la mensajería transaccional (centro de mensajes) está habilitada en la 
    * Desconectar y volver a conectar
    * Realizar una comprobación rápida de los flujos de trabajo
 
-1. Plantillas del Centro de mensajes de Publish para garantizar que la interfaz entre los servidores y la instancia del Centro de mensajes funcione.
+1. Publique las plantillas del Centro de mensajes para asegurarse de que la interfaz entre los servidores y la instancia del Centro de mensajes funcione.
 1. Ejecute pruebas para asegurarse de que los correos electrónicos se reciben correctamente a través de la instancia de producción del Centro de mensajes.
 1. Ejecute pruebas de flujo de trabajo en producción para asegurarse de que se reciben los envíos.
 
@@ -250,7 +250,7 @@ Cuando la mensajería transaccional (centro de mensajes) está habilitada en la 
 
 En el contexto de un entorno de intermediario, debe realizar estos pasos adicionales para actualizar:
 
-1. Póngase en contacto con el Servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para coordinar la actualización del servidor intermediario.
+1. Póngase en contacto con el servicio de atención al cliente de [Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) para coordinar la actualización del servidor intermediario.
 1. Compruebe que la versión se ha actualizado ejecutando un vínculo de prueba. Por ejemplo:
 
    ```
@@ -289,7 +289,7 @@ El archivo **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** contiene el
 
 Los conflictos se pueden encontrar dentro del archivo postupgrade.log en el servidor en cuestión o en la interfaz de cliente de Campaign (Administration > Configuration > Package management > Edit conflicts).
 
-El documento con el identificador &quot;stockOverview&quot; y el tipo &quot;nms:webApp&quot; entran en conflicto con la nueva versión.
+El documento con el identificador &quot;stockOverview&quot; y el tipo &quot;nms:webApp&quot; está en conflicto con la nueva versión.
 
 Si se encuentra un conflicto, compruebe si coinciden las siguientes condiciones:
 

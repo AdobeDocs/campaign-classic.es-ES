@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '807'
+workflow-type: tm+mt
+source-wordcount: '828'
 ht-degree: 100%
 
 ---

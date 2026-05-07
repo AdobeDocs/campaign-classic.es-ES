@@ -8,8 +8,8 @@ role: User
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 source-git-commit: a94774daa4005fe95066b85f921d9baa981b2a7c
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 100%
+source-wordcount: '822'
+ht-degree: 92%
 
 ---
 
@@ -25,9 +25,9 @@ La plantilla de publicación hace referencia a los recursos utilizados en el pro
 
 ## Identificación de una plantilla de publicación {#identification-of-a-publication-template}
 
-Una plantilla de publicación se identifica con su nombre y área de nombres.
+Una plantilla de publicación se identifica con su nombre y espacio de nombres.
 
-La clave de identificación de una hoja de estilo es una cadena formada por el área de nombres y el nombre separado por dos puntos; por ejemplo.**cus:newsletter**.
+La clave de identificación de una hoja de estilo es una cadena formada por el área de nombres y el nombre separados por dos puntos; por ejemplo: **cus:newsletter**.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ La clave de identificación de una hoja de estilo es una cadena formada por el �
 
 Las plantillas de publicación se almacenan de forma predeterminada en el nodo **[!UICONTROL Administration > Configuration > Publication templates]**. Para crear una nueva plantilla, haga clic en el botón **[!UICONTROL New]** situado sobre la lista de plantillas.
 
-Para configurar la plantilla de publicación, rellene el nombre de la plantilla (es decir, la clave de identificación que contiene el nombre y el área de nombres), su etiqueta, el esquema de datos y el formulario de entrada al que está vinculado.
+Para configurar la plantilla de publicación, rellene el nombre de la plantilla (es decir, la clave de identificación que contiene el nombre y el espacio de nombres), su etiqueta, el esquema de datos y el formulario de entrada al que está vinculado.
 
 ![](assets/d_ncs_content_model.png)
 
@@ -109,13 +109,13 @@ La etiqueta de partición que se va a integrar en la hoja de estilos es la sigui
 
 **`<xsl:comment> #nl:output_replace(<name_of_file>) </xsl:comment>`** where **`<name_of_file>`** es el nombre de archivo de la página que se va a generar.
 
-**Ejemplo:** generación de varios archivos con el esquema “cus:book”.
+**Ejemplo:** Generación de varios archivos con el esquema &quot;cus:book&quot;.
 
 El principio es generar una página principal que enumere los capítulos, con la posibilidad de mostrar los detalles del capítulo en una página externa.
 
 ![](assets/d_ncs_content_chunk.png)
 
-La hoja de estilos correspondiente (“cus:book.xsl”) es la siguiente:
+La hoja de estilos correspondiente (&quot;cus:book.xsl&quot;) es la siguiente:
 
 ```xml
 <?xml version="1.0" encoding="ISO-8859-1" ?>
@@ -138,7 +138,7 @@ La hoja de estilos correspondiente (“cus:book.xsl”) es la siguiente:
 </xsl:stylesheet>
 ```
 
-Se requiere una segunda hoja de estilo (“cus:chapter.xsl”) para generar los detalles de los capítulos:
+Se requiere una segunda hoja de estilo (&quot;cus:chapter.xsl&quot;) para generar los detalles de los capítulos:
 
 ```xml
 <?xml version="1.0" encoding="ISO-8859-1" ?>
@@ -173,7 +173,7 @@ La etiqueta de partición se rellena al comienzo de la página para que se inclu
 
 El nombre de archivo se construye con la variable **$(path)**, que contiene la ruta de publicación y **`<xsl:value-of select="@id" />`**, que coincide con el identificador del capítulo en el documento de entrada.
 
-El modelo de publicación debe rellenarse con las dos hojas de estilo “cus:book.xsl” y “cus:chapter.xsl”.
+El modelo de publicación debe rellenarse con las dos hojas de estilo &quot;cus:book.xsl&quot; y &quot;cus:chapter.xsl&quot;.
 
 La opción **[!UICONTROL Multi-file generation]** debe estar activa en el modelo de transformación de capítulos:
 

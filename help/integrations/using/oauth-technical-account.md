@@ -7,8 +7,8 @@ level: Intermediate, Experienced
 exl-id: 5d830ea0-a0a3-4b35-8dc4-e955380431fb
 source-git-commit: 84e6b2fad97f0ca5d6621cff4648e0be0bef7521
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 15%
+source-wordcount: '366'
+ht-degree: 16%
 
 ---
 
@@ -32,7 +32,7 @@ Para crear la cuenta técnica de OAuth para nuevas integraciones, siga estos pas
 
    Para obtener más información acerca de las funciones de administrador, consulte esta [página](https://helpx.adobe.com/es/enterprise/using/admin-roles.html).
 
-1. Haga clic en **[!UICONTROL Create a new project]**.
+1. Haga clic **[!UICONTROL Create a new project]**.
 
    ![](assets/api-account-1.png)
 

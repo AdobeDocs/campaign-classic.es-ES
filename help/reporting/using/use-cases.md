@@ -6,8 +6,8 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Reporting, Monitoring
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
 source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
-workflow-type: ht
-source-wordcount: '1331'
+workflow-type: tm+mt
+source-wordcount: '1338'
 ht-degree: 100%
 
 ---
@@ -88,7 +88,7 @@ Puede almacenar, exportar e imprimir datos utilizando la barra de herramientas s
 
 ### Ejemplo de visualización de un gráfico {#example-of-a-chart-display}
 
-**Objetivo**: genera un informe de análisis sobre la ubicación de los clientes o los posibles clientes.
+**Objetivo**: genera un informe de análisis sobre la ubicación de los clientes o los clientes potenciales.
 
 1. Abra el asistente de análisis descriptivo y seleccione únicamente **[!UICONTROL Chart]**.
 
@@ -96,7 +96,7 @@ Puede almacenar, exportar e imprimir datos utilizando la barra de herramientas s
 
    Haga clic en **[!UICONTROL Next]** para aprobar este paso.
 
-1. Luego, seleccione la opción **[!UICONTROL 2 variables]** y especifique que **[!UICONTROL First variable (abscissa)]** hace referencia al estado del destinatario (clientes o posibles clientes) y la segunda variable hace referencia al país.
+1. Luego, seleccione la opción **[!UICONTROL 2 variables]** y especifique que **[!UICONTROL First variable (abscissa)]** hace referencia al estado del destinatario (clientes o clientes potenciales) y la segunda variable hace referencia al país.
 1. Seleccione **[!UICONTROL Cylinders]** como tipo.
 
    ![](assets/s_ncs_user_report_wizard_05.png)
@@ -106,9 +106,9 @@ Puede almacenar, exportar e imprimir datos utilizando la barra de herramientas s
 
    ![](assets/s_ncs_user_report_wizard_04.png)
 
-   Pase el puntero por encima de una barra para ver el número exacto de clientes o posibles clientes de ese país.
+   Pase el puntero por encima de una barra para ver el número exacto de clientes o clientes potenciales de ese país.
 
-1. Active o desactive la visualización de uno de los países según el pie de ilustración.
+1. Habilite o deshabilite la visualización de uno de los países según el pie de ilustración.
 
    ![](assets/s_ncs_user_report_wizard_06png.png)
 
