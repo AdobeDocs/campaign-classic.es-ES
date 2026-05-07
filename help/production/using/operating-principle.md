@@ -33,7 +33,7 @@ La administración del módulo se realiza mediante la herramienta de línea de c
 
 La sintaxis general de la herramienta **nlserver** es la siguiente:
 
-**nlserver `<command>``<command arguments>`**
+**nlserver `<command>` `<command arguments>`**
 
 Para obtener la lista de módulos disponibles, use el comando **nlserver**.
 

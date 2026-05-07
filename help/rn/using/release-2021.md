@@ -18,7 +18,7 @@ ht-degree: 96%
 ## Versión 7.1 (21.1)
 
 >[!CAUTION]
->Utilice el menú **[!UICONTROL Help > About...]** para comprobar su versión de Adobe Campaign [ y número de compilación](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Sin embargo, tenga en cuenta que para todas las compilaciones entre 9277 y 9343 enumeradas en esta página, el número de versión muestra 7.0 en lugar de 7.1.
+>Utilice el menú **[!UICONTROL Help > About...]** para comprobar su versión de Adobe Campaign [&#x200B; y número de compilación](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Sin embargo, tenga en cuenta que para todas las compilaciones entre 9277 y 9343 enumeradas en esta página, el número de versión muestra 7.0 en lugar de 7.1.
 > 
 
 ### Versión 21.1.4, compilación 9343 {#release-21-1-4-build-9343}

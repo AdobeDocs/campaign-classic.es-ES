@@ -20,9 +20,9 @@ Los flujos de trabajo detallados a continuación se instalan con el complemento 
 
 Para obtener más información, consulte estas secciones en función de la versión de Campaign:
 
-![](assets/do-not-localize/v7.jpeg)[Documentación de Campaign v7](../../interaction/using/interaction-and-offer-management.md)
+![](assets/do-not-localize/v7.jpeg) [Documentación de Campaign v7](../../interaction/using/interaction-and-offer-management.md)
 
-![](assets/do-not-localize/v8.png)[Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html?lang=es)
+![](assets/do-not-localize/v8.png) [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html?lang=es)
 
 
 <table> 

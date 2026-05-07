@@ -135,7 +135,7 @@ Se aplican las siguientes reglas:
 
 El tipo de datos se ingresa mediante el atributo **type** en los elementos **`<attribute>`** y **`<element>`**.
 
-Hay disponible una lista detallada en la descripción del elemento [`<attribute>` ](../../configuration/using/schema/attribute.md) y el elemento [`<element>` ](../../configuration/using/schema/element.md).
+Hay disponible una lista detallada en la descripción del elemento [`<attribute>` &#x200B;](../../configuration/using/schema/attribute.md) y el elemento [`<element>` &#x200B;](../../configuration/using/schema/element.md).
 
 Cuando este atributo no se rellena, **string** es el tipo de datos predeterminado a menos que el elemento contenga elementos secundarios. Si es así, solo se usa para estructurar los elementos jerárquicamente (**`<location>`** elemento en nuestro ejemplo).
 

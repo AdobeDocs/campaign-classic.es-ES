@@ -66,7 +66,7 @@ Para definir la configuración y el contenido del formulario web, realice los si
 
 ## Acerca del diseño de los formularios web {#about-web-forms-designing}
 
-Las páginas del formulario se crean mediante un editor específico que permite definir y configurar zonas de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido HTML, etc.). Pueden agruparse en contenedores y el diseño puede modificarse para adaptarse a sus necesidades (para más información, consulte).[](defining-web-forms-layout.md#creating-containers)
+Las páginas del formulario se crean mediante un editor específico que permite definir y configurar zonas de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido HTML, etc.). Pueden agruparse en contenedores y el diseño puede modificarse para adaptarse a sus necesidades (para más información, consulte).[&#128279;](defining-web-forms-layout.md#creating-containers)
 
 En las siguientes secciones se detalla cómo definir el contenido y el diseño de las pantallas del formulario:
 

@@ -62,7 +62,7 @@ Descripción del método &quot;subscribe&quot; en el esquema &quot;nms:subscript
 </method>
 ```
 
-La definición de la clave de reconciliación debe introducirse mediante el atributo _**key** en el elemento `<recipient>` del documento XML. El contenido de este atributo es una lista XPath separada por comas.
+La definición de la clave de reconciliación debe introducirse mediante el atributo _&#x200B;**key** en el elemento `<recipient>` del documento XML. El contenido de este atributo es una lista XPath separada por comas.
 
 Esta llamada no devuelve ningún dato, excepto errores.
 

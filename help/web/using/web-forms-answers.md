@@ -29,7 +29,7 @@ Para cada campo de entrada de un formulario, están disponibles las siguientes o
 
 * **[!UICONTROL Variable]**
 
-  Si no desea almacenar información en la base de datos, puede utilizar una variable. Las variables locales se pueden declarar en sentido ascendente. Consulte [Almacenamiento de datos en una variable local ](#storing-data-in-a-local-variable).
+  Si no desea almacenar información en la base de datos, puede utilizar una variable. Las variables locales se pueden declarar en sentido ascendente. Consulte [Almacenamiento de datos en una variable local &#x200B;](#storing-data-in-a-local-variable).
 
 ### Almacenamiento de información en la base de datos {#storing-data-in-the-database}
 

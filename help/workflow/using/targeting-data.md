@@ -158,7 +158,7 @@ Para configurarlo, primero debe seleccionar unos criterios:
 
    ![](assets/split-subset-config-all-data.png)
 
-   En **[!UICONTROL Split]** esta sección se describe un ejemplo de cómo utilizar las condiciones de filtrado en la actividad [](cross-channel-delivery-workflow.md) para segmentar el objetivo en diferentes poblaciones.
+   En **[!UICONTROL Split]** esta sección se describe un ejemplo de cómo utilizar las condiciones de filtrado en la actividad [&#128279;](cross-channel-delivery-workflow.md) para segmentar el objetivo en diferentes poblaciones.
 
    El campo **[!UICONTROL Label]** permite asignar un nombre al nuevo subconjunto, que coincide con la transición saliente.
 
@@ -178,9 +178,9 @@ Para configurarlo, primero debe seleccionar unos criterios:
 
    Para obtener más información, consulte estas secciones en función de la versión de Campaign:
 
-   ![](assets/do-not-localize/v7.jpeg)[Documentación de Campaign v7](../../installation/using/about-fda.md)
+   ![](assets/do-not-localize/v7.jpeg) [Documentación de Campaign v7](../../installation/using/about-fda.md)
 
-   ![](assets/do-not-localize/v8.png)[Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=es)
+   ![](assets/do-not-localize/v8.png) [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=es)
 
 A continuación, es preciso añadir nuevos subconjuntos:
 

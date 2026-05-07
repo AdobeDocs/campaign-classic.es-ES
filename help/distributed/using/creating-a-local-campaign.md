@@ -66,7 +66,7 @@ Hay cuatro tipos de interfaces web disponibles:
 
   ![](assets/mkt_distr_8.png)
 
-  El formulario ofrecido se especifica en una aplicación web que debe estar seleccionada de la lista desplegable del campo **[!UICONTROL web Interface]** en el vínculo **[!UICONTROL Advanced campaign settings...]** de la plantilla. Consulte [Creación de una campaña local (por formulario) ](examples.md#creating-a-local-campaign--by-form-).
+  El formulario ofrecido se especifica en una aplicación web que debe estar seleccionada de la lista desplegable del campo **[!UICONTROL web Interface]** en el vínculo **[!UICONTROL Advanced campaign settings...]** de la plantilla. Consulte [Creación de una campaña local (por formulario) &#x200B;](examples.md#creating-a-local-campaign--by-form-).
 
   >[!NOTE]
   >

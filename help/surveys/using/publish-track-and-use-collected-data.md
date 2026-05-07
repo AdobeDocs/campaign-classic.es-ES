@@ -110,7 +110,7 @@ Las respuestas a una encuesta se pueden exportar a un archivo externo para su pr
 
    >[!NOTE]
    >
-   >En la sección](../../platform/using/about-generic-imports-exports.md) de [, se describen las exportaciones de datos y las fases de su configuración.
+   >En la sección[&#128279;](../../platform/using/about-generic-imports-exports.md) de , se describen las exportaciones de datos y las fases de su configuración.
 
 ## Uso de los datos recopilados {#using-the-collected-data}
 
