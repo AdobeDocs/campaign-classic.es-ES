@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Como parte de una iniciativa de promoción de la versión 8 de Campaign, hemos r
 
 Los estados de la versión se han reducido y simplificado. [Más información](rn-overview.md)
 
-La instalación de paquetes Linux se ha actualizado para la versión 7.4.1. [Más información](../../installation/using/installing-packages-with-linux.md)
+Se ha actualizado la instalación de los paquetes Linux de la versión 7.4.1.[Más información](../../installation/using/installing-packages-with-linux.md)
 
 ### Junio de 2024 {#june-2024}
 

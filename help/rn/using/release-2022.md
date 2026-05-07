@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 exl-id: 28490323-41d0-4d61-b309-6892fb826d21
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2151'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -173,7 +173,7 @@ Adobe Campaign ahora es compatible con Windows Server 2019. Consulte la [Matriz 
 * Se ha corregido un problema de regresión que impedía que la funcionalidad **Purgar carpeta** funcionara correctamente. (NEO-37459)
 * Se ha corregido un problema que provocaba un error de solicitud incorrecto al usar campos de datos xml con la cuenta de Microsoft Dynamics CRM si el xml al que se hace referencia contenía comillas dobles.
 * Se ha corregido un problema que provocaba que los problemas de tiempo de espera de red se registraran incorrectamente como problemas de interrupción de scripts en lugar de errores de red. Este problema ocurría en el caso de solicitudes HTTP incluidas en actividades JavaScript. (NEO-38079)
-* Se ha corregido un problema que devolvía resultados incorrectos al ejecutar las funciones Amazon Redshift HoursDiff y MinutesDiff al intentar extraer el componente de tiempo. (NEO-31673)
+* Se ha corregido un problema que devolvía resultados incorrectos al ejecutar las funciones Amazon Redshift HoursDiff y MinutesDiff al intentar extraer el componente de tiempo.(NEO-31673)
 * Se ha corregido un problema que impedía que el informe de **Clics activos** cargara para envíos desde la versión 9182. (NEO-28900)
 * Se ha corregido un error que reemplazaba el símbolo &amp; en una dirección URL con la referencia de entidad de carácter (`&amp;`) que impedía a los usuarios acceder a la URL vinculada a un código QR. (NEO-28621)
 * Se ha corregido un problema que creaba una nueva cuenta externa cada vez que un usuario creaba un nuevo flujo de trabajo de campaña y una actividad de envío vinculada a una cuenta de Web Analytics. Esto se debía a la falta de un ID en el objeto de envío webAnalyticsAccount. (NEO-39691)

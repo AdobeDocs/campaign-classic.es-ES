@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
 source-git-commit: 4cae5fdb2b78f446f84352046b523d8862e9060c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2391'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ A partir de esta versión, los vínculos de seguimiento en correos electrónicos
 * Se ha corregido un problema que consistía en la solicitud al usuario de volverse a autenticar al hacer clic en el botón `Back` en un informe de campaña. (NEO-65087)
 * Se ha corregido un error en el flujo de trabajo para la limpieza de base de datos que se producía cuando se eliminaba un envío antes que las pruebas de envío. (NEO-48114)
 * Se ha corregido un problema al conectarse a la consola del cliente: las actualizaciones recientes sobre la verificación TLS provocaban un error de conexión. (NEO-50488)
-* Se ha corregido un problema con la autenticación proxy HTTP después de la actualización de Campaign a la versión 7.3.1. Las solicitudes HTTP en los flujos de trabajo de Campaign daban error con `error 407 – proxy auth required is returned`. (NEO-49624)
+* Se ha corregido un problema con la autenticación proxy HTTP después de la actualización de Campaign a la versión 7.3.1.Las solicitudes HTTP en los flujos de trabajo de Campaign daban error con `error 407 – proxy auth required is returned`. (NEO-49624)
 * Se ha corregido un error intermitente con el descifrado GPG en actividades de flujo de trabajo de **Script**. El mensaje de error asociado era: `gpg: decryption failed: No secret key`. (NEO-50257)
   <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
 
@@ -112,7 +112,7 @@ Se ha corregido un problema que podía hacer que los caracteres japoneses se mos
 * Se ha corregido un problema que hacía que el informe de errores de Tomcat mostrara demasiados detalles de error. (NEO-49029)
 * Se ha corregido un problema que podría provocar un error de envío al utilizar un gran número de ofertas. (NEO-48807)
 * Se ha corregido un problema que podía impedir que la actividad de flujos de trabajo **Actualizar datos** funcionara correctamente. (NEO-48140)
-* Se ha corregido un problema que podía impedir que los datos de rastreo de clics se sincronizaran para entregas que usaban una cuenta externa diferente al correo electrónico. (NEO-47277)
+* Se ha corregido un problema que podía impedir que los datos de rastreo de clics se sincronizaran para envíos con una cuenta externa diferente al correo electrónico.(NEO-47277)
 * Se ha corregido un problema que podía impedir que los registros de seguimiento en tiempo real se sincronizaran en la instancia de marketing del Centro de mensajes. (NEO-42540)
 * Se ha corregido un problema que impedía que el prefijo del espacio de trabajo se mostrara en la ventana de detección de un esquema para las tablas de la base de datos Snowflake. (NEO-40297)
 * Se ha corregido un problema que impedía que las etiquetas `<img-amp>` funcionaran en el contenido del correo electrónico. (NEO-38685)
