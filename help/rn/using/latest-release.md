@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: b9a716f327b8fdd68c3bf36dbe864535308def30
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+source-git-commit: 2296c1a7f6b818991d1620281077547d9250f16d
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 76%
 
 ---
 
@@ -21,11 +21,11 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 
 [!BADGE Disponibilidad general]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad general"}
 
-_16 de marzo de 2026_
-
 >[!CAUTION]
 >
 > La actualización de la consola de cliente es obligatoria.
+
+_31 de marzo de 2026_
 
 ### Mejoras de seguridad {#security-7-4-3}
 
@@ -33,12 +33,35 @@ _16 de marzo de 2026_
 
 ### Correcciones {#fixes-7-4-3}
 
+>[!NOTE]
+>
+> Las correcciones enumeradas a continuación se han implementado progresivamente en versiones sucesivas de 7.4.3. Vaya al **[!UICONTROL Help > About...]** [menú](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) para comprobar que dispone de la última versión de 9394@28aaec9. Póngase en contacto con su representante de Adobe para obtener más información.
+
 * Se ha corregido un problema en el cual el componente de código de barras permitía un parámetro de altura sin límites, lo que podría provocar una vulnerabilidad de seguridad. (NEO-89984)
 * Se ha corregido un problema en el cual a los campos de enumeración de las listas creadas mediante flujos de trabajo les faltaban atributos de nombre temporales, lo que provocaba que se mostraran etiquetas de enumeración incorrectas o en blanco en la interfaz. (NEO-91158)
-* Se ha corregido un problema por el cual las estadísticas de entrega no se volvían a calcular completamente para algunos envíos, lo que afectaba especialmente a los indicadores de éxito. (NEO-88106)
 * Se corrigió un problema en el cual la preparación del envío fallaba con errores de personalización al utilizar campos targetData en flujos de trabajo con actividades de anulación de duplicación. (NEO-87693)
 * Se ha corregido un problema en el cual la concatenación de campos de cadena de un solo carácter con otras cadenas fallaba en PostgreSQL 15 debido a los requisitos de conversión de tipos. (NEO-88028)
 * Se ha corregido un problema en el cual los registros de seguimiento de las campañas de colaboración en Distributed Marketing no se escribían en la base de datos debido a una discrepancia entre los ID de envío principales y secundarios. (NEO-86836)
 * Se ha corregido un problema por el cual los registros de envío mostraban mensajes como cancelados aunque se hubieran enviado correctamente, lo que afectaba especialmente a los envíos con programación de olas. (NEO-78933)
 * Se corrigió un problema en el cual el flujo de trabajo de limpieza de la base de datos no depuraba los datos de forma eficaz, lo que podría afectar al rendimiento. (NEO-76439)
+
+<!-- BUILD 7.0.9394.28aaec9 -->
+
+* Se ha corregido un problema por el cual las estadísticas de entrega no se volvían a calcular completamente para algunos envíos, lo que afectaba especialmente a los indicadores de éxito. (NEO-88106) <!-- moved from original 7.4.3 GA Fixes section -->
+* Se ha corregido un problema en el cual la consola del cliente podía bloquearse al abrir ciertos flujos de trabajo que hacían referencia a un esquema de segmentación ascendente que faltaba. (NEO-28727)
+* Se ha corregido un problema en el cual la versión de la consola del cliente no se podía identificar después de un inicio fallido, porque faltaba el archivo de versión en el paquete de instalación. (NEO-94798)
+
+<!--
+other fixes - ommitted from release notes
+
+Internal/non-customer-facing:
+
+* Fixed an internal DevOps build race condition when copying the `teradata_timezones.txt` file during build packaging. (NEO-66532) — internal only; the Jira description states "No impact for customers: either it builds (99.9% of the time) or it does not."
+* Fixed an internal CI/CD issue where AWS CodeBuild jobs could fail randomly on EC2 Docker containers when copying files during build. (NEO-90823) — internal CI/CD infrastructure only
+
+Customer-specific hotfixes:
+
+* Fixed an issue where coupon assignment could fail during delivery message preparation due to a SQL syntax error when looking up coupon codes. (NEO-92857) — Verizon only
+* Fixed an issue where the error count and status in the `nms:address` table were not consistently updated on the marketing server after recurring soft bounces, causing recipients to not be quarantined as expected even though they were correctly flagged on the mid-sourcing server. (NEO-94422) — Walgreens only
+-->
 
