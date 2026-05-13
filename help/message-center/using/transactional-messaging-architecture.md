@@ -4,9 +4,14 @@ title: Arquitectura de la mensajería transaccional
 description: En esta sección se describe la arquitectura de mensajería transaccional de Adobe Campaign Classic y los canales disponibles para enviar mensajes transaccionales
 feature: Transactional Messaging, Message Center, Architecture
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
-source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+TQID: https://experienceleague.adobe.com/37Nw8x5SwRELOeJd8BXvE-tcN66Kb1vraEgkkzeaKI8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: 1104
 ht-degree: 98%
 
 ---
@@ -218,7 +223,7 @@ A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** >
    * **[!UICONTROL Type]**: Seleccione **[!UICONTROL External database]**.
    * La casilla “Habilitada” debe estar seleccionada.
 
-   Desde la categoría **[!UICONTROL Connection]**:
+   De la categoría **[!UICONTROL Connection]**:
 
    * **[!UICONTROL Type]**: Seleccione **[!UICONTROL HTTP relay to remote Database]**.
    * **[!UICONTROL Server]** : introduzca la URL del servidor de la campaña de la instancia de ejecución.

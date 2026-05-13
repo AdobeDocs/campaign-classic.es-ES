@@ -5,9 +5,12 @@ description: Descubra cómo enriquecer correos electrónicos con campos de datos
 feature: Workflows
 hide: true
 exl-id: 85e0ec2a-b7cb-4d0b-a281-9ad72594403a
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/HBRLw5dHFXoihTa4JCgMxKp9TxIUwsPp-LJYyEBnN7k
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: 540
 ht-degree: 100%
 
 ---

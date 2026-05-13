@@ -5,9 +5,12 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 feature: Workflows, Targeting Activity
 hide: true
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/wQ6v5bFKx8hd7zLjR6t7GjE1D2iTW9is0lbrj8-UbRg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: 1134
 ht-degree: 100%
 
 ---
