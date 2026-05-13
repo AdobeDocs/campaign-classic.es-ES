@@ -6,10 +6,14 @@ feature: Workflows, Heatmap
 hide: true
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
 TQID: https://experienceleague.adobe.com/i8BnIsz83IdW4kofr2OBtzXokKiyeJuQl3jIBpsOQx0
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a658c786-869b-4194-a780-2594d663adda
-subfeature_v2: id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 1147
@@ -82,7 +86,7 @@ El uso del mapa de calor del flujo de trabajo requiere comprender bien los sigui
 1. También puede filtrar por el **[!UICONTROL Workflow type]**:
 
    * **[!UICONTROL Technical]**: Solo se muestran los flujos de trabajo [técnicos](building-a-workflow.md#technical-workflows) listos para usar y los flujos de trabajo [de administración de datos](targeting-data.md#data-management).
-   * **[!UICONTROL Marketing]** : Solo se muestran los flujos de trabajo vinculados a una campaña de marketing, conocidos como flujos de trabajo [de ](building-a-workflow.md#campaign-workflows)campaña.
+   * **[!UICONTROL Marketing]** : Solo se muestran los flujos de trabajo vinculados a una campaña de marketing, conocidos como flujos de trabajo [de &#x200B;](building-a-workflow.md#campaign-workflows)campaña.
 
 1. Para buscar un flujo de trabajo específico por su nombre, también puede utilizar el campo **[!UICONTROL Workflow name filter]**.
 

@@ -6,9 +6,12 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 TQID: https://experienceleague.adobe.com/3oyhvCWX30kK7dtytjLYvO5Xnbu2-I7FGeJPcjcreho
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 1592
@@ -173,7 +176,7 @@ si el idioma es el primer o único parámetro de la dirección URL. Por ejemplo:
 &lang=xx
 ```
 
-si hay otros parámetros antes del idioma en la dirección URL. Por ejemplo: **https://myserver/webApp/APP34?status=1&amp;lang=en**
+si hay otros parámetros antes del idioma en la dirección URL. Por ejemplo: **https://myserver/webApp/APP34?status=1&lang=en**
 
 A continuación se enumeran los idiomas y diccionarios de traducción disponibles de forma predeterminada.
 
@@ -434,7 +437,7 @@ Puede añadir **?lang=es** o **?lang=de** para mostrarlo en español o alemán.
 >[!NOTE]
 >
 >Si ya se han añadido otros parámetros a esta aplicación web, añada **&amp;lang=**.\
->Por ejemplo: **https://myserver/webApp/APP34?status=1&amp;lang=en**
+>Por ejemplo: **https://myserver/webApp/APP34?status=1&lang=en**
 
 ## Configuración avanzada de traducción {#advanced-translation-configuration}
 
