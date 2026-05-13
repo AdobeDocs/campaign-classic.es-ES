@@ -7,9 +7,12 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+TQID: https://experienceleague.adobe.com/o9F-VJpel6oYo-4N8nd25xW69ZAN-RpH9TaZ2jJeq-k
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: 509
 ht-degree: 32%
 
 ---
@@ -30,11 +33,11 @@ Esta opción mejora significativamente el rendimiento al ejecutar el paso de per
 
 En varias actividades de flujo de trabajo de Adobe Campaign, puede utilizar los datos almacenados en una base de datos externa.
 
-* **Filtrar por datos externos**: la actividad de consulta le permite agregar datos externos y utilizarlos en las configuraciones de filtro definidas. Para obtener más información, consulte la [Documentación de Campaign v8]https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=es){target="_blank"}.
+* **Filtrar por datos externos**: la actividad de consulta le permite agregar datos externos y utilizarlos en las configuraciones de filtro definidas. Para obtener más información, consulte la [Documentación de Campaign v8]https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html){target="_blank"}.
 
 * **Crear subconjuntos**: la actividad Dividir le permite crear subconjuntos. Puede utilizar datos externos para definir los criterios de filtrado que deben utilizarse. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=es){target="_blank"}.
 
-* **Cargar base de datos externa**: puede utilizar los datos externos en la actividad Carga de datos (RDBMS). Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-rdbms.html?lang=es){target="_blank"}.
+* **Cargar base de datos externa**: puede utilizar los datos externos en la actividad Carga de datos (RDBMS). Obtenga más información en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-rdbms.html){target="_blank"}.
 
 * **Agregar información y vínculos**: la actividad de enriquecimiento permite agregar datos adicionales a la tabla de trabajo del flujo de trabajo y vínculos a una tabla externa. En este contexto, puede utilizar datos de una base de datos externa. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=es){target="_blank"}.
 

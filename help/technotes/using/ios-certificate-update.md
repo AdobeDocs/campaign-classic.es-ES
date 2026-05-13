@@ -4,9 +4,11 @@ title: 'Technote: actualización del certificado del servidor del servicio de no
 description: Actualización del certificado del servidor del servicio de notificaciones push de Apple
 feature: Technote, Push
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
-source-git-commit: 0143e0d6ebcdbd96d183ddd0c7f07beb149a9670
+TQID: https://experienceleague.adobe.com/3tQ4npyE0-ZfCgVPYy3kiRv1q0HPcq-DI4rpAXTCXb0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: 160
 ht-degree: 0%
 
 ---

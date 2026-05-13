@@ -7,9 +7,12 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
-source-git-commit: dba90a154e08400ae6ab6478623a50d48d72207c
+TQID: https://experienceleague.adobe.com/ylf7sIKiO9ip-yC3M4zqbhu0ITaXqmTMQJ-4KfNQlt8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: 332
 ht-degree: 1%
 
 ---
@@ -81,5 +84,5 @@ A continuación, encontrará algunas de las prácticas recomendadas principales 
 
 Temas relacionados:
 
-* [Resumen del cumplimiento de Adobe Marketing Cloud](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
-* [Información general sobre seguridad de Adobe Campaign](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/overview#security)
+* [Resumen del cumplimiento de Adobe Marketing Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
+* [Información general sobre seguridad de Adobe Campaign](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/overview#security)

@@ -5,9 +5,11 @@ description: Descubra más información sobre la actividad del subflujo de traba
 feature: Workflows
 hide: true
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/6i0ts3-NSZOXHytgDV-sCeJ16pURhMRYVY-pWGf2oWc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: 436
 ht-degree: 100%
 
 ---

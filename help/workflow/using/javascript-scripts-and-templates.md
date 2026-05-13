@@ -5,9 +5,11 @@ description: Plantillas y secuencias de comandos de JavaScript
 feature: Workflows
 hide: true
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/QIVkWmrdq0Xk58lIqvcDqdAPQTk6w6OaAIui6FnnSLE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: 1251
 ht-degree: 97%
 
 ---
@@ -164,7 +166,7 @@ Por consiguiente, para llamar a una variable **instance.vars.xxx = &quot;yyy&quo
 
 Por ejemplo:
 
-1. Cree una variable de instancia que defina el nombre interno de un envío mediante el **&#x200B;**&#x200B;[!UICONTROL JavaScript code]&#x200B;**: instance.vars.deliveryIN = “DM42”**.
+1. Cree una variable de instancia que defina el nombre interno de un envío mediante el ****[!UICONTROL JavaScript code]**: instance.vars.deliveryIN = “DM42”**.
 
    ![](assets/wkf_js_activity_1.png)
 

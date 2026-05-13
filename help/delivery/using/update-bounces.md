@@ -6,9 +6,11 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Deliverability
 hide: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/91YUAuxL17kfBm6-hryEpf-A8SPJzA-z-ss9f2maszY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: 501
 ht-degree: 100%
 
 ---
@@ -31,7 +33,7 @@ Tenga en cuenta que si se observan rechazos de aplazamiento con el mensaje “45
 
 >[!NOTE]
 >
->Puede consultar el panel de control de estado de Apple System en [esta página](https://www.apple.com/es/support/systemstatus/){_blank}.
+>Puede consultar el panel de control del estado de Apple System en [esta página](https://www.apple.com/es/support/systemstatus/){_blank}.
 >
 >Puede consultar el Panel de control de estado de Google Workspace en [esta página](https://www.google.com/appsstatus#hl=en&v=status){_blank}.
 >
