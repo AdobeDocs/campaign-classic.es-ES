@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 8f9e8344b77e50bd2823cc7fa3922466e515327f
 workflow-type: tm+mt
 source-wordcount: 753
 ht-degree: 6%
@@ -34,7 +34,7 @@ Puede utilizar este servidor Tomcat integrado para servir solicitudes HTTP.
 En este caso:
 
 * el puerto de escucha predeterminado es 8080. Para cambiarlo, consulte [esta sección](../../installation/using/configure-tomcat.md).
-* Las consolas de cliente se conectan mediante una dirección URL como ```https:// `<computer>`:8080```.
+* Las consolas de cliente se conectan mediante una dirección URL como `https://` `<computer>` `:8080`.
 
 Sin embargo, por motivos de seguridad y administración, se recomienda utilizar un servidor Web específico como punto de entrada principal para el tráfico HTTP cuando el equipo que ejecuta Adobe Campaign está expuesto en Internet y desea abrir el acceso a la consola fuera de la red.
 
