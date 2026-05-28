@@ -9,18 +9,12 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 TQID: https://experienceleague.adobe.com/0Sv4efbYyu1kT-sDs4CYjDBP3RphjlqPTerDrNxN93I
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9e8344b77e50bd2823cc7fa3922466e515327f
 workflow-type: tm+mt
 source-wordcount: 854
 ht-degree: 96%
@@ -131,13 +125,13 @@ La lista de parámetros opcionales es:
 | Opción | Descripción |
 |:-:|:-:|
 | appName(Legacy) | AppID de la aplicación OAuth registrada en la aplicación heredada de Oath donde se cargó la clave pública. Para obtener más información, consulte [esta página](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) |
-| authGatewayEndpoint(Legacy) | URL para obtener los tokens de la puerta de enlace. Predeterminado: ```https://api.omniture.com``` |
-| authPrivateKey(Legacy) | La clave privada, la parte pública cargada en la aplicación heredada de Oath, AES cifrada con la opción XtkKey: ```cryptString("PRIVATE_KEY")``` |
+| authGatewayEndpoint(Legacy) | URL para obtener los tokens de la puerta de enlace. Predeterminado: `https://api.omniture.com` |
+| authPrivateKey(Legacy) | La clave privada, la parte pública cargada en la aplicación heredada de Oath, AES cifrada con la opción XtkKey: `cryptString("PRIVATE_KEY")` |
 | disableAuth(Legacy) | Deshabilite la autenticación, la conexión sin tokens de puerta de enlace solo la aceptan algunos extremos de canalización de desarrollo. |
-| discoverPipelineEndpoint | URL para encontrar el extremo de los servicios de canalización que se va a usar para este inquilino. Predeterminado: ```https://producer-pipeline-pnw.adobe.net``` |
-| dumpStatePeriodSec | También se puede acceder a petición al período entre dos volcados del proceso de estado interno en ```var/INSTANCE/pipelined.json.```<br> aquí: ```http://INSTANCE:7781/pipelined/status``` |
+| discoverPipelineEndpoint | URL para encontrar el extremo de los servicios de canalización que se va a usar para este inquilino. Predeterminado: `https://producer-pipeline-pnw.adobe.net` |
+| dumpStatePeriodSec | También se puede acceder a petición al período entre dos volcados del proceso de estado interno en `var/INSTANCE/pipelined.json.`<br> aquí: `http://INSTANCE:7781/pipelined/status` |
 | forcedPipelineEndpoint | Deshabilite la detección de PipelineServicesEndpoint para forzarla |
-| monitorServerPort | El proceso de canalización escuchará en este puerto para proporcionar el proceso de estado interno aquí: ```http://INSTANCE:PORT/pipelined/status```. <br>El valor predeterminado es 7781 |
+| monitorServerPort | El proceso de canalización escuchará en este puerto para proporcionar el proceso de estado interno aquí: `http://INSTANCE:PORT/pipelined/status`. <br>El valor predeterminado es 7781 |
 | pointerFlushMessageCount | Cuando se procesa este número de mensajes, los desplazamientos se guardan en la base de datos. <br> El valor predeterminado es 1000 |
 | pointerFlushPeriodSec | Después de este período, los desplazamientos se guardan en la base de datos. <br>El valor predeterminado es 5 (segundos) |
 | processingJSThreads | Número de mensajes de procesamiento de los subprocesos dedicados con conectores JS personalizados. <br> El valor predeterminado es 4 |
