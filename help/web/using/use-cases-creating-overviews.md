@@ -7,10 +7,17 @@ feature: Web Apps
 level: Intermediate, Experienced
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 TQID: https://experienceleague.adobe.com/Awmu1sag3l7qN8ocg-uzbfSooV-8Cyhtxya4zVlo8EY
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
-subfeature_v2: id: f391046b-0cf3-4e76-bd3b-97fe06654506id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: d7be2b01-dc9c-40f7-aace-a151707504edid: e739ee2b-6228-412e-878f-45de0791417d
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2:
+  - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+  - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 959
@@ -47,7 +54,7 @@ En el siguiente ejemplo, se crean aplicaciones web de tipo “descripción gener
    ![](assets/s_ncs_configuration_webapp_rendering.png)
 
 1. Abra la actividad **[!UICONTROL Page]** de la aplicación web y abra una lista (**[!UICONTROL Static element > List]**).
-1. En la pestaña **[!UICONTROL Data]** de la lista, seleccione el tipo de documento **[!UICONTROL Web applications]** y las columnas de salida **[!UICONTROL Creation date]****[!UICONTROL Label]**, y **[!UICONTROL Type of application]**.
+1. En la pestaña **[!UICONTROL Data]** de la lista, seleccione el tipo de documento **[!UICONTROL Web applications]** y las columnas de salida **[!UICONTROL Creation date]**&#x200B;**[!UICONTROL Label]**, y **[!UICONTROL Type of application]**.
 1. En la subpestaña **[!UICONTROL Filter]**, cree el siguiente filtro, tal y como se muestra a continuación, para visualizar las aplicaciones web y excluir las plantillas de la vista.
 
    ![](assets/s_ncs_configuration_webapp_filter.png)
@@ -122,7 +129,7 @@ Al configurar una lista en la descripción general, puede elegir visualizar deta
 
    ![](assets/s_ncs_configuration_webapp_detail.png)
 
-1. En la pestaña **[!UICONTROL Data]**, añada las columnas **[!UICONTROL Internal name]****[!UICONTROL Primary key]**, y **[!UICONTROL Description]** y seleccione la opción **[!UICONTROL Hidden field]** para cada una de ellas.
+1. En la pestaña **[!UICONTROL Data]**, añada las columnas **[!UICONTROL Internal name]**&#x200B;**[!UICONTROL Primary key]**, y **[!UICONTROL Description]** y seleccione la opción **[!UICONTROL Hidden field]** para cada una de ellas.
 
    ![](assets/s_ncs_configuration_webapp_detail002.png)
 
