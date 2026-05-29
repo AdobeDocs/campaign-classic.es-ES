@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 TQID: https://experienceleague.adobe.com/TSJbp95dm2tysQBxN7E7JktnHmMJndR1hXVvKkLzRIg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+feature_v2: []
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1159
+source-wordcount: 1146
 ht-degree: 18%
 
 ---
@@ -47,7 +47,7 @@ Consulte los detalles siguientes para comprender qué se necesita para la implem
 
 A partir de la versión de compilación 7.3 de Campaign Classic, se requiere la instalación del tiempo de ejecución de Microsoft Edge Webview 2 para cualquier instalación de la consola.
 
-WebView se instala de forma predeterminada como parte del sistema operativo Windows 11. Si no está presente en el sistema, el instalador de la consola de Campaign Classic le pedirá que lo descargue del [sitio web para desarrolladores de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es). Tenga en cuenta que el vínculo de descarga no funciona en el explorador internet Explorer 11, ya que Microsoft ha dejado de ofrecerle soporte. Asegúrese de utilizar un explorador diferente para acceder al vínculo.
+WebView se instala de forma predeterminada como parte del sistema operativo Windows 11. Si no está presente en el sistema, el instalador de la consola de Campaign Classic le pedirá que lo descargue del [sitio web para desarrolladores de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download). Tenga en cuenta que el vínculo de descarga no funciona en el explorador internet Explorer 11, ya que Microsoft ha dejado de ofrecerle soporte. Asegúrese de utilizar un explorador diferente para acceder al vínculo.
 
 ## Implementaciones alojadas en Adobe {#hosted-customers}
 
@@ -178,6 +178,6 @@ Para iniciar sesión en una instancia existente, siga los pasos a continuación:
 
 Este vídeo muestra cómo instalar y configurar el cliente de Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/38273?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
 
-Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
+Puede encontrar disponibles más vídeos de procedimientos de Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

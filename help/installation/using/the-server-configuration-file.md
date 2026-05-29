@@ -8,17 +8,13 @@ content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 TQID: https://experienceleague.adobe.com/BZ4rjzbXYikNoGAVHq4Gy7tY8OugKDgsmVLkKuIB9tw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 8103
+source-wordcount: 8061
 ht-degree: 8%
 
 ---
@@ -419,7 +415,7 @@ En el nodo **dataStore > dataSource > pool**, configure los parámetros del grup
   </tr> 
   <tr> 
    <td> maxCnx<br /> </td> 
-   <td> Número máximo de conexiones permitidas antes de rechazar una nueva conexión. Ver esta <a href="https://helpx.adobe.com/es/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">nota técnica</a>.<br /> </td> 
+   <td> Número máximo de conexiones permitidas antes de rechazar una nueva conexión. Ver esta <a href="https://helpx.adobe.com/campaign/kb/how-to-increase-the-maximum-number-of-database-connections-from-.html">nota técnica</a>.<br /> </td> 
    <td> Corto<br /> </td> 
   </tr> 
   <tr> 
@@ -549,7 +545,7 @@ Para obtener más información, consulte esta [sección](../../installation/usin
 
 >[!NOTE]
 >
->Nota sobre **nameSevers**: de forma predeterminada, utiliza la red>parámetros de la primera interfaz de red declarada en Windows>no definido en UNIX. Define los servidores de nombres de dominio (DNS)>utilizado por el MTA para obtener el Mail Exchanger declarado para>un dominio.
+>Nota sobre **nameSevers**: de forma predeterminada, utiliza los parámetros network>de la primera interfaz de red declarada en Windows>no definida en UNIX. Define los servidores de nombres de dominio (DNS)>utilizados por el MTA para obtener el intercambiador de correo declarado para>un dominio.
 >
 >Si no se define este valor, el MTA busca esta información en la configuración de red del host. Si son posibles varios DNS, las distintas direcciones DNS deben estar separadas por una coma (por ejemplo: 212.155.207.1,212.155.207.2). Si el servidor de entrega tiene varias interfaces de red, la lista DNS utilizada por el MTA es la primera. En este caso, se recomienda especificar el parámetro **nameServer** para evitar cualquier ambigüedad.
 
@@ -1630,9 +1626,9 @@ Estos son los diferentes parámetros del nodo **mta**. Esta es la configuración
    <td> statServerAddress<br /> </td> 
    <td> Dirección del servidor de estadísticas de envío, dada como 
     &lt;dns o ip&gt; 
-      <code>&lbrack;</code>: 
+      <code>[</code>: 
      &lt;port&gt; 
-       <code>&rbrack;</code>. Consulte 
+       <code>]</code>. Consulte 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">Coordenadas del servidor de estadísticas</a>. 
       <br /> 
      </td> 

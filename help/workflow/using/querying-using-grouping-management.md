@@ -6,9 +6,10 @@ feature: Query Editor, Workflows
 hide: true
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
 TQID: https://experienceleague.adobe.com/jQoIc-ceJgiBqFrlPgDR1nm7PpcqLJedI36hnBQHrl0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: []
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 254
 ht-degree: 100%
@@ -47,7 +48,7 @@ Para crear este ejemplo, aplique los pasos siguientes:
 
    ![](assets/query_editor_nveau_29.png)
 
-1. En la ventana **[!UICONTROL Sorting]**, ordene los dominios de correo electrónico en orden descendente. Para ello, seleccione **[!UICONTROL Yes]** en la columna **[!UICONTROL Descending sort]**. Haga clic **[!UICONTROL Next]**.
+1. En la ventana **[!UICONTROL Sorting]**, ordene los dominios de correo electrónico en orden descendente. Para ello, seleccione **[!UICONTROL Yes]** en la columna **[!UICONTROL Descending sort]**. Haga clic en **[!UICONTROL Next]**.
 
    ![](assets/query_editor_nveau_70.png)
 

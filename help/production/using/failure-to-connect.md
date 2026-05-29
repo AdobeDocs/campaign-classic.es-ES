@@ -9,12 +9,11 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 3c793dc1-9654-4289-a3d2-30c3078fd848
 TQID: https://experienceleague.adobe.com/zQXUUtLQveDPTu8blS48gCzTl8lv09vlJXAtjAjgtW4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+feature_v2: []
+subfeature_v2: id: c03a11ff-bdf9-4e5b-b279-f468b4293464id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 417
 ht-degree: 11%
@@ -66,7 +65,7 @@ Si no obtiene este resultado, compruebe en la configuración del servidor web qu
 </tr>
 <tr>
 <td>Compruebe la configuración general de las zonas de seguridad.</td>
-<td>Para obtener más información sobre la configuración de zonas de seguridad, consulte <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=es#configuring-campaign-server"/>esta sección.</a></td>
+<td>Para obtener más información sobre la configuración de zonas de seguridad, consulte <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html#configuring-campaign-server"/>esta sección.</a></td>
 </tr>
 <tr>
 <td>El comando nlserver pdump devuelve <b>No hay tareas</b></td>

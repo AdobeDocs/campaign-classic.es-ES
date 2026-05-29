@@ -8,13 +8,11 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
 TQID: https://experienceleague.adobe.com/1Z0tkcd3TA2Z5ZoUTnSsO3ubyxk-pFU0cRR7m6M0gdI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: []
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 809
 ht-degree: 100%
@@ -87,7 +85,7 @@ Por ejemplo, una oferta puede tener una ponderación de A para los contactos de 
 
 Para crear una ponderación en una oferta, siga los siguientes pasos:
 
-1. Haga clic **[!UICONTROL Add]**.
+1. Haga clic en **[!UICONTROL Add]**.
 
    ![](assets/offer_weight_create_001.png)
 

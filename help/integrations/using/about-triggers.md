@@ -9,21 +9,15 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 TQID: https://experienceleague.adobe.com/gWgUCcgsqeMw-mzVdhVodcp91lgTCCL7XGWp0f2ItKo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: cbcf4d90-26be-46e2-b16a-aebc529dc41eid: df0d6518-6f49-46e2-b46e-3bcc513f553fid: eb007b6d-6e57-46ab-9485-3f24d6102304id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 100%
+source-wordcount: 392
+ht-degree: 95%
 
 ---
 
@@ -38,7 +32,7 @@ ht-degree: 100%
 [!DNL Triggers] ejecutan acciones de marketing en un corto intervalo de tiempo tras la acción de un usuario. El tiempo de respuesta típico es inferior a una hora.
 
 Permite integraciones más ágiles, ya que la configuración es mínima y no participa un tercero.
-También admite grandes volúmenes de tráfico sin afectar el rendimiento de las actividades de marketing. Como ejemplo, la integración puede procesar un millón de activadores por hora.
+También admite grandes volúmenes de tráfico sin afectar el rendimiento de las actividades de marketing. Por ejemplo, la integración puede procesar un millón de déclencheur por hora.
 
 ![](assets/do-not-localize/book.png) Descubra cómo [crear un activador de Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=es) e identificar, definir y monitorizar los comportamientos críticos del consumidor.
 

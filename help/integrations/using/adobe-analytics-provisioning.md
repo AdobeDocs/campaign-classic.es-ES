@@ -8,24 +8,16 @@ role: User, Admin
 level: Beginner
 exl-id: 24e002aa-4e86-406b-92c7-74f242ee4b86
 TQID: https://experienceleague.adobe.com/d7BixCjNjofJbMlbLbTFVN9BiPArA4uCms0QdV5uW-0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: cbcf4d90-26be-46e2-b16a-aebc529dc41eid: df0d6518-6f49-46e2-b46e-3bcc513f553fid: eb007b6d-6e57-46ab-9485-3f24d6102304id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 702
-ht-degree: 81%
+ht-degree: 84%
 
 ---
 
@@ -51,7 +43,7 @@ Para que esta integración funcione, debe crear un perfil de producto de Adobe A
 
 >[!AVAILABILITY]
 >
-> La credencial de cuenta de servicio (JWT) está en desuso en Adobe. Las integraciones de Campaign con soluciones y aplicaciones de Adobe ahora deben depender de la credencial de servidor a servidor OAuth. </br>
+> Adobe va a declarar la credencial Cuenta de servicio (JWT) como obsoleta, las integraciones de Campaign con aplicaciones y soluciones de Adobe ahora dependen de la credencial OAuth de servidor a servidor. </br>
 >
 > * Si ha implementado integraciones de entrada con Campaign, debe migrar su Cuenta técnica como se detalla en [esta documentación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Las [credenciales de la cuenta de servicio (JWT)](oauth-technical-account.md) existentes seguirán funcionando hasta el martes, 30 de junio de 2025.</br>
 >
@@ -69,7 +61,7 @@ Para obtener más información acerca de los perfiles de producto, consulte la [
 
    ![](assets/do-not-localize/triggers_1.png)
 
-1. Haga clic **[!UICONTROL New Profile]**.
+1. Haga clic en **[!UICONTROL New Profile]**.
 
    ![](assets/do-not-localize/triggers_2.png)
 
@@ -129,4 +121,4 @@ Consulte [esta página](oauth-technical-account.md#oauth-service) para ver la do
 
 ## Configuración y uso {#adobe-analytics-connector-usage}
 
-Aprenda a trabajar con Adobe Campaign y Adobe Analytics en [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}.
+Aprenda a trabajar con Adobe Campaign y Adobe Analytics en [Documentación de Adobe Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aa){target="_blank"}.
