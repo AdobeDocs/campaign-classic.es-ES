@@ -168,7 +168,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Acceso a datos externos (acceso de datos federado)<br /> </td> 
-   <td> Proporciona la opción Acceso de datos federados (FDA) para procesar la información almacenada en una o más bases de datos externas, de modo que pueda acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.  Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank">Más información</a> <br /> </td> 
+   <td> Proporciona la opción Acceso de datos federados (FDA) para procesar la información almacenada en una o más bases de datos externas, de modo que pueda acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.  Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html?lang=es" target="_blank">Más información</a> <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
   <tr> 
@@ -183,7 +183,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Administración de cupones<br /> </td> 
-   <td> Crea un conjunto de cupones para añadirlos a próximas ofertas de marketing. Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html" target="_blank">Más información</a> <br /> </td> 
+   <td> Crea un conjunto de cupones para añadirlos a próximas ofertas de marketing. Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=es" target="_blank">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
