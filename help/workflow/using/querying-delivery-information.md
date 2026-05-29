@@ -8,7 +8,12 @@ exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 TQID: https://experienceleague.adobe.com/pjhzFzxC5EBT4NgQtqKY0bMKAHUEJxS3b-80OX1FjKA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+feature_v2: []
+subfeature_v2:
+  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+  - id: d1110311-2ca4-442b-be37-088a6db845ee
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1260
 ht-degree: 100%
@@ -55,7 +60,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
      ![](assets/query_editor_nveau_18.png)
 
-     Haga clic **[!UICONTROL Next]**.
+     Haga clic en **[!UICONTROL Next]**.
 
    * Seleccione el campo **[!UICONTROL Primary key (@id)]**. Se configura la columna de salida **[!UICONTROL count (primary key)]**.
 
@@ -85,7 +90,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
      Seleccione el operador **[!UICONTROL greater than]**. En la columna **[!UICONTROL Value]**, haga clic en **[!UICONTROL Edit expression]** y, en la ventana **[!UICONTROL Formula type]**, seleccione **[!UICONTROL Process on dates]**. Finalmente, en **[!UICONTROL Current date minus n days]**, escriba &quot;15&quot;.
 
-     Haga clic **[!UICONTROL Finish]**.
+     Haga clic en **[!UICONTROL Finish]**.
 
      ![](assets/query_editor_nveau_24.png)
 
@@ -93,7 +98,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
      Seleccione el operador **[!UICONTROL less than]**. En la columna **[!UICONTROL Value]**, haga clic en **[!UICONTROL Edit expression]**. Para el procesamiento de fechas, vaya a la ventana **[!UICONTROL Formula type]** y escriba “1” en **[!UICONTROL Current date minus n days]**.
 
-     Haga clic **[!UICONTROL Finish]**.
+     Haga clic en **[!UICONTROL Finish]**.
 
      ![](assets/query_editor_nveau_65.png)
 
@@ -101,7 +106,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
    * Haga clic en la función **[!UICONTROL Add]** para crear otra condición de filtrado. En la columna **[!UICONTROL Expression]**, haga clic en **[!UICONTROL Edit expression]**. En la ventana **[!UICONTROL Field to select]**, elija **[!UICONTROL Label]** en el nodo **[!UICONTROL Delivery]**.
 
-     Haga clic **[!UICONTROL Finish]**.
+     Haga clic en **[!UICONTROL Finish]**.
 
      ![](assets/query_editor_nveau_66.png)
 

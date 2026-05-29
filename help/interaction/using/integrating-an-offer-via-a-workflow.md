@@ -10,7 +10,10 @@ exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
 TQID: https://experienceleague.adobe.com/mAyeOK618LvVCdtRqLykUECmgWZce8bKoMiT-WIOe1Q
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+feature_v2:
+  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+subfeature_v2: []
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1077
 ht-degree: 100%
@@ -90,7 +93,7 @@ Después de configurar la consulta (consulte la [documentación de Campaign v8](
 
      ![](assets/int_enrichment_offer4.png)
 
-1. A continuación, configure una actividad de envío que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
+1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
 
    >[!NOTE]
    >
@@ -112,7 +115,7 @@ Para ello, utilice el proceso siguiente:
 
    ![](assets/int_enrichment_link2.png)
 
-1. A continuación, configure una actividad de envío que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
+1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
 
    >[!NOTE]
    >
@@ -120,7 +123,7 @@ Para ello, utilice el proceso siguiente:
 
 ### Almacenamiento de calificaciones y consideraciones de oferta {#storing-offer-rankings-and-weights}
 
-De forma predeterminada, cuando se utiliza una actividad de **enriquecimiento** para entregar ofertas, sus calificaciones y sus consideraciones no se almacenan en la lista de propuestas.
+De forma predeterminada, cuando se utiliza una actividad de **enriquecimiento** para entregar ofertas, sus calificaciones y sus consideraciones no se almacenan en la tabla de propuestas.
 
 >[!NOTE]
 >
@@ -160,7 +163,7 @@ Después de configurar la consulta (consulte la [guía sobre flujos de trabajo](
 
    ![](assets/int_offerengine_activity1.png)
 
-1. A continuación, configure una actividad de envío que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
+1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
 
 ## Ofertas por celda {#offers-by-cell}
 
@@ -177,4 +180,4 @@ Para ello, utilice el proceso siguiente:
 
      ![](assets/int_offer_per_cell1.png)
 
-1. A continuación, configure una actividad de envío que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
+1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).

@@ -10,6 +10,8 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
@@ -18,10 +20,15 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+subfeature_v2:
+  - id: e95a583b-fcfa-4524-8666-46a29c828119
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1434
-ht-degree: 98%
+source-wordcount: 1400
+ht-degree: 97%
 
 ---
 
@@ -149,7 +156,7 @@ Para obtener más información sobre el período de validez, consulte esta [pág
 
 ### Firma DKIM
 
-La autenticación por correo electrónico DKIM (DomainKeys Identified Mail) la realiza el servidor de correo mejorado. La firma DKIM por parte del servidor de correo de Campaign nativo se desactiva en la tabla de administración del dominio como parte de la actualización del servidor de correo mejorado.
+La firma de autenticación por correo electrónico de DKIM (DomainKeys Identified Mail) la realiza el MTA mejorado. La firma de DKIM por parte del servidor de correo de Campaign nativo se desactiva en la tabla de administración del dominio como parte de la actualización del servidor de correo mejorado.
 Para obtener más información sobre DKIM, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#authentication).
 
 ### Sistema de informes de éxito de envío

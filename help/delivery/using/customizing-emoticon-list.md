@@ -15,16 +15,24 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2:
+  - id: e95a583b-fcfa-4524-8666-46a29c828119
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 100%
+source-wordcount: 450
+ht-degree: 89%
 
 ---
 
 # Personalización de la lista de emoticonos {#customize-emoticons}
 
-La lista de emoticonos que se muestra en la ventana emergente se rige por una enumeración que permite mostrar valores en una lista para restringir las opciones que el usuario tiene para un campo determinado.
+La lista de emoticonos que se muestra en la ventana emergente se rige por una enumeración que le permite mostrar valores en una lista para restringir las opciones que el usuario tiene para un campo determinado.
 El orden de lista de emoticonos se puede personalizar y también se pueden añadir otros emoticonos a la lista.
 
 Tenga en cuenta que los emoticonos solo están disponibles para correo electrónico y notificaciones push. Para obtener más información al respecto, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es#inserting-emoticons){target="_blank"}.
@@ -50,7 +58,7 @@ Tenga en cuenta que los emoticonos solo están disponibles para correo electrón
 
 1. Rellene los campos:
 
-   * **[!UICONTROL U+]**: Código del nuevo emoticono. Puede encontrar la lista de los códigos de emoticonos en esta [página](https://unicode.org/emoji/charts/full-emoji-list.html).
+   * **[!UICONTROL U+]**: código del nuevo emoticono. Puede encontrar la lista de códigos de emoticonos en esta [página](https://unicode.org/emoji/charts/full-emoji-list.html).
 Para evitar problemas de compatibilidad, le recomendamos que elija emoticonos compatibles con los navegadores y con todos los sistemas operativos.
 
    * **[!UICONTROL Label]**: Etiqueta del nuevo emoticono.
@@ -58,7 +66,7 @@ Para evitar problemas de compatibilidad, le recomendamos que elija emoticonos co
    ![](assets/emoticon_5.png)
 
 1. Haga clic en **[!UICONTROL Ok]** y luego en **[!UICONTROL Save]** cuando finalice la configuración.
-El nuevo emoticono se coloca automáticamente en la tienda.
+El nuevo emoticono se colocará automáticamente en la tienda.
 
 1. Para mostrarlo en la ventana **[!UICONTROL Insert emoticon]** de los envíos, seleccione el emoticono recién creado haciendo doble clic en él.
 

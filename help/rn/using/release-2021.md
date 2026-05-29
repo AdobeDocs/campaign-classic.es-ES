@@ -13,6 +13,8 @@ feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -22,10 +24,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 2670
-ht-degree: 100%
+source-wordcount: 2661
+ht-degree: 99%
 
 ---
 
@@ -34,7 +36,7 @@ ht-degree: 100%
 ## Versión 7.1 (21.1)
 
 >[!CAUTION]
->Utilice el menú **[!UICONTROL Help > About...]** para comprobar su versión de Adobe Campaign [ y número de compilación](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Sin embargo, tenga en cuenta que para todas las compilaciones entre 9277 y 9343 enumeradas en esta página, el número de versión muestra 7.0 en lugar de 7.1.
+>Utilice el menú **[!UICONTROL Help > About...]** para comprobar su versión de Adobe Campaign [&#x200B; y número de compilación](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Sin embargo, tenga en cuenta que para todas las compilaciones entre 9277 y 9343 enumeradas en esta página, el número de versión muestra 7.0 en lugar de 7.1.
 > 
 
 ### Versión 21.1.4, compilación 9343 {#release-21-1-4-build-9343}
