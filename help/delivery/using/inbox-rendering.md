@@ -22,7 +22,7 @@ subfeature_v2:
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 709336f05e114ae380d71381bef4b2e7a776b402
 workflow-type: tm+mt
 source-wordcount: 919
 ht-degree: 100%
@@ -141,7 +141,7 @@ Este informe muestra las renderizaciones de la bandeja de entrada tal y como apa
 
 La sección superior presenta la repartición del número de mensajes recibidos, no deseados (spam), no recibidos o pendientes de recepción a través de una representación gráfica codificada mediante colores.
 
-![](assets/s_tn_inbox_rendering_summary.png){width="40%" align="left"}
+![](assets/s_tn_inbox_rendering_summary.png){width="40%"}
 
 Pase el puntero por encima del gráfico para ver los detalles de cada color. Haga clic en un elemento de la lista para ocultar o mostrar la categoría correspondiente en el gráfico.
 
