@@ -4,24 +4,14 @@ product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 TQID: https://experienceleague.adobe.com/Q6Oc24mo-1qDAxCWu2lGT4UvRLXB78Tr5X4sb2kHFw8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2:
-  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: d3b34fea-a110-482f-adb2-aae8d686bac8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
-source-wordcount: 396
-ht-degree: 82%
+workflow-type: ht
+source-wordcount: 326
+ht-degree: 100%
 
 ---
 
@@ -93,30 +83,30 @@ Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
-    <br/>
-      <strong>Introducción</strong><br/><a href="platform/using/adobe-campaign-workspace.md">Interfaz de usuario</a> - <a href="platform/using/launching-adobe-campaign.md">Conectarse a Campaign</a> - <a href="platform/using/get-started-data-import-export.md">Importar y exportar datos</a> - <a href="platform/using/access-management.md">Permisos</a>
+    <br/>
+      <strong>Introducción</strong><br/><a href="platform/using/adobe-campaign-workspace.md">Interfaz de usuario</a> - <a href="platform/using/launching-adobe-campaign.md">Conexión a Campaign</a> - <a href="platform/using/get-started-data-import-export.md">Importación y exportación de datos</a> - <a href="platform/using/access-management.md">Permisos</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Experiencia del cliente</strong><br/><a href="workflow/using/about-workflows.md">Automatización con flujos de trabajo</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es" target="_blank">Campaña de marketing</a> - <a href="interaction/using/interaction-and-offer-management.md">Interacción y administración de ofertas</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">Creación de informes</a>
+      <strong>Experiencia del cliente</strong><br/><a href="workflow/using/about-workflows.md">Automatización con flujos de trabajo</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es" target="_blank">Campaña de marketing</a> - <a href="interaction/using/interaction-and-offer-management.md">Interacción y gestión de ofertas</a> - <a href="delivery/using/about-personalization.md">Personalización</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">Sistema de informes</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>Enviar mensajes</strong><br/><a href="delivery/using/communication-channels.md">Canales de comunicación</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">Enviar pruebas</a> - <a href="delivery/using/get-started-a-b-testing.md">Pruebas A/B</a> - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Seguimiento de mensajes</a> - <a href="delivery/using/about-deliverability.md">Capacidad de entrega</a> - <a href="message-center/using/about-transactional-messaging.md">Mensajes transaccionales</a>
+      <strong>Envío de mensajes</strong><br/><a href="delivery/using/communication-channels.md">Canales de comunicación</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">Envío de pruebas</a> - <a href="delivery/using/get-started-a-b-testing.md">Pruebas A/B</a> - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Seguimiento de mensajes</a> - <a href="delivery/using/about-deliverability.md">Entregabilidad</a> - <a href="message-center/using/about-transactional-messaging.md">Mensajería transaccional</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
       <br/>
-      <strong>Perfiles y audiencias</strong><br/> <a href="platform/using/creating-and-managing-lists.md">Crear listas</a> - <a href="delivery/using/about-services-and-subscriptions.md">Servicios y suscripciones</a> - <a href="platform/using/privacy-management.md">Privacidad y consentimiento</a>
+      <strong>Perfiles y públicos</strong><br/> <a href="platform/using/creating-and-managing-lists.md">Crear listas</a> - <a href="delivery/using/about-services-and-subscriptions.md">Servicios y suscripciones</a> - <a href="platform/using/privacy-management.md">Privacidad y consentimiento</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">
       <br/>
-      <strong>Arquitectura y configuración</strong><br/><a href="production/using/general-architecture.md">Principios de arquitectura</a> - <a href="production/using/build-upgrade.md">Realización de una actualización de compilación</a> - <a href="production/using/configuration.md">Configuración de Campaign</a> - <a href="installation/using/external-accounts.md">Conexión a sistemas externos</a>
+      <strong>Arquitectura y configuración</strong><br/><a href="production/using/general-architecture.md">Principios de arquitectura</a> - <a href="production/using/build-upgrade.md">Actualización de compilación</a> - <a href="production/using/configuration.md">Configuración de Campaign</a> - <a href="installation/using/external-accounts.md">Conexión a sistemas externos</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
