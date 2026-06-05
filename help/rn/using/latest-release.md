@@ -22,9 +22,9 @@ subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 376
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ _31 de marzo de 2026_
 
 >[!NOTE]
 >
-> Las correcciones enumeradas a continuación se han implementado progresivamente en versiones sucesivas de 7.4.3. Vaya al **[!UICONTROL Help > About...]** [menú](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) para comprobar que dispone de la última versión de 9394@28aaec9. Póngase en contacto con su representante de Adobe para obtener más información.
+> Las correcciones enumeradas a continuación se han implementado progresivamente en sucesivas versiones 7.4.3. Vaya al [menú](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) **[!UICONTROL Help > About...]** para comprobar que dispone de la última versión de 9394@28aaec9. Póngase en contacto con su representante de Adobe para obtener más información.
 
 * Se ha corregido un problema en el cual el componente de código de barras permitía un parámetro de altura sin límites, lo que podría provocar una vulnerabilidad de seguridad. (NEO-89984)
 * Se ha corregido un problema en el cual a los campos de enumeración de las listas creadas mediante flujos de trabajo les faltaban atributos de nombre temporales, lo que provocaba que se mostraran etiquetas de enumeración incorrectas o en blanco en la interfaz. (NEO-91158)

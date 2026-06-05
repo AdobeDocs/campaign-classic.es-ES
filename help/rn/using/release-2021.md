@@ -25,9 +25,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2661
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 99%
 ## Versión 7.1 (21.1)
 
 >[!CAUTION]
->Utilice el menú **[!UICONTROL Help > About...]** para comprobar su versión de Adobe Campaign [&#x200B; y número de compilación](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Sin embargo, tenga en cuenta que para todas las compilaciones entre 9277 y 9343 enumeradas en esta página, el número de versión muestra 7.0 en lugar de 7.1.
+>Utilice el menú **[!UICONTROL Help > About...]** para comprobar su versión de Adobe Campaign [ y número de compilación](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version). Sin embargo, tenga en cuenta que para todas las compilaciones entre 9277 y 9343 enumeradas en esta página, el número de versión muestra 7.0 en lugar de 7.1.
 > 
 
 ### Versión 21.1.4, compilación 9343 {#release-21-1-4-build-9343}
@@ -176,7 +176,7 @@ _5 de junio de 2021_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Ahora puede conectar la instancia de Adobe Campaign Classic a la base de datos externa Google Big Query. Esta conexión se administra mediante una nueva cuenta externa.
+<td> <p>Ahora puede conectar la instancia de Adobe Campaign Classic a la base de datos externa Google BigQuery. Esta conexión se administra mediante una nueva cuenta externa.
 </p>
 <p>Para obtener más información, consulte la <a href="../../installation/using/configure-fda-google-big-query.md">documentación detallada</a>.</p>
 </td> 
