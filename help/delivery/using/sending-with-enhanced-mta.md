@@ -25,10 +25,10 @@ subfeature_v2:
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c8d13469884744554fd504fed8842dd0c9ab5feb
 workflow-type: tm+mt
-source-wordcount: 1400
-ht-degree: 97%
+source-wordcount: 1393
+ht-degree: 94%
 
 ---
 
@@ -56,9 +56,9 @@ La implementación del servidor de correo mejorado puede afectar a algunas de la
 
 **¿Qué es el servidor de correo mejorado (MTA)?**
 
-Ahora puede actualizar Adobe Campaign para que utilice un nuevo servidor de correo (MTA) que ejecuta un MTA de correo electrónico comercial de SparkPost denominado **Momentum**.
+Ahora puede actualizar Adobe Campaign para que utilice el **servidor de correo mejorado** (Agente de transferencia de correo), un motor de entrega de correo electrónico de alto rendimiento.
 
-Momentum representa una tecnología de MTA innovadora y de alto rendimiento que incluye gestión de devoluciones más inteligente y capacidad de optimización de envíos automatizados, lo que ayuda a los remitentes a lograr y mantener tasas de envío de bandeja de entrada óptimas. <!--More than 37% of the world's business email is sent using SparkPost's MTA technology.-->
+El servidor de correo mejorado incluye una gestión de devoluciones más inteligente y una capacidad de optimización de la capacidad de envío automatizada que ayuda a los remitentes a lograr y mantener tasas de envío de bandeja de entrada óptimas.
 
 **¿Cuáles son los beneficios?**
 
