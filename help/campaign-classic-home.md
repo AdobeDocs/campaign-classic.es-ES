@@ -4,24 +4,14 @@ product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 TQID: https://experienceleague.adobe.com/Q6Oc24mo-1qDAxCWu2lGT4UvRLXB78Tr5X4sb2kHFw8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2:
-  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: ht
-source-wordcount: 326
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: d3b34fea-a110-482f-adb2-aae8d686bac8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a35dcdddded4483beefc126ee3d603bab36bf9c9
+workflow-type: tm+mt
+source-wordcount: 330
+ht-degree: 93%
 
 ---
 
@@ -36,9 +26,9 @@ Echa un vistazo a las mejoras más recientes del producto y la documentación de
 >[!BEGINTABS]
 
 
->[!TAB Ya está aquí la versión de abril de 2025.]
+>¡La versión de [!TAB junio de 2026 está activa!]
 
-Descubra las actualizaciones, mejoras y correcciones incluidas en la versión 7.4.2 de Campaign Classic, de abril de 2025.
+La versión 7.4.3 de Campaign Classic de junio de 2026 incluye actualizaciones de seguridad además de la versión anterior.
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
