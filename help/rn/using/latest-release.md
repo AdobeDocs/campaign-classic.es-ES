@@ -21,10 +21,10 @@ feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 376
-ht-degree: 100%
+source-git-commit: a35dcdddded4483beefc126ee3d603bab36bf9c9
+workflow-type: tm+mt
+source-wordcount: 415
+ht-degree: 93%
 
 ---
 
@@ -32,9 +32,19 @@ ht-degree: 100%
 
 Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con la **última versión de Campaign Classic v7**. Cada nueva compilación viene con un estado que se materializa con un color. Obtenga más información sobre los estados de compilación de Campaign Classic v7 en [esta página](rn-overview.md).
 
-## Versión 7.4.3 - Compilación 9394 {#release-7-4-3}
+## Versión 7.4.3 {#release-7-4-3}
+
+### Compilación 9396 {#build-9396}
 
 [!BADGE Disponibilidad general]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad general"}
+
+_9 de junio de 2026_
+
+Esta compilación incluye correcciones de seguridad. Es la versión de General Availability recomendada y reemplaza a las versiones de Campaign Classic v7 anteriores.
+
+### Compilación 9394 {#build-9394}
+
+[!BADGE Obsoleto]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Obsoleto"}
 
 >[!CAUTION]
 >
@@ -42,11 +52,11 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 
 _31 de marzo de 2026_
 
-### Mejoras de seguridad {#security-7-4-3}
+#### Mejoras de seguridad {#security-7-4-3}
 
 * Para mantener una seguridad, estabilidad y conformidad óptimas, Debian se ha actualizado a la versión 13 y PostgreSQL a la versión 17. Consulte la [matriz de compatibilidades](compatibility-matrix.md).
 
-### Correcciones {#fixes-7-4-3}
+#### Correcciones {#fixes-7-4-3}
 
 >[!NOTE]
 >
