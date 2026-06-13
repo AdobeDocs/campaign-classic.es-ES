@@ -4,24 +4,14 @@ product: campaign
 title: Documentación del producto de Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 TQID: https://experienceleague.adobe.com/Q6Oc24mo-1qDAxCWu2lGT4UvRLXB78Tr5X4sb2kHFw8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2:
-  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a35dcdddded4483beefc126ee3d603bab36bf9c9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: d3b34fea-a110-482f-adb2-aae8d686bac8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 50418c4e818f04008a5d47a982fa5bb0185bd597
 workflow-type: tm+mt
-source-wordcount: 330
-ht-degree: 93%
+source-wordcount: 347
+ht-degree: 84%
 
 ---
 
@@ -36,7 +26,7 @@ Echa un vistazo a las mejoras más recientes del producto y la documentación de
 >[!BEGINTABS]
 
 
->[!TAB ¡La versión de  junio de 2026 está activa!]
+>¡La versión de [!TAB junio de 2026 está activa!]
 
 La versión 7.4.3 de Campaign Classic de junio de 2026 incluye actualizaciones de seguridad además de la versión anterior.
 
@@ -128,4 +118,4 @@ Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM
 
 ## Recursos adicionales
 
-[Lista de mensajes de error](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=es) - [Descripción del producto de Adobe Campaign](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}- [Matriz de compatibilidad](rn/using/compatibility-matrix.md) - [Tutoriales](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es){target="_blank"} - [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es){target="_blank"}
+[Lista de mensajes de error](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=es) - [Descripción del producto Adobe Campaign](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Matriz de compatibilidad](rn/using/compatibility-matrix.md) - [Tutoriales](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es){target="_blank"} - [Panel de control de Campaign para Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es){target="_blank"} - [Píxeles de seguimiento de correo electrónico y Guía CNIL](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
