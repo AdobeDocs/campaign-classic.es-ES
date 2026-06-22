@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 615
 ht-degree: 100%
@@ -89,3 +89,4 @@ Una vez establecido el vínculo, el resultado del agregado y los destinatarios f
 De ese modo, el resultado de la actividad de división se relaciona con los destinatarios creados el mismo día que la última fecha de creación conocida.
 
 A continuación, se puede agregar otras actividades como una actualización de lista o una entrega para enriquecer el flujo de trabajo.
+

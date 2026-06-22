@@ -23,7 +23,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 2672
 ht-degree: 76%
@@ -394,3 +394,4 @@ En la fecha de la solicitud de extracción, se crea el archivo de extracción y 
 Puede ver el contenido del archivo extraído (haciendo clic en su nombre), aprobarlo o, si es necesario, cambiar el formato y volver a iniciar la extracción con los vínculos del panel de control.
 
 Una vez aprobado el archivo, puede enviar el correo electrónico de notificación al enrutador. Para obtener más información, consulte [Inicio de una entrega sin conexión](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery).
+
