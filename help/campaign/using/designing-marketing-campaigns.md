@@ -1,35 +1,29 @@
 ---
 product: campaign
 title: Diseño y ejecución de campañas de marketing
-description: Defina, optimice, ejecute y analice campañas de marketing
+description: Definición, optimización, ejecución y análisis de las campañas de marketing
 role: User
 feature: Campaigns
 hide: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 TQID: https://experienceleague.adobe.com/IafzeMWF-WfGa3h70HsX6OXZIUeu47PJlqsliA8T5EM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: f863efa9-030c-4466-a2b8-a52aea6b722c
-source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: afa4204e-6d08-4e29-bc35-26aafb656d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: f863efa9-030c-4466-a2b8-a52aea6b722c
+source-git-commit: null
 workflow-type: tm+mt
 source-wordcount: 453
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Diseño y ejecución de campañas de marketing{#designing-marketing-campaigns}
 
-[!DNL Adobe Campaign] le permite definir, optimizar, ejecutar y analizar comunicaciones y campañas de marketing. [!DNL Adobe Campaign] actúa como un centro unificado y un centro de ejecución para las estrategias de marketing. Para obtener más información, consulte [Acceso a campañas](../../distributed/using/accessing-campaigns.md) y [Creación de campañas de marketing](../../campaign/using/setting-up-marketing-campaigns.md).
+[!DNL Adobe Campaign] le permite definir, optimizar, ejecutar y analizar las comunicaciones y las campañas de marketing. [!DNL Adobe Campaign] funciona como un centro unificado de gestión y ejecución de estrategias de marketing. Para obtener más información, consulte [Acceso a campañas](../../distributed/using/accessing-campaigns.md) y [Creación de campañas de marketing](../../campaign/using/setting-up-marketing-campaigns.md).
 
-Además, el módulo **Marketing Resource Management (MRM)** permite controlar las acciones de marketing en un modo cooperativo mediante la administración completa y el seguimiento en tiempo real de las tareas, los presupuestos y los recursos de marketing involucrados. La administración de recursos de marketing permite optimizar y regular la administración de procesos internos y externos, recursos y campañas de marketing. También admite relaciones de terceros (agencias, impresoras, etc.). Para obtener más información, consulte [esta sección](../../mrm/using/about-marketing-resource-management.md).
+Además, el módulo **Marketing Resource Management (MRM)** permite controlar las acciones de marketing en un modo cooperativo mediante la administración completa y el seguimiento en tiempo real de las tareas, los presupuestos y los recursos de marketing involucrados. El gestor de recursos de marketing le permite optimizar y regular la administración de procesos internos y externos, recursos y las campañas de marketing, También permite administrar las relaciones de terceros (agencias, impresoras, etc.). Para obtener más información, consulte [esta sección](../../mrm/using/about-marketing-resource-management.md).
 
 >[!NOTE]
 >
@@ -38,7 +32,7 @@ Además, el módulo **Marketing Resource Management (MRM)** permite controlar la
 >En la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"} se describen las funcionalidades relacionadas con la segmentación de la población, la personalización y envío de mensajes en los diversos canales.
 
 
-![Miniatura de vídeo explicativa](assets/do-not-localize/how-to-video.png) [Descubra los conceptos clave de las campañas de marketing en vídeo](#video)
+![Miniatura de vídeo práctico](assets/do-not-localize/how-to-video.png) [Descubra los conceptos clave de las campañas de marketing en vídeo](#video)
 
 ## Conceptos básicos {#core-concepts}
 
@@ -80,7 +74,7 @@ Los siguientes conceptos son esenciales para conocer mejor Campaign:
 
 Este vídeo presenta los conceptos clave de las campañas de marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/326574?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
-Hay disponibles [más vídeos de procedimientos para [!DNL Campaign Classic] aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
+Hay más vídeos prácticos disponibles de [!DNL Campaign Classic] [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
 
