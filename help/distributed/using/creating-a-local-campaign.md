@@ -16,9 +16,9 @@ topic_v2:
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1566
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Hay cuatro tipos de interfaces web disponibles:
 
   ![](assets/mkt_distr_8.png)
 
-  El formulario ofrecido se especifica en una aplicación web que debe estar seleccionada de la lista desplegable del campo **[!UICONTROL web Interface]** en el vínculo **[!UICONTROL Advanced campaign settings...]** de la plantilla. Consulte [Creación de una campaña local (por formulario) &#x200B;](examples.md#creating-a-local-campaign--by-form-).
+  El formulario ofrecido se especifica en una aplicación web que debe estar seleccionada de la lista desplegable del campo **[!UICONTROL web Interface]** en el vínculo **[!UICONTROL Advanced campaign settings...]** de la plantilla. Consulte [Creación de una campaña local (por formulario) ](examples.md#creating-a-local-campaign--by-form-).
 
   >[!NOTE]
   >
@@ -116,7 +116,7 @@ Si no desea asignar nombres a los revisores de una campaña, escriba 0.
 
 ### Documentos {#documents}
 
-Puede permitir que los operadores de entidades locales vinculen documentos (archivos de texto, hojas de cálculo, imágenes, descripciones de campañas, etc.) a la campaña local al crear la solicitud. El enlace **[!UICONTROL Advanced parameters for campaign entry...]** permite restringir el número de documentos. Para ello, simplemente introduzca el número máximo permitido en el campo **[!UICONTROL Number of documents]**.
+Puede permitir que los operadores de la entidad local vinculen documentos (archivos de texto, hojas de cálculo, imágenes, descripciones de campaña, etc.) a la campaña local al crear el pedido. El enlace **[!UICONTROL Advanced parameters for campaign entry...]** permite restringir el número de documentos. Para ello, simplemente introduzca el número máximo permitido en el campo **[!UICONTROL Number of documents]**.
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 

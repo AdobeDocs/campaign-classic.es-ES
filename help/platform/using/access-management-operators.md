@@ -28,9 +28,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1274
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -180,7 +180,7 @@ Puede acceder a:
 
 ## Operadores predeterminados {#default-operators}
 
-Adobe Campaign utiliza operadores técnicos con perfiles configurados de forma predeterminada: Administrador (&quot;admin&quot;), Facturación (&quot;facturación&quot;), Supervisión, Agente de aplicaciones web (&quot;webapp&quot;), etc. Algunas de ellas dependen de las aplicaciones y opciones instaladas en la plataforma: Los operadores &#39;central&#39; y &#39;local&#39;, por ejemplo, solo son visibles si está instalada la opción Marketing distribuido.
+Adobe Campaign utiliza operadores técnicos con perfiles configurados de forma predeterminada: Administrador (&#39;admin&#39;), Facturación (&#39;billing&#39;), Monitorización, Agente de aplicaciones web (&#39;webapp&#39;), etc. Algunos de estos operadores dependen de las aplicaciones y opciones instaladas en la plataforma: los operadores “centrales” y “locales”, por ejemplo, solo están visibles si la opción Marketing distribuido está instalada. 
 
 >[!IMPORTANT]
 >

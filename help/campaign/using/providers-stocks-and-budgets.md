@@ -21,9 +21,9 @@ topic_v2:
 subfeature_v2:
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1924
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Debe asociar las plantillas de servicio con cada proveedor de servicios. En esta
 >
 >Para más información, consulte [Definición de la estructura de costes](#defining-the-cost-structure).
 
-Una categoría de coste es una entidad que contiene un conjunto de costes apto para un tipo de entrega (correo electrónico, correo postal, etc.) o para una tarea. Las categorías de coste se agrupan en las plantillas de servicios asociadas a los proveedores de servicios. Cada proveedor de servicios puede hacer referencia a una o más plantillas de servicio.
+Una categoría de coste es una entidad que contiene un conjunto de costes apto para un tipo de envío (correo electrónico, correo directo, etc.) o para una tarea. Las categorías de coste se agrupan en las plantillas de servicios asociadas a los proveedores de servicios. Cada proveedor de servicios puede hacer referencia a una o más plantillas de servicio.
 
 Para crear una plantilla de servicio y definir su contenido, aplique los siguientes pasos:
 
@@ -173,7 +173,7 @@ Para ello, haga clic en la pestaña **[!UICONTROL Processes]** para configurar l
 
 Los servicios están asociados a campañas a través de entregas o tareas. Los proveedores de servicios están vinculados a plantillas de entrega para ofrecer sus servicios en las entregas creados mediante esta plantilla.
 
-Cuando se selecciona un servicio, las categorías de coste correspondientes al tipo de entrega (correo directo, correo electrónico, etc.) se indican automáticamente en la tabla central junto con las opciones de procesamiento definidas.
+Cuando se selecciona un servicio, las categorías de coste correspondientes al tipo de envío (correo electrónico, correo directo, etc.) se indican automáticamente en la tabla central junto con las opciones de procesamiento definidas.
 
 >[!NOTE]
 >

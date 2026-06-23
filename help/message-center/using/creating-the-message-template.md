@@ -12,9 +12,9 @@ topic_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 500
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Para insertar etiquetas de personalización en el cuerpo de un mensaje de correo
 
    ![](assets/messagecenter_create_custo_002.png)
 
-1. Complete la etiqueta con la siguiente sintaxis: **nombre del elemento**.@**nombre del atributo** como se muestra a continuación.
+1. Complete la etiqueta con la siguiente sintaxis: **nombre de elemento**.@**nombre de atributo** tal como se muestra a continuación.
 
    ![](assets/messagecenter_create_custo_003.png)
 

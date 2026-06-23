@@ -25,9 +25,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1047
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Por ejemplo, el campo personalizado con la sintaxis **&lt;%= recipient.LastName 
 
 Los campos personalizados pueden proceder de dos tipos de fuente de datos, según el modo de envío seleccionado:
 
-* La base de datos de Adobe Campaign es la fuente de datos. Este es el caso más común con, por ejemplo, los “campos personalizados de destinatario”. Estos son todos los campos definidos en la tabla de destinatarios, ya sean campos estándar (generalmente: apellidos, nombre, dirección, ciudad, fecha de nacimiento, etc.) o campos definidos por el usuario.
+* La base de datos de Adobe Campaign es la fuente de datos. Este es el caso más común con, por ejemplo, los “campos personalizados de destinatario”. Son todos los campos definidos en la lista de distribución, ya sean campos estándar (generalmente: apellidos, nombre, dirección, ciudad, fecha de nacimiento, etc.) o campos definidos por el usuario.
 * Un archivo externo es la fuente de datos. Estos son todos los campos definidos en las columnas del archivo presentados como entrada durante una entrega con los datos que se encuentran en un archivo externo.
 
 >[!NOTE]

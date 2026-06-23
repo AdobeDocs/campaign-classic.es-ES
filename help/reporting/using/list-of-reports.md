@@ -19,9 +19,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1024
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -352,7 +352,7 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
 
 ## Otros informes de ootb {#other-ootb-reports}
 
-También se incluyen los siguientes informes. Para obtener más información, consulte el documento sobre la funcionalidad a la que se refieren.
+También se incluyen los siguientes informes integrados.Para obtener más información, consulte el documento sobre la funcionalidad a la que se refieren.
 
 <table> 
  <tbody> 

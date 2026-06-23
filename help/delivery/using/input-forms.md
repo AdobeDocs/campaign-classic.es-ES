@@ -23,9 +23,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 843
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ El documento XML de un formulario de entrada debe contener el elemento raíz **`
 
 De forma predeterminada, un formulario está asociado al esquema de datos con el mismo nombre y espacio de nombres. Para asociar un formulario con otro nombre, introduzca la clave de esquema en el atributo **entity-schema** del elemento **`<form>`**.
 
-Para ilustrar la estructura de un formulario de entrada, se describe una interfaz basada en el esquema de ejemplo &quot;cus:book&quot;:
+Para ilustrar la estructura de un formulario de entrada, describimos una interfaz basada en nuestro esquema de ejemplo “cus:book”:
 
 ![](assets/d_ncs_content_form1.png)
 

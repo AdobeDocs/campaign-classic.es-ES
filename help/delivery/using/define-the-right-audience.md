@@ -21,9 +21,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 554
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Obtenga más información sobre las poblaciones destinatarias en esta sección e
 
 Cuando tenga preparado el contenido, debe definir cuidadosamente quién recibirá el mensaje.
 
-Para que su envío se realice correctamente, envíe el contenido personalizado más relevante a los destinatarios adecuados. Adobe Campaign le permite crear el objetivo más preciso: puede seleccionar destinatarios según su edad, ubicación, lo que compraron, si hicieron clic en un vínculo en una entrega anterior, etc. Con Adobe Campaign, también puede definir perfiles, grupos de control y direcciones semilla de prueba para asegurarse de que el destinatario es correcto.
+Para que su envío se realice correctamente, envíe el contenido personalizado más relevante a los destinatarios adecuados. Adobe Campaign le permite crear el público destinatario más adecuado: puede seleccionar destinatarios según su edad, localización, lo que compraron, si hicieron clic en un vínculo en un envío anterior, etc. Con Adobe Campaign, también puede definir perfiles de prueba, grupos de control y direcciones semilla para asegurarse de que el público destinatario sea correcto.
 
 ## Asignaciones de destino {#target-mappings}
 

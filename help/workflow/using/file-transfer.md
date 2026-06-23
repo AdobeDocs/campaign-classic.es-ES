@@ -19,9 +19,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 527
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 
 
 
-La actividad **Transferencia de archivos** le permite recibir o enviar archivos, probar la presencia de archivos o mostrar archivos en un servidor. El protocolo utilizado es Azure Blob Storage, Amazon Simple Storage Service (S3), FTP o SFTP.
+La actividad **Transferencia de archivos** le permite recibir o enviar archivos, probar la presencia de archivos o mostrar archivos en un servidor. El protocolo que se utiliza es Azure Blob Storage, Amazon Simple Storage Service (S3), FTP o SFTP.
 Con la conexión S3, Azure Blob Storage o SFTP, también puede importar datos de segmentos a Adobe Campaign con Adobe Real-time Customer Data Platform. Para obtener más información, consulte esta [documentación](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=es#catalog).
 
 >[!NOTE]
@@ -107,7 +107,7 @@ El enlace **[!UICONTROL Advanced parameters...]** permite acceder a las siguient
 
   Permite especificar el puerto de conexión que se utilizará para la transferencia de datos.
 
-El vínculo **[!UICONTROL File historization settings...]** da acceso a las opciones detalladas en [&#x200B; Descarga web](web-download.md) (paso **[!UICONTROL File historization]**).
+El vínculo **[!UICONTROL File historization settings...]** da acceso a las opciones detalladas en [ Descarga web](web-download.md) (paso **[!UICONTROL File historization]**).
 
 ## Parámetros de entrada {#input-parameters}
 

@@ -18,9 +18,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3088
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 93%
  </tbody> 
 </table>
 
-Este informe se basa en la tabla **[!UICONTROL Consolidated tracking]** (nms:trackingStats). Esta tabla de acumulados se utiliza por motivos de rendimiento al mostrar los informes, en lugar de la tabla **[!UICONTROL Recipient tracking logs]** (nms:trackingLogRcp), y no se calcula en tiempo real. La tabla se genera unos minutos después de recuperar los “logs” de seguimiento. Si los indicadores están actualizados, los resultados son los mismos que para los indicadores del informe **indicadores de seguimiento.** El indicador @totalclicks expresa el número total de clics durante un periodo de 5 minutos.
+Este informe se basa en la tabla **[!UICONTROL Consolidated tracking]** (nms:trackingStats). Esta tabla agregada se utiliza por motivos de rendimiento al mostrar los informes, en lugar de la tabla **[!UICONTROL Recipient tracking logs]** (nms:trackingLogRcp), y no se calcula en tiempo real. La tabla se genera unos minutos después de recuperar los “logs” de seguimiento. Si los indicadores están actualizados, los resultados son los mismos que para los indicadores del informe **indicadores de seguimiento.** El indicador @totalclicks expresa el número total de clics durante un periodo de 5 minutos.
 
 ## Rechazos y correos que no se pueden entregar {#non-deliverables-and-bounces-1}
 
@@ -371,7 +371,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[
    <td> Nuevos contactos<br /> </td> 
    <td> @newContacts<br /> </td> 
    <td> Recuento de los visitantes vinculados a un destinatario.<br /> </td> 
-   <td> Fórmula: count(@id)<br /> Filtro: @recipient-id != 0<br /> </td> 
+   <td>Fórmula: count(@id)<br /> Filter: @recipient-id<br /> </td> 
   </tr> 
   <tr> 
    <td> Aperturas<br /> </td> 
@@ -738,7 +738,7 @@ Este informe se basa en la tabla **[!UICONTROL Delivery]** (nms:delivery).
    <td> Clics<br /> </td> 
    <td> @_click<br /> </td> 
    <td> Recuento de todos los @totalClicks con una clave principal de URL diferente de 1<br /> </td> 
-   <td> count(Iif([@url-id] != 1, @totalClicks, 0))<br /> </td> 
+   <td>count(Iif([@url-id] != 1, @totalClicks, 0))<br /> </td> 
   </tr> 
   <tr> 
    <td> Clics (%)<br /> </td> 
@@ -804,7 +804,7 @@ Este informe se basa en la tabla **[!UICONTROL Delivery]** (nms:delivery).
 
 ## Clics activos {#hot-clicks-1}
 
-Este informe se basa en las tablas Envío (nms:delivery) y **[!UICONTROL Consolidated tracking]** (nms:trackingStats).
+Este informe se basa en las tablas de envío (nms:delivery) y **[!UICONTROL Consolidated tracking]** (nms:trackingStats).
 
 Este informe muestra el contenido del mensaje (HTML o texto) con el porcentaje de clics en los vínculos, por cada vínculo. Los vínculos de baja de bloques personalizados y los vínculos de páginas espejo se tienen en cuenta en el total de clics acumulados, pero no se visualizan en el informe.
 
@@ -904,7 +904,7 @@ Este informe se basa en la tabla **[!UICONTROL Delivery and tracking statistics]
 
 ## Desglose de aperturas {#breakdown-of-opens-1}
 
-Este informe se basa en las tablas **Deliveries** (nms:delivery) y **Tracking logs** (nms:trackingLogRcp).
+Este informe se basa en las tablas **Envíos** (nms:delivery) y **Registros de seguimiento** (nms:trackingLogRcp).
 
 <table> 
  <thead> 
@@ -927,7 +927,7 @@ Este informe se basa en las tablas **Deliveries** (nms:delivery) y **Tracking lo
 
 ## Otros indicadores {#other-indicators}
 
-El indicador **Enviado** (@sent), al que se accede a través del nodo **Envíos (nms:delivery) > Indicadores**, corresponde al número total de SMS enviados al proveedor de servicios. Este indicador solo se utiliza para envíos SMS y no debe utilizarse para otros tipos de envíos (no confundirlo con los indicadores **@success** y **@processed**).
+El indicador **Enviado** (@sent), al que se accede a través del nodo **Envíos (nms:delivery) > Indicadores**, corresponde al número total de SMS enviados al proveedor de servicio. Este indicador solo se utiliza para envíos SMS y no debe utilizarse para otros tipos de envíos (no confundirlo con los indicadores **@success** y **@processed**).
 
 ## Sincronización de indicadores {#indicator-synchronization}
 

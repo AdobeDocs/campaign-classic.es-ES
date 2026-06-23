@@ -25,9 +25,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 870
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Según su implementación, puede enfrentarse a varios problemas comunes.
 
   Para poder utilizar aún los datos relacionados, se puede establecer los objetivos en Campaign v7 y añadir datos adicionales como se explica en la sección [Sincronizar públicos](../../integrations/using/synchronizing-audiences.md) o puede comunicarse con el consultor para explorar las posibilidades de personalización.
 
-* **Estoy usando otra dimensión de perfil distinta a la nms:recipient predeterminada en Campaign v7, ¿cómo puedo sincronizarla con Campaign Standard?**
+* **Estoy utilizando otra dimensión de perfil distinta a nms:recipient predeterminada en Campaign v7, ¿cómo puedo sincronizarla con Campaign Standard?**
 
   Standard Campaign utiliza un recurso de objetivo único que se denomina **perfiles**. La implementación básica de la funcionalidad Campaign Standard Connect proporciona una asignación predeterminada entre los destinatarios de Campaign v7 y los perfiles de Campaign Standard.
 

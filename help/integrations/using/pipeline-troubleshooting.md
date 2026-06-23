@@ -23,9 +23,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 702
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,8 +42,8 @@ La versión de Adobe Campaign Classic no admite la canalización.
 
 **La canalización produce el error &#39;&#39; aurait dû commencer par `[` ou `{` (iRc=16384)&quot;**
 
-No se ha establecido la opción **NmsPipeline_Config**. En realidad es un error de análisis de JSON.
-Establezca la configuración de JSON en la opción **NmsPipeline_Config**. Consulte &quot;Opción de enrutamiento&quot; en esta página.
+La opción **NmsPipeline_Config** no está definida. En realidad se trata de un error de análisis de JSON.
+Establezca la configuración JSON en la opción **NmsPipeline_Config**. Consulte “opción de enrutamiento” en esta página.
 
 **La canalización produce el error &quot;el sujeto debe ser una organización o cliente válido&quot;**
 
@@ -51,7 +51,7 @@ La configuración del ID de organización no es válida.
 
 1. Compruebe que el ID de la organización (ImsOrgId) esté establecido en serverConf.xml.
 1. Compruebe si un ID de organización vacío en el archivo de configuración de instancia puede anular el predeterminado. Si es así, elimínelo.
-1. Compruebe que el ID de organización sea correcto. Para encontrar su identificador de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}
+1. Compruebe que el ID de organización sea correcto. Para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}
 
 **La canalización produce el error &quot;clave no válida&quot;**
 

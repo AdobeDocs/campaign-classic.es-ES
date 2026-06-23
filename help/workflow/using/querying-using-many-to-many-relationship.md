@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 399
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ En este ejemplo también muestra el modo de configurar un filtro relacionado con
 
 * ¿Qué tabla se debe seleccionar?
 
-  La tabla de destinatarios (**nms:recipient**)
+  La tabla de destinatario (**nms:recipient**)
 
 * Campos que se desea seleccionar para la columna de salida.
 
@@ -42,7 +42,7 @@ En este ejemplo también muestra el modo de configurar un filtro relacionado con
 
 Siga estos pasos:
 
-1. Abra Generic query editor y seleccione la tabla de destinatarios **[!UICONTROL (nms:recipient)]**.
+1. Abra el editor de consultas genérico y seleccione la tabla de destinatario **[!UICONTROL (nms:recipient)]**. 
 1. En la ventana **[!UICONTROL Data to extract]** seleccione **[!UICONTROL Primary key]**, **[!UICONTROL First name]**, **[!UICONTROL Last name]** y **[!UICONTROL Email]**.
 
    ![](assets/query_editor_nveau_33.png)

@@ -24,9 +24,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 854
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -141,9 +141,9 @@ La lista de parámetros opcionales es:
 | dumpStatePeriodSec | También se puede acceder a petición al período entre dos volcados del proceso de estado interno en `var/INSTANCE/pipelined.json.`<br> aquí: `http://INSTANCE:7781/pipelined/status` |
 | forcedPipelineEndpoint | Deshabilite la detección de PipelineServicesEndpoint para forzarla |
 | monitorServerPort | El proceso de canalización escuchará en este puerto para proporcionar el proceso de estado interno aquí: `http://INSTANCE:PORT/pipelined/status`. <br>El valor predeterminado es 7781 |
-| pointerFlushMessageCount | Cuando se procesa este número de mensajes, los desplazamientos se guardan en la base de datos. <br> El valor predeterminado es 1000 |
+| pointerFlushMessageCount | Cuando se procesa este número de mensajes, los desplazamientos se guardan en la base de datos. <br> El valor predeterminado es 1 000. |
 | pointerFlushPeriodSec | Después de este período, los desplazamientos se guardan en la base de datos. <br>El valor predeterminado es 5 (segundos) |
-| processingJSThreads | Número de mensajes de procesamiento de los subprocesos dedicados con conectores JS personalizados. <br> El valor predeterminado es 4 |
+| processingJSThreads | Número de mensajes de procesamiento de los subprocesos dedicados con conectores JS personalizados. <br> El valor predeterminado es 4. |
 | processingThreads | Número de mensajes de procesamiento de los subprocesos dedicados con código integrado. <br>El valor predeterminado es 4 |
 | retryPeriodSec | Retraso entre reintentos si hay errores de procesamiento. <br>El valor predeterminado es 30 (segundos) |
 | retryValiditySec | Descarte el mensaje si no se procesa correctamente después de este período (demasiados reintentos). <br>El valor predeterminado es 300 (segundos) |

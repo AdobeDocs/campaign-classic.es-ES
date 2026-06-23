@@ -18,9 +18,9 @@ topic_v2:
 subfeature_v2:
   - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3750
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -417,7 +417,7 @@ La dependencia entre tareas se representa mediante flechas en el panel de contro
 
 ![](assets/s_ncs_user_task_dependencies_from_board.png)
 
-En el caso de las tareas agrupadas, Adobe Campaign asigna automáticamente la fecha de finalización de la tarea principal a la tarea secundaria como fecha de inicio. Por ejemplo, si una tarea secundaria de **Crear invitación** finaliza el 15 de octubre a las 3:30PM, la tarea secundaria **Enviar correo electrónico de invitación** comenzará el 15 de octubre a las 3:30PM.
+En el caso de las tareas agrupadas, Adobe Campaign asigna automáticamente la fecha de finalización de la tarea principal a la tarea secundaria como fecha de inicio. Por ejemplo, si una tarea **Crear invitación** finaliza el 15 de octubre a las 3:30PM, la tarea secundaria **Enviar correo electrónico de invitación** comenzará el 15 de octubre a las 3:30PM.
 
 Además, si pospone el final de una tarea principal, algunas de sus tareas secundarias podrían verse afectadas: estas son las tareas secundarias cuyo estado es **[!UICONTROL Scheduled]** y cuya fecha de inicio es anterior a la nueva fecha de finalización de la tarea principal. La duración de la tarea sigue siendo la misma. Si la fecha de inicio de una tarea secundaria es posterior a la nueva fecha de finalización de la tarea principal, la tarea secundaria no se ve afectada.
 

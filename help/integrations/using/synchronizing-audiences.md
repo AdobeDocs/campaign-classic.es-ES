@@ -25,9 +25,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1161
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Este ejemplo de uso muestra cómo preparar el objetivo de su entrega en Campaign
 Para lograr esto, es necesario lo siguiente:
 
 * Los destinatarios almacenados en la base de datos de Campaign v7 y sincronizarlos con Campaign Standard. Consulte la sección [Sincronización de perfiles](../../integrations/using/synchronizing-profiles.md).
-* Datos adicionales, como suscripciones o transacciones, almacenados en tablas relacionadas con nms:recipients en la base de datos de Campaign v7. Estos datos pueden proceder de esquemas OOB o tablas personalizadas de Campaign v7. De forma predeterminada no están disponibles en Campaign Standard, ya que no están sincronizados.
+* Datos adicionales, como suscripciones o transacciones, almacenados en tablas relacionadas con nms:recipients en la base de datos de Campaign versión 7.Estos datos pueden proceder de esquemas OOB o tablas personalizadas de Campaign v7. De forma predeterminada no están disponibles en Campaign Standard, ya que no están sincronizados.
 * El derecho para ejecutar los flujos de trabajo en Campaign v7 y Campaign Standard.
 * El derecho para crear y ejecutar una entrega en Campaign Standard.
 

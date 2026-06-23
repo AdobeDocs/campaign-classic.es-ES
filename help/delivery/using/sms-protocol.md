@@ -24,9 +24,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 8283
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -44,8 +44,8 @@ Los SMS pueden limitarse a enviar mensajes de texto cortos sin formato, pero su 
 Existen dos maneras principales de enviar un SMS:
 
 * Enviarlo manualmente desde un teléfono, la forma habitual de comunicarse directamente entre personas.
-* Enviarlo desde Internet, la forma en que Adobe Campaign envía mensajes. Para ello, necesita un proveedor de servicios SMS que conecte Internet a la red móvil.
-Adobe Campaign utiliza el protocolo SMPP para enviar SMS a un proveedor de servicios.
+* Enviarlo desde Internet, la forma en que Adobe Campaign envía mensajes. Para ello, necesita un proveedor de servicio SMS que conecte Internet a la red móvil.
+Adobe Campaign utiliza el protocolo SMPP para enviar SMS a un proveedor de servicio.
 
 Este documento le guiará a través de la conexión configurada entre Adobe Campaign y un proveedor SMPP.
 
@@ -89,13 +89,13 @@ Un SMS lleva más información que texto. Aquí hay una lista de lo que puede en
 
 ## Protocolo SMPP {#smpp-protocol}
 
-Adobe Campaign Classic es compatible con la versión 3.4 del protocolo SMPP. Se trata de un protocolo muy extendido que permite enviar SMS a un proveedor (SMSC) y recibir SMS, así como recibos. Para obtener más información, consulte la [documentación de SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+Adobe Campaign Classic es compatible con la versión 3.4 del protocolo SMPP. Es un protocolo muy extendido que permite enviar SMS a un proveedor (SMSC) y recibir SMS, así como acuses de recibo. Para obtener más información, consulte la [documentación de SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
 El equipo de red en el lado del proveedor de servicios SMS suele conocerse como SMSC.
 
 ### Conexiones SMPP {#smpp-connections}
 
-Adobe Campaign se conecta al equipo de red del proveedor de servicios SMS a través de TCP. El protocolo SMPP establece conexiones TCP permanentes desde Adobe Campaign al proveedor. ADOBE CAMPAIGN siempre inicia las conexiones TCP, incluso para recibir mensajes.
+Adobe Campaign se conecta al equipo de red del proveedor de servicio SMS a través de TCP. El protocolo SMPP establece conexiones TCP permanentes desde Adobe Campaign al proveedor. Adobe Campaign siempre inicia las conexiones TCP, incluso para recibir mensajes.
 SMPP abre 1 o 2 conexiones TCP, según su modo. Adobe Campaign siempre inicia todas las conexiones.
 
 El protocolo SMPP puede funcionar en dos modos:
@@ -530,9 +530,8 @@ Ejemplo de una transmisión con una ventana máxima de 4:
 
 ![](assets/do-not-localize/sms_protocol_2.png)
 
-La ventana ayuda a aumentar el rendimiento cuando el vínculo de red tiene una latencia alta.  El valor de la ventana debe ser al menos el número de SMS/s multiplicado por la latencia del vínculo
-en segundos, de modo que el conector nunca está esperando a `SUBMIT_SM_RESP` antes de enviar el siguiente mensaje.
-Si la ventana es demasiado grande, puede enviar más mensajes duplicados en caso de problemas de conexión. Además, la mayoría de los proveedores tienen un límite muy estricto para la ventana y rechazan los mensajes que sobrepasan el límite.
+La ventana permite aumentar el rendimiento cuando el vínculo de la red tiene una latencia alta. El valor de la ventana debe ser, como mínimo, el número de SMS multiplicado por la latencia del vínculo en segundos, de modo que el conector nunca está esperando un `SUBMIT_SM_RESP` antes de enviar el siguiente mensaje.
+Si la ventana es demasiado grande, puede enviar más mensajes duplicados en caso de problemas de conexión. Además, la mayoría de proveedores tienen un límite muy estricto para la ventana y rechazan mensajes que superan dicho límite. 
 
 Calcular la fórmula óptima de la ventana de envío:
 
@@ -578,7 +577,7 @@ Consulte la sección [Codificación de texto SMS](sms-protocol.md#sms-text-encod
 
 Esta configuración le permite definir una asignación de codificación personalizada, diferente de la especificación. Podrá declarar una lista de codificaciones, junto con su valor `data_coding`.
 
-El MTA intentará codificar usando la primera codificación de la lista. Si falla, intentará usar la siguiente codificación en la lista, etc. Si no se puede utilizar ninguna codificación para codificar el mensaje, se producirá un error. Una vez encontrada la codificación, el MTA creará el `SUBMIT_SM PDU` con el texto codificado y el campo establecido `data_coding` con el valor especificado en la tabla.
+El MTA intentará codificar usando la primera codificación de la lista. Si falla, intentará utilizar la siguiente codificación de la lista, etc. Si no se puede utilizar ninguna codificación para codificar el mensaje, se producirá un error.Una vez encontrada la codificación, el MTA creará el `SUBMIT_SM PDU` con el texto codificado y el campo establecido `data_coding` con el valor especificado en la tabla.
 
 El orden de los elementos de la tabla es importante: las codificaciones prueban de arriba abajo. Debe colocar la codificación más barata o recomendada en la parte superior de la lista, seguida de codificaciones más y más caras.
 
@@ -689,7 +688,7 @@ Indica el formato del ID devuelto en el campo `message_id` del `SUBMIT_SM_RESP P
 
 * **Número decimal** : Se espera que el ID sea un número decimal en formato ASCII. Cuando se utiliza este ajuste, se eliminan los espacios iniciales y finales y los ceros al inicio.
 
-* **Número hexadecimal**: Se espera que el identificador sea un número hexadecimal en formato ASCII, sin 0x inicial ni h final. A continuación, el ID se convierte en un número decimal antes de almacenarse en la base de datos.
+* **Número hexadecimal**: se espera que el ID sea un número hexadecimal en formato ASCII, sin 0x inicial ni h final. El ID se convierte a continuación en un número decimal antes de almacenarse en la base de datos.
 
 * **Cadena hexadecimal**: Se espera que el ID sea un texto con codificación ASCII que es en sí mismo una cadena de bytes codificados como hexadecimales. P. ej.: en la PDU encontrará `0x34 0x31 0x34 0x32 0x34 0x33`, que se traduce como ASCII &quot;414243&quot;. A continuación, esta cadena se descodifica como una cadena hexadecimal de bytes y se obtiene &quot;ABC&quot; como resultado: almacenará el ID &quot;ABC&quot; en la base de datos.
 
@@ -847,22 +846,22 @@ Si tiene varias cuentas en la misma instancia de Adobe Campaign que se conectan 
 
 ### Habilitación de los seguimientos detallados del SMPP durante las comprobaciones {#enable-verbose}
 
-Siempre debe habilitar los seguimientos detallados del SMPP durante las comprobaciones.
-Aunque no pueda comprobar los registros usted mismo, será más fácil para el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) ayudarle.
+Debe habilitar siempre trazos detallados de SMPP durante las comprobaciones.
+Incluso si no puede comprobar los registros por su cuenta, será más fácil que el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) le ayude.
 
 ### Prueba de SMS {#test}
 
 * **Enviar SMS con todo tipo de caracteres**
 Si necesita enviar SMS con caracteres que no sean GSM o ASCII, intente enviar algunos mensajes con tantos caracteres diferentes como sea posible. Si configura una tabla de asignación de caracteres personalizada, envíe al menos un SMS para todos los valores `data_coding` posibles.
 
-* **Compruebe que SR se procesa correctamente**
-El SMS debe marcarse como recibido en el registro de envíos. El registro de envíos debe tener el siguiente aspecto:
+* **Verifique que SR se procesa correctamente**
+El SMS debe marcarse como recibido en el registro de envío. El registro de envío debe indicar que se ha realizado correctamente y tener el siguiente aspecto:
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Compruebe que ha cambiado el nombre del proveedor de envío. El registro de envíos nunca debe contener **SR genérico** en entornos de producción.
 
-* **Compruebe que se han procesado los MO**
-Si necesita procesar el MO (respuestas automáticas, almacenar el MO en la base de datos, etc.), intente realizar algunas pruebas. Envíe algunos SMS para todas las palabras clave de respuesta automática y compruebe si la respuesta es lo suficientemente rápida, no más de unos segundos.
-Compruebe en el registro que Adobe Campaign responde con un `DELIVER_SM_RESP` correcto (command_status=0).
+* **Compruebe que se procesa MO**
+Si necesita procesar MO (respuestas automáticas, almacenar MO en la base de datos, etc.), intente realizar algunas pruebas. Envíe algunos SMS para todas las palabras clave de respuesta automática y compruebe si la respuesta es lo suficientemente rápida, no más de unos segundos.
+Compruebe en el registro que Adobe Campaign responde con un `DELIVER_SM_RESP` (command_status=0) correcto.
 
 ### Compruebe las PDU {#check-pdus}
 
@@ -874,7 +873,7 @@ Este paso es necesario cuando se conecta a un proveedor que no estaba conectado 
 
 Verifique que `BIND_* PDUs` se envíen correctamente. Lo más importante que hay que comprobar es que el proveedor siempre devuelve `BIND_*_RESP PDUs` (command_status = 0) correctamente.
 
-Compruebe que no hay demasiados `BIND_* PDU`. Si hay demasiados, podría indicar que la conexión es inestable. Consulte la sección [Problemas con conexiones inestables](sms-protocol.md#issues-unstable-connection) para obtener más información.
+Compruebe que no hay demasiadas `BIND_* PDU`. Si hay demasiadas, esto podría indicar que la conexión no es estable. Consulte la sección [Problemas con conexiones inestables](sms-protocol.md#issues-unstable-connection) para obtener más información.
 
 #### ENQUIRE_LINK {#enquire-link-pdus}
 

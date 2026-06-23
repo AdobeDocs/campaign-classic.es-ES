@@ -23,9 +23,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 502
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Al configurar los campos de contenido condicional, se puede crear una personaliz
 
 En el siguiente ejemplo, puede aprender a crear un mensaje personalizado de forma dinámica según el género y los intereses del destinatario.
 
-* Mostrar &quot;Mr.&quot; o &quot;Ms.&quot; según el valor del campo **[!UICONTROL Gender]** (M o F) en la fuente de datos,
+* Visualizar mostrando “Sr.” o “Sra.”. según el valor del campo **[!UICONTROL Gender]** (M o F) en la fuente de datos,
 * Conjunto personalizado de un boletín u ofertas promocionales según los intereses indicados o detectados:
 
    * Interés 1 -- > Bloque 1

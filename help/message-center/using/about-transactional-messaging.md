@@ -12,9 +12,9 @@ feature_v2:
 subfeature_v2:
   - id: d3b34fea-a110-482f-adb2-aae8d686bac8
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 660
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ Un mensaje transaccional es una comunicación individual y única que un proveed
 
 Las funcionalidades de mensajería transaccional están diseñadas para admitir la escalabilidad y proporcionar un servicio las 24 horas del día, los 7 días de la semana.
 
-* **¿Cuándo vence?** Dado que este mensaje contiene información importante, el usuario espera que se envíe en tiempo real. Por lo tanto, el retraso entre el evento que se está activando y el mensaje que llega tiene que ser muy corto.
+* **¿Cuándo debe realizarse el envío?** Dado que este mensaje contiene información importante, el usuario espera que se envíe en tiempo real.Por lo tanto, el retraso entre el evento que se está activando y el mensaje que llega tiene que ser muy corto.
 
-* **¿Por qué es importante?** Generalmente, un mensaje transaccional tiene altas tasas de apertura. Por lo tanto, debe diseñarse cuidadosamente, ya que puede tener un fuerte impacto en el comportamiento de los clientes, ya que define la relación con ellos.
+* **¿Por qué es importante?** Generalmente, un mensaje transaccional tiene altas tasas de apertura.Por lo tanto, debe diseñarse cuidadosamente, ya que puede tener un fuerte impacto en el comportamiento de los clientes, ya que define la relación con ellos.
 
-* **¿Por ejemplo?** Podría ser un mensaje de bienvenida después de crear una cuenta, una confirmación de envío de un pedido, una factura, un mensaje que confirme un cambio de contraseña, una notificación después de que un cliente navegue por su sitio web, una comunicación de no disponibilidad del producto, un extracto de cuenta, etc.
+* **¿Por ejemplo?**  Podría ser un mensaje de bienvenida después de crear una cuenta, una confirmación de envío de un pedido, una factura, un mensaje que confirme un cambio de contraseña, una notificación después de que un cliente navegue por su sitio web, una comunicación de no disponibilidad del producto, un extracto de cuenta, etc.
 
 >[!IMPORTANT]
 >
@@ -94,6 +94,6 @@ Una vez que haya diseñado y publicado la plantilla de mensaje transaccional, si
 ## Temas relacionados {#related-topics}
 
 * [Introducción a los canales de comunicación](../../delivery/using/communication-channels.md)
-* [Pasos clave de creación de entregas](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}
+* [Pasos clave para la creación de envíos](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}
 * [Arquitectura de la mensajería transaccional](../../message-center/using/transactional-messaging-architecture.md)
 * [Acceso a los informes de mensajería transaccional](../../message-center/using/about-transactional-messaging-reports.md)

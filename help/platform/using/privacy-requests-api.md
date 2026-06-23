@@ -20,9 +20,9 @@ subfeature_v2:
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 662
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -92,8 +92,8 @@ A continuación, invoque la API de privacidad:
 
    Para que pueda realizar los pasos anteriores, tenga en cuenta lo siguiente:
 
-   * Puede usar un **queryDef** en el esquema **nms:gdprRequest** para comprobar el estado de la solicitud de acceso.
-   * Puede usar un **queryDef** en el esquema **nms:gdprRequestData** para obtener el resultado de la solicitud de acceso.
+   * Puede utilizar un **queryDef** en el esquema **nms:gdprRequest** para comprobar el estado de la solicitud de acceso.
+   * Puede utilizar un **queryDef** en el esquema **nms:gdprRequestData** para obtener el resultado de la solicitud de acceso.
    * Para poder descargar el archivo XML desde **&quot;$(serverUrl)&#39;/nms/gdpr.jssp?id=&#39;@id&quot;**, debe iniciar sesión y acceder desde una IP incluida en la lista de permitidos. Para ello, cree una aplicación web que le permita acceder al archivo generado por JSSP.
 
 ## Invocación de la API desde un JS {#invoking-api-from-js}

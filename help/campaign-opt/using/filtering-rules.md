@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 509
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 95%
 
 Las reglas de filtrado permiten definir los mensajes que deben excluirse según los criterios definidos en una consulta. Estas reglas están vinculadas a una dimensión de segmentación.
 
-Las reglas de filtrado se pueden vincular a otros tipos de reglas (control, presión, etc.) en tipologías o agrupadas en una tipología **Filtrado** dedicada. Para obtener más información sobre esto, consulte [Creación y uso de una tipología de filtrado](#creating-and-using-a-filtering-typology).
+Las reglas de filtrado se pueden vincular a otros tipos de reglas (control, presión, etc.)en tipologías o agrupadas en una tipología **Filtrado** dedicada. Para obtener más información sobre esto, consulte [Creación y uso de una tipología de filtrado](#creating-and-using-a-filtering-typology).
 
 ## Creación de una regla de filtrado {#creating-a-filtering-rule}
 

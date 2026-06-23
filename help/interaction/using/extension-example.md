@@ -16,9 +16,9 @@ feature_v2:
 subfeature_v2:
   - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 160
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 79%
 
 
 
-En el caso de un contacto entrante (centro de llamadas o sitio web), las ofertas más relevantes se sugieren a un contacto determinado mediante un conjunto de reglas de elegibilidad. Para enriquecer los criterios de idoneidad de sus ofertas, amplíe el esquema **nms:interaction**.
+En el caso de un contacto entrante (centro de llamadas o sitio web), las ofertas más relevantes se sugieren a un contacto determinado mediante un conjunto de reglas de elegibilidad. Para mejorar los criterios de idoneidad de sus ofertas, amplíe el esquema **nms:interaction**.
 
-* Para agregar un nuevo contexto de interacción, amplíe el esquema **nms:interaction** y cree tantos elementos **attribute** como sea necesario en el esquema.
+* Para añadir un un nuevo contexto de interacción, amplíe el esquema **nms:interaction** y cree tantos elementos **atributo** como sea necesario en el esquema.
 
   En el siguiente ejemplo, los criterios añadidos son el código de país y la última página visitada.
 

@@ -24,9 +24,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 885
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -46,11 +46,11 @@ ht-degree: 96%
 
 ¿Qué sucede si no se entregan los envíos y su estado sigue siendo **Pendiente**?
 
-* El proceso de ejecución está esperando a que estén disponibles algunos recursos. Es posible que el MTA no se haya iniciado.
-Compruebe que los módulos mta@instance se inicien en los servidores MTA y, si es necesario, inicie el módulo MTA. [Más información](../../production/using/administration.md).
+* El proceso de ejecución está esperando a que algunos recursos estén disponibles. Es posible que el MTA no se haya iniciado.
+Compruebe que los módulos mta@instancia se inicien en los servidores MTA y, si es necesario, inicie el módulo de MTA.[Obtenga más información](../../production/using/administration.md).
 
-* La entrega puede estar utilizando una afinidad que no se ha configurado en la instancia remitente.
-Sugerencia: Compruebe la configuración de la administración del tráfico (afinidad IP). Para obtener más información sobre esto, consulte Control del tráfico SMTP saliente.
+* El envío puede estar utilizando una afinidad que no se ha configurado en la instancia de envío.
+Sugerencia: Compruebe la configuración de la administración del tráfico (afinidad de IP). Para obtener más información, consulte Control del tráfico SMTP saliente.
 
 >[!NOTE]
 >

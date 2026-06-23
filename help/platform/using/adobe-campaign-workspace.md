@@ -21,9 +21,9 @@ subfeature_v2:
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1316
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Las listas están disponibles a través del vínculo **[!UICONTROL Lists]** en l
 
 Cada sección de la funcionalidad principal le permite navegar entre los elementos disponibles. Para ello, utilice los accesos directos de la sección **[!UICONTROL Browsing]**. El vínculo **[!UICONTROL Other choices]** le permite acceder a todas las demás páginas, independientemente del entorno.
 
-Puede crear un nuevo elemento (envío, aplicación web, flujo de trabajo, etc.) uso de los accesos directos de la sección **[!UICONTROL Create]** a la izquierda de la pantalla. Utilice el botón **[!UICONTROL Create]** situado encima de la lista para añadir nuevos elementos a la lista.
+Puede crear un nuevo elemento (envío, aplicación web, flujo de trabajo, etc.) utilizando los accesos directos de la sección **[!UICONTROL Create]** a la izquierda de la pantalla.Utilice el botón **[!UICONTROL Create]** situado encima de la lista para añadir nuevos elementos a la lista.
 
 Por ejemplo, en la página de entrega, utilice el botón **[!UICONTROL Create]** para crear una nueva entrega.
 
@@ -124,11 +124,11 @@ Es posible acceder a Adobe Campaign Explorer mediante el icono de la barra de he
 
 Para obtener más información sobre el explorador de Adobe Campaign, consulte estas páginas en la **documentación de Campaign v8 (consola)**:
 
-* [Introducción a la interfaz de usuario de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
+* [Información general sobre la interfaz de usuario de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
 * [Configuración de la interfaz de usuario de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
-* [Administrar carpetas y vistas en el explorador](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}
+* [Administración de carpetas y vistas en el explorador](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}
 
 
 ## Trabajo con datos {#work-with-data}

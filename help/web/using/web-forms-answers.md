@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 875
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Para cada campo de entrada de un formulario, están disponibles las siguientes o
 
 * **[!UICONTROL Variable]**
 
-  Si no desea almacenar información en la base de datos, puede utilizar una variable. Las variables locales se pueden declarar en sentido ascendente. Consulte [Almacenamiento de datos en una variable local &#x200B;](#storing-data-in-a-local-variable).
+  Si no desea almacenar información en la base de datos, puede utilizar una variable. Las variables locales se pueden declarar en sentido ascendente. Consulte [Almacenamiento de datos en una variable local ](#storing-data-in-a-local-variable).
 
 ### Almacenamiento de información en la base de datos {#storing-data-in-the-database}
 
@@ -48,7 +48,7 @@ Para guardar la información en un campo existente de la base de datos, haga cli
 
 >[!NOTE]
 >
->El documento de referencia predeterminado es el esquema **nms:recipient**. Para verla o elegir una nuevo, seleccione el formulario en la lista y haga clic en el botón **[!UICONTROL Properties]**.
+>El documento de referencia predeterminado es el esquema **nms:recipient**.Para verla o elegir una nuevo, seleccione el formulario en la lista y haga clic en el botón **[!UICONTROL Properties]**.
 
 ### Almacenamiento de datos en una variable local {#storing-data-in-a-local-variable}
 

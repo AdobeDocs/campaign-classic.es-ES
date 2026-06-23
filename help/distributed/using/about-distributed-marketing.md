@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 146
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 67%
 
 
 
-Adobe Campaign ofrece una aplicación **Distributed Marketing** para implementar campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **[!UICONTROL list of campaign packages]**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
+Adobe Campaign ofrece una aplicación de **marketing distribuido** para implementar campañas cooperativas entre entidades centrales (sedes centrales, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **[!UICONTROL list of campaign packages]**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
 
 La entidad central proporciona campañas que entidades locales pueden utilizar. Las campañas se materializan mediante paquetes que corresponden a campañas locales o de colaboración. Para utilizar una campaña, la entidad local debe pedirla y se debe aprobar la solicitud.
 
@@ -33,7 +33,7 @@ La entidad central proporciona campañas que entidades locales pueden utilizar. 
 
 >[!NOTE]
 >
->Para obtener más información sobre el marketing distribuido para Adobe Campaign y cómo utilizarlo, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}.
+>Para obtener más información sobre el marketing distribuido para Adobe Campaign y cómo emplearlo, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}.
 
 <!--
 ## Terminology {#terminology}

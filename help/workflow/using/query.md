@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1620
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Si no hay un módulo opcional instalado en la plataforma, este paso no se muestr
 
 Para agregar datos de la base de datos de Adobe Campaign:
 
-1. Seleccione el tipo de datos que desea agregar. Pueden ser datos que pertenezcan a la dimensión de filtrado o datos almacenados en tablas vinculadas.
+1. Seleccione el tipo de datos que desea añadir. Pueden ser datos que pertenecen a la dimensión de filtrado o datos almacenados en tablas vinculadas.
 
    ![](assets/query_add_columns.png)
 
@@ -122,7 +122,7 @@ Para añadir una colección de información enlazada a una población de destino
      >Si no se respeta la condición inicial, el resultado puede ser defectuoso (falta de líneas o líneas superpuestas).
 
    * Si elige recuperar varias líneas (**[!UICONTROL Limit the line count]**), puede especificar el número de líneas que desea recopilar.
-   * Si las columnas recopiladas contienen agregados, por ejemplo, el número de errores declarados, el gasto promedio en un sitio, etc., puede utilizar el valor **[!UICONTROL Aggregates]**.
+   * Si las columnas recopiladas contienen agregados, por ejemplo, el número de errores declarados, el gasto medio en un sitio, etc., puede utilizar el valor **[!UICONTROL Aggregates]**.
 
    ![](assets/query_add_collection_param.png)
 
@@ -195,9 +195,9 @@ La sección siguiente ofrece prácticas recomendadas para optimizar las consulta
 
   Para obtener más información, consulte estas secciones en función de la versión de Campaign:
 
-  ![](assets/do-not-localize/v7.jpeg) [Documentación de Campaign v7](../../configuration/using/database-mapping.md)
+  ![](assets/do-not-localize/v7.jpeg)[Documentación de Campaign v7](../../configuration/using/database-mapping.md)
 
-  ![](assets/do-not-localize/v8.png) [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=es)
+  ![](assets/do-not-localize/v8.png)[Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=es)
 
 ### Funciones {#functions}
 

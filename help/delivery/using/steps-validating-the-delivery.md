@@ -26,9 +26,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1658
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Para ello:
 
    Las reglas aplicadas durante el análisis se presentan en [esta sección](#validation-process-with-typologies). Los modos de validación disponibles se detallan en la sección [Cambio del modo de aprobación](#changing-the-approval-mode).
 
-1. **Enviar pruebas**: este paso permite controlar el contenido, las direcciones URL, la personalización, etc. Obtenga más información en [Enviar una prueba](steps-validating-the-delivery.md#sending-a-proof) y [Definir un objetivo de prueba específico](steps-defining-the-target-population.md#defining-a-specific-proof-target).
+1. **Enviar pruebas**: este paso le permite controlar el contenido, los URL, la personalización, etc. Obtenga más información en [Enviar una prueba](steps-validating-the-delivery.md#sending-a-proof) y [Definición de un objetivo de prueba específico](steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
 >[!IMPORTANT]
 >

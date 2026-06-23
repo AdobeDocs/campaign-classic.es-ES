@@ -22,9 +22,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2904
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -54,14 +54,14 @@ Una vez que ha comprobado cada cuenta individualmente, existen dos escenarios po
 
   Tiene un conflicto entre cuentas. Como se mencionó anteriormente, Adobe Campaign trata las cuentas individualmente, pero el proveedor puede tratarlas como una sola cuenta.
 
-   * Utiliza diferentes combinaciones de inicio de sesión y contraseña entre todas las cuentas.
-Tendrá que ponerse en contacto con el proveedor para diagnosticar posibles conflictos de su parte.
+   * Está utilizando diferentes combinaciones de inicio de sesión/contraseña entre todas las cuentas.
+Deberá ponerse en contacto con el proveedor para diagnosticar conflictos potenciales de su parte.
 
    * Algunas de las cuentas externas comparten la misma combinación de inicio de sesión y contraseña.
-El proveedor no tiene forma de saber de qué cuenta externa proviene `BIND PDU`, por lo que trata todas las conexiones de las cuentas múltiples como una sola. Es posible que hayan enrutado MO y SR de forma aleatoria a las dos cuentas, lo que causa problemas.
-Si el proveedor admite varios códigos cortos para la misma combinación de inicio de sesión y contraseña, tendrá que preguntarle dónde colocar ese código corto en `BIND PDU`. Tenga en cuenta que esta parte de información debe colocarse dentro de `BIND PDU` y no en `SUBMIT_SM`, ya que `BIND PDU` es el único lugar que permitirá enrutar los MO correctamente.
-Consulte la sección [Información en cada tipo de PDU](sms-protocol.md#information-pdu) anterior para saber qué campo está disponible en `BIND PDU`, normalmente agrega el código corto en `address_range`, pero eso requiere asistencia especial del proveedor. Póngase en contacto con ellos para saber cómo esperan enrutar varios códigos cortos de forma independiente.
-Adobe Campaign admite el manejo de varios códigos cortos en la misma cuenta externa.
+El proveedor no tiene forma de saber de qué cuenta externa proviene la `BIND PDU`, por lo que trata todas las conexiones de las diversas cuentas como una sola. Es posible que haya enrutado MO y SR de forma aleatoria a las dos cuentas, lo que causa problemas.
+Si el proveedor admite varios códigos cortos para la misma combinación de inicio de sesión y contraseña, deberá preguntarle dónde colocar ese código corto en la `BIND PDU`. Tenga en cuenta que este fragmento de información debe colocarse dentro de la `BIND PDU` y no en `SUBMIT_SM`, ya que la `BIND PDU` es el único lugar que permitirá enrutar los MO correctamente.
+Consulte la sección [Información en cada tipo de PDU](sms-protocol.md#information-pdu) anterior para saber qué campo está disponible en la `BIND PDU`, normalmente debe añadir el código corto en `address_range`, pero eso requiere asistencia especial del proveedor. Póngase en contacto con ellos para saber cómo esperan enrutar varios códigos cortos de forma independiente.
+Adobe Campaign permite gestionar varios códigos cortos en la misma cuenta externa.
 
 ## Problema con la cuenta externa en general {#external-account-issues}
 
@@ -112,7 +112,7 @@ Una conexión se considera inestable si se produce alguna de las siguientes situ
 
 * `enquire_link` agota el tiempo de espera, ya sea en el lado de Adobe Campaign o en el del proveedor. Puede ver `ENQUIRE_LINK_RESP` con un código de error distinto de cero en ese caso.
 
-* Hay un montón de `BIND PDU`. No debe haber más de unas pocas durante un día, según el número de conexiones. Más de una PDU BIND por hora debería llamar su atención.
+* Hay un montón de `BIND PDU`. No debería haber más que unas pocas al día, según la cantidad de conexiones. Más de una PDU BIND por hora debería llamar su atención.
 
 Para solucionar los problemas de estabilidad de la conexión:
 
@@ -332,13 +332,13 @@ El resultado debe ser el siguiente:
 Para aclarar las diferencias entre los estados **Enviado**, **Enviado al proveedor** y **Recibido en el móvil**, consulte las definiciones que se detallan a continuación:
 
 * **Recibido en el móvil**:
-El mensaje se ha entregado correctamente al dispositivo del usuario, con confirmación proporcionada por la entrega móvil finalizado (MT) y un informe de estado (SR).
+El mensaje se ha enviado correctamente al dispositivo del usuario, tal y como confirman tanto el envío MT (terminación en móvil) como como un informe de estado (SR).
 
 * **Enviado**:
-El mensaje se procesó correctamente a través del paso Mobile Terminated (MT), pero aún no se ha recibido un informe de estado (SR) que confirme la entrega al dispositivo móvil.
+El mensaje se ha procesado mediante el paso MT (terminación en móbil), pero aún no se ha recibido un informe de estado (SR) que confirme el envío al dispositivo móvil.
 
 * **Enviado al proveedor**:
-El mensaje se envió al proveedor mediante el `SUBMIT_SM command`, pero no se recibió ninguna confirmación de `SUBMIT_SM_RESP` del proveedor.
+El mensaje se ha enviado al proveedor mediante el `SUBMIT_SM command`, pero no se ha recibido ninguna confirmación `SUBMIT_SM_RESP` del proveedor.
 
 Es posible que los mensajes permanezcan en el estado **Enviado** porque la transición a **Recibido** depende de un informe de estado (SR) del dispositivo del usuario. Si el usuario tiene una recepción celular deficiente u otros problemas de conectividad, es posible que no reciba el mensaje inmediatamente. En estos casos, es responsabilidad del proveedor reintentar el envío o explicar por qué no se generó ningún SR. Si el proveedor identifica alguna discrepancia, debe asegurarse de que el comportamiento de Campaign sea coherente con las expectativas.
 

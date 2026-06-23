@@ -23,9 +23,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 894
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 Los bloques personalizados son dinámicos, personalizados y contienen un procesamiento específico que puede insertar en las entregas. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un vínculo a una página espejo. Consulte [Inserción de bloques de personalización](#inserting-personalization-blocks).
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Descubra esta función en vídeo](#personalization-blocks-video)
+![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#personalization-blocks-video)
 
 Se puede acceder a los bloques personalizados mediante el nodo **[!UICONTROL Resources > Campaign Management > Personalization blocks]** de Adobe Campaign Explorer. Hay varios bloques disponibles de forma predeterminada (consulte [Bloques de personalización predeterminados](#out-of-the-box-personalization-blocks)).
 
@@ -154,7 +154,7 @@ Para crear un bloque personalizado, vaya a Explorer y aplique los pasos siguient
 
      ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * Introduzca el contenido (en HTML, texto, JavaScript, etc.) de los bloques personalizados y haga clic en **[!UICONTROL Save]**.
+   * Introduzca el contenido (en formato HTML, texto, JavaScript, etc.) del bloque o bloques de personalización y haga clic en **[!UICONTROL Save]**.
 
 ## Tutorial en vídeo {#personalization-blocks-video}
 

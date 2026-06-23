@@ -24,9 +24,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 392
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 95%
 [!DNL Triggers] ejecutan acciones de marketing en un corto intervalo de tiempo tras la acción de un usuario. El tiempo de respuesta típico es inferior a una hora.
 
 Permite integraciones más ágiles, ya que la configuración es mínima y no participa un tercero.
-También admite grandes volúmenes de tráfico sin afectar el rendimiento de las actividades de marketing. Por ejemplo, la integración puede procesar un millón de déclencheur por hora.
+También admite grandes volúmenes de tráfico sin que por ello afecte el rendimiento de las actividades de marketing. Por ejemplo, la integración puede procesar un millón de activadores por hora.
 
 ![](assets/do-not-localize/book.png) Descubra cómo [crear un activador de Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=es) e identificar, definir y monitorizar los comportamientos críticos del consumidor.
 

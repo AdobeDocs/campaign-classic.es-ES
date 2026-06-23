@@ -19,15 +19,15 @@ subfeature_v2:
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 190
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Uso compartido de activos con Adobe Experience Cloud{#sharing-assets-with-adobe-experience-cloud}
 
-[Experience Cloud Assets](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/overview){target="_blank"} proporciona un único repositorio centralizado de recursos listos para su uso que se pueden compartir en varias soluciones. Un activo es un documento digital, imagen, vídeo o archivo de audio.
+[Recursos de Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/overview){target="_blank"} proporciona un único repositorio centralizado de activos listos para su uso que se pueden compartir en varias soluciones.Un activo es un documento digital, imagen, vídeo o archivo de audio.
 
 Entre los servicios de activos se incluyen:
 

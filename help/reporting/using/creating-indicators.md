@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 4f31b249b9f4dc3a10205a3f03cecdbc23b3a6e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 716
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ Para ello:
 
    ![](assets/s_advuser_cube_wz_15.png)
 
-1. Puede cambiar los ejes de la dimensión, eliminarlos, agregar nuevas medidas, etc. Las operaciones posibles se detallan en [esta página](../../reporting/using/using-cubes-to-explore-data.md).
+1. Puede cambiar los ejes de la dimensión, eliminarlos, añadir nuevas medidas, etc. Las operaciones posibles se detallan en [esta página](../../reporting/using/using-cubes-to-explore-data.md).
 
    Para ello, utilice los iconos adecuados.
 

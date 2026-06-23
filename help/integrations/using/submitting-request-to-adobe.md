@@ -21,9 +21,9 @@ subfeature_v2:
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 146
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 76%
 >
 >Como usuario de la versión 7, para poder continuar, asegúrese de que Adobe Identity Management System (IMS) esté habilitado en su sistema. [Más información](../../integrations/using/about-adobe-id.md).
 
-Una vez que el servicio Adobe Identity Management (IMS) esté habilitado para su organización, puede solicitar a Campaign que proporcione la integración de [Experience Cloud Audience](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/overview){target="_blank"}. Para ello, póngase en contacto con su representante de Adobe y proporcione la siguiente información:
+Una vez que se haya habilitado Adobe Identity Management Service (IMS) para su organización, puede solicitar que se realice la integración del [público de Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/overview){target="_blank"} con Campaign. Para ello, póngase en contacto con su representante de Adobe y proporcione la siguiente información:
 
 <table> 
  <tbody> 
@@ -47,7 +47,7 @@ Una vez que el servicio Adobe Identity Management (IMS) esté habilitado para su
   </tr> 
   <tr> 
    <td> <strong>ID de la organización</strong><br /> </td> 
-   <td> Su identificador de organización <br> Para encontrar su ID de organización, consulte <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es">esta página</a></td> 
+   <td> Su ID de la organización. <br> Para encontrar su ID de organización, consulte <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es">esta página</a></td> 
   </tr> 
   <tr> 
    <td> <strong>Entorno</strong><br /> </td> 

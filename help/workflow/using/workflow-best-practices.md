@@ -16,9 +16,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1350
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Hay dos soluciones adicionales disponibles para ayudarle:
 
   Esta opción, disponible en la pestaña **[!UICONTROL Execution]** en las propiedades del flujo de trabajo, registra todas las consultas SQL generadas por la herramienta desde las diferentes actividades. Es una buena forma de ver lo que realmente se ejecuta en la plataforma. Sin embargo, esta opción solo debe utilizarse temporalmente durante el desarrollo y no activarse en la producción.
 
-Purgue los registros cuando ya no los necesite. El historial del flujo de trabajo no se depura automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]** o haciendo clic en el botón Actions ubicado en la barra de herramientas situada encima de la lista. Seleccione Purge history.
+Purgue los registros cuando ya no los necesite. El historial del flujo de trabajo no se depura automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede purgar a través del menú **[!UICONTROL File > Actions]** o haciendo clic en el botón Acciones ubicado en la barra de herramientas situada encima de la lista. Seleccione Purgar historial.
 Para aprender a purgar los registros, consulte esta [documentación](starting-a-workflow.md).
 
 ### Planificación de flujo de trabajo {#workflow-planning}

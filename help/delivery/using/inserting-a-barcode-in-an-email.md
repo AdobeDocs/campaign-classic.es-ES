@@ -6,7 +6,7 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Email Design
 role: User
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
 ht-degree: 100%
 

@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 798
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Seleccione la plantilla de encuesta (**[!UICONTROL newSurvey]** de forma predete
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-Las páginas del formulario se crean mediante un editor especial que permite definir y configurar campos de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido de HTML, etc.). Se pueden recopilar en “contenedores” y mostrar según los requisitos. [Más información](#adding-questions)).
+Las páginas del formulario se crean utilizando un editor especial que permite definir y configurar campos de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido de HTML, etc.). Se pueden recopilar en “contenedores” y mostrar según los requisitos. [Más información](#adding-questions)).
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Cuando añada un campo a una encuesta, debe seleccionar su tipo. Estas son las o
    >
    >Los modos de almacenamiento y las importaciones de campo se detallan en [esta sección](../../surveys/using/managing-answers.md#storing-collected-answers).
 
-La naturaleza del campo que desea añadir (lista desplegable, campo de texto, casillas de verificación, etc.) se adapta al modo de almacenamiento seleccionado. Se puede cambiar con el campo **[!UICONTROL Type]** de la pestaña **[!UICONTROL General]**, pero asegúrese de mantener la coherencia con el tipo de datos.
+La naturaleza del campo que desea añadir (lista desplegable, campo de texto, casillas de verificación, etc.)se adapta al modo de almacenamiento seleccionado. Se puede cambiar con el campo **[!UICONTROL Type]** de la pestaña **[!UICONTROL General]**, pero asegúrese de mantener la coherencia con el tipo de datos.
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 

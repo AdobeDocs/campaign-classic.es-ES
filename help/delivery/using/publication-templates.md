@@ -23,9 +23,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 822
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ La plantilla de publicación hace referencia a los recursos utilizados en el pro
 
 Una plantilla de publicación se identifica con su nombre y espacio de nombres.
 
-La clave de identificación de una hoja de estilo es una cadena formada por el área de nombres y el nombre separados por dos puntos; por ejemplo: **cus:newsletter**.
+La clave de identificación de una hoja de estilo es una cadena formada por el espacio de nombres y el nombre separados por dos puntos; por ejemplo: **cus:newsletter**.
 
 >[!NOTE]
 >
@@ -125,13 +125,13 @@ La etiqueta de partición que se va a integrar en la hoja de estilos es la sigui
 
 **`<xsl:comment> #nl:output_replace(<name_of_file>) </xsl:comment>`** where **`<name_of_file>`** es el nombre de archivo de la página que se va a generar.
 
-**Ejemplo:** Generación de varios archivos con el esquema &quot;cus:book&quot;.
+**Ejemplo:** generación de varios archivos con el esquema “cus:book”.
 
 El principio es generar una página principal que enumere los capítulos, con la posibilidad de mostrar los detalles del capítulo en una página externa.
 
 ![](assets/d_ncs_content_chunk.png)
 
-La hoja de estilos correspondiente (&quot;cus:book.xsl&quot;) es la siguiente:
+La hoja de estilo correspondiente (“cus:book.xsl”) es la siguiente:
 
 ```xml
 <?xml version="1.0" encoding="ISO-8859-1" ?>
@@ -154,7 +154,7 @@ La hoja de estilos correspondiente (&quot;cus:book.xsl&quot;) es la siguiente:
 </xsl:stylesheet>
 ```
 
-Se requiere una segunda hoja de estilo (&quot;cus:chapter.xsl&quot;) para generar los detalles de los capítulos:
+Se requiere una segunda hoja de estilo (“cus:chapter.xsl”) para generar los detalles de los capítulos:
 
 ```xml
 <?xml version="1.0" encoding="ISO-8859-1" ?>
@@ -189,7 +189,7 @@ La etiqueta de partición se rellena al comienzo de la página para que se inclu
 
 El nombre de archivo se construye con la variable **$(path)**, que contiene la ruta de publicación y **`<xsl:value-of select="@id" />`**, que coincide con el identificador del capítulo en el documento de entrada.
 
-El modelo de publicación debe rellenarse con las dos hojas de estilo &quot;cus:book.xsl&quot; y &quot;cus:chapter.xsl&quot;.
+El modelo de publicación debe rellenarse con las dos hojas de estilo “cus:book.xsl” y “cus:chapter.xsl”.
 
 La opción **[!UICONTROL Multi-file generation]** debe estar activa en el modelo de transformación de capítulos:
 

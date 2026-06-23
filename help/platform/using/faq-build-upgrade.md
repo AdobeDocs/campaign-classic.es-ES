@@ -25,9 +25,9 @@ subfeature_v2:
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2093
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ Actualice su conocimiento en cuanto a los flujos de trabajo y los envíos de rut
 
 Identifique los tiempos de bajo volumen o bajo tráfico que sean ideales para las ventanas de mantenimiento, ya que producirán el menor impacto comercial.
 
-Revise nuestra [lista de comprobación de actualización de compilaciones &#x200B;](#check-list) a continuación, así como sus planes de prueba, y asegúrese de que los recursos que pueden realizar estas pruebas estén disponibles entre 24 y 48 horas tras la finalización de una actualización.
+Revise nuestra [lista de comprobación de actualización de compilaciones ](#check-list) a continuación, así como sus planes de prueba, y asegúrese de que los recursos que pueden realizar estas pruebas estén disponibles entre 24 y 48 horas tras la finalización de una actualización.
 
 Para obtener más información, [consulte esta sección](../../production/using/build-upgrade.md).
 
@@ -184,7 +184,7 @@ Consulte la [lista de comprobación de actualización de compilaciones](#check-l
 
 Los entornos de desarrollo y de fase se actualizan de forma secuencial o conjunta, pero se necesita una firma antes de actualizar la instancia de producción. Esto permite a cada cliente realizar pruebas exhaustivas antes de cerrar sesión en cualquier cambio en la producción.
 
-Consulte la [lista de comprobación de actualización de compilaciones &#x200B;](#check-list)más abajo. Los clientes deben ejecutar pruebas similares y todas las que puedan necesitar para el entorno.
+Consulte la [lista de comprobación de actualización de compilaciones ](#check-list)más abajo. Los clientes deben ejecutar pruebas similares y todas las que puedan necesitar para el entorno.
 
 ## ¿Con qué frecuencia debo realizar una actualización de compilación?
 
@@ -215,14 +215,14 @@ Obtenga más información en [Opciones de ayuda y asistencia para Campaign Class
 
 * ¿Puede iniciar sesión en el servidor? Compruebe que la consola del cliente de Campaign funciona sin que aparezcan errores o advertencias.
 * Asegúrese de utilizar la misma versión de la consola que la versión de compilación después de la actualización.
-* ¿Tiene aplicaciones web que insertan datos en la base de datos de Campaign? Si es así, ejecute y.
-compruebe que pueden insertar nuevos registros a través de la API.
-* ¿Puede enviar una prueba de correo electrónico correctamente? Cree una nueva entrega con una plantilla conocida y envíela a
-un destinatario de prueba, verificar la personalización, anular la suscripción a un vínculo o crear una página espejo, todo funciona.
-* ¿Se están ejecutando todos los flujos de trabajo de ruta críticos? Compruebe los flujos de trabajo, abra el historial de flujo de trabajo y verifique
-que no hay errores.
-* ¿Están todas las carpetas presentes, visibles y accesibles? Examine diferentes carpetas y verifique.
-todo el contenido se muestra y está presente.
+* ¿Tiene aplicaciones web que insertan datos en la base de datos de Campaign? Si es así, ejecútelas y
+y verifique que pueden insertar nuevos registros a través de la API.
+* ¿Puede enviar una prueba de correo electrónico correctamente? Cree un nuevo envío mediante una plantilla conocida, envíela a
+un destinatario de prueba y verifique que la personalización, la cancelación de la suscripción a un vínculo y la página espejo funcionan correctamente.
+* ¿Se están ejecutando todos los flujos de trabajo de ruta críticos? Compruebe los flujos de trabajo, abra el historial de flujo de trabajo y
+verifique que no hay errores.
+* ¿Están todas las carpetas presentes, visibles y accesibles? Examine diferentes carpetas y compruebe
+que todo el contenido se muestra y está presente.
 * ¿Llegan sus envíos con el huso horario correcto?
 
    * Verifique la fecha de creación y la fecha de modificación con la marca de tiempo y la zona horaria.

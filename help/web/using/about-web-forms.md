@@ -18,9 +18,9 @@ subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 510
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Para definir la configuración y el contenido del formulario web, realice los si
 
 ## Acerca del diseño de los formularios web {#about-web-forms-designing}
 
-Las páginas del formulario se crean mediante un editor específico que permite definir y configurar zonas de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido HTML, etc.). Pueden agruparse en contenedores y el diseño puede modificarse para adaptarse a sus necesidades (para más información, consulte).[&#128279;](defining-web-forms-layout.md#creating-containers)
+Las páginas del formulario se crean mediante un editor específico que permite definir y configurar zonas de entrada (texto), campos de selección (listas, casillas de verificación, etc.)y elementos estáticos (imágenes, contenido HTML, etc.). Pueden agruparse en contenedores y el diseño puede modificarse para adaptarse a sus necesidades (para más información, consulte).[](defining-web-forms-layout.md#creating-containers)
 
 En las siguientes secciones se detalla cómo definir el contenido y el diseño de las pantallas del formulario:
 

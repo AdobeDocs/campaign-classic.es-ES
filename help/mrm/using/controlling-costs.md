@@ -20,9 +20,9 @@ topic_v2:
 subfeature_v2:
   - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2489
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -203,7 +203,7 @@ Los costos se dividen en tres categorías:
 
 1. Coste calculado
 
-   El coste calculado depende del elemento en cuestión (campaña, entrega, tarea, etc.) y su estado (en proceso de edición, en curso, finalizado). En cualquier caso, si se especifica el coste real, el coste calculado utiliza esa cantidad.
+   El coste calculado depende del elemento en cuestión (campaña, envío, tarea, etc.)y su estado (en proceso de edición, en curso, finalizado). En cualquier caso, si se especifica el coste real, el coste calculado utiliza esa cantidad.
 
    Si no se indica el coste real, se aplican las siguientes reglas:
 

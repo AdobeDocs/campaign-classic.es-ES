@@ -22,9 +22,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2523
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ Utilice la entrada de menú **[!UICONTROL Expression]** para seleccionar los val
 
   Para ello, utilice el mismo proceso que para insertar un campo en la base de datos, pero no seleccione una expresión. Introduzca la etiqueta en el campo **[!UICONTROL Label]**. Se muestra tal cual.
 
-* Cálculo de un acumulado (un promedio, una suma, etc.) y mostrarlo en la celda.
+* Calcular un agregado (un promedio, una suma, etc.) y mostrarlo en la celda.
 
   Para ello, utilice la entrada de menú **[!UICONTROL Aggregates]** y seleccione la campaña deseada.
 

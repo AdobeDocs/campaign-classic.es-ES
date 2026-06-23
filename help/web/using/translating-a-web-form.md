@@ -18,9 +18,9 @@ subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1592
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ La pestaña **[!UICONTROL Translations]** permite introducir traducciones para l
 
 La primera vez que abre esta pestaña, puede ver que no contiene datos. Haga clic en el enlace **[!UICONTROL Collect the strings to translate]** para actualizar las unidades en la aplicación web.
 
-Adobe Campaign recopila etiquetas de campos y cadenas definidas en las pestañas **[!UICONTROL Texts]** de todos los elementos estáticos: Bloques de HTML, Javascript, etc. Los elementos estáticos se detallan en [Elementos estáticos en un formulario web](static-elements-in-a-web-form.md).
+Adobe Campaign recopila etiquetas de campos y cadenas definidos en las pestañas **[!UICONTROL Texts]** de todos los elementos estáticos: bloques HTML, Javascript, etc. Los elementos estáticos se detallan en [Elementos estáticos en un formato web](static-elements-in-a-web-form.md).
 
 ![](assets/s_ncs_admin_survey_trad_tab.png)
 
@@ -145,7 +145,7 @@ Es posible exportar e importar cadenas de caracteres para traducirlas con una he
 >
 >Los nombres de los archivos de exportación se generan automáticamente. Si realiza la misma exportación varias veces, los archivos nuevos reemplazan a los existentes. Si es necesario conservar los archivos anteriores, cambie la **[!UICONTROL Target folder]**, luego haga clic en **[!UICONTROL Start]** de nuevo para ejecutar la exportación.
 
-Al exportar archivos en **formato CSV**, cada idioma se vincula a un estado y a un estado de aprobación. ¿Desea **Aprobar?** permite aprobar una traducción. Esta columna puede contener los valores **Sí** o **No**. En cuanto al editor integrado (consulte [Administración de traducciones en el editor](#managing-translations-in-the-editor)), la aprobación de las traducciones es opcional y no bloquea el proceso.
+Al exportar archivos en **formato CSV**, cada idioma se vincula a un estado y a un estado de aprobación. La columna ¿Desea **aprobar?** le permite aprobar una traducción.Esta columna puede contener los valores **Sí** o **No**. En cuanto al editor integrado (consulte [Administración de traducciones en el editor](#managing-translations-in-the-editor)), la aprobación de las traducciones es opcional y no bloquea el proceso.
 
 ### Importación de archivos {#importing-files}
 
@@ -181,7 +181,7 @@ si el idioma es el primer o único parámetro de la dirección URL. Por ejemplo:
 &lang=xx
 ```
 
-si hay otros parámetros antes del idioma en la dirección URL. Por ejemplo: **https://myserver/webApp/APP34?status=1&lang=en**
+si hay otros parámetros antes del idioma en la dirección URL. Por ejemplo: **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 A continuación se enumeran los idiomas y diccionarios de traducción disponibles de forma predeterminada.
 
@@ -442,7 +442,7 @@ Puede añadir **?lang=es** o **?lang=de** para mostrarlo en español o alemán.
 >[!NOTE]
 >
 >Si ya se han añadido otros parámetros a esta aplicación web, añada **&amp;lang=**.\
->Por ejemplo: **https://myserver/webApp/APP34?status=1&lang=en**
+>Por ejemplo: **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 ## Configuración avanzada de traducción {#advanced-translation-configuration}
 
@@ -452,7 +452,7 @@ Puede añadir **?lang=es** o **?lang=de** para mostrarlo en español o alemán.
 
 ### Traducción de las cadenas del sistema {#translating-the-system-strings}
 
-Las cadenas del sistema son cadenas de caracteres predeterminadas que se utilizan en todas las aplicaciones web. Por ejemplo: **[!UICONTROL Next]**, **[!UICONTROL Previous]**, **[!UICONTROL Approve]** botones, **[!UICONTROL Loading]** mensajes, etc. De forma predeterminada, algunos idiomas contienen un diccionario con traducciones para estas cadenas. La lista de idiomas se detalla en [Cambio del idioma de visualización de los formularios](#changing-forms-display-language).
+Las cadenas del sistema son cadenas de caracteres predeterminadas que se utilizan en todas las aplicaciones web. Por ejemplo: botones **[!UICONTROL Next]**, **[!UICONTROL Previous]**, **[!UICONTROL Approve]**, mensajes **[!UICONTROL Loading]**, etc. De forma predeterminada, algunos idiomas contienen un diccionario con traducciones para estas cadenas. La lista de idiomas se detalla en [Cambio del idioma de visualización de los formularios](#changing-forms-display-language).
 
 Si se traduce la aplicación web a un idioma al que no se ha traducido el diccionario del sistema, aparece un mensaje de advertencia indicando que faltan algunas traducciones.
 

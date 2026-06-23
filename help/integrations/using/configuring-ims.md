@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 349
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 81%
 
 >[!IMPORTANT]
 >
->Como usuario de servicios administrados o alojados en Campaign, su implementación de Adobe IMS es propiedad de Adobe. Los pasos que se describen a continuación solo se aplican a clientes locales e híbridos.
-> La implementación de Adobe IMS solo debe ser realizada por administradores técnicos de Adobe. Póngase en contacto con su representante de Adobe para iniciar el proceso de implementación.
+>Como usuario de Managed Services o alojado en Campaign, su implementación de Adobe IMS es propiedad de Adobe. Los pasos que se describen a continuación solo se aplican a clientes locales e híbridos.
+> La implementación de Adobe IMS solo debe ser llevada a cabo por administradores técnicos de Adobe. Póngase en contacto con su representante de Adobe para iniciar el proceso de implementación.
 
 ## Requisitos previos {#prerequisites}
 
-* Debe tener un nombre e ID de organización de Adobe Experience Cloud. Para encontrar su identificador de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}.
+* Debe tener un nombre e ID de organización de Adobe Experience Cloud. Para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}.
 * Debe añadir usuarios en Experience Cloud. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=es){_blank}.
 
 >[!NOTE]
@@ -61,6 +61,6 @@ Introduzca la siguiente información:
 
 * ID de organización: para encontrar su ID de organización, consulte [esta página](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es){_blank}.
 
-* Máscara de asociación: este campo permite definir la sintaxis que permite sincronizar los nombres de configuración en Enterprise Dashboard con los grupos de Adobe Campaign. Si utiliza la sintaxis &quot;Campaign - tenant_id - (.&#42;)&quot;, el grupo de seguridad creado en Adobe Campaign se vinculará al nombre de configuración &quot;Campaign - tenant_id - internal_name&quot; en Enterprise Dashboard.
+* Máscara de asociación: este campo permite definir la sintaxis que permite sincronizar los nombres de configuración en Enterprise Dashboard con los grupos de Adobe Campaign. Si utiliza la sintaxis “Campaign - tenant_id - (.&#42;)”, el grupo creado en Adobe Campaign se vinculará al nombre de configuración “Campaign - tenant_id - internal_name” en Enterprise Dashboard.
 
 * La información de conexión de Adobe Experience Cloud, que es el nombre del inquilino de Adobe Experience Cloud.

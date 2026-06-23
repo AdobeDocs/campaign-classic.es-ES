@@ -19,9 +19,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1496
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ Este informe muestra la lista de páginas visitadas después de una entrega.
 
 ![](assets/s_ncs_user_url_report.png)
 
-Se puede configurar el contenido de este informe seleccionando el gráfico de puntuación que se desea mostrar, el filtro de tiempo (desde el inicio de la acción hasta las 6 horas siguientes al lanzamiento, etc.) y el modo de visualización de datos (por etiqueta, por dirección URL, por categoría). Haga clic en **[!UICONTROL Refresh]** para confirmar la selección.
+Puede configurar el contenido de este informe seleccionando: el gráfico de puntuación que se desea mostrar, el filtro de tiempo (desde el inicio de la acción durante las seis primeras horas tras el inicio, etc.) y el modo de visualización de datos (por etiqueta, por dirección URL, por categoría). Haga clic en **[!UICONTROL Refresh]** para confirmar la selección.
 
 Las siguientes tasas se muestran en la sección superior del informe:
 
@@ -171,7 +171,7 @@ Este informe proporciona toda la información principal sobre la entrega.
 Esta sección tiene dos indicadores:
 
 * **[!UICONTROL Initial population]** : Número total de destinatarios a quienes se realizó la entrega.
-* **[!UICONTROL Messages rejected by the rule]** : número de direcciones omitidas durante el análisis al aplicar reglas de tipología: dirección no disponible, en cuarentena, en lista de bloqueados de la, etc. Para obtener más información sobre las reglas de tipología, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=es){target="_blank"}.
+*  **[!UICONTROL Messages rejected by the rule]**: número de direcciones ignoradas durante el análisis cuando se aplican reglas de tipología: dirección que falta, en cuarentena, en lista de bloqueados, etc. Para obtener más información sobre las reglas de tipología, consulte la [documentación de Campaign versión 8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/delivery-analysis.html?lang=es){target="_blank"}.
 
 **[!UICONTROL Causes of exclusion]**
 

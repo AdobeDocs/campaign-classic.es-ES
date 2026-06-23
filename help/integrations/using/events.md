@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1009
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -94,8 +94,8 @@ Ejemplo:
 >
 >Es un ejemplo específico de varias implementaciones posibles.
 
-El contenido se define en formato JSON en Adobe Analytics para cada déclencheur.
-Por ejemplo, en un déclencheur LogoUpload_upload_Visits:
+El contenido se define en formato JSON en Adobe Analytics para cada activador:
+Por ejemplo, en un activador LogoUpload_uploading_Visits:
 
 * **[!UICONTROL eVar01]** puede contener el ID del comprador en formato de cadena que se utiliza para la reconciliación con destinatarios de Adobe Campaign. <br>Debe reconciliarse para encontrar el ID del comprador, que es la clave primaria.
 
@@ -139,8 +139,8 @@ Actualmente, no hay forma de tener diferentes colas para entornos separados como
 
 ### Registro y gestión de errores {#logging-error-handling}
 
-Los registros como logInfo() se dirigen al registro [!DNL pipelined]. Los errores como logError() se escriben en el registro [!DNL pipelined] y hacen que el evento se coloque en una cola de reintentos. En este caso, debe comprobar el registro de canalización.
-Los mensajes de error se vuelven a intentar varias veces en la duración establecida en las opciones de [!DNL pipelined].
+Los registros como logInfo() se dirigen al registro [!DNL pipelined]. Los errores como logError() se escriben en el registro [!DNL pipelined] y hacen que el evento se coloque en una cola de reintentos. En este caso, debe comprobar el registro canalizado.
+Los mensajes de error se vuelven a intentar varias veces durante la duración establecida en las opciones [!DNL pipelined].
 
 Para fines de depuración y monitorización, los datos de activador completos se escriben en la tabla de activadores del campo &quot;data&quot; en formato XML. De forma alternativa, el logInfo() que contenga los datos activadores tiene el mismo propósito.
 
@@ -166,7 +166,7 @@ function processPipelineMessage(xmlTrigger)
 ```
 
 Tenga cuidado al analizar para evitar errores.
-Dado que este código se utiliza para todos los déclencheur, la mayoría de los datos no son obligatorios. Por lo tanto, se puede dejar vacío cuando no esté presente.
+Dado que este código se utiliza para todos los activadores, la mayoría de los datos no son obligatorios. Por lo tanto, se pueden dejar en blanco si no están presentes.
 
 ### Almacenamiento del activador {#storing-triggers-js}
 
@@ -212,9 +212,9 @@ Para permitir un procesamiento más rápido, se ejecutan varios subprocesos de e
 
 ### Esquema de evento de canalización {#pipeline-event-schema}
 
-Los eventos se almacenan en una tabla de la base de datos. Se utiliza en campañas de marketing para clientes de destinatario y enriquece los correos electrónicos mediante déclencheur.
-Aunque cada déclencheur puede tener una estructura de datos distinta, todos los déclencheur se pueden guardar en una sola tabla.
-El campo triggerType identifica de qué déclencheur se originan los datos.
+Los eventos se almacenan en una tabla de la base de datos. Se utiliza en campañas de marketing para dirigirse a los clientes y enriquecer los correos electrónicos mediante activadores.
+Aunque cada activador puede tener una estructura de datos distinta, todos los activadores se pueden guardar en una sola tabla.
+El campo triggerType identifica en qué activador se originan los datos.
 
 Este es un ejemplo de código de esquema para esta tabla:
 
@@ -245,7 +245,7 @@ Los eventos se pueden mostrar con un formulario sencillo basado en el esquema de
 
 La reconciliación es el proceso de hacer coincidir el cliente de Adobe Analytics con la base de datos de Adobe Campaign. Por ejemplo, los criterios para la coincidencia pueden ser shopper_id.
 
-Por motivos de rendimiento, la coincidencia debe realizarse en modo por lotes mediante un flujo de trabajo.
+Por motivos de rendimiento, la coincidencia se ha de realizar en modo por lotes.
 La frecuencia debe establecerse en 15 minutos para optimizar la carga de trabajo. Como consecuencia, el retraso entre una recepción de evento en Adobe Campaign y su procesamiento por un flujo de trabajo de marketing es de hasta 15 minutos.
 
 ### Opciones para la reconciliación de unidades en JavaScript {#options-unit-reconciliation}
@@ -260,5 +260,5 @@ Los activadores se procesan dentro de la hora. El volumen puede ser de aproximad
 
 ### Flujo de trabajo de la campaña {#campaign-workflow}
 
-El flujo de trabajo de la campaña de déclencheur suele ser similar al de otras campañas recurrentes que se han utilizado.
-Por ejemplo, puede comenzar con una consulta en los déclencheur que buscan eventos específicos durante el último día. Ese destinatario se utiliza para enviar el correo electrónico. Los enriquecimientos o datos pueden provenir del déclencheur. Marketing puede utilizarla de forma segura, ya que no requiere ninguna configuración.
+El flujo de trabajo de la campaña de activadores suele ser similar al de otras campañas recurrentes que se han utilizado.
+Por ejemplo, puede comenzar con una consulta en los activadores que buscan eventos específicos durante el último día. Ese objetivo se utiliza para enviar el correo electrónico. Los enriquecimientos o datos pueden provenir del activador. Marketing los puede utilizar de forma segura, ya que no se requiere ninguna configuración.

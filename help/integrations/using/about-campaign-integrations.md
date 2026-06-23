@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 740
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ La siguiente tabla permite acceder a la documentación de integración de Experi
   </tr> 
   <tr> 
    <td> <strong>Adobe Identity Management System (IMS), Adobe ID</strong><br /> </td> 
-   <td> Configure Adobe IMS para que se conecte a Adobe Campaign con el mismo Adobe ID que para las otras soluciones de Adobe Experience Cloud.<br /> Se debe usar un Adobe ID para iniciar sesión con el fin de utilizar ciertas funcionalidades vinculadas a las integraciones de Adobe Experience Cloud.<br /> <p><a href="../../integrations/using/about-adobe-id.md">Obtenga más información</a> sobre la implementación de la Adobe ID con Adobe Campaign.</p><br /> </td> 
+   <td>Configure Adobe IMS para conectarse a Adobe Campaign con el mismo Adobe ID que para las demás soluciones de Adobe Experience Cloud.<br /> Debe utilizar un Adobe ID para iniciar sesión con el objetivo de utilizar determinadas funcionalidades vinculadas a las integraciones de Adobe Experience Cloud.<br /><p><a href="../../integrations/using/about-adobe-id.md">Obtenga más información</a> sobre la implementación de la Adobe ID con Adobe Campaign.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Experience Manager</strong><br /> </td> 

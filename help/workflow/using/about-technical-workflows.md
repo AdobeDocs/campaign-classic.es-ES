@@ -20,9 +20,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1723
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Para obtener más información sobre la supervisión de flujos de trabajo técni
 | **Notificaciones de recursos de marketing** (assetMgt) | Recursos de Marketing (MRM) | Este flujo de trabajo gestiona las notificaciones vinculadas a la aprobación y publicación de los recursos de marketing. |
 | **Centro de mensajes &lt;external_account_name>** (mcSynch_&lt;external_account_name>) | Control de mensajes transaccionales (Centro de mensajes - Control) | Este flujo de trabajo: <ul><li>recupera la lista de eventos procesados por las operaciones.</li><li>se sincroniza con la tabla NmsBroadLogMsg para poder recuperar las calificaciones del mensaje de la entrega.</li><li>recupera los registros de envío de eventos en cuanto se completa la sincronización con la tabla NmsBroadLogMsg.</li><li>se sincroniza con la tabla NmsTrackingUrl para recuperar el seguimiento de las URL de la entrega.</li><li>recupera las URL de seguimiento de eventos en cuanto se completa la sincronización con la tabla NmsTrackingUrl.</li><li>permite recuperar todas las direcciones de correo electrónico puestas en cuarentena cada tres horas después de realizar una entrega.</li></ul> |
 | **Cálculo acumulado completo de MessageCenter** (agg_messageCenter_full) | Control de mensajes transaccionales (Centro de mensajes - Control) | Este flujo de trabajo actualiza el acumulado completo para el cubo Centro de mensajes. Se activa cada día a las 3 de la mañana de forma predeterminada. Este acumulado captura las siguientes dimensiones: canal, fecha, estado y tipo de evento. Luego se utiliza el cubo Centro de mensajes para generar informes basados en eventos. Puede obtener más información sobre los cubos en [esta sección](../../reporting/using/ac-cubes.md) |
-| **Intermediario (contadores de envíos)** (defaultMidSourcingDlv) | Transferir a Intermediario | Este flujo de trabajo recopila información de recuento para los envíos en el servidor intermediario. La información de recuento incluye indicadores de envío generales como el número de envíos realizados, etc. No se incluye la información de seguimiento como las aperturas. De forma predeterminada, se activa cada diez minutos. |
+| **Intermediario (contadores de envíos)** (defaultMidSourcingDlv) | Transferir a Intermediario | Este flujo de trabajo recopila información de recuento para los envíos en el servidor intermediario. La información sobre el recuento incluye indicadores de envío generales como el número de envíos realizados, etc. No se incluye la información de seguimiento como las aperturas.De forma predeterminada, se activa cada diez minutos. |
 | **Intermediario (registros de envío)** (defaultMidSourcingLog) | Transferir a Intermediario | Este flujo de trabajo recopila los registros de envío en el servidor intermediario. Se activa cada hora de forma predeterminada. |
 | **Administración de exclusión de NMAC** (mobileAppOptOutMgt) | Canal de aplicaciones móviles | Este flujo de trabajo actualiza las bajas de las notificaciones en los dispositivos móviles. Se activa cada 6 horas entre la medianoche y la 1 a. m. Para obtener más detalles, consulte [esta sección](../../delivery/using/delivery-failures-quarantine.md#push-notification-quarantines). |
 | **Notificación de ofertas** (offerMgt) | Entrega | Este flujo de trabajo implementa las ofertas aprobadas en el entorno en línea, así como todas las categorías incluidas en el catálogo de ofertas. |

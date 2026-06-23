@@ -22,9 +22,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1122
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Puede modificar las características de la suscripción de un destinatario.
 
 ![](assets/s_ncs_user_services_modify.png)
 
-En el tablero, haga clic en la pestaña **[!UICONTROL Reports]** para rastrear las suscripciones: cambios en los niveles de suscripción, número total de suscriptores, etc. Puede archivar informes y ver los historiales desde esta pestaña.
+En el panel de control, haga clic en la pestaña **[!UICONTROL Reports]** para rastrear las suscripciones: cambios en los niveles de suscripción, número total de suscriptores, etc. Puede archivar informes y consultar historiales en esta pestaña.
 
 ## Adición y eliminación de suscriptores {#adding-and-deleting-subscribers}
 

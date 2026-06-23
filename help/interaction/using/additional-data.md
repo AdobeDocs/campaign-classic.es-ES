@@ -20,9 +20,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 711
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Para el canal saliente, se debe añadir un elemento **targetData** que contenga 
 >
 >Las colecciones no son compatibles con el canal saliente. Sin embargo, se pueden crear vínculos con otros esquemas.
 
-Si desea almacenar estos datos en la tabla de propuestas, también debe extender el esquema **nms:propositionRcp** y declarar estos campos.
+Si desea almacenar estos datos en la tabla de propuestas, también debe ampliar el esquema **nms:propositionRcp** y declarar estos campos.
 
 ```
 <element label="Recipient offer propositions" labelSingular="Recipient offer proposition" name="propositionRcp">
@@ -79,7 +79,7 @@ Si desea almacenar estos datos en la tabla de propuestas, también debe extender
 
 ### Canal de entrada (página web) {#input-channel--web-page-}
 
-Para transferir datos adicionales al llamar al motor, se debe añadir la variable **interactionGlobalCtx** al código JavaScript de la página web. Inserte el nodo **Interaction** que contiene los datos de llamada en esta variable. Debe respetar la misma estructura xml que se encuentra en el esquema **nms:interaction**. Consulte: [Configuración de datos adicional](#additional-data-configuration).
+Para transferir datos adicionales al llamar al motor, se debe añadir la variable **interactionGlobalCtx** al código JavaScript de la página web. Inserte el nodo **Interaction** que contiene los datos de llamada en esta variable. Debe respetar la misma estructura xml que se hay en el esquema **nms:interaction**. Consulte: [Configuración de datos adicional](#additional-data-configuration).
 
 ```
 interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
@@ -87,7 +87,7 @@ interactionGlobalCtx = "<interaction navigationLanguage='"+myLanguage+"'/>";
 
 ### Canal de salida {#output-channel}
 
-Debe crear un flujo de trabajo de destino que cargue datos adicionales en la tabla de trabajo respetando la misma estructura xml y los mismos nombres internos que en el esquema **nms:interaction**. Consulte: [Configuración de datos adicional](#additional-data-configuration).
+Debe crear un flujo de trabajo de segmentación que carga datos adicionales en la tabla de trabajo respetando la misma estructura xml y los mismos nombres internos que hay en el esquema **nms:interaction**. Consulte: [Configuración de datos adicional](#additional-data-configuration).
 
 ## Uso de datos adicionales {#using-additional-data}
 
@@ -113,7 +113,7 @@ Asimismo, se pueden utilizar estos datos adicionales al personalizar una oferta.
 >
 >Se debe limitar la personalización en los canales para los que se definen los datos. En este ejemplo, se limita la regla en el canal web entrante.
 
-Si se ha personalizado una oferta con datos adicionales, estos datos no van a aparecer en la vista previa de manera predeterminada ya que no está disponible en la base de datos. En la pestaña **[!UICONTROL Example of call data]** del entorno, se deben añadir muestras de valor para utilizarlas en la vista previa. Respete la misma estructura xml que se encuentra en la extensión de esquema **nms:interaction**. Para obtener más información, consulte [Configuración de datos adicional](#additional-data-configuration).
+Si se ha personalizado una oferta con datos adicionales, estos datos no van a aparecer en la vista previa de manera predeterminada ya que no está disponible en la base de datos. En la pestaña **[!UICONTROL Example of call data]** del entorno, se deben añadir muestras de valor para utilizarlas en la vista previa. Respete la misma estructura xml que hay en la extensión del esquema **nms:interaction**. Para obtener más información, consulte [Configuración de datos adicional](#additional-data-configuration).
 
 ![](assets/ita_calldata_preview.png)
 

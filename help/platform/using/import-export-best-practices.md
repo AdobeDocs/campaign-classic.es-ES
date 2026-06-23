@@ -22,9 +22,9 @@ subfeature_v2:
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 543
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Utilice archivos comprimidos para importar y exportar cuando sea posible. GZIP e
 
 **Temas relacionados:**
 
-* [Actividad de carga de datos (archivos)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=es){target="_blank"}
+* [Actividad de carga de datos (archivo)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=es){target="_blank"}
 * [Actividad de extracción de datos (archivo)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=es){target="_blank"}.
 
 ## Importación en modo Delta {#importing-in-delta-mode}

@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 547
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +32,8 @@ La ventana de edición de DCE se desglosa en tres secciones diferentes. Permiten
 ![](assets/dce_decoupe_window_nb.png)
 
 1. La sección **superior** es un área de visualización para mensajes al usuario. Estos mensajes indican el estado de la aplicación web o de la entrega que se está creando, así como advertencias y mensajes de error relacionados con el contenido. Para obtener más información, consulte [Estados de contenido HTML](content-editing-best-practices.md#html-content-statuses).
-1. La sección a la **izquierda** de la ventana es el área para editar contenido. Desde esta área, el usuario puede interactuar directamente con el contenido mediante la barra de herramientas emergente: insertar un vínculo en una imagen, cambiar la fuente, eliminar un campo, etc. Para obtener más información, consulte [Edición de formularios](editing-content.md#editing-forms).
-1. La sección a la **derecha** de la ventana es el área del panel de control. Esta área agrupa las distintas opciones del editor, especialmente las relacionadas con la configuración del encabezado de página y las opciones generales de un bloque: añadir un borde, vincular un campo de base de datos con una zona de entrada, acceder a las propiedades de página web, etc. Para obtener más información, consulte las secciones [Opciones globales](#global-options) y [Edición de contenido](editing-content.md).
+1. La sección a la **izquierda** de la ventana es el área para editar contenido. Desde esta área, el usuario puede interactuar directamente con el contenido mediante la barra de herramientas emergente: insertar un vínculo en una imagen, cambiar la fuente, eliminar un campo, etc. Para obtener más información, consulte [Edición de formularios](editing-content.md#editing-forms).
+1. La sección a la **derecha** de la ventana es el área del panel de control. Esta área agrupa las distintas opciones del editor, especialmente aquellas relacionadas con la configuración del encabezado de página y las opciones generales de un bloque: añadir un borde, vincular un campo de base de datos con una zona de entrada, acceder a las propiedades de página web, etc. Para más información, consulte las secciones [Opciones globales](#global-options) y [Edición de contenido](editing-content.md).
 
 ## Opciones globales {#global-options}
 

@@ -19,15 +19,15 @@ topic_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 572
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Introducción a las encuestas{#about-surveys}
 
-Adobe Campaign incluye un módulo gráfico para definir y publicar aplicaciones web. Se utiliza para crear páginas, como un formulario de edición en una extranet, o formularios de notificación, incluidos datos de la base de datos con tablas, gráficos, formularios de entrada, etc. Utilice esta capacidad para diseñar y publicar páginas web en las que los usuarios puedan buscar o introducir información.
+Adobe Campaign incluye un módulo gráfico para definir y publicar aplicaciones web. Se utiliza para crear páginas, como un formulario de edición en una extranet, o formularios de notificación, incluidos los datos de la base de datos con tablas, gráficos, formularios de entrada, etc. Utilice esta funcionalidad para diseñar y publicar páginas en las que los usuarios pueden consultar o introducir información.
 
 >[!AVAILABILITY]
 >
@@ -56,7 +56,7 @@ En Adobe Campaign, utilice las [aplicaciones web](../../web/using/about-web-form
 * Añadir personalización y definir la posición del campo.
 * Visualización condicional de los campos de encuesta según las respuestas.
 * Visualización de la página de condición.
-* Comprobación de la información antes de la aprobación, según el tipo de datos esperado (número, dirección de correo electrónico, fechas, etc.) y campos obligatorios,
+* Comprobación de la información antes de la aprobación, según el tipo de datos previsto (número, dirección de correo electrónico, fechas, etc.) y campos obligatorios.
 * Enviar invitaciones/notificaciones por correo electrónico.
 * Personalización de páginas de error y finalización.
 * Agregar imágenes, vídeos, vínculos de hipertexto, captcha, etc., en formularios.

@@ -20,9 +20,9 @@ topic_v2:
 subfeature_v2:
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1508
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Los flujos de trabajo de destino se pueden iniciar manualmente mediante el botó
 
 La segmentación se puede programar para la ejecución automática según una programación (programador) o un evento (señal externa, importación de archivos, etc.).
 
-Las acciones relacionadas con la ejecución del flujo de trabajo de objetivos (inicio, parada, pausa, etc.) son **procesos asincrónicos**: el comando se guarda y surte efecto en cuanto el servidor esté disponible para aplicarlo.
+Las acciones relacionadas con la ejecución del flujo de trabajo de segmentación (inicio, parada, pausa, etc.) son procesos **asíncronos**: el comando se guarda y se aplicará tan pronto como el servidor esté disponible para ejecutarlo.
 
 Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la ejecución del flujo de trabajo de destino.
 

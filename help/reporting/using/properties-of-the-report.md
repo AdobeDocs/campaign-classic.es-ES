@@ -18,9 +18,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 440
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Puede configurar los idiomas a los que desea traducir el informe. Para ello, hag
 
 ![](assets/s_ncs_advuser_report_properties_06.png)
 
-El idioma de edición es el idioma en el que se escribe. Cuando se añade un idioma, la subpestaña aparece en la página de edición del informe.
+El idioma de edición es el idioma en el que se escribe.Cuando añade un idioma, la subpestaña aparece en la de página de edición del informe. 
 
 ![](assets/s_ncs_advuser_report_properties_05a.png)
 

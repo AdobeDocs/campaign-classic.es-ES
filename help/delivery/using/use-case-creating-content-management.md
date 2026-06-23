@@ -20,9 +20,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1192
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -179,7 +179,7 @@ El esquema contiene la siguiente información:
 
 El formulario de entrada permite editar una instancia de contenido a través de una interfaz de entrada desde la consola del cliente de Adobe Campaign.
 
-La descripción de un formulario es un documento XML estructurado que observa la gramática del esquema del formulario &quot;xtk:form&quot;.
+La descripción de un formulario es un documento XML estructurado que respeta la gramática del esquema de formulario &quot;xtk:form&quot;.
 
 >[!NOTE]
 >

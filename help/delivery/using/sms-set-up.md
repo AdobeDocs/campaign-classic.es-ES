@@ -27,9 +27,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1699
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -53,8 +53,8 @@ Para enviar a un teléfono móvil, necesita:
 >
 >El uso de la misma cuenta y contraseña para varias cuentas externas de SMS puede provocar conflictos y superposición entre las cuentas. Consulte la [Página de solución de problemas de SMS](troubleshooting-sms.md#external-account-conflict).
 
-Para enviar un SMS a un teléfono móvil, primero debe crear una cuenta externa SMPP.
-Para obtener más información sobre el protocolo y la configuración SMS, consulte esta [página](sms-protocol.md).
+Para enviar un SMS a un teléfono móvil, primero debe crear su cuenta externa SMPP.
+Para obtener más información sobre el protocolo y la configuración de SMS, consulte esta [página](sms-protocol.md).
 
 Para realizar esto, siga los pasos a continuación:
 
@@ -361,8 +361,8 @@ Los destinatarios se enumeran en la tabla **[!UICONTROL Non deliverables and add
 * Para enviar la misma respuesta independientemente de la palabra clave, deje vacía la columna **[!UICONTROL Keyword]**.
 * Para realizar una acción sin enviar una respuesta, deje vacía la columna **[!UICONTROL Response]**. Por ejemplo, esto le permite sacar de cuarentena a un usuario que responda con un mensaje que sea distinto a Detenerse.
 
-Si tiene varias cuentas externas utilizando el conector SMPP genérico extendido con la misma cuenta de proveedor, puede ocurrir el siguiente problema: al enviar una respuesta a un código corto, puede recibirse en cualquiera de las conexiones de cuenta externa. Por lo tanto, la respuesta automática que se envía no puede ser el mensaje esperado.
-Para evitarlo, aplique una de las siguientes soluciones, según el proveedor que utilice:
+Si tiene varias cuentas externas que utilizan el conector SMPP genérico ampliado con la misma cuenta de proveedor, puede producirse el siguiente problema: al enviar una respuesta a un código corto, esta puede recibirse en cualquiera de las conexiones de la cuenta externa. Por consiguiente, es posible que la respuesta automática enviada no sea el mensaje esperado.
+Para evitarlo, aplique una de las soluciones, en función del proveedor que esté utilizando:
 
 * Cree una cuenta de proveedor para cada cuenta externa.
 * Utilice el campo **[!UICONTROL System type]** de la pestaña **[!UICONTROL Mobile]** > **[!UICONTROL Connection settings]** para distinguir cada código corto. Pida a su proveedor un valor diferente para cada cuenta.

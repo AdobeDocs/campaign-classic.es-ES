@@ -18,9 +18,9 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1147
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ El uso del mapa de calor del flujo de trabajo requiere comprender bien los sigui
 1. También puede filtrar por el **[!UICONTROL Workflow type]**:
 
    * **[!UICONTROL Technical]**: Solo se muestran los flujos de trabajo [técnicos](building-a-workflow.md#technical-workflows) listos para usar y los flujos de trabajo [de administración de datos](targeting-data.md#data-management).
-   * **[!UICONTROL Marketing]** : Solo se muestran los flujos de trabajo vinculados a una campaña de marketing, conocidos como flujos de trabajo [de &#x200B;](building-a-workflow.md#campaign-workflows)campaña.
+   * **[!UICONTROL Marketing]** : Solo se muestran los flujos de trabajo vinculados a una campaña de marketing, conocidos como flujos de trabajo [de ](building-a-workflow.md#campaign-workflows)campaña.
 
 1. Para buscar un flujo de trabajo específico por su nombre, también puede utilizar el campo **[!UICONTROL Workflow name filter]**.
 
@@ -110,7 +110,7 @@ Cada fila representa una hora del día y cada celda representa 5 minutos de esa 
 
 La cuadrícula muestra todos los flujos de trabajo que se ejecutan al mismo tiempo para cada uno de estos períodos de 5 minutos.
 
-En el ejemplo siguiente, entre las 8:00 y las 8:00, se están ejecutando tres flujos de trabajo (independientemente de su duración individual)::05am
+En el ejemplo siguiente, entre las 8:00 y las 20:00 horas:05am, se ejecutan tres flujos de trabajo (independientemente de su duración individual):
 
 ![](assets/wkf_monitoring_ex_8am.png)
 

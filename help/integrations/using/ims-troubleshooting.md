@@ -21,9 +21,9 @@ subfeature_v2:
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 501
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -100,11 +100,11 @@ Reinicie el servidor si se realizan cambios en la configuración anterior en la 
 
 Si tiene problemas al iniciar sesión en **[!UICONTROL Client Console]** con su Adobe ID, intente borrar la caché local de WebView2. En la mayoría de los casos, esto resuelve el problema. Siga estos pasos:
 
-1. Cierre **[!UICONTROL Client Console]** y detenga cualquier proceso de `nlclient` en ejecución.
+1. Cierre la **[!UICONTROL Client Console]** y detenga cualquier proceso `nlclient` en ejecución.
 
-1. Eliminar todas las carpetas `webview2` y `webview2Cache` de las siguientes ubicaciones:
+1. Elimine todas las carpetas `webview2` y `webview2Cache` de las siguientes ubicaciones:
 
    * `C:\ProgramData\Neolane\NL_5\nlclient\`
    * `C:\Users\<username>\AppData\Roaming\Neolane\NL_5\nlclient\`
 
-1. Reinicie **[!UICONTROL Client Console]** e inicie sesión con su Adobe ID. Las carpetas de caché se volverán a crear automáticamente en el siguiente inicio.
+1. Reinicie la **[!UICONTROL Client Console]** e inicie sesión con su Adobe ID. Las carpetas de caché se volverán a crear automáticamente la próxima vez que reinicie la aplicación.

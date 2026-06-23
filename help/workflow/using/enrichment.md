@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1301
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Existen cuatro tipos de vínculos:
 
 * **[!UICONTROL Define a collection]**: permite definir un vínculo con una cardinalidad 1-N entre las tablas.
 * **[!UICONTROL Define a link whose target is still available]**: permite definir un enlace con una cardinalidad 1-1 entre las tablas. Las condiciones de la unión deben estar definidas por un único registro en la tabla de destino.
-* **[!UICONTROL Define a link whose target does not necessarily exist in the base]**: permite definir un enlace con una cardinalidad 0-1 entre las tablas. La condición de unión debe definirse por 0 o 1 (máximo) en la tabla de destino.
+* **[!UICONTROL Define a link whose target does not necessarily exist in the base]**: permite definir un enlace con una cardinalidad 0-1 entre las tablas. La condición de unión debe definirse por el registro de 0 o 1 (máximo) en la tabla de públicos destinatarios.
 
   Esta opción se configura en la pestaña **[!UICONTROL Simple Join]** a la que se puede acceder mediante el vínculo **[!UICONTROL Edit additional data]** de la actividad **[!UICONTROL Enrichment]**.
 
