@@ -6,28 +6,14 @@ feature: ACS Connector
 hide: true
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
 TQID: https://experienceleague.adobe.com/9gc7VAt25SZk-QEFwAKpmRJCtRQu1HpMXQYzaRZAJ2I
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a658c786-869b-4194-a780-2594d663adda
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-  - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
-  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a658c786-869b-4194-a780-2594d663addaid: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: cbcf4d90-26be-46e2-b16a-aebc529dc41eid: df0d6518-6f49-46e2-b46e-3bcc513f553fid: eb007b6d-6e57-46ab-9485-3f24d6102304id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1161
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +38,7 @@ Este ejemplo de uso muestra cómo preparar el objetivo de su entrega en Campaign
 Para lograr esto, es necesario lo siguiente:
 
 * Los destinatarios almacenados en la base de datos de Campaign v7 y sincronizarlos con Campaign Standard. Consulte la sección [Sincronización de perfiles](../../integrations/using/synchronizing-profiles.md).
-* Datos adicionales, como suscripciones o transacciones, almacenados en tablas relacionadas con nms:recipients en la base de datos de Campaign v7. Estos datos pueden proceder de esquemas OOB o tablas personalizadas de Campaign v7. De forma predeterminada no están disponibles en Campaign Standard, ya que no están sincronizados.
+* Datos adicionales, como suscripciones o transacciones, almacenados en tablas relacionadas con nms:recipients en la base de datos de Campaign versión 7.Estos datos pueden proceder de esquemas OOB o tablas personalizadas de Campaign v7. De forma predeterminada no están disponibles en Campaign Standard, ya que no están sincronizados.
 * El derecho para ejecutar los flujos de trabajo en Campaign v7 y Campaign Standard.
 * El derecho para crear y ejecutar una entrega en Campaign Standard.
 

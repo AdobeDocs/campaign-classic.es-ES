@@ -6,23 +6,14 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 TQID: https://experienceleague.adobe.com/8N-zb5Qx4LHl9iDh0fdAQfzVmA7Lsc5gIwT8tuu0Dfc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-subfeature_v2:
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: e739ee2b-6228-412e-878f-45de0791417d
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1192
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -179,7 +170,7 @@ El esquema contiene la siguiente información:
 
 El formulario de entrada permite editar una instancia de contenido a través de una interfaz de entrada desde la consola del cliente de Adobe Campaign.
 
-La descripción de un formulario es un documento XML estructurado que observa la gramática del esquema del formulario &quot;xtk:form&quot;.
+La descripción de un formulario es un documento XML estructurado que respeta la gramática del esquema de formulario &quot;xtk:form&quot;.
 
 >[!NOTE]
 >

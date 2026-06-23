@@ -8,25 +8,15 @@ role: User
 hide: true
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 TQID: https://experienceleague.adobe.com/CYWaDn4S5zkM1QXQg08zHZW53nOqAv-aXDvo-Hw-v-E
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1341
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +33,7 @@ Los conceptos básicos de la personalización se presentan en [esta sección](pe
 
 Asegúrese de que el contenido del mensaje esté diseñado correctamente para evitar errores, que generalmente están relacionados con la personalización.
 
-**Sugerencias**: En campos de personalización procedentes de archivos externos proporcionados por proveedores externos, el contenido HTML externo puede ser incorrecto. Para evitarlo, compruebe la sintaxis, el uso de etiquetas, los caracteres, etc. Por ejemplo, una etiqueta personalizada de Adobe Campaign siempre tiene la siguiente forma: &lt;%=table.field%>. Para obtener más información, consulte [esta sección](about-personalization.md).
+**Sugerencias**: En campos de personalización procedentes de archivos externos proporcionados por proveedores externos, el contenido HTML externo puede ser incorrecto. Por ejemplo, compruebe la sintaxis, el uso de etiquetas, caracteres, etc. Por ejemplo, una etiqueta de personalización de Adobe Campaign siempre tiene el siguiente formato: &lt;%=table.field%>. Para obtener más información, consulte [esta sección](about-personalization.md).
 
 El uso incorrecto de parámetros en bloques de personalización puede ser un problema. Por ejemplo: las variables en JavaScript deben usarse de la siguiente manera:
 
@@ -113,7 +103,7 @@ Asegúrese de probar los cambios antes del envío final
 
 De forma predeterminada, el número de caracteres de un SMS cumple con los estándares del GSM (Sistema Global de Comunicaciones Móviles). Los mensajes SMS con codificación GSM están limitados a 160 caracteres, o a 153 caracteres por SMS en el caso de los mensajes enviados en varias partes.
 
-La transliteración consiste en reemplazar un carácter de un SMS por otro cuando el estándar GSM no tiene en cuenta ese carácter. Tenga en cuenta que la inserción de campos de personalización en el contenido del mensaje SMS puede introducir caracteres que no se tienen en cuenta con la codificación GSM. Puede autorizar la transliteración de caracteres marcando la casilla correspondiente en la pestaña de la configuración del canal SMPP del **[!UICONTROL External account]** correspondiente.
+La transliteración consiste en reemplazar un carácter de un SMS por otro cuando el estándar GSM no tiene en cuenta ese carácter. Tenga en cuenta que la inserción de campos de personalización en el contenido del mensaje SMS puede introducir caracteres que no se tienen en cuenta con la codificación GSM. Puede autorizar la transliteración de caracteres marcando la casilla correspondiente en la pestaña de configuración del canal SMPP de la **[!UICONTROL External account]** correspondiente.
 Obtenga más información [en esta sección](sms-set-up.md#creating-an-smpp-external-account).
 
 **Sugerencias**:

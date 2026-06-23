@@ -9,18 +9,14 @@ hide: true
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 TQID: https://experienceleague.adobe.com/Mv-2GGcnP----L-D2h5DDz3StnT5rH4TlnQdxn9bdnY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3750
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -417,7 +413,7 @@ La dependencia entre tareas se representa mediante flechas en el panel de contro
 
 ![](assets/s_ncs_user_task_dependencies_from_board.png)
 
-En el caso de las tareas agrupadas, Adobe Campaign asigna automáticamente la fecha de finalización de la tarea principal a la tarea secundaria como fecha de inicio. Por ejemplo, si una tarea secundaria de **Crear invitación** finaliza el 15 de octubre a las 3:30PM, la tarea secundaria **Enviar correo electrónico de invitación** comenzará el 15 de octubre a las 3:30PM.
+En el caso de las tareas agrupadas, Adobe Campaign asigna automáticamente la fecha de finalización de la tarea principal a la tarea secundaria como fecha de inicio. Por ejemplo, si una tarea **Crear invitación** finaliza el 15 de octubre a las 3:30PM, la tarea secundaria **Enviar correo electrónico de invitación** comenzará el 15 de octubre a las 3:30PM.
 
 Además, si pospone el final de una tarea principal, algunas de sus tareas secundarias podrían verse afectadas: estas son las tareas secundarias cuyo estado es **[!UICONTROL Scheduled]** y cuya fecha de inicio es anterior a la nueva fecha de finalización de la tarea principal. La duración de la tarea sigue siendo la misma. Si la fecha de inicio de una tarea secundaria es posterior a la nueva fecha de finalización de la tarea principal, la tarea secundaria no se ve afectada.
 

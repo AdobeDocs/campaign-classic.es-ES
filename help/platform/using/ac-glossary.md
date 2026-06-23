@@ -8,30 +8,16 @@ level: Beginner
 hide: true
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 TQID: https://experienceleague.adobe.com/e9S6zCJjh4LKzlKKy-tqz8KOR1hScKbMuzuppbVUuGI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-subfeature_v2:
-  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
-  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
-  - id: f5293531-9312-4099-bfa3-9e67df6a8750
-  - id: efa38731-2723-4334-8d8b-a778af834835
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: afa4204e-6d08-4e29-bc35-26aafb656d48
+subfeature_v2: id: f529d0bd-1401-4c88-9833-43228cc1d40fid: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f5293531-9312-4099-bfa3-9e67df6a8750id: efa38731-2723-4334-8d8b-a778af834835
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 6632
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -68,8 +54,8 @@ Learn more about [ACS Connector](../../integrations/using/acs-connector-principl
 
 Una actividad es un elemento de paleta que se agrega a un flujo de trabajo para definir una funcionalidad de ejecución. La actividad es un contenedor que ejecuta una tarea. En un flujo de trabajo, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o una acción recurrente (periódica).
 
-Obtenga más información acerca de las actividades de flujo de trabajo en la [documentación de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities
-.html){target="_blank"}.
+Obtenga más información sobre las actividades de flujo de trabajo en la [documentación de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities 
+.html?lang=es){target="_blank"}.
 +++
 
 +++**Perfil activo**
@@ -263,7 +249,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 *Contexto: Correo directo*
 
-Una descripción del envío es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creado por la compañía y para una campaña en particular. Se utiliza en el contexto de los envíos por correo directo.
+Una descripción del envío es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.)creados por la compañía y para una campaña en particular. Se utiliza en el contexto de los envíos por correo directo.
 
 Más información sobre el [Correo directo](../../delivery/using/about-direct-mail-channel.md).
 +++
@@ -286,7 +272,7 @@ Más información sobre el [Análisis descriptivo](../../reporting/using/about-d
 
 *Contexto: Marketing distribuido*
 
-El complemento de marketing distribuido ofrece a los operadores de Campaign un espacio de trabajo colaborativo para implementar campañas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **lista de paquetes de campañas**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
+El complemento de marketing distribuido ofrece a los operadores de campañas un espacio de trabajo colaborativo para implementar campañas entre entidades centrales (sedes centrales, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **lista de paquetes de campañas**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
 
 Obtenga más información sobre el marketing distribuido en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=es){target="_blank"}.
 +++
@@ -300,8 +286,8 @@ Más información sobre la [Distribución de valores](../../platform/using/adobe
 
 +++**Delegación de dominios**
 
-La configuración de subdominios le permite configurar una subsección de su dominio (técnicamente, una &quot;zona DNS&quot;) para utilizarla con Adobe Campaign.
-La delegación de dominios permite que Adobe controle y mantenga todos los aspectos de DNS necesarios para enviar, procesar y rastrear campañas de correo electrónico.
+La configuración de subdominios le permite configurar una subsección de su dominio (técnicamente una “zona de DNS”) para utilizar con Adobe Campaign.
+La delegación de dominios permite que Adobe controle y mantenga todos los aspectos de DNS necesarios para enviar, procesar y realizar el seguimiento de campañas por correo electrónico.
 
 Más información sobre la [Delegación de dominios](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es)
 +++
@@ -704,7 +690,7 @@ Más información sobre la [Interacción](../../interaction/using/interaction-an
 
 *Contexto: Interacción de campaña*
 
-Una simulación de oferta permite a los operadores probar la distribución de ofertas en un ámbito definido (fecha de entrega, segmento de destinatario, número de ofertas, tema, etc.) antes de enviar las ofertas. Se puede utilizar para ajustar las prioridades de oferta y las reglas de elegibilidad a fin de maximizar la eficacia de la oferta.
+Una simulación de oferta permite a los operadores probar la distribución de ofertas en un ámbito definido (fecha del envío, segmento de destino, número de ofertas, tema, etc.) antes de enviarlas realmente. Se puede utilizar para ajustar las prioridades de oferta y las reglas de elegibilidad a fin de maximizar la eficacia de la oferta.
 
 Más información sobre las [Simulaciones de ofertas](../../interaction/using/about-offers-simulation.md).
 +++
@@ -873,7 +859,7 @@ Más información sobre las [Notificaciones push](../../delivery/using/about-mob
 
 +++**Destinatario**
 
-En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS, etc.) a sus clientes. Los datos de destinatario almacenados en la base de datos permiten filtrar el público objetivo y añadir datos de personalización. Normalmente, se trata de información personal, de contacto, demográfica y transaccional, pero podría ser cualquier tipo de información que admita marketing y análisis.
+En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS, etc.)a sus clientes. Los datos de destinatario almacenados en la base de datos permiten filtrar el público objetivo y añadir datos de personalización. Normalmente, se trata de información personal, de contacto, demográfica y transaccional, pero podría ser cualquier tipo de información que admita marketing y análisis.
 
 Más información sobre el [Destinatario](../../configuration/using/about-data-model.md).
 +++
@@ -974,8 +960,8 @@ Obtenga más información sobre las asignaciones de destinatario en la [document
 
 Las actividades de segmentación son actividades de flujo de trabajo específicas para el direccionamiento, la manipulación de datos de población y el filtrado de actividades. Estas actividades permiten a los operadores crear uno o más objetivos definiendo conjuntos y dividiendo o combinando estos conjuntos mediante operaciones de intersección, unión o exclusión.
 
-Obtenga más información acerca de las actividades de segmentación en la [documentación de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities
-.html){target="_blank"}.
+Obtenga más información sobre las actividades de segmentación en la [documentación de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities
+.html?lang=es){target="_blank"}.
 +++
 
 +++**Dimensión de segmentación**
@@ -1092,7 +1078,7 @@ Más información sobre el [Modo unitario](../../interaction/using/about-inbound
 
 +++**Aplicaciones web**
 
-Las aplicaciones web son páginas de aplicación dinámicas e interactivas alojadas en la instancia de Campaign. Contienen datos de la base de datos y contenido adaptado a los derechos del usuario conectado. Por ejemplo, puede crear un formulario de edición en una extranet, o formularios de notificación que incluyan datos de la base de datos con tablas, gráficos, formularios de entrada, etc. Esta funcionalidad permite diseñar y publicar páginas web en las que los usuarios pueden buscar o introducir información.
+Las aplicaciones web son páginas de aplicación dinámicas e interactivas alojadas en la instancia de Campaign. Contienen datos de la base de datos y contenido adaptado a los derechos del usuario conectado. Por ejemplo, puede crear un formulario de edición en una extranet, o formularios de notificación que incluyan datos de la base de datos con tablas, gráficos, formularios de entrada, etc. Esta funcionalidad le permite diseñar y publicar páginas web en las que los usuarios pueden consultar o introducir información.
 
 Más información sobre las [Aplicaciones web](../../web/using/about-web-applications.md).
 +++

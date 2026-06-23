@@ -7,22 +7,15 @@ feature: Campaigns, Templates
 hide: true
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 TQID: https://experienceleague.adobe.com/mFkyDINneoodiL3Liiao0u3uZQsGaZCG1-BEu6Vqjos
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-subfeature_v2:
-  - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: afa4204e-6d08-4e29-bc35-26aafb656d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+subfeature_v2: id: f863efa9-030c-4466-a2b8-a52aea6b722c
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1147
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +73,7 @@ El vínculo **[!UICONTROL Advanced campaign settings...]** permite habilitar y d
 
 ![](assets/s_ncs_user_op_template_tab1.3.png)
 
-Si no se selecciona una capacidad, los elementos correspondientes al proceso (menús, iconos, opciones, pestañas, subpestañas, etc.) no aparecerán en la interfaz de la plantilla ni en las campañas basadas en esta plantilla. Las pestañas a la izquierda de los detalles de la campaña generalmente coinciden con los procesos seleccionados en la plantilla. Por ejemplo: si no se selecciona **Expenses and Objectives**, la pestaña correspondiente **[!UICONTROL Budget]** no se muestra en las campañas basadas en esta plantilla.
+Si no se selecciona ninguna función, los elementos relacionados con el proceso (menús, iconos, opciones, pestañas, subpestañas, etc.)no aparecerán en la interfaz de la plantilla ni en las campañas basadas en esta plantilla. Las pestañas a la izquierda de los detalles de la campaña generalmente coinciden con los procesos seleccionados en la plantilla. Por ejemplo: si no se selecciona **Expenses and Objectives**, la pestaña correspondiente **[!UICONTROL Budget]** no se muestra en las campañas basadas en esta plantilla.
 
 Además, los accesos directos a las ventanas de configuración se añaden al panel de control de campañas. Cuando una funcionalidad está habilitada, un vínculo directo le permite acceder a ella desde el panel de control de campañas.
 
@@ -132,7 +125,7 @@ Se muestran los siguientes vínculos y pestañas:
 
 * **Establecimiento de objetivos y flujos de trabajo**
 
-  Al seleccionar el módulo de **[!UICONTROL Targeting and workflows]**, se añade una pestaña para permitirle crear uno o más flujos de trabajo para las campañas basadas en esta plantilla. Los flujos de trabajo también se pueden configurar individualmente para cada campaña basada en esta plantilla.Obtenga más información acerca de los flujos de trabajo de campañas en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
+  Al seleccionar el módulo de **[!UICONTROL Targeting and workflows]**, se añade una pestaña para permitirle crear uno o más flujos de trabajo para las campañas basadas en esta plantilla. Los flujos de trabajo también se pueden configurar individualmente para cada campaña basada en esta plantilla.Puede obtener más información sobre los flujos de trabajo de la campaña en [esta sección](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
   ![](assets/s_ncs_user_op_template_activate_5.png)
 
@@ -180,7 +173,7 @@ Cuando crea una plantilla de campaña, debe introducir la siguiente información
 
 ### Parámetros de ejecución de plantilla {#template-execution-parameters}
 
-El vínculo **[!UICONTROL Advanced campaign settings...]** le permite configurar las opciones avanzadas de la plantilla para procesar el destinatario de la entrega (grupo de control, direcciones semilla, etc.) y la configuración de la medición de campañas y la ejecución del flujo de trabajo.
+El vínculo **[!UICONTROL Advanced campaign settings...]** le permite configurar las opciones avanzadas de la plantilla para procesar el público destinatario del envío (grupo de control, direcciones semilla, etc.), así como la configuración de la medición de campañas y la ejecución del flujo de trabajo.
 
 ![](assets/s_ncs_user_op_template_tab1.2.png)
 

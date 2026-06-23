@@ -5,7 +5,7 @@ description: Descubra más información sobre los flujos de trabajo técnicos de
 feature: Workflows
 hide: true
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
 ht-degree: 100%
 

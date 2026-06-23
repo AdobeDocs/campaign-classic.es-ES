@@ -9,24 +9,15 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 TQID: https://experienceleague.adobe.com/0Sv4efbYyu1kT-sDs4CYjDBP3RphjlqPTerDrNxN93I
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-  - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
-  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: cbcf4d90-26be-46e2-b16a-aebc529dc41eid: df0d6518-6f49-46e2-b46e-3bcc513f553fid: eb007b6d-6e57-46ab-9485-3f24d6102304id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 854
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -141,9 +132,9 @@ La lista de parámetros opcionales es:
 | dumpStatePeriodSec | También se puede acceder a petición al período entre dos volcados del proceso de estado interno en `var/INSTANCE/pipelined.json.`<br> aquí: `http://INSTANCE:7781/pipelined/status` |
 | forcedPipelineEndpoint | Deshabilite la detección de PipelineServicesEndpoint para forzarla |
 | monitorServerPort | El proceso de canalización escuchará en este puerto para proporcionar el proceso de estado interno aquí: `http://INSTANCE:PORT/pipelined/status`. <br>El valor predeterminado es 7781 |
-| pointerFlushMessageCount | Cuando se procesa este número de mensajes, los desplazamientos se guardan en la base de datos. <br> El valor predeterminado es 1000 |
+| pointerFlushMessageCount | Cuando se procesa este número de mensajes, los desplazamientos se guardan en la base de datos. <br> El valor predeterminado es 1 000. |
 | pointerFlushPeriodSec | Después de este período, los desplazamientos se guardan en la base de datos. <br>El valor predeterminado es 5 (segundos) |
-| processingJSThreads | Número de mensajes de procesamiento de los subprocesos dedicados con conectores JS personalizados. <br> El valor predeterminado es 4 |
+| processingJSThreads | Número de mensajes de procesamiento de los subprocesos dedicados con conectores JS personalizados. <br> El valor predeterminado es 4. |
 | processingThreads | Número de mensajes de procesamiento de los subprocesos dedicados con código integrado. <br>El valor predeterminado es 4 |
 | retryPeriodSec | Retraso entre reintentos si hay errores de procesamiento. <br>El valor predeterminado es 30 (segundos) |
 | retryValiditySec | Descarte el mensaje si no se procesa correctamente después de este período (demasiados reintentos). <br>El valor predeterminado es 300 (segundos) |

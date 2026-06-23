@@ -7,23 +7,15 @@ role: Developer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 TQID: https://experienceleague.adobe.com/eM26PQIIHJHC-7-QqVYaC9uHcvrYIpi87vMB4eTmVlg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
-  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
-  - id: f5293531-9312-4099-bfa3-9e67df6a8750
-  - id: efa38731-2723-4334-8d8b-a778af834835
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: afa4204e-6d08-4e29-bc35-26aafb656d48
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: f529d0bd-1401-4c88-9833-43228cc1d40fid: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f5293531-9312-4099-bfa3-9e67df6a8750id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1316
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +103,7 @@ Las listas están disponibles a través del vínculo **[!UICONTROL Lists]** en l
 
 Cada sección de la funcionalidad principal le permite navegar entre los elementos disponibles. Para ello, utilice los accesos directos de la sección **[!UICONTROL Browsing]**. El vínculo **[!UICONTROL Other choices]** le permite acceder a todas las demás páginas, independientemente del entorno.
 
-Puede crear un nuevo elemento (envío, aplicación web, flujo de trabajo, etc.) uso de los accesos directos de la sección **[!UICONTROL Create]** a la izquierda de la pantalla. Utilice el botón **[!UICONTROL Create]** situado encima de la lista para añadir nuevos elementos a la lista.
+Puede crear un nuevo elemento (envío, aplicación web, flujo de trabajo, etc.) utilizando los accesos directos de la sección **[!UICONTROL Create]** a la izquierda de la pantalla.Utilice el botón **[!UICONTROL Create]** situado encima de la lista para añadir nuevos elementos a la lista.
 
 Por ejemplo, en la página de entrega, utilice el botón **[!UICONTROL Create]** para crear una nueva entrega.
 
@@ -124,11 +116,11 @@ Es posible acceder a Adobe Campaign Explorer mediante el icono de la barra de he
 
 Para obtener más información sobre el explorador de Adobe Campaign, consulte estas páginas en la **documentación de Campaign v8 (consola)**:
 
-* [Introducción a la interfaz de usuario de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
+* [Información general sobre la interfaz de usuario de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
 * [Configuración de la interfaz de usuario de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
-* [Administrar carpetas y vistas en el explorador](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}
+* [Administración de carpetas y vistas en el explorador](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}
 
 
 ## Trabajo con datos {#work-with-data}
@@ -197,4 +189,4 @@ Obtenga más información sobre cómo **trabajar con listas desglosadas** en la 
 
 Este vídeo presenta el espacio de trabajo de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39532?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

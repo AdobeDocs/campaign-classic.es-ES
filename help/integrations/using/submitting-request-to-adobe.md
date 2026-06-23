@@ -9,21 +9,14 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
 TQID: https://experienceleague.adobe.com/IIiDeR9teIgEBsbUb70DP-PA56Ux2MmpmBZuVIVF0M0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-  - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
-  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: cbcf4d90-26be-46e2-b16a-aebc529dc41eid: df0d6518-6f49-46e2-b46e-3bcc513f553fid: eb007b6d-6e57-46ab-9485-3f24d6102304id: b1fd1501-3105-4d6b-b4d4-9af53126df75
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 146
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +26,7 @@ ht-degree: 76%
 >
 >Como usuario de la versión 7, para poder continuar, asegúrese de que Adobe Identity Management System (IMS) esté habilitado en su sistema. [Más información](../../integrations/using/about-adobe-id.md).
 
-Una vez que el servicio Adobe Identity Management (IMS) esté habilitado para su organización, puede solicitar a Campaign que proporcione la integración de [Experience Cloud Audience](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/overview){target="_blank"}. Para ello, póngase en contacto con su representante de Adobe y proporcione la siguiente información:
+Una vez que se haya habilitado Adobe Identity Management Service (IMS) para su organización, puede solicitar que se realice la integración del [público de Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/overview){target="_blank"} con Campaign. Para ello, póngase en contacto con su representante de Adobe y proporcione la siguiente información:
 
 <table> 
  <tbody> 
@@ -47,7 +40,7 @@ Una vez que el servicio Adobe Identity Management (IMS) esté habilitado para su
   </tr> 
   <tr> 
    <td> <strong>ID de la organización</strong><br /> </td> 
-   <td> Su identificador de organización <br> Para encontrar su ID de organización, consulte <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es">esta página</a></td> 
+   <td> Su ID de la organización. <br> Para encontrar su ID de organización, consulte <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es">esta página</a></td> 
   </tr> 
   <tr> 
    <td> <strong>Entorno</strong><br /> </td> 

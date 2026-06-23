@@ -7,22 +7,15 @@ feature: Typology Rules, Campaigns
 hide: true
 exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 TQID: https://experienceleague.adobe.com/4EMN3dCYWlCIIevYAbZsBxH1u2EaPl-izrzCKqyr1eA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-subfeature_v2:
-  - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 509
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +23,7 @@ ht-degree: 95%
 
 Las reglas de filtrado permiten definir los mensajes que deben excluirse según los criterios definidos en una consulta. Estas reglas están vinculadas a una dimensión de segmentación.
 
-Las reglas de filtrado se pueden vincular a otros tipos de reglas (control, presión, etc.) en tipologías o agrupadas en una tipología **Filtrado** dedicada. Para obtener más información sobre esto, consulte [Creación y uso de una tipología de filtrado](#creating-and-using-a-filtering-typology).
+Las reglas de filtrado se pueden vincular a otros tipos de reglas (control, presión, etc.)en tipologías o agrupadas en una tipología **Filtrado** dedicada. Para obtener más información sobre esto, consulte [Creación y uso de una tipología de filtrado](#creating-and-using-a-filtering-typology).
 
 ## Creación de una regla de filtrado {#creating-a-filtering-rule}
 

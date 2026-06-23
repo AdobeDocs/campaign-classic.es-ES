@@ -5,7 +5,7 @@ description: Descubra más información sobre el paquete Web Analytics
 hide: true
 feature: Workflows, Analytics Integration
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '183'
 ht-degree: 100%
 

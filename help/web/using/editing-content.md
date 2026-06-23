@@ -6,20 +6,14 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 TQID: https://experienceleague.adobe.com/vk9ll3YorktZfTylENZ1dgtDU3lfJeT2WHx991jY4dw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-subfeature_v2:
-  - id: f391046b-0cf3-4e76-bd3b-97fe06654506
-  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
-  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2: id: f391046b-0cf3-4e76-bd3b-97fe06654506id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1250
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +35,7 @@ Para añadir una condición de visibilidad, seleccione un bloque e introduzca la
 
 ![](assets/dce_popup_visibilitycondition.png)
 
-Estas condiciones adoptan la sintaxis de la expresión XTK (por ejemplo, **ctx.recipient.@email != &quot;&quot;** o **ctx.recipient.@status==&quot;0&quot;**). De forma predeterminada, todos los campos son visibles.
+Estas condiciones adoptan la sintaxis de la expresión XTK (por ejemplo: **ctx.recipient.@email != &quot;&quot;** o **ctx.recipient.@status==&quot;0&quot;**). De forma predeterminada, todos los campos son visibles.
 
 >[!NOTE]
 >

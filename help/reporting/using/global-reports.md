@@ -6,22 +6,14 @@ badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic 
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 TQID: https://experienceleague.adobe.com/xSG6-FShBqzQfEkFVf4bjadhcwGNzfxhIWvfFpMgFzg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-feature_v2:
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-subfeature_v2:
-  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
-  - id: cfda811a-e413-43a4-adf0-7370888f5cfc
-  - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+subfeature_v2: id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47id: cfda811a-e413-43a4-adf0-7370888f5cfcid: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2330
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +53,7 @@ Este informe contiene información sobre el rendimiento de entrega de toda la pl
 
 ![](assets/s_ncs_user_report_toolbar.png)
 
-Puede configurar los valores mostrados cambiando la escala temporal: vista de 1 hora, de 3 horas, de 24 horas, etc. Haga clic en **[!UICONTROL Refresh]** para confirmar la selección.
+Puede configurar los valores que se muestran cambiando la escala temporal: vista de 1 hora, de 3 horas, de 24 horas, etc. Haga clic en **[!UICONTROL Refresh]** para confirmar su selección.
 
 >[!NOTE]
 >
@@ -180,9 +172,9 @@ La tabla de valores utiliza los indicadores siguientes:
 
 ### Difusión en redes sociales {#sharing-to-social-networks}
 
-El marketing viral permite que los destinatarios de las entregas compartan información con sus redes de contactos: pueden añadir un vínculo a su perfil (Facebook, X, anteriormente conocido como Twitter, etc.) o enviar un mensaje a un amigo. Cada difusión y cada acceso a la información compartida se rastrea dentro de la entrega. Para obtener más información sobre marketing viral, consulte [esta sección](../../delivery/using/viral-and-social-marketing.md).
+El marketing viral permite a los destinatarios del envío compartir información con su red de contactos: pueden añadir un vínculo a su perfil (Facebook o X, antes conocido como Twitter, etc.)o enviarle un mensaje a un amigo. Cada difusión y cada acceso a la información compartida se rastrea dentro de la entrega. Para obtener más información sobre marketing viral, consulte [esta sección](../../delivery/using/viral-and-social-marketing.md).
 
-Este informe muestra el desglose de mensajes compartidos y abiertos por red social (Facebook, X, etc.) o por correo electrónico.
+Este informe muestra el desglose de los mensajes compartidos y abiertos según la red social (Facebook, Twitter, etc.)y/o por correo electrónico.
 
 ![](assets/s_ncs_user_social_report.png)
 
@@ -215,7 +207,7 @@ Esta sección incluye dos gráficos que representan el desglose de actividades d
 
 ## Estadísticas de actividades de difusión {#statistics-on-sharing-activities}
 
-Este informe muestra la evolución de las difusiones en redes sociales (Facebook, X, anteriormente conocido como Twitter, correo electrónico, etc.) a tiempo.
+Este informe muestra la evolución de las publicaciones compartidas en redes sociales como Facebook, X (anteriormente conocido como Twitter), correo electrónico, etc. a tiempo.
 
 Para obtener más información sobre marketing viral, consulte [esta sección](../../delivery/using/viral-and-social-marketing.md).
 

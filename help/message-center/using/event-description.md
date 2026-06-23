@@ -8,14 +8,13 @@ content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
 TQID: https://experienceleague.adobe.com/Fe-nquKp2-Mp18dsMdNdZnLCjUjKbcat06Arlxi-3-Q
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 758
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +30,7 @@ La mensajería transaccional se basa en el modelo de datos de Adobe Campaign y u
 
 Esta sección detalla los métodos SOAP asociados a los esquemas de módulos de mensajes transaccionales.
 
-Dos métodos SOAP **PushEvent** o **PushEvents** están vinculados a los dos esquemas de datos **nms:rtEvent** y **nms:BatchEvent**. Es el sistema de información el que determina si un evento es de tipo “por lotes” o en “tiempo real”.
+Dos métodos de SOAP **PushEvent** o **PushEvents** están vinculados a los dos esquemas de datos **nms:rtEvent** y **nms:BatchEvent**. Es el sistema de información el que determina si un evento es de tipo “por lotes” o en “tiempo real”.
 
 * **PushEvent** le permite insertar un solo evento en el mensaje,
 * **PushEvents** le permite insertar una serie de eventos en el mensaje.
@@ -133,7 +132,7 @@ Se recomienda rellenar los atributos @wishedChannel y @emailFormat con valores n
 
 >[!NOTE]
 >
->Hay disponible una descripción detallada de todos los atributos autorizados, así como sus valores, en la descripción del esquema de datos **nms:rtEvent** y **nms:BatchEvent**.
+>Hay una descripción detallada disponible de todos los atributos autorizados, así como sus valores, en la descripción del esquema de datos **nms:rtEvent** y **nms:BatchEvent**.
 
 El elemento **`<ctx>`** contiene los datos del mensaje. Su contenido XML está abierto, lo que significa que se puede configurar según el contenido que se va a enviar.
 

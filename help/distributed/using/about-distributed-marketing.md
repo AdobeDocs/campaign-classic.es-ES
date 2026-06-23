@@ -6,16 +6,13 @@ feature: Distributed Marketing
 hide: true
 exl-id: c166409b-e040-491e-840a-a41310935d75
 TQID: https://experienceleague.adobe.com/1T-VO8AH7Rhk9HAhMufgPSSh4lNIC-D65ldnJIfDFvA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-subfeature_v2:
-  - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+subfeature_v2: id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 146
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +20,7 @@ ht-degree: 67%
 
 
 
-Adobe Campaign ofrece una aplicación **Distributed Marketing** para implementar campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **[!UICONTROL list of campaign packages]**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
+Adobe Campaign ofrece una aplicación de **marketing distribuido** para implementar campañas cooperativas entre entidades centrales (sedes centrales, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **[!UICONTROL list of campaign packages]**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
 
 La entidad central proporciona campañas que entidades locales pueden utilizar. Las campañas se materializan mediante paquetes que corresponden a campañas locales o de colaboración. Para utilizar una campaña, la entidad local debe pedirla y se debe aprobar la solicitud.
 
@@ -33,7 +30,7 @@ La entidad central proporciona campañas que entidades locales pueden utilizar. 
 
 >[!NOTE]
 >
->Para obtener más información sobre el marketing distribuido para Adobe Campaign y cómo utilizarlo, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}.
+>Para obtener más información sobre el marketing distribuido para Adobe Campaign y cómo emplearlo, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}.
 
 <!--
 ## Terminology {#terminology}

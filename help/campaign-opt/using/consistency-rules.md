@@ -7,24 +7,15 @@ feature: Typology Rules, Campaigns
 hide: true
 exl-id: 757328fa-4698-4f85-a5fa-074b5152ec45
 TQID: https://experienceleague.adobe.com/rkCdxvBXQAvuM0hpIt2nQ35lxDBK2XpS-0tHN7NzQVI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: c858a28b-ea19-49b0-8d48-828717fad89c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 774
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +25,7 @@ ht-degree: 94%
 
 Adobe Campaign garantiza comunicaciones coherentes gracias a un conjunto de reglas contenidas en tipologías de campaña. Su objetivo es controlar las entregas que se realizan a los destinatarios como, por ejemplo, volumen, tipo, relevancia, etc.
 
-Las reglas de **capacidad**, por ejemplo, pueden evitar la sobrecarga en la plataforma correspondiente de envío de mensajes. Por ejemplo, las ofertas especiales que contienen un vínculo de descarga no deben enviarse a demasiadas personas a la vez para evitar la saturación del servidor; las campañas telefónicas no deben superar la capacidad de procesamiento de los centros de llamadas, etc. Para obtener más información, consulte [Capacidad de control](#controlling-capacity).
+Las reglas de **capacidad**, por ejemplo, pueden evitar la sobrecarga en la plataforma correspondiente de envío de mensajes. Por ejemplo, las ofertas especiales que contienen un vínculo de descarga no se deben enviar a demasiadas personas a la vez para evitar la saturación del servidor; las campañas telefónicas no deben superar la capacidad de procesamiento de los centros de llamadas, etc. Para obtener más información, consulte [Capacidad de control](#controlling-capacity).
 
 ## Control de la capacidad {#controlling-capacity}
 

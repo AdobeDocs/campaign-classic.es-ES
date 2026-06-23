@@ -6,20 +6,14 @@ feature: Workflows, Data Management
 hide: true
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 TQID: https://experienceleague.adobe.com/xasYSu6WyHC0T6CpKn51bZ5K7WlspJAbB0R45AeXb8M
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 feature_v2: []
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 410
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +23,7 @@ ht-degree: 88%
 
 ## Actualización de la base de datos {#updating-the-database}
 
-Todos los datos recopilados pueden utilizarse para actualizar la base de datos o en las entregas. Por ejemplo, puede enriquecer las posibilidades de personalización del contenido del mensaje (incluir el número de contratos en el mensaje, especificar el carro de compras promedio durante el último año, etc.) o indique la población objetivo (envíe un mensaje a los cotitulares del contrato, diríjase a los 1000 mejores suscriptores de los servicios en línea, etc.). Estos datos también se pueden exportar o archivar en una lista.
+Todos los datos recopilados pueden utilizarse para actualizar la base de datos o en las entregas. Por ejemplo, puede ampliar las posibilidades de personalización del contenido del mensaje (incluir el número de los contratos en el mensaje, especificar el valor medio del carro de compras durante el último año, etc.) o detallar la segmentación de la población objetivo (enviar un mensaje a los cotitulares del contrato, dirigirse a los mil mejores suscriptores de los servicios en línea, etc.). Estos datos también se pueden exportar o archivar en una lista.
 
 ### Listas y actualizaciones directas {#lists-and-direct-updates}
 

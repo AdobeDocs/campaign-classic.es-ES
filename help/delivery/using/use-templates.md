@@ -7,23 +7,14 @@ feature: Delivery Templates
 hide: true
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
 TQID: https://experienceleague.adobe.com/99urg-HfXdZVnSsbFPzG9d2RkmxkPoYGNDEojWHmux4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 598
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +30,7 @@ Obtenga más información sobre las plantillas de envíos en [esta sección](abo
 
 Una [plantilla de envíos](about-templates.md) le permite definir una vez un conjunto de propiedades técnicas y funcionales que se adaptan a sus necesidades y pueden reutilizarse en futuros envíos. A continuación, puede ahorrar tiempo y estandarizar envíos cuando sea necesario.
 
-Cuando se gestionan varias marcas en Adobe Campaign, Adobe recomienda tener un subdominio por marca. Por ejemplo, un banco puede tener varios subdominios correspondientes a cada una de sus agencias regionales. Si un banco es propietario del dominio bluebank.com, sus subdominios pueden ser @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Tener una plantilla de envíos para cada subdominio le permite utilizar los parámetros preconfigurados adecuados para cada una de sus marcas, lo que evita errores y le ahorra tiempo.
+Cuando se gestionan varias marcas en Adobe Campaign, Adobe recomienda tener un subdominio por marca. Por ejemplo, un banco puede tener varios subdominios correspondientes a cada una de sus agencias regionales. Si un banco tiene el dominio bluebank.com, sus subdominios pueden ser @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc.Tener una plantilla de envíos para cada subdominio le permite utilizar los parámetros preconfigurados adecuados para cada una de sus marcas, lo que evita errores y le ahorra tiempo.
 
 **Sugerencia**: Para evitar errores de configuración, se recomienda duplicar una plantilla nativa y modificar sus propiedades, en lugar de crear una plantilla nueva.
 

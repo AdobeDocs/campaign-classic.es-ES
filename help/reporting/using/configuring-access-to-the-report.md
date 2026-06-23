@@ -6,20 +6,14 @@ feature: Reporting, Monitoring
 badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 TQID: https://experienceleague.adobe.com/I1mGm11kQMgw-Iy-tbKBPGupVtiiCIT-SUzZVjoPwuM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-feature_v2:
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-subfeature_v2:
-  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
-  - id: cfda811a-e413-43a4-adf0-7370888f5cfc
-  - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+subfeature_v2: id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47id: cfda811a-e413-43a4-adf0-7370888f5cfcid: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 770
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +27,7 @@ Defina el contexto de visualización del informe en la plataforma de Adobe Campa
 
 ### Tipo de selección {#selection-type}
 
-El acceso al informe se puede limitar a un contexto específico o a un espacio de ofertas como, por ejemplo, una entrega, un destinatario, una selección de destinatarios, etc. Este acceso está configurado en la sección **[!UICONTROL Selection type]** de la ficha **[!UICONTROL Display]**.
+El acceso al informe se puede limitar a un contexto específico o a un espacio de ofertas como, por ejemplo, un envío, un destinatario, una selección de destinatarios, etc. Este acceso está configuración en la sección **[!UICONTROL Selection type]** de la pestaña **[!UICONTROL Display]**.
 
 ![](assets/s_ncs_advuser_report_visibility_4.png)
 

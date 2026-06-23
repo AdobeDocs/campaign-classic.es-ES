@@ -7,22 +7,15 @@ feature: Campaigns, Audiences
 hide: true
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 TQID: https://experienceleague.adobe.com/uJW1-zNfhCUn15Nxa9T7bXTzX6nGdZJ1QfuUa38L7HY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: afa4204e-6d08-4e29-bc35-26aafb656d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: f863efa9-030c-4466-a2b8-a52aea6b722c
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1508
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +98,7 @@ Los flujos de trabajo de destino se pueden iniciar manualmente mediante el botó
 
 La segmentación se puede programar para la ejecución automática según una programación (programador) o un evento (señal externa, importación de archivos, etc.).
 
-Las acciones relacionadas con la ejecución del flujo de trabajo de objetivos (inicio, parada, pausa, etc.) son **procesos asincrónicos**: el comando se guarda y surte efecto en cuanto el servidor esté disponible para aplicarlo.
+Las acciones relacionadas con la ejecución del flujo de trabajo de segmentación (inicio, parada, pausa, etc.) son procesos **asíncronos**: el comando se guarda y se aplicará tan pronto como el servidor esté disponible para ejecutarlo.
 
 Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la ejecución del flujo de trabajo de destino.
 
@@ -258,6 +251,6 @@ Puede definir una nueva población para utilizarla como grupo de control. Puede 
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/27490?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

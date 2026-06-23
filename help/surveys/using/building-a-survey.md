@@ -6,16 +6,13 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 TQID: https://experienceleague.adobe.com/aeRP0GoE5lu3eUsJ4kg8DoUnqFeipazoax--zX8Lv60
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-subfeature_v2:
-  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2: id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 798
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +30,7 @@ Seleccione la plantilla de encuesta (**[!UICONTROL newSurvey]** de forma predete
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-Las páginas del formulario se crean mediante un editor especial que permite definir y configurar campos de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido de HTML, etc.). Se pueden recopilar en “contenedores” y mostrar según los requisitos. [Más información](#adding-questions)).
+Las páginas del formulario se crean utilizando un editor especial que permite definir y configurar campos de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido de HTML, etc.). Se pueden recopilar en “contenedores” y mostrar según los requisitos. [Más información](#adding-questions)).
 
 >[!NOTE]
 >
@@ -62,7 +59,7 @@ Cuando añada un campo a una encuesta, debe seleccionar su tipo. Estas son las o
    >
    >Los modos de almacenamiento y las importaciones de campo se detallan en [esta sección](../../surveys/using/managing-answers.md#storing-collected-answers).
 
-La naturaleza del campo que desea añadir (lista desplegable, campo de texto, casillas de verificación, etc.) se adapta al modo de almacenamiento seleccionado. Se puede cambiar con el campo **[!UICONTROL Type]** de la pestaña **[!UICONTROL General]**, pero asegúrese de mantener la coherencia con el tipo de datos.
+La naturaleza del campo que desea añadir (lista desplegable, campo de texto, casillas de verificación, etc.)se adapta al modo de almacenamiento seleccionado. Se puede cambiar con el campo **[!UICONTROL Type]** de la pestaña **[!UICONTROL General]**, pero asegúrese de mantener la coherencia con el tipo de datos.
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 

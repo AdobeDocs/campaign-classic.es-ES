@@ -8,28 +8,16 @@ level: Intermediate, Experienced
 hide: true
 exl-id: 67eee1c5-a918-46b9-875d-7c3c71c00635
 TQID: https://experienceleague.adobe.com/GupiG2H4tr3aUKc265ABDhVXpiZBFr9IzG-0s4pxwmU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 557
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -100,8 +88,8 @@ Después de crear el servicio, cree la aplicación de iOS en Campaign. Siga esto
 
    ![](assets/nmac_ios_2.png)
 
-1. Como opción, puede enriquecer el contenido de un mensaje push con **[!UICONTROL Application variables]** si es necesario. Son totalmente personalizables y una parte de la carga útil de mensajes se envía al dispositivo móvil.
-En el ejemplo siguiente, se agregan **mediaURl** y **mediaExt** para crear notificaciones push enriquecidas y, a continuación, se proporciona a la aplicación la imagen que se mostrará en la notificación.
+1. Como opción, puede enriquecer el contenido de un mensaje push con algunas **[!UICONTROL Application variables]** si es necesario. Son totalmente personalizables y forman parte de la carga útil del mensaje enviada al dispositivo móvil.
+En el siguiente ejemplo, añadimos **mediaURl** y **mediaExt** para crear notificaciones push enriquecidas y, a continuación, proporcionamos a la aplicación la imagen que se mostrará en la notificación.
 
    ![](assets/nmac_ios_3.png)
 
@@ -115,7 +103,7 @@ En el ejemplo siguiente, se agregan **mediaURl** y **mediaExt** para crear notif
 
 1. Haga clic en **[!UICONTROL Next]** para comenzar a configurar la aplicación de desarrollo.
 
-1. Asegúrese de que se ha definido la misma **[!UICONTROL Integration key]** en Adobe Campaign y en el código de aplicación a través del SDK.<!--For more on this, refer to [this page](integrating-campaign-sdk-into-the-mobile-application.md).--> Esta clave de integración, específica de cada aplicación, permite vincular la aplicación móvil con la plataforma de Adobe Campaign.
+1. Asegúrese de que se ha definido la misma **[!UICONTROL Integration key]** en Adobe Campaign y en el código de aplicación a través del SDK.<!--For more on this, refer to [this page](integrating-campaign-sdk-into-the-mobile-application.md).--> Esta clave de integración, que es específica de cada aplicación, permite vincular la aplicación móvil a la plataforma de Adobe Campaign.
 
    >[!NOTE]
    >

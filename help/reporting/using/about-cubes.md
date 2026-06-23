@@ -7,9 +7,9 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 hide: true
 exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ A continuación se enumeran términos específicos al trabajar con cubos.
 
 * **Agrupamiento**: en algunos campos, se puede definir un agrupamiento para reunir valores y facilitar la lectura de la información. El agrupamiento se aplica a los niveles. Se recomienda definir un agrupamiento cuando pueda haber muchos valores diferentes.
 
-* **Medida**: las medidas más frecuentes son suma, promedio, máximo, mínimo, desviación estándar, etc. Las medidas se pueden calcular: por ejemplo, la tasa de aceptación de una oferta es la relación entre el número de veces que se presentó comparada con el número de veces que se aceptó.
+* **Medir**: las medidas más frecuentes son suma, promedio, máximo, mínimo, desviación estándar, etc. Las medidas se pueden calcular: por ejemplo, la tasa de aceptación de una oferta es la relación entre el número de veces que se presentó comparada con el número de veces que se aceptó.
 
 ## Espacio de trabajo de cubos {#cube-workspace}
 

@@ -9,22 +9,14 @@ content-type: reference
 topic-tags: response-manager
 exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
 TQID: https://experienceleague.adobe.com/P89PBe23uuRmGX5vb6lCNd8kTd24peaZcKsTRAj2pnw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-  - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3id: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 760
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +28,7 @@ Esta sección está destinada a las personas responsables de configurar la gesti
 
 Esto le permite comprender cómo adaptar el modelo de datos estándar a la naturaleza específica de una tabla de transacciones externa a Adobe Campaign con una tabla simple. Esta tabla simple puede coincidir con tablas simples disponibles en Adobe Campaign o con otra tabla.
 
-La hipótesis de medición se lanza desde el flujo de trabajo del proceso de operación (**[!UICONTROL operationMgt]**). Cada hipótesis representa un proceso independiente ejecutado de forma asíncrona con un estado de ejecución (en edición, pendiente, terminado, fallido, etc.) y controlado por un programador que administra restricciones de prioridad, la restricción del número de procesos simultáneos, la página de actividad baja y la ejecución automática con frecuencia.
+La hipótesis de medición se lanza desde el flujo de trabajo del proceso de operación (**[!UICONTROL operationMgt]**). Cada hipótesis representa un proceso independiente ejecutado de forma asíncrona con un estado de ejecución (en edición, pendiente, terminado, fallido, etc.)  y controlado por un planficador que administra las restricciones de prioridad, la restricción de la cantidad de procesos simultáneos, la página de baja actividad y la ejecución automática con la frecuencia.
 
 ## Configuración de esquemas {#configuring-schemas}
 
@@ -62,7 +54,7 @@ Si utilizamos un recibo por ejemplo, una tabla de transacción está vinculada a
 
 >[!NOTE]
 >
->Si desea conservar el identificador de recibo que describe el comportamiento esperado en la hipótesis, puede ampliar la plantilla de tabla nms:remaMatchRcp para agregarle el identificador (en este caso, no se vincula ningún cálculo de ROI a estos campos).
+>Si desea conservar el identificador de recepción que describe el comportamiento previsto en las hipótesis, puede ampliar la plantilla de la tabla nms:remaMatchRcp para añadirle el identificador (en este caso, no hay ningún cálculo de retorno de la inversión que esté vinculado a estos campos).
 
 Recomendamos añadir una fecha de evento.
 
@@ -74,7 +66,7 @@ El esquema siguiente muestra las uniones entre las distintas tablas una vez comp
 
 En este ejemplo, integramos una tabla de compras en nuestro módulo de gestión de respuestas mediante la tabla de destinatarios integrada de Adobe Campaign **[!UICONTROL nms:recipient]**.
 
-La tabla de registros de respuesta de un destinatario **[!UICONTROL nms:remaMatchRcp]** se amplía para agregar un vínculo al esquema de tabla de compras. En el ejemplo siguiente, la tabla de compra se llama **demo:purchase**.
+La tabla de registros de respuesta de un destinatario **[!UICONTROL nms:remaMatchRcp]** se amplía para agregar un vínculo al esquema de tabla de compras. En el ejemplo siguiente, la tabla de compras se llama **demo:purchase**.
 
 1. Mediante Adobe Campaign Explorer, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**.
 1. Haga clic con el botón secundario en **Destinatario** y luego seleccione **[!UICONTROL Actions]** y **[!UICONTROL Modify the options of the targeting dimensions]**.
@@ -87,7 +79,7 @@ La tabla de registros de respuesta de un destinatario **[!UICONTROL nms:remaMatc
 
 1. En la categoría **[!UICONTROL Response management]**, asegúrese de que la casilla **[!UICONTROL Generate a storage schema for reactions]** está seleccionada.
 
-   A continuación, haga clic en **[!UICONTROL Define additional fields...]** para seleccionar las tablas de transacción relacionadas y agregue los campos deseados a la extensión del esquema nms:remaMatchRcp.
+   A continuación, haga clic en **[!UICONTROL Define additional fields...]** para seleccionar las tablas de transacción relacionadas y añada los campos deseados a la extensión del esquema nms:remaMatchRcp.
 
    ![](assets/delivery_mapping3.png)
 

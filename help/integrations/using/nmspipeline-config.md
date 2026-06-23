@@ -7,8 +7,8 @@ badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se a
 audience: integrations
 content-type: reference
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
-source-wordcount: '381'
+workflow-type: ht
+source-wordcount: '325'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 
 
-Una vez que la autenticación funcione, [!DNL pipelined] puede recuperar los eventos y procesarlos. Solo procesa activadores configurados en Adobe Campaign e ignora al resto. El activador debe haberse generado desde Analytics y haber sido transferido a la canalización de antemano.
+Una vez que la autenticación funcione, [!DNL pipelined] puede recuperar los eventos y procesarlos. Solo procesará los activadores que están configurados en Adobe Campaign e ignorará al resto. El activador debe haberse generado desde Analytics y haberse transferido a la canalización de antemano.
 La opción también se puede configurar con un comodín para capturar todos los activadores independientemente del nombre.
 
 La configuración de los activadores se realiza en una opción, en **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. El nombre de la opción es **[!UICONTROL NmsPipeline_Config]**. El tipo de datos es &quot;texto largo&quot; en formato JSON.

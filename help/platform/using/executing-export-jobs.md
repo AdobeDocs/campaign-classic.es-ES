@@ -9,19 +9,13 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
 TQID: https://experienceleague.adobe.com/YkFgnO67JZr1NK1OuVeVSNT4343nji7QDwFh-B4Z5q0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-subfeature_v2:
-  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
-  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
-  - id: f5293531-9312-4099-bfa3-9e67df6a8750
-  - id: efa38731-2723-4334-8d8b-a778af834835
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: afa4204e-6d08-4e29-bc35-26aafb656d48
+subfeature_v2: id: f529d0bd-1401-4c88-9833-43228cc1d40fid: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f5293531-9312-4099-bfa3-9e67df6a8750id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 963
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +25,7 @@ ht-degree: 95%
 
 Los trabajos de exportación permiten acceder a la base de datos y extraer datos de ella: contactos, clientes, listas, segmentos, etc.
 
-Por ejemplo: puede resultar útil utilizar datos de seguimiento de campañas (historial de seguimiento, etc.) en una hoja de cálculo. Los datos de salida pueden estar en formato TXT, CSV, TAB o XML.
+Por ejemplo, puede resultar útil utilizar datos de seguimiento de campañas (historial de seguimiento, etc.)en una hoja de cálculo. Los datos de salida pueden estar en formato TXT, CSV, TAB o XML.
 
 El asistente de exportación permite configurar una exportación, definir sus opciones e iniciar la ejecución. Es una serie de pantallas cuyo contenido depende del tipo de exportación (simple o múltiple) y de los derechos del operador.
 
@@ -84,7 +78,7 @@ Seleccione un formato de salida para el archivo de exportación. Se pueden utili
 * En el caso de los archivos de formato **[!UICONTROL Text]**, seleccione los delimitadores para separar las columnas (tabulaciones, comas, punto y coma o personalizado) y las cadenas (comillas simples o dobles, o ninguna).
 * Para **[!UICONTROL text]** y **[!UICONTROL CSV]**, puede seleccionar la opción **[!UICONTROL Use first lines as column titles]**.
 * Indique el formato de fecha y el formato de número. Para hacer esto, haga clic en el botón **[!UICONTROL Edit]** en el campo correspondiente y use el editor.
-* En los campos que contienen valores enumerados, puede seleccionar **[!UICONTROL Export labels instead of internal values of enumerations]**. Por ejemplo, el título se puede almacenar en el formulario **1=Mr.**, **2=Miss**, **3=Mrs**. Si se selecciona esta opción, se exportarán **Mr**, **Miss** y **Mrs**.
+* En los campos que contienen valores enumerados, puede seleccionar **[!UICONTROL Export labels instead of internal values of enumerations]**. Por ejemplo, el tratamiento se puede almacenar en el formato **1=Sr.**, **2=Srta.**, **3=Sra.**. Si esta opción está seleccionada, se exportarán **Sr.**, **Srta.** y **Sra.**.
 
 ## Paso 4: Selección de datos {#step-4---data-selection}
 
