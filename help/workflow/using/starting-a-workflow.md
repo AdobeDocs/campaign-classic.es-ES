@@ -13,10 +13,10 @@ subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
-source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
+source-git-commit: null
 workflow-type: tm+mt
 source-wordcount: 1187
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 Un flujo de trabajo siempre se inicia manualmente. Cuando se inicia, no obstante, puede permanecer inactivo según la información especificada mediante un planificador (consulte [Scheduler](scheduler.md)) o una planificación de actividad.
 
-Acciones relacionadas con la ejecución del flujo de trabajo de objetivos (inicio, parada, pausa, etc.) son **procesos asincrónicos**: el pedido se ha registrado y entrará en vigor en cuanto el servidor esté disponible para aplicarlo.
+Las acciones relacionadas con la ejecución del flujo de trabajo de segmentación (inicio, parada, pausa, etc.) son procesos **asíncronos**: la orden se registra y se aplicará tan pronto como el servidor esté disponible para ejecutarla.
 
 La barra de herramientas permite iniciar y rastrear la ejecución del flujo de trabajo.
 
@@ -90,7 +90,7 @@ Los botones de la barra de herramientas se encuentran en esta [sección](../../c
 
 * **[!UICONTROL Start in simulation mode]**
 
-  Esta opción permite iniciar el flujo de trabajo en modo de simulación, distinto del modo real. Esto significa que, cuando se habilita este modo, solo se ejecutan las actividades que no afectan a la base de datos o al sistema de archivos (por ejemplo **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.). Actividades que sí tienen impacto (por ejemplo: **[!UICONTROL Export]**, **[!UICONTROL Import]**, etc.) no se ejecutan ni los que se encuentran después de ellos (en la misma rama).
+  Esta opción permite iniciar el flujo de trabajo en modo de simulación, distinto del modo real. Esto significa que, cuando se habilita este modo, solo se ejecutan las actividades que no afectan a la base de datos o al sistema de archivos (por ejemplo **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.). Las actividades que sí tienen un impacto (por ejemplo: **[!UICONTROL Export]**, **[!UICONTROL Import]**, etc.), así como las que vienen después de ellas (en la misma rama), no se ejecutan.
 
 * **[!UICONTROL Execute pending tasks now]**
 

@@ -23,7 +23,7 @@ subfeature_v2:
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 1511
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Las entregas se pueden crear a través del tablero de la campaña, un flujo de t
 
 Cuando se crean a partir de una campaña, las entregas se vincularán a esta campaña y se consolidarán en el nivel de la campaña.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[Descubra esta función en vídeo](#create-email-video)
 
 ## Creación de entregas {#creating-deliveries}
 
@@ -175,7 +175,7 @@ También pueden editarse y modificarse desde esta vista.
 >
 >Las descripciones de los envíos se utilizan principalmente en el contexto de las campañas de correo directo.
 
-Una descripción de la entrega denota un conjunto estructurado de elementos (documentos, ramas, tiendas, cupones promocionales, etc.) creado en la empresa y para una campaña en particular.
+Una descripción del envío indica un conjunto estructurado de elementos (documentos, ramas, tiendas, cupones promocionales, etc.) creados en la compañía y para una campaña en particular.
 
 Estos elementos se agrupan en descripciones de envío y cada descripción de envío concreta se asocia a una entrega; se hace referencia en el archivo de extracción enviado al **proveedor de servicios** para que se asocie al envío. Por ejemplo, puede crear una descripción de envío que haga referencia a una filial y a los folletos de marketing que utiliza.
 
@@ -203,7 +203,7 @@ Después, haga clic **[!UICONTROL Add a delivery outline]** y cree la jerarquía
 Una descripción puede contener elementos y campos de personalización, recursos y ofertas:
 
 * Los elementos pueden ser documentos físicos, por ejemplo, a los que se hace referencia y que se describen aquí y se adjuntan al envío.
-* Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en envíos para un objetivo específico (oferta de bienvenida, descuento, etc.) Se crean en Adobe Campaign y se importan en el esquema mediante el vínculo **[!UICONTROL Import personalization fields...]**.
+* Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en los envíos para un objetivo específico (oferta de bienvenida, descuento, etc.). Se crean en Adobe Campaign y se importan a la descripción mediante el vínculo **[!UICONTROL Import personalization fields...]**.
 
   ![](assets/s_ncs_user_op_add_composition_field.png)
 
@@ -235,7 +235,7 @@ La pestaña **[!UICONTROL Summary]** de la entrega también muestra esta informa
 
 #### Resultado de la extracción {#extraction-result}
 
-En el archivo extraído y enviado al proveedor de servicios, el nombre de la descripción y, en su caso, sus características (coste, descripción, etc.) se añaden al contenido de según la información de la plantilla de exportación asociada al proveedor de servicios.
+En el archivo extraído y enviado al proveedor de servicio, el nombre de la descripción y, en su caso, sus características (coste, descripción, etc.) se añaden al contenido de acuerdo con la información de la plantilla de exportación asociada al proveedor de servicio.
 
 En el siguiente ejemplo, la etiqueta, el coste estimado y la descripción asociada con la entrega se añaden al archivo de extracción.
 

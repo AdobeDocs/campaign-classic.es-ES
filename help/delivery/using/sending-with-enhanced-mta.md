@@ -28,7 +28,7 @@ subfeature_v2:
 source-git-commit: c8d13469884744554fd504fed8842dd0c9ab5feb
 workflow-type: tm+mt
 source-wordcount: 1393
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -62,7 +62,7 @@ El servidor de correo mejorado incluye una gestión de devoluciones más intelig
 
 **¿Cuáles son los beneficios?**
 
-* Los clientes de Adobe Campaign que utilizan el servidor de correo mejorado han experimentado un <!--300%-->aumento masivo en la velocidad de rendimiento general y una reducción significativa de las devoluciones suaves.
+* Los clientes de Adobe Campaign que utilizan MTA mejorado han experimentado un <!--300%-->aumento masivo en la velocidad de rendimiento general y una reducción significativa de los rechazos temporales.
   <!--90%+-->
 * El servidor de correo mejorado utiliza la tecnología MTA más reciente para proporcionarle las velocidades de rendimiento óptimas para sus envíos de correos electrónicos.
 * Al adaptarse instantánea y automáticamente a los comentarios que recibe, también garantiza envíos de correos electrónicos más precisos e inteligentes con los datos de envío en tiempo real.
@@ -156,8 +156,7 @@ Para obtener más información sobre el período de validez, consulte esta [pág
 
 ### Firma DKIM
 
-La firma de autenticación por correo electrónico de DKIM (DomainKeys Identified Mail) la realiza el MTA mejorado. La firma de DKIM por parte del servidor de correo de Campaign nativo se desactiva en la tabla de administración del dominio como parte de la actualización del servidor de correo mejorado.
-Para obtener más información sobre DKIM, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#authentication).
+La firma de autenticación de correo electrónico DKIM (DomainKeys Identified Mail) la realiza el MTA mejorado. La firma DKIM por parte del MTA de Campaign nativo se desactiva en la tabla de administración del dominio como parte de la actualización del MTA mejorado. Para obtener más información sobre DKIM, consulte la [Guía de prácticas recomendadas sobre entregabilidad de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#authentication).
 
 ### Sistema de informes de éxito de envío
 
