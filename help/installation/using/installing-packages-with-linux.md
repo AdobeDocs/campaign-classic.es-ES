@@ -13,9 +13,9 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: d711ea40185e9860ea20773ae1dfebfc7cc3e4d0
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: 1152
 ht-degree: 4%
 
 ---
@@ -42,7 +42,7 @@ Puede ejecutar el comando **ping`hostname`** para asegurarse de que el servidor 
 
 >[!AVAILABILITY]
 >
->A partir de la versión 7.4.1, las bibliotecas XML para paquetes RPM de Linux ya no se incluyen en Campaign. Debe instalar estas bibliotecas.
+>A partir de la versión 7.4.1, las bibliotecas XML para paquetes RPM de Linux ya no se incluyen en Campaign. Debe instalar **xalan-c** (disponible desde `epel-release`), que es obligatorio. [Más información](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#libraries)
 > 
 
 Para instalar Adobe Campaign en un sistema operativo RPM (RHEL, CentOS), siga estos pasos:
