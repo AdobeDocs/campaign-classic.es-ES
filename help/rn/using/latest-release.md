@@ -22,9 +22,9 @@ subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: a9e48513ed4ceb2650d0eeff18563a010a148c80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 498
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -42,13 +42,13 @@ _30 de junio de 2026_
 
 #### Mejoras de seguridad {#security-7-4-3-9397}
 
-Esta compilación incluye correcciones de seguridad. Es la versión de General Availability recomendada y reemplaza a las versiones de Campaign Classic v7 anteriores.
+Esta compilación incluye correcciones de seguridad. Es la compilación de Disponibilidad general recomendada y reemplaza a las versiones de Campaign Classic v7 anteriores.
 
 #### Otros cambios {#changes-7-4-3-9397}
 
-De forma predeterminada, webForm.jsp ahora ignora los parámetros `ctx` proporcionados por el cliente. Esto se controla mediante el parámetro `disableCtxInWebForm`, que está establecido en &quot;true&quot; de forma predeterminada.
+De forma predeterminada, webForm.jsp ahora ignora los parámetros `ctx` proporcionados por el cliente. Esto se controla mediante el parámetro `disableCtxInWebForm`, que está establecido en “true” de forma predeterminada.
 
-Si las solicitudes de webForm pasan actualmente un parámetro `ctx` en, puede volver a habilitar temporalmente este comportamiento agregando lo siguiente a &lt;web> elemento de su configuración&lt;instance>archivo .xml. Planifique la eliminación gradual de este uso.
+Si las solicitudes de webForm pasan actualmente un parámetro `ctx`, puede volver a habilitar temporalmente este comportamiento añadiendo lo siguiente al <web> elemento de su archivo config-<instance>.xml. Planifique la eliminación gradual de este uso.
 
 ```
 <web>

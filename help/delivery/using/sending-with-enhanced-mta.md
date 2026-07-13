@@ -26,9 +26,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: c8d13469884744554fd504fed8842dd0c9ab5feb
-workflow-type: tm+mt
-source-wordcount: 1393
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: 1428
+ht-degree: 100%
 
 ---
 
@@ -56,9 +56,9 @@ La implementación del servidor de correo mejorado puede afectar a algunas de la
 
 **¿Qué es el servidor de correo mejorado (MTA)?**
 
-Ahora puede actualizar Adobe Campaign para que utilice el **servidor de correo mejorado** (Agente de transferencia de correo), un motor de entrega de correo electrónico de alto rendimiento.
+Ahora puede actualizar Adobe Campaign para que utilice el **MTA mejorado** (Agente de transferencia de correo), un motor de envío de correo electrónico de alto rendimiento.
 
-El servidor de correo mejorado incluye una gestión de devoluciones más inteligente y una capacidad de optimización de la capacidad de envío automatizada que ayuda a los remitentes a lograr y mantener tasas de envío de bandeja de entrada óptimas.
+El MTA mejorado incluye gestión de devoluciones más inteligente y capacidad de optimización de entregabilidad automatizada, lo que ayuda a los remitentes a lograr y mantener tasas de envío de bandeja de entrada óptimas.
 
 **¿Cuáles son los beneficios?**
 
@@ -156,7 +156,7 @@ Para obtener más información sobre el período de validez, consulte esta [pág
 
 ### Firma DKIM
 
-La firma de autenticación de correo electrónico DKIM (DomainKeys Identified Mail) la realiza el MTA mejorado. La firma DKIM por parte del MTA de Campaign nativo se desactiva en la tabla de administración del dominio como parte de la actualización del MTA mejorado. Para obtener más información sobre DKIM, consulte la [Guía de prácticas recomendadas sobre entregabilidad de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#authentication).
+La autenticación por correo electrónico DKIM (DomainKeys Identified Mail) la realiza el servidor de correo mejorado. La firma DKIM por parte del servidor de correo de Campaign nativo se desactiva en la tabla de administración del dominio como parte de la actualización del servidor de correo mejorado.Para obtener más información sobre DKIM, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#authentication).
 
 ### Sistema de informes de éxito de envío
 
