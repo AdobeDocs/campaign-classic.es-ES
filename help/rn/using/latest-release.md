@@ -7,24 +7,16 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 TQID: https://experienceleague.adobe.com/Xq9y8r6xU-hypq1Eeo9ijaiGng7qqkWVqiCXW5fYx2c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 feature_v2: []
-subfeature_v2:
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: a9e48513ed4ceb2650d0eeff18563a010a148c80
-workflow-type: ht
-source-wordcount: 498
-ht-degree: 100%
+subfeature_v2: id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+source-git-commit: 7aea93eee16cdcdae6c4bf2466ab12a0aaf6052e
+workflow-type: tm+mt
+source-wordcount: 631
+ht-degree: 78%
 
 ---
 
@@ -34,15 +26,27 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 
 ## Versión 7.4.3 {#release-7-4-3}
 
+### Compilación 9398 {#build-9398}
+
+[!BADGE Disponibilidad limitada]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
+
+_29 de julio de 2026_
+
+#### Mejoras de seguridad {#security-7-4-3-9398}
+
+Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que abordan vulnerabilidades críticas. Recomendamos a los clientes que usen implementaciones locales e híbridas que instalen las actualizaciones lo antes posible. Las instancias alojadas en Adobe ya se han corregido y no requieren ninguna acción por parte del cliente. Puede encontrar más información en el [boletín de seguridad](https://helpx.adobe.com/security/products/campaign/apsb26-114.html){target="_blank"}.
+
+Se requiere un [reinicio del servidor Adobe Campaign (nlserver)](../../production/using/usual-commands.md#restart-services) para cargar la compilación y completar la implementación. La corrección está activa de forma predeterminada una vez reiniciada.
+
 ### Compilación 9397 {#build-9397}
 
-[!BADGE Disponibilidad general]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad general"}
+[!BADGE Disponibilidad limitada]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad limitada"}
 
 _30 de junio de 2026_
 
 #### Mejoras de seguridad {#security-7-4-3-9397}
 
-Esta compilación incluye correcciones de seguridad. Es la compilación de Disponibilidad general recomendada y reemplaza a las versiones de Campaign Classic v7 anteriores.
+Esta versión incluye correcciones de seguridad y reemplaza a las versiones anteriores de Campaign Classic v7. Esta versión ya está obsoleta para implementaciones locales e híbridas. Recomendamos a los clientes que usen estos modos de implementación que instalen las actualizaciones lo antes posible mediante la actualización a la [versión 9398](#build-9398) o posterior.
 
 #### Otros cambios {#changes-7-4-3-9397}
 
