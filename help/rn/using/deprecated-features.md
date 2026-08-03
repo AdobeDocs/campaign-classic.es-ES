@@ -26,10 +26,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1767
-ht-degree: 100%
+source-git-commit: c094a1fa9adf80708154b5532ae9fbeb18993b9f
+workflow-type: tm+mt
+source-wordcount: 1792
+ht-degree: 98%
 
 ---
 
@@ -64,9 +64,14 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
    <td><strong>Detalles</strong></td>
   </tr>
   <tr>
+ <td>Conector NetSize SMPP</td>
+ <td><p>El conector Netsize SMPP ya no se utiliza. Se recomienda migrar al conector <strong>Extended generic SMPP</strong>. Para obtener más información, consulte <a href="../../delivery/using/unsupported-connector-migration.md">esta página</a>.</p>
+<p>Fecha de eliminación objetivo: enero de 2027</p>
+</td>
+</tr>
+<tr>
  <td>SDK heredado de Campaign (Neolane)</td>
  <td><p>El SDK de Campaign (Neolane) para aplicaciones móviles ha quedado obsoleto. También puede utilizar el SDK móvil de Adobe Experience Platform configurando la extensión de Adobe Campaign en la interfaz de usuario de recopilación de datos. El SDK móvil de Adobe Experience Platform impulsa las soluciones y los servicios Experience Cloud de Adobe en sus aplicaciones móviles. La configuración de los SDK se administra mediante la interfaz de usuario de recopilación de datos para lograr una configuración flexible e integraciones ampliables basadas en reglas. Obtenga información sobre cómo configurar el canal de la aplicación móvil en la <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/push/push-settings">documentación de Campaign v8</a>.</p>
-<p>Fecha de eliminación objetivo: jueves, 31 de julio de 2025 </p>
 </td>
 </tr>
 <tr>
@@ -206,11 +211,11 @@ La consola del cliente de Adobe Campaign Classic ya no se puede ejecutar en los 
 
 * A partir de la versión 19.1, Adobe Campaign deja de ser compatible con los siguientes sistemas operativos.
 
-   * CentOS 6. [Más información](https://wiki.centos.org/Download)
-   * Debian 7. [Más información](https://wiki.debian.org/DebianReleases)
-   * RHEL 6.x. [Más información](https://access.redhat.com/support/policy/updates/errata)
-   * Windows Server 2008. [Más información](https://support.microsoft.com/es-es/lifecycle/search/1163)
-   * SLES 11. [Más información](https://www.suse.com/lifecycle)
+  * CentOS 6. [Más información](https://wiki.centos.org/Download)
+  * Debian 7. [Más información](https://wiki.debian.org/DebianReleases)
+  * RHEL 6.x. [Más información](https://access.redhat.com/support/policy/updates/errata)
+  * Windows Server 2008. [Más información](https://support.microsoft.com/es-es/lifecycle/search/1163)
+  * SLES 11. [Más información](https://www.suse.com/lifecycle)
 
 ### Servidores web {#web-server-eol}
 
