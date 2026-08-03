@@ -7,23 +7,16 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 TQID: https://experienceleague.adobe.com/xs5sqsIqs9u-a9TrKo5EgFIpNTtxhy8y0-YIlDyUxp0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
 feature_v2: []
-subfeature_v2:
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 922
-ht-degree: 100%
+subfeature_v2: id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+source-git-commit: e71b0658b2458b05799c28e79d871f025348962a
+workflow-type: tm+mt
+source-wordcount: 1045
+ht-degree: 88%
 
 ---
 
@@ -64,7 +57,15 @@ Adobe Campaign se actualiza periódicamente. Esta frecuencia regular de actualiz
 
 Esta es la razón por la que es esencial que **ejecute la versión estable más reciente** de Adobe Campaign. También le asegura una mejor experiencia de asistencia, ya que la identificación, reproducción y corrección de un problema en una compilación reciente suele ser mucho más rápida. Además, muchos problemas que puede encontrar ya se han corregido en las compilaciones más recientes.
 
+>[!NOTE]
+>
+> Cada compilación es acumulativa: incluye todas las funcionalidades, mejoras y correcciones entregadas en versiones anteriores de la misma versión, además de sus propios cambios. No es necesario instalar todas las compilaciones intermedias para beneficiarse de las correcciones anteriores: la instalación de la última compilación le actualiza con todo lo incluido en las anteriores.
+
 Como usuario alojado, se beneficia automáticamente de la actualización con la última versión estable sin tener que realizar ninguna acción. Conozca más en la [parte actualización anual](#yearly-upgrade). Si migra desde una versión antigua, Adobe le recomienda que la actualice primero a esta versión.
+
+### Parches de seguridad para entornos alojados {#security-patching}
+
+Para proteger la integridad de los entornos alojados, Adobe se reserva el derecho de aplicar parches de seguridad críticos en cualquier momento y sin previo aviso, para solucionar las vulnerabilidades lo antes posible. Estos parches se implementan sin interrupciones del servicio. Esta práctica es coherente con los estándares de gobernanza de seguridad de Adobe, según los cuales la urgencia de solucionar una vulnerabilidad crítica tiene prioridad sobre las notificaciones avanzadas.
 
 ## Recomendaciones {#rn-recommendations}
 
