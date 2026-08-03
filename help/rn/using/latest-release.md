@@ -54,7 +54,7 @@ _29 de julio de 2026_
 
 #### Mejoras de seguridad {#security-7-4-3-9398}
 
-Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que abordan vulnerabilidades críticas. Recomendamos a los clientes que usen implementaciones locales e híbridas que instalen las actualizaciones lo antes posible. Las instancias alojadas en Adobe ya se han corregido y no requieren ninguna acción por parte del cliente. Puede encontrar más información en el [boletín de seguridad](https://helpx.adobe.com/security/products/campaign/apsb26-114.html){target="_blank"}.
+Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que abordan vulnerabilidades críticas. Recomendamos a los clientes que usen implementaciones locales e híbridas que instalen las actualizaciones lo antes posible. Las instancias alojadas en Adobe ya se han corregido y no requieren ninguna acción por parte del cliente. Puede encontrar más información en el [boletín de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb26-114.html){target="_blank"}.
 
 Se requiere un [reinicio del servidor Adobe Campaign (nlserver)](../../production/using/usual-commands.md#restart-services) para cargar la compilación y completar la implementación. La corrección está activa de forma predeterminada una vez reiniciada.
 
