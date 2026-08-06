@@ -22,9 +22,9 @@ subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 5356cd82fdbec264ebbdebadc490bb6f6aa29f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 734
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -42,21 +42,21 @@ _3 de agosto de 2026_
 
 #### Mejoras de seguridad {#security-7-4-3-9399}
 
-Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que abordan vulnerabilidades críticas. Recomendamos a los clientes que usen implementaciones locales e híbridas que instalen las actualizaciones lo antes posible. Las instancias alojadas en Adobe ya se han corregido y no requieren ninguna acción por parte del cliente. Puede encontrar más información en el [boletín de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb26-120.html){target="_blank"}.
+Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que corrigen vulnerabilidades críticas. Recomendamos a los clientes que usen implementaciones locales e híbridas que instalen las actualizaciones lo antes posible. Las instancias alojadas en Adobe ya se han corregido y no requieren ninguna acción por parte del cliente. Puede encontrar más información en el [boletín de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb26-120.html){target="_blank"}.
 
-Se requiere un [reinicio del servidor Adobe Campaign (nlserver)](../../production/using/usual-commands.md#restart-services) para cargar la compilación y completar la implementación. La corrección está activa de forma predeterminada una vez reiniciada.
+Se requiere un [reinicio del servidor de Adobe Campaign (nlserver)](../../production/using/usual-commands.md#restart-services) para cargar la compilación y completar la implementación. La corrección se activa de forma predeterminada una vez reiniciado el sistema.
 
 ### Compilación 9398 {#build-9398}
 
 [!BADGE Obsoleto]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Obsoleto"}
 
-_29 de julio de 2026_
+_29 de Julio de 2026_
 
 #### Mejoras de seguridad {#security-7-4-3-9398}
 
-Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que abordan vulnerabilidades críticas. Recomendamos a los clientes que usen implementaciones locales e híbridas que instalen las actualizaciones lo antes posible. Las instancias alojadas en Adobe ya se han corregido y no requieren ninguna acción por parte del cliente. Puede encontrar más información en el [boletín de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb26-114.html){target="_blank"}.
+Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que corrigen vulnerabilidades críticas. Recomendamos a los clientes que usen implementaciones locales e híbridas que instalen las actualizaciones lo antes posible. Las instancias alojadas en Adobe ya se han corregido y no requieren ninguna acción por parte del cliente. Puede encontrar más información en el [boletín de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb26-114.html){target="_blank"}.
 
-Se requiere un [reinicio del servidor Adobe Campaign (nlserver)](../../production/using/usual-commands.md#restart-services) para cargar la compilación y completar la implementación. La corrección está activa de forma predeterminada una vez reiniciada.
+Se requiere un [reinicio del servidor de Adobe Campaign (nlserver)](../../production/using/usual-commands.md#restart-services) para cargar la compilación y completar la implementación. La corrección se activa de forma predeterminada una vez reiniciado el sistema.
 
 ### Compilación 9397 {#build-9397}
 
@@ -66,7 +66,7 @@ _30 de junio de 2026_
 
 #### Mejoras de seguridad {#security-7-4-3-9397}
 
-Esta versión incluye correcciones de seguridad y reemplaza a las versiones anteriores de Campaign Classic v7. Esta versión ya está obsoleta para implementaciones locales e híbridas. Recomendamos a los clientes que usen estos modos de implementación que instalen las actualizaciones lo antes posible mediante la actualización a la [versión 9398](#build-9398) o posterior.
+Esta compilación incluye correcciones de seguridad y reemplaza a las compilaciones anteriores de Campaign Classic v7. Esta compilación ya no se utiliza en las implementaciones locales e híbridas. Recomendamos a los clientes que usen estos modos de implementación que instalen las actualizaciones lo antes posible mediante la actualización a la [Compilación 9398](#build-9398) o posterior.
 
 #### Otros cambios {#changes-7-4-3-9397}
 

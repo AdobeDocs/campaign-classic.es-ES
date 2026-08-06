@@ -21,9 +21,9 @@ subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: e71b0658b2458b05799c28e79d871f025348962a
-workflow-type: tm+mt
-source-wordcount: 1045
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: 1046
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Esta es la razón por la que es esencial que **ejecute la versión estable más 
 
 >[!NOTE]
 >
-> Cada compilación es acumulativa: incluye todas las funcionalidades, mejoras y correcciones entregadas en versiones anteriores de la misma versión, además de sus propios cambios. No es necesario instalar todas las compilaciones intermedias para beneficiarse de las correcciones anteriores: la instalación de la última compilación le actualiza con todo lo incluido en las anteriores.
+> Cada compilación es acumulativa: incluye todas las funcionalidades, mejoras y correcciones proporcionadas en compilaciones anteriores de la misma versión, además de sus propios cambios. No es necesario instalar cada una de las compilaciones intermedias para beneficiarse de las correcciones anteriores: al instalar la compilación más reciente, estará actualizado con todas las correcciones incluidas en las compilaciones anteriores.
 
 Como usuario alojado, se beneficia automáticamente de la actualización con la última versión estable sin tener que realizar ninguna acción. Conozca más en la [parte actualización anual](#yearly-upgrade). Si migra desde una versión antigua, Adobe le recomienda que la actualice primero a esta versión.
 

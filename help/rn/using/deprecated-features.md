@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: c094a1fa9adf80708154b5532ae9fbeb18993b9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1792
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,9 +64,9 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
    <td><strong>Detalles</strong></td>
   </tr>
   <tr>
- <td>Conector NetSize SMPP</td>
- <td><p>El conector Netsize SMPP ya no se utiliza. Se recomienda migrar al conector <strong>Extended generic SMPP</strong>. Para obtener más información, consulte <a href="../../delivery/using/unsupported-connector-migration.md">esta página</a>.</p>
-<p>Fecha de eliminación objetivo: enero de 2027</p>
+ <td>Conector SMPP de Netsize</td>
+ <td><p>El conector SMPP de Netsize ya no se utiliza. Le recomendamos migrar al conector <strong>genérico extendido SMPP</strong>. Para obtener más información, consulte <a href="../../delivery/using/unsupported-connector-migration.md">esta página</a>.</p>
+<p>Fecha de eliminación de destino: enero de 2027</p>
 </td>
 </tr>
 <tr>
