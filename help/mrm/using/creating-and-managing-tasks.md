@@ -9,17 +9,13 @@ hide: true
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 TQID: https://experienceleague.adobe.com/Mv-2GGcnP%2D%2D%2D%2DL-D2h5DDz3StnT5rH4TlnQdxn9bdnY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
 source-git-commit: 48d000a7ceada7e027f27f436ef643b321a7695c
-workflow-type: tm+mt
-source-wordcount: 3750
+workflow-type: ht
+source-wordcount: 3752
 ht-degree: 100%
 
 ---
@@ -320,8 +316,8 @@ La tarea de creación de recursos de marketing interactúa con el recurso vincul
 
   Puede utilizar una serie de tareas vinculadas para definir un ciclo de aprobación completo. Compruebe la opción **[!UICONTROL Publish the marketing resource]** solo para la última tarea: todas las tareas deben haber terminado para que se publique el recurso. Además, al crear una tarea secundaria de recursos de marketing, el recurso se selecciona automáticamente en la tarea secundaria.
 
-   * **Mediante el recurso**: si envía el recurso para su aprobación o lo aprueba, estas acciones no afectan a la tarea.
-   * **Via the task**: si la opción **[!UICONTROL Publish the marketing resource]** está activada, el recurso se aprueba y se publica automáticamente una vez se haya finalizado la tarea (consulte más arriba). Si la opción no está activada, la tarea y el recurso no interactúan: la modificación de una no afecta al otro, y viceversa.
+  * **Mediante el recurso**: si envía el recurso para su aprobación o lo aprueba, estas acciones no afectan a la tarea.
+  * **Via the task**: si la opción **[!UICONTROL Publish the marketing resource]** está activada, el recurso se aprueba y se publica automáticamente una vez se haya finalizado la tarea (consulte más arriba). Si la opción no está activada, la tarea y el recurso no interactúan: la modificación de una no afecta al otro, y viceversa.
 
 #### Configuración de una tarea de creación de recursos de marketing {#configuring-a-marketing-resource-creation-task}
 
@@ -417,7 +413,7 @@ La dependencia entre tareas se representa mediante flechas en el panel de contro
 
 ![](assets/s_ncs_user_task_dependencies_from_board.png)
 
-En el caso de las tareas agrupadas, Adobe Campaign asigna automáticamente la fecha de finalización de la tarea principal a la tarea secundaria como fecha de inicio. Por ejemplo, si una tarea **Crear invitación** finaliza el 15 de octubre a las 3:30PM, la tarea secundaria **Enviar correo electrónico de invitación** comenzará el 15 de octubre a las 3:30PM.
+En el caso de las tareas agrupadas, Adobe Campaign asigna automáticamente la fecha de finalización de la tarea principal a la tarea secundaria como fecha de inicio. Por ejemplo, si una tarea **Crear invitación** finaliza el 15 de octubre a las 15:30, la tarea secundaria **Enviar correo electrónico de invitación** comenzará el 15 de octubre a las 15:30.
 
 Además, si pospone el final de una tarea principal, algunas de sus tareas secundarias podrían verse afectadas: estas son las tareas secundarias cuyo estado es **[!UICONTROL Scheduled]** y cuya fecha de inicio es anterior a la nueva fecha de finalización de la tarea principal. La duración de la tarea sigue siendo la misma. Si la fecha de inicio de una tarea secundaria es posterior a la nueva fecha de finalización de la tarea principal, la tarea secundaria no se ve afectada.
 
