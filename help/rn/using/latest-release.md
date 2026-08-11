@@ -21,10 +21,10 @@ feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: 5356cd82fdbec264ebbdebadc490bb6f6aa29f07
-workflow-type: ht
-source-wordcount: 734
-ht-degree: 100%
+source-git-commit: 6d58d7b0af036eeae1297ef3162c8740be064402
+workflow-type: tm+mt
+source-wordcount: 912
+ht-degree: 88%
 
 ---
 
@@ -32,11 +32,31 @@ ht-degree: 100%
 
 Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con la **última versión de Campaign Classic v7**. Cada nueva compilación viene con un estado que se materializa con un color. Obtenga más información sobre los estados de compilación de Campaign Classic v7 en [esta página](rn-overview.md).
 
+## Versión 7.4.4 {#release-7-4-4}
+
+### Compilación 9400 {#build-9400}
+
+[!BADGE Disponibilidad general]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad general"}
+
+_11 de agosto de 2026_
+
+Esta compilación incluye varias mejoras del producto, correcciones de seguridad y la actualización a la API de Adobe Analytics 2.0 para el conector de Adobe Analytics.
+
+#### Mejoras de seguridad {#security-7-4-4-9400}
+
+Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que corrigen vulnerabilidades críticas. Recomendamos a los clientes que usen implementaciones locales e híbridas que instalen las actualizaciones lo antes posible. Las instancias alojadas en Adobe ya se han corregido y no requieren ninguna acción por parte del cliente. Puede encontrar más información en el [boletín de seguridad](https://helpx.adobe.com/security/products/campaign/apsb26-123.html){target="_blank"}.
+
+Se requiere reiniciar el servidor de Adobe Campaign (nlserver) para cargar la compilación y completar la implementación. La corrección se activa de forma predeterminada una vez reiniciado el sistema.
+
+#### Actualización a Adobe Analytics 2.0 {#analytics-2-0-7-4-4}
+
+Las API de Adobe Analytics 1.4 están llegando al final de su vida útil. Si utiliza el conector de Adobe Analytics, debe actualizar a esta compilación y completar algunos pasos de migración según la implementación y el caso de uso. [Obtenga información sobre cómo migrar a la API de Adobe Analytics 2.0](../../technotes/using/analytics-2-migration.md).
+
 ## Versión 7.4.3 {#release-7-4-3}
 
 ### Compilación 9399 {#build-9399}
 
-[!BADGE Disponibilidad general]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad general"}
+[!BADGE Obsoleto]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Obsoleto"}
 
 _3 de agosto de 2026_
 
