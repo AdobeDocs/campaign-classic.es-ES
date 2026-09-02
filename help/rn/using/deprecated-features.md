@@ -145,7 +145,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    </tr>
    <tr>
    <td>Documentación de las API Campaign: archivo jsapi.chm</td>
-   <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://experienceleague.adobe.com/en/tools/campaign-api">nueva versión en línea</a>.</td>
+   <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://experienceleague.adobe.com/es/tools/campaign-api">nueva versión en línea</a>.</td>
   </tr> 
   <tr> 
    <td>Orquestación de Campaign: marketing predictivo</td>
@@ -162,7 +162,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
   <tr> 
    <td>API decryptString</td>
    <td><p>A partir de la versión 18.6 de Campaign y por motivos de seguridad, la API <em>decryptString</em> ya no está disponible de forma predeterminada en las nuevas instalaciones.</p> 
-   <p>En el contexto de una actualización posterior a la versión 18.6 (y versiones posteriores), esta API ya no se activa y se ha sustituido por la función <em>decryptPassword. </em> <a href="https://experienceleague.adobe.com/en/tools/campaign-api">Más información</a></p></td>
+   <p>En el contexto de una actualización posterior a la versión 18.6 (y versiones posteriores), esta API ya no se activa y se ha sustituido por la función <em>decryptPassword. </em> <a href="https://experienceleague.adobe.com/es/tools/campaign-api">Más información</a></p></td>
   </tr> 
    <tr> 
    <td>Canal móvil: mensajes push de MMS y WAP</td>

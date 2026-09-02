@@ -104,7 +104,7 @@ Los comandos se muestran en el mismo orden en que se declaran en el documento XM
 
 Un separador de comandos permite mostrar una barra de separación entre los comandos. Se identifica con el valor **&#39;-&#39;** contenido en la etiqueta de comando.
 
-La presencia opcional de la etiqueta **`<soapcall>`** con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre la API de SOAP, consulte [Documentación de Campaign JSAPI](https://experienceleague.adobe.com/en/tools/campaign-api).
+La presencia opcional de la etiqueta **`<soapcall>`** con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre la API de SOAP, consulte [Documentación de Campaign JSAPI](https://experienceleague.adobe.com/es/tools/campaign-api).
 
 El contexto del formulario se puede actualizar en la inicialización desde la etiqueta **`<enter>`**. Para obtener más información sobre esta etiqueta, consulte la documentación sobre los formularios de entrada.
 
@@ -277,7 +277,7 @@ Los comandos se muestran en el mismo orden en que se declaran en el documento XM
 
 Un separador de comandos permite mostrar una barra de separación entre los comandos. Se identifica con el valor **&#39;-&#39;** contenido en la etiqueta de comando.
 
-La presencia opcional de la etiqueta **`<soapcall>`** con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre las API de SOAP, consulte [Documentación de Campaign JSAPI](https://experienceleague.adobe.com/en/tools/campaign-api).
+La presencia opcional de la etiqueta **`<soapcall>`** con sus parámetros de entrada define la llamada de un método SOAP que se va a ejecutar. Para obtener más información sobre las API de SOAP, consulte [Documentación de Campaign JSAPI](https://experienceleague.adobe.com/es/tools/campaign-api).
 
 El contexto del formulario se puede actualizar en la inicialización mediante la etiqueta **`<enter>`**. Para obtener más información sobre esta etiqueta, consulte la documentación del formulario de entrada.
 

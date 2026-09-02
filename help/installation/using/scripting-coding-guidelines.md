@@ -29,7 +29,7 @@ ht-degree: 5%
 
 ## Scripts
 
-Para obtener más información, consulte [Documentación de Campaign JSAPI](https://experienceleague.adobe.com/en/tools/campaign-api).
+Para obtener más información, consulte [Documentación de Campaign JSAPI](https://experienceleague.adobe.com/es/tools/campaign-api).
 
 Si ejecuta un script mediante un flujo de trabajo, aplicaciones web o jsp, siga estas prácticas recomendadas:
 
@@ -66,7 +66,7 @@ Para evitar inyecciones SQL, las funciones SQL deben agregarse a la lista de per
 >
 >Si usa una compilación anterior a 8140, la opción **XtkPassUnknownSQLFunctionsToRDBMS** puede establecerse en &#39;1&#39;. Si desea proteger la base de datos, elimine esta opción (o establézcala en &quot;0&quot;).
 
-Si utiliza entradas del usuario para generar filtros en consultas o instrucciones SQL, siempre debe escaparlos (consulte [Documentación de Campaign JSAPI](https://experienceleague.adobe.com/en/tools/campaign-api) - Protección de datos: funciones de escape). Estas funciones son:
+Si utiliza entradas del usuario para generar filtros en consultas o instrucciones SQL, siempre debe escaparlos (consulte [Documentación de Campaign JSAPI](https://experienceleague.adobe.com/es/tools/campaign-api) - Protección de datos: funciones de escape). Estas funciones son:
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)

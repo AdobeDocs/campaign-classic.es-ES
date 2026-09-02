@@ -41,7 +41,7 @@ Están disponibles los siguientes tipos de campo:
 
   >[!NOTE]
   >
-  >En el lado del servidor, la secuencia de comandos puede utilizar las funciones definidas en [Campaign JSAPI documentation](https://experienceleague.adobe.com/en/tools/campaign-api).
+  >En el lado del servidor, la secuencia de comandos puede utilizar las funciones definidas en [Campaign JSAPI documentation](https://experienceleague.adobe.com/es/tools/campaign-api).
 
 ## Inserción de contenido HTML {#inserting-html-content}
 

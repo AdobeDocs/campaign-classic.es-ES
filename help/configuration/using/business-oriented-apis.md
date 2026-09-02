@@ -45,7 +45,7 @@ Esta sección detalla el uso de los servicios &quot;Suscribirse&quot;, &quot;Can
 
 >[!IMPORTANT]
 >
->[La documentación de JSAPI de Campaign](https://experienceleague.adobe.com/en/tools/campaign-api) contiene información adicional sobre las llamadas de SOAP y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
+>[La documentación de JSAPI de Campaign](https://experienceleague.adobe.com/es/tools/campaign-api) contiene información adicional sobre las llamadas de SOAP y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
 
 ## Suscribirse (nms:subscription) {#subscribe--nms-subscription-}
 
