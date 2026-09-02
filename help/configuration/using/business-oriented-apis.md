@@ -6,17 +6,14 @@ feature: API
 role: Developer
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
 TQID: https://experienceleague.adobe.com/lPAawM33zS2tws0EyHFHW1jD-Vw3ZLDtDcMEd1eJA1c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
 workflow-type: tm+mt
-source-wordcount: 625
-ht-degree: 3%
+source-wordcount: 624
+ht-degree: 2%
 
 ---
 
@@ -26,16 +23,16 @@ Las API empresariales son específicas para cada tipo de objeto. Tienen un efect
 
 * Envíos:
 
-   * Creando una acción de envío, consulte [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-),
-   * envío de una campaña (inicio, pausa, parada, envío de prueba),
-   * recuperando registros de envío.
+  * Creando una acción de envío, consulte [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-),
+  * envío de una campaña (inicio, pausa, parada, envío de prueba),
+  * recuperando registros de envío.
 
 * Flujos de trabajo:
 
-   * inicio de un flujo de trabajo,
-   * verificación de procesos, etc.
+  * inicio de un flujo de trabajo,
+  * verificación de procesos, etc.
 
-     Consulte [Métodos SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
+    Consulte [Métodos SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
 
 * Administración de contenido
 * Administración de suscripciones, consulte [Suscribirse (nms:subscription)](#subscribe--nms-subscription-) y [Cancelar suscripción (nms:subscription)](#unsubscribe--nms-subscription-).
@@ -45,7 +42,7 @@ Esta sección detalla el uso de los servicios &quot;Suscribirse&quot;, &quot;Can
 
 >[!IMPORTANT]
 >
->[La documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es) contiene información adicional sobre las llamadas de SOAP y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
+>[La documentación de JSAPI de Campaign](https://experienceleague.adobe.com/en/tools/campaign-api) contiene información adicional sobre las llamadas de SOAP y el uso de Javascript en Adobe Campaign, así como una referencia completa a todos los métodos y funciones utilizados en la aplicación.
 
 ## Suscribirse (nms:subscription) {#subscribe--nms-subscription-}
 
@@ -70,7 +67,7 @@ Descripción del método &quot;subscribe&quot; en el esquema &quot;nms:subscript
 </method>
 ```
 
-La definición de la clave de reconciliación debe introducirse mediante el atributo _&#x200B;**key** en el elemento `<recipient>` del documento XML. El contenido de este atributo es una lista XPath separada por comas.
+La definición de la clave de reconciliación debe introducirse mediante el atributo _**key** en el elemento `<recipient>` del documento XML. El contenido de este atributo es una lista XPath separada por comas.
 
 Esta llamada no devuelve ningún dato, excepto errores.
 

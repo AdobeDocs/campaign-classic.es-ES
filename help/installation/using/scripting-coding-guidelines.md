@@ -8,18 +8,14 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
 TQID: https://experienceleague.adobe.com/daz7TEa76-e6V3DbFHIzggxj07CKsh1pS-ShT6d-Tfo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
 workflow-type: tm+mt
-source-wordcount: 773
-ht-degree: 7%
+source-wordcount: 771
+ht-degree: 5%
 
 ---
 
@@ -29,7 +25,7 @@ ht-degree: 7%
 
 ## Scripts
 
-Para obtener más información, consulte [Documentación de Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es).
+Para obtener más información, consulte [Documentación de Campaign JSAPI](https://experienceleague.adobe.com/en/tools/campaign-api).
 
 Si ejecuta un script mediante un flujo de trabajo, aplicaciones web o jsp, siga estas prácticas recomendadas:
 
@@ -66,7 +62,7 @@ Para evitar inyecciones SQL, las funciones SQL deben agregarse a la lista de per
 >
 >Si usa una compilación anterior a 8140, la opción **XtkPassUnknownSQLFunctionsToRDBMS** puede establecerse en &#39;1&#39;. Si desea proteger la base de datos, elimine esta opción (o establézcala en &quot;0&quot;).
 
-Si utiliza entradas del usuario para generar filtros en consultas o instrucciones SQL, siempre debe escaparlos (consulte [Documentación de Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es) - Protección de datos: funciones de escape). Estas funciones son:
+Si utiliza entradas del usuario para generar filtros en consultas o instrucciones SQL, siempre debe escaparlos (consulte [Documentación de Campaign JSAPI](https://experienceleague.adobe.com/en/tools/campaign-api) - Protección de datos: funciones de escape). Estas funciones son:
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)
