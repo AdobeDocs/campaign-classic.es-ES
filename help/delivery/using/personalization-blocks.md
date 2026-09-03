@@ -138,7 +138,7 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
 
 >[!IMPORTANT]
 >
->La versión 7.4.4 (compilación 9401) incluye una actualización de la lista de permitidos URL externa. Si un bloque personalizado de personalización hace referencia a una dirección URL externa (por ejemplo, una imagen alojada externamente), asegúrese de que se añade el dominio a la lista de permitidos aprobada de la instancia para que el recurso se siga cargando sin interrupción. Como administrador de Campaign, utilice el Panel de control de Campaign para añadir y administrar las direcciones URL incluidas en la lista de permitidos. Consulte [Agregar permisos de URL](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} para ver los pasos.
+>La versión 7.4.4 (compilación 9401) incluye una actualización de la lista de permitidos URL externa. Si un bloque personalizado de personalización hace referencia a una dirección URL externa (por ejemplo, una imagen alojada externamente), asegúrese de que se añade el dominio a la lista de permitidos aprobada de la instancia para que el recurso se siga cargando sin interrupción. Como administrador de Campaign, utilice el Panel de control de Campaign para añadir y administrar las direcciones URL incluidas en la lista de permitidos. Consulte [Agregar permisos de URL](https://experienceleague.adobe.com/es/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} para ver los pasos.
 
 Se pueden definir nuevos campos personalizados para que se inserten desde el icono de campo personalizado en el menú **[!UICONTROL Include...]**. Estos campos se definen en bloques personalizados.
 

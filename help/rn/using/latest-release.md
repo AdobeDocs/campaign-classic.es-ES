@@ -50,7 +50,7 @@ Se requiere un reinicio del servidor de Adobe Campaign (nlserver) para cargar la
 
 Esta versión incluye una actualización de la lista de permitidos de URL externa utilizada para el contenido de envío y los archivos adjuntos. Asegúrese de que todos los dominios a los que hace referencia actualmente se añadan a la lista de permitidos aprobada de la instancia.
 
-Como administrador de Campaign, utilice el Panel de control de Campaign para añadir a la lista de permitidos las URL externas que se utilizan actualmente en los envíos y siga el mismo proceso para cualquier URL externa nueva en el futuro. Complete esta actividad antes del 5 de septiembre de 2026 para evitar el impacto en las entregas afectadas. Consulte [Agregar permisos de URL](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} para ver los pasos.
+Como administrador de Campaign, utilice el Panel de control de Campaign para añadir a la lista de permitidos las URL externas que se utilizan actualmente en los envíos y siga el mismo proceso para cualquier URL externa nueva en el futuro. Complete esta actividad antes del 5 de septiembre de 2026 para evitar el impacto en las entregas afectadas. Consulte [Agregar permisos de URL](https://experienceleague.adobe.com/es/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} para ver los pasos.
 
 ### Versión 9400 {#build-9400}
 

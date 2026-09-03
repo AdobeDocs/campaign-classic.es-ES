@@ -82,7 +82,7 @@ También puede insertar iconos gestuales en la línea de asunto con la ventana e
 
 >[!IMPORTANT]
 >
->La versión 7.4.4 (compilación 9401) incluye una actualización de la lista de permitidos URL externa. Asegúrese de que los dominios utilizados en el contenido del mensaje se añadan a la lista de permitidos aprobada de la instancia para que los recursos se sigan cargando sin interrupción. Como administrador de Campaign, utilice el Panel de control de Campaign para añadir y administrar las direcciones URL incluidas en la lista de permitidos. Consulte [Agregar permisos de URL](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} para ver los pasos.
+>La versión 7.4.4 (compilación 9401) incluye una actualización de la lista de permitidos URL externa. Asegúrese de que los dominios utilizados en el contenido del mensaje se añadan a la lista de permitidos aprobada de la instancia para que los recursos se sigan cargando sin interrupción. Como administrador de Campaign, utilice el Panel de control de Campaign para añadir y administrar las direcciones URL incluidas en la lista de permitidos. Consulte [Agregar permisos de URL](https://experienceleague.adobe.com/es/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} para ver los pasos.
 
 El contenido del mensaje se define en la sección inferior de la ventana de configuración de entrega.
 
