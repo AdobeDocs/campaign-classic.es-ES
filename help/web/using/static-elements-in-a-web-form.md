@@ -17,10 +17,10 @@ subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1049
-ht-degree: 100%
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
+workflow-type: tm+mt
+source-wordcount: 1048
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ Están disponibles los siguientes tipos de campo:
 
   >[!NOTE]
   >
-  >En el lado del servidor, la secuencia de comandos puede utilizar las funciones definidas en [Campaign JSAPI documentation](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es).
+  >En el lado del servidor, la secuencia de comandos puede utilizar las funciones definidas en [Campaign JSAPI documentation](https://experienceleague.adobe.com/es/tools/campaign-api).
 
 ## Inserción de contenido HTML {#inserting-html-content}
 

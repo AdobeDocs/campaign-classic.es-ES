@@ -26,10 +26,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: c094a1fa9adf80708154b5532ae9fbeb18993b9f
-workflow-type: ht
-source-wordcount: 1792
-ht-degree: 100%
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
+workflow-type: tm+mt
+source-wordcount: 1787
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
     <tr>
   <td>Informe de monitorización de la capacidad de envío técnico<br></td>
    <td><p>El informe de monitorización de la capacidad de entrega técnica ya no está disponible. Ya no se utiliza en la versión 21.1.3 de Campaign.</p>
-   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>
@@ -145,7 +145,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
    </tr>
    <tr>
    <td>Documentación de las API Campaign: archivo jsapi.chm</td>
-   <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es">nueva versión en línea</a>.</td>
+   <td>A partir de la versión 19.1 de Campaign, las API de Campaign Classic están disponibles en una página dedicada. Si utilizó el archivo jsapi.chm heredado, debería consultar la <a href="https://experienceleague.adobe.com/es/tools/campaign-api">nueva versión en línea</a>.</td>
   </tr> 
   <tr> 
    <td>Orquestación de Campaign: marketing predictivo</td>
@@ -162,7 +162,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
   <tr> 
    <td>API decryptString</td>
    <td><p>A partir de la versión 18.6 de Campaign y por motivos de seguridad, la API <em>decryptString</em> ya no está disponible de forma predeterminada en las nuevas instalaciones.</p> 
-   <p>En el contexto de una actualización posterior a la versión 18.6 (y versiones posteriores), esta API ya no se activa y se ha sustituido por la función <em>decryptPassword. </em> <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?lang=es&hl=decrypt">Más información</a></p></td>
+   <p>En el contexto de una actualización posterior a la versión 18.6 (y versiones posteriores), esta API ya no se activa y se ha sustituido por la función <em>decryptPassword. </em> <a href="https://experienceleague.adobe.com/es/tools/campaign-api">Más información</a></p></td>
   </tr> 
    <tr> 
    <td>Canal móvil: mensajes push de MMS y WAP</td>
