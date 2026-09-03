@@ -7,24 +7,16 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 TQID: https://experienceleague.adobe.com/Xq9y8r6xU-hypq1Eeo9ijaiGng7qqkWVqiCXW5fYx2c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 feature_v2: []
-subfeature_v2:
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: d1e083ac90731e9f55d64156fbd6038df3c4d432
+subfeature_v2: id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+source-git-commit: e615a6fdd6dc78b2c5e80d6aeb92cd9291ccf5e7
 workflow-type: tm+mt
-source-wordcount: 1017
-ht-degree: 100%
+source-wordcount: 1117
+ht-degree: 91%
 
 ---
 
@@ -45,6 +37,12 @@ _25 de agosto de 2026_
 Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que corrigen vulnerabilidades críticas. Recomendamos a los clientes que usen implementaciones locales e híbridas que instalen las actualizaciones lo antes posible. Las instancias alojadas en Adobe ya se han corregido y no requieren ninguna acción por parte del cliente. Puede encontrar más información en el [boletín de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb26-134.html){target="_blank"}.
 
 Se requiere un reinicio del servidor de Adobe Campaign (nlserver) para cargar la versión y completar la implementación. La corrección se activa de forma predeterminada una vez reiniciado el sistema.
+
+#### Actualización de lista de permitidos de URL externa {#security-enhancement-url-validation-9401}
+
+Esta versión incluye una actualización de la lista de permitidos de URL externa utilizada para el contenido de envío y los archivos adjuntos. Asegúrese de que todos los dominios a los que hace referencia actualmente se añadan a la lista de permitidos aprobada de la instancia.
+
+Como administrador de Campaign, utilice el Panel de control de Campaign para añadir a la lista de permitidos las URL externas que se utilizan actualmente en los envíos y siga el mismo proceso para cualquier URL externa nueva en el futuro. Complete esta actividad antes del 5 de septiembre de 2026 para evitar el impacto en las entregas afectadas. Consulte [Agregar permisos de URL](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} para ver los pasos.
 
 ### Versión 9400 {#build-9400}
 
