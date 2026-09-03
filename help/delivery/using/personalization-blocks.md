@@ -22,10 +22,10 @@ subfeature_v2:
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 894
-ht-degree: 100%
+source-git-commit: e615a6fdd6dc78b2c5e80d6aeb92cd9291ccf5e7
+workflow-type: tm+mt
+source-wordcount: 988
+ht-degree: 91%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 Los bloques personalizados son dinámicos, personalizados y contienen un procesamiento específico que puede insertar en las entregas. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un vínculo a una página espejo. Consulte [Inserción de bloques de personalización](#inserting-personalization-blocks).
 
-![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#personalization-blocks-video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; Descubra esta función en vídeo](#personalization-blocks-video)
 
 Se puede acceder a los bloques personalizados mediante el nodo **[!UICONTROL Resources > Campaign Management > Personalization blocks]** de Adobe Campaign Explorer. Hay varios bloques disponibles de forma predeterminada (consulte [Bloques de personalización predeterminados](#out-of-the-box-personalization-blocks)).
 
@@ -135,6 +135,10 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
 * **[!UICONTROL Offer acceptance URL in unitary mode]**: inserta una URL que permite establecer una oferta de interacción como **[!UICONTROL Accepted]** (consulte [esta sección](../../interaction/using/offer-analysis-report.md)).
 
 ## Definición de bloques de personalización propios {#defining-custom-personalization-blocks}
+
+>[!IMPORTANT]
+>
+>La versión 7.4.4 (compilación 9401) incluye una actualización de la lista de permitidos URL externa. Si un bloque personalizado de personalización hace referencia a una dirección URL externa (por ejemplo, una imagen alojada externamente), asegúrese de que se añade el dominio a la lista de permitidos aprobada de la instancia para que el recurso se siga cargando sin interrupción. Como administrador de Campaign, utilice el Panel de control de Campaign para añadir y administrar las direcciones URL incluidas en la lista de permitidos. Consulte [Agregar permisos de URL](https://experienceleague.adobe.com/es/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} para ver los pasos.
 
 Se pueden definir nuevos campos personalizados para que se inserten desde el icono de campo personalizado en el menú **[!UICONTROL Include...]**. Estos campos se definen en bloques personalizados.
 
