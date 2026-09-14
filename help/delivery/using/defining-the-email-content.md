@@ -55,8 +55,8 @@
 <target xml:lang="en-XX">Para saber cómo insertar y utilizar campos personalizados, consulte la sección <ph id="1" ctype="x-LINK">[</ph>Acerca de la personalización<ph id="2" ctype="x-LINK">](about-personalization.md)</ph>.</target>
 </trans-unit>
 <trans-unit id="tu11" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu12" xml:space="preserve">
 <source xml:lang="en-US">The sender's address is used for replies by default.</source>
@@ -75,8 +75,8 @@
 <target xml:lang="en-XX">Adobe Campaign comprueba la sintaxis de las direcciones de correo electrónico introducidas.</target>
 </trans-unit>
 <trans-unit id="tu16" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></target>
 </trans-unit>
 <trans-unit id="tu17" xml:space="preserve">
 <source xml:lang="en-US">To avoid deliverability issues, the email accounts that correspond to the addresses specified for deliveries and replies must exist and must be monitored. Check with your system administrator.</source>
@@ -91,8 +91,8 @@
 <target xml:lang="en-XX">El asunto del mensaje se configura en el campo correspondiente. Puede introducirlo directamente en el campo o hacer clic en el vínculo <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL Subject]**</ph> para introducir una secuencia de comandos. El vínculo personalizado permite insertar campos de base de datos en el asunto.</target>
 </trans-unit>
 <trans-unit id="tu20" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu21" xml:space="preserve">
 <source xml:lang="en-US">The message subject is mandatory.</source>
@@ -111,8 +111,8 @@
 <target xml:lang="en-XX">Por ejemplo, en el mensaje anterior, el asunto del mensaje está personalizado para cada destinatario con datos de su perfil.</target>
 </trans-unit>
 <trans-unit id="tu25" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu26" xml:space="preserve">
 <source xml:lang="en-US">The use of personalization fields is presented in <ph id="1" ctype="x-LINK">[</ph>About personalization<ph id="2" ctype="x-LINK">](about-personalization.md)</ph>.</source>
@@ -127,20 +127,20 @@
 <target xml:lang="en-XX">Contenido del mensaje</target>
 </trans-unit>
 <trans-unit id="tu29" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu30" xml:space="preserve">
 <source xml:lang="en-US">For privacy reasons, we recommend using HTTPS for all external resources.</source>
 <target xml:lang="en-XX">Por razones de privacidad, recomendamos utilizar HTTPS para todos los recursos externos.</target>
 </trans-unit>
 <trans-unit id="tu31" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu32" xml:space="preserve">
-<source xml:lang="en-US">Release 7.4.4 (build 9401) includes an update to the external URL allow list. Make sure the domains used in your message content are added to your instance's approved allow list so that resources continue to load without interruption. As a Campaign Administrator, use the Control Panel to add and manage allow-listed URLs. See <ph id="1" ctype="x-LINK">[</ph>Add URL permissions<ph id="2" ctype="x-LINK">[#$tu33]{target="_blank"}</ph> for steps.</source>
-<target xml:lang="en-XX">La versión 7.4.4 (versión 9401) incluye una actualización de la lista de permitidos de URL externas. Asegúrese de que los dominios utilizados en el contenido del mensaje se añadan a la lista de permitidos aprobada de la instancia para que los recursos se sigan cargando sin interrupción. Como administrador de Campaign, utilice el Panel de control para añadir y administrar las URL incluidas en la lista de permitidos. Consulte <ph id="1" ctype="x-LINK">[</ph>Adición de permisos de URL<ph id="2" ctype="x-LINK">[#$tu33]{target="_blank"}</ph> para conocer los pasos.</target>
+<source xml:lang="en-US">Release 7.4.4 (build 9401) includes an update to the external URL allow list. Make sure the domains used in your message content are added to your instance's approved allow list so that resources continue to load without interruption. As a Campaign Administrator, use the Control Panel to add and manage allow-listed URLs. See <ph id="1" ctype="x-LINK">&lbrack;</ph>Add URL permissions<ph id="2" ctype="x-LINK">[#$tu33]{target="_blank"}</ph> for steps.</source>
+<target xml:lang="en-XX">La versión 7.4.4 (versión 9401) incluye una actualización de la lista de permitidos de URL externas. Asegúrese de que los dominios utilizados en el contenido del mensaje se añadan a la lista de permitidos aprobada de la instancia para que los recursos se sigan cargando sin interrupción. Como administrador de Campaign, utilice el Panel de control para añadir y administrar las URL incluidas en la lista de permitidos. Consulte <ph id="1" ctype="x-LINK">&lbrack;</ph>Adición de permisos de URL<ph id="2" ctype="x-LINK">[#$tu33]{target="_blank"}</ph> para conocer los pasos.</target>
 </trans-unit>
 <trans-unit id="tu34" xml:space="preserve">
 <source xml:lang="en-US">The content of the message is defined in the lower section of the delivery configuration window.</source>
@@ -159,8 +159,8 @@
 <target xml:lang="en-XX">Si está utilizando el <ph id="1" ctype="x-LINK">[</ph>Editor de contenido digital<ph id="2" ctype="x-LINK">](../../web/using/about-campaign-html-editor.md)</ph> (DCE), consulte <ph id="3" ctype="x-LINK">[</ph>Selección de una plantilla de contenido<ph id="4" ctype="x-LINK">](../../web/using/use-case-creating-an-email-delivery.md#step-3---selecting-a-content)</ph>.</target>
 </trans-unit>
 <trans-unit id="tu38" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu39" xml:space="preserve">
 <source xml:lang="en-US">The HTML content must be created beforehand, then imported into Adobe Campaign. The HTML editor is not designed for content creation.</source>
@@ -195,8 +195,8 @@
 <target xml:lang="en-XX">El último botón de la barra de herramientas permite insertar campos personalizados.</target>
 </trans-unit>
 <trans-unit id="tu47" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu48" xml:space="preserve">
 <source xml:lang="en-US">The use of personalization fields is presented in <ph id="1" ctype="x-LINK">[</ph>About personalization<ph id="2" ctype="x-LINK">](about-personalization.md)</ph>.</source>
@@ -239,12 +239,12 @@
 <target xml:lang="en-XX">Definición del contenido interactivo</target>
 </trans-unit>
 <trans-unit id="tu58" xml:space="preserve">
-<source xml:lang="en-US">Adobe Campaign enables you to try the new interactive <ph id="1" ctype="x-LINK">[</ph>AMP for Email<ph id="2" ctype="x-LINK">[#$tu59]</ph> format, which enables to send dynamic emails, under certain conditions.</source>
-<target xml:lang="en-XX">Adobe Campaign le permite probar el nuevo formato <ph id="1" ctype="x-LINK">[</ph>AMP interactivo para correo electrónico<ph id="2" ctype="x-LINK">[#$tu59]</ph>, que permite enviar correos electrónicos dinámicos en ciertas condiciones.</target>
+<source xml:lang="en-US">Adobe Campaign enables you to try the new interactive <ph id="1" ctype="x-LINK">&lbrack;</ph>AMP for Email<ph id="2" ctype="x-LINK">[#$tu59]</ph> format, which enables to send dynamic emails, under certain conditions.</source>
+<target xml:lang="en-XX">Adobe Campaign le permite probar el nuevo formato <ph id="1" ctype="x-LINK">&lbrack;</ph>AMP interactivo para correo electrónico<ph id="2" ctype="x-LINK">[#$tu59]</ph>, que permite enviar correos electrónicos dinámicos en ciertas condiciones.</target>
 </trans-unit>
 <trans-unit id="tu60" xml:space="preserve">
-<source xml:lang="en-US">For more on this, see the <ph id="1" ctype="x-LINK">[</ph>Campaign v8 documentation<ph id="2" ctype="x-LINK">[#$tu61]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Para obtener más información al respecto, consulte la <ph id="1" ctype="x-LINK">[</ph>documentación de la versión 8 de Campaign<ph id="2" ctype="x-LINK">[#$tu61]{target="_blank"}</ph>.</target>
+<source xml:lang="en-US">For more on this, see the <ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign v8 documentation<ph id="2" ctype="x-LINK">[#$tu61]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Para obtener más información al respecto, consulte la <ph id="1" ctype="x-LINK">&lbrack;</ph>documentación de la versión 8 de Campaign<ph id="2" ctype="x-LINK">[#$tu61]{target="_blank"}</ph>.</target>
 </trans-unit>
 <trans-unit id="tu62" xml:space="preserve">
 <source xml:lang="en-US">Use content management</source>
@@ -267,8 +267,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![](assets/s_ncs_content_in_delivery_edition_tab.png)</ph></target>
 </trans-unit>
 <trans-unit id="tu67" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu68" xml:space="preserve">
 <source xml:lang="en-US">For further information about content management in Adobe Campaign, refer to <ph id="1" ctype="x-LINK">[</ph>this section<ph id="2" ctype="x-LINK">](about-content-management.md)</ph>.</source>
@@ -359,8 +359,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![](assets/s_ncs_user_image_from_library.png)</ph></target>
 </trans-unit>
 <trans-unit id="tu90" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu91" xml:space="preserve">
 <source xml:lang="en-US">In order for the recipients to be able to view the images included in the messages that they receive, these messages must be available on a server accessible from the outside.</source>
@@ -411,8 +411,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![](assets/s_ncs_user_email_del_img_local.png)</ph></target>
 </trans-unit>
 <trans-unit id="tu102" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu103" xml:space="preserve">
 <source xml:lang="en-US">The image URLs are modified during manual uploading or when sending messages.</source>
@@ -459,8 +459,8 @@
 <target xml:lang="en-XX">En el asistente de implementación puede definir las direcciones URL para las que no se ha habilitado la detección de imágenes: la carga de estas imágenes pasa a estar <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL Skipped]**</ph>.</target>
 </trans-unit>
 <trans-unit id="tu114" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu115" xml:space="preserve">
 <source xml:lang="en-US">Images are identified by their content and not by their access paths. This means that an image uploaded previously under a different name or in a different directory will be detected as <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL Already online]**</ph>.</source>
@@ -479,8 +479,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![](assets/s_ncs_user_images_in_delivery_wiz_3.png)</ph></target>
 </trans-unit>
 <trans-unit id="tu119" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu120" xml:space="preserve">
 <source xml:lang="en-US">The URLs of the images in the email, and their names in particular, are then modified.</source>
@@ -503,8 +503,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![](assets/s_ncs_user_images_in_delivery_wiz_5.png)</ph></target>
 </trans-unit>
 <trans-unit id="tu125" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu126" xml:space="preserve">
 <source xml:lang="en-US">If local images are included in the message, you must confirm changes to the message source code.</source>
@@ -603,8 +603,8 @@
 <target xml:lang="en-XX">No hay ningún control de entrada restrictivo en función del tipo de código de barras. Si un valor de código de barras es incorrecto, solo se puede ver en el modo de <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Preview<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> donde el código de barras aparece tachado en rojo.</target>
 </trans-unit>
 <trans-unit id="tu150" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu151" xml:space="preserve">
 <source xml:lang="en-US">The value assigned to a barcode depends on its type. For example, an EAN-8 type shall have exactly 8 numbers.</source>
@@ -627,8 +627,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![](assets/barcode_insert_10.png)</ph></target>
 </trans-unit>
 <trans-unit id="tu156" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu157" xml:space="preserve">
 <source xml:lang="en-US">If the value of a barcode is incorrect, its bitmap is shown crossed out in red.</source>

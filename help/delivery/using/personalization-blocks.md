@@ -47,8 +47,8 @@
 <target xml:lang="en-XX">Tiene la posibilidad de definir nuevos bloques que le permitan optimizar la personalización de las entregas. Para obtener más información sobre esto, consulte <ph id="1" ctype="x-LINK">[</ph>Definición de bloques de personalización propios<ph id="2" ctype="x-LINK">](#defining-custom-personalization-blocks)</ph>.</target>
 </trans-unit>
 <trans-unit id="tu10" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu11" xml:space="preserve">
 <source xml:lang="en-US">Personalization blocks are also available from the <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL Digital Content Editor (DCE)]**</ph> . For more on this, refer to <ph id="4" ctype="x-LINK">[</ph>this page<ph id="5" ctype="x-LINK">](../../web/using/editing-content.md#inserting-a-personalization-block)</ph>.</source>
@@ -139,8 +139,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL Unsubscription link]**</ph> .</target>
 </trans-unit>
 <trans-unit id="tu33" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu34" xml:space="preserve">
 <source xml:lang="en-US">For more on the mirror page generation, refer to <ph id="1" ctype="x-LINK">[</ph>Generate the mirror page<ph id="2" ctype="x-LINK">](sending-messages.md#generating-the-mirror-page)</ph>.</source>
@@ -187,8 +187,8 @@
 <target xml:lang="en-XX">De forma predeterminada, hay disponibles una lista de bloques personalizados que ayudan a personalizar el contenido del mensaje.</target>
 </trans-unit>
 <trans-unit id="tu45" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu46" xml:space="preserve">
 <source xml:lang="en-US">The list of personalization blocks depends on the modules and options which have been installed on your instance.</source>
@@ -215,8 +215,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL Mirror page URL]**</ph>: inserta la dirección URL de la página espejo, permitiendo que los diseñadores de envío comprueben el vínculo.</target>
 </trans-unit>
 <trans-unit id="tu52" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu53" xml:space="preserve">
 <source xml:lang="en-US">For more on the mirror page generation, refer to <ph id="1" ctype="x-LINK">[</ph>Generate the mirror page<ph id="2" ctype="x-LINK">](sending-messages.md#generating-the-mirror-page)</ph>.</source>
@@ -247,8 +247,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL Registration link (with referrer)]**</ph> : inserta un enlace de suscripción que permite identificar el visitante y el envío. El vínculo se ha definido al configurar la instancia.</target>
 </trans-unit>
 <trans-unit id="tu60" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu61" xml:space="preserve">
 <source xml:lang="en-US">This block can be used in deliveries targeting visitors only.</source>
@@ -275,12 +275,12 @@
 <target xml:lang="en-XX">Definición de bloques de personalización propios</target>
 </trans-unit>
 <trans-unit id="tu67" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu68" xml:space="preserve">
-<source xml:lang="en-US">Release 7.4.4 (build 9401) includes an update to the external URL allow list. If a custom personalization block references an external URL (for example, an externally-hosted image), make sure that domain is added to your instance's approved allow list so that the resource continues to load without interruption. As a Campaign Administrator, use the Control Panel to add and manage allow-listed URLs. See <ph id="1" ctype="x-LINK">[</ph>Add URL permissions<ph id="2" ctype="x-LINK">[#$tu69]{target="_blank"}</ph> for steps.</source>
-<target xml:lang="en-XX">La versión 7.4.4 (versión 9401) incluye una actualización de la lista de permitidos de URL externas. Si un bloque de personalización propio hace referencia a una dirección URL externa (por ejemplo, una imagen alojada externamente), asegúrese de que se añade el dominio a la lista de permitidos aprobada de la instancia para que el recurso se siga cargando sin interrupción. Como administrador de Campaign, utilice el Panel de control para añadir y administrar las URL incluidas en la lista de permitidos. Consulte <ph id="1" ctype="x-LINK">[</ph>Adición de permisos de URL<ph id="2" ctype="x-LINK">[#$tu69]{target="_blank"}</ph> para conocer los pasos.</target>
+<source xml:lang="en-US">Release 7.4.4 (build 9401) includes an update to the external URL allow list. If a custom personalization block references an external URL (for example, an externally-hosted image), make sure that domain is added to your instance's approved allow list so that the resource continues to load without interruption. As a Campaign Administrator, use the Control Panel to add and manage allow-listed URLs. See <ph id="1" ctype="x-LINK">&lbrack;</ph>Add URL permissions<ph id="2" ctype="x-LINK">[#$tu69]{target="_blank"}</ph> for steps.</source>
+<target xml:lang="en-XX">La versión 7.4.4 (versión 9401) incluye una actualización de la lista de permitidos de URL externas. Si un bloque de personalización propio hace referencia a una dirección URL externa (por ejemplo, una imagen alojada externamente), asegúrese de que se añade el dominio a la lista de permitidos aprobada de la instancia para que el recurso se siga cargando sin interrupción. Como administrador de Campaign, utilice el Panel de control para añadir y administrar las URL incluidas en la lista de permitidos. Consulte <ph id="1" ctype="x-LINK">&lbrack;</ph>Adición de permisos de URL<ph id="2" ctype="x-LINK">[#$tu69]{target="_blank"}</ph> para conocer los pasos.</target>
 </trans-unit>
 <trans-unit id="tu70" xml:space="preserve">
 <source xml:lang="en-US">You can define new personalization fields to be inserted from the personalized field icon via the <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL Include...]**</ph> menu. These fields are defined in personalization blocks.</source>
@@ -339,12 +339,12 @@
 <target xml:lang="en-XX">Descubra cómo crear bloques de contenido dinámico y cómo utilizarlos para personalizar el contenido del envío de su correo electrónico.</target>
 </trans-unit>
 <trans-unit id="tu84" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!VIDEO">[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)</ph></target>
 </trans-unit>
 <trans-unit id="tu85" xml:space="preserve">
-<source xml:lang="en-US">Additional Campaign Classic how-to videos are available <ph id="1" ctype="x-LINK">[</ph>here<ph id="2" ctype="x-LINK">[#$tu86]</ph>.</source>
-<target xml:lang="en-XX">Hay disponibles más vídeos de procedimientos para Campaign Classic <ph id="1" ctype="x-LINK">[</ph>aquí<ph id="2" ctype="x-LINK">[#$tu86]</ph>.</target>
+<source xml:lang="en-US">Additional Campaign Classic how-to videos are available <ph id="1" ctype="x-LINK">&lbrack;</ph>here<ph id="2" ctype="x-LINK">[#$tu86]</ph>.</source>
+<target xml:lang="en-XX">Hay disponibles más vídeos de procedimientos para Campaign Classic <ph id="1" ctype="x-LINK">&lbrack;</ph>aquí<ph id="2" ctype="x-LINK">[#$tu86]</ph>.</target>
 </trans-unit>
 </body>
 </file>

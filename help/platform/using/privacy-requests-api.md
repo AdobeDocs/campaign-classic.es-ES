@@ -35,24 +35,24 @@
 <target xml:lang="en-XX">La API de JS <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL CreateRequestByName]**</ph> se define de la siguiente manera.</target>
 </trans-unit>
 <trans-unit id="tu8" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu9" xml:space="preserve">
 <source xml:lang="en-US">If you were using the <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>gdprRequest<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> API, you can still use it but it is recommended to use the new <ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>privacyRequest<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph> API.</source>
 <target xml:lang="en-XX">Si estaba utilizando la API <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>gdprRequest<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>, puede hacerlo, pero se recomienda utilizar la nueva API <ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>privacyRequest<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph>.</target>
 </trans-unit>
 <trans-unit id="tu10" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu11" xml:space="preserve">
 <source xml:lang="en-US">The <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL Privacy Data Right]**</ph> named right is required to use the API.</source>
 <target xml:lang="en-XX">Se requiere el <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL Privacy Data Right]**</ph> nombrado para utilizar la API.</target>
 </trans-unit>
 <trans-unit id="tu12" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu13" xml:space="preserve">
 <source xml:lang="en-US">The 'regulation' field is only available if you are using Campaign Classic 20.2 (build 9178+).</source>
@@ -67,8 +67,8 @@
 <target xml:lang="en-XX">Llamada a la API externamente</target>
 </trans-unit>
 <trans-unit id="tu16" xml:space="preserve">
-<source xml:lang="en-US">Here is an example of how you can invoke the API externally (authentication via the API and details about the Privacy API specifically). For more information on the Privacy API, consult the <ph id="1" ctype="x-LINK">[</ph>API documentation<ph id="2" ctype="x-LINK">[#$tu17]</ph>. You can also consult the <ph id="3" ctype="x-LINK">[</ph>Web service calls documentation<ph id="4" ctype="x-LINK">](../../configuration/using/web-service-calls.md)</ph>.</source>
-<target xml:lang="en-XX">Aquí se muestra un ejemplo de cómo puede invocar la API externamente (autenticación mediante la API y detalles específicos sobre la API de privacidad). Para obtener más información sobre la API de privacidad, consulte la <ph id="1" ctype="x-LINK">[</ph>documentación de la API<ph id="2" ctype="x-LINK">[#$tu17]</ph>. También puede consultar la <ph id="3" ctype="x-LINK">[</ph>documentación de llamadas al servicio web<ph id="4" ctype="x-LINK">](../../configuration/using/web-service-calls.md)</ph>.</target>
+<source xml:lang="en-US">Here is an example of how you can invoke the API externally (authentication via the API and details about the Privacy API specifically). For more information on the Privacy API, consult the <ph id="1" ctype="x-LINK">&lbrack;</ph>API documentation<ph id="2" ctype="x-LINK">[#$tu17]</ph>. You can also consult the <ph id="3" ctype="x-LINK">[</ph>Web service calls documentation<ph id="4" ctype="x-LINK">](../../configuration/using/web-service-calls.md)</ph>.</source>
+<target xml:lang="en-XX">Aquí se muestra un ejemplo de cómo puede invocar la API externamente (autenticación mediante la API y detalles específicos sobre la API de privacidad). Para obtener más información sobre la API de privacidad, consulte la <ph id="1" ctype="x-LINK">&lbrack;</ph>documentación de la API<ph id="2" ctype="x-LINK">[#$tu17]</ph>. También puede consultar la <ph id="3" ctype="x-LINK">[</ph>documentación de llamadas al servicio web<ph id="4" ctype="x-LINK">](../../configuration/using/web-service-calls.md)</ph>.</target>
 </trans-unit>
 <trans-unit id="tu18" xml:space="preserve">
 <source xml:lang="en-US">First of all, you need to perform the authentication via the API:</source>
@@ -135,8 +135,8 @@
 <target xml:lang="en-XX">Aquí se muestra un ejemplo de cómo puede invocar la API desde un JS dentro de Campaign Classic.</target>
 </trans-unit>
 <trans-unit id="tu34" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu35" xml:space="preserve">
 <source xml:lang="en-US">The 'regulation' field is only available if you are using Campaign Classic 20.2 (build 9178+).</source>
