@@ -3,11 +3,11 @@
 <file original="help/delivery/using/personalization-blocks.md.mdnouisc" source-language="en-US" target-language="en-XX" datatype="x-text/markdown">
 <body>
 <trans-unit id="tu69" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/es/docs/control-panel/using/instances-settings/url-permissions</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/es/docs/control-panel/using/instances-settings/url-permissions</target>
 </trans-unit>
 <trans-unit id="tu86" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es</target>
 </trans-unit>
 <trans-unit id="tu1" restype="x-YAML_METADATA_HEADER_VALUE" xml:space="preserve">
