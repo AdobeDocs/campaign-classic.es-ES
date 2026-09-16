@@ -8,20 +8,23 @@ exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
 TQID: https://experienceleague.adobe.com/q-RWgRUdcXuXub4yBi0elAJKVa2OvJZqst87K1KTv0A
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1350
+workflow-type: tm+mt
+source-wordcount: '1399'
 ht-degree: 100%
-
 ---
-
 # Prácticas recomendadas con flujos de trabajo{#workflow-best-practices}
 
 
@@ -40,7 +43,7 @@ Hay dos soluciones adicionales disponibles para ayudarle:
 
 * **Mantener el resultado de las poblaciones provisionales entre dos ejecuciones**
 
-  Esta opción mantiene las tablas temporales entre dos ejecuciones de un flujo de trabajo. Está disponible en la pestaña **[!UICONTROL General]** de las propiedades del flujo de trabajo y se puede utilizar para fines de desarrollo y prueba para controlar los datos y comprobar los resultados. Puede utilizar esta opción en entornos de desarrollo, pero nunca en entornos de producción. Si mantiene las tablas temporales, el tamaño de la base de datos puede aumentar significativamente y finalmente alcanzar el límite de tamaño. Además, ralentiza la copia de seguridad.
+  Esta opción mantiene las tablas temporales entre dos ejecuciones de un flujo de trabajo. Está disponible en la pestaña **[!UICONTROL General]** de las propiedades del flujo de trabajo y se puede utilizar para fines de desarrollo y prueba para monitorizar los datos y comprobar los resultados. Puede utilizar esta opción en entornos de desarrollo, pero nunca en entornos de producción. Si mantiene las tablas temporales, el tamaño de la base de datos puede aumentar significativamente y finalmente alcanzar el límite de tamaño. Además, ralentiza la copia de seguridad.
 
   Solo se conservan las tablas de trabajo de la última ejecución del flujo de trabajo. El flujo de trabajo **[!UICONTROL cleanup]**, que se ejecuta diariamente, depura todas las tablas de trabajo de ejecuciones previas.
 
@@ -52,7 +55,7 @@ Hay dos soluciones adicionales disponibles para ayudarle:
 
   Esta opción, disponible en la pestaña **[!UICONTROL Execution]** en las propiedades del flujo de trabajo, registra todas las consultas SQL generadas por la herramienta desde las diferentes actividades. Es una buena forma de ver lo que realmente se ejecuta en la plataforma. Sin embargo, esta opción solo debe utilizarse temporalmente durante el desarrollo y no activarse en la producción.
 
-Purgue los registros cuando ya no los necesite. El historial del flujo de trabajo no se depura automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede purgar a través del menú **[!UICONTROL File > Actions]** o haciendo clic en el botón Acciones ubicado en la barra de herramientas situada encima de la lista. Seleccione Purgar historial.
+Purgue los registros cuando ya no los necesite. El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]** o haciendo clic en el botón Actions ubicado en la barra de herramientas situada encima de la lista. Seleccione Purge history.
 Para aprender a purgar los registros, consulte esta [documentación](starting-a-workflow.md).
 
 ### Planificación de flujo de trabajo {#workflow-planning}
@@ -116,7 +119,7 @@ Antes de empezar a crear un flujo de trabajo, recuerde establecer los supervisor
 
 Compruebe con regularidad la pestaña **[!UICONTROL Monitoring]** para ver el estado general de los flujos de trabajo activos. Para obtener más información, consulte [Supervisión de instancias](monitoring-workflow-execution.md#instance-supervision).
 
-El HeatMap de flujo de trabajo permite a los administradores de la plataforma de Adobe Campaign controlar la carga en la instancia y planificar los flujos de trabajo en consecuencia. Para obtener más información, consulte [Monitoreo de flujos de trabajo](heatmap.md).
+El HeatMap de flujo de trabajo permite a los administradores de la plataforma de Adobe Campaign monitorizar la carga en la instancia y planificar los flujos de trabajo en consecuencia. Para obtener más información, consulte [Monitoreo de flujos de trabajo](heatmap.md).
 
 ## Uso de actividades {#using-activities}
 

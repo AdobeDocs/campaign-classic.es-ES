@@ -1,9 +1,9 @@
 ---
 product: campaign
 title: Supervisión de la canalización
-description: Supervisión de la canalización
+description: Monitorización de la canalización
 feature: Triggers
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 level: Intermediate, Experienced
@@ -11,25 +11,32 @@ exl-id: 84399496-33fd-4936-85e7-32de8503740f
 TQID: https://experienceleague.adobe.com/JfrzR2a-nKDQBMQJlZ8snVIEavWU1FdJ-oPR-K3RaSg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 501
+workflow-type: tm+mt
+source-wordcount: '492'
 ht-degree: 100%
-
 ---
-
 # Supervisión de la canalización {#pipeline-monitoring}
 
 
@@ -50,28 +57,28 @@ Se destacan los indicadores recomendados a monitorizar.
 
 * Consumidor: nombre del cliente que extrae los activadores. Configurado en la opción de canalización.
 * http-request
-   * last-live-ms-ago: tiempo en ms desde que se realizó una comprobación de conexión.
-   * last-failed-cnx-ms-ago: tiempo en ms desde la última vez que se produjo un error en la comprobación de conexión.
-   * stream-host: nombre del host desde el que se extraen los datos de la canalización.
+  * last-live-ms-ago: tiempo en ms desde que se realizó una comprobación de conexión.
+  * last-failed-cnx-ms-ago: tiempo en ms desde la última vez que se produjo un error en la comprobación de conexión.
+  * stream-host: nombre del host desde el que se extraen los datos de la canalización.
 * puntero
-   * current-offsets: valor del puntero en la canalización, por subproceso secundario.
-   * last-flush-ms-ago: tiempo en ms desde que se recuperó un lote de activadores.
-   * next-offsets-flush: tiempo de espera hasta el siguiente lote una vez finalizado.
-   * processed-since-last-flush: número de activadores procesados en el último lote.
+  * current-offsets: valor del puntero en la canalización, por subproceso secundario.
+  * last-flush-ms-ago: tiempo en ms desde que se recuperó un lote de activadores.
+  * next-offsets-flush: tiempo de espera hasta el siguiente lote una vez finalizado.
+  * processed-since-last-flush: número de activadores procesados en el último lote.
 * enrutamiento
-   * activadores: lista de activadores recuperados. Configurado en la opción de [!DNL pipelined] .
+  * activadores: lista de activadores recuperados. Configurado en la opción de [!DNL pipelined] .
 * estadísticas
-   * average-pointer-flush-time-ms: tiempo de procesamiento promedio para un lote de activadores.
-   * average-trigger-processing-time-ms: tiempo promedio empleado en analizar los datos de activadores.
-   * bytes-read: número de bytes leídos desde la cola desde que se inició el proceso.
-   * current-messages: número actual de mensajes pendientes que se han extraído de la cola y que están pendientes de procesamiento. **Este indicador debe estar cerca de cero**.
-   * current-retries: número actual de mensajes que no se han procesado correctamente y que están a la espera de un reintento.
-   * peak-messages: número máximo de mensajes pendientes que el proceso ha estado gestionando desde que se inició.
-   * pointer-flushes: número de lotes de mensajes procesados desde el inicio.
-   * routing-JS-custom: número de mensajes procesados por el JS personalizado.
-   * trigger-discarded: número de mensajes que se descartaron después de demasiados reintentos debido a errores de procesamiento.
-   * trigger-processed: número de mensajes procesados sin error.
-   * trigger-received: número de mensajes recibidos de la cola.
+  * average-pointer-flush-time-ms: tiempo de procesamiento promedio para un lote de activadores.
+  * average-trigger-processing-time-ms: tiempo promedio empleado en analizar los datos de activadores.
+  * bytes-read: número de bytes leídos desde la cola desde que se inició el proceso.
+  * current-messages: número actual de mensajes pendientes que se han extraído de la cola y que están pendientes de procesamiento. **Este indicador debe estar cerca de cero**.
+  * current-retries: número actual de mensajes que no se han procesado correctamente y que están a la espera de un reintento.
+  * peak-messages: número máximo de mensajes pendientes que el proceso ha estado gestionando desde que se inició.
+  * pointer-flushes: número de lotes de mensajes procesados desde el inicio.
+  * routing-JS-custom: número de mensajes procesados por el JS personalizado.
+  * trigger-discarded: número de mensajes que se descartaron después de demasiados reintentos debido a errores de procesamiento.
+  * trigger-processed: número de mensajes procesados sin error.
+  * trigger-received: número de mensajes recibidos de la cola.
 
 Estas estadísticas se muestran por subproceso de procesamiento.
 
@@ -82,12 +89,12 @@ Estas estadísticas se muestran por subproceso de procesamiento.
 * trigger-received: número de mensajes recibidos de la cola.
 
 * Configuración: se establecen en los archivos de configuración.
-   * flush-pointer-msg-count: número de mensajes en un lote.
-   * flush-pointer-period-ms: tiempo entre dos lotes, en milisegundos.
-   * processing-threads-JS: número de subprocesos de procesamiento que ejecutan el JS personalizado.
-   * retry-period-ms: tiempo entre dos reintentos cuando se produce un error de procesamiento.
-   * try-valid-duration-ms: se vuelve a intentar la duración desde el procesamiento de tiempo hasta que se descarta el mensaje.
-   * Informe de mensajes de canalización
+  * flush-pointer-msg-count: número de mensajes en un lote.
+  * flush-pointer-period-ms: tiempo entre dos lotes, en milisegundos.
+  * processing-threads-JS: número de subprocesos de procesamiento que ejecutan el JS personalizado.
+  * retry-period-ms: tiempo entre dos reintentos cuando se produce un error de procesamiento.
+  * try-valid-duration-ms: se vuelve a intentar la duración desde el procesamiento de tiempo hasta que se descarta el mensaje.
+  * Informe de mensajes de canalización
 
 ## Informe de mensajes de canalización {#pipeline-report}
 

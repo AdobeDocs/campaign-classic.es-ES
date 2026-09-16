@@ -9,24 +9,31 @@ exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 TQID: https://experienceleague.adobe.com/jH8qR4ch4MGigmPcBNa25SRnCpve-ati-HF1wQhRpcI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 707
+workflow-type: tm+mt
+source-wordcount: '723'
 ht-degree: 100%
-
 ---
-
 # Creación de notificaciones para Android{#create-notificaations-android}
 
 Utilice Adobe Campaign para enviar notificaciones push a los dispositivos Android. En la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"} se exponen conceptos globales sobre la creación de envíos.
@@ -62,8 +69,8 @@ Para obtener más información sobre los tipos de mensajes de Firebase Cloud Mes
 
 1. En la ventana **[!UICONTROL Target type]**, seleccione **[!UICONTROL Subscribers of an Android mobile application]** y haga clic en **[!UICONTROL Next]**.
 
-1. En el menú desplegable **[!UICONTROL Service]**, seleccione el servicio creado anteriormente, luego la aplicación y haga clic en **[!UICONTROL Finish]**.
-Las **[!UICONTROL Application variables]** se añadirán automáticamente en función de lo que añadió durante los pasos de configuración.
+1. En la lista desplegable **[!UICONTROL Service]**, seleccione el servicio creado anteriormente y, a continuación, la aplicación, y haga clic en **[!UICONTROL Finish]**.
+Las **[!UICONTROL Application variables]** se añaden automáticamente en función de lo que se añadió durante los pasos de configuración.
 
    ![](assets/nmac_android_6.png)
 

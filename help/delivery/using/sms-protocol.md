@@ -8,28 +8,38 @@ exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 TQID: https://experienceleague.adobe.com/-e39I2kK3veYtZTufN0ZZrnZPAAco47dU8HFlCtlIxY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 8283
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '8527'
+ht-degree: 99%
 ---
-
 # Configuración y protocolo del conector SMS {#sms-connector-protocol}
 
 >[!NOTE]
@@ -44,8 +54,8 @@ Los SMS pueden limitarse a enviar mensajes de texto cortos sin formato, pero su 
 Existen dos maneras principales de enviar un SMS:
 
 * Enviarlo manualmente desde un teléfono, la forma habitual de comunicarse directamente entre personas.
-* Enviarlo desde Internet, la forma en que Adobe Campaign envía mensajes. Para ello, necesita un proveedor de servicio SMS que conecte Internet a la red móvil.
-Adobe Campaign utiliza el protocolo SMPP para enviar SMS a un proveedor de servicio.
+* Enviarlo desde Internet, la forma en que Adobe Campaign envía mensajes. Para eso, se necesita un proveedor de servicios de SMS que conecte Internet a la red móvil.
+Adobe Campaign utiliza el protocolo SMPP para enviar SMS a un proveedor de servicios.
 
 Este documento le guiará a través de la conexión configurada entre Adobe Campaign y un proveedor SMPP.
 
@@ -95,8 +105,8 @@ El equipo de red en el lado del proveedor de servicios SMS suele conocerse como 
 
 ### Conexiones SMPP {#smpp-connections}
 
-Adobe Campaign se conecta al equipo de red del proveedor de servicio SMS a través de TCP. El protocolo SMPP establece conexiones TCP permanentes desde Adobe Campaign al proveedor. Adobe Campaign siempre inicia las conexiones TCP, incluso para recibir mensajes.
-SMPP abre 1 o 2 conexiones TCP, según su modo. Adobe Campaign siempre inicia todas las conexiones.
+Adobe Campaign se conecta al equipo de red del proveedor de servicios SMS a través de TCP. El protocolo SMPP establece conexiones TCP permanentes desde Adobe Campaign al proveedor. Adobe Campaign siempre inicia las conexiones TCP, incluso para recibir mensajes.
+SMPP abre 1 o 2 conexiones TCP, dependiendo de su modo. Adobe Campaign siempre inicia todas las conexiones.
 
 El protocolo SMPP puede funcionar en dos modos:
 
@@ -530,8 +540,9 @@ Ejemplo de una transmisión con una ventana máxima de 4:
 
 ![](assets/do-not-localize/sms_protocol_2.png)
 
-La ventana permite aumentar el rendimiento cuando el vínculo de la red tiene una latencia alta. El valor de la ventana debe ser, como mínimo, el número de SMS multiplicado por la latencia del vínculo en segundos, de modo que el conector nunca está esperando un `SUBMIT_SM_RESP` antes de enviar el siguiente mensaje.
-Si la ventana es demasiado grande, puede enviar más mensajes duplicados en caso de problemas de conexión. Además, la mayoría de proveedores tienen un límite muy estricto para la ventana y rechazan mensajes que superan dicho límite. 
+La ventana ayuda a aumentar el rendimiento cuando el vínculo de red tiene una latencia alta.  El valor de la ventana debe ser al menos el número de SMS/s multiplicado por la latencia del vínculo
+en segundos, de modo que el conector nunca está esperando a `SUBMIT_SM_RESP` antes de enviar el siguiente mensaje.
+Si la ventana es demasiado grande, puede enviar más mensajes de duplicado en caso de problemas de conexión. Además, la mayoría de los proveedores tienen un límite muy estricto para la ventana y rechazan los mensajes que sobrepasan el límite.
 
 Calcular la fórmula óptima de la ventana de envío:
 
@@ -577,7 +588,7 @@ Consulte la sección [Codificación de texto SMS](sms-protocol.md#sms-text-encod
 
 Esta configuración le permite definir una asignación de codificación personalizada, diferente de la especificación. Podrá declarar una lista de codificaciones, junto con su valor `data_coding`.
 
-El MTA intentará codificar usando la primera codificación de la lista. Si falla, intentará utilizar la siguiente codificación de la lista, etc. Si no se puede utilizar ninguna codificación para codificar el mensaje, se producirá un error.Una vez encontrada la codificación, el MTA creará el `SUBMIT_SM PDU` con el texto codificado y el campo establecido `data_coding` con el valor especificado en la tabla.
+El MTA intentará codificar usando la primera codificación de la lista. Si falla, intentará utilizar la siguiente codificación de la lista, etc. Si no se puede utilizar ninguna codificación para codificar el mensaje, se producirá un error. Una vez encontrada la codificación, el MTA creará el `SUBMIT_SM PDU` con el texto codificado y el campo establecido `data_coding` con el valor especificado en la tabla.
 
 El orden de los elementos de la tabla es importante: las codificaciones prueban de arriba abajo. Debe colocar la codificación más barata o recomendada en la parte superior de la lista, seguida de codificaciones más y más caras.
 
@@ -846,22 +857,22 @@ Si tiene varias cuentas en la misma instancia de Adobe Campaign que se conectan 
 
 ### Habilitación de los seguimientos detallados del SMPP durante las comprobaciones {#enable-verbose}
 
-Debe habilitar siempre trazos detallados de SMPP durante las comprobaciones.
-Incluso si no puede comprobar los registros por su cuenta, será más fácil que el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) le ayude.
+Siempre debe habilitar los seguimientos detallados del SMPP durante las comprobaciones.
+Incluso si no puede comprobar los registros usted mismo, será más fácil para el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) ayudarle.
 
 ### Prueba de SMS {#test}
 
 * **Enviar SMS con todo tipo de caracteres**
 Si necesita enviar SMS con caracteres que no sean GSM o ASCII, intente enviar algunos mensajes con tantos caracteres diferentes como sea posible. Si configura una tabla de asignación de caracteres personalizada, envíe al menos un SMS para todos los valores `data_coding` posibles.
 
-* **Verifique que SR se procesa correctamente**
-El SMS debe marcarse como recibido en el registro de envío. El registro de envío debe indicar que se ha realizado correctamente y tener el siguiente aspecto:
+* **Compruebe que SR se procesa correctamente**
+El SMS debe marcarse como recibido en el registro de envíos. El registro de envíos debe tener el siguiente aspecto:
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
-Compruebe que ha cambiado el nombre del proveedor de envío. El registro de envíos nunca debe contener **SR genérico** en entornos de producción.
+  Compruebe que ha cambiado el nombre del proveedor de envío. El registro de envíos nunca debe contener **SR genérico** en entornos de producción.
 
-* **Compruebe que se procesa MO**
-Si necesita procesar MO (respuestas automáticas, almacenar MO en la base de datos, etc.), intente realizar algunas pruebas. Envíe algunos SMS para todas las palabras clave de respuesta automática y compruebe si la respuesta es lo suficientemente rápida, no más de unos segundos.
-Compruebe en el registro que Adobe Campaign responde con un `DELIVER_SM_RESP` (command_status=0) correcto.
+* **Comprobar que se procesan los MO**
+Si necesita procesar MO (respuestas automáticas, almacenar MO en la base de datos, etc.) intente realizar algunas pruebas. Envíe algunos SMS para cada una de las palabras clave de respuesta automática y compruebe si la respuesta es lo suficientemente rápida, no más de unos segundos.
+Compruebe en el registro que Adobe Campaign responde con `DELIVER_SM_RESP` correctamente (command_status=0).
 
 ### Compruebe las PDU {#check-pdus}
 

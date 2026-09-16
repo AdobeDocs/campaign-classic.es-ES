@@ -8,21 +8,25 @@ exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
 TQID: https://experienceleague.adobe.com/PJrUzETTVGOlfnNcnYgUxOSEhZatGBfcDST49uwUVwM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1150
+source-wordcount: '1150'
 ht-degree: 92%
-
 ---
-
 # Carga de datos (archivo){#data-loading-file}
 
 ## Uso {#use}
@@ -73,27 +77,27 @@ El formato de columna permite definir el valor de procesamiento de cada columna:
 * **[!UICONTROL Data type]**: especifica el tipo de datos esperados para cada columna.
 * **[!UICONTROL Allow NULLs]**: especifica cómo administrar los valores vacíos.
 
-   * **[!UICONTROL Adobe Campaign default]**: genera un error solo para los campos numéricos; en caso contrario, inserta un valor NULL.
-   * **[!UICONTROL Empty value allowed]**: autoriza los valores vacíos. Por lo tanto, se inserta el valor NULL.
-   * **[!UICONTROL Always populated]**: genera un error si un valor está vacío.
+  * **[!UICONTROL Adobe Campaign default]**: genera un error solo para los campos numéricos; en caso contrario, inserta un valor NULL.
+  * **[!UICONTROL Empty value allowed]**: autoriza los valores vacíos. Por lo tanto, se inserta el valor NULL.
+  * **[!UICONTROL Always populated]**: genera un error si un valor está vacío.
 
 * **[!UICONTROL Length]**: especifica el número máximo de caracteres para el tipo de datos de **cadena**.
 * **[!UICONTROL Format]**: define el formato de fecha y hora.
 * **[!UICONTROL Data transformation]**: define si se debe aplicar un proceso de mayúsculas y minúsculas en una **cadena**.
 
-   * **[!UICONTROL None]**: la cadena importada no se modifica.
-   * **[!UICONTROL First letter in upper case]**: la primera letra de cada palabra de la cadena empieza con mayúscula.
-   * **[!UICONTROL Upper case]**: todos los caracteres de la cadena están en mayúsculas.
-   * **[!UICONTROL Lower case]**: todos los caracteres de la cadena están en minúsculas.
+  * **[!UICONTROL None]**: la cadena importada no se modifica.
+  * **[!UICONTROL First letter in upper case]**: la primera letra de cada palabra de la cadena empieza con mayúscula.
+  * **[!UICONTROL Upper case]**: todos los caracteres de la cadena están en mayúsculas.
+  * **[!UICONTROL Lower case]**: todos los caracteres de la cadena están en minúsculas.
 
 * **[!UICONTROL White space management]**: especifica si se deben ignorar ciertos espacios en una cadena. El valor **[!UICONTROL Ignore spaces]** solo permite que se ignoren los espacios al principio y al final de una cadena.
 * **[!UICONTROL Error processings]**: define el comportamiento si se produce un error.
 
-   * **[!UICONTROL Ignore the value]**: se ignora el valor. Se genera una advertencia en el registro de ejecución del flujo de trabajo.
-   * **[!UICONTROL Reject line]**: no se procesa la línea completa.
-   * **[!UICONTROL Use a default value in case of error]**: reemplaza el valor que provoca el error con un valor predeterminado definido en el campo **[!UICONTROL Default value]**.
-   * **[!UICONTROL Reject the line when there is no remapping value]**: no se procesa la línea completa a menos que se haya definido una asignación para el valor incorrecto (consulte la opción **[!UICONTROL Mapping]** a continuación).
-   * **[!UICONTROL Use a default value in case the value is not remapped]**: reemplaza el valor que provoca el error con un valor predeterminado, definido en el campo **[!UICONTROL Default value]**, a menos que se haya definido una asignación para el valor incorrecto (consulte la opción **[!UICONTROL Mapping]** a continuación).
+  * **[!UICONTROL Ignore the value]**: se ignora el valor. Se genera una advertencia en el registro de ejecución del flujo de trabajo.
+  * **[!UICONTROL Reject line]**: no se procesa la línea completa.
+  * **[!UICONTROL Use a default value in case of error]**: reemplaza el valor que provoca el error con un valor predeterminado definido en el campo **[!UICONTROL Default value]**.
+  * **[!UICONTROL Reject the line when there is no remapping value]**: no se procesa la línea completa a menos que se haya definido una asignación para el valor incorrecto (consulte la opción **[!UICONTROL Mapping]** a continuación).
+  * **[!UICONTROL Use a default value in case the value is not remapped]**: reemplaza el valor que provoca el error con un valor predeterminado, definido en el campo **[!UICONTROL Default value]**, a menos que se haya definido una asignación para el valor incorrecto (consulte la opción **[!UICONTROL Mapping]** a continuación).
 
 * **[!UICONTROL Default value]**: especifica el valor predeterminado de acuerdo con el procesamiento de error seleccionado.
 * **[!UICONTROL Mapping]**: este campo solo está disponible en la configuración de los detalles de la columna (a los que se accede mediante un doble clic o a través de las opciones a la derecha de la lista de la columna). Esto transforma ciertos valores cuando se importan. Por ejemplo, se puede transformar “tres” en “3”.

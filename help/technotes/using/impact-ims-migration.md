@@ -5,21 +5,25 @@ exl-id: 8b13fe4d-d8d3-43b3-bbe4-c8c5574f585a
 TQID: https://experienceleague.adobe.com/RkgX2M0BnO5pjgI7oAp7NlycXY551manwFHhcA1LMjw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 463
+source-wordcount: '463'
 ht-degree: 1%
-
 ---
-
 # Actualización de la interfaz de Campaign después de la migración IMS {#impact-ims-migration}
 
 Una vez que haya [migrado los operadores técnicos de Campaign a Developer Console](ims-migration.md) y haya [realizado la transición a IMS para la autenticación del usuario final](migrate-users-to-ims.md), el último paso es habilitar la interfaz de usuario y las restricciones de API para eliminar las opciones y capacidades específicas de la autenticación nativa. Esta actualización está disponible a partir de la versión 7.4.1 de Campaign.
@@ -105,7 +109,7 @@ Ya no puede crear, editar, actualizar ni eliminar operadores con autenticación 
 
 Como consecuencia, estas acciones se han deshabilitado en la consola del cliente.
 
-La administración de operadores está centralizada en Adobe Admin Console y las siguientes tareas se gestionan ahora exclusivamente a través de esta consola. Obtenga información sobre cómo crear usuarios y asignar permisos en [Documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}.
+La administración de operadores está centralizada en Adobe Admin Console y las siguientes tareas se gestionan ahora exclusivamente a través de esta consola. Obtenga información sobre cómo crear usuarios y asignar permisos en [Documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}.
 
 ### Opciones no disponibles {#unavailable-migration}
 
@@ -114,10 +118,10 @@ Después de la migración, las siguientes tareas ya no estarán disponibles en l
 * Utilice la opción [Combinar líneas seleccionadas](../../platform/using/updating-data.md#merge-data) para combinar operadores.
 
 * Actualice los campos siguientes para sus operadores:
-   * Nombre
-   * Contraseña
-   * Etiqueta
-   * Correo electrónico
+  * Nombre
+  * Contraseña
+  * Etiqueta
+  * Correo electrónico
 
 * [Restablecer la contraseña de Campaign](../../production/using/lost-password.md)
 

@@ -9,25 +9,31 @@ exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 TQID: https://experienceleague.adobe.com/r3qtW9ZsCD85N9qAnN1EOje-VMhDoyPuqea2xZnBWLs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 2269
+source-wordcount: '2269'
 ht-degree: 38%
-
 ---
-
 # Preguntas frecuentes sobre la migración a la nube pública{#dc-faq}
 
 
@@ -36,7 +42,7 @@ Adobe retira del servicio el centro de datos heredado: las instancias de Campaig
 
 A continuación se muestra un conjunto de preguntas comunes sobre este proyecto, el impacto en los entornos de Campaign y otros recursos útiles.
 
-Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support).
+Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
 
 ## Impacto de la infraestructura
 
@@ -66,7 +72,7 @@ A continuación se enumeran los efectos globales en la base de datos e infraestr
 
 * **¿Cuál es el plan para abordar cualquier problema posterior a la migración?**
 
-  Se realizarán pruebas exhaustivas antes de que se migraran los sistemas de producción. Sin embargo, en caso de problemas, el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support) seguirá siendo el principal punto de contacto. Adobe ha creado un equipo de expertos para proporcionar asistencia avanzada, si es necesario.
+  Se realizarán pruebas exhaustivas antes de que se migraran los sistemas de producción. Sin embargo, en caso de problemas, el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) seguirá siendo el principal punto de contacto. Adobe ha creado un equipo de expertos para proporcionar asistencia avanzada, si es necesario.
 
 ## Impacto de la capacidad de entrega
 
@@ -112,7 +118,7 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 
   En primer lugar, Adobe Delivery evaluará el estado de entrega de la plataforma y recomendará un plan para el cambio a las nuevas IP
 
-  No se requiere calentamiento después de la migración. Podría ser una excepción y, en ese caso, el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support) se pondrá en contacto con los clientes.
+  No se requiere calentamiento después de la migración. Podría ser una excepción y, en ese caso, el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) se pondrá en contacto con los clientes.
 
   Sin embargo, el plan es hacer que esta operación sea transparente para el negocio, a diferencia de la mejora inicial que se realiza durante el lanzamiento.
 
@@ -125,8 +131,8 @@ A continuación, se detalla el impacto global en las direcciones IP, la lista de
 * **¿Cuál debería ser el impacto con nuestro subdominio delegado que usamos para personalizar nuestra comunicación?**
 
   Los subdominios utilizados para la comunicación de marketing siguen siendo los mismos. Sin embargo, según la implementación, es necesario realizar acciones en el lado del cliente:
-   * En caso de delegación de subdominios a Adobe (predeterminado), Adobe se encarga de todos los cambios y garantiza una transición sin problemas.
-   * En caso de configuración de CNAME (excepción), se solicita al cliente que implemente los cambios en coordinación con Adobe.
+  * En caso de delegación de subdominios a Adobe (predeterminado), Adobe se encarga de todos los cambios y garantiza una transición sin problemas.
+  * En caso de configuración de CNAME (excepción), se solicita al cliente que implemente los cambios en coordinación con Adobe.
 
 ## Impacto en la configuración y la conectividad
 
@@ -188,7 +194,7 @@ A continuación se enumeran los efectos globales en la configuración, conectivi
 
   Puede cambiar según la nueva ubicación de los servidores. Sin embargo, el cliente podrá conservar su huso horario actual.
 
-  Obtenga más información acerca de la administración de huso horario en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/managing-time-zones.html?lang=es){target="_blank"}.
+  Obtenga más información acerca de la administración de huso horario en la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/managing-time-zones.html){target="_blank"}.
 
 
 ## Seguridad y permisos
@@ -250,13 +256,13 @@ El impacto global durante la migración se enumera a continuación.
 
   La transferencia entre centros de datos se encuentra en la ruta crítica del tiempo de inactividad. Los datos se almacenan de dos maneras:
 
-   * De lejos, la base de datos más importante
-   * Archivos en el servidor de aplicaciones (importación y exportación de datos)
+  * De lejos, la base de datos más importante
+  * Archivos en el servidor de aplicaciones (importación y exportación de datos)
 
   Reducir el tamaño de la base de datos es muy importante para acelerar la transferencia de datos. Sugerencias:
 
-   * Reduzca los períodos de retención de datos históricos (registros de entrega, registros de seguimiento, etc.)
-   * Eliminar registros inútiles en otras tablas (entregas, destinatarios, tablas personalizadas)
+  * Reduzca los períodos de retención de datos históricos (registros de entrega, registros de seguimiento, etc.)
+  * Eliminar registros inútiles en otras tablas (entregas, destinatarios, tablas personalizadas)
 
 * **¿Cuál es el tiempo de inactividad estimado para migrar una instancia?**
 
@@ -274,11 +280,11 @@ El impacto global durante la migración se enumera a continuación.
 
   Los entornos se migrarán en el siguiente orden:
 
-   1. Entornos de desarrollo
-   1. Entornos de ensayo
-   1. Entornos de producción
-   1. Entornos RT
-   1. Entornos de intermediario
+  1. Entornos de desarrollo
+  1. Entornos de ensayo
+  1. Entornos de producción
+  1. Entornos RT
+  1. Entornos de intermediario
 
 * **¿Cuál es el plan de reversión?**
 

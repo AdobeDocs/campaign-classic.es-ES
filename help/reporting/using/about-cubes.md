@@ -3,16 +3,14 @@ product: campaign
 title: Acerca de los cubos
 description: Introducción a los cubos
 feature: Reporting, Monitoring
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 hide: true
 exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
-source-wordcount: '406'
+workflow-type: tm+mt
+source-wordcount: '397'
 ht-degree: 100%
-
 ---
-
 # Introducción a los cubos{#about-cubes}
 
 

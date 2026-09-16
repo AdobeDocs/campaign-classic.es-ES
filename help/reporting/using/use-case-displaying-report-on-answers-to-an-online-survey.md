@@ -2,16 +2,14 @@
 product: campaign
 title: 'Caso de uso: visualización del informe de respuestas en una encuesta en línea'
 description: 'Caso de uso: visualización del informe de respuestas en una encuesta en línea'
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring, Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 source-git-commit: 0d8cef312371192ee97f88eb33276df9d7fb11f6
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '480'
 ht-degree: 100%
-
 ---
-
 # Caso de uso: visualización del informe con las respuestas a una encuesta en línea{#use-case-displaying-report-on-answers-to-an-online-survey}
 
 

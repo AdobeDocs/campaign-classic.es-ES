@@ -10,28 +10,37 @@ exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
 TQID: https://experienceleague.adobe.com/77yWdkBQIi4XnEr8ZqBuz-2Vm0vg07AQxgI2wh6B150
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: c372a3d67ec413fa8cf9fdbb4530762a8f2f5177
-workflow-type: ht
-source-wordcount: 2383
+workflow-type: tm+mt
+source-wordcount: '2383'
 ht-degree: 100%
-
 ---
-
 # Versiones de 2023{#release-2023}
 
 ## Versión 7.3.5, compilación 9368 {#release-7-3-5}
@@ -61,7 +70,8 @@ A partir de esta versión, los vínculos de seguimiento en correos electrónicos
 * Se ha corregido un error en el flujo de trabajo para la limpieza de base de datos que se producía cuando se eliminaba un envío antes que las pruebas de envío. (NEO-48114)
 * Se ha corregido un problema al conectarse a la consola del cliente: las actualizaciones recientes sobre la verificación TLS provocaban un error de conexión. (NEO-50488)
 * Se ha corregido un problema con la autenticación proxy HTTP después de la actualización de Campaign a la versión 7.3.1. Las solicitudes HTTP en los flujos de trabajo de Campaign daban error con `error 407 – proxy auth required is returned`. (NEO-49624)
-* Se ha corregido un error intermitente con el descifrado GPG en actividades de flujo de trabajo de **Script**. El mensaje de error asociado era: `gpg: decryption failed: No secret key`. (NEO-50257)  <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
+* Se ha corregido un error intermitente con el descifrado GPG en actividades de flujo de trabajo de **Script**. El mensaje de error asociado era: `gpg: decryption failed: No secret key`. (NEO-50257)
+  <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
 
 
 

@@ -3,7 +3,7 @@ product: campaign
 title: Ámbito de la simulación
 description: Ámbito de la simulación
 feature: Interaction, Offers
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: simulating-offers
@@ -11,18 +11,19 @@ exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
 TQID: https://experienceleague.adobe.com/mZ618bV3lzbXS09MXBXJxM5RizvMWl6lEgw0Bwb2bGI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 247
+workflow-type: tm+mt
+source-wordcount: '238'
 ht-degree: 100%
-
 ---
-
 # Ámbito de la simulación{#simulation-scope}
 
 

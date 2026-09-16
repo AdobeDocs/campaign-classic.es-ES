@@ -3,7 +3,7 @@ product: campaign
 title: Configuración de zonas de seguridad
 description: Obtenga información sobre cómo configurar zonas de seguridad
 feature: Installation, Instance Settings
-badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,21 +11,25 @@ exl-id: 67dda58f-97d1-4df5-9648-5f8a1453b814
 TQID: https://experienceleague.adobe.com/eL2iPF1yqueza7P0yRE0KEPdxEezRW81gT4QgRno3Ys
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 1511
-ht-degree: 4%
-
+source-wordcount: '1499'
+ht-degree: 3%
 ---
-
 # Definición de zonas de seguridad (locales){#defining-security-zones}
 
 
@@ -239,36 +243,36 @@ Una vez definidas las zonas y configurada la enumeración **[!UICONTROL Security
 
 * Minimice el uso de sessionTokenOnly=&quot;true&quot;:
 
-   * Advertencia: si este atributo se establece en true, el operador puede exponerse a un **ataque CRSF**.
-   * Además, la cookie sessionToken no se establece con un indicador httpOnly, por lo que algunos códigos JavaScript del lado del cliente pueden leerla.
-   * Sin embargo, el Centro de mensajes de varias celdas de ejecución necesita sessionTokenOnly: cree una nueva zona de seguridad con sessionTokenOnly establecida en &quot;true&quot; y agregue **solo las IP necesarias** en esta zona.
+  * Advertencia: si este atributo se establece en true, el operador puede exponerse a un **ataque CRSF**.
+  * Además, la cookie sessionToken no se establece con un indicador httpOnly, por lo que algunos códigos JavaScript del lado del cliente pueden leerla.
+  * Sin embargo, el Centro de mensajes de varias celdas de ejecución necesita sessionTokenOnly: cree una nueva zona de seguridad con sessionTokenOnly establecida en &quot;true&quot; y agregue **solo las IP necesarias** en esta zona.
 
 * Cuando sea posible, establezca todos allowHTTP, showErrors como false (no para localhost) y compruébelos.
 
-   * allowHTTP = &quot;false&quot;: obliga a los operadores a utilizar HTTPS
-   * showErrors = &quot;false&quot;: oculta los errores técnicos (incluidos los SQL). Evita mostrar demasiada información, pero reduce la capacidad del experto en marketing para resolver errores (sin solicitar más información a un administrador)
+  * allowHTTP = &quot;false&quot;: obliga a los operadores a utilizar HTTPS
+  * showErrors = &quot;false&quot;: oculta los errores técnicos (incluidos los SQL). Evita mostrar demasiada información, pero reduce la capacidad del experto en marketing para resolver errores (sin solicitar más información a un administrador)
 
 * Establezca allowDebug en true solo en las direcciones IP que usan los usuarios/administradores de marketing que necesitan crear (de hecho, previsualizar) encuestas, aplicaciones web e informes. Este indicador permite que estas direcciones IP obtengan reglas de retransmisión y las depuren.
 
-   * Cuando allowDebug se establece en false, el resultado es:
+  * Cuando allowDebug se establece en false, el resultado es:
 
-     ```
-     <redir status='OK' date='...' sourceIP='...'/>
-     ```
+    ```
+    <redir status='OK' date='...' sourceIP='...'/>
+    ```
 
-   * Cuando allowDebug se establece en true, el resultado es:
+  * Cuando allowDebug se establece en true, el resultado es:
 
-     ```
-     <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
-     ```
+    ```
+    <redir status='OK' date='...' build='...' OR version='...' sha1='...' instance='...' sourceIP='...' host='...' localHost='...'/>
+    ```
 
 * Nunca establezca allowEmptyPassword, allowUserPassword, allowSQLInjection en true.
 
-   * **allowEmptyPassword** permite que los operadores tengan una contraseña vacía. Si este es el caso, notifique a todos los operadores para pedirles que establezcan una contraseña con una fecha límite. Una vez transcurrido este plazo, cambie este atributo a false.
+  * **allowEmptyPassword** permite que los operadores tengan una contraseña vacía. Si este es el caso, notifique a todos los operadores para pedirles que establezcan una contraseña con una fecha límite. Una vez transcurrido este plazo, cambie este atributo a false.
 
-   * **allowUserPassword** permite que los operadores envíen sus credenciales como parámetros (de modo que apache/IIS/proxy los registrará). Esta función se utilizaba anteriormente para simplificar el uso de la API. Puede comprobar en el libro de cocina (o en la especificación) si algunas aplicaciones de terceros lo utilizan. Si es así, debe notificarles que cambien la forma en que usan nuestra API y que eliminen esta función lo antes posible.
+  * **allowUserPassword** permite que los operadores envíen sus credenciales como parámetros (de modo que apache/IIS/proxy los registrará). Esta función se utilizaba anteriormente para simplificar el uso de la API. Puede comprobar en el libro de cocina (o en la especificación) si algunas aplicaciones de terceros lo utilizan. Si es así, debe notificarles que cambien la forma en que usan nuestra API y que eliminen esta función lo antes posible.
 
-   * **allowSQLInjection** permite al usuario realizar inyecciones SQL utilizando una sintaxis antigua. Este atributo debe establecerse en false. Puede utilizar /nl/jsp/ping.jsp?zones=true para comprobar la configuración de la zona de seguridad. Esta página muestra el estado activo de las medidas de seguridad (calculadas con estos indicadores de seguridad) para la IP actual.
+  * **allowSQLInjection** permite al usuario realizar inyecciones SQL utilizando una sintaxis antigua. Este atributo debe establecerse en false. Puede utilizar /nl/jsp/ping.jsp?zones=true para comprobar la configuración de la zona de seguridad. Esta página muestra el estado activo de las medidas de seguridad (calculadas con estos indicadores de seguridad) para la IP actual.
 
 * Cookie HttpOnly/useSecurityToken: consulte el indicador **sessionTokenOnly**.
 

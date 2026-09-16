@@ -9,9 +9,7 @@ source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 14%
-
 ---
-
 # Actualizaciones de configuración de Adobe Campaign de 2021 {#acc-config-updates}
 
 
@@ -72,7 +70,7 @@ Las **versiones de consola disponibles** a continuación se deben instalar para 
 
 ## Actualización del sistema Adobe Identity Management (IMS)
 
-El servicio de identidad de Adobe (IMS) dejará de admitir versiones antiguas de Internet Explorer a partir del **30 de junio de 2021**. [Más información](https://helpx.adobe.com/es/x-productkb/global/update-operating-system-and-browser.html).
+El servicio de identidad de Adobe (IMS) dejará de admitir versiones antiguas de Internet Explorer a partir del **30 de junio de 2021**. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
 
 Se requiere una actualización de la consola del cliente de Campaign para garantizar la compatibilidad con Adobe IMS.
 
@@ -103,7 +101,7 @@ Una vez actualizadas todas las instancias, la consola de cliente también debe a
 
 * [Aprenda a instalar la consola del cliente de Campaign](../../installation/using/installing-the-client-console.md).
 
-## Integración con Experience Cloud Déclencheur {#acc-triggers-updates}
+## Integración con Déclencheur de Experience Cloud {#acc-triggers-updates}
 
 El servicio de autenticación oAuth heredado ha llegado al final de su vida útil. La autenticación de integración de Déclencheur, basada originalmente en la configuración de autenticación oAUTH para acceder a la canalización, se ha trasladado a Adobe I/O. El modo de autenticación oAuth heredado con Campaign [se ha retirado](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=es) el **septiembre de 2021**. Los entornos alojados se benefician de una extensión hasta el **23 de febrero de 2022**. Como cliente local o híbrido, póngase en contacto con el Servicio de atención al cliente de Adobe para ampliar la asistencia hasta febrero de 2022. Debe proporcionar [el AppID de la aplicación OAuth](../../integrations/using/configuring-pipeline.md#step-optional) a Adobe.
 

@@ -2,34 +2,43 @@
 product: campaign
 title: Formato
 description: Formato
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 role: User, Developer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 TQID: https://experienceleague.adobe.com/CqXXVNL83qq35qW9j52Vqm46yBIMo8T1J-fF1aC5TCE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1460
+workflow-type: tm+mt
+source-wordcount: '1451'
 ht-degree: 100%
-
 ---
-
 # Formato{#formatting}
 
 ## Plantillas JavaScript {#javascript-templates}
@@ -84,9 +93,9 @@ Los atributos y elementos del contenido se representan como objetos JavaScript y
 **Ejemplo**:
 
 * **content.@name**: recupera el valor del atributo “name” del elemento principal.
-* **content.@`['name']`**: idéntico a la sintaxis de **content.@name**  
+* **content.@`['name']`**: idéntico a la sintaxis de **content.@name**
 * **content.chapter.length**: devuelve el número de elementos en el elemento de colección `<chapter`.
-* **content.chapter`[0]`.@name**: recupera el nombre del primer elemento `<chapter>` 
+* **content.chapter`[0]`.@name**: recupera el nombre del primer elemento `<chapter>`
 * **chapter.name()**: devuelve el nombre del elemento `<chapter>`.
 * **chapter.parent().name()**: devuelve el nombre del elemento principal de `<chapter>`
 

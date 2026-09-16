@@ -5,22 +5,27 @@ exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
 TQID: https://experienceleague.adobe.com/drpNkA9cj7Prid--GixHMQ48CO7ZC9qqX4w5fnTiD88
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1244
-ht-degree: 3%
-
+source-wordcount: '1266'
+ht-degree: 4%
 ---
-
 # Migración de operadores de Campaign a Adobe Identity Management System (IMS) {#migrate-users-to-ims}
 
 Como parte del esfuerzo por reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomienda migrar el modo de autenticación del usuario final de la autenticación nativa de inicio de sesión/contraseña a Adobe Identity Management System (IMS). Todos los operadores deben implementar [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"} para conectarse a Campaign.
@@ -85,7 +90,7 @@ A continuación se enumeran los pasos clave para esta migración:
 1. Después de la actualización, aún puede crear nuevos usuarios con ambos métodos, como usuario nativo o con IMS.
 1. El administrador interno de Campaign debe configurar Adobe IMS como se detalla en [esta sección](../../integrations/using/configuring-ims.md).
 1. A continuación, añada correos electrónicos únicos a todos los usuarios nativos en la consola del cliente de Campaign. Este paso se detalla en [esta sección](#ims-migration-id).
-1. Cree usuarios y perfiles de producto en Adobe Admin Console como se detalla en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/manage-permissions.html?lang=es){target="_blank"}.
+1. Cree usuarios y perfiles de producto en Adobe Admin Console como se detalla en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/manage-permissions.html){target="_blank"}.
 1. Habilite la opción **Conectar con Adobe ID** para todos los operadores.
 1. Implemente Adobe IMS para su conexión según se detalla en [esta página](../../integrations/using/implementing-ims.md).
 

@@ -7,15 +7,14 @@ exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
 TQID: https://experienceleague.adobe.com/w8b-2HEtYRMOd9yHFLtvS0vS2tdLDzuIakLfrqImsGo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 198
+source-wordcount: '198'
 ht-degree: 11%
-
 ---
-
 # elemento de enumeración {#enumeration--element}
 
 
@@ -55,34 +54,34 @@ Las enumeraciones se definen al principio de un esquema (antes de definir el ele
 
   Lista de tipos disponibles:
 
-   * CUALQUIERA
-   * cubo
-   * mancha
-   * booleano
-   * byte
-   * CDATA
-   * datetime
-   * datetimetz
-   * datetimenotz
-   * fecha
-   * DOMocument
-   * DOMElement
-   * doble
-   * enum
-   * flotante
-   * html
-   * int64
-   * vínculo
-   * largo
-   * nota
-   * MNTOKEN
-   * porcentaje
-   * clave principal
-   * corto
-   * cadena
-   * tiempo
-   * intervalo de tiempo
-   * uuid
+  * CUALQUIERA
+  * clase
+  * mancha
+  * booleano
+  * byte
+  * CDATA
+  * datetime
+  * datetimetz
+  * datetimenotz
+  * fecha
+  * DOMocument
+  * DOMElement
+  * doble
+  * enum
+  * flotante
+  * html
+  * int64
+  * vínculo
+  * largo
+  * nota
+  * MNTOKEN
+  * porcentaje
+  * clave principal
+  * corto
+  * cadena
+  * tiempo
+  * intervalo de tiempo
+  * uuid
 
 * **default (cadena)**: Valor predeterminado. El valor predeterminado también puede ser uno de los valores definidos en la enumeración.
 * **desc (cadena)**: descripción de la enumeración.

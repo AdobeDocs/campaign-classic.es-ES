@@ -3,29 +3,36 @@ product: campaign
 title: Acerca de las herramientas del sistema de informes de Adobe Campaign
 description: Analice el éxito de sus campañas en informes integrados o personalizados
 feature: Reporting, Monitoring
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 1ef30004-e1b0-4dde-8104-0ee9e8aa9d8b
 TQID: https://experienceleague.adobe.com/4D-bCeMQakNjr7OXhiZ1u0Sfp5MZWwzZzHtykBfFzZ8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 362
+workflow-type: tm+mt
+source-wordcount: '353'
 ht-degree: 100%
-
 ---
-
 # Introducción a la creación de informes {#about-adobe-campaign-reporting-tools}
 
 
@@ -38,7 +45,7 @@ Para exportar datos de la base de datos de Adobe Campaign, debe crear un flujo d
 
 Adobe Campaign proporciona varias herramientas de sistema de informes:
 
-1. **Informe integrados**: Adobe Campaign ofrece un conjunto de informes sobre envíos, campañas, actividades de la plataforma, funcionalidades opcionales, etc. Estos informes están disponibles a través de las diversas funcionalidades a las que se refieren.Pueden adaptarse a sus necesidades específicas.
+1. **Informe integrados**: Adobe Campaign ofrece un conjunto de informes sobre envíos, campañas, actividades de la plataforma, funcionalidades opcionales, etc. Estos informes están disponibles a través de las diversas funcionalidades a las que se refieren. Pueden adaptarse a sus necesidades específicas.
 
    Para obtener más información, consulte [esta sección](../../reporting/using/about-campaign-built-in-reports.md).
 

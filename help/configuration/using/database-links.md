@@ -8,17 +8,17 @@ exl-id: e05dcd81-bbca-4767-8da3-ea064f7f6c8e
 TQID: https://experienceleague.adobe.com/0kiRwyal2yxHRjRNkPCNY2zsulDvbC3FWcJZ49Ynmkw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: '935'
 ht-degree: 2%
-
 ---
-
 # Administración de vínculos {#links--relation-between-tables}
 
 Un vínculo describe la asociación entre una tabla y otra.
@@ -58,23 +58,23 @@ Los vínculos obedecen las siguientes reglas:
 
 * La definición de un vínculo se especifica en un **vínculo** de tipo **`<element>`** con los atributos siguientes:
 
-   * **nombre**: nombre del vínculo de la tabla de origen
-   * **target**: nombre del esquema de destino
-   * **etiqueta**: etiqueta del vínculo
-   * **revLink** (opcional): nombre del vínculo inverso del esquema de destino (deducido automáticamente de forma predeterminada)
-   * **integridad** (opcional): integridad referencial de la aparición de la tabla de origen a la aparición de la tabla de destino.
-Los valores posibles son:
+  * **nombre**: nombre del vínculo de la tabla de origen
+  * **target**: nombre del esquema de destino
+  * **etiqueta**: etiqueta del vínculo
+  * **revLink** (opcional): nombre del vínculo inverso del esquema de destino (deducido automáticamente de forma predeterminada)
+  * **integridad** (opcional): integridad referencial de la aparición de la tabla de origen a la aparición de la tabla de destino.
+    Los valores posibles son:
 
-      * **define**: es posible eliminar la ocurrencia de origen si una ocurrencia de destino ya no hace referencia a ella
-      * **normal**: al eliminar la ocurrencia de origen se inicializan las claves del vínculo a la ocurrencia de destino (modo predeterminado), este tipo de integridad inicializa todas las claves externas
-      * **propio**: al eliminar la ocurrencia de origen, se elimina la ocurrencia de destino
-      * **owncopy**: igual que **own** (en caso de eliminación) o duplica las ocurrencias (en caso de duplicación)
-      * **neutro**: sin comportamiento específico
+    * **define**: es posible eliminar la ocurrencia de origen si una ocurrencia de destino ya no hace referencia a ella
+    * **normal**: al eliminar la ocurrencia de origen se inicializan las claves del vínculo a la ocurrencia de destino (modo predeterminado), este tipo de integridad inicializa todas las claves externas
+    * **propio**: al eliminar la ocurrencia de origen, se elimina la ocurrencia de destino
+    * **owncopy**: igual que **own** (en caso de eliminación) o duplica las ocurrencias (en caso de duplicación)
+    * **neutro**: sin comportamiento específico
 
-   * **revIntegrity** (opcional): integridad en el esquema de destino (opcional, &quot;normal&quot; de forma predeterminada)
-   * **revCardinality** (opcional): con el valor &quot;single&quot; rellena la cardinalidad con el tipo 1-1 (1-N de forma predeterminada)
-   * **externalJoin** (opcional): fuerza la unión externa
-   * **revExternalJoin** (opcional): fuerza la unión externa en el vínculo inverso
+  * **revIntegrity** (opcional): integridad en el esquema de destino (opcional, &quot;normal&quot; de forma predeterminada)
+  * **revCardinality** (opcional): con el valor &quot;single&quot; rellena la cardinalidad con el tipo 1-1 (1-N de forma predeterminada)
+  * **externalJoin** (opcional): fuerza la unión externa
+  * **revExternalJoin** (opcional): fuerza la unión externa en el vínculo inverso
 
 * Un vínculo hace referencia a uno o varios campos de la tabla de origen a la tabla de destino. No es necesario rellenar los campos que componen la combinación (elemento `<join>`) porque se deducen automáticamente de forma predeterminada mediante la clave interna del esquema de destino.
 * Se agrega automáticamente un índice a la clave externa del vínculo en el esquema ampliado.

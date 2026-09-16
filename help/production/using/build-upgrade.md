@@ -3,7 +3,7 @@ product: campaign
 title: Introducción a las actualizaciones de versiones
 description: Conozca los pasos clave para actualizar a una nueva compilación
 feature: Monitoring, Upgrade
-badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
@@ -11,23 +11,29 @@ exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
 TQID: https://experienceleague.adobe.com/XC0Q-35cYPjVHM-h2GNE570DqM8vxjSicu4vxnqYuSo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 2379
-ht-degree: 6%
-
+source-wordcount: '2410'
+ht-degree: 5%
 ---
-
 # Realización de una actualización de versión{#performing-a-build-upgrade}
 
 
@@ -78,14 +84,14 @@ El proceso de actualización de la compilación requiere la participación de la
 * Arquitecto de Adobe: para arquitecturas alojadas o híbridas, el arquitecto debe coordinarse con el servicio de atención al cliente de Adobe Campaign.
 
 * Gestor de proyecto:
-   * para instalaciones locales: el jefe de proyecto interno del cliente dirige la actualización y gestiona las pruebas del ciclo vital.
+  * para instalaciones locales: el jefe de proyecto interno del cliente dirige la actualización y gestiona las pruebas del ciclo vital.
 
-   * para instalaciones alojadas: el equipo de alojamiento se asociará con el equipo de Atención al cliente de Adobe Campaign y el cliente para coordinar la cronología de actualización de todas las instancias.
+  * para instalaciones alojadas: el equipo de alojamiento se asociará con el equipo de Atención al cliente de Adobe Campaign y el cliente para coordinar la cronología de actualización de todas las instancias.
 
 * Administrador de Adobe Campaign:
-   * para instalaciones locales: el administrador realiza la actualización.
+  * para instalaciones locales: el administrador realiza la actualización.
 
-   * para instalaciones alojadas: el equipo de alojamiento realiza la actualización.
+  * para instalaciones alojadas: el equipo de alojamiento realiza la actualización.
 
 * Adobe Campaign operator\marketing user: el operador ejecuta pruebas en instancias de desarrollo, prueba y producción.
 

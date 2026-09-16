@@ -7,15 +7,14 @@ exl-id: d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
 TQID: https://experienceleague.adobe.com/VWv-F5lUufsXeurPt0GMUICNvrp7cKi-AJWxFzA6wRE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '341'
 ht-degree: 1%
-
 ---
-
 # elemento dbindex {#dbindex--element}
 
 
@@ -59,11 +58,11 @@ El nombre del índice en la base de datos se calcula concatenando el nombre de l
 
   Los valores accesibles son:
 
-   * &quot;ninguno&quot;: reconciliación sola. Esto significa que Adobe Campaign recuperará el elemento sin actualizarlo ni generar un error si no existe.
-   * &quot;insertOrUpdate&quot;: actualizar con inserción. Esto significa que Adobe Campaign actualizará el elemento o lo creará si no existe.
-   * &quot;insert&quot;: inserción. Esto significa que Adobe Campaign insertará el elemento sin comprobar si existe.
-   * &quot;update&quot;: update. Esto significa que Adobe Campaign actualizará el elemento o generará un error si no existe.
-   * &quot;eliminar&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará elementos.
+  * &quot;ninguno&quot;: reconciliación sola. Esto significa que Adobe Campaign recuperará el elemento sin actualizarlo ni generar un error si no existe.
+  * &quot;insertOrUpdate&quot;: actualizar con inserción. Esto significa que Adobe Campaign actualizará el elemento o lo creará si no existe.
+  * &quot;insert&quot;: inserción. Esto significa que Adobe Campaign insertará el elemento sin comprobar si existe.
+  * &quot;update&quot;: update. Esto significa que Adobe Campaign actualizará el elemento o generará un error si no existe.
+  * &quot;eliminar&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará elementos.
 
 * **applyIf (string)**: condición para tener en cuenta el índice: recibe una expresión XTK.
 * **etiqueta (cadena)**: etiqueta de índice.

@@ -3,7 +3,7 @@ product: campaign
 title: Configuración del acceso a Assets
 description: Configuración del acceso a Assets
 feature: Asset Sharing
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: asset-sharing
@@ -11,20 +11,24 @@ exl-id: f3897a40-b080-47e5-9e31-4d861c1bacd5
 TQID: https://experienceleague.adobe.com/JU5h5wyP-DrlIlFFNClNinQYIcqvg13Z93bF4ykliB4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 522
+workflow-type: tm+mt
+source-wordcount: '513'
 ht-degree: 100%
-
 ---
-
 # Configuración del acceso a Assets {#configuring-access-to-assets}
 
 En esta sección se detallan los pasos de configuración necesarios en Adobe Campaign para utilizar las funcionalidades de integración con la biblioteca de Assets o Adobe Experience Manager (AEM Assets).
@@ -61,7 +65,7 @@ Para habilitar la conexión entre Adobe Campaign y Adobe Experience Cloud, confi
 
 >[!CAUTION]
 >
->Esta funcionalidad se ha eliminado a partir de Adobe Experience Manager 6.4.[Más información](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=es#removed-features)
+>Esta funcionalidad se ha eliminado a partir de Adobe Experience Manager 6.4. [Más información](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html?lang=es#removed-features)
 
 Para integrar AEM Assets con Adobe Campaign, primero se debe configurar la integración entre Adobe Experience Manager y Adobe Campaign. Esta configuración requiere principalmente:
 

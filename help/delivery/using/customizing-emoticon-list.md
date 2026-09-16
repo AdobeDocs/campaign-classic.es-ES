@@ -2,7 +2,7 @@
 product: campaign
 title: Personalización de la lista de emoticonos
 description: Obtenga información sobre cómo personalizar la lista de emoticonos al utilizar Adobe Campaign
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email, Push
 role: User, Developer
 hide: true
@@ -10,30 +10,38 @@ exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
 TQID: https://experienceleague.adobe.com/QtOpkl4Sa6PJe5IGz4ffvpQdl2QfKA5J47WBKtIg2j8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 450
+workflow-type: tm+mt
+source-wordcount: '498'
 ht-degree: 100%
-
 ---
-
 # Personalización de la lista de emoticonos {#customize-emoticons}
 
-La lista de emoticonos que se muestra en el elemento emergente se rige por una enumeración que permite mostrar valores en una lista para restringir las opciones que el usuario tiene para un campo determinado.
-El orden de la lista de emoticonos se puede personalizar, también puede añadir otros emoticonos a dicha lista.
+La lista de emoticonos que se muestra en la ventana emergente se rige por una enumeración que permite mostrar valores en una lista para restringir las opciones que el usuario tiene para un campo determinado.
+El orden de lista de emoticonos se puede personalizar y también se pueden añadir otros emoticonos a la lista.
 
 Tenga en cuenta que los emoticonos solo están disponibles para correo electrónico y notificaciones push. Para obtener más información al respecto, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=es#inserting-emoticons){target="_blank"}.
 
@@ -58,15 +66,15 @@ Tenga en cuenta que los emoticonos solo están disponibles para correo electrón
 
 1. Rellene los campos:
 
-   * **[!UICONTROL U+]**: código de su nuevo emoticono. Encontrará la lista de códigos de emoticonos en esta [página](https://unicode.org/emoji/charts/full-emoji-list.html).
-Para evitar problemas de compatibilidad, le recomendamos que elija emoticonos que sean compatibles con los exploradores y con todos los sistemas operativos.
+   * **[!UICONTROL U+]**: Código del nuevo emoticono. Puede encontrar la lista de los códigos de emoticonos en esta [página](https://unicode.org/emoji/charts/full-emoji-list.html).
+     Para evitar problemas de compatibilidad, le recomendamos que elija emoticonos compatibles con los navegadores y con todos los sistemas operativos.
 
    * **[!UICONTROL Label]**: Etiqueta del nuevo emoticono.
 
    ![](assets/emoticon_5.png)
 
 1. Haga clic en **[!UICONTROL Ok]** y luego en **[!UICONTROL Save]** cuando finalice la configuración.
-Su nuevo emoticono se guardará automáticamente en la tienda. 
+El nuevo emoticono se coloca automáticamente en la tienda.
 
 1. Para mostrarlo en la ventana **[!UICONTROL Insert emoticon]** de los envíos, seleccione el emoticono recién creado haciendo doble clic en él.
 

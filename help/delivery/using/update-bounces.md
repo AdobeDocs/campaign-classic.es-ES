@@ -2,28 +2,33 @@
 product: campaign
 title: Actualización de la calificación de devoluciones después de una interrupción del ISP
 description: Obtenga información sobre cómo actualizar la calificación de devoluciones después de una interrupción del ISP
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 hide: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
 TQID: https://experienceleague.adobe.com/91YUAuxL17kfBm6-hryEpf-A8SPJzA-z-ss9f2maszY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 501
+workflow-type: tm+mt
+source-wordcount: '492'
 ht-degree: 100%
-
 ---
-
 # Actualización de estado de devoluciones graves incorrectas después de una interrupción ISP {#update-bounces}
 
 
@@ -63,19 +68,19 @@ En función del periodo de tiempo del problema y la ISP, se indican a continuaci
 
 * Para entornos de Campaign con información de regla de correo electrónico entrante en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
-   * **El texto del error (texto de cuarentena)** contiene “Momen_Code10_InvalidRecipient”
-   * **Dominio de correo electrónico (@domain)** igual a domain1.com O **Dominio de correo electrónico (@domain)** igual a domain2.com O **Dominio de correo electrónico (@domain)** igual a domain3.com
-   * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS AM` o después
-   * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS PM` o antes
+  * **El texto del error (texto de cuarentena)** contiene “Momen_Code10_InvalidRecipient”
+  * **Dominio de correo electrónico (@domain)** igual a domain1.com O **Dominio de correo electrónico (@domain)** igual a domain2.com O **Dominio de correo electrónico (@domain)** igual a domain3.com
+  * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS AM` o después
+  * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS PM` o antes
 
 * Para entornos de Campaign con información de respuesta de rechazo SMTP en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
-   * **El texto del error (texto de cuarentena)** contiene “550-5.1.1” Y **El texto del error (texto de cuarentena)** contiene “support.ISP.com”
+  * **El texto del error (texto de cuarentena)** contiene “550-5.1.1” Y **El texto del error (texto de cuarentena)** contiene “support.ISP.com”
 
-     donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
+    donde “support.ISP.com” puede ser: “support.apple.com” o “support.google.com”, por ejemplo
 
-   * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS AM` o después
-   * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS PM` o antes
+  * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS AM` o después
+  * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS PM` o antes
 
 
 Una vez que tenga la lista de destinatarios afectados, puede aplicarles un estado **[!UICONTROL Valid]** para que el flujo de trabajo **[!UICONTROL Database cleanup]** los elimine de la lista de cuarentena, o simplemente elimínelos de la tabla.

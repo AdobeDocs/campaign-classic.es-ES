@@ -10,22 +10,27 @@ exl-id: 01adb584-5308-4d41-a6f1-223a97efa10f
 TQID: https://experienceleague.adobe.com/OU8fQxcH3HXoSJbG-N-9DplMjkDVAT6tLXY-FWzPuwE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2:
   - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
+    internal-label: Schema extension
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 711
+workflow-type: tm+mt
+source-wordcount: '711'
 ht-degree: 100%
-
 ---
-
 # Datos adicionales{#additional-data}
 
 

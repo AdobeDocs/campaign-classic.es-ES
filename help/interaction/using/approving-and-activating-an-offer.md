@@ -3,7 +3,7 @@ product: campaign
 title: Aprobación y activación de una oferta
 description: Aprobación y activación de una oferta
 feature: Interaction, Offers
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
@@ -11,16 +11,16 @@ exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 TQID: https://experienceleague.adobe.com/f0zYxpc5-71Ci-4Q485v4rRdD1xHs6tKLkl7vrITMP0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 633
+workflow-type: tm+mt
+source-wordcount: '624'
 ht-degree: 100%
-
 ---
-
 # Aprobación y activación de una oferta{#approving-and-activating-an-offer}
 
 

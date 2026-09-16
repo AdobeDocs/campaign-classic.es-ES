@@ -3,7 +3,7 @@ product: campaign
 title: Actualización a una nueva compilación
 description: Conozca los pasos técnicos para actualizar a una nueva compilación
 feature: Monitoring, Upgrade
-badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
@@ -11,20 +11,23 @@ exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 TQID: https://experienceleague.adobe.com/cbtrIjg91oCPHz9jgAT15IyFqk-DAsrdDR-0HvkbMPE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1281
-ht-degree: 7%
-
+source-wordcount: '1269'
+ht-degree: 6%
 ---
-
 # Actualización a una nueva compilación (On-Premise){#upgrading}
 
 Antes de iniciar el proceso de actualización, determine y confirme a qué versión de Adobe Campaign se va a actualizar y consulte las [Notas de la versión](../../rn/using/latest-release.md) .

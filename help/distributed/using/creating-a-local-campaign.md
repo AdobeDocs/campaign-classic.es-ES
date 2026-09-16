@@ -8,20 +8,23 @@ exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
 TQID: https://experienceleague.adobe.com/geEAQfCmSJvBXR-u74aiAd-Wb3XU-gj--3f-Sstn-90
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
+    internal-label: Distributed Marketing
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1566
+workflow-type: tm+mt
+source-wordcount: '1566'
 ht-degree: 100%
-
 ---
-
 # Creación de una campaña local{#creating-a-local-campaign}
 
 

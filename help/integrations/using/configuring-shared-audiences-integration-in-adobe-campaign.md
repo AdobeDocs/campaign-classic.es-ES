@@ -3,7 +3,7 @@ product: campaign
 title: Configuración de la integración de públicos compartidos en Adobe Campaign
 description: Obtenga información sobre cómo configurar la integración de públicos compartidos
 feature: Audiences
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 topic-tags: audience-sharing
@@ -11,25 +11,33 @@ exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 TQID: https://experienceleague.adobe.com/e9fIzwdGvuV9a-LRdXFLcghMGf79KQcoMT37K37ZOOE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 617
+workflow-type: tm+mt
+source-wordcount: '608'
 ht-degree: 100%
-
 ---
-
 # Configuración de la integración de públicos compartidos en Adobe Campaign{#configuring-shared-audiences-integration-in-adobe-campaign}
 
 
@@ -67,7 +75,7 @@ En primer lugar, se deben configurar o verificar las cuentas externas en Adobe C
 1. Proporcione los siguientes detalles:
 
    * **[!UICONTROL AWS S3 Account Server]**
-La URL del servidor debe completarse de la siguiente manera:
+     La URL del servidor debe completarse de la siguiente manera:
 
      ```
      <S3bucket name>.s3.amazonaws.com/<s3object path>
@@ -76,10 +84,10 @@ La URL del servidor debe completarse de la siguiente manera:
    * **[!UICONTROL AWS access key ID]** Para saber dónde encontrar el ID de clave de acceso de AWS, consulte [esta página](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
 
    * **[!UICONTROL Secret access key to AWS]**
-Para saber dónde encontrar la clave de acceso secreta a AWS, consulte [esta página](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+     Para saber dónde encontrar la clave de acceso secreta a AWS, consulte [esta página](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
    * **[!UICONTROL AWS Region]**
-Para obtener más información sobre la región AWS, consulte esta [página](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
+     Para obtener más información sobre la región AWS, consulte esta [página](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
 
    ![](assets/aam_config_2.png)
 

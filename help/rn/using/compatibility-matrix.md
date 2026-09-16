@@ -9,24 +9,29 @@ exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 TQID: https://experienceleague.adobe.com/-ce7KIsnadlLZHVYtwAJs0X7rZqNBbXLJUdt6powbIw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 912
+workflow-type: tm+mt
+source-wordcount: '912'
 ht-degree: 100%
-
 ---
-
 # Matriz de compatibilidad {#compatibility-matrix}
 
 En su [última versión](../../rn/using/latest-release.md), Adobe Campaign Classic versión 7 es compatible con todos los sistemas y herramientas enumerados en esta página. Cuando las versiones específicas de estos sistemas y herramientas de terceros lleguen al final de su vida útil (EOL) con sus respectivos creadores, Adobe Campaign ya no será compatible con ellos y se eliminarán de nuestra matriz de compatibilidad en la versión posterior del producto. Para evitar problemas, compruebe que utiliza una versión compatible de cualquier sistema enumerado en esta matriz de compatibilidad. Para obtener más información sobre los elementos obsoletos, visite [esta página](../../rn/using/deprecated-features.md).
@@ -460,7 +465,7 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 
 La última versión en tiempo de ejecución de Microsoft Edge WebView2 es obligatoria en la consola del cliente de Campaign.
 
-Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es).
+Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download).
 
 
 ## SDK móvil {#MobileSDK}

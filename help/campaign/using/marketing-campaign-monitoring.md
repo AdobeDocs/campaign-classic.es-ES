@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Seguimiento de campañas de marketing
-description: Seguimiento de campañas de marketing
+title: Monitorización de campañas de marketing
+description: Monitorización de campañas de marketing
 role: User
 feature: Campaigns, Monitoring
 hide: true
@@ -9,20 +9,23 @@ exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 TQID: https://experienceleague.adobe.com/pWtvLbBTzAs8yhya3hnXaW8o-bpMebF24L5tRL4iMD0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 subfeature_v2:
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+    internal-label: Subscription services
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 249
+workflow-type: tm+mt
+source-wordcount: '249'
 ht-degree: 100%
-
 ---
-
 # Monitorización de campañas de marketing {#monitoring-marketing-campaigns}
 
 ## Seguimiento de una campaña {#tracking-a-campaign}

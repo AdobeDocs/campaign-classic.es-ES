@@ -11,26 +11,35 @@ exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
 TQID: https://experienceleague.adobe.com/hqQ4rSZpOoCMn9sA0yu2VsHFxTGEnwGwOMi6cu6e-1Q
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 870
+workflow-type: tm+mt
+source-wordcount: '870'
 ht-degree: 100%
-
 ---
-
 # Solución de problemas del conector ACS{#troubleshooting-the-acs-connector}
 
 
@@ -84,9 +93,9 @@ Según su implementación, puede enfrentarse a varios problemas comunes.
 
   Este caso puede ocurrir por diferentes motivos:
 
-   * Los destinatarios se crearon o se actualizaron en Campaign v7. La sincronización se activa cada 15 minutos. Esto significa que los destinatarios actualizados o recién creados se pueden ver en Campaign Standard después de la próxima sincronización.
-   * La implementación se puede haber configurado para sincronizar únicamente los destinatarios de carpetas específicas. Los destinatarios de otras carpetas no están sincronizados.
-   * El destinatario puede sincronizarse, pero no es visible en Campaign Standard. Compruebe la asignación de derechos de carpeta.
+  * Los destinatarios se crearon o se actualizaron en Campaign v7. La sincronización se activa cada 15 minutos. Esto significa que los destinatarios actualizados o recién creados se pueden ver en Campaign Standard después de la próxima sincronización.
+  * La implementación se puede haber configurado para sincronizar únicamente los destinatarios de carpetas específicas. Los destinatarios de otras carpetas no están sincronizados.
+  * El destinatario puede sincronizarse, pero no es visible en Campaign Standard. Compruebe la asignación de derechos de carpeta.
 
 * **No encuentro los campos de perfil que necesito para basar mi consulta en Campaign Standard.**
 
@@ -120,8 +129,8 @@ Según su implementación, puede enfrentarse a varios problemas comunes.
 
   Compruebe la configuración de la cuenta externa en Campaign Standard y Campaign v7 probando la conexión:
 
-   * **[!UICONTROL acsDefaultRelayAccount]** en Campaign Standard.
-   * **[!UICONTROL acsDefaultAccount]** en Campaign v7.
+  * **[!UICONTROL acsDefaultRelayAccount]** en Campaign Standard.
+  * **[!UICONTROL acsDefaultAccount]** en Campaign v7.
 
 * **No hay ningún grupo de seguridad disponible al asignar carpetas entre Campaign v7 y Campaign Standard.**
 

@@ -3,7 +3,7 @@ product: campaign
 title: Disponibilidad de la consola de cliente para Windows
 description: Disponibilidad de la consola de cliente para Windows
 feature: Installation, Upgrade
-badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
@@ -11,15 +11,14 @@ exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
 TQID: https://experienceleague.adobe.com/9FqLCew1PO-oxl2hBlK1-4L3SG7tVp28x8GUAPkK6gI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 359
-ht-degree: 12%
-
+source-wordcount: '347'
+ht-degree: 9%
 ---
-
 # Disponibilidad de la consola de cliente para Windows{#client-console-availability-for-windows}
 
 

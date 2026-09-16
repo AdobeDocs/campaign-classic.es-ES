@@ -2,25 +2,28 @@
 product: campaign
 title: Respuestas de formularios web
 description: Respuestas de formularios web
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
 TQID: https://experienceleague.adobe.com/WPVKOgF2ilspLhbrTd-s6x8MEX254boeoSzJsgZVaTE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 875
+workflow-type: tm+mt
+source-wordcount: '866'
 ht-degree: 100%
-
 ---
-
 # Respuestas de formularios web{#web-forms-answers}
 
 
@@ -48,7 +51,7 @@ Para guardar la información en un campo existente de la base de datos, haga cli
 
 >[!NOTE]
 >
->El documento de referencia predeterminado es el esquema **nms:recipient**.Para verla o elegir una nuevo, seleccione el formulario en la lista y haga clic en el botón **[!UICONTROL Properties]**.
+>El documento de referencia predeterminado es el esquema **nms:recipient**. Para verla o elegir una nuevo, seleccione el formulario en la lista y haga clic en el botón **[!UICONTROL Properties]**.
 
 ### Almacenamiento de datos en una variable local {#storing-data-in-a-local-variable}
 

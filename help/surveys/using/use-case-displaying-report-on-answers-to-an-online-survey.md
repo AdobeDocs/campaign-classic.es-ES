@@ -2,28 +2,33 @@
 product: campaign
 title: 'Ejemplo de uso: Visualización del informe de las respuestas a una encuesta online'
 description: 'Ejemplo de uso: Visualización del informe de las respuestas a una encuesta online'
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 TQID: https://experienceleague.adobe.com/8JCloZIvg2WQsoFoEq6zYnDcrUOSBXCXlrkF2hY0xhc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: '480'
 ht-degree: 100%
-
 ---
-
 # Caso de uso: visualización del informe con las respuestas a una encuesta en línea{#use-case-displaying-report-on-answers-to-an-online-survey}
 
 

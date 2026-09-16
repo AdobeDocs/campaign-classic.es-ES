@@ -10,15 +10,14 @@ exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
 TQID: https://experienceleague.adobe.com/AgGQgham1xWf9U5mAAc-Eul-izsp-tW6aNNPMobLvT4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1094
+source-wordcount: '1095'
 ht-degree: 5%
-
 ---
-
 # Implementación independiente{#standalone-deployment}
 
 
@@ -73,8 +72,8 @@ A medida que el volumen crece, una variante de esta arquitectura mueve el servid
 * Buzón de rechazos accesible a través de POP3,
 * Creación de dos alias DNS:
 
-   * el primero expuesto al público para rastrear y apuntar al ordenador en su IP pública;
-   * el segundo alias expuesto a los usuarios internos para el acceso a la consola y que señala al mismo equipo.
+  * el primero expuesto al público para rastrear y apuntar al ordenador en su IP pública;
+  * el segundo alias expuesto a los usuarios internos para el acceso a la consola y que señala al mismo equipo.
 
 * Firewall configurado para abrir SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 para Oracle, 5432 para PostgreSQL, etc.) puertos. Para obtener más información, consulte [Configuración de red](../../installation/using/network-configuration.md).
 

@@ -3,7 +3,7 @@ product: campaign
 title: Plantillas de hipótesis
 description: Aprenda a crear hipótesis en el Gestor de respuestas de Campaign
 feature: Campaigns, Templates
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
@@ -11,20 +11,23 @@ exl-id: 428c7677-454b-4618-bae7-0be7df6dfcaa
 TQID: https://experienceleague.adobe.com/FKf9pDlOZI1NEhwmdSpcpvEbNsT28wEvgy81TBEQQgo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
 subfeature_v2:
   - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
+    internal-label: Response Management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1410
+workflow-type: tm+mt
+source-wordcount: '1401'
 ht-degree: 100%
-
 ---
-
 # Plantillas de hipótesis{#hypothesis-templates}
 
 
@@ -102,17 +105,17 @@ La pestaña **[!UICONTROL General]** de la plantilla también permite especifica
 
   Para especificar una programación, aplique el siguiente proceso:
 
-   1. Haga clic en el vínculo **[!UICONTROL Frequency of execution...]** y luego en el botón **[!UICONTROL Change...]**.
+  1. Haga clic en el vínculo **[!UICONTROL Frequency of execution...]** y luego en el botón **[!UICONTROL Change...]**.
 
-      ![](assets/response_frequency_execution_001.png)
+     ![](assets/response_frequency_execution_001.png)
 
-   1. Configure la frecuencia, los eventos relacionados y el periodo de validez.
+  1. Configure la frecuencia, los eventos relacionados y el periodo de validez.
 
-      ![](assets/response_frequency_execution_002.png)
+     ![](assets/response_frequency_execution_002.png)
 
-   1. Haga clic en **[!UICONTROL Finish]** para guardar la programación.
+  1. Haga clic en **[!UICONTROL Finish]** para guardar la programación.
 
-      ![](assets/response_frequency_execution_003.png)
+     ![](assets/response_frequency_execution_003.png)
 
 * **[!UICONTROL Log SQL queries in journal]**: esta función está reservada para usuarios expertos. Le permite añadir una pestaña a la auditoría de hipótesis de medición para mostrar consultas SQL. Esto permite detectar posibles errores que se pueden dar en una simulación.
 * **[!UICONTROL Keep execution workflow]**: permite mantener el flujo de trabajo generado automáticamente al principio del cálculo de hipótesis. En las hipótesis creadas a partir de una plantilla que tiene esta opción activada, el flujo de trabajo generado permite hacer un seguimiento del proceso.
@@ -157,31 +160,31 @@ Una vez que haya definido la tabla de transacciones y los campos a los que se re
 
 * **Filtrar transacciones**: en la pestaña **[!UICONTROL Scope]**, puede configurar un filtro en la hipótesis. Para ello:
 
-   1. Haga clic en el vínculo **[!UICONTROL Edit query]**.
+  1. Haga clic en el vínculo **[!UICONTROL Edit query]**.
 
-      ![](assets/response_scope_filtering_001.png)
+     ![](assets/response_scope_filtering_001.png)
 
-   1. Especifique las condiciones del filtro.
+  1. Especifique las condiciones del filtro.
 
-      ![](assets/response_scope_filtering_002.png)
+     ![](assets/response_scope_filtering_002.png)
 
-   1. Seleccione la transacción a la que quiere vincular la hipótesis.
+  1. Seleccione la transacción a la que quiere vincular la hipótesis.
 
-      ![](assets/response_scope_filtering_003.png)
+     ![](assets/response_scope_filtering_003.png)
 
 * **Filter on recipients**: en la pestaña **[!UICONTROL Scope]**, puede limitar la hipótesis a cualquier información vinculada a un mensaje (entrega, destinatario, dirección de correo electrónico, servicio, etc.):
 
-   1. Haga clic en el vínculo **[!UICONTROL Add a filter]** luego en **[!UICONTROL Edit query]**.
+  1. Haga clic en el vínculo **[!UICONTROL Add a filter]** luego en **[!UICONTROL Edit query]**.
 
-      ![](assets/response_scope_filtering_004.png)
+     ![](assets/response_scope_filtering_004.png)
 
-   1. Especifique las condiciones del filtro.
+  1. Especifique las condiciones del filtro.
 
-      ![](assets/response_scope_filtering_005.png)
+     ![](assets/response_scope_filtering_005.png)
 
-   1. Haga clic en **[!UICONTROL Finish]** para guardar la consulta.
+  1. Haga clic en **[!UICONTROL Finish]** para guardar la consulta.
 
-      ![](assets/response_scope_filtering_006.png)
+     ![](assets/response_scope_filtering_006.png)
 
 * **Script**: puede utilizar una secuencia de comandos de JavaScript para sobrecargar dinámicamente la configuración de hipótesis durante su ejecución.
 

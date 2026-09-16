@@ -3,7 +3,7 @@ product: campaign
 title: Configuración del servidor de Campaign
 description: Configuración del servidor de Campaign
 feature: Installation, Instance Settings
-badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,22 +11,27 @@ exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 TQID: https://experienceleague.adobe.com/ghNvBVEL47nQobSHUsjVXr7XDpbRd8GBFSUy-E7bkvI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 1630
+source-wordcount: '1618'
 ht-degree: 5%
-
 ---
-
 # Introducción a la configuración del servidor de Campaign{#gs-campaign-server-config}
 
 
@@ -67,9 +72,9 @@ Configure o adapte el servidor de Campaign según sus necesidades y configuraci�
 * Configurar [seguimiento redundante](#redundant-tracking)
 * Administrar [afinidades de flujo de trabajo y alta disponibilidad](#high-availability-workflows-and-affinities)
 * Configurar la administración de archivos: [Más información](file-res-management.md)
-   * Limitar formato de archivos de carga
-   * Habilitar el acceso a los recursos públicos
-   * Configurar conexión proxy
+  * Limitar formato de archivos de carga
+  * Habilitar el acceso a los recursos públicos
+  * Configurar conexión proxy
 * [Reinicio automático del proceso](#automatic-process-restart)
 
 

@@ -10,15 +10,14 @@ exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
 TQID: https://experienceleague.adobe.com/keWzvD8mrha5wEUomR9FdRVTi-ryy2EVkRSAws-YKnI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 603
+source-wordcount: '604'
 ht-degree: 10%
-
 ---
-
 # Creación de una instancia e inicio de sesión{#creating-an-instance-and-logging-on}
 
 

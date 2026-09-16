@@ -8,28 +8,38 @@ exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 TQID: https://experienceleague.adobe.com/IRAgAQvquHFcfGDRU9Sof8NpSn3khyRRPOdpIRKUOzg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 885
+workflow-type: tm+mt
+source-wordcount: '948'
 ht-degree: 100%
-
 ---
-
 # Introducción a la monitorización de entregas {#about-delivery-monitoring}
 
 >[!IMPORTANT]
@@ -46,17 +56,17 @@ ht-degree: 100%
 
 ¿Qué sucede si no se entregan los envíos y su estado sigue siendo **Pendiente**?
 
-* El proceso de ejecución está esperando a que algunos recursos estén disponibles. Es posible que el MTA no se haya iniciado.
-Compruebe que los módulos mta@instancia se inicien en los servidores MTA y, si es necesario, inicie el módulo de MTA.[Obtenga más información](../../production/using/administration.md).
+* El proceso de ejecución está esperando a que estén disponibles algunos recursos. Es posible que el MTA no se haya iniciado.
+Compruebe que los módulos mta@instance se inicien en los servidores MTA y, si es necesario, inicie el módulo MTA. [Más información](../../production/using/administration.md).
 
-* El envío puede estar utilizando una afinidad que no se ha configurado en la instancia de envío.
-Sugerencia: Compruebe la configuración de la administración del tráfico (afinidad de IP). Para obtener más información, consulte Control del tráfico SMTP saliente.
+* El envío puede estar utilizando una afinidad que no se ha configurado en la instancia remitente.
+Sugerencia: Compruebe la configuración de la administración del tráfico (afinidad IP). Para obtener más información sobre esto, consulte Control del tráfico SMTP saliente.
 
 >[!NOTE]
 >
 >Estos pasos solo los puede realizar un usuario experto en instalaciones locales.
 
-### Seguimiento de la capacidad de entrega {#deliverability-monitoring}
+### Monitorización de la capacidad de entrega {#deliverability-monitoring}
 
 #### Instalación del paquete de entregabilidad {#deliverability-package}
 
@@ -81,8 +91,8 @@ En Adobe Campaign Classic, la **supervisión de la entrega** se administra media
 
 * El informe **[!UICONTROL Delivery throughput]** proporciona una visión general del rendimiento de toda la plataforma durante un período determinado. Para obtener más información, consulte [esta sección](../../reporting/using/global-reports.md#delivery-throughput).
 * Cada envío genera un informe de estadísticas de difusión para los diferentes proveedores de servicio de Internet (ISP). Muestra algunas métricas de calidad de datos y reputación que pueden afectar la capacidad de envío, incluidas las siguientes cifras:
-   * **[!UICONTROL Hard bounces]** indican la calidad de los datos. Este valor debe ser inferior al 2 %.
-   * **[!UICONTROL Soft bounces]** indican reputación. Este valor no debe ser superior al 10 % para un ISP determinado.
+  * **[!UICONTROL Hard bounces]** indican la calidad de los datos. Este valor debe ser inferior al 2 %.
+  * **[!UICONTROL Soft bounces]** indican reputación. Este valor no debe ser superior al 10 % para un ISP determinado.
 
   Para obtener más información, consulte la sección [Estadísticas de envío](../../reporting/using/global-reports.md#delivery-statistics).
 

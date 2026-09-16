@@ -2,28 +2,33 @@
 product: campaign
 title: Publicación de un formulario web
 description: Publicación de un formulario web
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 TQID: https://experienceleague.adobe.com/2lsNN7oxSizIC1wsv5S5fwkgCcKd3so5qeq-pHr8odY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1289
+workflow-type: tm+mt
+source-wordcount: '1280'
 ht-degree: 100%
-
 ---
-
 # Publicación de un formulario web{#publishing-a-web-form}
 
 
@@ -166,7 +171,7 @@ En este caso, es necesario marcar la opción **[!UICONTROL Update the preloaded 
 
 ### Respuestas al registro {#log-responses}
 
-El seguimiento de respuestas puede activarse en una pestaña específica para controlar el impacto del formulario web. Para ello, haga clic en el vínculo **[!UICONTROL Advanced parameters...]** en la ventana de propiedades del formulario y seleccione la opción **[!UICONTROL Log responses]**.
+El seguimiento de respuestas puede activarse en una pestaña específica para monitorizar el impacto del formulario web. Para ello, haga clic en el vínculo **[!UICONTROL Advanced parameters...]** en la ventana de propiedades del formulario y seleccione la opción **[!UICONTROL Log responses]**.
 
 ![](assets/s_ncs_admin_survey_trace.png)
 
@@ -192,17 +197,17 @@ Obtenga más información sobre los distintos estados de un formulario web en [e
 
 * Si el estado del formulario web era **[!UICONTROL Pending publication]** o **[!UICONTROL Online]** cuando se exportó desde la primera instancia:
 
-   * El formulario web obtiene el estado **[!UICONTROL Pending publication]** cuando se importa en la nueva instancia.
+  * El formulario web obtiene el estado **[!UICONTROL Pending publication]** cuando se importa en la nueva instancia.
 
-   * Si el formulario web ya existe en la nueva instancia, se reemplaza por la nueva versión del formulario y toma el estado **[!UICONTROL Pending publication]**, incluso si la versión antigua del formulario era **[!UICONTROL Online]**.
+  * Si el formulario web ya existe en la nueva instancia, se reemplaza por la nueva versión del formulario y toma el estado **[!UICONTROL Pending publication]**, incluso si la versión antigua del formulario era **[!UICONTROL Online]**.
 
-   * Si el formulario existía o no, el formulario debe [publicarse](#publishing-a-form) para convertirse en **[!UICONTROL Online]** en la nueva instancia y ser accesible a través de la URL del formulario web en un explorador.
+  * Si el formulario existía o no, el formulario debe [publicarse](#publishing-a-form) para convertirse en **[!UICONTROL Online]** en la nueva instancia y ser accesible a través de la URL del formulario web en un explorador.
 
 * Si el estado del formulario web era **[!UICONTROL Being edited]** al exportarse:
 
-   * Si el formulario web es nuevo en la instancia en la que se importa el paquete, el formulario web obtiene el estado **[!UICONTROL Being edited]**.
+  * Si el formulario web es nuevo en la instancia en la que se importa el paquete, el formulario web obtiene el estado **[!UICONTROL Being edited]**.
 
-   * Si el formulario web ya existe en la nueva instancia, se trata de una modificación de un formulario existente. Si la versión antigua del formulario era **[!UICONTROL Online]**, la versión antigua permanece en línea hasta que se [publica](#publishing-a-form) de nuevo en la nueva instancia.
+  * Si el formulario web ya existe en la nueva instancia, se trata de una modificación de un formulario existente. Si la versión antigua del formulario era **[!UICONTROL Online]**, la versión antigua permanece en línea hasta que se [publica](#publishing-a-form) de nuevo en la nueva instancia.
 
   >[!NOTE]
   >

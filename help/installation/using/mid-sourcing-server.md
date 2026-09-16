@@ -3,7 +3,7 @@ product: campaign
 title: Instalación de un servidor intermediario en Campaign
 description: Esta sección detalla la instalación y configuración de un servidor intermediario en Campaign
 feature: Installation, Instance Settings
-badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -12,11 +12,9 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1084
-ht-degree: 5%
-
+source-wordcount: '1072'
+ht-degree: 4%
 ---
-
 # Mid-sourcing server{#mid-sourcing-server}
 
 
@@ -29,7 +27,7 @@ La instalación de un servidor intermediario sigue el mismo proceso que la insta
 
 >[!CAUTION]
 >
->Una vez que se haya configurado el servidor intermediario y se hayan ejecutado [flujos de trabajo de sincronización](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=es){target="_blank"} por primera vez, asegúrese de no actualizar el nombre interno de las cuentas externas intermediarias.
+>Una vez que se haya configurado el servidor intermediario y se hayan ejecutado [flujos de trabajo de sincronización](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"} por primera vez, asegúrese de no actualizar el nombre interno de las cuentas externas intermediarias.
 
 ## Pasos para instalar y configurar una instancia {#steps-for-installing-and-configuring-an-instance}
 
@@ -127,7 +125,7 @@ Es posible que varias instancias de envío compartan una instancia de intermedia
 
    ![](assets/mid_recette_user_restrictions.png)
 
-1. Reinicie el módulo web con el siguiente comando: **&#x200B; web**.
+1. Reinicie el módulo web con el siguiente comando: ** web**.
 
 Debe cambiar la configuración del servidor intermediario en el archivo serverConf.xml. La línea siguiente se debe agregar a la sección &quot;Management of affinities with IP addresses&quot;, en la línea existente:
 
@@ -141,9 +139,9 @@ El atributo &quot;@name&quot; debe respetar las siguientes reglas:
 
 &quot;marketing_account_operator_name&quot; hace referencia al nombre interno de la cuenta intermediaria declarada en la instancia intermediaria.
 
-&#39;affinity_name&#39; se relaciona con el nombre arbitrario dado a la afinidad. Este nombre debe ser único. Los caracteres autorizados son `[a-z]` `[A-Z]` `[0-9]`. El objetivo es declarar un grupo de direcciones IP públicas.
+&#39;affinity_name&#39; se relaciona con el nombre arbitrario dado a la afinidad. Este nombre debe ser único. Los caracteres autorizados son `[a-z]``[A-Z]``[0-9]`. El objetivo es declarar un grupo de direcciones IP públicas.
 
-&#39;affinity_group&#39; relaciona la subafinidad declarada en la asignación de destino utilizada en cada uno de los envíos. La última parte, incluido &quot;.&quot;, se omite si no hay subafinidad. Los caracteres autorizados son `[a-z]` `[A-Z]` `[0-9]`.
+&#39;affinity_group&#39; relaciona la subafinidad declarada en la asignación de destino utilizada en cada uno de los envíos. La última parte, incluido &quot;.&quot;, se omite si no hay subafinidad. Los caracteres autorizados son `[a-z]``[A-Z]``[0-9]`.
 
 Debe detener y reiniciar el servidor para que se tenga en cuenta la modificación.
 

@@ -3,7 +3,7 @@ product: campaign
 title: Creación de hipótesis
 description: Aprenda a crear hipótesis en el Gestor de respuestas de Campaign
 feature: Campaigns
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
@@ -11,20 +11,23 @@ exl-id: e0b3bc9f-5e81-463f-a59e-cd972a47109b
 TQID: https://experienceleague.adobe.com/FggklU5pqlhjpHlUpd6C2G3Cb0A0dsooRZo9iEya858
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
+    internal-label: Response Management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1063
+workflow-type: tm+mt
+source-wordcount: '1054'
 ht-degree: 100%
-
 ---
-
 # Creación de hipótesis{#creating-hypotheses}
 
 

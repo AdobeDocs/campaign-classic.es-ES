@@ -10,21 +10,25 @@ exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
 TQID: https://experienceleague.adobe.com/J55-McblpyrkaTwKk7d09Yv6sXereUGgjep-k-wNdA4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 923
+source-wordcount: '923'
 ht-degree: 96%
-
 ---
-
 # Derechos de acceso a bases de datos remotas {#remote-database-access-rights}
 
 
@@ -54,7 +58,7 @@ En general, son necesarios los siguientes derechos:
 * **READ &#39;MetaData**: acceso a los catálogos de datos del servidor para obtener la estructura de la tabla,
 * **LOAD**: carga masiva en tablas de trabajo (requerido cuando se trabaja en colecciones y uniones),
 * **CREATE/DROP** para **TABLE/INDEX/PROCEDURE/FUNCTION** (solo para las tablas de trabajo generadas por Adobe Campaign),
-* **EXPLAIN** (recomendado): para controlar el rendimiento en caso de problemas,
+* **EXPLAIN** (recomendado): para monitorizar el rendimiento en caso de problemas,
 * **WRITE Data** (según el escenario de integración).
 
 El administrador de la base de datos debe hacer coincidir estos derechos con los derechos específicos de cada motor de base de datos. Para obtener más información, consulte la siguiente sección.

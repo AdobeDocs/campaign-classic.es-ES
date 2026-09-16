@@ -3,7 +3,7 @@ product: campaign
 title: Instalación de paquetes con Linux
 description: Instalación de paquetes con Linux
 feature: Installation, Application Settings
-badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
@@ -11,15 +11,14 @@ exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 TQID: https://experienceleague.adobe.com/mpN0TwuPILae7Y-jbkyvbBR1zdo4IvtnuzGQObLI0rc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: d711ea40185e9860ea20773ae1dfebfc7cc3e4d0
 workflow-type: tm+mt
-source-wordcount: 1152
-ht-degree: 4%
-
+source-wordcount: '1140'
+ht-degree: 3%
 ---
-
 # Instalación de paquetes con Linux {#installing-packages-with-linux}
 
 Adobe Campaign viene con el paquete **nlserver** que contiene los binarios y los archivos de configuración de una versión determinada.
@@ -164,23 +163,23 @@ Si es necesario, edite el archivo **customer.sh** con el comando **vi customer.s
 
   Para ejecutar Adobe Campaign en una versión existente de LibreOffice, se requieren configuraciones adicionales: debe especificar las rutas de acceso al directorio de instalación. Por ejemplo:
 
-   * Debian
+  * Debian
 
-     Se proporcionan los valores predeterminados para OOO_INSTALL_DIR y OOO_BASIS_INSTALL_DIR. Puede anularlos en **customer.sh** si el diseño de la instalación de LibreOffice es diferente:
+    Se proporcionan los valores predeterminados para OOO_INSTALL_DIR y OOO_BASIS_INSTALL_DIR. Puede anularlos en **customer.sh** si el diseño de la instalación de LibreOffice es diferente:
 
-     ```sql
-     export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
-     export OOO_INSTALL_DIR=/usr/lib/libreoffice/
-     ```
+    ```sql
+    export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
+    export OOO_INSTALL_DIR=/usr/lib/libreoffice/
+    ```
 
-   * CentOs
+  * CentOs
 
-     Utilice los siguientes valores predeterminados:
+    Utilice los siguientes valores predeterminados:
 
-     ```sql
-     export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
-     export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
-     ```
+    ```sql
+    export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
+    export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
+    ```
 
 * Para el kit de desarrollo de Java (JDK):
 

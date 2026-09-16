@@ -8,23 +8,29 @@ exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 TQID: https://experienceleague.adobe.com/HBJBBT-HPVgcMZnXAZ5ddn7m1ELtaV-obxy8lYo0ZLo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1024
+workflow-type: tm+mt
+source-wordcount: '1024'
 ht-degree: 100%
-
 ---
-
 # Lista de informes{#list-of-reports}
 
 
@@ -352,7 +358,7 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
 
 ## Otros informes de ootb {#other-ootb-reports}
 
-También se incluyen los siguientes informes integrados.Para obtener más información, consulte el documento sobre la funcionalidad a la que se refieren.
+También se incluyen los siguientes informes integrados. Para obtener más información, consulte el documento sobre la funcionalidad a la que se refieren.
 
 <table> 
  <tbody> 

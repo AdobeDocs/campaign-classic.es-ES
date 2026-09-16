@@ -9,20 +9,24 @@ exl-id: 8d1404c5-030b-47fe-a4c3-e72f15f09bbb
 TQID: https://experienceleague.adobe.com/K3aSUw9KkEbo4lUPYW4jxCmLul-ShLy-gwZ71VZBrcA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 536
+workflow-type: tm+mt
+source-wordcount: '536'
 ht-degree: 100%
-
 ---
-
 # Exportación de datos de Campaign a Adobe Experience Platform {#sources}
 
 
@@ -33,7 +37,7 @@ Una vez configurado el flujo de trabajo y enviado los datos a su ubicación de a
 
 >[!NOTE]
 >
->Tenga en cuenta que recomendamos exportar solo los datos generados por Campaign (por ejemplo, envíos, aperturas, clics, etc.)a Adobe Experience Platform. Los datos que se incorporan desde una fuente de terceros (como su CRM) deben importarse directamente en Adobe Experience Platform.
+>Tenga en cuenta que recomendamos exportar solo los datos generados por Campaign (por ejemplo, envíos, aperturas, clics, etc.) a Adobe Experience Platform. Los datos que se incorporan desde una fuente de terceros (como su CRM) deben importarse directamente en Adobe Experience Platform.
 
 ## Creación de un flujo de trabajo de exportación en Campaign Classic
 

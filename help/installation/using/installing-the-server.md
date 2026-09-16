@@ -3,7 +3,7 @@ product: campaign
 title: Instalación del servidor
 description: Instalación del servidor
 feature: Installation, Instance Settings
-badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
@@ -11,15 +11,14 @@ exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
 TQID: https://experienceleague.adobe.com/hs8ha4nJ0Mj33-Ae5sT29rM8rSZ-aJU3wWpSFwzYmWw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 405
-ht-degree: 8%
-
+source-wordcount: '393'
+ht-degree: 5%
 ---
-
 # Instalación del servidor{#installing-the-server}
 
 ## Ejecución del programa de instalación {#executing-the-installation-program}

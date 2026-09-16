@@ -8,18 +8,19 @@ exl-id: ecb5a258-a150-46a3-8b83-2b2c06d873ee
 TQID: https://experienceleague.adobe.com/JEGK7xRIWwipkqKnRGEByK7pCBCkgXzOrbMPHoXCDUU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '617'
 ht-degree: 10%
-
 ---
-
 # Cómo actualizar su entorno para conectarse a Adobe Campaign con IMS {#acc-ims-faq}
 
 
@@ -28,7 +29,7 @@ El 30 de junio de 2021 se realizaron cambios en las funcionalidades de inicio de
 
 ## ¿Qué ha cambiado?
 
-El servicio Adobe Identity Management (IMS) dejó de admitir versiones antiguas de Internet Explorer el **30 de junio de 2021**. [Más información](https://helpx.adobe.com/es/x-productkb/global/update-operating-system-and-browser.html).
+El servicio Adobe Identity Management (IMS) dejó de admitir versiones antiguas de Internet Explorer el **30 de junio de 2021**. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html).
 
 Adobe quiere conservar la funcionalidad de IMS para todos los clientes a partir del 30 de junio de 2021. IMS forma parte del marco de seguridad que permite a los usuarios iniciar sesión en la consola del cliente, por lo tanto en Adobe Campaign.
 
@@ -48,11 +49,11 @@ Si ya ha actualizado pero utiliza una versión antigua de Microsoft Internet Exp
 
   Es obligatorio actualizar a una de las nuevas versiones que se enumeran a continuación:
 
-   * Gold Standard 11. [Más información](../../rn/using/gold-standard.md)
-   * Versión 21.1.3 de Campaign. [Más información](../../rn/using/latest-release.md)
-   * Versión 20.2.5 de Campaign.
-   * Versión 20.1.4 de Campaign.
-   * Versión 19.2.4 de Campaign.
+  * Gold Standard 11. [Más información](../../rn/using/gold-standard.md)
+  * Versión 21.1.3 de Campaign. [Más información](../../rn/using/latest-release.md)
+  * Versión 20.2.5 de Campaign.
+  * Versión 20.1.4 de Campaign.
+  * Versión 19.2.4 de Campaign.
 
   Estas versiones incluyen un nuevo protocolo de conexión. La actualización es obligatoria tanto para el servidor de Campaign como para la consola del cliente: una vez actualizadas todas las instancias, la consola del cliente también debe actualizarse a esta versión para poder conectarse a Campaign después del **30 de junio de 2021**.
 
@@ -85,7 +86,7 @@ El siguiente mensaje de advertencia es visible para los usuarios si necesitan ac
 
 ![](../../integrations/using/assets/do-not-localize/errorMsg.png)
 
-Si aparece esta advertencia, asegúrese de instalar las actualizaciones más recientes del sistema operativo que está utilizando. [Más información](https://helpx.adobe.com/es/x-productkb/global/update-operating-system-and-browser.html)
+Si aparece esta advertencia, asegúrese de instalar las actualizaciones más recientes del sistema operativo que está utilizando. [Más información](https://helpx.adobe.com/x-productkb/global/update-operating-system-and-browser.html)
 
 Si no actualizó la versión de Internet Explorer, verá el siguiente mensaje y ya no podrá conectarse a Adobe Campaign:
 

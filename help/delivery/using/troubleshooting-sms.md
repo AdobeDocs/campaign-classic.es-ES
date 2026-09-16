@@ -8,26 +8,34 @@ exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
 TQID: https://experienceleague.adobe.com/h0vsbqdwW-21Ay-v8v8eUQzHyDkCVZoxXWHx5m1Qd7g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2904
+workflow-type: tm+mt
+source-wordcount: '3088'
 ht-degree: 100%
-
 ---
-
 # Solución de problemas de SMS {#troubleshooting-sms}
 
 ## Conflicto entre diferentes cuentas externas {#external-account-conflict}
@@ -54,14 +62,14 @@ Una vez que ha comprobado cada cuenta individualmente, existen dos escenarios po
 
   Tiene un conflicto entre cuentas. Como se mencionó anteriormente, Adobe Campaign trata las cuentas individualmente, pero el proveedor puede tratarlas como una sola cuenta.
 
-   * Está utilizando diferentes combinaciones de inicio de sesión/contraseña entre todas las cuentas.
-Deberá ponerse en contacto con el proveedor para diagnosticar conflictos potenciales de su parte.
+  * Utilice diferentes combinaciones de inicio de sesión y contraseña entre todas las cuentas.
+    Tendrá que ponerse en contacto con el proveedor para diagnosticar conflictos potenciales de su parte.
 
-   * Algunas de las cuentas externas comparten la misma combinación de inicio de sesión y contraseña.
-El proveedor no tiene forma de saber de qué cuenta externa proviene la `BIND PDU`, por lo que trata todas las conexiones de las diversas cuentas como una sola. Es posible que haya enrutado MO y SR de forma aleatoria a las dos cuentas, lo que causa problemas.
-Si el proveedor admite varios códigos cortos para la misma combinación de inicio de sesión y contraseña, deberá preguntarle dónde colocar ese código corto en la `BIND PDU`. Tenga en cuenta que este fragmento de información debe colocarse dentro de la `BIND PDU` y no en `SUBMIT_SM`, ya que la `BIND PDU` es el único lugar que permitirá enrutar los MO correctamente.
-Consulte la sección [Información en cada tipo de PDU](sms-protocol.md#information-pdu) anterior para saber qué campo está disponible en la `BIND PDU`, normalmente debe añadir el código corto en `address_range`, pero eso requiere asistencia especial del proveedor. Póngase en contacto con ellos para saber cómo esperan enrutar varios códigos cortos de forma independiente.
-Adobe Campaign permite gestionar varios códigos cortos en la misma cuenta externa.
+  * Algunas de las cuentas externas comparten la misma combinación de inicio de sesión y contraseña.
+    El proveedor no tiene forma de saber de qué cuenta externa proviene el `BIND PDU`, por lo que trata todas las conexiones de las cuentas múltiples como una sola. Es posible que hayan enrutado MO y SR de manera aleatoria a las dos cuentas, lo que causa problemas.
+    Si el proveedor admite varios códigos cortos para la misma combinación de inicio de sesión y contraseña, tendrá que preguntarle dónde colocar ese código corto en el `BIND PDU`. Tenga en cuenta que esta parte de información debe colocarse dentro de `BIND PDU` y no en `SUBMIT_SM`, ya que `BIND PDU` es el único lugar que permitirá enrutar los MO correctamente.
+    Consulte la sección [Información en cada tipo de PDU](sms-protocol.md#information-pdu) anterior para saber qué campo está disponible en `BIND PDU`, generalmente se añade el código corto en `address_range`, pero eso requiere asistencia especial del proveedor. Póngase en contacto con ellos para saber cómo esperan enrutar varios códigos cortos de forma independiente.
+    Adobe Campaign admite el manejo de varios códigos cortos en la misma cuenta externa.
 
 ## Problema con la cuenta externa en general {#external-account-issues}
 

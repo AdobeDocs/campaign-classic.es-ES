@@ -3,7 +3,7 @@ product: campaign
 title: Compresión o cifrado de un archivo
 description: Obtenga información sobre cómo comprimir o cifrar un archivo en Campaign antes de procesarlo
 feature: Data Management, Encryption
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -11,22 +11,27 @@ exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 TQID: https://experienceleague.adobe.com/mnkVYu3ibG6yFi1Zd5q1b1-CnzdheG8xvmM8q92-8vQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 617
+workflow-type: tm+mt
+source-wordcount: '608'
 ht-degree: 100%
-
 ---
-
 # Compresión o cifrado de un archivo {#zipping-or-encrypting-a-file}
 
 Adobe Campaign permite exportar archivos comprimidos o cifrados. Al definir una exportación a través de una actividad **[!UICONTROL Data extraction (file)]**, puede definir un posprocesamiento para comprimir o cifrar el archivo.
@@ -103,6 +108,6 @@ Los pasos para realizar este caso de uso son los siguientes:
 
 Este vídeo muestra cómo utilizar una clave GPG para cifrar datos y también está disponible en
 
->[!VIDEO](https://video.tv.adobe.com/v/41330?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

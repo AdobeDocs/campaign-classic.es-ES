@@ -9,30 +9,42 @@ exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 TQID: https://experienceleague.adobe.com/quIMssNONhvwEBVIEic9Dhe2x4-E0H5U8nIEruSUhtg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1699
+workflow-type: tm+mt
+source-wordcount: '1742'
 ht-degree: 100%
-
 ---
-
 # Configuración del canal SMS en una instancia independiente {#setting-up-sms-channel}
 
 Para enviar a un teléfono móvil, necesita:
@@ -53,7 +65,7 @@ Para enviar a un teléfono móvil, necesita:
 >
 >El uso de la misma cuenta y contraseña para varias cuentas externas de SMS puede provocar conflictos y superposición entre las cuentas. Consulte la [Página de solución de problemas de SMS](troubleshooting-sms.md#external-account-conflict).
 
-Para enviar un SMS a un teléfono móvil, primero debe crear su cuenta externa SMPP.
+Para enviar un SMS a un teléfono móvil, primero debe crear una cuenta externa SMPP.
 Para obtener más información sobre el protocolo y la configuración de SMS, consulte esta [página](sms-protocol.md).
 
 Para realizar esto, siga los pasos a continuación:
@@ -326,8 +338,8 @@ Puede declarar **data_codings** y forzar la codificación si es necesario: para 
 
 * Cuando no se define ninguna asignación de codificaciones, el conector asume un comportamiento genérico:
 
-   * se intenta utilizar la codificación GSM para asignar el valor **data_coding = 0**.
-   * Si la codificación GSM falla, se utiliza la codificación **UCS2** a la que asigna el valor **data_coding = 8**.
+  * se intenta utilizar la codificación GSM para asignar el valor **data_coding = 0**.
+  * Si la codificación GSM falla, se utiliza la codificación **UCS2** a la que asigna el valor **data_coding = 8**.
 
 * Al definir las codificaciones que desea utilizar y los valores de campo **[!UICONTROL data_coding]** asociados, Adobe Campaign intenta utilizar la primera codificación en la lista, y luego la siguiente si no se puede usar la primera codificación.
 
@@ -361,8 +373,8 @@ Los destinatarios se enumeran en la tabla **[!UICONTROL Non deliverables and add
 * Para enviar la misma respuesta independientemente de la palabra clave, deje vacía la columna **[!UICONTROL Keyword]**.
 * Para realizar una acción sin enviar una respuesta, deje vacía la columna **[!UICONTROL Response]**. Por ejemplo, esto le permite sacar de cuarentena a un usuario que responda con un mensaje que sea distinto a Detenerse.
 
-Si tiene varias cuentas externas que utilizan el conector SMPP genérico ampliado con la misma cuenta de proveedor, puede producirse el siguiente problema: al enviar una respuesta a un código corto, esta puede recibirse en cualquiera de las conexiones de la cuenta externa. Por consiguiente, es posible que la respuesta automática enviada no sea el mensaje esperado.
-Para evitarlo, aplique una de las soluciones, en función del proveedor que esté utilizando:
+Si tiene varias cuentas externas usando el conector SMPP genérico extendido con la misma cuenta de proveedor, puede ocurrir el siguiente problema: al enviar una respuesta a un código corto, puede recibirse en cualquiera de las conexiones de cuenta externa. En consecuencia, la respuesta automática que se envía no puede ser el mensaje esperado.
+Para evitarlo, aplique una de las siguientes soluciones, según el proveedor que esté utilizando:
 
 * Cree una cuenta de proveedor para cada cuenta externa.
 * Utilice el campo **[!UICONTROL System type]** de la pestaña **[!UICONTROL Mobile]** > **[!UICONTROL Connection settings]** para distinguir cada código corto. Pida a su proveedor un valor diferente para cada cuenta.

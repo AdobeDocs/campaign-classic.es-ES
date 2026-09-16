@@ -3,7 +3,7 @@ product: campaign
 title: Umbrales de conexión
 description: Umbrales de conexión
 feature: Monitoring
-badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,14 +11,14 @@ exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 188
-ht-degree: 19%
-
+source-wordcount: '176'
+ht-degree: 13%
 ---
-
 # Umbrales de conexión{#connection-thresholds}
 
 
@@ -33,34 +33,34 @@ Existen tres umbrales diferentes:
 
 * El **umbral de conexión de Adobe Campaign**, disponible en dos lugares:
 
-   * **Tomcat**: todas las consultas que llegan realmente al cliente de Adobe Campaign Tomcat.
+  * **Tomcat**: todas las consultas que llegan realmente al cliente de Adobe Campaign Tomcat.
 
-     Este umbral está configurado en el archivo **nl6/tomcat-X/conf/server.xml**. El atributo **maxThreads** le permite aumentar el umbral del número de consultas procesadas a la vez. Se puede cambiar a 250, por ejemplo.
+    Este umbral está configurado en el archivo **nl6/tomcat-X/conf/server.xml**. El atributo **maxThreads** le permite aumentar el umbral del número de consultas procesadas a la vez. Se puede cambiar a 250, por ejemplo.
 
-     ```
-     <Connector protocol="HTTP/1.1" port="8080"
-                    maxThreads="75"
-                    minSpareThreads="5"
-                    enableLookups="true" redirectPort="8443"
-                    acceptCount="100" connectionTimeout="20000"
-                    disableUploadTimeout="true" />
-         <Engine name="Tomcat-Standalone" defaultHost="localhost">
-           <Host name="localhost" appBase="./"
-                 unpackWARs="true" autoDeploy="true">
-     ```
+    ```
+    <Connector protocol="HTTP/1.1" port="8080"
+                   maxThreads="75"
+                   minSpareThreads="5"
+                   enableLookups="true" redirectPort="8443"
+                   acceptCount="100" connectionTimeout="20000"
+                   disableUploadTimeout="true" />
+        <Engine name="Tomcat-Standalone" defaultHost="localhost">
+          <Host name="localhost" appBase="./"
+                unpackWARs="true" autoDeploy="true">
+    ```
 
-   * **Base de datos**: conjunto de todas las conexiones abiertas al mismo tiempo en la base de datos por un proceso.
+  * **Base de datos**: conjunto de todas las conexiones abiertas al mismo tiempo en la base de datos por un proceso.
 
-     Este umbral está configurado en el archivo **nl6/conf/serverConf.xml**. El atributo **maxCnx** ubicado en el **grupo de fuentes de datos** le permite aumentar el umbral de consultas procesadas simultáneamente.
+    Este umbral está configurado en el archivo **nl6/conf/serverConf.xml**. El atributo **maxCnx** ubicado en el **grupo de fuentes de datos** le permite aumentar el umbral de consultas procesadas simultáneamente.
 
-     ```
-         <!-- Data source
-              -->
-           <dataSource name="default">
-             <dbcnx NChar="" bulkCopyUtility="" dbSchema="" encrypted="" login="" password="" provider="" server="" timezone="" unicodeData="" useTimestampTZ=""/>
-             <sqlParams funcPrefix="">
-               <postConnectSQL/>
-             </sqlParams>
-             <pool aliveTestDelaySec="600" freeCnx="0" maxCnx="90" maxIdleDelaySec="1200"/>
-           </dataSource>
-     ```
+    ```
+        <!-- Data source
+             -->
+          <dataSource name="default">
+            <dbcnx NChar="" bulkCopyUtility="" dbSchema="" encrypted="" login="" password="" provider="" server="" timezone="" unicodeData="" useTimestampTZ=""/>
+            <sqlParams funcPrefix="">
+              <postConnectSQL/>
+            </sqlParams>
+            <pool aliveTestDelaySec="600" freeCnx="0" maxCnx="90" maxIdleDelaySec="1200"/>
+          </dataSource>
+    ```

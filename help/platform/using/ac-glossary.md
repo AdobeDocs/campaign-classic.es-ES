@@ -10,31 +10,43 @@ exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 TQID: https://experienceleague.adobe.com/e9S6zCJjh4LKzlKKy-tqz8KOR1hScKbMuzuppbVUuGI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 6632
+workflow-type: tm+mt
+source-wordcount: '6654'
 ht-degree: 100%
-
 ---
-
 # Glosario de Adobe Campaign{#ac-glossary}
 
 A continuación se muestra la definición de los términos y conceptos clave en Adobe Campaign, con vínculos a la documentación relacionada. Haga clic en un término para mostrar su definición.
@@ -68,7 +80,7 @@ Learn more about [ACS Connector](../../integrations/using/acs-connector-principl
 
 Una actividad es un elemento de paleta que se agrega a un flujo de trabajo para definir una funcionalidad de ejecución. La actividad es un contenedor que ejecuta una tarea. En un flujo de trabajo, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o una acción recurrente (periódica).
 
-Obtenga más información sobre las actividades de flujo de trabajo en la [documentación de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities 
+Obtenga más información sobre las actividades de flujo de trabajo en la [documentación de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities
 .html?lang=es){target="_blank"}.
 +++
 
@@ -263,7 +275,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 *Contexto: Correo directo*
 
-Una descripción del envío es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.)creados por la compañía y para una campaña en particular. Se utiliza en el contexto de los envíos por correo directo.
+Una descripción del envío es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creados por la compañía y para una campaña en particular. Se utiliza en el contexto de los envíos por correo directo.
 
 Más información sobre el [Correo directo](../../delivery/using/about-direct-mail-channel.md).
 +++
@@ -300,8 +312,8 @@ Más información sobre la [Distribución de valores](../../platform/using/adobe
 
 +++**Delegación de dominios**
 
-La configuración de subdominios le permite configurar una subsección de su dominio (técnicamente una “zona de DNS”) para utilizar con Adobe Campaign.
-La delegación de dominios permite que Adobe controle y mantenga todos los aspectos de DNS necesarios para enviar, procesar y realizar el seguimiento de campañas por correo electrónico.
+La configuración de subdominios le permite configurar una subsección del dominio (técnicamente una “zona DNS”) para utilizarla con Adobe Campaign.
+La delegación de dominios permite que Adobe controle y mantenga todos los aspectos de DNS necesarios para enviar, procesar y rastrear campañas por correo electrónico.
 
 Más información sobre la [Delegación de dominios](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es)
 +++
@@ -873,7 +885,7 @@ Más información sobre las [Notificaciones push](../../delivery/using/about-mob
 
 +++**Destinatario**
 
-En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS, etc.)a sus clientes. Los datos de destinatario almacenados en la base de datos permiten filtrar el público objetivo y añadir datos de personalización. Normalmente, se trata de información personal, de contacto, demográfica y transaccional, pero podría ser cualquier tipo de información que admita marketing y análisis.
+En Adobe Campaign, los destinatarios son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS, etc.) a sus clientes. Los datos de destinatario almacenados en la base de datos permiten filtrar el público objetivo y añadir datos de personalización. Normalmente, se trata de información personal, de contacto, demográfica y transaccional, pero podría ser cualquier tipo de información que admita marketing y análisis.
 
 Más información sobre el [Destinatario](../../configuration/using/about-data-model.md).
 +++

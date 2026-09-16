@@ -3,7 +3,7 @@ product: campaign
 title: Uso del servidor SFTP
 description: Obtenga más información sobre las prácticas recomendadas y la solución de problemas del servidor SFTP
 feature: Troubleshooting
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -11,23 +11,29 @@ exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
 TQID: https://experienceleague.adobe.com/RrVBjDmV2i349u1NCfjtDApsuAIEOVwbxalPKnKETI4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1167
+workflow-type: tm+mt
+source-wordcount: '1158'
 ht-degree: 100%
-
 ---
-
 # Prácticas recomendadas y solución de problemas del servidor SFTP {#sftp-server-usage}
 
 ## Recomendaciones globales del servidor SFTP {#global-recommendations}

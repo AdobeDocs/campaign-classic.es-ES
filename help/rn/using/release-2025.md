@@ -9,14 +9,14 @@ exl-id: 8fd7a66b-cdff-427d-b78f-4becaba51129
 feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: c372a3d67ec413fa8cf9fdbb4530762a8f2f5177
-workflow-type: ht
-source-wordcount: 890
+workflow-type: tm+mt
+source-wordcount: '890'
 ht-degree: 100%
-
 ---
-
 # Versiones de 2025{#release-2025}
 
 ## Versión 7.4.2  {#release-7-4-2}
@@ -62,13 +62,13 @@ Esta versión incluye las siguientes correcciones principales:
 
 * Correcciones de Google BigQuery:
 
-   * Se han corregido regresiones en tipos de datos BOOLEAN
-   * Se han corregido problemas de configuración de proxy
-   * Se han corregido regresiones en tipos de datos DATETIME
-   * Se ha corregido la estabilidad de carga masiva
-   * Se han mejorado las pruebas internas en versiones de ODBC
-   * Se ha corregido un problema con los caracteres especiales en la cadena de conexión
-   * Se ha quitado el tiempo de espera predeterminado (5 minutos) en las consultas de Google BigQuery
+  * Se han corregido regresiones en tipos de datos BOOLEAN
+  * Se han corregido problemas de configuración de proxy
+  * Se han corregido regresiones en tipos de datos DATETIME
+  * Se ha corregido la estabilidad de carga masiva
+  * Se han mejorado las pruebas internas en versiones de ODBC
+  * Se ha corregido un problema con los caracteres especiales en la cadena de conexión
+  * Se ha quitado el tiempo de espera predeterminado (5 minutos) en las consultas de Google BigQuery
 
 * Agente de transferencia de correo (MTA): se ha corregido que un elemento secundario de MTA huérfano quede bloqueado en estado **[!UICONTROL Start pending]**.
 

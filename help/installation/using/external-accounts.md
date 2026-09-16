@@ -10,18 +10,19 @@ exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 TQID: https://experienceleague.adobe.com/-dvlEuumTaNU2K-AHysUyUmwDay9oaZGLerkpR4pzzw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1959
+source-wordcount: '1959'
 ht-degree: 58%
-
 ---
-
 # Cuentas externas{#external-accounts}
 
 Adobe Campaign viene con un conjunto de cuentas externas predefinidas. Para configurar conexiones con sistemas externos, puede crear nuevas cuentas externas.
@@ -55,7 +56,7 @@ La cuenta externa se crea y se agrega a la lista de cuentas externas.
 
 ### Correos rechazados {#bounce-mails-external-account}
 
-La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Para obtener más información sobre esta cuenta externa, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=es){target="_blank"}.
+La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Para obtener más información sobre esta cuenta externa, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}.
 
 Todos los servidores configurados para el acceso POP3 pueden utilizarse para recibir el correo electrónico devuelto.
 
