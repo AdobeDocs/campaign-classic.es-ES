@@ -10,17 +10,17 @@ exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
 TQID: https://experienceleague.adobe.com/1Je4UdKtftgQaeTX77rBrgezn2pIBRlHAG4DPavfE14
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 534
+source-wordcount: '534'
 ht-degree: 33%
-
 ---
-
 # Configuración del acceso a Snowflake {#configure-access-to-snowflake}
 
 Utilice la opción **Acceso de datos federado** (FDA) de Campaign para procesar la información almacenada en una base de datos externa. Siga los pasos a continuación para configurar el acceso a [!DNL Snowflake].
@@ -102,9 +102,9 @@ Debe crear una cuenta externa [!DNL Snowflake] para conectar la instancia de Cam
 
    * Para la autenticación de cuenta/contraseña, debe especificar:
 
-      * **[!UICONTROL Account]**: Nombre del usuario
+     * **[!UICONTROL Account]**: Nombre del usuario
 
-      * **[!UICONTROL Password]**: contraseña de cuenta de usuario.
+     * **[!UICONTROL Password]**: contraseña de cuenta de usuario.
 
      ![](assets/snowflake.png)
 

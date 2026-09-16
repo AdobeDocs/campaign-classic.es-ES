@@ -8,18 +8,20 @@ exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
 TQID: https://experienceleague.adobe.com/QIVkWmrdq0Xk58lIqvcDqdAPQTk6w6OaAIui6FnnSLE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1251
+workflow-type: tm+mt
+source-wordcount: '1251'
 ht-degree: 100%
-
 ---
-
 # Plantillas y secuencias de comandos de JavaScript{#javascript-scripts-and-templates}
 
 
@@ -41,7 +43,7 @@ Los JavaScript ejecutados en el contexto de un flujo de trabajo acceden a una se
 
 * **instance**: Representa el flujo de trabajo que se está ejecutando. El esquema de este objeto es **xtk:workflow**.
 * **task**: Representa las tareas que se están ejecutando. El esquema de este objeto es **xtk:workflowTask**.
-* **event**: Representa los eventos que activan la tarea en ejecución. El esquema de este objeto es **xtk:workflowEvent**.Este objeto no se inicializa para actividades de tipo **AND-join** activadas desde varias transiciones.
+* **event**: Representa los eventos que activan la tarea en ejecución. El esquema de este objeto es **xtk:workflowEvent**. Este objeto no se inicializa para actividades de tipo **AND-join** activadas desde varias transiciones.
 * **events**: Representa la lista de eventos que activan la tarea actual. El esquema de este objeto es **xtk:workflowEvent**. Esta tabla generalmente contiene un elemento, pero puede contener varios para las actividades de tipo **AND-join** que han sido activadas en función de diversas transiciones.
 * **activity**: Representa el modelo de la tarea que se está ejecutando. El esquema de este objeto depende del tipo de actividad. La secuencia de comandos de inicialización puede modificar este objeto, y en otras secuencias de comandos las modificaciones tienen efectos indeterminables.
 

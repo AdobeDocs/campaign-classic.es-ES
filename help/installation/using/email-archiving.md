@@ -10,18 +10,19 @@ exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 TQID: https://experienceleague.adobe.com/DkmZBc4Awifbwqo7zqniEu6RlHDc91788XKN2nNg-Pg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: '1264'
 ht-degree: 7%
-
 ---
-
 # Configuración del CCO del correo electrónico {#email-archiving}
 
 
@@ -163,8 +164,8 @@ Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]*
 * **Buzón de direcciones CCO**: asegúrese de que tenga suficiente capacidad de recepción para archivar todos los correos electrónicos enviados por el MTA.
 * **Agrupación de MTA**: la característica de archivado de CCO funciona en el nivel de MTA. Permite duplicar todos los correos electrónicos enviados por el MTA. Como el MTA se puede agrupar en varias instancias (desarrollo, prueba o producción por ejemplo) o incluso en varios clientes (en un entorno de intermediario), la configuración de esta función afecta a la seguridad:
 
-   * Si comparte un servidor de correo con varios clientes y uno de ellos tiene esta opción activada, este cliente accederá a todos los correos electrónicos de los demás clientes que compartan el mismo servidor de correo. Para evitar una situación de este tipo, utilice un servidor de correo diferente para cada cliente.
-   * Si utiliza el mismo MTA en varias instancias (desarrollo, prueba, prod) para un solo cliente, los mensajes enviados desde las tres instancias se duplicarán mediante la opción dataLogPath.
+  * Si comparte un servidor de correo con varios clientes y uno de ellos tiene esta opción activada, este cliente accederá a todos los correos electrónicos de los demás clientes que compartan el mismo servidor de correo. Para evitar una situación de este tipo, utilice un servidor de correo diferente para cada cliente.
+  * Si utiliza el mismo MTA en varias instancias (desarrollo, prueba, prod) para un solo cliente, los mensajes enviados desde las tres instancias se duplicarán mediante la opción dataLogPath.
 
 * **Correos electrónicos por conexión**: el archivado de correo electrónico CCO funciona abriendo una conexión e intentando enviar todos los mensajes de correo electrónico a través de esa conexión. Adobe recomienda consultar con su contacto técnico interno el número de correos electrónicos aceptados en una conexión determinada. El aumento de este número puede tener un gran impacto en el rendimiento de las CCO.
 * **IP de envío de CCO**: actualmente, los correos electrónicos de CCO no se envían a través de los proxies de MTA normales. En su lugar, se abre una conexión directa desde el servidor MTA al servidor de correo electrónico de destino. Esto significa que es posible que tenga que agregar direcciones IP adicionales a la lista de permitidos de la red, según la configuración del servidor de correo electrónico.

@@ -7,25 +7,33 @@ exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
 TQID: https://experienceleague.adobe.com/i3aMiL43o3Sj7aR1u2KJmlMVe3UiS6j-tLc5augCryk
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 2042
+source-wordcount: '2101'
 ht-degree: 1%
-
 ---
-
 # Protección de privacidad de correo en la aplicación Mail de Apple
 
 ## ¿Qué ha cambiado?
@@ -393,7 +401,7 @@ Este ejemplo muestra cómo se pueden exportar datos de seguimiento desde Adobe C
 1. Cree un flujo de trabajo que comience con una consulta.
 
    La consulta inicial se utiliza para recuperar los registros de seguimiento de los últimos tres meses.
-Puede utilizar una consulta incremental para extraer únicamente los registros que aún no haya exportado.
+   Puede utilizar una consulta incremental para extraer únicamente los registros que aún no haya exportado.
 
    Agregue toda la información necesaria del nodo **[!UICONTROL Additional data]**.
 
@@ -438,14 +446,14 @@ Estos ejemplos muestran cómo se pueden utilizar flujos de trabajo para desglosa
 
 * El primer flujo de trabajo de ejemplo incluye estas actividades:
 
-   1. La actividad **[!UICONTROL Query]** inicial se usa para seleccionar todas las aperturas de correo electrónico de los últimos tres meses.
-   1. Se usa una actividad **[!UICONTROL Split]** para dividir la selección por aplicación de correo electrónico, explorador, sistema operativo y dispositivo.
+  1. La actividad **[!UICONTROL Query]** inicial se usa para seleccionar todas las aperturas de correo electrónico de los últimos tres meses.
+  1. Se usa una actividad **[!UICONTROL Split]** para dividir la selección por aplicación de correo electrónico, explorador, sistema operativo y dispositivo.
 
-   1. Una actividad **[!UICONTROL Deduplication]** sigue a cada actividad **[!UICONTROL Split]**. La actividad **[!UICONTROL Deduplication]** se usa para eliminar direcciones de correo electrónico duplicadas.
+  1. Una actividad **[!UICONTROL Deduplication]** sigue a cada actividad **[!UICONTROL Split]**. La actividad **[!UICONTROL Deduplication]** se usa para eliminar direcciones de correo electrónico duplicadas.
 
-      La actividad **[!UICONTROL Deduplication]** se coloca después de la actividad **[!UICONTROL Split]** para evitar la pérdida de información sobre los destinatarios que utilizan varios dispositivos.
+     La actividad **[!UICONTROL Deduplication]** se coloca después de la actividad **[!UICONTROL Split]** para evitar la pérdida de información sobre los destinatarios que utilizan varios dispositivos.
 
-   1. Una actividad **[!UICONTROL End]** sigue a cada actividad **[!UICONTROL Deduplication]**.
+  1. Una actividad **[!UICONTROL End]** sigue a cada actividad **[!UICONTROL Deduplication]**.
 
   Este tipo de flujo de trabajo resulta útil si almacena los destinatarios únicamente en la tabla de destinatarios predeterminada para la segmentación.
 
@@ -453,14 +461,14 @@ Estos ejemplos muestran cómo se pueden utilizar flujos de trabajo para desglosa
 
 * El segundo flujo de trabajo de ejemplo incluye estas actividades:
 
-   1. La actividad **[!UICONTROL Query]** inicial se usa para seleccionar todas las aperturas de correo electrónico de los últimos tres meses.
-   1. Se usa una actividad **[!UICONTROL Deduplication]** para quitar direcciones de correo electrónico duplicadas.
-   1. Se utiliza una actividad **[!UICONTROL Fork]**:
+  1. La actividad **[!UICONTROL Query]** inicial se usa para seleccionar todas las aperturas de correo electrónico de los últimos tres meses.
+  1. Se usa una actividad **[!UICONTROL Deduplication]** para quitar direcciones de correo electrónico duplicadas.
+  1. Se utiliza una actividad **[!UICONTROL Fork]**:
 
-      * En una transición, la actividad **[!UICONTROL Change dimension]** se usa para encontrar los destinatarios a los que hace referencia el registro de seguimiento.
-      * En la otra transición, la actividad **[!UICONTROL Split]** se usa para dividir la selección por aplicación de correo electrónico, explorador, sistema operativo y dispositivo.
+     * En una transición, la actividad **[!UICONTROL Change dimension]** se usa para encontrar los destinatarios a los que hace referencia el registro de seguimiento.
+     * En la otra transición, la actividad **[!UICONTROL Split]** se usa para dividir la selección por aplicación de correo electrónico, explorador, sistema operativo y dispositivo.
 
-   1. Una actividad **[!UICONTROL End]** sigue cada transición después de la actividad **[!UICONTROL Split]**.
+  1. Una actividad **[!UICONTROL End]** sigue cada transición después de la actividad **[!UICONTROL Split]**.
 
   Este tipo de flujo de trabajo resulta útil si almacena los destinatarios en una tabla distinta a la tabla de destinatarios predeterminada.
 

@@ -8,24 +8,31 @@ hide: true
 TQID: https://experienceleague.adobe.com/LeUJ-F5dAECUrtkbvgwL0BN88Alofnh2rBWe7hIVGgI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 323
+workflow-type: tm+mt
+source-wordcount: '333'
 ht-degree: 100%
-
 ---
-
 # Conectar Campaign y Salesforce.com{#connect-to-sfdc}
 
 
@@ -35,7 +42,8 @@ En esta página, aprenderá a conectar Campaign Classic a **Salesforce**.
 La sincronización de datos se realiza mediante una actividad de flujo de trabajo dedicada. [Más información](../../platform/using/crm-data-sync.md).
 
 
-La cuenta externa le permite importar y exportar datos de Salesforce a Adobe Campaign. Para configurar el conector de CRM para Salesforce, siga estos pasos:
+La cuenta externa le permite importar y exportar datos de Salesforce a Adobe Campaign.
+Para configurar el conector CRM para Salesforce, siga los pasos a continuación:
 
 1. Cree una nueva cuenta externa a través del nodo **[!UICONTROL Administration > Platform > External accounts]** del árbol de Adobe Campaign.
 1. Seleccione **[!UICONTROL Salesforce.com]**.
@@ -46,19 +54,19 @@ La cuenta externa le permite importar y exportar datos de Salesforce a Adobe Cam
    Para configurar la cuenta externa de Salesforce CRM para que funcione con Adobe Campaign, proporcione los siguientes detalles:
 
    * **[!UICONTROL Account]**
-Cuenta utilizada para iniciar sesión en Salesforce CRM.
+     Cuenta utilizada para iniciar sesión en Salesforce CRM.
 
    * **[!UICONTROL Password]**
-Contraseña utilizada para iniciar sesión en Salesforce CRM.
+     Contraseña utilizada para iniciar sesión en Salesforce CRM.
 
    * **[!UICONTROL Client identifier]**
-Para saber dónde encontrar el identificador de cliente, consulte esta [página](https://help.salesforce.com/articleView?id=000205876&type=1).
+     Para saber dónde encontrar el identificador de cliente, consulte esta [página](https://help.salesforce.com/articleView?id=000205876&type=1).
 
    * **[!UICONTROL Security token]**
-Para saber dónde encontrar el token de seguridad, consulte esta [página](https://help.salesforce.com/articleView?id=000205876&type=1).
+     Para saber dónde encontrar el token de seguridad, consulte esta [página](https://help.salesforce.com/articleView?id=000205876&type=1).
 
    * **[!UICONTROL API version]**
-Seleccione la versión de la API.
+     Seleccione la versión de la API.
 1. Ejecute el asistente de configuración para generar la tabla CRM disponible: el asistente de configuración permite recopilar tablas y crear el esquema correspondiente.
 
    ![](assets/crm_connectors_sfdc_launch.png)

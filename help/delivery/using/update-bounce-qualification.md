@@ -2,29 +2,35 @@
 product: campaign
 title: Actualizar la calificación de devoluciones después de la interrupción de Apple 2021
 description: Obtenga información sobre cómo actualizar la calificación de devoluciones después la interrupción de Apple 2021
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 TQID: https://experienceleague.adobe.com/kn5H0jxM7KKnLGQ3vYdvhQm4nixgSTVhFBO8CAh-1Lg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 457
+workflow-type: tm+mt
+source-wordcount: '448'
 ht-degree: 100%
-
 ---
-
 # Actualizar devoluciones graves incorrectas después de la interrupción de Apple {#update-bounce-qualification.md}
 
 ## Contexto
@@ -55,16 +61,16 @@ En función del periodo de tiempo del problema, se indican a continuación las d
 
 * Para instancias de Campaign con información de respuesta de rechazo SMTP en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
-   * **El texto de error (texto de cuarentena)** contiene “la búsqueda del usuario se ha realizado correctamente, pero no se ha encontrado ningún registro de usuario” Y **el texto de error (texto de cuarentena)** contiene “support.apple.com”
-   * **Estado de la actualización (@lastModified)** el 26 de abril de 2021 a las 07:00:00, o después
-   * **Estado de la actualización (@lastModified)** el 26 de abril de 2021 a las 13:00:00, o antes
+  * **El texto de error (texto de cuarentena)** contiene “la búsqueda del usuario se ha realizado correctamente, pero no se ha encontrado ningún registro de usuario” Y **el texto de error (texto de cuarentena)** contiene “support.apple.com”
+  * **Estado de la actualización (@lastModified)** el 26 de abril de 2021 a las 07:00:00, o después
+  * **Estado de la actualización (@lastModified)** el 26 de abril de 2021 a las 13:00:00, o antes
 
 * Para instancias de Campaign con información de regla de correo electrónico entrante en el campo **[!UICONTROL Error text]** de la lista de cuarentena:
 
-   * **El texto del error (texto de cuarentena)** contiene “Momen_Code10_InvalidRecipient”
-   * **Dominio de correo electrónico (@domain)** igual a icloud.com O **dominio de correo electrónico (@domain)** igual a me.com O **dominio de correo electrónico (@domain)** igual a mac.com
-   * **Estado de la actualización (@lastModified)** el 26 de abril de 2021 a las 07:00:00, o después
-   * **Estado de la actualización (@lastModified)** el 26 de abril de 2021 a las 13:00:00, o antes
+  * **El texto del error (texto de cuarentena)** contiene “Momen_Code10_InvalidRecipient”
+  * **Dominio de correo electrónico (@domain)** igual a icloud.com O **dominio de correo electrónico (@domain)** igual a me.com O **dominio de correo electrónico (@domain)** igual a mac.com
+  * **Estado de la actualización (@lastModified)** el 26 de abril de 2021 a las 07:00:00, o después
+  * **Estado de la actualización (@lastModified)** el 26 de abril de 2021 a las 13:00:00, o antes
 
 Una vez que tenga la lista de destinatarios afectados, puede aplicarles un estado **[!UICONTROL Valid]** para que el flujo de trabajo **[!UICONTROL Database cleanup]** los elimine de la lista de cuarentena, o simplemente elimínelos de la tabla.
 

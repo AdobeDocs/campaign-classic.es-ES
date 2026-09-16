@@ -7,20 +7,23 @@ exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 TQID: https://experienceleague.adobe.com/y8kDwxCY0MkBcDPUPY7hmFlpJc3l3qsEiDRhhMGqT00
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 444
+source-wordcount: '444'
 ht-degree: 13%
-
 ---
-
 # Pista de auditoría{#audit-trail}
 
 >[!INFO]
@@ -46,14 +49,14 @@ En Adobe Campaign, **[!UICONTROL Audit trail]** le proporciona acceso al histori
 
 * **Registro de auditoría de flujo de trabajo** rastrea todas las acciones relacionadas con sus flujos de trabajo, incluyendo:
 
-   * Start
-   * Pause
-   * Stop
-   * Restart
-   * Limpieza igual al historial de purga de acciones
-   * Simular, que es igual a la acción Iniciar en modo de simulación
-   * Activación igual a la acción Ejecutar tareas pendientes ahora
-   * Interrupción incondicional
+  * Start
+  * Pause
+  * Stop
+  * Restart
+  * Limpieza igual al historial de purga de acciones
+  * Simular, que es igual a la acción Iniciar en modo de simulación
+  * Activación igual a la acción Ejecutar tareas pendientes ahora
+  * Interrupción incondicional
 
   Para obtener más información sobre los flujos de trabajo, consulte esta [página](../../workflow/using/about-workflows.md).
 

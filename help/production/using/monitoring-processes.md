@@ -3,7 +3,7 @@ product: campaign
 title: Monitorización de procesos
 description: Obtenga información sobre cómo monitorizar los procesos de Campaign
 feature: Monitoring
-badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -11,21 +11,25 @@ exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
 TQID: https://experienceleague.adobe.com/rTFIt6bZHR9dwiUr2KTTsoFCPX48cItfbE7u8l8mEqA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 3682
+source-wordcount: '3671'
 ht-degree: 1%
-
 ---
-
 # Monitorización de procesos{#monitoring-processes}
 
 
@@ -564,7 +568,7 @@ Este elemento se utiliza para rellenar la configuración de correos electrónico
 * **mailServer**: servidor SMTP utilizado para enviar correos electrónicos (por ejemplo: smtp.domain.net).
 * **mailFrom**: dirección de correo electrónico del remitente del informe (por ejemplo: monitoring@domain.net).
 * **recipientList**: la lista de direcciones de correo electrónico de destinatarios de supervisión. Las direcciones deben estar separadas por comas (sin espacios).
-* El modo &#39;**night**&#39; (opcional) se usa para evitar el envío de correos electrónicos entre el período de tiempo especificado. En su lugar, los datos se consolidan y se envía un mensaje de correo electrónico con respecto a la actividad nocturna después de la hora de finalización (7:00 de forma predeterminada).
+* El modo &#39;**night**&#39; (opcional) se usa para evitar el envío de correos electrónicos entre el período de tiempo especificado. En su lugar, los datos se consolidan y se envía un correo electrónico con la actividad de la noche después de la hora de finalización (7:00 de forma predeterminada).
 * El subelemento **buildRange** (opcional) le permite especificar un número de compilación mínimo y máximo. Se generará un error para todos los equipos cuyo número de compilación no esté dentro de este intervalo
 
   ```

@@ -7,12 +7,10 @@ badge: label="v7" type="Informative" tooltip="Se aplica solo a Campaign Classic 
 hide: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 100%
-
 ---
-
 # Prácticas recomendadas para cubos{#concepts-and-methodology}
 
 

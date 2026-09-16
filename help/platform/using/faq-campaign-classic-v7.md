@@ -10,27 +10,37 @@ exl-id: 89356b5a-d99c-43d1-892b-5a1d003e76cc
 TQID: https://experienceleague.adobe.com/FL-v5m07U-OzscVIiQONAa-RMu323ZpTuBrL29ukMc4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1517
+source-wordcount: '1517'
 ht-degree: 8%
-
 ---
-
 # Preguntas frecuentes sobre Campaign Classic v7 {#campaign-classic-v7-faq}
 
 >[!NOTE]
@@ -216,8 +226,8 @@ Borrar la caché de la consola del cliente de Campaign resuelve muchos problemas
    * Realice primero el borrado de caché de software
    * Cierre la sesión y la consola de cliente por completo
    * Vaya a:
-      * Windows 7/10: `C:\Users\<Username>\AppData\Roaming\Neolane\NL_5\`
-      * Windows XP: `C:\Documents and Settings\<Username>\Application Data\Neolane\NL_5\`
+     * Windows 7/10: `C:\Users\<Username>\AppData\Roaming\Neolane\NL_5\`
+     * Windows XP: `C:\Documents and Settings\<Username>\Application Data\Neolane\NL_5\`
    * Eliminar todos los archivos XML llamados `nlclient-config-<alphanumerical value>.xml` y las carpetas asociadas
    * **Importante:** NO elimine el archivo `nlclient_cnx.xml`
    * Reiniciar la consola de cliente

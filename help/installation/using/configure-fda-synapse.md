@@ -10,18 +10,19 @@ exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
 TQID: https://experienceleague.adobe.com/CogezJk2Xg8Pv7d7upxrVWzOAWMkPS475yPeMJ6Uw-E
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: '854'
 ht-degree: 70%
-
 ---
-
 # Configuración del acceso a Azure Synapse {#configure-access-to-azure-synapse}
 
 
@@ -221,23 +222,23 @@ Para crear su cuenta externa [!DNL Azure Synapse], siga los pasos a continuació
 
    * Para la autenticación estándar, debe especificar:
 
-      * **[!UICONTROL Server]**: URL del servidor Azure Synapse
+     * **[!UICONTROL Server]**: URL del servidor Azure Synapse
 
-      * **[!UICONTROL Account]**: Nombre del usuario
+     * **[!UICONTROL Account]**: Nombre del usuario
 
-      * **[!UICONTROL Password]**: Contraseña de la cuenta de usuario
+     * **[!UICONTROL Password]**: Contraseña de la cuenta de usuario
 
-      * **[!UICONTROL Database]**: Nombre de la base de datos
+     * **[!UICONTROL Database]**: Nombre de la base de datos
 
      ![](assets/azure_3.png)
 
    * Para la autenticación de identidad administrada asignada al sistema, debe especificar:
 
-      * **[!UICONTROL Server]**: URL del servidor Azure Synapse
+     * **[!UICONTROL Server]**: URL del servidor Azure Synapse
 
-      * **[!UICONTROL Database]**: Nombre de la base de datos
+     * **[!UICONTROL Database]**: Nombre de la base de datos
 
-      * **[!UICONTROL Options]**: agregue la siguiente sintaxis `Authentication=ActiveDirectoryMsi`
+     * **[!UICONTROL Options]**: agregue la siguiente sintaxis `Authentication=ActiveDirectoryMsi`
 
      ![](assets/azure_4.png)
 

@@ -5,12 +5,10 @@ description: Descubra más información sobre los flujos de trabajo Transfer to 
 hide: true
 feature: Workflows
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 100%
-
 ---
-
 
 # Transferir a intermediario{#transfer-to-mid-sourcing}
 

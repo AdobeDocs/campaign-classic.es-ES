@@ -10,18 +10,19 @@ exl-id: 083be073-aad4-4c81-aff2-77f5ef3e80db
 TQID: https://experienceleague.adobe.com/UYcZcSX8pLO0mCB8OW6WWx9qQ4vg13FAel6R7moeMA8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1016
+workflow-type: tm+mt
+source-wordcount: '1016'
 ht-degree: 100%
-
 ---
-
 # Arquitecturas distribuidas{#distributed-architectures}
 
 
@@ -65,7 +66,7 @@ Se crea un flujo de trabajo para cada entorno y cuenta externa para la sincroniz
 
 ## Configuración de paquetes {#packages-configuration}
 
-Las extensiones de esquema directamente vinculadas a **interacción** (ofertas, propuestas, destinatarios, etc.)deben implementarse en las instancias de ejecución.
+Las extensiones de esquema directamente vinculadas a **interacción** (ofertas, propuestas, destinatarios, etc.) deben implementarse en las instancias de ejecución.
 
 El paquete de interacción debe estar instalado en todas las instancias (control y ejecución). Hay dos paquetes adicionales disponibles: un paquete que se va a instalar en las instancias de control y otro que se va a instalar en cada instancia de ejecución.
 

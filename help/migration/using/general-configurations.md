@@ -10,11 +10,9 @@ hide: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '2546'
+source-wordcount: '2548'
 ht-degree: 1%
-
 ---
-
 # Configuraciones generales{#general-configurations}
 
 Esta sección detalla la configuración que se debe realizar en Adobe Campaign v7 al migrar desde una versión 5.11 o 6.02.
@@ -500,7 +498,7 @@ $(XTK_INSTALL_DIR)/tomcat-X/lib/el-api.jar
 * nms:mobileOfferView
 * nms:paperOfferView
 
-### Contenido de oferta {#offer-content}
+### Contenido de la oferta {#offer-content}
 
 En la versión 7, se ha movido el contenido de la oferta. En la versión 6.02, el contenido estaba en cada esquema de representación (**nms:emailOfferView**). En la versión 7, el contenido se encuentra ahora en el esquema de oferta. Después de la postactualización, el contenido no será visible en la interfaz. Después de la postactualización, se debe volver a crear el contenido de la oferta o desarrollar una secuencia de comandos que mueva automáticamente el contenido del esquema de representación al esquema de oferta.
 

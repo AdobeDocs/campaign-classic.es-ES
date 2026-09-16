@@ -9,23 +9,28 @@ exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 TQID: https://experienceleague.adobe.com/uJW1-zNfhCUn15Nxa9T7bXTzX6nGdZJ1QfuUa38L7HY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+    internal-label: Subscription services
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1508
+workflow-type: tm+mt
+source-wordcount: '1508'
 ht-degree: 100%
-
 ---
-
 # Selección del público de las campañas {#marketing-campaign-deliveries}
 
 En una campaña de marketing, puede definir lo siguiente por envío:
@@ -111,55 +116,55 @@ Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la
 
 * Inicio o reinicio
 
-   * El icono **[!UICONTROL Start]** permite iniciar el flujo de trabajo de destino. Al hacer clic en este icono, todas las actividades sin transición de entrada se activan (excepto los saltos de extremo final).
+  * El icono **[!UICONTROL Start]** permite iniciar el flujo de trabajo de destino. Al hacer clic en este icono, todas las actividades sin transición de entrada se activan (excepto los saltos de extremo final).
 
-     ![](assets/s_user_segmentation_start.png)
+    ![](assets/s_user_segmentation_start.png)
 
-     El servidor tiene en cuenta la solicitud, tal como muestra su estado:
+    El servidor tiene en cuenta la solicitud, tal como muestra su estado:
 
-     ![](assets/s_user_segmentation_start_status.png)
+    ![](assets/s_user_segmentation_start_status.png)
 
-     El estado del proceso cambia a **[!UICONTROL Started]**.
+    El estado del proceso cambia a **[!UICONTROL Started]**.
 
-   * Puede reiniciar el flujo de trabajo de destino mediante el icono correspondiente de la barra de herramientas. Este comando puede resultar útil si el icono **[!UICONTROL Start]** no está disponible, por ejemplo cuando el flujo de trabajo de destino está detenido. En este caso, haga clic en el icono **[!UICONTROL Restart]** para anticipar el reinicio. El servidor tiene en cuenta la solicitud, como se muestra en el estado siguiente:
+  * Puede reiniciar el flujo de trabajo de destino mediante el icono correspondiente de la barra de herramientas. Este comando puede resultar útil si el icono **[!UICONTROL Start]** no está disponible, por ejemplo cuando el flujo de trabajo de destino está detenido. En este caso, haga clic en el icono **[!UICONTROL Restart]** para anticipar el reinicio. El servidor tiene en cuenta la solicitud, como se muestra en el estado siguiente:
 
-     ![](assets/s_user_segmentation_restart_status.png)
+    ![](assets/s_user_segmentation_restart_status.png)
 
-     A continuación, el proceso introduce el estado **[!UICONTROL Started]**.
+    A continuación, el proceso introduce el estado **[!UICONTROL Started]**.
 
 * Detener o pausar
 
-   * Los iconos de la barra de herramientas permiten detener o pausar un flujo de trabajo de objetivos en curso.
+  * Los iconos de la barra de herramientas permiten detener o pausar un flujo de trabajo de objetivos en curso.
 
-     Al hacer clic en **[!UICONTROL Pause]**, las operaciones en curso **[!UICONTROL are not]** no se pausan, pero no se inicia ninguna otra actividad hasta el siguiente reinicio.
+    Al hacer clic en **[!UICONTROL Pause]**, las operaciones en curso **[!UICONTROL are not]** no se pausan, pero no se inicia ninguna otra actividad hasta el siguiente reinicio.
 
-     ![](assets/s_user_segmentation_pause.png)
+    ![](assets/s_user_segmentation_pause.png)
 
-     El servidor tiene en cuenta el comando, como muestra su estado:
+    El servidor tiene en cuenta el comando, como muestra su estado:
 
-     ![](assets/s_user_segmentation_pause_status.png)
+    ![](assets/s_user_segmentation_pause_status.png)
 
-     También puede pausar un flujo de trabajo de objetivos automáticamente cuando su ejecución alcanza una actividad determinada. Para ello, haga clic con el botón derecho en la actividad desde la que desea pausar el flujo de trabajo de objetivos y seleccione **[!UICONTROL Enable but do not execute]**.
+    También puede pausar un flujo de trabajo de objetivos automáticamente cuando su ejecución alcanza una actividad determinada. Para ello, haga clic con el botón derecho en la actividad desde la que desea pausar el flujo de trabajo de objetivos y seleccione **[!UICONTROL Enable but do not execute]**.
 
-     ![](assets/s_user_segmentation_donotexecute.png)
+    ![](assets/s_user_segmentation_donotexecute.png)
 
-     Esta configuración se muestra mediante un icono especial.
+    Esta configuración se muestra mediante un icono especial.
 
-     ![](assets/s_user_segmentation_pause_activity.png)
+    ![](assets/s_user_segmentation_pause_activity.png)
 
-     >[!NOTE]
-     >
-     >Esta opción es útil durante el diseño avanzado de campañas y las fases de prueba.
+    >[!NOTE]
+    >
+    >Esta opción es útil durante el diseño avanzado de campañas y las fases de prueba.
 
-     Haga clic en **[!UICONTROL Start]** para reanudar la ejecución.
+    Haga clic en **[!UICONTROL Start]** para reanudar la ejecución.
 
-   * Haga clic en el icono **[!UICONTROL Stop]** para detener la ejecución en curso.
+  * Haga clic en el icono **[!UICONTROL Stop]** para detener la ejecución en curso.
 
-     ![](assets/s_user_segmentation_stop.png)
+    ![](assets/s_user_segmentation_stop.png)
 
-     El servidor tiene en cuenta el comando, como muestra su estado:
+    El servidor tiene en cuenta el comando, como muestra su estado:
 
-     ![](assets/s_user_segmentation_stop_status.png)
+    ![](assets/s_user_segmentation_stop_status.png)
 
   También puede detener automáticamente un flujo de trabajo de objetivos cuando la ejecución alcance una actividad. Para ello, haga clic con el botón derecho en la actividad desde la que desea detener el flujo de trabajo de objetivos y seleccione **[!UICONTROL Do not activate]**.
 

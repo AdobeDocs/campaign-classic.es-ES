@@ -10,18 +10,19 @@ exl-id: ebaad59f-0607-4090-92d0-e457fbf9a348
 TQID: https://experienceleague.adobe.com/jmeyOWDTkOmCKOVGlNAdYzNHfaK1QeSxnIjDDnl8yj0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1042
+source-wordcount: '1051'
 ht-degree: 7%
-
 ---
-
 # Configuración del acceso a Google BigQuery {#configure-fda-google-big-query}
 
 
@@ -200,9 +201,9 @@ Debe crear una cuenta externa [!DNL Google BigQuery] para conectar la instancia 
    * **[!UICONTROL Project]**: nombre de su **[!UICONTROL Project]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
 
    * **[!UICONTROL Key file Path]**:
-      * **[!UICONTROL Upload key file to the server]**: seleccione **[!UICONTROL Click here to upload]** si decide cargar la clave a través de Adobe Campaign Classic.
+     * **[!UICONTROL Upload key file to the server]**: seleccione **[!UICONTROL Click here to upload]** si decide cargar la clave a través de Adobe Campaign Classic.
 
-      * **[!UICONTROL Enter manually the key file path]**: copie/pegue la ruta absoluta en este campo si elige utilizar una clave preexistente.
+     * **[!UICONTROL Enter manually the key file path]**: copie/pegue la ruta absoluta en este campo si elige utilizar una clave preexistente.
 
    * **[!UICONTROL Dataset]**: nombre de su **[!UICONTROL Dataset]**. Para obtener más información, consulte [Documentación de Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro).
 

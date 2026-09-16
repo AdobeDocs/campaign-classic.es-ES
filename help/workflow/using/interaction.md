@@ -5,12 +5,10 @@ description: Interacción
 hide: true
 feature: Workflows, Interaction, Offers
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 100%
-
 ---
-
 
 # Interacción{#interaction}
 
@@ -35,7 +33,7 @@ Para obtener más información, consulte estas secciones en función de la versi
   <tr> 
    <td> <span class="uicontrol">Full aggregate calculation (propositionrcp cube)</span> <br /> </td> 
    <td> <span class="uicontrol">agg_nmspropositionrcp_full</span><br /> </td> 
-   <td> Este flujo de trabajo actualiza el acumulado <strong>Completo</strong> del cubo <strong>Propuesta de oferta. </strong> Se activa todos los días a las 6 a. m. de manera predeterminada. Este agregado captura las siguientes dimensiones: canal, envío, oferta de marketing y fecha.<br /> A continuación, el cubo <strong>proposición de oferta</strong> se utiliza para generar informes basados en ofertas.Puede obtener más información sobre los cubos en <a href="../../reporting/using/ac-cubes.md">esta sección</a>.<br /> </td> 
+   <td> Este flujo de trabajo actualiza el acumulado <strong>Completo</strong> del cubo <strong>Propuesta de oferta. </strong> Se activa todos los días a las 6 a. m. de manera predeterminada. Este agregado captura las siguientes dimensiones: canal, envío, oferta de marketing y fecha.<br /> A continuación, el cubo <strong>proposición de oferta</strong> se utiliza para generar informes basados en ofertas. Puede obtener más información sobre los cubos en <a href="../../reporting/using/ac-cubes.md">esta sección</a>.<br /> </td> 
   </tr> 
    <tr> 
    <td> <span class="uicontrol">MessageCenter full aggregate calculation</span> <br /> </td> 

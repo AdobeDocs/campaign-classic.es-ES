@@ -10,22 +10,27 @@ exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
 TQID: https://experienceleague.adobe.com/Ao7kTRz1lHY0sDhOLoWIZNkHEXnL2wIv-0BU0e-2cOs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 738
+workflow-type: tm+mt
+source-wordcount: '738'
 ht-degree: 100%
-
 ---
-
 # Actualización de datos{#updating-data}
 
 >[!NOTE]
@@ -131,7 +136,7 @@ En la mayoría de los casos, los destinatarios se suscriben a un boletín a trav
 
    ![](assets/s_ncs_user_selection_subscribe_service_3.png)
 
-La sección superior de la ventana permite controlar el proceso de ejecución. El botón **[!UICONTROL Stop]** permite detener el proceso. Sin embargo, los destinatarios ya procesados se suscribirán.
+La sección superior de la ventana permite monitorizar el proceso de ejecución. El botón **[!UICONTROL Stop]** permite detener el proceso. Sin embargo, los destinatarios ya procesados se suscribirán.
 
 Si desactiva la opción **[!UICONTROL Do not keep a trace of this job in the database]**, puede seleccionar (o crear) la carpeta de ejecución en la que se almacenará la información de este proceso.
 

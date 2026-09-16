@@ -8,18 +8,20 @@ exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 TQID: https://experienceleague.adobe.com/dCnvgLZ-5ST-VJqWLXZ2c5XxXqXUxO1G78WnrCFyIqA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
-workflow-type: ht
-source-wordcount: 1187
+workflow-type: tm+mt
+source-wordcount: '1187'
 ht-degree: 100%
-
 ---
-
 # Inicio de un flujo de trabajo {#starting-a-workflow}
 
 
@@ -75,14 +77,14 @@ Los botones de la barra de herramientas se encuentran en esta [sección](../../c
   Las acciones **[!UICONTROL Start / Pause / Stop / Restart]** también están disponibles a través de los iconos de ejecución de la barra de herramientas. Para obtener más información, consulte [esta sección](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
 
   Tenga en cuenta que la acción **Reiniciar** no borra las variables de la instancia de flujo de trabajo en comparación con las acciones **Ejecución**, **Detener** e **Iniciar** (las variables de instancia se borran tras la acción Iniciar). Al reiniciar un flujo de trabajo, las variables de instancia siguen estando disponibles para su uso con los valores conservados. Para configurarlas, puede:
-   * Ejecutar las acciones **Detener** e **Iniciar**.
-   * Añada el siguiente código JavaScript al final de la ejecución del flujo de trabajo:
+  * Ejecutar las acciones **Detener** e **Iniciar**.
+  * Añada el siguiente código JavaScript al final de la ejecución del flujo de trabajo:
 
-     ```
-     var wkf = xtk.workflow.load(instance.id)
-     wkf.variables='<variables/>'
-     wkf.save()
-     ```
+    ```
+    var wkf = xtk.workflow.load(instance.id)
+    wkf.variables='<variables/>'
+    wkf.save()
+    ```
 
 * **[!UICONTROL Purge history]**
 

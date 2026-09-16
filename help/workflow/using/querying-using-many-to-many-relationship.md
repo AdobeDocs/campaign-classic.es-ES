@@ -8,18 +8,20 @@ exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
 TQID: https://experienceleague.adobe.com/8G-OgPkxSAbN0bDOslzC8hMtx6TNa03rn2r-KXAmT3o
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 399
+workflow-type: tm+mt
+source-wordcount: '399'
 ht-degree: 100%
-
 ---
-
 # Realización de consultas con una relación “varios a varios” {#querying-using-a-many-to-many-relationship}
 
 
@@ -42,7 +44,7 @@ En este ejemplo también muestra el modo de configurar un filtro relacionado con
 
 Siga estos pasos:
 
-1. Abra el editor de consultas genérico y seleccione la tabla de destinatario **[!UICONTROL (nms:recipient)]**. 
+1. Abra el editor de consultas genérico y seleccione la tabla de destinatario **[!UICONTROL (nms:recipient)]**.
 1. En la ventana **[!UICONTROL Data to extract]** seleccione **[!UICONTROL Primary key]**, **[!UICONTROL First name]**, **[!UICONTROL Last name]** y **[!UICONTROL Email]**.
 
    ![](assets/query_editor_nveau_33.png)

@@ -10,19 +10,21 @@ exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
 TQID: https://experienceleague.adobe.com/ylf7sIKiO9ip-yC3M4zqbhu0ITaXqmTMQJ-4KfNQlt8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 332
+source-wordcount: '332'
 ht-degree: 1%
-
 ---
-
 # Configuración del servidor web {#web-server-configuration}
 
 
@@ -35,17 +37,17 @@ A continuación, encontrará algunas de las prácticas recomendadas principales 
 
   **En Apache**, edite /etc/apache2/mods-available/ssl.conf. Este es un ejemplo.
 
-   * `SSLProtocol all -SSLv2 -SSLv3 -TLSv1`
-   * `SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1`
+  * `SSLProtocol all -SSLv2 -SSLv3 -TLSv1`
+  * `SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1`
 
   **En IIS** (consulte la [documentación](https://support.microsoft.com/en-us/kb/245030)), realice la siguiente configuración:
 
-   * Agregar una subclave del Registro en HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL
-   * Para permitir que el sistema utilice los protocolos que no se negociarán de forma predeterminada (como TLS 1.2), cambie los datos del valor DWORD del valor DisabledByDefault a 0x0 en las siguientes claves del Registro bajo la clave **Protocolos**:
+  * Agregar una subclave del Registro en HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL
+  * Para permitir que el sistema utilice los protocolos que no se negociarán de forma predeterminada (como TLS 1.2), cambie los datos del valor DWORD del valor DisabledByDefault a 0x0 en las siguientes claves del Registro bajo la clave **Protocolos**:
 
-     SCHANNEL\Protocols\TLS 1.2\Client
+    SCHANNEL\Protocols\TLS 1.2\Client
 
-     SCHANNEL\Protocols\TLS 1.2\Server
+    SCHANNEL\Protocols\TLS 1.2\Server
 
   **Deshabilitar SSL x.0**
 
@@ -59,20 +61,20 @@ A continuación, encontrará algunas de las prácticas recomendadas principales 
 
   **En IIS** (consulte la [documentación](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)), realice la siguiente configuración:
 
-   * Asegúrese de que la característica o el servicio de rol **Filtrado de solicitudes** esté instalado.
-   * En el panel **Filtrado de solicitudes**, haga clic en la ficha Verbos HTTP y, a continuación, haga clic en Denegar verbo. En el panel Acciones, introduzca TRACE en el cuadro de diálogo abierto.
+  * Asegúrese de que la característica o el servicio de rol **Filtrado de solicitudes** esté instalado.
+  * En el panel **Filtrado de solicitudes**, haga clic en la ficha Verbos HTTP y, a continuación, haga clic en Denegar verbo. En el panel Acciones, introduzca TRACE en el cuadro de diálogo abierto.
 
 * Quitar el titular:
 
   **En Apache**, editar /etc/apache2/conf.d/security:
 
-   * FirmaServidor **Desactivada**
-   * ServerTokens **Prod**
+  * FirmaServidor **Desactivada**
+  * ServerTokens **Prod**
 
   **En IIS**, realice la siguiente configuración:
 
-   * Instalar **URL que pueden**.
-   * Edite el archivo **Urlscan.ini** para que tenga **RemoveServerHeader=1**
+  * Instalar **URL que pueden**.
+  * Edite el archivo **Urlscan.ini** para que tenga **RemoveServerHeader=1**
 
 * Limite el tamaño de la consulta para evitar que se carguen archivos importantes:
 

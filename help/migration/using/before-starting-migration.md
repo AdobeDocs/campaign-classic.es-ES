@@ -11,17 +11,18 @@ exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
 TQID: https://experienceleague.adobe.com/FBbSwRfACqdgT1S9aXlDvR4tqqBOuv1BnMYqASi4OoQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '323'
 ht-degree: 2%
-
 ---
-
 # Requisitos previos{#before-starting-migration}
 
 
@@ -43,16 +44,16 @@ El procedimiento de migración debe llevarse a cabo en **todos** los servidores 
 * En el caso de una **plataforma independiente** (modo de máquina única), la aplicación se migra en su totalidad.
 * En el caso de una **plataforma estándar** (empresa), los pasos de migración son los siguientes:
 
-   1. Migre el servidor de marketing.
-   1. Migre el servidor de correo (mta).
-   1. Migre los servidores de redirección y seguimiento (Apache/IIS).
+  1. Migre el servidor de marketing.
+  1. Migre el servidor de correo (mta).
+  1. Migre los servidores de redirección y seguimiento (Apache/IIS).
 
 * En el caso de **Cloud Messaging Platform**, los servidores de ejecución se hospedan en Adobe Campaign. Póngase en contacto con Adobe Campaign para coordinar la migración entre diferentes servidores.
 * En el caso de **Power Booster o Power Cluster Platform**, los pasos de migración son los siguientes:
 
-   1. Migre los servidores de redirección y seguimiento (Apache/IIS).
-   1. Migre los servidores Power Booster/Cluster.
-   1. Migre el servidor de marketing.
+  1. Migre los servidores de redirección y seguimiento (Apache/IIS).
+  1. Migre los servidores Power Booster/Cluster.
+  1. Migre el servidor de marketing.
 
 ## Contraseñas de usuario {#user-passwords}
 

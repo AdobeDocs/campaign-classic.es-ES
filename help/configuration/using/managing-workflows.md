@@ -4,22 +4,22 @@ title: Administración de flujos de trabajo
 description: Administración de flujos de trabajo
 feature: Workflows, Configuration
 role: Developer
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 617b0050-6b04-4c68-9f63-511baae99f41
 TQID: https://experienceleague.adobe.com/dpHtLw4PYGg35t-ihmw9LGUSbjgeNloUhGXp9KPJaRU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 142
-ht-degree: 16%
-
+source-wordcount: '133'
+ht-degree: 11%
 ---
-
 # Administración de flujos de trabajo{#managing-workflows}
 
 

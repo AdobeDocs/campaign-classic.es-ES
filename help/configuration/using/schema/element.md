@@ -7,17 +7,18 @@ exl-id: 60f15ae5-b2bd-48f9-aa45-8f795a3071aa
 TQID: https://experienceleague.adobe.com/MbBmc-H9eZfmqWy-vZb6dd-m-l0G-UxtY-HAboNURjc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 2035
+source-wordcount: '2035'
 ht-degree: 1%
-
 ---
-
 # elemento {#element--element}
 
 
@@ -65,11 +66,11 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
 
   Los valores accesibles son:
 
-   * &quot;ninguno&quot;: reconciliación sola. Esto significa que Adobe Campaign recuperará el elemento sin actualizarlo ni generar un error si no existe.
-   * &quot;insertOrUpdate&quot;: actualizar con inserción. Esto significa que Adobe Campaign actualizará el elemento o lo creará si no existe.
-   * &quot;insert&quot;: inserción. Esto significa que Adobe Campaign insertará el elemento sin comprobar si existe.
-   * &quot;update&quot;: update. Esto significa que Adobe Campaign actualizará el elemento o generará un error si no existe.
-   * &quot;eliminar&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará elementos.
+  * &quot;ninguno&quot;: reconciliación sola. Esto significa que Adobe Campaign recuperará el elemento sin actualizarlo ni generar un error si no existe.
+  * &quot;insertOrUpdate&quot;: actualizar con inserción. Esto significa que Adobe Campaign actualizará el elemento o lo creará si no existe.
+  * &quot;insert&quot;: inserción. Esto significa que Adobe Campaign insertará el elemento sin comprobar si existe.
+  * &quot;update&quot;: update. Esto significa que Adobe Campaign actualizará el elemento o generará un error si no existe.
+  * &quot;eliminar&quot;: eliminación. Esto significa que Adobe Campaign recuperará y eliminará elementos.
 
 * **advanced (boolean)**: cuando esta opción está activada (@advanced=&quot;true&quot;), permite ocultar el atributo en la lista de campos disponibles a los que se puede acceder para configurar una lista en un formulario.
 * **aggregate (string)**: permite copiar la definición de un `<element>` a través de otro esquema. Este atributo recibe una declaración de esquema en forma de &quot;namespace:name&quot;.
@@ -77,14 +78,14 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
 * **autopk (booleano)**: si esta opción está activada (autopk=&quot;true&quot;), se definirá automáticamente una clave única. Esta opción solo se puede utilizar en el elemento principal del esquema. Advertencia: Adobe Campaign solo garantiza que la clave generada sea única. No se garantiza que los valores clave sean consecutivos e incrementales.
 * **dataPolicy (cadena)**: permite especificar restricciones de aprobación en los valores permitidos en el campo SQL. Los valores de este atributo son:
 
-   * &quot;none&quot;: sin valor
-   * &quot;smartCase&quot;: letras mayúsculas
-   * &quot;lowerCase&quot;: todo en minúsculas
-   * &quot;upperCase&quot;: todas mayúsculas
-   * &quot;email&quot;: email address
-   * &quot;phone&quot;: número de teléfono
-   * &quot;identifier&quot;: nombre del identificador
-   * &quot;resIdentifier&quot;: nombre de archivo
+  * &quot;none&quot;: sin valor
+  * &quot;smartCase&quot;: letras mayúsculas
+  * &quot;lowerCase&quot;: todo en minúsculas
+  * &quot;upperCase&quot;: todas mayúsculas
+  * &quot;email&quot;: email address
+  * &quot;phone&quot;: número de teléfono
+  * &quot;identifier&quot;: nombre del identificador
+  * &quot;resIdentifier&quot;: nombre de archivo
 
 * **dbEnum (string)**: recibe el nombre interno de una enumeración &quot;cerrada&quot;. Los valores de enumeración deben definirse en `<srcschema>`.
 * **defOnDuplicate (booleano)**: si este atributo está activado, cuando se duplica un registro, el valor predeterminado (definido en @default) se vuelve a aplicar automáticamente al registro.
@@ -97,13 +98,13 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
 * **externalJoin (booleano)**: unión externa en un elemento de tipo &quot;vínculo&quot;.
 * **feature (string)**: define un campo de características: estos campos se utilizan para ampliar los datos de una tabla existente, pero con almacenamiento en una tabla anexa. Los valores aceptados son:
 
-   * &quot;compartido&quot;: el contenido se almacena en una tabla compartida por tipo de datos
-   * &quot;dedicado&quot;: el contenido se almacena en una tabla dedicada
+  * &quot;compartido&quot;: el contenido se almacena en una tabla compartida por tipo de datos
+  * &quot;dedicado&quot;: el contenido se almacena en una tabla dedicada
 
   Las tablas de características SQL se crean automáticamente en función del tipo de característica:
 
-   * dedicado: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
-   * compartido: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
+  * dedicado: `Ft_[name_of_the_schema_containing_the_characteristic]_[name_of_the_characteristic]`
+  * compartido: `Ft_[type_of_key_of_the_schema_containing_the_characteristic]_[type_of_the_characteristic]`
 
   Existen dos tipos de campos de características: campos simples en los que se autoriza un solo valor en la característica y campos de opción múltiple, en los que la característica está vinculada a un elemento de colección que puede contener varios valores.
 
@@ -120,11 +121,11 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
 
   Los valores accesibles son:
 
-   * &quot;definir&quot;: Adobe Campaign no elimina la entidad si se hace referencia a ella mediante el vínculo
-   * &quot;normal&quot;: al eliminar la incidencia de origen, se inicializan las claves del vínculo en la incidencia de destino (modo predeterminado), este tipo de integridad inicializa todas las claves externas
-   * &quot;propio&quot;: al eliminar la incidencia de origen, se déclencheur la eliminación de la incidencia de destino
-   * &quot;owncopy&quot;: similar a &quot;own&quot; (en caso de eliminación) o duplica ocurrencias (en caso de duplicación)
-   * &quot;neutral&quot;: no hace nada
+  * &quot;definir&quot;: Adobe Campaign no elimina la entidad si se hace referencia a ella mediante el vínculo
+  * &quot;normal&quot;: al eliminar la incidencia de origen, se inicializan las claves del vínculo en la incidencia de destino (modo predeterminado), este tipo de integridad inicializa todas las claves externas
+  * &quot;propio&quot;: al eliminar la incidencia de origen, se déclencheur la eliminación de la incidencia de destino
+  * &quot;owncopy&quot;: similar a &quot;own&quot; (en caso de eliminación) o duplica ocurrencias (en caso de duplicación)
+  * &quot;neutral&quot;: no hace nada
 
 * **label (cadena)**: etiqueta de elemento.
 * **labelSingular (cadena)**: etiqueta (forma singular) del elemento utilizado en algunas partes de la interfaz.
@@ -134,10 +135,10 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
 
   Cuando se escribe el esquema en la base de datos, Adobe Campaign agrega automáticamente prefijos al nombre del campo.
 
-   * &quot;i&quot;: prefijo para el tipo &quot;entero&quot;.
-   * &quot;d&quot;: prefijo para el tipo &quot;double&quot;.
-   * &quot;s&quot;: prefijo del tipo de cadena de caracteres.
-   * &quot;ts&quot;: prefijo para el tipo &quot;fecha&quot;.
+  * &quot;i&quot;: prefijo para el tipo &quot;entero&quot;.
+  * &quot;d&quot;: prefijo para el tipo &quot;double&quot;.
+  * &quot;s&quot;: prefijo del tipo de cadena de caracteres.
+  * &quot;ts&quot;: prefijo para el tipo &quot;fecha&quot;.
 
   Para definir el nombre de la tabla de forma autónoma, debe utilizar el atributo &quot;@sqltable&quot; en la definición del elemento de esquema principal.
 
@@ -146,9 +147,9 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
 * **pkSequence (string)**: recibe el nombre de la secuencia que se va a utilizar para calcular una clave de incremento automático. Este atributo solo se puede utilizar si se define una clave de incremento automático en el elemento raíz del esquema.
 * **pkgStatus (string)**: durante las exportaciones de paquetes, los valores se tendrán en cuenta como una función del valor de este atributo:
 
-   * &quot;always&quot;: el elemento siempre estará presente
-   * &quot;never&quot;: el elemento nunca estará presente
-   * &quot;default (or Nothing)&quot;: el elemento se exporta a menos que sea el elemento predeterminado o si no es un campo interno y no es compatible con otras instancias
+  * &quot;always&quot;: el elemento siempre estará presente
+  * &quot;never&quot;: el elemento nunca estará presente
+  * &quot;default (or Nothing)&quot;: el elemento se exporta a menos que sea el elemento predeterminado o si no es un campo interno y no es compatible con otras instancias
 
 * **ref (string)**: este atributo define una referencia a un elemento >element> compartido por varios esquemas (factorización de definición). La definición no se copia en el esquema actual.
 * **obligatorio (booleano)**: si este atributo está activado (@required=&quot;true&quot;), el campo se resalta en la interfaz. La etiqueta del campo será de color rojo en los formularios.
@@ -157,8 +158,8 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
 
   Los valores posibles son:
 
-   * &quot;single&quot; : vínculo de tipo 1-1 simple
-   * &quot;unbound&quot;: vínculo de colección de tipo 1-N
+  * &quot;single&quot; : vínculo de tipo 1-1 simple
+  * &quot;unbound&quot;: vínculo de colección de tipo 1-N
 
   De forma predeterminada, si el atributo no se especifica durante la creación del vínculo, la cardinalidad es 1-N.
 
@@ -181,32 +182,32 @@ Existen cuatro tipos de elementos `<element>` en Adobe Campaign:
 
   Lista de tipos disponibles:
 
-   * CUALQUIERA
-   * cubo
-   * mancha
-   * booleano
-   * byte
-   * CDATA
-   * datetime
-   * datetimetz
-   * datetimenotz
-   * fecha
-   * doble
-   * enum
-   * flotante
-   * html
-   * int64
-   * vínculo
-   * largo
-   * nota
-   * MNTOKEN
-   * porcentaje
-   * clave principal
-   * corto
-   * cadena
-   * tiempo
-   * intervalo de tiempo
-   * uuid
+  * CUALQUIERA
+  * clase
+  * mancha
+  * booleano
+  * byte
+  * CDATA
+  * datetime
+  * datetimetz
+  * datetimenotz
+  * fecha
+  * doble
+  * enum
+  * flotante
+  * html
+  * int64
+  * vínculo
+  * largo
+  * nota
+  * MNTOKEN
+  * porcentaje
+  * clave principal
+  * corto
+  * cadena
+  * tiempo
+  * intervalo de tiempo
+  * uuid
 
 * **unbound (booleano)**: si el atributo está activado (unbound=&quot;true&quot;), el vínculo se declara como un elemento de colección para una cardinalidad 1-N.
 * **userEnum (string)**: recibe el nombre interno de una enumeración &quot;open&quot;. El usuario puede definir los valores de enumeración en la interfaz.

@@ -8,18 +8,20 @@ exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 TQID: https://experienceleague.adobe.com/Htrpo3hCrbp9H7cQD4KWTnMbA-rjgM0K1PFHh-Fak1M
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1620
+workflow-type: tm+mt
+source-wordcount: '1650'
 ht-degree: 100%
-
 ---
-
 # Consulta{#query}
 
 
@@ -27,7 +29,7 @@ ht-degree: 100%
 ## Creación de una consulta {#creating-a-query}
 
 Una consulta le permite seleccionar un objetivo según los criterios. Puede asociar un código de segmento al resultado de la consulta e insertar datos adicionales en él.
-Para obtener más información sobre las muestras de consultas, consulte esta [sección](querying-recipient-table.md).
+Para obtener más información sobre las muestras de consultas, consulte [esta sección](querying-recipient-table.md).
 
 >[!NOTE]
 >
@@ -231,11 +233,11 @@ Para obtener más información sobre dimensiones de filtrado, consulte [esta sec
 * Cree una plataforma de desarrollo con volúmenes, parámetros y arquitectura similares a los de la plataforma de producción.
 * Utilice los mismos valores para los entornos de desarrollo y producción. Utilice lo mismo en la medida de lo posible:
 
-   * Sistema operativo,
-   * Versión,
-   * Datos,
-   * Aplicación,
-   * Volúmenes.
+  * Sistema operativo,
+  * Versión,
+  * Datos,
+  * Aplicación,
+  * Volúmenes.
 
   >[!NOTE]
   >

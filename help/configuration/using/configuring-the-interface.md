@@ -4,25 +4,27 @@ title: Configuración de la interfaz
 description: Obtenga información sobre cómo configurar la interfaz de Campaign
 feature: Application Settings
 role: Developer
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 TQID: https://experienceleague.adobe.com/KUwDwl9noj6RJa0wn6ZEVnCBRLdOUMoSTf-5b1PrH-g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 297
-ht-degree: 5%
-
+source-wordcount: '288'
+ht-degree: 2%
 ---
-
 # Configuración de la interfaz{#configuring-the-interface}
 
 Para ver y dialogar con la nueva tabla de destinatarios en la interfaz de Adobe Campaign, aplique los siguientes pasos:

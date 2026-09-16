@@ -3,7 +3,7 @@ product: campaign
 title: Configuración de IMS
 description: Descubra más información sobre cómo conectar con un ID de Adobe
 feature: Configuration
-badge-v7-prem: label="On-premise/híbrido solo" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Se aplica solo a implementaciones On-premise e híbridas"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Applies to on-premise and hybrid deployments only"
 audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
@@ -11,22 +11,24 @@ exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
 feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 349
+workflow-type: tm+mt
+source-wordcount: '368'
 ht-degree: 100%
-
 ---
-
 # Configuración de IMS{#configuring-ims}
 
 >[!IMPORTANT]
 >
->Como usuario de Managed Services o alojado en Campaign, su implementación de Adobe IMS es propiedad de Adobe. Los pasos que se describen a continuación solo se aplican a clientes locales e híbridos.
-> La implementación de Adobe IMS solo debe ser llevada a cabo por administradores técnicos de Adobe. Póngase en contacto con su representante de Adobe para iniciar el proceso de implementación.
+>Como usuario de Managed Services o alojado en Campaign, la implementación de Adobe IMS es propiedad de Adobe. Los pasos que se describen a continuación solo se aplican a clientes locales e híbridos.
+> La implementación de Adobe IMS solo deben realizarla los administradores técnicos de Adobe. Póngase en contacto con su representante de Adobe para iniciar el proceso de implementación.
 
 ## Requisitos previos {#prerequisites}
 

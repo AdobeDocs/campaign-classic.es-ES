@@ -3,7 +3,7 @@ product: campaign
 title: Configuración del Gestor de respuestas de Campaign
 description: Obtenga información sobre cómo configurar el Gestor de respuestas de Campaign
 feature: Campaigns
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: campaign
 content-type: reference
 topic-tags: response-manager
@@ -11,23 +11,29 @@ exl-id: 1a115ca9-2532-4bd3-be77-814e43250c51
 TQID: https://experienceleague.adobe.com/P89PBe23uuRmGX5vb6lCNd8kTd24peaZcKsTRAj2pnw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
+    internal-label: Schema extension
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
   - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
+    internal-label: Response Management
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 760
+workflow-type: tm+mt
+source-wordcount: '751'
 ht-degree: 100%
-
 ---
-
 # Configuración del Gestor de respuestas de Campaign{#configuration}
 
 
@@ -36,7 +42,7 @@ Esta sección está destinada a las personas responsables de configurar la gesti
 
 Esto le permite comprender cómo adaptar el modelo de datos estándar a la naturaleza específica de una tabla de transacciones externa a Adobe Campaign con una tabla simple. Esta tabla simple puede coincidir con tablas simples disponibles en Adobe Campaign o con otra tabla.
 
-La hipótesis de medición se lanza desde el flujo de trabajo del proceso de operación (**[!UICONTROL operationMgt]**). Cada hipótesis representa un proceso independiente ejecutado de forma asíncrona con un estado de ejecución (en edición, pendiente, terminado, fallido, etc.)  y controlado por un planficador que administra las restricciones de prioridad, la restricción de la cantidad de procesos simultáneos, la página de baja actividad y la ejecución automática con la frecuencia.
+La hipótesis de medición se lanza desde el flujo de trabajo del proceso de operación (**[!UICONTROL operationMgt]**). Cada hipótesis representa un proceso independiente ejecutado de forma asíncrona con un estado de ejecución (en edición, pendiente, terminado, fallido, etc.) y controlado por un planficador que administra las restricciones de prioridad, la restricción de la cantidad de procesos simultáneos, la página de baja actividad y la ejecución automática con la frecuencia.
 
 ## Configuración de esquemas {#configuring-schemas}
 

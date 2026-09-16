@@ -8,25 +8,33 @@ exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 TQID: https://experienceleague.adobe.com/ktbzQKuNSjctRAyH-hbZyYajuoZFJy4Yt01y34X-tnk
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1038
-ht-degree: 20%
-
+source-wordcount: '1054'
+ht-degree: 17%
 ---
-
 # Actualización del nuevo servidor de envío {#acc-deliverability}
 
 A partir de la versión [v7.2.2](../../rn/using/latest-release.md#release-7-2-2), Adobe Campaign depende de un nuevo servidor de entrega que ofrece alta disponibilidad y soluciona problemas de cumplimiento de seguridad. Campaign Classic ahora sincroniza las reglas de entrega, los broadlogs y la dirección de supresión desde y hacia el nuevo servidor de entrega. El antiguo servidor de capacidad de entrega se desactivará el 31 de agosto de 2022.
@@ -64,7 +72,7 @@ Como parte de la nueva integración del servidor de entrega, Campaign debe comun
 
 >[!AVAILABILITY]
 >
-> Adobe va a declarar la credencial Cuenta de servicio (JWT) como obsoleta, las integraciones de Campaign con aplicaciones y soluciones de Adobe ahora dependen de la credencial OAuth de servidor a servidor. </br>
+> La credencial de cuenta de servicio (JWT) está en desuso en Adobe. Las integraciones de Campaign con soluciones y aplicaciones de Adobe ahora deben depender de la credencial de servidor a servidor OAuth. </br>
 >
 > * Si ha implementado integraciones de entrada con Campaign, debe migrar su Cuenta técnica como se detalla en [esta documentación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Las [credenciales de la cuenta de servicio (JWT) existentes](../../integrations/using/oauth-technical-account.md) seguirán funcionando hasta el 27 de enero de 2025. </br>
 >

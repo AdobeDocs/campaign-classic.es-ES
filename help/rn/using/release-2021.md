@@ -9,28 +9,37 @@ exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
 TQID: https://experienceleague.adobe.com/AmqYU4ywJ6B6sus7q6BAHsG7cPGLZRH4m12hoqw68as
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2661
+workflow-type: tm+mt
+source-wordcount: '2670'
 ht-degree: 100%
-
 ---
-
 # Versiones de 2021{#release-2021}
 
 ## Versión 7.1 (21.1)
@@ -176,7 +185,7 @@ _5 de junio de 2021_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Ahora puede conectar la instancia de Adobe Campaign Classic a la base de datos externa Google BigQuery. Esta conexión se administra mediante una nueva cuenta externa.
+<td> <p>Ahora puede conectar la instancia de Adobe Campaign Classic a la base de datos externa Google Big Query. Esta conexión se administra mediante una nueva cuenta externa.
 </p>
 <p>Para obtener más información, consulte la <a href="../../installation/using/configure-fda-google-big-query.md">documentación detallada</a>.</p>
 </td> 

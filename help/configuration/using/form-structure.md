@@ -4,26 +4,29 @@ title: Estructura del formulario
 description: Estructura del formulario
 feature: Application Settings
 role: Developer
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 TQID: https://experienceleague.adobe.com/zLWHKhH-T-g54pQDAhbOC4v7JvrX-LM-Vn8lCXE-aYI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 2407
+source-wordcount: '2402'
 ht-degree: 4%
-
 ---
-
 # Estructura del formulario{#form-structure}
 
 
@@ -198,7 +201,7 @@ El contenedor principal está definido por el atributo **type=&quot;bloc de nota
 
 >[!NOTE]
 >
->La característica **style=&quot;down|up**(de forma predeterminada)**&quot;** fuerza la colocación vertical de las etiquetas de tabulación por debajo o por encima del control. Esta función es opcional.
+>La característica **style=&quot;down|up**(de forma predeterminada)**&quot;** fuerza la colocación vertical de las etiquetas de tabulación por debajo o por encima del control. Esta funcionalidad es opcional.
 >`<container style="down" type="notebook">  … </container>`
 
 #### Lista de iconos {#icon-list}
@@ -315,9 +318,9 @@ También puede ordenar la lista con el elemento **`<orderby>`**:
 * **noAutoComplete**: deshabilita el escritura anticipada (con el valor &quot;true&quot;)
 * **createMode**: crea el vínculo sobre la marcha si no existe. Los valores posibles son:
 
-   * **none**: deshabilita la creación. Si el vínculo no existe, aparece un mensaje de error
-   * **inline**: crea el vínculo con el contenido en el campo de edición
-   * **edición**: muestra el formulario de edición en el vínculo. Cuando se valida el formulario, los datos se guardan (modo predeterminado)
+  * **none**: deshabilita la creación. Si el vínculo no existe, aparece un mensaje de error
+  * **inline**: crea el vínculo con el contenido en el campo de edición
+  * **edición**: muestra el formulario de edición en el vínculo. Cuando se valida el formulario, los datos se guardan (modo predeterminado)
 
 * **noZoom**: no hay ningún formulario de edición en el vínculo (con el valor &quot;true&quot;)
 * **formulario**: sobrecarga el formulario de edición del elemento de destino

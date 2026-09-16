@@ -2,27 +2,31 @@
 product: campaign
 title: Seguimiento de las visitas en una aplicación web
 description: Seguimiento de las visitas en una aplicación web
-badge-v8: label="También se aplica a v8" type="Positive" tooltip="También se aplica a Campaign v8"
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Reporting, Monitoring
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 TQID: https://experienceleague.adobe.com/TtUrQKKVdMc4ZttsgFG9ly8hTCdqCnb3bMm2Tn3E6ww
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 411
+workflow-type: tm+mt
+source-wordcount: '402'
 ht-degree: 100%
-
 ---
-
 # Seguimiento de las visitas en una aplicación web{#tracking-a-web-application}
 
 
@@ -44,9 +48,9 @@ Las principales mejoras incluidas en esta versión son las siguientes:
 
   Los indicadores principales son los siguientes:
 
-   * **Tasa de conversión**: número de personas que han realizado todos los pasos de una ruta de navegación.
-   * **Tasa de rechazo**: número de personas que solo han realizado el primer paso.
-   * **Canal de conversión**: tasa de pérdida entre cada paso.
+  * **Tasa de conversión**: número de personas que han realizado todos los pasos de una ruta de navegación.
+  * **Tasa de rechazo**: número de personas que solo han realizado el primer paso.
+  * **Embudo de conversión**: tasa de pérdida entre cada paso.
 
   Además, un gráfico de tipo **sectorial** muestra la población según su fuente.
 
