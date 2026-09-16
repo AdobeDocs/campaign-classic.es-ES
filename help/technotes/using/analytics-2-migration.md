@@ -51,8 +51,8 @@ Si se encuentra en una implementación **on-premise o híbrida**, complete los s
       ```
 
    1. Incluya Adobe Analytics en la lista de permitidos en su servidor SFTP, ya que las exportaciones de remarketing solo se inician desde un conjunto fijo de intervalos de IP de Adobe:
-      * [Busque las direcciones IP actuales de recopilación de datos de Adobe Analytics](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses){target="_blank"} y agréguelas a la lista de permitidos del servidor SFTP. Las exportaciones de Analytics basadas en FTP (incluidas las fuentes de datos) solo se originan en direcciones IPv4 de las regiones de Londres, Oregón y Singapur.
-      * [Recupere la clave pública de Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-18141){target="_blank"} y agréguela al archivo `authorized_keys` de su servidor SFTP para que Analytics pueda autenticarse.
+      * [Busque las direcciones IP actuales de recopilación de datos de Adobe Analytics](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/ip-addresses){target="_blank"} y agréguelas a la lista de permitidos del servidor SFTP. Las exportaciones de Analytics basadas en FTP (incluidas las fuentes de datos) solo se originan en direcciones IPv4 de las regiones de Londres, Oregón y Singapur.
+      * [Recupere la clave pública de Adobe Analytics](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-18141){target="_blank"} y agréguela al archivo `authorized_keys` de su servidor SFTP para que Analytics pueda autenticarse.
 1. Habilite la marca de característica `FEATUREFLAG_USE_ANALYTICS_20_API` en su instancia creando o configurando `longvalue` de la opción en `1` en [!UICONTROL xtkOption], en **[!UICONTROL Administration]> [!UICONTROL Platform] >[!UICONTROL Options]** en el árbol de Campaign Explorer. Este paso es obligatorio independientemente del caso de uso anterior que se le aplique.
 1. Valide la migración utilizando cada caso de uso que se aplique a su instancia (envíe una campaña de prueba, compruebe que los indicadores se dirijan a Analytics y confirme los datos de remarketing si corresponde) antes de eliminar cualquier conectividad antigua.
 
@@ -81,7 +81,7 @@ Para crear el conjunto de clasificaciones:
 
 1. Haga clic **[!UICONTROL Save]**.
 
-Campaign descubrirá automáticamente este conjunto de clasificaciones cuando configure la cuenta externa en el siguiente paso. Para obtener más información sobre los conjuntos de clasificaciones, consulte la [documentación de Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
+Campaign descubrirá automáticamente este conjunto de clasificaciones cuando configure la cuenta externa en el siguiente paso. Para obtener más información sobre los conjuntos de clasificaciones, consulte la [documentación de Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
 
 ## ¿Necesita ayuda? {#need-help}
 

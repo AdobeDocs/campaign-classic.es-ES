@@ -27,7 +27,7 @@ La instalación de un servidor intermediario sigue el mismo proceso que la insta
 
 >[!CAUTION]
 >
->Una vez que se haya configurado el servidor intermediario y se hayan ejecutado [flujos de trabajo de sincronización](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"} por primera vez, asegúrese de no actualizar el nombre interno de las cuentas externas intermediarias.
+>Una vez que se haya configurado el servidor intermediario y se hayan ejecutado [flujos de trabajo de sincronización](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=es){target="_blank"} por primera vez, asegúrese de no actualizar el nombre interno de las cuentas externas intermediarias.
 
 ## Pasos para instalar y configurar una instancia {#steps-for-installing-and-configuring-an-instance}
 
