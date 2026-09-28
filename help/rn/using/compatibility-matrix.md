@@ -27,9 +27,9 @@ subfeature_v2:
     internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
     internal-label: Adobe Analytics integration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 0d653d3130836e4aa8161780d80fc1502968cfdf
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '910'
 ht-degree: 100%
 ---
 # Matriz de compatibilidad {#compatibility-matrix}
@@ -86,12 +86,10 @@ Como cliente On-Premise/híbrido, debe instalar Adobe Campaign en uno de los sis
 <td>
 <p>2022</p>
 <p>2019</p>
-<p>2016</p>
 </td>
 <td>
 <p>Versión 7.4</p>
 <p>Versión 7.2</p>
-<p></p>
 </td>
 </tr>
 </tbody>
@@ -452,12 +450,10 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 <td>
 <p>2022</p>
 <p>2019</p>
-<p>2016</p>
 </td>
 <td>
 <p>Versión 7.4.1</p>
 <p>Versión 7.2.1</p>
-<p></p>
 </tbody>
 </table>
 
@@ -465,7 +461,7 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 
 La última versión en tiempo de ejecución de Microsoft Edge WebView2 es obligatoria en la consola del cliente de Campaign.
 
-Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es).
+Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download).
 
 
 ## SDK móvil {#MobileSDK}
