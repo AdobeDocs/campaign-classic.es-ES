@@ -29,9 +29,9 @@ subfeature_v2:
     internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
     internal-label: Adobe Analytics integration
-source-git-commit: 92ed76435fca32fc4ad96aa6a5a4c1fed0b3ca08
+source-git-commit: 386b8ebdc7d46e8b3003872932d8104f2dd3f933
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1225'
 ht-degree: 98%
 ---
 # Último lanzamiento {#latest-release}
@@ -54,7 +54,7 @@ Se requiere un reinicio del servidor de Adobe Campaign (nlserver) para cargar la
 
 ### Versión 9401 {#build-9401}
 
-[!BADGE Obsoleto]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Obsoleto"}
+[!BADGE Disponibilidad general]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Disponibilidad general"}
 
 _25 de agosto de 2026_
 
