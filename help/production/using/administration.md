@@ -23,7 +23,7 @@ subfeature_v2:
     internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
     internal-label: Monitoring guidelines
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 72ba334fe01dfcf701438e8550ae14abae7bd323
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 5%
@@ -46,9 +46,9 @@ Los siguientes comandos se utilizan para iniciar y cerrar el servicio de Adobe C
   * **/etc/init.d/nlserver6 start**
   * **/etc/init.d/nlserver6 stop**
 
->[!NOTE]
->
->A partir de la versión 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): **systemctl start nlserver** / **systemctl stop nlserver**
+  >[!NOTE]
+  >
+  >A partir de la versión 20.1, se recomienda utilizar el siguiente comando en su lugar (para Linux): **systemctl start nlserver** / **systemctl stop nlserver**
 
 Esta es una lista de los comandos de administración habituales accesibles en Linux (como **Adobe Campaign**):
 
