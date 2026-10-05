@@ -8,10 +8,20 @@ audience: production
 content-type: reference
 topic-tags: troubleshooting
 exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
-TQID: https://experienceleague.adobe.com/THf7A2u5ktNphqdI8K8ePzLNqCdyCmcqWN0OpYJfVh0
+TQID: 'https://experienceleague.adobe.com/THf7A2u5ktNphqdI8K8ePzLNqCdyCmcqWN0OpYJfVh0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -21,13 +31,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-feature_v2: []
-subfeature_v2:
-  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
-    internal-label: Performance Monitoring
-  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
-    internal-label: Monitoring guidelines
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 18%
@@ -88,7 +92,7 @@ A continuación se muestra una lista de prácticas recomendadas y artículos rel
   >La participación del equipo de entregabilidad se basa en el contrato y los clientes deben ponerse en contacto con su representante de Adobe para obtener información relacionada con la participación en la entregabilidad.
 
 * Configuración de afinidad IP: una configuración de afinidad IP incorrecta puede detener por completo los correos electrónicos (nombre de operador/afinidad incorrecto en la configuración) o reducir el rendimiento (pequeño número de IP en la afinidad). Consulte [esta página](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
-* Tamaño del correo electrónico: el tamaño del correo electrónico desempeña un papel importante en el rendimiento. El tamaño de correo electrónico máximo recomendado es de 60 KB. Consulte [esta página](https://helpx.adobe.com/es/legal/product-descriptions/campaign.html). En el informe [Rendimiento de entrega](../../reporting/using/global-reports.md#delivery-throughput), compruebe el número de bytes transferidos por hora.
+* Tamaño del correo electrónico: el tamaño del correo electrónico desempeña un papel importante en el rendimiento. El tamaño de correo electrónico máximo recomendado es de 60 KB. Consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign.html). En el informe [Rendimiento de entrega](../../reporting/using/global-reports.md#delivery-throughput), compruebe el número de bytes transferidos por hora.
 * Gran número de destinatarios no válidos: cuando hay un gran número de destinatarios no válidos, puede afectar al rendimiento. El MTA sigue reintentando enviar correos electrónicos a destinatarios no válidos. Asegúrese de que la base de datos esté bien mantenida.
 * Cantidad de personalización: si una entrega permanece en &quot;Personalization en curso&quot;, compruebe el JavaScript utilizado en los bloques de personalización.
 

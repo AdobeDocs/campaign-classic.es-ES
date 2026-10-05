@@ -8,9 +8,20 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-feature_v2: []
-subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 4%
@@ -27,7 +38,7 @@ La instalación de un servidor intermediario sigue el mismo proceso que la insta
 
 >[!CAUTION]
 >
->Una vez que se haya configurado el servidor intermediario y se hayan ejecutado [flujos de trabajo de sincronización](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=es){target="_blank"} por primera vez, asegúrese de no actualizar el nombre interno de las cuentas externas intermediarias.
+>Una vez que se haya configurado el servidor intermediario y se hayan ejecutado [flujos de trabajo de sincronización](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"} por primera vez, asegúrese de no actualizar el nombre interno de las cuentas externas intermediarias.
 
 ## Pasos para instalar y configurar una instancia {#steps-for-installing-and-configuring-an-instance}
 
@@ -125,7 +136,7 @@ Es posible que varias instancias de envío compartan una instancia de intermedia
 
    ![](assets/mid_recette_user_restrictions.png)
 
-1. Reinicie el módulo web con el siguiente comando: **&#x200B; web**.
+1. Reinicie el módulo web con el siguiente comando: ** web**.
 
 Debe cambiar la configuración del servidor intermediario en el archivo serverConf.xml. La línea siguiente se debe agregar a la sección &quot;Management of affinities with IP addresses&quot;, en la línea existente:
 
@@ -139,9 +150,9 @@ El atributo &quot;@name&quot; debe respetar las siguientes reglas:
 
 &quot;marketing_account_operator_name&quot; hace referencia al nombre interno de la cuenta intermediaria declarada en la instancia intermediaria.
 
-&#39;affinity_name&#39; se relaciona con el nombre arbitrario dado a la afinidad. Este nombre debe ser único. Los caracteres autorizados son `[a-z]`&#x200B;`[A-Z]`&#x200B;`[0-9]`. El objetivo es declarar un grupo de direcciones IP públicas.
+&#39;affinity_name&#39; se relaciona con el nombre arbitrario dado a la afinidad. Este nombre debe ser único. Los caracteres autorizados son `[a-z]``[A-Z]``[0-9]`. El objetivo es declarar un grupo de direcciones IP públicas.
 
-&#39;affinity_group&#39; relaciona la subafinidad declarada en la asignación de destino utilizada en cada uno de los envíos. La última parte, incluido &quot;.&quot;, se omite si no hay subafinidad. Los caracteres autorizados son `[a-z]`&#x200B;`[A-Z]`&#x200B;`[0-9]`.
+&#39;affinity_group&#39; relaciona la subafinidad declarada en la asignación de destino utilizada en cada uno de los envíos. La última parte, incluido &quot;.&quot;, se omite si no hay subafinidad. Los caracteres autorizados son `[a-z]``[A-Z]``[0-9]`.
 
 Debe detener y reiniciar el servidor para que se tenga en cuenta la modificación.
 
