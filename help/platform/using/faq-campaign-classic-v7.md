@@ -20,6 +20,8 @@ feature_v2:
     internal-label: Profiles and audiences
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
     internal-label: Profiles
@@ -44,7 +46,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '1517'
 ht-degree: 8%
@@ -55,7 +57,7 @@ ht-degree: 8%
 >
 >Estas preguntas frecuentes responden a preguntas específicas sobre la arquitectura de Adobe Campaign Classic v7, los modelos de implementación y las funciones específicas de la versión 7.
 >
->**Para obtener respuestas completas a las preguntas comunes sobre Campaign** (flujos de trabajo, envíos, audiencias, creación de informes, personalización, etc.), consulte [**Preguntas frecuentes completas sobre Campaign v8**](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-faq-comprehensive){target="_blank"}, que proporciona respuestas detalladas organizadas por temas.
+>**Para obtener respuestas completas a las preguntas comunes sobre Campaign** (flujos de trabajo, envíos, audiencias, creación de informes, personalización, etc.), consulte [**Preguntas frecuentes completas sobre Campaign v8**](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-faq-comprehensive){target="_blank"}, que proporciona respuestas detalladas organizadas por temas.
 
 ## Arquitectura e implementación de Campaign Classic v7 {#v7-architecture}
 
@@ -73,7 +75,7 @@ Cada modelo de implementación tiene diferentes capacidades y responsabilidades 
 
 [Haga clic aquí para obtener más información](../../installation/using/hosting-models.md) acerca de los modelos de alojamiento y sus diferencias.
 
-**Nota:** Campaign v8 está disponible exclusivamente como Cloud Services administrados. [Más información sobre la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html?lang=es){target="_blank"}.
+**Nota:** Campaign v8 está disponible exclusivamente como Cloud Services administrados. [Más información sobre la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}.
 
 +++
 
@@ -104,7 +106,7 @@ La migración a Adobe Managed Services ofrece una escalabilidad y seguridad mejo
 
 **Introducción:** Póngase en contacto con su representante de Adobe para evaluar su entorno y desarrollar un plan de migración detallado con Adobe Professional Services.
 
-Más información sobre [migrar a Managed Services](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605?profile.language=es){target="_blank"}.
+Más información sobre [migrar a Managed Services](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"}.
 
 +++
 
@@ -130,7 +132,7 @@ La versión 8 de Campaign es la plataforma estratégica de Adobe, ideal para org
 
 Más información:
 
-* [Información general de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html?lang=es){target="_blank"}
+* [Información general de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}
 * [Transición de Campaign Classic v7 a v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/v7-to-v8.html){target="_blank"}
 * [Preguntas frecuentes completas sobre Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=es){target="_blank"}
 
@@ -288,7 +290,7 @@ Consulte las [**Preguntas frecuentes completas sobre la versión 8 de Campaign**
 
 **Comunidad y soporte técnico:**
 
-* [Foros de la comunidad Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){target="_blank"}
+* [Foros de la comunidad Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 * [Asistencia de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
 +++

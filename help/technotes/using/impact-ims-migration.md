@@ -11,6 +11,8 @@ product_v2:
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
     internal-label: Troubleshooting
@@ -21,7 +23,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -111,7 +113,7 @@ Ya no puede crear, editar, actualizar ni eliminar operadores con autenticación 
 
 Como consecuencia, estas acciones se han deshabilitado en la consola del cliente.
 
-La administración de operadores está centralizada en Adobe Admin Console y las siguientes tareas se gestionan ahora exclusivamente a través de esta consola. Obtenga información sobre cómo crear usuarios y asignar permisos en [Documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}.
+La administración de operadores está centralizada en Adobe Admin Console y las siguientes tareas se gestionan ahora exclusivamente a través de esta consola. Obtenga información sobre cómo crear usuarios y asignar permisos en [Documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}.
 
 ### Opciones no disponibles {#unavailable-migration}
 

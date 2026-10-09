@@ -18,6 +18,8 @@ feature_v2:
     internal-label: Technote
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
     internal-label: Analytics integration
@@ -26,7 +28,7 @@ subfeature_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 2%
@@ -44,7 +46,7 @@ El equipo de Adobe Campaign realizará la actividad de actualización de segurid
 
 Se espera que esta actualización se ejecute automáticamente fuera del horario laboral normal para que pueda seguir utilizando el servicio de Campaign sin interrupciones.
 
-Adobe actualizará primero las instancias que no sean de producción y, a continuación, se actualizarán las instancias de producción. Dado que se trata de un proceso de actualización automática propiedad de Adobe, no se requiere ninguna acción por su parte. Sin embargo, si experimenta algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support).
+Adobe actualizará primero las instancias que no sean de producción y, a continuación, se actualizarán las instancias de producción. Dado que se trata de un proceso de actualización automática propiedad de Adobe, no se requiere ninguna acción por su parte. Sin embargo, si experimenta algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
 
 
 >[!NOTE]
@@ -75,7 +77,7 @@ Adobe actualizará primero las instancias que no sean de producción y, a contin
 
 * **¿Qué validaciones deben ejecutar los clientes?**
 
-  No se necesitan pruebas específicas para esta actualización de seguridad. Si se observa algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support).
+  No se necesitan pruebas específicas para esta actualización de seguridad. Si se observa algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
 
 
 * **¿Puedo solicitar un cambio de fecha y hora en el intervalo programado de actualización de seguridad?**
@@ -83,4 +85,4 @@ Adobe actualizará primero las instancias que no sean de producción y, a contin
   Como se trata de una corrección de seguridad, le recomendamos encarecidamente que se adapte a la programación existente.
 
 
-Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support).
+Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).

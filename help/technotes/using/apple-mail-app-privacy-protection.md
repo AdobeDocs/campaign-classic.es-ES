@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Technote
   - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
     internal-label: Security and privacy
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
@@ -39,7 +41,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '2101'
 ht-degree: 1%
@@ -125,7 +127,7 @@ En este ejemplo, un experto en marketing desea enviar una oferta de recompensa a
 
   ![](assets/identify-email-open-tracking-2.png)
 
-* Puede utilizar un filtro predefinido. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=es){target="_blank"}.
+* Puede utilizar un filtro predefinido. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
 
   ![](assets/identify-email-open-tracking-3.png)
 
