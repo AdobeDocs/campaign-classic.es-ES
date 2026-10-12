@@ -58,8 +58,8 @@ Una vez creado y configurado el correo electrónico, puede enviarlo al destinata
 
 Las siguientes secciones detallan los ajustes y las configuraciones específicas para enviar correos electrónicos:
 <!--
-* [Generating the mirror page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/mirror-page){target="_blank"} (Campaign v8 documentation)
-* [Email BCC](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"} (Campaign v8 documentation)
+* [Generating the mirror page](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/emails/mirror-page){target="_blank"} (Campaign v8 documentation)
+* [Email BCC](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"} (Campaign v8 documentation)
 -->
 * [Parámetros de correo electrónico](email-parameters.md)
 * [Envío de correos con el MTA mejorado](sending-with-enhanced-mta.md)
