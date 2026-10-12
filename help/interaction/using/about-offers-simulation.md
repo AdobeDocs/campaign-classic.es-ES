@@ -37,7 +37,7 @@ La simulación tiene en cuenta los contextos y las reglas de idoneidad aplicadas
 
 Para aprender a simular una oferta, lea los pasos a continuación.
 
-![](assets/do-not-localize/how-to-video.png)[ También puede ver este vídeo](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com).
+![](assets/do-not-localize/how-to-video.png) [&#x200B; También puede ver este vídeo](https://helpx.adobe.com/campaign/classic/how-to/simulate-offer-in-acv6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/introduction/collection.ccx.js&ref=helpx.adobe.com).
 
 ## Pasos principales para crear una simulación {#main-steps-for-creating-a-simulation}
 
