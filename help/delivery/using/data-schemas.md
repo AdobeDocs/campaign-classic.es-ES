@@ -48,7 +48,7 @@ ht-degree: 94%
 
 A continuación se muestran algunos principios generales sobre el uso de esquemas de datos en Adobe Campaign.
 
-Para obtener más información sobre la creación y configuración de esquemas de datos en Adobe Campaign, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentación de Campaign v8).
+Para obtener más información sobre la creación y configuración de esquemas de datos en Adobe Campaign, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentación de Campaign v8).
 
 ## Estructura del esquema {#schema-structure}
 

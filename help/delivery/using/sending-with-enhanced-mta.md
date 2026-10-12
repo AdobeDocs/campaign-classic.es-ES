@@ -154,7 +154,7 @@ Un envío no se puede detener una vez transferido al MTA mejorado, aunque se mue
 
 El gráfico de rendimiento del envío de Campaign ya no mostrará el rendimiento a los destinatarios del correo electrónico. Muestra la velocidad de rendimiento del reenvío de sus mensajes desde Campaign hasta el servidor de correo mejorado.
 
-Para obtener más información sobre el rendimiento del envío, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (Documentación de Campaign v8).
+Para obtener más información sobre el rendimiento del envío, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (Documentación de Campaign v8).
 
 ### Reintentos
 

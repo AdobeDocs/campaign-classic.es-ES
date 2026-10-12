@@ -195,7 +195,7 @@ A continuación se muestran los nombres de carga útil de FCM para personalizar 
 
 Deberá ampliar **appsubscriptionRcp** para definir nuevos campos adicionales que almacenen parámetros de la aplicación en la base de datos de Campaign. Estos campos se utilizan, por ejemplo, para la personalización. Para ello, haga lo siguiente:
 
-1. Cree una extensión del esquema **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** y defina los campos nuevos. Obtenga más información acerca de la extensión de esquema en [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentación de Campaign v8)
+1. Cree una extensión del esquema **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** y defina los campos nuevos. Obtenga más información acerca de la extensión de esquema en [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentación de Campaign v8)
 
 1. Defina la asignación en la pestaña **[!UICONTROL Subscription parameters]**.
 

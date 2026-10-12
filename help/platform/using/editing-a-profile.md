@@ -56,7 +56,7 @@ Las fichas y su contenido dependen de la configuración y de los paquetes instal
 >
 >Se accede al esquema XML y al formulario pertinente a los campos de la tabla de perfiles mediante el nodo **[!UICONTROL Administration > Configuration > Data schemas]** del árbol de Adobe Campaign. Solo los usuarios expertos pueden realizar cambios en estos esquemas.
 >
->Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentación de Campaign v8).
+>Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentación de Campaign v8).
 
 >[!NOTE]
 >
@@ -129,6 +129,6 @@ The list is configurable, and usually contains: the URL clicked, date and time o
 
 >[!NOTE]
 >
->For more on tracking functionality, please refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
+>For more on tracking functionality, please refer to [this page](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 
 -->

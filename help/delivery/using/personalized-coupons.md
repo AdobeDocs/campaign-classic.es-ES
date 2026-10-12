@@ -185,7 +185,7 @@ Para confirmar que la entrega se realizó correctamente:
 
 >[!NOTE]
 >
->De forma predeterminada, el módulo de administración de cupones utiliza una tabla **nms:recipient**. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} (documentación de Campaign v8).
+>De forma predeterminada, el módulo de administración de cupones utiliza una tabla **nms:recipient**. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} (documentación de Campaign v8).
 >
 >Aprenda a utilizar una tabla de destinatarios personalizada [en esta página](../../configuration/using/about-custom-recipient-table.md).
 

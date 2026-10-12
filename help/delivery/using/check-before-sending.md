@@ -98,7 +98,7 @@ Finalmente, maximice sus posibilidades y aproveche la potencia de Adobe Campaign
 
 ### Pase por un proceso de validación
 
-Puede definir un proceso de validación completo, que incluye los operadores y grupos de Adobe Campaign, para validar el contenido del mensaje y el destinatario. Esto garantizará una monitorización y un control completos de los distintos procesos de la campaña: segmentación, contenido, presupuesto, extracción y envío de una prueba. Según sus permisos, los usuarios pueden recibir notificaciones, recibir pruebas y validar o rechazar el mensaje. Obtenga más información [en esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval){target="_blank"} (documentación de Campaign v8).
+Puede definir un proceso de validación completo, que incluye los operadores y grupos de Adobe Campaign, para validar el contenido del mensaje y el destinatario. Esto garantizará una monitorización y un control completos de los distintos procesos de la campaña: segmentación, contenido, presupuesto, extracción y envío de una prueba. Según sus permisos, los usuarios pueden recibir notificaciones, recibir pruebas y validar o rechazar el mensaje. Obtenga más información [en esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval){target="_blank"} (documentación de Campaign v8).
 
 ### Uso de oleadas
 
@@ -126,7 +126,7 @@ Puede:
 
 * Para cada elemento IPAffinity, declare las direcciones IP que se pueden usar. [Más información](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
-* En la [tipología](https://experienceleague.adobe.com/es/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} (documentación de Campaign v8) que elija, utilice el campo **[!UICONTROL Managing affinities with IP addresses]** para vincular envíos al servidor de entrega (MTA) que administra dicha afinidad. [Más información](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/apply-rules#control-outgoing-smtp-traffic){target="_blank"} (documentación de Campaign v8).
+* En la [tipología](https://experienceleague.adobe.com/es/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} (documentación de Campaign v8) que elija, utilice el campo **[!UICONTROL Managing affinities with IP addresses]** para vincular envíos al servidor de entrega (MTA) que administra dicha afinidad. [Más información](https://experienceleague.adobe.com/es/docs/campaign/automation/campaign-optimization/apply-rules#control-outgoing-smtp-traffic){target="_blank"} (documentación de Campaign v8).
 
 * Una vez enviado el correo electrónico, compruebe el encabezado para ver desde qué dirección IP se entregó el envío. El administrador de correo electrónico debe ayudarle a obtener la información del encabezado.
 
@@ -138,7 +138,7 @@ Puede:
 
 ### Uso de tipologías
 
-Puede utilizar reglas de tipología para excluir parte del destinatario según criterios específicos. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía. Por ejemplo, puede filtrar los destinatarios menores de edad del objetivo de su boletín informativo. Obtenga más información [en este ejemplo](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/filtering-rules){target="_blank"} (documentación de Campaign v8).
+Puede utilizar reglas de tipología para excluir parte del destinatario según criterios específicos. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía. Por ejemplo, puede filtrar los destinatarios menores de edad del objetivo de su boletín informativo. Obtenga más información [en este ejemplo](https://experienceleague.adobe.com/es/docs/campaign/automation/campaign-optimization/filtering-rules){target="_blank"} (documentación de Campaign v8).
 
 ### Prevención de envío de archivos adjuntos
 

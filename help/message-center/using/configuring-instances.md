@@ -61,7 +61,7 @@ En esta sección se describen todos los pasos necesarios para configurar y conec
 
 ## Configuración de la instancia de control {#control-instance}
 
-Para conectar la instancia de control y las instancias de ejecución, primero debe crear y configurar una cuenta externa de tipo **[!UICONTROL Execution instance]** **en la instancia de control**. Por lo tanto, una vez [publicado](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template#publish-message-template){target="_blank"} (documentación de Campaign v8), las plantillas de mensajes transaccionales se pueden implementar en las instancias de ejecución.
+Para conectar la instancia de control y las instancias de ejecución, primero debe crear y configurar una cuenta externa de tipo **[!UICONTROL Execution instance]** **en la instancia de control**. Por lo tanto, una vez [publicado](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional-template#publish-message-template){target="_blank"} (documentación de Campaign v8), las plantillas de mensajes transaccionales se pueden implementar en las instancias de ejecución.
 
 Si utiliza varias instancias de ejecución, debe crear tantas cuentas externas como instancias de ejecución.
 

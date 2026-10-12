@@ -47,7 +47,7 @@ Para configurar esta interacción, vamos a:
 
 ### Creación de un entorno anónimo {#creating-an-anonymous-environment}
 
-Siga el procedimiento detallado en [Creación de un entorno de oferta](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentación de Campaign v8) para crear su entorno anónimo basado en las dimensiones de **Visitantes**&#39;.
+Siga el procedimiento detallado en [Creación de un entorno de oferta](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentación de Campaign v8) para crear su entorno anónimo basado en las dimensiones de **Visitantes**&#39;.
 
 Se obtiene una estructura de árbol que contiene el nuevo entorno:
 
@@ -147,7 +147,7 @@ Se obtiene una estructura de árbol que contiene el nuevo entorno:
 
 ### Configuración del espacio de ofertas web en el sitio web {#configure-the-web-offer-space-on-the-website}
 
-Para que las ofertas que acaba de configurar estén visibles en el sitio web, inserte un código JavaScript en la página HTML del sitio para visualizar el motor de interacción (para obtener más información, consulte [Acerca de los canales entrantes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} (Documentación de Campaign v8)).
+Para que las ofertas que acaba de configurar estén visibles en el sitio web, inserte un código JavaScript en la página HTML del sitio para visualizar el motor de interacción (para obtener más información, consulte [Acerca de los canales entrantes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} (Documentación de Campaign v8)).
 
 1. Vaya a la página HTML e inserte un atributo @id con un valor que coincida con el nombre interno del espacio de oferta anónimo creado anteriormente (consulte [Crear espacios de oferta anónimos](#creating-anonymous-offer-spaces)), precedido por **i_**.
 
@@ -211,7 +211,7 @@ Siga estos pasos:
 
 ### Creación de un entorno para contactos anónimos {#creating-an-environment-for-anonymous-contacts}
 
-1. Cree un entorno de oferta para interacciones de entrada anónimas mediante el asistente de asignación de envíos (asignación de **visitantes**). Para obtener más información, consulte [Creación de un entorno de ofertas](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentación de Campaign v8).
+1. Cree un entorno de oferta para interacciones de entrada anónimas mediante el asistente de asignación de envíos (asignación de **visitantes**). Para obtener más información, consulte [Creación de un entorno de ofertas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentación de Campaign v8).
 
    ![](assets/offer_env_anonymous_003.png)
 

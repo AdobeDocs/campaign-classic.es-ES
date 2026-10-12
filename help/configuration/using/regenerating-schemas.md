@@ -37,7 +37,7 @@ Al modificar un esquema y guardar las modificaciones, el esquema ampliado se gen
 1. Haga clic con el botón derecho y elija **[!UICONTROL Actions > Regenerate selected schemas...]**
 1. Haga clic en **[!UICONTROL OK]** para confirmar e iniciar el proceso.
 
-A continuación, puede comprobar la estructura del esquema generado en las pestañas Preview y Documentation. Para obtener más información, consulte la sección [Principios](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} (documentación de Campaign v8).
+A continuación, puede comprobar la estructura del esquema generado en las pestañas Preview y Documentation. Para obtener más información, consulte la sección [Principios](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} (documentación de Campaign v8).
 
 >[!NOTE]
 >

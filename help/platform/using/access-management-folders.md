@@ -120,7 +120,7 @@ Los siguientes envíos se muestran en la vista:
 
 >[!NOTE]
 >
->Al administrar eventos [de mensajería transaccional](../../message-center/using/about-transactional-messaging.md), las carpetas **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** no deben configurarse como vistas en las instancias de ejecución, ya que esto podría generar problemas de derechos de acceso. Para obtener más información sobre la colección de eventos, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-collection){target="_blank"} (documentación de Campaign v8).
+>Al administrar eventos [de mensajería transaccional](../../message-center/using/about-transactional-messaging.md), las carpetas **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** no deben configurarse como vistas en las instancias de ejecución, ya que esto podría generar problemas de derechos de acceso. Para obtener más información sobre la colección de eventos, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-collection){target="_blank"} (documentación de Campaign v8).
 
 <!--
 ## Permissions on a folder

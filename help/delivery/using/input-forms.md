@@ -47,7 +47,7 @@ ht-degree: 89%
 
 A continuación, se muestran algunos principios generales relacionados con el uso de formularios de entrada en Adobe Campaign.
 
-Las Forms se encuentran detalladas en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentación de Campaign v8).
+Las Forms se encuentran detalladas en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentación de Campaign v8).
 
 ## Estructura del formulario {#form-structure}
 
@@ -105,7 +105,7 @@ De forma predeterminada, cada campo se muestra en una línea y ocupa todo el esp
 
 La disposición de unos controles en relación con los demás se parece a la disposición utilizada en las tablas HTML, con la posibilidad de dividir un control en varias columnas, de entrelazar elementos o de especificar la ocupación del espacio disponible. No obstante, tenga en cuenta que el formato solo autoriza para distribuir proporciones; no puede especificar dimensiones fijas para un objeto.
 
-Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"} (Documentación de Campaign v8).
+Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"} (Documentación de Campaign v8).
 
 ## Controles de tipo lista {#list-type-controls}
 
@@ -214,7 +214,7 @@ Utilice los botones de la barra de herramientas para añadir o eliminar elemento
 
 Los contenedores permiten agrupar un conjunto de controles. Se utilizan a través del elemento **`<container>`**. Ya se han utilizado para dar formato a los controles en varias columnas y para el control de la lista de pestañas.
 
-Para obtener más información sobre los contenedores y cómo utilizarlos en los formularios de entrada, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (Documentación de Campaign v8).
+Para obtener más información sobre los contenedores y cómo utilizarlos en los formularios de entrada, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (Documentación de Campaign v8).
 
 ## Edición de formularios {#editing-forms}
 
@@ -226,4 +226,4 @@ La pestaña **[!UICONTROL Preview]** le permite ver el formulario de entrada:
 
 ![](assets/d_ncs_content_form13.png)
 
-Obtenga más información sobre [editar formularios](../../configuration/using/editing-forms.md) y [estructura de formularios](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentación de Campaign v8).
+Obtenga más información sobre [editar formularios](../../configuration/using/editing-forms.md) y [estructura de formularios](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentación de Campaign v8).

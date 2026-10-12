@@ -145,7 +145,7 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
 * **[!UICONTROL Registration confirmation]**: inserta un vínculo que permite confirmar la suscripción.
 * **[!UICONTROL Social network sharing links]** : inserta botones que permiten al destinatario compartir un vínculo al contenido de la página espejo con el cliente de correo electrónico, Facebook, X (anteriormente conocido como Twitter) y LinkedIn (consulte [Marketing viral: reenviar a un amigo](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
 * **[!UICONTROL Style of content emails]** y **[!UICONTROL Notification style]**: genera un código que dé formato a un correo electrónico con estilos HTML predefinidos. Estos bloques deben insertarse en el código fuente de la entrega, en la sección **[!UICONTROL ...]**, entre las etiquetas **`<style>...</style>`**.
-* **[!UICONTROL Offer acceptance URL in unitary mode]** : inserta una URL que permite establecer una oferta de interacción en **[!UICONTROL Accepted]** (consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-tracking){target="_blank"} (documentación de Campaign v8)).
+* **[!UICONTROL Offer acceptance URL in unitary mode]** : inserta una URL que permite establecer una oferta de interacción en **[!UICONTROL Accepted]** (consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-tracking){target="_blank"} (documentación de Campaign v8)).
 
 ## Definición de bloques de personalización propios {#defining-custom-personalization-blocks}
 

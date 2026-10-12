@@ -54,9 +54,9 @@ ht-degree: 1%
 
 Este documento describe las recomendaciones clave al diseñar el modelo de datos de Adobe Campaign.
 
-Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} (Documentación de Campaign v8).
+Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} (Documentación de Campaign v8).
 
-Lea [esta documentación](../../configuration/using/about-schema-reference.md) para comenzar con los esquemas de Campaign. Aprenda a configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign en [este documento](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentación de Campaign v8).
+Lea [esta documentación](../../configuration/using/about-schema-reference.md) para comenzar con los esquemas de Campaign. Aprenda a configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign en [este documento](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentación de Campaign v8).
 
 ## Información general {#overview}
 
@@ -82,7 +82,7 @@ El modelo de datos predeterminado de Adobe Campaign se presenta en [este documen
 
 >[!NOTE]
 >
->Adobe Campaign Classic permite crear una tabla de cliente personalizada. Sin embargo, en la mayoría de los casos, se recomienda aprovechar la [tabla de destinatarios](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} estándar (documentación de Campaign v8) que ya tiene tablas y características adicionales creadas previamente.
+>Adobe Campaign Classic permite crear una tabla de cliente personalizada. Sin embargo, en la mayoría de los casos, se recomienda aprovechar la [tabla de destinatarios](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} estándar (documentación de Campaign v8) que ya tiene tablas y características adicionales creadas previamente.
 
 ### Datos para Adobe Campaign {#data-for-campaign}
 
@@ -185,7 +185,7 @@ Cuando se crea una tabla personalizada en Adobe Campaign con una clave principal
 
 De forma predeterminada, una secuencia personalizada tendrá valores que oscilan entre +1.000 y +2,1BB. Técnicamente, es posible obtener una gama completa de 4BB habilitando identificadores negativos. Esto debe utilizarse con cuidado y se perderá un ID al pasar de números negativos a positivos: Adobe Campaign suele ignorar el registro 0 en las consultas SQL generadas.
 
-Para obtener más información sobre el agotamiento de secuencias, vea [este vídeo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
+Para obtener más información sobre el agotamiento de secuencias, vea [este vídeo](https://helpx.adobe.com/es/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
 ## Índices {#indexes}
 

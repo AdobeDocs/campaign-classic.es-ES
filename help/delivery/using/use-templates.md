@@ -82,7 +82,7 @@ Para configurar direcciones en la interfaz de Campaign, siga los pasos a continu
 
 ### Configuración de un grupo de control
 
-Una vez entregado el envío, puede comparar el comportamiento de los destinatarios excluidos con el de los destinatarios que sí recibieron el envío. Puede medir la eficacia de sus campañas. Obtenga más información acerca de los grupos de control [en esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"} (documentación de Campaign v8).
+Una vez entregado el envío, puede comparar el comportamiento de los destinatarios excluidos con el de los destinatarios que sí recibieron el envío. Puede medir la eficacia de sus campañas. Obtenga más información acerca de los grupos de control [en esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"} (documentación de Campaign v8).
 
 Para configurar un grupo de control, haga clic en el vínculo **[!UICONTROL To]**. En la ventana **[!UICONTROL Select target]**, seleccione la pestaña **[!UICONTROL Control group]**. Puede extraer una parte de los destinatarios como, por ejemplo, una muestra aleatoria del 5 %.
 

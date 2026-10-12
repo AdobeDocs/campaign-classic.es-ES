@@ -70,7 +70,7 @@ Para aprovechar esta información, debe crear este campo en Adobe Campaign Class
 
 Si utiliza una tabla de destinatarios personalizada, también deberá realizar esta operación.
 
-Para obtener información más detallada sobre cómo crear un campo nuevo, consulte la [Documentación de edición de esquema](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (Documentación de Campaign v8).
+Para obtener información más detallada sobre cómo crear un campo nuevo, consulte la [Documentación de edición de esquema](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (Documentación de Campaign v8).
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ Para obtener información más detallada sobre cómo crear un campo nuevo, consu
 
    ![](assets/privacy-ccpa-3.png)
 
-1. Haga clic en el nodo **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]** de Explorer. En **[!UICONTROL Recipient (nms)]**, en Paquete general, añada un elemento `<input>` y use la ruta relativa definida en el paso 2 para el valor xpath. Para obtener más información sobre la identificación de un formulario, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentación de Campaign v8).
+1. Haga clic en el nodo **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]** de Explorer. En **[!UICONTROL Recipient (nms)]**, en Paquete general, añada un elemento `<input>` y use la ruta relativa definida en el paso 2 para el valor xpath. Para obtener más información sobre la identificación de un formulario, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentación de Campaign v8).
 
    ```
    <input  colspan="2" type="checkbox" xpath="@OPTOUTCCPA"/>

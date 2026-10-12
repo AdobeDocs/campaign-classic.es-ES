@@ -113,7 +113,7 @@ Queremos enviar una primera propuesta de oferta perteneciente a la categoría Ca
 
    ![](assets/offer_typology_example_016.png)
 
-1. Inserte sus ofertas en el cuerpo del mensaje y mande la entrega. Para obtener más información, consulte [Acerca de los canales salientes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (documentación de Campaign v8).
+1. Inserte sus ofertas en el cuerpo del mensaje y mande la entrega. Para obtener más información, consulte [Acerca de los canales salientes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (documentación de Campaign v8).
 
    El destinatario recibió la oferta para la cual es apto.
 

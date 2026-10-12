@@ -39,7 +39,7 @@ ht-degree: 94%
 
 ## Umbrales de monitorización {#monitoring-thresholds}
 
-Puede configurar los umbrales de advertencia (naranja) y los umbrales de alerta (rojo) de los indicadores que aparecen en los informes **Message Center service level** y **Message Center processing time** (consulte [Acceso a informes de mensajería transaccional](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} (documentación de Campaign v8)).
+Puede configurar los umbrales de advertencia (naranja) y los umbrales de alerta (rojo) de los indicadores que aparecen en los informes **Message Center service level** y **Message Center processing time** (consulte [Acceso a informes de mensajería transaccional](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} (documentación de Campaign v8)).
 
 Para realizar esto, siga los pasos a continuación:
 

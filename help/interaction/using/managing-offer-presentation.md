@@ -87,7 +87,7 @@ La **[!UICONTROL Targeting dimension]** coincide con la tabla de destinatarios (
 
 >[!NOTE]
 >
->También se puede utilizar tablas no estándar. Si se desea utilizar una dimensión de segmentación específica, se debe crear tablas y un entorno dedicado utilizando la asignación de objetivo. Para obtener más información, consulte [Creación de un entorno de ofertas](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentación de Campaign v8).
+>También se puede utilizar tablas no estándar. Si se desea utilizar una dimensión de segmentación específica, se debe crear tablas y un entorno dedicado utilizando la asignación de objetivo. Para obtener más información, consulte [Creación de un entorno de ofertas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentación de Campaign v8).
 
 ### Periodo {#period}
 

@@ -57,7 +57,7 @@ La creación de un nuevo formulario permite ver y editar los datos de la tabla d
 
    >[!NOTE]
    >
-   >Para obtener más información sobre los archivos de tipo **form**, consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentación de Campaign v8).
+   >Para obtener más información sobre los archivos de tipo **form**, consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentación de Campaign v8).
 
    En nuestro ejemplo actual, el archivo **form** debe basarse en el esquema **cus:individual** y, por lo tanto, tener el siguiente diseño:
 

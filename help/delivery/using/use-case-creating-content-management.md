@@ -82,7 +82,7 @@ Un esquema de datos es un documento XML asociado al contenido. Describe la estru
 
 >[!NOTE]
 >
->Para obtener más información sobre la creación y configuración de esquemas de datos en Adobe Campaign, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (Documentación de Campaign v8).
+>Para obtener más información sobre la creación y configuración de esquemas de datos en Adobe Campaign, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (Documentación de Campaign v8).
 >
 >Los elementos de configuración específicos para la administración de contenido se describen en [Esquemas de datos](data-schemas.md).
 
@@ -194,7 +194,7 @@ La descripción de un formulario es un documento XML estructurado que respeta la
 
 >[!NOTE]
 >
->Para obtener más información sobre la creación y configuración de formularios en Adobe Campaign, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentación de Campaign v8).
+>Para obtener más información sobre la creación y configuración de formularios en Adobe Campaign, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentación de Campaign v8).
 >
 >Los elementos de configuración específicos para la administración de contenido se describen en [Formularios de entrada](input-forms.md).
 

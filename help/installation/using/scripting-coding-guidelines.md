@@ -96,7 +96,7 @@ Consulte estas páginas:
 
 Además del modelo de seguridad basado en carpetas, puede utilizar derechos asignados para limitar las acciones de los operadores:
 
-* Puede agregar algunos filtros del sistema (sysFilter) para evitar que se lea o escriba en los datos (consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/filter-schema){target="_blank"} (documentación de Campaign v8)).
+* Puede agregar algunos filtros del sistema (sysFilter) para evitar que se lea o escriba en los datos (consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/filter-schema){target="_blank"} (documentación de Campaign v8)).
 
   ```
   <sysFilter name="writeAccess">    

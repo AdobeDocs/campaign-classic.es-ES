@@ -107,7 +107,7 @@ Siga estos pasos:
    >    
    >
 
-1. Modifique el formulario **[!UICONTROL seedMember]** según corresponda para definir una nueva pestaña &quot;Destinatario interno&quot; en la ventana **[!UICONTROL Seed addresses]**. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentación de Campaign v8).
+1. Modifique el formulario **[!UICONTROL seedMember]** según corresponda para definir una nueva pestaña &quot;Destinatario interno&quot; en la ventana **[!UICONTROL Seed addresses]**. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentación de Campaign v8).
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"

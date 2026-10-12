@@ -33,7 +33,7 @@ Para crear un entorno de prueba (modo de zona protegida), siga estos pasos:
 
 >[!IMPORTANT]
 >
->Utilice solamente este método de creación de entorno para los entornos de prueba. En todos los demás casos, utilice el asistente de asignación de público destinatario. Para obtener más información, consulte [Creación de un entorno de ofertas](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentación de Campaign v8).
+>Utilice solamente este método de creación de entorno para los entornos de prueba. En todos los demás casos, utilice el asistente de asignación de público destinatario. Para obtener más información, consulte [Creación de un entorno de ofertas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentación de Campaign v8).
 
 1. Inicie Adobe Campaign Explorer y vaya a la raíz de la instancia.
 1. Haga clic con el botón derecho del ratón y añada una **[!UICONTROL Generic folder]** utilizando los menús desplegables.

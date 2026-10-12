@@ -355,7 +355,7 @@ La interfaz de usuario no mostrará un vínculo sino un campo. Cuando los usuari
 
 * Obtenga más información sobre cómo **trabajar con listas desglosadas** en la [documentación de la versión 8 de Adobe Campaign (consola)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
-* [Introducción a los esquemas de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentación de Campaign v8)
+* [Introducción a los esquemas de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentación de Campaign v8)
 
 * [Actualización de la estructura de la base de datos](../../configuration/using/updating-the-database-structure.md)
 
