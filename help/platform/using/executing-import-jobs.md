@@ -32,7 +32,7 @@ subfeature_v2:
     internal-label: Access management
   - id: e8d937ec-9046-41b5-834b-d22a624e0d37
     internal-label: Campaign overview
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
 source-wordcount: '3000'
 ht-degree: 100%
@@ -316,7 +316,7 @@ El siguiente paso del asistente de importación le permite seleccionar o crear l
 
      >[!NOTE]
      >
-     >La carpeta predeterminada de un operador es la primera carpeta para la que el operador tiene acceso de escritura. Obtenga más información en [Administración de acceso a carpetas](../../platform/using/access-management-folders.md).
+     >La carpeta predeterminada de un operador es la primera carpeta para la que el operador tiene acceso de escritura. Obtenga más información en [Administración de acceso a carpetas](access-management.md).
 
      Para seleccionar la carpeta de importación, haga clic en la flecha a la derecha del campo **[!UICONTROL Folder]** y seleccione la carpeta correspondiente. También puede utilizar el icono **[!UICONTROL Select link]** para mostrar el árbol en una nueva ventana o crear una carpeta nueva.
 

@@ -8,9 +8,9 @@ user-guide-description: Documentación de producto para Adobe Campaign Classic v
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1953'
 ht-degree: 100%
 ---
 
@@ -51,11 +51,7 @@ ht-degree: 100%
     + [Exclusión para la venta de información personal](platform/using/privacy-requests-ccpa.md)
   + Administración de perfiles {#profile-management}
     + [Acerca de los perfiles](platform/using/about-profiles.md)
-    + {hide-from-toc}[Edición de un perfil: OCULTO](platform/using/editing-a-profile.md)
-    + {hide-from-toc}[Añadir perfiles: OCULTO](platform/using/adding-profiles.md)
-    + {hide-from-toc}[Administración de perfiles: OCULTO](platform/using/managing-profiles.md)
     + [Actualización de datos](platform/using/updating-data.md)
-    + {hide-from-toc}[Importación y exportación de perfiles: OCULTO](platform/using/exporting-and-importing-profiles.md)
     + [Creación y administración de listas](platform/using/creating-and-managing-lists.md)
   + Importación y exportación de datos {#importing-and-exporting-data}
     + [Introducción a la importación y exportación de datos](platform/using/get-started-data-import-export.md)
@@ -75,9 +71,7 @@ ht-degree: 100%
       + [Prácticas recomendadas de importación y exportación](platform/using/import-export-best-practices.md)
       + [Prácticas recomendadas y solución de problemas del servidor SFTP](platform/using/sftp-server-usage.md)
   + Filtrado de datos {#filtering-data}
-    + {hide-from-toc}[Opciones de filtrado: OCULTO](platform/using/filtering-options.md)
     + {hide-from-toc}[Creación de filtros: OCULTO](platform/using/creating-filters.md)
-    + {hide-from-toc}[Caso de uso: OCULTO](platform/using/use-case.md)
   + {hide-from-toc}[Pasos para crear una consulta: OCULTO](platform/using/steps-to-create-a-query.md)
   + {hide-from-toc}[Definición de condiciones de filtro: OCULTO](platform/using/defining-filter-conditions.md)
   + Permisos {#permissions}
@@ -86,12 +80,8 @@ ht-degree: 100%
       + [Creación y administración de operadores](platform/using/access-management-operators.md)
       + [Creación y administración de grupos](platform/using/access-management-groups.md)
     + [Uso de derechos asignados para configurar permisos](platform/using/access-management-named-rights.md)
-    + {hide-from-toc}[Administración del acceso a las carpetas: OCULTO](platform/using/access-management-folders.md)
   + Conectores CRM {#connectors}
     + [Introducción a los conectores CRM](platform/using/crm-connectors.md)
-    + {hide-from-toc}[Conexión con Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
-    + {hide-from-toc}[Conexión con Salesforce.com](platform/using/crm-sfdc.md)
-    + {hide-from-toc}[Sincronización de datos con el CRM](platform/using/crm-data-sync.md)
 + Creación y envío de mensajes {#sending-messages}
   + [Introducción a los mensajes](delivery/using/communication-channels.md)
   + {hide-from-toc}[Configuración del envío: OCULTO](delivery/using/delivery-settings.md)
