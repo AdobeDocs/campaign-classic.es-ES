@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '2862'
-ht-degree: 1%
+source-wordcount: '2877'
+ht-degree: 0%
 ---
 # Flujo de trabajo para limpieza de bases de datos{#database-cleanup-workflow}
 
@@ -349,7 +349,7 @@ Esta tarea purga cada instancia de flujo de trabajo con su identificador (**lWor
 
 >[!NOTE]
 >
->La frecuencia de depuración del historial se especifica para cada flujo de trabajo en el campo **Historial en días** (valor predeterminado 30 días). Este campo se encuentra en la ficha **Execution** de las propiedades del flujo de trabajo. Para obtener más información, consulte [esta sección](../../workflow/using/workflow-properties.md#execution).
+>La frecuencia de depuración del historial se especifica para cada flujo de trabajo en el campo **Historial en días** (valor predeterminado 30 días). Este campo se encuentra en la ficha **Execution** de las propiedades del flujo de trabajo. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/workflow-properties#execution){target="_blank"} (Documentación de Campaign v8).
 
 1. Para recuperar la lista de flujos de trabajo que desea eliminar, se utiliza la siguiente consulta:
 

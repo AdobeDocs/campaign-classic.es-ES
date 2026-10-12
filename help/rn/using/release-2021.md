@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '2670'
-ht-degree: 100%
+source-wordcount: '2702'
+ht-degree: 98%
 ---
 # Versiones de 2021{#release-2021}
 
@@ -124,7 +124,7 @@ _5 de junio de 2021_
 <td>
 <p>La nueva actividad de flujo de trabajo <b>Cambiar fuente de datos</b> permite cambiar la fuente de datos de la tabla de trabajo de un flujo de trabajo. Esto proporciona una mayor flexibilidad para administrar datos en diferentes fuentes de datos (FDA y base de datos local).</p>
 <p>En los flujos de trabajo de Adobe Campaign, los datos se administran mediante tablas de trabajo (o temporales). A medida que se ejecuta el flujo de trabajo, las tablas de trabajo comparten datos entre las actividades de flujo de trabajo. De forma predeterminada, las tablas de trabajo se crean en la misma base de datos que el origen de los datos que consultamos.</p>
-<p>Para obtener más información, consulte la <a href="../../workflow/using/change-data-source.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source" target="_blank">documentación detallada</a> (documentación de Campaign v8).</p>
 </td>
 </tr>
 </tbody>
@@ -226,7 +226,7 @@ Obtenga más información en la página [Funciones obsoletas y eliminadas](../..
 **Mejoras**
 
 * Se han añadido comprobaciones adicionales al guardar un flujo de trabajo para asegurarse de que los nombres de las actividades sean únicos y de que las transiciones siempre irán seguidas de una actividad.
-* El flujo de trabajo técnico **Facturación (billing)** incluye ahora las tareas realizadas originalmente por el flujo de trabajo **Número de perfiles de facturación activos** (billingActiveContactCount), que se ha eliminado. El informe de correo electrónico que envía cada mes el flujo de trabajo ahora proporciona información sobre la cantidad de perfiles activos en la instancia. [Más información](../../workflow/using/about-technical-workflows.md).
+* El flujo de trabajo técnico **Facturación (billing)** incluye ahora las tareas realizadas originalmente por el flujo de trabajo **Número de perfiles de facturación activos** (billingActiveContactCount), que se ha eliminado. El informe de correo electrónico que envía cada mes el flujo de trabajo ahora proporciona información sobre la cantidad de perfiles activos en la instancia. [Más información](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} (Documentación de Campaign v8).
 * Se ha añadido un nuevo atributo **_keyOnMData** para poder utilizar una clave para operaciones en datos de memo.
 
 **Otros cambios**

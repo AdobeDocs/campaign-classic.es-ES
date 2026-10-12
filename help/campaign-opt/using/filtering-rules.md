@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '525'
+ht-degree: 95%
 ---
 # Reglas de filtrado{#filtering-rules}
 
@@ -77,7 +77,7 @@ En este caso, incluso si la regla está vinculada a todas las entregas, solo se 
 
 >[!NOTE]
 >
->Las reglas de tipologías y filtrado se pueden utilizar en un flujo de trabajo en la actividad **[!UICONTROL Delivery outline]**. Para obtener más información, consulte [esta sección](../../workflow/using/delivery-outline.md).
+>Las reglas de tipologías y filtrado se pueden utilizar en un flujo de trabajo en la actividad **[!UICONTROL Delivery outline]**. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/delivery-outline){target="_blank"} (Documentación de Campaign v8).
 
 ## Creación y uso de una tipología de filtrado {#creating-and-using-a-filtering-typology}
 

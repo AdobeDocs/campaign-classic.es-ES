@@ -17,9 +17,9 @@ feature_v2:
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
     internal-label: Analytics integration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '889'
 ht-degree: 1%
 ---
 # Migración a la API de Adobe Analytics 2.0 {#analytics-2-migration}
@@ -28,7 +28,7 @@ Las API de Adobe Analytics 1.4 [están llegando al final de su vida útil](https
 
 >[!CAUTION]
 >
->Al actualizar se vuelven a importar los dos flujos de trabajo técnicos integrados que alimentan el conector, [!UICONTROL webAnalyticsSendMetrics] y [!UICONTROL webAnalyticsGetWebEvents] (consulte la [referencia de flujos de trabajo de Web Analytics](../../workflow/using/web-analytics.md) para ver qué hace cada uno). Cualquier personalización que haya realizado sobre estos flujos de trabajo se sobrescribirá con la reimportación. Evite modificar estos flujos de trabajo integrados directamente: genere la personalización en un flujo de trabajo personalizado independiente en su lugar, de modo que las futuras actualizaciones no lo sobrescriban. La actualización también actualiza los archivos JavaScript integrados de Analytics: si alguno de los flujos de trabajo personalizados hace referencia a estos archivos, se romperán y deberán adaptarse al nuevo código.
+>Al actualizar se vuelven a importar los dos flujos de trabajo técnicos integrados que alimentan el conector, [!UICONTROL webAnalyticsSendMetrics] y [!UICONTROL webAnalyticsGetWebEvents] (consulte la [referencia de flujos de trabajo de Web Analytics](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} (documentación de Campaign v8) para ver qué hace cada uno). Cualquier personalización que haya realizado sobre estos flujos de trabajo se sobrescribirá con la reimportación. Evite modificar estos flujos de trabajo integrados directamente: genere la personalización en un flujo de trabajo personalizado independiente en su lugar, de modo que las futuras actualizaciones no lo sobrescriban. La actualización también actualiza los archivos JavaScript integrados de Analytics: si alguno de los flujos de trabajo personalizados hace referencia a estos archivos, se romperán y deberán adaptarse al nuevo código.
 
 ## ¿Se ha visto afectado? {#are-you-impacted}
 
@@ -64,8 +64,8 @@ Si se encuentra en una implementación **on-premise o híbrida**, complete los s
       ```
 
    1. Incluya Adobe Analytics en la lista de permitidos en su servidor SFTP, ya que las exportaciones de remarketing solo se inician desde un conjunto fijo de intervalos de IP de Adobe:
-      * [Busque las direcciones IP actuales de recopilación de datos de Adobe Analytics](https://experienceleague.adobe.com/es/docs/core-services/interface/data-collection/ip-addresses){target="_blank"} y agréguelas a la lista de permitidos del servidor SFTP. Las exportaciones de Analytics basadas en FTP (incluidas las fuentes de datos) solo se originan en direcciones IPv4 de las regiones de Londres, Oregón y Singapur.
-      * [Recupere la clave pública de Adobe Analytics](https://experienceleague.adobe.com/es/docs/experience-cloud-kcs/kbarticles/ka-18141){target="_blank"} y agréguela al archivo `authorized_keys` de su servidor SFTP para que Analytics pueda autenticarse.
+      * [Busque las direcciones IP actuales de recopilación de datos de Adobe Analytics](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses){target="_blank"} y agréguelas a la lista de permitidos del servidor SFTP. Las exportaciones de Analytics basadas en FTP (incluidas las fuentes de datos) solo se originan en direcciones IPv4 de las regiones de Londres, Oregón y Singapur.
+      * [Recupere la clave pública de Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-18141){target="_blank"} y agréguela al archivo `authorized_keys` de su servidor SFTP para que Analytics pueda autenticarse.
 1. Habilite la marca de característica `FEATUREFLAG_USE_ANALYTICS_20_API` en su instancia creando o configurando `longvalue` de la opción en `1` en [!UICONTROL xtkOption], en **[!UICONTROL Administration]> [!UICONTROL Platform] >[!UICONTROL Options]** en el árbol de Campaign Explorer. Este paso es obligatorio independientemente del caso de uso anterior que se le aplique.
 1. Valide la migración utilizando cada caso de uso que se aplique a su instancia (envíe una campaña de prueba, compruebe que los indicadores se dirijan a Analytics y confirme los datos de remarketing si corresponde) antes de eliminar cualquier conectividad antigua.
 
@@ -94,7 +94,7 @@ Para crear el conjunto de clasificaciones:
 
 1. Haga clic **[!UICONTROL Save]**.
 
-Campaign descubrirá automáticamente este conjunto de clasificaciones cuando configure la cuenta externa en el siguiente paso. Para obtener más información sobre los conjuntos de clasificaciones, consulte la [documentación de Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
+Campaign descubrirá automáticamente este conjunto de clasificaciones cuando configure la cuenta externa en el siguiente paso. Para obtener más información sobre los conjuntos de clasificaciones, consulte la [documentación de Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
 
 ## ¿Necesita ayuda? {#need-help}
 

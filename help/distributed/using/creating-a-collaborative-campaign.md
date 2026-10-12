@@ -20,10 +20,10 @@ topic_v2:
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
     internal-label: Distributed Marketing
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 100%
+source-wordcount: '943'
+ht-degree: 96%
 ---
 # Creación de una campaña colaborativa{#creating-a-collaborative-campaign-intro}
 
@@ -93,7 +93,7 @@ El flujo de trabajo de campaña debe integrar la actividad de tipo de **Local ap
 * **[!UICONTROL Distribution context]** : Explícito.
 * **[!UICONTROL Data distribution]** : Distribución de entidad local.
 
-Se debe crear la distribución de datos del tipo de **Local entity distribution** . La plantilla de distribución de datos permite limitar el número de registros de una lista de valores de agrupación. En **[!UICONTROL Resources > Campaign management > Data distribution]**, haga clic en el icono **[!UICONTROL New]** para crear una nueva **[!UICONTROL Data distribution]**. Para obtener más información sobre la distribución de los datos, consulte la Guía de [Flujos de trabajo](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-) .
+Se debe crear la distribución de datos del tipo de **Local entity distribution** . La plantilla de distribución de datos permite limitar el número de registros de una lista de valores de agrupación. En **[!UICONTROL Resources > Campaign management > Data distribution]**, haga clic en el icono **[!UICONTROL New]** para crear una nueva **[!UICONTROL Data distribution]**. Para obtener más información sobre la distribución de datos, consulte la guía [Flujos de trabajo](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/deliveries/local-approval-activity#step-1--creating-the-data-distribution-template-){target="_blank"} (documentación de Campaign v8).
 
 ![](assets/mkg_dist_data_distribution.png)
 

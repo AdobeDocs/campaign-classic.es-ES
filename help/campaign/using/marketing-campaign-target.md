@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 100%
+source-wordcount: '1581'
+ht-degree: 93%
 ---
 # Selección del público de las campañas {#marketing-campaign-deliveries}
 
@@ -75,7 +75,7 @@ El objetivo se puede crear mediante una combinación de condiciones de filtrado 
 
 ![](assets/s_ncs_user_edit_op_wf_link.png)
 
-La población de destino se extrae de la base de datos de Adobe Campaign a través de una o varias consultas ubicadas en un flujo de trabajo. Para aprender a crear una consulta, consulte [esta sección](../../workflow/using/query.md).
+La población de destino se extrae de la base de datos de Adobe Campaign a través de una o varias consultas ubicadas en un flujo de trabajo. Para aprender a crear una consulta, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} (documentación de Campaign v8).
 
 Puede iniciar consultas y compartir poblaciones mediante cuadros como Unión, Intersección, Compartir, Exclusión, etc.
 
@@ -87,7 +87,7 @@ En el diagrama, vincule las consultas de objetivo y de programación necesarias 
 
 >[!NOTE]
 >
->En [esta sección](../../workflow/using/query.md) puede ver ejemplos y explicaciones del procedimiento de definición de consultas.
+>En [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} (documentación de Campaign v8) se presentan ejemplos y procedimientos para definir consultas.
 
 La sección izquierda del editor contiene una biblioteca de objetos gráficos que representan actividades. La primera pestaña contiene las actividades de objetivos, y la segunda pestaña contiene las actividades de control de flujo, que se utilizan a menudo para coordinar las actividades de objetivos.
 
@@ -97,7 +97,7 @@ Es posible acceder a las funciones de formato y ejecución del flujo de trabajo 
 
 >[!NOTE]
 >
->Las actividades disponibles para crear el diagrama, así como todas las funciones de visualización y presentación, se describen en la guía [Automatización con flujos de trabajo](../../workflow/using/architecture.md).
+>Las actividades disponibles para crear el diagrama, así como todas las funciones de visualización y presentación, se detallan en la guía [Automatización con flujos de trabajo](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target="_blank"} (Documentación de Campaign v8).
 
 Puede crear varios flujos de trabajo de objetivos para una sola campaña. Para agregar un flujo de trabajo:
 
@@ -250,7 +250,7 @@ Haga clic en **[!UICONTROL Next]** para definir el orden de clasificación (si e
 
 ![](assets/s_ncs_user_edit_op_target_param.png)
 
-Esta configuración equivale a una actividad de uso compartido en el flujo de trabajo, lo que permite desglosar el objetivo en subconjuntos. El grupo de control es uno de estos subconjuntos. Consulte [esta sección](../../workflow/using/architecture.md) para obtener más información.
+Esta configuración equivale a una actividad de uso compartido en el flujo de trabajo, lo que permite desglosar el objetivo en subconjuntos. El grupo de control es uno de estos subconjuntos. Consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} (Documentación de Campaign v8) para obtener más información.
 
 ### Uso de una nueva población como grupo de control {#adding-a-population}
 
@@ -260,13 +260,13 @@ Puede definir una nueva población para utilizarla como grupo de control. Puede 
 
 >[!NOTE]
 >
->El editor de consultas de Adobe Campaign se muestra en [esta sección](../../workflow/using/query.md).
+>El editor de consultas de Adobe Campaign se presenta en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} (documentación de Campaign v8).
 
 
 #### Tutorial en vídeo {#create-email-video}
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/27490?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).

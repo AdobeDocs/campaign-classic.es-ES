@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1511'
-ht-degree: 100%
+source-wordcount: '1526'
+ht-degree: 98%
 ---
 # Entregas de campañas de marketing {#marketing-campaign-deliveries}
 
@@ -83,7 +83,7 @@ Una vez concedidas todas las aprobaciones, el estado de entrega cambia a **[!UIC
 
 >[!NOTE]
 >
->Los flujos de trabajo técnicos relacionados con el paquete de campaña se presentan en [Lista de flujos de trabajo técnicos](../../workflow/using/about-technical-workflows.md).
+>Los flujos de trabajo técnicos relacionados con el paquete de Campaign se presentan en [Lista de flujos de trabajo técnicos](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} (Documentación de Campaign v8).
 
 **Paso 1: Aprobación de archivos**
 
@@ -263,7 +263,7 @@ El modelo de exportación debe estar asociado al proveedor de servicios seleccio
 
 En este vídeo se explica cómo crear una campaña y un correo electrónico en Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/27490?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
 

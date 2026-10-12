@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 19%
+source-wordcount: '807'
+ht-degree: 18%
 ---
 # Rendimiento de la entrega y solución de problemas {#delivery-performance-troubleshooting}
 
@@ -124,7 +124,7 @@ La causa está relacionada con problemas de rendimiento en los que la instancia 
 
 **Para instalaciones locales**, realice una limpieza y vuelva a indexar la base de datos. Para obtener más información sobre el mantenimiento de la base de datos, consulte [esta sección](../../production/using/recommendations.md).
 
-También debe reiniciar todos los flujos de trabajo con una actividad programada y todos los flujos de trabajo en estado fallido. Consulte [esta sección](../../workflow/using/scheduler.md).
+También debe reiniciar todos los flujos de trabajo con una actividad programada y todos los flujos de trabajo en estado fallido. Consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (documentación de Campaign v8).
 
 ### Monitorización técnica del flujo de trabajo
 

@@ -31,10 +31,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 100%
+source-wordcount: '266'
+ht-degree: 89%
 ---
 # Configuración de las pruebas A/B {#configuring-a-b-testing}
 
@@ -44,7 +44,7 @@ En esta sección, se explica cómo crear un flujo de trabajo para realizar prueb
 
 1. Añada una actividad de división para dividir la población de destino en varios subconjuntos. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=es){target="_blank"}.
 
-1. Abra la actividad y configure cada subconjunto según sus necesidades. Para obtener más información sobre cómo configurar una actividad **[!UICONTROL Split]**, consulte [esta sección](../../workflow/using/split.md).
+1. Abra la actividad y configure cada subconjunto según sus necesidades. Para obtener más información sobre cómo configurar una actividad **[!UICONTROL Split]**, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} (documentación de Campaign v8).
 
    En este ejemplo, queremos probar dos temas nuevos para una newsletter presentando cada uno de ellos al 10 % de la población objetivo.
 

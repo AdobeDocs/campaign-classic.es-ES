@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 100%
+source-wordcount: '1275'
+ht-degree: 98%
 ---
 # Introducción a las campañas de marketing{#setting-up-marketing-campaigns}
 
@@ -147,7 +147,7 @@ Las campañas recurrentes se crean a partir de una plantilla específica que def
 
    ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-   El modo de configuración de la programación de ejecución coincide con el objeto **[!UICONTROL Scheduler]** del flujo de trabajo. Para obtener más información, consulte [esta sección](../../workflow/using/architecture.md).
+   El modo de configuración de la programación de ejecución coincide con el objeto **[!UICONTROL Scheduler]** del flujo de trabajo. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (Documentación de Campaign v8).
 
    >[!IMPORTANT]
    >
@@ -245,6 +245,6 @@ Todas las campañas periódicas contienen los mismos elementos. Una vez creada, 
 
 Este vídeo muestra cómo crear planes, programas y campañas de marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/326558?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12)
 
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
