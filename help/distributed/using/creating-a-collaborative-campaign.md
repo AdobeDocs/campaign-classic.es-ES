@@ -49,7 +49,7 @@ Para crear una campaña de colaboración (por formulario), la plantilla **[!UICO
 
 En la pestaña **[!UICONTROL Edit]**, haga clic en el vínculo **[!UICONTROL Advanced campaign settings...]** para acceder a la pestaña **Marketing distribuido**.
 
-Seleccione la interfaz web **Por formulario**. Este tipo de interfaz le permite crear campos de personalización que se utilizarán en entidades locales cuando se solicite una campaña. Consulte [Creación de una campaña local (por formulario) ](examples.md#creating-a-local-campaign--by-form-).
+Seleccione la interfaz web **Por formulario**. Este tipo de interfaz le permite crear campos de personalización que se utilizarán en entidades locales cuando se solicite una campaña. Consulte [Creación de una campaña local (por formulario) &#x200B;](examples.md#creating-a-local-campaign--by-form-).
 
 Guarde la campaña. Ahora puede usarlo desde la vista **Campaign packages** en la pestaña **Campaign**, haciendo clic en el botón **[!UICONTROL Create]**.
 

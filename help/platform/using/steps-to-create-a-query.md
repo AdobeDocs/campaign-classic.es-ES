@@ -43,7 +43,7 @@ ht-degree: 93%
 Los pasos para crear una consulta en Adobe Campaign son los siguientes:
 
 1. Seleccione la tabla de trabajo. Consulte [Paso 1: Elija una tabla](#step-1---choose-a-table).
-1. Seleccionar los datos que desea extraer. Consulte [Paso 2: Selección de los datos que desea extraer ](#step-2---choose-data-to-extract).
+1. Seleccionar los datos que desea extraer. Consulte [Paso 2: Selección de los datos que desea extraer &#x200B;](#step-2---choose-data-to-extract).
 1. Definir la secuencia de ordenación de datos. Consulte [Paso 3: Ordenar datos](#step-3---sort-data).
 1. Filtrar los datos. Consulte [Paso 4: Filtrar datos](#step-4---filter-data).
 1. Formatear los datos. Consulte [Paso 5: Formato de datos](#step-5---format-data).
