@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
 workflow-type: tm+mt
 source-wordcount: '2105'
 ht-degree: 100%
@@ -212,7 +212,7 @@ Sí. El servidor se apaga durante la actualización para garantizar que se conse
 
 Si tiene problemas tras una actualización de compilación, póngase en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). El Servicio de atención al cliente programa las fechas de compilación y abre los tickets relacionados con la actualización de compilación.
 
-Obtenga más información en [Opciones de ayuda y asistencia para Campaign Classic](../../support.md)
+Obtenga más información en [Opciones de ayuda y asistencia para Campaign Classic](../../campaign-classic-home.md)
 
 ## Generación de una lista de comprobación de actualizaciones {#check-list}
 
@@ -252,5 +252,5 @@ que todo el contenido se muestra y está presente.
 
 * [Realización de una actualización de versión](../../production/using/build-upgrade.md)
 * [Notas de la versión de Campaign Classic](../../rn/using/rn-overview.md)
-* [Opciones de ayuda y asistencia de Campaign Classic](../../support.md)
+* [Opciones de ayuda y asistencia de Campaign Classic](../../campaign-classic-home.md)
 * [Programa de actualización anual](../../rn/using/rn-overview.md#yearly-upgrade)
