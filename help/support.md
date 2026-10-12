@@ -75,7 +75,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <li><a href="production/using/performance-and-throughput-issues.md">Problemas de rendimiento y producción</a></li>
         <li><a href="delivery/using/delivery-performance-troubleshooting.md">Rendimiento de envíos</a></li>
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=es" target="_blank">Optimización del rendimiento del flujo de trabajo</a></li>
-        <li><a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution" target="_blank">Solución de problemas de ejecución del flujo de trabajo</a> (documentación de Campaign v8)</li>
+        <li><a href="https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution" target="_blank">Solución de problemas de ejecución del flujo de trabajo</a> (documentación de Campaign v8)</li>
         <li><a href="platform/using/sftp-server-usage.md">Uso del servidor SFTP</a></li>
         <li><a href="delivery/using/delivery-failures-quarantine.md">Comprender los errores de envío</a></li>
         </ul>
@@ -83,7 +83,7 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
    <td valign="top">
         <ul>
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=es" target="_blank">Prácticas recomendadas de flujo de trabajo</a></li>
-        <li><a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows" target="_blank">Supervisión técnica del flujo de trabajo</a> (documentación de Campaign v8)</li>
+        <li><a href="https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows" target="_blank">Supervisión técnica del flujo de trabajo</a> (documentación de Campaign v8)</li>
         <li><a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Comprensión de la administración del seguimiento</a></li>
         <li><a href="production/using/monitoring-guidelines.md">Herramientas de monitorización de Discover</a></li>
         <li><a href="platform/using/import-export-workflows.md">Importación de datos con flujos de trabajo</a></li>
@@ -101,8 +101,8 @@ Obtenga asistencia consultando las preguntas frecuentes, las prácticas recomend
         <li><a href="installation/using/get-started-security-privacy.md">Lista de comprobación de seguridad y privacidad</a></li>
         <li><a href="platform/using/privacy-management.md">Administración de privacidad y consentimientos</a></li>
         <li><a href="platform/using/adobe-campaign-workspace.md#about-queries-in-campaign">Diseño de una consulta</a></li>
-        <li><a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table" target="_blank">Muestras de consultas</a> (documentación de Campaign v8)</li>
-        <li><a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/build-a-workflow" target="_blank">Crear un flujo de trabajo</a> (documentación de Campaign v8)</li>
+        <li><a href="https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/use-cases/designing-queries/querying-recipient-table" target="_blank">Muestras de consultas</a> (documentación de Campaign v8)</li>
+        <li><a href="https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/build-a-workflow" target="_blank">Crear un flujo de trabajo</a> (documentación de Campaign v8)</li>
         </ul>
     </td>
     </tr>
@@ -158,7 +158,7 @@ El nuevo sistema de tickets se ha iniciado a través de [Adobe Admin Console](ht
 
 ### ¡Consulte a los expertos!
 
-Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
+Únase a la comunidad Campaign Classic: encuentre respuestas a preguntas existentes o formule una pregunta a la comunidad. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){_blank}.
 
 ### Acceso al Centro de descargas de Campaign
 

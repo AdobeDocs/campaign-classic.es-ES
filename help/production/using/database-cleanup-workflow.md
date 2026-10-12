@@ -349,7 +349,7 @@ Esta tarea purga cada instancia de flujo de trabajo con su identificador (**lWor
 
 >[!NOTE]
 >
->La frecuencia de depuración del historial se especifica para cada flujo de trabajo en el campo **Historial en días** (valor predeterminado 30 días). Este campo se encuentra en la ficha **Execution** de las propiedades del flujo de trabajo. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/workflow-properties#execution){target="_blank"} (Documentación de Campaign v8).
+>La frecuencia de depuración del historial se especifica para cada flujo de trabajo en el campo **Historial en días** (valor predeterminado 30 días). Este campo se encuentra en la ficha **Execution** de las propiedades del flujo de trabajo. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/advanced-management/workflow-properties#execution){target="_blank"} (Documentación de Campaign v8).
 
 1. Para recuperar la lista de flujos de trabajo que desea eliminar, se utiliza la siguiente consulta:
 

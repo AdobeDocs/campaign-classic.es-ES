@@ -89,7 +89,7 @@ Para obtener el público final y sus datos adicionales:
 
    ![](assets/acs_connect_query1.png)
 
-1. Añada los datos adicionales desde la consulta. Para obtener más información, consulte la sección [Agregar datos](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query#adding-data){target="_blank"} (documentación de Campaign v8).
+1. Añada los datos adicionales desde la consulta. Para obtener más información, consulte la sección [Agregar datos](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query#adding-data){target="_blank"} (documentación de Campaign v8).
 
    Este ejemplo muestra cómo añadir un acumulado para contar cuántos envíos recibió un destinatario en un año.
 

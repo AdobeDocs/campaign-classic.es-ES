@@ -65,15 +65,15 @@ Se ha actualizado la instalación de los paquetes Linux de la versión 7.4.1. [M
 
 Se ha actualizado la sección Notas de la versión con las mejoras, actualizaciones de compatibilidad y parches de la versión 7.4.1. [Más información](latest-release.md)
 
-Se ha añadido una nota para especificar cómo borrar variables de instancia al reiniciar flujos de trabajo. [Más información](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow){target="_blank"} (Documentación de la versión 8 de Campaign)
+Se ha añadido una nota para especificar cómo borrar variables de instancia al reiniciar flujos de trabajo. [Más información](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow){target="_blank"} (Documentación de la versión 8 de Campaign)
 
 ### Abril de 2024 {#apr-2024}
 
 Se ha añadido una nota de precaución acerca de la creación de usuarios con Adobe Identity Management System (IMS). [Más información](../../platform/using/access-management.md)
 
-Se han añadido las opciones que faltan para la actividad del flujo de trabajo Descarga web. [Más información](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/event-activities/web-download){target="_blank"} (Documentación de la versión 8 de Campaign)
+Se han añadido las opciones que faltan para la actividad del flujo de trabajo Descarga web. [Más información](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/event-activities/web-download){target="_blank"} (Documentación de la versión 8 de Campaign)
 
-Se ha añadido una nota de precaución a las actividades **Cambiar dimensión** y **Cambiar fuente de datos** sobre su uso en un flujo de trabajo. [Más información](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source){target="_blank"} (Documentación de la versión 8 de Campaign)
+Se ha añadido una nota de precaución a las actividades **Cambiar dimensión** y **Cambiar fuente de datos** sobre su uso en un flujo de trabajo. [Más información](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source){target="_blank"} (Documentación de la versión 8 de Campaign)
 
 ### Marzo de 2024 {#mar-2024}
 

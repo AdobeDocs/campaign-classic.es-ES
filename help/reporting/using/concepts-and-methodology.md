@@ -162,7 +162,7 @@ Para crear un nuevo acumulado, siga los siguientes pasos:
 
    ![](assets/s_advuser_cube_agregate_04.png)
 
-   * La actividad **[!UICONTROL Scheduler]** permite definir la frecuencia de las actualizaciones del cálculo. El planificador se detalla en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (documentación de Campaign v8).
+   * La actividad **[!UICONTROL Scheduler]** permite definir la frecuencia de las actualizaciones del cálculo. El planificador se detalla en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (documentación de Campaign v8).
    * La actividad **[!UICONTROL Aggregate update]** permite seleccionar el modo de actualización que desea aplicar: completo o parcial.
 
      De forma predeterminada, se lleva a cabo una actualización completa durante cada cálculo. Para habilitar una actualización parcial, seleccione la opción correspondiente y defina las condiciones de actualización.

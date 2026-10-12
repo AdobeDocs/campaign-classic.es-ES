@@ -62,7 +62,7 @@ Varios factores pueden afectar directamente al rendimiento del servidor y ralent
 
   **SUGERENCIA:** Para evitar esto, coordine la programación de las envíos con los demás miembros de su equipo para garantizar el mejor rendimiento.
 
-* Ejecución del flujo de trabajo: La monitorización de sus flujos de trabajo es esencial para evitar problemas de rendimiento de la plataforma. Siga las directrices enumeradas [en este documento](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/workflow-best-practices#execution-and-performance){target="_blank"} (documentación de Campaign v8).
+* Ejecución del flujo de trabajo: La monitorización de sus flujos de trabajo es esencial para evitar problemas de rendimiento de la plataforma. Siga las directrices enumeradas [en este documento](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/workflow-best-practices#execution-and-performance){target="_blank"} (documentación de Campaign v8).
 
 * Como cliente elegible, puede impulsar las [funciones del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es) para monitorizar su plataforma mediante funciones de [monitorización del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es).
 

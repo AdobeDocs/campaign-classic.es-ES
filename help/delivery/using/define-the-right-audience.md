@@ -92,8 +92,8 @@ Las direcciones duplicadas protegen su reputación de envío y garantizan una bu
 
 **Temas relacionados:**
 
-* [Actividad de deduplicación](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication){target="_blank"} (documentación de Campaign v8).
-* [Caso de uso: uso de la funcionalidad de combinación de la actividad de anulación de duplicación](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge){target="_blank"} (documentación de Campaign v8)
+* [Actividad de deduplicación](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication){target="_blank"} (documentación de Campaign v8).
+* [Caso de uso: uso de la funcionalidad de combinación de la actividad de anulación de duplicación](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge){target="_blank"} (documentación de Campaign v8)
 
 ## Indexación de direcciones de correo electrónico {#index-addresses}
 

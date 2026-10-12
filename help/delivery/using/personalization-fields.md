@@ -104,7 +104,7 @@ Se crea un correo electrónico en el que primero debe insertar el nombre del des
 
    >[!NOTE]
    >
-   >Cuando una entrega forma parte de un flujo de trabajo, se pueden utilizar los datos de la tabla de flujo de trabajo temporal. Estos datos se agrupan en el menú **[!UICONTROL Target extension]**. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/use-workflow-data){target="_blank"} (Documentación de Campaign v8).
+   >Cuando una entrega forma parte de un flujo de trabajo, se pueden utilizar los datos de la tabla de flujo de trabajo temporal. Estos datos se agrupan en el menú **[!UICONTROL Target extension]**. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/use-workflow-data){target="_blank"} (Documentación de Campaign v8).
 
 ## Optimización de la personalización {#optimizing-personalization}
 
@@ -120,7 +120,7 @@ Para utilizar esta opción, siga los pasos a continuación:
 
 1. Cree una campaña. Para obtener más información al respecto, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es){target=_blank}.
 1. En la pestaña **[!UICONTROL Targeting and workflows]** de la campaña, añada una actividad **Query** al flujo de trabajo. Para obtener más información sobre esta actividad, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} (Documentación de Campaign v8).
-1. Añada una actividad de **[!UICONTROL Email delivery]** al flujo de trabajo y ábrala. Para obtener más información sobre esta actividad, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"} (Documentación de Campaign v8).
+1. Añada una actividad de **[!UICONTROL Email delivery]** al flujo de trabajo y ábrala. Para obtener más información sobre esta actividad, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"} (Documentación de Campaign v8).
 1. Vaya a la pestaña **[!UICONTROL Analysis]** de la **[!UICONTROL Delivery properties]** y seleccione la opción **[!UICONTROL Prepare the personalization data with a workflow]**.
 
    ![](assets/perso_optimization.png)

@@ -77,7 +77,7 @@ En este caso, incluso si la regla está vinculada a todas las entregas, solo se 
 
 >[!NOTE]
 >
->Las reglas de tipologías y filtrado se pueden utilizar en un flujo de trabajo en la actividad **[!UICONTROL Delivery outline]**. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/delivery-outline){target="_blank"} (Documentación de Campaign v8).
+>Las reglas de tipologías y filtrado se pueden utilizar en un flujo de trabajo en la actividad **[!UICONTROL Delivery outline]**. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/delivery-outline){target="_blank"} (Documentación de Campaign v8).
 
 ## Creación y uso de una tipología de filtrado {#creating-and-using-a-filtering-typology}
 

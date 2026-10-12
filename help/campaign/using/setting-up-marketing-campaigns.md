@@ -147,7 +147,7 @@ Las campañas recurrentes se crean a partir de una plantilla específica que def
 
    ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-   El modo de configuración de la programación de ejecución coincide con el objeto **[!UICONTROL Scheduler]** del flujo de trabajo. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (Documentación de Campaign v8).
+   El modo de configuración de la programación de ejecución coincide con el objeto **[!UICONTROL Scheduler]** del flujo de trabajo. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (Documentación de Campaign v8).
 
    >[!IMPORTANT]
    >

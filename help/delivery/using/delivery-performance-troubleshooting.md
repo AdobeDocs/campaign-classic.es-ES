@@ -124,7 +124,7 @@ La causa está relacionada con problemas de rendimiento en los que la instancia 
 
 **Para instalaciones locales**, realice una limpieza y vuelva a indexar la base de datos. Para obtener más información sobre el mantenimiento de la base de datos, consulte [esta sección](../../production/using/recommendations.md).
 
-También debe reiniciar todos los flujos de trabajo con una actividad programada y todos los flujos de trabajo en estado fallido. Consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (documentación de Campaign v8).
+También debe reiniciar todos los flujos de trabajo con una actividad programada y todos los flujos de trabajo en estado fallido. Consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (documentación de Campaign v8).
 
 ### Monitorización técnica del flujo de trabajo
 

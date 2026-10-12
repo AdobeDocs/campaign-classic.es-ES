@@ -83,7 +83,7 @@ Una vez concedidas todas las aprobaciones, el estado de entrega cambia a **[!UIC
 
 >[!NOTE]
 >
->Los flujos de trabajo técnicos relacionados con el paquete de Campaign se presentan en [Lista de flujos de trabajo técnicos](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} (Documentación de Campaign v8).
+>Los flujos de trabajo técnicos relacionados con el paquete de Campaign se presentan en [Lista de flujos de trabajo técnicos](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} (Documentación de Campaign v8).
 
 **Paso 1: Aprobación de archivos**
 

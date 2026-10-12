@@ -97,7 +97,7 @@ Es posible acceder a las funciones de formato y ejecución del flujo de trabajo 
 
 >[!NOTE]
 >
->Las actividades disponibles para crear el diagrama, así como todas las funciones de visualización y presentación, se detallan en la guía [Automatización con flujos de trabajo](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target="_blank"} (Documentación de Campaign v8).
+>Las actividades disponibles para crear el diagrama, así como todas las funciones de visualización y presentación, se detallan en la guía [Automatización con flujos de trabajo](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/activities){target="_blank"} (Documentación de Campaign v8).
 
 Puede crear varios flujos de trabajo de objetivos para una sola campaña. Para agregar un flujo de trabajo:
 
@@ -250,7 +250,7 @@ Haga clic en **[!UICONTROL Next]** para definir el orden de clasificación (si e
 
 ![](assets/s_ncs_user_edit_op_target_param.png)
 
-Esta configuración equivale a una actividad de uso compartido en el flujo de trabajo, lo que permite desglosar el objetivo en subconjuntos. El grupo de control es uno de estos subconjuntos. Consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} (Documentación de Campaign v8) para obtener más información.
+Esta configuración equivale a una actividad de uso compartido en el flujo de trabajo, lo que permite desglosar el objetivo en subconjuntos. El grupo de control es uno de estos subconjuntos. Consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} (Documentación de Campaign v8) para obtener más información.
 
 ### Uso de una nueva población como grupo de control {#adding-a-population}
 
