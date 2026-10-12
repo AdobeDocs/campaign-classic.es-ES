@@ -41,10 +41,10 @@ subfeature_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 91%
 ---
 # Exclusión para la venta de información personal (CCPA) {#sale-of-personal-information-ccpa}
 
@@ -70,7 +70,7 @@ Para aprovechar esta información, debe crear este campo en Adobe Campaign Class
 
 Si utiliza una tabla de destinatarios personalizada, también deberá realizar esta operación.
 
-Para más información sobre cómo crear un campo nuevo, consulte la [documentación de edición de esquema](../../configuration/using/about-schema-edition.md).
+Para obtener información más detallada sobre cómo crear un campo nuevo, consulte la [Documentación de edición de esquema](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (Documentación de Campaign v8).
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ Para más información sobre cómo crear un campo nuevo, consulte la [documentac
 
    ![](assets/privacy-ccpa-3.png)
 
-1. Haga clic en el nodo **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]** de Explorer. En **[!UICONTROL Recipient (nms)]**, en Paquete general, añada un elemento `<input>` y use la ruta relativa definida en el paso 2 para el valor xpath. Para obtener más información sobre la identificación de un formulario, consulte [esta sección](../../configuration/using/identifying-a-form.md).
+1. Haga clic en el nodo **[!UICONTROL Configuration]** > **[!UICONTROL Input forms]** de Explorer. En **[!UICONTROL Recipient (nms)]**, en Paquete general, añada un elemento `<input>` y use la ruta relativa definida en el paso 2 para el valor xpath. Para obtener más información sobre la identificación de un formulario, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentación de Campaign v8).
 
    ```
    <input  colspan="2" type="checkbox" xpath="@OPTOUTCCPA"/>

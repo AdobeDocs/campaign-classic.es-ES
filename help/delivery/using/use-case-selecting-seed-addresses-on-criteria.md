@@ -30,10 +30,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 100%
+source-wordcount: '866'
+ht-degree: 97%
 ---
 # Caso de uso: seleccionar direcciones semilla según determinados criterios{#use-case-selecting-seed-addresses-on-criteria}
 
@@ -65,7 +65,7 @@ Para crear un valor común como el de nuestro ejemplo (departamento de compras),
 
 ### Ampliación del esquema de datos {#extending-the-data-schema}
 
-Para obtener más información sobre las extensiones de esquema, consulte [esta sección](../../configuration/using/data-schemas.md).
+Para obtener más información sobre las extensiones de esquema, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} (documentación de Campaign v8).
 
 1. En el nodo **[!UICONTROL Administration > Configuration > Data schemas]**, haga clic en el icono **[!UICONTROL New]**.
 1. En la ventana **[!UICONTROL Creation of a data schema]**, seleccione la opción **[!UICONTROL Extension of a schema]** haciendo clic en **[!UICONTROL Next]**.

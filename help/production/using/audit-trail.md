@@ -29,16 +29,16 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 13%
+source-wordcount: '459'
+ht-degree: 12%
 ---
 # Pista de auditoría{#audit-trail}
 
 >[!INFO]
 >
->Descubra más información sobre la funcionalidad Pista de auditoría en la [documentación de Adobe Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/audit-trail).
+>Descubra más información sobre la funcionalidad Pista de auditoría en la [documentación de Adobe Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail).
 
 En Adobe Campaign, **[!UICONTROL Audit trail]** le proporciona acceso al historial completo de cambios realizados dentro de su instancia.
 
@@ -55,7 +55,7 @@ En Adobe Campaign, **[!UICONTROL Audit trail]** le proporciona acceso al histori
 
 * **Registro de auditoría de esquemas**: permite explorar los cambios realizados en los esquemas, así como identificar quién realizó estas modificaciones y cuándo se produjeron.
 
-  Para obtener información detallada sobre los esquemas, consulte esta [página](../../configuration/using/data-schemas.md).
+  Para obtener información detallada sobre los esquemas, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} (documentación de Campaign v8).
 
 * **Registro de auditoría de flujo de trabajo** rastrea todas las acciones relacionadas con sus flujos de trabajo, incluyendo:
 

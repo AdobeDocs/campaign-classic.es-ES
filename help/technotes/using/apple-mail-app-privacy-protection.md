@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2138'
 ht-degree: 1%
 ---
 # Protección de privacidad de correo en la aplicación Mail de Apple
@@ -95,7 +95,7 @@ Para recopilar datos de Adobe Campaign, puede utilizar informes predeterminados 
 
 * Informe **[!UICONTROL Operating Systems]**
 
-  Para identificar la proporción de visitantes por sistema operativo y por versión, utilice este informe. [Más información](../../reporting/using/global-reports.md#operating-systems).
+  Para identificar la proporción de visitantes por sistema operativo y por versión, utilice este informe. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#operating-systems){target="_blank"} (Documentación de Campaign v8).
 
   Puede ver el desglose de visitantes por sistema operativo en relación con la cantidad total de visitantes.
 
@@ -107,7 +107,7 @@ Para recopilar datos de Adobe Campaign, puede utilizar informes predeterminados 
 
 * Informe **[!UICONTROL Breakdown of opens]**
 
-  Para identificar la proporción de correos electrónicos abiertos por sistema operativo, utilice este informe. [Más información](../../reporting/using/global-reports.md#breakdown-of-opens).
+  Para identificar la proporción de correos electrónicos abiertos por sistema operativo, utilice este informe. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#breakdown-of-opens){target="_blank"} (Documentación de Campaign v8).
 
   ![](../../reporting/using/assets/dlv_useragent_report.png)
 
@@ -127,7 +127,7 @@ En este ejemplo, un experto en marketing desea enviar una oferta de recompensa a
 
   ![](assets/identify-email-open-tracking-2.png)
 
-* Puede utilizar un filtro predefinido. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=es){target="_blank"}.
+* Puede utilizar un filtro predefinido. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
 
   ![](assets/identify-email-open-tracking-3.png)
 

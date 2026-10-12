@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 79%
 ---
 # Documentación de Campaign Classic v7 {#campaign-classic-documentation}
 
@@ -109,7 +109,7 @@ Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Experiencia del cliente</strong><br/><a href="workflow/using/about-workflows.md">Automatización con flujos de trabajo</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es" target="_blank">Campaña de marketing</a> - <a href="interaction/using/interaction-and-offer-management.md">Interacción y gestión de ofertas</a> - <a href="delivery/using/about-personalization.md">Personalización</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">Sistema de informes</a>
+      <strong>Experiencia del cliente</strong><br/><a href="workflow/using/about-workflows.md">Automatización con flujos de trabajo</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es" target="_blank">Campaña de marketing</a> - <a href="interaction/using/interaction-and-offer-management.md">Interacción y administración de ofertas</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">Creación de informes</a> (Documentación de Campaign v8)
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
@@ -131,7 +131,7 @@ Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>Recursos para desarrolladores</strong><br/><a href="configuration/using/about-data-model.md">Descripción del modelo de datos</a> - <a href="configuration/using/about-schema-reference.md">Estructura del esquema</a> - <a href="configuration/using/editing-forms.md">Estructura del esquema</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/es/tools/campaign-api">Documentación de referencia de JSAPI</a> - <a href="configuration/using/about-custom-recipient-table.md">Tabla de destinatarios personalizada</a>
+      <strong>Recursos para desarrolladores</strong><br/><a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel" target="_blank">Descripción del modelo de datos</a> (documentación de Campaign v8) - <a href="configuration/using/about-schema-reference.md">Estructura del esquema</a> - <a href="configuration/using/editing-forms.md">Estructura del esquema</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/es/tools/campaign-api">Documentación de referencia de JSAPI</a> - <a href="configuration/using/about-custom-recipient-table.md">Tabla de destinatarios personalizada</a>
     </td>
   </tr>
 </table>

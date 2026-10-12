@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 16%
+source-wordcount: '912'
+ht-degree: 15%
 ---
 # Personalización y privacidad {#privacy}
 
@@ -117,7 +117,7 @@ Para habilitar la firma de URL, siga estos pasos en todos los servidores de Camp
 
 Debe asegurarse de que un usuario autenticado con privilegios bajos no pueda acceder a las contraseñas cifradas. Para ello, restrinja el acceso solo a campos de contraseña o a toda la entidad (necesita una compilación >= 8770).
 
-Esta restricción permite eliminar los campos con contraseñas, pero permite a la cuenta externa acceder a ella desde la interfaz de todos los usuarios. [Más información](../../configuration/using/restricting-pii-view.md).
+Esta restricción permite eliminar los campos con contraseñas, pero permite a la cuenta externa acceder a ella desde la interfaz de todos los usuarios. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"} (documentación de Campaign v8).
 
 Para realizar esto, siga los pasos a continuación:
 

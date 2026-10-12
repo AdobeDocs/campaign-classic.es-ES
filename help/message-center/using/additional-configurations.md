@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 100%
+source-wordcount: '884'
+ht-degree: 94%
 ---
 # Configuraciones adicionales {#mc-additional-configurations}
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## Umbrales de monitorización {#monitoring-thresholds}
 
-Puede configurar los umbrales de advertencia (naranja) y los umbrales de alerta (rojo) de los indicadores que aparecen en los informes **Nivel de servicio del Centro de mensajería** y **Tiempo de procesamiento del Centro de mensajes** (consulte [Acceso a los informes de mensajería transaccional](../../message-center/using/about-transactional-messaging-reports.md)).
+Puede configurar los umbrales de advertencia (naranja) y los umbrales de alerta (rojo) de los indicadores que aparecen en los informes **Message Center service level** y **Message Center processing time** (consulte [Acceso a informes de mensajería transaccional](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} (documentación de Campaign v8)).
 
 Para realizar esto, siga los pasos a continuación:
 

@@ -35,10 +35,10 @@ subfeature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 94%
 ---
 # Uso de plantillas {#use-templates}
 
@@ -82,7 +82,7 @@ Para configurar direcciones en la interfaz de Campaign, siga los pasos a continu
 
 ### Configuración de un grupo de control
 
-Una vez entregado el envío, puede comparar el comportamiento de los destinatarios excluidos con el de los destinatarios que sí recibieron el envío. Puede medir la eficacia de sus campañas. Obtenga más información sobre los grupos de control [en esta sección](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+Una vez entregado el envío, puede comparar el comportamiento de los destinatarios excluidos con el de los destinatarios que sí recibieron el envío. Puede medir la eficacia de sus campañas. Obtenga más información acerca de los grupos de control [en esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"} (documentación de Campaign v8).
 
 Para configurar un grupo de control, haga clic en el vínculo **[!UICONTROL To]**. En la ventana **[!UICONTROL Select target]**, seleccione la pestaña **[!UICONTROL Control group]**. Puede extraer una parte de los destinatarios como, por ejemplo, una muestra aleatoria del 5 %.
 
@@ -96,4 +96,4 @@ En la pestaña **[!UICONTROL Typology]** de las propiedades de la plantilla, cam
 
 Por ejemplo, para controlar mejor el tráfico saliente, puede definir qué direcciones IP se pueden utilizar definiendo una afinidad por subdominio y creando una tipología por afinidad. Las afinidades se definen en el archivo de configuración de la instancia. Póngase en contacto con el administrador de Adobe Campaign.
 
-Para obtener más información sobre tipologías, consulte [esta sección](../../campaign-opt/using/about-campaign-typologies.md).
+Para obtener más información sobre tipologías, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} (Documentación de Campaign v8).

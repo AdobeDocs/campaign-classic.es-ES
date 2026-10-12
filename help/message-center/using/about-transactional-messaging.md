@@ -18,10 +18,10 @@ feature_v2:
 subfeature_v2:
   - id: d3b34fea-a110-482f-adb2-aae8d686bac8
     internal-label: Transactional messaging
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '606'
+ht-degree: 67%
 ---
 # Introducción a la mensajería transaccional {#about-transactional-messaging}
 
@@ -31,15 +31,11 @@ ht-degree: 100%
 
 La **mensajería transaccional** (Centro de mensajería) es un módulo de Campaign diseñado para administrar las notificaciones de activador personalizadas generadas a partir de eventos enviados por un sistema de información externo.
 
-Un mensaje transaccional es una comunicación individual y única que un proveedor, como un sitio web, envía en tiempo real. Se espera especialmente, ya que contiene información importante que el destinatario desea comprobar o confirmar.
+Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre la mensajería transaccional, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}.
 
-Las funcionalidades de mensajería transaccional están diseñadas para admitir la escalabilidad y proporcionar un servicio las 24 horas del día, los 7 días de la semana.
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}
 
-* **¿Cuándo debe realizarse el envío?** Dado que este mensaje contiene información importante, el usuario espera que se envíe en tiempo real. Por lo tanto, el retraso entre el evento que se está activando y el mensaje que llega tiene que ser muy corto.
-
-* **¿Por qué es importante?** Generalmente, un mensaje transaccional tiene altas tasas de apertura. Por lo tanto, debe diseñarse cuidadosamente, ya que puede tener un fuerte impacto en el comportamiento de los clientes, ya que define la relación con ellos.
-
-* **¿Por ejemplo?** Podría ser un mensaje de bienvenida después de crear una cuenta, una confirmación de envío de un pedido, una factura, un mensaje que confirme un cambio de contraseña, una notificación después de que un cliente navegue por su sitio web, una comunicación de no disponibilidad del producto, un extracto de cuenta, etc.
+Esta sección cubre la arquitectura de mensajería transaccional y la configuración de las instancias de control y ejecución, específicas para implementaciones locales e híbridas.
 
 >[!IMPORTANT]
 >
@@ -57,16 +53,6 @@ Esta funcionalidad se basa en una arquitectura específica, donde la **instancia
 >
 >Para crear nuevos usuarios para las instancias de ejecución del Centro de mensajería alojadas en Adobe Cloud, debe ponerse en contacto con el [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Los usuarios del Centro de mensajería son operadores específicos que requieren permisos especiales para acceder a las carpetas **[!UICONTROL Real time events (nmsRtEvent)]**.
 
-El proceso general de mensajería transaccional se puede describir de la siguiente manera:
-
-![](assets/transactional-msg-overview.png)
-
-Por ejemplo, imaginemos que es una compañía con un sitio web en el que los clientes pueden comprar productos.
-
-Adobe Campaign le permite enviar un correo electrónico de notificación a los clientes que han añadido productos al carro de compras. Cuando uno de ellos abandona el sitio web sin finalizar sus compras (evento externo que activa un evento de Campaign), se les envía automáticamente un correo electrónico de abandono del carro de compras (entrega de mensaje transaccional).
-
-Los pasos principales para ponerlo en práctica se detallan a continuación en [esta sección](#key-steps).
-
 >[!NOTE]
 >
 >Adobe Campaign prioriza el procesamiento de los mensajes transaccionales sobre cualquier otra entrega.
@@ -79,10 +65,10 @@ A continuación se resumen los pasos principales para crear y administrar mensaj
 
 En la **instancia de control**, debe realizar las siguientes acciones:
 
-1. [Cree un tipo de evento](../../message-center/using/creating-event-types.md).
-1. [Cree y diseñe la plantilla de mensaje](../../message-center/using/creating-the-message-template.md). Debe vincular un evento al mensaje durante este paso.
+1. [Crear un tipo de evento](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"} (documentación de Campaign v8).
+1. [Cree y diseñe la plantilla de mensaje](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (documentación de Campaign v8). Debe vincular un evento al mensaje durante este paso.
 1. [Pruebe el mensaje](../../message-center/using/testing-message-templates.md).
-1. [Publique la plantilla de mensaje](../../message-center/using/publishing-message-templates.md).
+1. [Publicar la plantilla de mensaje](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (documentación de Campaign v8).
 
 >[!NOTE]
 >
@@ -92,13 +78,13 @@ En la **instancia de control**, debe realizar las siguientes acciones:
 
 Una vez que haya diseñado y publicado la plantilla de mensaje transaccional, si se activa un evento correspondiente, los pasos principales a continuación se realizan en la **instancia de ejecución**:
 
-1. Cuando el sistema de información externa genera el evento, los datos relevantes se envían a Campaign mediante los métodos **PushEvent** y **PushEvents**. Consulte [Recopilación de eventos](../../message-center/using/about-event-processing.md#event-collection).
-1. El evento está vinculado a la plantilla de mensaje adecuada. Consulte [Enrutamiento hacia una plantilla](../../message-center/using/about-event-processing.md#routing-towards-a-template).
-1. Una vez finalizada la fase de enriquecimiento, se realiza la entrega. Consulte [Ejecución de envíos](../../message-center/using/delivery-execution.md). Cada destinatario objetivo recibe un mensaje personalizado.
+1. Cuando el sistema de información externa genera el evento, los datos relevantes se envían a Campaign mediante los métodos **PushEvent** y **PushEvents**. Consulte [Recopilación de eventos](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-collection){target="_blank"} (documentación de Campaign v8).
+1. El evento está vinculado a la plantilla de mensaje adecuada. Ver [Enrutamiento hacia una plantilla](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-to-template){target="_blank"} (documentación de Campaign v8).
+1. Una vez finalizada la fase de enriquecimiento, se realiza la entrega. Consulte [Ejecución de entrega](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} (documentación de Campaign v8). Cada destinatario objetivo recibe un mensaje personalizado.
 
 ## Temas relacionados {#related-topics}
 
 * [Introducción a los canales de comunicación](../../delivery/using/communication-channels.md)
 * [Pasos clave para la creación de envíos](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}
 * [Arquitectura de la mensajería transaccional](../../message-center/using/transactional-messaging-architecture.md)
-* [Acceso a los informes de mensajería transaccional](../../message-center/using/about-transactional-messaging-reports.md)
+* [Informes de mensajería transaccional de acceso](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} (documentación de Campaign v8)

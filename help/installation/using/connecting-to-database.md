@@ -30,10 +30,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 95%
+source-wordcount: '658'
+ht-degree: 90%
 ---
 # Conexión a la base de datos {#connecting-to-the-database}
 
@@ -126,4 +126,4 @@ Si es necesario, puede crear el esquema para procesar datos en una base de datos
 
 >[!NOTE]
 >
->Para obtener más información sobre la creación de esquemas en Adobe Campaign y la definición de una nueva asignación de datos, consulte [esta página](../../configuration/using/about-schema-edition.md).
+>Para obtener más información sobre la creación de esquemas en Adobe Campaign y la definición de una nueva asignación de datos, consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentación de Campaign v8).
