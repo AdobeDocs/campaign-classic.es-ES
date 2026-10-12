@@ -36,10 +36,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 92%
 ---
 # Definición del público correcto {#define-the-right-audience}
 
@@ -92,8 +92,8 @@ Las direcciones duplicadas protegen su reputación de envío y garantizan una bu
 
 **Temas relacionados:**
 
-* [Actividad de deduplicación](../../workflow/using/deduplication.md).
-* [Caso de uso: Uso de la funcionalidad de combinación de la actividad de anulación de duplicación](../../workflow/using/deduplication-merge.md)
+* [Actividad de deduplicación](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication){target="_blank"} (documentación de Campaign v8).
+* [Caso de uso: uso de la funcionalidad de combinación de la actividad de anulación de duplicación](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge){target="_blank"} (documentación de Campaign v8)
 
 ## Indexación de direcciones de correo electrónico {#index-addresses}
 

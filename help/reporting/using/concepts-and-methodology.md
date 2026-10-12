@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Reporting interface
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
     internal-label: Monitoring guidelines
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 100%
+source-wordcount: '1526'
+ht-degree: 98%
 ---
 # Prácticas recomendadas para cubos{#concepts-and-methodology}
 
@@ -162,7 +162,7 @@ Para crear un nuevo acumulado, siga los siguientes pasos:
 
    ![](assets/s_advuser_cube_agregate_04.png)
 
-   * La actividad **[!UICONTROL Scheduler]** permite definir la frecuencia de las actualizaciones del cálculo. El planificador se detalla en [esta sección](../../workflow/using/scheduler.md).
+   * La actividad **[!UICONTROL Scheduler]** permite definir la frecuencia de las actualizaciones del cálculo. El planificador se detalla en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (documentación de Campaign v8).
    * La actividad **[!UICONTROL Aggregate update]** permite seleccionar el modo de actualización que desea aplicar: completo o parcial.
 
      De forma predeterminada, se lleva a cabo una actualización completa durante cada cálculo. Para habilitar una actualización parcial, seleccione la opción correspondiente y defina las condiciones de actualización.

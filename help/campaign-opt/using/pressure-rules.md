@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '3362'
-ht-degree: 100%
+source-wordcount: '3392'
+ht-degree: 98%
 ---
 # Reglas de presión{#pressure-rules}
 
@@ -364,8 +364,8 @@ Primero, configure la regla de presión.
 Ahora cree y configure un flujo de trabajo para cada envío al que desee aplicar la regla de presión.
 
 1. Cree una campaña. Para obtener más información, consulte [esta sección](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
-1. En la pestaña **[!UICONTROL Targeting and workflows]** de la campaña, añada una actividad **Query** al flujo de trabajo. Para obtener más información sobre esta actividad, consulte [esta sección](../../workflow/using/query.md).
-1. Añada una actividad de **[!UICONTROL Email delivery]** al flujo de trabajo y ábrala. Para obtener más información sobre esta actividad, consulte [esta sección](../../workflow/using/delivery.md).
+1. En la pestaña **[!UICONTROL Targeting and workflows]** de la campaña, añada una actividad **Query** al flujo de trabajo. Para obtener más información sobre esta actividad, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} (Documentación de Campaign v8).
+1. Añada una actividad de **[!UICONTROL Email delivery]** al flujo de trabajo y ábrala. Para obtener más información sobre esta actividad, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"} (Documentación de Campaign v8).
 1. En **[!UICONTROL Approvals]** vaya a la pestaña **[!UICONTROL Delivery properties]** y deshabilite todas las aprobaciones.
 
    ![](assets/campaign_opt_pressure_example_2.png)

@@ -31,10 +31,10 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 93%
 ---
 # Pasos para crear una consulta{#steps-to-create-a-query}
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 Los pasos para crear una consulta en Adobe Campaign son los siguientes:
 
 1. Seleccione la tabla de trabajo. Consulte [Paso 1: Elija una tabla](#step-1---choose-a-table).
-1. Seleccionar los datos que desea extraer. Consulte [Paso 2: Selección de los datos que desea extraer ](#step-2---choose-data-to-extract).
+1. Seleccionar los datos que desea extraer. Consulte [Paso 2: Selección de los datos que desea extraer &#x200B;](#step-2---choose-data-to-extract).
 1. Definir la secuencia de ordenación de datos. Consulte [Paso 3: Ordenar datos](#step-3---sort-data).
 1. Filtrar los datos. Consulte [Paso 4: Filtrar datos](#step-4---filter-data).
 1. Formatear los datos. Consulte [Paso 5: Formato de datos](#step-5---format-data).
@@ -52,8 +52,8 @@ Los pasos para crear una consulta en Adobe Campaign son los siguientes:
 >[!NOTE]
 >
 >* Todos estos pasos están disponibles en el editor de consultas genérico. Cuando se crea una consulta en otro contexto, se pueden obviar algunos pasos.\
->La actividad de consulta se muestra en [esta sección](../../workflow/using/query.md).
->* Para obtener más información sobre consultas y cómo crearlas, consulte la [documentación de la versión 8 de Campaign](../../workflow/using/query.md).
+>La actividad Consulta se presenta en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} (documentación de Campaign v8).
+>* Para obtener más información sobre consultas y cómo crearlas, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"}.
 
 <!--
 ## Step 1 - Choose a table {#step-1---choose-a-table}
@@ -74,13 +74,13 @@ You can edit an expression by inserting a formula into it or running a process o
 
 ![](assets/query_editor_nveau_97.png)
 
-It is possible to group output column data: to do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Group]** column of the **[!UICONTROL Data to extract]** window. This function generates a result around the checked grouping axis. An example of a query with grouping is available in [this section](../../workflow/using/querying-delivery-information.md).
+It is possible to group output column data: to do this, check **[!UICONTROL Yes]** in the **[!UICONTROL Group]** column of the **[!UICONTROL Data to extract]** window. This function generates a result around the checked grouping axis. An example of a query with grouping is available in [this section](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info){target="_blank"} (Campaign v8 documentation).
 
 ![](assets/query_editor_nveau_56.png)
 
 * The **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** function lets you "group by" and select what has been grouped ("having"). This function applies to all fields in the output column. For example, this option lets you group all choices of an output column and recover a specific type of information, such as recipients between 35 and 50.
 
-  For more on this, refer to [this section](../../workflow/using/querying-using-grouping-management.md).
+  For more on this, refer to [this section](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/use-cases/designing-queries/query-grouping-management){target="_blank"} (Campaign v8 documentation).
 
 * The **[!UICONTROL Remove duplicate rows (DISTINCT)]** function lets you deduplicate identical results obtained in the output column. For example, if you take a census by selecting the Last name, First name and Email fields in the output column, those with identical data will be eliminated, since it means the same contact has been entered several times in the database: only one result will be taken into account.
 

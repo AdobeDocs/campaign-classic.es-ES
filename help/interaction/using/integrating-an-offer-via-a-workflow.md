@@ -25,10 +25,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 100%
+source-wordcount: '1092'
+ht-degree: 98%
 ---
 # Integración de una oferta mediante un flujo de trabajo{#integrating-an-offer-via-a-workflow}
 
@@ -162,7 +162,7 @@ Esta actividad funciona con el mismo principio que la actividad de enriquecimien
 
 ![](assets/int_offerengine_activity2.png)
 
-Después de configurar la consulta (consulte la [guía sobre flujos de trabajo](../../workflow/using/query.md)).
+Después de configurar la consulta (consulte la [Guía de flujos de trabajo](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} (documentación de Campaign v8)):
 
 1. Añada y abra una actividad **[!UICONTROL Offer engine]**.
 1. Complete los diferentes campos disponibles para especificar el uso de los parámetros del motor de oferta (ofrecer espacio, categoría o tema, fecha de contacto, número de ofertas que desea mantener). Según estos parámetros, el motor calculará automáticamente las ofertas a agregar.
