@@ -35,9 +35,9 @@ ht-degree: 9%
 
 Para crear una lista de tipo **[!UICONTROL List]** basada en la nueva tabla de destinatarios, debe crear un flujo de trabajo de objetivos que genere la lista.
 
-Para obtener más información sobre las listas en Campaign, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-of-contacts){target="_blank"} (Documentación de Campaign v8).
+Para obtener más información sobre las listas en Campaign, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-of-contacts){target="_blank"} (Documentación de Campaign v8).
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta característica en vídeo](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-wf){target="_blank"} (documentación de Campaign v8)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta característica en vídeo](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-wf){target="_blank"} (documentación de Campaign v8)
 
 Para crear un flujo de trabajo de objetivos y actualizar los destinatarios en una tabla de destinatarios personalizada, siga los pasos a continuación:
 

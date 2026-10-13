@@ -46,7 +46,7 @@ Puede realizar un seguimiento de la ejecución de los trabajos de importación y
 ![](assets/s_ncs_user_export_list_and_details.png)
 
 * La pestaña **[!UICONTROL Journal]** permite ver los mensajes de registro relacionados con la ejecución.
-* La pestaña **[!UICONTROL Rejects]** contiene los registros rechazados. Consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import#behavior-in-the-event-of-an-error){target="_blank"} (documentación de Campaign v8).
+* La pestaña **[!UICONTROL Rejects]** contiene los registros rechazados. Consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/import#behavior-in-the-event-of-an-error){target="_blank"} (documentación de Campaign v8).
 
 En la pestaña **[!UICONTROL General]**, el campo **[!UICONTROL Status]** indica el estado actual de un trabajo.
 

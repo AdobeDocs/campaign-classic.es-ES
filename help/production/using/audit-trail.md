@@ -38,7 +38,7 @@ ht-degree: 12%
 
 >[!INFO]
 >
->Descubra más información sobre la funcionalidad Pista de auditoría en la [documentación de Adobe Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail).
+>Descubra más información sobre la funcionalidad Pista de auditoría en la [documentación de Adobe Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/audit-trail).
 
 En Adobe Campaign, **[!UICONTROL Audit trail]** le proporciona acceso al historial completo de cambios realizados dentro de su instancia.
 
@@ -55,7 +55,7 @@ En Adobe Campaign, **[!UICONTROL Audit trail]** le proporciona acceso al histori
 
 * **Registro de auditoría de esquemas**: permite explorar los cambios realizados en los esquemas, así como identificar quién realizó estas modificaciones y cuándo se produjeron.
 
-  Para obtener información detallada sobre los esquemas, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentación de Campaign v8).
+  Para obtener información detallada sobre los esquemas, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentación de Campaign v8).
 
 * **Registro de auditoría de flujo de trabajo** rastrea todas las acciones relacionadas con sus flujos de trabajo, incluyendo:
 

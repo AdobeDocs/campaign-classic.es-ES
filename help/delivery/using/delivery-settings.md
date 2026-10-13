@@ -44,9 +44,9 @@ ht-degree: 93%
 
 Los siguientes ajustes son específicos de Campaign Classic. Para obtener más información, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=es){target="_blank"}.
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información acerca de la configuración de envío, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/validate/configure-and-send){target=_blank}.
+Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información acerca de la configuración de envío, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/validate/configure-and-send){target=_blank}.
 
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/validate/configure-and-send){target=_blank}
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/validate/configure-and-send){target=_blank}
 
 ## Análisis de envíos {#delivery-analysis}
 

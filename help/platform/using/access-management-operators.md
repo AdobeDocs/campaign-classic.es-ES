@@ -151,7 +151,7 @@ El enlace **[!UICONTROL Edit the access parameters...]** permite acceder a las s
   >
   >Aunque su cuenta esté deshabilitada, el operador puede recibir alertas o notificaciones de Campaign. Para dejar de enviar notificaciones de Campaign a este operador, Adobe recomienda eliminar la dirección de correo electrónico de su perfil.
 
-* La opción **[!UICONTROL Forbid access from the rich client]** le permite restringir el uso de Adobe Campaign a [acceso web](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} (documentación de Campaign v8) o a través de API: el acceso a la consola del cliente de Adobe Campaign ya no está disponible.
+* La opción **[!UICONTROL Forbid access from the rich client]** le permite restringir el uso de Adobe Campaign a [acceso web](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} (documentación de Campaign v8) o a través de API: el acceso a la consola del cliente de Adobe Campaign ya no está disponible.
 * Es posible vincular una zona de seguridad al operador. Para obtener más información, consulte [esta página](../../installation/using/security-zones.md).
 * También puede definir una máscara IP de confianza mediante el vínculo apropiado.
 
