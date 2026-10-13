@@ -22,100 +22,18 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 4%
+source-wordcount: '256'
+ht-degree: 19%
 ---
 # Asignación de base de datos{#database-mapping}
 
-La asignación SQL del esquema de ejemplo descrito [en esta página](schema-structure.md) genera el siguiente documento XML:
+Esta página describe cómo declarar índices en los campos de un esquema.
 
-```sql
-<schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">
-  <enumeration basetype="byte" name="gender">    
-    <value label="Not specified" name="unknown" value="0"/>    
-    <value label="Male" name="male" value="1"/>    
-    <value label="Female" name="female" value="2"/> 
-  </enumeration>  
+Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre la asignación SQL de esquemas, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/database-mapping){target=_blank}.
 
-  <element name="recipient" sqltable="CusRecipient">    
-    <attribute desc="Recipient email address" label="Email" length="80" name="email" sqlname="sEmail" type="string"/>    
-    <attribute default="GetDate()" label="Date of creation" name="created" sqlname="tsCreated" type="datetime"/>    
-    <attribute enum="gender" label="Gender" name="gender" sqlname="iGender" type="byte"/>    
-    <element label="Location" name="location">      
-      <attribute label="City" length="50" name="city" sqlname="sCity" type="string" userEnum="city"/>    
-    </element>  
-  </element>
-</schema>
-```
-
-El elemento raíz del esquema cambió a **`<srcschema>`** a **`<schema>`**.
-
-Este otro tipo de documento se genera automáticamente a partir del esquema de origen y se denomina simplemente esquema.
-
-Los nombres SQL se determinan automáticamente en función del nombre y el tipo del elemento.
-
-Las reglas de nomenclatura SQL son las siguientes:
-
-* **tabla**: concatenación del espacio de nombres y nombre del esquema
-
-  En nuestro ejemplo, el nombre de la tabla se introduce a través del elemento principal del esquema en el atributo **sqltable**:
-
-  ```sql
-  <element name="recipient" sqltable="CusRecipient">
-  ```
-
-* **campo**: nombre del elemento precedido por un prefijo definido según el tipo: &quot;i&quot; para entero, &quot;d&quot; para doble, &quot;s&quot; para cadena, &quot;ts&quot; para fechas, etc.
-
-  El nombre de campo se escribe mediante el atributo **sqlname** para cada **`<attribute>`** y **`<element>`** escrito:
-
-  ```sql
-  <attribute desc="Email address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
-  ```
-
->[!NOTE]
->
->Los nombres SQL se pueden sobrecargar desde el esquema de origen. Para ello, rellene los atributos &quot;sqltable&quot; o &quot;sqlname&quot; en el elemento correspondiente.
-
-La secuencia de comandos SQL para crear la tabla generada a partir del esquema ampliado es la siguiente:
-
-```sql
-CREATE TABLE CusRecipient(
-  iGender NUMERIC(3) NOT NULL Default 0,   
-  sCity VARCHAR(50),   
-  sEmail VARCHAR(80),
-  tsCreated TIMESTAMP Default NULL);
-```
-
-Las restricciones de campo SQL son las siguientes:
-
-* no hay valores nulos en los campos numérico y de fecha
-* los campos numéricos se inicializan en 0
-
-## Campos XML {#xml-fields}
-
-De manera predeterminada, cualquier elemento de tipo **`<attribute>`** y **`<element>`** se asigna a un campo SQL de la tabla de esquema de datos. Sin embargo, puede hacer referencia a este campo en XML en lugar de en SQL, lo que significa que los datos se almacenan en un campo memo (&quot;mData&quot;) de la tabla que contiene los valores de todos los campos XML. El almacenamiento de estos datos es un documento XML que observa la estructura del esquema.
-
-Para rellenar un campo en XML, debe agregar el atributo **xml** con el valor &quot;true&quot; al elemento correspondiente.
-
-**Ejemplo**: estos son dos ejemplos de uso de campos XML.
-
-* Campo de comentarios multilínea:
-
-  ```sql
-  <element name="comment" xml="true" type="memo" label="Comment"/>
-  ```
-
-* Descripción de los datos en formato HTML:
-
-  ```sql
-  <element name="description" xml="true" type="html" label="Description"/>
-  ```
-
-  El tipo &quot;html&quot; permite almacenar el contenido de HTML en una etiqueta CDATA y mostrar una comprobación especial de edición de HTML en la interfaz de cliente de Adobe Campaign.
-
-Utilice campos XML para añadir nuevos campos sin modificar la estructura física de la base de datos. Otra ventaja es que utiliza menos recursos (tamaño asignado a campos SQL, límite en el número de campos por tabla, etc.). Sin embargo, tenga en cuenta que no puede indexar ni filtrar un campo XML.
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/database-mapping){target=_blank}
 
 ## Campos indexados {#indexed-fields}
 
@@ -189,5 +107,4 @@ Examine los siguientes vínculos para obtener más información:
 * [Introducción a los esquemas](about-schema-reference.md)
 * [Estructura del esquema](schema-structure.md)
 * [Administración de claves](database-keys.md)
-* [Administración de vínculos](database-links.md)
-* [Modelo de datos de Campaign](about-data-model.md)
+* [Administración de vínculos](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (documentación de Campaign v8)

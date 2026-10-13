@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2390'
 ht-degree: 3%
 ---
 # Descripción del modelo de datos de Campaign{#data-model-description}
@@ -73,7 +73,7 @@ El campo iFolderId es la clave externa que vincula al destinatario con su carpet
 
 El campo sCountryCode es el código ISO 3166-1 de Alpha 2 (2 caracteres) del país asociado al destinatario. Este campo es en realidad una clave externa en la tabla de referencia de país (NmsCountry), que contiene las etiquetas de país y otros datos de código de país. Si el país no está rellenado, se almacena el valor &quot;XX&quot; (y se utiliza en lugar de un registro de ID cero).
 
-Para obtener más información sobre la tabla de destinatarios, vea [esta sección](../../configuration/using/about-data-model.md#default-recipient-table).
+Para obtener más información sobre la tabla de destinatarios, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} (documentación de Campaign v8).
 
 ### NmsGroup {#NmsGroup}
 

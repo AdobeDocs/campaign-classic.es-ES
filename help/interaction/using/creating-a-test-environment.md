@@ -20,10 +20,10 @@ feature_v2:
     internal-label: Interaction
   - id: ea08db70-4682-59a2-9408-9aedd9548e07
     internal-label: Offers
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '144'
+ht-degree: 79%
 ---
 # Creación de un entorno de prueba{#creating-a-test-environment}
 
@@ -33,7 +33,7 @@ Para crear un entorno de prueba (modo de zona protegida), siga estos pasos:
 
 >[!IMPORTANT]
 >
->Utilice solamente este método de creación de entorno para los entornos de prueba. En todos los demás casos, utilice el asistente de asignación de público destinatario. Para obtener más información, consulte [Creación de un entorno de ofertas](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+>Utilice solamente este método de creación de entorno para los entornos de prueba. En todos los demás casos, utilice el asistente de asignación de público destinatario. Para obtener más información, consulte [Creación de un entorno de ofertas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentación de Campaign v8).
 
 1. Inicie Adobe Campaign Explorer y vaya a la raíz de la instancia.
 1. Haga clic con el botón derecho del ratón y añada una **[!UICONTROL Generic folder]** utilizando los menús desplegables.

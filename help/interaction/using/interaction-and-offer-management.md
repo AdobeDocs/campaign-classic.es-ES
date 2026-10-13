@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '439'
+ht-degree: 70%
 ---
 # Interacción y gestión de ofertas{#interaction-and-offer-management}
 
@@ -39,6 +39,12 @@ Se puede crear un catálogo de ofertas que interactúe con los canales entrantes
 
 La interacción permite crear y gestionar un catálogo de ofertas y configurar las reglas de elegibilidad y los temas de la aplicación vinculados a ellas. Según el canal elegido, el contenido de la oferta puede personalizarse gracias a las diversas funciones de renderización. Finalmente, puede utilizar el módulo de simulación para calcular el impacto de la presentación de una oferta.
 
+Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre interacción, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction){target=_blank}.
+
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction){target=_blank}
+
+Esta sección solo cubre las funcionalidades de interacción que no se describen en la documentación de Campaign v8: [simulación de ofertas](about-offers-simulation.md), [presentación de ofertas](managing-offer-presentation.md), [aprobación de ofertas](approving-and-activating-an-offer.md), [plantillas de ofertas](managing-offer-templates.md) y [configuración avanzada](using-advanced-parameters.md).
+
 ![](assets/Offermgt2.png)
 
 ![](assets/do-not-localize/how-to-video.png) Para familiarizarse con la función de interacción y la terminología utilizada en Campaign Interaction, vea [este vídeo](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com).
@@ -47,6 +53,6 @@ La interacción permite crear y gestionar un catálogo de ofertas y configurar l
 
 | Páginas útiles | Recursos adicionales |
 |---|---|
-| [Pasos de implementación de la interacción](../../interaction/using/implementation-steps.md) | [Prueba de la distribución de ofertas](../../interaction/using/about-offers-simulation.md) |
-| [Entornos en directo/de diseño](../../interaction/using/live-design-environments.md) | [Adición de una oferta en un correo electrónico](../../interaction/using/integrating-an-offer-via-the-wizard.md) |
-| [Creación de espacios de oferta](../../interaction/using/creating-offer-spaces.md) | [Caso de uso: añadir una oferta en un sitio web](../../interaction/using/offers-on-an-inbound-channel.md) |
+| [Pasos de implementación de interacción](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction){target="_blank"} (documentación de Campaign v8) | [Prueba de la distribución de ofertas](../../interaction/using/about-offers-simulation.md) |
+| [Entornos en vivo/de diseño](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env){target="_blank"} (Documentación de la versión 8 de Campaign) | [Adición de una oferta en un correo electrónico](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (documentación de Campaign v8) |
+| [Creación de espacios de ofertas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (documentación de Campaign v8) | [Caso de uso: añadir una oferta en un sitio web](../../interaction/using/offers-on-an-inbound-channel.md) |

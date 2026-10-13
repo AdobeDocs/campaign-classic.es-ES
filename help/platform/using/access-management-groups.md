@@ -44,10 +44,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 100%
+source-wordcount: '604'
+ht-degree: 96%
 ---
 # Creación y administración de grupos de operadores {#operator-groups}
 
@@ -135,7 +135,7 @@ Los grupos de operadores predeterminados son:
 
 1. **[!UICONTROL Offer managers]**
 
-   Los operadores de este grupo pueden crear y mantener ofertas. Para obtener más información, consulte esta [página](../../interaction/using/operator-profiles.md).
+   Los operadores de este grupo pueden crear y mantener ofertas. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators){target="_blank"} (documentación de Campaign v8).
    Este grupo contiene los siguientes derechos asignados:
 
    * **[!UICONTROL INSERT FOLDERS]**: derecho a insertar carpetas en el árbol de Adobe Campaign (siempre que tenga derechos de edición para las ramas correspondientes).

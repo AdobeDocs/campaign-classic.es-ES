@@ -39,10 +39,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 100%
+source-wordcount: '1791'
+ht-degree: 98%
 ---
 # Definición de la población objetivo {#defining-the-target-population}
 
@@ -51,7 +51,7 @@ Para cada entrega, se pueden definir varios tipos de poblaciones destinatarias:
 * **Público principal**: perfiles que recibirán mensajes. [Obtenga más información](steps-defining-the-target-population.md#selecting-the-main-target)
 * **Prueba**: destinatarios de mensajes de prueba implicados en el ciclo de validación. [Obtenga más información](steps-defining-the-target-population.md#defining-a-specific-proof-target)
 * **Direcciones semilla**: destinatarios que estén fuera del objetivo de la entrega, pero que reciban la entrega (solo en el contexto de una campaña de marketing). [Obtenga más información](about-seed-addresses.md)
-* **Grupos de control**: población que no recibe la entrega, se utiliza para realizar el seguimiento del comportamiento y el impacto de la campaña (solo en el contexto de una campaña de marketing). [Más información](../../campaign/using/marketing-campaign-target.md#defining-a-control-group).
+* **Grupos de control**: población que no recibe la entrega, se utiliza para realizar el seguimiento del comportamiento y el impacto de la campaña (solo en el contexto de una campaña de marketing). [Más información](https://experienceleague.adobe.com/es/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"} (documentación de Campaign v8).
 
 ## Selección de los principales destinatarios de la entrega {#selecting-the-main-target}
 

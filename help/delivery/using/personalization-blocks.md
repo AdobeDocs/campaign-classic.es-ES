@@ -37,16 +37,16 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 100%
+source-wordcount: '992'
+ht-degree: 97%
 ---
 # Bloques de personalización{#personalization-blocks}
 
 Los bloques personalizados son dinámicos, personalizados y contienen un procesamiento específico que puede insertar en las entregas. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un vínculo a una página espejo. Consulte [Inserción de bloques de personalización](#inserting-personalization-blocks).
 
-![](assets/do-not-localize/how-to-video.png)[ Descubra esta función en vídeo](#personalization-blocks-video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; Descubra esta función en vídeo](#personalization-blocks-video)
 
 Se puede acceder a los bloques personalizados mediante el nodo **[!UICONTROL Resources > Campaign Management > Personalization blocks]** de Adobe Campaign Explorer. Hay varios bloques disponibles de forma predeterminada (consulte [Bloques de personalización predeterminados](#out-of-the-box-personalization-blocks)).
 
@@ -145,7 +145,7 @@ De forma predeterminada, hay disponibles una lista de bloques personalizados que
 * **[!UICONTROL Registration confirmation]**: inserta un vínculo que permite confirmar la suscripción.
 * **[!UICONTROL Social network sharing links]** : inserta botones que permiten al destinatario compartir un vínculo al contenido de la página espejo con el cliente de correo electrónico, Facebook, X (anteriormente conocido como Twitter) y LinkedIn (consulte [Marketing viral: reenviar a un amigo](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
 * **[!UICONTROL Style of content emails]** y **[!UICONTROL Notification style]**: genera un código que dé formato a un correo electrónico con estilos HTML predefinidos. Estos bloques deben insertarse en el código fuente de la entrega, en la sección **[!UICONTROL ...]**, entre las etiquetas **`<style>...</style>`**.
-* **[!UICONTROL Offer acceptance URL in unitary mode]**: inserta una URL que permite establecer una oferta de interacción como **[!UICONTROL Accepted]** (consulte [esta sección](../../interaction/using/offer-analysis-report.md)).
+* **[!UICONTROL Offer acceptance URL in unitary mode]** : inserta una URL que permite establecer una oferta de interacción en **[!UICONTROL Accepted]** (consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-tracking){target="_blank"} (documentación de Campaign v8)).
 
 ## Definición de bloques de personalización propios {#defining-custom-personalization-blocks}
 

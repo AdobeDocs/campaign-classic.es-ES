@@ -48,10 +48,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '1658'
-ht-degree: 100%
+source-wordcount: '1685'
+ht-degree: 98%
 ---
 # Validación de la entrega {#validating-the-delivery}
 
@@ -232,7 +232,7 @@ Puede ver y editar las reglas de aprobación, su contenido, orden de ejecución 
 
 Puede crear nuevas reglas y definir nuevas tipologías a partir de este nodo. Sin embargo, estas tareas se reservan para los usuarios expertos que conocen JavaScript.
 
-Para obtener más información sobre las reglas de tipología, consulte [esta página](../../campaign-opt/using/about-campaign-typologies.md).
+Para obtener más información sobre reglas de tipología, consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} (documentación de Campaign v8).
 
 Para editar la tipología actual, haga clic en el icono **[!UICONTROL Edit link]** a la derecha del campo **[!UICONTROL Typology]**.
 
@@ -244,7 +244,7 @@ La pestaña **[!UICONTROL Rule]** proporciona una lista de las reglas de tipolog
 
 >[!NOTE]
 >
->Las tipologías de tipo **[!UICONTROL Arbitration]** se utilizan dentro del marco de gestión de la presión de ventas. Para obtener más información, consulte [esta sección](../../mrm/using/about-marketing-resource-management.md).
+>Las tipologías de tipo **[!UICONTROL Arbitration]** se utilizan dentro del marco de gestión de la presión de ventas. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/mrm/about-marketing-resource-management){target="_blank"} (Documentación de Campaign v8).
 
 ## Cambio del modo de aprobación {#changing-the-approval-mode}
 

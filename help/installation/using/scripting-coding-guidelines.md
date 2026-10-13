@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '786'
 ht-degree: 7%
 ---
 # Directrices de script y código {#scripting-coding-guidelines}
@@ -96,7 +96,7 @@ Consulte estas páginas:
 
 Además del modelo de seguridad basado en carpetas, puede utilizar derechos asignados para limitar las acciones de los operadores:
 
-* Puede agregar algunos filtros del sistema (sysFilter) para evitar que se lea o escriba en los datos (consulte [esta página](../../configuration/using/filtering-schemas.md)).
+* Puede agregar algunos filtros del sistema (sysFilter) para evitar que se lea o escriba en los datos (consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/filter-schema){target="_blank"} (documentación de Campaign v8)).
 
   ```
   <sysFilter name="writeAccess">    

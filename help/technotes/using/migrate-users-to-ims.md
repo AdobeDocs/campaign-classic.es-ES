@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '676'
 ht-degree: 4%
 ---
 # Migración de operadores de Campaign a Adobe Identity Management System (IMS) {#migrate-users-to-ims}
@@ -65,27 +65,6 @@ Este cambio es aplicable a partir de la versión 7.4.1 de Campaign Classic (y la
 >Revise atentamente las convenciones de nomenclatura de Perfil de producto para asegurarse de que solo los usuarios autorizados tengan acceso al Panel de control de Campaign. Obtenga más información acerca de la administración de permisos de Panel de control de Campaign en la [documentación de Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es){target="_blank"}.
 
 
-## ¿Cómo migrar entornos alojados y de Managed Services? {#ims-migration-procedure}
-
-### Requisitos previos {#ims-migration-prerequisites}
-
-Antes de iniciar el proceso de migración, debe ponerse en contacto con el administrador de transición de Adobe (para los clientes de Managed Services) o con el servicio de atención al cliente de Adobe (para otros clientes alojados), de modo que los equipos técnicos de Adobe puedan migrar los grupos de operadores existentes y los derechos asignados a Adobe Identity Management System (IMS).
-
-### Pasos clave {#ims-migration-steps}
-
-A continuación se enumeran los pasos clave para esta migración:
-
-1. Adobe actualiza sus entornos a Campaign v7.4.1 (o una [versión compatible con la migración IMS](ac-ims.md#ims-versions)).
-1. Después de la actualización, aún puede crear nuevos usuarios con ambos métodos, como usuario nativo o con IMS.
-1. El administrador de Campaign interno debe añadir correos electrónicos únicos a todos los usuarios nativos en la consola del cliente de Campaign y confirmar esto al representante de Adobe/Servicio de atención al cliente una vez hecho.  Este paso se detalla en [esta sección](#ims-migration-id).
-1. Póngase en contacto con su representante de Adobe o con el Servicio de atención al cliente para fijar una fecha en la que Adobe pueda ejecutar la migración automatizada para sus usuarios no técnicos (operadores) y perfiles de producto. Este paso requiere un intervalo de horas sin tiempo de inactividad en ninguno de los servicios.
-1. El administrador de Campaign interno valida estos cambios y proporciona una firma. Después de esta migración, ya no debe crear ningún operador adicional que se autentique con este inicio de sesión y contraseña.
-
-También puede migrar sus operadores técnicos a Adobe Developer Console como se detalla en [esta nota técnica](ims-migration.md).
-
-Una vez completada esta migración, confirme con su Adobe Transition Manager (para usuarios de Managed Services) o con el Servicio de atención al cliente de Adobe (para clientes alojados). A continuación, Adobe marca la migración como completada. A continuación, su entorno está protegido y estandarizado.
-
-
 ## Cómo migrar entornos híbridos y locales {#ims-migration-procedure-on-prem}
 
 A continuación se enumeran los pasos clave para esta migración:
@@ -93,71 +72,16 @@ A continuación se enumeran los pasos clave para esta migración:
 1. Actualice sus entornos a Campaign v7.4.1 (o una [versión compatible con la migración IMS](#ims-versions)).
 1. Después de la actualización, aún puede crear nuevos usuarios con ambos métodos, como usuario nativo o con IMS.
 1. El administrador interno de Campaign debe configurar Adobe IMS como se detalla en [esta sección](../../integrations/using/configuring-ims.md).
-1. A continuación, añada correos electrónicos únicos a todos los usuarios nativos en la consola del cliente de Campaign. Este paso se detalla en [esta sección](#ims-migration-id).
+1. A continuación, añada correos electrónicos únicos a todos los usuarios nativos en la consola del cliente de Campaign. Este paso se detalla en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims#ims-migration-id){target="_blank"} (Documentación de Campaign v8).
 1. Cree usuarios y perfiles de producto en Adobe Admin Console como se detalla en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/manage-permissions.html?lang=es){target="_blank"}.
 1. Habilite la opción **Conectar con Adobe ID** para todos los operadores.
 1. Implemente Adobe IMS para su conexión según se detalla en [esta página](../../integrations/using/implementing-ims.md).
 
 También puede migrar sus operadores técnicos a Adobe Developer Console como se detalla en [esta nota técnica](ims-migration.md).
 
-
 ## Preguntas frecuentes {#ims-migration-faq}
 
-### ¿Cómo se crean usuarios después de la migración? {#ims-migration-native}
-
-Adobe recomienda crear solamente usuarios de IMS después de actualizar a Campaign Classic v7.4.1 (o una [versión compatible con la migración IMS](#ims-versions)).
-A partir de la versión 7.4.1 de Campaign, puede evitar la creación de operadores nativos al actualizar la configuración de la instancia como se detalla en [esta página](impact-ims-migration.md).
-
-Como administrador de Campaign, puede conceder permisos a los usuarios de su organización a través de Adobe Admin Console y la consola del cliente de Campaign. Los usuarios inician sesión en Adobe Campaign con su Adobe ID. Obtenga información sobre cómo configurar permisos con IMS en [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=es){target="_blank"}.
-
-### ¿Cómo se agregan correos electrónicos para los usuarios nativos actuales? {#ims-migration-id}
-
-Como administrador de Campaign, debe agregar ID de correo electrónico a todos los usuarios nativos desde la consola del cliente. Para realizar esto, siga los pasos a continuación:
-
-1. Conéctese a la consola del cliente y vaya a **Administración > Administración de acceso > Operadores**.
-1. Seleccione el operador que desea actualizar en la lista de operadores.
-1. Escriba el correo electrónico del operador en la sección **Puntos de contacto** del formulario del operador.
-1. Guarde los cambios.
-
-<!--You can also import a CSV file to update all your operator profiles with their email.-->
-
-
-### ¿Cómo iniciar sesión en Campaign a través de IMS? {#ims-migration-log}
-
-Aprenda a conectarse a Campaign con su Adobe ID en [esta sección](../../integrations/using/implementing-ims.md).
-
-### ¿Habrá un tiempo de inactividad durante esta migración? {#ims-migration-downtime}
-
-Para los clientes alojados y de Managed Services, para finalizar la migración (migrar usuarios y perfiles de producto), Adobe requiere un intervalo de una hora sin tiempo de inactividad en ninguna de las instancias (flujos de trabajo, etc.).
-
-Durante este periodo, todos los usuarios de Campaign deben cerrar la sesión y volver a iniciarla con su Adobe ID una vez finalizada la migración a IMS.
-
-Adobe recomienda encarecidamente que todos los usuarios cierren sesión durante la ventana de migración.
-
-### Los usuarios de mi organización ya están utilizando IMS, ¿aún tengo que realizar la migración de IMS?{#ims-migration-needed}
-
-Esta migración tiene dos aspectos: migración de usuarios finales (además de perfiles de producto) y migración de usuarios técnicos (utilizados en las API de su código personalizado).
-
-Si todos los usuarios (operadores de Campaign) están en IMS, aún debe ponerse en contacto con su representante de Adobe/Asistencia al cliente para planificar la migración de perfiles de producto. También deberá migrar a los usuarios técnicos que pueda haber utilizado en el código personalizado. Obtenga más información en [esta página](ims-migration.md).
-
-### ¿Cómo se puede ver el tipo de autenticación de los operadores?
-
-Obtenga información sobre cómo ver el tipo de autenticación de los operadores en Campaign:
-
-1. Desde **Explorer**, acceda a **Administration** `>` **Access Management** `>` **Operators**.
-
-1. Haga clic con el botón derecho en la fila del encabezado y seleccione el menú **Configurar lista**.
-
-   ![](assets/ims_2.png)
-
-1. Agregar **cuenta deshabilitada** y **tipo de autenticación** como **columnas de salida**.
-
-   ![](assets/ims_1.png)
-
-Ahora puede ver la lista de sus **Operadores** y su **Tipo de autenticación**.
-
-![](assets/ims_3.png)
-
+Para obtener respuestas a preguntas comunes sobre la migración (creación de usuarios después de la migración, adición de correos electrónicos para usuarios nativos, inicio de sesión mediante IMS, tiempo de inactividad, organizaciones que ya utilizan IMS, visualización del tipo de autenticación de los operadores), consulte la [nota técnica de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims#ims-migration-faq){target=_blank} (documentación de Campaign v8).
 
 >[!MORELIKETHIS]
 >

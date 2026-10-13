@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 96%
+source-wordcount: '946'
+ht-degree: 94%
 ---
 # Pasos de configuración para Android
 
@@ -195,7 +195,7 @@ A continuación se muestran los nombres de carga útil de FCM para personalizar 
 
 Deberá ampliar **appsubscriptionRcp** para definir nuevos campos adicionales que almacenen parámetros de la aplicación en la base de datos de Campaign. Estos campos se utilizan, por ejemplo, para la personalización. Para ello, haga lo siguiente:
 
-1. Cree una extensión del esquema **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** y defina los campos nuevos. Obtenga más información sobre la extensión de esquema en [esta página](../../configuration/using/about-schema-edition.md).
+1. Cree una extensión del esquema **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** y defina los campos nuevos. Obtenga más información acerca de la extensión de esquema en [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentación de Campaign v8)
 
 1. Defina la asignación en la pestaña **[!UICONTROL Subscription parameters]**.
 

@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
 source-wordcount: '2702'
 ht-degree: 98%
@@ -87,7 +87,7 @@ _7 de septiembre de 2021_
 **Otros cambios**
 
 * Se ha corregido una regresión introducida en la versión 21.1.3 con el nuevo mecanismo de protección del flujo de trabajo de facturación. El flujo de trabajo de facturación se ejecutaba en instancias incorrectas y se bloqueaba al intentar enviar el informe de facturación, que no se generaba. Debe reiniciar manualmente el flujo de trabajo para que se aplique la corrección.
-* Los conectores de Microsoft CRM anteriormente obsoletos (implementaciones Office 365 y On-premise) se han eliminado de la interfaz. [Más información](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
+* Los conectores de Microsoft CRM anteriormente obsoletos (implementaciones Office 365 y On-premise) se han eliminado de la interfaz. [Más información](../../platform/using/crm-connectors.md)
 * Después de la migración a Tomcat 8, el script de configuración de IIS se ha actualizado para solucionar los problemas de integración de IIS. (NEO-31019)
 * La identificación de la fuente de datos se ha mejorado en las pestañas de datos y esquema de la ventana **Ver población** de las transiciones de flujo de trabajo.
 * Los índices de base de datos que faltaban se añadieron a los siguientes esquemas para evitar problemas de actualización de la base de datos: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl

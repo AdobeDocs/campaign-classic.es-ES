@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 18%
+source-wordcount: '811'
+ht-degree: 17%
 ---
 # Problemas de rendimiento y producción{#performance-and-throughput-issues}
 
@@ -92,7 +92,7 @@ A continuación se muestra una lista de prácticas recomendadas y artículos rel
   >La participación del equipo de entregabilidad se basa en el contrato y los clientes deben ponerse en contacto con su representante de Adobe para obtener información relacionada con la participación en la entregabilidad.
 
 * Configuración de afinidad IP: una configuración de afinidad IP incorrecta puede detener por completo los correos electrónicos (nombre de operador/afinidad incorrecto en la configuración) o reducir el rendimiento (pequeño número de IP en la afinidad). Consulte [esta página](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
-* Tamaño del correo electrónico: el tamaño del correo electrónico desempeña un papel importante en el rendimiento. El tamaño de correo electrónico máximo recomendado es de 60 KB. Consulte [esta página](https://helpx.adobe.com/es/legal/product-descriptions/campaign.html). En el informe [Rendimiento de entrega](../../reporting/using/global-reports.md#delivery-throughput), compruebe el número de bytes transferidos por hora.
+* Tamaño del correo electrónico: el tamaño del correo electrónico desempeña un papel importante en el rendimiento. El tamaño de correo electrónico máximo recomendado es de 60 KB. Consulte [esta página](https://helpx.adobe.com/es/legal/product-descriptions/campaign.html). En el informe [Delivery throughput](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (documentación de Campaign v8), compruebe el número de bytes transferidos por hora.
 * Gran número de destinatarios no válidos: cuando hay un gran número de destinatarios no válidos, puede afectar al rendimiento. El MTA sigue reintentando enviar correos electrónicos a destinatarios no válidos. Asegúrese de que la base de datos esté bien mantenida.
 * Cantidad de personalización: si una entrega permanece en &quot;Personalization en curso&quot;, compruebe el JavaScript utilizado en los bloques de personalización.
 

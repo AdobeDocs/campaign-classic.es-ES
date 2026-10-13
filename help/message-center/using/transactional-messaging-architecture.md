@@ -23,10 +23,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 100%
+source-wordcount: '1119'
+ht-degree: 98%
 ---
 # Arquitectura de la mensajería transaccional {#transactional-messaging-architecture}
 
@@ -103,7 +103,7 @@ Si ha iniciado un proyecto de mensajería transaccional en el canal de correo el
 >Este procedimiento solo se aplica a los clientes que utilizan un servidor NLServer de Windows instalado en el mismo equipo en el que están trabajando.
 
 1. Instale el canal que necesita, por ejemplo, el **Canal móvil**, mediante el asistente de importación de paquetes (**[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]**).
-1. Realice una importación de archivos (**[!UICONTROL Tools > Advanced > Import package... > File]**) y seleccione el archivo **datakitnms **`[Your language]`**packagemessageCenter.xml**.
+1. Realice una importación de archivos (**[!UICONTROL Tools > Advanced > Import package... > File]**) y seleccione el archivo **datakitnms &#x200B;**`[Your language]`**packagemessageCenter.xml**.
 1. En **[!UICONTROL XML content of the data to import]**, conserve solo la plantilla de envíos que corresponde al canal añadido. Por ejemplo, si ha añadido el **canal móvil**, conserve solamente el elemento **entidades** que corresponda a **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). Si ha añadido el **canal de aplicación móvil**, mantenga únicamente el **mensaje transaccional de iOS** (iosTriggerMessage) y el **mensaje transaccional de Android** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
@@ -142,7 +142,7 @@ Create your delivery templates the way you would for an email campaign:
 * Add the offer to your transactional message template.
 * Check the preview, send a proof and publish the template.
 
-You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](../../interaction/using/creating-offer-spaces.md).
+You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (Campaign v8 documentation).
 
 -->
 
@@ -264,4 +264,4 @@ A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** >
    * Haga clic en el botón **[!UICONTROL Create the archiving workflow]**.
    * Haga clic en el botón **[!UICONTROL Create data synchronization workflow]** para crear el flujo de trabajo de la sincronización de datos LINE.
 
-1. Ahora puede empezar a [crear mensajes transaccionales](../../message-center/using/creating-the-message-template.md).
+1. Ahora puede empezar a [crear mensajes transaccionales](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (documentación de Campaign v8).

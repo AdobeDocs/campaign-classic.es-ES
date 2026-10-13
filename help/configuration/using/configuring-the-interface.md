@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 2%
+source-wordcount: '302'
+ht-degree: 1%
 ---
 # Configuración de la interfaz{#configuring-the-interface}
 
@@ -57,7 +57,7 @@ La creación de un nuevo formulario permite ver y editar los datos de la tabla d
 
    >[!NOTE]
    >
-   >Para obtener más información sobre los archivos de tipo **form**, consulte [esta página](../../configuration/using/identifying-a-form.md).
+   >Para obtener más información sobre los archivos de tipo **form**, consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentación de Campaign v8).
 
    En nuestro ejemplo actual, el archivo **form** debe basarse en el esquema **cus:individual** y, por lo tanto, tener el siguiente diseño:
 
