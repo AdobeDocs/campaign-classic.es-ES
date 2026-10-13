@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 100%
@@ -467,14 +467,14 @@ Se **requieren** los siguientes sistemas operativos y exploradores para utilizar
 
 La última versión en tiempo de ejecución de Microsoft Edge WebView2 es obligatoria en la consola del cliente de Campaign.
 
-Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es).
+Descargar Microsoft Edge WebView2 del [sitio de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download).
 
 
 ## SDK móvil {#MobileSDK}
 
 Puede utilizar Campaign para [enviar notificaciones push](../../delivery/using/about-mobile-app-channel.md) a través del SDK móvil de Adobe Experience Platform configurando la extensión de Adobe Campaign en la interfaz de usuario de recopilación de datos.
 
-Campaign SDK está [en desuso](deprecated-features.md) a partir de la versión 7.4 de Campaign. Para garantizar una transición sin problemas de la implementación existente a AEP Mobile SDK, aún puede usarlo en los sistemas operativos que se enumeran a continuación<!--, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)-->.
+Campaign SDK está [en desuso](deprecated-features.md) a partir de la versión 7.4 de Campaign. Para garantizar una transición sin problemas de la implementación existente a AEP Mobile SDK, aún puede usarlo en los sistemas operativos que se enumeran a continuación<!--, using the associated [mobile SDK](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation)-->.
 
 
 <table>

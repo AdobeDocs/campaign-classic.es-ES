@@ -37,71 +37,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 100%
+source-wordcount: '915'
+ht-degree: 94%
 ---
 # Automatización con flujos de trabajo{#automating-via-workflows}
 
-## Actividad de administración de contenido {#content-management-activity}
+La creación, edición y publicación de contenido de Gestión de contenido se puede automatizar mediante un flujo de trabajo.
 
-La creación, edición y publicación de contenido puede automatizarse mediante un flujo de trabajo configurado a través de la interfaz de cliente de Adobe Campaign.
+Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para aprender a configurar la actividad **Content management**, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}.
 
-Se accede a la actividad de **Administración de contenido** a través de la barra de herramientas **[!UICONTROL Tools]** del diagrama de flujo de trabajo.
-
-Las propiedades de actividad se dividen en cuatro pasos:
-
-* **[!UICONTROL Content]** : permite introducir contenido existente o crear contenido,
-* **[!UICONTROL Update content]** : permite modificar el asunto del contenido o actualizar el contenido a través de un flujo de datos XML,
-* **[!UICONTROL Action to execute]**: le permite guardar o generar contenido,
-* **[!UICONTROL Transition]** : permite elegir si generar o no una transición de salida y asignarle un nombre.
-
-![](assets/d_ncs_content_wf.png)
-
-### Contenido {#content}
-
-* **Especificado por la transición**
-
-  El contenido que se va a utilizar se había creado anteriormente. Los procesos afectan a la instancia de contenido propagada por el evento entrante. Se accede al identificador de contenido a través de la variable “contentId” del evento.
-
-* **Explícito**
-
-  Permite elegir el contenido creado anteriormente.
-
-* **Calculado por una secuencia de comandos**
-
-  Selecciona una instancia de contenido basándose en una plantilla JavaScript. El código que se va a evaluar permite recuperar el identificador de contenido.
-
-* **Nuevo, creado mediante una plantilla de publicación**
-
-  Crea un nuevo contenido a través de una plantilla de publicación. La instancia de contenido se guarda en la carpeta rellenada “Cadena”.
-
-### Actualización del contenido {#update-the-content}
-
-* **Asunto**
-
-  Permite modificar el asunto de la acción de entrega al publicar.
-
-* **Acceso a los datos desde una fuente XML**
-
-  El contenido se actualiza desde una fuente XML desde un origen externo. Se debe introducir una dirección URL para la descarga de datos.
-
-  Se puede utilizar una hoja de estilo XSL para transformar los datos XML entrantes.
-
-### Acción que quiere ejecutar {#action-to-execute}
-
-* **Guardar**
-
-  Guarda el contenido creado o modificado. El identificador del contenido guardado se propaga en la variable “contentId” del evento saliente.
-
-* **Generación**
-
-  Genera los archivos de salida para cada una de las plantillas de transformación con una publicación de tipo “Archivo”. La transición saliente se activa para cada archivo generado, con los siguientes parámetros: el identificador del contenido guardado en la variable “contentId” y el nombre de archivo en la variable “filename”.
-
-### Transición {#transition}
-
-La opción **Generar una transición de salida** le permite añadir una transición de salida a la actividad **[!UICONTROL Content management]** para vincular una nueva actividad a la ejecución del flujo de trabajo. Tras comprobar esta opción, introduzca una etiqueta para la transición.
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}
 
 ## Ejemplos {#examples}
 
@@ -240,11 +187,6 @@ El destino al que se envía se introduce a través del evento entrante.
 El contenido de la entrega se rellena mediante el evento entrante.
 
 La acción final de la actividad es la preparación y el inicio de la entrega.
-
-### Importación de contenido desde FTP {#importing-content-from-ftp}
-
-Si el contenido de su entrega está disponible en un archivo HTML ubicado en los servidores FTP o SFTP, puede cargar fácilmente este contenido en los envíos de Adobe Campaign. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=es){target="_blank"}.
-
 
 ### Importación de contenido desde el conector Amazon Simple Storage Service (S3) {#importing-content-from-amazon-simple-storage-service--s3--connector}
 

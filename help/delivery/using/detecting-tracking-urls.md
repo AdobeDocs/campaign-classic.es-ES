@@ -29,30 +29,18 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '247'
+ht-degree: 76%
 ---
 # Detección de direcciones URL de seguimiento
 
-## Ejemplo de no detección
+Adobe Campaign detecta las direcciones URL que se deben rastrear en el contenido durante el análisis de envío.
 
-`<%= getURL("http://mynewsletter.com") %>` funciona y envía el contenido real de la página web por correo electrónico a los destinatarios. Pero no se realiza el seguimiento de ninguno de los enlaces. El motivo es que el servidor de correo ejecuta `"<%=getURL(..."` por cada correo electrónico antes de enviarlo. Puede ser diferente para cada destinatario, por lo que Adobe Campaign no puede conocer las direcciones URL para el seguimiento ni asignarles un ID de etiqueta.
+Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para saber cómo se detectan las direcciones URL y qué patrones utilizar, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}.
 
-Cuando la página que se va a descargar es la misma para todos los destinatarios, se recomienda hacer lo siguiente:
-
-`<%@ include url="http://mynewsletter.com" %>`
-
-En ese caso, la página se descarga durante el análisis, antes de la detección de seguimiento. Permite a Adobe Campaign descubrir los vínculos, asignar un ID de etiqueta y realizar un seguimiento de ellos.
-
-## Patrón recomendado
-
-Después de procesar las instrucciones `<%@`, la dirección URL que se va a rastrear tiene la siguiente sintaxis: `<a href="http://myurl.com/a.php?param1=aaa&param2=<%=escapeUrl(recipient.xxx)%>&param3=<%=escapeUrl(recipient.xxx)%>">`
-
->[!IMPORTANT]
->
->Todos los demás patrones no son compatibles con Adobe y deben evitarse para prevenir posibles brechas de seguridad.
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}
 
 ## Patrón no protegido
 

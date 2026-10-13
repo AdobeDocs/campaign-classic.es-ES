@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '2185'
-ht-degree: 98%
+source-wordcount: '2202'
+ht-degree: 97%
 ---
 # Versiones de 2022{#release-2022}
 
@@ -60,7 +60,7 @@ _1 de julio de 2022_
 <tbody> 
 <tr> 
 <td> <p>Con iOS 15, Apple ha agregado una noción de notificaciones importantes que permite al desarrollador de la aplicación controlar el modo de evitar el enfoque cuando una notificación se considera importante y necesita llegar al usuario en tiempo real.</p>
-<p>Obtenga información sobre cómo crear una notificación confidencial en la <a href="../../delivery/using/create-notifications-ios.md">documentación detallada</a>.</p>
+<p>Aprenda a crear una notificación confidencial en la <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios" target="_blank">documentación detallada</a> (documentación de Campaign v8).</p>
 </td> 
 </tr> 
 </tbody> 
@@ -172,10 +172,10 @@ Adobe Campaign ahora es compatible con Windows Server 2019. Consulte la [Matriz 
 
 **Otros cambios**
 
-* Tras su desuso, las actividades de acción Microsoft CRM, Salesforce, Oracle CRM bajo demanda se han eliminado de la interfaz. Para configurar la sincronización de datos entre Adobe Campaign y un sistema CRM, puede utilizar la actividad del conector de CRM. [Más información](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector){target="_blank"} (Documentación de la versión 8 de Campaign)
+* Tras su desuso, las actividades de acción Microsoft CRM, Salesforce, Oracle CRM bajo demanda se han eliminado de la interfaz. Para configurar la sincronización de datos entre Adobe Campaign y un sistema CRM, puede utilizar la actividad del conector de CRM. [Más información](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector){target="_blank"} (Documentación de la versión 8 de Campaign)
 * Se ha añadido el campo **[!UICONTROL Encrypted identifier]** al esquema de visitantes (nms:visitor). Este campo se calcula y se utiliza para aplicaciones web. Esto se aplica cuando el canal de línea está configurado en la instancia intermediaria.
 * Ahora, las fuentes de datos CRM se pueden usar con la actividad **Cambiar fuente de datos**.
-* Se ha añadido una nueva opción en las propiedades de la **Gestión de errores** de las actividades de flujo de trabajo: la opción **Anular por error** detendrá automáticamente el flujo de trabajo. No podrá reiniciarlo posteriormente (NEO-29661). [Más información](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/advanced-management/advanced-parameters#in-case-of-errors){target="_blank"} (Documentación de la versión 8 de Campaign)
+* Se ha añadido una nueva opción en las propiedades de la **Gestión de errores** de las actividades de flujo de trabajo: la opción **Anular por error** detendrá automáticamente el flujo de trabajo. No podrá reiniciarlo posteriormente (NEO-29661). [Más información](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/advanced-parameters#in-case-of-errors){target="_blank"} (Documentación de la versión 8 de Campaign)
 * Ahora se utiliza una secuencia dedicada para generar las claves principales de la tabla nmsGroup, que se utiliza para crear grupos estadísticos de destinatarios. Anteriormente, se utilizaba la secuencia xtknewId. (NEO-30832)
 * Se ha agregado compatibilidad con operaciones de actualización por lotes mediante la actividad conector de CRM.
 * Rendimiento mejorado para el tiempo de procesamiento de la mensajería transaccional. (NEO-40370)
