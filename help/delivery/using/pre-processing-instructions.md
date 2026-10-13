@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '651'
+ht-degree: 93%
 ---
 # Instrucciones de preprocesamiento {#pre-processing-instructions}
 
@@ -44,6 +44,10 @@ Existen tres tipos de instrucciones:
 * **[!DNL foreach]**: para crear un bucle de una matriz cargada como un objeto personalizado. [Obtenga más información](#foreach)
 
 Pueden probarse directamente desde el asistente de envíos. Se aplican en la previsualización de contenido y cuando hace clic en el botón de seguimiento para ver la lista de las direcciones URL.
+
+Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre las instrucciones de preprocesamiento, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/personalized-links#pre-processing-instructions){target=_blank}.
+
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/personalized-links#pre-processing-instructions){target=_blank}
 
 ## [!DNL include] {#include}
 
@@ -150,19 +154,6 @@ Por ejemplo:
 ## [!DNL foreach] {#foreach}
 
 Esta instrucción permite la iteración en una matriz de objetos cargados en el envío para rastrear vínculos individuales relacionados con los objetos.
-
-Sintaxis:
-
-```
-<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>
-```
-
-Donde:
-
-* **[!DNL object]**: nombre del objeto desde el que se va a realizar el inicio, normalmente un objeto de secuencia de comandos adicional, pero puede ser un envío.
-* **[!DNL xpath]** (opcional): xpath de la colección con la que se va a realizar un bucle. El valor predeterminado es &quot;.&quot;, lo que significa que el objeto es la matriz con la que se debe realizar el bucle.
-* **[!DNL index]** (opcional): si xpath no es &quot;.&quot; y el objeto es una matriz en sí, índice de elementos del objeto (comienza en 0).
-* **[!DNL item]** (opcional): nombre de un nuevo objeto accesible con un valor &lt;%@ dentro del bucle foreach. Predeterminado con el nombre del vínculo en el esquema.
 
 Ejemplo:
 

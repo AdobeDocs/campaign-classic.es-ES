@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 94%
+source-wordcount: '963'
+ht-degree: 91%
 ---
 # Pasos de configuración para Android
 
@@ -68,7 +68,7 @@ Los pasos clave son los siguientes:
 1. [Creación de la aplicación móvil en Campaign](#creating-android-app)
 1. [Ampliación del esquema de la aplicación con datos adicionales](#extend-subscription-schema)
 
-Podrá [crear una notificación enriquecida de Android](create-notifications-android.md).
+Entonces podrá [crear una notificación enriquecida de Android](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"} (documentación de Campaign v8).
 
 >[!IMPORTANT]
 >
@@ -135,7 +135,7 @@ Después de crear el servicio, debe crear la aplicación de Android:
 
    ![](assets/nmac_android.png)
 
-1. Asegúrese de que se ha definido la misma **[!UICONTROL Integration key]** en Adobe Campaign y en el código de aplicación a través del SDK.<!--For more on this, refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
+1. Asegúrese de que se ha definido la misma **[!UICONTROL Integration key]** en Adobe Campaign y en el código de aplicación a través del SDK.<!--For more on this, refer to [this section](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->
 
    >[!NOTE]
    >
@@ -201,4 +201,4 @@ Deberá ampliar **appsubscriptionRcp** para definir nuevos campos adicionales qu
 
    >[!CAUTION]
    >
-   >Asegúrese de que los nombres de configuración en la pestaña **[!UICONTROL Subscription parameters]** sean los mismos que los del código de la aplicación móvil.<!--Refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
+   >Asegúrese de que los nombres de configuración en la pestaña **[!UICONTROL Subscription parameters]** sean los mismos que los del código de la aplicación móvil.<!--Refer to [this section](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->

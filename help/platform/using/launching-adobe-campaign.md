@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '464'
+ht-degree: 97%
 ---
 # Lanzamiento de Adobe Campaign {#launching-adobe-campaign}
 
@@ -82,7 +82,7 @@ También puede conectarse con un nombre de usuario y contraseña específicos. E
 
 1. Haga clic en **[!UICONTROL LOG IN]** para confirmar.
 
-Ahora puede acceder al [espacio de trabajo de Adobe Campaign](../../platform/using/adobe-campaign-workspace.md).
+Ahora puede acceder al [espacio de trabajo de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (documentación de Campaign v8).
 
 ## Configuración de conexiones {#setting-up-connections}
 

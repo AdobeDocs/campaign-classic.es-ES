@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 15%
+source-wordcount: '926'
+ht-degree: 16%
 ---
 # Personalización y privacidad {#privacy}
 
@@ -60,7 +60,7 @@ Al añadir enlaces personalizados al contenido, evite siempre cualquier personal
 
 ### Recomendación
 
-Para validar y asegurarse de que no está utilizando lo anterior, ejecute una consulta en la tabla de URL de seguimiento a través de [Editor de consultas genérico de Campaign](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign) o cree un flujo de trabajo con criterios de filtro en la actividad de consulta. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=es){target="_blank"}.
+Para validar y asegurarse de que no está utilizando lo anterior, ejecute una consulta en la tabla de URL de seguimiento a través de [Editor de consultas genérico de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (documentación de Campaign v8) o cree un flujo de trabajo con criterios de filtro en la actividad de consulta. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=es){target="_blank"}.
 
 Ejemplo:
 

@@ -41,10 +41,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 69%
+source-wordcount: '565'
+ht-degree: 67%
 ---
 # Avanzado: personalizar registros de entrega {#customize-delivery-logs}
 
@@ -139,7 +139,7 @@ Para ello, acceda a los registros de entregas y agregue la columna Identificador
 
 >[!NOTE]
 >
->Para obtener información sobre cómo configurar listas en la interfaz de Campaign Classic, consulte [esta página](../../platform/using/adobe-campaign-workspace.md).
+>Para aprender a configurar listas en la interfaz de Campaign Classic, consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (documentación de Campaign v8).
 
 A continuación, se muestra lo que debería ver en la pestaña **[!UICONTROL Delivery]** después de realizar las modificaciones:
 

@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 16%
+source-wordcount: '1413'
+ht-degree: 15%
 ---
 # Instalación de paquetes integrados de Campaign Classic{#installing-campaign-standard-packages}
 
@@ -133,7 +133,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Canal LINE<br /> </td> 
-   <td> Envía envíos mediante el canal LINE con Adobe Campaign. Opcional. La mensajería transaccional (paquete del centro de mensajes) es obligatoria. <a href="../../delivery/using/line-channel.md">Más información</a> <br /> </td> 
+   <td> Envía envíos mediante el canal LINE con Adobe Campaign. Opcional. La mensajería transaccional (paquete del centro de mensajes) es obligatoria. <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
   <tr> 
@@ -143,7 +143,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Canal móvil (SMS) <br /> </td> 
-   <td> Envía envíos mediante el canal móvil/SMS con Adobe Campaign. Opcional. <a href="../../delivery/using/sms-channel.md">Más información</a> <br /> </td> 
+   <td> Envía envíos mediante el canal móvil/SMS con Adobe Campaign. Opcional. <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/sms" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
    <tr> 
@@ -283,7 +283,7 @@ En el contexto de una configuración intermediaria, debe:
 
 * Instale el paquete [!DNL LINE] tanto en la instancia de Marketing como en la de MID
 
-* Configure la cuenta externa [!DNL LINE] en la instancia de mkt para que apunte a la instancia de mid cambiando el modo de envío. [Más información](../../delivery/using/line-channel.md#configure-line-external)
+* Configure la cuenta externa [!DNL LINE] en la instancia de mkt para que apunte a la instancia de mid cambiando el modo de envío. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} (documentación de Campaign v8)
 
 * Configure las credenciales de [!DNL LINE] en la cuenta externa de la instancia MID.
 

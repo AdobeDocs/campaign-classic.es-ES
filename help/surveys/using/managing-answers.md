@@ -19,10 +19,10 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 100%
+source-wordcount: '858'
+ht-degree: 98%
 ---
 # Administración de respuestas{#managing-answers}
 
@@ -108,7 +108,7 @@ Para cada formulario, las respuestas proporcionadas pueden utilizarse en campos 
 
 >[!NOTE]
 >
->Para otros tipos de campos, la sintaxis se detalla en [esta sección](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
+>Para otros tipos de campos, la sintaxis se detalla en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (Documentación de Campaign v8).
 
 ### Configuración de almacenamiento {#storage-settings}
 

@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
@@ -84,7 +84,7 @@ Adobe Campaign is part of the Adobe Experience Cloud solutions. The way privacy 
 * **How Adobe Experience Cloud is used to collect information**
 
     * Adobe Experience Cloud solutions use cookies and similar technologies, such as web beacons (also known as tags or pixels), to enable you to collect information. For more on cookies and tracking capabilities with Adobe Campaign, see [this section](#tracking-capabilities).
-    * You may also use Adobe Experience Cloud technologies within your mobile apps. For more on sending mobile deliveries with Campaign, see [SMS channel](../../delivery/using/sms-channel.md) and [Mobile app channel](../../delivery/using/about-mobile-app-channel.md).
+    * You may also use Adobe Experience Cloud technologies within your mobile apps. For more on sending mobile deliveries with Campaign, see [SMS channel](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/sms){target="_blank"} (Campaign v8 documentation) and [Mobile app channel](../../delivery/using/about-mobile-app-channel.md).
 
 * **You users' privacy choices about your use of Adobe Experience Cloud**
 
@@ -144,7 +144,7 @@ Here is the general flow for this use case:
 Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and monitor consent from your recipients.
 
 * Always have recipients agree to receive communications. To do this, keep honoring opt-out requests as quickly as possible and verify consent through a double opt-in process. For more on this, see [Create a subscription form with double opt-in](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in).
-* Do not import fraudulent lists and use seed addresses to check that your client file is not being used fraudulently. For more on this, see [About seed addresses](../../delivery/using/about-seed-addresses.md).
+* Do not import fraudulent lists and use seed addresses to check that your client file is not being used fraudulently. For more on this, see [About seed addresses](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"} (Campaign v8 documentation).
 * Through consent and rights management, you can track your recipients' preferences as well as manage who within your organization can access which data. For more on this, see [this section](#consent).
 * Facilitate and manage Privacy requests from your recipients. For more on this, see [this section](#privacy-requests).
 
@@ -155,7 +155,7 @@ Privacy management refer to all the processes and tools that can help you comply
 Adobe Campaign provides you with various sets of features dedicated to privacy management:
 * Consent management, data Retention and user Roles. See [this section](#consent).
 * Privacy requests (Right to Access and Right to be Forgotten). See [this section](#privacy-requests).
-* Opt-out for the Sale of Personal Information (CCPA-specific). See [this section](../../platform/using/privacy-requests.md#sale-of-personal-information-ccpa).
+* Opt-out for the Sale of Personal Information (CCPA-specific). See [this section](privacy-requests-ccpa.md).
 
 The main Privacy capabilities in Campaign and an example of the personas involved are presented in [this section](https://helpx.adobe.com/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow).
 
@@ -179,7 +179,7 @@ Adobe Campaign provides additional capabilities to help you facilitate your read
 
 The **Access** and **Delete** requests are presented in [this section](../../platform/using/privacy-management.md#right-access-forgotten).
 
-The implementation steps to create these requests are detailed in [this section](../../platform/using/privacy-requests.md).
+The implementation steps to create these requests are detailed in [this section](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/privacy/privacy){target="_blank"} (Campaign v8 documentation).
 
 ## Tracking capabilities {#tracking-capabilities}
 

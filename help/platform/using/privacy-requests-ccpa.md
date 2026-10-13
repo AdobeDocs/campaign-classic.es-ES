@@ -41,10 +41,10 @@ subfeature_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 91%
+source-wordcount: '626'
+ht-degree: 87%
 ---
 # Exclusión para la venta de información personal (CCPA) {#sale-of-personal-information-ccpa}
 
@@ -114,7 +114,7 @@ A continuación, debe asegurarse de que nunca vende a terceros la información p
 
    ![](assets/privacy-ccpa-5.png)
 
-1. Configure la lista destinatarios para que muestre la columna de exclusión Para obtener información sobre cómo configurar listas, consulte la [documentación detallada](../../platform/using/adobe-campaign-ui-lists.md#configuring-lists).
+1. Configure la lista destinatarios para que muestre la columna de exclusión Para aprender a configurar listas, consulte la [documentación detallada](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/ui-settings#customize-lists){target="_blank"} (documentación de Campaign v8).
 
    ![](assets/privacy-ccpa-6.png)
 

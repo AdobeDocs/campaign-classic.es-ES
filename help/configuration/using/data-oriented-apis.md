@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 7b7f6d2ad5e5d09880f05c7e99ea8ede770532ab
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1821'
 ht-degree: 0%
 ---
 # API orientadas a datos{#data-oriented-apis}
@@ -147,7 +147,7 @@ El tipo de operación deseado se especifica en el atributo **operation** y conti
 * **select**: crea un cursor para devolver varios registros y devuelve un documento vacío si no hay datos,
 * **count**: devuelve un recuento de datos.
 
-La sintaxis **XPath** se usa para localizar datos basados en el esquema de entrada. Para obtener más información sobre XPath, consulte [Esquemas de datos](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} (documentación de Campaign v8).
+La sintaxis **XPath** se usa para localizar datos basados en el esquema de entrada. Para obtener más información sobre XPath, consulte [Esquemas de datos](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"} (documentación de Campaign v8).
 
 #### Ejemplo con la operación &quot;get&quot; {#example-with-the--get--operation}
 

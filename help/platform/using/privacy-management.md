@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 100%
+source-wordcount: '919'
+ht-degree: 97%
 ---
 # Administración de la privacidad {#privacy-management}
 
@@ -97,7 +97,7 @@ Para ayudarle a facilitar su preparación para la privacidad, Adobe Campaign le 
 
 * El **Derecho al olvido** (solicitud de eliminación, también conocida como eliminación de datos) otorga al sujeto de datos el derecho a que el controlador de datos borre sus datos personales, interrumpa la diseminación de los datos y la posibilidad de que terceros interrumpan el procesamiento de los datos.
 
-Para obtener información sobre cómo crear solicitudes **de acceso** y **eliminación** y cómo Adobe Campaign las procesa, consulte los [pasos de implementación](../../platform/using/privacy-requests.md).
+Para obtener información sobre cómo crear solicitudes de **Acceso** y **Eliminación**, y cómo Adobe Campaign las procesa, consulte los [pasos de implementación](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/privacy/privacy){target="_blank"} (documentación de Campaign v8).
 
 <!--
 Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=es).
@@ -123,7 +123,7 @@ Las funciones que ayudan a administrar algunos aspectos del consentimiento han s
 
 Para obtener más información sobre la administración de consentimientos, consulte la [documentación detallada](../../delivery/using/managing-subscriptions.md).
 
-Además de las herramientas de administración de consentimientos proporcionadas por Adobe Campaign, puede realizar un seguimiento si el consumidor se ha excluido de la venta de Información personal. Consulte [esta sección](../../platform/using/privacy-requests.md#sale-of-personal-information-ccpa).
+Además de las herramientas de administración de consentimientos proporcionadas por Adobe Campaign, puede realizar un seguimiento si el consumidor se ha excluido de la venta de Información personal. Consulte [esta sección](privacy-requests-ccpa.md).
 
 ### Retención de datos {#data-retention}
 

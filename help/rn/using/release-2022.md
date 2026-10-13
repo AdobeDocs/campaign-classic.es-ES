@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '2185'
-ht-degree: 98%
+source-wordcount: '2202'
+ht-degree: 97%
 ---
 # Versiones de 2022{#release-2022}
 
@@ -60,7 +60,7 @@ _1 de julio de 2022_
 <tbody> 
 <tr> 
 <td> <p>Con iOS 15, Apple ha agregado una noción de notificaciones importantes que permite al desarrollador de la aplicación controlar el modo de evitar el enfoque cuando una notificación se considera importante y necesita llegar al usuario en tiempo real.</p>
-<p>Obtenga información sobre cómo crear una notificación confidencial en la <a href="../../delivery/using/create-notifications-ios.md">documentación detallada</a>.</p>
+<p>Aprenda a crear una notificación confidencial en la <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios" target="_blank">documentación detallada</a> (documentación de Campaign v8).</p>
 </td> 
 </tr> 
 </tbody> 

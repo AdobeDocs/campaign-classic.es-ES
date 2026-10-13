@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '2702'
-ht-degree: 98%
+source-wordcount: '2716'
+ht-degree: 97%
 ---
 # Versiones de 2021{#release-2021}
 
@@ -162,7 +162,7 @@ _5 de junio de 2021_
 <li><p>Compatibilidad con la API de registro de socio de LINE</p></li>
 <li><p>Soporte para reintentar el envío de mensajes en caso de error de LINE del lado del servidor o tiempo de espera de red</p></li>
 </ul>
-<p>Para obtener más información, consulte la <a href="../../delivery/using/line-channel.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">documentación detallada</a> (documentación de Campaign v8).</p>
 </td> 
 </tr> 
 </tbody> 

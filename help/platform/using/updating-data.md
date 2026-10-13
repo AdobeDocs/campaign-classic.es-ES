@@ -32,10 +32,10 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 100%
+source-wordcount: '750'
+ht-degree: 97%
 ---
 # Actualización de datos{#updating-data}
 
@@ -118,7 +118,7 @@ Se puede exportar el contenido de una lista. Para configurar y ejecutar la expor
 
    ![](assets/s_ncs_user_export_list_start.png)
 
-   Para obtener más información sobre cómo configurar el asistente de exportación, consulte [esta sección](../../platform/using/executing-export-jobs.md).
+   Para obtener más información sobre cómo configurar el asistente de exportación, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/import){target="_blank"} (Documentación de Campaign v8).
 
 ## Suscripción a un servicio {#subscribing-to-a-service}
 

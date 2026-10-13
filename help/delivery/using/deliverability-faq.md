@@ -41,14 +41,18 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 95%
 ---
 # Solución de problemas de envío{#deliverability-faq}
 
 ¿Está teniendo un problema de envío? Puede encontrar la solución aquí.
+
+Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre las cuarentenas, la lista de bloqueados de la y cómo eliminarlas, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}.
+
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}
 
 ## Error de regla MX {#mx-rule-error}
 
@@ -75,29 +79,7 @@ Si siempre recibe el mismo mensaje de error para un ISP, es posible que el ISP h
 
 Si el problema persiste, póngase en contacto con los servicios comerciales o de entrega, [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
-## Lista de bloqueados frente a cuarentena {#denylist-versus-quarantine}
-
-* **¿Cuál es la diferencia entre una dirección de correo electrónico en la lista de bloqueados y una dirección de correo electrónico en cuarentena?**
-
-  * El estado **[!UICONTROL Denylisted]** es el resultado de un bucle de retroalimentación (cuando una persona informa un mensaje como correo no deseado).
-
-  * El estado **[!UICONTROL Quarantined]** es el resultado de un rechazo suave o fuerte.
-
-  Para obtener más información, consulte [esta sección](delivery-failures-quarantine.md#quarantine-vs-denylist).
-
-* **¿Qué significan las diferentes razones de error de cuarentena?**
-
-  Estas son 10 razones posibles: no definido, usuario desconocido, dominio inválido, incluida en la lista de bloqueados, rechazado, error omitido, inaccesible, cuenta deshabilitada, buzón lleno, sin conexión.
-
-  Para obtener más información, consulte [Comprensión de la administración de cuarentena](delivery-failures-quarantine.md).
-
-## Eliminación de la lista de bloqueados {#remove-from-denylist}
-
-* **Uno de mis destinatarios fue agregado a la lista de bloqueados por error. ¿Cómo puedo quitarlo de la lista de bloqueados para que pueda volver a enviarle mensajes?**
-
-  * Vaya a **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**.
-  * En los detalles del registro correspondiente, establezca el valor del campo **[!UICONTROL Status]** en **[!UICONTROL Valid]**.
-  * Guarde el registro.
+## Eliminación de una IP de una lista de bloqueados de {#remove-from-denylist}
 
 * **¿Cómo puedo averiguar si una de mis IP está en la lista de bloqueados? ¿Cómo elimino mis IP de una lista de bloqueados?**
 

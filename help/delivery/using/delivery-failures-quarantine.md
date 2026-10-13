@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1721'
 ht-degree: 37%
 ---
 # Errores de la entrega y administración de cuarentena {#delivery-failures-quarantine}
@@ -105,7 +105,7 @@ Los correos electrónicos rechazados pueden tener el siguiente estado de calific
 
 >[!NOTE]
 >
->En caso de una interrupción de un ISP, los correos electrónicos enviados a través de Campaign se marcan erróneamente como rechazos. Para corregir esto, debe actualizar la calificación de devoluciones. Para obtener más información, consulte [esta página](update-bounce-qualification.md).
+>En caso de una interrupción de un ISP, los correos electrónicos enviados a través de Campaign se marcan erróneamente como rechazos. Para corregir esto, debe actualizar la calificación de devoluciones. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentación de Campaign v8).
 
 ### Configuración de reglas de gestión de correo electrónico {#email-management-rules}
 
@@ -245,7 +245,7 @@ Para obtener información detallada sobre los escenarios de cuarentena de SMS y 
 * [Estados de entrega](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (documentación de Campaign v8)
 * [Flujo de trabajo de limpieza de la base de datos](../../production/using/database-cleanup-workflow.md) (v7 híbrido/local)
 * [Configurar reintentos de entrega](communication-channels.md) (v7 híbrido/local)
-* [Actualizar calificación de devoluciones](update-bounce-qualification.md) (v7 híbrido/local)
+* [Actualizar calificación de devoluciones](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentación de la versión 8 de Campaign) (híbrido/local de la versión 7)
 * [Configuración de envío de correo electrónico](../../installation/using/email-deliverability.md) (v7 híbrido/local)
 * [Implementación de una instancia](../../installation/using/deploying-an-instance.md#managing-bounced-emails) (v7 híbrida/local)
 
