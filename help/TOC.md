@@ -8,9 +8,9 @@ user-guide-description: Documentación de producto para Adobe Campaign Classic v
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1657'
 ht-degree: 100%
 ---
 
@@ -32,36 +32,22 @@ ht-degree: 100%
 + Introducción {#getting-started}
   + [Introducción a Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
   + [Lanzamiento de Adobe Campaign](platform/using/launching-adobe-campaign.md)
-  + [Descubrimiento de la interfaz de usuario de Campaign](platform/using/adobe-campaign-workspace.md)
-  + {hide-from-toc}[Uso de Campaign Explorer: OCULTO](platform/using/adobe-campaign-explorer.md)
-  + {hide-from-toc}[Examen y personalización de listas: OCULTO](platform/using/adobe-campaign-ui-lists.md)
-  + {hide-from-toc}[Listas desglosadas: OCULTO](platform/using/managing-enumerations.md)
   + [Conectores de Campaign](platform/using/about-connectors.md)
   + Preguntas frecuentes {#faq}
     + [Preguntas frecuentes sobre Campaign Classic](platform/using/faq-campaign-classic-v7.md)
     + [Actualización de compilación](platform/using/faq-build-upgrade.md)
-  + {hide-from-toc}[Glosario: OCULTO](platform/using/ac-glossary.md)
   + Privacidad {#privacy}
     + [Privacidad y consentimiento](platform/using/privacy-and-recommendations.md)
     + [Administración de la privacidad](platform/using/privacy-management.md)
     + Solicitudes de privacidad {#privacy-requests}
-      + [Acerca de las solicitudes de privacidad](platform/using/privacy-requests.md)
       + [Creación y administración de solicitudes de privacidad](platform/using/privacy-requests-ui.md)
       + [Proceso de solicitud de privacidad automática](platform/using/privacy-requests-api.md)
     + [Exclusión para la venta de información personal](platform/using/privacy-requests-ccpa.md)
   + Administración de perfiles {#profile-management}
     + [Acerca de los perfiles](platform/using/about-profiles.md)
     + [Actualización de datos](platform/using/updating-data.md)
-    + [Creación y administración de listas](platform/using/creating-and-managing-lists.md)
   + Importación y exportación de datos {#importing-and-exporting-data}
-    + [Introducción a la importación y exportación de datos](platform/using/get-started-data-import-export.md)
-    + [Uso de flujos de trabajo para importar y exportar datos](platform/using/import-export-workflows.md)
     + Creación de importaciones y exportaciones genéricas {#generic-imports-exports}
-      + [Introducción a las importaciones y exportaciones genéricas](platform/using/about-generic-imports-exports.md)
-      + [Creación de plantillas de importación y exportación](platform/using/creating-import-export-templates.md)
-      + [Creación de trabajos de importación y exportación](platform/using/creating-import-export-jobs.md)
-      + [Configuración de trabajos de importación](platform/using/executing-import-jobs.md)
-      + [Configuración de trabajos de exportación](platform/using/executing-export-jobs.md)
       + [Monitorización de la ejecución de trabajos](platform/using/monitoring-jobs-execution.md)
       + [Muestras de importación genéricas](platform/using/import-operations-samples.md)
     + Administración del cifrado y la compresión de datos {#managing-data-encryption-compression}
@@ -70,16 +56,11 @@ ht-degree: 100%
     + Prácticas recomendadas y solución de problemas {#best-practices}
       + [Prácticas recomendadas de importación y exportación](platform/using/import-export-best-practices.md)
       + [Prácticas recomendadas y solución de problemas del servidor SFTP](platform/using/sftp-server-usage.md)
-  + Filtrado de datos {#filtering-data}
-    + {hide-from-toc}[Creación de filtros: OCULTO](platform/using/creating-filters.md)
-  + {hide-from-toc}[Pasos para crear una consulta: OCULTO](platform/using/steps-to-create-a-query.md)
-  + {hide-from-toc}[Definición de condiciones de filtro: OCULTO](platform/using/defining-filter-conditions.md)
   + Permisos {#permissions}
     + [Introducción a los permisos](platform/using/access-management.md)
     + Autenticación nativa (heredada) {#native}
       + [Creación y administración de operadores](platform/using/access-management-operators.md)
       + [Creación y administración de grupos](platform/using/access-management-groups.md)
-    + [Uso de derechos asignados para configurar permisos](platform/using/access-management-named-rights.md)
   + Conectores CRM {#connectors}
     + [Introducción a los conectores CRM](platform/using/crm-connectors.md)
 + Creación y envío de mensajes {#sending-messages}

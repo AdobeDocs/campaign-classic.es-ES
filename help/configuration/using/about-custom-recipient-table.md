@@ -34,10 +34,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 2%
+source-wordcount: '698'
+ht-degree: 3%
 ---
 # Usar una tabla de destinatarios personalizada{#about-custom-recipient-table}
 
@@ -84,7 +84,7 @@ El uso de una tabla de destinatarios personalizada tiene las siguientes limitaci
 
 * No puede añadir perfiles manualmente a una lista.
 
-  Por lo tanto, el procedimiento detallado en [esta sección](../../platform/using/creating-and-managing-lists.md) no es aplicable sin una configuración adicional.
+  Por lo tanto, el procedimiento detallado en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target="_blank"} (Documentación de Campaign v8) no es aplicable sin una configuración adicional.
 
   >[!NOTE]
   >

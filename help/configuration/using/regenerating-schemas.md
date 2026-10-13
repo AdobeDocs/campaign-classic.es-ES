@@ -24,9 +24,9 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 7b7f6d2ad5e5d09880f05c7e99ea8ede770532ab
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '145'
 ht-degree: 2%
 ---
 # Regenerar esquemas{#regenerating-schemas}
@@ -37,7 +37,7 @@ Al modificar un esquema y guardar las modificaciones, el esquema ampliado se gen
 1. Haga clic con el botón derecho y elija **[!UICONTROL Actions > Regenerate selected schemas...]**
 1. Haga clic en **[!UICONTROL OK]** para confirmar e iniciar el proceso.
 
-A continuación, puede comprobar la estructura del esquema generado en las pestañas Preview y Documentation. Para obtener más información, consulte la sección [Principios](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} (documentación de Campaign v8).
+A continuación, puede comprobar la estructura del esquema generado en las pestañas Preview y Documentation. Para obtener más información, consulte la sección [Principios](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentación de Campaign v8).
 
 >[!NOTE]
 >

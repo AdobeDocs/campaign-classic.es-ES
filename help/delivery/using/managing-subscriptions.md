@@ -38,10 +38,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 100%
+source-wordcount: '1125'
+ht-degree: 99%
 ---
 # Administración de suscripciones{#managing-subscriptions}
 
@@ -156,7 +156,7 @@ Para registrar a los destinatarios en un servicio informativo, puede:
 * Suscribir automáticamente a un conjunto de destinatarios a este servicio. Puede obtener una lista de destinatarios a través de una operación de filtrado, un grupo, una carpeta, una importación o una selección directa usando el ratón. Para suscribir a estos destinatarios, haga clic con el botón derecho del ratón. Seleccione **[!UICONTROL Actions > Subscribe selection to a service...]**, el servicio correspondiente y ejecute la operación.
 * Importación de destinatarios y subscripción automática a un servicio informativo. Para ello, seleccione el servicio correspondiente en el último paso del asistente de importación.
 
-  Para obtener más información, consulte [esta sección](../../platform/using/executing-import-jobs.md).
+  Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/import){target="_blank"} (Documentación de Campaign v8).
 
 * Uso de un formulario web para que los destinatarios puedan suscribirse a un servicio.
 
