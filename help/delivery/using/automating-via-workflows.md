@@ -46,9 +46,9 @@ ht-degree: 94%
 
 La creación, edición y publicación de contenido de Gestión de contenido se puede automatizar mediante un flujo de trabajo.
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para aprender a configurar la actividad **Content management**, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}.
+Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para aprender a configurar la actividad **Content management**, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}.
 
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}
 
 ## Ejemplos {#examples}
 

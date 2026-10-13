@@ -133,7 +133,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Canal LINE<br /> </td> 
-   <td> Envía envíos mediante el canal LINE con Adobe Campaign. Opcional. La mensajería transaccional (paquete del centro de mensajes) es obligatoria. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
+   <td> Envía envíos mediante el canal LINE con Adobe Campaign. Opcional. La mensajería transaccional (paquete del centro de mensajes) es obligatoria. <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
   <tr> 
@@ -143,7 +143,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Canal móvil (SMS) <br /> </td> 
-   <td> Envía envíos mediante el canal móvil/SMS con Adobe Campaign. Opcional. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
+   <td> Envía envíos mediante el canal móvil/SMS con Adobe Campaign. Opcional. <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/sms" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
    <tr> 
@@ -178,7 +178,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Acceso a datos externos (acceso de datos federado)<br /> </td> 
-   <td> Proporciona la opción Acceso de datos federados (FDA) para procesar la información almacenada en una o más bases de datos externas, de modo que pueda acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.  Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank">Más información</a> <br /> </td> 
+   <td> Proporciona la opción Acceso de datos federados (FDA) para procesar la información almacenada en una o más bases de datos externas, de modo que pueda acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.  Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html?lang=es" target="_blank">Más información</a> <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
   <tr> 
@@ -193,7 +193,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Administración de cupones<br /> </td> 
-   <td> Crea un conjunto de cupones para añadirlos a próximas ofertas de marketing. Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html" target="_blank">Más información</a> <br /> </td> 
+   <td> Crea un conjunto de cupones para añadirlos a próximas ofertas de marketing. Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=es" target="_blank">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -283,7 +283,7 @@ En el contexto de una configuración intermediaria, debe:
 
 * Instale el paquete [!DNL LINE] tanto en la instancia de Marketing como en la de MID
 
-* Configure la cuenta externa [!DNL LINE] en la instancia de mkt para que apunte a la instancia de mid cambiando el modo de envío. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} (documentación de Campaign v8)
+* Configure la cuenta externa [!DNL LINE] en la instancia de mkt para que apunte a la instancia de mid cambiando el modo de envío. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} (documentación de Campaign v8)
 
 * Configure las credenciales de [!DNL LINE] en la cuenta externa de la instancia MID.
 

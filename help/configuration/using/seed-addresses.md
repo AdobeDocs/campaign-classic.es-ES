@@ -45,7 +45,7 @@ Si la tabla de destinatarios es una tabla personalizada, se requieren configurac
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
-Para obtener más información sobre el uso de las direcciones semilla, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"} (documentación de Campaign v8).
+Para obtener más información sobre el uso de las direcciones semilla, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"} (documentación de Campaign v8).
 
 ## Implementación {#implementation}
 
@@ -107,7 +107,7 @@ Siga estos pasos:
    >    
    >
 
-1. Modifique el formulario **[!UICONTROL seedMember]** según corresponda para definir una nueva pestaña &quot;Destinatario interno&quot; en la ventana **[!UICONTROL Seed addresses]**. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentación de Campaign v8).
+1. Modifique el formulario **[!UICONTROL seedMember]** según corresponda para definir una nueva pestaña &quot;Destinatario interno&quot; en la ventana **[!UICONTROL Seed addresses]**. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentación de Campaign v8).
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"

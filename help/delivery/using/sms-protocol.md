@@ -53,9 +53,9 @@ ht-degree: 98%
 >En este documento, todas las referencias a los detalles acerca del protocolo, los nombres de campo y los valores se refieren a la [especificación SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 >
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información acerca de la configuración del conector SMS, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}.
+Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información acerca de la configuración del conector SMS, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}.
 
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}
 
 ## Información general {#overview}
 
@@ -181,7 +181,7 @@ Campos notables en una PDU `SUBMIT_SM`:
 
 * **registered_delivery**: indica si se solicita o no un SR. Adobe Campaign siempre establece este indicador excepto para las respuestas automáticas. Para los mensajes de varias partes, el indicador solo se establece para la primera parte. Todas las versiones tienen el mismo comportamiento.
 
-* **data_coding**: indica la codificación utilizada en el campo de texto. Consulte la sección [Codificación de texto SMS](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms-channel#sms-text-encoding){target="_blank"} (Documentación de Campaign v8) para obtener más información.
+* **data_coding**: indica la codificación utilizada en el campo de texto. Consulte la sección [Codificación de texto SMS](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/sms-channel#sms-text-encoding){target="_blank"} (Documentación de Campaign v8) para obtener más información.
 
 * **short_message**: el texto del mensaje. Si se usa UDH, también contiene el encabezado de UHD.
 
@@ -243,7 +243,7 @@ Esta PDU reconoce que la conexión está activa.
 
 La mayoría de los proveedores requieren un límite de rendimiento para cada conexión SMPP. Esto se puede lograr estableciendo un número de SMS en la cuenta externa. Tenga en cuenta que la limitación del rendimiento se produce por conexión, el rendimiento efectivo total es el límite por conexión multiplicado por el número total de conexiones. Esto se detalla en la sección [Conexiones simultáneas](sms-protocol.md#connection-settings).
 
-Para alcanzar el máximo rendimiento posible, tendrá que ajustar la ventana de envío máxima. La ventana de envío es el número de `SUBMIT_SM PDU` que se puede enviar sin esperar a `SUBMIT_SM_RESP`. Consulte la sección [Configuración de la ventana de envío](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account#smpp-delays){target="_blank"} (documentación de Campaign v8) para obtener más información.
+Para alcanzar el máximo rendimiento posible, tendrá que ajustar la ventana de envío máxima. La ventana de envío es el número de `SUBMIT_SM PDU` que se puede enviar sin esperar a `SUBMIT_SM_RESP`. Consulte la sección [Configuración de la ventana de envío](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account#smpp-delays){target="_blank"} (documentación de Campaign v8) para obtener más información.
 
 ### SR y administración de errores (“Apéndice B”) {#sr-error-management}
 

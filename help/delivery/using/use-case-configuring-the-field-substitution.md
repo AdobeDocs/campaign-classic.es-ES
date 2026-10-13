@@ -85,7 +85,7 @@ Para que esta modificación del esquema de datos pueda verse en el **formulario 
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. Configure la lista de envío y las direcciones semilla. Consulte [Identificar poblaciones objetivo](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-message){target="_blank"} (documentación de Campaign v8).
+1. Configure la lista de envío y las direcciones semilla. Consulte [Identificar poblaciones objetivo](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/create-message){target="_blank"} (documentación de Campaign v8).
 
    En este ejemplo, el usuario selecciona a los usuarios cuyo **género literario favorito** sea ciencia ficción como población objetivo principal.
 

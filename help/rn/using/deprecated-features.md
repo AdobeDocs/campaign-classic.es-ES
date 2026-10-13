@@ -181,11 +181,11 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
   </tr> 
    <tr> 
    <td>Canal móvil: mensajes push de MMS y WAP</td>
-   <td>A partir de la versión 18.4 de Campaign, los canales push MMS y Wap ya no están disponibles. Como reemplazo, puede aprovechar <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms" target="_blank">SMS</a> (documentación de Campaign v8) y <a href="../../delivery/using/about-mobile-app-channel.md">envíos push</a>.</td>
+   <td>A partir de la versión 18.4 de Campaign, los canales push MMS y Wap ya no están disponibles. Como reemplazo, puede aprovechar <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/sms" target="_blank">SMS</a> (documentación de Campaign v8) y <a href="../../delivery/using/about-mobile-app-channel.md">envíos push</a>.</td>
   </tr> 
    <tr> 
    <td>Canal móvil: LINE v1</td>
-   <td>A partir de la versión 18.4 de Campaign, el paquete LINE Connect ya no está disponible. Adobe recomienda utilizar el nuevo paquete LINE Channel como reemplazo. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">Más información</a> (documentación de Campaign v8)</td>
+   <td>A partir de la versión 18.4 de Campaign, el paquete LINE Connect ya no está disponible. Adobe recomienda utilizar el nuevo paquete LINE Channel como reemplazo. <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">Más información</a> (documentación de Campaign v8)</td>
   </tr>
  </tbody> 
 </table>
