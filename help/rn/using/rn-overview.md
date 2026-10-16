@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
+source-git-commit: f079b19ac78b331499a6f3cf5fcc21e55827998c
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 100%
+source-wordcount: '1204'
+ht-degree: 86%
 ---
 # Actualizaciones de la versión {#rn-overview}
 
@@ -80,6 +80,16 @@ Esta es la razón por la que es esencial que **ejecute la versión estable más 
 > Cada compilación es acumulativa: incluye todas las funcionalidades, mejoras y correcciones proporcionadas en compilaciones anteriores de la misma versión, además de sus propios cambios. No es necesario instalar cada una de las compilaciones intermedias para beneficiarse de las correcciones anteriores: al instalar la compilación más reciente, estará actualizado con todas las correcciones incluidas en las compilaciones anteriores.
 
 Como usuario alojado, se beneficia automáticamente de la actualización con la última versión estable sin tener que realizar ninguna acción. Conozca más en la [parte actualización anual](#yearly-upgrade). Si migra desde una versión antigua, Adobe le recomienda que la actualice primero a esta versión.
+
+## Hotflixes {#hotflixes}
+
+En casos excepcionales, Adobe puede proporcionar una revisión específica del cliente para solucionar un problema antes de que una corrección esté disponible en una versión estándar. Las solicitudes de revisión se evalúan caso por caso y no forman parte del ciclo de lanzamiento estándar.
+
+Las solicitudes de revisión deben generarse a través del Servicio de atención al cliente de Adobe. Si se aprueba, se prepara una revisión para el cliente y la compilación del producto afectados. Una revisión no es una versión general para todos los clientes; Adobe puede aprobar la posibilidad de compartirla con otros clientes afectados después de su revisión.
+
+Es posible que los detalles de la revisión no se incluyan en las notas de la versión pública cuando se entregue la revisión. Adobe puede incluir posteriormente una revisión en una versión estándar para la versión aplicable. No se garantiza la inclusión ni el tiempo. Consulte las notas de la versión para ver los cambios incluidos en cada versión estándar.
+
+Este proceso de revisión específico del cliente es independiente de la política de parches de seguridad críticos descrita anteriormente, en la cual Adobe puede aplicar parches de seguridad críticos a entornos alojados sin previo aviso.
 
 ### Parches de seguridad para entornos alojados {#security-patching}
 
