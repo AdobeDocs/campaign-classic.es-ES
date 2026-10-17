@@ -92,7 +92,7 @@ Las tareas de mantenimiento regulares incluyen:
 
 >[!NOTE]
 >
->Adobe supervisa y administra el mantenimiento de la base de datos y los flujos de trabajo técnicos de los usuarios de Cloud Services administrados de Campaign v8. Céntrese en la monitorización específica de la entrega como se describe en [Documentación de entregas del Monitor de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"}.
+>Adobe supervisa y administra el mantenimiento de la base de datos y los flujos de trabajo técnicos de los usuarios de Cloud Services administrados de Campaign v8. Céntrese en la monitorización específica de la entrega como se describe en [Documentación de entregas del Monitor de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"}.
 
 ## Solución de problemas de entrega {#troubleshooting}
 
