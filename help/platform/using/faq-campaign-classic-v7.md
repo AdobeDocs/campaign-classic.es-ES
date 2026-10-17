@@ -133,7 +133,7 @@ La versión 8 de Campaign es la plataforma estratégica de Adobe, ideal para org
 Más información:
 
 * [Información general de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/whats-new.html?lang=es){target="_blank"}
-* [Transición de Campaign Classic v7 a v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/v7-to-v8.html){target="_blank"}
+* [Transición de Campaign Classic v7 a v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/v7-to-v8.html?lang=es){target="_blank"}
 * [Preguntas frecuentes completas sobre Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=es){target="_blank"}
 
 **Para obtener respuestas detalladas a preguntas comunes de Campaign sobre flujos de trabajo, envíos, audiencias, creación de informes, personalización y mucho más**, visite [Preguntas frecuentes completas de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=es){target="_blank"}.
@@ -158,7 +158,7 @@ Para inglés, al instalar Campaign v7, puede seleccionar inglés de EE. UU. o in
 
 [Obtenga más información en esta sección](../../installation/using/creating-an-instance-and-logging-on.md).
 
-**Nota:** La interfaz de usuario web de Campaign v8 permite a los usuarios cambiar el idioma de la interfaz de forma independiente. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/connect.html#language-pref){target="_blank"}.
+**Nota:** La interfaz de usuario web de Campaign v8 permite a los usuarios cambiar el idioma de la interfaz de forma independiente. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/connect.html?lang=es#language-pref){target="_blank"}.
 
 +++
 
