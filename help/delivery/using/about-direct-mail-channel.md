@@ -38,7 +38,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 ---
@@ -48,7 +48,7 @@ Con Adobe Campaign, cree envíos de correo directo para enviar mensajes físicos
 
 El correo directo sigue siendo un potente canal para establecer conexiones tangibles con sus clientes: es ideal para enviar ofertas impresas, catálogos, mensajes de fidelidad o cartas personalizadas que refuercen la presencia de la marca más allá de los puntos de contacto digitales. Aprenda a configurar y administrar campañas de correo directo de forma eficaz, desde la preparación de datos y la generación de archivos para los socios de enrutamiento hasta el seguimiento de los resultados del envío, en la [documentación de Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=es){target=_blank}.
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8.
+Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8.
 
 >[!BEGINTABS]
 

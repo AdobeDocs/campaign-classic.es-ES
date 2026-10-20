@@ -38,7 +38,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
 ht-degree: 100%
 ---
@@ -48,7 +48,7 @@ Con Adobe Campaign, cree envíos de notificaciones push para enviar mensajes per
 
 Las notificaciones push le permiten atraer a usuarios en iOS y Android en tiempo real. Ya sea para enviar actualizaciones, anuncios o promociones, puede controlar el contenido, el tiempo y la segmentación. Aprenda a configurar y utilizar el canal push, administrar suscripciones, integrarse con los APN y FCM y personalizar mensajes en la [documentación de la versión 8 de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8.
+Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8.
 
 >[!BEGINTABS]
 

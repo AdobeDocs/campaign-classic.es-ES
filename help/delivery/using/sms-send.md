@@ -40,13 +40,13 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '907'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Configuración adicional{#sms-properties}
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre la configuración de envíos SMS, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/config-sms/sms-delivery-settings){target=_blank}.
+Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre la configuración de envío de SMS, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/config-sms/sms-delivery-settings){target=_blank}.
 
 [![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/config-sms/sms-delivery-settings){target=_blank}
 
@@ -57,7 +57,7 @@ To approve your message and send it to the recipients of the delivery being crea
 
 The detailed process when validating and sending a delivery is presented in the sections below:
 
-* [Validate the delivery](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/validate/delivery-analysis){target="_blank"} (Campaign v8 documentation)
+* [Validate the delivery](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/validate/delivery-analysis){target="_blank"} (Campaign v8 documentation)
 * [Send the delivery](steps-sending-the-delivery.md)
 -->
 

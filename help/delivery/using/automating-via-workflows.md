@@ -38,15 +38,15 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '915'
-ht-degree: 94%
+ht-degree: 100%
 ---
-# Automatización con flujos de trabajo{#automating-via-workflows}
+# Automatización mediante flujos de trabajo{#automating-via-workflows}
 
-La creación, edición y publicación de contenido de Gestión de contenido se puede automatizar mediante un flujo de trabajo.
+La creación, edición y publicación del contenido disponible en la gestión de contenidos pueden automatizarse mediante un flujo de trabajo.
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para aprender a configurar la actividad **Content management**, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}.
+Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para saber cómo configurar la actividad de **Gestión de contenidos**, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}.
 
 [![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}
 

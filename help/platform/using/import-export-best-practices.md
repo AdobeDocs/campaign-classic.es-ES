@@ -36,9 +36,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Prácticas recomendadas de importación y exportación {#import-export-best-practices}
 
@@ -56,7 +56,7 @@ En muchos proyectos, las importaciones se crean sin actividad de **[!UICONTROL D
 
 No dé por hecho que los datos entrantes son coherentes y correctos, o que el departamento de TI o el supervisor de Adobe Campaign se pueden encargar de ello. Durante el proyecto, tenga en cuenta la limpieza de los datos. Deduplique, reconcilie y mantenga la coherencia al importar datos.
 
-Un ejemplo de una plantilla de flujo de trabajo genérica diseñada para importar datos está disponible en la sección [Ejemplo: Plantilla de flujo de trabajo para importar datos](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/import){target="_blank"} (documentación de Campaign v8).
+Hay un ejemplo de plantilla de flujo de trabajo genérica diseñada para importar datos disponible en la sección [Ejemplo: plantilla de flujo de trabajo para importar datos](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/import){target="_blank"} (documentación de la versión 8 de Campaign).
 
 ## Uso de formatos de archivo plano {#using-flat-file-formats}
 
@@ -67,7 +67,7 @@ Por ejemplo:
 * Separador: tabulación o punto y coma
 * Primera línea con encabezados
 * Sin delimitador de cadenas
-* Formato de fecha:`YYYY/MM/DD HH:mm:SS`
+* Formato de fecha: `YYYY/MM/DD HH:mm:SS`
 
 Ejemplo de archivo para importar:
 

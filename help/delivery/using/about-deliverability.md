@@ -41,9 +41,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '205'
-ht-degree: 79%
+ht-degree: 100%
 ---
 # ¿Qué es la capacidad de entrega?{#about-deliverability}
 
@@ -53,6 +53,6 @@ Más concretamente, la entregabilidad del correo electrónico hace referencia al
 
 Para profundizar en lo que es la capacidad de entrega y obtener más información sobre los términos, conceptos y enfoques clave de la capacidad de entrega, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para aprender a mejorar la capacidad de entrega y utilizar las herramientas de capacidad de entrega de Campaign, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/deliverability-management/about-deliverability){target=_blank}.
+Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para aprender a mejorar la entregabilidad y utilizar las herramientas de entrega de Campaign, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/deliverability-management/about-deliverability){target=_blank}.
 
 [![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/deliverability-management/about-deliverability){target=_blank}

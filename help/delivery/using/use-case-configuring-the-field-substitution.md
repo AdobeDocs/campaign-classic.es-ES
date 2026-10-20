@@ -31,9 +31,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 96%
+ht-degree: 100%
 ---
 # Caso de uso: configurar la sustitución de campos{#use-case-configuring-the-field-substitution}
 
@@ -85,7 +85,7 @@ Para que esta modificación del esquema de datos pueda verse en el **formulario 
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. Configure la lista de envío y las direcciones semilla. Consulte [Identificar poblaciones objetivo](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/create-message){target="_blank"} (documentación de Campaign v8).
+1. Configure la lista de envío y las direcciones semilla. Consulte [Identificación de poblaciones de público destinatario](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/create-message){target="_blank"} (documentación de Campaign v8).
 
    En este ejemplo, el usuario selecciona a los usuarios cuyo **género literario favorito** sea ciencia ficción como población objetivo principal.
 

@@ -25,9 +25,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Reglas de presentación{#presentation-rules}
 
@@ -113,7 +113,7 @@ Queremos enviar una primera propuesta de oferta perteneciente a la categoría Ca
 
    ![](assets/offer_typology_example_016.png)
 
-1. Inserte sus ofertas en el cuerpo del mensaje y mande la entrega. Para obtener más información, consulte [Acerca de los canales salientes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (documentación de Campaign v8).
+1. Inserte sus ofertas en el cuerpo del mensaje y mande la entrega. Para obtener más información al respecto, consulte [Acerca de los canales salientes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (documentación de la versión 8 de Campaign).
 
    El destinatario recibió la oferta para la cual es apto.
 

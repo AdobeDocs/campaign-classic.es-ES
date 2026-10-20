@@ -33,9 +33,9 @@ subfeature_v2:
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
     internal-label: Monitoring guidelines
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 89%
+ht-degree: 100%
 ---
 # Monitorización de la ejecución de trabajos {#monitoring-job-execution}
 

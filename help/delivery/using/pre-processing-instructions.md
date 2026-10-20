@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
-ht-degree: 93%
+ht-degree: 100%
 ---
 # Instrucciones de preprocesamiento {#pre-processing-instructions}
 
@@ -45,7 +45,7 @@ Existen tres tipos de instrucciones:
 
 Pueden probarse directamente desde el asistente de envíos. Se aplican en la previsualización de contenido y cuando hace clic en el botón de seguimiento para ver la lista de las direcciones URL.
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre las instrucciones de preprocesamiento, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/personalized-links#pre-processing-instructions){target=_blank}.
+Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre las instrucciones de preprocesamiento, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/personalized-links#pre-processing-instructions){target=_blank}.
 
 [![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/personalized-links#pre-processing-instructions){target=_blank}
 

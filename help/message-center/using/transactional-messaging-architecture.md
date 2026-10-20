@@ -24,9 +24,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1137'
-ht-degree: 94%
+ht-degree: 100%
 ---
 # Arquitectura de la mensajería transaccional {#transactional-messaging-architecture}
 
@@ -103,7 +103,7 @@ Si ha iniciado un proyecto de mensajería transaccional en el canal de correo el
 >Este procedimiento solo se aplica a los clientes que utilizan un servidor NLServer de Windows instalado en el mismo equipo en el que están trabajando.
 
 1. Instale el canal que necesita, por ejemplo, el **Canal móvil**, mediante el asistente de importación de paquetes (**[!UICONTROL Tools > Advanced > Import package... > Adobe Campaign Package]**).
-1. Realice una importación de archivos (**[!UICONTROL Tools > Advanced > Import package... > File]**) y seleccione el archivo **datakitnms &#x200B;**`[Your language]`**packagemessageCenter.xml**.
+1. Realice una importación de archivos (**[!UICONTROL Tools > Advanced > Import package... > File]**) y seleccione el archivo **datakitnms **`[Your language]`**packagemessageCenter.xml**.
 1. En **[!UICONTROL XML content of the data to import]**, conserve solo la plantilla de envíos que corresponde al canal añadido. Por ejemplo, si ha añadido el **canal móvil**, conserve solamente el elemento **entidades** que corresponda a **[!UICONTROL Mobile transactional message]** (smsTriggerMessage). Si ha añadido el **canal de aplicación móvil**, mantenga únicamente el **mensaje transaccional de iOS** (iosTriggerMessage) y el **mensaje transaccional de Android** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
@@ -142,7 +142,7 @@ Create your delivery templates the way you would for an email campaign:
 * Add the offer to your transactional message template.
 * Check the preview, send a proof and publish the template.
 
-You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (Campaign v8 documentation).
+You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (Campaign v8 documentation).
 
 -->
 
@@ -179,7 +179,7 @@ A continuación se muestra un ejemplo de un evento que contiene esta informació
                 <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
-                    <url>http://www.adobe.com/es</url>
+                    <url>http://www.adobe.com</url>
                 </ctx>
               </rtEvent>
 
@@ -201,7 +201,7 @@ Para utilizar el módulo de mensaje transaccional con LINE, se necesitan los sig
 
 * Instale el paquete **[!UICONTROL LINE Connect]** en ambas instancias.
 * Instale el paquete **[!UICONTROL Transactional message control]** en la instancia de marketing y el paquete **[!UICONTROL Transactional message execution]** en la instancia de ejecución.
-* Cree una **cuenta externa** y un **servicio** de LINE en ambas instancias con un nombre idéntico para que se sincronicen. Para obtener más información sobre cómo crear una cuenta externa y un servicio de LINE, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/other-channels/line#setting-up-line-channel){target="_blank"} (Documentación de Campaign v8).
+* Cree una **cuenta externa** y un **servicio** de LINE en ambas instancias con un nombre idéntico para que se sincronicen. Para obtener más información sobre cómo crear una cuenta externa de LINE y su servicio, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/other-channels/line#setting-up-line-channel){target="_blank"} (documentación de Campaign v8).
 
 A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** > **[!UICONTROL External account]**, debe configurar diferentes cuentas externas en ambas instancias:
 
@@ -264,4 +264,4 @@ A continuación, desde **[!UICONTROL Explorer]**, en **[!UICONTROL Platform]** >
    * Haga clic en el botón **[!UICONTROL Create the archiving workflow]**.
    * Haga clic en el botón **[!UICONTROL Create data synchronization workflow]** para crear el flujo de trabajo de la sincronización de datos LINE.
 
-1. Ahora puede empezar a [crear mensajes transaccionales](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (documentación de Campaign v8).
+1. Ahora puede iniciar la [creación de mensajes transaccionales](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (documentación de Campaign v8).

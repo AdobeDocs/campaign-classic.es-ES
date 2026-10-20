@@ -47,9 +47,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Pasos de configuración para iOS {#configuring-the-mobile-application-in-adobe-campaign-ios}
 
@@ -133,7 +133,7 @@ En el siguiente ejemplo, se añaden **mediaURl** y **mediaExt** para crear notif
 
 1. Haga clic en **[!UICONTROL Next]** para comenzar a configurar la aplicación de desarrollo.
 
-1. Asegúrese de que se ha definido la misma **[!UICONTROL Integration key]** en Adobe Campaign y en el código de aplicación a través del SDK.<!--For more on this, refer to [this page](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).--> Esta clave de integración, que es específica de cada aplicación, permite vincular la aplicación móvil a la plataforma de Adobe Campaign.
+1. Asegúrese de que se ha definido la misma **[!UICONTROL Integration key]** en Adobe Campaign y en el código de aplicación a través del SDK.<!--For more on this, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).--> Esta clave de integración, que es específica de cada aplicación, permite vincular la aplicación móvil a la plataforma de Adobe Campaign.
 
    >[!NOTE]
    >

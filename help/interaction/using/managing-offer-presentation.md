@@ -25,9 +25,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1023'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Administración de la presentación de ofertas{#managing-offer-presentation}
 
@@ -87,7 +87,7 @@ La **[!UICONTROL Targeting dimension]** coincide con la tabla de destinatarios (
 
 >[!NOTE]
 >
->También se puede utilizar tablas no estándar. Si se desea utilizar una dimensión de segmentación específica, se debe crear tablas y un entorno dedicado utilizando la asignación de objetivo. Para obtener más información, consulte [Creación de un entorno de ofertas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentación de Campaign v8).
+>También se puede utilizar tablas no estándar. Si se desea utilizar una dimensión de segmentación específica, se debe crear tablas y un entorno dedicado utilizando la asignación de objetivo. Para obtener más información al respecto, consulte [Creación de un entorno de ofertas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentación de la versión 8 de Campaign).
 
 ### Periodo {#period}
 

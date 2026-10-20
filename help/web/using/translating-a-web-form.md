@@ -27,7 +27,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1583'
 ht-degree: 100%
 ---
@@ -123,7 +123,7 @@ Es posible exportar e importar cadenas de caracteres para traducirlas con una he
 
 ### Exportación de archivos {#exporting-files}
 
-1. Seleccione las aplicaciones web cuyas unidades desee exportar, haga clic con el botón derecho del ratón y seleccione **[!UICONTROL Actions > Export strings for translation...]**.
+1. Seleccione las aplicaciones web cuyas unidades desee exportar, haga clic con el botón derecho del ratón y seleccione **[!UICONTROL Actions > Export strings for translation...]**
 
    ![](assets/s_ncs_admin_survey_trad_export.png)
 
@@ -158,7 +158,7 @@ Al exportar archivos en **formato CSV**, cada idioma se vincula a un estado y a 
 
 Una vez finalizada la traducción externa, puede importar los archivos traducidos.
 
-1. Vaya a la lista de aplicaciones web, haga clic con el botón derecho del ratón y seleccione **[!UICONTROL Actions > Import translated strings...]**.
+1. Vaya a la lista de aplicaciones web, haga clic con el botón derecho del ratón y seleccione **[!UICONTROL Actions > Import translated strings...]**
 
    >[!NOTE]
    >
