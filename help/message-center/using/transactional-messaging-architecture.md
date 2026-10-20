@@ -179,7 +179,7 @@ A continuación se muestra un ejemplo de un evento que contiene esta informació
                 <mobileApp _operation="none" uuid="com.adobe.NeoMiles"/>
                 <ctx>
                     <deliveryTime>1:30 PM</deliveryTime>
-                    <url>http://www.adobe.com</url>
+                    <url>http://www.adobe.com/es</url>
                 </ctx>
               </rtEvent>
 
