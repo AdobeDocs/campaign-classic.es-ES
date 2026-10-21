@@ -29,9 +29,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1255'
-ht-degree: 99%
+ht-degree: 100%
 ---
 # Edición de contenido{#editing-content}
 
@@ -47,7 +47,7 @@ Para añadir una condición de visibilidad, seleccione un bloque e introduzca la
 
 >[!NOTE]
 >
->La edición avanzada de expresiones se presenta en [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (documentación de Campaign v8).
+>La edición de expresiones avanzadas se muestra en [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (documentación de la versión 8 de Campaign).
 
 ![](assets/dce_popup_visibilitycondition.png)
 

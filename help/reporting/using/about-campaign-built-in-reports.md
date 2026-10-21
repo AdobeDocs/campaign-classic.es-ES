@@ -29,9 +29,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
 source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 65%
+ht-degree: 100%
 ---
 # Acerca de los informes integrados de Campaign{#about-campaign-built-in-reports}
 
@@ -50,12 +50,12 @@ Adobe Campaign ofrece varios tipos de informes, accesibles a través de la conso
 Están disponibles los siguientes tipos de informe:
 
 * Informes sobre toda la plataforma, consulte [Informes globales](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports){target="_blank"} (documentación de Campaign v8).
-* Informes de entrega, consulte [Informes de entrega](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} (documentación de Campaign v8).
+* Informes de envío, consulte [Informes de envío](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} (documentación de Campaign v8).
 * Informes acumulados, consulte [Informes acumulados](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} (documentación de Campaign v8).
 
 Puede acceder a los informes desde la página principal de la consola del cliente, el panel de control de informes o la lista de envíos. El modo de visualización de un informe depende de su contexto. La lista de informes principales está disponible en la página principal y le permite acceder rápidamente a los datos de envío. La lista se puede modificar para adaptarla a las necesidades. Consulte [esta sección](../../reporting/using/about-reports-creation-in-campaign.md) para obtener más información.
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener información sobre cómo acceder y utilizar informes integrados, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}.
+Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para saber cómo acceder a los informes integrados y utilizarlos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}.
 
 [![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}
 

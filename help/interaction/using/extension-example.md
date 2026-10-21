@@ -27,9 +27,9 @@ subfeature_v2:
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
 source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 85%
+ht-degree: 100%
 ---
 # Ejemplo de extensión{#extension-example}
 
@@ -49,4 +49,4 @@ En el caso de un contacto entrante (centro de llamadas o sitio web), las ofertas
 
   ![](assets/s_ncs_configuration_offer_context.png)
 
-* Al configurar las llamadas SOAP, inserte el elemento XML **context** para hacer referencia a la información contextual añadida en el esquema de interacción. Para obtener más información, consulte [Integración mediante SOAP (servidor)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"} (documentación de Campaign v8).
+* Al configurar las llamadas SOAP, inserte el elemento XML **context** para hacer referencia a la información contextual añadida en el esquema de interacción. Para obtener más información, consulte [Integración mediante SOAP (lado del servidor)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"} (documentación de Campaign v8).

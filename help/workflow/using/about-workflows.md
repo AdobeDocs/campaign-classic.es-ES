@@ -24,11 +24,11 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
 ht-degree: 100%
 ---
-# Automatización con flujos de trabajo {#gs-workflows}
+# Automatización mediante flujos de trabajo {#gs-workflows}
 
 Los flujos de trabajo de Adobe Campaign permiten que su equipo optimice y automatice los procesos empresariales de extremo a extremo en toda la plataforma. Con una interfaz gráfica intuitiva, puede diseñar y administrar flujos de trabajo que coordinen tareas como la segmentación de datos, la ejecución de campañas, la administración de archivos e incluso las aprobaciones de usuarios, todo en un solo lugar.
 

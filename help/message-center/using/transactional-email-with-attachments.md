@@ -24,9 +24,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
 source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 96%
+ht-degree: 100%
 ---
 # Caso de uso: envío de correos electrónicos transaccionales con archivos adjuntos {#transactional-email-with-attachments}
 
@@ -87,7 +87,7 @@ Para añadir archivos adjuntos de correo electrónico sobre la marcha a un mensa
 
 1. Puede enviar correos electrónicos a través de un activador de mensaje SOAP. En la llamada SOAP, hay un parámetro de URL (attachmentURL).
 
-   Para obtener más información sobre las solicitudes de SOAP, consulte [Descripción del evento](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/event/event-description){target="_blank"} (documentación de Campaign v8).
+   Para obtener más información sobre las solicitudes SOAP, consulte [Descripción del evento](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/event/event-description){target="_blank"} (documentación de la versión 8 de Campaign).
 
 1. Al diseñar el correo electrónico, haga clic en **[!UICONTROL Attachment]**.
 

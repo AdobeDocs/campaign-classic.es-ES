@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 63ece0ce7bfca75468776da84e2eac8b34b13af8
 workflow-type: tm+mt
 source-wordcount: '1449'
-ht-degree: 90%
+ht-degree: 91%
 ---
 # Último lanzamiento {#latest-release}
 
@@ -73,10 +73,10 @@ _15 de octubre de 2026_
 
 Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que corrigen vulnerabilidades críticas. Recomendamos a los clientes que usen implementaciones locales e híbridas que instalen las actualizaciones lo antes posible. Las instancias alojadas en Adobe ya se han corregido y no requieren ninguna acción por parte del cliente.
 
-Se requiere un reinicio del servidor de Adobe Campaign (nlserver) para cargar la versión y completar la implementación. La corrección se activa de forma predeterminada una vez reiniciado el sistema.
+Se requiere un reinicio del servidor de Adobe Campaign (nlserver) para cargar la versión y completar la implementación. La corrección se activa de forma predeterminada tras el reinicio.
 
 
-### Compilación 9402 {#build-9402}
+### Versión 9402 {#build-9402}
 
 [!BADGE Obsoleto]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Obsoleto"}
 
@@ -84,9 +84,9 @@ _11 de septiembre de 2026_
 
 #### Mejoras de seguridad {#security-7-4-4-9402}
 
-Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que corrigen vulnerabilidades críticas. Recomendamos a los clientes que usen implementaciones locales e híbridas que instalen las actualizaciones lo antes posible. Las instancias alojadas en Adobe ya se han corregido y no requieren ninguna acción por parte del cliente. Puede encontrar más información en el [boletín de seguridad](https://helpx.adobe.com/au/security/products/campaign/apsb26-142.html){target="_blank"}.
+Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que corrigen vulnerabilidades críticas. Recomendamos a los clientes que usen implementaciones locales e híbridas que instalen las actualizaciones lo antes posible. Las instancias alojadas en Adobe ya se han corregido y no requieren ninguna acción por parte del cliente. Puede encontrar más información en el [boletín de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb26-142.html){target="_blank"}.
 
-Se requiere un reinicio del servidor de Adobe Campaign (nlserver) para cargar la versión y completar la implementación. La corrección se activa de forma predeterminada una vez reiniciado el sistema.
+Se requiere un reinicio del servidor de Adobe Campaign (nlserver) para cargar la versión y completar la implementación. La corrección se activa de forma predeterminada tras el reinicio.
 
 ### Versión 9401 {#build-9401}
 
@@ -98,7 +98,7 @@ _25 de agosto de 2026_
 
 Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que corrigen vulnerabilidades críticas. Recomendamos a los clientes que usen implementaciones locales e híbridas que instalen las actualizaciones lo antes posible. Las instancias alojadas en Adobe ya se han corregido y no requieren ninguna acción por parte del cliente. Puede encontrar más información en el [boletín de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb26-134.html){target="_blank"}.
 
-Se requiere un reinicio del servidor de Adobe Campaign (nlserver) para cargar la versión y completar la implementación. La corrección se activa de forma predeterminada una vez reiniciado el sistema.
+Se requiere un reinicio del servidor de Adobe Campaign (nlserver) para cargar la versión y completar la implementación. La corrección se activa de forma predeterminada tras el reinicio.
 
 #### Actualización de lista de permitidos de URL externas {#security-enhancement-url-validation-9401}
 
@@ -118,7 +118,7 @@ Esta versión incluye varias mejoras de productos, correcciones de seguridad y l
 
 Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que corrigen vulnerabilidades críticas. Recomendamos a los clientes que usen implementaciones locales e híbridas que instalen las actualizaciones lo antes posible. Las instancias alojadas en Adobe ya se han corregido y no requieren ninguna acción por parte del cliente. Puede encontrar más información en el [boletín de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb26-123.html){target="_blank"}.
 
-Se requiere un reinicio del servidor de Adobe Campaign (nlserver) para cargar la versión y completar la implementación. La corrección se activa de forma predeterminada una vez reiniciado el sistema.
+Se requiere un reinicio del servidor de Adobe Campaign (nlserver) para cargar la versión y completar la implementación. La corrección se activa de forma predeterminada tras el reinicio.
 
 #### Actualización de Adobe Analytics 2.0 {#analytics-2-0-7-4-4}
 
@@ -136,7 +136,7 @@ _3 de agosto de 2026_
 
 Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que corrigen vulnerabilidades críticas. Recomendamos a los clientes que usen implementaciones locales e híbridas que instalen las actualizaciones lo antes posible. Las instancias alojadas en Adobe ya se han corregido y no requieren ninguna acción por parte del cliente. Puede encontrar más información en el [boletín de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb26-120.html){target="_blank"}.
 
-Se requiere un [reinicio del servidor de Adobe Campaign (nlserver)](../../production/using/usual-commands.md#restart-services) para cargar la compilación y completar la implementación. La corrección se activa de forma predeterminada una vez reiniciado el sistema.
+Se requiere un [reinicio del servidor de Adobe Campaign (nlserver)](../../production/using/usual-commands.md#restart-services) para cargar la compilación y completar la implementación. La corrección se activa de forma predeterminada tras el reinicio.
 
 ### Compilación 9398 {#build-9398}
 
@@ -148,7 +148,7 @@ _29 de Julio de 2026_
 
 Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que corrigen vulnerabilidades críticas. Recomendamos a los clientes que usen implementaciones locales e híbridas que instalen las actualizaciones lo antes posible. Las instancias alojadas en Adobe ya se han corregido y no requieren ninguna acción por parte del cliente. Puede encontrar más información en el [boletín de seguridad](https://helpx.adobe.com/es/security/products/campaign/apsb26-114.html){target="_blank"}.
 
-Se requiere un [reinicio del servidor de Adobe Campaign (nlserver)](../../production/using/usual-commands.md#restart-services) para cargar la compilación y completar la implementación. La corrección se activa de forma predeterminada una vez reiniciado el sistema.
+Se requiere un [reinicio del servidor de Adobe Campaign (nlserver)](../../production/using/usual-commands.md#restart-services) para cargar la compilación y completar la implementación. La corrección se activa de forma predeterminada tras el reinicio.
 
 ### Compilación 9397 {#build-9397}
 

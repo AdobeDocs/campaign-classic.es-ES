@@ -44,9 +44,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1814'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Funciones obsoletas y eliminadas {#deprecated-and-removed-features}
 
@@ -181,7 +181,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
   </tr> 
    <tr> 
    <td>Canal móvil: mensajes push de MMS y WAP</td>
-   <td>A partir de la versión 18.4 de Campaign, los canales push MMS y Wap ya no están disponibles. Como reemplazo, puede aprovechar <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/sms" target="_blank">SMS</a> (documentación de Campaign v8) y <a href="../../delivery/using/about-mobile-app-channel.md">envíos push</a>.</td>
+   <td>A partir de la versión 18.4 de Campaign, los canales push MMS y Wap ya no están disponibles. En su lugar, puede utilizar los envíos de <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/sms" target="_blank">SMS</a> (documentación de Campaign v8) y los envíos <a href="../../delivery/using/about-mobile-app-channel.md">push</a>.</td>
   </tr> 
    <tr> 
    <td>Canal móvil: LINE v1</td>

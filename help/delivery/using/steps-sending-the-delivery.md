@@ -38,15 +38,15 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
-ht-degree: 89%
+ht-degree: 100%
 ---
 # Configuración y envío de la entrega {#configuring-and-sending-the-delivery}
 
-En esta página se describe la configuración de envío de entregas específica para las instalaciones on-premise e híbridas de Campaign Classic v7.
+En esta página se describe la configuración de envío específica para instalaciones On-Premise e híbridas de la versión 7 de Campaign Classic.
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información acerca de la configuración de envío, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/validate/configure-and-send){target=_blank}.
+Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre la configuración de envío, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/validate/configure-and-send){target=_blank}.
 
 [![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/validate/configure-and-send){target=_blank}
 

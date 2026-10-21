@@ -43,9 +43,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1178'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Sincronización de públicos{#synchronizing-audiences}
 
@@ -89,7 +89,7 @@ Para obtener el público final y sus datos adicionales:
 
    ![](assets/acs_connect_query1.png)
 
-1. Añada los datos adicionales desde la consulta. Para obtener más información, consulte la sección [Agregar datos](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query#adding-data){target="_blank"} (documentación de Campaign v8).
+1. Añada los datos adicionales desde la consulta. Para obtener más información, consulte la sección [Adición de datos](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/targeting-activities/query#adding-data){target="_blank"} (documentación de Campaign v8).
 
    Este ejemplo muestra cómo añadir un acumulado para contar cuántos envíos recibió un destinatario en un año.
 

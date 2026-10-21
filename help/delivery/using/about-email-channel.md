@@ -33,7 +33,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
 ht-degree: 100%
 ---
@@ -43,7 +43,7 @@ Con Adobe Campaign, cree envíos de correo electrónico para enviar correos elec
 
 El correo electrónico sigue siendo uno de los canales más potentes y flexibles para interactuar con los usuarios más allá de la aplicación o el sitio web. Tanto si va a enviar contenido personalizado, anuncios o mensajes promocionales, el correo electrónico le proporciona pleno control sobre el mensaje y el público. Aprenda a configurar y utilizar el canal de correo electrónico al máximo: personalizando el contenido, segmentándose a grupos de usuarios específicos e incorporando elementos multimedia enriquecidos para maximizar el impacto y la participación, todo ello en la [documentación de Adobe Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8.
+Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8.
 
 >[!BEGINTABS]
 

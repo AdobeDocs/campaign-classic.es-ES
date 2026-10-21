@@ -42,15 +42,15 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Solución de problemas de envío{#deliverability-faq}
 
 ¿Está teniendo un problema de envío? Puede encontrar la solución aquí.
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre las cuarentenas, la lista de bloqueados de la y cómo eliminarlas, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}.
+Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener información sobre las cuarentenas, la lista de bloqueados y sobre cómo quitar una dirección incluida en ellas, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}.
 
 [![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}
 
@@ -79,7 +79,7 @@ Si siempre recibe el mismo mensaje de error para un ISP, es posible que el ISP h
 
 Si el problema persiste, póngase en contacto con los servicios comerciales o de entrega, [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
-## Eliminación de una IP de una lista de bloqueados de {#remove-from-denylist}
+## Eliminación de una IP de una lista de bloqueados {#remove-from-denylist}
 
 * **¿Cómo puedo averiguar si una de mis IP está en la lista de bloqueados? ¿Cómo elimino mis IP de una lista de bloqueados?**
 

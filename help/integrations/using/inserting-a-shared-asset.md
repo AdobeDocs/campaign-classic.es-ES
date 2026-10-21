@@ -28,9 +28,9 @@ subfeature_v2:
   - id: 2e08b477-1993-5928-975d-5f4cabe8fbe0
     internal-label: Asset Sharing
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 87%
+ht-degree: 100%
 ---
 # Inserción de un activo compartido{#inserting-a-shared-asset}
 
@@ -54,7 +54,7 @@ Los activos compartidos desde Adobe Experience Cloud se pueden utilizar en los m
 
      >[!NOTE]
      >
-     >No se pueden insertar imágenes compartidas desde Adobe Campaign en [acceso web](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} (documentación de Campaign v8) al usar el DCE.
+     >No se pueden insertar imágenes compartidas desde Adobe Campaign en el [acceso web](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} (documentación de Campaign v8) al utilizar DCE.
 
 1. En la ventana de selección que se abre, seleccione una imagen y, a continuación, confirme la selección.
 

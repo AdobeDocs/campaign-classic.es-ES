@@ -46,9 +46,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1002'
-ht-degree: 91%
+ht-degree: 100%
 ---
 # Introducción a la monitorización de entregas {#about-delivery-monitoring}
 
@@ -99,18 +99,18 @@ En Adobe Campaign Classic, la **supervisión de la entrega** se administra media
 
 **Para instalaciones locales**, puede utilizar las siguientes herramientas de monitorización:
 
-* El informe **[!UICONTROL Delivery throughput]** proporciona una visión general del rendimiento de toda la plataforma durante un período determinado. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (Documentación de Campaign v8).
+* El informe **[!UICONTROL Delivery throughput]** proporciona una visión general del rendimiento de toda la plataforma durante un período determinado. Para obtener más información al respecto, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (documentación de Campaign v8).
 * Cada envío genera un informe de estadísticas de difusión para los diferentes proveedores de servicio de Internet (ISP). Muestra algunas métricas de calidad de datos y reputación que pueden afectar la capacidad de envío, incluidas las siguientes cifras:
   * **[!UICONTROL Hard bounces]** indican la calidad de los datos. Este valor debe ser inferior al 2 %.
   * **[!UICONTROL Soft bounces]** indican reputación. Este valor no debe ser superior al 10 % para un ISP determinado.
 
-  Para obtener más información, consulte la sección [Estadísticas de entrega](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-statistics){target="_blank"} (documentación de Campaign v8).
+  Para obtener más información al respecto, consulte la sección [Estadísticas de envío](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-statistics){target="_blank"} (documentación de Campaign v8).
 
 #### Directrices de monitorización {#monitoring-guidelines}
 
 **Para instalaciones locales**, estas son algunas directrices adicionales sobre la monitorización de la entregabilidad:
 
-* Compruebe con regularidad el [rendimiento del envío](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (documentación de Campaign v8) para toda la plataforma a fin de comprobar si es coherente con la configuración original.
+* Compruebe regularmente el [rendimiento de envío](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (documentación de Campaign v8) de toda la plataforma para verificar si es coherente con la configuración original.
 * Compruebe que [los reintentos](delivery-failures-quarantine.md#retries-after-a-delivery-temporary-failure) estén correctamente configurados (30 minutos para el periodo de reintento y más de 20 reintentos) en plantillas de envíos.
 * Compruebe periódicamente si puede acceder al buzón de [rechazados](delivery-failures-quarantine.md#bounce-mail-management) y que la cuenta no esté a punto de caducar.
 * Compruebe el rendimiento de cada entrega, accesible desde el [panel de control de entrega](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}, para asegurarse de que es coherente con la validez de su contenido (por ejemplo, las “ventas flash” deben entregarse en minutos, no en días).

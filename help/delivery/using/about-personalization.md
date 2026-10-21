@@ -37,7 +37,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
 ht-degree: 100%
 ---
@@ -47,7 +47,7 @@ Con Adobe Campaign, personalice los envíos para realizar envíos de mensajes qu
 
 La personalización le ayuda a hacer que sus mensajes sean más relevantes y atractivos. Puede utilizar los datos del destinatario para adaptar el contenido, añadir campos dinámicos o mostrar diferente información en función de las condiciones. Aprenda a configurar y utilizar funciones de la personalización en los envíos de la [documentación de la versión 8 de Adobe Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=es){target=_blank}.
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8.
+Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8.
 
 >[!BEGINTABS]
 

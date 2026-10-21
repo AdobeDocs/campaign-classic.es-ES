@@ -42,9 +42,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
 source-git-commit: 7b7f6d2ad5e5d09880f05c7e99ea8ede770532ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 82%
+ht-degree: 100%
 ---
 # Introducción a Campaign Classic{#about-adobe-campaign-classic}
 
@@ -57,7 +57,7 @@ Adobe Campaign permite coordinar la creación de campañas de marketing conversa
 
 >[!TAB Introducción a Campaign]
 
-Para obtener información sobre cómo empezar a usar la consola del cliente de Adobe Campaign y su interfaz de usuario, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+Para saber cómo empezar a utilizar la consola del cliente de Adobe Campaign y su interfaz de usuario, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 [![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
@@ -71,7 +71,7 @@ Para obtener información sobre cómo empezar a usar la consola del cliente de A
 
 * Descubra la interfaz de usuario de Adobe Campaign [en esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (documentación de Campaign v8).
 
-* Aprenda a trabajar con [Campaign Explorer](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target="_blank"} (documentación de Campaign v8).
+* Aprenda a trabajar con el [explorador de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target="_blank"} (documentación de Campaign v8).
 
 >[!ENDTABS]
 

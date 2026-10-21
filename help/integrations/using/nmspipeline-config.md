@@ -18,7 +18,7 @@ subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
     internal-label: Triggers
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
 ht-degree: 100%
 ---

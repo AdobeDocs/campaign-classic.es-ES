@@ -32,9 +32,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 89%
+ht-degree: 100%
 ---
 # Configuración de las pruebas A/B {#configuring-a-b-testing}
 

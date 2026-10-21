@@ -9,7 +9,7 @@ sub-product: adobe campaign classic
 type: Documentation
 nudge: false
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1657'
 ht-degree: 100%
 ---
@@ -115,7 +115,7 @@ ht-degree: 100%
     + [Avanzado: personalizar registros de entrega](delivery/using/customize-delivery-logs.md)
   + Administración de la entregabilidad {#deliverability-management}
     + [¿Qué es la entregabilidad?](delivery/using/about-deliverability.md)
-    + [Procesamiento de la bandeja de entrada](delivery/using/inbox-rendering.md)
+    + [Representación de la bandeja de entrada](delivery/using/inbox-rendering.md)
     + [Solución de problemas](delivery/using/deliverability-faq.md)
   + Módulo de administración de contenido {#content-management}
     + [Acerca de la administración de contenido](delivery/using/about-content-management.md)
@@ -241,7 +241,7 @@ ht-degree: 100%
     + {hide-from-toc}[Sincronización de públicos: OCULTO](integrations/using/synchronizing-audiences.md)
     + {hide-from-toc}[Sincronización de aplicaciones web: OCULTO](integrations/using/synchronizing-web-applications.md)
     + {hide-from-toc}[Solución de problemas de: [!DNL ACS Connector]  OCULTO](integrations/using/troubleshooting-the-acs-connector.md)
-+ [Automatización con flujos de trabajo](workflow/using/about-workflows.md)
++ [Automatización mediante flujos de trabajo](workflow/using/about-workflows.md)
 + Administración de ofertas {#managing-offers}
   + Introducción a la interacción {#interaction-overview}
     + [Interacción y gestión de ofertas](interaction/using/interaction-and-offer-management.md)

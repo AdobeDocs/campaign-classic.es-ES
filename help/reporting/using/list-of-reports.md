@@ -33,9 +33,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
 source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Lista de informes{#list-of-reports}
 
@@ -45,7 +45,7 @@ ht-degree: 97%
 
 Los informes integrados proporcionados por Adobe Campaign se pueden encontrar en la siguiente tabla.
 
-Para obtener más información sobre el contenido de estos informes, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} (Documentación de Campaign v8).
+Para obtener más información sobre el contenido de estos informes, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} (documentación de la versión 8 de Campaign).
 
 <table> 
  <tbody> 

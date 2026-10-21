@@ -46,9 +46,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
 source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1446'
-ht-degree: 98%
+ht-degree: 100%
 ---
 # Envío con el MTA mejorado {#sending-with-enhanced-mta}
 
@@ -154,7 +154,7 @@ Un envío no se puede detener una vez transferido al MTA mejorado, aunque se mue
 
 El gráfico de rendimiento del envío de Campaign ya no mostrará el rendimiento a los destinatarios del correo electrónico. Muestra la velocidad de rendimiento del reenvío de sus mensajes desde Campaign hasta el servidor de correo mejorado.
 
-Para obtener más información sobre el rendimiento del envío, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (Documentación de Campaign v8).
+Para obtener más información sobre el rendimiento de envío, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (documentación de Campaign v8).
 
 ### Reintentos
 
