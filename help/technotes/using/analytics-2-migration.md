@@ -20,7 +20,7 @@ subfeature_v2:
 source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 1%
+ht-degree: 3%
 ---
 # Migración a la API de Adobe Analytics 2.0 {#analytics-2-migration}
 
@@ -92,7 +92,7 @@ Para crear el conjunto de clasificaciones:
    * En **[!UICONTROL Job notifications]**, elija a quién se debe notificar si los trabajos del conjunto de clasificación se han realizado correctamente o no y proporcione las direcciones de correo electrónico correspondientes.
    * En **[!UICONTROL Subscriptions]**, seleccione el grupo de informes y la variable de conversión que creó para el nombre de la campaña interna en el paso anterior.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 Campaign descubrirá automáticamente este conjunto de clasificaciones cuando configure la cuenta externa en el siguiente paso. Para obtener más información sobre los conjuntos de clasificaciones, consulte la [documentación de Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
 
