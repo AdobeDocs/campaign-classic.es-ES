@@ -36,9 +36,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: 63ece0ce7bfca75468776da84e2eac8b34b13af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1449'
-ht-degree: 91%
+ht-degree: 100%
 ---
 # Último lanzamiento {#latest-release}
 
@@ -54,12 +54,12 @@ _15 de octubre de 2026_
 
 #### Correcciones {#fixes-7-4-5}
 
-* Se ha corregido un problema en el cual la cuenta externa de Analytics podía fallar con un error &quot;Desaparecido&quot; (410). (NEO-99019)
-* Se ha corregido un problema en el cual algunos envíos podían permanecer atascados en el estado de personalización pendiente aunque los mensajes correspondientes se enviaran correctamente. (NEO-94471)
-* Se ha corregido un problema en el cual un mecanismo de bloqueo interno podía entrar en un bucle de reintentos y provocar un alto uso de CPU en el servidor. (NEO-94845)
-* Se ha corregido un problema en el cual las actualizaciones del modelo de datos podían fallar intermitentemente. (NEO-84347, NEO-84824)
-* Se ha corregido un problema por el cual un error de &quot;comprobación de correo no deseado fallida&quot; podía aparecer incorrectamente al crear o editar una entrega. (NEO-53888)
-* Se ha corregido un problema en el cual los destinatarios no se ponían en cuarentena como se esperaba después de devoluciones leves recurrentes. (NEO-94422)
+* Se ha corregido un problema por el que la cuenta externa de Analytics podía devolver un error &quot;Gone&quot; (410). (NEO-99019)
+* Se ha corregido un problema por el cual algunos envíos podían permanecer atascados en el estado de personalización pendiente, aunque los mensajes correspondientes se hubieran enviado correctamente. (NEO-94471)
+* Se ha corregido un problema por el que un mecanismo de bloqueo interno podía entrar en un bucle de reintentos y provocar un alto uso de CPU en el servidor. (NEO-94845)
+* Se ha corregido un problema por el que las actualizaciones del modelo de datos podían fallar de forma intermitente. (NEO-84347, NEO-84824)
+* Se ha corregido un problema por el que podía aparecer incorrectamente un error de &quot;Comprobación de correo no deseado fallida&quot; al crear o editar un envío. (NEO-53888)
+* Se ha corregido un problema por el que los destinatarios no se ponían en cuarentena como se esperaba tras rechazos temporales recurrentes. (NEO-94422)
 
 ## Versión 7.4.4 {#release-7-4-4}
 
@@ -76,7 +76,7 @@ Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que 
 Se requiere un reinicio del servidor de Adobe Campaign (nlserver) para cargar la versión y completar la implementación. La corrección se activa de forma predeterminada tras el reinicio.
 
 
-### Versión 9402 {#build-9402}
+### Compilación 9402 {#build-9402}
 
 [!BADGE Obsoleto]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Obsoleto"}
 
@@ -88,7 +88,7 @@ Adobe ha publicado actualizaciones de seguridad para Adobe Campaign Classic que 
 
 Se requiere un reinicio del servidor de Adobe Campaign (nlserver) para cargar la versión y completar la implementación. La corrección se activa de forma predeterminada tras el reinicio.
 
-### Versión 9401 {#build-9401}
+### Compilación 9401 {#build-9401}
 
 [!BADGE Obsoleto]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=es#rn-statuses" tooltip="Obsoleto"}
 
