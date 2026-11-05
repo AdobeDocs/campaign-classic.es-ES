@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
+source-git-commit: a119d402631c5d2dd3ab8d6d11dfd0cdba0d662f
 workflow-type: tm+mt
-source-wordcount: '1959'
-ht-degree: 58%
+source-wordcount: '2010'
+ht-degree: 56%
 ---
 # Cuentas externas{#external-accounts}
 
@@ -484,3 +484,7 @@ Para configurar **[!UICONTROL Azure external account]** para que funcione con Ad
 * **[!UICONTROL Access key]**
 
   Para saber dónde encontrar su **[!UICONTROL Access key]**, consulte esta [página](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+
+  >[!NOTE]
+  >
+  >Azure Blob Storage filtra los archivos por prefijo de nombre, no por patrón. Se quitó un asterisco final (`*`) en una máscara de archivo, por lo que `TEST_EXPORT_AZURE_*` coincide con todos los archivos que comienzan con `TEST_EXPORT_AZURE_`. No se admiten los caracteres que aparecen después del asterisco, como en `TEST_EXPORT_AZURE_*.csv`. [Obtenga más información en la documentación de Microsoft](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}.
