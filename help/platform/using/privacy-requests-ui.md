@@ -40,16 +40,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: ht
-source-wordcount: '781'
-ht-degree: 100%
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
+workflow-type: tm+mt
+source-wordcount: '718'
+ht-degree: 93%
 ---
 # Creación y administración de solicitudes de privacidad {#privacy-request-ui}
 
-
-
 Esta sección describe cómo se pueden crear solicitudes de Acceso y Eliminación, y también cómo las procesa Adobe Campaign.
+
+Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre las tablas que se buscan al procesar solicitudes de privacidad, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy#list-of-tables){target=_blank}.
+
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy#list-of-tables){target=_blank}
 
 ## Creación de una solicitud de privacidad {#create-privacy-request-ui}
 
@@ -74,24 +76,7 @@ Los flujos de trabajo técnicos de privacidad se ejecutan una vez al día y proc
 
 ![](assets/privacy-request-download.png)
 
-## Lista de tablas {#list-of-tables}
-
-Al realizar una solicitud de privacidad de eliminación o acceso, Adobe Campaign busca todos los datos del sujeto de datos en función de los datos **[!UICONTROL Reconciliation value]** en todas las tablas que tienen un vínculo a la tabla de destinatario (tipo propio).
-
-Esta es la lista de tablas integradas que se tienen en cuenta al realizar solicitudes de privacidad:
-
-* Destinatarios (destinatario)
-* Registro de envíos de destinatario (broadLogRcp)
-* Registro de seguimiento de destinatario (trackingLogRcp)
-* Registro de envíos de evento archivado (broadLogEventHisto)
-* Contenido de lista de destinatario (rcpGrpRel)
-* Propuesta de oferta de visitante (propositionVisitor)
-* Visitantes (visitante)
-* Historial de suscripciones (subHisto)
-* Suscripciones (suscripción)
-* Propuesta de oferta de destinatario (propositionRcp)
-
-Si ha creado tablas personalizadas que tienen un vínculo a la tabla de destinatario (tipo propio), también se tendrán en cuenta. Por ejemplo, si tiene una tabla de transacciones vinculada a la tabla de destinatarios y una tabla de detalles de transacciones vinculada a la tabla de transacciones, ambas se tendrán en cuenta.
+## Solicitudes por lotes mediante flujos de trabajo
 
 >[!IMPORTANT]
 >

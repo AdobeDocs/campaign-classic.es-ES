@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+source-git-commit: 3d6f0751869871f811046dd52bab59dbcf587350
 workflow-type: tm+mt
-source-wordcount: '2023'
-ht-degree: 56%
+source-wordcount: '1897'
+ht-degree: 52%
 ---
 # Cuentas externas{#external-accounts}
 
 Adobe Campaign viene con un conjunto de cuentas externas predefinidas. Para configurar conexiones con sistemas externos, puede crear nuevas cuentas externas.
+
+Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre cuentas externas, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/external-accounts){target=_blank}.
+
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/external-accounts){target=_blank}
 
 Los procesos técnicos utilizan las cuentas externas como flujos de trabajo técnicos o flujos de trabajo de campaña. Por ejemplo, al configurar una transferencia de archivos en un flujo de trabajo o un intercambio de datos con cualquier otra aplicación (Adobe Target, Experience Manager, etc.), debe seleccionar una cuenta externa.
 
@@ -66,7 +70,7 @@ La cuenta externa se crea y se agrega a la lista de cuentas externas.
 
 ### Correos rechazados {#bounce-mails-external-account}
 
-La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Para obtener más información sobre esta cuenta externa, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=es){target="_blank"}.
+La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Para obtener más información sobre esta cuenta externa, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}.
 
 Todos los servidores configurados para el acceso POP3 pueden utilizarse para recibir el correo electrónico devuelto.
 
@@ -333,7 +337,7 @@ La cuenta externa **[!UICONTROL AEM (AEM instance)]** permite administrar el con
 
   La contraseña utilizada para conectarse a la instancia de autor de Adobe Experience Manager.
 
-Para obtener más información, consulte esta [sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"} (Documentación de Campaign v8).
+Para obtener más información, consulte esta [sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"} (Documentación de Campaign v8).
 
 ## Cuentas externas del conector CRM
 
@@ -432,38 +436,6 @@ Para esta cuenta externa, debe configurar Salesforce CRM con el asistente de con
 Para obtener más información sobre esta configuración, consulte esta [página](../../platform/using/crm-connectors.md).
 
 ## Transferir datos a cuentas externas
-
-### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
-
-El conector de Amazon Simple Storage Service (S3) se puede utilizar para importar o exportar datos a Adobe Campaign. Se puede configurar en una actividad de flujo de trabajo. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=es){target="_blank"}.
-
-![](assets/ext_account_3.png)
-
-Al configurar esta nueva cuenta externa, debe proporcionar los siguientes detalles:
-
-* **[!UICONTROL AWS S3 Account Server]**
-
-  La URL del servidor debe completarse de la siguiente manera:
-
-  ```
-  <S3bucket name>.s3.amazonaws.com/<s3object path>
-  ```
-
-* **[!UICONTROL AWS access key ID]**
-
-  Para saber dónde encontrar el ID de clave de acceso de AWS, consulte [esta página](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
-
-* **[!UICONTROL Secret access key to AWS]**
-
-  Para saber dónde encontrar la clave de acceso secreta a AWS, consulte [esta página](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
-
-* **[!UICONTROL AWS Region]**
-
-  Para obtener más información sobre la región AWS, consulte esta [página](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
-
-* La casilla de verificación **[!UICONTROL Use server side encryption]** permite almacenar el archivo en modo cifrado S3.
-
-Para saber dónde encontrar el ID de clave de acceso y la clave de acceso secreta, consulte la [documentación](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) de los servicios web de Amazon.
 
 ### Azure Blob Storage {#azure-blob-external-account}
 

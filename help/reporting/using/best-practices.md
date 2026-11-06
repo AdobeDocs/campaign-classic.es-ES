@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '857'
-ht-degree: 100%
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
+workflow-type: tm+mt
+source-wordcount: '870'
+ht-degree: 96%
 ---
 # Prácticas recomendadas para la creación de informes{#best-practices-reporting}
 
@@ -61,7 +61,7 @@ Para optimizar la creación, el uso y la duración de un informe, debe revisar l
    * Añada indicadores a un informe existente. Obtenga más información [en esta sección](../../reporting/using/about-reports-creation-in-campaign.md)
    * Vista de los datos en la base de datos. Obtenga más información [en esta sección](../../reporting/using/about-descriptive-analysis.md)
    * Creación de un nuevo informe de envío. Obtenga más información [en esta sección](../../reporting/using/about-reports-creation-in-campaign.md)),
-   * Exportar datos de la base de datos de Adobe Campaign (a través de un flujo de trabajo, consulte [esta sección](../../workflow/using/about-workflows.md)).
+   * Exportar datos de la base de datos de Adobe Campaign (a través de un flujo de trabajo, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (documentación de Campaign v8)
    * Cree una tabla dinámica. Obtenga más información [en esta sección](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
    * Explorar datos agregados. Obtenga más información [en esta sección](../../reporting/using/ac-cubes.md)
    * Utilice un asistente para analizar los datos. Obtenga más información [en esta sección](../../reporting/using/about-descriptive-analysis.md)

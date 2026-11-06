@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 11%
+source-wordcount: '146'
+ht-degree: 4%
 ---
 # Administración de flujos de trabajo{#managing-workflows}
 
@@ -42,6 +42,6 @@ Al basar los nuevos flujos de trabajo en una plantilla creada recientemente, la 
 
 Por lo tanto, todas las actividades utilizadas en el flujo de trabajo utilizan la tabla personalizada sin necesidad de ninguna configuración manual adicional.
 
-Para obtener más información sobre los flujos de trabajo, consulte [esta sección](../../workflow/using/about-workflows.md).
+Para obtener más información sobre los flujos de trabajo, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (Documentación de Campaign v8).
 
 ![](assets/cfg_external_table_workflow.png)
