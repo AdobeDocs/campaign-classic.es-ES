@@ -84,7 +84,7 @@ Puede crear diferentes tipos de formularios de entrada. El tipo de formulario de
 
 * Ayudante
 
-  Este formulario consta de varias pantallas flotantes ordenadas en una secuencia específica. Los usuarios navegan de una pantalla a otra. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#wizards){target="_blank"} (documentación de Campaign v8).
+  Este formulario consta de varias pantallas flotantes ordenadas en una secuencia específica. Los usuarios navegan de una pantalla a otra. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#wizards){target="_blank"} (documentación de Campaign v8).
 
 * Iconbox
 
@@ -170,7 +170,7 @@ Para crear un formulario, siga estos pasos:
 
 1. Inserte los elementos del formulario.
 
-   Por ejemplo, para insertar un campo de entrada, utilice el elemento `<input>`. Establezca el atributo `xpath` en la referencia de campo como una expresión XPath. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"} (documentación de Campaign v8).
+   Por ejemplo, para insertar un campo de entrada, utilice el elemento `<input>`. Establezca el atributo `xpath` en la referencia de campo como una expresión XPath. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"} (documentación de Campaign v8).
 
    Este ejemplo muestra campos de entrada basados en el esquema `nms:recipient`.
 
@@ -203,7 +203,7 @@ Para crear un formulario, siga estos pasos:
    | Casilla de verificación | `type="checkbox"` |
    | Editar árbol | `type="tree"` |
 
-   Más información sobre [controles de lista de memoria](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#memory-list-controls){target="_blank"} (documentación de Campaign v8).
+   Más información sobre [controles de lista de memoria](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#memory-list-controls){target="_blank"} (documentación de Campaign v8).
 
 1. De forma opcional, defina el acceso a los campos:
 
@@ -278,11 +278,11 @@ En este ejemplo, la dirección de correo electrónico es obligatoria y se muestr
 </leave>
 ```
 
-Obtenga más información sobre [campos de expresión](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#expression-field){target="_blank"} (documentación de Campaign v8) y [contexto de formulario](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"} (documentación de Campaign v8).
+Obtenga más información sobre [campos de expresión](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#expression-field){target="_blank"} (documentación de Campaign v8) y [contexto de formulario](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"} (documentación de Campaign v8).
 
 ### Validar valores
 
-Puede utilizar llamadas de JavaScript SOAP para validar datos de formulario desde la consola. Utilice estas llamadas para realizar validaciones complejas, por ejemplo, para comparar un valor con una lista de valores autorizados. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#soap-methods){target="_blank"} (documentación de Campaign v8).
+Puede utilizar llamadas de JavaScript SOAP para validar datos de formulario desde la consola. Utilice estas llamadas para realizar validaciones complejas, por ejemplo, para comparar un valor con una lista de valores autorizados. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#soap-methods){target="_blank"} (documentación de Campaign v8).
 
 1. Cree una función de validación en un archivo JS.
 
@@ -339,4 +339,4 @@ Este ejemplo muestra cómo puede realizar llamadas de servicio desde formularios
 </enter>
 ```
 
-En este ejemplo, la entrada es un ID, que es una clave principal. Cuando los usuarios rellenan el formulario de este ID, se realiza una llamada de SOAP con este ID como parámetro de entrada. El resultado es un booleano escrito en este campo: `/tmp/@count`. Puede utilizar este booleano dentro del formulario. Más información sobre [contexto de formulario](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"} (documentación de Campaign v8).
+En este ejemplo, la entrada es un ID, que es una clave principal. Cuando los usuarios rellenan el formulario de este ID, se realiza una llamada de SOAP con este ID como parámetro de entrada. El resultado es un booleano escrito en este campo: `/tmp/@count`. Puede utilizar este booleano dentro del formulario. Más información sobre [contexto de formulario](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"} (documentación de Campaign v8).

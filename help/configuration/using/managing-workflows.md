@@ -42,6 +42,6 @@ Al basar los nuevos flujos de trabajo en una plantilla creada recientemente, la 
 
 Por lo tanto, todas las actividades utilizadas en el flujo de trabajo utilizan la tabla personalizada sin necesidad de ninguna configuración manual adicional.
 
-Para obtener más información sobre los flujos de trabajo, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (Documentación de Campaign v8).
+Para obtener más información sobre los flujos de trabajo, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (Documentación de Campaign v8).
 
 ![](assets/cfg_external_table_workflow.png)

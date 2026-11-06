@@ -49,7 +49,7 @@ Para utilizar las funcionalidades de mensajería transaccional, debe configurar 
 
 >[!IMPORTANT]
 >
->Las extensiones de esquema afectadas por los recursos utilizados por [flujos de trabajo técnicos del centro de mensajes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/transactional-msg-settings#technical-workflows){target="_blank"} (documentación de Campaign v8) en cualquiera de las instancias de control o de ejecución deben duplicarse en las demás instancias utilizadas por el módulo de mensajería transaccional.
+>Las extensiones de esquema afectadas por los recursos utilizados por [flujos de trabajo técnicos del centro de mensajes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/transactional-msg-settings#technical-workflows){target="_blank"} (documentación de Campaign v8) en cualquiera de las instancias de control o de ejecución deben duplicarse en las demás instancias utilizadas por el módulo de mensajería transaccional.
 
 También debe especificar y conectar las instancias de ejecución a las instancias de control.
 

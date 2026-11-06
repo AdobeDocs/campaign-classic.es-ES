@@ -61,7 +61,7 @@ Para optimizar la creación, el uso y la duración de un informe, debe revisar l
    * Añada indicadores a un informe existente. Obtenga más información [en esta sección](../../reporting/using/about-reports-creation-in-campaign.md)
    * Vista de los datos en la base de datos. Obtenga más información [en esta sección](../../reporting/using/about-descriptive-analysis.md)
    * Creación de un nuevo informe de envío. Obtenga más información [en esta sección](../../reporting/using/about-reports-creation-in-campaign.md)),
-   * Exportar datos de la base de datos de Adobe Campaign (a través de un flujo de trabajo, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (documentación de Campaign v8)
+   * Exportar datos de la base de datos de Adobe Campaign (a través de un flujo de trabajo, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (documentación de Campaign v8)
    * Cree una tabla dinámica. Obtenga más información [en esta sección](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
    * Explorar datos agregados. Obtenga más información [en esta sección](../../reporting/using/ac-cubes.md)
    * Utilice un asistente para analizar los datos. Obtenga más información [en esta sección](../../reporting/using/about-descriptive-analysis.md)

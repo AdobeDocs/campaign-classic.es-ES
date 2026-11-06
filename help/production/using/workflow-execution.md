@@ -46,7 +46,7 @@ La sección siguiente presenta información sobre problemas comunes relacionados
 
 Para obtener más información sobre los flujos de trabajo, consulte estas secciones:
 
-* [Acerca de los flujos de trabajo](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (Documentación de la versión 8 de Campaign)
+* [Acerca de los flujos de trabajo](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (Documentación de la versión 8 de Campaign)
 * [Iniciando un flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=es){target="_blank"}.
 * [Ciclo de vida del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es){target="_blank"}.
 * [Prácticas recomendadas al utilizar flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=es){target="_blank"}.
@@ -57,7 +57,7 @@ En algunos casos, los flujos de trabajo ejecutados desde una campaña no se inic
 
 Puede haber varias causas para este problema. Siga los pasos a continuación para resolverlo:
 
-1. Comprobar el estado del flujo de trabajo técnico [**[!UICONTROL operationMgt]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}. Este flujo de trabajo administra los trabajos o flujos de trabajo dentro de una campaña. Si falla, el resultado será que los flujos de trabajo no se inicien ni se detengan. Reinícielo para reanudar la ejecución de los flujos de trabajo de campaña.
+1. Comprobar el estado del flujo de trabajo técnico [**[!UICONTROL operationMgt]**](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=es){target="_blank"}. Este flujo de trabajo administra los trabajos o flujos de trabajo dentro de una campaña. Si falla, el resultado será que los flujos de trabajo no se inicien ni se detengan. Reinícielo para reanudar la ejecución de los flujos de trabajo de campaña.
 
    Para obtener más información sobre la monitorización de flujos de trabajo técnicos, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html?lang=es){target="_blank"}.
 
