@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 17%
@@ -72,7 +72,7 @@ La administración del acceso es una parte importante del refuerzo de la segurid
 * Compruebe que cada operador tiene los derechos de acceso adecuados
 * Evite utilizar el operador admin y evite tener demasiados operadores en el grupo admin
 
-[Más información](../../installation/using/access-management.md)
+[Más información](../../installation/using/secure-access-management.md)
 
 ## Directrices de script y código
 

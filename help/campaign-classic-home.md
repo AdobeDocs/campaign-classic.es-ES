@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 186021e65b592522f3c491fb518594b5bac5d003
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '930'
 ht-degree: 41%
 ---
 # Documentación de Campaign Classic v7 {#campaign-classic-documentation}
@@ -76,7 +76,7 @@ Para reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomi
     <div><strong>Adición y administración de perfiles</strong><br/> Explora fácilmente la administración de perfiles en la base de datos de la versión 7 de Adobe Campaign. Añade perfiles manualmente o importándolos para refinar los datos de los clientes y personalizar las campañas sin complicaciones.</div>
     </td>
     <td>
-    <a href="https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
+    <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
     <div><strong>Automatización con flujos de trabajo</strong><br/> Aprende a aprovechar el flujo de trabajo para crear procesos, incluyendo, entre otros, segmentación, ejecución de campañas, procesamiento de archivos y participación humana.
     </div></td>
     <td>
@@ -87,7 +87,7 @@ Para reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomi
   <tr style="border: 0;">
     <td align="center"><a href="platform/using/launching-adobe-campaign.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="platform/using/about-profiles.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="delivery/using/communication-channels.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
@@ -99,12 +99,12 @@ Para reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomi
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">
       <br/>
-      <strong>Administradores</strong><br/><a href="production/using/general-architecture.md">Principios de arquitectura</a> - <a href="production/using/configuration.md">Configurar Campaign</a> - <a href="platform/using/launching-adobe-campaign.md">Conectarse a Campaign</a> - <a href="installation/using/external-accounts.md">Conectarse a sistemas externos</a> - <a href="platform/using/access-management.md">Permisos</a> - <a href="platform/using/privacy-management.md">Privacidad y consentimiento</a> - <a href="production/using/build-upgrade.md">Realizando una actualización de compilación</a> - <a href="delivery/using/about-deliverability.md">Capacidad de entrega</a>
+      <strong>Administradores</strong><br/><a href="production/using/architecture-and-open-ports.md">Principios de arquitectura</a> - <a href="production/using/syslogd-port-and-security-zones.md">Configurar Campaign</a> - <a href="platform/using/launching-adobe-campaign.md">Conectarse a Campaign</a> - <a href="installation/using/external-accounts.md">Conectarse a sistemas externos</a> - <a href="platform/using/access-management.md">Permisos</a> - <a href="platform/using/privacy-management.md">Privacidad y consentimiento</a> - <a href="production/using/build-upgrade.md">Realizando una actualización de compilación</a> - <a href="delivery/using/about-deliverability.md">Capacidad de entrega</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
       <br/>
-      <strong>Especialistas en marketing</strong><br/><a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui" target="_blank">Interfaz de usuario</a> (documentación de Campaign v8) - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/import" target="_blank">Importar y exportar datos</a> (documentación de Campaign v8) - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-audiences/create-audiences" target="_blank">Crear listas</a> (documentación de Campaign v8) - <a href="delivery/using/about-services-and-subscriptions.md">Servicios y suscripciones</a> - <a href="delivery/using/communication-channels.md">Canales de comunicación</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/create-message" target="_blank">Enviar pruebas</a> (documentación de Campaign v8) - <a href="delivery/using/get-started-a-b-testing.md">Pruebas A/B</a> - <a href="message-center/using/about-transactional-messaging.md">Transaccional mensajería</a> - <a href="interaction/using/interaction-and-offer-management.md">Interacción y administración de ofertas</a> - <a href="https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank">Automatización con flujos de trabajo</a> (documentación de Campaign v8) - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es" target="_blank">Campaña de marketing</a> - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Seguimiento de mensajes</a> (documentación de Campaign v8) - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">Creación de informes</a> (documentación de Campaign v8)
+      <strong>Especialistas en marketing</strong><br/><a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui" target="_blank">Interfaz de usuario</a> (documentación de Campaign v8) - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/import" target="_blank">Importar y exportar datos</a> (documentación de Campaign v8) - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-audiences/create-audiences" target="_blank">Crear listas</a> (documentación de Campaign v8) - <a href="delivery/using/about-services-and-subscriptions.md">Servicios y suscripciones</a> - <a href="delivery/using/communication-channels.md">Canales de comunicación</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/create-message" target="_blank">Enviar pruebas</a> (documentación de Campaign v8) - <a href="delivery/using/get-started-a-b-testing.md">Pruebas A/B</a> - <a href="message-center/using/about-transactional-messaging.md">Transaccional mensajería</a> - <a href="interaction/using/interaction-and-offer-management.md">Interacción y administración de ofertas</a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank">Automatización con flujos de trabajo</a> (documentación de Campaign v8) - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es" target="_blank">Campaña de marketing</a> - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Seguimiento de mensajes</a> (documentación de Campaign v8) - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">Creación de informes</a> (documentación de Campaign v8)
     </td>
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
@@ -122,11 +122,11 @@ El contenido que se documenta en la documentación de Campaign v8 se ha eliminad
 | --- | --- |
 | La interfaz de usuario | [Descubra la interfaz de usuario](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} |
 | Perfiles, listas, importación y exportación | [Importar perfiles y datos](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/import){target="_blank"} |
-| Flujos de trabajo | [Acerca de los flujos de trabajo](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} |
-| Campañas de marketing | [Introducción a las campañas de marketing](https://experienceleague.adobe.com/es/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target="_blank"} |
+| Flujos de trabajo | [Acerca de los flujos de trabajo](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} |
+| Campañas de marketing | [Introducción a las campañas de marketing](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target="_blank"} |
 | Creación y entrega de envíos | [Crear un mensaje](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/create-message){target="_blank"} |
 | Informes integrados | [Introducción a los informes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"} |
-| Permisos | [Introducción a los permisos](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"} |
+| Permisos | [Introducción a los permisos](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"} |
 | Formularios de entrada | [Introducción a los formularios de entrada](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} |
 
 ## Recursos adicionales

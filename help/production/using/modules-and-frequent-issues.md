@@ -27,7 +27,7 @@ subfeature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 13%
@@ -75,7 +75,7 @@ Esta es una lista de módulos afectados por problemas frecuentes:
   <tr> 
    <td> syslogd </td> 
    <td> Registro de escritura<br /> </td> 
-   <td> Si faltan algunos registros en los archivos de registro, asegúrese de que el módulo esté utilizando el puerto 6666. Consulte <a href="../../production/using/general-architecture.md#list-of-open-ports" target="_blank">Lista de puertos abiertos</a>.<br /> </td> 
+   <td> Si faltan algunos registros en los archivos de registro, asegúrese de que el módulo esté utilizando el puerto 6666. Consulte <a href="../../production/using/architecture-and-open-ports.md#list-of-open-ports" target="_blank">Lista de puertos abiertos</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> seguimiento </td> 

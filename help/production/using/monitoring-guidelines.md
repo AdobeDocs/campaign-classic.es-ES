@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a26a9642d4b60f0f095596584929ba5e98c3180a
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 27%
@@ -65,7 +65,7 @@ Hay varios métodos automáticos disponibles. para ayudarle a monitorizar su ins
 
 **Pista de auditoría**
 
-La pista de auditoría permite visualizar el historial completo de cambios relacionados con las opciones, los flujos de trabajo y los esquemas dentro de la instancia. [Haga clic aquí](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} (documentación de Campaign v8) para obtener más información.
+La pista de auditoría permite visualizar el historial completo de cambios relacionados con las opciones, los flujos de trabajo y los esquemas dentro de la instancia. [Haga clic aquí](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} (documentación de Campaign v8) para obtener más información.
 
 **Panel de control**
 
@@ -87,7 +87,7 @@ El mapa de calor del flujo de trabajo proporciona una representación visual de 
 
 **Pista de auditoría**
 
-La pista de auditoría permite visualizar todas las modificaciones realizadas en los flujos de trabajo, así como sus estados actuales. [Haga clic aquí](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} (documentación de Campaign v8).
+La pista de auditoría permite visualizar todas las modificaciones realizadas en los flujos de trabajo, así como sus estados actuales. [Haga clic aquí](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} (documentación de Campaign v8).
 
 **Solución de problemas de flujos de trabajo**
 
@@ -95,7 +95,7 @@ Se pueden realizar acciones específicas al encontrar problemas con la ejecució
 
 **Supervisión del estado del flujo de trabajo**
 
-Además del mapa de calor, puede crear un flujo de trabajo que le permitirá monitorizar el estado de un conjunto de flujos de trabajo y enviar mensajes recurrentes a los supervisores. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html?lang=es){target="_blank"}.
+Además del mapa de calor, puede crear un flujo de trabajo que le permitirá monitorizar el estado de un conjunto de flujos de trabajo y enviar mensajes recurrentes a los supervisores. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html){target="_blank"}.
 
 **Directrices generales**
 
@@ -166,7 +166,7 @@ Los recursos técnicos están disponibles en la documentación de Campaign Class
 
 **Principios generales**
 
-* [Arquitectura de Campaign Classic](../../production/using/general-architecture.md)
+* [Arquitectura de Campaign Classic](../../production/using/architecture-and-open-ports.md)
 * [Módulos de Campaign Classic](../../production/using/operating-principle.md)
 * [Opciones de Campaign Classic](../../installation/using/configuring-campaign-options.md)
 * [Cómo configurar el inicio automático de los módulos](../../production/using/administration.md)
