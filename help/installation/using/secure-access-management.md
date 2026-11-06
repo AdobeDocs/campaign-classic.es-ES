@@ -62,7 +62,7 @@ No utilice el operador admin (o no lo comparta). Cree un operador por usuario f�
 
 Evite añadir demasiados operadores en el grupo de administradores (o con derechos asignados de administrador). Son operadores muy potentes (pueden realizar todas las sentencias SQL, ejecutar comandos en el servidor, etc.).
 
-Adobe Campaign proporciona tres privilegios de alto nivel mediante [derechos asignados](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"} (documentación de Campaign v8):
+Adobe Campaign proporciona tres privilegios de alto nivel mediante [derechos asignados](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"} (documentación de Campaign v8):
 
 * **ADMINISTRACIÓN** (administrador): da acceso a todo y permite hacer de todo, omitiendo todas las comprobaciones de derechos asignados, por lo que incluye los derechos asignados de EJECUCIÓN DE PROGRAMA (createProcess) y SQL
 
