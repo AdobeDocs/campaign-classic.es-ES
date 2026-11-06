@@ -39,10 +39,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '731'
-ht-degree: 100%
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+workflow-type: tm+mt
+source-wordcount: '823'
+ht-degree: 90%
 ---
 # Introducción a las integraciones de Adobe Campaign {#about-campaign-integrations}
 
@@ -52,9 +52,13 @@ Obtenga más información sobre las integraciones funcionales disponibles entre 
 
 La lista completa de soluciones y servicios de aplicaciones de Adobe que se pueden integrar con Adobe Campaign, así como la documentación asociada, está disponible en [esta sección](#experience-cloud-integrations).
 
+Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre cómo conectar Campaign con las soluciones, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target=_blank}.
+
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target=_blank}
+
 >[!CAUTION]
 >
->Estas integraciones requieren implementar Adobe Identity Management System (IMS) para iniciar sesión con un Adobe ID. [Obtenga más información en esta página](../../integrations/using/about-adobe-id.md).
+>Estas integraciones requieren implementar el sistema de administración de identidades (IMS) de Adobe para iniciar sesión con un Adobe ID. [Obtenga más información en esta página](../../integrations/using/about-adobe-id.md).
 >
 
 ## Vinculación de soluciones {#working-with-experience-cloud-solutions}
@@ -90,16 +94,16 @@ La siguiente tabla permite acceder a la documentación de integración de Experi
    <td> Configure la integración entre Adobe Campaign y Adobe Real-time Customer Data Platform (RTCDP) para compartir datos de segmentos e importar públicos a Adobe Campaign.<br /> <p><a href="../../integrations/using/get-started-sources-destinations.md">Obtenga más información</a> sobre Campaign: integración de la plataforma de datos del cliente en tiempo real de Adobe.</p><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Adobe Identity Management System (IMS), Adobe ID</strong><br /> </td> 
+   <td> <strong>Sistema de administración de identidades (IMS) de Adobe, Adobe ID</strong><br /> </td> 
    <td> Configure Adobe IMS para conectarse a Adobe Campaign con el mismo Adobe ID que para las demás soluciones de Adobe Experience Cloud.<br /> Debe utilizar un Adobe ID para iniciar sesión con el objetivo de utilizar determinadas funcionalidades vinculadas a las integraciones de Adobe Experience Cloud.<br /> <p><a href="../../integrations/using/about-adobe-id.md">Obtenga más información</a> sobre la implementación de la Adobe ID con Adobe Campaign.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Experience Manager</strong><br /> </td> 
-   <td> Configure esta integración para crear contenido de correo electrónico o formularios asignados a la base de datos de Adobe Campaign directamente en <strong>Adobe Experience Manager</strong>.<br /> <p><a href="../../integrations/using/about-adobe-experience-manager.md">Obtenga más información</a> sobre la integración de Adobe Campaign con Adobe Experience Manager.</p><br /> </td> 
+   <td> Configure esta integración para crear contenido de correo electrónico o formularios asignados a la base de datos de Adobe Campaign directamente en <strong>Adobe Experience Manager</strong>.<br /> <p><a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem" target="_blank">Más información</a> (documentación de Campaign v8) sobre la integración de Adobe Campaign con Adobe Experience Manager.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Target</strong><br /> </td> 
-   <td> Configure esta integración para insertar imágenes que <strong>Adobe Target</strong> calcula dinámicamente cuando se abre el correo electrónico que Adobe Campaign crea y envía<br /> <p><a href="../../integrations/using/integrating-with-adobe-target.md">Obtenga más información</a> sobre la integración de Adobe Campaign con Adobe Target.</p><br /> </td> 
+   <td> Configure esta integración para insertar imágenes que <strong>Adobe Target</strong> calcula dinámicamente cuando se abre el correo electrónico que Adobe Campaign crea y envía<br /> <p><a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at" target="_blank">Más información</a> (documentación de Campaign v8) sobre la integración de Adobe Campaign con Adobe Target.</p><br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Adobe Audience Manager</strong><br /> </td> 
