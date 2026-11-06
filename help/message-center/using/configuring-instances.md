@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
-workflow-type: ht
-source-wordcount: '1274'
-ht-degree: 100%
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
+workflow-type: tm+mt
+source-wordcount: '1291'
+ht-degree: 96%
 ---
 # Configuración de instancias {#creating-a-shared-connection}
 
@@ -49,7 +49,7 @@ Para utilizar las funcionalidades de mensajería transaccional, debe configurar 
 
 >[!IMPORTANT]
 >
->Las extensiones de esquema afectadas por los recursos que usan [Flujos de trabajo técnicos del centro de mensajes](../../message-center/using/additional-configurations.md#technical-workflows) en cualquiera de las instancias de control o de ejecución deben duplicarse en las demás instancias que utiliza el módulo de mensajería transaccional de Adobe Campaign.
+>Las extensiones de esquema afectadas por los recursos utilizados por [flujos de trabajo técnicos del centro de mensajes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/config/settings/transactional-msg-settings#technical-workflows){target="_blank"} (documentación de Campaign v8) en cualquiera de las instancias de control o de ejecución deben duplicarse en las demás instancias utilizadas por el módulo de mensajería transaccional.
 
 También debe especificar y conectar las instancias de ejecución a las instancias de control.
 

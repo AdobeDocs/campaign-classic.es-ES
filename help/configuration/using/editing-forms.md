@@ -30,16 +30,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 1%
+source-wordcount: '1269'
+ht-degree: 10%
 ---
 # Editar formularios{#editing-forms}
 
 ## Información general
 
 Los especialistas en marketing y los operadores utilizan formularios de entrada para crear, modificar y previsualizar registros. Forms muestra una representación visual de la información.
+
+Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre los formularios de entrada, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}.
+
+[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}
 
 Puede crear y modificar formularios de entrada:
 
@@ -56,7 +60,7 @@ Para diseñar formularios, edite el contenido XML en el editor XML:
 
 ![](assets/d_ncs_integration_form_edit.png)
 
-[Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"} (Documentación de Campaign v8).
+[Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"} (documentación de Campaign v8).
 
 Para obtener una vista previa de un formulario, haga clic en la ficha **[!UICONTROL Preview]**:
 
@@ -80,7 +84,7 @@ Puede crear diferentes tipos de formularios de entrada. El tipo de formulario de
 
 * Ayudante
 
-  Este formulario consta de varias pantallas flotantes ordenadas en una secuencia específica. Los usuarios navegan de una pantalla a otra. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#wizards){target="_blank"} (Documentación de Campaign v8).
+  Este formulario consta de varias pantallas flotantes ordenadas en una secuencia específica. Los usuarios navegan de una pantalla a otra. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#wizards){target="_blank"} (documentación de Campaign v8).
 
 * Iconbox
 
@@ -101,72 +105,6 @@ Puede crear diferentes tipos de formularios de entrada. El tipo de formulario de
 * Panel horizontal
 
   Este formulario muestra una lista de elementos.
-
-## Contenedores
-
-En los formularios, puede utilizar contenedores para varios fines:
-
-* Organización del contenido de los formularios
-* Definición del acceso a los campos de entrada
-* Anidar formularios dentro de otros formularios
-
-[Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (Documentación de Campaign v8).
-
-### Organizar contenido
-
-Utilice contenedores para organizar el contenido de los formularios:
-
-* Puede agrupar los campos en secciones.
-* Puede agregar páginas a formularios de varias páginas.
-
-Para insertar un contenedor, use el elemento `<container>`. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (Documentación de Campaign v8).
-
-#### Agrupar campos
-
-Utilice contenedores para agrupar los campos de entrada en secciones organizadas.
-
-Para insertar una sección en un formulario, utilice este elemento: `<container type="frame">`. Opcionalmente, para agregar un título de sección, use el atributo `label`.
-
-Sintaxis: `<container type="frame" label="`*section_title*`"> […] </container>`
-
-En este ejemplo, un contenedor define la sección **Creation**, que comprende los campos de entrada **[!UICONTROL Created by]** y **[!UICONTROL Name]**:
-
-```xml
-<form _cs="Coupons (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Coupons"
-      name="coupon" namespace="nms" type="default" xtkschema="xtk:form">
-  <input xpath="@code"/>
-  <input xpath="@type"/>
-  <container label="Creation" type="frame">
-    <input xpath="createdBy"/>
-    <input xpath="createdBy/@name"/>
-  </container>
-</form>
-```
-
-![](assets/console_screen_form.png)
-
-#### Agregar páginas a formularios de varias páginas
-
-Para formularios de varias páginas, utilice un contenedor para crear una página de formulario.
-
-Este ejemplo muestra contenedores para las páginas **General** y **Detalles** de un formulario:
-
-```xml
-<container img="ncm:book.png" label="General">
-[…]
-</container>
-<container img="ncm:detail.png" label="Details">
-[…]
-</container>
-```
-
-### Definición del acceso a los campos
-
-Utilice contenedores para definir lo que está visible y para definir el acceso a los campos. Puede activar o desactivar grupos de campos.
-
-### Anidar formularios
-
-Utilice contenedores para anidar formularios dentro de otros formularios. [Más información](#add-pages-to-multipage-forms).
 
 ## Referencias a imágenes
 
@@ -232,7 +170,7 @@ Para crear un formulario, siga estos pasos:
 
 1. Inserte los elementos del formulario.
 
-   Por ejemplo, para insertar un campo de entrada, utilice el elemento `<input>`. Establezca el atributo `xpath` en la referencia de campo como una expresión XPath. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"} (Documentación de Campaign v8).
+   Por ejemplo, para insertar un campo de entrada, utilice el elemento `<input>`. Establezca el atributo `xpath` en la referencia de campo como una expresión XPath. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"} (documentación de Campaign v8).
 
    Este ejemplo muestra campos de entrada basados en el esquema `nms:recipient`.
 
@@ -303,165 +241,7 @@ Para crear un formulario, siga estos pasos:
 
 ## Creación de un formulario de varias páginas {#create-multipage-form}
 
-Puede crear formularios de varias páginas. También puede anidar formularios dentro de otros formularios.
-
-### Crear un formulario `iconbox`
-
-Utilice el tipo de formulario `iconbox` para mostrar los iconos a la izquierda del formulario, que llevarán a los usuarios a diferentes páginas del formulario.
-
-![](assets/iconbox_form_preview.png)
-
-Para cambiar el tipo de un formulario existente a `iconbox`, siga estos pasos:
-
-1. Cambiar el atributo `type` del elemento `<form>` a `iconbox`:
-
-   ```xml
-   <form […] type="iconbox">
-   ```
-
-1. Establezca un contenedor para cada página de formulario:
-
-   1. Agregue un elemento `<container>` como elemento secundario del elemento `<form>`.
-   1. Para definir una etiqueta y una imagen para el icono, use los atributos `label` y `img`.
-
-      ```xml
-      <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="iconbox" xtkschema="xtk:form">
-          <container img="xtk:properties.png" label="General">
-              <input xpath="@label"/>
-              <input xpath="@name"/>
-              […]
-          </container>
-          <container img="nms:msgfolder.png" label="Details">
-              <input xpath="@address"/>
-              […]
-          </container>
-          <container img="nms:supplier.png" label="Services">
-              […]
-          </container>
-      </form>
-      ```
-
-   Como alternativa, quite el atributo `type="frame"` de los elementos `<container>` existentes.
-
-### Crear un formulario de bloc de notas
-
-Utilice el tipo de formulario `notebook` para mostrar las fichas en la parte superior del formulario, que llevan a los usuarios a diferentes páginas.
-
-![](assets/notebook_form_preview.png)
-
-Para cambiar el tipo de un formulario existente a `notebook`, siga estos pasos:
-
-1. Cambiar el atributo `type` del elemento `<form>` a `notebook`:
-
-   ```xml
-   <form […] type="notebook">
-   ```
-
-1. Agregue un contenedor para cada página de formulario:
-
-   1. Agregue un elemento `<container>` como elemento secundario del elemento `<form>`.
-   1. Para definir la etiqueta y la imagen para el icono, utilice los atributos `label` y `img`.
-
-   ```xml
-     <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="notebook" xtkschema="xtk:form">
-         <container label="General">
-             <input xpath="@label"/>
-             <input xpath="@name"/>
-             […]
-         </container>
-         <container label="Details">
-             <input xpath="@address"/>
-             […]
-         </container>
-         <container label="Services">
-             […]
-         </container>
-     </form>
-   ```
-
-   Como alternativa, quite el atributo `type="frame"` de los elementos `<container>` existentes.
-
-### Anidar formularios
-
-Puede anidar formularios dentro de otros formularios. Por ejemplo, puede anidar formularios de bloc de notas en formularios de cuadro de iconos.
-
-Nivel de anidación que controla la navegación. Los usuarios pueden explorar en profundidad los subformularios.
-
-Para anidar un formulario dentro de otro formulario, inserte un elemento `<container>` y establezca el atributo `type` en el tipo de formulario. Para el formulario de nivel superior, puede establecer el tipo de formulario en un contenedor externo o en el elemento `<form>`.
-
-### Ejemplo
-
-Este ejemplo muestra un formulario complejo:
-
-* El formulario de nivel superior es un formulario de cuadro de iconos. Este formulario consta de dos contenedores etiquetados como **General** y **Detalles**.
-
-  Como resultado, el formulario externo muestra las páginas **General** y **Detalles** en el nivel superior. Para acceder a estas páginas, los usuarios hacen clic en los iconos de la izquierda del formulario.
-
-* El subformulario es un formulario de bloc de notas anidado en el contenedor **General**. El subformulario consta de dos contenedores con la etiqueta **Name** y **Contact**.
-
-```xml
-<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
-  <container type="iconbox">
-    <container img="ncm:general.png" label="General">
-      <container type="notebook">
-        <container label="Name">
-          <input xpath="@firstName"/>
-          <input xpath="@lastName"/>
-        </container>
-        <container label="Contact">
-          <input xpath="@email"/>
-        </container>
-      </container>
-    </container>
-    <container img="ncm:detail.png" label="Details">
-      <input xpath="@birthDate"/>
-    </container>
-  </container>
-</form>
-```
-
-Como resultado, la página **General** del formulario externo muestra las fichas **Nombre** y **Contacto**.
-
-![](assets/nested_forms_preview.png)
-
-Para anidar un formulario dentro de otro formulario, inserte un elemento `<container>` y establezca el atributo `type` en el tipo de formulario. Para el formulario de nivel superior, puede establecer el tipo de formulario en un contenedor externo o en el elemento `<form>`.
-
-### Ejemplo
-
-Este ejemplo muestra un formulario complejo:
-
-* El formulario de nivel superior es un formulario de cuadro de iconos. Este formulario consta de dos contenedores etiquetados como **General** y **Detalles**.
-
-  Como resultado, el formulario externo muestra las páginas **General** y **Detalles** en el nivel superior. Para acceder a estas páginas, los usuarios hacen clic en los iconos de la izquierda del formulario.
-
-* El subformulario es un formulario de bloc de notas anidado en el contenedor **General**. El subformulario consta de dos contenedores con la etiqueta **Name** y **Contact**.
-
-```xml
-<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
-  <container type="iconbox">
-    <container img="ncm:general.png" label="General">
-      <container type="notebook">
-        <container label="Name">
-          <input xpath="@firstName"/>
-          <input xpath="@lastName"/>
-        </container>
-        <container label="Contact">
-          <input xpath="@email"/>
-        </container>
-      </container>
-    </container>
-    <container img="ncm:detail.png" label="Details">
-      <input xpath="@birthDate"/>
-    </container>
-  </container>
-</form>
-```
-
-Como resultado, la página **General** del formulario externo muestra las fichas **Nombre** y **Contacto**.
-
-![](assets/nested_forms_preview.png)
-
-
+Puede crear formularios de varias páginas. También puede anidar formularios dentro de otros formularios. Obtenga más información sobre [contenedores, bloc de notas y formularios con iconbox](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (documentación de Campaign v8).
 
 ## Modificación de un formulario de entrada de fábrica {#modify-factory-form}
 
@@ -479,16 +259,6 @@ Para modificar un formulario de fábrica, siga estos pasos:
 ## Validar formularios {#validate-forms}
 
 Puede incluir controles de validación en los formularios.
-
-### Conceder acceso de solo lectura a los campos
-
-Para conceder acceso de sólo lectura a un campo, utilice el atributo `readOnly="true"`. Por ejemplo, es posible que desee mostrar la clave principal de un registro, pero con acceso de sólo lectura. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#non-editable-fields){target="_blank"} (Documentación de Campaign v8).
-
-En este ejemplo, la clave principal (`iRecipientId`) del esquema `nms:recipient` se muestra en el acceso de solo lectura:
-
-```xml
-<value xpath="@iRecipientId" readOnly="true"/>
-```
 
 ### Comprobar campos obligatorios
 
@@ -512,7 +282,7 @@ Obtenga más información sobre [campos de expresión](https://experienceleague.
 
 ### Validar valores
 
-Puede utilizar llamadas de JavaScript SOAP para validar datos de formulario desde la consola. Utilice estas llamadas para realizar validaciones complejas, por ejemplo, para comparar un valor con una lista de valores autorizados. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#soap-methods){target="_blank"} (Documentación de Campaign v8).
+Puede utilizar llamadas de JavaScript SOAP para validar datos de formulario desde la consola. Utilice estas llamadas para realizar validaciones complejas, por ejemplo, para comparar un valor con una lista de valores autorizados. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/forms#soap-methods){target="_blank"} (documentación de Campaign v8).
 
 1. Cree una función de validación en un archivo JS.
 

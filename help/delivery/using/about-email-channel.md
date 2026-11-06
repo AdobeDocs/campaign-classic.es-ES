@@ -32,10 +32,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: ht
-source-wordcount: '453'
-ht-degree: 100%
+source-git-commit: d679815c3415f1d7603ae5fe87e1c587208b6a8f
+workflow-type: tm+mt
+source-wordcount: '454'
+ht-degree: 97%
 ---
 # Introducción al canal de correo electrónico{#about-email-channel}
 
@@ -71,7 +71,7 @@ Conozca los pasos clave relacionados con la creación de envíos de correo elect
 Consulte estas páginas para obtener más información sobre los parámetros de correo electrónico en la **documentación de Campaign v8**:
 
 * [Vínculo a la página espejo](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=es){target="_blank"}: configure la página espejo para asegurarse de que sus clientes siempre obtengan la mejor experiencia de procesamiento.
-* [Añadir una dirección CCO](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=es){target="_blank"}: configure Adobe Campaign para que conserve una copia de los mensajes de correo electrónico enviados desde su plataforma.
+* [Añadir una dirección CCO](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"}: configure Adobe Campaign para que conserve una copia de los mensajes de correo electrónico enviados desde su plataforma.
 * [Definir parámetros de correo electrónico adicionales](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html?lang=es){target="_blank"}: obtenga más información sobre las opciones y los parámetros disponibles en las propiedades de envío.
 
 Consulte también esta [página](sending-with-enhanced-mta.md) para obtener más información sobre el MTA mejorado.

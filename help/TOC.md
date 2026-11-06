@@ -8,9 +8,9 @@ user-guide-description: Documentación de producto para Adobe Campaign Classic v
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: ht
-source-wordcount: '1657'
+source-git-commit: b2b42bcbab0d09197126d140da3ecb1f4aa0d869
+workflow-type: tm+mt
+source-wordcount: '1560'
 ht-degree: 100%
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 100%
   + Versiones anteriores {#previous-releases}
     + [2025](rn/using/release-2025.md)
     + [2024](rn/using/release-2024.md)
-    + {hide-from-toc}[2023 - OCULTO](rn/using/release-2023.md)
-    + {hide-from-toc}[2022: OCULTO](rn/using/release-2022.md)
-    + {hide-from-toc}[2021 - OCULTO](rn/using/release-2021.md)
-    + {hide-from-toc}[[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
   + [Funciones obsoletas](rn/using/deprecated-features.md)
   + [Matriz de compatibilidad](rn/using/compatibility-matrix.md)
 + Introducción {#getting-started}
@@ -66,8 +62,6 @@ ht-degree: 100%
 + Creación y envío de mensajes {#sending-messages}
   + [Introducción a los mensajes](delivery/using/communication-channels.md)
   + {hide-from-toc}[Configuración del envío: OCULTO](delivery/using/delivery-settings.md)
-  + Inicio rápido {#key-steps-when-creating-a-delivery}
-    + {hide-from-toc}[Realizar el envío: OCULTO](delivery/using/steps-sending-the-delivery.md)
   + [Envío de correos electrónicos](delivery/using/about-email-channel.md)
   + Envío de SMS {#sending-messages-on-mobiles}
     + Configuración del canal de SMS {#sms-set-up}
@@ -76,13 +70,8 @@ ht-degree: 100%
       + [Configuración y protocolo del conector SMS](delivery/using/sms-protocol.md)
       + [Configuración adicional](delivery/using/sms-send.md)
       + [Solución de problemas de SMS](delivery/using/troubleshooting-sms.md)
-    + {hide-from-toc}[Migración al conector genérico SMPP extendido](delivery/using/unsupported-connector-migration.md)
   + [Envío de notificaciones push](delivery/using/about-mobile-app-channel.md)
   + Envío de notificaciones push {#sending-push-notifications}
-    + Configuración de la aplicación móvil{#configure-the-mobile-app}
-      + {hide-from-toc}[Introducción a la configuración de aplicaciones: OCULTO](delivery/using/get-started-app-config.md)
-      + {hide-from-toc}[Pasos de configuración para iOS: OCULTO](delivery/using/configuring-the-mobile-application.md)
-      + {hide-from-toc}[Pasos de configuración para Android: OCULTO](delivery/using/configuring-the-mobile-application-android.md)
     + {hide-from-toc}[Solución de problemas: OCULTO](delivery/using/troubleshooting.md)
   + [Envío de correos directos](delivery/using/about-direct-mail-channel.md)
   + Personalizar los envíos {#personalizing-deliveries}
@@ -128,7 +117,6 @@ ht-degree: 100%
     + [Uso de una plantilla de contenido](delivery/using/using-a-content-template.md)
     + [Enriquecimiento del contenido](delivery/using/enriching-content.md)
     + [Automatización mediante flujos de trabajo](delivery/using/automating-via-workflows.md)
-+ [Orquestación de campañas de marketing](campaign/using/about-marketing-campaigns.md)
 + Gestor de respuestas {#response-manager}
   + [Introducción al gestor de respuestas](response/using/about-response-manager.md)
   + [Configuración](response/using/configuration.md)
@@ -140,9 +128,6 @@ ht-degree: 100%
     + [Prácticas recomendadas para la creación de informes](reporting/using/best-practices.md)
   + Acceso a informes integrados {#accessing-built-in-reports}
     + [Acerca de los informes integrados](reporting/using/about-campaign-built-in-reports.md)
-    + [Lista de informes](reporting/using/list-of-reports.md)
-  + Informes sobre entregas{#reports-on-deliveries}
-    + [Cálculo de indicador](reporting/using/indicator-calculation.md)
   + Análisis de poblaciones {#analyzing-populations}
     + [Qué es el análisis descriptivo](reporting/using/about-descriptive-analysis.md)
     + [Creación de su primer informe de análisis descriptivo](reporting/using/using-the-descriptive-analysis-wizard.md)
@@ -228,20 +213,9 @@ ht-degree: 100%
     + [Configuración del acceso a  [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
     + [Inserción de un recurso compartido](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}
-    + [Uso de  [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
     + [Configuración de la integración](integrations/using/configuring-the-integration.md)
-    + [Creación de una newsletter de  [!DNL Experience Manager] ](integrations/using/creating-an-experience-manager-newsletter.md)
   + Adobe Target {#adobe-target}
-    + [Uso de  [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
     + [Configuración de la integración con  [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
-    + [Inserción de una imagen dinámica](integrations/using/inserting-a-dynamic-image.md)
-  + Conector ACS {#acs-connector}
-    + {hide-from-toc}[Introducción a: [!DNL ACS Connector]  OCULTO](integrations/using/acs-connector-principles-and-data-cycle.md)
-    + {hide-from-toc}[Sincronización de perfiles: OCULTO](integrations/using/synchronizing-profiles.md)
-    + {hide-from-toc}[Sincronización de públicos: OCULTO](integrations/using/synchronizing-audiences.md)
-    + {hide-from-toc}[Sincronización de aplicaciones web: OCULTO](integrations/using/synchronizing-web-applications.md)
-    + {hide-from-toc}[Solución de problemas de: [!DNL ACS Connector]  OCULTO](integrations/using/troubleshooting-the-acs-connector.md)
-+ [Automatización mediante flujos de trabajo](workflow/using/about-workflows.md)
 + Administración de ofertas {#managing-offers}
   + Introducción a la interacción {#interaction-overview}
     + [Interacción y gestión de ofertas](interaction/using/interaction-and-offer-management.md)
@@ -344,7 +318,6 @@ ht-degree: 100%
     + [Configuración de cuentas externas](installation/using/external-accounts.md)
     + Configuración del acceso de datos federado{#configure-fda}
       + [Introducción al acceso de datos federado](installation/using/about-fda.md)
-      + [Prácticas recomendadas y limitaciones](installation/using/fda-best-practices.md)
       + Directrices de configuración {#config-databases}
         + [Pasos de configuración](installation/using/configure-fda.md)
         + [Configuración de Amazon Redshift](installation/using/configure-fda-redshift.md)
@@ -385,7 +358,6 @@ ht-degree: 100%
     + [Archivos de registro](production/using/log-files.md)
     + [Monitorización de procesos](production/using/monitoring-processes.md)
     + [Comandos habituales](production/using/usual-commands.md)
-    + [Pista de auditoría](production/using/audit-trail.md)
   + Procesamiento de datos {#data-processing}
     + [Copia de seguridad](production/using/backup.md)
     + [Restauración](production/using/restoration.md)
@@ -519,15 +491,12 @@ ht-degree: 100%
     + [Impacto de la interfaz tras la migración a IMS](technotes/using/impact-ims-migration.md)
   + Actualizaciones y compatibilidad{#technote-migration}
     + [Habilitar Microsoft Edge Chromium](technotes/using/edge-chromium.md)
-    + {hide-from-toc}[Nuevo servidor de capacidad de entrega](technotes/using/deliverability-server.md)
     + {hide-from-toc}[Actualización de seguridad de Apache](technotes/using/acc-apache-upgrade.md)
     + {hide-from-toc}[Actualizaciones del sistema 2023](technotes/using/tech-stack-upgrade.md)
-    + {hide-from-toc}[Actualizaciones de IMS](technotes/using/ims-updates.md)
     + {hide-from-toc}[Migración a la API de Adobe Analytics 2.0](technotes/using/analytics-2-migration.md)
   + Correos electrónicos y notificaciones push{#technotes-email}
     + [Protección de privacidad de correo electrónico en Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
     + [Actualización de certificado de iOS](technotes/using/ios-certificate-update.md)
-    + {hide-from-toc}[Actualización de direcciones URL rastreadas](technotes/using/tracked-urls.md)
   + Migración a Adobe Managed Services{#dc-migration}
     + [Migración a la nube pública](technotes/using/dc-migration.md)
     + [Preguntas frecuentes](technotes/using/dc-migration-faq.md)

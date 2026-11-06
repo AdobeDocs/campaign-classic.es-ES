@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a26a9642d4b60f0f095596584929ba5e98c3180a
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 28%
+source-wordcount: '861'
+ht-degree: 27%
 ---
 # Directrices de monitorización {#monitoring-guidelines}
 
@@ -65,7 +65,7 @@ Hay varios métodos automáticos disponibles. para ayudarle a monitorizar su ins
 
 **Pista de auditoría**
 
-La pista de auditoría permite visualizar el historial completo de cambios relacionados con las opciones, los flujos de trabajo y los esquemas dentro de la instancia. [Haga clic aquí](../../production/using/audit-trail.md) para obtener más información.
+La pista de auditoría permite visualizar el historial completo de cambios relacionados con las opciones, los flujos de trabajo y los esquemas dentro de la instancia. [Haga clic aquí](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} (documentación de Campaign v8) para obtener más información.
 
 **Panel de control**
 
@@ -87,7 +87,7 @@ El mapa de calor del flujo de trabajo proporciona una representación visual de 
 
 **Pista de auditoría**
 
-La pista de auditoría permite visualizar todas las modificaciones realizadas en los flujos de trabajo, así como sus estados actuales. [Haga clic aquí](../../production/using/audit-trail.md).
+La pista de auditoría permite visualizar todas las modificaciones realizadas en los flujos de trabajo, así como sus estados actuales. [Haga clic aquí](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} (documentación de Campaign v8).
 
 **Solución de problemas de flujos de trabajo**
 

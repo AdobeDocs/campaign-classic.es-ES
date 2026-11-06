@@ -43,8 +43,8 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: ht
+source-git-commit: 4ae19a379120bb39444c3e81392a7dbb0b6da3ba
+workflow-type: tm+mt
 source-wordcount: '1814'
 ht-degree: 100%
 ---
@@ -80,7 +80,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
   </tr>
   <tr>
  <td>Conector SMPP de Netsize</td>
- <td><p>El conector SMPP de Netsize ya no se utiliza. Le recomendamos migrar al conector <strong>genérico extendido SMPP</strong>. Para obtener más información, consulte <a href="../../delivery/using/unsupported-connector-migration.md">esta página</a>.</p>
+ <td><p>El conector SMPP de Netsize ya no se utiliza. Le recomendamos migrar al conector <strong>genérico extendido SMPP</strong>. Para obtener más información, consulte <a href="../../delivery/using/sms-set-up.md">esta página</a>.</p>
 <p>Fecha de eliminación de destino: enero de 2027</p>
 </td>
 </tr>
