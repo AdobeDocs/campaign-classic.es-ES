@@ -236,7 +236,7 @@ Este servidor aloja formularios web, páginas espejo, etc. Los puertos siguiente
 
 ## Integración con Adobe Experience Manager {#integration-with-adobe-experience-manager}
 
-La integración entre Adobe Campaign y Adobe Experience Manager requiere la apertura de varios puertos si la instalación es &quot;on-premise&quot;. Para obtener más información sobre la configuración de esta integración, consulte la [documentación detallada](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"} (documentación de Campaign v8).
+La integración entre Adobe Campaign y Adobe Experience Manager requiere la apertura de varios puertos si la instalación es &quot;on-premise&quot;. Para obtener más información sobre la configuración de esta integración, consulte la [documentación detallada](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"} (documentación de Campaign v8).
 
 <table> 
  <tbody> 

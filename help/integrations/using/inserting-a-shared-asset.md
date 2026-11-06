@@ -64,4 +64,4 @@ Los activos compartidos desde Adobe Experience Cloud se pueden utilizar en los m
 
 >[!NOTE]
 >
->Si se utiliza la integración con Adobe Target, se puede utilizar una imagen compartida como imagen predeterminada. Consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at){target="_blank"} (documentación de Campaign v8).
+>Si se utiliza la integración con Adobe Target, se puede utilizar una imagen compartida como imagen predeterminada. Consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/connect/ac-at){target="_blank"} (documentación de Campaign v8).
