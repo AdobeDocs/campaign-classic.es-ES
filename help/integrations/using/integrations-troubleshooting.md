@@ -42,8 +42,8 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
 ---

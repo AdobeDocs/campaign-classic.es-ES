@@ -33,8 +33,8 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: ht
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 100%
 ---

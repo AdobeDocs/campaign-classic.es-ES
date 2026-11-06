@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Configuración adicional
+title: Puerto Syslogd y zonas de seguridad
 description: Configuración
 feature: Monitoring, Configuration
 badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=es" tooltip="Applies to on-premise and hybrid deployments only"
@@ -28,12 +28,12 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 12%
+source-wordcount: '189'
+ht-degree: 10%
 ---
-# Configuración{#configuration}
+# Puerto Syslogd y zonas de seguridad{#configuration}
 
 
 

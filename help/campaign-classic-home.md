@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: c1f8b6661065c8d5c75e38d80f6986e0c6fbdfa8
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 61%
+source-wordcount: '930'
+ht-degree: 41%
 ---
 # Documentación de Campaign Classic v7 {#campaign-classic-documentation}
 
@@ -97,36 +97,19 @@ Para reforzar la seguridad y el proceso de autenticación, Adobe Campaign recomi
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="assets/do-not-localize/icon-start.svg" width="35px">
-    <br/>
-      <strong>Empezar</strong><br/><a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui" target="_blank">Interfaz de usuario</a> (documentación de la versión 8 de Campaign) - <a href="platform/using/launching-adobe-campaign.md">Conectarse a Campaign</a> - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/import" target="_blank">Importación y exportación de datos</a> (documentación de la versión 8 de Campaign) - <a href="platform/using/access-management.md">Permisos</a>
-    </td>
-    <td>
-      <img src="assets/do-not-localize/icon-experience.svg" width="35px">
-    <br/>
-      <strong>Experiencia del cliente</strong><br/><a href="https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank">Automatización con flujos de trabajo</a> (documentación de Campaign v8) - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es" target="_blank">Campaña de marketing</a> - <a href="interaction/using/interaction-and-offer-management.md">Interacción y administración de ofertas</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">Creación de informes</a> (documentación de Campaign v8)
+      <img src="assets/do-not-localize/icon-configure.svg" width="35px">
+      <br/>
+      <strong>Administradores</strong><br/><a href="production/using/architecture-and-open-ports.md">Principios de arquitectura</a> - <a href="production/using/syslogd-port-and-security-zones.md">Configurar Campaign</a> - <a href="platform/using/launching-adobe-campaign.md">Conectarse a Campaign</a> - <a href="installation/using/external-accounts.md">Conectarse a sistemas externos</a> - <a href="platform/using/access-management.md">Permisos</a> - <a href="platform/using/privacy-management.md">Privacidad y consentimiento</a> - <a href="production/using/build-upgrade.md">Realizando una actualización de compilación</a> - <a href="delivery/using/about-deliverability.md">Capacidad de entrega</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
-    <br/>
-      <strong>Envío de mensajes</strong><br/><a href="delivery/using/communication-channels.md">Canales de comunicación</a> - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/create-message" target="_blank">Envío de pruebas</a> (documentación de la versión 8 de Campaign) - <a href="delivery/using/get-started-a-b-testing.md">Pruebas A/B</a> - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Seguimiento de mensajes</a> - <a href="delivery/using/about-deliverability.md">Entregabilidad</a> - <a href="message-center/using/about-transactional-messaging.md">Mensajería transaccional</a>
-    </td>
-  </tr>
-  <tr style="border: 0;">
-    <td>
-      <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
       <br/>
-      <strong>Perfiles y públicos</strong><br/> <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-audiences/create-audiences" target="_blank">Crear listas</a> (documentación de la versión 8 de Campaign) - <a href="delivery/using/about-services-and-subscriptions.md">Servicios y suscripciones</a> - <a href="platform/using/privacy-management.md">Privacidad y consentimiento</a>
-    </td>
-    <td>
-      <img src="assets/do-not-localize/icon-configure.svg" width="35px">
-      <br/>
-      <strong>Arquitectura y configuración</strong><br/><a href="production/using/general-architecture.md">Principios de arquitectura</a> - <a href="production/using/build-upgrade.md">Actualización de compilación</a> - <a href="production/using/configuration.md">Configuración de Campaign</a> - <a href="installation/using/external-accounts.md">Conexión a sistemas externos</a>
+      <strong>Especialistas en marketing</strong><br/><a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/campaign-ui" target="_blank">Interfaz de usuario</a> (documentación de Campaign v8) - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/data/import" target="_blank">Importar y exportar datos</a> (documentación de Campaign v8) - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/audience/create-audiences/create-audiences" target="_blank">Crear listas</a> (documentación de Campaign v8) - <a href="delivery/using/about-services-and-subscriptions.md">Servicios y suscripciones</a> - <a href="delivery/using/communication-channels.md">Canales de comunicación</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/create-message" target="_blank">Enviar pruebas</a> (documentación de Campaign v8) - <a href="delivery/using/get-started-a-b-testing.md">Pruebas A/B</a> - <a href="message-center/using/about-transactional-messaging.md">Transaccional mensajería</a> - <a href="interaction/using/interaction-and-offer-management.md">Interacción y administración de ofertas</a> - <a href="https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/about-workflows" target="_blank">Automatización con flujos de trabajo</a> (documentación de Campaign v8) - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es" target="_blank">Campaña de marketing</a> - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Seguimiento de mensajes</a> (documentación de Campaign v8) - <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">Creación de informes</a> (documentación de Campaign v8)
     </td>
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>Recursos para desarrolladores</strong><br/><a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/datamodel" target="_blank">Descripción del modelo de datos</a> (documentación de Campaign v8) - <a href="configuration/using/about-schema-reference.md">Estructura del esquema</a> - <a href="configuration/using/editing-forms.md">Formularios de entrada</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/es/tools/campaign-api">Documentación de referencia de JSAPI</a> - <a href="configuration/using/about-custom-recipient-table.md">Tabla de destinatarios personalizada</a>
+      <strong>Desarrolladores</strong><br/><a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/datamodel" target="_blank">Descripción del modelo de datos</a> (documentación de Campaign v8) - <a href="configuration/using/about-schema-reference.md">Estructura del esquema</a> - <a href="configuration/using/editing-forms.md">Formularios de entrada</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/es/tools/campaign-api" target="_blank">Documentación de referencia de JSAPI</a> - <a href="configuration/using/about-custom-recipient-table.md">Tabla de destinatarios personalizada</a>
     </td>
   </tr>
 </table>

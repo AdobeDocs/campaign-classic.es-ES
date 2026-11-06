@@ -24,8 +24,8 @@ subfeature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: ht
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
 ---
@@ -57,7 +57,7 @@ Cada hipótesis está vinculada a una única tabla de transacción. Una entrega 
 
 ## Pasos de implementación {#method}
 
-Antes de comenzar a utilizar el Gestor de respuestas, consulte [Configuration](configuration.md) y realice las configuraciones necesarias.
+Antes de comenzar a utilizar el Gestor de respuestas, consulte [Configuration](configure-response-manager.md) y realice las configuraciones necesarias.
 
 Para iniciar una hipótesis en una entrega o una oferta, debe definir su contexto en una plantilla que se utilizará para cada hipótesis que cree.
 
