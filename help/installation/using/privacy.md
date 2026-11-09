@@ -52,9 +52,9 @@ Esta página cubre la personalización de URL, la firma de URL y la protección 
 
 >[!NOTE]
 >
->Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre las solicitudes de privacidad y las restricciones de datos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}.
+>Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre las solicitudes de privacidad y las restricciones de datos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}.
 >
->[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}
+>[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}
 
 En Campaign Classic v7, la restricción del acceso a toda la entidad requiere la compilación 8770 o posterior.
 

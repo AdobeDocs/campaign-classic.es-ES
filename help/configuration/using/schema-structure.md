@@ -49,9 +49,9 @@ En esta página se muestra cómo se asignan los tipos de datos de Adobe Campaign
 
 >[!NOTE]
 >
->Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre la estructura de esquemas, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure){target=_blank}.
+>Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre la estructura de esquemas, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure){target=_blank}.
 >
->[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure){target=_blank}
+>[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure){target=_blank}
 
 ## Asignación de los tipos de datos de Adobe Campaign/DBMS {#mapping-the-types-of-adobe-campaign-dbms-data}
 
@@ -143,5 +143,5 @@ Examine los siguientes vínculos para obtener más información:
 
 * [Introducción a los esquemas](about-schema-reference.md)
 * [Asignación de base de datos](database-mapping.md)
-* [Administración de vínculos](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (documentación de Campaign v8)
+* [Administración de vínculos](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (documentación de Campaign v8)
 * [Administración de claves](database-keys.md)
