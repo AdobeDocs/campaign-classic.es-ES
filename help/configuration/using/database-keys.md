@@ -28,18 +28,20 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
 workflow-type: tm+mt
 source-wordcount: '591'
-ht-degree: 11%
+ht-degree: 13%
 ---
 # Administración de claves en esquemas {#management-of-keys}
 
 Cada tabla asociada con un esquema de datos debe tener al menos una clave para identificar un registro de una tabla. En esta página se describe la clave de incremento automático utilizada en las tablas de Campaign Classic v7.
 
-Como parte de la transición de Campaign v7 a v8, el conjunto de documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información acerca de la administración de claves, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/database-keys){target=_blank}.
-
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/database-keys){target=_blank}
+>[!NOTE]
+>
+>Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información acerca de la administración de claves, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/database-keys){target=_blank}.
+>
+>[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/database-keys){target=_blank}
 
 ## Clave de incremento automático {#auto-incremental-key}
 

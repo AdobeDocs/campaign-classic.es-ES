@@ -41,8 +41,8 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: ht
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+workflow-type: tm+mt
 source-wordcount: '4785'
 ht-degree: 100%
 ---
@@ -53,9 +53,11 @@ ht-degree: 100%
 >En este documento, todas las referencias a los detalles acerca del protocolo, los nombres de campo y los valores se refieren a la [especificación SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 >
 
-Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre la configuración del conector SMS, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}.
-
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}
+>[!NOTE]
+>
+>Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre la configuración del conector SMS, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}.
+>
+>[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}
 
 ## Información general {#overview}
 

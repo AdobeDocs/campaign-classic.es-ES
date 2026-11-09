@@ -33,7 +33,7 @@ subfeature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 95%
@@ -43,9 +43,11 @@ ht-degree: 95%
 
 Las siguientes sugerencias para la solución de problemas ayudarán a los clientes **locales** e **híbridos** a resolver los problemas más comunes que se producen al utilizar la integración con IMS. Para clientes **alojados**, póngase en contacto con Adobe.
 
-Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre cómo iniciar sesión en Adobe ID y solucionar problemas de inicio de sesión, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/connect){target=_blank}.
-
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/connect){target=_blank}
+>[!NOTE]
+>
+>Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre cómo iniciar sesión en Adobe ID y solucionar problemas de inicio de sesión, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/connect){target=_blank}.
+>
+>[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/new/connect){target=_blank}
 
 **Cuenta externa**
 

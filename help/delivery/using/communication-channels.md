@@ -47,8 +47,8 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: ht
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 100%
 ---
@@ -58,7 +58,9 @@ Con Adobe Campaign, puede enviar campañas de canales múltiples, incluidos corr
 
 Las funciones principales incluyen establecimiento de objetivos, definición y personalización de mensajes, ejecución de comunicaciones y los informes operativos asociados.
 
-Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8.
+>[!NOTE]
+>
+>Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8.
 
 >[!BEGINTABS]
 

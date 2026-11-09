@@ -29,8 +29,8 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: ht
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
 ---
@@ -38,9 +38,11 @@ ht-degree: 100%
 
 Adobe Campaign detecta las direcciones URL cuyo seguimiento se debe realizar en su contenido durante el análisis de los envíos.
 
-Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para saber cómo se detectan las direcciones URL y qué patrones utilizar, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}.
-
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}
+>[!NOTE]
+>
+>Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para saber cómo se detectan las direcciones URL y qué patrones utilizar, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}.
+>
+>[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}
 
 ## Patrón no protegido
 

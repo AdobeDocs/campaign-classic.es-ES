@@ -27,8 +27,8 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
-workflow-type: ht
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
 ---
@@ -66,6 +66,8 @@ Utilice el módulo Campaign Marketing Analytics para lo siguiente:
 1. Crear una consulta con datos calculados y acumulados en un cubo.
 1. Identificar poblaciones y hacerles referencia en listas.
 
-Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener información sobre cómo crear y utilizar cubos, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes){target=_blank}.
-
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes){target=_blank}
+>[!NOTE]
+>
+>Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener información sobre cómo crear y utilizar cubos, consulte la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes){target=_blank}.
+>
+>[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes){target=_blank}
