@@ -18,8 +18,8 @@ feature_v2:
 subfeature_v2:
   - id: d3b34fea-a110-482f-adb2-aae8d686bac8
     internal-label: Transactional messaging
-source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
-workflow-type: ht
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 100%
 ---
@@ -31,9 +31,11 @@ ht-degree: 100%
 
 La **mensajería transaccional** (Centro de mensajería) es un módulo de Campaign diseñado para administrar las notificaciones de activador personalizadas generadas a partir de eventos enviados por un sistema de información externo.
 
-Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre la mensajería transaccional, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}.
-
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}
+>[!NOTE]
+>
+>Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre la mensajería transaccional, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}.
+>
+>[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}
 
 Esta sección trata la arquitectura de mensajería transaccional y la configuración de las instancias de control y ejecución, específicas para implementaciones On-Premise e híbridas.
 

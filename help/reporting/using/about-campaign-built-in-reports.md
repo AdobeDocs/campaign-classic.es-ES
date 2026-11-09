@@ -28,8 +28,8 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
-workflow-type: ht
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
 ---
@@ -55,8 +55,10 @@ Están disponibles los siguientes tipos de informe:
 
 Puede acceder a los informes desde la página principal de la consola del cliente, el panel de control de informes o la lista de envíos. El modo de visualización de un informe depende de su contexto. La lista de informes principales está disponible en la página principal y le permite acceder rápidamente a los datos de envío. La lista se puede modificar para adaptarla a las necesidades. Consulte [esta sección](../../reporting/using/about-reports-creation-in-campaign.md) para obtener más información.
 
-Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para saber cómo acceder a los informes integrados y utilizarlos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}.
-
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}
+>[!NOTE]
+>
+>Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para saber cómo acceder a los informes integrados y utilizarlos, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}.
+>
+>[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}
 
 En [esta sección](../../reporting/using/actions-on-reports.md) se detallan otras posibles acciones que se pueden realizar sobre un informe en proceso de edición.

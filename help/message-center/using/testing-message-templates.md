@@ -26,8 +26,8 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
-workflow-type: ht
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 100%
 ---
@@ -35,9 +35,11 @@ ht-degree: 100%
 
 Una vez que su [plantilla de mensaje](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (documentación de Campaign v8) esté lista, siga los pasos que se indican a continuación para previsualizarla y probarla.
 
-Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener información sobre cómo añadir direcciones semilla, previsualizar un mensaje transaccional y enviar una prueba, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}.
-
-[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}
+>[!NOTE]
+>
+>Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener información sobre cómo añadir direcciones semilla, previsualizar un mensaje transaccional y enviar una prueba, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}.
+>
+>[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}
 
 ## Datos de personalización {#personalization-data}
 
