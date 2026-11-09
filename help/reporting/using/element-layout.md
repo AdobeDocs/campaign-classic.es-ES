@@ -39,7 +39,7 @@ ht-degree: 85%
 
 Además de los diversos gráficos detallados [aquí](../../reporting/using/creating-a-chart.md#chart-types-and-variants), puede adaptar la visualización y añadir elementos a las páginas de informes.
 
-Puede utilizar contenedores: estos permiten vincular varios elementos de una página y configurar su diseño en columnas o celdas. En [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#creating-containers){target="_blank"} (documentación de Campaign v8) se detalla cómo usarlos.
+Puede utilizar contenedores: estos permiten vincular varios elementos de una página y configurar su diseño en columnas o celdas. En [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#creating-containers){target="_blank"} (documentación de Campaign v8) se detalla cómo usarlos.
 
 Puede configurar el diseño del informe en la raíz del árbol y recargarlo para cada contenedor. Las páginas se ordenan en columnas. Los contenedores también se ordenan en columnas. Solo los elementos estáticos y gráficos se ordenan en celdas.
 
@@ -53,7 +53,7 @@ La pestaña **[!UICONTROL General]** permite cambiar el título de la página, a
 
 El campo **[!UICONTROL Title]** permite personalizar la etiqueta en el encabezado de la página del informe. El título de la ventana se puede configurar mediante la ventana **[!UICONTROL Properties]** del informe. Para obtener más información, consulte [Adición de un encabezado y un pie de página](#adding-a-header-and-a-footer).
 
-Las opciones de **[!UICONTROL Display settings]** permiten seleccionar la posición del pie de ilustración del control dentro de una página del informe y definir el número de columnas de la página. Para obtener más información sobre el diseño de la página, consulte la sección **Diseño del elemento** de [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#positioning-the-fields-on-the-page){target="_blank"} (documentación de Campaign v8).
+Las opciones de **[!UICONTROL Display settings]** permiten seleccionar la posición del pie de ilustración del control dentro de una página del informe y definir el número de columnas de la página. Para obtener más información sobre el diseño de la página, consulte la sección **Diseño del elemento** de [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#positioning-the-fields-on-the-page){target="_blank"} (documentación de Campaign v8).
 
 Seleccione las distintas opciones de la sección **[!UICONTROL Browse]** para autorizar la navegación desde una página de informes a otra. Si la opción **[!UICONTROL Disable next page]** o **[!UICONTROL Disable previous page]** está seleccionada, los botones **[!UICONTROL Next]** y **[!UICONTROL Previous]** desaparecen de la página del informe.
 

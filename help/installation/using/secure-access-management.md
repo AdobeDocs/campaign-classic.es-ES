@@ -52,7 +52,7 @@ De forma predeterminada, el operador webApp es un administrador. Para mejorar la
 
   1. Introduzca un nombre para cada duplicado. Por ejemplo: webapp_brand, webapp_brand2, etc.
 
-  1. Duplique una plantilla de aplicación web para tener una plantilla por marca y edite las propiedades para cambiar el operador seleccionando Use a specific account.  Obtenga más información en [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"} (documentación de Campaign v8).
+  1. Duplique una plantilla de aplicación web para tener una plantilla por marca y edite las propiedades para cambiar el operador seleccionando Use a specific account.  Obtenga más información en [esta página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"} (documentación de Campaign v8).
 
 ## Grupos de seguridad y operadores de administración
 

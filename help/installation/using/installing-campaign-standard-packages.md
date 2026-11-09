@@ -163,7 +163,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Encuestas en línea (Gestor de encuestas)<br /> </td> 
-   <td> Crea y administra formularios en línea para agregar o modificar información de perfil, suscribirse, cancelar la suscripción o un formulario de entrada de competencia. Opcional. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
+   <td> Crea y administra formularios en línea para agregar o modificar información de perfil, suscribirse, cancelar la suscripción o un formulario de entrada de competencia. Opcional. <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/surveys/about-surveys" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -173,7 +173,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Gestor de respuestas<br /> </td> 
-   <td> Mide el éxito y la rentabilidad de las campañas de marketing u ofrece propuestas para todos los canales de comunicación.  Opcional. <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/response-manager/about-response-manager" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
+   <td> Mide el éxito y la rentabilidad de las campañas de marketing u ofrece propuestas para todos los canales de comunicación.  Opcional. <a href="https://experienceleague.adobe.com/es/docs/campaign/automation/response-manager/about-response-manager" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 

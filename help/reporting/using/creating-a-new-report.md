@@ -142,7 +142,7 @@ Una **[!UICONTROL Page]** puede incluir los siguientes elementos:
 * Valor, Vínculo, HTML, Imagen, etc. **[!UICONTROL Static elements]**.
 * **[!UICONTROL Containers]** que permiten controlar el diseño del componente.
 
-El modo de configuración de una página y sus componentes se detalla en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} (documentación de Campaign v8).
+El modo de configuración de una página y sus componentes se detalla en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} (documentación de Campaign v8).
 
 La barra de herramientas permite añadir o eliminar controles y organizar su secuencia en las páginas del informe.
 
@@ -150,7 +150,7 @@ La barra de herramientas permite añadir o eliminar controles y organizar su sec
 
 ### Elementos estáticos {#static-elements}
 
-Los elementos estáticos permiten visualizar la información en el informe, como los elementos gráficos o secuencias de comandos, con los que el usuario no interactúa. Consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} (Documentación de Campaign v8) para obtener más información.
+Los elementos estáticos permiten visualizar la información en el informe, como los elementos gráficos o secuencias de comandos, con los que el usuario no interactúa. Consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} (Documentación de Campaign v8) para obtener más información.
 
 ![](assets/s_advuser_report_page_activity_03.png)
 
@@ -158,7 +158,7 @@ Los elementos estáticos permiten visualizar la información en el informe, como
 
 Los controles de entrada y selección permiten filtrar la información que se visualiza en el informe. Para obtener más información sobre la implementación de este tipo de filtrado, consulte [Filtrado de opciones en las consultas](../../reporting/using/collecting-data-to-analyze.md#filtering-options-in-the-queries).
 
-Para obtener más información sobre la creación y configuración de los campos de entrada y los campos de selección, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} (documentación de Campaign v8).
+Para obtener más información sobre la creación y configuración de los campos de entrada y los campos de selección, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} (documentación de Campaign v8).
 
 Puede incorporar uno o más controles de entrada en los informes. Este tipo de control le permite filtrar la información visualizada según un valor introducido.
 

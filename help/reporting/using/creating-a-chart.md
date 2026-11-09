@@ -143,7 +143,7 @@ Este tipo de gráfico le permite realizar un seguimiento de la tasa de conversi�
 
 Puede definir una acción cuando el usuario haga clic en el gráfico. Abra la ventana **[!UICONTROL Interaction events]** y seleccione la acción que desea realizar.
 
-Los tipos de interacción posibles y sus configuraciones se detallan en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} (documentación de Campaign v8).
+Los tipos de interacción posibles y sus configuraciones se detallan en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} (documentación de Campaign v8).
 
 ![](assets/s_ncs_advuser_report_wizard_017.png)
 

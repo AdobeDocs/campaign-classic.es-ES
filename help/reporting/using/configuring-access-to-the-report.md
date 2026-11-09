@@ -141,7 +141,7 @@ Para más información, consulte [Informe de contexto de visualización](#report
 
 La configuración específica permite controlar los errores. El parámetro **_uuid** se encuentra en la dirección URL del informe. Se le puede añadir la configuración **&amp;_preview** o **&amp;_debug**.
 
-Para obtener más información sobre esta configuración, consulte la sección **Definición de propiedades de formulario web** del capítulo [Formularios web](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} (documentación de Campaign v8).
+Para obtener más información sobre esta configuración, consulte la sección **Definición de propiedades de formulario web** del capítulo [Formularios web](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} (documentación de Campaign v8).
 
 ## Publicación del informe {#publishing-the-report}
 
