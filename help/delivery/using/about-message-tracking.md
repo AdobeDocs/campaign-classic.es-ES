@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: ht
-source-wordcount: '1364'
-ht-degree: 100%
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+workflow-type: tm+mt
+source-wordcount: '1399'
+ht-degree: 97%
 ---
 # Introducción al seguimiento de mensajes {#get-started-tracking}
 
@@ -108,11 +108,11 @@ Para instalaciones locales, la información de seguimiento se almacena en la bas
 
 **Seguimiento de una aplicación web**
 
-También puede rastrear y medir visitas en páginas de aplicación web con etiquetas de seguimiento. Esta funcionalidad se puede utilizar para todos los tipos de aplicaciones web, como formularios y páginas de destino. [Obtenga más información](../../web/using/tracking-a-web-application.md)
+También puede rastrear y medir visitas en páginas de aplicación web con etiquetas de seguimiento. Esta funcionalidad se puede utilizar para todos los tipos de aplicaciones web, como formularios y páginas de destino. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/tracking-a-web-application){target="_blank"} (documentación de Campaign v8)
 
 **Exclusión del seguimiento de aplicaciones web**
 
-La exclusión del seguimiento de aplicaciones web le permite detener el seguimiento de los comportamientos web de los usuarios finales que excluyen el seguimiento de comportamiento. Puede incluir la capacidad de mostrar un banner en aplicaciones web o páginas de destino para permitir que los usuarios puedan excluirse. [Obtenga más información](../../web/using/web-application-tracking-opt-out.md)
+La exclusión del seguimiento de aplicaciones web le permite detener el seguimiento de los comportamientos web de los usuarios finales que excluyen el seguimiento de comportamiento. Puede incluir la capacidad de mostrar un banner en aplicaciones web o páginas de destino para permitir que los usuarios puedan excluirse. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/web-application-tracking-opt-out){target="_blank"} (documentación de Campaign v8)
 
 ## Solución de problemas de seguimiento {#tracking-troubleshooting}
 

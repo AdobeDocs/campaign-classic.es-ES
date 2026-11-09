@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 8%
+source-wordcount: '410'
+ht-degree: 6%
 ---
 # Gestión de acceso {#access-management}
 
@@ -52,7 +52,7 @@ De forma predeterminada, el operador webApp es un administrador. Para mejorar la
 
   1. Introduzca un nombre para cada duplicado. Por ejemplo: webapp_brand, webapp_brand2, etc.
 
-  1. Duplique una plantilla de aplicación web para tener una plantilla por marca y edite las propiedades para cambiar el operador seleccionando Use a specific account.  Obtenga más información en [esta página](../../web/using/defining-web-forms-properties.md).
+  1. Duplique una plantilla de aplicación web para tener una plantilla por marca y edite las propiedades para cambiar el operador seleccionando Use a specific account.  Obtenga más información en [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"} (documentación de Campaign v8).
 
 ## Grupos de seguridad y operadores de administración
 
@@ -62,7 +62,7 @@ No utilice el operador admin (o no lo comparta). Cree un operador por usuario f�
 
 Evite añadir demasiados operadores en el grupo de administradores (o con derechos asignados de administrador). Son operadores muy potentes (pueden realizar todas las sentencias SQL, ejecutar comandos en el servidor, etc.).
 
-Adobe Campaign proporciona tres privilegios de alto nivel mediante [derechos asignados](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"} (documentación de Campaign v8):
+Adobe Campaign proporciona tres privilegios de alto nivel mediante [derechos asignados](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"} (documentación de Campaign v8):
 
 * **ADMINISTRACIÓN** (administrador): da acceso a todo y permite hacer de todo, omitiendo todas las comprobaciones de derechos asignados, por lo que incluye los derechos asignados de EJECUCIÓN DE PROGRAMA (createProcess) y SQL
 

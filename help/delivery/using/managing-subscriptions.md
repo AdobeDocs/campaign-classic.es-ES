@@ -38,10 +38,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 97%
+source-wordcount: '1200'
+ht-degree: 90%
 ---
 # Administración de suscripciones{#managing-subscriptions}
 
@@ -66,7 +66,7 @@ Hay tres modos de suscripción/baja del servicio:
 
 >[!NOTE]
 >
->En [esta sección](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in) se adjunta una muestra para crear un formulario de suscripción con doble adhesión.
+>En [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/use-cases-web-forms#create-a-subscription--form-with-double-opt-in){target="_blank"} (documentación de Campaign v8) se detalla un ejemplo para crear un formulario de suscripción con doble inclusión.
 
 ## Creación de un servicio informativo {#creating-an-information-service}
 
@@ -160,13 +160,13 @@ Para registrar a los destinatarios en un servicio informativo, puede:
 
 * Uso de un formulario web para que los destinatarios puedan suscribirse a un servicio.
 
-  Para obtener más información, consulte [esta sección](../../web/using/about-web-applications.md).
+  Para obtener más información al respecto, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (documentación de Campaign v8).
 
 * Creación de un flujo de trabajo de objetivos y uso de una casilla **[!UICONTROL Subscription service]**.
 
   ![](assets/s_ncs_user_subscribe_from_wf.png)
 
-  Los flujos de trabajo y cómo utilizarlos se detallan en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (Documentación de Campaign v8).
+  Los flujos de trabajo y cómo utilizarlos se detallan en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (Documentación de Campaign v8).
 
 ### Dar de baja a un destinatario de un servicio {#unsubscribing-a-recipient-from-a-service}
 
@@ -176,7 +176,7 @@ los envíos de correo electrónico deben contener, por ley, un vínculo para dar
 
 El vínculo predeterminado para darse de baja se inserta con el último botón de la barra de herramientas del editor de contenido, en el asistente de envíos (consulte [Acerca de la personalización](about-personalization.md)). Cuando el destinatario hace clic en este vínculo, el perfil se incluye en la lista de bloqueados (de exclusión), lo que significa que este destinatario ya no forma parte de ninguna acción de entrega.
 
-Sin embargo, los destinatarios pueden optar por cancelar la suscripción de un servicio sin cancelar la suscripción de todos los servicios. Para ello, puede utilizar un formulario web (consulte [esta sección](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes)) o insertar un vínculo personalizado para darse de baja. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=es){target="_blank"}.
+Sin embargo, los destinatarios pueden optar por cancelar la suscripción de un servicio sin cancelar la suscripción de todos los servicios. Para permitirlo, puede utilizar un formulario web (consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/adding-fields-to-a-web-form#subscription-checkboxes){target="_blank"} (documentación de Campaign v8)) o insertar un vínculo personalizado para darse de baja. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=es){target="_blank"}.
 
 También puede cancelar la suscripción de un destinatario manualmente desde el perfil del destinatario. Para ello, haga clic en la pestaña **[!UICONTROL Subscriptions]** del destinatario correspondiente, seleccione los servicios informativos y haga clic en **[!UICONTROL Delete]**.
 
