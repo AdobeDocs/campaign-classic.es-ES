@@ -39,9 +39,9 @@ Cada tabla asociada con un esquema de datos debe tener al menos una clave para i
 
 >[!NOTE]
 >
->Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información acerca de la administración de claves, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-keys){target=_blank}.
+>Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información acerca de la administración de claves, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/database-keys){target=_blank}.
 >
->[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-keys){target="_blank"}
+>[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/database-keys){target="_blank"}
 
 ## Clave de incremento automático {#auto-incremental-key}
 
@@ -105,5 +105,5 @@ Examine los siguientes vínculos para obtener más información:
 * [Introducción a los esquemas](about-schema-reference.md)
 * [Estructura del esquema](schema-structure.md)
 * [Asignación de base de datos](database-mapping.md)
-* [Administración de vínculos](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (documentación de Campaign v8)
+* [Administración de vínculos](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (documentación de Campaign v8)
 * [Modelo de datos de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} (documentación de Campaign v8)
