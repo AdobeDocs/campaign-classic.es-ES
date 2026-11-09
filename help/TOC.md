@@ -8,9 +8,9 @@ user-guide-description: Documentación de producto para Adobe Campaign Classic v
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: d5aff6b318cea324297eb7e2e887a67fb18cd504
+source-git-commit: aeb8e44e8183cad6557fe2f27565cad0343777e5
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1558'
 ht-degree: 97%
 ---
 
@@ -417,12 +417,6 @@ ht-degree: 97%
     + [Reglas de presentación](interaction/using/presentation-rules.md)
     + [Ofertas en un canal de entrada](interaction/using/offers-on-an-inbound-channel.md)
     + [Ofertas en un canal de salida](interaction/using/offers-on-an-outbound-channel.md)
-+ Gestor de respuestas {#response-manager}
-  + [Introducción al gestor de respuestas](response/using/about-response-manager.md)
-  + [Configurar el Gestor de respuestas](response/using/configure-response-manager.md)
-  + [Plantillas de hipótesis](response/using/hypothesis-templates.md)
-  + [Creación de hipótesis](response/using/creating-hypotheses.md)
-  + [Seguimiento de hipótesis](response/using/hypothesis-tracking.md)
 + Diseño y uso compartido de informes {#reporting}
   + Introducción a la creación de informes {#reporting-in-adobe-campaign}
     + [Prácticas recomendadas para la creación de informes](reporting/using/best-practices.md)

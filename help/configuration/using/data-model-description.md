@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: aeb8e44e8183cad6557fe2f27565cad0343777e5
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2404'
 ht-degree: 3%
 ---
 # Descripción del modelo de datos de Campaign{#data-model-description}
@@ -73,7 +73,7 @@ El campo iFolderId es la clave externa que vincula al destinatario con su carpet
 
 El campo sCountryCode es el código ISO 3166-1 de Alpha 2 (2 caracteres) del país asociado al destinatario. Este campo es en realidad una clave externa en la tabla de referencia de país (NmsCountry), que contiene las etiquetas de país y otros datos de código de país. Si el país no está rellenado, se almacena el valor &quot;XX&quot; (y se utiliza en lugar de un registro de ID cero).
 
-Para obtener más información sobre la tabla de destinatarios, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} (documentación de Campaign v8).
+Para obtener más información sobre la tabla de destinatarios, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} (documentación de Campaign v8).
 
 ### NmsGroup {#NmsGroup}
 
@@ -162,7 +162,7 @@ Este conjunto de tablas está enlazado al módulo **Campaign Optimization**, que
 
 ## Gestión de respuestas {#response-management}
 
-Este conjunto de tablas está vinculado al módulo **Gestor de respuestas**, que permite medir el éxito y la rentabilidad de las campañas de marketing u ofrecer propuestas para todos los canales de comunicación. Para obtener más información, consulte [Acerca del gestor de respuestas](../../response/using/about-response-manager.md).
+Este conjunto de tablas está vinculado al módulo **Gestor de respuestas**, que permite medir el éxito y la rentabilidad de las campañas de marketing u ofrecer propuestas para todos los canales de comunicación. Para obtener más información sobre esto, consulte [Acerca del gestor de respuestas](https://experienceleague.adobe.com/en/docs/campaign/automation/response-manager/about-response-manager){target="_blank"} (Documentación de Campaign v8).
 
 ![](assets/data-model_response.png)
 
