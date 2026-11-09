@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
@@ -43,7 +43,7 @@ La interacción permite crear y gestionar un catálogo de ofertas y configurar l
 >
 >Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información sobre las interacciones, consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction){target=_blank}.
 >
->[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction){target=_blank}
+>[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction){target="_blank"}
 
 Esta sección solo cubre las capacidades de interacción que no se describen en la documentación de Campaign v8: [simulación de ofertas](about-offers-simulation.md), [presentación de ofertas](managing-offer-presentation.md), [aprobación de ofertas](approving-and-activating-an-offer.md), [plantillas de ofertas](managing-offer-templates.md) y [ajustes avanzados](using-advanced-parameters.md).
 
