@@ -59,7 +59,7 @@ Puede hacer referencia a los códigos JavaScript que se ejecutan del lado del cl
 
 Para ello:
 
-1. Edite las [propiedades del informe ](../../reporting/using/properties-of-the-report.md) y haga clic en **[!UICONTROL Scripts]**.
+1. Edite las [propiedades del informe &#x200B;](../../reporting/using/properties-of-the-report.md) y haga clic en **[!UICONTROL Scripts]**.
 1. Haga clic en **[!UICONTROL Add]** y seleccione la secuencia de comandos a la que desea hacer referencia.
 1. A continuación, seleccione el modo de ejecución.
 

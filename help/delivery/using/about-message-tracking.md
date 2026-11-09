@@ -58,7 +58,7 @@ ht-degree: 97%
 >
 >* [Configurar vínculos rastreados](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"}
 >* [Configuración de las opciones de seguimiento de URL](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"}
->* [Seguimiento de vínculos personalizados ](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
+>* [Seguimiento de vínculos personalizados &#x200B;](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/personalized-links){target="_blank"}
 >* [Acceso a los registros de seguimiento](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"}
 >* [Seguimiento de pruebas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/testing-tracking){target="_blank"}
 >* [Seguimiento de informes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/reporting/delivery-reports#tracking-indicators){target="_blank"}
