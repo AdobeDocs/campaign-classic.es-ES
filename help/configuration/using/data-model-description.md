@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: aeb8e44e8183cad6557fe2f27565cad0343777e5
+source-git-commit: 77efa1dcdb82a478e93565e84099d568f6a5f5fe
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2420'
 ht-degree: 3%
 ---
 # Descripción del modelo de datos de Campaign{#data-model-description}
@@ -73,7 +73,7 @@ El campo iFolderId es la clave externa que vincula al destinatario con su carpet
 
 El campo sCountryCode es el código ISO 3166-1 de Alpha 2 (2 caracteres) del país asociado al destinatario. Este campo es en realidad una clave externa en la tabla de referencia de país (NmsCountry), que contiene las etiquetas de país y otros datos de código de país. Si el país no está rellenado, se almacena el valor &quot;XX&quot; (y se utiliza en lugar de un registro de ID cero).
 
-Para obtener más información sobre la tabla de destinatarios, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} (documentación de Campaign v8).
+Para obtener más información sobre la tabla de destinatarios, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} (documentación de Campaign v8).
 
 ### NmsGroup {#NmsGroup}
 
@@ -222,7 +222,7 @@ Contiene un registro que representa la reacción de un individuo a una hipótesi
 
 ## Simulación y envío {#simulation-and-delivery}
 
-Este conjunto de tablas está vinculado al módulo **Simulation**, que permite probar la distribución de ofertas pertenecientes a una categoría o a un entorno antes de enviar la propuesta a los destinatarios. Para obtener más información, consulte [Acerca de la simulación de ofertas](../../interaction/using/about-offers-simulation.md).
+Este conjunto de tablas está vinculado al módulo **Simulation**, que permite probar la distribución de ofertas pertenecientes a una categoría o a un entorno antes de enviar la propuesta a los destinatarios. Para obtener más información sobre esto, consulte [Acerca de la simulación de ofertas](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"} (documentación de Campaign v8).
 
 ![](assets/data-model_simulation.png)
 
@@ -261,7 +261,7 @@ Esta tabla coincide con el esquema **nms:batchEvent**. Contiene la definición d
 <!--
 ## Microsites Module {#microsites-module}
 
-This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](../../web/using/about-web-applications.md).
+This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (Campaign v8 documentation).
 
 ![](assets/data-model_microsites.png)
 
