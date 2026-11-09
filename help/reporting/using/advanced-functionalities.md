@@ -67,7 +67,7 @@ Para ello:
 
    ![](assets/reporting_custom_js.png)
 
-Para la ejecución normal por parte del cliente, las secuencias de comandos a las que se hace referencia deben escribirse en JavaScript y ser compatibles con la mayoría de los exploradores comunes. Para obtener más información al respecto, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/web-forms-answers){target="_blank"} (documentación de Campaign v8).
+Para la ejecución normal por parte del cliente, las secuencias de comandos a las que se hace referencia deben escribirse en JavaScript y ser compatibles con la mayoría de los exploradores comunes. Para obtener más información al respecto, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/web-forms/web-forms-answers){target="_blank"} (documentación de Campaign v8).
 
 ### Adición de una actividad de script {#script-activity}
 

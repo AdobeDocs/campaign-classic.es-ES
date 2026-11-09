@@ -108,11 +108,11 @@ Para instalaciones locales, la información de seguimiento se almacena en la bas
 
 **Seguimiento de una aplicación web**
 
-También puede rastrear y medir visitas en páginas de aplicación web con etiquetas de seguimiento. Esta funcionalidad se puede utilizar para todos los tipos de aplicaciones web, como formularios y páginas de destino. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/tracking-a-web-application){target="_blank"} (documentación de Campaign v8)
+También puede rastrear y medir visitas en páginas de aplicación web con etiquetas de seguimiento. Esta funcionalidad se puede utilizar para todos los tipos de aplicaciones web, como formularios y páginas de destino. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/web-applications/tracking-a-web-application){target="_blank"} (documentación de Campaign v8)
 
 **Exclusión del seguimiento de aplicaciones web**
 
-La exclusión del seguimiento de aplicaciones web le permite detener el seguimiento de los comportamientos web de los usuarios finales que excluyen el seguimiento de comportamiento. Puede incluir la capacidad de mostrar un banner en aplicaciones web o páginas de destino para permitir que los usuarios puedan excluirse. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/web-application-tracking-opt-out){target="_blank"} (documentación de Campaign v8)
+La exclusión del seguimiento de aplicaciones web le permite detener el seguimiento de los comportamientos web de los usuarios finales que excluyen el seguimiento de comportamiento. Puede incluir la capacidad de mostrar un banner en aplicaciones web o páginas de destino para permitir que los usuarios puedan excluirse. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/web-applications/web-application-tracking-opt-out){target="_blank"} (documentación de Campaign v8)
 
 ## Solución de problemas de seguimiento {#tracking-troubleshooting}
 

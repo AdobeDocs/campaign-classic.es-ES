@@ -48,7 +48,7 @@ Los activos compartidos desde Adobe Experience Cloud se pueden utilizar en los m
 
      ![](assets/dam_insert_image_standard.png)
 
-   * Si está usando el [modo de edición avanzado](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/editing-html-content/about-campaign-html-editor){target="_blank"} (documentación de Campaign v8) (DCE), vaya a un bloque de imagen y, a través del menú contextual, seleccione **[!UICONTROL Select a shared asset]**.
+   * Si está usando el [modo de edición avanzado](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/editing-html-content/about-campaign-html-editor){target="_blank"} (documentación de Campaign v8) (DCE), vaya a un bloque de imagen y, a través del menú contextual, seleccione **[!UICONTROL Select a shared asset]**.
 
      ![](assets/dam_insert_image_dce.png)
 

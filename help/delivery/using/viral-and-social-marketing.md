@@ -108,7 +108,7 @@ Siga estos pasos:
    >
    >Esta configuración se puede adaptar. Para ello, debe modificar la aplicación web **Recipient subscription** almacenada en el nodo **[!UICONTROL Resources > Online > Web applications]**.
    >
-   >Para obtener más información sobre las aplicaciones web, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (documentación de Campaign v8).
+   >Para obtener más información sobre las aplicaciones web, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (documentación de Campaign v8).
 
    Una vez validados, se les envía un mensaje de confirmación: el registro solo es definitivo cuando activen el vínculo en el mensaje de confirmación. Este mensaje se crea en función de la plantilla **[!UICONTROL Registration confirmation]**, que se almacena en el nodo **[!UICONTROL Administration > Campaign management > Technical delivery templates]**.
 

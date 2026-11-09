@@ -86,7 +86,7 @@ El idioma de edición es el idioma en el que se escribe. Cuando añade un idioma
 
 >[!NOTE]
 >
->Para obtener más información sobre la localización de páginas web en Campaign, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/translating-a-web-form){target="_blank"} (Documentación de Campaign v8).
+>Para obtener más información sobre la localización de páginas web en Campaign, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/web-forms/translating-a-web-form){target="_blank"} (Documentación de Campaign v8).
 
 ## Personalización del procesamiento del HTML {#personalizing-html-rendering}
 
