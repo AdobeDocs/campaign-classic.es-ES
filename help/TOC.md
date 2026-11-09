@@ -8,9 +8,9 @@ user-guide-description: Documentación de producto para Adobe Campaign Classic v
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+source-git-commit: d5aff6b318cea324297eb7e2e887a67fb18cd504
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1574'
 ht-degree: 97%
 ---
 
@@ -152,7 +152,6 @@ ht-degree: 97%
     + [Creación de nuevas instancias](installation/using/creating-new-instances.md)
     + [Lista de opciones de Campaign](installation/using/configuring-campaign-options.md)
     + {hide-from-toc}[Desinstalación de Campaign](installation/using/uninstalling-campaign.md)
-    + [Instalar nuevas fuentes](installation/using/install-fonts.md)
 + Guía de migración {#migrating-to-a-new-version}
   + {hide-from-toc}[Migración a la versión 7 de Adobe Campaign](migration/using/about-migration.md)
   + Procedimiento de migración {#migration-procedure}
