@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '929'
-ht-degree: 100%
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+workflow-type: tm+mt
+source-wordcount: '983'
+ht-degree: 90%
 ---
 # Creación de un informe nuevo{#creating-a-new-report}
 
@@ -142,7 +142,7 @@ Una **[!UICONTROL Page]** puede incluir los siguientes elementos:
 * Valor, Vínculo, HTML, Imagen, etc. **[!UICONTROL Static elements]**.
 * **[!UICONTROL Containers]** que permiten controlar el diseño del componente.
 
-En [esta sección](../../web/using/about-web-forms.md) se detalla el modo de configuración de una página y sus componentes.
+El modo de configuración de una página y sus componentes se detalla en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} (documentación de Campaign v8).
 
 La barra de herramientas permite añadir o eliminar controles y organizar su secuencia en las páginas del informe.
 
@@ -150,7 +150,7 @@ La barra de herramientas permite añadir o eliminar controles y organizar su sec
 
 ### Elementos estáticos {#static-elements}
 
-Los elementos estáticos permiten visualizar la información en el informe, como los elementos gráficos o secuencias de comandos, con los que el usuario no interactúa. Consulte [esta sección](../../web/using/static-elements-in-a-web-form.md#inserting-html-content) para obtener más información.
+Los elementos estáticos permiten visualizar la información en el informe, como los elementos gráficos o secuencias de comandos, con los que el usuario no interactúa. Consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} (Documentación de Campaign v8) para obtener más información.
 
 ![](assets/s_advuser_report_page_activity_03.png)
 
@@ -158,7 +158,7 @@ Los elementos estáticos permiten visualizar la información en el informe, como
 
 Los controles de entrada y selección permiten filtrar la información que se visualiza en el informe. Para obtener más información sobre la implementación de este tipo de filtrado, consulte [Filtrado de opciones en las consultas](../../reporting/using/collecting-data-to-analyze.md#filtering-options-in-the-queries).
 
-Para obtener más información sobre la creación y la configuración de los campos de entrada y los campos de selección, consulte [esta sección](../../web/using/about-web-forms.md).
+Para obtener más información sobre la creación y configuración de los campos de entrada y los campos de selección, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} (documentación de Campaign v8).
 
 Puede incorporar uno o más controles de entrada en los informes. Este tipo de control le permite filtrar la información visualizada según un valor introducido.
 

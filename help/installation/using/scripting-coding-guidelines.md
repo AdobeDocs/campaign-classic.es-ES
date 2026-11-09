@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '802'
 ht-degree: 7%
 ---
 # Directrices de script y código {#scripting-coding-guidelines}
@@ -187,7 +187,7 @@ La forma general de añadir un captcha en el DCE es crear un bloque de personali
 
 1. Edite la actividad **[!UICONTROL Script]**. El contenido dependerá del motor captcha elegido.
 
-1. Finalmente, puede agregar su bloque personalizado en la página: consulte [esta página](../../web/using/editing-content.md).
+1. Por último, puede agregar el bloque personalizado en la página: consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/editing-html-content/editing-content){target="_blank"} (documentación de Campaign v8).
 
    ![](assets/scripting-captcha4.png)
 

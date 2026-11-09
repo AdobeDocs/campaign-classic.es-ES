@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 77efa1dcdb82a478e93565e84099d568f6a5f5fe
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2420'
 ht-degree: 3%
 ---
 # Descripción del modelo de datos de Campaign{#data-model-description}
@@ -162,7 +162,7 @@ Este conjunto de tablas está enlazado al módulo **Campaign Optimization**, que
 
 ## Gestión de respuestas {#response-management}
 
-Este conjunto de tablas está vinculado al módulo **Gestor de respuestas**, que permite medir el éxito y la rentabilidad de las campañas de marketing u ofrecer propuestas para todos los canales de comunicación. Para obtener más información, consulte [Acerca del gestor de respuestas](../../response/using/about-response-manager.md).
+Este conjunto de tablas está vinculado al módulo **Gestor de respuestas**, que permite medir el éxito y la rentabilidad de las campañas de marketing u ofrecer propuestas para todos los canales de comunicación. Para obtener más información sobre esto, consulte [Acerca del gestor de respuestas](https://experienceleague.adobe.com/en/docs/campaign/automation/response-manager/about-response-manager){target="_blank"} (Documentación de Campaign v8).
 
 ![](assets/data-model_response.png)
 
@@ -222,7 +222,7 @@ Contiene un registro que representa la reacción de un individuo a una hipótesi
 
 ## Simulación y envío {#simulation-and-delivery}
 
-Este conjunto de tablas está vinculado al módulo **Simulation**, que permite probar la distribución de ofertas pertenecientes a una categoría o a un entorno antes de enviar la propuesta a los destinatarios. Para obtener más información, consulte [Acerca de la simulación de ofertas](../../interaction/using/about-offers-simulation.md).
+Este conjunto de tablas está vinculado al módulo **Simulation**, que permite probar la distribución de ofertas pertenecientes a una categoría o a un entorno antes de enviar la propuesta a los destinatarios. Para obtener más información sobre esto, consulte [Acerca de la simulación de ofertas](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"} (documentación de Campaign v8).
 
 ![](assets/data-model_simulation.png)
 
@@ -261,7 +261,7 @@ Esta tabla coincide con el esquema **nms:batchEvent**. Contiene la definición d
 <!--
 ## Microsites Module {#microsites-module}
 
-This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](../../web/using/about-web-applications.md).
+This set of tables is linked to the **Web applications** functionality, which allows to create and publish dynamic and interactive web applications with data from the database and content adapted to the rights of the connected user. For more on this, see [About web applications](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (Campaign v8 documentation).
 
 ![](assets/data-model_microsites.png)
 

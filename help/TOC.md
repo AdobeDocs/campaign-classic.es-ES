@@ -8,9 +8,9 @@ user-guide-description: Documentación de producto para Adobe Campaign Classic v
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+source-git-commit: 77efa1dcdb82a478e93565e84099d568f6a5f5fe
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1353'
 ht-degree: 97%
 ---
 
@@ -152,7 +152,6 @@ ht-degree: 97%
     + [Creación de nuevas instancias](installation/using/creating-new-instances.md)
     + [Lista de opciones de Campaign](installation/using/configuring-campaign-options.md)
     + {hide-from-toc}[Desinstalación de Campaign](installation/using/uninstalling-campaign.md)
-    + [Instalar nuevas fuentes](installation/using/install-fonts.md)
 + Guía de migración {#migrating-to-a-new-version}
   + {hide-from-toc}[Migración a la versión 7 de Adobe Campaign](migration/using/about-migration.md)
   + Procedimiento de migración {#migration-procedure}
@@ -355,75 +354,16 @@ ht-degree: 97%
   + Plantillas de mensaje {#message-templates}
     + [Prueba de plantillas de mensajes](message-center/using/testing-message-templates.md)
   + [Ejemplo de uso](message-center/using/transactional-email-with-attachments.md)
-+ Diseño de contenido web {#designing-content}
-  + Aplicaciones web {#web-applications}
-    + [Introducción a las aplicaciones web](web/using/about-web-applications.md)
-    + [Creación de una nueva aplicación web](web/using/creating-a-new-web-application.md)
-    + [Diseño de una aplicación web](web/using/designing-a-web-application.md)
-    + [Caso de uso: Creación de descripciones generales](web/using/use-cases-creating-overviews.md)
-    + [Traducción de una aplicación web](web/using/translating-a-web-application.md)
-    + [Seguimiento de visitas en una aplicación web](web/using/tracking-a-web-application.md)
-    + [Exclusión del seguimiento de aplicaciones web](web/using/web-application-tracking-opt-out.md)
-  + Edición de contenido HTML {#editing-html-content}
-    + [Introducción al editor HTML](web/using/about-campaign-html-editor.md)
-    + [Administración de plantillas](web/using/template-management.md)
-    + [Interfaz del editor de contenido](web/using/content-editor-interface.md)
-    + [Editar contenido](web/using/editing-content.md)
-    + [Recomendaciones para la edición de contenido](web/using/content-editing-best-practices.md)
-    + [Creación de una página de destino](web/using/creating-a-landing-page.md)
-    + [Caso práctico: Crear un envío de correo electrónico](web/using/use-case-creating-an-email-delivery.md)
-  + Formularios web {#web-forms}
-    + [Introducción a los formularios web](web/using/about-web-forms.md)
-    + [Uso de una plantilla de formulario web](web/using/using-a-web-form-template.md)
-    + [Adición de campos a un formulario web](web/using/adding-fields-to-a-web-form.md)
-    + [Elementos estáticos de un formulario web](web/using/static-elements-in-a-web-form.md)
-    + [Definición del diseño de los formularios web](web/using/defining-web-forms-layout.md)
-    + [Procesamiento de formularios](web/using/form-rendering.md)
-    + [Definición de la secuenciación de la página](web/using/defining-web-forms-page-sequencing.md)
-    + [Guardado de respuestas de formularios web](web/using/web-forms-answers.md)
-    + [Publicación de un formulario web](web/using/publishing-a-web-form.md)
-    + [Definición de las propiedades de los formularios web](web/using/defining-web-forms-properties.md)
-    + [Traducción de un formulario web](web/using/translating-a-web-form.md)
-    + [Casos de uso: Formularios web](web/using/use-cases-web-forms.md)
-+ Creación de encuestas en línea {#online-surveys}
-  + [Introducción a las encuestas](surveys/using/about-surveys.md)
-  + [Pasos clave para crear una encuesta](surveys/using/getting-started-with-surveys.md)
-  + [Diseño de una encuesta](surveys/using/building-a-survey.md)
-  + [Administración de respuestas](surveys/using/managing-answers.md)
-  + [Publicación, seguimiento y utilización de datos recopilados](surveys/using/publish-track-and-use-collected-data.md)
-  + [Configuración de encuestas](surveys/using/configuring-surveys.md)
-  + [Caso de uso: Creación de un formulario de referencia](surveys/using/use-case-creating-a-refer-a-friend-form.md)
-  + [Caso de uso: visualización del informe de respuestas en una encuesta en línea](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Administración de ofertas {#managing-offers}
   + Introducción a la interacción {#interaction-overview}
     + [Interacción y gestión de ofertas](interaction/using/interaction-and-offer-management.md)
-  + Administración de un catálogo de ofertas {#managing-an-offer-catalog}
-    + [Aprobar y activar una oferta](interaction/using/approving-and-activating-an-offer.md)
-    + [Administración de plantillas de oferta](interaction/using/managing-offer-templates.md)
-    + [Administración de presentación de ofertas](interaction/using/managing-offer-presentation.md)
-  + Simulación de ofertas{#simulating-offers}
-    + [Acerca de la simulación de ofertas](interaction/using/about-offers-simulation.md)
-    + [Configuración de ejecución](interaction/using/execution-settings.md)
-    + [Ámbito de la simulación](interaction/using/simulation-scope.md)
-    + [Seguimiento de la simulación](interaction/using/simulation-tracking.md)
   + Parámetros avanzados {#advanced-parameters}
     + [Uso de parámetros avanzados](interaction/using/using-advanced-parameters.md)
     + [Datos adicionales](interaction/using/additional-data.md)
-    + [Ejemplo de extensión](interaction/using/extension-example.md)
     + [Creación de un entorno de prueba](interaction/using/creating-a-test-environment.md)
     + [Modificación del comportamiento del motor estándar](interaction/using/hooks.md)
     + [Arquitecturas distribuidas](interaction/using/distributed-architectures.md)
     + [Configuración del búfer de datos](installation/using/interaction-data-buffer.md)
-  + Ejemplo de uso {#case-study}
-    + [Reglas de presentación](interaction/using/presentation-rules.md)
-    + [Ofertas en un canal de entrada](interaction/using/offers-on-an-inbound-channel.md)
-    + [Ofertas en un canal de salida](interaction/using/offers-on-an-outbound-channel.md)
-+ Gestor de respuestas {#response-manager}
-  + [Introducción al gestor de respuestas](response/using/about-response-manager.md)
-  + [Configurar el Gestor de respuestas](response/using/configure-response-manager.md)
-  + [Plantillas de hipótesis](response/using/hypothesis-templates.md)
-  + [Creación de hipótesis](response/using/creating-hypotheses.md)
-  + [Seguimiento de hipótesis](response/using/hypothesis-tracking.md)
 + Diseño y uso compartido de informes {#reporting}
   + Introducción a la creación de informes {#reporting-in-adobe-campaign}
     + [Prácticas recomendadas para la creación de informes](reporting/using/best-practices.md)

@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '566'
-ht-degree: 100%
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 95%
 ---
 # Marketing viral y social{#viral-and-social-marketing}
 
@@ -108,7 +108,7 @@ Siga estos pasos:
    >
    >Esta configuración se puede adaptar. Para ello, debe modificar la aplicación web **Recipient subscription** almacenada en el nodo **[!UICONTROL Resources > Online > Web applications]**.
    >
-   >Para obtener más información sobre las aplicaciones web, consulte [esta sección](../../web/using/about-web-applications.md).
+   >Para obtener más información sobre las aplicaciones web, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (documentación de Campaign v8).
 
    Una vez validados, se les envía un mensaje de confirmación: el registro solo es definitivo cuando activen el vínculo en el mensaje de confirmación. Este mensaje se crea en función de la plantilla **[!UICONTROL Registration confirmation]**, que se almacena en el nodo **[!UICONTROL Administration > Campaign management > Technical delivery templates]**.
 

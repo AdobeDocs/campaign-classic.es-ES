@@ -35,7 +35,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 96%
@@ -48,7 +48,7 @@ Los siguientes ajustes son específicos de Campaign Classic. Para obtener más i
 >
 >Como parte del proceso de transición de la versión 7 a 8 de Campaign, toda la documentación de Campaign Classic se ha optimizado y reorganizado. Ahora, las funciones comunes solo están disponibles en el conjunto de documentación de Campaign v8. Para obtener más información acerca de la configuración de envío, consulte la [Documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/validate/configure-and-send){target=_blank}.
 >
->[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/validate/configure-and-send){target=_blank}
+>[![imagen](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/validate/configure-and-send){target="_blank"}
 
 ## Análisis de envíos {#delivery-analysis}
 

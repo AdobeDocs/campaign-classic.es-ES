@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+source-git-commit: 5e2aa587f61d79eab6d356ea5f91bc4e0f1b24c6
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 17%
+source-wordcount: '1454'
+ht-degree: 16%
 ---
 # Instalación de paquetes integrados de Campaign Classic{#installing-campaign-standard-packages}
 
@@ -163,7 +163,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Encuestas en línea (Gestor de encuestas)<br /> </td> 
-   <td> Crea y administra formularios en línea para agregar o modificar información de perfil, suscribirse, cancelar la suscripción o un formulario de entrada de competencia. Opcional. <a href="../../surveys/using/about-surveys.md">Más información</a> <br /> </td> 
+   <td> Crea y administra formularios en línea para agregar o modificar información de perfil, suscribirse, cancelar la suscripción o un formulario de entrada de competencia. Opcional. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -173,7 +173,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Gestor de respuestas<br /> </td> 
-   <td> Mide el éxito y la rentabilidad de las campañas de marketing u ofrece propuestas para todos los canales de comunicación.  Opcional. <a href="../../response/using/about-response-manager.md">Más información</a> <br /> </td> 
+   <td> Mide el éxito y la rentabilidad de las campañas de marketing u ofrece propuestas para todos los canales de comunicación.  Opcional. <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/response-manager/about-response-manager" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 

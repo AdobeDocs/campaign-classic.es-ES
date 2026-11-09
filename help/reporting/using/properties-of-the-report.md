@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+workflow-type: tm+mt
+source-wordcount: '448'
+ht-degree: 93%
 ---
 # Propiedades del informe{#properties-of-the-report}
 
@@ -86,7 +86,7 @@ El idioma de edición es el idioma en el que se escribe. Cuando añade un idioma
 
 >[!NOTE]
 >
->Para obtener más información sobre la localización de páginas web en Campaign, consulte [esta sección](../../web/using/translating-a-web-form.md).
+>Para obtener más información sobre la localización de páginas web en Campaign, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/translating-a-web-form){target="_blank"} (Documentación de Campaign v8).
 
 ## Personalización del procesamiento del HTML {#personalizing-html-rendering}
 

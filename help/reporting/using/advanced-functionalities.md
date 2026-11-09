@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '600'
-ht-degree: 100%
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 97%
 ---
 # Funciones avanzadas{#advanced-functionalities}
 
@@ -59,7 +59,7 @@ Puede hacer referencia a los códigos JavaScript que se ejecutan del lado del cl
 
 Para ello:
 
-1. Edite las [propiedades del informe ](../../reporting/using/properties-of-the-report.md) y haga clic en **[!UICONTROL Scripts]**.
+1. Edite las [propiedades del informe &#x200B;](../../reporting/using/properties-of-the-report.md) y haga clic en **[!UICONTROL Scripts]**.
 1. Haga clic en **[!UICONTROL Add]** y seleccione la secuencia de comandos a la que desea hacer referencia.
 1. A continuación, seleccione el modo de ejecución.
 
@@ -67,7 +67,7 @@ Para ello:
 
    ![](assets/reporting_custom_js.png)
 
-Para la ejecución normal por parte del cliente, las secuencias de comandos a las que se hace referencia deben escribirse en JavaScript y ser compatibles con la mayoría de los exploradores comunes. Para obtener más información, consulte [esta sección](../../web/using/web-forms-answers.md).
+Para la ejecución normal por parte del cliente, las secuencias de comandos a las que se hace referencia deben escribirse en JavaScript y ser compatibles con la mayoría de los exploradores comunes. Para obtener más información al respecto, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/web-forms-answers){target="_blank"} (documentación de Campaign v8).
 
 ### Adición de una actividad de script {#script-activity}
 
