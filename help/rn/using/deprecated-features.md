@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4ae19a379120bb39444c3e81392a7dbb0b6da3ba
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
 workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 100%
+source-wordcount: '1813'
+ht-degree: 97%
 ---
 # Funciones obsoletas y eliminadas {#deprecated-and-removed-features}
 
@@ -86,7 +86,7 @@ Se aconseja a los clientes que comprueben si utilizan la función o la funcional
 </tr>
 <tr>
  <td>SDK heredado de Campaign (Neolane)</td>
- <td><p>El SDK de Campaign (Neolane) para aplicaciones móviles ha quedado obsoleto. También puede utilizar el SDK móvil de Adobe Experience Platform configurando la extensión de Adobe Campaign en la interfaz de usuario de recopilación de datos. El SDK móvil de Adobe Experience Platform impulsa las soluciones y los servicios Experience Cloud de Adobe en sus aplicaciones móviles. La configuración de los SDK se administra mediante la interfaz de usuario de recopilación de datos para lograr una configuración flexible e integraciones ampliables basadas en reglas. Obtenga información sobre cómo configurar el canal de la aplicación móvil en la <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/push/push-settings">documentación de Campaign v8</a>.</p>
+ <td><p>El SDK de Campaign (Neolane) para aplicaciones móviles ha quedado obsoleto. También puede utilizar el SDK móvil de Adobe Experience Platform configurando la extensión de Adobe Campaign en la interfaz de usuario de recopilación de datos. Adobe Experience Platform Mobile SDK ayuda a impulsar las soluciones y los servicios de Adobe CX Enterprise en sus aplicaciones móviles. La configuración de los SDK se administra mediante la interfaz de usuario de recopilación de datos para lograr una configuración flexible e integraciones ampliables basadas en reglas. Obtenga información sobre cómo configurar el canal de la aplicación móvil en la <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/push/push-settings">documentación de Campaign v8</a>.</p>
 </td>
 </tr>
 <tr>
@@ -143,7 +143,7 @@ Esta sección enumera las funciones y capacidades que se han eliminado de Campai
   </tr>
   <tr>
   <td>Dominio de Demdex<br></td>
-  <td><p> A partir de la versión 21.1.3 de Campaign, el dominio de demdex utilizado para importar y exportar públicos a Adobe Experience Cloud ya no está disponible. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Más información</a></p> 
+  <td><p> A partir de la versión 21.1.3 de Campaign, el dominio demdex utilizado para importar y exportar audiencias a Adobe CX Enterprise ya no está disponible. <a href="../../integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md">Más información</a></p> 
   </td>
   </tr>
    <tr> 

@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 100%
+source-wordcount: '124'
+ht-degree: 90%
 ---
 # Resolución de problemas{#troubleshooting}
 
@@ -55,7 +55,7 @@ En caso de error, debe asegurarse de que los siguientes elementos estén correct
 
 * **Cuentas externas**
 
-  En **[!UICONTROL Administration > Platform > External accounts]**, asegúrese de que las siguientes cuentas externas SFTP están configuradas correctamente. Su consultor debe configurar en Adobe Experience Cloud los servidores SFTP mencionados.
+  En **[!UICONTROL Administration > Platform > External accounts]**, asegúrese de que las siguientes cuentas externas SFTP están configuradas correctamente. Su consultor debe configurar los servidores SFTP mencionados en [!DNL Adobe CX Enterprise].
 
   * **[!UICONTROL importSharedAudience]** : Cuenta SFTP específica para la importación de públicos.
   * **[!UICONTROL exportSharedAudience]** : Cuenta SFTP específica para la exportación de públicos.

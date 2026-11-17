@@ -33,10 +33,10 @@ subfeature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
+source-git-commit: 368b67eeb68b0944be5db674fd6a18914dea86ad
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 95%
+source-wordcount: '486'
+ht-degree: 86%
 ---
 # Solución de problemas de IMS{#ims-troubleshooting}
 
@@ -62,9 +62,9 @@ Elimine cualquier cuenta externa duplicada que tenga la misma configuración.
 
 Si la cuenta externa tiene un campo **Product Context**, compruebe que su valor esté configurado como: **dma_campaign_classic**
 
-Asegúrese de que el contexto del producto sea el mismo para Campaign y Experience Cloud.
+Asegúrese de que el contexto del producto sea el mismo para Campaign y [!DNL Adobe CX Enterprise].
 
-Por ejemplo, si el **contexto del producto** no aparece, el contexto predeterminado del producto debe ser **dma_campaign** en Campaign y Experience Cloud. Si aparece el campo de **Contexto del producto**, el contexto predeterminado del producto debe ser **dma_campaign_classic** en Campaign y en Experience Cloud.
+Por ejemplo, si **Product Context** no aparece, el contexto predeterminado del producto debería ser **dma_campaign** tanto en Campaign como en [!DNL CX Enterprise]. Si aparece el campo **Contexto del producto**, el contexto predeterminado del producto debería ser **dma_campaign_classic** tanto en Campaign como en [!DNL CX Enterprise].
 
 **[!UICONTROL IMS Server URL]**
 

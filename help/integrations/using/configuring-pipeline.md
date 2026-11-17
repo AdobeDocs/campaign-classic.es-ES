@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '845'
-ht-degree: 100%
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
+workflow-type: tm+mt
+source-wordcount: '842'
+ht-degree: 98%
 ---
 # Configuración de canalización {#configuring-pipeline}
 
@@ -60,7 +60,7 @@ Antes de iniciar esta configuración, compruebe que dispone de:
 * Un acceso para desarrolladores para su organización
 * Una configuración de activadores válida en Adobe Analytics
 
-Se requiere la autenticación, ya que la canalización está alojada en Adobe Experience Cloud. Utiliza una autenticación que es compatible a través de un proyecto de Adobe Developer.
+Se requiere la autenticación ya que la canalización está alojada en [!DNL Adobe CX Enterprise]. Utiliza una autenticación que es compatible a través de un proyecto de Adobe Developer.
 
 ## Paso 1: Crear/actualizar su proyecto de Adobe Developer {#creating-adobe-io-project}
 

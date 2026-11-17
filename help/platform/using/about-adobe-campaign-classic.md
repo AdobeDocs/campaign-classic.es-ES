@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Customer engagement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 6a23919f31f7e55d1ae45effeb7a5e958b53226f
+source-git-commit: 368b67eeb68b0944be5db674fd6a18914dea86ad
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
@@ -111,7 +111,7 @@ Attract your customers' attention and improve response rates thanks to the advan
 
 Adobe Campaign lets you monitor and interpret the behavior of your customers by gradually enriching their data and profiles. The reporting and analysis tools let you capitalize on each new campaign, target your marketing initiatives better, and optimize their impact and return on investment. Refer to [this page](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} (Campaign v8 documentation) for more information.
 
-### Adobe Experience Cloud integrations {#adobe-experience-cloud-integrations}
+### [!DNL Adobe CX Enterprise] integrations {#adobe-experience-cloud-integrations}
 
 You can combine the delivery functionalities and advanced campaign management functionalities of Adobe Campaign with a set of solutions created to help you personalize your users' experience: Adobe Experience Manager, Adobe Analytics, Adobe Target or Adobe Experience Cloud triggers for example. You can also integrate to Adobe IMS and login to Campaign with your Adobe ID. For more on cross-solution and authentication integrations, refer to [this section](../../integrations/using/about-adobe-id.md).
 

@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5e2aa587f61d79eab6d356ea5f91bc4e0f1b24c6
+source-git-commit: 368b67eeb68b0944be5db674fd6a18914dea86ad
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1453'
 ht-degree: 16%
 ---
 # Instalación de paquetes integrados de Campaign Classic{#installing-campaign-standard-packages}
@@ -223,12 +223,12 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Integración de audiencias compartidas de Adobe Experience Cloud<br /> </td> 
-   <td> Permite intercambiar y compartir audiencias y segmentos con soluciones y aplicaciones de Adobe Experience Cloud. Requiere IMS. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Más información</a> <br /> </td> 
+   <td> Permite intercambiar y compartir audiencias y segmentos con soluciones y aplicaciones de Adobe CX Enterprise. Requiere IMS. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
    <td> Integración con Adobe Experience Cloud<br /> </td> 
-   <td> Permite importar y exportar audiencias y segmentos de distintas soluciones de Adobe Experience Cloud en Adobe Campaign. Opcional. <a href="../../integrations/using/configuring-ims.md#installing-the-package">Más información</a> </td> 
+   <td> Permite importar y exportar audiencias y segmentos de distintas soluciones de CX Enterprise en Adobe Campaign. Opcional. <a href="../../integrations/using/configuring-ims.md#installing-the-package">Más información</a> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 

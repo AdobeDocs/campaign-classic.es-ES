@@ -8,9 +8,9 @@ user-guide-description: Documentación de producto para Adobe Campaign Classic v
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 77efa1dcdb82a478e93565e84099d568f6a5f5fe
+source-git-commit: 368b67eeb68b0944be5db674fd6a18914dea86ad
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1350'
 ht-degree: 97%
 ---
 
@@ -388,7 +388,7 @@ ht-degree: 97%
     + [Configuración del acceso al informe](reporting/using/configuring-access-to-the-report.md)
     + [Acciones sobre los informes](reporting/using/actions-on-reports.md)
   + [Diseño de informes con cubos](reporting/using/ac-cubes.md)
-+ Integración con Adobe Experience Cloud {#integrating-with-adobe-experience-cloud}
++ Integrar con [!DNL Adobe CX Enterprise] {#integrating-with-adobe-experience-cloud}
   + [Introducción a las integraciones de Campaign](integrations/using/about-campaign-integrations.md)
   + [Creación de la cuenta técnica de Adobe](integrations/using/oauth-technical-account.md)
   + Activadores de Adobe Experience Cloud {#experience-triggers}
@@ -405,13 +405,13 @@ ht-degree: 97%
     + [Introducción al conector de Adobe Analytics](integrations/using/gs-aa.md)
     + [Aprovisionamiento del Conector de Adobe Analytics](integrations/using/adobe-analytics-provisioning.md)
   + Uso compartido de públicos {#audience-sharing}
-    + [Uso compartido de públicos con  [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
+    + [Uso compartido de públicos con  [!DNL Adobe CX Enterprise]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
     + [Envío de una solicitud a Adobe](integrations/using/submitting-request-to-adobe.md)
     + [Configuración de la integración de públicos compartidos en  [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
     + {hide-from-toc}[Resolución de problemas](integrations/using/integrations-troubleshooting.md)
     + [Importación y exportación de públicos](integrations/using/importing-and-exporting-audiences.md)
   + Uso compartido de recursos {#asset-sharing}
-    + [Uso compartido de recursos con  [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
+    + [Uso compartido de recursos con  [!DNL Adobe CX Enterprise]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
     + [Configuración del acceso a  [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
     + [Inserción de un recurso compartido](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}
