@@ -30,10 +30,10 @@ subfeature_v2:
     internal-label: Target integration
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
     internal-label: Audiences
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '616'
-ht-degree: 100%
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
+workflow-type: tm+mt
+source-wordcount: '610'
+ht-degree: 93%
 ---
 # Importación y exportación de públicos{#importing-and-exporting-audiences}
 
@@ -48,7 +48,7 @@ Se pueden importar públicos o segmentos de Audience Manager a Adobe Campaign me
 
    ![](assets/aam_import_audience.png)
 
-1. En la ventana que se abre, haga clic en **[!UICONTROL Select a shared audience]** para ir a la lista de públicos y segmentos compartidos disponibles en las otras soluciones de Adobe Experience Cloud.
+1. En la ventana que se abre, haga clic en **[!UICONTROL Select a shared audience]** para ir a la lista de audiencias y segmentos compartidos disponibles en las otras [!DNL Adobe CX Enterprise] soluciones.
 1. Seleccione un público y confirme. La información del público se completa automáticamente.
 
    Tenga en cuenta que para poder importar la audiencia compartida, debe asignarse a usted el producto **[!UICONTROL Audience library]** en la consola de administración y ser administrador en Audience Manager. Para obtener más información, consulte [documentación de la consola de administración](https://helpx.adobe.com/es/enterprise/admin-guide.html).
@@ -99,7 +99,7 @@ Se puede exportar un público de Adobe Campaign a Audience Manager mediante un f
 
 A continuación, se exporta el público. La actividad de guardar el público tiene dos transiciones salientes. La transición principal contiene los destinatarios exportados correctamente. La transición adicional contiene los destinatarios que no pueden asignarse a una ID de visitante o a una ID declarada.
 
-La sincronización entre soluciones tarda entre 24 y 36 horas. Después de este periodo, podrá encontrar el nuevo público y reutilizarlo en otras soluciones de Adobe Experience Cloud. Para obtener más información sobre el uso de un público compartido de Adobe Campaign consulte esta [documentación](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/create){target="_blank"}.
+La sincronización entre soluciones tarda entre 24 y 36 horas. Después de este período, puede encontrar la nueva audiencia y reutilizarla en otras [!DNL CX Enterprise] soluciones. Para obtener más información sobre el uso de un público compartido de Adobe Campaign consulte esta [documentación](https://experienceleague.adobe.com/es/docs/core-services/interface/services/audiences/create){target="_blank"}.
 
 >[!NOTE]
 >

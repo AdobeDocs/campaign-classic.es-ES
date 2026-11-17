@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 5e2aa587f61d79eab6d356ea5f91bc4e0f1b24c6
+source-git-commit: 368b67eeb68b0944be5db674fd6a18914dea86ad
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1453'
 ht-degree: 16%
 ---
 # Instalación de paquetes integrados de Campaign Classic{#installing-campaign-standard-packages}
@@ -163,7 +163,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Encuestas en línea (Gestor de encuestas)<br /> </td> 
-   <td> Crea y administra formularios en línea para agregar o modificar información de perfil, suscribirse, cancelar la suscripción o un formulario de entrada de competencia. Opcional. <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/surveys/about-surveys" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
+   <td> Crea y administra formularios en línea para agregar o modificar información de perfil, suscribirse, cancelar la suscripción o un formulario de entrada de competencia. Opcional. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -173,12 +173,12 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Gestor de respuestas<br /> </td> 
-   <td> Mide el éxito y la rentabilidad de las campañas de marketing u ofrece propuestas para todos los canales de comunicación.  Opcional. <a href="https://experienceleague.adobe.com/es/docs/campaign/automation/response-manager/about-response-manager" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
+   <td> Mide el éxito y la rentabilidad de las campañas de marketing u ofrece propuestas para todos los canales de comunicación.  Opcional. <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/response-manager/about-response-manager" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
    <td> Acceso a datos externos (acceso de datos federado)<br /> </td> 
-   <td> Proporciona la opción Acceso de datos federados (FDA) para procesar la información almacenada en una o más bases de datos externas, de modo que pueda acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.  Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html?lang=es" target="_blank">Más información</a> <br /> </td> 
+   <td> Proporciona la opción Acceso de datos federados (FDA) para procesar la información almacenada en una o más bases de datos externas, de modo que pueda acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.  Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html" target="_blank">Más información</a> <br /> </td> 
    <td> Todo<br /> </td> 
   </tr> 
   <tr> 
@@ -193,7 +193,7 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Administración de cupones<br /> </td> 
-   <td> Crea un conjunto de cupones para añadirlos a próximas ofertas de marketing. Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=es" target="_blank">Más información</a> <br /> </td> 
+   <td> Crea un conjunto de cupones para añadirlos a próximas ofertas de marketing. Opcional. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html" target="_blank">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -218,17 +218,17 @@ La siguiente tabla enumera todos los paquetes integrados de Campaign.
   </tr> 
   <tr> 
    <td> Integración de AEM<br /> </td> 
-   <td> Permite administrar el contenido de los envíos de correos electrónicos y los formularios directamente en Adobe Experience Manager para beneficiarse de las funcionalidades de edición de contenido de AEM, así como de las capacidades de envío de Adobe Campaign. <a href="https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/connect/ac-aem" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
+   <td> Permite administrar el contenido de los envíos de correos electrónicos y los formularios directamente en Adobe Experience Manager para beneficiarse de las funcionalidades de edición de contenido de AEM, así como de las capacidades de envío de Adobe Campaign. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem" target="_blank">Más información</a> (Documentación de la versión 8 de Campaign) <br /> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
    <td> Integración de audiencias compartidas de Adobe Experience Cloud<br /> </td> 
-   <td> Permite intercambiar y compartir audiencias y segmentos con soluciones y aplicaciones de Adobe Experience Cloud. Requiere IMS. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Más información</a> <br /> </td> 
+   <td> Permite intercambiar y compartir audiencias y segmentos con soluciones y aplicaciones de Adobe CX Enterprise. Requiere IMS. <a href="../../integrations/using/sharing-audiences-with-adobe-experience-cloud.md">Más información</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
    <td> Integración con Adobe Experience Cloud<br /> </td> 
-   <td> Permite importar y exportar audiencias y segmentos de distintas soluciones de Adobe Experience Cloud en Adobe Campaign. Opcional. <a href="../../integrations/using/configuring-ims.md#installing-the-package">Más información</a> </td> 
+   <td> Permite importar y exportar audiencias y segmentos de distintas soluciones de CX Enterprise en Adobe Campaign. Opcional. <a href="../../integrations/using/configuring-ims.md#installing-the-package">Más información</a> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
@@ -283,7 +283,7 @@ En el contexto de una configuración intermediaria, debe:
 
 * Instale el paquete [!DNL LINE] tanto en la instancia de Marketing como en la de MID
 
-* Configure la cuenta externa [!DNL LINE] en la instancia de mkt para que apunte a la instancia de mid cambiando el modo de envío. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} (documentación de Campaign v8)
+* Configure la cuenta externa [!DNL LINE] en la instancia de mkt para que apunte a la instancia de mid cambiando el modo de envío. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} (documentación de Campaign v8)
 
 * Configure las credenciales de [!DNL LINE] en la cuenta externa de la instancia MID.
 

@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '411'
-ht-degree: 100%
+source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 89%
 ---
 # Uso de activadores de Campaign y de Experience Cloud{#about-adobe-experience-triggers}
 
@@ -64,13 +64,13 @@ El [!DNL pipelined] proceso siempre se está ejecutando en el servidor de market
 
 ![](assets/triggers_2.png)
 
-El proceso [!DNL pipelined] inicia sesión en Experience Cloud mediante un servicio de autenticación y envía una clave privada. El servicio de autenticación devuelve un token. El token se utiliza para autenticarse al recuperar los eventos.
+El proceso [!DNL pipelined] inicia sesión en [!DNL Adobe CX Enterprise] mediante un servicio de autenticación y envía una clave privada. El servicio de autenticación devuelve un token. El token se utiliza para autenticarse al recuperar los eventos.
 
 ## Requisitos previos {#adobe-io-prerequisites}
 
 Antes de iniciar esta implementación, compruebe lo siguiente:
 
-* **Un identificador de organización** válido: el identificador de organización es el identificador único de Adobe Experience Cloud que se utiliza, por ejemplo, para el servicio VisitorID y el inicio de sesión único (SSO) de IMS. [Más información](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es)
+* un **identificador de organización** válido: el identificador de organización es el identificador único del [!DNL CX Enterprise] que se usa, por ejemplo, para el servicio VisitorID y el inicio de sesión único (SSO) de IMS. [Más información](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=es)
 * un **acceso para desarrolladores** para su organización. El administrador del sistema de la organización debe seguir el procedimiento **Adición de desarrolladores a un único perfil de producto** detallado [en esta página](https://helpx.adobe.com/es/enterprise/using/manage-developers.html) para proporcionar acceso de desarrollador al perfil `Analytics - {tenantID}` del producto de Adobe Analytics asociado a activadores.
 
 ## Pasos de implementación {#implement}
