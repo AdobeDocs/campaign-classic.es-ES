@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 1b8805ac952da110858c88fc2c252aece69ad2bf
+source-git-commit: e737155048b50f18207ab7d2f3dfd4a4b0d48557
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 98%
@@ -81,7 +81,7 @@ Esta es la razón por la que es esencial que **ejecute la versión estable más 
 
 Como usuario alojado, se beneficia automáticamente de la actualización con la última versión estable sin tener que realizar ninguna acción. Conozca más en la [parte actualización anual](#yearly-upgrade). Si migra desde una versión antigua, Adobe le recomienda que la actualice primero a esta versión.
 
-## Revisiones {#hotflixes}
+## Revisiones {#hotfixes}
 
 En casos excepcionales, Adobe puede proporcionar una revisión específica para el cliente para solucionar un problema antes de que una corrección esté disponible en una versión estándar. Las solicitudes de revisión se evalúan caso por caso y no forman parte del ciclo de lanzamiento estándar.
 
